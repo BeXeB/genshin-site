@@ -1,0 +1,2063 @@
+[
+  {
+    "id": "absolution",
+    "name": "Absolution",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/absolution.png",
+    "eliteMaterial": "fatui-operative",
+    "genericMaterial": "clockwork"
+  },
+  {
+    "id": "aquila-favonia",
+    "name": "Aquila Favonia",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/aquila-favonia.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "freedom-sworn",
+    "name": "Freedom-Sworn",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/freedom-sworn.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "haran-geppaku-futsu",
+    "name": "Haran Geppaku Futsu",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/haran-geppaku-futsu.png",
+    "eliteMaterial": "black-serpent",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "key-of-khaj-nisut",
+    "name": "Key of Khaj-Nisut",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/key-of-khaj-nisut.png",
+    "eliteMaterial": "primal-construct",
+    "genericMaterial": "eremites"
+  },
+  {
+    "id": "light-of-foliar-incision",
+    "name": "Light of Foliar Incision",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/light-of-foliar-incision.png",
+    "eliteMaterial": "consecrated-beast",
+    "genericMaterial": "eremites"
+  },
+  {
+    "id": "mistsplitter-reforged",
+    "name": "Mistsplitter Reforged",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/mistsplitter-reforged.png",
+    "eliteMaterial": "ruin-sentinel",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "primordial-jade-cutter",
+    "name": "Primordial Jade Cutter",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/primordial-jade-cutter.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "skyward-blade",
+    "name": "Skyward Blade",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/skyward-blade.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "splendor-of-tranquil-waters",
+    "name": "Splendor of Tranquil Waters",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/splendor-of-tranquil-waters.png",
+    "eliteMaterial": "tainted-hydro-phantasm",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "summit-shaper",
+    "name": "Summit Shaper",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/summit-shaper.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "uraku-misugiri",
+    "name": "Uraku Misugiri",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/uraku-misugiri.png",
+    "eliteMaterial": "ruin-sentinel",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "peak-patrol-song",
+    "name": "Peak Patrol Song",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/peak-patrol-song.png",
+    "eliteMaterial": "secret-source-automaton",
+    "genericMaterial": "saurian"
+  },
+  {
+    "id": "azurelight",
+    "name": "Azurelight",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/azurelight.png",
+    "eliteMaterial": "tenebrous-mimiflora",
+    "genericMaterial": "tribal-warrior"
+  },
+  {
+    "id": "athame-artis",
+    "name": "Athame Artis",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/athame-artis.png",
+    "eliteMaterial": "frostnight-scion",
+    "genericMaterial": "landcruiser"
+  },
+  {
+    "id": "amenoma-kageuchi",
+    "name": "Amenoma Kageuchi",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/amenoma-kageuchi.png",
+    "eliteMaterial": "ruin-sentinel",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "blackcliff-longsword",
+    "name": "Blackcliff Longsword",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/blackcliff-longsword.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "cinnabar-spindle",
+    "name": "Cinnabar Spindle",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/cinnabar-spindle.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "favonius-sword",
+    "name": "Favonius Sword",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/favonius-sword.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "festering-desire",
+    "name": "Festering Desire",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/festering-desire.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "finale-of-the-deep",
+    "name": "Finale of the Deep",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/finale-of-the-deep.png",
+    "eliteMaterial": "tainted-hydro-phantasm",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "fleuve-cendre-ferryman",
+    "name": "Fleuve Cendre Ferryman",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/fleuve-cendre-ferryman.png",
+    "eliteMaterial": "tainted-hydro-phantasm",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "flute-of-ezpitzal",
+    "name": "Flute of Ezpitzal",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/flute-of-ezpitzal.png",
+    "eliteMaterial": "golem",
+    "genericMaterial": "saurian"
+  },
+  {
+    "id": "iron-sting",
+    "name": "Iron Sting",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/iron-sting.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "kagotsurube-isshin",
+    "name": "Kagotsurube Isshin",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/kagotsurube-isshin.png",
+    "eliteMaterial": "black-serpent",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "lion's-roar",
+    "name": "Lion's Roar",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/lion's-roar.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "prototype-rancour",
+    "name": "Prototype Rancour",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/prototype-rancour.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "royal-longsword",
+    "name": "Royal Longsword",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/royal-longsword.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "sacrificial-sword",
+    "name": "Sacrificial Sword",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sacrificial-sword.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "sapwood-blade",
+    "name": "Sapwood Blade",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sapwood-blade.png",
+    "eliteMaterial": "ruin-drake",
+    "genericMaterial": "eremites"
+  },
+  {
+    "id": "sword-of-descension",
+    "name": "Sword of Descension",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sword-of-descension.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "sword-of-narzissenkreuz",
+    "name": "Sword of Narzissenkreuz",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sword-of-narzissenkreuz.png",
+    "eliteMaterial": "fatui-operative",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "the-alley-flash",
+    "name": "The Alley Flash",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/the-alley-flash.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "the-black-sword",
+    "name": "The Black Sword",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/the-black-sword.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "the-dockhand's-assistant",
+    "name": "The Dockhand's Assistant",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/the-dockhand's-assistant.png",
+    "eliteMaterial": "fatui-operative",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "the-flute",
+    "name": "The Flute",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/the-flute.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "toukabou-shigure",
+    "name": "Toukabou Shigure",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/toukabou-shigure.png",
+    "eliteMaterial": "primal-construct",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "wolf-fang",
+    "name": "Wolf-Fang",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/wolf-fang.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "xiphos'-moonlight",
+    "name": "Xiphos' Moonlight",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/xiphos'-moonlight.png",
+    "eliteMaterial": "primal-construct",
+    "genericMaterial": "eremites"
+  },
+  {
+    "id": "sturdy-bone",
+    "name": "Sturdy Bone",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sturdy-bone.png",
+    "eliteMaterial": "wayob-manifestation",
+    "genericMaterial": "tribal-warrior"
+  },
+  {
+    "id": "calamity-of-eshu",
+    "name": "Calamity of Eshu",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/calamity-of-eshu.png",
+    "eliteMaterial": "tenebrous-mimiflora",
+    "genericMaterial": "tribal-warrior"
+  },
+  {
+    "id": "serenity's-call",
+    "name": "Serenity's Call",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/serenity's-call.png",
+    "eliteMaterial": "frostnight-scion",
+    "genericMaterial": "fatui-oprichniki"
+  },
+  {
+    "id": "moonweaver's-dawn",
+    "name": "Moonweaver's Dawn",
+    "type": "sword",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/moonweaver's-dawn.png",
+    "eliteMaterial": "radiant-beast",
+    "genericMaterial": "landcruiser"
+  },
+  {
+    "id": "cool-steel",
+    "name": "Cool Steel",
+    "type": "sword",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/cool-steel.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "dark-iron-sword",
+    "name": "Dark Iron Sword",
+    "type": "sword",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/dark-iron-sword.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "fillet-blade",
+    "name": "Fillet Blade",
+    "type": "sword",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/fillet-blade.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "harbinger-of-dawn",
+    "name": "Harbinger of Dawn",
+    "type": "sword",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/harbinger-of-dawn.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "skyrider-sword",
+    "name": "Skyrider Sword",
+    "type": "sword",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/skyrider-sword.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "traveler's-handy-sword",
+    "name": "Traveler's Handy Sword",
+    "type": "sword",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/traveler's-handy-sword.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "silver-sword",
+    "name": "Silver Sword",
+    "type": "sword",
+    "rarity": "twostar",
+    "icon": "assets/images/weapons/silver-sword.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "dull-blade",
+    "name": "Dull Blade",
+    "type": "sword",
+    "rarity": "onestar",
+    "icon": "assets/images/weapons/dull-blade.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "calamity-queller",
+    "name": "Calamity Queller",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/calamity-queller.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "crimson-moon's-semblance",
+    "name": "Crimson Moon's Semblance",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/crimson-moon's-semblance.png",
+    "eliteMaterial": "golem",
+    "genericMaterial": "clockwork"
+  },
+  {
+    "id": "engulfing-lightning",
+    "name": "Engulfing Lightning",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/engulfing-lightning.png",
+    "eliteMaterial": "ruin-sentinel",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "lumidouce-elegy",
+    "name": "Lumidouce Elegy",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/lumidouce-elegy.png",
+    "eliteMaterial": "golem",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "primordial-jade-winged-spear",
+    "name": "Primordial Jade Winged-Spear",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/primordial-jade-winged-spear.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "skyward-spine",
+    "name": "Skyward Spine",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/skyward-spine.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "staff-of-homa",
+    "name": "Staff of Homa",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/staff-of-homa.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "staff-of-the-scarlet-sands",
+    "name": "Staff of the Scarlet Sands",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/staff-of-the-scarlet-sands.png",
+    "eliteMaterial": "ruin-drake",
+    "genericMaterial": "fungus"
+  },
+  {
+    "id": "vortex-vanquisher",
+    "name": "Vortex Vanquisher",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/vortex-vanquisher.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "symphonist-of-scents",
+    "name": "Symphonist of Scents",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/symphonist-of-scents.png",
+    "eliteMaterial": "tainted-hydro-phantasm",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "fractured-halo",
+    "name": "Fractured Halo",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/fractured-halo.png",
+    "eliteMaterial": "keenclaw-ancient-mountain-jackal",
+    "genericMaterial": "saurian"
+  },
+  {
+    "id": "bloodsoaked-ruins",
+    "name": "Bloodsoaked Ruins",
+    "type": "polearm",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/bloodsoaked-ruins.png",
+    "eliteMaterial": "wasteland-wild-hunt",
+    "genericMaterial": "fatui-oprichniki"
+  },
+  {
+    "id": "the-catch",
+    "name": "The Catch",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/the-catch.png",
+    "eliteMaterial": "ruin-sentinel",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "ballad-of-the-fjords",
+    "name": "Ballad of the Fjords",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/ballad-of-the-fjords.png",
+    "eliteMaterial": "hilichurl-rouge",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "blackcliff-pole",
+    "name": "Blackcliff Pole",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/blackcliff-pole.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "crescent-pike",
+    "name": "Crescent Pike",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/crescent-pike.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "deathmatch",
+    "name": "Deathmatch",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/deathmatch.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "dialogues-of-the-desert-sages",
+    "name": "Dialogues of the Desert Sages",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/dialogues-of-the-desert-sages.png",
+    "eliteMaterial": "xuanwen-beast",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "dragon's-bane",
+    "name": "Dragon's Bane",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/dragon's-bane.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "dragonspine-spear",
+    "name": "Dragonspine Spear",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/dragonspine-spear.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "favonius-lance",
+    "name": "Favonius Lance",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/favonius-lance.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "footprint-of-the-rainbow",
+    "name": "Footprint of the Rainbow",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/footprint-of-the-rainbow.png",
+    "eliteMaterial": "secret-source-automaton",
+    "genericMaterial": "tribal-warrior"
+  },
+  {
+    "id": "kitain-cross-spear",
+    "name": "Kitain Cross Spear",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/kitain-cross-spear.png",
+    "eliteMaterial": "ruin-sentinel",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "lithic-spear",
+    "name": "Lithic Spear",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/lithic-spear.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "missive-windspear",
+    "name": "Missive Windspear",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/missive-windspear.png",
+    "eliteMaterial": "black-serpent",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "moonpiercer",
+    "name": "Moonpiercer",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/moonpiercer.png",
+    "eliteMaterial": "ruin-drake",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "prospector's-drill",
+    "name": "Prospector's Drill",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/prospector's-drill.png",
+    "eliteMaterial": "fatui-operative",
+    "genericMaterial": "clockwork"
+  },
+  {
+    "id": "prototype-starglitter",
+    "name": "Prototype Starglitter",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/prototype-starglitter.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "rightful-reward",
+    "name": "Rightful Reward",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/rightful-reward.png",
+    "eliteMaterial": "breacher-primus",
+    "genericMaterial": "clockwork"
+  },
+  {
+    "id": "royal-spear",
+    "name": "Royal Spear",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/royal-spear.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "wavebreaker's-fin",
+    "name": "Wavebreaker's Fin",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/wavebreaker's-fin.png",
+    "eliteMaterial": "riftwolf",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "mountain-bracing-bolt",
+    "name": "Mountain-Bracing Bolt",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/mountain-bracing-bolt.png",
+    "eliteMaterial": "avatar-of-lava",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "tamayuratei-no-ohanashi",
+    "name": "Tamayuratei no Ohanashi",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/tamayuratei-no-ohanashi.png",
+    "eliteMaterial": "tenebrous-mimiflora",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "prospector's-shovel",
+    "name": "Prospector's Shovel",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/prospector's-shovel.png",
+    "eliteMaterial": "wasteland-wild-hunt",
+    "genericMaterial": "landcruiser"
+  },
+  {
+    "id": "sacrificer's-staff",
+    "name": "Sacrificer's Staff",
+    "type": "polearm",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sacrificer's-staff.png",
+    "eliteMaterial": "wasteland-wild-hunt",
+    "genericMaterial": "landcruiser"
+  },
+  {
+    "id": "black-tassel",
+    "name": "Black Tassel",
+    "type": "polearm",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/black-tassel.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "halberd",
+    "name": "Halberd",
+    "type": "polearm",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/halberd.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "white-tassel",
+    "name": "White Tassel",
+    "type": "polearm",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/white-tassel.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "iron-point",
+    "name": "Iron Point",
+    "type": "polearm",
+    "rarity": "twostar",
+    "icon": "assets/images/weapons/iron-point.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "beginner's-protector",
+    "name": "Beginner's Protector",
+    "type": "polearm",
+    "rarity": "onestar",
+    "icon": "assets/images/weapons/beginner's-protector.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "beacon-of-the-reed-sea",
+    "name": "Beacon of the Reed Sea",
+    "type": "claymore",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/beacon-of-the-reed-sea.png",
+    "eliteMaterial": "consecrated-beast",
+    "genericMaterial": "eremites"
+  },
+  {
+    "id": "fang-of-the-mountain-king",
+    "name": "Fang of the Mountain King",
+    "type": "claymore",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/fang-of-the-mountain-king.png",
+    "eliteMaterial": "avatar-of-lava",
+    "genericMaterial": "tribal-warrior"
+  },
+  {
+    "id": "redhorn-stonethresher",
+    "name": "Redhorn Stonethresher",
+    "type": "claymore",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/redhorn-stonethresher.png",
+    "eliteMaterial": "riftwolf",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "skyward-pride",
+    "name": "Skyward Pride",
+    "type": "claymore",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/skyward-pride.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "song-of-broken-pines",
+    "name": "Song of Broken Pines",
+    "type": "claymore",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/song-of-broken-pines.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "the-unforged",
+    "name": "The Unforged",
+    "type": "claymore",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/the-unforged.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "verdict",
+    "name": "Verdict",
+    "type": "claymore",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/verdict.png",
+    "eliteMaterial": "breacher-primus",
+    "genericMaterial": "clockwork"
+  },
+  {
+    "id": "wolf's-gravestone",
+    "name": "Wolf's Gravestone",
+    "type": "claymore",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/wolf's-gravestone.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "a-thousand-blazing-suns",
+    "name": "A Thousand Blazing Suns",
+    "type": "claymore",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/a-thousand-blazing-suns.png",
+    "eliteMaterial": "secret-source-automaton",
+    "genericMaterial": "saurian"
+  },
+  {
+    "id": "ultimate-overlord's-mega-magic-sword",
+    "name": "Ultimate Overlord's Mega Magic Sword",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/ultimate-overlord's-mega-magic-sword.png",
+    "eliteMaterial": "fatui-operative",
+    "genericMaterial": "clockwork"
+  },
+  {
+    "id": "akuoumaru",
+    "name": "Akuoumaru",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/akuoumaru.png",
+    "eliteMaterial": "riftwolf",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "blackcliff-slasher",
+    "name": "Blackcliff Slasher",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/blackcliff-slasher.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "earth-shaker",
+    "name": "Earth Shaker",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/earth-shaker.png",
+    "eliteMaterial": "avatar-of-lava",
+    "genericMaterial": "tribal-warrior"
+  },
+  {
+    "id": "favonius-greatsword",
+    "name": "Favonius Greatsword",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/favonius-greatsword.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "forest-regalia",
+    "name": "Forest Regalia",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/forest-regalia.png",
+    "eliteMaterial": "ruin-drake",
+    "genericMaterial": "eremites"
+  },
+  {
+    "id": "katsuragikiri-nagamasa",
+    "name": "Katsuragikiri Nagamasa",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/katsuragikiri-nagamasa.png",
+    "eliteMaterial": "ruin-sentinel",
+    "genericMaterial": "nobushi"
+  },
+  {
+    "id": "lithic-blade",
+    "name": "Lithic Blade",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/lithic-blade.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "luxurious-sea-lord",
+    "name": "Luxurious Sea-Lord",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/luxurious-sea-lord.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "mailed-flower",
+    "name": "Mailed Flower",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/mailed-flower.png",
+    "eliteMaterial": "consecrated-beast",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "makhaira-aquamarine",
+    "name": "Makhaira Aquamarine",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/makhaira-aquamarine.png",
+    "eliteMaterial": "ruin-drake",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "portable-power-saw",
+    "name": "Portable Power Saw",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/portable-power-saw.png",
+    "eliteMaterial": "breacher-primus",
+    "genericMaterial": "clockwork"
+  },
+  {
+    "id": "prototype-archaic",
+    "name": "Prototype Archaic",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/prototype-archaic.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "rainslasher",
+    "name": "Rainslasher",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/rainslasher.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "royal-greatsword",
+    "name": "Royal Greatsword",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/royal-greatsword.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "sacrificial-greatsword",
+    "name": "Sacrificial Greatsword",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sacrificial-greatsword.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "serpent-spine",
+    "name": "Serpent Spine",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/serpent-spine.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "snow-tombed-starsilver",
+    "name": "Snow-Tombed Starsilver",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/snow-tombed-starsilver.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "talking-stick",
+    "name": "Talking Stick",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/talking-stick.png",
+    "eliteMaterial": "consecrated-beast",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "the-bell",
+    "name": "The Bell",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/the-bell.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "tidal-shadow",
+    "name": "Tidal Shadow",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/tidal-shadow.png",
+    "eliteMaterial": "breacher-primus",
+    "genericMaterial": "clockwork"
+  },
+  {
+    "id": "whiteblind",
+    "name": "Whiteblind",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/whiteblind.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "fruitful-hook",
+    "name": "Fruitful Hook",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/fruitful-hook.png",
+    "eliteMaterial": "secret-source-automaton",
+    "genericMaterial": "saurian"
+  },
+  {
+    "id": "flame-forged-insight",
+    "name": "Flame-Forged Insight",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/flame-forged-insight.png",
+    "eliteMaterial": "keenclaw-ancient-mountain-jackal",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "master-key",
+    "name": "Master Key",
+    "type": "claymore",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/master-key.png",
+    "eliteMaterial": "radiant-beast",
+    "genericMaterial": "landcruiser"
+  },
+  {
+    "id": "bloodtainted-greatsword",
+    "name": "Bloodtainted Greatsword",
+    "type": "claymore",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/bloodtainted-greatsword.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "debate-club",
+    "name": "Debate Club",
+    "type": "claymore",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/debate-club.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "ferrous-shadow",
+    "name": "Ferrous Shadow",
+    "type": "claymore",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/ferrous-shadow.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "skyrider-greatsword",
+    "name": "Skyrider Greatsword",
+    "type": "claymore",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/skyrider-greatsword.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "white-iron-greatsword",
+    "name": "White Iron Greatsword",
+    "type": "claymore",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/white-iron-greatsword.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "old-merc's-pal",
+    "name": "Old Merc's Pal",
+    "type": "claymore",
+    "rarity": "twostar",
+    "icon": "assets/images/weapons/old-merc's-pal.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "waster-greatsword",
+    "name": "Waster Greatsword",
+    "type": "claymore",
+    "rarity": "onestar",
+    "icon": "assets/images/weapons/waster-greatsword.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "a-thousand-floating-dreams",
+    "name": "A Thousand Floating Dreams",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/a-thousand-floating-dreams.png",
+    "eliteMaterial": "primal-construct",
+    "genericMaterial": "fungus"
+  },
+  {
+    "id": "cashflow-supervision",
+    "name": "Cashflow Supervision",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/cashflow-supervision.png",
+    "eliteMaterial": "fatui-operative",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "crane's-echoing-call",
+    "name": "Crane's Echoing Call",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/crane's-echoing-call.png",
+    "eliteMaterial": "xuanwen-beast",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "everlasting-moonglow",
+    "name": "Everlasting Moonglow",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/everlasting-moonglow.png",
+    "eliteMaterial": "mirror-maiden",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "jadefall's-splendor",
+    "name": "Jadefall's Splendor",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/jadefall's-splendor.png",
+    "eliteMaterial": "hilichurl-rouge",
+    "genericMaterial": "fungus"
+  },
+  {
+    "id": "kagura's-verity",
+    "name": "Kagura's Verity",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/kagura's-verity.png",
+    "eliteMaterial": "riftwolf",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "lost-prayer-to-the-sacred-winds",
+    "name": "Lost Prayer to the Sacred Winds",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/lost-prayer-to-the-sacred-winds.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "memory-of-dust",
+    "name": "Memory of Dust",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/memory-of-dust.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "skyward-atlas",
+    "name": "Skyward Atlas",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/skyward-atlas.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "surf's-up",
+    "name": "Surf's Up",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/surf's-up.png",
+    "eliteMaterial": "wayob-manifestation",
+    "genericMaterial": "saurian"
+  },
+  {
+    "id": "tome-of-the-eternal-flow",
+    "name": "Tome of the Eternal Flow",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/tome-of-the-eternal-flow.png",
+    "eliteMaterial": "breacher-primus",
+    "genericMaterial": "clockwork"
+  },
+  {
+    "id": "tulaytullah's-remembrance",
+    "name": "Tulaytullah's Remembrance",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/tulaytullah's-remembrance.png",
+    "eliteMaterial": "state-shifted-fungus",
+    "genericMaterial": "fungus"
+  },
+  {
+    "id": "starcaller's-watch",
+    "name": "Starcaller's Watch",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/starcaller's-watch.png",
+    "eliteMaterial": "wayob-manifestation",
+    "genericMaterial": "tribal-warrior"
+  },
+  {
+    "id": "new-year's-morning-hibernation",
+    "name": "New Year's Morning Hibernation",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/new-year's-morning-hibernation.png",
+    "eliteMaterial": "avatar-of-lava",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "vivid-notions",
+    "name": "Vivid Notions",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/vivid-notions.png",
+    "eliteMaterial": "keenclaw-ancient-mountain-jackal",
+    "genericMaterial": "saurian"
+  },
+  {
+    "id": "nightweaver's-looking-glass",
+    "name": "Nightweaver's Looking Glass",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/nightweaver's-looking-glass.png",
+    "eliteMaterial": "frostnight-scion",
+    "genericMaterial": "landcruiser"
+  },
+  {
+    "id": "reliquary-of-truth",
+    "name": "Reliquary of Truth",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/reliquary-of-truth.png",
+    "eliteMaterial": "radiant-beast",
+    "genericMaterial": "fungus"
+  },
+  {
+    "id": "ash-graven-drinking-horn",
+    "name": "Ash-Graven Drinking Horn",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/ash-graven-drinking-horn.png",
+    "eliteMaterial": "secret-source-automaton",
+    "genericMaterial": "saurian"
+  },
+  {
+    "id": "ballad-of-the-boundless-blue",
+    "name": "Ballad of the Boundless Blue",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/ballad-of-the-boundless-blue.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "blackcliff-agate",
+    "name": "Blackcliff Agate",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/blackcliff-agate.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "dodoco-tales",
+    "name": "Dodoco Tales",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/dodoco-tales.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "eye-of-perception",
+    "name": "Eye of Perception",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/eye-of-perception.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "favonius-codex",
+    "name": "Favonius Codex",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/favonius-codex.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "flowing-purity",
+    "name": "Flowing Purity",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/flowing-purity.png",
+    "eliteMaterial": "breacher-primus",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "frostbearer",
+    "name": "Frostbearer",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/frostbearer.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "fruit-of-fulfillment",
+    "name": "Fruit of Fulfillment",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/fruit-of-fulfillment.png",
+    "eliteMaterial": "black-serpent",
+    "genericMaterial": "fungus"
+  },
+  {
+    "id": "hakushin-ring",
+    "name": "Hakushin Ring",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/hakushin-ring.png",
+    "eliteMaterial": "mirror-maiden",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "mappa-mare",
+    "name": "Mappa Mare",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/mappa-mare.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "oathsworn-eye",
+    "name": "Oathsworn Eye",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/oathsworn-eye.png",
+    "eliteMaterial": "riftwolf",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "prototype-amber",
+    "name": "Prototype Amber",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/prototype-amber.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "ring-of-yaxche",
+    "name": "Ring of Yaxche",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/ring-of-yaxche.png",
+    "eliteMaterial": "wayob-manifestation",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "royal-grimoire",
+    "name": "Royal Grimoire",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/royal-grimoire.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "sacrificial-fragments",
+    "name": "Sacrificial Fragments",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sacrificial-fragments.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "sacrificial-jade",
+    "name": "Sacrificial Jade",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sacrificial-jade.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "solar-pearl",
+    "name": "Solar Pearl",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/solar-pearl.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "the-widsith",
+    "name": "The Widsith",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/the-widsith.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "wandering-evenstar",
+    "name": "Wandering Evenstar",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/wandering-evenstar.png",
+    "eliteMaterial": "state-shifted-fungus",
+    "genericMaterial": "fungus"
+  },
+  {
+    "id": "wine-and-song",
+    "name": "Wine and Song",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/wine-and-song.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "waveriding-whirl",
+    "name": "Waveriding Whirl",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/waveriding-whirl.png",
+    "eliteMaterial": "wayob-manifestation",
+    "genericMaterial": "saurian"
+  },
+  {
+    "id": "etherlight-spindlelute",
+    "name": "Etherlight Spindlelute",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/etherlight-spindlelute.png",
+    "eliteMaterial": "radiant-beast",
+    "genericMaterial": "fatui-oprichniki"
+  },
+  {
+    "id": "blackmarrow-lantern",
+    "name": "Blackmarrow Lantern",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/blackmarrow-lantern.png",
+    "eliteMaterial": "frostnight-scion",
+    "genericMaterial": "fatui-oprichniki"
+  },
+  {
+    "id": "froststar",
+    "name": "Froststar",
+    "type": "catalyst",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/froststar.png",
+    "eliteMaterial": "frostnight-scion",
+    "genericMaterial": "fatui-oprichniki"
+  },
+  {
+    "id": "emerald-orb",
+    "name": "Emerald Orb",
+    "type": "catalyst",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/emerald-orb.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "magic-guide",
+    "name": "Magic Guide",
+    "type": "catalyst",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/magic-guide.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "otherworldly-story",
+    "name": "Otherworldly Story",
+    "type": "catalyst",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/otherworldly-story.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "thrilling-tales-of-dragon-slayers",
+    "name": "Thrilling Tales of Dragon Slayers",
+    "type": "catalyst",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/thrilling-tales-of-dragon-slayers.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "twin-nephrite",
+    "name": "Twin Nephrite",
+    "type": "catalyst",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/twin-nephrite.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "pocket-grimoire",
+    "name": "Pocket Grimoire",
+    "type": "catalyst",
+    "rarity": "twostar",
+    "icon": "assets/images/weapons/pocket-grimoire.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "apprentice's-notes",
+    "name": "Apprentice's Notes",
+    "type": "catalyst",
+    "rarity": "onestar",
+    "icon": "assets/images/weapons/apprentice's-notes.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "amos'-bow",
+    "name": "Amos' Bow",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/amos'-bow.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "aqua-simulacra",
+    "name": "Aqua Simulacra",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/aqua-simulacra.png",
+    "eliteMaterial": "black-serpent",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "elegy-for-the-end",
+    "name": "Elegy for the End",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/elegy-for-the-end.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "hunter's-path",
+    "name": "Hunter's Path",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/hunter's-path.png",
+    "eliteMaterial": "state-shifted-fungus",
+    "genericMaterial": "eremites"
+  },
+  {
+    "id": "polar-star",
+    "name": "Polar Star",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/polar-star.png",
+    "eliteMaterial": "riftwolf",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "silvershower-heartstrings",
+    "name": "Silvershower Heartstrings",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/silvershower-heartstrings.png",
+    "eliteMaterial": "xuanwen-beast",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "skyward-harp",
+    "name": "Skyward Harp",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/skyward-harp.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "the-first-great-magic",
+    "name": "The First Great Magic",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/the-first-great-magic.png",
+    "eliteMaterial": "tainted-hydro-phantasm",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "thundering-pulse",
+    "name": "Thundering Pulse",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/thundering-pulse.png",
+    "eliteMaterial": "mirror-maiden",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "astral-vulture\u2019s-crimson-plumage",
+    "name": "Astral Vulture\u2019s Crimson Plumage",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/astral-vulture\u2019s-crimson-plumage.png",
+    "eliteMaterial": "tenebrous-mimiflora",
+    "genericMaterial": "tribal-warrior"
+  },
+  {
+    "id": "the-daybreak-chronicles",
+    "name": "The Daybreak Chronicles",
+    "type": "bow",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/the-daybreak-chronicles.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "alley-hunter",
+    "name": "Alley Hunter",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/alley-hunter.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "blackcliff-warbow",
+    "name": "Blackcliff Warbow",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/blackcliff-warbow.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "chain-breaker",
+    "name": "Chain Breaker",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/chain-breaker.png",
+    "eliteMaterial": "xuanwen-beast",
+    "genericMaterial": "saurian"
+  },
+  {
+    "id": "cloudforged",
+    "name": "Cloudforged",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/cloudforged.png",
+    "eliteMaterial": "golem",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "compound-bow",
+    "name": "Compound Bow",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/compound-bow.png",
+    "eliteMaterial": "vishap",
+    "genericMaterial": "fatui-skirmisher"
+  },
+  {
+    "id": "end-of-the-line",
+    "name": "End of the Line",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/end-of-the-line.png",
+    "eliteMaterial": "state-shifted-fungus",
+    "genericMaterial": "fungus"
+  },
+  {
+    "id": "fading-twilight",
+    "name": "Fading Twilight",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/fading-twilight.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "favonius-warbow",
+    "name": "Favonius Warbow",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/favonius-warbow.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "hamayumi",
+    "name": "Hamayumi",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/hamayumi.png",
+    "eliteMaterial": "mirror-maiden",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "ibis-piercer",
+    "name": "Ibis Piercer",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/ibis-piercer.png",
+    "eliteMaterial": "hilichurl-rouge",
+    "genericMaterial": "eremites"
+  },
+  {
+    "id": "king's-squire",
+    "name": "King's Squire",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/king's-squire.png",
+    "eliteMaterial": "state-shifted-fungus",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "mitternachts-waltz",
+    "name": "Mitternachts Waltz",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/mitternachts-waltz.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "mouun's-moon",
+    "name": "Mouun's Moon",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/mouun's-moon.png",
+    "eliteMaterial": "mirror-maiden",
+    "genericMaterial": "specter"
+  },
+  {
+    "id": "predator",
+    "name": "Predator",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/predator.png",
+    "eliteMaterial": "mirror-maiden",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "prototype-crescent",
+    "name": "Prototype Crescent",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/prototype-crescent.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "range-gauge",
+    "name": "Range Gauge",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/range-gauge.png",
+    "eliteMaterial": "tainted-hydro-phantasm",
+    "genericMaterial": "aberrant"
+  },
+  {
+    "id": "royal-bow",
+    "name": "Royal Bow",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/royal-bow.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/rust.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "sacrificial-bow",
+    "name": "Sacrificial Bow",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sacrificial-bow.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "scion-of-the-blazing-sun",
+    "name": "Scion of the Blazing Sun",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/scion-of-the-blazing-sun.png",
+    "eliteMaterial": "hilichurl-rouge",
+    "genericMaterial": "fungus"
+  },
+  {
+    "id": "song-of-stillness",
+    "name": "Song of Stillness",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/song-of-stillness.png",
+    "eliteMaterial": "tainted-hydro-phantasm",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "the-stringless",
+    "name": "The Stringless",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/the-stringless.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "the-viridescent-hunt",
+    "name": "The Viridescent Hunt",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/the-viridescent-hunt.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "windblume-ode",
+    "name": "Windblume Ode",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/windblume-ode.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "whopperflower"
+  },
+  {
+    "id": "flower-wreathed-feathers",
+    "name": "Flower-Wreathed Feathers",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/flower-wreathed-feathers.png",
+    "eliteMaterial": "avatar-of-lava",
+    "genericMaterial": "tribal-warrior"
+  },
+  {
+    "id": "sequence-of-solitude",
+    "name": "Sequence of Solitude",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/sequence-of-solitude.png",
+    "eliteMaterial": "keenclaw-ancient-mountain-jackal",
+    "genericMaterial": "clockwork"
+  },
+  {
+    "id": "snare-hook",
+    "name": "Snare Hook",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/snare-hook.png",
+    "eliteMaterial": "wasteland-wild-hunt",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "rainbow-serpent's-rain-bow",
+    "name": "Rainbow Serpent's Rain Bow",
+    "type": "bow",
+    "rarity": "fourstar",
+    "icon": "assets/images/weapons/rainbow-serpent's-rain-bow.png",
+    "eliteMaterial": "tenebrous-mimiflora",
+    "genericMaterial": "fatui-oprichniki"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "type": "bow",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/messenger.png",
+    "eliteMaterial": "fatui-cicin-mage",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "raven-bow",
+    "name": "Raven Bow",
+    "type": "bow",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/raven-bow.png",
+    "eliteMaterial": "mitachurl",
+    "genericMaterial": "hilichirl-shooter"
+  },
+  {
+    "id": "recurve-bow",
+    "name": "Recurve Bow",
+    "type": "bow",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/recurve-bow.png",
+    "eliteMaterial": "ruin-machine",
+    "genericMaterial": "samachurl"
+  },
+  {
+    "id": "sharpshooter's-oath",
+    "name": "Sharpshooter's Oath",
+    "type": "bow",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/sharpshooter's-oath.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "slime"
+  },
+  {
+    "id": "slingshot",
+    "name": "Slingshot",
+    "type": "bow",
+    "rarity": "threestar",
+    "icon": "assets/images/weapons/slingshot.png",
+    "eliteMaterial": "fatui-pyro-agent",
+    "genericMaterial": "hilichurl"
+  },
+  {
+    "id": "seasoned-hunter's-bow",
+    "name": "Seasoned Hunter's Bow",
+    "type": "bow",
+    "rarity": "twostar",
+    "icon": "assets/images/weapons/seasoned-hunter's-bow.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "hunter's-bow",
+    "name": "Hunter's Bow",
+    "type": "bow",
+    "rarity": "onestar",
+    "icon": "assets/images/weapons/hunter's-bow.png",
+    "eliteMaterial": "abyss-mage",
+    "genericMaterial": "treasure-hoarder"
+  },
+  {
+    "id": "lightbearing-moonshard",
+    "name": "Lightbearing Moonshard",
+    "type": "sword",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/lightbearing-moonshard.png",
+    "eliteMaterial": "wasteland-wild-hunt",
+    "genericMaterial": "landcruiser"
+  },
+  {
+    "id": "nocturne's-curtain-call",
+    "name": "Nocturne's Curtain Call ",
+    "type": "catalyst",
+    "rarity": "fivestar",
+    "icon": "assets/images/weapons/nocturne's-curtain-call.png",
+    "eliteMaterial": "angler-of-hidden-depths",
+    "genericMaterial": "fatui-oprichniki"
+  }
+]

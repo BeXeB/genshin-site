@@ -1,0 +1,611 @@
+[
+  {
+    "id": "mitachurl-twostar",
+    "name": "Heavy Horn",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/mitachurl-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "mitachurl-threestar",
+    "name": "Black Bronze Horn",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/mitachurl-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "mitachurl-fourstar",
+    "name": "Black Crystal Horn",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/mitachurl-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "abyss-mage-twostar",
+    "name": "Dead Ley Line Branch",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/abyss-mage-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "abyss-mage-threestar",
+    "name": "Dead Ley Line Leaves",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/abyss-mage-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "abyss-mage-fourstar",
+    "name": "Ley Line Sprout",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/abyss-mage-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "ruin-machine-twostar",
+    "name": "Chaos Device",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/ruin-machine-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "ruin-machine-threestar",
+    "name": "Chaos Circuit",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/ruin-machine-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "ruin-machine-fourstar",
+    "name": "Chaos Core",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/ruin-machine-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "cicin-mage-twostar",
+    "name": "Mist Grass Pollen",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/cicin-mage-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "cicin-mage-threestar",
+    "name": "Mist Grass",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/cicin-mage-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "cicin-mage-fourstar",
+    "name": "Mist Grass Wick",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/cicin-mage-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "pyro-agent-twostar",
+    "name": "Hunter's Sacrificial Knife",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/pyro-agent-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "pyro-agent-threestar",
+    "name": "Agent's Sacrificial Knife",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/pyro-agent-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "pyro-agent-fourstar",
+    "name": "Inspector's Sacrificial Knife",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/pyro-agent-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "vishap-twostar",
+    "name": "Fragile Bone Shard",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/vishap-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "vishap-threestar",
+    "name": "Sturdy Bone Shard",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/vishap-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "vishap-fourstar",
+    "name": "Fossilized Bone Shard",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/vishap-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "ruin-sentinel-twostar",
+    "name": "Chaos Gear",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/ruin-sentinel-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "ruin-sentinel-threestar",
+    "name": "Chaos Axis",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/ruin-sentinel-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "ruin-sentinel-fourstar",
+    "name": "Chaos Oculus",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/ruin-sentinel-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "mirror-maiden-twostar",
+    "name": "Dismal Prism",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/mirror-maiden-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "mirror-maiden-threestar",
+    "name": "Crystal Prism",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/mirror-maiden-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "mirror-maiden-fourstar",
+    "name": "Polarizing Prism",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/mirror-maiden-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "rifthound-twostar",
+    "name": "Concealed Claw",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/rifthound-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "rifthound-threestar",
+    "name": "Concealed Unguis",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/rifthound-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "rifthound-fourstar",
+    "name": "Concealed Talon",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/rifthound-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "black-serpents-twostar",
+    "name": "Gloomy Statuette",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/black-serpents-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "black-serpents-threestar",
+    "name": "Dark Statuette",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/black-serpents-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "black-serpents-fourstar",
+    "name": "Deathly Statuette",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/black-serpents-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "state-shifted-fungus-twostar",
+    "name": "Inactivated Fungal Nucleus",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/state-shifted-fungus-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "state-shifted-fungus-threestar",
+    "name": "Dormant Fungal Nucleus",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/state-shifted-fungus-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "state-shifted-fungus-fourstar",
+    "name": "Robust Fungal Nucleus",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/state-shifted-fungus-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "ruin-drake-twostar",
+    "name": "Chaos Storage",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/ruin-drake-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "ruin-drake-threestar",
+    "name": "Chaos Module",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/ruin-drake-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "ruin-drake-fourstar",
+    "name": "Chaos Bolt",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/ruin-drake-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "primal-construct-twostar",
+    "name": "Damaged Prism",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/primal-construct-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "primal-construct-threestar",
+    "name": "Turbid Prism",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/primal-construct-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "primal-construct-fourstar",
+    "name": "Radiant Prism",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/primal-construct-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "consecrated-beast-twostar",
+    "name": "Desiccated Shell",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/consecrated-beast-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "consecrated-beast-threestar",
+    "name": "Sturdy Shell",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/consecrated-beast-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "consecrated-beast-fourstar",
+    "name": "Marked Shell",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/consecrated-beast-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "hilichurl-rogue-twostar",
+    "name": "A Flower Yet to Bloom",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/hilichurl-rogue-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "hilichurl-rogue-threestar",
+    "name": "Treasured Flower",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/hilichurl-rogue-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "hilichurl-rogue-fourstar",
+    "name": "Wanderer's Blooming Flower",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/hilichurl-rogue-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "hydro-phantasm-twostar",
+    "name": "Drop of Tainted Water",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/hydro-phantasm-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "hydro-phantasm-threestar",
+    "name": "Scoop of Tainted Water",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/hydro-phantasm-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "hydro-phantasm-fourstar",
+    "name": "Newborn Tainted Hydro Phantasm",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/hydro-phantasm-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "breacher-primus-twostar",
+    "name": "Rift Core",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/breacher-primus-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "breacher-primus-threestar",
+    "name": "Foreign Synapse",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/breacher-primus-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "breacher-primus-fourstar",
+    "name": "Alien Life Core",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/breacher-primus-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "operative-twostar",
+    "name": "Old Operative's Pocket Watch",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/operative-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "operative-threestar",
+    "name": "Operative's Standard Pocket Watch",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/operative-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "operative-fourstar",
+    "name": "Operative's Constancy",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/operative-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "xuanwen-beast-twostar",
+    "name": "Feathery Fin",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/xuanwen-beast-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "xuanwen-beast-threestar",
+    "name": "Lunar Fin",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/xuanwen-beast-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "xuanwen-beast-fourstar",
+    "name": "Chasmlight Fin",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/xuanwen-beast-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "golem-twostar",
+    "name": "Ruined Hilt",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/golem-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "golem-threestar",
+    "name": "Splintered Hilt",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/golem-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "golem-fourstar",
+    "name": "Still-Smoldering Hilt",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/golem-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "avatar-twostar",
+    "name": "Ignited Stone",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/avatar-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "avatar-threestar",
+    "name": "Ignited Seed of Life",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/avatar-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "avatar-fourstar",
+    "name": "Ignited Seeing Eye",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/avatar-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "wayob-twostar",
+    "name": "Shard of a Shattered Will",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/wayob-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "wayob-threestar",
+    "name": "Locus of a Clear Will",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/wayob-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "wayob-fourstar",
+    "name": "Sigil of a Striding Will",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/wayob-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "secret-source-twostar",
+    "name": "Axis of the Secret Source",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/secret-source-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "secret-source-threestar",
+    "name": "Sheath of the Secret Source",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/secret-source-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "secret-source-fourstar",
+    "name": "Heart of the Secret Source",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/secret-source-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "mimesis-twostar",
+    "name": "Refractive Bud",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/mimesis-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "mimesis-threestar",
+    "name": "Bewildering Broadleaf",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/mimesis-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "mimesis-fourstar",
+    "name": "Illusory Leafcoil",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/mimesis-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "weasel-twostar",
+    "name": "Cold-Cracked Shellshard",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/weasel-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "weasel-threestar",
+    "name": "Warm Back-Shell",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/weasel-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "weasel-fourstar",
+    "name": "Blazing Prismshell",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/weasel-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "frostnight-scion-twostar",
+    "name": "Frostnight's Glimmer",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/frostnight-scion-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "frostnight-scion-threestar",
+    "name": "Frostnight's Glow",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/frostnight-scion-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "frostnight-scion-fourstar",
+    "name": "Frostnight's Glory",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/frostnight-scion-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "radiant-beast-twostar",
+    "name": "Lightless Bone",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/radiant-beast-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "radiant-beast-threestar",
+    "name": "Glowing Remains",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/radiant-beast-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "radiant-beast-fourstar",
+    "name": "Radiant Exoskeleton",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/radiant-beast-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "wild-hunt-twostar",
+    "name": "Mistshroud Manifestation",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/wild-hunt-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "wild-hunt-threestar",
+    "name": "Mistshroud Plate",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/wild-hunt-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "wild-hunt-fourstar",
+    "name": "Mistshroud Helmet",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/wild-hunt-fourstar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "fisher-of-hidden-depths-twostar",
+    "name": "Fractured Eye of the Deep Shadow",
+    "rarity": "twostar",
+    "icon": "assets/images/materials/fisher-of-hidden-depths-twostar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "fisher-of-hidden-depths-threestar",
+    "name": "Aberrant Core of the Deep Shadow",
+    "rarity": "threestar",
+    "icon": "assets/images/materials/fisher-of-hidden-depths-threestar.png",
+    "type": "elite-material"
+  },
+  {
+    "id": "fisher-of-hidden-depths-fourstar",
+    "name": "Hooked Beak of the Deep Shadow",
+    "rarity": "fourstar",
+    "icon": "assets/images/materials/fisher-of-hidden-depths-fourstar.png",
+    "type": "elite-material"
+  }
+]

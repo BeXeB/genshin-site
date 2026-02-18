@@ -1,0 +1,282 @@
+[
+  {
+    "id": "dvalin-1",
+    "name": "Dvalin's Plume",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/dvalin-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "dvalin-2",
+    "name": "Dvalin's Claw",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/dvalin-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "dvalin-3",
+    "name": "Dvalin's Sigh",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/dvalin-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "andrius-1",
+    "name": "Tail of Boreas",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/andrius-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "andrius-2",
+    "name": "Ring of Boreas",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/andrius-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "andrius-3",
+    "name": "Spirit Locket of Boreas",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/andrius-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "childe-1",
+    "name": "Tusk of Monoceros Caeli",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/childe-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "childe-2",
+    "name": "Shard of a Foul Legacy",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/childe-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "childe-3",
+    "name": "Shadow of the Warrior",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/childe-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "azdaha-1",
+    "name": "Dragon Lord's Crown",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/azdaha-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "azdaha-2",
+    "name": "Bloodjade Branch",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/azdaha-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "azdaha-3",
+    "name": "Gilded Scale",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/azdaha-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "signora-1",
+    "name": "Molten Moment",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/signora-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "signora-2",
+    "name": "Hellfire Butterfly",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/signora-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "signora-3",
+    "name": "Ashen Heart",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/signora-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "raiden-1",
+    "name": "Mudra of the Malefic General",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/raiden-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "raiden-2",
+    "name": "Tears of the Calamitous God",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/raiden-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "raiden-3",
+    "name": "The Meaning of Aeons",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/raiden-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "scara-1",
+    "name": "Puppet Strings",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/scara-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "scara-2",
+    "name": "Mirror of Mushin",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/scara-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "scara-3",
+    "name": "Daka's Bell",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/scara-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "apep-1",
+    "name": "Worldspan Fern",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/apep-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "apep-2",
+    "name": "Primordial Greenbloom",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/apep-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "apep-3",
+    "name": "Everamber",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/apep-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "whale-1",
+    "name": "Lightless Silk String",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/whale-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "whale-2",
+    "name": "Lightless Eye of the Maelstrom",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/whale-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "whale-3",
+    "name": "Lightless Mass",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/whale-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "arle-1",
+    "name": "Fading Candle",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/arle-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "arle-2",
+    "name": "Silken Feather",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/arle-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "arle-3",
+    "name": "Denial and Judgment",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/arle-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "dragon-1",
+    "name": "Eroded Horn",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/dragon-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "dragon-2",
+    "name": "Eroded Sunfire",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/dragon-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "dragon-3",
+    "name": "Eroded Scale-Feather",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/dragon-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "pmc-weekly",
+    "name": "The Cornerstone of Stars and Flames",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/pmc-weekly.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "chess-1",
+    "name": "Ascended Sample: Knight",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/chess-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "chess-2",
+    "name": "Ascended Sample: Rook",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/chess-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "chess-3",
+    "name": "Ascended Sample: Queen",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/chess-3.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "dottore-1",
+    "name": "Mask of the Virtuous Doctor",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/dottore-1.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "dottore-2",
+    "name": "Madman's Restraint",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/dottore-2.png",
+    "type": "weekly-material"
+  },
+  {
+    "id": "dottore-3",
+    "name": "Elixir of the Heretic",
+    "rarity": "fivestar",
+    "icon": "assets/images/materials/dottore-3.png",
+    "type": "weekly-material"
+  }
+]
