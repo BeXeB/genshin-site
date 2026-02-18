@@ -1,0 +1,551 @@
+{
+  "talentMaterials": [
+    {
+      "id": "freedom",
+      "rarities": {
+        "twostar": "freedom-twostar",
+        "threestar": "freedom-threestar",
+        "fourstar": "freedom-fourstar"
+      }
+    },
+    {
+      "id": "resistance",
+      "rarities": {
+        "twostar": "resistance-twostar",
+        "threestar": "resistance-threestar",
+        "fourstar": "resistance-fourstar"
+      }
+    },
+    {
+      "id": "ballad",
+      "rarities": {
+        "twostar": "ballad-twostar",
+        "threestar": "ballad-threestar",
+        "fourstar": "ballad-fourstar"
+      }
+    },
+
+    {
+      "id": "prosperity",
+      "rarities": {
+        "twostar": "prosperity-twostar",
+        "threestar": "prosperity-threestar",
+        "fourstar": "prosperity-fourstar"
+      }
+    },
+    {
+      "id": "diligence",
+      "rarities": {
+        "twostar": "diligence-twostar",
+        "threestar": "diligence-threestar",
+        "fourstar": "diligence-fourstar"
+      }
+    },
+    {
+      "id": "gold",
+      "rarities": {
+        "twostar": "gold-twostar",
+        "threestar": "gold-threestar",
+        "fourstar": "gold-fourstar"
+      }
+    },
+
+    {
+      "id": "transience",
+      "rarities": {
+        "twostar": "transience-twostar",
+        "threestar": "transience-threestar",
+        "fourstar": "transience-fourstar"
+      }
+    },
+    {
+      "id": "elegance",
+      "rarities": {
+        "twostar": "elegance-twostar",
+        "threestar": "elegance-threestar",
+        "fourstar": "elegance-fourstar"
+      }
+    },
+    {
+      "id": "light",
+      "rarities": {
+        "twostar": "light-twostar",
+        "threestar": "light-threestar",
+        "fourstar": "light-fourstar"
+      }
+    },
+
+    {
+      "id": "admonition",
+      "rarities": {
+        "twostar": "admonition-twostar",
+        "threestar": "admonition-threestar",
+        "fourstar": "admonition-fourstar"
+      }
+    },
+    {
+      "id": "ingenuity",
+      "rarities": {
+        "twostar": "ingenuity-twostar",
+        "threestar": "ingenuity-threestar",
+        "fourstar": "ingenuity-fourstar"
+      }
+    },
+    {
+      "id": "praxis",
+      "rarities": {
+        "twostar": "praxis-twostar",
+        "threestar": "praxis-threestar",
+        "fourstar": "praxis-fourstar"
+      }
+    },
+
+    {
+      "id": "equity",
+      "rarities": {
+        "twostar": "equity-twostar",
+        "threestar": "equity-threestar",
+        "fourstar": "equity-fourstar"
+      }
+    },
+    {
+      "id": "justice",
+      "rarities": {
+        "twostar": "justice-twostar",
+        "threestar": "justice-threestar",
+        "fourstar": "justice-fourstar"
+      }
+    },
+    {
+      "id": "order",
+      "rarities": {
+        "twostar": "order-twostar",
+        "threestar": "order-threestar",
+        "fourstar": "order-fourstar"
+      }
+    },
+
+    {
+      "id": "contention",
+      "rarities": {
+        "twostar": "contention-twostar",
+        "threestar": "contention-threestar",
+        "fourstar": "contention-fourstar"
+      }
+    },
+    {
+      "id": "kindling",
+      "rarities": {
+        "twostar": "kindling-twostar",
+        "threestar": "kindling-threestar",
+        "fourstar": "kindling-fourstar"
+      }
+    },
+    {
+      "id": "conflict",
+      "rarities": {
+        "twostar": "conflict-twostar",
+        "threestar": "conflict-threestar",
+        "fourstar": "conflict-fourstar"
+      }
+    },
+
+    {
+      "id": "moonlight",
+      "rarities": {
+        "twostar": "moonlight-twostar",
+        "threestar": "moonlight-threestar",
+        "fourstar": "moonlight-fourstar"
+      }
+    },
+    {
+      "id": "elysium",
+      "rarities": {
+        "twostar": "elysium-twostar",
+        "threestar": "elysium-threestar",
+        "fourstar": "elysium-fourstar"
+      }
+    },
+    {
+      "id": "vagrancy",
+      "rarities": {
+        "twostar": "vagrancy-twostar",
+        "threestar": "vagrancy-threestar",
+        "fourstar": "vagrancy-fourstar"
+      }
+    }
+  ],
+  "genericMaterials": [
+    {
+      "id": "slime",
+      "rarities": {
+        "onestar": "slime-onestar",
+        "twostar": "slime-twostar",
+        "threestar": "slime-threestar"
+      }
+    },
+    {
+      "id": "hilichurl",
+      "rarities": {
+        "onestar": "hilichurl-onestar",
+        "twostar": "hilichurl-twostar",
+        "threestar": "hilichurl-threestar"
+      }
+    },
+    {
+      "id": "samachurl",
+      "rarities": {
+        "onestar": "samachurl-onestar",
+        "twostar": "samachurl-twostar",
+        "threestar": "samachurl-threestar"
+      }
+    },
+    {
+      "id": "shooter",
+      "rarities": {
+        "onestar": "shooter-onestar",
+        "twostar": "shooter-twostar",
+        "threestar": "shooter-threestar"
+      }
+    },
+    {
+      "id": "skirmisher",
+      "rarities": {
+        "onestar": "skirmisher-onestar",
+        "twostar": "skirmisher-twostar",
+        "threestar": "skirmisher-threestar"
+      }
+    },
+    {
+      "id": "treasure-hoarder",
+      "rarities": {
+        "onestar": "treasure-hoarder-onestar",
+        "twostar": "treasure-hoarder-twostar",
+        "threestar": "treasure-hoarder-threestar"
+      }
+    },
+    {
+      "id": "whopperflower",
+      "rarities": {
+        "onestar": "whopperflower-onestar",
+        "twostar": "whopperflower-twostar",
+        "threestar": "whopperflower-threestar"
+      }
+    },
+    {
+      "id": "nobushi",
+      "rarities": {
+        "onestar": "nobushi-onestar",
+        "twostar": "nobushi-twostar",
+        "threestar": "nobushi-threestar"
+      }
+    },
+    {
+      "id": "specter",
+      "rarities": {
+        "onestar": "specter-onestar",
+        "twostar": "specter-twostar",
+        "threestar": "specter-threestar"
+      }
+    },
+    {
+      "id": "fungus",
+      "rarities": {
+        "onestar": "fungus-onestar",
+        "twostar": "fungus-twostar",
+        "threestar": "fungus-threestar"
+      }
+    },
+    {
+      "id": "eremites",
+      "rarities": {
+        "onestar": "eremites-onestar",
+        "twostar": "eremites-twostar",
+        "threestar": "eremites-threestar"
+      }
+    },
+    {
+      "id": "aberrant",
+      "rarities": {
+        "onestar": "aberrant-onestar",
+        "twostar": "aberrant-twostar",
+        "threestar": "aberrant-threestar"
+      }
+    },
+    {
+      "id": "clockwork",
+      "rarities": {
+        "onestar": "clockwork-onestar",
+        "twostar": "clockwork-twostar",
+        "threestar": "clockwork-threestar"
+      }
+    },
+    {
+      "id": "saurian",
+      "rarities": {
+        "onestar": "saurian-onestar",
+        "twostar": "saurian-twostar",
+        "threestar": "saurian-threestar"
+      }
+    },
+    {
+      "id": "tribal-warrior",
+      "rarities": {
+        "onestar": "tribal-warrior-onestar",
+        "twostar": "tribal-warrior-twostar",
+        "threestar": "tribal-warrior-threestar"
+      }
+    },
+    {
+      "id": "landcruiser",
+      "rarities": {
+        "onestar": "landcruiser-onestar",
+        "twostar": "landcruiser-twostar",
+        "threestar": "landcruiser-threestar"
+      }
+    },
+    {
+      "id": "oprichniki",
+      "rarities": {
+        "onestar": "oprichniki-onestar",
+        "twostar": "oprichniki-twostar",
+        "threestar": "oprichniki-threestar"
+      }
+    }
+  ],
+  "eliteMaterials": [
+    {
+      "id": "mitachurl",
+      "rarities": {
+        "twostar": "mitachurl-twostar",
+        "threestar": "mitachurl-threestar",
+        "fourstar": "mitachurl-fourstar"
+      }
+    },
+    {
+      "id": "abyss-mage",
+      "rarities": {
+        "twostar": "abyss-mage-twostar",
+        "threestar": "abyss-mage-threestar",
+        "fourstar": "abyss-mage-fourstar"
+      }
+    },
+    {
+      "id": "ruin-machine",
+      "rarities": {
+        "twostar": "ruin-machine-twostar",
+        "threestar": "ruin-machine-threestar",
+        "fourstar": "ruin-machine-fourstar"
+      }
+    },
+    {
+      "id": "cicin-mage",
+      "rarities": {
+        "twostar": "cicin-mage-twostar",
+        "threestar": "cicin-mage-threestar",
+        "fourstar": "cicin-mage-fourstar"
+      }
+    },
+    {
+      "id": "pyro-agent",
+      "rarities": {
+        "twostar": "pyro-agent-twostar",
+        "threestar": "pyro-agent-threestar",
+        "fourstar": "pyro-agent-fourstar"
+      }
+    },
+    {
+      "id": "vishap",
+      "rarities": {
+        "twostar": "vishap-twostar",
+        "threestar": "vishap-threestar",
+        "fourstar": "vishap-fourstar"
+      }
+    },
+    {
+      "id": "ruin-sentinel",
+      "rarities": {
+        "twostar": "ruin-sentinel-twostar",
+        "threestar": "ruin-sentinel-threestar",
+        "fourstar": "ruin-sentinel-fourstar"
+      }
+    },
+    {
+      "id": "mirror-maiden",
+      "rarities": {
+        "twostar": "mirror-maiden-twostar",
+        "threestar": "mirror-maiden-threestar",
+        "fourstar": "mirror-maiden-fourstar"
+      }
+    },
+    {
+      "id": "rifthound",
+      "rarities": {
+        "twostar": "rifthound-twostar",
+        "threestar": "rifthound-threestar",
+        "fourstar": "rifthound-fourstar"
+      }
+    },
+    {
+      "id": "black-serpents",
+      "rarities": {
+        "twostar": "black-serpents-twostar",
+        "threestar": "black-serpents-threestar",
+        "fourstar": "black-serpents-fourstar"
+      }
+    },
+    {
+      "id": "state-shifted-fungus",
+      "rarities": {
+        "twostar": "state-shifted-fungus-twostar",
+        "threestar": "state-shifted-fungus-threestar",
+        "fourstar": "state-shifted-fungus-fourstar"
+      }
+    },
+    {
+      "id": "ruin-drake",
+      "rarities": {
+        "twostar": "ruin-drake-twostar",
+        "threestar": "ruin-drake-threestar",
+        "fourstar": "ruin-drake-fourstar"
+      }
+    },
+    {
+      "id": "primal-construct",
+      "rarities": {
+        "twostar": "primal-construct-twostar",
+        "threestar": "primal-construct-threestar",
+        "fourstar": "primal-construct-fourstar"
+      }
+    },
+    {
+      "id": "consecrated-beast",
+      "rarities": {
+        "twostar": "consecrated-beast-twostar",
+        "threestar": "consecrated-beast-threestar",
+        "fourstar": "consecrated-beast-fourstar"
+      }
+    },
+    {
+      "id": "hilichurl-rogue",
+      "rarities": {
+        "twostar": "hilichurl-rogue-twostar",
+        "threestar": "hilichurl-rogue-threestar",
+        "fourstar": "hilichurl-rogue-fourstar"
+      }
+    },
+    {
+      "id": "hydro-phantasm",
+      "rarities": {
+        "twostar": "hydro-phantasm-twostar",
+        "threestar": "hydro-phantasm-threestar",
+        "fourstar": "hydro-phantasm-fourstar"
+      }
+    },
+    {
+      "id": "breacher-primus",
+      "rarities": {
+        "twostar": "breacher-primus-twostar",
+        "threestar": "breacher-primus-threestar",
+        "fourstar": "breacher-primus-fourstar"
+      }
+    },
+    {
+      "id": "operative",
+      "rarities": {
+        "twostar": "operative-twostar",
+        "threestar": "operative-threestar",
+        "fourstar": "operative-fourstar"
+      }
+    },
+    {
+      "id": "xuanwen-beast",
+      "rarities": {
+        "twostar": "xuanwen-beast-twostar",
+        "threestar": "xuanwen-beast-threestar",
+        "fourstar": "xuanwen-beast-fourstar"
+      }
+    },
+    {
+      "id": "golem",
+      "rarities": {
+        "twostar": "golem-twostar",
+        "threestar": "golem-threestar",
+        "fourstar": "golem-fourstar"
+      }
+    },
+    {
+      "id": "avatar",
+      "rarities": {
+        "twostar": "avatar-twostar",
+        "threestar": "avatar-threestar",
+        "fourstar": "avatar-fourstar"
+      }
+    },
+    {
+      "id": "wayob",
+      "rarities": {
+        "twostar": "wayob-twostar",
+        "threestar": "wayob-threestar",
+        "fourstar": "wayob-fourstar"
+      }
+    },
+    {
+      "id": "secret-source",
+      "rarities": {
+        "twostar": "secret-source-twostar",
+        "threestar": "secret-source-threestar",
+        "fourstar": "secret-source-fourstar"
+      }
+    },
+    {
+      "id": "mimesis",
+      "rarities": {
+        "twostar": "mimesis-twostar",
+        "threestar": "mimesis-threestar",
+        "fourstar": "mimesis-fourstar"
+      }
+    },
+    {
+      "id": "weasel",
+      "rarities": {
+        "twostar": "weasel-twostar",
+        "threestar": "weasel-threestar",
+        "fourstar": "weasel-fourstar"
+      }
+    },
+    {
+      "id": "frostnight-scion",
+      "rarities": {
+        "twostar": "frostnight-scion-twostar",
+        "threestar": "frostnight-scion-threestar",
+        "fourstar": "frostnight-scion-fourstar"
+      }
+    },
+    {
+      "id": "radiant-beast",
+      "rarities": {
+        "twostar": "radiant-beast-twostar",
+        "threestar": "radiant-beast-threestar",
+        "fourstar": "radiant-beast-fourstar"
+      }
+    },
+    {
+      "id": "wild-hunt",
+      "rarities": {
+        "twostar": "wild-hunt-twostar",
+        "threestar": "wild-hunt-threestar",
+        "fourstar": "wild-hunt-fourstar"
+      }
+    },
+    {
+      "id": "fisher-of-hidden-depths",
+      "rarities": {
+        "twostar": "fisher-of-hidden-depths-twostar",
+        "threestar": "fisher-of-hidden-depths-threestar",
+        "fourstar": "fisher-of-hidden-depths-fourstar"
+      }
+    }
+
+  ]
+}
