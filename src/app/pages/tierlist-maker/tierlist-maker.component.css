@@ -1,0 +1,141 @@
+.container {
+  margin-top: 20px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.tierlist {
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  border: solid 1px var(--dark-gray);
+  overflow: hidden;
+}
+
+.tier {
+  display: flex;
+  flex-direction: row;
+}
+
+.tier .tier-name {
+  border-radius: 0;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+.tier-name {
+  flex: 0 0 150px;
+}
+
+.tier-zone {
+  border-top: solid 1px var(--dark-gray);
+  flex: 1;
+  min-height: 85px;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+}
+
+.tier:first-of-type .tier-zone {
+  border: none;
+}
+
+.draggable-item.selected {
+  outline: 2px solid var(--blue);
+  border-radius: 4px;
+}
+
+.draggable-item {
+  padding: 0;
+}
+
+.character-icon {
+  max-width: 75px;
+  display: block;
+}
+
+.char-tags {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+
+.item-pool {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tagside {
+  flex: 0 0 300px;
+}
+
+.tag-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tag {
+  padding: 2px 2px 2px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-block;
+  color: var(--white);
+}
+
+.tag button {
+  margin-left: 2px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.add-tag-options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.add-tag-options button {
+  width: 100%;
+}
+
+.new-tag-inputs {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.new-tag-inputs input {
+  flex: 1;
+}
+
+.new-tag-inputs .color {
+  height: 36px;
+  flex: 0 0 36px;
+  padding: 8px;
+}
+
+.add-button {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.download-button {
+  width: 100%;
+  margin-top: 10px;
+}

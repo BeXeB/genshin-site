@@ -1,18 +1,141 @@
-@for (tier of tiers; track $index) {
-  <div>
-    <input type="text" [(ngModel)]="tier.tier" placeholder="Enter tier name" />
+<div class="container">
+  <div class="main-section">
+    <div class="first-col">
+      <div class="tierlist">
+        @for (tier of tiers; track tier.tier) {
+          <div class="tier">
+            <input
+              class="tier-name"
+              type="text"
+              [(ngModel)]="tier.tier"
+              placeholder="Enter tier name"
+            />
 
-    <div>
-      @for (char of tier.characters; track $index) {
-        <div>
-          <img
-            class="character-icon"
-            [src]="char.profile?.images?.hoyowiki_icon"
-          />
+            <div
+              cdkDropList
+              [id]="'tier-' + $index"
+              [cdkDropListData]="tier.characters"
+              [cdkDropListConnectedTo]="allDropLists"
+              cdkDropListOrientation="mixed"
+              (cdkDropListDropped)="drop($event)"
+              class="tier-dropzone tier-zone"
+            >
+              @for (char of tier.characters; track char.id) {
+                <div
+                  cdkDrag
+                  class="draggable-item"
+                  [class.selected]="selectedCharacter === char"
+                  (click)="selectCharacter(char)"
+                >
+                  <img
+                    class="character-icon"
+                    [src]="char.profile?.images?.hoyowiki_icon"
+                  />
+                  @if (char.tags.length) {
+                    <div class="char-tags">
+                      @for (tag of char.tags; track tag.id) {
+                        <span class="tag" [style.background]="tag.color">
+                          {{ tag.label }}
+                        </span>
+                      }
+                    </div>
+                  }
+                </div>
+              }
+            </div>
+          </div>
+        }
+      </div>
+      <button class="add-button" (click)="addTier()">Add Tier</button>
+      <h3>Available characters</h3>
+      <div
+        cdkDropList
+        #charactersList="cdkDropList"
+        id="charactersList"
+        [cdkDropListData]="characters"
+        [cdkDropListConnectedTo]="allDropLists"
+        cdkDropListOrientation="mixed"
+        (cdkDropListDropped)="drop($event)"
+        class="item-pool"
+      >
+        @for (char of characters; track char.id) {
+          <div
+            cdkDrag
+            class="draggable-item"
+            [class.selected]="selectedCharacter === char"
+            (click)="selectCharacter(char)"
+          >
+            <img
+              class="character-icon"
+              [src]="char.profile?.images?.hoyowiki_icon"
+            />
+          </div>
+        }
+      </div>
+    </div>
+    <div class="tagside">
+      @if (selectedCharacter != null) {
+        <div class="character-sidebar">
+          <h3>{{ selectedCharacter.profile?.name || "Character" }}</h3>
+
+          <h4>Tags</h4>
+          <div class="tag-list">
+            @for (tag of selectedCharacter.tags; track tag.id) {
+              <div class="tag" [style.background]="tag.color">
+                {{ tag.id }}
+
+                @if (tag.extra && tag.extra.length) {
+                  <span>({{ tag.extra.join(", ") }})</span>
+                }
+                <button type="button" (click)="removeTagFromCharacter(tag.id)">
+                  X
+                </button>
+              </div>
+            }
+          </div>
+
+          <h4>Add Tag</h4>
+          <div class="add-tag-options">
+            <select [(ngModel)]="selectedTagId">
+              <option value="" disabled>Select a tag</option>
+              @for (tag of tags; track tag.id) {
+                <option [value]="tag.id">{{ tag.label }}</option>
+              }
+            </select>
+            <input
+              type="text"
+              placeholder="Extra values (comma separated)"
+              [(ngModel)]="selectedTagExtras"
+            />
+
+            <button (click)="onAddTag()">Add Tag</button>
+          </div>
         </div>
       }
+      <div class="tag-editor">
+        <h3>Tags</h3>
+        <div class="tag-list">
+          @for (tag of tags; track tag.id) {
+            <span class="tag" [style.background]="tag.color">
+              {{ tag.label }}
+              <button type="button" (click)="removeTag(tag.id)">X</button>
+            </span>
+          }
+        </div>
+        <div class="new-tag-inputs">
+          <input
+            type="text"
+            [(ngModel)]="newTagLabel"
+            placeholder="New tag label"
+          />
+          <input class="color" type="color" [(ngModel)]="newTagColor" />
+        </div>
+        <button class="add-button" (click)="addTag()">Add Tag</button>
+      </div>
+      <hr />
+      <button class="download-button" (click)="getJsonFiles()">
+        Download Json Files
+      </button>
     </div>
   </div>
-}
-
-<button (click)="addTier()">Add Tier</button>
+</div>
