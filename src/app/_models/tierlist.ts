@@ -8,9 +8,9 @@ export type TagDefinition = {
 
 export type CharacterTag = {
   id: string;
+  label: string;
+  color: string;
   extra?: string[];
-  label?: string;
-  color?: string;
 }
 
 export type TierCharacter = {
