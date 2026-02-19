@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "genshin-helper": {
+    "genshin-site": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/genshin-helper",
+            "outputPath": "dist/genshin-site",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -58,10 +58,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "genshin-helper:build:production"
+              "buildTarget": "genshin-site:build:production"
             },
             "development": {
-              "buildTarget": "genshin-helper:build:development"
+              "buildTarget": "genshin-site:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -69,7 +69,7 @@
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n",
           "options": {
-            "buildTarget": "genshin-helper:build"
+            "buildTarget": "genshin-site:build"
           }
         },
         "test": {
