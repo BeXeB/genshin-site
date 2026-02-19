@@ -1,0 +1,53 @@
+[
+  {
+    "tier": "Meta",
+    "characters": [
+      {
+        "id": 10000122,
+        "apiKey": "nefer",
+        "tags": [
+          {
+            "id": "lunarbloom"
+          },
+          {
+            "id": "partner",
+            "extra": ["lauma", "columbina"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": "Alternativa",
+    "characters": [
+      {
+        "id": 10000052,
+        "apiKey": "raidenshogun",
+        "tags": [
+          {
+            "id": "partner",
+            "extra": ["lauma"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": "Szodaval",
+    "characters": [
+      {
+        "id": 10000052,
+        "apiKey": "raidenshogun",
+        "tags": [
+          {
+            "id": "carry"
+          },
+          {
+            "id":"partner",
+            "extra": ["chevreuse"]
+          }
+        ]
+      }
+    ]
+  }
+]
