@@ -50,4 +50,7 @@ button {
   text-decoration: none;
   cursor: pointer;
   background-color: var(--black);
+  color: var(--white);
+  width: 120px;
+  height: 40px;
 }

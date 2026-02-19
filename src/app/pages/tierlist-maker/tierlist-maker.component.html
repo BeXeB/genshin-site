@@ -1,0 +1,18 @@
+@for (tier of tiers; track $index) {
+  <div>
+    <input type="text" [(ngModel)]="tier.tier" placeholder="Enter tier name" />
+
+    <div>
+      @for (char of tier.characters; track $index) {
+        <div>
+          <img
+            class="character-icon"
+            [src]="char.profile?.images?.hoyowiki_icon"
+          />
+        </div>
+      }
+    </div>
+  </div>
+}
+
+<button (click)="addTier()">Add Tier</button>

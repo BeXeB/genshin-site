@@ -11,10 +11,12 @@ import { AbyssComponent } from './pages/endgames/abyss/abyss.component';
 import { StygianComponent } from './pages/endgames/stygian/stygian.component';
 import { TheatreComponent } from './pages/endgames/theatre/theatre.component';
 import { CharacterDetailsComponent } from './pages/character-details/character-details.component';
+import { TierlistMakerComponent } from './pages/tierlist-maker/tierlist-maker.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'tierlist', component: TierlistComponent },
+  { path: 'tierlist-maker', component: TierlistMakerComponent },
   // {
   //   path: 'endgames',
   //   component: EndgamesComponent,
