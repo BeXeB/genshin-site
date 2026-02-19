@@ -1,0 +1,123 @@
+.nav-container {
+  background-color: var(--black);
+  position: sticky;
+  top: 0;
+  height: 65px;
+  width: 100%;
+  border-bottom: 1px solid var(--gray);
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  position: relative;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-links {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  color: var(--light-gray);
+}
+
+.nav-button:hover {
+  background-color: var(--darker-gray);
+  color: var(--white);
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.nav-button.active {
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+
+.logo a {
+  font-weight: bold;
+  font-size: 2em;
+  color: var(--white);
+  text-decoration: none;
+  letter-spacing: -4px;
+  user-select: none;
+}
+
+.logo:hover a {
+  color: var(--blue);
+  transition: color 0.2s;
+}
+
+.hamburger-menu {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--white);
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.hamburger-menu:hover {
+  color: var(--blue);
+  transition: color 0.2s;
+}
+
+@media (max-width: 768px) {
+  .hamburger-menu {
+    display: block;
+    min-height: 65px;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar-center {
+    position: relative;
+    transform: none;
+
+    left: 0;
+    height: 0;
+    width: 100vw;
+
+    gap: 0;
+    flex-direction: column;
+
+    margin: 0 -20px;
+    background-color: var(--black);
+    overflow: hidden;
+  }
+
+  .navbar-center.mobile-menu-open {
+    border-bottom: 1px solid var(--gray);
+    height: fit-content;
+  }
+
+  .nav-button {
+    width: 100vw;
+    height: 50px;
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid var(--gray);
+  }
+}

@@ -1,0 +1,99 @@
+.tierlist {
+  border-radius: 13px;
+  margin: 20px;
+  background-color: var(--darker-gray);
+  border: solid 1px var(--gray);
+  padding: 0;
+}
+
+.tier {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 1px var(--gray);
+}
+
+.tier:last-child {
+  border: none;
+}
+
+.tier-title {
+  flex: 0 0 150px;
+  overflow: hidden;
+  border-right: solid 1px var(--gray);
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: wrap;
+  font-size: clamp(12px, 2vw, 20px);
+}
+
+.characters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+  gap:5px
+}
+
+.character{
+  display: flex;
+  flex-direction: column;
+  gap:0
+}
+
+.character-icon {
+  max-width: 100px;
+}
+
+.tags {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+
+.tag {
+  position: relative;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: var(--white);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+
+  top: 100%;
+
+  background: var(--black);
+  color:  var(--white);
+
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.tag:hover .tooltip {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .tier {
+    flex-direction: column;
+  }
+
+  .tier-title {
+    border: none;
+    border-bottom: solid 1px var(--gray);
+    font-size: 24px;
+  }
+}

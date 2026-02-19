@@ -1,0 +1,18 @@
+<div class="nav-container">
+  <nav class="navbar">
+    <div class="logo">
+      <a routerLink="/" routerLinkActive="active">GI</a>
+    </div>
+    <button class="hamburger-menu" (click)="toggleMobileMenu()" [class.active]="mobileMenuOpen">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="nav-links navbar-center" [class.mobile-menu-open]="mobileMenuOpen">
+        <a class="nav-button" routerLink="/tierlist" routerLinkActive="active" (click)="closeMobileMenu()">Tier List</a>
+        <!-- <a [routerLink]="['/characters']" routerLinkActive="active" (click)="closeMobileMenu()">Characters</a> -->
+        <!-- <a [routerLink]="['/weapons']" routerLinkActive="active" (click)="closeMobileMenu()">Weapons</a> -->
+        <!-- <a [routerLink]="['/artifacts']" routerLinkActive="active" (click)="closeMobileMenu()">Artifacts</a> -->
+        <!-- <a [routerLink]="['/endgames']" routerLinkActive="active" (click)="closeMobileMenu()">Endgames</a> -->
+        <!-- <a [routerLink]="['/tools']" routerLinkActive="active" (click)="closeMobileMenu()">Tools</a> -->
+    </div>
+  </nav>
+</div>
