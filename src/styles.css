@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('assets/fonts/JetBrainsMono/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+:root {
+  --black: #080808;
+  --dark-gray: #252525;
+  --darker-gray: #181818;
+  --gray: #484848;
+  --light-gray: #9a9aa8;
+  --white: #dbdbdb;
+  --blue: #0064c7;
+  --shadow-blue: #002f5974;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--gray) var(--black);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px 10px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--dark-gray);
+  text-decoration: none;
+  cursor: pointer;
+  background-color: var(--black);
+}

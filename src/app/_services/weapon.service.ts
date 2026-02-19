@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { WeaponData } from '../_models/data/weapon';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
@@ -11,7 +10,7 @@ export class WeaponService {
 
   constructor(private http: HttpClient) { }
 
-  getWeapons(): Observable<WeaponData[]> {
-    return this.http.get<WeaponData[]>(this.weaponUrl)
-  }
+  // getWeapons(): Observable<WeaponData[]> {
+  //   return this.http.get<WeaponData[]>(this.weaponUrl)
+  // }
 }
