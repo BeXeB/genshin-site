@@ -1,1 +1,1 @@
-# genshin-helper
+# genshin-site

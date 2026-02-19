@@ -10,5 +10,5 @@ import { NavBarComponent } from "./_components/nav-bar/nav-bar.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'genshin-helper';
+  title = 'genshin-site';
 }
