@@ -1,0 +1,1656 @@
+{
+  "profile": {
+    "id": 10000047,
+    "name": "Kaedehara Kazuha",
+    "title": "Scarlet Leaves Pursue Wild Waves",
+    "description": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "weaponText": "Sword",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "10/29",
+    "birthday": "October 29",
+    "elementType": "ELEMENT_ANEMO",
+    "elementText": "Anemo",
+    "affiliation": "The Crux",
+    "associationType": "ASSOC_INAZUMA",
+    "region": "Inazuma",
+    "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
+    "substatText": "Elemental Mastery",
+    "constellation": "Acer Palmatum",
+    "cv": {
+      "english": "Mark Whitten",
+      "chinese": "斑马",
+      "japanese": "島﨑信長",
+      "korean": "Kim Shin-woo"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104151,
+          "name": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": 101206,
+          "name": "Sea Ganoderma",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": 113022,
+          "name": "Marionette Core",
+          "count": 2
+        },
+        {
+          "id": 101206,
+          "name": "Sea Ganoderma",
+          "count": 10
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": 113022,
+          "name": "Marionette Core",
+          "count": 4
+        },
+        {
+          "id": 101206,
+          "name": "Sea Ganoderma",
+          "count": 20
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": 113022,
+          "name": "Marionette Core",
+          "count": 8
+        },
+        {
+          "id": 101206,
+          "name": "Sea Ganoderma",
+          "count": 30
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": 113022,
+          "name": "Marionette Core",
+          "count": 12
+        },
+        {
+          "id": 101206,
+          "name": "Sea Ganoderma",
+          "count": 45
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104154,
+          "name": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113022,
+          "name": "Marionette Core",
+          "count": 20
+        },
+        {
+          "id": 101206,
+          "name": "Sea Ganoderma",
+          "count": 60
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/44e2d916d9c13bca863d56423004fd98_6715584262683208581.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210622/2021062217460699632.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/d2df66ab1ab047fd2392ab816c77ea19.png",
+      "filename_icon": "UI_AvatarIcon_Kazuha",
+      "filename_iconCard": "UI_AvatarIcon_Kazuha_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Kazuha",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Kazuha",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kazuha",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kazuha.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kaedehara Kazuha_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Kaedehara_Kazuha"
+    },
+    "version": "1.6"
+  },
+  "skills": {
+    "id": 4701,
+    "name": "Kaedehara Kazuha",
+    "combat1": {
+      "name": "Garyuu Bladework",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan.\n\n<color=#FFD780FF>Plunging Attack: Midare Ranzan</color>\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to <color=#80FFD7FF>Anemo DMG</color> and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.",
+      "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan.\n\nPlunging Attack: Midare Ranzan\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "5-Hit DMG|{param6:F1P}×3",
+          "Charged Attack DMG|{param7:F1P}+{param8:F1P}",
+          "Charged Attack Stamina Cost|{param9:F1}",
+          "Plunge DMG|{param10:F1P}",
+          "Low/High Plunge DMG|{param11:P}/{param12:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.44978,
+            0.48639,
+            0.523,
+            0.5753,
+            0.61191,
+            0.65375,
+            0.71128,
+            0.76881,
+            0.82634,
+            0.8891,
+            0.961013,
+            1.045582,
+            1.130151,
+            1.21472,
+            1.306977
+          ],
+          "param2": [
+            0.45236,
+            0.48918,
+            0.526,
+            0.5786,
+            0.61542,
+            0.6575,
+            0.71536,
+            0.77322,
+            0.83108,
+            0.8942,
+            0.966525,
+            1.051579,
+            1.136633,
+            1.221688,
+            1.314474
+          ],
+          "param3": [
+            0.258,
+            0.279,
+            0.3,
+            0.33,
+            0.351,
+            0.375,
+            0.408,
+            0.441,
+            0.474,
+            0.51,
+            0.55125,
+            0.59976,
+            0.64827,
+            0.69678,
+            0.7497
+          ],
+          "param4": [
+            0.3096,
+            0.3348,
+            0.36,
+            0.396,
+            0.4212,
+            0.45,
+            0.4896,
+            0.5292,
+            0.5688,
+            0.612,
+            0.6615,
+            0.719712,
+            0.777924,
+            0.836136,
+            0.89964
+          ],
+          "param5": [
+            0.60716,
+            0.65658,
+            0.706,
+            0.7766,
+            0.82602,
+            0.8825,
+            0.96016,
+            1.03782,
+            1.11548,
+            1.2002,
+            1.297275,
+            1.411435,
+            1.525595,
+            1.639756,
+            1.764294
+          ],
+          "param6": [
+            0.2537,
+            0.27435,
+            0.295,
+            0.3245,
+            0.34515,
+            0.36875,
+            0.4012,
+            0.43365,
+            0.4661,
+            0.5015,
+            0.542063,
+            0.589764,
+            0.637465,
+            0.685167,
+            0.737205
+          ],
+          "param7": [
+            0.43,
+            0.465,
+            0.5,
+            0.55,
+            0.585,
+            0.625,
+            0.68,
+            0.735,
+            0.79,
+            0.85,
+            0.91875,
+            0.9996,
+            1.08045,
+            1.1613,
+            1.2495
+          ],
+          "param8": [
+            0.74648,
+            0.80724,
+            0.868,
+            0.9548,
+            1.01556,
+            1.085,
+            1.18048,
+            1.27596,
+            1.37144,
+            1.4756,
+            1.59495,
+            1.735306,
+            1.875661,
+            2.016017,
+            2.169132
+          ],
+          "param9": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param10": [
+            0.818335,
+            0.884943,
+            0.951552,
+            1.046707,
+            1.113316,
+            1.18944,
+            1.294111,
+            1.398781,
+            1.503452,
+            1.617638,
+            1.731825,
+            1.846011,
+            1.960197,
+            2.074383,
+            2.18857
+          ],
+          "param11": [
+            1.636323,
+            1.769512,
+            1.902701,
+            2.092971,
+            2.22616,
+            2.378376,
+            2.587673,
+            2.79697,
+            3.006267,
+            3.234591,
+            3.462915,
+            3.69124,
+            3.919564,
+            4.147888,
+            4.376212
+          ],
+          "param12": [
+            2.043855,
+            2.210216,
+            2.376576,
+            2.614234,
+            2.780594,
+            2.97072,
+            3.232143,
+            3.493567,
+            3.75499,
+            4.040179,
+            4.325368,
+            4.610557,
+            4.895747,
+            5.180936,
+            5.466125
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Chihayaburu",
+      "descriptionRaw": "#Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing <color=#80FFD7FF>Anemo DMG</color> and lifting Kazuha into the air on a rushing gust of wind.\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nCan be used in mid-air.\n\n<color=#FFD780FF>Hold</color>\nCharges up before unleashing greater <color=#80FFD7FF>Anemo DMG</color> over a larger AoE than {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode.\n\n<color=#FFD780FF>Plunging Attack: Midare Ranzan</color>\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to <color=#80FFD7FF>Anemo DMG</color>. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\nMidare Ranzan's DMG is considered Plunging Attack DMG.\n\n<i>\"Wind in branches grieves\nBygone ages, gods of old\nWithered autumn leaves\"</i>",
+      "description": "Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing Anemo DMG and lifting Kazuha into the air on a rushing gust of wind.\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\n\nPress\nCan be used in mid-air.\n\nHold\nCharges up before unleashing greater Anemo DMG over a larger AoE than Press Mode.\n\nPlunging Attack: Midare Ranzan\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\nMidare Ranzan's DMG is considered Plunging Attack DMG.",
+      "flavorText": "\"Wind in branches grieves\nBygone ages, gods of old\nWithered autumn leaves\"",
+      "attributes": {
+        "labels": [
+          "Press Skill DMG|{param1:P}",
+          "Press CD|{param2:F1}s",
+          "Hold Skill DMG|{param3:P}",
+          "Hold CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.92,
+            2.064,
+            2.208,
+            2.4,
+            2.544,
+            2.688,
+            2.88,
+            3.072,
+            3.264,
+            3.456,
+            3.648,
+            3.84,
+            4.08,
+            4.32,
+            4.56
+          ],
+          "param2": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param3": [
+            2.608,
+            2.8036,
+            2.9992,
+            3.26,
+            3.4556,
+            3.6512,
+            3.912,
+            4.1728,
+            4.4336,
+            4.6944,
+            4.9552,
+            5.216,
+            5.542,
+            5.868,
+            6.194
+          ],
+          "param4": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Kazuha Slash",
+      "descriptionRaw": "The signature technique of Kazuha's self-styled bladework — a single slash that strikes with the force of the first winds of autumn, dealing <color=#80FFD7FF>AoE Anemo DMG</color>.\nThe blade's passage will leave behind a field named \"Autumn Whirlwind\" that periodically deals <color=#80FFD7FF>AoE Anemo DMG</color> to opponents within its range.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf Autumn Whirlwind comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>\"I see eternity go by in an instant, the autumns of many years from a single leaf. Thus I shall slice this maple in a flash, and ask a question of the ages.\"</i>",
+      "description": "The signature technique of Kazuha's self-styled bladework — a single slash that strikes with the force of the first winds of autumn, dealing AoE Anemo DMG.\nThe blade's passage will leave behind a field named \"Autumn Whirlwind\" that periodically deals AoE Anemo DMG to opponents within its range.\n\nElemental Absorption\nIf Autumn Whirlwind comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.",
+      "flavorText": "\"I see eternity go by in an instant, the autumns of many years from a single leaf. Thus I shall slice this maple in a flash, and ask a question of the ages.\"",
+      "attributes": {
+        "labels": [
+          "Slashing DMG|{param1:P}",
+          "DoT|{param2:P}",
+          "Additional Elemental DMG|{param3:P}",
+          "Duration|{param4:F1}s",
+          "CD|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            2.624,
+            2.8208,
+            3.0176,
+            3.28,
+            3.4768,
+            3.6736,
+            3.936,
+            4.1984,
+            4.4608,
+            4.7232,
+            4.9856,
+            5.248,
+            5.576,
+            5.904,
+            6.232
+          ],
+          "param2": [
+            1.2,
+            1.29,
+            1.38,
+            1.5,
+            1.59,
+            1.68,
+            1.8,
+            1.92,
+            2.04,
+            2.16,
+            2.28,
+            2.4,
+            2.55,
+            2.7,
+            2.85
+          ],
+          "param3": [
+            0.36,
+            0.387,
+            0.414,
+            0.45,
+            0.477,
+            0.504,
+            0.54,
+            0.576,
+            0.612,
+            0.648,
+            0.684,
+            0.72,
+            0.765,
+            0.81,
+            0.855
+          ],
+          "param4": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Soumon Swordsmanship",
+      "descriptionRaw": "If <color=#FFD780FF>Chihayaburu</color> comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> when cast, this <color=#FFD780FF>Chihayaburu</color> will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\nElemental Absorption may only occur once per use of <color=#FFD780FF>Chihayaburu</color>.",
+      "description": "If Chihayaburu comes into contact with Hydro/Pyro/Cryo/Electro when cast, this Chihayaburu will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\nElemental Absorption may only occur once per use of Chihayaburu."
+    },
+    "passive2": {
+      "name": "Poetics of Fuubutsu",
+      "descriptionRaw": "Upon triggering a Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist.",
+      "description": "Upon triggering a Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist."
+    },
+    "passive3": {
+      "name": "Cloud Strider",
+      "descriptionRaw": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104313,
+          "name": "Teachings of Diligence",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104314,
+          "name": "Guide to Diligence",
+          "count": 2
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104314,
+          "name": "Guide to Diligence",
+          "count": 4
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104314,
+          "name": "Guide to Diligence",
+          "count": 6
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104314,
+          "name": "Guide to Diligence",
+          "count": 9
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104315,
+          "name": "Philosophies of Diligence",
+          "count": 4
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 4
+        },
+        {
+          "id": 113019,
+          "name": "Gilded Scale",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104315,
+          "name": "Philosophies of Diligence",
+          "count": 6
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 6
+        },
+        {
+          "id": 113019,
+          "name": "Gilded Scale",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104315,
+          "name": "Philosophies of Diligence",
+          "count": 12
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 9
+        },
+        {
+          "id": 113019,
+          "name": "Gilded Scale",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104315,
+          "name": "Philosophies of Diligence",
+          "count": 16
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        },
+        {
+          "id": 113019,
+          "name": "Gilded Scale",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_01",
+      "filename_combat2": "Skill_S_Kazuha_01",
+      "filename_combat3": "Skill_E_Kazuha_01_HD",
+      "filename_passive1": "UI_Talent_S_Kazuha_05",
+      "filename_passive2": "UI_Talent_S_Kazuha_06",
+      "filename_passive3": "UI_Talent_Explosion_Sprint"
+    },
+    "version": "1.6"
+  },
+  "constellation": {
+    "id": 4701,
+    "name": "Kaedehara Kazuha",
+    "c1": {
+      "name": "Scarlet Hills",
+      "descriptionRaw": "Decreases <color=#FFD780FF>Chihayaburu</color>'s CD by 10%.\nUsing <color=#FFD780FF>Kazuha Slash</color> resets the CD of <color=#FFD780FF>Chihayaburu</color>.",
+      "description": "Decreases Chihayaburu's CD by 10%.\nUsing Kazuha Slash resets the CD of Chihayaburu."
+    },
+    "c2": {
+      "name": "Yamaarashi Tailwind",
+      "descriptionRaw": "The Autumn Whirlwind field created by <color=#FFD780FF>Kazuha Slash</color> has the following effects:\n· Increases Kaedehara Kazuha's own Elemental Mastery by 200 for its duration.\n· Increases the Elemental Mastery of characters within the field by 200.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
+      "description": "The Autumn Whirlwind field created by Kazuha Slash has the following effects:\n· Increases Kaedehara Kazuha's own Elemental Mastery by 200 for its duration.\n· Increases the Elemental Mastery of characters within the field by 200.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack."
+    },
+    "c3": {
+      "name": "Maple Monogatari",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Chihayaburu</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Chihayaburu by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Oozora Genpou",
+      "descriptionRaw": "#When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\n·{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Pressing}{LAYOUT_PS#Pressing} or Holding <color=#FFD780FF>Chihayaburu</color> regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\n·When gliding, Kaedehara Kazuha regenerates 2 Energy per second.",
+      "description": "When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\n·Pressing or Holding Chihayaburu regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\n·When gliding, Kaedehara Kazuha regenerates 2 Energy per second."
+    },
+    "c5": {
+      "name": "Wisdom of Bansei",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Kazuha Slash</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Kazuha Slash by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Crimson Momiji",
+      "descriptionRaw": "After using <color=#FFD780FF>Chihayaburu</color> or <color=#FFD780FF>Kazuha Slash</color>, Kaedehara Kazuha gains an <color=#80FFD7FF>Anemo Infusion</color> for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attacks by 0.2%.",
+      "description": "After using Chihayaburu or Kazuha Slash, Kaedehara Kazuha gains an Anemo Infusion for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attacks by 0.2%."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Kazuha_01",
+      "filename_c2": "UI_Talent_S_Kazuha_02",
+      "filename_c3": "UI_Talent_U_Kazuha_01",
+      "filename_c4": "UI_Talent_S_Kazuha_03",
+      "filename_c5": "UI_Talent_U_Kazuha_02",
+      "filename_c6": "UI_Talent_S_Kazuha_04",
+      "filename_constellation": "Eff_UI_Talent_Kazuha"
+    },
+    "version": "1.6"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1039.1188,
+      "attack": 23.0888,
+      "defense": 62.8215,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1125.3656604,
+      "attack": 25.005170399999997,
+      "defense": 68.0356845,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1211.6125207999999,
+      "attack": 26.9215408,
+      "defense": 73.24986899999999,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1298.8985,
+      "attack": 28.860999999999997,
+      "defense": 78.526875,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1385.1453603999998,
+      "attack": 30.7773704,
+      "defense": 83.74105949999999,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1472.4313396,
+      "attack": 32.7168296,
+      "defense": 89.0180655,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1558.6781999999998,
+      "attack": 34.6332,
+      "defense": 94.23225,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1645.9641792,
+      "attack": 36.5726592,
+      "defense": 99.50925600000001,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1733.2501584,
+      "attack": 38.5121184,
+      "defense": 104.786262,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1819.4970187999998,
+      "attack": 40.4284888,
+      "defense": 110.0004465,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1906.782998,
+      "attack": 42.367948,
+      "defense": 115.2774525,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1994.0689772,
+      "attack": 44.3074072,
+      "defense": 120.55445850000001,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2081.3549564,
+      "attack": 46.2468664,
+      "defense": 125.83146450000001,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2169.6800544,
+      "attack": 48.2094144,
+      "defense": 131.171292,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2256.9660336,
+      "attack": 50.1488736,
+      "defense": 136.44829800000002,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2344.2520127999996,
+      "attack": 52.088332799999996,
+      "defense": 141.725304,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2432.5771108,
+      "attack": 54.0508808,
+      "defense": 147.0651315,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2519.86309,
+      "attack": 55.990339999999996,
+      "defense": 152.34213749999998,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2608.1881879999996,
+      "attack": 57.952887999999994,
+      "defense": 157.681965,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2695.4741671999996,
+      "attack": 59.892347199999996,
+      "defense": 162.958971,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3674.7497052,
+      "attack": 81.6500082,
+      "defense": 222.1637985,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3763.0748031999997,
+      "attack": 83.6125562,
+      "defense": 227.503626,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3851.3999012000004,
+      "attack": 85.5751042,
+      "defense": 232.8434535,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3939.7249992,
+      "attack": 87.5376522,
+      "defense": 238.18328100000002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 4028.0500972,
+      "attack": 89.5002002,
+      "defense": 243.5231085,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 4117.414314,
+      "attack": 91.485837,
+      "defense": 248.9257575,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4205.739412,
+      "attack": 93.448385,
+      "defense": 254.26558500000002,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4294.064509999999,
+      "attack": 95.410933,
+      "defense": 259.6054125,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4383.4287268,
+      "attack": 97.39656980000001,
+      "defense": 265.0080615,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4471.7538248,
+      "attack": 99.3591178,
+      "defense": 270.347889,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4561.1180416,
+      "attack": 101.3447546,
+      "defense": 275.750538,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4650.482258399999,
+      "attack": 103.3303914,
+      "defense": 281.153187,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4739.8464752,
+      "attack": 105.3160282,
+      "defense": 286.555836,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4828.1715732,
+      "attack": 107.2785762,
+      "defense": 291.8956635,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4917.53579,
+      "attack": 109.264213,
+      "defense": 297.2983125,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 5007.9391256,
+      "attack": 111.2729386,
+      "defense": 302.763783,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 5097.3033424,
+      "attack": 113.2585754,
+      "defense": 308.166432,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 5186.6675592,
+      "attack": 115.2442122,
+      "defense": 313.56908100000004,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5276.031775999999,
+      "attack": 117.22984899999999,
+      "defense": 318.97173,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5366.4351116,
+      "attack": 119.2385746,
+      "defense": 324.4372005,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 6088.8429884,
+      "attack": 135.2891584,
+      "defense": 368.1123495,
+      "specialized": 28.8
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 6179.246324,
+      "attack": 137.297884,
+      "defense": 373.57782000000003,
+      "specialized": 28.8
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 6269.6496596,
+      "attack": 139.3066096,
+      "defense": 379.0432905,
+      "specialized": 28.8
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6359.013876399999,
+      "attack": 141.29224639999998,
+      "defense": 384.44593949999995,
+      "specialized": 28.8
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6449.417212,
+      "attack": 143.300972,
+      "defense": 389.91141,
+      "specialized": 28.8
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6539.820547599999,
+      "attack": 145.3096976,
+      "defense": 395.37688049999997,
+      "specialized": 28.8
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6630.223883199999,
+      "attack": 147.31842319999998,
+      "defense": 400.84235099999995,
+      "specialized": 28.8
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6720.6272188,
+      "attack": 149.3271488,
+      "defense": 406.3078215,
+      "specialized": 28.8
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6812.069673200001,
+      "attack": 151.3589632,
+      "defense": 411.8361135,
+      "specialized": 28.8
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6902.4730088,
+      "attack": 153.3676888,
+      "defense": 417.301584,
+      "specialized": 28.8
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7836.9347443999995,
+      "attack": 174.1296774,
+      "defense": 473.79705449999994,
+      "specialized": 57.6
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7928.3771988,
+      "attack": 176.1614918,
+      "defense": 479.3253465,
+      "specialized": 57.6
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 8018.780534399999,
+      "attack": 178.17021739999998,
+      "defense": 484.79081699999995,
+      "specialized": 57.6
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 8110.222988799999,
+      "attack": 180.2020318,
+      "defense": 490.319109,
+      "specialized": 57.6
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 8201.6654432,
+      "attack": 182.2338462,
+      "defense": 495.847401,
+      "specialized": 57.6
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 8293.107897599999,
+      "attack": 184.2656606,
+      "defense": 501.37569299999996,
+      "specialized": 57.6
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 8384.550351999998,
+      "attack": 186.297475,
+      "defense": 506.90398500000003,
+      "specialized": 57.6
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8475.9928064,
+      "attack": 188.3292894,
+      "defense": 512.432277,
+      "specialized": 57.6
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8567.4352608,
+      "attack": 190.3611038,
+      "defense": 517.960569,
+      "specialized": 57.6
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8658.8777152,
+      "attack": 192.3929182,
+      "defense": 523.488861,
+      "specialized": 57.6
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 9383.3638696,
+      "attack": 208.4896796,
+      "defense": 567.289653,
+      "specialized": 57.6
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9474.806324000001,
+      "attack": 210.521494,
+      "defense": 572.817945,
+      "specialized": 57.6
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9567.2878972,
+      "attack": 212.5763972,
+      "defense": 578.4090585,
+      "specialized": 57.6
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9658.7303516,
+      "attack": 214.6082116,
+      "defense": 583.9373505,
+      "specialized": 57.6
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9751.2119248,
+      "attack": 216.6631148,
+      "defense": 589.528464,
+      "specialized": 57.6
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9843.693498,
+      "attack": 218.718018,
+      "defense": 595.1195775,
+      "specialized": 57.6
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9935.1359524,
+      "attack": 220.7498324,
+      "defense": 600.6478695000001,
+      "specialized": 57.6
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 10027.617525599999,
+      "attack": 222.8047356,
+      "defense": 606.238983,
+      "specialized": 57.6
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 10120.0990988,
+      "attack": 224.8596388,
+      "defense": 611.8300965000001,
+      "specialized": 57.6
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 10212.580672,
+      "attack": 226.914542,
+      "defense": 617.42121,
+      "specialized": 57.6
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10938.1060452,
+      "attack": 243.0343952,
+      "defense": 661.2848235,
+      "specialized": 86.4
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 11031.6267372,
+      "attack": 245.1123872,
+      "defense": 666.9387585,
+      "specialized": 86.4
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 11124.108310399999,
+      "attack": 247.1672904,
+      "defense": 672.5298720000001,
+      "specialized": 86.4
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 11216.5898836,
+      "attack": 249.22219359999997,
+      "defense": 678.1209855,
+      "specialized": 86.4
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 11310.1105756,
+      "attack": 251.30018559999996,
+      "defense": 683.7749205,
+      "specialized": 86.4
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 11402.5921488,
+      "attack": 253.35508879999998,
+      "defense": 689.366034,
+      "specialized": 86.4
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 11496.112840799999,
+      "attack": 255.43308079999997,
+      "defense": 695.019969,
+      "specialized": 86.4
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11589.633532799999,
+      "attack": 257.51107279999997,
+      "defense": 700.673904,
+      "specialized": 86.4
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11683.1542248,
+      "attack": 259.5890648,
+      "defense": 706.327839,
+      "specialized": 86.4
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11776.6749168,
+      "attack": 261.6670568,
+      "defense": 711.981774,
+      "specialized": 86.4
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 12503.2392088,
+      "attack": 277.8099988,
+      "defense": 755.9082089999999,
+      "specialized": 115.2
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12596.7599008,
+      "attack": 279.8879908,
+      "defense": 761.562144,
+      "specialized": 115.2
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12690.2805928,
+      "attack": 281.9659828,
+      "defense": 767.216079,
+      "specialized": 115.2
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12783.8012848,
+      "attack": 284.0439748,
+      "defense": 772.870014,
+      "specialized": 115.2
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12877.3219768,
+      "attack": 286.1219668,
+      "defense": 778.523949,
+      "specialized": 115.2
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12971.881787600001,
+      "attack": 288.22304760000003,
+      "defense": 784.2407055000001,
+      "specialized": 115.2
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 13065.402479600001,
+      "attack": 290.3010396,
+      "defense": 789.8946405,
+      "specialized": 115.2
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 13159.9622904,
+      "attack": 292.4021204,
+      "defense": 795.611397,
+      "specialized": 115.2
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 13254.522101199998,
+      "attack": 294.5032012,
+      "defense": 801.3281535,
+      "specialized": 115.2
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 13348.0427932,
+      "attack": 296.58119320000003,
+      "defense": 806.9820885,
+      "specialized": 115.2
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3586.4246071999996,
+      "attack": 79.6874602,
+      "defense": 216.823971,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5999.4787716,
+      "attack": 133.3035216,
+      "defense": 362.7097005,
+      "specialized": 28.8
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7746.5314088,
+      "attack": 172.1209518,
+      "defense": 468.331584,
+      "specialized": 57.6
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 9291.9214152,
+      "attack": 206.4578652,
+      "defense": 561.7613610000001,
+      "specialized": 57.6
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10845.624472,
+      "attack": 240.979492,
+      "defense": 655.69371,
+      "specialized": 86.4
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 12409.7185168,
+      "attack": 275.7320068,
+      "defense": 750.254274,
+      "specialized": 115.2
+    }
+  }
+}

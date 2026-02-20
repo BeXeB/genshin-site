@@ -1,0 +1,1693 @@
+{
+  "profile": {
+    "id": 10000035,
+    "name": "Qiqi",
+    "title": "Icy Resurrection",
+    "description": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "weaponText": "Sword",
+    "bodyType": "BODY_LOLI",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "3/3",
+    "birthday": "March 3",
+    "elementType": "ELEMENT_CRYO",
+    "elementText": "Cryo",
+    "affiliation": "Bubu Pharmacy",
+    "associationType": "ASSOC_LIYUE",
+    "region": "Liyue",
+    "substatType": "FIGHT_PROP_HEAL_ADD",
+    "substatText": "Healing Bonus",
+    "constellation": "Pristina Nola",
+    "cv": {
+      "english": "Christie Cate",
+      "chinese": "宴宁",
+      "japanese": "田村ゆかり",
+      "korean": "Lee Seul"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104161,
+          "name": "Shivada Jade Sliver",
+          "count": 1
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 3
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 3
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 2
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 10
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 4
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 20
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 3
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 8
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 30
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 12
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 45
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104164,
+          "name": "Shivada Jade Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 20
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 60
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Qiqi_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png",
+      "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200828/2020082817145380161.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200828/2020082817153781489.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/d696551575bc6c117462563fc92eae6c.png",
+      "filename_icon": "UI_AvatarIcon_Qiqi",
+      "filename_iconCard": "UI_AvatarIcon_Qiqi_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Qiqi",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Qiqi",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Qiqi",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Qiqi.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Qiqi_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Qiqi"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 3501,
+    "name": "Qiqi",
+    "combat1": {
+      "name": "Ancient Sword Art",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}",
+          "Charged Attack DMG|{param6:F1P}+{param6:F1P}",
+          "Charged Attack Stamina Cost|{param7:F1}",
+          "Plunge DMG|{param8:F1P}",
+          "Low/High Plunge DMG|{param9:P}/{param10:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.37754,
+            0.40827,
+            0.439,
+            0.4829,
+            0.51363,
+            0.54875,
+            0.59704,
+            0.64533,
+            0.69362,
+            0.7463,
+            0.79898,
+            0.85166,
+            0.90434,
+            0.95702,
+            1.0097
+          ],
+          "param2": [
+            0.38872,
+            0.42036,
+            0.452,
+            0.4972,
+            0.52884,
+            0.565,
+            0.61472,
+            0.66444,
+            0.71416,
+            0.7684,
+            0.82264,
+            0.87688,
+            0.93112,
+            0.98536,
+            1.0396
+          ],
+          "param3": [
+            0.24166,
+            0.26133,
+            0.281,
+            0.3091,
+            0.32877,
+            0.35125,
+            0.38216,
+            0.41307,
+            0.44398,
+            0.4777,
+            0.51142,
+            0.54514,
+            0.57886,
+            0.61258,
+            0.6463
+          ],
+          "param4": [
+            0.24682,
+            0.26691,
+            0.287,
+            0.3157,
+            0.33579,
+            0.35875,
+            0.39032,
+            0.42189,
+            0.45346,
+            0.4879,
+            0.52234,
+            0.55678,
+            0.59122,
+            0.62566,
+            0.6601
+          ],
+          "param5": [
+            0.63038,
+            0.68169,
+            0.733,
+            0.8063,
+            0.85761,
+            0.91625,
+            0.99688,
+            1.07751,
+            1.15814,
+            1.2461,
+            1.33406,
+            1.42202,
+            1.50998,
+            1.59794,
+            1.6859
+          ],
+          "param6": [
+            0.64328,
+            0.69564,
+            0.748,
+            0.8228,
+            0.87516,
+            0.935,
+            1.01728,
+            1.09956,
+            1.18184,
+            1.2716,
+            1.36136,
+            1.45112,
+            1.54088,
+            1.63064,
+            1.7204
+          ],
+          "param7": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param8": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param9": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param10": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Adeptus Art: Herald of Frost",
+      "descriptionRaw": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\n\n<color=#FFD780FF>Herald of Frost</color>\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\n\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
+      "description": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to surrounding opponents.\n\nHerald of Frost\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing Cryo DMG to opponents in their path.",
+      "flavorText": "I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param8:P}",
+          "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+          "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+          "Herald of Frost DMG|{param5:F1P}",
+          "Duration|{param6:F1}s",
+          "CD|{param7:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.1056,
+            0.11352,
+            0.12144,
+            0.132,
+            0.13992,
+            0.14784,
+            0.1584,
+            0.16896,
+            0.17952,
+            0.19008,
+            0.20064,
+            0.2112,
+            0.2244,
+            0.2376,
+            0.2508
+          ],
+          "param2": [
+            67.40786,
+            74.149574,
+            81.45311,
+            89.31845,
+            97.745605,
+            106.73457,
+            116.28535,
+            126.39793,
+            137.07233,
+            148.30853,
+            160.10654,
+            172.46637,
+            185.388,
+            198.87144,
+            212.9167
+          ],
+          "param3": [
+            0.696,
+            0.7482,
+            0.8004,
+            0.87,
+            0.9222,
+            0.9744,
+            1.044,
+            1.1136,
+            1.1832,
+            1.2528,
+            1.3224,
+            1.392,
+            1.479,
+            1.566,
+            1.653
+          ],
+          "param4": [
+            450.5507,
+            495.612,
+            544.42847,
+            597,
+            653.32666,
+            713.40845,
+            777.2453,
+            844.83734,
+            916.18445,
+            991.2866,
+            1070.1439,
+            1152.7563,
+            1239.1239,
+            1329.2466,
+            1423.1244
+          ],
+          "param5": [
+            0.36,
+            0.387,
+            0.414,
+            0.45,
+            0.477,
+            0.504,
+            0.54,
+            0.576,
+            0.612,
+            0.648,
+            0.684,
+            0.72,
+            0.765,
+            0.81,
+            0.855
+          ],
+          "param6": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param7": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ],
+          "param8": [
+            0.96,
+            1.032,
+            1.104,
+            1.2,
+            1.272,
+            1.344,
+            1.44,
+            1.536,
+            1.632,
+            1.728,
+            1.824,
+            1.92,
+            2.04,
+            2.16,
+            2.28
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Adeptus Art: Preserver of Fortune",
+      "descriptionRaw": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\n<i>— Qiqi does not remember these words.</i>",
+      "description": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals Cryo DMG.\n\nFortune-Preserving Talisman\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.",
+      "flavorText": "\"I am the Fortune Preserver, the Maiden of Resurrection.\"\n— Qiqi does not remember these words.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param3:P}",
+          "Healing|{param1:F1P} ATK+{param2:I}",
+          "Duration|{param4:F1}s",
+          "CD|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.9,
+            0.9675,
+            1.035,
+            1.125,
+            1.1925,
+            1.26,
+            1.35,
+            1.44,
+            1.53,
+            1.62,
+            1.71,
+            1.8,
+            1.9125,
+            2.025,
+            2.1375
+          ],
+          "param2": [
+            577.3388,
+            635.0807,
+            697.63446,
+            765,
+            837.17737,
+            914.16656,
+            995.96765,
+            1082.5804,
+            1174.0051,
+            1270.2417,
+            1371.29,
+            1477.1501,
+            1587.8221,
+            1703.3059,
+            1823.6016
+          ],
+          "param3": [
+            2.848,
+            3.0616,
+            3.2752,
+            3.56,
+            3.7736,
+            3.9872,
+            4.272,
+            4.5568,
+            4.8416,
+            5.1264,
+            5.4112,
+            5.696,
+            6.052,
+            6.408,
+            6.764
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param6": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Life-Prolonging Methods",
+      "descriptionRaw": "When a character under the effects of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
+      "description": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
+    },
+    "passive2": {
+      "name": "A Glimpse Into Arcanum",
+      "descriptionRaw": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
+      "description": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s."
+    },
+    "passive3": {
+      "name": "Former Life Memories",
+      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map.",
+      "description": "Displays the location of nearby resources unique to Liyue on the mini-map."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104310,
+          "name": "Teachings of Prosperity",
+          "count": 3
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 2
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 4
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 6
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 9
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 4
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 4
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 6
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 6
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 12
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 9
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 16
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 12
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_01",
+      "filename_combat2": "Skill_S_Qiqi_01",
+      "filename_combat3": "Skill_E_Qiqi_01_HD",
+      "filename_passive1": "UI_Talent_S_Qiqi_05",
+      "filename_passive2": "UI_Talent_S_Qiqi_06",
+      "filename_passive3": "UI_Talent_Collect_Local_Liyue"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 3501,
+    "name": "Qiqi",
+    "c1": {
+      "name": "Ascetics of Frost",
+      "descriptionRaw": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+      "description": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy."
+    },
+    "c2": {
+      "name": "Frozen to the Bone",
+      "descriptionRaw": "Qiqi's Normal and Charged Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.",
+      "description": "Qiqi's Normal and Charged Attack DMG against opponents affected by Cryo is increased by 15%."
+    },
+    "c3": {
+      "name": "Ascendant Praise",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Adeptus Art: Preserver of Fortune by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Divine Suppression",
+      "descriptionRaw": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+      "description": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%."
+    },
+    "c5": {
+      "name": "Crimson Lotus Bloom",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Adeptus Art: Herald of Frost by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Rite of Resurrection",
+      "descriptionRaw": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins.",
+      "description": "Using Adeptus Art: Preserver of Fortune revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Qiqi_01",
+      "filename_c2": "UI_Talent_S_Qiqi_02",
+      "filename_c3": "UI_Talent_U_Qiqi_01",
+      "filename_c4": "UI_Talent_S_Qiqi_03",
+      "filename_c5": "UI_Talent_U_Qiqi_02",
+      "filename_c6": "UI_Talent_S_Qiqi_04",
+      "filename_constellation": "Eff_UI_Talent_Qiqi"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 962.8532,
+      "attack": 22.344,
+      "defense": 71.796,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1042.7700156,
+      "attack": 24.198552,
+      "defense": 77.75506800000001,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1122.6868312,
+      "attack": 26.053104,
+      "defense": 83.714136,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1203.5665,
+      "attack": 27.93,
+      "defense": 89.745,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1283.4833156,
+      "attack": 29.784552,
+      "defense": 95.704068,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1364.3629844,
+      "attack": 31.661448000000004,
+      "defense": 101.73493200000001,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1444.2798,
+      "attack": 33.516000000000005,
+      "defense": 107.69400000000002,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1525.1594688,
+      "attack": 35.392896,
+      "defense": 113.72486400000001,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1606.0391376,
+      "attack": 37.269792,
+      "defense": 119.755728,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1685.9559531999998,
+      "attack": 39.124344,
+      "defense": 125.714796,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1766.835622,
+      "attack": 41.00124,
+      "defense": 131.74566000000002,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1847.7152908,
+      "attack": 42.878136000000005,
+      "defense": 137.77652400000002,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1928.5949596,
+      "attack": 44.75503200000001,
+      "defense": 143.80738800000003,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2010.4374816000002,
+      "attack": 46.654272000000006,
+      "defense": 149.91004800000002,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2091.3171504,
+      "attack": 48.53116800000001,
+      "defense": 155.94091200000003,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2172.1968192,
+      "attack": 50.408063999999996,
+      "defense": 161.971776,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2254.0393412000003,
+      "attack": 52.30730400000001,
+      "defense": 168.07443600000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2334.91901,
+      "attack": 54.1842,
+      "defense": 174.1053,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2416.761532,
+      "attack": 56.083439999999996,
+      "defense": 180.20796,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2497.6412007999998,
+      "attack": 57.960336,
+      "defense": 186.238824,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3405.0433227999997,
+      "attack": 79.01613599999999,
+      "defense": 253.901484,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3486.8858448,
+      "attack": 80.915376,
+      "defense": 260.004144,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3568.7283668000005,
+      "attack": 82.814616,
+      "defense": 266.106804,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3650.5708888000004,
+      "attack": 84.713856,
+      "defense": 272.209464,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3732.4134108000003,
+      "attack": 86.613096,
+      "defense": 278.31212400000004,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3815.218786,
+      "attack": 88.53468000000001,
+      "defense": 284.48658,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3897.061308,
+      "attack": 90.43392,
+      "defense": 290.58924,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3978.90383,
+      "attack": 92.33316,
+      "defense": 296.69190000000003,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4061.7092052000003,
+      "attack": 94.254744,
+      "defense": 302.86635600000005,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4143.5517272,
+      "attack": 96.15398400000001,
+      "defense": 308.969016,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4226.3571024,
+      "attack": 98.075568,
+      "defense": 315.14347200000003,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4309.1624776,
+      "attack": 99.997152,
+      "defense": 321.317928,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4391.9678528,
+      "attack": 101.91873600000001,
+      "defense": 327.492384,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4473.8103748,
+      "attack": 103.817976,
+      "defense": 333.59504400000003,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4556.61575,
+      "attack": 105.73956,
+      "defense": 339.76950000000005,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4640.3839784,
+      "attack": 107.68348800000001,
+      "defense": 346.015752,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4723.189353600001,
+      "attack": 109.605072,
+      "defense": 352.19020800000004,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4805.9947288,
+      "attack": 111.52665600000002,
+      "defense": 358.36466400000006,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4888.800104,
+      "attack": 113.44824,
+      "defense": 364.53912,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4972.5683324,
+      "attack": 115.39216800000001,
+      "defense": 370.78537200000005,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5641.9555076,
+      "attack": 130.924992,
+      "defense": 420.699828,
+      "specialized": 0.0554
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5725.723736,
+      "attack": 132.86892,
+      "defense": 426.94608000000005,
+      "specialized": 0.0554
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5809.4919644,
+      "attack": 134.812848,
+      "defense": 433.1923320000001,
+      "specialized": 0.0554
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5892.2973396,
+      "attack": 136.734432,
+      "defense": 439.366788,
+      "specialized": 0.0554
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5976.065568,
+      "attack": 138.67836,
+      "defense": 445.61304000000007,
+      "specialized": 0.0554
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6059.8337964,
+      "attack": 140.622288,
+      "defense": 451.85929200000004,
+      "specialized": 0.0554
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6143.6020248,
+      "attack": 142.566216,
+      "defense": 458.105544,
+      "specialized": 0.0554
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6227.370253200001,
+      "attack": 144.51014400000003,
+      "defense": 464.3517960000001,
+      "specialized": 0.0554
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6312.1013348,
+      "attack": 146.47641600000003,
+      "defense": 470.66984400000007,
+      "specialized": 0.0554
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6395.8695632,
+      "attack": 148.420344,
+      "defense": 476.91609600000004,
+      "specialized": 0.0554
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7261.7468916,
+      "attack": 168.512592,
+      "defense": 541.482348,
+      "specialized": 0.1108
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7346.4779732,
+      "attack": 170.47886400000002,
+      "defense": 547.8003960000001,
+      "specialized": 0.1108
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7430.2462016,
+      "attack": 172.422792,
+      "defense": 554.046648,
+      "specialized": 0.1108
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7514.9772832,
+      "attack": 174.389064,
+      "defense": 560.3646960000001,
+      "specialized": 0.1108
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7599.7083648,
+      "attack": 176.355336,
+      "defense": 566.682744,
+      "specialized": 0.1108
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7684.4394464,
+      "attack": 178.321608,
+      "defense": 573.000792,
+      "specialized": 0.1108
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7769.170528000001,
+      "attack": 180.28788,
+      "defense": 579.31884,
+      "specialized": 0.1108
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7853.9016096000005,
+      "attack": 182.254152,
+      "defense": 585.636888,
+      "specialized": 0.1108
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7938.6326912,
+      "attack": 184.220424,
+      "defense": 591.9549360000001,
+      "specialized": 0.1108
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8023.3637728,
+      "attack": 186.186696,
+      "defense": 598.2729840000001,
+      "specialized": 0.1108
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8694.6766544,
+      "attack": 201.764208,
+      "defense": 648.331032,
+      "specialized": 0.1108
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8779.407736000001,
+      "attack": 203.73048,
+      "defense": 654.6490800000001,
+      "specialized": 0.1108
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8865.101670799999,
+      "attack": 205.71909600000004,
+      "defense": 661.0389240000001,
+      "specialized": 0.1108
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8949.832752400001,
+      "attack": 207.68536799999998,
+      "defense": 667.356972,
+      "specialized": 0.1108
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9035.5266872,
+      "attack": 209.67398400000002,
+      "defense": 673.7468160000001,
+      "specialized": 0.1108
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9121.220622,
+      "attack": 211.6626,
+      "defense": 680.1366600000001,
+      "specialized": 0.1108
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9205.9517036,
+      "attack": 213.628872,
+      "defense": 686.454708,
+      "specialized": 0.1108
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9291.6456384,
+      "attack": 215.61748799999998,
+      "defense": 692.844552,
+      "specialized": 0.1108
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9377.339573199999,
+      "attack": 217.60610400000002,
+      "defense": 699.2343960000001,
+      "specialized": 0.1108
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9463.033508,
+      "attack": 219.59472,
+      "defense": 705.6242400000001,
+      "specialized": 0.1108
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10135.3091428,
+      "attack": 235.194576,
+      "defense": 755.754084,
+      "specialized": 0.1662
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10221.965930800001,
+      "attack": 237.205536,
+      "defense": 762.215724,
+      "specialized": 0.1662
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10307.6598656,
+      "attack": 239.194152,
+      "defense": 768.6055680000001,
+      "specialized": 0.1662
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10393.3538004,
+      "attack": 241.182768,
+      "defense": 774.9954120000001,
+      "specialized": 0.1662
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10480.0105884,
+      "attack": 243.193728,
+      "defense": 781.4570520000001,
+      "specialized": 0.1662
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10565.7045232,
+      "attack": 245.182344,
+      "defense": 787.846896,
+      "specialized": 0.1662
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10652.3613112,
+      "attack": 247.193304,
+      "defense": 794.308536,
+      "specialized": 0.1662
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10739.0180992,
+      "attack": 249.204264,
+      "defense": 800.7701760000001,
+      "specialized": 0.1662
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10825.6748872,
+      "attack": 251.215224,
+      "defense": 807.2318160000001,
+      "specialized": 0.1662
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10912.331675200001,
+      "attack": 253.22618400000002,
+      "defense": 813.6934560000001,
+      "specialized": 0.1662
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11585.570263200001,
+      "attack": 268.848384,
+      "defense": 863.895096,
+      "specialized": 0.2215
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11672.2270512,
+      "attack": 270.859344,
+      "defense": 870.356736,
+      "specialized": 0.2215
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11758.8838392,
+      "attack": 272.87030400000003,
+      "defense": 876.818376,
+      "specialized": 0.2215
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 11845.5406272,
+      "attack": 274.881264,
+      "defense": 883.2800159999999,
+      "specialized": 0.2215
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11932.1974152,
+      "attack": 276.892224,
+      "defense": 889.7416559999999,
+      "specialized": 0.2215
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12019.817056400001,
+      "attack": 278.92552800000004,
+      "defense": 896.2750920000001,
+      "specialized": 0.2215
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12106.473844400001,
+      "attack": 280.93648800000005,
+      "defense": 902.7367320000001,
+      "specialized": 0.2215
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12194.0934856,
+      "attack": 282.969792,
+      "defense": 909.270168,
+      "specialized": 0.2215
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12281.7131268,
+      "attack": 285.003096,
+      "defense": 915.803604,
+      "specialized": 0.2215
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12368.369914800001,
+      "attack": 287.01405600000004,
+      "defense": 922.2652440000002,
+      "specialized": 0.2215
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3323.2008008,
+      "attack": 77.116896,
+      "defense": 247.798824,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5559.1501324,
+      "attack": 129.003408,
+      "defense": 414.52537200000006,
+      "specialized": 0.0554
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7177.9786632000005,
+      "attack": 166.568664,
+      "defense": 535.2360960000001,
+      "specialized": 0.1108
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8609.9455728,
+      "attack": 199.797936,
+      "defense": 642.0129840000001,
+      "specialized": 0.1108
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10049.615208000001,
+      "attack": 233.20596,
+      "defense": 749.3642400000001,
+      "specialized": 0.1662
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11498.9134752,
+      "attack": 266.83742400000006,
+      "defense": 857.433456,
+      "specialized": 0.2215
+    }
+  }
+}

@@ -1,0 +1,1702 @@
+{
+  "profile": {
+    "id": 10000093,
+    "name": "Xianyun",
+    "title": "Passerine Herald",
+    "description": "One of the Mighty and Illuminated Adepti of Jueyun, known as \"Cloud Retainer.\" Expert in all kinds of mechanical contraptions, her heart now turns towards the affairs of the mortal world, through which she walks under the name \"Xianyun.\"",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "bodyType": "BODY_LADY",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "4/11",
+    "birthday": "April 11",
+    "elementType": "ELEMENT_ANEMO",
+    "elementText": "Anemo",
+    "affiliation": "Mt. Aocang",
+    "associationType": "ASSOC_LIYUE",
+    "region": "Liyue",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Grus Serena",
+    "cv": {
+      "english": "Stephanie Panisello",
+      "chinese": "秦紫翼",
+      "japanese": "中臣真菜",
+      "korean": "Kang Si-hyun"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104151,
+          "name": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": 101241,
+          "name": "Clearwater Jade",
+          "count": 3
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": 113058,
+          "name": "Cloudseam Scale",
+          "count": 2
+        },
+        {
+          "id": 101241,
+          "name": "Clearwater Jade",
+          "count": 10
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": 113058,
+          "name": "Cloudseam Scale",
+          "count": 4
+        },
+        {
+          "id": 101241,
+          "name": "Clearwater Jade",
+          "count": 20
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": 113058,
+          "name": "Cloudseam Scale",
+          "count": 8
+        },
+        {
+          "id": 101241,
+          "name": "Clearwater Jade",
+          "count": 30
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": 113058,
+          "name": "Cloudseam Scale",
+          "count": 12
+        },
+        {
+          "id": 101241,
+          "name": "Clearwater Jade",
+          "count": 45
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104154,
+          "name": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113058,
+          "name": "Cloudseam Scale",
+          "count": 20
+        },
+        {
+          "id": 101241,
+          "name": "Clearwater Jade",
+          "count": 60
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Liuyun",
+      "filename_iconCard": "UI_AvatarIcon_Liuyun_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Liuyun",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Liuyun",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Liuyun",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liuyun.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Liuyun.png",
+      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/119401/d90148725e88befcb5ab715daff4fb78_7567749653854887214.png",
+      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/119401/5a404ebf56a38044c63b61e0f5078689_5604231276881933270.png",
+      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/2c2be27f8876e9435ab8c8b933b8408c_7973851751945394462.png"
+    },
+    "version": "4.4"
+  },
+  "skills": {
+    "id": 9301,
+    "name": "Xianyun",
+    "combat1": {
+      "name": "Word of Wind and Flower",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nSummons swirling winds to perform up to 4 attacks, dealing <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina and launches a Breeze Bolt in a straight line that deals <color=#80FFD7FF>Anemo DMG</color> to opponents along its path.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nSummons swirling winds to perform up to 4 attacks, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina and launches a Breeze Bolt in a straight line that deals Anemo DMG to opponents along its path.\n\nPlunging Attack\nGathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "Charged Attack DMG|{param5:F1P}",
+          "Charged Attack Stamina Cost|{param6:F1}",
+          "Plunge DMG|{param7:F1P}",
+          "Low/High Plunge DMG|{param8:P}/{param9:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.403024,
+            0.433251,
+            0.463478,
+            0.50378,
+            0.534007,
+            0.564234,
+            0.604536,
+            0.644838,
+            0.685141,
+            0.725443,
+            0.765746,
+            0.806048,
+            0.856426,
+            0.906804,
+            0.957182
+          ],
+          "param2": [
+            0.388552,
+            0.417693,
+            0.446835,
+            0.48569,
+            0.514831,
+            0.543973,
+            0.582828,
+            0.621683,
+            0.660538,
+            0.699394,
+            0.738249,
+            0.777104,
+            0.825673,
+            0.874242,
+            0.922811
+          ],
+          "param3": [
+            0.488776,
+            0.525434,
+            0.562092,
+            0.61097,
+            0.647628,
+            0.684286,
+            0.733164,
+            0.782042,
+            0.830919,
+            0.879797,
+            0.928674,
+            0.977552,
+            1.038649,
+            1.099746,
+            1.160843
+          ],
+          "param4": [
+            0.649168,
+            0.697856,
+            0.746543,
+            0.81146,
+            0.860148,
+            0.908835,
+            0.973752,
+            1.038669,
+            1.103586,
+            1.168502,
+            1.233419,
+            1.298336,
+            1.379482,
+            1.460628,
+            1.541774
+          ],
+          "param5": [
+            1.2312,
+            1.32354,
+            1.41588,
+            1.539,
+            1.63134,
+            1.72368,
+            1.8468,
+            1.96992,
+            2.09304,
+            2.21616,
+            2.33928,
+            2.4624,
+            2.6163,
+            2.7702,
+            2.9241
+          ],
+          "param6": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param7": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param8": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param9": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "White Clouds at Dawn",
+      "descriptionRaw": "Xianyun enters the Cloud Transmogrification state, in which she will not take Fall DMG, and uses Skyladder once.\nIn this state, her Plunging Attack will be converted into Driftcloud Wave instead, which deals <color=#80FFD7FF>AoE Anemo DMG</color> and ends the Cloud Transmogrification state. This DMG is considered Plunging Attack DMG.\nEach use of Skyladder while in this state increases the DMG and AoE of the next Driftcloud Wave used.\n\n<color=#FFD780FF>Skyladder</color>\nCan be used while in mid-air. Xianyun leaps forward, dealing <color=#80FFD7FF>Anemo DMG</color> to targets along her path.\nDuring each Cloud Transmogrification state Xianyun enters, Skyladder may be used up to 3 times and only 1 instance of Skyladder DMG can be dealt to any one opponent.\nIf Skyladder is not used again in a short period, the Cloud Transmogrification state will be canceled.\n\nIf Xianyun does not use Driftcloud Wave while in this state, the next CD of White Clouds at Dawn will be decreased by 3s.\n\n<i>Do not shake Cloud Retainer's hand too tightly; cranes are quite adept at gripping.</i>",
+      "description": "Xianyun enters the Cloud Transmogrification state, in which she will not take Fall DMG, and uses Skyladder once.\nIn this state, her Plunging Attack will be converted into Driftcloud Wave instead, which deals AoE Anemo DMG and ends the Cloud Transmogrification state. This DMG is considered Plunging Attack DMG.\nEach use of Skyladder while in this state increases the DMG and AoE of the next Driftcloud Wave used.\n\nSkyladder\nCan be used while in mid-air. Xianyun leaps forward, dealing Anemo DMG to targets along her path.\nDuring each Cloud Transmogrification state Xianyun enters, Skyladder may be used up to 3 times and only 1 instance of Skyladder DMG can be dealt to any one opponent.\nIf Skyladder is not used again in a short period, the Cloud Transmogrification state will be canceled.\n\nIf Xianyun does not use Driftcloud Wave while in this state, the next CD of White Clouds at Dawn will be decreased by 3s.",
+      "flavorText": "Do not shake Cloud Retainer's hand too tightly; cranes are quite adept at gripping.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F2P}",
+          "Driftcloud Wave DMG|{param2:F1P}/{param3:F1P}/{param4:F1P}",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.248,
+            0.2666,
+            0.2852,
+            0.31,
+            0.3286,
+            0.3472,
+            0.372,
+            0.3968,
+            0.4216,
+            0.4464,
+            0.4712,
+            0.496,
+            0.527,
+            0.558,
+            0.589
+          ],
+          "param2": [
+            1.16,
+            1.247,
+            1.334,
+            1.45,
+            1.537,
+            1.624,
+            1.74,
+            1.856,
+            1.972,
+            2.088,
+            2.204,
+            2.32,
+            2.465,
+            2.61,
+            2.755
+          ],
+          "param3": [
+            1.48,
+            1.591,
+            1.702,
+            1.85,
+            1.961,
+            2.072,
+            2.22,
+            2.368,
+            2.516,
+            2.664,
+            2.812,
+            2.96,
+            3.145,
+            3.33,
+            3.515
+          ],
+          "param4": [
+            3.376,
+            3.6292,
+            3.8824,
+            4.22,
+            4.4732,
+            4.7264,
+            5.064,
+            5.4016,
+            5.7392,
+            6.0768,
+            6.4144,
+            6.752,
+            7.174,
+            7.596,
+            8.018
+          ],
+          "param5": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Stars Gather at Dusk",
+      "descriptionRaw": "Brings forth a sacred breeze that deals <color=#80FFD7FF>AoE Anemo DMG</color> and heals all nearby characters based on Xianyun's ATK. It will also summon the \"Starwicker\" mechanism.\n\n<color=#FFD780FF>Starwicker</color>\n·Continuously follows the active character and periodically heals all nearby party members based on Xianyun's ATK.\n·Starts with 8 stacks of Adeptal Assistance. While Adeptal Assistance is active, nearby active characters in the party will have their jump height increased.\n·When the active character completes a Plunging Attack, Starwicker will consume 1 stack of Adeptal Assistance and deal <color=#80FFD7FF>AoE Anemo DMG</color>.\nOnly 1 Starwicker can exist simultaneously.\n\n<i>This is the newest invention in the \"Lunastar Artifices\" series, of which previous creations include the Supreme Cuisine Machine, the Snowdrift Mechanism, the Supreme Housekeeping Machine, the Floating Toting Device, and the Bloom Pruner. This series was intended for young humans Cloud Retainer held in great esteem, and so was not designed with a certain half-adeptus in mind. However, when offered Starwicker, a certain female disciple of hers had these emotionless words to say: \"No thank you.\"\nCloud Retainer thus had no choice but to keep it herself.</i>",
+      "description": "Brings forth a sacred breeze that deals AoE Anemo DMG and heals all nearby characters based on Xianyun's ATK. It will also summon the \"Starwicker\" mechanism.\n\nStarwicker\n·Continuously follows the active character and periodically heals all nearby party members based on Xianyun's ATK.\n·Starts with 8 stacks of Adeptal Assistance. While Adeptal Assistance is active, nearby active characters in the party will have their jump height increased.\n·When the active character completes a Plunging Attack, Starwicker will consume 1 stack of Adeptal Assistance and deal AoE Anemo DMG.\nOnly 1 Starwicker can exist simultaneously.",
+      "flavorText": "This is the newest invention in the \"Lunastar Artifices\" series, of which previous creations include the Supreme Cuisine Machine, the Snowdrift Mechanism, the Supreme Housekeeping Machine, the Floating Toting Device, and the Bloom Pruner. This series was intended for young humans Cloud Retainer held in great esteem, and so was not designed with a certain half-adeptus in mind. However, when offered Starwicker, a certain female disciple of hers had these emotionless words to say: \"No thank you.\"\nCloud Retainer thus had no choice but to keep it herself.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Starwicker DMG|{param2:F1P}",
+          "Healing|{param4:F1P} ATK+{param3:I}",
+          "Continuous Healing|{param6:F1P} ATK+{param5:I}",
+          "Duration|{param9:F1}s",
+          "CD|{param10:F1}s",
+          "Energy Cost|{param11:I}"
+        ],
+        "parameters": {
+          "param1": [
+            1.08,
+            1.161,
+            1.242,
+            1.35,
+            1.431,
+            1.512,
+            1.62,
+            1.728,
+            1.836,
+            1.944,
+            2.052,
+            2.16,
+            2.295,
+            2.43,
+            2.565
+          ],
+          "param2": [
+            0.392,
+            0.4214,
+            0.4508,
+            0.49,
+            0.5194,
+            0.5488,
+            0.588,
+            0.6272,
+            0.6664,
+            0.7056,
+            0.7448,
+            0.784,
+            0.833,
+            0.882,
+            0.931
+          ],
+          "param3": [
+            577.7816,
+            635.5678,
+            698.1695,
+            765.58673,
+            837.8195,
+            914.86774,
+            996.7315,
+            1083.4108,
+            1174.9056,
+            1271.216,
+            1372.3418,
+            1478.2831,
+            1589.04,
+            1704.6124,
+            1825.0002
+          ],
+          "param4": [
+            0.9216,
+            0.99072,
+            1.05984,
+            1.152,
+            1.22112,
+            1.29024,
+            1.3824,
+            1.47456,
+            1.56672,
+            1.65888,
+            1.75104,
+            1.8432,
+            1.9584,
+            2.0736,
+            2.1888
+          ],
+          "param5": [
+            269.6314,
+            296.59833,
+            325.81244,
+            357.2738,
+            390.98242,
+            426.9383,
+            465.1414,
+            505.5917,
+            548.2893,
+            593.23413,
+            640.42615,
+            689.8655,
+            741.552,
+            795.4858,
+            851.6668
+          ],
+          "param6": [
+            0.43008,
+            0.462336,
+            0.494592,
+            0.5376,
+            0.569856,
+            0.602112,
+            0.64512,
+            0.688128,
+            0.731136,
+            0.774144,
+            0.817152,
+            0.86016,
+            0.91392,
+            0.96768,
+            1.02144
+          ],
+          "param7": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "param8": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "param9": [
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "param10": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param11": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Galefeather Pursuit",
+      "descriptionRaw": "Each opponent hit by Driftcloud Waves from <color=#FFD780FF>White Clouds at Dawn</color> will grant all nearby party members 1 stack of Storm Pinion for 20s. Max 4 stacks. These will cause the characters' Plunging Attack CRIT Rate to increase by 4%/6%/8%/10% respectively.\nEach Storm Pinion created by hitting an opponent has an independent duration.",
+      "description": "Each opponent hit by Driftcloud Waves from White Clouds at Dawn will grant all nearby party members 1 stack of Storm Pinion for 20s. Max 4 stacks. These will cause the characters' Plunging Attack CRIT Rate to increase by 4%/6%/8%/10% respectively.\nEach Storm Pinion created by hitting an opponent has an independent duration."
+    },
+    "passive2": {
+      "name": "Consider, the Adeptus in Her Realm",
+      "descriptionRaw": "When the Starwicker created by <color=#FFD780FF>Stars Gather at Dusk</color> has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG will be increased by 200% of Xianyun's ATK. The maximum DMG increase that can be achieved this way is 9,000.\nEach Plunging Attack shockwave DMG instance can only apply this increased DMG effect to a single opponent. Each character can trigger this effect once every 0.4s.",
+      "description": "When the Starwicker created by Stars Gather at Dusk has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG will be increased by 200% of Xianyun's ATK. The maximum DMG increase that can be achieved this way is 9,000.\nEach Plunging Attack shockwave DMG instance can only apply this increased DMG effect to a single opponent. Each character can trigger this effect once every 0.4s."
+    },
+    "passive3": {
+      "name": "Crane Form",
+      "descriptionRaw": "Increases gliding SPD for your own party members by 15%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "description": "Increases gliding SPD for your own party members by 15%.\nNot stackable with Passive Talents that provide the exact same effects."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104316,
+          "name": "Teachings of Gold",
+          "count": 3
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 2
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 4
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 6
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 9
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 4
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 4
+        },
+        {
+          "id": 113055,
+          "name": "Lightless Eye of the Maelstrom",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 6
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 6
+        },
+        {
+          "id": 113055,
+          "name": "Lightless Eye of the Maelstrom",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 12
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 9
+        },
+        {
+          "id": 113055,
+          "name": "Lightless Eye of the Maelstrom",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 16
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 12
+        },
+        {
+          "id": 113055,
+          "name": "Lightless Eye of the Maelstrom",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Liuyun_01",
+      "filename_combat3": "Skill_E_Liuyun_01_HD",
+      "filename_passive1": "UI_Talent_S_Liuyun_05",
+      "filename_passive2": "UI_Talent_S_Liuyun_06",
+      "filename_passive3": "UI_Talent_S_Liuyun_07"
+    },
+    "version": "4.4"
+  },
+  "constellation": {
+    "id": 9301,
+    "name": "Xianyun",
+    "c1": {
+      "name": "Purifying Wind",
+      "descriptionRaw": "<color=#FFD780FF>White Clouds at Dawn</color> gains 1 additional charge.",
+      "description": "White Clouds at Dawn gains 1 additional charge."
+    },
+    "c2": {
+      "name": "Aloof From the World",
+      "descriptionRaw": "After using a Skyladder from <color=#FFD780FF>White Clouds at Dawn</color>, Xianyun's ATK will be increased by 20% for 15s.\nAdditionally, the effects of the Ascension Talent \"Consider, the Adeptus in Her Realm\" will be enhanced: When the Starwicker created by <color=#FFD780FF>Stars Gather at Dusk</color> has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG will be increased by 400% of Xianyun's ATK. The maximum DMG increase that can be achieved this way is 18,000.\nEach Plunging Attack shockwave DMG instance can only apply this increased DMG effect to a single opponent. Each character can trigger this effect once every 0.4s.\nYou must first unlock the Ascension Talent \"Consider, the Adeptus in Her Realm.\"",
+      "description": "After using a Skyladder from White Clouds at Dawn, Xianyun's ATK will be increased by 20% for 15s.\nAdditionally, the effects of the Ascension Talent \"Consider, the Adeptus in Her Realm\" will be enhanced: When the Starwicker created by Stars Gather at Dusk has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG will be increased by 400% of Xianyun's ATK. The maximum DMG increase that can be achieved this way is 18,000.\nEach Plunging Attack shockwave DMG instance can only apply this increased DMG effect to a single opponent. Each character can trigger this effect once every 0.4s.\nYou must first unlock the Ascension Talent \"Consider, the Adeptus in Her Realm.\""
+    },
+    "c3": {
+      "name": "Creations of Star and Moon",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Stars Gather at Dusk</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Stars Gather at Dusk by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Mystery Millet Gourmet",
+      "descriptionRaw": "After using Skyladder 1/2/3 times during one <color=#FFD780FF>White Clouds at Dawn</color> Cloud Transmogrification state, when a Driftcloud Wave unleashed during that instance hits an opponent, it will heal all nearby party members for 50%/80%/150% of Xianyun's ATK. This effect can be triggered once every 5s.",
+      "description": "After using Skyladder 1/2/3 times during one White Clouds at Dawn Cloud Transmogrification state, when a Driftcloud Wave unleashed during that instance hits an opponent, it will heal all nearby party members for 50%/80%/150% of Xianyun's ATK. This effect can be triggered once every 5s."
+    },
+    "c5": {
+      "name": "Astride Rose-Colored Clouds",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>White Clouds at Dawn</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of White Clouds at Dawn by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "They Call Her Cloud Retainer",
+      "descriptionRaw": "After Xianyun uses 1/2/3 Skyladders within one Cloud Transmogrification caused by <color=#FFD780FF>White Clouds at Dawn</color>, the CRIT DMG of a Driftcloud Wave created in this instance of Cloud Transmogrification will be increased by 15%/35%/70%.\nWithin 16s after Xianyun has used <color=#FFD780FF>Stars Gather at Dusk</color>, White Clouds at Dawn will not enter CD. This effect will be canceled once she has used White Clouds at Dawn 8 times.",
+      "description": "After Xianyun uses 1/2/3 Skyladders within one Cloud Transmogrification caused by White Clouds at Dawn, the CRIT DMG of a Driftcloud Wave created in this instance of Cloud Transmogrification will be increased by 15%/35%/70%.\nWithin 16s after Xianyun has used Stars Gather at Dusk, White Clouds at Dawn will not enter CD. This effect will be canceled once she has used White Clouds at Dawn 8 times."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Liuyun_01",
+      "filename_c2": "UI_Talent_S_Liuyun_02",
+      "filename_c3": "UI_Talent_U_Liuyun_02",
+      "filename_c4": "UI_Talent_S_Liuyun_03",
+      "filename_c5": "UI_Talent_U_Liuyun_01",
+      "filename_c6": "UI_Talent_S_Liuyun_04",
+      "filename_constellation": "Eff_UI_Talent_Liuyun"
+    },
+    "version": "4.4"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 810.322,
+      "attack": 26.068,
+      "defense": 44.57335,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 877.578726,
+      "attack": 28.231644,
+      "defense": 48.27293804999999,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 944.8354519999999,
+      "attack": 30.395288,
+      "defense": 51.972526099999996,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1012.9025,
+      "attack": 32.585,
+      "defense": 55.7166875,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1080.159226,
+      "attack": 34.748644,
+      "defense": 59.416275549999995,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1148.226274,
+      "attack": 36.938356000000006,
+      "defense": 63.16043695,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1215.483,
+      "attack": 39.102000000000004,
+      "defense": 66.860025,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1283.550048,
+      "attack": 41.291712000000004,
+      "defense": 70.6041864,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1351.617096,
+      "attack": 43.481424,
+      "defense": 74.3483478,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1418.873822,
+      "attack": 45.645068,
+      "defense": 78.04793584999999,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1486.94087,
+      "attack": 47.83478,
+      "defense": 81.79209725,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1555.007918,
+      "attack": 50.024492,
+      "defense": 85.53625865,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1623.0749660000001,
+      "attack": 52.214204,
+      "defense": 89.28042005,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1691.952336,
+      "attack": 54.429984000000005,
+      "defense": 93.06915479999999,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1760.0193840000002,
+      "attack": 56.619696000000005,
+      "defense": 96.8133162,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1828.0864319999998,
+      "attack": 58.809408,
+      "defense": 100.55747759999998,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1896.9638020000002,
+      "attack": 61.02518800000001,
+      "defense": 104.34621235,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1965.0308499999999,
+      "attack": 63.2149,
+      "defense": 108.09037374999998,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2033.9082199999998,
+      "attack": 65.43068,
+      "defense": 111.87910849999999,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2101.9752679999997,
+      "attack": 67.620392,
+      "defense": 115.62326989999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2865.630468,
+      "attack": 92.18549200000001,
+      "defense": 157.63050464999998,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2934.507838,
+      "attack": 94.401272,
+      "defense": 161.41923939999998,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3003.385208,
+      "attack": 96.617052,
+      "defense": 165.20797415,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3072.2625780000003,
+      "attack": 98.832832,
+      "defense": 168.99670890000002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3141.139948,
+      "attack": 101.04861200000002,
+      "defense": 172.78544365000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3210.82764,
+      "attack": 103.29046,
+      "defense": 176.61875175,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3279.70501,
+      "attack": 105.50623999999999,
+      "defense": 180.4074865,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3348.58238,
+      "attack": 107.72202000000001,
+      "defense": 184.19622125,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3418.2700720000003,
+      "attack": 109.96386800000002,
+      "defense": 188.02952935000002,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3487.147442,
+      "attack": 112.17964800000001,
+      "defense": 191.8182641,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3556.835134,
+      "attack": 114.42149599999999,
+      "defense": 195.6515722,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3626.522826,
+      "attack": 116.663344,
+      "defense": 199.4848803,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3696.2105180000003,
+      "attack": 118.905192,
+      "defense": 203.3181884,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3765.087888,
+      "attack": 121.120972,
+      "defense": 207.10692315,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3834.77558,
+      "attack": 123.36282,
+      "defense": 210.94023125,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3905.2735940000002,
+      "attack": 125.63073600000001,
+      "defense": 214.8181127,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3974.961286,
+      "attack": 127.87258400000002,
+      "defense": 218.6514208,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4044.648978,
+      "attack": 130.11443200000002,
+      "defense": 222.48472890000002,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4114.33667,
+      "attack": 132.35628,
+      "defense": 226.31803699999998,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4184.834684,
+      "attack": 134.624196,
+      "defense": 230.19591845000002,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4748.180346,
+      "attack": 152.745824,
+      "defense": 261.18447655,
+      "specialized": 0.072
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4818.67836,
+      "attack": 155.01374000000004,
+      "defense": 265.062358,
+      "specialized": 0.072
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4889.176374,
+      "attack": 157.281656,
+      "defense": 268.94023945000004,
+      "specialized": 0.072
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4958.864066,
+      "attack": 159.523504,
+      "defense": 272.77354755,
+      "specialized": 0.072
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5029.36208,
+      "attack": 161.79142000000002,
+      "defense": 276.651429,
+      "specialized": 0.072
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5099.860094,
+      "attack": 164.059336,
+      "defense": 280.52931045,
+      "specialized": 0.072
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5170.358107999999,
+      "attack": 166.327252,
+      "defense": 284.4071919,
+      "specialized": 0.072
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5240.856122,
+      "attack": 168.595168,
+      "defense": 288.28507335,
+      "specialized": 0.072
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5312.164458,
+      "attack": 170.88915200000002,
+      "defense": 292.20752815000003,
+      "specialized": 0.072
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5382.662472,
+      "attack": 173.15706800000004,
+      "defense": 296.0854096,
+      "specialized": 0.072
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6111.371085999999,
+      "attack": 196.598024,
+      "defense": 336.17029104999995,
+      "specialized": 0.144
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6182.679421999999,
+      "attack": 198.892008,
+      "defense": 340.09274585,
+      "specialized": 0.144
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6253.177436,
+      "attack": 201.159924,
+      "defense": 343.97062729999993,
+      "specialized": 0.144
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6324.485772,
+      "attack": 203.453908,
+      "defense": 347.8930821,
+      "specialized": 0.144
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6395.794108,
+      "attack": 205.747892,
+      "defense": 351.8155369,
+      "specialized": 0.144
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6467.102444,
+      "attack": 208.041876,
+      "defense": 355.73799169999995,
+      "specialized": 0.144
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6538.41078,
+      "attack": 210.33586000000003,
+      "defense": 359.66044650000003,
+      "specialized": 0.144
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6609.719116,
+      "attack": 212.62984400000002,
+      "defense": 363.5829013,
+      "specialized": 0.144
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6681.027452,
+      "attack": 214.92382800000001,
+      "defense": 367.5053561,
+      "specialized": 0.144
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6752.335788,
+      "attack": 217.217812,
+      "defense": 371.42781089999994,
+      "specialized": 0.144
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7317.301924000001,
+      "attack": 235.39157600000004,
+      "defense": 402.5055157,
+      "specialized": 0.144
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7388.610260000001,
+      "attack": 237.68556,
+      "defense": 406.4279705,
+      "specialized": 0.144
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7460.728918000001,
+      "attack": 240.00561199999999,
+      "defense": 410.39499865,
+      "specialized": 0.144
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7532.037254000001,
+      "attack": 242.299596,
+      "defense": 414.31745344999996,
+      "specialized": 0.144
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7604.155912,
+      "attack": 244.61964800000004,
+      "defense": 418.2844816,
+      "specialized": 0.144
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7676.27457,
+      "attack": 246.93970000000002,
+      "defense": 422.25150974999997,
+      "specialized": 0.144
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7747.582906,
+      "attack": 249.23368399999998,
+      "defense": 426.17396455,
+      "specialized": 0.144
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7819.701563999999,
+      "attack": 251.55373600000001,
+      "defense": 430.14099269999997,
+      "specialized": 0.144
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7891.820222,
+      "attack": 253.873788,
+      "defense": 434.10802084999995,
+      "specialized": 0.144
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7963.93888,
+      "attack": 256.19384,
+      "defense": 438.075049,
+      "specialized": 0.144
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8529.715538,
+      "attack": 274.39367200000004,
+      "defense": 469.19732715,
+      "specialized": 0.216
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8602.644518000001,
+      "attack": 276.73979199999997,
+      "defense": 473.20892864999996,
+      "specialized": 0.216
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8674.763176,
+      "attack": 279.059844,
+      "defense": 477.1759568,
+      "specialized": 0.216
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8746.881834,
+      "attack": 281.37989600000003,
+      "defense": 481.14298494999997,
+      "specialized": 0.216
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8819.810814,
+      "attack": 283.72601599999996,
+      "defense": 485.15458644999995,
+      "specialized": 0.216
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8891.929472,
+      "attack": 286.046068,
+      "defense": 489.1216146,
+      "specialized": 0.216
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8964.858452,
+      "attack": 288.39218800000003,
+      "defense": 493.13321609999997,
+      "specialized": 0.216
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9037.787432000001,
+      "attack": 290.73830799999996,
+      "defense": 497.1448176,
+      "specialized": 0.216
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 9110.716412000002,
+      "attack": 293.084428,
+      "defense": 501.1564191,
+      "specialized": 0.216
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9183.645392,
+      "attack": 295.43054800000004,
+      "defense": 505.16802060000003,
+      "specialized": 0.216
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9750.232172,
+      "attack": 313.656448,
+      "defense": 536.3348721,
+      "specialized": 0.288
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9823.161152,
+      "attack": 316.002568,
+      "defense": 540.3464736,
+      "specialized": 0.288
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9896.090132,
+      "attack": 318.34868800000004,
+      "defense": 544.3580751,
+      "specialized": 0.288
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9969.019112,
+      "attack": 320.694808,
+      "defense": 548.3696765999999,
+      "specialized": 0.288
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 10041.948091999999,
+      "attack": 323.040928,
+      "defense": 552.3812780999999,
+      "specialized": 0.288
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 10115.687394,
+      "attack": 325.41311600000006,
+      "defense": 556.43745295,
+      "specialized": 0.288
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10188.616374000001,
+      "attack": 327.75923600000004,
+      "defense": 560.4490544500001,
+      "specialized": 0.288
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 10262.355676,
+      "attack": 330.13142400000004,
+      "defense": 564.5052293,
+      "specialized": 0.288
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 10336.094978,
+      "attack": 332.503612,
+      "defense": 568.5614041499999,
+      "specialized": 0.288
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 10409.023958000002,
+      "attack": 334.849732,
+      "defense": 572.57300565,
+      "specialized": 0.288
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2796.7530979999997,
+      "attack": 89.96971199999999,
+      "defense": 153.84176989999997,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4678.492654000001,
+      "attack": 150.50397600000002,
+      "defense": 257.35116845000005,
+      "specialized": 0.072
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6040.873072,
+      "attack": 194.33010800000002,
+      "defense": 332.2924096,
+      "specialized": 0.144
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7245.993587999999,
+      "attack": 233.09759200000002,
+      "defense": 398.58306089999996,
+      "specialized": 0.144
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8457.596880000001,
+      "attack": 272.07362,
+      "defense": 465.230299,
+      "specialized": 0.216
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9677.303192,
+      "attack": 311.310328,
+      "defense": 532.3232706,
+      "specialized": 0.288
+    }
+  }
+}

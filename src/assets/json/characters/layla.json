@@ -1,0 +1,1598 @@
+{
+  "profile": {
+    "id": 10000074,
+    "name": "Layla",
+    "title": "Fantastical Evening Star",
+    "description": "A Rtawahist student who specializes in Theoretical Astrology. Heavily prone to somnambulism and locked in a grinding war with sleep deprivation, the problem of restful slumber is a most troubling one to her.",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "weaponText": "Sword",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "12/19",
+    "birthday": "December 19",
+    "elementType": "ELEMENT_CRYO",
+    "elementText": "Cryo",
+    "affiliation": "Rtawahist",
+    "associationType": "ASSOC_SUMERU",
+    "region": "Sumeru",
+    "substatType": "FIGHT_PROP_HP_PERCENT",
+    "substatText": "HP",
+    "constellation": "Luscinia",
+    "cv": {
+      "english": "Ashely Biski",
+      "chinese": "侯小菲",
+      "japanese": "富田美憂",
+      "korean": "Kang Sae-bom"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104161,
+          "name": "Shivada Jade Sliver",
+          "count": 1
+        },
+        {
+          "id": 101215,
+          "name": "Nilotpala Lotus",
+          "count": 3
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 3
+        },
+        {
+          "id": 113038,
+          "name": "Perpetual Caliber",
+          "count": 2
+        },
+        {
+          "id": 101215,
+          "name": "Nilotpala Lotus",
+          "count": 10
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 6
+        },
+        {
+          "id": 113038,
+          "name": "Perpetual Caliber",
+          "count": 4
+        },
+        {
+          "id": 101215,
+          "name": "Nilotpala Lotus",
+          "count": 20
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 3
+        },
+        {
+          "id": 113038,
+          "name": "Perpetual Caliber",
+          "count": 8
+        },
+        {
+          "id": 101215,
+          "name": "Nilotpala Lotus",
+          "count": 30
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 6
+        },
+        {
+          "id": 113038,
+          "name": "Perpetual Caliber",
+          "count": 12
+        },
+        {
+          "id": 101215,
+          "name": "Nilotpala Lotus",
+          "count": 45
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104164,
+          "name": "Shivada Jade Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113038,
+          "name": "Perpetual Caliber",
+          "count": 20
+        },
+        {
+          "id": 101215,
+          "name": "Nilotpala Lotus",
+          "count": 60
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/11/07/4322a175c30a3480092513ad73a8509a_7999456628883691964.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/11/07/9395372dd45888445540606a7a60ea1d_9133958794497567933.png",
+      "filename_icon": "UI_AvatarIcon_Layla",
+      "filename_iconCard": "UI_AvatarIcon_Layla_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Layla",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Layla",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Layla",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Layla.png",
+      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/15/35428890/48a495acadaf37f12d0a7f653d85bd83_7085430198590697354.png"
+    },
+    "version": "3.2"
+  },
+  "skills": {
+    "id": 7401,
+    "name": "Layla",
+    "combat1": {
+      "name": "Sword of the Radiant Path",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 3 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "Charged Attack DMG|{param4:F1P}+{param5:F1P}",
+          "Charged Attack Stamina Cost|{param6:F1}",
+          "Plunge DMG|{param7:F1P}",
+          "Low/High Plunge DMG|{param8:P}/{param9:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.512173,
+            0.553862,
+            0.59555,
+            0.655105,
+            0.696793,
+            0.744438,
+            0.809948,
+            0.875459,
+            0.940969,
+            1.012435,
+            1.083901,
+            1.155367,
+            1.226833,
+            1.298299,
+            1.369765
+          ],
+          "param2": [
+            0.484834,
+            0.524297,
+            0.56376,
+            0.620136,
+            0.659599,
+            0.7047,
+            0.766714,
+            0.828727,
+            0.890741,
+            0.958392,
+            1.026043,
+            1.093694,
+            1.161346,
+            1.228997,
+            1.296648
+          ],
+          "param3": [
+            0.729736,
+            0.789133,
+            0.84853,
+            0.933383,
+            0.99278,
+            1.060663,
+            1.154001,
+            1.247339,
+            1.340677,
+            1.442501,
+            1.544325,
+            1.646148,
+            1.747972,
+            1.849795,
+            1.951619
+          ],
+          "param4": [
+            0.4773,
+            0.51615,
+            0.555,
+            0.6105,
+            0.64935,
+            0.69375,
+            0.7548,
+            0.81585,
+            0.8769,
+            0.9435,
+            1.0101,
+            1.0767,
+            1.1433,
+            1.2099,
+            1.2765
+          ],
+          "param5": [
+            0.52546,
+            0.56823,
+            0.611,
+            0.6721,
+            0.71487,
+            0.76375,
+            0.83096,
+            0.89817,
+            0.96538,
+            1.0387,
+            1.11202,
+            1.18534,
+            1.25866,
+            1.33198,
+            1.4053
+          ],
+          "param6": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param7": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param8": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param9": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Nights of Formal Focus",
+      "descriptionRaw": "Puts forth a shield known as the Curtain of Slumber, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\nThe Curtain of Slumber's DMG Absorption is based on Layla's Max HP and absorbs <color=#99FFFFFF>Cryo DMG</color> with 250% effectiveness. When the shield is deployed, Layla will have <color=#99FFFFFF>Cryo</color> applied to her briefly.\n\n<color=#FFD780FF>Night Stars and Shooting Stars</color>\nWhile the Curtain of Slumber is active, it will create 1 Night Star that will be attached to it every 1.5s. When a character protected by this shield uses an Elemental Skill, 2 Night Stars will be created. Night Stars can be created once every 0.3s in this way. A maximum of 4 Night Stars can be accumulated at any one time.\nOnce the Curtain of Slumber has accumulated 4 Night Stars and there are opponents nearby, these Night Stars will transform into homing Shooting Stars that will be fired off in sequence, dealing <color=#99FFFFFF>Cryo DMG</color> to any opponents hit.\nIf the Curtain of Slumber's duration ends or it is destroyed, the Night Stars will disappear. If they are already being fired off as Shooting Stars, these Shooting Stars will last until this wave of shots ends.\n\nNew Night Stars cannot be created until the previous wave of Shooting Stars has been fired completely.\n\n<i>\"She and I are like two master artisans who have never met, yet who sit at the same cushioned seat, embroidering the same dream-flower.\"</i>",
+      "description": "Puts forth a shield known as the Curtain of Slumber, dealing AoE Cryo DMG.\nThe Curtain of Slumber's DMG Absorption is based on Layla's Max HP and absorbs Cryo DMG with 250% effectiveness. When the shield is deployed, Layla will have Cryo applied to her briefly.\n\nNight Stars and Shooting Stars\nWhile the Curtain of Slumber is active, it will create 1 Night Star that will be attached to it every 1.5s. When a character protected by this shield uses an Elemental Skill, 2 Night Stars will be created. Night Stars can be created once every 0.3s in this way. A maximum of 4 Night Stars can be accumulated at any one time.\nOnce the Curtain of Slumber has accumulated 4 Night Stars and there are opponents nearby, these Night Stars will transform into homing Shooting Stars that will be fired off in sequence, dealing Cryo DMG to any opponents hit.\nIf the Curtain of Slumber's duration ends or it is destroyed, the Night Stars will disappear. If they are already being fired off as Shooting Stars, these Shooting Stars will last until this wave of shots ends.\n\nNew Night Stars cannot be created until the previous wave of Shooting Stars has been fired completely.",
+      "flavorText": "\"She and I are like two master artisans who have never met, yet who sit at the same cushioned seat, embroidering the same dream-flower.\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Shooting Star DMG|{param2:F1P}",
+          "Base Shield DMG Absorption|{param3:F1P} Max HP+{param4:I}",
+          "Shield Duration|{param5:F1}s",
+          "CD|{param6:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.128,
+            0.1376,
+            0.1472,
+            0.16,
+            0.1696,
+            0.1792,
+            0.192,
+            0.2048,
+            0.2176,
+            0.2304,
+            0.2432,
+            0.256,
+            0.272,
+            0.288,
+            0.304
+          ],
+          "param2": [
+            0.1472,
+            0.15824,
+            0.16928,
+            0.184,
+            0.19504,
+            0.20608,
+            0.2208,
+            0.23552,
+            0.25024,
+            0.26496,
+            0.27968,
+            0.2944,
+            0.3128,
+            0.3312,
+            0.3496
+          ],
+          "param3": [
+            0.108,
+            0.1161,
+            0.1242,
+            0.135,
+            0.1431,
+            0.1512,
+            0.162,
+            0.1728,
+            0.1836,
+            0.1944,
+            0.2052,
+            0.216,
+            0.2295,
+            0.243,
+            0.2565
+          ],
+          "param4": [
+            1040.007,
+            1144.0221,
+            1256.7052,
+            1378.0562,
+            1508.0751,
+            1646.762,
+            1794.1167,
+            1950.1394,
+            2114.83,
+            2288.1887,
+            2470.215,
+            2660.9097,
+            2860.272,
+            3068.3022,
+            3285.0005
+          ],
+          "param5": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param6": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Dream of the Star-Stream Shaker",
+      "descriptionRaw": "Unleashes a Celestial Dreamsphere that constantly fires Starlight Slugs at opponents within its AoE, dealing <color=#99FFFFFF>Cryo DMG</color>.\nWhen a Starlight Slug hits, it will generate 1 Night Star for nearby Curtains of Slumber. Each Curtain of Slumber can gain 1 Night Star this way every 0.5s.\n\n<i>\"Sleep now, sleep now; and may many destinies be revealed before your slumbering eyes, within your star-paved dreams.\"</i>",
+      "description": "Unleashes a Celestial Dreamsphere that constantly fires Starlight Slugs at opponents within its AoE, dealing Cryo DMG.\nWhen a Starlight Slug hits, it will generate 1 Night Star for nearby Curtains of Slumber. Each Curtain of Slumber can gain 1 Night Star this way every 0.5s.",
+      "flavorText": "\"Sleep now, sleep now; and may many destinies be revealed before your slumbering eyes, within your star-paved dreams.\"",
+      "attributes": {
+        "labels": [
+          "Starlight Slug DMG|{param1:F1P} Max HP",
+          "Duration|{param2:F1}s",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.046488,
+            0.049975,
+            0.053461,
+            0.05811,
+            0.061597,
+            0.065083,
+            0.069732,
+            0.074381,
+            0.07903,
+            0.083678,
+            0.088327,
+            0.092976,
+            0.098787,
+            0.104598,
+            0.110409
+          ],
+          "param2": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param3": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param4": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Like Nascent Light",
+      "descriptionRaw": "While the <color=#FFD780FF>Curtain of Slumber</color> is active, the Deep Sleep effect will activate each time the Curtain gains 1 Night Star:\n·The Shield Strength of a character under the effect of the Curtain of Slumber increases by 6%.\n·This effect can have a maximum of 4 stacks and persists until the Curtain of Slumber disappears.",
+      "description": "While the Curtain of Slumber is active, the Deep Sleep effect will activate each time the Curtain gains 1 Night Star:\n·The Shield Strength of a character under the effect of the Curtain of Slumber increases by 6%.\n·This effect can have a maximum of 4 stacks and persists until the Curtain of Slumber disappears."
+    },
+    "passive2": {
+      "name": "Sweet Slumber Undisturbed",
+      "descriptionRaw": "The DMG dealt by the Shooting Stars fired by <color=#FFD780FF>Nights of Formal Focus</color> is increased by 1.5% of Layla's Max HP.",
+      "description": "The DMG dealt by the Shooting Stars fired by Nights of Formal Focus is increased by 1.5% of Layla's Max HP."
+    },
+    "passive3": {
+      "name": "Shadowy Dream-Signs",
+      "descriptionRaw": "When Layla crafts Character Talent Materials, she has a 10% chance to receive double the product.",
+      "description": "When Layla crafts Character Talent Materials, she has a 10% chance to receive double the product."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104332,
+          "name": "Teachings of Ingenuity",
+          "count": 3
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104333,
+          "name": "Guide to Ingenuity",
+          "count": 2
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104333,
+          "name": "Guide to Ingenuity",
+          "count": 4
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104333,
+          "name": "Guide to Ingenuity",
+          "count": 6
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104333,
+          "name": "Guide to Ingenuity",
+          "count": 9
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104334,
+          "name": "Philosophies of Ingenuity",
+          "count": 4
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 4
+        },
+        {
+          "id": 113042,
+          "name": "Mirror of Mushin",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104334,
+          "name": "Philosophies of Ingenuity",
+          "count": 6
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 6
+        },
+        {
+          "id": 113042,
+          "name": "Mirror of Mushin",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104334,
+          "name": "Philosophies of Ingenuity",
+          "count": 12
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 9
+        },
+        {
+          "id": 113042,
+          "name": "Mirror of Mushin",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104334,
+          "name": "Philosophies of Ingenuity",
+          "count": 16
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 12
+        },
+        {
+          "id": 113042,
+          "name": "Mirror of Mushin",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_01",
+      "filename_combat2": "Skill_S_Layla_01",
+      "filename_combat3": "Skill_E_Layla_01_HD",
+      "filename_passive1": "UI_Talent_S_Layla_05",
+      "filename_passive2": "UI_Talent_S_Layla_06",
+      "filename_passive3": "UI_Talent_Eula_Combine"
+    },
+    "version": "3.2"
+  },
+  "constellation": {
+    "id": 7401,
+    "name": "Layla",
+    "c1": {
+      "name": "Fortress of Fantasy",
+      "descriptionRaw": "The Shield Absorption of the Curtain of Slumber generated by <color=#FFD780FF>Nights of Formal Focus</color> is increased by 20%.\nAdditionally, when unleashing Nights of Formal Focus, she will generate a shield for any nearby party members who are not being protected by a Curtain of Slumber. This shield will have 35% of the absorption of a Curtain of Slumber, will last for 12s, and will absorb <color=#99FFFFFF>Cryo DMG</color> with 250% effectiveness.",
+      "description": "The Shield Absorption of the Curtain of Slumber generated by Nights of Formal Focus is increased by 20%.\nAdditionally, when unleashing Nights of Formal Focus, she will generate a shield for any nearby party members who are not being protected by a Curtain of Slumber. This shield will have 35% of the absorption of a Curtain of Slumber, will last for 12s, and will absorb Cryo DMG with 250% effectiveness."
+    },
+    "c2": {
+      "name": "Light's Remit",
+      "descriptionRaw": "When Shooting Stars from <color=#FFD780FF>Nights of Formal Focus</color> strike opponents, they will each restore 1 Energy to Layla. Each Shooting Star can restore Energy to her in this manner once.",
+      "description": "When Shooting Stars from Nights of Formal Focus strike opponents, they will each restore 1 Energy to Layla. Each Shooting Star can restore Energy to her in this manner once."
+    },
+    "c3": {
+      "name": "Secrets of the Night",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Nights of Formal Focus</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Nights of Formal Focus by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Starry Illumination",
+      "descriptionRaw": "When <color=#FFD780FF>Nights of Formal Focus</color> starts to fire off Shooting Stars, it will grant all nearby party members the Dawn Star effect, causing their Normal and Charged Attack DMG to increase based on 5% of Layla's Max HP.\nDawn Star can last up to 3s and will be removed 0.05s after dealing Normal or Charged Attack DMG.",
+      "description": "When Nights of Formal Focus starts to fire off Shooting Stars, it will grant all nearby party members the Dawn Star effect, causing their Normal and Charged Attack DMG to increase based on 5% of Layla's Max HP.\nDawn Star can last up to 3s and will be removed 0.05s after dealing Normal or Charged Attack DMG."
+    },
+    "c5": {
+      "name": "Stream of Consciousness",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Dream of the Star-Stream Shaker</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Dream of the Star-Stream Shaker by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Radiant Soulfire",
+      "descriptionRaw": "Shooting Stars from <color=#FFD780FF>Nights of Formal Focus</color> deal 40% increased DMG, and Starlight Slugs from <color=#FFD780FF>Dream of the Star-Stream Shaker</color> deal 40% increased DMG.\nAdditionally, the interval between the creation of Night Stars via Nights of Formal Focus is decreased by 20%.",
+      "description": "Shooting Stars from Nights of Formal Focus deal 40% increased DMG, and Starlight Slugs from Dream of the Star-Stream Shaker deal 40% increased DMG.\nAdditionally, the interval between the creation of Night Stars via Nights of Formal Focus is decreased by 20%."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Layla_01",
+      "filename_c2": "UI_Talent_S_Layla_02",
+      "filename_c3": "UI_Talent_U_Layla_01",
+      "filename_c4": "UI_Talent_S_Layla_03",
+      "filename_c5": "UI_Talent_U_Layla_02",
+      "filename_c6": "UI_Talent_S_Layla_04",
+      "filename_constellation": "Eff_UI_Talent_Layla"
+    },
+    "version": "3.2"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 930.0268,
+      "attack": 18.16416,
+      "defense": 54.936,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1007.2190244,
+      "attack": 19.671785279999998,
+      "defense": 59.495688,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1083.4812220000001,
+      "attack": 21.1612464,
+      "defense": 64.00044,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1160.6734463999999,
+      "attack": 22.66887168,
+      "defense": 68.560128,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1236.9356440000001,
+      "attack": 24.1583328,
+      "defense": 73.06488,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1314.1278684,
+      "attack": 25.66595808,
+      "defense": 77.624568,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1390.3900660000002,
+      "attack": 27.1554192,
+      "defense": 82.12932,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1467.5822904,
+      "attack": 28.66304448,
+      "defense": 86.689008,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1544.7745148,
+      "attack": 30.17066976,
+      "defense": 91.248696,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1621.0367124000002,
+      "attack": 31.66013088,
+      "defense": 95.753448,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1698.2289368,
+      "attack": 33.167756159999996,
+      "defense": 100.313136,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1774.4911344,
+      "attack": 34.65721728,
+      "defense": 104.817888,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1851.6833588,
+      "attack": 36.16484256,
+      "defense": 109.377576,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1927.9455564,
+      "attack": 37.65430368,
+      "defense": 113.882328,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2005.1377808,
+      "attack": 39.16192896,
+      "defense": 118.44201600000001,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2082.3300052,
+      "attack": 40.66955424,
+      "defense": 123.00170399999999,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2158.5922028,
+      "attack": 42.15901536,
+      "defense": 127.50645600000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2235.7844271999998,
+      "attack": 43.66664064,
+      "defense": 132.066144,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2312.0466248000002,
+      "attack": 45.15610176,
+      "defense": 136.570896,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2389.2388492,
+      "attack": 46.66372704,
+      "defense": 141.130584,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3160.2786967999996,
+      "attack": 61.72306415999999,
+      "defense": 186.675336,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3237.4709212,
+      "attack": 63.23068944,
+      "defense": 191.23502399999998,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3314.6631456,
+      "attack": 64.73831472,
+      "defense": 195.794712,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3390.9253432,
+      "attack": 66.22777583999999,
+      "defense": 200.299464,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3468.1175676000003,
+      "attack": 67.73540112,
+      "defense": 204.859152,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3544.3797652,
+      "attack": 69.22486224,
+      "defense": 209.363904,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3621.5719895999996,
+      "attack": 70.73248751999999,
+      "defense": 213.92359199999999,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3697.8341872,
+      "attack": 72.22194864,
+      "defense": 218.428344,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3775.0264116,
+      "attack": 73.72957391999999,
+      "defense": 222.98803199999998,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3851.2886092,
+      "attack": 75.21903504,
+      "defense": 227.492784,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3928.4808335999996,
+      "attack": 76.72666032,
+      "defense": 232.052472,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4005.673058,
+      "attack": 78.23428559999999,
+      "defense": 236.61216,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4081.9352556,
+      "attack": 79.72374672000001,
+      "defense": 241.11691199999999,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4159.12748,
+      "attack": 81.231372,
+      "defense": 245.6766,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4235.3896776,
+      "attack": 82.72083312000001,
+      "defense": 250.18135199999998,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4312.581902,
+      "attack": 84.2284584,
+      "defense": 254.74104,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4388.8440996,
+      "attack": 85.71791952000001,
+      "defense": 259.245792,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4466.036324,
+      "attack": 87.2255448,
+      "defense": 263.80548,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4543.2285484,
+      "attack": 88.73317008000001,
+      "defense": 268.365168,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4619.4907459999995,
+      "attack": 90.2226312,
+      "defense": 272.86992,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5190.3407204,
+      "attack": 101.37201048,
+      "defense": 306.589608,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5266.602918,
+      "attack": 102.86147159999999,
+      "defense": 311.09436,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5343.7951424,
+      "attack": 104.36909688,
+      "defense": 315.654048,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5420.05734,
+      "attack": 105.85855799999999,
+      "defense": 320.1588,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5497.2495644,
+      "attack": 107.36618328,
+      "defense": 324.718488,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5574.441788800001,
+      "attack": 108.87380856,
+      "defense": 329.278176,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5650.7039864,
+      "attack": 110.36326968,
+      "defense": 333.78292799999997,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5727.8962108000005,
+      "attack": 111.87089496,
+      "defense": 338.342616,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5804.158408400001,
+      "attack": 113.36035608,
+      "defense": 342.847368,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5881.3506328,
+      "attack": 114.86798136,
+      "defense": 347.407056,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6615.8233304000005,
+      "attack": 129.21311548,
+      "defense": 390.791808,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6693.0155548,
+      "attack": 130.72074076,
+      "defense": 395.351496,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6770.2077792,
+      "attack": 132.22836604,
+      "defense": 399.91118399999993,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6846.469976800001,
+      "attack": 133.71782716,
+      "defense": 404.415936,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6923.662201199999,
+      "attack": 135.22545244,
+      "defense": 408.975624,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6999.9243988,
+      "attack": 136.71491356,
+      "defense": 413.480376,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7077.1166232,
+      "attack": 138.22253884,
+      "defense": 418.040064,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7153.3788208000005,
+      "attack": 139.71199996,
+      "defense": 422.544816,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7230.5710452,
+      "attack": 141.21962524,
+      "defense": 427.10450399999996,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7307.7632696,
+      "attack": 142.72725051999998,
+      "defense": 431.66419199999996,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7877.6832672,
+      "attack": 153.85846564,
+      "defense": 465.328944,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7954.8754916,
+      "attack": 155.36609091999998,
+      "defense": 469.88863200000003,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8031.137689199999,
+      "attack": 156.85555204,
+      "defense": 474.39338399999997,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8108.3299136000005,
+      "attack": 158.36317731999998,
+      "defense": 478.953072,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8184.5921112,
+      "attack": 159.85263844,
+      "defense": 483.457824,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8261.7843356,
+      "attack": 161.36026371999998,
+      "defense": 488.017512,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8338.97656,
+      "attack": 162.867889,
+      "defense": 492.5772,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 8415.2387576,
+      "attack": 164.35735011999998,
+      "defense": 497.081952,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 8492.430982,
+      "attack": 165.8649754,
+      "defense": 501.64164,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 8568.693179599999,
+      "attack": 167.35443651999998,
+      "defense": 506.146392,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9139.543104,
+      "attack": 178.5038148,
+      "defense": 539.86608,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 9215.805301600001,
+      "attack": 179.99327592,
+      "defense": 544.3708320000001,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 9292.997526,
+      "attack": 181.5009012,
+      "defense": 548.93052,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 9370.1897504,
+      "attack": 183.00852648,
+      "defense": 553.4902079999999,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 9446.451948,
+      "attack": 184.4979876,
+      "defense": 557.99496,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 9523.6441724,
+      "attack": 186.00561287999997,
+      "defense": 562.5546479999999,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 9599.90637,
+      "attack": 187.495074,
+      "defense": 567.0594,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9677.098594399999,
+      "attack": 189.00269927999997,
+      "defense": 571.619088,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 9753.360792,
+      "attack": 190.4921604,
+      "defense": 576.12384,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9830.5530164,
+      "attack": 191.99978567999997,
+      "defense": 580.683528,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 10401.4032408,
+      "attack": 203.14916096,
+      "defense": 614.4032159999999,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 10477.6654384,
+      "attack": 204.63862207999998,
+      "defense": 618.907968,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 10554.8576628,
+      "attack": 206.14624736,
+      "defense": 623.467656,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 10631.1198604,
+      "attack": 207.63570847999998,
+      "defense": 627.972408,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 10708.3120848,
+      "attack": 209.14333376,
+      "defense": 632.532096,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 10784.5742824,
+      "attack": 210.63279488,
+      "defense": 637.036848,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10861.7665068,
+      "attack": 212.14042016,
+      "defense": 641.596536,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 10938.0287044,
+      "attack": 213.62988127999998,
+      "defense": 646.1012880000001,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 11015.2209288,
+      "attack": 215.13750656,
+      "defense": 650.660976,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11092.4131532,
+      "attack": 216.64513184,
+      "defense": 655.2206639999999,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3084.0164992,
+      "attack": 60.23360304,
+      "defense": 182.170584,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5113.148496,
+      "attack": 99.86438519999999,
+      "defense": 302.02992,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6539.5611327999995,
+      "attack": 127.72365436000001,
+      "defense": 386.287056,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7801.421069599999,
+      "attack": 152.36900451999998,
+      "defense": 460.824192,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9062.350879599999,
+      "attack": 176.99618952,
+      "defense": 535.306392,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10324.211016399999,
+      "attack": 201.64153567999998,
+      "defense": 609.843528,
+      "specialized": 0.24
+    }
+  }
+}

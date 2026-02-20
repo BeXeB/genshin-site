@@ -1,0 +1,1909 @@
+{
+  "profile": {
+    "id": 10000033,
+    "name": "Tartaglia",
+    "title": "Childe",
+    "description": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_MALE",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "7/20",
+    "birthday": "July 20",
+    "elementType": "ELEMENT_HYDRO",
+    "elementText": "Hydro",
+    "affiliation": "Fatui",
+    "associationType": "ASSOC_FATUI",
+    "region": "Snezhnaya",
+    "substatType": "FIGHT_PROP_WATER_ADD_HURT",
+    "substatText": "Hydro DMG Bonus",
+    "constellation": "Monoceros Caeli",
+    "cv": {
+      "english": "Griffin Burns",
+      "chinese": "鱼冻",
+      "japanese": "木村良平",
+      "korean": "Nam Do-hyeong"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104121,
+          "name": "Varunada Lazurite Sliver",
+          "count": 1
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 3
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 3
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 2
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 10
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 6
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 4
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 20
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 3
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 8
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 30
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 6
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 12
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 45
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104124,
+          "name": "Varunada Lazurite Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 20
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 60
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Tartaglia_Card.png",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Character_Tartaglia_Portrait.png",
+      "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201103/2020110321160453386.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201103/2020110321234137061.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/34ebaeb164a8b447dbe52afaae3e1f63.png",
+      "filename_icon": "UI_AvatarIcon_Tartaglia",
+      "filename_iconCard": "UI_AvatarIcon_Tartaglia_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Tartaglia",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Tartaglia",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Tartaglia",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Tartaglia.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Tartaglia_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Tartaglia"
+    },
+    "version": "1.1"
+  },
+  "skills": {
+    "id": 3301,
+    "name": "Tartaglia",
+    "combat1": {
+      "name": "Cutting Torrent",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal <color=#80C0FFFF>Hydro DMG</color> and apply the Riptide status.\n\n<color=#FFD780FF>Riptide</color>\nOpponents affected by Riptide will suffer from <color=#80C0FFFF>AoE Hydro DMG</color> effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\n·Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\n·Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
+      "description": "Normal Attack\nPerforms up to 6 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal Hydro DMG and apply the Riptide status.\n\nRiptide\nOpponents affected by Riptide will suffer from AoE Hydro DMG effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\n·Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\n·Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}",
+          "6-Hit DMG|{param6:F1P}",
+          "Aimed Shot|{param7:F1P}",
+          "Fully-Charged Aimed Shot|{param8:P}",
+          "Riptide Flash DMG|{param9:F1P}×3",
+          "Riptide Burst DMG|{param10:F1P}",
+          "Riptide Duration|{param14:F1}s",
+          "Plunge DMG|{param11:F1P}",
+          "Low/High Plunge DMG|{param12:P}/{param13:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.4128,
+            0.4464,
+            0.48,
+            0.528,
+            0.5616,
+            0.6,
+            0.6528,
+            0.7056,
+            0.7584,
+            0.816,
+            0.8736,
+            0.9312,
+            0.9888,
+            1.0464,
+            1.104
+          ],
+          "param2": [
+            0.46268,
+            0.50034,
+            0.538,
+            0.5918,
+            0.62946,
+            0.6725,
+            0.73168,
+            0.79086,
+            0.85004,
+            0.9146,
+            0.97916,
+            1.04372,
+            1.10828,
+            1.17284,
+            1.2374
+          ],
+          "param3": [
+            0.55384,
+            0.59892,
+            0.644,
+            0.7084,
+            0.75348,
+            0.805,
+            0.87584,
+            0.94668,
+            1.01752,
+            1.0948,
+            1.17208,
+            1.24936,
+            1.32664,
+            1.40392,
+            1.4812
+          ],
+          "param4": [
+            0.57018,
+            0.61659,
+            0.663,
+            0.7293,
+            0.77571,
+            0.82875,
+            0.90168,
+            0.97461,
+            1.04754,
+            1.1271,
+            1.20666,
+            1.28622,
+            1.36578,
+            1.44534,
+            1.5249
+          ],
+          "param5": [
+            0.60888,
+            0.65844,
+            0.708,
+            0.7788,
+            0.82836,
+            0.885,
+            0.96288,
+            1.04076,
+            1.11864,
+            1.2036,
+            1.28856,
+            1.37352,
+            1.45848,
+            1.54344,
+            1.6284
+          ],
+          "param6": [
+            0.72756,
+            0.78678,
+            0.846,
+            0.9306,
+            0.98982,
+            1.0575,
+            1.15056,
+            1.24362,
+            1.33668,
+            1.4382,
+            1.53972,
+            1.64124,
+            1.74276,
+            1.84428,
+            1.9458
+          ],
+          "param7": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.9282,
+            0.9894,
+            1.0506,
+            1.1118,
+            1.173
+          ],
+          "param8": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.356,
+            2.48,
+            2.635,
+            2.79,
+            2.945
+          ],
+          "param9": [
+            0.124,
+            0.1333,
+            0.1426,
+            0.155,
+            0.1643,
+            0.1736,
+            0.186,
+            0.1984,
+            0.2108,
+            0.2232,
+            0.2356,
+            0.248,
+            0.2635,
+            0.279,
+            0.2945
+          ],
+          "param10": [
+            0.62,
+            0.6665,
+            0.713,
+            0.775,
+            0.8215,
+            0.868,
+            0.93,
+            0.992,
+            1.054,
+            1.116,
+            1.178,
+            1.24,
+            1.3175,
+            1.395,
+            1.4725
+          ],
+          "param11": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param12": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param13": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ],
+          "param14": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Foul Legacy: Raging Tide",
+      "descriptionRaw": "Unleashes a set of weaponry made of pure water, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and entering Melee Stance.\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to <color=#80C0FFFF>Hydro DMG</color> that cannot be overridden by any other elemental infusion and change as follows:\n\n<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive <color=#80C0FFFF>Hydro</color> strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash a cross slash, dealing <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Riptide Slash</color>\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals <color=#80C0FFFF>AoE Hydro DMG</color>. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\n\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.\nIf the return to a ranged stance occurs automatically after 30s, the CD is even longer.\n\n<i>He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...</i>",
+      "description": "Unleashes a set of weaponry made of pure water, dealing Hydro DMG to surrounding opponents and entering Melee Stance.\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to Hydro DMG that cannot be overridden by any other elemental infusion and change as follows:\n\nNormal Attack\nPerforms up to 6 consecutive Hydro strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash a cross slash, dealing Hydro DMG.\n\nRiptide Slash\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals AoE Hydro DMG. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\n\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.\nIf the return to a ranged stance occurs automatically after 30s, the CD is even longer.",
+      "flavorText": "He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...",
+      "attributes": {
+        "labels": [
+          "Stance Change DMG|{param1:P}",
+          "1-Hit DMG|{param2:F1P}",
+          "2-Hit DMG|{param3:F1P}",
+          "3-Hit DMG|{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "5-Hit DMG|{param6:F1P}",
+          "6-Hit DMG|{param7:F1P}+{param8:F1P}",
+          "Charged Attack DMG|{param9:F1P}+{param10:F1P}",
+          "Charged Attack Stamina Cost|{param12:F1}",
+          "Riptide Slash|{param11:P}",
+          "Max Duration|{param13:F1}s",
+          "Preemptive CD|{param14:F1}-{param15:F1}s",
+          "Max CD|{param16:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.72,
+            0.774,
+            0.828,
+            0.9,
+            0.954,
+            1.008,
+            1.08,
+            1.152,
+            1.224,
+            1.296,
+            1.368,
+            1.44,
+            1.53,
+            1.62,
+            1.71
+          ],
+          "param2": [
+            0.38872,
+            0.42036,
+            0.452,
+            0.4972,
+            0.52884,
+            0.565,
+            0.61472,
+            0.66444,
+            0.71416,
+            0.7684,
+            0.82264,
+            0.87688,
+            0.93112,
+            0.98536,
+            1.0396
+          ],
+          "param3": [
+            0.41624,
+            0.45012,
+            0.484,
+            0.5324,
+            0.56628,
+            0.605,
+            0.65824,
+            0.71148,
+            0.76472,
+            0.8228,
+            0.88088,
+            0.93896,
+            0.99704,
+            1.05512,
+            1.1132
+          ],
+          "param4": [
+            0.5633,
+            0.60915,
+            0.655,
+            0.7205,
+            0.76635,
+            0.81875,
+            0.8908,
+            0.96285,
+            1.0349,
+            1.1135,
+            1.1921,
+            1.2707,
+            1.3493,
+            1.4279,
+            1.5065
+          ],
+          "param5": [
+            0.59942,
+            0.64821,
+            0.697,
+            0.7667,
+            0.81549,
+            0.87125,
+            0.94792,
+            1.02459,
+            1.10126,
+            1.1849,
+            1.26854,
+            1.35218,
+            1.43582,
+            1.51946,
+            1.6031
+          ],
+          "param6": [
+            0.55298,
+            0.59799,
+            0.643,
+            0.7073,
+            0.75231,
+            0.80375,
+            0.87448,
+            0.94521,
+            1.01594,
+            1.0931,
+            1.17026,
+            1.24742,
+            1.32458,
+            1.40174,
+            1.4789
+          ],
+          "param7": [
+            0.35432,
+            0.38316,
+            0.412,
+            0.4532,
+            0.48204,
+            0.515,
+            0.56032,
+            0.60564,
+            0.65096,
+            0.7004,
+            0.74984,
+            0.79928,
+            0.84872,
+            0.89816,
+            0.9476
+          ],
+          "param8": [
+            0.37668,
+            0.40734,
+            0.438,
+            0.4818,
+            0.51246,
+            0.5475,
+            0.59568,
+            0.64386,
+            0.69204,
+            0.7446,
+            0.79716,
+            0.84972,
+            0.90228,
+            0.95484,
+            1.0074
+          ],
+          "param9": [
+            0.602,
+            0.651,
+            0.7,
+            0.77,
+            0.819,
+            0.875,
+            0.952,
+            1.029,
+            1.106,
+            1.19,
+            1.274,
+            1.358,
+            1.442,
+            1.526,
+            1.61
+          ],
+          "param10": [
+            0.71982,
+            0.77841,
+            0.837,
+            0.9207,
+            0.97929,
+            1.04625,
+            1.13832,
+            1.23039,
+            1.32246,
+            1.4229,
+            1.52334,
+            1.62378,
+            1.72422,
+            1.82466,
+            1.9251
+          ],
+          "param11": [
+            0.602,
+            0.651,
+            0.7,
+            0.77,
+            0.819,
+            0.875,
+            0.952,
+            1.029,
+            1.106,
+            1.19,
+            1.274,
+            1.358,
+            1.442,
+            1.526,
+            1.61
+          ],
+          "param12": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param13": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ],
+          "param14": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param15": [
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36
+          ],
+          "param16": [
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Havoc: Obliteration",
+      "descriptionRaw": "Performs different attacks based on what stance Tartaglia is in when casting.\n\n<color=#FFD780FF>Ranged Stance: Flash of Havoc</color>\nSwiftly fires a Hydro-imbued magic arrow, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and applying the Riptide status.\nReturns a portion of its Energy Cost after use.\n\n<color=#FFD780FF>Melee Stance: Light of Obliteration</color>\nPerforms a slash with a large AoE, dealing massive <color=#80C0FFFF>Hydro DMG</color> to all surrounding opponents, which triggers Riptide Blast.\n\n<color=#FFD780FF>Riptide Blast</color>\nWhen the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals <color=#80C0FFFF>AoE Hydro DMG</color>.\nDMG dealt in this way is considered Elemental Burst DMG.\n\n<i>Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is.</i>",
+      "description": "Performs different attacks based on what stance Tartaglia is in when casting.\n\nRanged Stance: Flash of Havoc\nSwiftly fires a Hydro-imbued magic arrow, dealing AoE Hydro DMG and applying the Riptide status.\nReturns a portion of its Energy Cost after use.\n\nMelee Stance: Light of Obliteration\nPerforms a slash with a large AoE, dealing massive Hydro DMG to all surrounding opponents, which triggers Riptide Blast.\n\nRiptide Blast\nWhen the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals AoE Hydro DMG.\nDMG dealt in this way is considered Elemental Burst DMG.",
+      "flavorText": "Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is.",
+      "attributes": {
+        "labels": [
+          "Skill DMG: Melee|{param1:P}",
+          "Skill DMG: Ranged|{param3:P}",
+          "Riptide Blast DMG|{param2:P}",
+          "Energy Return (Ranged)|{param4:I}",
+          "CD|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            4.64,
+            4.988,
+            5.336,
+            5.8,
+            6.148,
+            6.496,
+            6.96,
+            7.424,
+            7.888,
+            8.352,
+            8.816,
+            9.28,
+            9.86,
+            10.44,
+            11.02
+          ],
+          "param2": [
+            1.2,
+            1.29,
+            1.38,
+            1.5,
+            1.59,
+            1.68,
+            1.8,
+            1.92,
+            2.04,
+            2.16,
+            2.28,
+            2.4,
+            2.55,
+            2.7,
+            2.85
+          ],
+          "param3": [
+            3.784,
+            4.0678,
+            4.3516,
+            4.73,
+            5.0138,
+            5.2976,
+            5.676,
+            6.0544,
+            6.4328,
+            6.8112,
+            7.1896,
+            7.568,
+            8.041,
+            8.514,
+            8.987
+          ],
+          "param4": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Never Ending",
+      "descriptionRaw": "Extends Riptide duration by 8s.",
+      "description": "Extends Riptide duration by 8s."
+    },
+    "passive2": {
+      "name": "Sword of Torrents",
+      "descriptionRaw": "When Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effect to opponents.",
+      "description": "When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effect to opponents."
+    },
+    "passive3": {
+      "name": "Master of Weaponry",
+      "descriptionRaw": "Increases your own party members' <color=#FFD780FF>Normal Attack</color> Level by 1.",
+      "description": "Increases your own party members' Normal Attack Level by 1."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104301,
+          "name": "Teachings of Freedom",
+          "count": 3
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 2
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 4
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 6
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 9
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 4
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 4
+        },
+        {
+          "id": 113014,
+          "name": "Shard of a Foul Legacy",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 6
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 6
+        },
+        {
+          "id": 113014,
+          "name": "Shard of a Foul Legacy",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 12
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 9
+        },
+        {
+          "id": 113014,
+          "name": "Shard of a Foul Legacy",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 16
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 12
+        },
+        {
+          "id": 113014,
+          "name": "Shard of a Foul Legacy",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Tartaglia_01",
+      "filename_combat3": "Skill_E_Tartaglia_01_HD",
+      "filename_passive1": "UI_Talent_S_Tartaglia_03",
+      "filename_passive2": "UI_Talent_S_Tartaglia_06",
+      "filename_passive3": "UI_Talent_S_Tartaglia_07"
+    },
+    "version": "1.1"
+  },
+  "constellation": {
+    "id": 3301,
+    "name": "Tartaglia",
+    "c1": {
+      "name": "Foul Legacy: Tide Withholder",
+      "descriptionRaw": "Decreases the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 20%.",
+      "description": "Decreases the CD of Foul Legacy: Raging Tide by 20%."
+    },
+    "c2": {
+      "name": "Foul Legacy: Understream",
+      "descriptionRaw": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy.",
+      "description": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy."
+    },
+    "c3": {
+      "name": "Abyssal Mayhem: Vortex of Turmoil",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Foul Legacy: Raging Tide by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Abyssal Mayhem: Hydrospout",
+      "descriptionRaw": "If Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash.\nRiptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals.",
+      "description": "If Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash.\nRiptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals."
+    },
+    "c5": {
+      "name": "Havoc: Formless Blade",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Havoc: Obliteration</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Havoc: Obliteration by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Havoc: Annihilation",
+      "descriptionRaw": "When <color=#FFD780FF>Havoc: Obliteration</color> is cast in Melee Stance, the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> is reset.\nThis effect will only take place once Tartaglia returns to his Ranged Stance.",
+      "description": "When Havoc: Obliteration is cast in Melee Stance, the CD of Foul Legacy: Raging Tide is reset.\nThis effect will only take place once Tartaglia returns to his Ranged Stance."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Tartaglia_01",
+      "filename_c2": "UI_Talent_S_Tartaglia_02",
+      "filename_c3": "UI_Talent_U_Tartaglia_01",
+      "filename_c4": "UI_Talent_S_Tartaglia_05",
+      "filename_c5": "UI_Talent_U_Tartaglia_02",
+      "filename_c6": "UI_Talent_S_Tartaglia_04",
+      "filename_constellation": "Eff_UI_Talent_Tartaglia"
+    },
+    "version": "1.1"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1020.0524,
+      "attack": 23.4612,
+      "defense": 63.4198,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1104.7167492,
+      "attack": 25.4084796,
+      "defense": 68.6836434,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1189.3810984,
+      "attack": 27.3557592,
+      "defense": 73.9474868,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1275.0655000000002,
+      "attack": 29.326500000000003,
+      "defense": 79.27475,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1359.7298492,
+      "attack": 31.2737796,
+      "defense": 84.5385934,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1445.4142508,
+      "attack": 33.244520400000006,
+      "defense": 89.8658566,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1530.0786,
+      "attack": 35.1918,
+      "defense": 95.1297,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1615.7630016,
+      "attack": 37.1625408,
+      "defense": 100.4569632,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1701.4474032,
+      "attack": 39.133281600000004,
+      "defense": 105.7842264,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1786.1117524,
+      "attack": 41.0805612,
+      "defense": 111.0480698,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1871.7961540000001,
+      "attack": 43.051302,
+      "defense": 116.375333,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1957.4805556000001,
+      "attack": 45.0220428,
+      "defense": 121.7025962,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2043.1649572000001,
+      "attack": 46.9927836,
+      "defense": 127.0298594,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2129.8694112000003,
+      "attack": 48.986985600000004,
+      "defense": 132.42054240000002,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2215.5538128000003,
+      "attack": 50.957726400000006,
+      "defense": 137.74780560000002,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2301.2382144,
+      "attack": 52.9284672,
+      "defense": 143.0750688,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2387.9426684000005,
+      "attack": 54.92266920000001,
+      "defense": 148.46575180000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2473.62707,
+      "attack": 56.89341,
+      "defense": 153.793015,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2560.3315239999997,
+      "attack": 58.887612,
+      "defense": 159.183698,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2646.0159256,
+      "attack": 60.8583528,
+      "defense": 164.5109612,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3607.3230796,
+      "attack": 82.9669428,
+      "defense": 224.2796442,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3694.0275336,
+      "attack": 84.9611448,
+      "defense": 229.67032719999997,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3780.7319876,
+      "attack": 86.95534680000002,
+      "defense": 235.0610102,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3867.4364416000003,
+      "attack": 88.94954880000002,
+      "defense": 240.45169320000002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3954.1408956,
+      "attack": 90.94375080000002,
+      "defense": 245.8423762,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 4041.865402,
+      "attack": 92.961414,
+      "defense": 251.29647900000003,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4128.569856,
+      "attack": 94.955616,
+      "defense": 256.687162,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4215.27431,
+      "attack": 96.94981800000001,
+      "defense": 262.077845,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4302.998816400001,
+      "attack": 98.96748120000001,
+      "defense": 267.5319478,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4389.7032704,
+      "attack": 100.96168320000001,
+      "defense": 272.92263080000004,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4477.4277768,
+      "attack": 102.97934640000001,
+      "defense": 278.3767336,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4565.1522832,
+      "attack": 104.99700960000001,
+      "defense": 283.8308364,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4652.876789600001,
+      "attack": 107.01467280000001,
+      "defense": 289.2849392,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4739.581243600001,
+      "attack": 109.00887480000002,
+      "defense": 294.6756222,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4827.30575,
+      "attack": 111.02653800000002,
+      "defense": 300.129725,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4916.0503088000005,
+      "attack": 113.06766240000002,
+      "defense": 305.6472476,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 5003.7748152,
+      "attack": 115.08532560000002,
+      "defense": 311.1013504,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 5091.499321600001,
+      "attack": 117.10298880000002,
+      "defense": 316.5554532,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5179.223828,
+      "attack": 119.120652,
+      "defense": 322.009556,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5267.968386800001,
+      "attack": 121.16177640000002,
+      "defense": 327.52707860000004,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5977.121093199999,
+      "attack": 137.4712416,
+      "defense": 371.61818139999997,
+      "specialized": 0.072
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 6065.865652,
+      "attack": 139.51236600000001,
+      "defense": 377.13570400000003,
+      "specialized": 0.072
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 6154.6102108000005,
+      "attack": 141.55349040000002,
+      "defense": 382.6532266,
+      "specialized": 0.072
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6242.334717199999,
+      "attack": 143.5711536,
+      "defense": 388.10732939999997,
+      "specialized": 0.072
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6331.079276,
+      "attack": 145.612278,
+      "defense": 393.62485200000003,
+      "specialized": 0.072
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6419.8238347999995,
+      "attack": 147.6534024,
+      "defense": 399.1423746,
+      "specialized": 0.072
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6508.5683936,
+      "attack": 149.6945268,
+      "defense": 404.6598972,
+      "specialized": 0.072
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6597.3129524000005,
+      "attack": 151.7356512,
+      "defense": 410.1774198,
+      "specialized": 0.072
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6687.077563600001,
+      "attack": 153.80023680000002,
+      "defense": 415.7583622,
+      "specialized": 0.072
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6775.8221224,
+      "attack": 155.84136120000002,
+      "defense": 421.27588480000003,
+      "specialized": 0.072
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7693.137581200001,
+      "attack": 176.9382216,
+      "defense": 478.3094074,
+      "specialized": 0.144
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7782.902192400001,
+      "attack": 179.0028072,
+      "defense": 483.8903498,
+      "specialized": 0.144
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7871.6467512,
+      "attack": 181.0439316,
+      "defense": 489.4078724,
+      "specialized": 0.144
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7961.4113624,
+      "attack": 183.10851720000002,
+      "defense": 494.9888148,
+      "specialized": 0.144
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 8051.1759736,
+      "attack": 185.1731028,
+      "defense": 500.5697572,
+      "specialized": 0.144
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 8140.940584800001,
+      "attack": 187.23768840000002,
+      "defense": 506.1506996,
+      "specialized": 0.144
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 8230.705196,
+      "attack": 189.302274,
+      "defense": 511.731642,
+      "specialized": 0.144
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8320.469807200001,
+      "attack": 191.36685960000003,
+      "defense": 517.3125844000001,
+      "specialized": 0.144
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8410.2344184,
+      "attack": 193.4314452,
+      "defense": 522.8935268,
+      "specialized": 0.144
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8499.9990296,
+      "attack": 195.49603080000003,
+      "defense": 528.4744692,
+      "specialized": 0.144
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 9211.1918408,
+      "attack": 211.85242040000003,
+      "defense": 572.6924116,
+      "specialized": 0.144
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9300.956452,
+      "attack": 213.91700600000001,
+      "defense": 578.273354,
+      "specialized": 0.144
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9391.7411156,
+      "attack": 216.0050528,
+      "defense": 583.9177162000001,
+      "specialized": 0.144
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9481.5057268,
+      "attack": 218.06963840000003,
+      "defense": 589.4986586,
+      "specialized": 0.144
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9572.290390400001,
+      "attack": 220.1576852,
+      "defense": 595.1430208,
+      "specialized": 0.144
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9663.075054,
+      "attack": 222.24573200000003,
+      "defense": 600.7873830000001,
+      "specialized": 0.144
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9752.839665200001,
+      "attack": 224.31031760000002,
+      "defense": 606.3683254,
+      "specialized": 0.144
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9843.6243288,
+      "attack": 226.3983644,
+      "defense": 612.0126875999999,
+      "specialized": 0.144
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9934.4089924,
+      "attack": 228.48641120000002,
+      "defense": 617.6570498000001,
+      "specialized": 0.144
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 10025.193656000001,
+      "attack": 230.57445800000005,
+      "defense": 623.301412,
+      "specialized": 0.144
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10737.4068196,
+      "attack": 246.9543048,
+      "defense": 667.5827742,
+      "specialized": 0.216
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10829.2115356,
+      "attack": 249.0658128,
+      "defense": 673.2905562000001,
+      "specialized": 0.216
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10919.9961992,
+      "attack": 251.15385960000003,
+      "defense": 678.9349184,
+      "specialized": 0.216
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 11010.7808628,
+      "attack": 253.2419064,
+      "defense": 684.5792806,
+      "specialized": 0.216
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 11102.5855788,
+      "attack": 255.35341440000002,
+      "defense": 690.2870626,
+      "specialized": 0.216
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 11193.3702424,
+      "attack": 257.4414612,
+      "defense": 695.9314248000001,
+      "specialized": 0.216
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 11285.1749584,
+      "attack": 259.5529692,
+      "defense": 701.6392068,
+      "specialized": 0.216
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11376.9796744,
+      "attack": 261.6644772,
+      "defense": 707.3469888,
+      "specialized": 0.216
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11468.7843904,
+      "attack": 263.77598520000004,
+      "defense": 713.0547708,
+      "specialized": 0.216
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11560.5891064,
+      "attack": 265.8874932,
+      "defense": 718.7625528000001,
+      "specialized": 0.216
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 12273.8220224,
+      "attack": 282.29080120000003,
+      "defense": 763.1073348,
+      "specialized": 0.288
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12365.6267384,
+      "attack": 284.4023092,
+      "defense": 768.8151167999999,
+      "specialized": 0.288
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12457.4314544,
+      "attack": 286.5138172,
+      "defense": 774.5228988,
+      "specialized": 0.288
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12549.2361704,
+      "attack": 288.6253252,
+      "defense": 780.2306808,
+      "specialized": 0.288
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12641.040886399998,
+      "attack": 290.7368332,
+      "defense": 785.9384628,
+      "specialized": 0.288
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12733.8656548,
+      "attack": 292.87180240000004,
+      "defense": 791.7096646000001,
+      "specialized": 0.288
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12825.670370800002,
+      "attack": 294.9833104,
+      "defense": 797.4174466000001,
+      "specialized": 0.288
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12918.4951392,
+      "attack": 297.1182796,
+      "defense": 803.1886484,
+      "specialized": 0.288
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 13011.319907599998,
+      "attack": 299.2532488,
+      "defense": 808.9598502,
+      "specialized": 0.288
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 13103.1246236,
+      "attack": 301.3647568,
+      "defense": 814.6676322000001,
+      "specialized": 0.288
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3520.6186256,
+      "attack": 80.9727408,
+      "defense": 218.88896119999998,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5889.3965868000005,
+      "attack": 135.45357840000003,
+      "defense": 366.16407860000004,
+      "specialized": 0.072
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7604.3930224,
+      "attack": 174.89709720000002,
+      "defense": 472.79188480000005,
+      "specialized": 0.144
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 9121.4272296,
+      "attack": 209.78783480000004,
+      "defense": 567.1114692000001,
+      "specialized": 0.144
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10646.622156000001,
+      "attack": 244.86625800000002,
+      "defense": 661.938412,
+      "specialized": 0.216
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 12182.017306400001,
+      "attack": 280.1792932,
+      "defense": 757.3995528,
+      "specialized": 0.288
+    }
+  }
+}

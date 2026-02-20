@@ -1,0 +1,1714 @@
+{
+  "profile": {
+    "id": 10000020,
+    "name": "Razor",
+    "title": "Wolf Boy",
+    "description": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+    "weaponType": "WEAPON_CLAYMORE",
+    "weaponText": "Claymore",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "9/9",
+    "birthday": "September 9",
+    "elementType": "ELEMENT_ELECTRO",
+    "elementText": "Electro",
+    "affiliation": "Wolvendom",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+    "substatText": "Physical DMG Bonus",
+    "constellation": "Lupus Minor",
+    "cv": {
+      "english": "Todd Haberkorn",
+      "chinese": "周帅",
+      "japanese": "内山昂輝",
+      "korean": "Kim Seo-young"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104141,
+          "name": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": 100021,
+          "name": "Wolfhook",
+          "count": 3
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 2
+        },
+        {
+          "id": 100021,
+          "name": "Wolfhook",
+          "count": 10
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 4
+        },
+        {
+          "id": 100021,
+          "name": "Wolfhook",
+          "count": 20
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 8
+        },
+        {
+          "id": 100021,
+          "name": "Wolfhook",
+          "count": 30
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 12
+        },
+        {
+          "id": 100021,
+          "name": "Wolfhook",
+          "count": 45
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104144,
+          "name": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 20
+        },
+        {
+          "id": 100021,
+          "name": "Wolfhook",
+          "count": 60
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Razor_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Razor_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/a1594317bbd0cefeb7da501f9879375b_2033485936169222365.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20191018/2019101811585976188.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/997709a43b4f8d80a58ac14d412bf2e7.png",
+      "filename_icon": "UI_AvatarIcon_Razor",
+      "filename_iconCard": "UI_AvatarIcon_Razor_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Razor",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Razor",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Razor",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Razor.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Razor_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Razor"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 2001,
+    "name": "Razor",
+    "combat1": {
+      "name": "Steel Fang",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:P}",
+          "4-Hit DMG|{param4:P}",
+          "Charged Attack Cyclic DMG|{param5:F1P}",
+          "Charged Attack Final DMG|{param6:P}",
+          "Charged Attack Stamina Cost|{param7:F1}/s",
+          "Max Duration|{param8:F1}s",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.9592,
+            1.0246,
+            1.09,
+            1.1772,
+            1.2426,
+            1.3189,
+            1.417,
+            1.5151,
+            1.6132,
+            1.7113,
+            1.8094,
+            1.9075,
+            2.0056,
+            2.1037,
+            2.2018
+          ],
+          "param2": [
+            0.82632,
+            0.88266,
+            0.939,
+            1.01412,
+            1.07046,
+            1.13619,
+            1.2207,
+            1.30521,
+            1.38972,
+            1.47423,
+            1.55874,
+            1.64325,
+            1.72776,
+            1.81227,
+            1.89678
+          ],
+          "param3": [
+            1.03312,
+            1.10356,
+            1.174,
+            1.26792,
+            1.33836,
+            1.42054,
+            1.5262,
+            1.63186,
+            1.73752,
+            1.84318,
+            1.94884,
+            2.0545,
+            2.16016,
+            2.26582,
+            2.37148
+          ],
+          "param4": [
+            1.36048,
+            1.45324,
+            1.546,
+            1.66968,
+            1.76244,
+            1.87066,
+            2.0098,
+            2.14894,
+            2.28808,
+            2.42722,
+            2.56636,
+            2.7055,
+            2.84464,
+            2.98378,
+            3.12292
+          ],
+          "param5": [
+            0.625392,
+            0.676296,
+            0.7272,
+            0.79992,
+            0.850824,
+            0.909,
+            0.988992,
+            1.068984,
+            1.148976,
+            1.23624,
+            1.323504,
+            1.410768,
+            1.498032,
+            1.585296,
+            1.67256
+          ],
+          "param6": [
+            1.1309,
+            1.22295,
+            1.315,
+            1.4465,
+            1.53855,
+            1.64375,
+            1.7884,
+            1.93305,
+            2.0777,
+            2.2355,
+            2.3933,
+            2.5511,
+            2.7089,
+            2.8667,
+            3.0245
+          ],
+          "param7": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "param8": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param9": [
+            0.820466,
+            0.887248,
+            0.95403,
+            1.049433,
+            1.116215,
+            1.192538,
+            1.297481,
+            1.402424,
+            1.507367,
+            1.621851,
+            1.736335,
+            1.850818,
+            1.965302,
+            2.079785,
+            2.194269
+          ],
+          "param10": [
+            1.640584,
+            1.77412,
+            1.907656,
+            2.098421,
+            2.231957,
+            2.38457,
+            2.594412,
+            2.804254,
+            3.014096,
+            3.243015,
+            3.471933,
+            3.700852,
+            3.929771,
+            4.15869,
+            4.387608
+          ],
+          "param11": [
+            2.049178,
+            2.215971,
+            2.382765,
+            2.621042,
+            2.787835,
+            2.978456,
+            3.24056,
+            3.502665,
+            3.764769,
+            4.050701,
+            4.336632,
+            4.622564,
+            4.908496,
+            5.194428,
+            5.48036
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Claw and Thunder",
+      "descriptionRaw": "#Hunts his prey using the techniques taught to him by his master and his lupical.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nSwings the Thunder Wolf Claw, dealing <color=#FFACFFFF>Electro DMG</color> to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\n<color=#FFD780FF>Hold</color>\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive <color=#FFACFFFF>Electro DMG</color>, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\n\n<i>In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.</i>",
+      "description": "Hunts his prey using the techniques taught to him by his master and his lupical.\n\nPress\nSwings the Thunder Wolf Claw, dealing Electro DMG to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\nHold\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.",
+      "flavorText": "In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.",
+      "attributes": {
+        "labels": [
+          "Press Skill DMG|{param1:P}",
+          "Hold Skill DMG|{param2:P}",
+          "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+          "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+          "Electro Sigil duration|{param5:F1}s",
+          "Press CD|{param6:F1}s",
+          "Hold CD|{param7:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.992,
+            2.1414,
+            2.2908,
+            2.49,
+            2.6394,
+            2.7888,
+            2.988,
+            3.1872,
+            3.3864,
+            3.5856,
+            3.7848,
+            3.984,
+            4.233,
+            4.482,
+            4.731
+          ],
+          "param2": [
+            2.952,
+            3.1734,
+            3.3948,
+            3.69,
+            3.9114,
+            4.1328,
+            4.428,
+            4.7232,
+            5.0184,
+            5.3136,
+            5.6088,
+            5.904,
+            6.273,
+            6.642,
+            7.011
+          ],
+          "param3": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "param4": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param5": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param6": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param7": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Lightning Fang",
+      "descriptionRaw": "Summons the Wolf Within, which deals <color=#FFACFFFF>Electro DMG</color> to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\n<color=#FFD780FF>The Wolf Within</color>\n·Strikes alongside Razor's normal attacks, dealing <color=#FFACFFFF>Electro DMG</color>.\n·Raises Razor's ATK SPD and <color=#FFACFFFF>Electro RES</color>.\n·Causes Razor to be immune to DMG inflicted by the <color=#FFACFFFF>Electro-Charged</color> status.\n·Disables Razor's Charged Attacks.\n·Increases Razor's resistance to interruption.\n\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.\n\n<i>The wolf has awoken. The hunt is on.</i>",
+      "description": "Summons the Wolf Within, which deals Electro DMG to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\nThe Wolf Within\n·Strikes alongside Razor's normal attacks, dealing Electro DMG.\n·Raises Razor's ATK SPD and Electro RES.\n·Causes Razor to be immune to DMG inflicted by the Electro-Charged status.\n·Disables Razor's Charged Attacks.\n·Increases Razor's resistance to interruption.\n\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.",
+      "flavorText": "The wolf has awoken. The hunt is on.",
+      "attributes": {
+        "labels": [
+          "Burst DMG|{param1:P}",
+          "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+          "Normal ATK SPD Bonus|{param3:P}",
+          "Electro RES Bonus|{param4:P}",
+          "Duration|{param5:F1}s",
+          "CD|{param6:F1}s",
+          "Energy Cost|{param7:I}"
+        ],
+        "parameters": {
+          "param1": [
+            1.6,
+            1.72,
+            1.84,
+            2,
+            2.12,
+            2.24,
+            2.4,
+            2.56,
+            2.72,
+            2.88,
+            3.04,
+            3.2,
+            3.4,
+            3.6,
+            3.8
+          ],
+          "param2": [
+            0.24,
+            0.258,
+            0.276,
+            0.3,
+            0.318,
+            0.336,
+            0.36,
+            0.384,
+            0.408,
+            0.432,
+            0.456,
+            0.48,
+            0.51,
+            0.54,
+            0.57
+          ],
+          "param3": [
+            0.26,
+            0.28,
+            0.3,
+            0.32,
+            0.34,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4
+          ],
+          "param4": [
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param7": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Awakening",
+      "descriptionRaw": "Decreases <color=#FFD780FF>Claw and Thunder</color>'s CD by 18%.\nUsing <color=#FFD780FF>Lightning Fang</color> resets the CD of <color=#FFD780FF>Claw and Thunder</color>.",
+      "description": "Decreases Claw and Thunder's CD by 18%.\nUsing Lightning Fang resets the CD of Claw and Thunder."
+    },
+    "passive2": {
+      "name": "Hunger",
+      "descriptionRaw": "When Razor's Energy is below 50%, increases Energy Recharge by 30%.",
+      "description": "When Razor's Energy is below 50%, increases Energy Recharge by 30%."
+    },
+    "passive3": {
+      "name": "Wolvensprint",
+      "descriptionRaw": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104304,
+          "name": "Teachings of Resistance",
+          "count": 3
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 2
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 4
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 6
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 9
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 4
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 4
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 6
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 6
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 12
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 9
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 16
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 12
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_04",
+      "filename_combat2": "Skill_S_Razor_01",
+      "filename_combat3": "Skill_E_Razor_01_HD",
+      "filename_passive1": "UI_Talent_S_Razor_05",
+      "filename_passive2": "UI_Talent_S_Razor_06",
+      "filename_passive3": "UI_Talent_Explosion_Sprint"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 2001,
+    "name": "Razor",
+    "c1": {
+      "name": "Wolf's Instinct",
+      "descriptionRaw": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
+      "description": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s."
+    },
+    "c2": {
+      "name": "Suppression",
+      "descriptionRaw": "Increases CRIT Rate against opponents with less than 30% HP by 10%.",
+      "description": "Increases CRIT Rate against opponents with less than 30% HP by 10%."
+    },
+    "c3": {
+      "name": "Soul Companion",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Lightning Fang</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Lightning Fang by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Bite",
+      "descriptionRaw": "#When casting <color=#FFD780FF>Claw and Thunder</color> ({LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}), opponents hit will have their DEF decreased by 15% for 7s.",
+      "description": "When casting Claw and Thunder (Press), opponents hit will have their DEF decreased by 15% for 7s."
+    },
+    "c5": {
+      "name": "Sharpened Claws",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Claw and Thunder</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Claw and Thunder by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Lupus Fulguris",
+      "descriptionRaw": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <color=#FFACFFFF>Electro DMG</color>.\nWhen Razor is not using <color=#FFD780FF>Lightning Fang</color>, a lightning strike on an opponent will grant Razor an Electro Sigil for <color=#FFD780FF>Claw and Thunder</color>.",
+      "description": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG.\nWhen Razor is not using Lightning Fang, a lightning strike on an opponent will grant Razor an Electro Sigil for Claw and Thunder."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Razor_01",
+      "filename_c2": "UI_Talent_S_Razor_02",
+      "filename_c3": "UI_Talent_U_Razor_02",
+      "filename_c4": "UI_Talent_S_Razor_03",
+      "filename_c5": "UI_Talent_U_Razor_01",
+      "filename_c6": "UI_Talent_S_Razor_04",
+      "filename_constellation": "Eff_UI_Talent_Razor"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1002.9701,
+      "attack": 19.5888,
+      "defense": 62.9475,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1086.2166183,
+      "attack": 21.2146704,
+      "defense": 68.17214249999999,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1168.4601665,
+      "attack": 22.820952,
+      "defense": 73.3338375,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1251.7066848,
+      "attack": 24.4468224,
+      "defense": 78.55848,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1333.950233,
+      "attack": 26.053104,
+      "defense": 83.720175,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1417.1967513,
+      "attack": 27.678974399999998,
+      "defense": 88.9448175,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1499.4402995,
+      "attack": 29.285256,
+      "defense": 94.10651250000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1582.6868178,
+      "attack": 30.9111264,
+      "defense": 99.331155,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1665.9333361000001,
+      "attack": 32.5369968,
+      "defense": 104.5557975,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1748.1768843000002,
+      "attack": 34.1432784,
+      "defense": 109.7174925,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1831.4234026000001,
+      "attack": 35.769148799999996,
+      "defense": 114.94213500000001,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1913.6669508,
+      "attack": 37.3754304,
+      "defense": 120.10382999999999,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1996.9134691000002,
+      "attack": 39.0013008,
+      "defense": 125.3284725,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2079.1570173,
+      "attack": 40.6075824,
+      "defense": 130.49016749999998,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2162.4035356,
+      "attack": 42.2334528,
+      "defense": 135.71481,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2245.6500539,
+      "attack": 43.8593232,
+      "defense": 140.9394525,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2327.8936021,
+      "attack": 45.4656048,
+      "defense": 146.1011475,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2411.1401204,
+      "attack": 47.0914752,
+      "defense": 151.32578999999998,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2493.3836686000004,
+      "attack": 48.6977568,
+      "defense": 156.48748500000002,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2576.6301869,
+      "attack": 50.3236272,
+      "defense": 161.71212749999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3408.1437351,
+      "attack": 66.5640888,
+      "defense": 213.8988225,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3491.3902534,
+      "attack": 68.1899592,
+      "defense": 219.123465,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3574.6367717000003,
+      "attack": 69.8158296,
+      "defense": 224.3481075,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3656.8803199,
+      "attack": 71.42211119999999,
+      "defense": 229.5098025,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3740.1268382000003,
+      "attack": 73.0479816,
+      "defense": 234.73444500000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3822.3703864,
+      "attack": 74.6542632,
+      "defense": 239.89614,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3905.6169047,
+      "attack": 76.2801336,
+      "defense": 245.1207825,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3987.8604529,
+      "attack": 77.8864152,
+      "defense": 250.2824775,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4071.1069712,
+      "attack": 79.5122856,
+      "defense": 255.50712,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4153.3505194,
+      "attack": 81.1185672,
+      "defense": 260.668815,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4236.597037699999,
+      "attack": 82.7444376,
+      "defense": 265.89345749999995,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4319.843556,
+      "attack": 84.370308,
+      "defense": 271.11809999999997,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4402.0871042,
+      "attack": 85.9765896,
+      "defense": 276.279795,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4485.3336225,
+      "attack": 87.60246,
+      "defense": 281.5044375,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4567.5771707,
+      "attack": 89.2087416,
+      "defense": 286.6661325,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4650.823689000001,
+      "attack": 90.83461199999999,
+      "defense": 291.890775,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4733.0672372,
+      "attack": 92.4408936,
+      "defense": 297.05246999999997,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4816.313755499999,
+      "attack": 94.06676399999999,
+      "defense": 302.2771125,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4899.5602738,
+      "attack": 95.69263439999999,
+      "defense": 307.50175499999995,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4981.803822,
+      "attack": 97.29891599999999,
+      "defense": 312.66344999999995,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5597.4264403,
+      "attack": 109.3227564,
+      "defense": 351.3005925,
+      "specialized": 0.075
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5679.6699885,
+      "attack": 110.92903799999999,
+      "defense": 356.4622875,
+      "specialized": 0.075
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5762.9165068,
+      "attack": 112.5549084,
+      "defense": 361.68692999999996,
+      "specialized": 0.075
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5845.160054999999,
+      "attack": 114.16118999999999,
+      "defense": 366.84862499999997,
+      "specialized": 0.075
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5928.4065733,
+      "attack": 115.7870604,
+      "defense": 372.0732675,
+      "specialized": 0.075
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6011.6530916,
+      "attack": 117.4129308,
+      "defense": 377.29791,
+      "specialized": 0.075
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6093.8966398,
+      "attack": 119.0192124,
+      "defense": 382.459605,
+      "specialized": 0.075
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6177.143158100001,
+      "attack": 120.6450828,
+      "defense": 387.6842475,
+      "specialized": 0.075
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6259.3867063,
+      "attack": 122.2513644,
+      "defense": 392.8459425,
+      "specialized": 0.075
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6342.6332246,
+      "attack": 123.8772348,
+      "defense": 398.070585,
+      "specialized": 0.075
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7134.711472800001,
+      "attack": 139.3474764,
+      "defense": 447.78228,
+      "specialized": 0.15
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7217.957991100001,
+      "attack": 140.9733468,
+      "defense": 453.00692250000003,
+      "specialized": 0.15
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7301.2045094,
+      "attack": 142.5992172,
+      "defense": 458.231565,
+      "specialized": 0.15
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7383.4480576000005,
+      "attack": 144.20549880000002,
+      "defense": 463.39326,
+      "specialized": 0.15
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7466.6945759,
+      "attack": 145.83136919999998,
+      "defense": 468.61790249999996,
+      "specialized": 0.15
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7548.938124100001,
+      "attack": 147.4376508,
+      "defense": 473.7795975,
+      "specialized": 0.15
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7632.1846424,
+      "attack": 149.0635212,
+      "defense": 479.00424,
+      "specialized": 0.15
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7714.428190600001,
+      "attack": 150.6698028,
+      "defense": 484.16593500000005,
+      "specialized": 0.15
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7797.6747089,
+      "attack": 152.29567319999998,
+      "defense": 489.3905775,
+      "specialized": 0.15
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7880.9212272,
+      "attack": 153.9215436,
+      "defense": 494.61521999999997,
+      "specialized": 0.15
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8495.5409754,
+      "attack": 165.92579519999998,
+      "defense": 533.1894149999999,
+      "specialized": 0.15
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8578.7874937,
+      "attack": 167.5516656,
+      "defense": 538.4140575,
+      "specialized": 0.15
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8661.0310419,
+      "attack": 169.1579472,
+      "defense": 543.5757525,
+      "specialized": 0.15
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8744.2775602,
+      "attack": 170.7838176,
+      "defense": 548.800395,
+      "specialized": 0.15
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8826.5211084,
+      "attack": 172.39009919999998,
+      "defense": 553.96209,
+      "specialized": 0.15
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8909.767626699999,
+      "attack": 174.0159696,
+      "defense": 559.1867325,
+      "specialized": 0.15
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8993.014145000001,
+      "attack": 175.64184,
+      "defense": 564.411375,
+      "specialized": 0.15
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9075.257693200001,
+      "attack": 177.2481216,
+      "defense": 569.57307,
+      "specialized": 0.15
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9158.5042115,
+      "attack": 178.87399200000002,
+      "defense": 574.7977125,
+      "specialized": 0.15
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9240.7477597,
+      "attack": 180.4802736,
+      "defense": 579.9594075,
+      "specialized": 0.15
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9856.370278,
+      "attack": 192.504114,
+      "defense": 618.59655,
+      "specialized": 0.225
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 9938.6138262,
+      "attack": 194.1103956,
+      "defense": 623.758245,
+      "specialized": 0.225
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10021.8603445,
+      "attack": 195.736266,
+      "defense": 628.9828875000001,
+      "specialized": 0.225
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10105.1068628,
+      "attack": 197.36213639999997,
+      "defense": 634.2075299999999,
+      "specialized": 0.225
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10187.350411,
+      "attack": 198.96841799999999,
+      "defense": 639.369225,
+      "specialized": 0.225
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10270.5969293,
+      "attack": 200.59428839999998,
+      "defense": 644.5938675,
+      "specialized": 0.225
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10352.840477500002,
+      "attack": 202.20057,
+      "defense": 649.7555625,
+      "specialized": 0.225
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10436.0869958,
+      "attack": 203.82644039999997,
+      "defense": 654.980205,
+      "specialized": 0.225
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10518.330544,
+      "attack": 205.43272199999998,
+      "defense": 660.1419000000001,
+      "specialized": 0.225
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10601.577062299999,
+      "attack": 207.05859239999998,
+      "defense": 665.3665424999999,
+      "specialized": 0.225
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11217.1996806,
+      "attack": 219.0824328,
+      "defense": 704.003685,
+      "specialized": 0.3
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11299.4432288,
+      "attack": 220.68871439999998,
+      "defense": 709.1653799999999,
+      "specialized": 0.3
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11382.6897471,
+      "attack": 222.31458479999998,
+      "defense": 714.3900225,
+      "specialized": 0.3
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 11464.9332953,
+      "attack": 223.92086639999997,
+      "defense": 719.5517175,
+      "specialized": 0.3
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11548.1798136,
+      "attack": 225.54673679999996,
+      "defense": 724.77636,
+      "specialized": 0.3
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 11630.423361800002,
+      "attack": 227.1530184,
+      "defense": 729.9380550000001,
+      "specialized": 0.3
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 11713.6698801,
+      "attack": 228.7788888,
+      "defense": 735.1626975,
+      "specialized": 0.3
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 11795.9134283,
+      "attack": 230.3851704,
+      "defense": 740.3243925,
+      "specialized": 0.3
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 11879.159946599999,
+      "attack": 232.0110408,
+      "defense": 745.549035,
+      "specialized": 0.3
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11962.4064649,
+      "attack": 233.6369112,
+      "defense": 750.7736775,
+      "specialized": 0.3
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3325.9001869,
+      "attack": 64.95780719999999,
+      "defense": 208.73712749999999,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5514.179921999999,
+      "attack": 107.69688599999999,
+      "defense": 346.07595,
+      "specialized": 0.075
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7052.4679246000005,
+      "attack": 137.7411948,
+      "defense": 442.620585,
+      "specialized": 0.15
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8413.2974272,
+      "attack": 164.3195136,
+      "defense": 528.0277199999999,
+      "specialized": 0.15
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9773.1237597,
+      "attack": 190.8782436,
+      "defense": 613.3719074999999,
+      "specialized": 0.225
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11133.9531623,
+      "attack": 217.4565624,
+      "defense": 698.7790425,
+      "specialized": 0.3
+    }
+  }
+}

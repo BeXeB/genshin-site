@@ -1,0 +1,1662 @@
+{
+  "profile": {
+    "id": 10000054,
+    "name": "Sangonomiya Kokomi",
+    "title": "Pearl of Wisdom",
+    "description": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "2/22",
+    "birthday": "February 22",
+    "elementType": "ELEMENT_HYDRO",
+    "elementText": "Hydro",
+    "affiliation": "Watatsumi Island",
+    "associationType": "ASSOC_INAZUMA",
+    "region": "Inazuma",
+    "substatType": "FIGHT_PROP_WATER_ADD_HURT",
+    "substatText": "Hydro DMG Bonus",
+    "constellation": "Dracaena Somnolenta",
+    "cv": {
+      "english": "Risa Mei",
+      "chinese": "龟娘",
+      "japanese": "三森すずこ",
+      "korean": "Yeo Yoon-mi"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104121,
+          "name": "Varunada Lazurite Sliver",
+          "count": 1
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 3
+        },
+        {
+          "id": 112053,
+          "name": "Spectral Husk",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 3
+        },
+        {
+          "id": 113028,
+          "name": "Dew of Repudiation",
+          "count": 2
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 10
+        },
+        {
+          "id": 112053,
+          "name": "Spectral Husk",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 6
+        },
+        {
+          "id": 113028,
+          "name": "Dew of Repudiation",
+          "count": 4
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 20
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 3
+        },
+        {
+          "id": 113028,
+          "name": "Dew of Repudiation",
+          "count": 8
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 30
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 6
+        },
+        {
+          "id": 113028,
+          "name": "Dew of Repudiation",
+          "count": 12
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 45
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104124,
+          "name": "Varunada Lazurite Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113028,
+          "name": "Dew of Repudiation",
+          "count": 20
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 60
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/fd94f2afc70ab075c727ce0805fd0201.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/8ca5953fb331d71bc880496f5e8b7745_3256211802655370131.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/20/6b5d5658498d64378f6bc3a499be1061_5372222117088715540.png",
+      "filename_icon": "UI_AvatarIcon_Kokomi",
+      "filename_iconCard": "UI_AvatarIcon_Kokomi_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Kokomi",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Kokomi",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kokomi",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kokomi.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Sangonomiya Kokomi_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Sangonomiya_Kokomi"
+    },
+    "version": "2.1"
+  },
+  "skills": {
+    "id": 5401,
+    "name": "Sangonomiya Kokomi",
+    "combat1": {
+      "name": "The Shape of Water",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 consecutive attacks that take the form of swimming fish, dealing <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nPerforms up to 3 consecutive attacks that take the form of swimming fish, dealing Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "Charged Attack DMG|{param4:P}",
+          "Charged Attack Stamina Cost|{param5:F1}",
+          "Plunge DMG|{param6:F1P}",
+          "Low/High Plunge DMG|{param7:P}/{param8:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.68376,
+            0.735042,
+            0.786324,
+            0.8547,
+            0.905982,
+            0.957264,
+            1.02564,
+            1.094016,
+            1.162392,
+            1.230768,
+            1.299144,
+            1.36752,
+            1.45299,
+            1.53846,
+            1.62393
+          ],
+          "param2": [
+            0.615384,
+            0.661538,
+            0.707692,
+            0.76923,
+            0.815384,
+            0.861538,
+            0.923076,
+            0.984614,
+            1.046153,
+            1.107691,
+            1.16923,
+            1.230768,
+            1.307691,
+            1.384614,
+            1.461537
+          ],
+          "param3": [
+            0.943056,
+            1.013785,
+            1.084514,
+            1.17882,
+            1.249549,
+            1.320278,
+            1.414584,
+            1.50889,
+            1.603195,
+            1.697501,
+            1.791806,
+            1.886112,
+            2.003994,
+            2.121876,
+            2.239758
+          ],
+          "param4": [
+            1.4832,
+            1.59444,
+            1.70568,
+            1.854,
+            1.96524,
+            2.07648,
+            2.2248,
+            2.37312,
+            2.52144,
+            2.66976,
+            2.81808,
+            2.9664,
+            3.1518,
+            3.3372,
+            3.5226
+          ],
+          "param5": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param6": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param7": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param8": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Kurage's Oath",
+      "descriptionRaw": "Summons a \"Bake-Kurage\" created from water that can heal her allies.\nUsing this skill will apply the <color=#80C0FFFF>Wet</color> status to Sangonomiya Kokomi.\n\n<color=#FFD780FF>Bake-Kurage</color>\nDeals <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and heals nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP.\n\n<i>Kokomi needs timely \"refreshment\" in order to maintain optimal work efficiency</i>.",
+      "description": "Summons a \"Bake-Kurage\" created from water that can heal her allies.\nUsing this skill will apply the Wet status to Sangonomiya Kokomi.\n\nBake-Kurage\nDeals Hydro DMG to surrounding opponents and heals nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP.",
+      "flavorText": "Kokomi needs timely \"refreshment\" in order to maintain optimal work efficiency.",
+      "attributes": {
+        "labels": [
+          "Regeneration|{param1:F1P} Max HP+{param2:I}",
+          "Ripple DMG|{param3:F1P}",
+          "Duration|{param4:F1}s",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.044,
+            0.0473,
+            0.0506,
+            0.055,
+            0.0583,
+            0.0616,
+            0.066,
+            0.0704,
+            0.0748,
+            0.0792,
+            0.0836,
+            0.088,
+            0.0935,
+            0.099,
+            0.1045
+          ],
+          "param2": [
+            423.7063,
+            466.08282,
+            511.99072,
+            561.43,
+            614.40063,
+            670.90265,
+            730.9361,
+            794.50085,
+            861.59705,
+            932.22455,
+            1006.3835,
+            1084.0737,
+            1165.2954,
+            1250.0485,
+            1338.3329
+          ],
+          "param3": [
+            1.091904,
+            1.173797,
+            1.25569,
+            1.36488,
+            1.446773,
+            1.528666,
+            1.637856,
+            1.747046,
+            1.856237,
+            1.965427,
+            2.074618,
+            2.183808,
+            2.320296,
+            2.456784,
+            2.593272
+          ],
+          "param4": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param5": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Nereid's Ascension",
+      "descriptionRaw": "Summons the might of Watatsumi, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.\n\n<color=#FFD780FF>Ceremonial Garment</color>\n·Sangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP.\n·When her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.\n·Increases Sangonomiya Kokomi's resistance to interruption and allows her to walk on the water's surface.\n\nThese effects will be cleared once Sangonomiya Kokomi leaves the field.\n\n<i>Clear light coalesces into robes around Her Excellency, Sangonomiya Kokomi, reflecting her magnificent form.</i>",
+      "description": "Summons the might of Watatsumi, dealing Hydro DMG to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.\n\nCeremonial Garment\n·Sangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP.\n·When her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.\n·Increases Sangonomiya Kokomi's resistance to interruption and allows her to walk on the water's surface.\n\nThese effects will be cleared once Sangonomiya Kokomi leaves the field.",
+      "flavorText": "Clear light coalesces into robes around Her Excellency, Sangonomiya Kokomi, reflecting her magnificent form.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P} Max HP",
+          "Normal Attack DMG Bonus|{param4:F1P} Max HP",
+          "Charged Attack DMG Bonus|{param5:F1P} Max HP",
+          "Bake-Kurage DMG Bonus|{param9:F1P} Max HP",
+          "HP Regeneration Per Hit|{param2:F2P} Max HP+{param3:I}",
+          "Duration|{param6:F1}s",
+          "CD|{param7:F1}s",
+          "Energy Cost|{param8:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.10416,
+            0.111972,
+            0.119784,
+            0.1302,
+            0.138012,
+            0.145824,
+            0.15624,
+            0.166656,
+            0.177072,
+            0.187488,
+            0.197904,
+            0.20832,
+            0.22134,
+            0.23436,
+            0.24738
+          ],
+          "param2": [
+            0.00808,
+            0.008686,
+            0.009292,
+            0.0101,
+            0.010706,
+            0.011312,
+            0.01212,
+            0.012928,
+            0.013736,
+            0.014544,
+            0.015352,
+            0.01616,
+            0.01717,
+            0.01818,
+            0.01919
+          ],
+          "param3": [
+            77.03738,
+            84.74218,
+            93.08906,
+            102.078,
+            111.70901,
+            121.982086,
+            132.89723,
+            144.45445,
+            156.65373,
+            169.49507,
+            182.97849,
+            197.10397,
+            211.87152,
+            227.28113,
+            243.33281
+          ],
+          "param4": [
+            0.0484,
+            0.05203,
+            0.05566,
+            0.0605,
+            0.06413,
+            0.06776,
+            0.0726,
+            0.07744,
+            0.08228,
+            0.08712,
+            0.09196,
+            0.0968,
+            0.10285,
+            0.1089,
+            0.11495
+          ],
+          "param5": [
+            0.06776,
+            0.072842,
+            0.077924,
+            0.0847,
+            0.089782,
+            0.094864,
+            0.10164,
+            0.108416,
+            0.115192,
+            0.121968,
+            0.128744,
+            0.13552,
+            0.14399,
+            0.15246,
+            0.16093
+          ],
+          "param6": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "param7": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param8": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ],
+          "param9": [
+            0.070963,
+            0.076285,
+            0.081608,
+            0.088704,
+            0.094026,
+            0.099348,
+            0.106445,
+            0.113541,
+            0.120637,
+            0.127734,
+            0.13483,
+            0.141926,
+            0.150797,
+            0.159667,
+            0.168538
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Tamakushi Casket",
+      "descriptionRaw": "If Sangonomiya Kokomi's own Bake-Kurage is on the field when she uses <color=#FFD780FF>Nereid's Ascension</color>, the Bake-Kurage's duration will be refreshed.",
+      "description": "If Sangonomiya Kokomi's own Bake-Kurage is on the field when she uses Nereid's Ascension, the Bake-Kurage's duration will be refreshed."
+    },
+    "passive2": {
+      "name": "Song of Pearls",
+      "descriptionRaw": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, the Normal and Charged Attack DMG Bonus Sangonomiya Kokomi gains based on her Max HP will receive a further increase based on 15% of her Healing Bonus.",
+      "description": "While donning the Ceremonial Garment created by Nereid's Ascension, the Normal and Charged Attack DMG Bonus Sangonomiya Kokomi gains based on her Max HP will receive a further increase based on 15% of her Healing Bonus."
+    },
+    "passive3": {
+      "name": "Princess of Watatsumi",
+      "descriptionRaw": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "description": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+    },
+    "passive4": {
+      "name": "Flawless Strategy",
+      "descriptionRaw": "Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate.",
+      "description": "Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104320,
+          "name": "Teachings of Transience",
+          "count": 3
+        },
+        {
+          "id": 112053,
+          "name": "Spectral Husk",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 2
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 4
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 6
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 9
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 4
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 4
+        },
+        {
+          "id": 113026,
+          "name": "Hellfire Butterfly",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 6
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 6
+        },
+        {
+          "id": 113026,
+          "name": "Hellfire Butterfly",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 12
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 9
+        },
+        {
+          "id": 113026,
+          "name": "Hellfire Butterfly",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 16
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 12
+        },
+        {
+          "id": 113026,
+          "name": "Hellfire Butterfly",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Kokomi_01",
+      "filename_combat3": "Skill_E_Kokomi_01_HD",
+      "filename_passive1": "UI_Talent_S_Kokomi_05",
+      "filename_passive2": "UI_Talent_S_Kokomi_06",
+      "filename_passive3": "UI_Talent_Explosion_Swim",
+      "filename_passive4": "UI_Talent_S_Kokomi_07"
+    },
+    "version": "2.1"
+  },
+  "constellation": {
+    "id": 5401,
+    "name": "Sangonomiya Kokomi",
+    "c1": {
+      "name": "At Water's Edge",
+      "descriptionRaw": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a swimming fish to deal 30% of her Max HP as <color=#80C0FFFF>Hydro DMG</color>.\nThis DMG is not considered Normal Attack DMG.",
+      "description": "While donning the Ceremonial Garment created by Nereid's Ascension, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a swimming fish to deal 30% of her Max HP as Hydro DMG.\nThis DMG is not considered Normal Attack DMG."
+    },
+    "c2": {
+      "name": "The Clouds Like Waves Rippling",
+      "descriptionRaw": "Sangonomiya Kokomi gains the following Healing Bonuses with regard to characters with 50% or less HP via the following methods:\n·<color=#FFD780FF>Kurage's Oath</color> Bake-Kurage: 4.5% of Kokomi's Max HP.\n·<color=#FFD780FF>Nereid's Ascension</color> Normal and Charged Attacks: 0.6% of Kokomi's Max HP.",
+      "description": "Sangonomiya Kokomi gains the following Healing Bonuses with regard to characters with 50% or less HP via the following methods:\n·Kurage's Oath Bake-Kurage: 4.5% of Kokomi's Max HP.\n·Nereid's Ascension Normal and Charged Attacks: 0.6% of Kokomi's Max HP."
+    },
+    "c3": {
+      "name": "The Moon, A Ship O'er the Seas",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Nereid's Ascension</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Nereid's Ascension by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "The Moon Overlooks the Waters",
+      "descriptionRaw": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, Sangonomiya Kokomi's Normal Attack SPD is increased by 10%, and Normal Attacks that hit opponents will restore 0.8 Energy for her.\nThis effect can occur once every 0.2s.",
+      "description": "While donning the Ceremonial Garment created by Nereid's Ascension, Sangonomiya Kokomi's Normal Attack SPD is increased by 10%, and Normal Attacks that hit opponents will restore 0.8 Energy for her.\nThis effect can occur once every 0.2s."
+    },
+    "c5": {
+      "name": "All Streams Flow to the Sea",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Kurage's Oath</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Kurage's Oath by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Sango Isshin",
+      "descriptionRaw": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, Sangonomiya Kokomi gains a 40% <color=#80C0FFFF>Hydro DMG Bonus</color> for 4s when her Normal and Charged Attacks heal, or would heal, any party member with 80% or more HP.",
+      "description": "While donning the Ceremonial Garment created by Nereid's Ascension, Sangonomiya Kokomi gains a 40% Hydro DMG Bonus for 4s when her Normal and Charged Attacks heal, or would heal, any party member with 80% or more HP."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Kokomi_01",
+      "filename_c2": "UI_Talent_S_Kokomi_02",
+      "filename_c3": "UI_Talent_U_Kokomi_02",
+      "filename_c4": "UI_Talent_S_Kokomi_03",
+      "filename_c5": "UI_Talent_U_Kokomi_01",
+      "filename_c6": "UI_Talent_S_Kokomi_04",
+      "filename_constellation": "Eff_UI_Talent_Kokomi"
+    },
+    "version": "2.1"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1048.652,
+      "attack": 18.2476,
+      "defense": 51.15465,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1135.690116,
+      "attack": 19.762150799999997,
+      "defense": 55.40048595,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1222.728232,
+      "attack": 21.276701599999996,
+      "defense": 59.64632189999999,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1310.815,
+      "attack": 22.8095,
+      "defense": 63.9433125,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1397.853116,
+      "attack": 24.3240508,
+      "defense": 68.18914844999999,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1485.9398840000001,
+      "attack": 25.8568492,
+      "defense": 72.48613904999999,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1572.978,
+      "attack": 27.371399999999998,
+      "defense": 76.73197499999999,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1661.0647680000002,
+      "attack": 28.9041984,
+      "defense": 81.02896559999999,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1749.151536,
+      "attack": 30.436996799999996,
+      "defense": 85.3259562,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1836.189652,
+      "attack": 31.951547599999994,
+      "defense": 89.57179215,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1924.2764200000001,
+      "attack": 33.484345999999995,
+      "defense": 93.86878275,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 2012.363188,
+      "attack": 35.0171444,
+      "defense": 98.16577335,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2100.4499560000004,
+      "attack": 36.5499428,
+      "defense": 102.46276395,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2189.585376,
+      "attack": 38.100988799999996,
+      "defense": 106.8109092,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2277.672144,
+      "attack": 39.6337872,
+      "defense": 111.1078998,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2365.758912,
+      "attack": 41.16658559999999,
+      "defense": 115.40489039999999,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2454.8943320000003,
+      "attack": 42.7176316,
+      "defense": 119.75303565,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2542.9811,
+      "attack": 44.250429999999994,
+      "defense": 124.05002624999999,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2632.11652,
+      "attack": 45.801475999999994,
+      "defense": 128.3981715,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2720.203288,
+      "attack": 47.33427439999999,
+      "defense": 132.69516209999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3708.4629779999996,
+      "attack": 64.52984439999999,
+      "defense": 180.90480735,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3797.598398,
+      "attack": 66.08089039999999,
+      "defense": 185.2529526,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3886.7338180000006,
+      "attack": 67.6319364,
+      "defense": 189.60109785,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3975.869238,
+      "attack": 69.1829824,
+      "defense": 193.94924310000002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 4065.004658,
+      "attack": 70.7340284,
+      "defense": 198.29738835,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 4155.18873,
+      "attack": 72.303322,
+      "defense": 202.69668825,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4244.32415,
+      "attack": 73.854368,
+      "defense": 207.04483349999998,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4333.45957,
+      "attack": 75.405414,
+      "defense": 211.39297875,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4423.643642,
+      "attack": 76.9747076,
+      "defense": 215.79227865000001,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4512.7790620000005,
+      "attack": 78.5257536,
+      "defense": 220.1404239,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4602.9631340000005,
+      "attack": 80.0950472,
+      "defense": 224.5397238,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4693.147206,
+      "attack": 81.66434079999999,
+      "defense": 228.93902369999998,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4783.331278000001,
+      "attack": 83.2336344,
+      "defense": 233.3383236,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4872.466698,
+      "attack": 84.7846804,
+      "defense": 237.68646885,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4962.65077,
+      "attack": 86.353974,
+      "defense": 242.08576875,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 5053.883494000001,
+      "attack": 87.9415152,
+      "defense": 246.5362233,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 5144.067566000001,
+      "attack": 89.51080879999999,
+      "defense": 250.9355232,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 5234.251638000001,
+      "attack": 91.0801024,
+      "defense": 255.33482310000002,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5324.43571,
+      "attack": 92.649396,
+      "defense": 259.73412299999995,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5415.668434000001,
+      "attack": 94.2369372,
+      "defense": 264.18457755,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 6144.703936,
+      "attack": 106.92207679999999,
+      "defense": 299.74862744999996,
+      "specialized": 0.072
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 6235.93666,
+      "attack": 108.50961799999999,
+      "defense": 304.199082,
+      "specialized": 0.072
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 6327.169384000001,
+      "attack": 110.0971592,
+      "defense": 308.64953655,
+      "specialized": 0.072
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6417.353456,
+      "attack": 111.66645279999997,
+      "defense": 313.04883644999995,
+      "specialized": 0.072
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6508.58618,
+      "attack": 113.253994,
+      "defense": 317.49929099999997,
+      "specialized": 0.072
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6599.818904,
+      "attack": 114.84153519999998,
+      "defense": 321.94974555,
+      "specialized": 0.072
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6691.051628,
+      "attack": 116.42907639999999,
+      "defense": 326.4002001,
+      "specialized": 0.072
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6782.284352000001,
+      "attack": 118.01661759999999,
+      "defense": 330.85065465,
+      "specialized": 0.072
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6874.5657280000005,
+      "attack": 119.62240639999999,
+      "defense": 335.35226385,
+      "specialized": 0.072
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6965.798452,
+      "attack": 121.20994759999999,
+      "defense": 339.8027184,
+      "specialized": 0.072
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7908.833076000001,
+      "attack": 137.6186158,
+      "defense": 385.80617294999996,
+      "specialized": 0.144
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 8001.114452,
+      "attack": 139.22440459999999,
+      "defense": 390.30778215,
+      "specialized": 0.144
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 8092.347175999999,
+      "attack": 140.8119458,
+      "defense": 394.7582367,
+      "specialized": 0.144
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 8184.628552,
+      "attack": 142.4177346,
+      "defense": 399.25984589999996,
+      "specialized": 0.144
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 8276.909928,
+      "attack": 144.0235234,
+      "defense": 403.7614551,
+      "specialized": 0.144
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 8369.191304,
+      "attack": 145.6293122,
+      "defense": 408.2630643,
+      "specialized": 0.144
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 8461.47268,
+      "attack": 147.235101,
+      "defense": 412.76467349999996,
+      "specialized": 0.144
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8553.754056,
+      "attack": 148.84088979999999,
+      "defense": 417.2662827,
+      "specialized": 0.144
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8646.035432,
+      "attack": 150.44667859999998,
+      "defense": 421.7678919,
+      "specialized": 0.144
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8738.316808,
+      "attack": 152.0524674,
+      "defense": 426.2695011,
+      "specialized": 0.144
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 9469.449784,
+      "attack": 164.7741052,
+      "defense": 461.93586029999994,
+      "specialized": 0.144
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9561.731160000001,
+      "attack": 166.379894,
+      "defense": 466.4374695,
+      "specialized": 0.144
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9655.061188,
+      "attack": 168.0039304,
+      "defense": 470.9902333499999,
+      "specialized": 0.144
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9747.342564,
+      "attack": 169.6097192,
+      "defense": 475.49184255,
+      "specialized": 0.144
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9840.672592,
+      "attack": 171.2337556,
+      "defense": 480.0446064,
+      "specialized": 0.144
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9934.00262,
+      "attack": 172.857792,
+      "defense": 484.5973702499999,
+      "specialized": 0.144
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 10026.283996,
+      "attack": 174.4635808,
+      "defense": 489.09897945,
+      "specialized": 0.144
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 10119.614024,
+      "attack": 176.08761719999998,
+      "defense": 493.6517432999999,
+      "specialized": 0.144
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 10212.944052,
+      "attack": 177.7116536,
+      "defense": 498.2045071499999,
+      "specialized": 0.144
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 10306.274080000001,
+      "attack": 179.33569,
+      "defense": 502.75727099999995,
+      "specialized": 0.144
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 11038.455408,
+      "attack": 192.07557039999998,
+      "defense": 538.47478485,
+      "specialized": 0.216
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 11132.834088,
+      "attack": 193.71785439999996,
+      "defense": 543.07870335,
+      "specialized": 0.216
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 11226.164116,
+      "attack": 195.3418908,
+      "defense": 547.6314672,
+      "specialized": 0.216
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 11319.494144,
+      "attack": 196.96592719999998,
+      "defense": 552.1842310499999,
+      "specialized": 0.216
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 11413.872824,
+      "attack": 198.60821119999997,
+      "defense": 556.78814955,
+      "specialized": 0.216
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 11507.202852,
+      "attack": 200.2322476,
+      "defense": 561.3409134,
+      "specialized": 0.216
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 11601.581532,
+      "attack": 201.87453159999998,
+      "defense": 565.9448318999999,
+      "specialized": 0.216
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11695.960212,
+      "attack": 203.51681559999997,
+      "defense": 570.5487504,
+      "specialized": 0.216
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11790.338892000002,
+      "attack": 205.1590996,
+      "defense": 575.1526689,
+      "specialized": 0.216
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11884.717572,
+      "attack": 206.80138359999998,
+      "defense": 579.7565874,
+      "specialized": 0.216
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 12617.947752,
+      "attack": 219.5595176,
+      "defense": 615.5252558999999,
+      "specialized": 0.288
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12712.326432,
+      "attack": 221.2018016,
+      "defense": 620.1291744,
+      "specialized": 0.288
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12806.705112000001,
+      "attack": 222.84408559999997,
+      "defense": 624.7330929,
+      "specialized": 0.288
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12901.083792000001,
+      "attack": 224.4863696,
+      "defense": 629.3370113999999,
+      "specialized": 0.288
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12995.462472000001,
+      "attack": 226.1286536,
+      "defense": 633.9409298999999,
+      "specialized": 0.288
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 13090.889804000002,
+      "attack": 227.78918520000002,
+      "defense": 638.59600305,
+      "specialized": 0.288
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 13185.268484000002,
+      "attack": 229.43146919999998,
+      "defense": 643.19992155,
+      "specialized": 0.288
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 13280.695816000001,
+      "attack": 231.0920008,
+      "defense": 647.8549946999999,
+      "specialized": 0.288
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 13376.123148,
+      "attack": 232.75253239999995,
+      "defense": 652.5100678499999,
+      "specialized": 0.288
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 13470.501828000002,
+      "attack": 234.39481640000002,
+      "defense": 657.11398635,
+      "specialized": 0.288
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3619.327558,
+      "attack": 62.97879839999999,
+      "defense": 176.55666209999998,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 6054.519864000001,
+      "attack": 105.3527832,
+      "defense": 295.34932755,
+      "specialized": 0.072
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7817.6003519999995,
+      "attack": 136.0310746,
+      "defense": 381.3557184,
+      "specialized": 0.144
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 9377.168408,
+      "attack": 163.1683164,
+      "defense": 457.4342511,
+      "specialized": 0.144
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10945.125380000001,
+      "attack": 190.451534,
+      "defense": 533.922021,
+      "specialized": 0.216
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 12523.569072,
+      "attack": 217.91723359999997,
+      "defense": 610.9213374,
+      "specialized": 0.288
+    }
+  }
+}

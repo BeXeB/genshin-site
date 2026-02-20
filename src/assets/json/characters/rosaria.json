@@ -1,0 +1,1619 @@
+{
+  "profile": {
+    "id": 10000045,
+    "name": "Rosaria",
+    "title": "Thorny Benevolence",
+    "description": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
+    "weaponType": "WEAPON_POLE",
+    "weaponText": "Polearm",
+    "bodyType": "BODY_LADY",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "1/24",
+    "birthday": "January 24",
+    "elementType": "ELEMENT_CRYO",
+    "elementText": "Cryo",
+    "affiliation": "Church of Favonius",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Spinea Corona",
+    "cv": {
+      "english": "Elizabeth Maxwell",
+      "chinese": "张安琪",
+      "japanese": "加隈亜衣",
+      "korean": "Kim Bo-na"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104161,
+          "name": "Shivada Jade Sliver",
+          "count": 1
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 3
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 3
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 2
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 10
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 4
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 20
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 3
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 8
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 30
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 12
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 45
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104164,
+          "name": "Shivada Jade Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 20
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 60
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/104817/54dc681e2d8ac63f61012557b2f5e70b_8355821143127517203.png",
+      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/104817/a41b9128c686df0f18008cc8d03e2710_1880644237863275563.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/da6ff2b868b5ff680484149c69518001.png",
+      "filename_icon": "UI_AvatarIcon_Rosaria",
+      "filename_iconCard": "UI_AvatarIcon_Rosaria_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Rosaria",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Rosaria",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Rosaria",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Rosaria.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Rosaria_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Rosaria"
+    },
+    "version": "1.4"
+  },
+  "skills": {
+    "id": 4501,
+    "name": "Rosaria",
+    "combat1": {
+      "name": "Spear of the Church",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}×2",
+          "4-Hit DMG|{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}+{param6:F1P}",
+          "Charged Attack DMG|{param7:P}",
+          "Charged Attack Stamina Cost|{param8:F1}",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.5246,
+            0.5673,
+            0.61,
+            0.671,
+            0.7137,
+            0.7625,
+            0.8296,
+            0.8967,
+            0.9638,
+            1.037,
+            1.1102,
+            1.1834,
+            1.2566,
+            1.3298,
+            1.403
+          ],
+          "param2": [
+            0.516,
+            0.558,
+            0.6,
+            0.66,
+            0.702,
+            0.75,
+            0.816,
+            0.882,
+            0.948,
+            1.02,
+            1.092,
+            1.164,
+            1.236,
+            1.308,
+            1.38
+          ],
+          "param3": [
+            0.3182,
+            0.3441,
+            0.37,
+            0.407,
+            0.4329,
+            0.4625,
+            0.5032,
+            0.5439,
+            0.5846,
+            0.629,
+            0.6734,
+            0.7178,
+            0.7622,
+            0.8066,
+            0.851
+          ],
+          "param4": [
+            0.6966,
+            0.7533,
+            0.81,
+            0.891,
+            0.9477,
+            1.0125,
+            1.1016,
+            1.1907,
+            1.2798,
+            1.377,
+            1.4742,
+            1.5714,
+            1.6686,
+            1.7658,
+            1.863
+          ],
+          "param5": [
+            0.41624,
+            0.45012,
+            0.484,
+            0.5324,
+            0.56628,
+            0.605,
+            0.65824,
+            0.71148,
+            0.76472,
+            0.8228,
+            0.88088,
+            0.93896,
+            0.99704,
+            1.05512,
+            1.1132
+          ],
+          "param6": [
+            0.43,
+            0.465,
+            0.5,
+            0.55,
+            0.585,
+            0.625,
+            0.68,
+            0.735,
+            0.79,
+            0.85,
+            0.91,
+            0.97,
+            1.03,
+            1.09,
+            1.15
+          ],
+          "param7": [
+            1.3674,
+            1.4787,
+            1.59,
+            1.749,
+            1.8603,
+            1.9875,
+            2.1624,
+            2.3373,
+            2.5122,
+            2.703,
+            2.8938,
+            3.0846,
+            3.2754,
+            3.4662,
+            3.657
+          ],
+          "param8": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param9": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param10": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param11": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Ravaging Confession",
+      "descriptionRaw": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing <color=#99FFFFFF>Cryo DMG</color>.\nThis ability cannot be used to travel behind opponents of a larger build.\n\n<i>Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.</i>",
+      "description": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing Cryo DMG.\nThis ability cannot be used to travel behind opponents of a larger build.",
+      "flavorText": "Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}+{param2:P}",
+          "CD|{param3:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.584,
+            0.6278,
+            0.6716,
+            0.73,
+            0.7738,
+            0.8176,
+            0.876,
+            0.9344,
+            0.9928,
+            1.0512,
+            1.1096,
+            1.168,
+            1.241,
+            1.314,
+            1.387
+          ],
+          "param2": [
+            1.36,
+            1.462,
+            1.564,
+            1.7,
+            1.802,
+            1.904,
+            2.04,
+            2.176,
+            2.312,
+            2.448,
+            2.584,
+            2.72,
+            2.89,
+            3.06,
+            3.23
+          ],
+          "param3": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Rites of Termination",
+      "descriptionRaw": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal <color=#99FFFFFF>Cryo DMG</color>.\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\n\n<i>Judgment is such a tedious ordeal — much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.</i>",
+      "description": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal Cryo DMG.\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing Cryo DMG to surrounding opponents.",
+      "flavorText": "Judgment is such a tedious ordeal — much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}+{param2:P}",
+          "Ice Lance DoT|{param3:P}",
+          "Duration|{param4:F1}s",
+          "CD|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            1.04,
+            1.118,
+            1.196,
+            1.3,
+            1.378,
+            1.456,
+            1.56,
+            1.664,
+            1.768,
+            1.872,
+            1.976,
+            2.08,
+            2.21,
+            2.34,
+            2.47
+          ],
+          "param2": [
+            1.52,
+            1.634,
+            1.748,
+            1.9,
+            2.014,
+            2.128,
+            2.28,
+            2.432,
+            2.584,
+            2.736,
+            2.888,
+            3.04,
+            3.23,
+            3.42,
+            3.61
+          ],
+          "param3": [
+            1.32,
+            1.419,
+            1.518,
+            1.65,
+            1.749,
+            1.848,
+            1.98,
+            2.112,
+            2.244,
+            2.376,
+            2.508,
+            2.64,
+            2.805,
+            2.97,
+            3.135
+          ],
+          "param4": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Regina Probationum",
+      "descriptionRaw": "When Rosaria strikes an opponent from behind using <color=#FFD780FF>Ravaging Confession</color>, Rosaria's CRIT Rate increases by 12% for 5s.",
+      "description": "When Rosaria strikes an opponent from behind using Ravaging Confession, Rosaria's CRIT Rate increases by 12% for 5s."
+    },
+    "passive2": {
+      "name": "Shadow Samaritan",
+      "descriptionRaw": "Casting <color=#FFD780FF>Rites of Termination</color> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\nCRIT Rate Bonus gained this way cannot exceed 15%.",
+      "description": "Casting Rites of Termination increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\nCRIT Rate Bonus gained this way cannot exceed 15%."
+    },
+    "passive3": {
+      "name": "Night Walk",
+      "descriptionRaw": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+      "description": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104307,
+          "name": "Teachings of Ballad",
+          "count": 3
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 2
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 4
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 6
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 9
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 4
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 4
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 6
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 6
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 12
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 9
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 16
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 12
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_03",
+      "filename_combat2": "Skill_S_Rosaria_01",
+      "filename_combat3": "Skill_E_Rosaria_01_HD",
+      "filename_passive1": "UI_Talent_S_Rosaria_05",
+      "filename_passive2": "UI_Talent_S_Rosaria_06",
+      "filename_passive3": "UI_Talent_Rosaria_NightRunner"
+    },
+    "version": "1.4"
+  },
+  "constellation": {
+    "id": 4501,
+    "name": "Rosaria",
+    "c1": {
+      "name": "Unholy Revelation",
+      "descriptionRaw": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s.",
+      "description": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s."
+    },
+    "c2": {
+      "name": "Land Without Promise",
+      "descriptionRaw": "The duration of the Ice Lance created by <color=#FFD780FF>Rites of Termination</color> is increased by 4s.",
+      "description": "The duration of the Ice Lance created by Rites of Termination is increased by 4s."
+    },
+    "c3": {
+      "name": "The Wages of Sin",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Ravaging Confession</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Ravaging Confession by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Painful Grace",
+      "descriptionRaw": "<color=#FFD780FF>Ravaging Confession</color>'s CRIT Hits regenerate 5 Energy for Rosaria.\nCan only be triggered once each time Ravaging Confession is cast.",
+      "description": "Ravaging Confession's CRIT Hits regenerate 5 Energy for Rosaria.\nCan only be triggered once each time Ravaging Confession is cast."
+    },
+    "c5": {
+      "name": "Last Rites",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Rites of Termination</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Rites of Termination by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Divine Retribution",
+      "descriptionRaw": "<color=#FFD780FF>Rites of Termination</color>'s attack decreases opponents' Physical RES by 20% for 10s.",
+      "description": "Rites of Termination's attack decreases opponents' Physical RES by 20% for 10s."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Rosaria_01",
+      "filename_c2": "UI_Talent_S_Rosaria_02",
+      "filename_c3": "UI_Talent_U_Rosaria_01",
+      "filename_c4": "UI_Talent_S_Rosaria_03",
+      "filename_c5": "UI_Talent_U_Rosaria_02",
+      "filename_c6": "UI_Talent_S_Rosaria_04",
+      "filename_constellation": "Eff_UI_Talent_Rosaria"
+    },
+    "version": "1.4"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1030.3239,
+      "attack": 20.12304,
+      "defense": 59.514,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1115.8407837,
+      "attack": 21.79325232,
+      "defense": 64.453662,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1200.3273435,
+      "attack": 23.4433416,
+      "defense": 69.33381,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1285.8442272000002,
+      "attack": 25.11355392,
+      "defense": 74.273472,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1370.330787,
+      "attack": 26.7636432,
+      "defense": 79.15362,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1455.8476707000002,
+      "attack": 28.43385552,
+      "defense": 84.093282,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1540.3342305000003,
+      "attack": 30.0839448,
+      "defense": 88.97343000000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1625.8511142000002,
+      "attack": 31.754157120000002,
+      "defense": 93.913092,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1711.3679979,
+      "attack": 33.42436944,
+      "defense": 98.852754,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1795.8545577000002,
+      "attack": 35.07445872,
+      "defense": 103.73290200000001,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1881.3714414000003,
+      "attack": 36.74467104,
+      "defense": 108.67256400000001,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1965.8580012,
+      "attack": 38.394760319999996,
+      "defense": 113.552712,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2051.3748849000003,
+      "attack": 40.06497264,
+      "defense": 118.49237400000001,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2135.8614447,
+      "attack": 41.71506192,
+      "defense": 123.372522,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2221.3783284000006,
+      "attack": 43.38527424,
+      "defense": 128.312184,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2306.8952121,
+      "attack": 45.05548656,
+      "defense": 133.251846,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2391.3817719000003,
+      "attack": 46.70557584,
+      "defense": 138.13199400000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2476.8986556,
+      "attack": 48.37578816,
+      "defense": 143.071656,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2561.3852154000006,
+      "attack": 50.02587744,
+      "defense": 147.951804,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2646.9020991,
+      "attack": 51.69608976,
+      "defense": 152.891466,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3501.0933089,
+      "attack": 68.37947304,
+      "defense": 202.231614,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3586.6101926000006,
+      "attack": 70.04968536,
+      "defense": 207.171276,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3672.1270763000007,
+      "attack": 71.71989768,
+      "defense": 212.11093800000003,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3756.6136361000003,
+      "attack": 73.36998696,
+      "defense": 216.99108600000002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3842.1305198000005,
+      "attack": 75.04019928000001,
+      "defense": 221.93074800000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3926.6170796000006,
+      "attack": 76.69028856,
+      "defense": 226.810896,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4012.1339633000002,
+      "attack": 78.36050087999999,
+      "defense": 231.750558,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4096.6205231,
+      "attack": 80.01059015999999,
+      "defense": 236.63070600000003,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4182.1374068000005,
+      "attack": 81.68080248,
+      "defense": 241.570368,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4266.6239666,
+      "attack": 83.33089176,
+      "defense": 246.45051600000002,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4352.1408503,
+      "attack": 85.00110407999999,
+      "defense": 251.39017800000002,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4437.657734,
+      "attack": 86.6713164,
+      "defense": 256.32984,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4522.1442938,
+      "attack": 88.32140568,
+      "defense": 261.209988,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4607.6611775,
+      "attack": 89.991618,
+      "defense": 266.14965,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4692.1477373,
+      "attack": 91.64170727999999,
+      "defense": 271.029798,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4777.664621000001,
+      "attack": 93.3119196,
+      "defense": 275.96946,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4862.1511808000005,
+      "attack": 94.96200888,
+      "defense": 280.849608,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4947.6680645,
+      "attack": 96.63222119999999,
+      "defense": 285.78927,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5033.1849482,
+      "attack": 98.30243352,
+      "defense": 290.728932,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5117.671507999999,
+      "attack": 99.9525228,
+      "defense": 295.60908,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5750.083841700001,
+      "attack": 112.30428712,
+      "defense": 332.13874200000004,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5834.570401500001,
+      "attack": 113.9543764,
+      "defense": 337.01889,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5920.087285200001,
+      "attack": 115.62458871999999,
+      "defense": 341.958552,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6004.573845000001,
+      "attack": 117.274678,
+      "defense": 346.8387,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6090.090728700001,
+      "attack": 118.94489032000001,
+      "defense": 351.778362,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6175.607612400001,
+      "attack": 120.61510264,
+      "defense": 356.718024,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6260.094172200001,
+      "attack": 122.26519192,
+      "defense": 361.59817200000003,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6345.611055900001,
+      "attack": 123.93540424,
+      "defense": 366.53783400000003,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6430.0976157000005,
+      "attack": 125.58549352,
+      "defense": 371.41798200000005,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6515.614499400001,
+      "attack": 127.25570584000002,
+      "defense": 376.35764400000005,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7329.2949592,
+      "attack": 143.14786212,
+      "defense": 423.357792,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7414.811842900001,
+      "attack": 144.81807444,
+      "defense": 428.2974540000001,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7500.3287266,
+      "attack": 146.48828676,
+      "defense": 433.237116,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7584.8152864,
+      "attack": 148.13837604000003,
+      "defense": 438.11726400000003,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7670.3321701,
+      "attack": 149.80858836,
+      "defense": 443.05692600000003,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7754.818729900001,
+      "attack": 151.45867764000002,
+      "defense": 447.93707400000005,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7840.3356136,
+      "attack": 153.12888995999998,
+      "defense": 452.876736,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7924.822173400001,
+      "attack": 154.77897924,
+      "defense": 457.75688400000007,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8010.3390571,
+      "attack": 156.44919155999997,
+      "defense": 462.696546,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8095.8559408,
+      "attack": 158.11940388,
+      "defense": 467.636208,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8727.2380006,
+      "attack": 170.45104616,
+      "defense": 504.106356,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8812.7548843,
+      "attack": 172.12125848,
+      "defense": 509.046018,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8897.2414441,
+      "attack": 173.77134776,
+      "defense": 513.926166,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8982.7583278,
+      "attack": 175.44156008,
+      "defense": 518.865828,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9067.2448876,
+      "attack": 177.09164936,
+      "defense": 523.7459759999999,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9152.7617713,
+      "attack": 178.76186167999998,
+      "defense": 528.6856379999999,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9238.278655,
+      "attack": 180.432074,
+      "defense": 533.6253,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9322.7652148,
+      "attack": 182.08216328,
+      "defense": 538.505448,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9408.282098500002,
+      "attack": 183.7523756,
+      "defense": 543.44511,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9492.768658300001,
+      "attack": 185.40246488,
+      "defense": 548.3252580000001,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10125.180742,
+      "attack": 197.7542262,
+      "defense": 584.85492,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10209.6673018,
+      "attack": 199.40431547999998,
+      "defense": 589.7350680000001,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10295.1841855,
+      "attack": 201.0745278,
+      "defense": 594.6747300000001,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10380.7010692,
+      "attack": 202.74474011999996,
+      "defense": 599.614392,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10465.187629,
+      "attack": 204.3948294,
+      "defense": 604.49454,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10550.7045127,
+      "attack": 206.06504172,
+      "defense": 609.434202,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10635.191072500002,
+      "attack": 207.71513099999999,
+      "defense": 614.31435,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10720.7079562,
+      "attack": 209.38534332,
+      "defense": 619.254012,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10805.194516000001,
+      "attack": 211.03543259999998,
+      "defense": 624.1341600000001,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10890.7113997,
+      "attack": 212.70564492,
+      "defense": 629.073822,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11523.1237834,
+      "attack": 225.05740624,
+      "defense": 665.603484,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11607.6103432,
+      "attack": 226.70749551999998,
+      "defense": 670.483632,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11693.1272269,
+      "attack": 228.37770784,
+      "defense": 675.4232939999999,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 11777.6137867,
+      "attack": 230.02779712,
+      "defense": 680.303442,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11863.130670400002,
+      "attack": 231.69800944,
+      "defense": 685.243104,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 11947.617230200001,
+      "attack": 233.34809872000002,
+      "defense": 690.1232520000001,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12033.134113900001,
+      "attack": 235.01831104000001,
+      "defense": 695.0629140000001,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12117.620673700001,
+      "attack": 236.66840032,
+      "defense": 699.943062,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12203.137557400001,
+      "attack": 238.33861264,
+      "defense": 704.882724,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12288.654441100001,
+      "attack": 240.00882496,
+      "defense": 709.822386,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3416.6067491000003,
+      "attack": 66.72938376,
+      "defense": 197.35146600000002,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5664.566957999999,
+      "attack": 110.63407480000001,
+      "defense": 327.19908,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7244.808399400001,
+      "attack": 141.49777284,
+      "defense": 418.47764400000005,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8642.7514408,
+      "attack": 168.80095688,
+      "defense": 499.226208,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10039.6638583,
+      "attack": 196.08401388,
+      "defense": 579.915258,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11437.6068997,
+      "attack": 223.38719392,
+      "defense": 660.663822,
+      "specialized": 0.24
+    }
+  }
+}

@@ -1,0 +1,1676 @@
+{
+  "profile": {
+    "id": 10000107,
+    "name": "Citlali",
+    "title": "Obsidian Opalstar",
+    "description": "The great shaman from the Masters of the Night-Wind, the universally-revered Granny Itztli.",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "1/20",
+    "birthday": "January 20",
+    "elementType": "ELEMENT_CRYO",
+    "elementText": "Cryo",
+    "affiliation": "Mictlan",
+    "associationType": "ASSOC_NATLAN",
+    "region": "Natlan",
+    "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
+    "substatText": "Elemental Mastery",
+    "constellation": "Patina Anavatlaca",
+    "cv": {
+      "english": "Skyler Davenport",
+      "chinese": "柳知萧",
+      "japanese": "田野アサミ",
+      "korean": "Lee Eun-jo"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104161,
+          "name": "Shivada Jade Sliver",
+          "count": 1
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 3
+        },
+        {
+          "id": 112101,
+          "name": "Juvenile Fang",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 3
+        },
+        {
+          "id": 113071,
+          "name": "Talisman of the Enigmatic Land",
+          "count": 2
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 10
+        },
+        {
+          "id": 112101,
+          "name": "Juvenile Fang",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 6
+        },
+        {
+          "id": 113071,
+          "name": "Talisman of the Enigmatic Land",
+          "count": 4
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 20
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 3
+        },
+        {
+          "id": 113071,
+          "name": "Talisman of the Enigmatic Land",
+          "count": 8
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 30
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 6
+        },
+        {
+          "id": 113071,
+          "name": "Talisman of the Enigmatic Land",
+          "count": 12
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 45
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104164,
+          "name": "Shivada Jade Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113071,
+          "name": "Talisman of the Enigmatic Land",
+          "count": 20
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 60
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Citlali",
+      "filename_iconCard": "UI_AvatarIcon_Citlali_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Citlali",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Citlali",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Citlali",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Citlali.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Citlali.png",
+      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/12/27/c4ab2530bb8bbe3c0e811684f97ec124_6688582217610741079.png"
+    },
+    "version": "5.3"
+  },
+  "skills": {
+    "id": 10701,
+    "name": "Citlali",
+    "combat1": {
+      "name": "Shadow-Stealing Spirit Vessel",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nCalls upon secret arts passed down through the Masters of the Night-Wind from generation to generation, performing up to three strikes that deal <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nEnters Aiming Mode, and after Holding, consumes a certain amount of Stamina to call forth a Frost Star that deals <color=#99FFFFFF>Cryo DMG</color> to opponents in its path.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathers the power of Cryo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#99FFFFFF>Aoe Cryo DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nCalls upon secret arts passed down through the Masters of the Night-Wind from generation to generation, performing up to three strikes that deal Cryo DMG.\n\nCharged Attack\nEnters Aiming Mode, and after Holding, consumes a certain amount of Stamina to call forth a Frost Star that deals Cryo DMG to opponents in its path.\n\nPlunging Attack\nGathers the power of Cryo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals Aoe Cryo DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "Charged Attack DMG|{param4:F1P}",
+          "Charged Attack Stamina Cost|{param5:F1}",
+          "Plunge DMG|{param6:F1P}",
+          "Low/High Plunge DMG|{param7:P}/{param8:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.434072,
+            0.466627,
+            0.499183,
+            0.54259,
+            0.575145,
+            0.607701,
+            0.651108,
+            0.694515,
+            0.737922,
+            0.78133,
+            0.824737,
+            0.868144,
+            0.922403,
+            0.976662,
+            1.030921
+          ],
+          "param2": [
+            0.388136,
+            0.417246,
+            0.446356,
+            0.48517,
+            0.51428,
+            0.54339,
+            0.582204,
+            0.621018,
+            0.659831,
+            0.698645,
+            0.737458,
+            0.776272,
+            0.824789,
+            0.873306,
+            0.921823
+          ],
+          "param3": [
+            0.537712,
+            0.57804,
+            0.618369,
+            0.67214,
+            0.712468,
+            0.752797,
+            0.806568,
+            0.860339,
+            0.91411,
+            0.967882,
+            1.021653,
+            1.075424,
+            1.142638,
+            1.209852,
+            1.277066
+          ],
+          "param4": [
+            0.992,
+            1.0664,
+            1.1408,
+            1.24,
+            1.3144,
+            1.3888,
+            1.488,
+            1.5872,
+            1.6864,
+            1.7856,
+            1.8848,
+            1.984,
+            2.108,
+            2.232,
+            2.356
+          ],
+          "param5": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param6": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param7": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param8": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Dawnfrost Darkstar",
+      "descriptionRaw": "Invoking secret pacts passed down by her tribe over the millennia, Citlali deploys an Opal Shield and calls forth \"Obsidian Tzitzimitl: Itzpapa,\" a creature that is (reputedly) terrifying beyond compare, dealing Nightsoul-aligned <color=#99FFFFFF>AoE Cryo DMG</color>.\nThe Opal Shield's DMG absorption scales based on Citlali's Elemental Mastery, and absorbs <color=#99FFFFFF>Cryo DMG</color> with 250% efficiency. When it is deployed, it will cause Citlali to briefly be <color=#99FFFFFF>affected by Cryo</color>.\nAfter using this skill, Citlali gains 24 Nightsoul points and enters the Nightsoul's Blessing state.\n\n<color=#FFD780FF>Nightsoul's Blessing: Citlali</color>\nWhen Itzpapa leaves the field, Citlali exits the Nightsoul's Blessing state.\n\n<color=#FFD780FF>Itzpapa</color>\n·Itzpapa will follow the character.\n·If Citlali has at least 50 Nightsoul points, Itzpapa enters the Opal Fire state and continuously consumes Nightsoul points to whip up a Frostfall Storm that follows the character and attacks opponents within its AoE, dealing Nightsoul-aligned <color=#99FFFFFF>Cryo DMG</color>.\n·When Citlali's Nightsoul points are fully depleted, Itzpapa's Opal Fire state also ends.\n\n<i>Usually, the wills that symbolize different stars cannot coexist, for how can purest black be reflected in purest white?\nBe that as it may, Citlali has never harbored a particular preference for colors themselves, and that is just how things played out.</i>",
+      "description": "Invoking secret pacts passed down by her tribe over the millennia, Citlali deploys an Opal Shield and calls forth \"Obsidian Tzitzimitl: Itzpapa,\" a creature that is (reputedly) terrifying beyond compare, dealing Nightsoul-aligned AoE Cryo DMG.\nThe Opal Shield's DMG absorption scales based on Citlali's Elemental Mastery, and absorbs Cryo DMG with 250% efficiency. When it is deployed, it will cause Citlali to briefly be affected by Cryo.\nAfter using this skill, Citlali gains 24 Nightsoul points and enters the Nightsoul's Blessing state.\n\nNightsoul's Blessing: Citlali\nWhen Itzpapa leaves the field, Citlali exits the Nightsoul's Blessing state.\n\nItzpapa\n·Itzpapa will follow the character.\n·If Citlali has at least 50 Nightsoul points, Itzpapa enters the Opal Fire state and continuously consumes Nightsoul points to whip up a Frostfall Storm that follows the character and attacks opponents within its AoE, dealing Nightsoul-aligned Cryo DMG.\n·When Citlali's Nightsoul points are fully depleted, Itzpapa's Opal Fire state also ends.",
+      "flavorText": "Usually, the wills that symbolize different stars cannot coexist, for how can purest black be reflected in purest white?\nBe that as it may, Citlali has never harbored a particular preference for colors themselves, and that is just how things played out.",
+      "attributes": {
+        "labels": [
+          "Obsidian Tzitzimitl DMG|{param1:F1P}",
+          "Shield DMG Absorption|{param2:F1P} Elemental Mastery+{param3:I}",
+          "Shield Duration|{param4:F1}s",
+          "Itzpapa Duration|{param4:I}s",
+          "Itzpapa: Opal Fire Nightsoul Point Consumption|{param7:F1} per Second",
+          "Frostfall Storm DMG|{param5:F1P}",
+          "Nightsoul Point Limit|{param9:F1}",
+          "CD|{param8:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.7296,
+            0.78432,
+            0.83904,
+            0.912,
+            0.96672,
+            1.02144,
+            1.0944,
+            1.16736,
+            1.24032,
+            1.31328,
+            1.38624,
+            1.4592,
+            1.5504,
+            1.6416,
+            1.7328
+          ],
+          "param2": [
+            5.76,
+            6.192,
+            6.624,
+            7.2,
+            7.632,
+            8.064,
+            8.64,
+            9.216,
+            9.792,
+            10.368,
+            10.944,
+            11.52,
+            12.24,
+            12.96,
+            13.68
+          ],
+          "param3": [
+            1386.6759,
+            1525.3628,
+            1675.6068,
+            1837.4082,
+            2010.7667,
+            2195.6826,
+            2392.1558,
+            2600.186,
+            2819.7734,
+            3050.9182,
+            3293.6204,
+            3547.8796,
+            3813.696,
+            4091.0698,
+            4380.0005
+          ],
+          "param4": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param5": [
+            0.17024,
+            0.183008,
+            0.195776,
+            0.2128,
+            0.225568,
+            0.238336,
+            0.25536,
+            0.272384,
+            0.289408,
+            0.306432,
+            0.323456,
+            0.34048,
+            0.36176,
+            0.38304,
+            0.40432
+          ],
+          "param6": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ],
+          "param7": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "param8": [
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "param9": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        }
+      }
+    },
+    "combatju": {},
+    "combat3": {
+      "name": "Edict of Entwined Splendor",
+      "descriptionRaw": "Summons \"allies\" from the starry skies and the vast earth, hurling forth an ice storm to bombard the area in front and deal Nightsoul-aligned <color=#99FFFFFF>AoE Cryo DMG</color>. This restores a set amount of Nightsoul points for Citlali, and also summons a <color=#FFD780FF>Spiritvessel Skull</color> near a maximum of 3 opponents within the AoE, with 1 Skull for each opponent. Spiritvessel Skulls explode after some time, dealing Nightsoul-aligned <color=#99FFFFFF>AoE Cryo DMG</color> and restoring a set amount of Nightsoul points for Citlali.\n\n<i>\"Ugh, enough of this 'dark star, opal star' stuff! Citlalin, Itzpapa, get 'em!\"</i>",
+      "description": "Summons \"allies\" from the starry skies and the vast earth, hurling forth an ice storm to bombard the area in front and deal Nightsoul-aligned AoE Cryo DMG. This restores a set amount of Nightsoul points for Citlali, and also summons a Spiritvessel Skull near a maximum of 3 opponents within the AoE, with 1 Skull for each opponent. Spiritvessel Skulls explode after some time, dealing Nightsoul-aligned AoE Cryo DMG and restoring a set amount of Nightsoul points for Citlali.",
+      "flavorText": "\"Ugh, enough of this 'dark star, opal star' stuff! Citlalin, Itzpapa, get 'em!\"",
+      "attributes": {
+        "labels": [
+          "Ice Storm DMG|{param1:F1P}",
+          "Ice Storm Nightsoul Point Gain|{param3:F1}",
+          "Spiritvessel Skull DMG|{param2:F1P}",
+          "Spiritvessel Skull Nightsoul Point Gain|{param4:F1}",
+          "CD|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            5.376,
+            5.7792,
+            6.1824,
+            6.72,
+            7.1232,
+            7.5264,
+            8.064,
+            8.6016,
+            9.1392,
+            9.6768,
+            10.2144,
+            10.752,
+            11.424,
+            12.096,
+            12.768
+          ],
+          "param2": [
+            1.344,
+            1.4448,
+            1.5456,
+            1.68,
+            1.7808,
+            1.8816,
+            2.016,
+            2.1504,
+            2.2848,
+            2.4192,
+            2.5536,
+            2.688,
+            2.856,
+            3.024,
+            3.192
+          ],
+          "param3": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ],
+          "param4": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Mamaloaco's Frigid Rain",
+      "descriptionRaw": "While Itzpapa is on the field, after nearby party members trigger the Frozen or Melt reactions, the <color=#FF9999FF>Pyro</color> and <color=#80C0FFFF>Hydro</color> RES of opponents affected by that reaction decreases by 20% for 12s. Additionally, Citlali will regain 16 Nightsoul points. Nightsoul points can be restored this way once every 8s.",
+      "description": "While Itzpapa is on the field, after nearby party members trigger the Frozen or Melt reactions, the Pyro and Hydro RES of opponents affected by that reaction decreases by 20% for 12s. Additionally, Citlali will regain 16 Nightsoul points. Nightsoul points can be restored this way once every 8s."
+    },
+    "passive2": {
+      "name": "Itzpapalotl's Star Garments",
+      "descriptionRaw": "During the Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color>, Itzpapa's Frostfall Storm DMG is increased by 90% of Citlali's Elemental Mastery. During the Elemental Burst <color=#FFD780FF>Edict of Entwined Splendor</color>, Ice Storm DMG is increased by 1200% of Citlali's Elemental Mastery.\nIn addition, when nearby party members trigger Nightsoul Bursts, Citlali regains 4 Nightsoul points.",
+      "description": "During the Elemental Skill Dawnfrost Darkstar, Itzpapa's Frostfall Storm DMG is increased by 90% of Citlali's Elemental Mastery. During the Elemental Burst Edict of Entwined Splendor, Ice Storm DMG is increased by 1200% of Citlali's Elemental Mastery.\nIn addition, when nearby party members trigger Nightsoul Bursts, Citlali regains 4 Nightsoul points."
+    },
+    "passive3": {
+      "name": "Night Realm's Gift: Smoke, Mirrors, and the Flowing Winds",
+      "descriptionRaw": "While in an area with Phlogiston Mechanics within Natlan, can use Nightsoul Transmission: Citlali. When the active character is currently high enough in the air, the following will trigger when switching to Citlali: Citlali will leap up high, and will deploy \"White Obsidian Tzitzimitl: Citlalin\" to float in the air. Nightsoul Transmission can be triggered once every 10s by your party.\n\nHolding Aiming Mode will cause Citlali to enter the \"Spiritspeaker\" state, which will allow her to interact with \"Nightspirit Graffiti\" and \"Nightspirit Sigils,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.\n\nAdditionally, holding the jump button will cause Citlali to consume 75 Stamina and leap. In areas within Natlan where Phlogiston mechanics are present, Citlali will prioritize consuming 5 Phlogiston to leap to a height higher still.\nWhen in the air, Citlali can Hold her Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode and trigger Charged Attacks. When initiating Charged Attacks in mid-air, Citlali will prioritize consuming 20 Phlogiston.",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, can use Nightsoul Transmission: Citlali. When the active character is currently high enough in the air, the following will trigger when switching to Citlali: Citlali will leap up high, and will deploy \"White Obsidian Tzitzimitl: Citlalin\" to float in the air. Nightsoul Transmission can be triggered once every 10s by your party.\n\nHolding Aiming Mode will cause Citlali to enter the \"Spiritspeaker\" state, which will allow her to interact with \"Nightspirit Graffiti\" and \"Nightspirit Sigils,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.\n\nAdditionally, holding the jump button will cause Citlali to consume 75 Stamina and leap. In areas within Natlan where Phlogiston mechanics are present, Citlali will prioritize consuming 5 Phlogiston to leap to a height higher still.\nWhen in the air, Citlali can Hold her Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode and trigger Charged Attacks. When initiating Charged Attacks in mid-air, Citlali will prioritize consuming 20 Phlogiston."
+    },
+    "passive4": {
+      "name": "Songs of Profound Mystery",
+      "descriptionRaw": "While in an area with Phlogiston Mechanics within Natlan, triggering \"Nightsoul Burst\" restores 20 Phlogiston.\nThis cannot take effect in Domains, Trounce Domains, or the Spiral Abyss.",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, triggering \"Nightsoul Burst\" restores 20 Phlogiston.\nThis cannot take effect in Domains, Trounce Domains, or the Spiral Abyss."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104350,
+          "name": "Teachings of Kindling",
+          "count": 3
+        },
+        {
+          "id": 112101,
+          "name": "Juvenile Fang",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 2
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 4
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 6
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 9
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 4
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 4
+        },
+        {
+          "id": 113062,
+          "name": "Denial and Judgment",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 6
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 6
+        },
+        {
+          "id": 113062,
+          "name": "Denial and Judgment",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 12
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 9
+        },
+        {
+          "id": 113062,
+          "name": "Denial and Judgment",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 16
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 12
+        },
+        {
+          "id": 113062,
+          "name": "Denial and Judgment",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Citlali_01",
+      "filename_combat3": "Skill_E_Citlali_01_HD",
+      "filename_passive1": "UI_Talent_S_Citlali_05",
+      "filename_passive2": "UI_Talent_S_Citlali_06",
+      "filename_passive3": "UI_Talent_S_Citlali_08",
+      "filename_passive4": "UI_Talent_S_Mavuika_08"
+    },
+    "version": "5.3"
+  },
+  "constellation": {
+    "id": 10701,
+    "name": "Citlali",
+    "c1": {
+      "name": "Radiant Blades of Centzon Mimixcoah",
+      "descriptionRaw": "When she uses the Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color>, Citlali gains the \"Opalstar Vestments\" effect until Itzpapa leaves the field. During this time, she will obtain 10 stacks of Stellar Blade. When a nearby active character other than Citlali deals DMG using Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts, 1 stack of Stellar Blade will be consumed to increase the DMG dealt by 200% of Citlali's Elemental Mastery.\nAfter nearby party members trigger Frozen or Melt, Citlali will gain another 3 stacks of Stellar Blade. This effect can trigger once every 8s.\n\nUsing the Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color> will reset Stellar Blade stacks.\nAdditionally, when Citlali is using her leap, or is Aiming or using her Charged Attack in mid-air, her Phlogiston consumption is decreased by 45%.",
+      "description": "When she uses the Elemental Skill Dawnfrost Darkstar, Citlali gains the \"Opalstar Vestments\" effect until Itzpapa leaves the field. During this time, she will obtain 10 stacks of Stellar Blade. When a nearby active character other than Citlali deals DMG using Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts, 1 stack of Stellar Blade will be consumed to increase the DMG dealt by 200% of Citlali's Elemental Mastery.\nAfter nearby party members trigger Frozen or Melt, Citlali will gain another 3 stacks of Stellar Blade. This effect can trigger once every 8s.\n\nUsing the Elemental Skill Dawnfrost Darkstar will reset Stellar Blade stacks.\nAdditionally, when Citlali is using her leap, or is Aiming or using her Charged Attack in mid-air, her Phlogiston consumption is decreased by 45%."
+    },
+    "c2": {
+      "name": "Heart Devourer's Travail",
+      "descriptionRaw": "Citlali gains 125 Elemental Mastery, and other characters shielded by her Opal Shield, or who have Itzpapa following them, gain 250 Elemental Mastery.\nAdditionally, when the Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color> is used, nearby active characters will also be granted an Opal Shield.\n\nAlso, the Ascension Talent \"Mamaloaco's Frigid Rain\" has its effects enhanced:\nWhile Itzpapa is on the field, after nearby party members trigger Frozen or Melt, the opponent(s) affected by this reaction will have their <color=#FF9999FF>Pyro</color> and <color=#80C0FFFF>Hydro</color> RES additionally decreased by 20% for 12s. You must first unlock the Ascension Talent \"Mamaloaco's Frigid Rain\" to gain access to the above effect.",
+      "description": "Citlali gains 125 Elemental Mastery, and other characters shielded by her Opal Shield, or who have Itzpapa following them, gain 250 Elemental Mastery.\nAdditionally, when the Elemental Skill Dawnfrost Darkstar is used, nearby active characters will also be granted an Opal Shield.\n\nAlso, the Ascension Talent \"Mamaloaco's Frigid Rain\" has its effects enhanced:\nWhile Itzpapa is on the field, after nearby party members trigger Frozen or Melt, the opponent(s) affected by this reaction will have their Pyro and Hydro RES additionally decreased by 20% for 12s. You must first unlock the Ascension Talent \"Mamaloaco's Frigid Rain\" to gain access to the above effect."
+    },
+    "c3": {
+      "name": "Cloud Serpent's Feathered Crown",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Dawnfrost Darkstar</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Dawnfrost Darkstar by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Death Defier's Spirit Skull",
+      "descriptionRaw": "While the Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color> is active, when Itzpapa's Frostfall Storm hits opponents, an additional <color=#FFD780FF>Obsidian Spiritvessel Skull</color> will be summoned. When a Spiritvessel Skull summoned this way explodes, it deals 1800% of Citlali's Elemental Mastery as Nightsoul-aligned <color=#99FFFFFF>AoE Cryo DMG</color> and restores 16 Nightsoul points and 8 Energy for Citlali. This effect can trigger once every 8s. This DMG is not considered Elemental Burst DMG.",
+      "description": "While the Elemental Skill Dawnfrost Darkstar is active, when Itzpapa's Frostfall Storm hits opponents, an additional Obsidian Spiritvessel Skull will be summoned. When a Spiritvessel Skull summoned this way explodes, it deals 1800% of Citlali's Elemental Mastery as Nightsoul-aligned AoE Cryo DMG and restores 16 Nightsoul points and 8 Energy for Citlali. This effect can trigger once every 8s. This DMG is not considered Elemental Burst DMG."
+    },
+    "c5": {
+      "name": "Nemontemi's Hex",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Edict of Entwined Splendor</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Edict of Entwined Splendor by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Teoiztac's Secret Pact",
+      "descriptionRaw": "After being summoned with the Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color>, Itzpapa will always be in the Opal Fire state, and when Nightsoul points are exhausted, this state will not end.\nAdditionally, when <color=#FFD780FF>Dawnfrost Darkstar</color> is used, Itzpapa will consume all Nightsoul points, and while it is on the field, it will continuously consume Nightsoul points. Each Nightsoul point consumed in this way will grant Citlali 1 \"Cifra of the Secret Law\" point.\nA maximum of 40 such points can be gained, and each point Citlali possesses will grant all nearby party members a 1.5% <color=#FF9999FF>Pyro</color> and <color=#80C0FFFF>Hydro</color> DMG Bonus, and increase the DMG Citlali deals by 2.5%.\nWhen Itzpapa leaves the field, or upon using Citlali's Elemental Skill again, all \"Cifra of the Secret Law\" points she has will be removed.",
+      "description": "After being summoned with the Elemental Skill Dawnfrost Darkstar, Itzpapa will always be in the Opal Fire state, and when Nightsoul points are exhausted, this state will not end.\nAdditionally, when Dawnfrost Darkstar is used, Itzpapa will consume all Nightsoul points, and while it is on the field, it will continuously consume Nightsoul points. Each Nightsoul point consumed in this way will grant Citlali 1 \"Cifra of the Secret Law\" point.\nA maximum of 40 such points can be gained, and each point Citlali possesses will grant all nearby party members a 1.5% Pyro and Hydro DMG Bonus, and increase the DMG Citlali deals by 2.5%.\nWhen Itzpapa leaves the field, or upon using Citlali's Elemental Skill again, all \"Cifra of the Secret Law\" points she has will be removed."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Citlali_01",
+      "filename_c2": "UI_Talent_S_Citlali_02",
+      "filename_c3": "UI_Talent_U_Citlali_01",
+      "filename_c4": "UI_Talent_S_Citlali_03",
+      "filename_c5": "UI_Talent_U_Citlali_02",
+      "filename_c6": "UI_Talent_S_Citlali_04",
+      "filename_constellation": "Eff_UI_Talent_Citlali"
+    },
+    "version": "5.3"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 905.654,
+      "attack": 9.8686,
+      "defense": 59.41119,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 980.823282,
+      "attack": 10.6876938,
+      "defense": 64.34231876999999,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1055.992564,
+      "attack": 11.506787600000001,
+      "defense": 69.27344753999999,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1132.0675,
+      "attack": 12.33575,
+      "defense": 74.2639875,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1207.236782,
+      "attack": 13.1548438,
+      "defense": 79.19511627,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1283.311718,
+      "attack": 13.983806200000002,
+      "defense": 84.18565622999999,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1358.481,
+      "attack": 14.802900000000001,
+      "defense": 89.116785,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1434.555936,
+      "attack": 15.631862400000001,
+      "defense": 94.10732496,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1510.630872,
+      "attack": 16.4608248,
+      "defense": 99.09786491999999,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1585.8001539999998,
+      "attack": 17.2799186,
+      "defense": 104.02899369,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1661.87509,
+      "attack": 18.108881,
+      "defense": 109.01953365,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1737.950026,
+      "attack": 18.937843400000002,
+      "defense": 114.01007360999999,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1814.0249620000002,
+      "attack": 19.766805800000004,
+      "defense": 119.00061357,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1891.005552,
+      "attack": 20.605636800000003,
+      "defense": 124.05056472,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1967.080488,
+      "attack": 21.434599200000005,
+      "defense": 129.04110468000002,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2043.1554239999998,
+      "attack": 22.2635616,
+      "defense": 134.03164464,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2120.136014,
+      "attack": 23.102392600000005,
+      "defense": 139.08159579,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2196.2109499999997,
+      "attack": 23.931355,
+      "defense": 144.07213574999997,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2273.19154,
+      "attack": 24.770186,
+      "defense": 149.12208689999997,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2349.266476,
+      "attack": 25.5991484,
+      "defense": 154.11262685999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3202.763466,
+      "attack": 34.8987934,
+      "defense": 210.10347800999998,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3279.744056,
+      "attack": 35.7376244,
+      "defense": 215.15342915999997,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3356.724646,
+      "attack": 36.5764554,
+      "defense": 220.20338031,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3433.7052360000002,
+      "attack": 37.4152864,
+      "defense": 225.25333146,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3510.685826,
+      "attack": 38.2541174,
+      "defense": 230.30328261,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3588.57207,
+      "attack": 39.102817,
+      "defense": 235.41264495,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3665.55266,
+      "attack": 39.941648,
+      "defense": 240.46259609999998,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3742.53325,
+      "attack": 40.780479,
+      "defense": 245.51254724999998,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3820.419494,
+      "attack": 41.6291786,
+      "defense": 250.62190959,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3897.4000840000003,
+      "attack": 42.4680096,
+      "defense": 255.67186074,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3975.286328,
+      "attack": 43.316709200000005,
+      "defense": 260.78122308,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4053.172572,
+      "attack": 44.1654088,
+      "defense": 265.89058542,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4131.058816000001,
+      "attack": 45.014108400000005,
+      "defense": 270.99994776,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4208.039406,
+      "attack": 45.852939400000004,
+      "defense": 276.04989891,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4285.92565,
+      "attack": 46.701639,
+      "defense": 281.15926125,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4364.7175480000005,
+      "attack": 47.5602072,
+      "defense": 286.32803478,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4442.603792,
+      "attack": 48.408906800000004,
+      "defense": 291.43739712,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4520.490036,
+      "attack": 49.25760640000001,
+      "defense": 296.54675946,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4598.37628,
+      "attack": 50.106306,
+      "defense": 301.65612179999994,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4677.168178,
+      "attack": 50.964874200000004,
+      "defense": 306.82489533,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5306.7897219999995,
+      "attack": 57.8252048,
+      "defense": 348.12910766999994,
+      "specialized": 28.8
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5385.581620000001,
+      "attack": 58.68377300000001,
+      "defense": 353.2978812,
+      "specialized": 28.8
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5464.373518,
+      "attack": 59.5423412,
+      "defense": 358.46665472999996,
+      "specialized": 28.8
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5542.259762,
+      "attack": 60.3910408,
+      "defense": 363.5760170699999,
+      "specialized": 28.8
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5621.05166,
+      "attack": 61.24960900000001,
+      "defense": 368.7447906,
+      "specialized": 28.8
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5699.843558,
+      "attack": 62.1081772,
+      "defense": 373.91356412999994,
+      "specialized": 28.8
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5778.635455999999,
+      "attack": 62.9667454,
+      "defense": 379.08233766,
+      "specialized": 28.8
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5857.427354,
+      "attack": 63.82531360000001,
+      "defense": 384.25111118999996,
+      "specialized": 28.8
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5937.124906,
+      "attack": 64.6937504,
+      "defense": 389.47929591,
+      "specialized": 28.8
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6015.9168039999995,
+      "attack": 65.5523186,
+      "defense": 394.64806944,
+      "specialized": 28.8
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6830.356002,
+      "attack": 74.4263948,
+      "defense": 448.07664296999997,
+      "specialized": 57.6
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6910.053554,
+      "attack": 75.29483160000001,
+      "defense": 453.30482769,
+      "specialized": 57.6
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6988.845452,
+      "attack": 76.1533998,
+      "defense": 458.47360122,
+      "specialized": 57.6
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7068.543003999999,
+      "attack": 77.0218366,
+      "defense": 463.7017859399999,
+      "specialized": 57.6
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7148.240556000001,
+      "attack": 77.8902734,
+      "defense": 468.92997066,
+      "specialized": 57.6
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7227.938108,
+      "attack": 78.75871020000001,
+      "defense": 474.1581553799999,
+      "specialized": 57.6
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7307.63566,
+      "attack": 79.62714700000001,
+      "defense": 479.3863401,
+      "specialized": 57.6
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7387.333212,
+      "attack": 80.4955838,
+      "defense": 484.61452481999993,
+      "specialized": 57.6
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7467.030763999999,
+      "attack": 81.3640206,
+      "defense": 489.84270954,
+      "specialized": 57.6
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7546.728316000001,
+      "attack": 82.2324574,
+      "defense": 495.07089425999993,
+      "specialized": 57.6
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8178.1611680000005,
+      "attack": 89.11252520000001,
+      "defense": 536.49392898,
+      "specialized": 57.6
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8257.85872,
+      "attack": 89.980962,
+      "defense": 541.7221137,
+      "specialized": 57.6
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8338.461926,
+      "attack": 90.8592674,
+      "defense": 547.00970961,
+      "specialized": 57.6
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8418.159478,
+      "attack": 91.7277042,
+      "defense": 552.23789433,
+      "specialized": 57.6
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8498.762684000001,
+      "attack": 92.60600960000001,
+      "defense": 557.52549024,
+      "specialized": 57.6
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8579.365890000001,
+      "attack": 93.48431500000001,
+      "defense": 562.8130861499999,
+      "specialized": 57.6
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8659.063442,
+      "attack": 94.35275180000001,
+      "defense": 568.04127087,
+      "specialized": 57.6
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 8739.666648,
+      "attack": 95.2310572,
+      "defense": 573.32886678,
+      "specialized": 57.6
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 8820.269854,
+      "attack": 96.1093626,
+      "defense": 578.6164626899999,
+      "specialized": 57.6
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 8900.87306,
+      "attack": 96.98766800000001,
+      "defense": 583.9040586,
+      "specialized": 57.6
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9533.211566,
+      "attack": 103.8776044,
+      "defense": 625.38650451,
+      "specialized": 86.4
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 9614.720426,
+      "attack": 104.76577840000002,
+      "defense": 630.7335116099999,
+      "specialized": 86.4
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 9695.323632,
+      "attack": 105.6440838,
+      "defense": 636.02110752,
+      "specialized": 86.4
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 9775.926838,
+      "attack": 106.52238919999999,
+      "defense": 641.3087034299999,
+      "specialized": 86.4
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 9857.435698,
+      "attack": 107.41056320000001,
+      "defense": 646.65571053,
+      "specialized": 86.4
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 9938.038904000001,
+      "attack": 108.2888686,
+      "defense": 651.94330644,
+      "specialized": 86.4
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10019.547763999999,
+      "attack": 109.1770426,
+      "defense": 657.2903135399999,
+      "specialized": 86.4
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10101.056624,
+      "attack": 110.06521660000001,
+      "defense": 662.63732064,
+      "specialized": 86.4
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10182.565484,
+      "attack": 110.9533906,
+      "defense": 667.98432774,
+      "specialized": 86.4
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10264.074344,
+      "attack": 111.8415646,
+      "defense": 673.33133484,
+      "specialized": 86.4
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 10897.318604,
+      "attack": 118.74136960000001,
+      "defense": 714.87319194,
+      "specialized": 115.2
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 10978.827464,
+      "attack": 119.6295436,
+      "defense": 720.2201990399999,
+      "specialized": 115.2
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11060.336324,
+      "attack": 120.51771760000001,
+      "defense": 725.5672061399999,
+      "specialized": 115.2
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 11141.845184,
+      "attack": 121.4058916,
+      "defense": 730.91421324,
+      "specialized": 115.2
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11223.354044,
+      "attack": 122.2940656,
+      "defense": 736.2612203399999,
+      "specialized": 115.2
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 11305.768558,
+      "attack": 123.1921082,
+      "defense": 741.66763863,
+      "specialized": 115.2
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 11387.277418,
+      "attack": 124.08028220000001,
+      "defense": 747.01464573,
+      "specialized": 115.2
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 11469.691932,
+      "attack": 124.97832480000001,
+      "defense": 752.4210640199999,
+      "specialized": 115.2
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 11552.106446,
+      "attack": 125.87636739999999,
+      "defense": 757.8274823099999,
+      "specialized": 115.2
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11633.615306000002,
+      "attack": 126.76454140000001,
+      "defense": 763.17448941,
+      "specialized": 115.2
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3125.7828759999998,
+      "attack": 34.0599624,
+      "defense": 205.05352685999998,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5228.903478,
+      "attack": 56.976505200000005,
+      "defense": 343.01974533,
+      "specialized": 28.8
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6751.564103999999,
+      "attack": 73.5678266,
+      "defense": 442.90786944,
+      "specialized": 57.6
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8098.463616000001,
+      "attack": 88.24408840000001,
+      "defense": 531.26574426,
+      "specialized": 57.6
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9452.60836,
+      "attack": 102.99929900000001,
+      "defense": 620.0989086,
+      "specialized": 86.4
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10815.809744,
+      "attack": 117.8531956,
+      "defense": 709.52618484,
+      "specialized": 115.2
+    }
+  }
+}

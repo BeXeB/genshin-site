@@ -19,6 +19,7 @@
 .tier {
   display: flex;
   flex-direction: row;
+  align-items: stretch;
 }
 
 .tier .tier-name {
@@ -28,8 +29,34 @@
   border-bottom: none;
 }
 
+.tier button {
+  width: 40px;
+  height: auto;
+  border-radius: 0;
+  border: none;
+  border-left: solid 1px var(--dark-gray);
+  border-top: solid 1px var(--dark-gray);
+}
+
+.tier button:hover {
+  box-shadow: none;
+}
+
+.tier:first-of-type button {
+  border-top: none;
+}
+
 .tier-name {
   flex: 0 0 150px;
+}
+
+.tier-name:hover,
+.tier-name:focus {
+  border-radius: 0;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  box-shadow: none;
 }
 
 .tier-zone {

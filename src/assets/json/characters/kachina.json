@@ -1,0 +1,1587 @@
+{
+  "profile": {
+    "id": 10000100,
+    "name": "Kachina",
+    "title": "Mottled Gold Yet Unsmelted",
+    "description": "A young warrior of the Nanatzcayan, given the Ancient Name of \"Uthabiti.\" Kind-hearted and insatiably persistent, she grows stronger and more capable with each setback she faces.",
+    "weaponType": "WEAPON_POLE",
+    "weaponText": "Polearm",
+    "bodyType": "BODY_LOLI",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "4/22",
+    "birthday": "April 22",
+    "elementType": "ELEMENT_GEO",
+    "elementText": "Geo",
+    "affiliation": "Nanatzcayan",
+    "associationType": "ASSOC_NATLAN",
+    "region": "Natlan",
+    "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
+    "substatText": "Geo DMG Bonus",
+    "constellation": "Ochotona Princeps",
+    "cv": {
+      "english": "Kristen McGuire",
+      "chinese": "静宸",
+      "japanese": "久保ユリカ",
+      "korean": "Son Sun-young"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104171,
+          "name": "Prithiva Topaz Sliver",
+          "count": 1
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 3
+        },
+        {
+          "id": 112104,
+          "name": "Sentry's Wooden Whistle",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 3
+        },
+        {
+          "id": 113065,
+          "name": "Overripe Flamegranate",
+          "count": 2
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 10
+        },
+        {
+          "id": 112104,
+          "name": "Sentry's Wooden Whistle",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 6
+        },
+        {
+          "id": 113065,
+          "name": "Overripe Flamegranate",
+          "count": 4
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 20
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 3
+        },
+        {
+          "id": 113065,
+          "name": "Overripe Flamegranate",
+          "count": 8
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 30
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 6
+        },
+        {
+          "id": 113065,
+          "name": "Overripe Flamegranate",
+          "count": 12
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 45
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104174,
+          "name": "Prithiva Topaz Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113065,
+          "name": "Overripe Flamegranate",
+          "count": 20
+        },
+        {
+          "id": 101249,
+          "name": "Quenepa Berry",
+          "count": 60
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Kachina",
+      "filename_iconCard": "UI_AvatarIcon_Kachina_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Kachina",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Kachina",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kachina",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kachina.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kachina.png",
+      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/125395/16e50c02258c1f884935108cff029bc7_3477147837847852587.png",
+      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/125395/b442bc8e0039f2a65d74ac2036dbfa64_6494129458549470541.png",
+      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/23/26925adb1092d29c8afdf46d92fad8bd_343637410022641529.png"
+    },
+    "version": "5.0"
+  },
+  "skills": {
+    "id": 10001,
+    "name": "Kachina",
+    "combat1": {
+      "name": "Cragbiter",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+          "3-Hit DMG|{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "Charged Attack DMG|{param6:F1P}",
+          "Charged Attack Stamina Cost|{param7:F1}",
+          "Plunge DMG|{param8:F1P}",
+          "Low/High Plunge DMG|{param9:P}/{param10:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.493984,
+            0.534192,
+            0.5744,
+            0.63184,
+            0.672048,
+            0.718,
+            0.781184,
+            0.844368,
+            0.907552,
+            0.97648,
+            1.045408,
+            1.114336,
+            1.183264,
+            1.252192,
+            1.32112
+          ],
+          "param2": [
+            0.27569,
+            0.29813,
+            0.32057,
+            0.352627,
+            0.375067,
+            0.400713,
+            0.435975,
+            0.471238,
+            0.506501,
+            0.544969,
+            0.583437,
+            0.621906,
+            0.660374,
+            0.698843,
+            0.737311
+          ],
+          "param3": [
+            0.306323,
+            0.331257,
+            0.35619,
+            0.391809,
+            0.416742,
+            0.445238,
+            0.484418,
+            0.523599,
+            0.56278,
+            0.605523,
+            0.648266,
+            0.691009,
+            0.733751,
+            0.776494,
+            0.819237
+          ],
+          "param4": [
+            0.704271,
+            0.761596,
+            0.81892,
+            0.900812,
+            0.958136,
+            1.02365,
+            1.113731,
+            1.203812,
+            1.293894,
+            1.392164,
+            1.490434,
+            1.588705,
+            1.686975,
+            1.785246,
+            1.883516
+          ],
+          "param5": [
+            0.774361,
+            0.837391,
+            0.90042,
+            0.990462,
+            1.053491,
+            1.125525,
+            1.224571,
+            1.323617,
+            1.422664,
+            1.530714,
+            1.638764,
+            1.746815,
+            1.854865,
+            1.962916,
+            2.070966
+          ],
+          "param6": [
+            1.1266,
+            1.2183,
+            1.31,
+            1.441,
+            1.5327,
+            1.6375,
+            1.7816,
+            1.9257,
+            2.0698,
+            2.227,
+            2.3842,
+            2.5414,
+            2.6986,
+            2.8558,
+            3.013
+          ],
+          "param7": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param8": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param9": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param10": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Go, Go Turbo Twirly!",
+      "descriptionRaw": "Fight alongside the turbo trusty Turbo Twirly!\nSummons Turbo Twirly. When the skill is Held and released, Kachina will summon and ride Turbo Twirly.\nAfter the Skill is used, Kachina will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.\n\n<color=#FFD780FF>Nightsoul's Blessing: Kachina</color>\nTurbo Twirly's various actions consume Kachina's Nightsoul points.\nThe Nightsoul's Blessing state will end when these points have been depleted.\n\n<color=#FFD780FF>Turbo Twirly</color>\nCan exist independently or be ridden and operated by Kachina. When Turbo Twirly is present, Kachina's Elemental Skill, \"Go, Go Turbo Twirly!\", will change to an option to Mount/Dismount Turbo Twirly.\n·When present independent of Kachina, it will slam the ground at intervals, dealing Nightsoul-aligned <color=#FFE699FF>AoE Geo DMG</color> based on Kachina's DEF.\n·When Kachina is riding Turbo Twirly, she can control it to move and climb swiftly, and use Normal Attacks to slam the ground, dealing Nightsoul-aligned <color=#FFE699FF>AoE Geo DMG</color> based on Kachina's DEF.\n\nTurbo Twirly will disappear once Kachina's Nightsoul's Blessing state ends, and it is considered a Geo Construct. Only 1 Turbo Twirly created by Kachina herself can exist on the field at any one time.\n\n<i>Turbo Twirly only looks like a top — it is, in fact, a drill that can split even the strongest rock asunder!</i>",
+      "description": "Fight alongside the turbo trusty Turbo Twirly!\nSummons Turbo Twirly. When the skill is Held and released, Kachina will summon and ride Turbo Twirly.\nAfter the Skill is used, Kachina will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.\n\nNightsoul's Blessing: Kachina\nTurbo Twirly's various actions consume Kachina's Nightsoul points.\nThe Nightsoul's Blessing state will end when these points have been depleted.\n\nTurbo Twirly\nCan exist independently or be ridden and operated by Kachina. When Turbo Twirly is present, Kachina's Elemental Skill, \"Go, Go Turbo Twirly!\", will change to an option to Mount/Dismount Turbo Twirly.\n·When present independent of Kachina, it will slam the ground at intervals, dealing Nightsoul-aligned AoE Geo DMG based on Kachina's DEF.\n·When Kachina is riding Turbo Twirly, she can control it to move and climb swiftly, and use Normal Attacks to slam the ground, dealing Nightsoul-aligned AoE Geo DMG based on Kachina's DEF.\n\nTurbo Twirly will disappear once Kachina's Nightsoul's Blessing state ends, and it is considered a Geo Construct. Only 1 Turbo Twirly created by Kachina herself can exist on the field at any one time.",
+      "flavorText": "Turbo Twirly only looks like a top — it is, in fact, a drill that can split even the strongest rock asunder!",
+      "attributes": {
+        "labels": [
+          "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+          "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+          "Nightsoul Point Limit|{param3:F1}",
+          "CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.8776,
+            0.94342,
+            1.00924,
+            1.097,
+            1.16282,
+            1.22864,
+            1.3164,
+            1.40416,
+            1.49192,
+            1.57968,
+            1.66744,
+            1.7552,
+            1.8649,
+            1.9746,
+            2.0843
+          ],
+          "param2": [
+            0.6376,
+            0.68542,
+            0.73324,
+            0.797,
+            0.84482,
+            0.89264,
+            0.9564,
+            1.02016,
+            1.08392,
+            1.14768,
+            1.21144,
+            1.2752,
+            1.3549,
+            1.4346,
+            1.5143
+          ],
+          "param3": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "param4": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Time to Get Serious!",
+      "descriptionRaw": "Striking the ground, Kachina deals <color=#FFE699FF>AoE Geo DMG</color> based on her DEF and creates a Turbo Drill Field.\nThe Field increases Turbo Twirly's attack AoE and its Movement SPD when Kachina is riding it.\n\nIf Kachina's own Turbo Twirly is present when this is used, the Turbo Twirly will be summoned to her side.\n\n<i>Just as nervous performers might imagine audience members as wooden puppets, Kachina imagines that her opponents are the loveliest of gem-bearing ores — the kind you'd be proud to bring home and hoard.</i>",
+      "description": "Striking the ground, Kachina deals AoE Geo DMG based on her DEF and creates a Turbo Drill Field.\nThe Field increases Turbo Twirly's attack AoE and its Movement SPD when Kachina is riding it.\n\nIf Kachina's own Turbo Twirly is present when this is used, the Turbo Twirly will be summoned to her side.",
+      "flavorText": "Just as nervous performers might imagine audience members as wooden puppets, Kachina imagines that her opponents are the loveliest of gem-bearing ores — the kind you'd be proud to bring home and hoard.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P} DEF",
+          "Field Duration|{param2:F1}s",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            3.805672,
+            4.1366,
+            4.4252,
+            4.81,
+            5.0986,
+            5.3872,
+            5.772,
+            6.1568,
+            6.5416,
+            6.9264,
+            7.3112,
+            7.696,
+            8.177,
+            8.658,
+            9.139
+          ],
+          "param2": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param3": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param4": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Mountain Echoes",
+      "descriptionRaw": "After nearby party members trigger a Nightsoul Burst, Kachina's <color=#FFE699FF>Geo DMG Bonus</color> increases by 20% for 12s.",
+      "description": "After nearby party members trigger a Nightsoul Burst, Kachina's Geo DMG Bonus increases by 20% for 12s."
+    },
+    "passive2": {
+      "name": "The Weight of Stone",
+      "descriptionRaw": "<color=#FFD780FF>Turbo Twirly</color>'s DMG is increased by 20% of Kachina's DEF.",
+      "description": "Turbo Twirly's DMG is increased by 20% of Kachina's DEF."
+    },
+    "passive3": {
+      "name": "Night Realm's Gift: Heart of Unity",
+      "descriptionRaw": "After her Nightsoul points are depleted, Kachina will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Kachina. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Kachina: Kachina will enter the Nightsoul's Blessing state and ride <color=#FFD780FF>Turbo Twirly</color> when taking the field while gaining 30 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, while in Natlan, Kachina will consume 90% less Stamina when climbing while riding <color=#FFD780FF>Turbo Twirly</color>.",
+      "description": "After her Nightsoul points are depleted, Kachina will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Kachina. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Kachina: Kachina will enter the Nightsoul's Blessing state and ride Turbo Twirly when taking the field while gaining 30 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, while in Natlan, Kachina will consume 90% less Stamina when climbing while riding Turbo Twirly."
+    },
+    "passive4": {
+      "name": "Boon of Crystal Flame",
+      "descriptionRaw": "While in an area with Phlogiston Mechanics within Natlan, 20 Stamina will be restored when interacting with some harvestable items. Additionally, the location of nearby <color=#FFD780FF>resources unique to Natlan</color> will appear on your mini-map.",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, 20 Stamina will be restored when interacting with some harvestable items. Additionally, the location of nearby resources unique to Natlan will appear on your mini-map."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104353,
+          "name": "Teachings of Conflict",
+          "count": 3
+        },
+        {
+          "id": 112104,
+          "name": "Sentry's Wooden Whistle",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104354,
+          "name": "Guide to Conflict",
+          "count": 2
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104354,
+          "name": "Guide to Conflict",
+          "count": 4
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104354,
+          "name": "Guide to Conflict",
+          "count": 6
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104354,
+          "name": "Guide to Conflict",
+          "count": 9
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104355,
+          "name": "Philosophies of Conflict",
+          "count": 4
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 4
+        },
+        {
+          "id": 113060,
+          "name": "Fading Candle",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104355,
+          "name": "Philosophies of Conflict",
+          "count": 6
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 6
+        },
+        {
+          "id": 113060,
+          "name": "Fading Candle",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104355,
+          "name": "Philosophies of Conflict",
+          "count": 12
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 9
+        },
+        {
+          "id": 113060,
+          "name": "Fading Candle",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104355,
+          "name": "Philosophies of Conflict",
+          "count": 16
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 12
+        },
+        {
+          "id": 113060,
+          "name": "Fading Candle",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_03",
+      "filename_combat2": "Skill_S_Kachina_01",
+      "filename_combat3": "Skill_E_Kachina_01_HD",
+      "filename_passive1": "UI_Talent_S_Kachina_05",
+      "filename_passive2": "UI_Talent_S_Kachina_06",
+      "filename_passive3": "UI_Talent_S_Kachina_07",
+      "filename_passive4": "UI_Talent_S_Kachina_08"
+    },
+    "version": "5.0"
+  },
+  "constellation": {
+    "id": 10001,
+    "name": "Kachina",
+    "c1": {
+      "name": "Shards Are Gems Too",
+      "descriptionRaw": "When Kachina mounts or dismounts <color=#FFD780FF>Turbo Twirly</color>, she will absorb nearby Elemental Shards created by Crystallize.\nAdditionally, when a party member picks up such a Shard, or triggers Lunar-Crystallize reactions, 3 Energy will be restored to Kachina. Energy can be restored this way once every 5s.",
+      "description": "When Kachina mounts or dismounts Turbo Twirly, she will absorb nearby Elemental Shards created by Crystallize.\nAdditionally, when a party member picks up such a Shard, or triggers Lunar-Crystallize reactions, 3 Energy will be restored to Kachina. Energy can be restored this way once every 5s."
+    },
+    "c2": {
+      "name": "Never Leave Home Without... Turbo Twirly",
+      "descriptionRaw": "When Kachina uses <color=#FFD780FF>\"Time to Get Serious!\"</color>, she will regain 20 Nightsoul points. If there is no <color=#FFD780FF>Turbo Twirly</color> belonging to her on the field, she will enter Nightsoul's Blessing and summon one.",
+      "description": "When Kachina uses \"Time to Get Serious!\", she will regain 20 Nightsoul points. If there is no Turbo Twirly belonging to her on the field, she will enter Nightsoul's Blessing and summon one."
+    },
+    "c3": {
+      "name": "Improved Stabilizer",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Go, Go Turbo Twirly!</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Go, Go Turbo Twirly! by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "More Foes, More Caution",
+      "descriptionRaw": "When there are 1/2/3/4 (or more) opponents within the Turbo Drill Field created by <color=#FFD780FF>\"Time to Get Serious!\"</color>, the active character within the field gains 8%/12%/16%/20% increased DEF.",
+      "description": "When there are 1/2/3/4 (or more) opponents within the Turbo Drill Field created by \"Time to Get Serious!\", the active character within the field gains 8%/12%/16%/20% increased DEF."
+    },
+    "c5": {
+      "name": "All I've Collected Till Now",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Time to Get Serious!</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Time to Get Serious! by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "This Time, I've Gotta Win",
+      "descriptionRaw": "When your active character's Shield is replaced or destroyed for any reason, Kachina will deal 200% of her DEF as <color=#FFE699FF>AoE Geo DMG</color>. This effect can be triggered once every 5s.",
+      "description": "When your active character's Shield is replaced or destroyed for any reason, Kachina will deal 200% of her DEF as AoE Geo DMG. This effect can be triggered once every 5s."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Kachina_01",
+      "filename_c2": "UI_Talent_S_Kachina_02",
+      "filename_c3": "UI_Talent_U_Kachina_01",
+      "filename_c4": "UI_Talent_S_Kachina_03",
+      "filename_c5": "UI_Talent_U_Kachina_02",
+      "filename_c6": "UI_Talent_S_Kachina_04",
+      "filename_constellation": "Eff_UI_Talent_Kachina"
+    },
+    "version": "5.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 989.2932,
+      "attack": 18.16416,
+      "defense": 66.438225,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1071.4045356,
+      "attack": 19.671785279999998,
+      "defense": 71.952597675,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1152.526578,
+      "attack": 21.1612464,
+      "defense": 77.40053212500001,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1234.6379136,
+      "attack": 22.66887168,
+      "defense": 82.9149048,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1315.759956,
+      "attack": 24.1583328,
+      "defense": 88.36283925000001,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1397.8712916,
+      "attack": 25.66595808,
+      "defense": 93.87721192500001,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1478.993334,
+      "attack": 27.1554192,
+      "defense": 99.32514637500002,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1561.1046696,
+      "attack": 28.66304448,
+      "defense": 104.83951905,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1643.2160052,
+      "attack": 30.17066976,
+      "defense": 110.35389172500001,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1724.3380476,
+      "attack": 31.66013088,
+      "defense": 115.80182617500002,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1806.4493832,
+      "attack": 33.167756159999996,
+      "defense": 121.31619885,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1887.5714255999999,
+      "attack": 34.65721728,
+      "defense": 126.7641333,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1969.6827612,
+      "attack": 36.16484256,
+      "defense": 132.278505975,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2050.8048036,
+      "attack": 37.65430368,
+      "defense": 137.726440425,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2132.9161392,
+      "attack": 39.16192896,
+      "defense": 143.24081310000003,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2215.0274747999997,
+      "attack": 40.66955424,
+      "defense": 148.755185775,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2296.1495172,
+      "attack": 42.15901536,
+      "defense": 154.20312022500002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2378.2608527999996,
+      "attack": 43.66664064,
+      "defense": 159.7174929,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2459.3828952,
+      "attack": 45.15610176,
+      "defense": 165.16542735000002,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2541.4942308,
+      "attack": 46.66372704,
+      "defense": 170.679800025,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3361.6689731999995,
+      "attack": 61.72306415999999,
+      "defense": 225.760484475,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3443.7803088,
+      "attack": 63.23068944,
+      "defense": 231.27485715,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3525.8916443999997,
+      "attack": 64.73831472,
+      "defense": 236.789229825,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3607.0136868,
+      "attack": 66.22777583999999,
+      "defense": 242.237164275,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3689.1250223999996,
+      "attack": 67.73540112,
+      "defense": 247.75153695,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3770.2470648,
+      "attack": 69.22486224,
+      "defense": 253.1994714,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3852.3584003999995,
+      "attack": 70.73248751999999,
+      "defense": 258.713844075,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3933.4804427999998,
+      "attack": 72.22194864,
+      "defense": 264.161778525,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4015.5917783999994,
+      "attack": 73.72957391999999,
+      "defense": 269.6761512,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4096.7138208,
+      "attack": 75.21903504,
+      "defense": 275.12408565000004,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4178.825156399999,
+      "attack": 76.72666032,
+      "defense": 280.638458325,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4260.936492,
+      "attack": 78.23428559999999,
+      "defense": 286.152831,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4342.0585344,
+      "attack": 79.72374672000001,
+      "defense": 291.60076545,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4424.16987,
+      "attack": 81.231372,
+      "defense": 297.11513812500004,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4505.2919124,
+      "attack": 82.72083312000001,
+      "defense": 302.56307257500004,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4587.403248,
+      "attack": 84.2284584,
+      "defense": 308.07744525,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4668.5252904,
+      "attack": 85.71791952000001,
+      "defense": 313.5253797,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4750.6366259999995,
+      "attack": 87.2255448,
+      "defense": 319.039752375,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4832.7479616,
+      "attack": 88.73317008000001,
+      "defense": 324.55412505,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4913.870003999999,
+      "attack": 90.2226312,
+      "defense": 330.0020595,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5521.0977396,
+      "attack": 101.37201048,
+      "defense": 370.781807175,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5602.219782,
+      "attack": 102.86147159999999,
+      "defense": 376.229741625,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5684.3311176,
+      "attack": 104.36909688,
+      "defense": 381.7441143,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5765.45316,
+      "attack": 105.85855799999999,
+      "defense": 387.19204874999997,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5847.5644956,
+      "attack": 107.36618328,
+      "defense": 392.70642142500003,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5929.6758312,
+      "attack": 108.87380856,
+      "defense": 398.22079410000003,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6010.7978736,
+      "attack": 110.36326968,
+      "defense": 403.66872855,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6092.9092092,
+      "attack": 111.87089496,
+      "defense": 409.18310122500003,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6174.0312516,
+      "attack": 113.36035608,
+      "defense": 414.631035675,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6256.1425872,
+      "attack": 114.86798136,
+      "defense": 420.14540835,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7037.4197296,
+      "attack": 129.21311548,
+      "defense": 472.61383780000006,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7119.5310652,
+      "attack": 130.72074076,
+      "defense": 478.12821047500006,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7201.642400799999,
+      "attack": 132.22836604,
+      "defense": 483.64258314999995,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7282.7644432,
+      "attack": 133.71782716,
+      "defense": 489.0905176,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7364.875778799999,
+      "attack": 135.22545244,
+      "defense": 494.604890275,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7445.9978212000005,
+      "attack": 136.71491356,
+      "defense": 500.05282472500005,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7528.109156799999,
+      "attack": 138.22253884,
+      "defense": 505.56719739999994,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7609.2311992,
+      "attack": 139.71199996,
+      "defense": 511.0151318500001,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7691.342534799999,
+      "attack": 141.21962524,
+      "defense": 516.529504525,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7773.4538704,
+      "attack": 142.72725051999998,
+      "defense": 522.0438772,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8379.6924128,
+      "attack": 153.85846564,
+      "defense": 562.75719165,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8461.8037484,
+      "attack": 155.36609091999998,
+      "defense": 568.271564325,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8542.9257908,
+      "attack": 156.85555204,
+      "defense": 573.719498775,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8625.037126399999,
+      "attack": 158.36317731999998,
+      "defense": 579.23387145,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8706.1591688,
+      "attack": 159.85263844,
+      "defense": 584.6818059,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8788.2705044,
+      "attack": 161.36026371999998,
+      "defense": 590.196178575,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8870.38184,
+      "attack": 162.867889,
+      "defense": 595.71055125,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 8951.5038824,
+      "attack": 164.35735011999998,
+      "defense": 601.1584857,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9033.615217999999,
+      "attack": 165.8649754,
+      "defense": 606.672858375,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9114.737260400001,
+      "attack": 167.35443651999998,
+      "defense": 612.120792825,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9721.964995999999,
+      "attack": 178.5038148,
+      "defense": 652.9005355,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 9803.0870384,
+      "attack": 179.99327592,
+      "defense": 658.34846995,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 9885.198374,
+      "attack": 181.5009012,
+      "defense": 663.862842625,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 9967.309709599998,
+      "attack": 183.00852648,
+      "defense": 669.3772153,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10048.431752,
+      "attack": 184.4979876,
+      "defense": 674.82514975,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10130.5430876,
+      "attack": 186.00561287999997,
+      "defense": 680.339522425,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10211.665130000001,
+      "attack": 187.495074,
+      "defense": 685.7874568750001,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10293.7764656,
+      "attack": 189.00269927999997,
+      "defense": 691.30182955,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10374.898508,
+      "attack": 190.4921604,
+      "defense": 696.749764,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10457.009843599999,
+      "attack": 191.99978567999997,
+      "defense": 702.2641366749999,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11064.2373792,
+      "attack": 203.14916096,
+      "defense": 743.04388935,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11145.3594216,
+      "attack": 204.63862207999998,
+      "defense": 748.4918238,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11227.470757199999,
+      "attack": 206.14624736,
+      "defense": 754.006196475,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 11308.5927996,
+      "attack": 207.63570847999998,
+      "defense": 759.454130925,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11390.7041352,
+      "attack": 209.14333376,
+      "defense": 764.9685036,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 11471.8261776,
+      "attack": 210.63279488,
+      "defense": 770.41643805,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 11553.9375132,
+      "attack": 212.14042016,
+      "defense": 775.930810725,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 11635.059555599999,
+      "attack": 213.62988127999998,
+      "defense": 781.378745175,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 11717.1708912,
+      "attack": 215.13750656,
+      "defense": 786.89311785,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11799.2822268,
+      "attack": 216.64513184,
+      "defense": 792.4074905250001,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3280.5469308,
+      "attack": 60.23360304,
+      "defense": 220.312550025,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5438.986403999999,
+      "attack": 99.86438519999999,
+      "defense": 365.2674345,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6956.2976872,
+      "attack": 127.72365436000001,
+      "defense": 467.16590335,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8298.5703704,
+      "attack": 152.36900451999998,
+      "defense": 557.3092572,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9639.8536604,
+      "attack": 176.99618952,
+      "defense": 647.3861628249999,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10982.1260436,
+      "attack": 201.64153567999998,
+      "defense": 737.529516675,
+      "specialized": 0.24
+    }
+  }
+}
