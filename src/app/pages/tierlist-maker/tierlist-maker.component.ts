@@ -32,9 +32,7 @@ export class TierlistMakerComponent implements OnInit {
 
   tiers: Tier[] = [];
 
-  tags: TagDefinition[] = [
-    { id: 'partner', label: 'Partner', color: '#660000' },
-  ];
+  tags: TagDefinition[] = [];
   newTagLabel: string = '';
   newTagColor: string = '#555555';
 
