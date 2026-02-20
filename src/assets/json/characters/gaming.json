@@ -1,0 +1,1600 @@
+{
+  "profile": {
+    "id": 10000092,
+    "name": "Gaming",
+    "title": "Leonine Vanguard",
+    "description": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe.",
+    "weaponType": "WEAPON_CLAYMORE",
+    "weaponText": "Claymore",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "12/22",
+    "birthday": "December 22",
+    "elementType": "ELEMENT_PYRO",
+    "elementText": "Pyro",
+    "affiliation": "Sword and Strongbox Secure Transport Agency",
+    "associationType": "ASSOC_LIYUE",
+    "region": "Liyue",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Leo Expergiscens",
+    "cv": {
+      "english": "Caleb Yen",
+      "chinese": "谢莹",
+      "japanese": "小松昌平",
+      "korean": "Kim Yoon-gi"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104111,
+          "name": "Agnidus Agate Sliver",
+          "count": 1
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 3
+        },
+        {
+          "id": 113051,
+          "name": "Emperor's Resolution",
+          "count": 2
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 10
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 6
+        },
+        {
+          "id": 113051,
+          "name": "Emperor's Resolution",
+          "count": 4
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 20
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 3
+        },
+        {
+          "id": 113051,
+          "name": "Emperor's Resolution",
+          "count": 8
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 30
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 6
+        },
+        {
+          "id": 113051,
+          "name": "Emperor's Resolution",
+          "count": 12
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 45
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104114,
+          "name": "Agnidus Agate Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113051,
+          "name": "Emperor's Resolution",
+          "count": 20
+        },
+        {
+          "id": 100033,
+          "name": "Starconch",
+          "count": 60
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Gaming",
+      "filename_iconCard": "UI_AvatarIcon_Gaming_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Gaming",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Gaming",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Gaming",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gaming.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Gaming.png",
+      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/119403/c649538cd00d8802daf3051a4f7d8cc3_7678226519918318299.png",
+      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/119403/9abb338b8452bc5162483f76d3cc67b3_1627152661334822845.png",
+      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/b041ad23a9d6245efac952a9379c5114_8939761424130236195.png"
+    },
+    "version": "4.4"
+  },
+  "skills": {
+    "id": 9201,
+    "name": "Gaming",
+    "combat1": {
+      "name": "Stellar Rend",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "Charged Attack Cyclic DMG|{param5:F1P}",
+          "Charged Attack Final DMG|{param6:P}",
+          "Charged Attack Stamina Cost|{param7:F1}/s",
+          "Max Duration|{param8:F1}s",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.83856,
+            0.906815,
+            0.97507,
+            1.072577,
+            1.140832,
+            1.218838,
+            1.326095,
+            1.433353,
+            1.540611,
+            1.657619,
+            1.774627,
+            1.891636,
+            2.008644,
+            2.125653,
+            2.242661
+          ],
+          "param2": [
+            0.790443,
+            0.854782,
+            0.91912,
+            1.011032,
+            1.07537,
+            1.1489,
+            1.250003,
+            1.351106,
+            1.45221,
+            1.562504,
+            1.672798,
+            1.783093,
+            1.893387,
+            2.003682,
+            2.113976
+          ],
+          "param3": [
+            1.06646,
+            1.153265,
+            1.24007,
+            1.364077,
+            1.450882,
+            1.550088,
+            1.686495,
+            1.822903,
+            1.959311,
+            2.108119,
+            2.256927,
+            2.405736,
+            2.554544,
+            2.703353,
+            2.852161
+          ],
+          "param4": [
+            1.279491,
+            1.383635,
+            1.48778,
+            1.636558,
+            1.740703,
+            1.859725,
+            2.023381,
+            2.187037,
+            2.350692,
+            2.529226,
+            2.70776,
+            2.886293,
+            3.064827,
+            3.24336,
+            3.421894
+          ],
+          "param5": [
+            0.62522,
+            0.67611,
+            0.727,
+            0.7997,
+            0.85059,
+            0.90875,
+            0.98872,
+            1.06869,
+            1.14866,
+            1.2359,
+            1.32314,
+            1.41038,
+            1.49762,
+            1.58486,
+            1.6721
+          ],
+          "param6": [
+            1.1309,
+            1.22295,
+            1.315,
+            1.4465,
+            1.53855,
+            1.64375,
+            1.7884,
+            1.93305,
+            2.0777,
+            2.2355,
+            2.3933,
+            2.5511,
+            2.7089,
+            2.8667,
+            3.0245
+          ],
+          "param7": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "param8": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param9": [
+            0.641457,
+            0.693668,
+            0.74588,
+            0.820468,
+            0.87268,
+            0.93235,
+            1.014397,
+            1.096444,
+            1.17849,
+            1.267996,
+            1.357502,
+            1.447007,
+            1.536513,
+            1.626018,
+            1.715524
+          ],
+          "param10": [
+            1.282638,
+            1.387039,
+            1.49144,
+            1.640584,
+            1.744985,
+            1.8643,
+            2.028358,
+            2.192417,
+            2.356475,
+            2.535448,
+            2.714421,
+            2.893394,
+            3.072366,
+            3.251339,
+            3.430312
+          ],
+          "param11": [
+            1.602085,
+            1.732488,
+            1.86289,
+            2.049179,
+            2.179581,
+            2.328612,
+            2.53353,
+            2.738448,
+            2.943366,
+            3.166913,
+            3.39046,
+            3.614007,
+            3.837553,
+            4.0611,
+            4.284647
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Bestial Ascent",
+      "descriptionRaw": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface.\nAfter Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead.\n\n<color=#FFD780FF>Plunging Attack: Charmed Cloudstrider</color>\nThe DMG from Plunging Attacks caused by Bestial Ascent is converted to <color=#FF9999FF>Pyro DMG</color> that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.\nCharmed Cloudstrider DMG is considered Plunging Attack DMG.\n\n<i>\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"</i>",
+      "description": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface.\nAfter Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead.\n\nPlunging Attack: Charmed Cloudstrider\nThe DMG from Plunging Attacks caused by Bestial Ascent is converted to Pyro DMG that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.\nCharmed Cloudstrider DMG is considered Plunging Attack DMG.",
+      "flavorText": "\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"",
+      "attributes": {
+        "labels": [
+          "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+          "HP Cost|{param2:F1P} Max HP",
+          "CD|{param3:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            2.304,
+            2.4768,
+            2.6496,
+            2.88,
+            3.0528,
+            3.2256,
+            3.456,
+            3.6864,
+            3.9168,
+            4.1472,
+            4.3776,
+            4.608,
+            4.896,
+            5.184,
+            5.472
+          ],
+          "param2": [
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15
+          ],
+          "param3": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Suanni's Gilded Dance",
+      "descriptionRaw": "Gaming enters Wushou Stance, briefly applying <color=#FF9999FF>Pyro</color> to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\nAfter bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.\nWhile Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.\nEach Gaming can only have 1 Man Chai on the field simultaneously.\nThis effect will be canceled once Gaming leaves the field.\n\n<i>\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"</i>",
+      "description": "Gaming enters Wushou Stance, briefly applying Pyro to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing AoE Pyro DMG.\nAfter bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.\nWhile Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.\nEach Gaming can only have 1 Man Chai on the field simultaneously.\nThis effect will be canceled once Gaming leaves the field.",
+      "flavorText": "\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"",
+      "attributes": {
+        "labels": [
+          "Suanni Man Chai Smash DMG|{param1:F1P}",
+          "Skill Healing|{param2:F1P} Max HP",
+          "Wushou Stance Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            3.704,
+            3.9818,
+            4.2596,
+            4.63,
+            4.9078,
+            5.1856,
+            5.556,
+            5.9264,
+            6.2968,
+            6.6672,
+            7.0376,
+            7.408,
+            7.871,
+            8.334,
+            8.797
+          ],
+          "param2": [
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3
+          ],
+          "param3": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Dance of Amity",
+      "descriptionRaw": "After <color=#FFD780FF>Bestial Ascent</color>'s Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s.",
+      "description": "After Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s."
+    },
+    "passive2": {
+      "name": "Air of Prosperity",
+      "descriptionRaw": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG.",
+      "description": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG."
+    },
+    "passive3": {
+      "name": "The Striding Beast",
+      "descriptionRaw": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+      "description": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104310,
+          "name": "Teachings of Prosperity",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 2
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 4
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 6
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 9
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 4
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 4
+        },
+        {
+          "id": 113056,
+          "name": "Lightless Mass",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 6
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 6
+        },
+        {
+          "id": 113056,
+          "name": "Lightless Mass",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 12
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 9
+        },
+        {
+          "id": 113056,
+          "name": "Lightless Mass",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 16
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        },
+        {
+          "id": 113056,
+          "name": "Lightless Mass",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_04",
+      "filename_combat2": "Skill_S_Gaming_01",
+      "filename_combat3": "Skill_E_Gaming_01_HD",
+      "filename_passive1": "UI_Talent_S_Gaming_05",
+      "filename_passive2": "UI_Talent_S_Gaming_06",
+      "filename_passive3": "UI_Talent_S_Dehya_07"
+    },
+    "version": "4.4"
+  },
+  "constellation": {
+    "id": 9201,
+    "name": "Gaming",
+    "c1": {
+      "name": "Bringer of Blessing",
+      "descriptionRaw": "When the Suanni Man Chai from <color=#FFD780FF>Suanni's Gilded Dance</color> meets back up with Gaming, it will heal 15% of Gaming's HP.",
+      "description": "When the Suanni Man Chai from Suanni's Gilded Dance meets back up with Gaming, it will heal 15% of Gaming's HP."
+    },
+    "c2": {
+      "name": "Plum Blossoms Underfoot",
+      "descriptionRaw": "When Gaming receives healing and this instance of healing overflows, his ATK will be increased by 20% for 5s.",
+      "description": "When Gaming receives healing and this instance of healing overflows, his ATK will be increased by 20% for 5s."
+    },
+    "c3": {
+      "name": "Awakening Spirit",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Bestial Ascent</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Bestial Ascent by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Soar Across Mountains",
+      "descriptionRaw": "When <color=#FFD780FF>Bestial Ascent</color>'s Plunging Attack: Charmed Cloudstrider hits an opponent, it will restore 2 Energy to Gaming. This effect can be triggered once every 0.2s.",
+      "description": "When Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, it will restore 2 Energy to Gaming. This effect can be triggered once every 0.2s."
+    },
+    "c5": {
+      "name": "Evil-Daunting Roar",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Suanni's Gilded Dance</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Suanni's Gilded Dance by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "To Tame All Beasts",
+      "descriptionRaw": "<color=#FFD780FF>Bestial Ascent</color>'s Plunging Attack: Charmed Cloudstrider CRIT Rate increased by 20% and CRIT DMG increased by 40%, and its attack radius will be increased.",
+      "description": "Bestial Ascent's Plunging Attack: Charmed Cloudstrider CRIT Rate increased by 20% and CRIT DMG increased by 40%, and its attack radius will be increased."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Gaming_01",
+      "filename_c2": "UI_Talent_S_Gaming_02",
+      "filename_c3": "UI_Talent_U_Gaming_01",
+      "filename_c4": "UI_Talent_S_Gaming_03",
+      "filename_c5": "UI_Talent_U_Gaming_02",
+      "filename_c6": "UI_Talent_S_Gaming_04",
+      "filename_constellation": "Eff_UI_Talent_Gaming"
+    },
+    "version": "4.4"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 957.38055,
+      "attack": 25.28736,
+      "defense": 58.94175,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1036.84313565,
+      "attack": 27.38621088,
+      "defense": 63.83391525,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1115.34834075,
+      "attack": 29.4597744,
+      "defense": 68.66713875,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1194.8109264,
+      "attack": 31.55862528,
+      "defense": 73.559304,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1273.3161315,
+      "attack": 33.6321888,
+      "defense": 78.3925275,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1352.77871715,
+      "attack": 35.73103968,
+      "defense": 83.28469275,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1431.2839222500002,
+      "attack": 37.8046032,
+      "defense": 88.11791625000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1510.7465079,
+      "attack": 39.90345408,
+      "defense": 93.0100815,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1590.20909355,
+      "attack": 42.002304960000004,
+      "defense": 97.90224675,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1668.71429865,
+      "attack": 44.075868480000004,
+      "defense": 102.73547025,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1748.1768843,
+      "attack": 46.174719360000005,
+      "defense": 107.6276355,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1826.6820893999998,
+      "attack": 48.24828288,
+      "defense": 112.460859,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1906.14467505,
+      "attack": 50.34713376,
+      "defense": 117.35302425,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1984.64988015,
+      "attack": 52.42069728,
+      "defense": 122.18624774999999,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2064.1124658,
+      "attack": 54.51954816,
+      "defense": 127.07841300000001,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2143.57505145,
+      "attack": 56.61839903999999,
+      "defense": 131.97057825,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2222.0802565500003,
+      "attack": 58.69196256,
+      "defense": 136.80380175000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2301.5428422,
+      "attack": 60.790813439999994,
+      "defense": 141.695967,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2380.0480473000002,
+      "attack": 62.86437696,
+      "defense": 146.5291905,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2459.51063295,
+      "attack": 64.96322784,
+      "defense": 151.42135575,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3253.22813805,
+      "attack": 85.92818736,
+      "defense": 200.28707924999998,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3332.6907237,
+      "attack": 88.02703824,
+      "defense": 205.17924449999998,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3412.15330935,
+      "attack": 90.12588912,
+      "defense": 210.07140975000002,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3490.65851445,
+      "attack": 92.19945264,
+      "defense": 214.90463325,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3570.1211001,
+      "attack": 94.29830352,
+      "defense": 219.7967985,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3648.6263052,
+      "attack": 96.37186704,
+      "defense": 224.630022,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3728.0888908499996,
+      "attack": 98.47071792,
+      "defense": 229.52218724999997,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3806.5940959500003,
+      "attack": 100.54428144,
+      "defense": 234.35541075,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3886.0566816,
+      "attack": 102.64313231999999,
+      "defense": 239.24757599999998,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3964.5618867000003,
+      "attack": 104.71669584,
+      "defense": 244.0807995,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4044.02447235,
+      "attack": 106.81554672,
+      "defense": 248.97296475,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4123.487058,
+      "attack": 108.9143976,
+      "defense": 253.86513,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4201.9922631,
+      "attack": 110.98796112,
+      "defense": 258.6983535,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4281.45484875,
+      "attack": 113.086812,
+      "defense": 263.59051875,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4359.96005385,
+      "attack": 115.16037552,
+      "defense": 268.42374225000003,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4439.4226395,
+      "attack": 117.2592264,
+      "defense": 273.3159075,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4517.9278446,
+      "attack": 119.33278992,
+      "defense": 278.149131,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4597.39043025,
+      "attack": 121.4316408,
+      "defense": 283.04129624999996,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4676.853015899999,
+      "attack": 123.53049168,
+      "defense": 287.9334615,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4755.3582209999995,
+      "attack": 125.60405519999999,
+      "defense": 292.76668499999994,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5342.99790665,
+      "attack": 141.12574007999999,
+      "defense": 328.94510025,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5421.503111749999,
+      "attack": 143.1993036,
+      "defense": 333.77832375,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5500.9656974,
+      "attack": 145.29815448,
+      "defense": 338.670489,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5579.470902499999,
+      "attack": 147.371718,
+      "defense": 343.5037125,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5658.93348815,
+      "attack": 149.47056888,
+      "defense": 348.39587774999995,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5738.3960738000005,
+      "attack": 151.56941976000002,
+      "defense": 353.288043,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5816.9012789,
+      "attack": 153.64298328,
+      "defense": 358.12126650000005,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5896.3638645500005,
+      "attack": 155.74183416,
+      "defense": 363.01343175,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5974.86906965,
+      "attack": 157.81539768,
+      "defense": 367.84665525,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6054.3316553,
+      "attack": 159.91424856,
+      "defense": 372.7388205,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6810.4064604,
+      "attack": 179.88492208,
+      "defense": 419.287044,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6889.86904605,
+      "attack": 181.98377296,
+      "defense": 424.17920925,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6969.331631699999,
+      "attack": 184.08262384,
+      "defense": 429.0713745,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7047.8368368,
+      "attack": 186.15618736000002,
+      "defense": 433.904598,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7127.299422449999,
+      "attack": 188.25503824,
+      "defense": 438.79676324999997,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7205.80462755,
+      "attack": 190.32860176000003,
+      "defense": 443.62998675,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7285.2672132,
+      "attack": 192.42745263999998,
+      "defense": 448.52215199999995,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7363.7724183,
+      "attack": 194.50101616,
+      "defense": 453.35537550000004,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7443.23500395,
+      "attack": 196.59986704,
+      "defense": 458.24754075,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7522.697589599999,
+      "attack": 198.69871792,
+      "defense": 463.139706,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8109.3799947,
+      "attack": 214.19511544,
+      "defense": 499.25917949999996,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8188.8425803499995,
+      "attack": 216.29396632,
+      "defense": 504.15134474999996,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8267.34778545,
+      "attack": 218.36752984,
+      "defense": 508.98456825,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8346.8103711,
+      "attack": 220.46638072,
+      "defense": 513.8767335,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8425.315576199999,
+      "attack": 222.53994423999998,
+      "defense": 518.709957,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8504.77816185,
+      "attack": 224.63879512,
+      "defense": 523.60212225,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8584.2407475,
+      "attack": 226.737646,
+      "defense": 528.4942874999999,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 8662.745952599998,
+      "attack": 228.81120952,
+      "defense": 533.327511,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 8742.20853825,
+      "attack": 230.9100604,
+      "defense": 538.21967625,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 8820.71374335,
+      "attack": 232.98362392,
+      "defense": 543.05289975,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9408.353329,
+      "attack": 248.50531080000002,
+      "defense": 579.231315,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 9486.8585341,
+      "attack": 250.57887432,
+      "defense": 584.0645385,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 9566.32111975,
+      "attack": 252.6777252,
+      "defense": 588.95670375,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 9645.7837054,
+      "attack": 254.77657607999998,
+      "defense": 593.8488689999999,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 9724.2889105,
+      "attack": 256.85013960000003,
+      "defense": 598.6820925,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 9803.75149615,
+      "attack": 258.94899048,
+      "defense": 603.57425775,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 9882.25670125,
+      "attack": 261.022554,
+      "defense": 608.40748125,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9961.7192869,
+      "attack": 263.12140488,
+      "defense": 613.2996464999999,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10040.224492,
+      "attack": 265.1949684,
+      "defense": 618.13287,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10119.68707765,
+      "attack": 267.29381928,
+      "defense": 623.02503525,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 10707.3269633,
+      "attack": 282.81550016,
+      "defense": 659.2034505,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 10785.8321684,
+      "attack": 284.88906368,
+      "defense": 664.036674,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 10865.294754049999,
+      "attack": 286.98791456,
+      "defense": 668.92883925,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 10943.79995915,
+      "attack": 289.06147808000003,
+      "defense": 673.76206275,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11023.2625448,
+      "attack": 291.16032896,
+      "defense": 678.654228,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 11101.7677499,
+      "attack": 293.23389248,
+      "defense": 683.4874515,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 11181.23033555,
+      "attack": 295.33274336,
+      "defense": 688.3796167500001,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 11259.73554065,
+      "attack": 297.40630688,
+      "defense": 693.21284025,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 11339.1981263,
+      "attack": 299.50515776,
+      "defense": 698.1050055000001,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11418.66071195,
+      "attack": 301.60400863999996,
+      "defense": 702.99717075,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3174.72293295,
+      "attack": 83.85462384,
+      "defense": 195.45385575,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5263.535320999999,
+      "attack": 139.0268892,
+      "defense": 324.05293499999993,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6731.9012553,
+      "attack": 177.81135856,
+      "defense": 414.4538205,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8030.8747895999995,
+      "attack": 212.12155192,
+      "defense": 494.425956,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9328.89074335,
+      "attack": 246.40645992000003,
+      "defense": 574.3391497499999,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10627.86437765,
+      "attack": 280.71664927999996,
+      "defense": 654.31128525,
+      "specialized": 0.24
+    }
+  }
+}

@@ -1,0 +1,1712 @@
+{
+  "profile": {
+    "id": 10000034,
+    "name": "Noelle",
+    "title": "Chivalric Blossom",
+    "description": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+    "weaponType": "WEAPON_CLAYMORE",
+    "weaponText": "Claymore",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "3/21",
+    "birthday": "March 21",
+    "elementType": "ELEMENT_GEO",
+    "elementText": "Geo",
+    "affiliation": "Knights of Favonius",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_DEFENSE_PERCENT",
+    "substatText": "DEF",
+    "constellation": "Parma Cordis",
+    "cv": {
+      "english": "Laura Faye Smith",
+      "chinese": "宴宁",
+      "japanese": "高尾奏音",
+      "korean": "Lee Bo-hee"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104171,
+          "name": "Prithiva Topaz Sliver",
+          "count": 1
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 3
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 3
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 2
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 10
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 6
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 4
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 20
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 3
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 8
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 30
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 6
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 12
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 45
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104174,
+          "name": "Prithiva Topaz Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 20
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 60
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Character_Noelle_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/c8a5da498d29faa1c8f2e2bfb60efbd5_4363852007421467828.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200325/2020032510564718459.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/42120a5c88658419970a1e8f71d2b245.png",
+      "filename_icon": "UI_AvatarIcon_Noel",
+      "filename_iconCard": "UI_AvatarIcon_Noel_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Noel",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Noel",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Noel",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Noel.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Noelle_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Noelle"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 3401,
+    "name": "Noelle",
+    "combat1": {
+      "name": "Favonius Bladework - Maid",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:P}",
+          "Charged Attack Cyclic DMG|{param5:F1P}",
+          "Charged Attack Final DMG|{param6:F1P}",
+          "Charged Attack Stamina Cost|{param7:F1}/s",
+          "Max Duration|{param8:F1}s",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.7912,
+            0.8556,
+            0.92,
+            1.012,
+            1.0764,
+            1.15,
+            1.2512,
+            1.3524,
+            1.4536,
+            1.564,
+            1.6744,
+            1.7848,
+            1.8952,
+            2.0056,
+            2.116
+          ],
+          "param2": [
+            0.73358,
+            0.79329,
+            0.853,
+            0.9383,
+            0.99801,
+            1.06625,
+            1.16008,
+            1.25391,
+            1.34774,
+            1.4501,
+            1.55246,
+            1.65482,
+            1.75718,
+            1.85954,
+            1.9619
+          ],
+          "param3": [
+            0.86258,
+            0.93279,
+            1.003,
+            1.1033,
+            1.17351,
+            1.25375,
+            1.36408,
+            1.47441,
+            1.58474,
+            1.7051,
+            1.82546,
+            1.94582,
+            2.06618,
+            2.18654,
+            2.3069
+          ],
+          "param4": [
+            1.13434,
+            1.22667,
+            1.319,
+            1.4509,
+            1.54323,
+            1.64875,
+            1.79384,
+            1.93893,
+            2.08402,
+            2.2423,
+            2.40058,
+            2.55886,
+            2.71714,
+            2.87542,
+            3.0337
+          ],
+          "param5": [
+            0.5074,
+            0.5487,
+            0.59,
+            0.649,
+            0.6903,
+            0.7375,
+            0.8024,
+            0.8673,
+            0.9322,
+            1.003,
+            1.0738,
+            1.1446,
+            1.2154,
+            1.2862,
+            1.357
+          ],
+          "param6": [
+            0.90472,
+            0.97836,
+            1.052,
+            1.1572,
+            1.23084,
+            1.315,
+            1.43072,
+            1.54644,
+            1.66216,
+            1.7884,
+            1.91464,
+            2.04088,
+            2.16712,
+            2.29336,
+            2.4196
+          ],
+          "param7": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "param8": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param9": [
+            0.745878,
+            0.806589,
+            0.8673,
+            0.95403,
+            1.014741,
+            1.084125,
+            1.179528,
+            1.274931,
+            1.370334,
+            1.47441,
+            1.578486,
+            1.682562,
+            1.786638,
+            1.890714,
+            1.99479
+          ],
+          "param10": [
+            1.49144,
+            1.612836,
+            1.734233,
+            1.907656,
+            2.029052,
+            2.167791,
+            2.358556,
+            2.549322,
+            2.740087,
+            2.948195,
+            3.156303,
+            3.364411,
+            3.572519,
+            3.780627,
+            3.988735
+          ],
+          "param11": [
+            1.862889,
+            2.01452,
+            2.16615,
+            2.382765,
+            2.534396,
+            2.707688,
+            2.945964,
+            3.184241,
+            3.422517,
+            3.682455,
+            3.942393,
+            4.202331,
+            4.462269,
+            4.722207,
+            4.982145
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Breastplate",
+      "descriptionRaw": "Summons protective stone armor, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\nThe shield has the following properties:\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\n·Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\n\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\n\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
+      "description": "Summons protective stone armor, dealing Geo DMG to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\nThe shield has the following properties:\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\n·Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\n\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.",
+      "flavorText": "Noelle is both a dutiful maid and a valiant knight.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param6:P} DEF",
+          "DMG Absorption|{param1:P} DEF+{param7:I}",
+          "Healing|{param2:F1P} DEF+{param8:I}",
+          "Healing Triggering Chance|{param3:P}",
+          "Duration|{param4:F1}s",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.6,
+            1.72,
+            1.84,
+            2,
+            2.12,
+            2.24,
+            2.4,
+            2.56,
+            2.72,
+            2.88,
+            3.04,
+            3.2,
+            3.4,
+            3.6,
+            3.8
+          ],
+          "param2": [
+            0.2128,
+            0.22876,
+            0.24472,
+            0.266,
+            0.28196,
+            0.29792,
+            0.3192,
+            0.34048,
+            0.36176,
+            0.38304,
+            0.40432,
+            0.4256,
+            0.4522,
+            0.4788,
+            0.5054
+          ],
+          "param3": [
+            0.5,
+            0.51,
+            0.52,
+            0.53,
+            0.54,
+            0.55,
+            0.56,
+            0.57,
+            0.58,
+            0.59,
+            0.59,
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "param4": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param5": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ],
+          "param6": [
+            1.2,
+            1.29,
+            1.38,
+            1.5,
+            1.59,
+            1.68,
+            1.8,
+            1.92,
+            2.04,
+            2.16,
+            2.28,
+            2.4,
+            2.55,
+            2.7,
+            2.85
+          ],
+          "param7": [
+            769.7851,
+            846.7743,
+            930.17926,
+            1020,
+            1116.2365,
+            1218.8888,
+            1327.9568,
+            1443.4407,
+            1565.3402,
+            1693.6555,
+            1828.3867,
+            1969.5336,
+            2117.0962,
+            2271.0747,
+            2431.4688
+          ],
+          "param8": [
+            102.71802,
+            112.99125,
+            124.120575,
+            136.10602,
+            148.94756,
+            162.64519,
+            177.19893,
+            192.60878,
+            208.87473,
+            225.99677,
+            243.97491,
+            262.80917,
+            282.49954,
+            303.046,
+            324.44855
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Sweeping Time",
+      "descriptionRaw": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <color=#FFE699FF>Geo DMG</color>.\nAfterwards, Noelle gains the following effects:\n·Larger attack AoE.\n·Converts attack DMG to <color=#FFE699FF>Geo DMG</color> that cannot be overridden by any other elemental infusion.\n·Increased ATK that scales based on her DEF.\n\n<i>Sometimes, it's not just dust that needs sweeping...</i>",
+      "description": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing Geo DMG.\nAfterwards, Noelle gains the following effects:\n·Larger attack AoE.\n·Converts attack DMG to Geo DMG that cannot be overridden by any other elemental infusion.\n·Increased ATK that scales based on her DEF.",
+      "flavorText": "Sometimes, it's not just dust that needs sweeping...",
+      "attributes": {
+        "labels": [
+          "Burst DMG|{param1:F1P}",
+          "Skill DMG|{param2:F1P}",
+          "ATK Bonus|{param3:P} DEF",
+          "Duration|{param4:F1}s",
+          "CD|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.672,
+            0.7224,
+            0.7728,
+            0.84,
+            0.8904,
+            0.9408,
+            1.008,
+            1.0752,
+            1.1424,
+            1.2096,
+            1.2768,
+            1.344,
+            1.428,
+            1.512,
+            1.596
+          ],
+          "param2": [
+            0.928,
+            0.9976,
+            1.0672,
+            1.16,
+            1.2296,
+            1.2992,
+            1.392,
+            1.4848,
+            1.5776,
+            1.6704,
+            1.7632,
+            1.856,
+            1.972,
+            2.088,
+            2.204
+          ],
+          "param3": [
+            0.4,
+            0.43,
+            0.46,
+            0.5,
+            0.53,
+            0.56,
+            0.6,
+            0.64,
+            0.68,
+            0.72,
+            0.76,
+            0.8,
+            0.85,
+            0.9,
+            0.95
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Devotion",
+      "descriptionRaw": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\nThis effect can only occur once every 60s.",
+      "description": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\nThis effect can only occur once every 60s."
+    },
+    "passive2": {
+      "name": "Nice and Clean",
+      "descriptionRaw": "Noelle will decrease the CD of <color=#FFD780FF>Breastplate</color> by 1s for every 4 Normal or Charged Attack hits she scores on opponents.\nOne hit may be counted every 0.1s.",
+      "description": "Noelle will decrease the CD of Breastplate by 1s for every 4 Normal or Charged Attack hits she scores on opponents.\nOne hit may be counted every 0.1s."
+    },
+    "passive3": {
+      "name": "Maid's Knighthood",
+      "descriptionRaw": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.",
+      "description": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104304,
+          "name": "Teachings of Resistance",
+          "count": 3
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 2
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 4
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 6
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 9
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 4
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 4
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 6
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 6
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 12
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 9
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 16
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 12
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_04",
+      "filename_combat2": "Skill_S_Noel_01",
+      "filename_combat3": "Skill_E_Noel_01_HD",
+      "filename_passive1": "UI_Talent_S_Noel_05",
+      "filename_passive2": "UI_Talent_S_Noel_06",
+      "filename_passive3": "UI_Talent_Cook_Defense"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 3401,
+    "name": "Noelle",
+    "c1": {
+      "name": "I Got Your Back",
+      "descriptionRaw": "While <color=#FFD780FF>Sweeping Time</color> and <color=#FFD780FF>Breastplate</color> are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.",
+      "description": "While Sweeping Time and Breastplate are both in effect, the chance of Breastplate's healing effects activating is increased to 100%."
+    },
+    "c2": {
+      "name": "Combat Maid",
+      "descriptionRaw": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.",
+      "description": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%."
+    },
+    "c3": {
+      "name": "Invulnerable Maid",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Breastplate</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Breastplate by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "To Be Cleaned",
+      "descriptionRaw": "When <color=#FFD780FF>Breastplate</color>'s duration expires or it is destroyed by DMG, it will deal 400% of Noelle's ATK as <color=#FFE699FF>Geo DMG</color> to surrounding opponents.",
+      "description": "When Breastplate's duration expires or it is destroyed by DMG, it will deal 400% of Noelle's ATK as Geo DMG to surrounding opponents."
+    },
+    "c5": {
+      "name": "Favonius Sweeper Master",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Sweeping Time</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Sweeping Time by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Must Be Spotless",
+      "descriptionRaw": "<color=#FFD780FF>Sweeping Time</color> increases Noelle's ATK by an additional 50% of her DEF.\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.",
+      "description": "Sweeping Time increases Noelle's ATK by an additional 50% of her DEF.\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Noel_01",
+      "filename_c2": "UI_Talent_S_Noel_02",
+      "filename_c3": "UI_Talent_U_Noel_01",
+      "filename_c4": "UI_Talent_S_Noel_03",
+      "filename_c5": "UI_Talent_U_Noel_02",
+      "filename_c6": "UI_Talent_S_Noel_04",
+      "filename_constellation": "Eff_UI_Talent_Noel"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1012.088,
+      "attack": 16.0272,
+      "defense": 66.95325,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1096.091304,
+      "attack": 17.3574576,
+      "defense": 72.51036975,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1179.08252,
+      "attack": 18.671688,
+      "defense": 78.00053625,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1263.085824,
+      "attack": 20.0019456,
+      "defense": 83.557656,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1346.0770400000001,
+      "attack": 21.316176000000002,
+      "defense": 89.0478225,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1430.080344,
+      "attack": 22.6464336,
+      "defense": 94.60494225,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1513.07156,
+      "attack": 23.960664,
+      "defense": 100.09510875000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1597.074864,
+      "attack": 25.2909216,
+      "defense": 105.6522285,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1681.078168,
+      "attack": 26.6211792,
+      "defense": 111.20934824999999,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1764.0693840000001,
+      "attack": 27.935409600000003,
+      "defense": 116.69951475,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1848.072688,
+      "attack": 29.265667200000003,
+      "defense": 122.2566345,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1931.0639039999999,
+      "attack": 30.5798976,
+      "defense": 127.74680099999999,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2015.067208,
+      "attack": 31.910155200000002,
+      "defense": 133.30392075,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2098.058424,
+      "attack": 33.2243856,
+      "defense": 138.79408725,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2182.061728,
+      "attack": 34.5546432,
+      "defense": 144.35120700000002,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2266.065032,
+      "attack": 35.8849008,
+      "defense": 149.90832675,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2349.056248,
+      "attack": 37.199131200000004,
+      "defense": 155.39849325,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2433.0595519999997,
+      "attack": 38.5293888,
+      "defense": 160.955613,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2516.050768,
+      "attack": 39.843619200000006,
+      "defense": 166.44577950000001,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2600.054072,
+      "attack": 41.1738768,
+      "defense": 172.00289924999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3439.126828,
+      "attack": 54.461527200000006,
+      "defense": 227.51056574999996,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3523.1301320000002,
+      "attack": 55.7917848,
+      "defense": 233.06768549999998,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3607.133436,
+      "attack": 57.12204240000001,
+      "defense": 238.62480525,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3690.124652,
+      "attack": 58.4362728,
+      "defense": 244.11497175,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3774.1279560000003,
+      "attack": 59.76653040000001,
+      "defense": 249.67209150000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3857.119172,
+      "attack": 61.08076080000001,
+      "defense": 255.162258,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3941.122476,
+      "attack": 62.4110184,
+      "defense": 260.71937775,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4024.113692,
+      "attack": 63.7252488,
+      "defense": 266.20954425,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4108.116996,
+      "attack": 65.0555064,
+      "defense": 271.766664,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4191.108212,
+      "attack": 66.3697368,
+      "defense": 277.2568305,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4275.111516,
+      "attack": 67.6999944,
+      "defense": 282.81395025,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4359.11482,
+      "attack": 69.030252,
+      "defense": 288.37107,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4442.106036,
+      "attack": 70.3444824,
+      "defense": 293.86123649999996,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4526.10934,
+      "attack": 71.67474,
+      "defense": 299.41835625,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4609.100555999999,
+      "attack": 72.9889704,
+      "defense": 304.90852275,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4693.10386,
+      "attack": 74.31922800000001,
+      "defense": 310.4656425,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4776.095076,
+      "attack": 75.63345840000001,
+      "defense": 315.955809,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4860.098379999999,
+      "attack": 76.963716,
+      "defense": 321.51292874999996,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4944.101684,
+      "attack": 78.2939736,
+      "defense": 327.0700485,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5027.0929,
+      "attack": 79.608204,
+      "defense": 332.56021499999997,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5648.312064,
+      "attack": 89.44589160000001,
+      "defense": 373.65608475,
+      "specialized": 0.075
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5731.30328,
+      "attack": 90.76012200000001,
+      "defense": 379.14625125,
+      "specialized": 0.075
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5815.306584,
+      "attack": 92.0903796,
+      "defense": 384.70337099999995,
+      "specialized": 0.075
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5898.2978,
+      "attack": 93.40461,
+      "defense": 390.19353749999993,
+      "specialized": 0.075
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5982.301104,
+      "attack": 94.7348676,
+      "defense": 395.75065725,
+      "specialized": 0.075
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6066.304408,
+      "attack": 96.06512520000001,
+      "defense": 401.307777,
+      "specialized": 0.075
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6149.295624,
+      "attack": 97.37935560000001,
+      "defense": 406.7979435,
+      "specialized": 0.075
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6233.298928,
+      "attack": 98.7096132,
+      "defense": 412.35506325000006,
+      "specialized": 0.075
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6316.2901440000005,
+      "attack": 100.0238436,
+      "defense": 417.84522975000004,
+      "specialized": 0.075
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6400.293448,
+      "attack": 101.35410120000002,
+      "defense": 423.4023495,
+      "specialized": 0.075
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7199.572464000001,
+      "attack": 114.0115716,
+      "defense": 476.277516,
+      "specialized": 0.15
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7283.575768000001,
+      "attack": 115.3418292,
+      "defense": 481.83463574999996,
+      "specialized": 0.15
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7367.579071999999,
+      "attack": 116.67208679999999,
+      "defense": 487.39175549999993,
+      "specialized": 0.15
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7450.570288000001,
+      "attack": 117.9863172,
+      "defense": 492.88192200000003,
+      "specialized": 0.15
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7534.573591999999,
+      "attack": 119.3165748,
+      "defense": 498.43904175,
+      "specialized": 0.15
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7617.564808000001,
+      "attack": 120.63080520000001,
+      "defense": 503.92920825,
+      "specialized": 0.15
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7701.568111999999,
+      "attack": 121.9610628,
+      "defense": 509.48632799999996,
+      "specialized": 0.15
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7784.559327999999,
+      "attack": 123.27529320000001,
+      "defense": 514.9764945000001,
+      "specialized": 0.15
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7868.562631999999,
+      "attack": 124.6055508,
+      "defense": 520.5336142499999,
+      "specialized": 0.15
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7952.565935999999,
+      "attack": 125.9358084,
+      "defense": 526.090734,
+      "specialized": 0.15
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8572.772952,
+      "attack": 135.7574688,
+      "defense": 567.1196504999999,
+      "specialized": 0.15
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8656.776256,
+      "attack": 137.0877264,
+      "defense": 572.67677025,
+      "specialized": 0.15
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8739.767472,
+      "attack": 138.4019568,
+      "defense": 578.16693675,
+      "specialized": 0.15
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8823.770776,
+      "attack": 139.7322144,
+      "defense": 583.7240565,
+      "specialized": 0.15
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8906.761992,
+      "attack": 141.04644480000002,
+      "defense": 589.214223,
+      "specialized": 0.15
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8990.765296,
+      "attack": 142.3767024,
+      "defense": 594.7713427499999,
+      "specialized": 0.15
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9074.7686,
+      "attack": 143.70696,
+      "defense": 600.3284625,
+      "specialized": 0.15
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9157.759816,
+      "attack": 145.0211904,
+      "defense": 605.818629,
+      "specialized": 0.15
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9241.76312,
+      "attack": 146.351448,
+      "defense": 611.37574875,
+      "specialized": 0.15
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9324.754336,
+      "attack": 147.6656784,
+      "defense": 616.86591525,
+      "specialized": 0.15
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9945.97344,
+      "attack": 157.503366,
+      "defense": 657.961785,
+      "specialized": 0.225
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10028.964656,
+      "attack": 158.8175964,
+      "defense": 663.4519515,
+      "specialized": 0.225
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10112.96796,
+      "attack": 160.147854,
+      "defense": 669.00907125,
+      "specialized": 0.225
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10196.971264,
+      "attack": 161.47811159999998,
+      "defense": 674.5661909999999,
+      "specialized": 0.225
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10279.96248,
+      "attack": 162.79234200000002,
+      "defense": 680.0563575,
+      "specialized": 0.225
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10363.965784,
+      "attack": 164.1225996,
+      "defense": 685.61347725,
+      "specialized": 0.225
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10446.957,
+      "attack": 165.43683,
+      "defense": 691.10364375,
+      "specialized": 0.225
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10530.960304,
+      "attack": 166.7670876,
+      "defense": 696.6607635,
+      "specialized": 0.225
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10613.95152,
+      "attack": 168.081318,
+      "defense": 702.15093,
+      "specialized": 0.225
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10697.954823999999,
+      "attack": 169.4115756,
+      "defense": 707.70804975,
+      "specialized": 0.225
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11319.174028,
+      "attack": 179.2492632,
+      "defense": 748.8039194999999,
+      "specialized": 0.3
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11402.165244,
+      "attack": 180.56349360000002,
+      "defense": 754.294086,
+      "specialized": 0.3
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11486.168548,
+      "attack": 181.8937512,
+      "defense": 759.85120575,
+      "specialized": 0.3
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 11569.159764,
+      "attack": 183.2079816,
+      "defense": 765.34137225,
+      "specialized": 0.3
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11653.163068,
+      "attack": 184.53823920000002,
+      "defense": 770.898492,
+      "specialized": 0.3
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 11736.154284,
+      "attack": 185.85246960000003,
+      "defense": 776.3886585,
+      "specialized": 0.3
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 11820.157588000002,
+      "attack": 187.18272720000002,
+      "defense": 781.94577825,
+      "specialized": 0.3
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 11903.148804,
+      "attack": 188.4969576,
+      "defense": 787.43594475,
+      "specialized": 0.3
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 11987.152108,
+      "attack": 189.8272152,
+      "defense": 792.9930645,
+      "specialized": 0.3
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12071.155412,
+      "attack": 191.15747280000002,
+      "defense": 798.55018425,
+      "specialized": 0.3
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3356.135612,
+      "attack": 53.14729680000001,
+      "defense": 222.02039924999997,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5564.30876,
+      "attack": 88.115634,
+      "defense": 368.098965,
+      "specialized": 0.075
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7116.581248,
+      "attack": 112.69734120000001,
+      "defense": 470.7873495,
+      "specialized": 0.15
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8489.781735999999,
+      "attack": 134.44323839999998,
+      "defense": 561.6294839999999,
+      "specialized": 0.15
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9861.970136,
+      "attack": 156.1731084,
+      "defense": 652.40466525,
+      "specialized": 0.225
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11235.170724,
+      "attack": 177.9190056,
+      "defense": 743.24679975,
+      "specialized": 0.3
+    }
+  }
+}

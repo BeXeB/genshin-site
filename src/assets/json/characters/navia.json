@@ -1,0 +1,1670 @@
+{
+  "profile": {
+    "id": 10000091,
+    "name": "Navia",
+    "title": "Helm of the Radiant Rose",
+    "description": "The current President of Spina di Rosula, who is lovely, dutiful, and a great boss.",
+    "weaponType": "WEAPON_CLAYMORE",
+    "weaponText": "Claymore",
+    "bodyType": "BODY_LADY",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "8/16",
+    "birthday": "August 16",
+    "elementType": "ELEMENT_GEO",
+    "elementText": "Geo",
+    "affiliation": "Spina di Rosula",
+    "associationType": "ASSOC_FONTAINE",
+    "region": "Fontaine",
+    "substatType": "FIGHT_PROP_CRITICAL_HURT",
+    "substatText": "CRIT DMG",
+    "constellation": "Rosa Multiflora",
+    "cv": {
+      "english": "Brenna Larsen",
+      "chinese": "小敢",
+      "japanese": "豊崎愛生",
+      "korean": "Jeong Hae-eun"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104171,
+          "name": "Prithiva Topaz Sliver",
+          "count": 1
+        },
+        {
+          "id": 101240,
+          "name": "Spring of the First Dewdrop",
+          "count": 3
+        },
+        {
+          "id": 112080,
+          "name": "Transoceanic Pearl",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 3
+        },
+        {
+          "id": 113050,
+          "name": "Artificed Spare Clockwork Component — Coppelius",
+          "count": 2
+        },
+        {
+          "id": 101240,
+          "name": "Spring of the First Dewdrop",
+          "count": 10
+        },
+        {
+          "id": 112080,
+          "name": "Transoceanic Pearl",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 6
+        },
+        {
+          "id": 113050,
+          "name": "Artificed Spare Clockwork Component — Coppelius",
+          "count": 4
+        },
+        {
+          "id": 101240,
+          "name": "Spring of the First Dewdrop",
+          "count": 20
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 3
+        },
+        {
+          "id": 113050,
+          "name": "Artificed Spare Clockwork Component — Coppelius",
+          "count": 8
+        },
+        {
+          "id": 101240,
+          "name": "Spring of the First Dewdrop",
+          "count": 30
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 6
+        },
+        {
+          "id": 113050,
+          "name": "Artificed Spare Clockwork Component — Coppelius",
+          "count": 12
+        },
+        {
+          "id": 101240,
+          "name": "Spring of the First Dewdrop",
+          "count": 45
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104174,
+          "name": "Prithiva Topaz Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113050,
+          "name": "Artificed Spare Clockwork Component — Coppelius",
+          "count": 20
+        },
+        {
+          "id": 101240,
+          "name": "Spring of the First Dewdrop",
+          "count": 60
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113799/c765b3ba5e3b25ce6e8afd3e758251a8_8182638561484390418.png",
+      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113799/865a415e7278fa634898a3d55fbd3884_137330819669966012.png",
+      "filename_icon": "UI_AvatarIcon_Navia",
+      "filename_iconCard": "UI_AvatarIcon_Navia_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Navia",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Navia",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Navia",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Navia.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Navia.png",
+      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/18/35428890/3fc7580c01a9e622692402889706c4db_8301615651200775487.png"
+    },
+    "version": "4.3"
+  },
+  "skills": {
+    "id": 9101,
+    "name": "Navia",
+    "combat1": {
+      "name": "Blunt Refusal",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}×3",
+          "4-Hit DMG|{param4:F1P}",
+          "Charged Attack Cyclic DMG|{param5:F1P}",
+          "Charged Attack Final DMG|{param6:P}",
+          "Charged Attack Stamina Cost|{param7:F1}/s",
+          "Max Duration|{param8:F1}s",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.93519,
+            1.01131,
+            1.08743,
+            1.196173,
+            1.272293,
+            1.359287,
+            1.478905,
+            1.598522,
+            1.718139,
+            1.848631,
+            1.979123,
+            2.109614,
+            2.240106,
+            2.370597,
+            2.501089
+          ],
+          "param2": [
+            0.865065,
+            0.935478,
+            1.00589,
+            1.106479,
+            1.176891,
+            1.257362,
+            1.36801,
+            1.478658,
+            1.589306,
+            1.710013,
+            1.83072,
+            1.951427,
+            2.072133,
+            2.19284,
+            2.313547
+          ],
+          "param3": [
+            0.348859,
+            0.377255,
+            0.40565,
+            0.446215,
+            0.47461,
+            0.507062,
+            0.551684,
+            0.596306,
+            0.640927,
+            0.689605,
+            0.738283,
+            0.786961,
+            0.835639,
+            0.884317,
+            0.932995
+          ],
+          "param4": [
+            1.334316,
+            1.442923,
+            1.55153,
+            1.706683,
+            1.81529,
+            1.939412,
+            2.110081,
+            2.280749,
+            2.451417,
+            2.637601,
+            2.823785,
+            3.009968,
+            3.196152,
+            3.382335,
+            3.568519
+          ],
+          "param5": [
+            0.62522,
+            0.67611,
+            0.727,
+            0.7997,
+            0.85059,
+            0.90875,
+            0.98872,
+            1.06869,
+            1.14866,
+            1.2359,
+            1.32314,
+            1.41038,
+            1.49762,
+            1.58486,
+            1.6721
+          ],
+          "param6": [
+            1.1309,
+            1.22295,
+            1.315,
+            1.4465,
+            1.53855,
+            1.64375,
+            1.7884,
+            1.93305,
+            2.0777,
+            2.2355,
+            2.3933,
+            2.5511,
+            2.7089,
+            2.8667,
+            3.0245
+          ],
+          "param7": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "param8": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param9": [
+            0.745878,
+            0.806589,
+            0.8673,
+            0.95403,
+            1.014741,
+            1.084125,
+            1.179528,
+            1.274931,
+            1.370334,
+            1.47441,
+            1.578486,
+            1.682562,
+            1.786638,
+            1.890714,
+            1.99479
+          ],
+          "param10": [
+            1.49144,
+            1.612836,
+            1.734233,
+            1.907656,
+            2.029052,
+            2.167791,
+            2.358556,
+            2.549322,
+            2.740087,
+            2.948195,
+            3.156303,
+            3.364411,
+            3.572519,
+            3.780627,
+            3.988735
+          ],
+          "param11": [
+            1.862889,
+            2.01452,
+            2.16615,
+            2.382765,
+            2.534396,
+            2.707688,
+            2.945964,
+            3.184241,
+            3.422517,
+            3.682455,
+            3.942393,
+            4.202331,
+            4.462269,
+            4.722207,
+            4.982145
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Ceremonial Crystalshot",
+      "descriptionRaw": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, or when they trigger the Lunar-Crystallize reaction, Navia will gain 1 Crystal Shrapnel stack. Navia can have up to 6 stacks of Crystal Shrapnel at once. Each time Crystal Shrapnel gain is triggered, the duration of the Crystal Shrapnel stacks you already have will be reset. Through the Lunar-Crystallize reaction, Navia will gain up to 1 Crystal Shrapnel stack every second.\nWhen she fires, Navia will consume all Crystal Shrapnel stacks and open her elegant yet lethal Gunbrella, firing multiple Rosula Shardshots that can penetrate opponents, dealing <color=#FFE699FF>Geo DMG</color> to opponents hit.\nWhen 0/1/2/3 or more stacks of Crystal Shrapnel are consumed, 5/7/9/11 Rosula Shardshots will be fired respectively. The more Rosula Shardshots that strike a single opponent, the greater the DMG dealt to them. When all 11 Rosula Shardshots strike, 200% of the original amount of DMG is dealt.\nIn addition, when more than 3 stacks of Crystal Shrapnel are consumed, every stack consumed beyond those 3 will increase the DMG dealt by this Gunbrella attack by an additional 15%.\n\n<color=#FFD780FF>Hold</color>\nEnter Aiming Mode, continually collecting nearby Elemental Shards created by Crystallize reactions. When released, fire Rosula Shardshots with the same effect as when the skill is Tapped.\n\nTwo initial charges.\n\n<color=#FFD780FF>Arkhe: Ousia</color>\nPeriodically, when Navia fires her Gunbrella, a Surging Blade will be summoned, dealing Ousia-aligned <color=#FFE699FF>Geo DMG</color>.\n\n<i>\"Maintaining the appropriate distance with those whom distance should be maintained is an essential part of etiquette. Naturally, there are also many ways to do this...\"</i>",
+      "description": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, or when they trigger the Lunar-Crystallize reaction, Navia will gain 1 Crystal Shrapnel stack. Navia can have up to 6 stacks of Crystal Shrapnel at once. Each time Crystal Shrapnel gain is triggered, the duration of the Crystal Shrapnel stacks you already have will be reset. Through the Lunar-Crystallize reaction, Navia will gain up to 1 Crystal Shrapnel stack every second.\nWhen she fires, Navia will consume all Crystal Shrapnel stacks and open her elegant yet lethal Gunbrella, firing multiple Rosula Shardshots that can penetrate opponents, dealing Geo DMG to opponents hit.\nWhen 0/1/2/3 or more stacks of Crystal Shrapnel are consumed, 5/7/9/11 Rosula Shardshots will be fired respectively. The more Rosula Shardshots that strike a single opponent, the greater the DMG dealt to them. When all 11 Rosula Shardshots strike, 200% of the original amount of DMG is dealt.\nIn addition, when more than 3 stacks of Crystal Shrapnel are consumed, every stack consumed beyond those 3 will increase the DMG dealt by this Gunbrella attack by an additional 15%.\n\nHold\nEnter Aiming Mode, continually collecting nearby Elemental Shards created by Crystallize reactions. When released, fire Rosula Shardshots with the same effect as when the skill is Tapped.\n\nTwo initial charges.\n\nArkhe: Ousia\nPeriodically, when Navia fires her Gunbrella, a Surging Blade will be summoned, dealing Ousia-aligned Geo DMG.",
+      "flavorText": "\"Maintaining the appropriate distance with those whom distance should be maintained is an essential part of etiquette. Naturally, there are also many ways to do this...\"",
+      "attributes": {
+        "labels": [
+          "Rosula Shardshot Base DMG|{param1:F1P}",
+          "Crystal Shrapnel Duration|{param3:F1}s",
+          "Surging Blade DMG|{param5:F1P}",
+          "Surging Blade Interval|{param6:F1}s",
+          "CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            3.948,
+            4.2441,
+            4.5402,
+            4.935,
+            5.2311,
+            5.5272,
+            5.922,
+            6.3168,
+            6.7116,
+            7.1064,
+            7.5012,
+            7.896,
+            8.3895,
+            8.883,
+            9.3765
+          ],
+          "param2": [
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15
+          ],
+          "param3": [
+            300,
+            300,
+            300,
+            300,
+            300,
+            300,
+            300,
+            300,
+            300,
+            300,
+            300,
+            300,
+            300,
+            300,
+            300
+          ],
+          "param4": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ],
+          "param5": [
+            0.36,
+            0.387,
+            0.414,
+            0.45,
+            0.477,
+            0.504,
+            0.54,
+            0.576,
+            0.612,
+            0.648,
+            0.684,
+            0.72,
+            0.765,
+            0.81,
+            0.855
+          ],
+          "param6": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "As the Sunlit Sky's Singing Salute",
+      "descriptionRaw": "On the orders of the President of the Spina di Rosula, call for a magnificent Rosula Dorata Salute. Unleashes a massive cannon bombardment on opponents in front of her, dealing <color=#FFE699FF>AoE Geo DMG</color> and providing Cannon Fire Support for a duration afterward, periodically dealing <color=#FFE699FF>Geo DMG</color> to nearby opponents.\nWhen cannon attacks hit opponents, Navia will gain 1 stack of Crystal Shrapnel. This effect can be triggered up to once every 2.4s.\n\n<i>\"The Spina di Rosula's salute is a preemptive celebration of the successful conclusion of our negotiations and is fired just before talks begin. Don't misunderstand, it isn't in any way, shape, or form some kind of threat.\"</i>",
+      "description": "On the orders of the President of the Spina di Rosula, call for a magnificent Rosula Dorata Salute. Unleashes a massive cannon bombardment on opponents in front of her, dealing AoE Geo DMG and providing Cannon Fire Support for a duration afterward, periodically dealing Geo DMG to nearby opponents.\nWhen cannon attacks hit opponents, Navia will gain 1 stack of Crystal Shrapnel. This effect can be triggered up to once every 2.4s.",
+      "flavorText": "\"The Spina di Rosula's salute is a preemptive celebration of the successful conclusion of our negotiations and is fired just before talks begin. Don't misunderstand, it isn't in any way, shape, or form some kind of threat.\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Cannon Fire Support DMG|{param2:F1P}",
+          "Cannon Fire Support Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.752,
+            0.8084,
+            0.8648,
+            0.94,
+            0.9964,
+            1.0528,
+            1.128,
+            1.2032,
+            1.2784,
+            1.3536,
+            1.4288,
+            1.504,
+            1.598,
+            1.692,
+            1.786
+          ],
+          "param2": [
+            0.4315,
+            0.463863,
+            0.496225,
+            0.539375,
+            0.571738,
+            0.6041,
+            0.64725,
+            0.6904,
+            0.73355,
+            0.7767,
+            0.81985,
+            0.863,
+            0.916938,
+            0.970875,
+            1.024813
+          ],
+          "param3": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "param6": [
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Undisclosed Distribution Channels",
+      "descriptionRaw": "For 4s after using <color=#FFD780FF>Ceremonial Crystalshot</color>, the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be converted into <color=#FFE699FF>Geo DMG</color> which cannot be overridden by other Elemental infusions, and the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be increased by 40%.",
+      "description": "For 4s after using Ceremonial Crystalshot, the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be converted into Geo DMG which cannot be overridden by other Elemental infusions, and the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be increased by 40%."
+    },
+    "passive2": {
+      "name": "Mutual Assistance Network",
+      "descriptionRaw": "For each <color=#FF9999FF>Pyro</color>/<color=#FFACFFFF>Electro</color>/<color=#99FFFFFF>Cryo</color>/<color=#80C0FFFF>Hydro</color> party member, Navia gains 20% increased ATK. This effect can stack up to 2 times.",
+      "description": "For each Pyro/Electro/Cryo/Hydro party member, Navia gains 20% increased ATK. This effect can stack up to 2 times."
+    },
+    "passive3": {
+      "name": "Painstaking Transaction",
+      "descriptionRaw": "Gains 25% more rewards when dispatched on a Fontaine Expedition for 20 hours.",
+      "description": "Gains 25% more rewards when dispatched on a Fontaine Expedition for 20 hours."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104338,
+          "name": "Teachings of Equity",
+          "count": 3
+        },
+        {
+          "id": 112080,
+          "name": "Transoceanic Pearl",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 2
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 4
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 6
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 9
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 4
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 4
+        },
+        {
+          "id": 113054,
+          "name": "Lightless Silk String",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 6
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 6
+        },
+        {
+          "id": 113054,
+          "name": "Lightless Silk String",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 12
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 9
+        },
+        {
+          "id": 113054,
+          "name": "Lightless Silk String",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 16
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 12
+        },
+        {
+          "id": 113054,
+          "name": "Lightless Silk String",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_04",
+      "filename_combat2": "Skill_S_Navia_01",
+      "filename_combat3": "Skill_E_Navia_01_HD",
+      "filename_passive1": "UI_Talent_S_Navia_05",
+      "filename_passive2": "UI_Talent_S_Navia_06",
+      "filename_passive3": "UI_Talent_S_Navia_07"
+    },
+    "version": "4.3"
+  },
+  "constellation": {
+    "id": 9101,
+    "name": "Navia",
+    "c1": {
+      "name": "A Lady's Rules for Keeping a Courteous Distance",
+      "descriptionRaw": "Each stack of Crystal Shrapnel consumed when Navia uses <color=#FFD780FF>Ceremonial Crystalshot</color> will restore 3 Energy to her and decrease the CD of <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> by 1s. Up to 9 Energy can be gained this way, and the CD of \"As the Sunlit Sky's Singing Salute\" can be decreased by up to 3s.",
+      "description": "Each stack of Crystal Shrapnel consumed when Navia uses Ceremonial Crystalshot will restore 3 Energy to her and decrease the CD of As the Sunlit Sky's Singing Salute by 1s. Up to 9 Energy can be gained this way, and the CD of \"As the Sunlit Sky's Singing Salute\" can be decreased by up to 3s."
+    },
+    "c2": {
+      "name": "The President's Pursuit of Victory",
+      "descriptionRaw": "Each stack of Crystal Shrapnel consumed will increase the CRIT Rate of this <color=#FFD780FF>Ceremonial Crystalshot</color> instance by 12%. CRIT Rate can be increased by up to 36% in this way.\nIn addition, when Ceremonial Crystalshot hits an opponent, one Cannon Fire Support shot from <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> will strike near the location of the hit. Up to one instance of Cannon Fire Support can be triggered each time Ceremonial Crystalshot is used, and DMG dealt by said Cannon Fire Support this way is considered Elemental Burst DMG.",
+      "description": "Each stack of Crystal Shrapnel consumed will increase the CRIT Rate of this Ceremonial Crystalshot instance by 12%. CRIT Rate can be increased by up to 36% in this way.\nIn addition, when Ceremonial Crystalshot hits an opponent, one Cannon Fire Support shot from As the Sunlit Sky's Singing Salute will strike near the location of the hit. Up to one instance of Cannon Fire Support can be triggered each time Ceremonial Crystalshot is used, and DMG dealt by said Cannon Fire Support this way is considered Elemental Burst DMG."
+    },
+    "c3": {
+      "name": "Businesswoman's Broad Vision",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Ceremonial Crystalshot</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Ceremonial Crystalshot by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "The Oathsworn Never Capitulate",
+      "descriptionRaw": "When <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> hits an opponent, that opponent's <color=#FFE699FF>Geo RES</color> will be decreased by 20% for 8s.",
+      "description": "When As the Sunlit Sky's Singing Salute hits an opponent, that opponent's Geo RES will be decreased by 20% for 8s."
+    },
+    "c5": {
+      "name": "Negotiator's Resolute Negotiations",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of As the Sunlit Sky's Singing Salute by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "The Flexible Finesse of the Spina's President",
+      "descriptionRaw": "If more than 3 stacks of Crystal Shrapnel are consumed when using <color=#FFD780FF>Ceremonial Crystalshot</color>, each stack consumed beyond the first 3 increases the CRIT DMG of that Ceremonial Crystalshot by 45%, and any stacks consumed beyond the first 3 are returned to Navia.",
+      "description": "If more than 3 stacks of Crystal Shrapnel are consumed when using Ceremonial Crystalshot, each stack consumed beyond the first 3 increases the CRIT DMG of that Ceremonial Crystalshot by 45%, and any stacks consumed beyond the first 3 are returned to Navia."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Navia_01",
+      "filename_c2": "UI_Talent_S_Navia_02",
+      "filename_c3": "UI_Talent_U_Navia_01",
+      "filename_c4": "UI_Talent_S_Navia_03",
+      "filename_c5": "UI_Talent_U_Navia_02",
+      "filename_c6": "UI_Talent_S_Navia_04",
+      "filename_constellation": "Eff_UI_Talent_Navia"
+    },
+    "version": "4.3"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 984.77954,
+      "attack": 27.3714,
+      "defense": 61.74456,
+      "specialized": 0.5
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1066.51624182,
+      "attack": 29.6432262,
+      "defense": 66.86935848,
+      "specialized": 0.5
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1148.25294364,
+      "attack": 31.9150524,
+      "defense": 71.99415696,
+      "specialized": 0.5
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1230.9744249999999,
+      "attack": 34.21425,
+      "defense": 77.1807,
+      "specialized": 0.5
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1312.71112682,
+      "attack": 36.4860762,
+      "defense": 82.30549848,
+      "specialized": 0.5
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1395.43260818,
+      "attack": 38.785273800000006,
+      "defense": 87.49204152,
+      "specialized": 0.5
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1477.16931,
+      "attack": 41.057100000000005,
+      "defense": 92.61684,
+      "specialized": 0.5
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1559.89079136,
+      "attack": 43.356297600000005,
+      "defense": 97.80338304,
+      "specialized": 0.5
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1642.61227272,
+      "attack": 45.6554952,
+      "defense": 102.98992607999999,
+      "specialized": 0.5
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1724.34897454,
+      "attack": 47.9273214,
+      "defense": 108.11472456,
+      "specialized": 0.5
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1807.0704559,
+      "attack": 50.226519,
+      "defense": 113.3012676,
+      "specialized": 0.5
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1889.79193726,
+      "attack": 52.5257166,
+      "defense": 118.48781064,
+      "specialized": 0.5
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1972.51341862,
+      "attack": 54.82491420000001,
+      "defense": 123.67435368000001,
+      "specialized": 0.5
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2056.21967952,
+      "attack": 57.15148320000001,
+      "defense": 128.92264128,
+      "specialized": 0.5
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2138.94116088,
+      "attack": 59.45068080000001,
+      "defense": 134.10918432,
+      "specialized": 0.5
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2221.66264224,
+      "attack": 61.7498784,
+      "defense": 139.29572735999997,
+      "specialized": 0.5
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2305.3689031400004,
+      "attack": 64.0764474,
+      "defense": 144.54401496,
+      "specialized": 0.5
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2388.0903845,
+      "attack": 66.37564499999999,
+      "defense": 149.730558,
+      "specialized": 0.5
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2471.7966453999998,
+      "attack": 68.702214,
+      "defense": 154.9788456,
+      "specialized": 0.5
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2554.5181267599996,
+      "attack": 71.0014116,
+      "defense": 160.16538864,
+      "specialized": 0.5
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3482.5838276599998,
+      "attack": 96.7947656,
+      "defense": 218.35527624,
+      "specialized": 0.5
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3566.29008856,
+      "attack": 99.1213346,
+      "defense": 223.60356384,
+      "specialized": 0.5
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3649.9963494599997,
+      "attack": 101.4479036,
+      "defense": 228.85185144000002,
+      "specialized": 0.5
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3733.70261036,
+      "attack": 103.77447260000001,
+      "defense": 234.10013904000002,
+      "specialized": 0.5
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3817.4088712599996,
+      "attack": 106.1010416,
+      "defense": 239.34842664,
+      "specialized": 0.5
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3902.0999117,
+      "attack": 108.454982,
+      "defense": 244.6584588,
+      "specialized": 0.5
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3985.8061725999996,
+      "attack": 110.78155100000001,
+      "defense": 249.9067464,
+      "specialized": 0.5
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4069.5124335,
+      "attack": 113.10812,
+      "defense": 255.155034,
+      "specialized": 0.5
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4154.203473940001,
+      "attack": 115.46206040000001,
+      "defense": 260.46506616000005,
+      "specialized": 0.5
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4237.90973484,
+      "attack": 117.7886294,
+      "defense": 265.71335376,
+      "specialized": 0.5
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4322.60077528,
+      "attack": 120.1425698,
+      "defense": 271.02338592,
+      "specialized": 0.5
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4407.29181572,
+      "attack": 122.4965102,
+      "defense": 276.33341808,
+      "specialized": 0.5
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4491.98285616,
+      "attack": 124.85045060000002,
+      "defense": 281.64345024,
+      "specialized": 0.5
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4575.68911706,
+      "attack": 127.17701960000001,
+      "defense": 286.89173784,
+      "specialized": 0.5
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4660.3801575,
+      "attack": 129.53096,
+      "defense": 292.20177,
+      "specialized": 0.5
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4746.05597748,
+      "attack": 131.9122718,
+      "defense": 297.57354672,
+      "specialized": 0.5
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4830.74701792,
+      "attack": 134.2662122,
+      "defense": 302.88357888,
+      "specialized": 0.5
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4915.4380583600005,
+      "attack": 136.6201526,
+      "defense": 308.19361104,
+      "specialized": 0.5
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5000.1290988,
+      "attack": 138.97409299999998,
+      "defense": 313.5036432,
+      "specialized": 0.5
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5085.804918780001,
+      "attack": 141.35540480000003,
+      "defense": 318.87541992,
+      "specialized": 0.5
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5770.43561922,
+      "attack": 160.3831162,
+      "defense": 361.80185208,
+      "specialized": 0.596
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5856.111439200001,
+      "attack": 162.764428,
+      "defense": 367.1736288,
+      "specialized": 0.596
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5941.787259180001,
+      "attack": 165.1457398,
+      "defense": 372.54540552,
+      "specialized": 0.596
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6026.47829962,
+      "attack": 167.4996802,
+      "defense": 377.85543767999997,
+      "specialized": 0.596
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6112.154119600001,
+      "attack": 169.88099200000002,
+      "defense": 383.2272144,
+      "specialized": 0.596
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6197.82993958,
+      "attack": 172.2623038,
+      "defense": 388.59899112,
+      "specialized": 0.596
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6283.50575956,
+      "attack": 174.6436156,
+      "defense": 393.97076783999995,
+      "specialized": 0.596
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6369.181579540001,
+      "attack": 177.02492740000002,
+      "defense": 399.34254456,
+      "specialized": 0.596
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6455.8421790600005,
+      "attack": 179.4336106,
+      "defense": 404.77606584,
+      "specialized": 0.596
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6541.51799904,
+      "attack": 181.81492240000003,
+      "defense": 410.14784256,
+      "specialized": 0.596
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7427.11321902,
+      "attack": 206.4279242,
+      "defense": 465.67481927999995,
+      "specialized": 0.692
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7513.77381854,
+      "attack": 208.8366074,
+      "defense": 471.10834056,
+      "specialized": 0.692
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7599.44963852,
+      "attack": 211.21791919999998,
+      "defense": 476.48011727999994,
+      "specialized": 0.692
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7686.11023804,
+      "attack": 213.6266024,
+      "defense": 481.91363856,
+      "specialized": 0.692
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7772.77083756,
+      "attack": 216.03528559999998,
+      "defense": 487.34715984,
+      "specialized": 0.692
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7859.43143708,
+      "attack": 218.4439688,
+      "defense": 492.78068112000005,
+      "specialized": 0.692
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7946.0920366,
+      "attack": 220.852652,
+      "defense": 498.2142024,
+      "specialized": 0.692
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8032.75263612,
+      "attack": 223.2613352,
+      "defense": 503.64772368,
+      "specialized": 0.692
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8119.4132356400005,
+      "attack": 225.6700184,
+      "defense": 509.08124496000005,
+      "specialized": 0.692
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8206.073835160001,
+      "attack": 228.07870160000002,
+      "defense": 514.51476624,
+      "specialized": 0.692
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8892.67393468,
+      "attack": 247.1611488,
+      "defense": 557.56468752,
+      "specialized": 0.692
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8979.334534200001,
+      "attack": 249.56983200000002,
+      "defense": 562.9982088,
+      "specialized": 0.692
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9066.97991326,
+      "attack": 252.0058866,
+      "defense": 568.49347464,
+      "specialized": 0.692
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9153.64051278,
+      "attack": 254.4145698,
+      "defense": 573.92699592,
+      "specialized": 0.692
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9241.28589184,
+      "attack": 256.8506244,
+      "defense": 579.42226176,
+      "specialized": 0.692
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9328.9312709,
+      "attack": 259.286679,
+      "defense": 584.9175276,
+      "specialized": 0.692
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9415.59187042,
+      "attack": 261.6953622,
+      "defense": 590.35104888,
+      "specialized": 0.692
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9503.23724948,
+      "attack": 264.1314168,
+      "defense": 595.84631472,
+      "specialized": 0.692
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9590.88262854,
+      "attack": 266.56747140000004,
+      "defense": 601.34158056,
+      "specialized": 0.692
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9678.5280076,
+      "attack": 269.003526,
+      "defense": 606.8368464,
+      "specialized": 0.692
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10366.11308666,
+      "attack": 288.1133606,
+      "defense": 649.94851224,
+      "specialized": 0.788
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10454.743245259999,
+      "attack": 290.5767866,
+      "defense": 655.50552264,
+      "specialized": 0.788
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10542.38862432,
+      "attack": 293.0128412,
+      "defense": 661.00078848,
+      "specialized": 0.788
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10630.03400338,
+      "attack": 295.4488958,
+      "defense": 666.49605432,
+      "specialized": 0.788
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10718.66416198,
+      "attack": 297.91232180000003,
+      "defense": 672.05306472,
+      "specialized": 0.788
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10806.30954104,
+      "attack": 300.3483764,
+      "defense": 677.54833056,
+      "specialized": 0.788
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10894.93969964,
+      "attack": 302.81180240000003,
+      "defense": 683.10534096,
+      "specialized": 0.788
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10983.56985824,
+      "attack": 305.2752284,
+      "defense": 688.66235136,
+      "specialized": 0.788
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11072.20001684,
+      "attack": 307.73865440000003,
+      "defense": 694.21936176,
+      "specialized": 0.788
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11160.83017544,
+      "attack": 310.2020804,
+      "defense": 699.77637216,
+      "specialized": 0.788
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11849.400034040002,
+      "attack": 329.33927140000003,
+      "defense": 742.94978256,
+      "specialized": 0.884
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11938.030192639999,
+      "attack": 331.8026974,
+      "defense": 748.50679296,
+      "specialized": 0.884
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12026.66035124,
+      "attack": 334.2661234,
+      "defense": 754.06380336,
+      "specialized": 0.884
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12115.29050984,
+      "attack": 336.7295494,
+      "defense": 759.62081376,
+      "specialized": 0.884
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12203.92066844,
+      "attack": 339.1929754,
+      "defense": 765.17782416,
+      "specialized": 0.884
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12293.53560658,
+      "attack": 341.68377280000004,
+      "defense": 770.79657912,
+      "specialized": 0.884
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12382.165765180001,
+      "attack": 344.1471988,
+      "defense": 776.35358952,
+      "specialized": 0.884
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12471.78070332,
+      "attack": 346.63799620000003,
+      "defense": 781.9723444800001,
+      "specialized": 0.884
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12561.39564146,
+      "attack": 349.1287936,
+      "defense": 787.59109944,
+      "specialized": 0.884
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12650.02580006,
+      "attack": 351.5922196,
+      "defense": 793.1481098400001,
+      "specialized": 0.884
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3398.8775667599994,
+      "attack": 94.4681966,
+      "defense": 213.10698864,
+      "specialized": 0.5
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5685.744578780001,
+      "attack": 158.02917580000002,
+      "defense": 356.49181992,
+      "specialized": 0.596
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7341.43739904,
+      "attack": 204.04661240000001,
+      "defense": 460.30304256,
+      "specialized": 0.692
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8806.01333516,
+      "attack": 244.75246560000002,
+      "defense": 552.13116624,
+      "specialized": 0.692
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10278.4677076,
+      "attack": 285.67730600000004,
+      "defense": 644.4532464,
+      "specialized": 0.788
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11760.76987544,
+      "attack": 326.8758454,
+      "defense": 737.39277216,
+      "specialized": 0.884
+    }
+  }
+}

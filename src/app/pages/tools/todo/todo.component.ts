@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { CharacterService } from '../../../_services/character.service';
-import { CharacterProfile } from '../../../_models/character';
 
 @Component({
   selector: 'app-todo',
@@ -14,11 +13,11 @@ export class TodoComponent implements OnInit {
     private characterService: CharacterService
   ) { }
 
-  characterData: CharacterProfile[] = []
+  characterNames: string[] = []
 
   ngOnInit(): void {
-    this.characterService.getCharacters().subscribe(data => {
-      this.characterData = data;
+    this.characterService.getCharacterNames().subscribe(data => {
+      this.characterNames = data;
     });
   }
 }

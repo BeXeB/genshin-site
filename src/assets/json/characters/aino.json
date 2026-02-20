@@ -1,0 +1,1566 @@
+{
+  "profile": {
+    "id": 10000121,
+    "name": "Aino",
+    "title": "Clinky-Clank Gadgets-A-Gogo",
+    "description": "A genius mechanic and inventor from Nod-Krai who loves interesting machines and sweet treats.",
+    "weaponType": "WEAPON_CLAYMORE",
+    "weaponText": "Claymore",
+    "bodyType": "BODY_LOLI",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "9/21",
+    "birthday": "September 21",
+    "elementType": "ELEMENT_HYDRO",
+    "elementText": "Hydro",
+    "affiliation": "Clink-Clank Krumkake Craftshop",
+    "associationType": "ASSOC_NODKRAI",
+    "region": "Nod-Krai",
+    "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
+    "substatText": "Elemental Mastery",
+    "constellation": "Cistellula Mira",
+    "cv": {
+      "english": "Annabel Brook",
+      "chinese": "葛子瑞",
+      "japanese": "高森奈津美",
+      "korean": "Jo Kyeong-i"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104121,
+          "name": "Varunada Lazurite Sliver",
+          "count": 1
+        },
+        {
+          "id": 101257,
+          "name": "Portable Bearing",
+          "count": 3
+        },
+        {
+          "id": 112122,
+          "name": "Broken Drive Shaft",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 3
+        },
+        {
+          "id": 113077,
+          "name": "Precision Kuuvahki Stamping Die",
+          "count": 2
+        },
+        {
+          "id": 101257,
+          "name": "Portable Bearing",
+          "count": 10
+        },
+        {
+          "id": 112122,
+          "name": "Broken Drive Shaft",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 6
+        },
+        {
+          "id": 113077,
+          "name": "Precision Kuuvahki Stamping Die",
+          "count": 4
+        },
+        {
+          "id": 101257,
+          "name": "Portable Bearing",
+          "count": 20
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 3
+        },
+        {
+          "id": 113077,
+          "name": "Precision Kuuvahki Stamping Die",
+          "count": 8
+        },
+        {
+          "id": 101257,
+          "name": "Portable Bearing",
+          "count": 30
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 6
+        },
+        {
+          "id": 113077,
+          "name": "Precision Kuuvahki Stamping Die",
+          "count": 12
+        },
+        {
+          "id": 101257,
+          "name": "Portable Bearing",
+          "count": 45
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104124,
+          "name": "Varunada Lazurite Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113077,
+          "name": "Precision Kuuvahki Stamping Die",
+          "count": 20
+        },
+        {
+          "id": 101257,
+          "name": "Portable Bearing",
+          "count": 60
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Aino",
+      "filename_iconCard": "UI_AvatarIcon_Aino_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Aino",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Aino",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Aino",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aino.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Aino.png",
+      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/09/09/4e58c851d6c947865026faa168db83bd_3944254802105067377.png"
+    },
+    "version": "6.0"
+  },
+  "skills": {
+    "id": 12101,
+    "name": "Aino",
+    "combat1": {
+      "name": "Bish-Bash-Bosh Repair",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 3 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}×2",
+          "Charged Attack Loop DMG|{param4:F1P}",
+          "Charged Attack Final DMG|{param5:P}",
+          "Charged Attack Stamina Cost|{param6:F1}/s",
+          "Max Duration|{param7:F1}s",
+          "Plunge DMG|{param8:F1P}",
+          "Low/High Plunge DMG|{param9:P}/{param10:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.664986,
+            0.719113,
+            0.77324,
+            0.850564,
+            0.904691,
+            0.96655,
+            1.051606,
+            1.136663,
+            1.221719,
+            1.314508,
+            1.407297,
+            1.500086,
+            1.592874,
+            1.685663,
+            1.778452
+          ],
+          "param2": [
+            0.661916,
+            0.715793,
+            0.76967,
+            0.846637,
+            0.900514,
+            0.962087,
+            1.046751,
+            1.131415,
+            1.216079,
+            1.308439,
+            1.400799,
+            1.49316,
+            1.58552,
+            1.677881,
+            1.770241
+          ],
+          "param3": [
+            0.492165,
+            0.532225,
+            0.572285,
+            0.629514,
+            0.669573,
+            0.715356,
+            0.778308,
+            0.841259,
+            0.90421,
+            0.972885,
+            1.041559,
+            1.110233,
+            1.178907,
+            1.247581,
+            1.316256
+          ],
+          "param4": [
+            0.62522,
+            0.67611,
+            0.727,
+            0.7997,
+            0.85059,
+            0.90875,
+            0.98872,
+            1.06869,
+            1.14866,
+            1.2359,
+            1.32314,
+            1.41038,
+            1.49762,
+            1.58486,
+            1.6721
+          ],
+          "param5": [
+            1.1309,
+            1.22295,
+            1.315,
+            1.4465,
+            1.53855,
+            1.64375,
+            1.7884,
+            1.93305,
+            2.0777,
+            2.2355,
+            2.3933,
+            2.5511,
+            2.7089,
+            2.8667,
+            3.0245
+          ],
+          "param6": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "param7": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param8": [
+            0.745878,
+            0.806589,
+            0.8673,
+            0.95403,
+            1.014741,
+            1.084125,
+            1.179528,
+            1.274931,
+            1.370334,
+            1.47441,
+            1.578486,
+            1.682562,
+            1.786638,
+            1.890714,
+            1.99479
+          ],
+          "param9": [
+            1.49144,
+            1.612836,
+            1.734233,
+            1.907656,
+            2.029052,
+            2.167791,
+            2.358556,
+            2.549322,
+            2.740087,
+            2.948195,
+            3.156303,
+            3.364411,
+            3.572519,
+            3.780627,
+            3.988735
+          ],
+          "param10": [
+            1.862889,
+            2.01452,
+            2.16615,
+            2.382765,
+            2.534396,
+            2.707688,
+            2.945964,
+            3.184241,
+            3.422517,
+            3.682455,
+            3.942393,
+            4.202331,
+            4.462269,
+            4.722207,
+            4.982145
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Musecatcher",
+      "descriptionRaw": "Aino throws a <color=#FFD780FF>Musecatcher</color> forward, dealing <color=#80C0FFFF>Hydro DMG</color> and dragging her along behind it. When the dragging stops, Aino deals <color=#80C0FFFF>AoE Hydro DMG</color> to nearby opponents.\nHolding the Skill will cause it to behave differently.\n\n<color=#FFD780FF>Hold</color>\nEnter Aiming Mode to adjust the Musecatcher's throwing direction.",
+      "description": "Aino throws a Musecatcher forward, dealing Hydro DMG and dragging her along behind it. When the dragging stops, Aino deals AoE Hydro DMG to nearby opponents.\nHolding the Skill will cause it to behave differently.\n\nHold\nEnter Aiming Mode to adjust the Musecatcher's throwing direction.",
+      "attributes": {
+        "labels": [
+          "Stage 1 DMG|{param1:F1P}",
+          "Stage 2 DMG|{param2:F1P}",
+          "CD|{param3:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.656,
+            0.7052,
+            0.7544,
+            0.82,
+            0.8692,
+            0.9184,
+            0.984,
+            1.0496,
+            1.1152,
+            1.1808,
+            1.2464,
+            1.312,
+            1.394,
+            1.476,
+            1.558
+          ],
+          "param2": [
+            1.888,
+            2.0296,
+            2.1712,
+            2.36,
+            2.5016,
+            2.6432,
+            2.832,
+            3.0208,
+            3.2096,
+            3.3984,
+            3.5872,
+            3.776,
+            4.012,
+            4.248,
+            4.484
+          ],
+          "param3": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Precision Hydronic Cooler",
+      "descriptionRaw": "Aino deploys a custom water-spraying device, the <color=#FFD780FF>Cool Your Jets Ducky</color> to establish a <color=#FFD780FF>Focused Hydronic Cooling Zone</color>.\nWhile active, the Cool Your Jets Ducky will periodically fire water balls at nearby opponents, dealing <color=#80C0FFFF>Hydro DMG</color>.",
+      "description": "Aino deploys a custom water-spraying device, the Cool Your Jets Ducky to establish a Focused Hydronic Cooling Zone.\nWhile active, the Cool Your Jets Ducky will periodically fire water balls at nearby opponents, dealing Hydro DMG.",
+      "attributes": {
+        "labels": [
+          "Water Ball DMG|{param1:F1P}",
+          "Duration|{param2:F1}s",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.20112,
+            0.216204,
+            0.231288,
+            0.2514,
+            0.266484,
+            0.281568,
+            0.30168,
+            0.321792,
+            0.341904,
+            0.362016,
+            0.382128,
+            0.40224,
+            0.42738,
+            0.45252,
+            0.47766
+          ],
+          "param2": [
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14
+          ],
+          "param3": [
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5,
+            13.5
+          ],
+          "param4": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Modular Efficiency Protocol",
+      "descriptionRaw": "Aino will be granted the corresponding buff effects based on the party's <color=#FFD780FF>Moonsign</color>.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Her Elemental Burst <color=#FFD780FF>{LINK#S11215}Precision Hydronic Cooler{/LINK}</color> is enhanced: The <color=#FFD780FF>Cool Your Jets Ducky</color> will fire water balls more frequently, and the water balls will deal <color=#80C0FFFF>AoE Hydro DMG</color> over a larger area of effect.",
+      "description": "Aino will be granted the corresponding buff effects based on the party's Moonsign.\n\nMoonsign: Ascendant Gleam: Her Elemental Burst **Precision Hydronic Cooler** is enhanced: The Cool Your Jets Ducky will fire water balls more frequently, and the water balls will deal AoE Hydro DMG over a larger area of effect."
+    },
+    "passive2": {
+      "name": "Structured Power Booster",
+      "descriptionRaw": "Aino's Elemental Burst DMG is increased by 50% of her Elemental Mastery.",
+      "description": "Aino's Elemental Burst DMG is increased by 50% of her Elemental Mastery."
+    },
+    "passive3": {
+      "name": "Moonsign Benediction: Force Limit Analysis",
+      "descriptionRaw": "When Aino is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
+      "description": "When Aino is in the party, the party's Moonsign will increase by 1 level."
+    },
+    "passive4": {
+      "name": "Miniaturized Detection Sensor",
+      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Nod-Krai</color> on the mini-map.\nAdditionally, Aino appears to be able to alter the Cool Your Jets Ducky's appearance in some way...",
+      "description": "Displays the location of nearby resources unique to Nod-Krai on the mini-map.\nAdditionally, Aino appears to be able to alter the Cool Your Jets Ducky's appearance in some way..."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104359,
+          "name": "Teachings of Elysium",
+          "count": 3
+        },
+        {
+          "id": 112122,
+          "name": "Broken Drive Shaft",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104360,
+          "name": "Guide to Elysium",
+          "count": 2
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104360,
+          "name": "Guide to Elysium",
+          "count": 4
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104360,
+          "name": "Guide to Elysium",
+          "count": 6
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104360,
+          "name": "Guide to Elysium",
+          "count": 9
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104361,
+          "name": "Philosophies of Elysium",
+          "count": 4
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 4
+        },
+        {
+          "id": 113061,
+          "name": "Silken Feather",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104361,
+          "name": "Philosophies of Elysium",
+          "count": 6
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 6
+        },
+        {
+          "id": 113061,
+          "name": "Silken Feather",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104361,
+          "name": "Philosophies of Elysium",
+          "count": 12
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 9
+        },
+        {
+          "id": 113061,
+          "name": "Silken Feather",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104361,
+          "name": "Philosophies of Elysium",
+          "count": 16
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 12
+        },
+        {
+          "id": 113061,
+          "name": "Silken Feather",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_04",
+      "filename_combat2": "Skill_S_Aino_01",
+      "filename_combat3": "Skill_E_Aino_01_HD",
+      "filename_passive1": "UI_Talent_S_Aino_05",
+      "filename_passive2": "UI_Talent_S_Aino_06",
+      "filename_passive3": "UI_Talent_S_Aino_07",
+      "filename_passive4": "UI_Talent_S_Aino_08"
+    },
+    "version": "6.0"
+  },
+  "constellation": {
+    "id": 12101,
+    "name": "Aino",
+    "c1": {
+      "name": "The Theory of Ash—Field Equilibrium",
+      "descriptionRaw": "After Aino uses her Elemental Skill <color=#FFD780FF>{LINK#S11212}Musecatcher{/LINK}</color> or her Elemental Burst <color=#FFD780FF>{LINK#S11215}Precision Hydronic Cooler{/LINK}</color>, her Elemental Mastery will be increased by 80. The Elemental Mastery of other nearby active party members will be increased by 80 for 15s.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
+      "description": "After Aino uses her Elemental Skill **Musecatcher** or her Elemental Burst **Precision Hydronic Cooler**, her Elemental Mastery will be increased by 80. The Elemental Mastery of other nearby active party members will be increased by 80 for 15s.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack."
+    },
+    "c2": {
+      "name": "The Principle of Transference in Gear Differentials",
+      "descriptionRaw": "If Aino is off-field while the <color=#FFD780FF>Focused Hydronic Cooling Zone</color> of her Elemental Burst <color=#FFD780FF>{LINK#S11215}Precision Hydronic Cooler{/LINK}</color> is active, when your active party member hits a nearby opponent with an attack, the <color=#FFD780FF>Cool Your Jets Ducky</color> will fire an additional water ball at that opponent, dealing <color=#80C0FFFF>AoE Hydro DMG</color> equal to 25% of Aino's ATK and 100% of her Elemental Mastery. This DMG is considered Elemental Burst DMG. This effect can be triggered once every 5s.",
+      "description": "If Aino is off-field while the Focused Hydronic Cooling Zone of her Elemental Burst **Precision Hydronic Cooler** is active, when your active party member hits a nearby opponent with an attack, the Cool Your Jets Ducky will fire an additional water ball at that opponent, dealing AoE Hydro DMG equal to 25% of Aino's ATK and 100% of her Elemental Mastery. This DMG is considered Elemental Burst DMG. This effect can be triggered once every 5s."
+    },
+    "c3": {
+      "name": "Cake and the Art of Mechanism Repair",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11215}Precision Hydronic Cooler{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of **Precision Hydronic Cooler** by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Butter and Cats and the Law of Energy Supply",
+      "descriptionRaw": "When the Elemental Skill <color=#FFD780FF>{LINK#S11212}Musecatcher{/LINK}</color> hits an opponent, it will restore 10 Elemental Energy for Aino. Energy can be restored to her in this manner once every 10s.",
+      "description": "When the Elemental Skill **Musecatcher** hits an opponent, it will restore 10 Elemental Energy for Aino. Energy can be restored to her in this manner once every 10s."
+    },
+    "c5": {
+      "name": "Perpetual Turbine of Metal and Light",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11212}Musecatcher{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of **Musecatcher** by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "The Burden of Creative Genius",
+      "descriptionRaw": "For the next 15s after using the Elemental Burst <color=#FFD780FF>{LINK#S11215}Precision Hydronic Cooler{/LINK}</color>, DMG from nearby active characters' Electro-Charged, Bloom, Lunar-Charged, Lunar-Bloom, and Lunar-Crystallize reactions is increased by 15%.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: DMG from the aforementioned reactions will be further increased by 20%.",
+      "description": "For the next 15s after using the Elemental Burst **Precision Hydronic Cooler**, DMG from nearby active characters' Electro-Charged, Bloom, Lunar-Charged, Lunar-Bloom, and Lunar-Crystallize reactions is increased by 15%.\nMoonsign: Ascendant Gleam: DMG from the aforementioned reactions will be further increased by 20%."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Aino_03",
+      "filename_c2": "UI_Talent_S_Aino_02",
+      "filename_c3": "UI_Talent_U_Aino_01",
+      "filename_c4": "UI_Talent_S_Aino_01",
+      "filename_c5": "UI_Talent_U_Aino_02",
+      "filename_c6": "UI_Talent_S_Aino_04",
+      "filename_constellation": "Eff_UI_Talent_Aino"
+    },
+    "version": "6.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 939.1447,
+      "attack": 20.30112,
+      "defense": 50.93025,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1017.0937101,
+      "attack": 21.98611296,
+      "defense": 55.15746075,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1094.1035755,
+      "attack": 23.650804800000003,
+      "defense": 59.33374125,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1172.0525856,
+      "attack": 25.335797760000002,
+      "defense": 63.560952,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1249.062451,
+      "attack": 27.0004896,
+      "defense": 67.7372325,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1327.0114611,
+      "attack": 28.68548256,
+      "defense": 71.96444325,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1404.0213265,
+      "attack": 30.350174400000004,
+      "defense": 76.14072375,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1481.9703365999999,
+      "attack": 32.03516736,
+      "defense": 80.3679345,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1559.9193467,
+      "attack": 33.720160320000005,
+      "defense": 84.59514525,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1636.9292121,
+      "attack": 35.38485216,
+      "defense": 88.77142575,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1714.8782222,
+      "attack": 37.069845120000004,
+      "defense": 92.9986365,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1791.8880875999998,
+      "attack": 38.73453696,
+      "defense": 97.174917,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1869.8370977,
+      "attack": 40.41952992,
+      "defense": 101.40212775,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1946.8469630999998,
+      "attack": 42.08422176,
+      "defense": 105.57840825,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2024.7959732,
+      "attack": 43.76921472000001,
+      "defense": 109.80561900000001,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2102.7449832999996,
+      "attack": 45.454207679999996,
+      "defense": 114.03282974999999,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2179.7548487,
+      "attack": 47.11889952000001,
+      "defense": 118.20911025000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2257.7038587999996,
+      "attack": 48.80389248,
+      "defense": 122.43632099999999,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2334.7137242,
+      "attack": 50.468584320000005,
+      "defense": 126.61260150000001,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2412.6627343,
+      "attack": 52.15357728,
+      "defense": 130.83981225,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3191.2617996999998,
+      "attack": 68.98460112,
+      "defense": 173.06359275,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3269.2108098,
+      "attack": 70.66959408,
+      "defense": 177.29080349999998,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3347.1598199,
+      "attack": 72.35458704000001,
+      "defense": 181.51801425000002,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3424.1696853,
+      "attack": 74.01927888,
+      "defense": 185.69429474999998,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3502.1186954,
+      "attack": 75.70427184,
+      "defense": 189.92150550000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3579.1285608,
+      "attack": 77.36896368000001,
+      "defense": 194.09778599999999,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3657.0775708999995,
+      "attack": 79.05395664,
+      "defense": 198.32499674999997,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3734.0874363,
+      "attack": 80.71864848,
+      "defense": 202.50127725,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3812.0364463999995,
+      "attack": 82.40364144,
+      "defense": 206.72848799999997,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3889.0463118,
+      "attack": 84.06833328,
+      "defense": 210.9047685,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3966.9953218999995,
+      "attack": 85.75332623999999,
+      "defense": 215.13197924999997,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4044.9443319999996,
+      "attack": 87.4383192,
+      "defense": 219.35919,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4121.954197399999,
+      "attack": 89.10301104,
+      "defense": 223.53547049999997,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4199.9032075,
+      "attack": 90.788004,
+      "defense": 227.76268125,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4276.9130729,
+      "attack": 92.45269584,
+      "defense": 231.93896174999998,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4354.862083,
+      "attack": 94.1376888,
+      "defense": 236.16617250000002,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4431.8719484,
+      "attack": 95.80238064,
+      "defense": 240.34245299999998,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4509.8209584999995,
+      "attack": 97.4873736,
+      "defense": 244.56966374999996,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4587.7699686,
+      "attack": 99.17236656,
+      "defense": 248.7968745,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4664.779834,
+      "attack": 100.83705839999999,
+      "defense": 252.97315499999996,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5241.2264441,
+      "attack": 113.29812936,
+      "defense": 284.23411575,
+      "specialized": 24
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5318.236309499999,
+      "attack": 114.9628212,
+      "defense": 288.41039624999996,
+      "specialized": 24
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5396.1853196,
+      "attack": 116.64781416,
+      "defense": 292.637607,
+      "specialized": 24
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5473.195185,
+      "attack": 118.312506,
+      "defense": 296.81388749999996,
+      "specialized": 24
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5551.1441951,
+      "attack": 119.99749896,
+      "defense": 301.04109825,
+      "specialized": 24
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5629.0932052,
+      "attack": 121.68249192,
+      "defense": 305.268309,
+      "specialized": 24
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5706.1030706,
+      "attack": 123.34718376000001,
+      "defense": 309.4445895,
+      "specialized": 24
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5784.0520807,
+      "attack": 125.03217672000001,
+      "defense": 313.67180025,
+      "specialized": 24
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5861.0619461,
+      "attack": 126.69686856,
+      "defense": 317.84808075,
+      "specialized": 24
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5939.0109562,
+      "attack": 128.38186152,
+      "defense": 322.07529150000005,
+      "specialized": 24
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6680.6842216000005,
+      "attack": 144.41465636,
+      "defense": 362.29657199999997,
+      "specialized": 48
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6758.6332317,
+      "attack": 146.09964932000003,
+      "defense": 366.52378275,
+      "specialized": 48
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6836.582241799999,
+      "attack": 147.78464228,
+      "defense": 370.75099349999994,
+      "specialized": 48
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6913.5921072,
+      "attack": 149.44933412,
+      "defense": 374.927274,
+      "specialized": 48
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6991.541117299999,
+      "attack": 151.13432708,
+      "defense": 379.15448474999994,
+      "specialized": 48
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7068.5509827000005,
+      "attack": 152.79901892,
+      "defense": 383.33076525,
+      "specialized": 48
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7146.4999928,
+      "attack": 154.48401188,
+      "defense": 387.55797599999994,
+      "specialized": 48
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7223.509858199999,
+      "attack": 156.14870372000001,
+      "defense": 391.7342565,
+      "specialized": 48
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7301.4588683,
+      "attack": 157.83369668,
+      "defense": 395.96146724999994,
+      "specialized": 48
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7379.407878399999,
+      "attack": 159.51868964,
+      "defense": 400.188678,
+      "specialized": 48
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7954.915343799999,
+      "attack": 171.95946247999998,
+      "defense": 431.3987085,
+      "specialized": 48
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8032.8643538999995,
+      "attack": 173.64445544,
+      "defense": 435.62591925000004,
+      "specialized": 48
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8109.8742193,
+      "attack": 175.30914728,
+      "defense": 439.80219975,
+      "specialized": 48
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8187.8232294,
+      "attack": 176.99414024,
+      "defense": 444.02941050000004,
+      "specialized": 48
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8264.8330948,
+      "attack": 178.65883208,
+      "defense": 448.205691,
+      "specialized": 48
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8342.7821049,
+      "attack": 180.34382503999998,
+      "defense": 452.43290175000004,
+      "specialized": 48
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8420.731114999999,
+      "attack": 182.028818,
+      "defense": 456.66011249999997,
+      "specialized": 48
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 8497.7409804,
+      "attack": 183.69350984,
+      "defense": 460.83639300000004,
+      "specialized": 48
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 8575.6899905,
+      "attack": 185.3785028,
+      "defense": 465.06360374999997,
+      "specialized": 48
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 8652.699855899999,
+      "attack": 187.04319464,
+      "defense": 469.23988425000005,
+      "specialized": 48
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9229.146465999998,
+      "attack": 199.50426360000003,
+      "defense": 500.500855,
+      "specialized": 72
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 9306.1563314,
+      "attack": 201.16895544000002,
+      "defense": 504.6771355,
+      "specialized": 72
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 9384.105341499999,
+      "attack": 202.8539484,
+      "defense": 508.90434625,
+      "specialized": 72
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 9462.0543516,
+      "attack": 204.53894136,
+      "defense": 513.1315569999999,
+      "specialized": 72
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 9539.064217,
+      "attack": 206.2036332,
+      "defense": 517.3078375,
+      "specialized": 72
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 9617.0132271,
+      "attack": 207.88862616,
+      "defense": 521.53504825,
+      "specialized": 72
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 9694.0230925,
+      "attack": 209.55331800000002,
+      "defense": 525.71132875,
+      "specialized": 72
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9771.972102599999,
+      "attack": 211.23831096,
+      "defense": 529.9385394999999,
+      "specialized": 72
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 9848.981968,
+      "attack": 212.90300280000002,
+      "defense": 534.11482,
+      "specialized": 72
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9926.9309781,
+      "attack": 214.58799576,
+      "defense": 538.34203075,
+      "specialized": 72
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 10503.377588199999,
+      "attack": 227.04906871999998,
+      "defense": 569.6029814999999,
+      "specialized": 96
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 10580.387453599998,
+      "attack": 228.71376056000003,
+      "defense": 573.779262,
+      "specialized": 96
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 10658.3364637,
+      "attack": 230.39875352,
+      "defense": 578.00647275,
+      "specialized": 96
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 10735.346329099999,
+      "attack": 232.06344536,
+      "defense": 582.18275325,
+      "specialized": 96
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 10813.2953392,
+      "attack": 233.74843832,
+      "defense": 586.409964,
+      "specialized": 96
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 10890.3052046,
+      "attack": 235.41313016000004,
+      "defense": 590.5862445,
+      "specialized": 96
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10968.2542147,
+      "attack": 237.09812312000003,
+      "defense": 594.8134552500001,
+      "specialized": 96
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 11045.2640801,
+      "attack": 238.76281496000001,
+      "defense": 598.98973575,
+      "specialized": 96
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 11123.213090199999,
+      "attack": 240.44780792,
+      "defense": 603.2169465,
+      "specialized": 96
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11201.1621003,
+      "attack": 242.13280088,
+      "defense": 607.44415725,
+      "specialized": 96
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3114.2519343,
+      "attack": 67.31990928,
+      "defense": 168.88731224999998,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5163.277434,
+      "attack": 111.61313639999999,
+      "defense": 280.00690499999996,
+      "specialized": 24
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6603.674356199999,
+      "attack": 142.74996452,
+      "defense": 358.1202915,
+      "specialized": 48
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7877.9054784,
+      "attack": 170.29477064,
+      "defense": 427.22242800000004,
+      "specialized": 48
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9151.1974559,
+      "attack": 197.81927064,
+      "defense": 496.27364425,
+      "specialized": 72
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10425.4285781,
+      "attack": 225.36407576,
+      "defense": 565.37577075,
+      "specialized": 96
+    }
+  }
+}

@@ -1,0 +1,1588 @@
+{
+  "profile": {
+    "id": 10000101,
+    "name": "Kinich",
+    "title": "Turnfire Hunt",
+    "description": "A Huitztlan Saurian Hunter skilled at counting costs.",
+    "weaponType": "WEAPON_CLAYMORE",
+    "weaponText": "Claymore",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "11/11",
+    "birthday": "November 11",
+    "elementType": "ELEMENT_DENDRO",
+    "elementText": "Dendro",
+    "affiliation": "Huitztlan",
+    "associationType": "ASSOC_NATLAN",
+    "region": "Natlan",
+    "substatType": "FIGHT_PROP_CRITICAL_HURT",
+    "substatText": "CRIT DMG",
+    "constellation": "Chimaera Alebriius",
+    "cv": {
+      "english": "Jacob Takanashi & Abby Espiritu",
+      "chinese": "斑马 & 弭洋",
+      "japanese": "杉山紀彰 & 竹内順子",
+      "korean": "Kang Seong-woo & Park Li-na"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104131,
+          "name": "Nagadus Emerald Sliver",
+          "count": 1
+        },
+        {
+          "id": 101250,
+          "name": "Saurian Claw Succulent",
+          "count": 3
+        },
+        {
+          "id": 112101,
+          "name": "Juvenile Fang",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104132,
+          "name": "Nagadus Emerald Fragment",
+          "count": 3
+        },
+        {
+          "id": 113065,
+          "name": "Overripe Flamegranate",
+          "count": 2
+        },
+        {
+          "id": 101250,
+          "name": "Saurian Claw Succulent",
+          "count": 10
+        },
+        {
+          "id": 112101,
+          "name": "Juvenile Fang",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104132,
+          "name": "Nagadus Emerald Fragment",
+          "count": 6
+        },
+        {
+          "id": 113065,
+          "name": "Overripe Flamegranate",
+          "count": 4
+        },
+        {
+          "id": 101250,
+          "name": "Saurian Claw Succulent",
+          "count": 20
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104133,
+          "name": "Nagadus Emerald Chunk",
+          "count": 3
+        },
+        {
+          "id": 113065,
+          "name": "Overripe Flamegranate",
+          "count": 8
+        },
+        {
+          "id": 101250,
+          "name": "Saurian Claw Succulent",
+          "count": 30
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104133,
+          "name": "Nagadus Emerald Chunk",
+          "count": 6
+        },
+        {
+          "id": 113065,
+          "name": "Overripe Flamegranate",
+          "count": 12
+        },
+        {
+          "id": 101250,
+          "name": "Saurian Claw Succulent",
+          "count": 45
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104134,
+          "name": "Nagadus Emerald Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113065,
+          "name": "Overripe Flamegranate",
+          "count": 20
+        },
+        {
+          "id": 101250,
+          "name": "Saurian Claw Succulent",
+          "count": 60
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Kinich",
+      "filename_iconCard": "UI_AvatarIcon_Kinich_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Kinich",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Kinich",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kinich",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kinich.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kinich.png",
+      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/125716/e0cfc13a904c1fc542924ae1e4d61da5_7486504169372511290.png",
+      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/125716/1650c98ff8016466780acb0fdad1af7d_1971907431566579730.png",
+      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/12/0099e74b4d0c919f6feab4bade3ab748_5795733017114624391.png"
+    },
+    "version": "5.0"
+  },
+  "skills": {
+    "id": 10101,
+    "name": "Kinich",
+    "combat1": {
+      "name": "Nightsun Style",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 rapid strikes.\nAfter using his Elemental Skill \"Canopy Hunter: Riding High\"'s mid-air swing, he can perform a Normal Attack in mid-air before landing.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to spin and throw his Claymore forward to attack opponents.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 3 rapid strikes.\nAfter using his Elemental Skill \"Canopy Hunter: Riding High\"'s mid-air swing, he can perform a Normal Attack in mid-air before landing.\n\nCharged Attack\nConsumes a certain amount of Stamina to spin and throw his Claymore forward to attack opponents.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "Mid-Air Normal Attack DMG|{param9:F1P}",
+          "Charged Attack DMG|{param4:F1P}×3",
+          "Charged Attack Stamina Cost|{param5:F1}",
+          "Plunge DMG|{param6:F1P}",
+          "Low/High Plunge DMG|{param7:P}/{param8:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.98986,
+            1.07043,
+            1.151,
+            1.2661,
+            1.34667,
+            1.43875,
+            1.56536,
+            1.69197,
+            1.81858,
+            1.9567,
+            2.09482,
+            2.23294,
+            2.37106,
+            2.50918,
+            2.6473
+          ],
+          "param2": [
+            0.82904,
+            0.89652,
+            0.964,
+            1.0604,
+            1.12788,
+            1.205,
+            1.31104,
+            1.41708,
+            1.52312,
+            1.6388,
+            1.75448,
+            1.87016,
+            1.98584,
+            2.10152,
+            2.2172
+          ],
+          "param3": [
+            1.23496,
+            1.33548,
+            1.436,
+            1.5796,
+            1.68012,
+            1.795,
+            1.95296,
+            2.11092,
+            2.26888,
+            2.4412,
+            2.61352,
+            2.78584,
+            2.95816,
+            3.13048,
+            3.3028
+          ],
+          "param4": [
+            0.48418,
+            0.52359,
+            0.563,
+            0.6193,
+            0.65871,
+            0.70375,
+            0.76568,
+            0.82761,
+            0.88954,
+            0.9571,
+            1.02466,
+            1.09222,
+            1.15978,
+            1.22734,
+            1.2949
+          ],
+          "param5": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param6": [
+            0.745878,
+            0.806589,
+            0.8673,
+            0.95403,
+            1.014741,
+            1.084125,
+            1.179528,
+            1.274931,
+            1.370334,
+            1.47441,
+            1.578486,
+            1.682562,
+            1.786638,
+            1.890714,
+            1.99479
+          ],
+          "param7": [
+            1.49144,
+            1.612836,
+            1.734233,
+            1.907656,
+            2.029052,
+            2.167791,
+            2.358556,
+            2.549322,
+            2.740087,
+            2.948195,
+            3.156303,
+            3.364411,
+            3.572519,
+            3.780627,
+            3.988735
+          ],
+          "param8": [
+            1.862889,
+            2.01452,
+            2.16615,
+            2.382765,
+            2.534396,
+            2.707688,
+            2.945964,
+            3.184241,
+            3.422517,
+            3.682455,
+            3.942393,
+            4.202331,
+            4.462269,
+            4.722207,
+            4.982145
+          ],
+          "param9": [
+            1.677,
+            1.8135,
+            1.95,
+            2.145,
+            2.2815,
+            2.4375,
+            2.652,
+            2.8665,
+            3.081,
+            3.315,
+            3.549,
+            3.783,
+            4.017,
+            4.251,
+            4.485
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Canopy Hunter: Riding High",
+      "descriptionRaw": "Kinich uses his big-game hunting skills to either move swiftly or attack his opponent.\nWhen there is an opponent or object that can be attacked nearby, he will attach a grappling hook to the target and enter Nightsoul's Blessing with 0 Nightsoul points. If neither is nearby, he fires a grappling hook forward and swings in mid-air, and this Skill's CD is decreased by 60%.\nThis skill can be Held to release. When it is Held, Kinich can aim the grappling hook.\n\n<color=#FFD780FF>Nightsoul's Blessing: Kinich</color>\nKinich's Nightsoul's Blessing lasts 10s and generates 2 Nightsoul points every second.\nIn this state, Kinich will hook onto a nearby opponent and perform a variable attack:\n·When using a Normal Attack, Kinich will fire Loop Shots as he loops around the grappled target based on his current movement direction, dealing Nightsoul-aligned <color=#99FF88FF>Dendro DMG</color> and generating 3 Nightsoul points. Loop Shot DMG is considered Elemental Skill DMG.\n·When Nightsoul points are at max, he can use the Elemental Skill \"Scalespiker Cannon\": Consume all Nightsoul points to deal Nightsoul-aligned <color=#99FF88FF>Dendro DMG</color>. When \"Scalespiker Cannon\" is Held, Kinich can aim this shot. After firing the Cannon, Kinich will try to grapple to its target.\nWhile in Nightsoul's Blessing, after grappling an opponent or firing \"Scalespiker Cannon,\" a Blind Spot will be generated next to the opponent. When Kinich enters this Blind Spot, it will disappear and he will generate 4 Nightsoul points.\nIf the grapple connection should snap due to exceeding the maximum distance or some other reason, using a Normal Attack will establish a new connection with a nearby opponent before performing Loop Shots.\n\n<i>\"All things come with a cost. I suggest you make a suitable offer... What? No, I don't do installments.\"</i>",
+      "description": "Kinich uses his big-game hunting skills to either move swiftly or attack his opponent.\nWhen there is an opponent or object that can be attacked nearby, he will attach a grappling hook to the target and enter Nightsoul's Blessing with 0 Nightsoul points. If neither is nearby, he fires a grappling hook forward and swings in mid-air, and this Skill's CD is decreased by 60%.\nThis skill can be Held to release. When it is Held, Kinich can aim the grappling hook.\n\nNightsoul's Blessing: Kinich\nKinich's Nightsoul's Blessing lasts 10s and generates 2 Nightsoul points every second.\nIn this state, Kinich will hook onto a nearby opponent and perform a variable attack:\n·When using a Normal Attack, Kinich will fire Loop Shots as he loops around the grappled target based on his current movement direction, dealing Nightsoul-aligned Dendro DMG and generating 3 Nightsoul points. Loop Shot DMG is considered Elemental Skill DMG.\n·When Nightsoul points are at max, he can use the Elemental Skill \"Scalespiker Cannon\": Consume all Nightsoul points to deal Nightsoul-aligned Dendro DMG. When \"Scalespiker Cannon\" is Held, Kinich can aim this shot. After firing the Cannon, Kinich will try to grapple to its target.\nWhile in Nightsoul's Blessing, after grappling an opponent or firing \"Scalespiker Cannon,\" a Blind Spot will be generated next to the opponent. When Kinich enters this Blind Spot, it will disappear and he will generate 4 Nightsoul points.\nIf the grapple connection should snap due to exceeding the maximum distance or some other reason, using a Normal Attack will establish a new connection with a nearby opponent before performing Loop Shots.",
+      "flavorText": "\"All things come with a cost. I suggest you make a suitable offer... What? No, I don't do installments.\"",
+      "attributes": {
+        "labels": [
+          "Loop Shot DMG|{param1:F1P}×2",
+          "Scalespiker Cannon DMG|{param2:F1P}",
+          "Nightsoul Point Limit|{param4:F1}",
+          "CD|{param3:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.5728,
+            0.61576,
+            0.65872,
+            0.716,
+            0.75896,
+            0.80192,
+            0.8592,
+            0.91648,
+            0.97376,
+            1.03104,
+            1.08832,
+            1.1456,
+            1.2172,
+            1.2888,
+            1.3604
+          ],
+          "param2": [
+            6.8744,
+            7.38998,
+            7.90556,
+            8.593,
+            9.10858,
+            9.62416,
+            10.3116,
+            10.99904,
+            11.68648,
+            12.37392,
+            13.06136,
+            13.7488,
+            14.6081,
+            15.4674,
+            16.3267
+          ],
+          "param3": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param4": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Hail to the Almighty Dragonlord",
+      "descriptionRaw": "Unleashes the power of the Almighty Dragonlord, K'uhul Ajaw (on a limited, conditional, restricted, contractual, partial, temporary basis), dealing Nightsoul-aligned <color=#99FF88FF>AoE Dendro DMG</color>. Ajaw will unleash his Dragon Breath at intervals, dealing Nightsoul-aligned <color=#99FF88FF>AoE Dendro DMG</color>.\nIf Kinich is in Nightsoul's Blessing when this is used, this Blessing's duration is extended by 1.7s.\n\n<i>\"Yes, yes! You stand before K'uhul Ajaw the Almighty Dragonlord! Come forward, then! Kneel, and kiss our feet!\"</i>",
+      "description": "Unleashes the power of the Almighty Dragonlord, K'uhul Ajaw (on a limited, conditional, restricted, contractual, partial, temporary basis), dealing Nightsoul-aligned AoE Dendro DMG. Ajaw will unleash his Dragon Breath at intervals, dealing Nightsoul-aligned AoE Dendro DMG.\nIf Kinich is in Nightsoul's Blessing when this is used, this Blessing's duration is extended by 1.7s.",
+      "flavorText": "\"Yes, yes! You stand before K'uhul Ajaw the Almighty Dragonlord! Come forward, then! Kneel, and kiss our feet!\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Dragon Breath DMG|{param2:F1P}",
+          "Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            1.34,
+            1.4405,
+            1.541,
+            1.675,
+            1.7755,
+            1.876,
+            2.01,
+            2.144,
+            2.278,
+            2.412,
+            2.546,
+            2.68,
+            2.8475,
+            3.015,
+            3.1825
+          ],
+          "param2": [
+            1.20736,
+            1.297912,
+            1.388464,
+            1.5092,
+            1.599752,
+            1.690304,
+            1.81104,
+            1.931776,
+            2.052512,
+            2.173248,
+            2.293984,
+            2.41472,
+            2.56564,
+            2.71656,
+            2.86748
+          ],
+          "param3": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param4": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param5": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "The Price of Desolation",
+      "descriptionRaw": "When Kinich is in Nightsoul's Blessing state, opponents hit by his Elemental Skill will enter the Desolation state, and when affected by Burning or Burgeon reaction DMG, they will restore 7 Nightsoul points to him. Nightsoul points can be gained this way once every 0.8s. The Desolation state will persist until this instance of Kinich's Nightsoul's Blessing state ends.",
+      "description": "When Kinich is in Nightsoul's Blessing state, opponents hit by his Elemental Skill will enter the Desolation state, and when affected by Burning or Burgeon reaction DMG, they will restore 7 Nightsoul points to him. Nightsoul points can be gained this way once every 0.8s. The Desolation state will persist until this instance of Kinich's Nightsoul's Blessing state ends."
+    },
+    "passive2": {
+      "name": "Flame Spirit Pact",
+      "descriptionRaw": "After a nearby party member triggers a Nightsoul Burst, Kinich will gain 1 stack of Hunter's Experience that lasts 15s. Max 2 stacks. When Kinich uses <color=#FFD780FF>Canopy Hunter: Riding High</color>'s Scalespiker Cannon, all stacks of Hunter's Experience will be consumed, with each stack consumed increasing the DMG dealt by this Cannon shot by 320% of Kinich's ATK.",
+      "description": "After a nearby party member triggers a Nightsoul Burst, Kinich will gain 1 stack of Hunter's Experience that lasts 15s. Max 2 stacks. When Kinich uses Canopy Hunter: Riding High's Scalespiker Cannon, all stacks of Hunter's Experience will be consumed, with each stack consumed increasing the DMG dealt by this Cannon shot by 320% of Kinich's ATK."
+    },
+    "passive3": {
+      "name": "Night Realm's Gift: Repaid in Full",
+      "descriptionRaw": "When Kinich is in the air following <color=#FFD780FF>Canopy Hunter: Riding High</color>'s mid-air swing, he can consume 10 Phlogiston points to perform another mid-air swing.\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Kinich. When the current active character is sprinting, in movement states that result from specific Talents, or in the air, when you switch to Kinich: Kinich will perform one of the following actions depending on the conditions met:\n·When facing a Coilgrass Sigil that can be interacted with: He will fire a grappling hook towards it to move;\n·When there are nearby opponents and you are in combat: Kinich will use Canopy Hunter: Riding High in the direction of the opponents;\nOtherwise, Kinich will fire a grappling hook and swing, prioritizing valid Coilgrass Sigils as grapple targets.\nNightsoul Transmission can be triggered once every 10s by your own party.\n\nWhen interacting with Coilgrass Sigils and other items that Yumkasaurs can interact with, \"Canopy Hunter: Riding High\" will be converted to \"Yumkasaur Mimesis,\" which causes interactions with such items to follow rules applicable to Yumkasaurs, and which will not put Canopy Hunter: Riding High on CD.",
+      "description": "When Kinich is in the air following Canopy Hunter: Riding High's mid-air swing, he can consume 10 Phlogiston points to perform another mid-air swing.\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Kinich. When the current active character is sprinting, in movement states that result from specific Talents, or in the air, when you switch to Kinich: Kinich will perform one of the following actions depending on the conditions met:\n·When facing a Coilgrass Sigil that can be interacted with: He will fire a grappling hook towards it to move;\n·When there are nearby opponents and you are in combat: Kinich will use Canopy Hunter: Riding High in the direction of the opponents;\nOtherwise, Kinich will fire a grappling hook and swing, prioritizing valid Coilgrass Sigils as grapple targets.\nNightsoul Transmission can be triggered once every 10s by your own party.\n\nWhen interacting with Coilgrass Sigils and other items that Yumkasaurs can interact with, \"Canopy Hunter: Riding High\" will be converted to \"Yumkasaur Mimesis,\" which causes interactions with such items to follow rules applicable to Yumkasaurs, and which will not put Canopy Hunter: Riding High on CD."
+    },
+    "passive4": {
+      "name": "Swift Envoy",
+      "descriptionRaw": "While in an area with Phlogiston Mechanics within Natlan, interacting with some harvestable items will increase your own party members' Movement SPD by 15% for 10s. Additionally, the location of nearby <color=#FFD780FF>resources unique to Natlan</color> will appear on your mini-map.",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, interacting with some harvestable items will increase your own party members' Movement SPD by 15% for 10s. Additionally, the location of nearby resources unique to Natlan will appear on your mini-map."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104350,
+          "name": "Teachings of Kindling",
+          "count": 3
+        },
+        {
+          "id": 112101,
+          "name": "Juvenile Fang",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 2
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 4
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 6
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 9
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 4
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 4
+        },
+        {
+          "id": 113062,
+          "name": "Denial and Judgment",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 6
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 6
+        },
+        {
+          "id": 113062,
+          "name": "Denial and Judgment",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 12
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 9
+        },
+        {
+          "id": 113062,
+          "name": "Denial and Judgment",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 16
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 12
+        },
+        {
+          "id": 113062,
+          "name": "Denial and Judgment",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_04",
+      "filename_combat2": "Skill_S_Kinich_01",
+      "filename_combat3": "Skill_E_Kinich_01_HD",
+      "filename_passive1": "UI_Talent_S_Kinich_05",
+      "filename_passive2": "UI_Talent_S_Kinich_06",
+      "filename_passive3": "UI_Talent_S_Kinich_08",
+      "filename_passive4": "UI_Talent_S_Kachina_08"
+    },
+    "version": "5.0"
+  },
+  "constellation": {
+    "id": 10101,
+    "name": "Kinich",
+    "c1": {
+      "name": "Parrot's Beak",
+      "descriptionRaw": "After Kinich lands from <color=#FFD780FF>Canopy Hunter: Riding High</color>'s mid-air swing, his Movement SPD will increase by 30% for 6s.\nAdditionally, Scalespiker Cannon's CRIT DMG is increased by 100%.",
+      "description": "After Kinich lands from Canopy Hunter: Riding High's mid-air swing, his Movement SPD will increase by 30% for 6s.\nAdditionally, Scalespiker Cannon's CRIT DMG is increased by 100%."
+    },
+    "c2": {
+      "name": "Tiger Beetle's Palm",
+      "descriptionRaw": "When Kinich's Elemental Skill hits an opponent, it will decrease their <color=#99FF88FF>Dendro RES</color> by 30% for 6s.\nAdditionally, the first Scalespiker Cannon Kinich fires after entering Nightsoul's Blessing has increased AoE, and its DMG increases by 100%.",
+      "description": "When Kinich's Elemental Skill hits an opponent, it will decrease their Dendro RES by 30% for 6s.\nAdditionally, the first Scalespiker Cannon Kinich fires after entering Nightsoul's Blessing has increased AoE, and its DMG increases by 100%."
+    },
+    "c3": {
+      "name": "Protosuchian's Claw",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Canopy Hunter: Riding High</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Canopy Hunter: Riding High by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Hummingbird's Feather",
+      "descriptionRaw": "When in Nightsoul's Blessing, Kinich will restore 5 Energy after using his Loop Shots or after unleashing the Scalespiker Cannon. Energy can be regenerated this way once every 2.8s.\nAdditionally, <color=#FFD780FF>Hail to the Almighty Dragonlord</color> deals 70% more DMG.",
+      "description": "When in Nightsoul's Blessing, Kinich will restore 5 Energy after using his Loop Shots or after unleashing the Scalespiker Cannon. Energy can be regenerated this way once every 2.8s.\nAdditionally, Hail to the Almighty Dragonlord deals 70% more DMG."
+    },
+    "c5": {
+      "name": "Howler Monkey's Tail",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Hail to the Almighty Dragonlord</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Hail to the Almighty Dragonlord by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Auspicious Beast's Shape",
+      "descriptionRaw": "After Scalespiker Cannon hits an opponent, it will bounce between opponents once, dealing 700% of Kinich's ATK as <color=#99FF88FF>Dendro DMG</color>.\nIf this Scalespiker Cannon triggers the buffs that Ascension Talent \"Flame Spirit Pact\" or the Constellation \"Tiger Beetle's Palm\" grant to the Cannon, the bouncing attack will also obtain the relevant buffs.",
+      "description": "After Scalespiker Cannon hits an opponent, it will bounce between opponents once, dealing 700% of Kinich's ATK as Dendro DMG.\nIf this Scalespiker Cannon triggers the buffs that Ascension Talent \"Flame Spirit Pact\" or the Constellation \"Tiger Beetle's Palm\" grant to the Cannon, the bouncing attack will also obtain the relevant buffs."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Kinich_01",
+      "filename_c2": "UI_Talent_S_Kinich_02",
+      "filename_c3": "UI_Talent_U_Kinich_01",
+      "filename_c4": "UI_Talent_S_Kinich_03",
+      "filename_c5": "UI_Talent_U_Kinich_02",
+      "filename_c6": "UI_Talent_S_Kinich_04",
+      "filename_constellation": "Eff_UI_Talent_Kinich"
+    },
+    "version": "5.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1000.986,
+      "attack": 25.8818,
+      "defense": 62.40269,
+      "specialized": 0.5
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1084.067838,
+      "attack": 28.029989399999998,
+      "defense": 67.58211327,
+      "specialized": 0.5
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1167.149676,
+      "attack": 30.178178799999998,
+      "defense": 72.76153654,
+      "specialized": 0.5
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1251.2325,
+      "attack": 32.35225,
+      "defense": 78.0033625,
+      "specialized": 0.5
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1334.314338,
+      "attack": 34.5004394,
+      "defense": 83.18278577,
+      "specialized": 0.5
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1418.397162,
+      "attack": 36.6745106,
+      "defense": 88.42461173,
+      "specialized": 0.5
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1501.479,
+      "attack": 38.8227,
+      "defense": 93.604035,
+      "specialized": 0.5
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1585.5618240000001,
+      "attack": 40.9967712,
+      "defense": 98.84586096000001,
+      "specialized": 0.5
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1669.644648,
+      "attack": 43.1708424,
+      "defense": 104.08768692,
+      "specialized": 0.5
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1752.7264859999998,
+      "attack": 45.3190318,
+      "defense": 109.26711019,
+      "specialized": 0.5
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1836.8093099999999,
+      "attack": 47.493103,
+      "defense": 114.50893615,
+      "specialized": 0.5
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1920.892134,
+      "attack": 49.6671742,
+      "defense": 119.75076211,
+      "specialized": 0.5
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2004.974958,
+      "attack": 51.8412454,
+      "defense": 124.99258807000001,
+      "specialized": 0.5
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2090.058768,
+      "attack": 54.0411984,
+      "defense": 130.29681672,
+      "specialized": 0.5
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2174.141592,
+      "attack": 56.2152696,
+      "defense": 135.53864268,
+      "specialized": 0.5
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2258.2244159999996,
+      "attack": 58.38934079999999,
+      "defense": 140.78046863999998,
+      "specialized": 0.5
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2343.308226,
+      "attack": 60.5892938,
+      "defense": 146.08469729,
+      "specialized": 0.5
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2427.3910499999997,
+      "attack": 62.76336499999999,
+      "defense": 151.32652324999998,
+      "specialized": 0.5
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2512.47486,
+      "attack": 64.96331799999999,
+      "defense": 156.63075189999998,
+      "specialized": 0.5
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2596.557684,
+      "attack": 67.13738919999999,
+      "defense": 161.87257785999998,
+      "specialized": 0.5
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3539.896494,
+      "attack": 91.5270242,
+      "defense": 220.68270650999997,
+      "specialized": 0.5
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3624.9803039999997,
+      "attack": 93.7269772,
+      "defense": 225.98693515999997,
+      "specialized": 0.5
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3710.0641140000002,
+      "attack": 95.9269302,
+      "defense": 231.29116381,
+      "specialized": 0.5
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3795.1479240000003,
+      "attack": 98.12688320000001,
+      "defense": 236.59539246,
+      "specialized": 0.5
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3880.2317340000004,
+      "attack": 100.3268362,
+      "defense": 241.89962111,
+      "specialized": 0.5
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3966.31653,
+      "attack": 102.552671,
+      "defense": 247.26625245,
+      "specialized": 0.5
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4051.40034,
+      "attack": 104.752624,
+      "defense": 252.5704811,
+      "specialized": 0.5
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4136.484149999999,
+      "attack": 106.95257699999999,
+      "defense": 257.87470974999997,
+      "specialized": 0.5
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4222.568946,
+      "attack": 109.1784118,
+      "defense": 263.24134109,
+      "specialized": 0.5
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4307.652756,
+      "attack": 111.3783648,
+      "defense": 268.54556974,
+      "specialized": 0.5
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4393.737552,
+      "attack": 113.6041996,
+      "defense": 273.91220108,
+      "specialized": 0.5
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4479.822348,
+      "attack": 115.8300344,
+      "defense": 279.27883241999996,
+      "specialized": 0.5
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4565.907144,
+      "attack": 118.0558692,
+      "defense": 284.64546376,
+      "specialized": 0.5
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4650.990954,
+      "attack": 120.2558222,
+      "defense": 289.94969241,
+      "specialized": 0.5
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4737.07575,
+      "attack": 122.481657,
+      "defense": 295.31632375000004,
+      "specialized": 0.5
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4824.161532,
+      "attack": 124.73337360000001,
+      "defense": 300.74535778,
+      "specialized": 0.5
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4910.246328,
+      "attack": 126.9592084,
+      "defense": 306.11198912,
+      "specialized": 0.5
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4996.331124,
+      "attack": 129.1850432,
+      "defense": 311.47862046,
+      "specialized": 0.5
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5082.4159199999995,
+      "attack": 131.410878,
+      "defense": 316.84525179999997,
+      "specialized": 0.5
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5169.5017020000005,
+      "attack": 133.6625946,
+      "defense": 322.27428583,
+      "specialized": 0.5
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5865.399197999999,
+      "attack": 151.65478339999999,
+      "defense": 365.65826717,
+      "specialized": 0.596
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5952.484980000001,
+      "attack": 153.9065,
+      "defense": 371.08730120000007,
+      "specialized": 0.596
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 6039.570761999999,
+      "attack": 156.1582166,
+      "defense": 376.51633523000004,
+      "specialized": 0.596
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6125.655558,
+      "attack": 158.38405139999998,
+      "defense": 381.88296657,
+      "specialized": 0.596
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6212.7413400000005,
+      "attack": 160.63576799999998,
+      "defense": 387.31200060000003,
+      "specialized": 0.596
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6299.827122000001,
+      "attack": 162.8874846,
+      "defense": 392.74103463,
+      "specialized": 0.596
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6386.912903999999,
+      "attack": 165.1392012,
+      "defense": 398.17006866,
+      "specialized": 0.596
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6473.998686000001,
+      "attack": 167.3909178,
+      "defense": 403.59910269000005,
+      "specialized": 0.596
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6562.085454,
+      "attack": 169.6685162,
+      "defense": 409.09053941,
+      "specialized": 0.596
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6649.171236,
+      "attack": 171.9202328,
+      "defense": 414.51957344000004,
+      "specialized": 0.596
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7549.3407179999995,
+      "attack": 195.1937534,
+      "defense": 470.63839747,
+      "specialized": 0.692
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7637.4274860000005,
+      "attack": 197.47135179999998,
+      "defense": 476.12983419,
+      "specialized": 0.692
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7724.513268000001,
+      "attack": 199.7230684,
+      "defense": 481.55886822,
+      "specialized": 0.692
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7812.600036,
+      "attack": 202.00066679999998,
+      "defense": 487.05030494000005,
+      "specialized": 0.692
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7900.686804000001,
+      "attack": 204.27826519999996,
+      "defense": 492.54174165999996,
+      "specialized": 0.692
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7988.773572,
+      "attack": 206.5558636,
+      "defense": 498.03317838,
+      "specialized": 0.692
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 8076.860339999999,
+      "attack": 208.833462,
+      "defense": 503.5246151,
+      "specialized": 0.692
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8164.947108,
+      "attack": 211.11106039999999,
+      "defense": 509.01605182000003,
+      "specialized": 0.692
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8253.033876,
+      "attack": 213.38865879999997,
+      "defense": 514.50748854,
+      "specialized": 0.692
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8341.120644,
+      "attack": 215.66625720000002,
+      "defense": 519.9989252600001,
+      "specialized": 0.692
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 9039.020012,
+      "attack": 233.71020959999998,
+      "defense": 563.50772198,
+      "specialized": 0.692
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9127.10678,
+      "attack": 235.987808,
+      "defense": 568.9991587000001,
+      "specialized": 0.692
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9216.194534,
+      "attack": 238.29128819999997,
+      "defense": 574.55299811,
+      "specialized": 0.692
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9304.281302,
+      "attack": 240.56888659999998,
+      "defense": 580.04443483,
+      "specialized": 0.692
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9393.369056,
+      "attack": 242.87236679999998,
+      "defense": 585.59827424,
+      "specialized": 0.692
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9482.45681,
+      "attack": 245.17584699999998,
+      "defense": 591.15211365,
+      "specialized": 0.692
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9570.543578,
+      "attack": 247.4534454,
+      "defense": 596.64355037,
+      "specialized": 0.692
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9659.631331999999,
+      "attack": 249.75692559999996,
+      "defense": 602.19738978,
+      "specialized": 0.692
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9748.719086000001,
+      "attack": 252.06040579999998,
+      "defense": 607.75122919,
+      "specialized": 0.692
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9837.806840000001,
+      "attack": 254.36388599999998,
+      "defense": 613.3050686,
+      "specialized": 0.692
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10536.707493999998,
+      "attack": 272.4337162,
+      "defense": 656.87626801,
+      "specialized": 0.788
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10626.796234,
+      "attack": 274.7630782,
+      "defense": 662.49251011,
+      "specialized": 0.788
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10715.883988,
+      "attack": 277.06655839999996,
+      "defense": 668.04634952,
+      "specialized": 0.788
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10804.971742,
+      "attack": 279.3700386,
+      "defense": 673.60018893,
+      "specialized": 0.788
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10895.060481999999,
+      "attack": 281.6994006,
+      "defense": 679.21643103,
+      "specialized": 0.788
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10984.148236,
+      "attack": 284.00288079999996,
+      "defense": 684.77027044,
+      "specialized": 0.788
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 11074.236976,
+      "attack": 286.33224279999996,
+      "defense": 690.38651254,
+      "specialized": 0.788
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11164.325716,
+      "attack": 288.66160479999996,
+      "defense": 696.00275464,
+      "specialized": 0.788
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11254.414456,
+      "attack": 290.99096679999997,
+      "defense": 701.6189967400001,
+      "specialized": 0.788
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11344.503196,
+      "attack": 293.32032879999997,
+      "defense": 707.23523884,
+      "specialized": 0.788
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 12044.405036,
+      "attack": 311.4160468,
+      "defense": 750.86882094,
+      "specialized": 0.884
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12134.493776,
+      "attack": 313.7454088,
+      "defense": 756.48506304,
+      "specialized": 0.884
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12224.582515999999,
+      "attack": 316.07477079999995,
+      "defense": 762.10130514,
+      "specialized": 0.884
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12314.671256,
+      "attack": 318.40413279999996,
+      "defense": 767.7175472399999,
+      "specialized": 0.884
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12404.759995999999,
+      "attack": 320.73349479999996,
+      "defense": 773.3337893400001,
+      "specialized": 0.884
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12495.849722,
+      "attack": 323.0887386,
+      "defense": 779.01243413,
+      "specialized": 0.884
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12585.938462,
+      "attack": 325.4181006,
+      "defense": 784.6286762300001,
+      "specialized": 0.884
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12677.028188,
+      "attack": 327.7733444,
+      "defense": 790.30732102,
+      "specialized": 0.884
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12768.117913999999,
+      "attack": 330.12858819999997,
+      "defense": 795.9859658099999,
+      "specialized": 0.884
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12858.206654000001,
+      "attack": 332.4579502,
+      "defense": 801.6022079100001,
+      "specialized": 0.884
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3454.812684,
+      "attack": 89.32707119999999,
+      "defense": 215.37847785999998,
+      "specialized": 0.5
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5779.314402,
+      "attack": 149.4289486,
+      "defense": 360.29163583,
+      "specialized": 0.596
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7462.254936000001,
+      "attack": 192.94203679999998,
+      "defense": 465.20936344000006,
+      "specialized": 0.692
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8950.933244,
+      "attack": 231.4326112,
+      "defense": 558.01628526,
+      "specialized": 0.692
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10447.61974,
+      "attack": 270.13023599999997,
+      "defense": 651.3224286,
+      "specialized": 0.788
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11954.316296,
+      "attack": 309.0866848,
+      "defense": 745.2525788400001,
+      "specialized": 0.884
+    }
+  }
+}

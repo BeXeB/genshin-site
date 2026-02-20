@@ -58,6 +58,19 @@ export class TierlistMakerComponent implements OnInit {
     this.tiers.push({ tier: '', characters: [] });
   }
 
+  removeTier(tierToRemove: Tier) {
+    for (let i = tierToRemove.characters.length - 1; i >= 0; i--) {
+      transferArrayItem(
+        tierToRemove.characters,
+        this.characters,
+        i,
+        this.characters.length,
+      );
+    }
+
+    this.tiers = this.tiers.filter((t) => t !== tierToRemove);
+  }
+
   addTag() {
     if (!this.newTagLabel.trim()) return;
     const newTagId = this.newTagLabel.toLowerCase().replace(/\s+/g, '-');

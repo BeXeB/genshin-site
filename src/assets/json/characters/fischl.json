@@ -1,0 +1,1587 @@
+{
+  "profile": {
+    "id": 10000031,
+    "name": "Fischl",
+    "title": "Prinzessin der Verurteilung!",
+    "description": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "5/27",
+    "birthday": "May 27",
+    "elementType": "ELEMENT_ELECTRO",
+    "elementText": "Electro",
+    "affiliation": "Adventurers' Guild",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Corvus",
+    "cv": {
+      "english": "Brittany Cox & Ben Pronsky",
+      "chinese": "Mace & 赵悦程",
+      "japanese": "内田真礼 & 増谷康紀",
+      "korean": "Park Go-woon & Lee Hyeon"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104141,
+          "name": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 3
+        },
+        {
+          "id": 112011,
+          "name": "Firm Arrowhead",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 2
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 10
+        },
+        {
+          "id": 112011,
+          "name": "Firm Arrowhead",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 4
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 20
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 8
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 30
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 12
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 45
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104144,
+          "name": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 20
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 60
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Character_Fischl_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Fischl_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/96297a7f2679bf0dce4fb9d11120b882_6701280931940281887.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200402/2020040211242065763.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/0bb4e376b31993e6fdab02786bc6a20a.png",
+      "filename_icon": "UI_AvatarIcon_Fischl",
+      "filename_iconCard": "UI_AvatarIcon_Fischl_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Fischl",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Fischl",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Fischl",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Fischl.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Fischl_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Fischl"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 3101,
+    "name": "Fischl",
+    "combat1": {
+      "name": "Bolts of Downfall",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense Electro DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}",
+          "Aimed Shot|{param6:F1P}",
+          "Fully-Charged Aimed Shot|{param7:P}",
+          "Plunge DMG|{param8:F1P}",
+          "Low/High Plunge DMG|{param9:P}/{param10:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.44118,
+            0.47709,
+            0.513,
+            0.5643,
+            0.60021,
+            0.64125,
+            0.69768,
+            0.75411,
+            0.81054,
+            0.8721,
+            0.93366,
+            0.99522,
+            1.05678,
+            1.11834,
+            1.1799
+          ],
+          "param2": [
+            0.46784,
+            0.50592,
+            0.544,
+            0.5984,
+            0.63648,
+            0.68,
+            0.73984,
+            0.79968,
+            0.85952,
+            0.9248,
+            0.99008,
+            1.05536,
+            1.12064,
+            1.18592,
+            1.2512
+          ],
+          "param3": [
+            0.58136,
+            0.62868,
+            0.676,
+            0.7436,
+            0.79092,
+            0.845,
+            0.91936,
+            0.99372,
+            1.06808,
+            1.1492,
+            1.23032,
+            1.31144,
+            1.39256,
+            1.47368,
+            1.5548
+          ],
+          "param4": [
+            0.57706,
+            0.62403,
+            0.671,
+            0.7381,
+            0.78507,
+            0.83875,
+            0.91256,
+            0.98637,
+            1.06018,
+            1.1407,
+            1.22122,
+            1.30174,
+            1.38226,
+            1.46278,
+            1.5433
+          ],
+          "param5": [
+            0.72068,
+            0.77934,
+            0.838,
+            0.9218,
+            0.98046,
+            1.0475,
+            1.13968,
+            1.23186,
+            1.32404,
+            1.4246,
+            1.52516,
+            1.62572,
+            1.72628,
+            1.82684,
+            1.9274
+          ],
+          "param6": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.9282,
+            0.9894,
+            1.0506,
+            1.1118,
+            1.173
+          ],
+          "param7": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.356,
+            2.48,
+            2.635,
+            2.79,
+            2.945
+          ],
+          "param8": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param9": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param10": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Nightrider",
+      "descriptionRaw": "#Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing <color=#FFACFFFF>Electro DMG</color> in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with <color=#FFACFFFF>Freikugel</color>.\n\nHold to adjust the location Oz will be summoned to.\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} again any time during the ability's duration to once again summon him to Fischl's side.\n\n<i>\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night.\"</i>\n<i>—Flowers for Princess Fischl (IV): Farewell Frau Welt</i>",
+      "description": "Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with Freikugel.\n\nHold to adjust the location Oz will be summoned to.\nPress again any time during the ability's duration to once again summon him to Fischl's side.",
+      "flavorText": "\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night.\"\n—Flowers for Princess Fischl (IV): Farewell Frau Welt",
+      "attributes": {
+        "labels": [
+          "Oz's ATK DMG|{param1:F1P}",
+          "Summoning DMG|{param2:P}",
+          "Oz's Duration|{param4:F1}s",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.888,
+            0.9546,
+            1.0212,
+            1.11,
+            1.1766,
+            1.2432,
+            1.332,
+            1.4208,
+            1.5096,
+            1.5984,
+            1.6872,
+            1.776,
+            1.887,
+            1.998,
+            2.109
+          ],
+          "param2": [
+            1.1544,
+            1.24098,
+            1.32756,
+            1.443,
+            1.52958,
+            1.61616,
+            1.7316,
+            1.84704,
+            1.96248,
+            2.07792,
+            2.19336,
+            2.3088,
+            2.4531,
+            2.5974,
+            2.7417
+          ],
+          "param4": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "param5": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param6": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Midnight Phantasmagoria",
+      "descriptionRaw": "Summons Oz to spread his twin wings of twilight and defend Fischl.\nHas the following properties during the ability's duration:\n·Fischl takes on Oz's form, greatly increasing her Movement Speed.\n·Strikes nearby opponents with lightning, dealing <color=#FFACFFFF>Electro DMG</color> to opponents she comes into contact with. Each opponent can only be struck once.\n·Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\n\n<i>\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"</i>\n<i>—Flowers for Princess Fischl (I): End Time Zersetzung</i>",
+      "description": "Summons Oz to spread his twin wings of twilight and defend Fischl.\nHas the following properties during the ability's duration:\n·Fischl takes on Oz's form, greatly increasing her Movement Speed.\n·Strikes nearby opponents with lightning, dealing Electro DMG to opponents she comes into contact with. Each opponent can only be struck once.\n·Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.",
+      "flavorText": "\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"\n—Flowers for Princess Fischl (I): End Time Zersetzung",
+      "attributes": {
+        "labels": [
+          "Falling Thunder DMG|{param1:P}",
+          "CD|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            2.08,
+            2.236,
+            2.392,
+            2.6,
+            2.756,
+            2.912,
+            3.12,
+            3.328,
+            3.536,
+            3.744,
+            3.952,
+            4.16,
+            4.42,
+            4.68,
+            4.94
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Stellar Predator",
+      "descriptionRaw": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing <color=#FFACFFFF>AoE Electro DMG</color> equal to 152.7% of the arrow's DMG.",
+      "description": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing AoE Electro DMG equal to 152.7% of the arrow's DMG."
+    },
+    "passive2": {
+      "name": "Undone Be Thy Sinful Hex",
+      "descriptionRaw": "If your current active character triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color> when Oz is on the field, the opponent shall be stricken with Thundering Retribution that deals <color=#FFACFFFF>Electro DMG</color> equal to 80% of Fischl's ATK.",
+      "description": "If your current active character triggers an Electro-related Elemental Reaction when Oz is on the field, the opponent shall be stricken with Thundering Retribution that deals Electro DMG equal to 80% of Fischl's ATK."
+    },
+    "passive3": {
+      "name": "Mein Hausgarten",
+      "descriptionRaw": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+      "description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104307,
+          "name": "Teachings of Ballad",
+          "count": 3
+        },
+        {
+          "id": 112011,
+          "name": "Firm Arrowhead",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 2
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 4
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 6
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 9
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 4
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 4
+        },
+        {
+          "id": 113008,
+          "name": "Spirit Locket of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 6
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 6
+        },
+        {
+          "id": 113008,
+          "name": "Spirit Locket of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 12
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 9
+        },
+        {
+          "id": 113008,
+          "name": "Spirit Locket of Boreas",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 16
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 12
+        },
+        {
+          "id": 113008,
+          "name": "Spirit Locket of Boreas",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Fischl_01",
+      "filename_combat3": "Skill_E_Fischl_01_HD",
+      "filename_passive1": "UI_Talent_S_Fischl_05",
+      "filename_passive2": "UI_Talent_S_Fischl_06",
+      "filename_passive3": "UI_Talent_Expedition_Mengde"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 3101,
+    "name": "Fischl",
+    "c1": {
+      "name": "Gaze of the Deep",
+      "descriptionRaw": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a coordinated attack, dealing DMG equal to 22% of Fischl's ATK.",
+      "description": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a coordinated attack, dealing DMG equal to 22% of Fischl's ATK."
+    },
+    "c2": {
+      "name": "Devourer of All Sins",
+      "descriptionRaw": "When <color=#FFD780FF>Nightrider</color> is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%.",
+      "description": "When Nightrider is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%."
+    },
+    "c3": {
+      "name": "Wings of Nightmare",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Nightrider</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Nightrider by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Her Pilgrimage of Bleak",
+      "descriptionRaw": "When <color=#FFD780FF>Midnight Phantasmagoria</color> is used, it deals 222% of ATK as <color=#FFACFFFF>Electro DMG</color> to surrounding opponents.\nWhen the skill duration ends, Fischl regenerates 20% of her HP.",
+      "description": "When Midnight Phantasmagoria is used, it deals 222% of ATK as Electro DMG to surrounding opponents.\nWhen the skill duration ends, Fischl regenerates 20% of her HP."
+    },
+    "c5": {
+      "name": "Against the Fleeing Light",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Midnight Phantasmagoria</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Midnight Phantasmagoria by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Evernight Raven",
+      "descriptionRaw": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs coordinated attacks with your active character when present, dealing 30% of Fischl's ATK as <color=#FFACFFFF>Electro DMG</color>.",
+      "description": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs coordinated attacks with your active character when present, dealing 30% of Fischl's ATK as Electro DMG."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Fischl_01",
+      "filename_c2": "UI_Talent_S_Fischl_02",
+      "filename_c3": "UI_Talent_U_Fischl_01",
+      "filename_c4": "UI_Talent_S_Fischl_03",
+      "filename_c5": "UI_Talent_U_Fischl_02",
+      "filename_c6": "UI_Talent_S_Fischl_04",
+      "filename_constellation": "Eff_UI_Talent_Fischl"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 770.4634,
+      "attack": 20.4792,
+      "defense": 49.78575,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 834.4118622,
+      "attack": 22.1789736,
+      "defense": 53.91796725,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 897.589861,
+      "attack": 23.858268,
+      "defense": 58.00039875,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 961.5383231999999,
+      "attack": 25.5580416,
+      "defense": 62.132616,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1024.716322,
+      "attack": 27.237336,
+      "defense": 66.2150475,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1088.6647842,
+      "attack": 28.9371096,
+      "defense": 70.34726475000001,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1151.842783,
+      "attack": 30.616404,
+      "defense": 74.42969625,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1215.7912452,
+      "attack": 32.316177599999996,
+      "defense": 78.5619135,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1279.7397074,
+      "attack": 34.015951199999996,
+      "defense": 82.69413075,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1342.9177062,
+      "attack": 35.6952456,
+      "defense": 86.77656225000001,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1406.8661684,
+      "attack": 37.3950192,
+      "defense": 90.90877950000001,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1470.0441672,
+      "attack": 39.074313599999996,
+      "defense": 94.99121099999999,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1533.9926294,
+      "attack": 40.7740872,
+      "defense": 99.12342825,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1597.1706282,
+      "attack": 42.45338159999999,
+      "defense": 103.20585975,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1661.1190904,
+      "attack": 44.1531552,
+      "defense": 107.33807700000001,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1725.0675525999998,
+      "attack": 45.852928799999994,
+      "defense": 111.47029425,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1788.2455514,
+      "attack": 47.5322232,
+      "defense": 115.55272575000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1852.1940135999998,
+      "attack": 49.2319968,
+      "defense": 119.68494299999999,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 1915.3720124000001,
+      "attack": 50.9112912,
+      "defense": 123.76737450000002,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 1979.3204746,
+      "attack": 52.611064799999994,
+      "defense": 127.89959175,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2618.0740733999996,
+      "attack": 69.5897292,
+      "defense": 169.17452325,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2682.0225356,
+      "attack": 71.2895028,
+      "defense": 173.3067405,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2745.9709978,
+      "attack": 72.9892764,
+      "defense": 177.43895775000001,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2809.1489966,
+      "attack": 74.6685708,
+      "defense": 181.52138925,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 2873.0974588000004,
+      "attack": 76.3683444,
+      "defense": 185.6536065,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 2936.2754576,
+      "attack": 78.0476388,
+      "defense": 189.736038,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3000.2239197999997,
+      "attack": 79.74741239999999,
+      "defense": 193.86825524999998,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3063.4019186,
+      "attack": 81.42670679999999,
+      "defense": 197.95068675,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3127.3503808,
+      "attack": 83.12648039999999,
+      "defense": 202.08290399999998,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3190.5283796000003,
+      "attack": 84.8057748,
+      "defense": 206.1653355,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3254.4768418,
+      "attack": 86.5055484,
+      "defense": 210.29755275,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3318.425304,
+      "attack": 88.205322,
+      "defense": 214.42977,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3381.6033028,
+      "attack": 89.88461639999998,
+      "defense": 218.5122015,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3445.551765,
+      "attack": 91.58439,
+      "defense": 222.64441875,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3508.7297638,
+      "attack": 93.26368439999999,
+      "defense": 226.72685024999998,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3572.678226,
+      "attack": 94.96345799999999,
+      "defense": 230.8590675,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3635.8562248,
+      "attack": 96.64275239999999,
+      "defense": 234.941499,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3699.804687,
+      "attack": 98.34252599999998,
+      "defense": 239.07371625,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 3763.7531492,
+      "attack": 100.04229959999999,
+      "defense": 243.2059335,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 3826.9311479999997,
+      "attack": 101.72159399999998,
+      "defense": 247.28836499999997,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4299.8412402,
+      "attack": 114.29197260000001,
+      "defense": 277.84683225,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4363.019239,
+      "attack": 115.97126699999998,
+      "defense": 281.92926374999996,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4426.9677012,
+      "attack": 117.6710406,
+      "defense": 286.061481,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4490.1457,
+      "attack": 119.350335,
+      "defense": 290.1439125,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4554.0941622,
+      "attack": 121.05010859999999,
+      "defense": 294.27612975,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4618.0426244,
+      "attack": 122.7498822,
+      "defense": 298.408347,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4681.2206232,
+      "attack": 124.4291766,
+      "defense": 302.4907785,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 4745.1690854,
+      "attack": 126.12895019999999,
+      "defense": 306.62299575000003,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 4808.3470842,
+      "attack": 127.8082446,
+      "defense": 310.70542725,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 4872.295546400001,
+      "attack": 129.5080182,
+      "defense": 314.8376445,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5480.7556152,
+      "attack": 145.6814536,
+      "defense": 354.155076,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5544.7040774,
+      "attack": 147.3812272,
+      "defense": 358.28729325,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5608.6525396,
+      "attack": 149.0810008,
+      "defense": 362.41951049999994,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 5671.8305384000005,
+      "attack": 150.7602952,
+      "defense": 366.501942,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 5735.7790006,
+      "attack": 152.4600688,
+      "defense": 370.63415925,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 5798.9569994,
+      "attack": 154.1393632,
+      "defense": 374.71659075,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 5862.905461599999,
+      "attack": 155.83913679999998,
+      "defense": 378.84880799999996,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 5926.0834604,
+      "attack": 157.5184312,
+      "defense": 382.9312395,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 5990.0319226,
+      "attack": 159.2182048,
+      "defense": 387.06345675,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6053.9803848,
+      "attack": 160.91797839999998,
+      "defense": 391.195674,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6526.1200836,
+      "attack": 173.4678768,
+      "defense": 421.7043555,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 6590.0685458,
+      "attack": 175.16765039999999,
+      "defense": 425.83657274999996,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 6653.2465446,
+      "attack": 176.8469448,
+      "defense": 429.91900424999994,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 6717.1950068,
+      "attack": 178.5467184,
+      "defense": 434.0512215,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 6780.3730055999995,
+      "attack": 180.22601279999998,
+      "defense": 438.133653,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 6844.3214677999995,
+      "attack": 181.9257864,
+      "defense": 442.26587025000003,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 6908.26993,
+      "attack": 183.62555999999998,
+      "defense": 446.3980875,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 6971.4479288,
+      "attack": 185.30485439999998,
+      "defense": 450.48051899999996,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7035.396391,
+      "attack": 187.004628,
+      "defense": 454.61273625,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7098.5743898,
+      "attack": 188.68392239999997,
+      "defense": 458.69516775,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 7571.484552,
+      "attack": 201.254303,
+      "defense": 489.25363500000003,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 7634.6625508,
+      "attack": 202.9335974,
+      "defense": 493.3360665,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 7698.611013,
+      "attack": 204.633371,
+      "defense": 497.46828375,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 7762.5594752,
+      "attack": 206.33314459999997,
+      "defense": 501.600501,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 7825.737474,
+      "attack": 208.012439,
+      "defense": 505.68293250000005,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 7889.6859362,
+      "attack": 209.7122126,
+      "defense": 509.81514975,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 7952.863935,
+      "attack": 211.391507,
+      "defense": 513.89758125,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8016.812397199999,
+      "attack": 213.09128059999998,
+      "defense": 518.0297985,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8079.990396,
+      "attack": 214.770575,
+      "defense": 522.11223,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8143.938858199999,
+      "attack": 216.4703486,
+      "defense": 526.24444725,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 8616.8486204,
+      "attack": 229.0407252,
+      "defense": 556.8029145,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 8680.0266192,
+      "attack": 230.7200196,
+      "defense": 560.885346,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 8743.9750814,
+      "attack": 232.41979320000002,
+      "defense": 565.01756325,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 8807.1530802,
+      "attack": 234.09908759999996,
+      "defense": 569.09999475,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 8871.1015424,
+      "attack": 235.79886119999998,
+      "defense": 573.232212,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 8934.279541200001,
+      "attack": 237.47815559999998,
+      "defense": 577.3146435000001,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 8998.228003400001,
+      "attack": 239.1779292,
+      "defense": 581.44686075,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9061.4060022,
+      "attack": 240.8572236,
+      "defense": 585.52929225,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9125.3544644,
+      "attack": 242.5569972,
+      "defense": 589.6615095,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9189.3029266,
+      "attack": 244.25677079999997,
+      "defense": 593.79372675,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2554.8960746,
+      "attack": 67.91043479999999,
+      "defense": 165.09209175,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4235.892777999999,
+      "attack": 112.592199,
+      "defense": 273.714615,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5417.5776164,
+      "attack": 144.0021592,
+      "defense": 350.0726445,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6462.9420848,
+      "attack": 171.7885824,
+      "defense": 417.62192400000004,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7507.5360898,
+      "attack": 199.55452939999998,
+      "defense": 485.12141775000003,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 8552.9001582,
+      "attack": 227.34095159999998,
+      "defense": 552.67069725,
+      "specialized": 0.24
+    }
+  }
+}

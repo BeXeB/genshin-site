@@ -1,0 +1,1905 @@
+{
+  "profile": {
+    "id": 10000052,
+    "name": "Raiden Shogun",
+    "title": "Plane of Euthymia",
+    "description": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
+    "weaponType": "WEAPON_POLE",
+    "weaponText": "Polearm",
+    "bodyType": "BODY_LADY",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "6/26",
+    "birthday": "June 26",
+    "elementType": "ELEMENT_ELECTRO",
+    "elementText": "Electro",
+    "affiliation": "Inazuma City",
+    "associationType": "ASSOC_INAZUMA",
+    "region": "Inazuma",
+    "substatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "substatText": "Energy Recharge",
+    "constellation": "Imperatrix Umbrosa",
+    "cv": {
+      "english": "Anne Yatco",
+      "chinese": "菊花花",
+      "japanese": "沢城みゆき",
+      "korean": "Park Ji-yoon"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104141,
+          "name": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": 101208,
+          "name": "Amakumo Fruit",
+          "count": 3
+        },
+        {
+          "id": 112044,
+          "name": "Old Handguard",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": 113029,
+          "name": "Storm Beads",
+          "count": 2
+        },
+        {
+          "id": 101208,
+          "name": "Amakumo Fruit",
+          "count": 10
+        },
+        {
+          "id": 112044,
+          "name": "Old Handguard",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": 113029,
+          "name": "Storm Beads",
+          "count": 4
+        },
+        {
+          "id": 101208,
+          "name": "Amakumo Fruit",
+          "count": 20
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": 113029,
+          "name": "Storm Beads",
+          "count": 8
+        },
+        {
+          "id": 101208,
+          "name": "Amakumo Fruit",
+          "count": 30
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": 113029,
+          "name": "Storm Beads",
+          "count": 12
+        },
+        {
+          "id": 101208,
+          "name": "Amakumo Fruit",
+          "count": 45
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104144,
+          "name": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113029,
+          "name": "Storm Beads",
+          "count": 20
+        },
+        {
+          "id": 101208,
+          "name": "Amakumo Fruit",
+          "count": 60
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/fdcbc9ef8859b7077d92ae38d925e15e_4430297517104014075.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/dd1f208fdefbf57efcd4ecc2dd6db8af_3309729149523203215.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/af8df0bbece1be9ab90d3cf2cb0ee7bd.png",
+      "filename_icon": "UI_AvatarIcon_Shougun",
+      "filename_iconCard": "UI_AvatarIcon_Shougun_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Shougun",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Shougun",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Shougun",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Shougun.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Raiden Shogun_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Raiden_Shogun"
+    },
+    "version": "2.1"
+  },
+  "skills": {
+    "id": 5201,
+    "name": "Raiden Shogun",
+    "combat1": {
+      "name": "Origin",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to perform an upward slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform an upward slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+          "5-Hit DMG|{param6:F1P}",
+          "Charged Attack DMG|{param7:F1P}",
+          "Charged Attack Stamina Cost|{param8:F1}",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.39646,
+            0.42873,
+            0.461,
+            0.5071,
+            0.53937,
+            0.57625,
+            0.62696,
+            0.67767,
+            0.72838,
+            0.7837,
+            0.847087,
+            0.921631,
+            0.996175,
+            1.070719,
+            1.152039
+          ],
+          "param2": [
+            0.39732,
+            0.42966,
+            0.462,
+            0.5082,
+            0.54054,
+            0.5775,
+            0.62832,
+            0.67914,
+            0.72996,
+            0.7854,
+            0.848925,
+            0.92363,
+            0.998336,
+            1.073041,
+            1.154538
+          ],
+          "param3": [
+            0.4988,
+            0.5394,
+            0.58,
+            0.638,
+            0.6786,
+            0.725,
+            0.7888,
+            0.8526,
+            0.9164,
+            0.986,
+            1.06575,
+            1.159536,
+            1.253322,
+            1.347108,
+            1.44942
+          ],
+          "param4": [
+            0.28982,
+            0.31341,
+            0.337,
+            0.3707,
+            0.39429,
+            0.42125,
+            0.45832,
+            0.49539,
+            0.53246,
+            0.5729,
+            0.619237,
+            0.67373,
+            0.728223,
+            0.782716,
+            0.842163
+          ],
+          "param5": [
+            0.28982,
+            0.31341,
+            0.337,
+            0.3707,
+            0.39429,
+            0.42125,
+            0.45832,
+            0.49539,
+            0.53246,
+            0.5729,
+            0.619237,
+            0.67373,
+            0.728223,
+            0.782716,
+            0.842163
+          ],
+          "param6": [
+            0.65446,
+            0.70773,
+            0.761,
+            0.8371,
+            0.89037,
+            0.95125,
+            1.03496,
+            1.11867,
+            1.20238,
+            1.2937,
+            1.398338,
+            1.521391,
+            1.644445,
+            1.767499,
+            1.901739
+          ],
+          "param7": [
+            0.99588,
+            1.07694,
+            1.158,
+            1.2738,
+            1.35486,
+            1.4475,
+            1.57488,
+            1.70226,
+            1.82964,
+            1.9686,
+            2.127825,
+            2.315074,
+            2.502322,
+            2.689571,
+            2.893842
+          ],
+          "param8": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param9": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param10": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param11": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Transcendence: Baleful Omen",
+      "descriptionRaw": "The Raiden Shogun unveils a shard of her Euthymia, dealing <color=#FFACFFFF>Electro DMG</color> to nearby opponents, and granting nearby party members the Eye of Stormy Judgment.\n\n<color=#FFD780FF>Eye of Stormy Judgment</color>\n·When characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing <color=#FFACFFFF>AoE Electro DMG</color> at the opponent's position.\n·Characters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.\n\nThe Eye can initiate one coordinated attack every 0.9s per party.\nCoordinated attacks generated by characters not controlled by you deal 20% of the normal DMG.\n\n<i>Beings of great divinity might affect all that they survey, and the Electro Archon can manipulate the very inauspicious stars themselves to defend her retainers and bring a thundering sentence down on their foes.</i>",
+      "description": "The Raiden Shogun unveils a shard of her Euthymia, dealing Electro DMG to nearby opponents, and granting nearby party members the Eye of Stormy Judgment.\n\nEye of Stormy Judgment\n·When characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing AoE Electro DMG at the opponent's position.\n·Characters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.\n\nThe Eye can initiate one coordinated attack every 0.9s per party.\nCoordinated attacks generated by characters not controlled by you deal 20% of the normal DMG.",
+      "flavorText": "Beings of great divinity might affect all that they survey, and the Electro Archon can manipulate the very inauspicious stars themselves to defend her retainers and bring a thundering sentence down on their foes.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Coordinated ATK DMG|{param2:F1P}",
+          "Duration|{param3:F1}s",
+          "Elemental Burst DMG Bonus|{param4:F2P} Per Energy",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.172,
+            1.2599,
+            1.3478,
+            1.465,
+            1.5529,
+            1.6408,
+            1.758,
+            1.8752,
+            1.9924,
+            2.1096,
+            2.2268,
+            2.344,
+            2.4905,
+            2.637,
+            2.7835
+          ],
+          "param2": [
+            0.42,
+            0.4515,
+            0.483,
+            0.525,
+            0.5565,
+            0.588,
+            0.63,
+            0.672,
+            0.714,
+            0.756,
+            0.798,
+            0.84,
+            0.8925,
+            0.945,
+            0.9975
+          ],
+          "param3": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param4": [
+            0.0022,
+            0.0023,
+            0.0024,
+            0.0025,
+            0.0026,
+            0.0027,
+            0.0028,
+            0.0029,
+            0.003,
+            0.003,
+            0.003,
+            0.003,
+            0.003,
+            0.003,
+            0.003
+          ],
+          "param5": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Secret Art: Musou Shinsetsu",
+      "descriptionRaw": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals <color=#FFACFFFF>AoE Electro DMG</color>, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used.\n\n<color=#FFD780FF>Musou Isshin</color>\nWhile in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with <color=#FFACFFFF>Electro DMG</color>, which cannot be overridden. When such attacks hit opponents, she will regenerate Energy for all nearby party members. Energy can be restored this way once every 1s, and this effect can be triggered 5 times throughout this skill's duration.\nWhile in this state, the Raiden Shogun's resistance to interruption is increased, and she is immune to <color=#FFACFFFF>Electro-Charged</color> reaction DMG.\nWhile Musou Isshin is active, the Raiden Shogun's Normal, Charged, and Plunging Attack DMG will be considered Elemental Burst DMG.\n\nThe effects of Musou Isshin will be cleared when the Raiden Shogun leaves the field.\n\n<color=#FFD780FF>Chakra Desiderata</color>\nWhen nearby party members (excluding the Raiden Shogun herself) use their Elemental Bursts, the Raiden Shogun will build up Resolve stacks based on the Energy Cost of these Elemental Bursts.\nThe maximum number of Resolve stacks is 60.\n\nThe Resolve gained by Chakra Desiderata will be cleared 300s after the Raiden Shogun leaves the field.\n\n<i>This is the Raiden Shogun's new secret technique. Abandoning the void-like \"Musou,\" she now shoulders a new \"Musou\" — the dreams and ambitions of all. Just as \"shinsetsu,\" \"the truth,\" also means \"the new,\" so too has Inazuma entered a new chapter.</i>",
+      "description": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals AoE Electro DMG, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used.\n\nMusou Isshin\nWhile in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with Electro DMG, which cannot be overridden. When such attacks hit opponents, she will regenerate Energy for all nearby party members. Energy can be restored this way once every 1s, and this effect can be triggered 5 times throughout this skill's duration.\nWhile in this state, the Raiden Shogun's resistance to interruption is increased, and she is immune to Electro-Charged reaction DMG.\nWhile Musou Isshin is active, the Raiden Shogun's Normal, Charged, and Plunging Attack DMG will be considered Elemental Burst DMG.\n\nThe effects of Musou Isshin will be cleared when the Raiden Shogun leaves the field.\n\nChakra Desiderata\nWhen nearby party members (excluding the Raiden Shogun herself) use their Elemental Bursts, the Raiden Shogun will build up Resolve stacks based on the Energy Cost of these Elemental Bursts.\nThe maximum number of Resolve stacks is 60.\n\nThe Resolve gained by Chakra Desiderata will be cleared 300s after the Raiden Shogun leaves the field.",
+      "flavorText": "This is the Raiden Shogun's new secret technique. Abandoning the void-like \"Musou,\" she now shoulders a new \"Musou\" — the dreams and ambitions of all. Just as \"shinsetsu,\" \"the truth,\" also means \"the new,\" so too has Inazuma entered a new chapter.",
+      "attributes": {
+        "labels": [
+          "Musou no Hitotachi Base DMG|{param1:P}",
+          "Resolve Bonus|{param2:F2P} Initial/{param3:F2P} ATK DMG Per Stack",
+          "Resolve Stacks Gained|{param4:F2} Per Energy Consumed",
+          "1-Hit DMG|{param5:F1P}",
+          "2-Hit DMG|{param6:F1P}",
+          "3-Hit DMG|{param7:F1P}",
+          "4-Hit DMG|{param8:F1P}+{param9:F1P}",
+          "5-Hit DMG|{param10:F1P}",
+          "Charged Attack DMG|{param11:F1P}+{param12:F1P}",
+          "Charged Attack Stamina Cost|{param13:F1}",
+          "Plunge DMG|{param14:F1P}",
+          "Low/High Plunge DMG|{param15:P}/{param16:P}",
+          "Musou Isshin Energy Restoration|{param17:F1}",
+          "Musou Isshin Duration|{param18:F1}s",
+          "CD|{param19:F1}s",
+          "Energy Cost|{param20:I}"
+        ],
+        "parameters": {
+          "param1": [
+            4.008,
+            4.3086,
+            4.6092,
+            5.01,
+            5.3106,
+            5.6112,
+            6.012,
+            6.4128,
+            6.8136,
+            7.2144,
+            7.6152,
+            8.016,
+            8.517,
+            9.018,
+            9.519
+          ],
+          "param2": [
+            0.03888,
+            0.041796,
+            0.044712,
+            0.0486,
+            0.051516,
+            0.054432,
+            0.05832,
+            0.062208,
+            0.066096,
+            0.069984,
+            0.073872,
+            0.07776,
+            0.08262,
+            0.08748,
+            0.09234
+          ],
+          "param3": [
+            0.007262,
+            0.007806,
+            0.008351,
+            0.009077,
+            0.009622,
+            0.010166,
+            0.010892,
+            0.011619,
+            0.012345,
+            0.013071,
+            0.013797,
+            0.014523,
+            0.015431,
+            0.016339,
+            0.017246
+          ],
+          "param4": [
+            0.15,
+            0.16,
+            0.16,
+            0.17,
+            0.17,
+            0.18,
+            0.18,
+            0.19,
+            0.19,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "param5": [
+            0.447374,
+            0.477877,
+            0.50838,
+            0.54905,
+            0.579553,
+            0.61514,
+            0.660894,
+            0.706648,
+            0.752402,
+            0.798157,
+            0.843911,
+            0.889665,
+            0.935419,
+            0.981173,
+            1.026928
+          ],
+          "param6": [
+            0.43956,
+            0.46953,
+            0.4995,
+            0.53946,
+            0.56943,
+            0.604395,
+            0.64935,
+            0.694305,
+            0.73926,
+            0.784215,
+            0.82917,
+            0.874125,
+            0.91908,
+            0.964035,
+            1.00899
+          ],
+          "param7": [
+            0.538217,
+            0.574913,
+            0.61161,
+            0.660539,
+            0.697235,
+            0.740048,
+            0.795093,
+            0.850138,
+            0.905183,
+            0.960228,
+            1.015273,
+            1.070318,
+            1.125362,
+            1.180407,
+            1.235452
+          ],
+          "param8": [
+            0.30888,
+            0.32994,
+            0.351,
+            0.37908,
+            0.40014,
+            0.42471,
+            0.4563,
+            0.48789,
+            0.51948,
+            0.55107,
+            0.58266,
+            0.61425,
+            0.64584,
+            0.67743,
+            0.70902
+          ],
+          "param9": [
+            0.30976,
+            0.33088,
+            0.352,
+            0.38016,
+            0.40128,
+            0.42592,
+            0.4576,
+            0.48928,
+            0.52096,
+            0.55264,
+            0.58432,
+            0.616,
+            0.64768,
+            0.67936,
+            0.71104
+          ],
+          "param10": [
+            0.739438,
+            0.789854,
+            0.84027,
+            0.907492,
+            0.957908,
+            1.016727,
+            1.092351,
+            1.167975,
+            1.2436,
+            1.319224,
+            1.394848,
+            1.470473,
+            1.546097,
+            1.621721,
+            1.697345
+          ],
+          "param11": [
+            0.616,
+            0.658,
+            0.7,
+            0.756,
+            0.798,
+            0.847,
+            0.91,
+            0.973,
+            1.036,
+            1.099,
+            1.162,
+            1.225,
+            1.288,
+            1.351,
+            1.414
+          ],
+          "param12": [
+            0.7436,
+            0.7943,
+            0.845,
+            0.9126,
+            0.9633,
+            1.02245,
+            1.0985,
+            1.17455,
+            1.2506,
+            1.32665,
+            1.4027,
+            1.47875,
+            1.5548,
+            1.63085,
+            1.7069
+          ],
+          "param13": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param14": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param15": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param16": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ],
+          "param17": [
+            1.6,
+            1.7,
+            1.8,
+            1.9,
+            2,
+            2.1,
+            2.2,
+            2.3,
+            2.4,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "param18": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "param19": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param20": [
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Wishes Unnumbered",
+      "descriptionRaw": "When nearby party members gain Elemental Orbs or Particles, <color=#FFD780FF>Chakra Desiderata</color> gains 2 Resolve stacks.\nThis effect can occur once every 3s.",
+      "description": "When nearby party members gain Elemental Orbs or Particles, Chakra Desiderata gains 2 Resolve stacks.\nThis effect can occur once every 3s."
+    },
+    "passive2": {
+      "name": "Enlightened One",
+      "descriptionRaw": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\n·0.6% greater Energy restoration from <color=#FFD780FF>Musou Isshin</color>\n·0.4% <color=#FFACFFFF>Electro DMG Bonus</color>.",
+      "description": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\n·0.6% greater Energy restoration from Musou Isshin\n·0.4% Electro DMG Bonus."
+    },
+    "passive3": {
+      "name": "All-Preserver",
+      "descriptionRaw": "Mora expended when ascending Swords and Polearms is decreased by 50%.",
+      "description": "Mora expended when ascending Swords and Polearms is decreased by 50%."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104326,
+          "name": "Teachings of Light",
+          "count": 3
+        },
+        {
+          "id": 112044,
+          "name": "Old Handguard",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 2
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 4
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 6
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 9
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 4
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 4
+        },
+        {
+          "id": 113025,
+          "name": "Molten Moment",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 6
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 6
+        },
+        {
+          "id": 113025,
+          "name": "Molten Moment",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 12
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 9
+        },
+        {
+          "id": 113025,
+          "name": "Molten Moment",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 16
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 12
+        },
+        {
+          "id": 113025,
+          "name": "Molten Moment",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_03",
+      "filename_combat2": "Skill_S_Shougun_01",
+      "filename_combat3": "Skill_E_Shougun_01_HD",
+      "filename_passive1": "UI_Talent_S_Shougun_05",
+      "filename_passive2": "UI_Talent_S_Shougun_06",
+      "filename_passive3": "UI_Talent_S_Shougun_07"
+    },
+    "version": "2.1"
+  },
+  "constellation": {
+    "id": 5201,
+    "name": "Raiden Shogun",
+    "c1": {
+      "name": "Ominous Inscription",
+      "descriptionRaw": "<color=#FFD780FF>Chakra Desiderata</color> will gather Resolve even faster. When <color=#FFACFFFF>Electro</color> characters use their Elemental Bursts, the Resolve gained is increased by 80%. When characters of other Elemental Types use their Elemental Bursts, the Resolve gained is increased by 20%.",
+      "description": "Chakra Desiderata will gather Resolve even faster. When Electro characters use their Elemental Bursts, the Resolve gained is increased by 80%. When characters of other Elemental Types use their Elemental Bursts, the Resolve gained is increased by 20%."
+    },
+    "c2": {
+      "name": "Steelbreaker",
+      "descriptionRaw": "While using Musou no Hitotachi and in the Musou Isshin state applied by <color=#FFD780FF>Secret Art: Musou Shinsetsu</color>, the Raiden Shogun's attacks ignore 60% of opponents' DEF.",
+      "description": "While using Musou no Hitotachi and in the Musou Isshin state applied by Secret Art: Musou Shinsetsu, the Raiden Shogun's attacks ignore 60% of opponents' DEF."
+    },
+    "c3": {
+      "name": "Shinkage Bygones",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Secret Art: Musou Shinsetsu</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Secret Art: Musou Shinsetsu by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Pledge of Propriety",
+      "descriptionRaw": "When the <color=#FFD780FF>Musou Isshin</color> state applied by <color=#FFD780FF>Secret Art: Musou Shinsetsu</color> expires, all nearby party members (excluding the Raiden Shogun) gain 30% bonus ATK for 10s.",
+      "description": "When the Musou Isshin state applied by Secret Art: Musou Shinsetsu expires, all nearby party members (excluding the Raiden Shogun) gain 30% bonus ATK for 10s."
+    },
+    "c5": {
+      "name": "Shogun's Descent",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Transcendence: Baleful Omen</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Transcendence: Baleful Omen by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Wishbearer",
+      "descriptionRaw": "While in the <color=#FFD780FF>Musou Isshin</color> state applied by <color=#FFD780FF>Secret Art: Musou Shinsetsu</color>, attacks by the Raiden Shogun that are considered part of her Elemental Burst will decrease all nearby party members' (not including the Raiden Shogun herself) Elemental Burst CD by 1s when they hit opponents.\nThis effect can trigger once every 1s and can trigger a total of 5 times during Musou Isshin's duration.",
+      "description": "While in the Musou Isshin state applied by Secret Art: Musou Shinsetsu, attacks by the Raiden Shogun that are considered part of her Elemental Burst will decrease all nearby party members' (not including the Raiden Shogun herself) Elemental Burst CD by 1s when they hit opponents.\nThis effect can trigger once every 1s and can trigger a total of 5 times during Musou Isshin's duration."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Shougun_01",
+      "filename_c2": "UI_Talent_S_Shougun_03",
+      "filename_c3": "UI_Talent_U_Shougun_02",
+      "filename_c4": "UI_Talent_S_Shougun_02",
+      "filename_c5": "UI_Talent_U_Shougun_01",
+      "filename_c6": "UI_Talent_S_Shougun_04",
+      "filename_constellation": "Eff_UI_Talent_Shougun"
+    },
+    "version": "2.1"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1004.79926,
+      "attack": 26.2542,
+      "defense": 61.44541,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1088.19759858,
+      "attack": 28.4332986,
+      "defense": 66.54537903,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1171.59593716,
+      "attack": 30.6123972,
+      "defense": 71.64534806,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1255.999075,
+      "attack": 32.817750000000004,
+      "defense": 76.8067625,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1339.39741358,
+      "attack": 34.9968486,
+      "defense": 81.90673153,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1423.8005514200001,
+      "attack": 37.2022014,
+      "defense": 87.06814597,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1507.1988900000001,
+      "attack": 39.3813,
+      "defense": 92.168115,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1591.6020278400001,
+      "attack": 41.5866528,
+      "defense": 97.32952944,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1676.00516568,
+      "attack": 43.7920056,
+      "defense": 102.49094388,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1759.4035042599999,
+      "attack": 45.9711042,
+      "defense": 107.59091291,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1843.8066420999999,
+      "attack": 48.176457,
+      "defense": 112.75232735,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1928.20977994,
+      "attack": 50.3818098,
+      "defense": 117.91374179,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2012.61291778,
+      "attack": 52.587162600000006,
+      "defense": 123.07515623000002,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2098.02085488,
+      "attack": 54.8187696,
+      "defense": 128.29801608,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2182.42399272,
+      "attack": 57.0241224,
+      "defense": 133.45943052,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2266.8271305599997,
+      "attack": 59.229475199999996,
+      "defense": 138.62084496,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2352.2350676600004,
+      "attack": 61.46108220000001,
+      "defense": 143.84370481000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2436.6382055,
+      "attack": 63.666435,
+      "defense": 149.00511925,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2522.0461425999997,
+      "attack": 65.89804199999999,
+      "defense": 154.2279791,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2606.4492804399997,
+      "attack": 68.1033948,
+      "defense": 159.38939354,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3553.38175754,
+      "attack": 92.8439608,
+      "defense": 217.29735339,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3638.7896946399997,
+      "attack": 95.0755678,
+      "defense": 222.52021324,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3724.19763174,
+      "attack": 97.30717480000001,
+      "defense": 227.74307309000002,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3809.60556884,
+      "attack": 99.53878180000001,
+      "defense": 232.96593294000002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3895.01350594,
+      "attack": 101.7703888,
+      "defense": 238.18879279,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3981.4262423,
+      "attack": 104.02825,
+      "defense": 243.47309805,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4066.8341794,
+      "attack": 106.25985700000001,
+      "defense": 248.6959579,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4152.2421165,
+      "attack": 108.49146400000001,
+      "defense": 253.91881775000002,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4238.654852860001,
+      "attack": 110.74932520000002,
+      "defense": 259.20312301,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4324.06278996,
+      "attack": 112.98093220000001,
+      "defense": 264.42598286000003,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4410.47552632,
+      "attack": 115.2387934,
+      "defense": 269.71028812000003,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4496.88826268,
+      "attack": 117.4966546,
+      "defense": 274.99459337999997,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4583.3009990400005,
+      "attack": 119.75451580000001,
+      "defense": 280.27889864,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4668.70893614,
+      "attack": 121.98612280000002,
+      "defense": 285.50175849,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4755.1216725,
+      "attack": 124.24398400000001,
+      "defense": 290.78606375,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4842.539208120001,
+      "attack": 126.52809940000002,
+      "defense": 296.13181442,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4928.95194448,
+      "attack": 128.7859606,
+      "defense": 301.41611968,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 5015.364680840001,
+      "attack": 131.04382180000002,
+      "defense": 306.70042494,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5101.7774172,
+      "attack": 133.301683,
+      "defense": 311.98473019999994,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5189.194952820001,
+      "attack": 135.58579840000002,
+      "defense": 317.33048087000003,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5887.74354918,
+      "attack": 153.8368676,
+      "defense": 360.04893613,
+      "specialized": 0.08
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5975.1610848,
+      "attack": 156.12098300000002,
+      "defense": 365.39468680000004,
+      "specialized": 0.08
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 6062.57862042,
+      "attack": 158.4050984,
+      "defense": 370.74043746999996,
+      "specialized": 0.08
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6148.9913567799995,
+      "attack": 160.6629596,
+      "defense": 376.02474272999996,
+      "specialized": 0.08
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6236.4088924,
+      "attack": 162.947075,
+      "defense": 381.3704934,
+      "specialized": 0.08
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6323.82642802,
+      "attack": 165.2311904,
+      "defense": 386.71624407,
+      "specialized": 0.08
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6411.2439636399995,
+      "attack": 167.51530580000002,
+      "defense": 392.06199473999993,
+      "specialized": 0.08
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6498.66149926,
+      "attack": 169.79942120000004,
+      "defense": 397.4077454100001,
+      "specialized": 0.08
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6587.08383414,
+      "attack": 172.10979080000004,
+      "defense": 402.81494149,
+      "specialized": 0.08
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6674.50136976,
+      "attack": 174.3939062,
+      "defense": 408.16069216000005,
+      "specialized": 0.08
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7578.100105380001,
+      "attack": 198.00229760000002,
+      "defense": 463.41864283,
+      "specialized": 0.16
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7666.52244026,
+      "attack": 200.31266720000002,
+      "defense": 468.82583891,
+      "specialized": 0.16
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7753.939975879999,
+      "attack": 202.59678259999998,
+      "defense": 474.17158958,
+      "specialized": 0.16
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7842.36231076,
+      "attack": 204.90715219999998,
+      "defense": 479.57878566,
+      "specialized": 0.16
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7930.78464564,
+      "attack": 207.2175218,
+      "defense": 484.98598174,
+      "specialized": 0.16
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 8019.206980520001,
+      "attack": 209.5278914,
+      "defense": 490.39317782,
+      "specialized": 0.16
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 8107.6293153999995,
+      "attack": 211.838261,
+      "defense": 495.8003739,
+      "specialized": 0.16
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8196.05165028,
+      "attack": 214.1486306,
+      "defense": 501.20756998,
+      "specialized": 0.16
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8284.47398516,
+      "attack": 216.4590002,
+      "defense": 506.61476606,
+      "specialized": 0.16
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8372.896320040001,
+      "attack": 218.7693698,
+      "defense": 512.02196214,
+      "specialized": 0.16
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 9073.45435492,
+      "attack": 237.0729464,
+      "defense": 554.86330822,
+      "specialized": 0.16
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9161.876689800001,
+      "attack": 239.383316,
+      "defense": 560.2705043000001,
+      "specialized": 0.16
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9251.30382394,
+      "attack": 241.7199398,
+      "defense": 565.7391457900001,
+      "specialized": 0.16
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9339.72615882,
+      "attack": 244.0303094,
+      "defense": 571.14634187,
+      "specialized": 0.16
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9429.15329296,
+      "attack": 246.3669332,
+      "defense": 576.61498336,
+      "specialized": 0.16
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9518.5804271,
+      "attack": 248.703557,
+      "defense": 582.08362485,
+      "specialized": 0.16
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9607.00276198,
+      "attack": 251.0139266,
+      "defense": 587.49082093,
+      "specialized": 0.16
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9696.42989612,
+      "attack": 253.3505504,
+      "defense": 592.9594624199999,
+      "specialized": 0.16
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9785.85703026,
+      "attack": 255.6871742,
+      "defense": 598.42810391,
+      "specialized": 0.16
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9875.2841644,
+      "attack": 258.023798,
+      "defense": 603.8967454000001,
+      "specialized": 0.16
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10576.84729854,
+      "attack": 276.3536318,
+      "defense": 646.79953689,
+      "specialized": 0.24
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10667.27923194,
+      "attack": 278.71650980000004,
+      "defense": 652.32962379,
+      "specialized": 0.24
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10756.706366080001,
+      "attack": 281.0531336,
+      "defense": 657.79826528,
+      "specialized": 0.24
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10846.13350022,
+      "attack": 283.3897574,
+      "defense": 663.26690677,
+      "specialized": 0.24
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10936.565433619999,
+      "attack": 285.75263540000003,
+      "defense": 668.79699367,
+      "specialized": 0.24
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 11025.99256776,
+      "attack": 288.0892592,
+      "defense": 674.26563516,
+      "specialized": 0.24
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 11116.42450116,
+      "attack": 290.45213720000004,
+      "defense": 679.79572206,
+      "specialized": 0.24
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11206.856434559999,
+      "attack": 292.8150152,
+      "defense": 685.32580896,
+      "specialized": 0.24
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11297.288367960002,
+      "attack": 295.1778932,
+      "defense": 690.85589586,
+      "specialized": 0.24
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11387.720301360001,
+      "attack": 297.5407712,
+      "defense": 696.38598276,
+      "specialized": 0.24
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 12090.28793476,
+      "attack": 315.8968492,
+      "defense": 739.35021966,
+      "specialized": 0.32
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12180.71986816,
+      "attack": 318.25972720000004,
+      "defense": 744.88030656,
+      "specialized": 0.32
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12271.15180156,
+      "attack": 320.6226052,
+      "defense": 750.41039346,
+      "specialized": 0.32
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12361.583734959999,
+      "attack": 322.9854832,
+      "defense": 755.94048036,
+      "specialized": 0.32
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12452.01566836,
+      "attack": 325.3483612,
+      "defense": 761.4705672599999,
+      "specialized": 0.32
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12543.45240102,
+      "attack": 327.73749340000006,
+      "defense": 767.06209957,
+      "specialized": 0.32
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12633.88433442,
+      "attack": 330.10037140000003,
+      "defense": 772.59218647,
+      "specialized": 0.32
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12725.32106708,
+      "attack": 332.48950360000003,
+      "defense": 778.1837187799999,
+      "specialized": 0.32
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12816.757799739999,
+      "attack": 334.8786358,
+      "defense": 783.77525109,
+      "specialized": 0.32
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12907.189733140001,
+      "attack": 337.2415138,
+      "defense": 789.30533799,
+      "specialized": 0.32
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3467.9738204399996,
+      "attack": 90.61235380000001,
+      "defense": 212.07449354,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5801.330812820001,
+      "attack": 151.57900640000003,
+      "defense": 354.76463087,
+      "specialized": 0.08
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7490.68256976,
+      "attack": 195.7181822,
+      "defense": 458.07289216000004,
+      "specialized": 0.16
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8985.03202004,
+      "attack": 234.7625768,
+      "defense": 549.45611214,
+      "specialized": 0.16
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10487.4201644,
+      "attack": 274.01700800000003,
+      "defense": 641.3308954,
+      "specialized": 0.24
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11999.85600136,
+      "attack": 313.5339712,
+      "defense": 733.8201327600001,
+      "specialized": 0.32
+    }
+  }
+}

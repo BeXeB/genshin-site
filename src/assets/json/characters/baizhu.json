@@ -1,0 +1,1668 @@
+{
+  "profile": {
+    "id": 10000082,
+    "name": "Baizhu",
+    "title": "Beyond Mortality",
+    "description": "The owner of Bubu Pharmacy, who is rarely seen without the white snake named Changsheng. His medicinal knowledge is encyclopedic, and his personal intrigues subtle.",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "bodyType": "BODY_MALE",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "4/25",
+    "birthday": "April 25",
+    "elementType": "ELEMENT_DENDRO",
+    "elementText": "Dendro",
+    "affiliation": "Bubu Pharmacy",
+    "associationType": "ASSOC_LIYUE",
+    "region": "Liyue",
+    "substatType": "FIGHT_PROP_HP_PERCENT",
+    "substatText": "HP",
+    "constellation": "Lagenaria",
+    "cv": {
+      "english": "Sean Durrie & Xanthe Huynh",
+      "chinese": "秦且歌 & 王晓彤",
+      "japanese": "遊佐浩二 & 庄子裕衣",
+      "korean": "Yi Ho-san & Jang Mi"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104131,
+          "name": "Nagadus Emerald Sliver",
+          "count": 1
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 3
+        },
+        {
+          "id": 112059,
+          "name": "Fungal Spores",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104132,
+          "name": "Nagadus Emerald Fragment",
+          "count": 3
+        },
+        {
+          "id": 113045,
+          "name": "Evergloom Ring",
+          "count": 2
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 10
+        },
+        {
+          "id": 112059,
+          "name": "Fungal Spores",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104132,
+          "name": "Nagadus Emerald Fragment",
+          "count": 6
+        },
+        {
+          "id": 113045,
+          "name": "Evergloom Ring",
+          "count": 4
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 20
+        },
+        {
+          "id": 112060,
+          "name": "Luminescent Pollen",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104133,
+          "name": "Nagadus Emerald Chunk",
+          "count": 3
+        },
+        {
+          "id": 113045,
+          "name": "Evergloom Ring",
+          "count": 8
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 30
+        },
+        {
+          "id": 112060,
+          "name": "Luminescent Pollen",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104133,
+          "name": "Nagadus Emerald Chunk",
+          "count": 6
+        },
+        {
+          "id": 113045,
+          "name": "Evergloom Ring",
+          "count": 12
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 45
+        },
+        {
+          "id": 112061,
+          "name": "Crystalline Cyst Dust",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104134,
+          "name": "Nagadus Emerald Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113045,
+          "name": "Evergloom Ring",
+          "count": 20
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 60
+        },
+        {
+          "id": 112061,
+          "name": "Crystalline Cyst Dust",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/7e0096b8907484d2c530a57a0d0bda80_6830097800800736702.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/7f741e68d13763893e9765114653dbba_6767301111904721877.png",
+      "filename_icon": "UI_AvatarIcon_Baizhuer",
+      "filename_iconCard": "UI_AvatarIcon_Baizhuer_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Baizhuer",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Baizhuer",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Baizhuer",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Baizhuer.png",
+      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/05599650d7f42e1c4adde373de6b297d_8001303176243726128.png"
+    },
+    "version": "3.6"
+  },
+  "skills": {
+    "id": 8201,
+    "name": "Baizhu",
+    "combat1": {
+      "name": "The Classics of Acupuncture",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 attacks that deal <color=#99FF88FF>Dendro DMG</color> to opponents in front of him.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#99FF88FF>AoE Dendro DMG</color> to opponents in front of him after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nCalling upon the might of Dendro, Baizhu plunges towards the ground from mid-air, damaging all opponents in his path. Deals <color=#99FF88FF>AoE Dendro DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nPerforms up to 4 attacks that deal Dendro DMG to opponents in front of him.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Dendro DMG to opponents in front of him after a short casting time.\n\nPlunging Attack\nCalling upon the might of Dendro, Baizhu plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Dendro DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}×2",
+          "4-Hit DMG|{param4:F1P}",
+          "Charged Attack DMG|{param5:F1P}",
+          "Charged Attack Stamina Cost|{param6:F1}",
+          "Plunge DMG|{param7:F1P}",
+          "Low/High Plunge DMG|{param8:P}/{param9:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.373704,
+            0.401732,
+            0.42976,
+            0.46713,
+            0.495158,
+            0.523186,
+            0.560556,
+            0.597926,
+            0.635297,
+            0.672667,
+            0.710038,
+            0.747408,
+            0.794121,
+            0.840834,
+            0.887547
+          ],
+          "param2": [
+            0.364248,
+            0.391567,
+            0.418885,
+            0.45531,
+            0.482629,
+            0.509947,
+            0.546372,
+            0.582797,
+            0.619222,
+            0.655646,
+            0.692071,
+            0.728496,
+            0.774027,
+            0.819558,
+            0.865089
+          ],
+          "param3": [
+            0.225416,
+            0.242322,
+            0.259228,
+            0.28177,
+            0.298676,
+            0.315582,
+            0.338124,
+            0.360666,
+            0.383207,
+            0.405749,
+            0.42829,
+            0.450832,
+            0.479009,
+            0.507186,
+            0.535363
+          ],
+          "param4": [
+            0.541376,
+            0.581979,
+            0.622582,
+            0.67672,
+            0.717323,
+            0.757926,
+            0.812064,
+            0.866202,
+            0.920339,
+            0.974477,
+            1.028614,
+            1.082752,
+            1.150424,
+            1.218096,
+            1.285768
+          ],
+          "param5": [
+            1.2104,
+            1.30118,
+            1.39196,
+            1.513,
+            1.60378,
+            1.69456,
+            1.8156,
+            1.93664,
+            2.05768,
+            2.17872,
+            2.29976,
+            2.4208,
+            2.5721,
+            2.7234,
+            2.8747
+          ],
+          "param6": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param7": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param8": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param9": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Universal Diagnosis",
+      "descriptionRaw": "Controls a Gossamer Sprite that cruises and attacks nearby opponents, dealing <color=#99FF88FF>Dendro DMG</color>.\nAfter it performs 3 attacks or if there are no opponents nearby, the Sprite will return, healing all nearby party members based on Baizhu's Max HP.\n\n<i>Those in the medical field who can read true signs of illness from false ones may even cure people before any symptoms can show.</i>",
+      "description": "Controls a Gossamer Sprite that cruises and attacks nearby opponents, dealing Dendro DMG.\nAfter it performs 3 attacks or if there are no opponents nearby, the Sprite will return, healing all nearby party members based on Baizhu's Max HP.",
+      "flavorText": "Those in the medical field who can read true signs of illness from false ones may even cure people before any symptoms can show.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Healing|{param2:F2P} Max HP+{param3:I}",
+          "CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.792,
+            0.8514,
+            0.9108,
+            0.99,
+            1.0494,
+            1.1088,
+            1.188,
+            1.2672,
+            1.3464,
+            1.4256,
+            1.5048,
+            1.584,
+            1.683,
+            1.782,
+            1.881
+          ],
+          "param2": [
+            0.08,
+            0.086,
+            0.092,
+            0.1,
+            0.106,
+            0.112,
+            0.12,
+            0.128,
+            0.136,
+            0.144,
+            0.152,
+            0.16,
+            0.17,
+            0.18,
+            0.19
+          ],
+          "param3": [
+            770.3755,
+            847.42377,
+            930.8927,
+            1020.78235,
+            1117.0927,
+            1219.8236,
+            1328.9753,
+            1444.5477,
+            1566.5408,
+            1694.9546,
+            1829.7891,
+            1971.0442,
+            2118.72,
+            2272.8164,
+            2433.3337
+          ],
+          "param4": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Holistic Revivification",
+      "descriptionRaw": "Enters the Pulsing Clarity state, creating a Seamless Shield that absorbs <color=#99FF88FF>Dendro DMG</color> with 250% effectiveness.\nWhile in this state, Baizhu will generate a new Seamless Shield every 2.5s.\n\nThe Seamless Shield will heal your own active character based on Baizhu's Max HP and attack opponents by unleashing Spiritveins, dealing <color=#99FF88FF>Dendro DMG</color> under the following circumstances:\n·When a character is under the protection of a Seamless Shield and a new Seamless Shield is generated.\n·When the Seamless Shield's effects expire, or when it is shattered.\n\n<i>If you can perceive the heavens and the earth, defend against malignant auras with the flow of qi, and keep your mind clear, surely nothing can hinder you.</i>",
+      "description": "Enters the Pulsing Clarity state, creating a Seamless Shield that absorbs Dendro DMG with 250% effectiveness.\nWhile in this state, Baizhu will generate a new Seamless Shield every 2.5s.\n\nThe Seamless Shield will heal your own active character based on Baizhu's Max HP and attack opponents by unleashing Spiritveins, dealing Dendro DMG under the following circumstances:\n·When a character is under the protection of a Seamless Shield and a new Seamless Shield is generated.\n·When the Seamless Shield's effects expire, or when it is shattered.",
+      "flavorText": "If you can perceive the heavens and the earth, defend against malignant auras with the flow of qi, and keep your mind clear, surely nothing can hinder you.",
+      "attributes": {
+        "labels": [
+          "Seamless Shield DMG Absorption|{param1:F2P} Max HP+{param2:I}",
+          "Seamless Shield Duration|{param3:F1}s",
+          "Seamless Shield Healing|{param5:F2P} Max HP+{param6:I}",
+          "Spiritvein DMG|{param7:F1P}",
+          "Pulsing Clarity Duration|{param8:F1}s",
+          "CD|{param9:F1}s",
+          "Energy Cost|{param10:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.008,
+            0.0086,
+            0.0092,
+            0.01,
+            0.0106,
+            0.0112,
+            0.012,
+            0.0128,
+            0.0136,
+            0.0144,
+            0.0152,
+            0.016,
+            0.017,
+            0.018,
+            0.019
+          ],
+          "param2": [
+            77.03752,
+            84.74235,
+            93.08924,
+            102.0782,
+            111.70923,
+            121.98233,
+            132.89749,
+            144.45473,
+            156.65404,
+            169.4954,
+            182.97885,
+            197.10435,
+            211.87193,
+            227.28157,
+            243.3333
+          ],
+          "param3": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "param4": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "param5": [
+            0.052,
+            0.0559,
+            0.0598,
+            0.065,
+            0.0689,
+            0.0728,
+            0.078,
+            0.0832,
+            0.0884,
+            0.0936,
+            0.0988,
+            0.104,
+            0.1105,
+            0.117,
+            0.1235
+          ],
+          "param6": [
+            500.74408,
+            550.82544,
+            605.08026,
+            663.50854,
+            726.1102,
+            792.8854,
+            863.834,
+            938.95605,
+            1018.2515,
+            1101.7205,
+            1189.3629,
+            1281.1787,
+            1377.168,
+            1477.3307,
+            1581.6669
+          ],
+          "param7": [
+            0.97064,
+            1.043438,
+            1.116236,
+            1.2133,
+            1.286098,
+            1.358896,
+            1.45596,
+            1.553024,
+            1.650088,
+            1.747152,
+            1.844216,
+            1.94128,
+            2.06261,
+            2.18394,
+            2.30527
+          ],
+          "param8": [
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14
+          ],
+          "param9": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param10": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Five Fortunes Forever",
+      "descriptionRaw": "Baizhu gains different effects according to the current HP of your current active character:\n·When their HP is less than 50%, Baizhu gains 20% Healing Bonus.\n·When their HP is equal to or more than 50%, Baizhu gains 25% <color=#99FF88FF>Dendro DMG Bonus</color>.",
+      "description": "Baizhu gains different effects according to the current HP of your current active character:\n·When their HP is less than 50%, Baizhu gains 20% Healing Bonus.\n·When their HP is equal to or more than 50%, Baizhu gains 25% Dendro DMG Bonus."
+    },
+    "passive2": {
+      "name": "All Things Are of the Earth",
+      "descriptionRaw": "Characters who are healed by <color=#FFD780FF>Seamless Shields</color> will gain the Year of Verdant Favor effect: Each 1,000 Max HP that Baizhu possesses that does not exceed 50,000 will increase the Burning, Bloom, Hyperbloom, and Burgeon reaction DMG dealt by these characters by 2%, their Lunar-Bloom DMG by 0.7%, and the DMG Bonus provided by Aggravate and Spread by 0.8%. This effect lasts 6s.",
+      "description": "Characters who are healed by Seamless Shields will gain the Year of Verdant Favor effect: Each 1,000 Max HP that Baizhu possesses that does not exceed 50,000 will increase the Burning, Bloom, Hyperbloom, and Burgeon reaction DMG dealt by these characters by 2%, their Lunar-Bloom DMG by 0.7%, and the DMG Bonus provided by Aggravate and Spread by 0.8%. This effect lasts 6s."
+    },
+    "passive3": {
+      "name": "Herbal Nourishment",
+      "descriptionRaw": "When Baizhu is in the party, interacting with certain harvestable items will heal your current active character for 2.5% of Baizhu's Max HP.",
+      "description": "When Baizhu is in the party, interacting with certain harvestable items will heal your current active character for 2.5% of Baizhu's Max HP."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104316,
+          "name": "Teachings of Gold",
+          "count": 3
+        },
+        {
+          "id": 112059,
+          "name": "Fungal Spores",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 2
+        },
+        {
+          "id": 112060,
+          "name": "Luminescent Pollen",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 4
+        },
+        {
+          "id": 112060,
+          "name": "Luminescent Pollen",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 6
+        },
+        {
+          "id": 112060,
+          "name": "Luminescent Pollen",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 9
+        },
+        {
+          "id": 112060,
+          "name": "Luminescent Pollen",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 4
+        },
+        {
+          "id": 112061,
+          "name": "Crystalline Cyst Dust",
+          "count": 4
+        },
+        {
+          "id": 113046,
+          "name": "Worldspan Fern",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 6
+        },
+        {
+          "id": 112061,
+          "name": "Crystalline Cyst Dust",
+          "count": 6
+        },
+        {
+          "id": 113046,
+          "name": "Worldspan Fern",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 12
+        },
+        {
+          "id": 112061,
+          "name": "Crystalline Cyst Dust",
+          "count": 9
+        },
+        {
+          "id": 113046,
+          "name": "Worldspan Fern",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 16
+        },
+        {
+          "id": 112061,
+          "name": "Crystalline Cyst Dust",
+          "count": 12
+        },
+        {
+          "id": 113046,
+          "name": "Worldspan Fern",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Baizhuer_01",
+      "filename_combat3": "Skill_E_Baizhuer_01_HD",
+      "filename_passive1": "UI_Talent_S_Baizhuer_05",
+      "filename_passive2": "UI_Talent_S_Baizhuer_06",
+      "filename_passive3": "UI_Talent_S_Baizhuer_07"
+    },
+    "version": "3.6"
+  },
+  "constellation": {
+    "id": 8201,
+    "name": "Baizhu",
+    "c1": {
+      "name": "Attentive Observation",
+      "descriptionRaw": "<color=#FFD780FF>Universal Diagnosis</color> gains 1 additional charge.",
+      "description": "Universal Diagnosis gains 1 additional charge."
+    },
+    "c2": {
+      "name": "Incisive Discernment",
+      "descriptionRaw": "When your own active character hits a nearby opponent with their attacks, Baizhu will unleash a Gossamer Sprite: Splice.\nGossamer Sprite: Splice will initiate 1 attack before returning, dealing 250% of Baizhu's ATK as <color=#99FF88FF>Dendro DMG</color> and healing for 20% of <color=#FFD780FF>Universal Diagnosis</color>'s Gossamer Sprite's normal healing.\nDMG dealt this way is considered Elemental Skill DMG.\nThis effect can be triggered once every 5s.",
+      "description": "When your own active character hits a nearby opponent with their attacks, Baizhu will unleash a Gossamer Sprite: Splice.\nGossamer Sprite: Splice will initiate 1 attack before returning, dealing 250% of Baizhu's ATK as Dendro DMG and healing for 20% of Universal Diagnosis's Gossamer Sprite's normal healing.\nDMG dealt this way is considered Elemental Skill DMG.\nThis effect can be triggered once every 5s."
+    },
+    "c3": {
+      "name": "All Aspects Stabilized",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Holistic Revivification</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Holistic Revivification by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Ancient Art of Perception",
+      "descriptionRaw": "For 15s after <color=#FFD780FF>Holistic Revivification</color> is used, Baizhu will increase all nearby party members' Elemental Mastery by 80.",
+      "description": "For 15s after Holistic Revivification is used, Baizhu will increase all nearby party members' Elemental Mastery by 80."
+    },
+    "c5": {
+      "name": "The Hidden Ebb and Flow",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Universal Diagnosis</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Universal Diagnosis by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Elimination of Malicious Qi",
+      "descriptionRaw": "Increases the DMG dealt by <color=#FFD780FF>Holistic Revivification</color>'s Spiritveins by 8% of Baizhu's Max HP.\nAdditionally, when a <color=#FFD780FF>Gossamer Sprite</color> or Gossamer Sprite: Splice hits opponents, there is a 100% chance of generating one of <color=#FFD780FF>Holistic Revivification</color>'s Seamless Shields. This effect can only be triggered once by each Gossamer Sprite or Gossamer Sprite: Splice.",
+      "description": "Increases the DMG dealt by Holistic Revivification's Spiritveins by 8% of Baizhu's Max HP.\nAdditionally, when a Gossamer Sprite or Gossamer Sprite: Splice hits opponents, there is a 100% chance of generating one of Holistic Revivification's Seamless Shields. This effect can only be triggered once by each Gossamer Sprite or Gossamer Sprite: Splice."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Baizhuer_01",
+      "filename_c2": "UI_Talent_S_Baizhuer_02",
+      "filename_c3": "UI_Talent_U_Baizhuer_01",
+      "filename_c4": "UI_Talent_S_Baizhuer_03",
+      "filename_c5": "UI_Talent_U_Baizhuer_02",
+      "filename_c6": "UI_Talent_S_Baizhuer_04",
+      "filename_constellation": "Eff_UI_Talent_Baizhuer"
+    },
+    "version": "3.6"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1039.1188,
+      "attack": 14.9891,
+      "defense": 38.8895,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1125.3656604,
+      "attack": 16.2331953,
+      "defense": 42.1173285,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1211.6125207999999,
+      "attack": 17.4772906,
+      "defense": 45.34515699999999,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1298.8985,
+      "attack": 18.736375000000002,
+      "defense": 48.611875,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1385.1453603999998,
+      "attack": 19.9804703,
+      "defense": 51.8397035,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1472.4313396,
+      "attack": 21.239554700000003,
+      "defense": 55.106421499999996,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1558.6781999999998,
+      "attack": 22.48365,
+      "defense": 58.33425,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1645.9641792,
+      "attack": 23.742734400000003,
+      "defense": 61.600968,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1733.2501584,
+      "attack": 25.0018188,
+      "defense": 64.86768599999999,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1819.4970187999998,
+      "attack": 26.2459141,
+      "defense": 68.0955145,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1906.782998,
+      "attack": 27.5049985,
+      "defense": 71.36223249999999,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1994.0689772,
+      "attack": 28.764082900000002,
+      "defense": 74.6289505,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2081.3549564,
+      "attack": 30.023167300000004,
+      "defense": 77.8956685,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2169.6800544,
+      "attack": 31.2972408,
+      "defense": 81.201276,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2256.9660336,
+      "attack": 32.5563252,
+      "defense": 84.467994,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2344.2520127999996,
+      "attack": 33.815409599999995,
+      "defense": 87.73471199999999,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2432.5771108,
+      "attack": 35.0894831,
+      "defense": 91.04031950000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2519.86309,
+      "attack": 36.3485675,
+      "defense": 94.30703749999999,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2608.1881879999996,
+      "attack": 37.622641,
+      "defense": 97.61264499999999,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2695.4741671999996,
+      "attack": 38.8817254,
+      "defense": 100.87936299999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3674.7497052,
+      "attack": 53.0066579,
+      "defense": 137.5299705,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3763.0748031999997,
+      "attack": 54.2807314,
+      "defense": 140.835578,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3851.3999012000004,
+      "attack": 55.55480490000001,
+      "defense": 144.1411855,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3939.7249992,
+      "attack": 56.8288784,
+      "defense": 147.446793,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 4028.0500972,
+      "attack": 58.1029519,
+      "defense": 150.7524005,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 4117.414314,
+      "attack": 59.3920145,
+      "defense": 154.0968975,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4205.739412,
+      "attack": 60.666088,
+      "defense": 157.402505,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4294.064509999999,
+      "attack": 61.9401615,
+      "defense": 160.70811249999997,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4383.4287268,
+      "attack": 63.2292241,
+      "defense": 164.0526095,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4471.7538248,
+      "attack": 64.5032976,
+      "defense": 167.358217,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4561.1180416,
+      "attack": 65.7923602,
+      "defense": 170.702714,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4650.482258399999,
+      "attack": 67.0814228,
+      "defense": 174.04721099999998,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4739.8464752,
+      "attack": 68.3704854,
+      "defense": 177.391708,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4828.1715732,
+      "attack": 69.6445589,
+      "defense": 180.6973155,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4917.53579,
+      "attack": 70.9336215,
+      "defense": 184.0418125,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 5007.9391256,
+      "attack": 72.2376732,
+      "defense": 187.425199,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 5097.3033424,
+      "attack": 73.52673580000001,
+      "defense": 190.76969599999998,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 5186.6675592,
+      "attack": 74.8157984,
+      "defense": 194.114193,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5276.031775999999,
+      "attack": 76.104861,
+      "defense": 197.45869,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5366.4351116,
+      "attack": 77.4089127,
+      "defense": 200.84207650000002,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 6088.8429884,
+      "attack": 87.82884729999999,
+      "defense": 227.87907349999998,
+      "specialized": 0.072
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 6179.246324,
+      "attack": 89.13289900000001,
+      "defense": 231.26246,
+      "specialized": 0.072
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 6269.6496596,
+      "attack": 90.4369507,
+      "defense": 234.6458465,
+      "specialized": 0.072
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6359.013876399999,
+      "attack": 91.72601329999999,
+      "defense": 237.99034349999997,
+      "specialized": 0.072
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6449.417212,
+      "attack": 93.03006500000001,
+      "defense": 241.37373,
+      "specialized": 0.072
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6539.820547599999,
+      "attack": 94.3341167,
+      "defense": 244.7571165,
+      "specialized": 0.072
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6630.223883199999,
+      "attack": 95.6381684,
+      "defense": 248.14050299999997,
+      "specialized": 0.072
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6720.6272188,
+      "attack": 96.9422201,
+      "defense": 251.5238895,
+      "specialized": 0.072
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6812.069673200001,
+      "attack": 98.26126090000001,
+      "defense": 254.9461655,
+      "specialized": 0.072
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6902.4730088,
+      "attack": 99.5653126,
+      "defense": 258.329552,
+      "specialized": 0.072
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7836.9347443999995,
+      "attack": 113.0438633,
+      "defense": 293.3029385,
+      "specialized": 0.144
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7928.3771988,
+      "attack": 114.36290410000001,
+      "defense": 296.7252145,
+      "specialized": 0.144
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 8018.780534399999,
+      "attack": 115.66695580000001,
+      "defense": 300.10860099999996,
+      "specialized": 0.144
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 8110.222988799999,
+      "attack": 116.9859966,
+      "defense": 303.530877,
+      "specialized": 0.144
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 8201.6654432,
+      "attack": 118.3050374,
+      "defense": 306.953153,
+      "specialized": 0.144
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 8293.107897599999,
+      "attack": 119.62407820000001,
+      "defense": 310.375429,
+      "specialized": 0.144
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 8384.550351999998,
+      "attack": 120.943119,
+      "defense": 313.79770499999995,
+      "specialized": 0.144
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8475.9928064,
+      "attack": 122.2621598,
+      "defense": 317.21998099999996,
+      "specialized": 0.144
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8567.4352608,
+      "attack": 123.58120060000002,
+      "defense": 320.642257,
+      "specialized": 0.144
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8658.8777152,
+      "attack": 124.9002414,
+      "defense": 324.064533,
+      "specialized": 0.144
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 9383.3638696,
+      "attack": 135.3501582,
+      "defense": 351.179309,
+      "specialized": 0.144
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9474.806324000001,
+      "attack": 136.66919900000002,
+      "defense": 354.601585,
+      "specialized": 0.144
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9567.2878972,
+      "attack": 138.0032289,
+      "defense": 358.0627505,
+      "specialized": 0.144
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9658.7303516,
+      "attack": 139.3222697,
+      "defense": 361.4850265,
+      "specialized": 0.144
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9751.2119248,
+      "attack": 140.6562996,
+      "defense": 364.946192,
+      "specialized": 0.144
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9843.693498,
+      "attack": 141.9903295,
+      "defense": 368.4073575,
+      "specialized": 0.144
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9935.1359524,
+      "attack": 143.3093703,
+      "defense": 371.8296335,
+      "specialized": 0.144
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 10027.617525599999,
+      "attack": 144.6434002,
+      "defense": 375.29079899999994,
+      "specialized": 0.144
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 10120.0990988,
+      "attack": 145.9774301,
+      "defense": 378.7519645,
+      "specialized": 0.144
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 10212.580672,
+      "attack": 147.31146,
+      "defense": 382.21313,
+      "specialized": 0.144
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10938.1060452,
+      "attack": 157.77635990000002,
+      "defense": 409.36679549999997,
+      "specialized": 0.216
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 11031.6267372,
+      "attack": 159.12537890000002,
+      "defense": 412.86685049999994,
+      "specialized": 0.216
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 11124.108310399999,
+      "attack": 160.4594088,
+      "defense": 416.328016,
+      "specialized": 0.216
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 11216.5898836,
+      "attack": 161.7934387,
+      "defense": 419.7891815,
+      "specialized": 0.216
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 11310.1105756,
+      "attack": 163.1424577,
+      "defense": 423.28923649999996,
+      "specialized": 0.216
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 11402.5921488,
+      "attack": 164.4764876,
+      "defense": 426.75040199999995,
+      "specialized": 0.216
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 11496.112840799999,
+      "attack": 165.8255066,
+      "defense": 430.250457,
+      "specialized": 0.216
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11589.633532799999,
+      "attack": 167.1745256,
+      "defense": 433.75051199999996,
+      "specialized": 0.216
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11683.1542248,
+      "attack": 168.5235446,
+      "defense": 437.250567,
+      "specialized": 0.216
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11776.6749168,
+      "attack": 169.8725636,
+      "defense": 440.75062199999996,
+      "specialized": 0.216
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 12503.2392088,
+      "attack": 180.3524566,
+      "defense": 467.943177,
+      "specialized": 0.288
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12596.7599008,
+      "attack": 181.7014756,
+      "defense": 471.44323199999997,
+      "specialized": 0.288
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12690.2805928,
+      "attack": 183.0504946,
+      "defense": 474.94328699999994,
+      "specialized": 0.288
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12783.8012848,
+      "attack": 184.3995136,
+      "defense": 478.44334200000003,
+      "specialized": 0.288
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12877.3219768,
+      "attack": 185.7485326,
+      "defense": 481.943397,
+      "specialized": 0.288
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12971.881787600001,
+      "attack": 187.1125407,
+      "defense": 485.4823415000001,
+      "specialized": 0.288
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 13065.402479600001,
+      "attack": 188.4615597,
+      "defense": 488.98239650000005,
+      "specialized": 0.288
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 13159.9622904,
+      "attack": 189.8255678,
+      "defense": 492.521341,
+      "specialized": 0.288
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 13254.522101199998,
+      "attack": 191.18957589999997,
+      "defense": 496.06028549999996,
+      "specialized": 0.288
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 13348.0427932,
+      "attack": 192.53859490000002,
+      "defense": 499.56034050000005,
+      "specialized": 0.288
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3586.4246071999996,
+      "attack": 51.7325844,
+      "defense": 134.22436299999998,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5999.4787716,
+      "attack": 86.5397847,
+      "defense": 224.53457650000001,
+      "specialized": 0.072
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7746.5314088,
+      "attack": 111.7398116,
+      "defense": 289.91955199999995,
+      "specialized": 0.144
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 9291.9214152,
+      "attack": 134.0311174,
+      "defense": 347.757033,
+      "specialized": 0.144
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10845.624472,
+      "attack": 156.44233000000003,
+      "defense": 405.90563,
+      "specialized": 0.216
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 12409.7185168,
+      "attack": 179.0034376,
+      "defense": 464.443122,
+      "specialized": 0.288
+    }
+  }
+}

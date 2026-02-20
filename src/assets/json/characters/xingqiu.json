@@ -1,0 +1,1656 @@
+{
+  "profile": {
+    "id": 10000025,
+    "name": "Xingqiu",
+    "title": "Juvenile Galant",
+    "description": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "weaponText": "Sword",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "10/9",
+    "birthday": "October 9",
+    "elementType": "ELEMENT_HYDRO",
+    "elementText": "Hydro",
+    "affiliation": "Feiyun Commerce Guild",
+    "associationType": "ASSOC_LIYUE",
+    "region": "Liyue",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Fabulae Textile",
+    "cv": {
+      "english": "Cristina Vee Valenzuela",
+      "chinese": "唐雅菁",
+      "japanese": "皆川純子",
+      "korean": "Kwak Kyu-mi"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104121,
+          "name": "Varunada Lazurite Sliver",
+          "count": 1
+        },
+        {
+          "id": 100029,
+          "name": "Silk Flower",
+          "count": 3
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 3
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 2
+        },
+        {
+          "id": 100029,
+          "name": "Silk Flower",
+          "count": 10
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 6
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 4
+        },
+        {
+          "id": 100029,
+          "name": "Silk Flower",
+          "count": 20
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 3
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 8
+        },
+        {
+          "id": 100029,
+          "name": "Silk Flower",
+          "count": 30
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 6
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 12
+        },
+        {
+          "id": 100029,
+          "name": "Silk Flower",
+          "count": 45
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104124,
+          "name": "Varunada Lazurite Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 20
+        },
+        {
+          "id": 100029,
+          "name": "Silk Flower",
+          "count": 60
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Xingqiu_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Character_Xingqiu_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/4569d28adb1d8fa4394b8d02886abe7a_3572531197847481774.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/20/a8aeddaeb014bd3a5c84bbdacbe5b1b6_3612497182577554079.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/fa6b94ec6e93d14eef913e441213ffc1.png",
+      "filename_icon": "UI_AvatarIcon_Xingqiu",
+      "filename_iconCard": "UI_AvatarIcon_Xingqiu_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Xingqiu",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Xingqiu",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xingqiu",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xingqiu.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xingqiu_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Xingqiu"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 2501,
+    "name": "Xingqiu",
+    "combat1": {
+      "name": "Guhua Style",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "5-Hit DMG|{param6:F1P}+{param7:F1P}",
+          "Charged Attack DMG|{param8:F1P}+{param9:F1P}",
+          "Charged Attack Stamina Cost|{param10:F1}",
+          "Plunge DMG|{param11:F1P}",
+          "Low/High Plunge DMG|{param12:P}/{param13:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.46612,
+            0.50406,
+            0.542,
+            0.5962,
+            0.63414,
+            0.6775,
+            0.73712,
+            0.79674,
+            0.85636,
+            0.9214,
+            0.995925,
+            1.083566,
+            1.171208,
+            1.258849,
+            1.354458
+          ],
+          "param2": [
+            0.47644,
+            0.51522,
+            0.554,
+            0.6094,
+            0.64818,
+            0.6925,
+            0.75344,
+            0.81438,
+            0.87532,
+            0.9418,
+            1.017975,
+            1.107557,
+            1.197139,
+            1.28672,
+            1.384446
+          ],
+          "param3": [
+            0.28552,
+            0.30876,
+            0.332,
+            0.3652,
+            0.38844,
+            0.415,
+            0.45152,
+            0.48804,
+            0.52456,
+            0.5644,
+            0.61005,
+            0.663734,
+            0.717419,
+            0.771103,
+            0.829668
+          ],
+          "param4": [
+            0.28552,
+            0.30876,
+            0.332,
+            0.3652,
+            0.38844,
+            0.415,
+            0.45152,
+            0.48804,
+            0.52456,
+            0.5644,
+            0.61005,
+            0.663734,
+            0.717419,
+            0.771103,
+            0.829668
+          ],
+          "param5": [
+            0.55986,
+            0.60543,
+            0.651,
+            0.7161,
+            0.76167,
+            0.81375,
+            0.88536,
+            0.95697,
+            1.02858,
+            1.1067,
+            1.196212,
+            1.301479,
+            1.406746,
+            1.512013,
+            1.626849
+          ],
+          "param6": [
+            0.35862,
+            0.38781,
+            0.417,
+            0.4587,
+            0.48789,
+            0.52125,
+            0.56712,
+            0.61299,
+            0.65886,
+            0.7089,
+            0.766237,
+            0.833666,
+            0.901095,
+            0.968524,
+            1.042083
+          ],
+          "param7": [
+            0.35862,
+            0.38781,
+            0.417,
+            0.4587,
+            0.48789,
+            0.52125,
+            0.56712,
+            0.61299,
+            0.65886,
+            0.7089,
+            0.766237,
+            0.833666,
+            0.901095,
+            0.968524,
+            1.042083
+          ],
+          "param8": [
+            0.473,
+            0.5115,
+            0.55,
+            0.605,
+            0.6435,
+            0.6875,
+            0.748,
+            0.8085,
+            0.869,
+            0.935,
+            1.010625,
+            1.09956,
+            1.188495,
+            1.27743,
+            1.37445
+          ],
+          "param9": [
+            0.56158,
+            0.60729,
+            0.653,
+            0.7183,
+            0.76401,
+            0.81625,
+            0.88808,
+            0.95991,
+            1.03174,
+            1.1101,
+            1.199887,
+            1.305478,
+            1.411068,
+            1.516658,
+            1.631847
+          ],
+          "param10": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param11": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param12": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param13": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Guhua Sword: Fatal Rainscreen",
+      "descriptionRaw": "Xingqiu performs twin strikes with his sword, dealing <color=#80C0FFFF>Hydro DMG</color>. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character.\nThe Rain Swords have the following properties:\n·When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.\n·Increases the character's resistance to interruption.\n\n20% of Xingqiu's <color=#80C0FFFF>Hydro DMG Bonus</color> will be converted to additional DMG Reduction for the Rain Swords.\n\nThe maximum amount of additional DMG Reduction that can be gained this way is 24%.\nThe initial maximum number of Rain Swords is 3.\nUsing this ability applies the <color=#80C0FFFF>Wet</color> status onto the character.\n\n<i>\"Easier to slay a rain dragon than to sever the rain.\"</i>",
+      "description": "Xingqiu performs twin strikes with his sword, dealing Hydro DMG. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character.\nThe Rain Swords have the following properties:\n·When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.\n·Increases the character's resistance to interruption.\n\n20% of Xingqiu's Hydro DMG Bonus will be converted to additional DMG Reduction for the Rain Swords.\n\nThe maximum amount of additional DMG Reduction that can be gained this way is 24%.\nThe initial maximum number of Rain Swords is 3.\nUsing this ability applies the Wet status onto the character.",
+      "flavorText": "\"Easier to slay a rain dragon than to sever the rain.\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}+{param2:P}",
+          "Damage Reduction Ratio|{param3:P}",
+          "Duration|{param4:F1}s",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.68,
+            1.806,
+            1.932,
+            2.1,
+            2.226,
+            2.352,
+            2.52,
+            2.688,
+            2.856,
+            3.024,
+            3.192,
+            3.36,
+            3.57,
+            3.78,
+            3.99
+          ],
+          "param2": [
+            1.912,
+            2.0554,
+            2.1988,
+            2.39,
+            2.5334,
+            2.6768,
+            2.868,
+            3.0592,
+            3.2504,
+            3.4416,
+            3.6328,
+            3.824,
+            4.063,
+            4.302,
+            4.541
+          ],
+          "param3": [
+            0.2,
+            0.21,
+            0.22,
+            0.23,
+            0.24,
+            0.25,
+            0.26,
+            0.27,
+            0.28,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Guhua Sword: Raincutter",
+      "descriptionRaw": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.\n\n<color=#FFD780FF>Rainbow Bladework</color>\n·Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing <color=#80C0FFFF>Hydro DMG</color>.\n·Rain Swords will remain at the maximum number throughout the ability's duration.\n\n<i>The \"Way of the Rain Cutter\" is one of the esoteric secret techniques of the Guhua Sect.</i>",
+      "description": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.\n\nRainbow Bladework\n·Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing Hydro DMG.\n·Rain Swords will remain at the maximum number throughout the ability's duration.",
+      "flavorText": "The \"Way of the Rain Cutter\" is one of the esoteric secret techniques of the Guhua Sect.",
+      "attributes": {
+        "labels": [
+          "Sword Rain DMG|{param1:F1P}",
+          "Duration|{param2:F1}s",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.54272,
+            0.583424,
+            0.624128,
+            0.6784,
+            0.719104,
+            0.759808,
+            0.81408,
+            0.868352,
+            0.922624,
+            0.976896,
+            1.031168,
+            1.08544,
+            1.15328,
+            1.22112,
+            1.28896
+          ],
+          "param2": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param3": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param4": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Hydropathic",
+      "descriptionRaw": "When a Rain Sword is shattered or when its duration expires, it regenerates the current character's HP based on 6% of Xingqiu's Max HP.",
+      "description": "When a Rain Sword is shattered or when its duration expires, it regenerates the current character's HP based on 6% of Xingqiu's Max HP."
+    },
+    "passive2": {
+      "name": "Blades Amidst Raindrops",
+      "descriptionRaw": "Xingqiu gains a 20% <color=#80C0FFFF>Hydro DMG Bonus</color>.",
+      "description": "Xingqiu gains a 20% Hydro DMG Bonus."
+    },
+    "passive3": {
+      "name": "Flash of Genius",
+      "descriptionRaw": "When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used.",
+      "description": "When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104316,
+          "name": "Teachings of Gold",
+          "count": 3
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 2
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 4
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 6
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 9
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 4
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 4
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 6
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 6
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 12
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 9
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 16
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 12
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_01",
+      "filename_combat2": "Skill_S_Xingqiu_01",
+      "filename_combat3": "Skill_E_Xingqiu_01_HD",
+      "filename_passive1": "UI_Talent_S_Xingqiu_05",
+      "filename_passive2": "UI_Talent_S_Xingqiu_06",
+      "filename_passive3": "UI_Talent_Combine_Talent"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 2501,
+    "name": "Xingqiu",
+    "c1": {
+      "name": "The Scent Remained",
+      "descriptionRaw": "Increases the maximum number of Rain Swords by 1.",
+      "description": "Increases the maximum number of Rain Swords by 1."
+    },
+    "c2": {
+      "name": "Rainbow Upon the Azure Sky",
+      "descriptionRaw": "Extends the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3s.\nDecreases the <color=#80C0FFFF>Hydro RES</color> of opponents hit by sword rain attacks by 15% for 4s.",
+      "description": "Extends the duration of Guhua Sword: Raincutter by 3s.\nDecreases the Hydro RES of opponents hit by sword rain attacks by 15% for 4s."
+    },
+    "c3": {
+      "name": "Weaver of Verses",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Guhua Sword: Raincutter by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Evilsoother",
+      "descriptionRaw": "Throughout the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color>, the DMG dealt by <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> is increased by 50%.",
+      "description": "Throughout the duration of Guhua Sword: Raincutter, the DMG dealt by Guhua Sword: Fatal Rainscreen is increased by 50%."
+    },
+    "c5": {
+      "name": "Embrace of Rain",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Guhua Sword: Fatal Rainscreen by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Hence, Call Them My Own Verses",
+      "descriptionRaw": "Activating 2 of <color=#FFD780FF>Guhua Sword: Raincutter</color>'s sword rain attacks greatly enhances the third sword rain attack. On hit, the third sword rain attack also regenerates 3 Energy for Xingqiu.",
+      "description": "Activating 2 of Guhua Sword: Raincutter's sword rain attacks greatly enhances the third sword rain attack. On hit, the third sword rain attack also regenerates 3 Energy for Xingqiu."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Xingqiu_01",
+      "filename_c2": "UI_Talent_S_Xingqiu_02",
+      "filename_c3": "UI_Talent_U_Xingqiu_01",
+      "filename_c4": "UI_Talent_S_Xingqiu_03",
+      "filename_c5": "UI_Talent_U_Xingqiu_02",
+      "filename_c6": "UI_Talent_S_Xingqiu_04",
+      "filename_constellation": "Eff_UI_Talent_Xingqiu"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 857.08356,
+      "attack": 16.9176,
+      "defense": 63.51975,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 928.22149548,
+      "attack": 18.3217608,
+      "defense": 68.79188925,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 998.5023474000001,
+      "attack": 19.709004,
+      "defense": 74.00050875000001,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1069.64028288,
+      "attack": 21.1131648,
+      "defense": 79.272648,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1139.9211348000001,
+      "attack": 22.500408,
+      "defense": 84.4812675,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1211.05907028,
+      "attack": 23.9045688,
+      "defense": 89.75340675000001,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1281.3399222,
+      "attack": 25.291812000000004,
+      "defense": 94.96202625000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1352.4778576800002,
+      "attack": 26.6959728,
+      "defense": 100.2341655,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1423.61579316,
+      "attack": 28.1001336,
+      "defense": 105.50630475,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1493.89664508,
+      "attack": 29.487376800000003,
+      "defense": 110.71492425000001,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1565.0345805600002,
+      "attack": 30.891537600000003,
+      "defense": 115.9870635,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1635.31543248,
+      "attack": 32.2787808,
+      "defense": 121.195683,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1706.4533679600002,
+      "attack": 33.6829416,
+      "defense": 126.46782225000001,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1776.73421988,
+      "attack": 35.0701848,
+      "defense": 131.67644175,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1847.87215536,
+      "attack": 36.4743456,
+      "defense": 136.94858100000002,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1919.01009084,
+      "attack": 37.8785064,
+      "defense": 142.22072025,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1989.2909427600002,
+      "attack": 39.26574960000001,
+      "defense": 147.42933975000003,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2060.42887824,
+      "attack": 40.6699104,
+      "defense": 152.701479,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2130.70973016,
+      "attack": 42.05715360000001,
+      "defense": 157.91009850000003,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2201.84766564,
+      "attack": 43.4613144,
+      "defense": 163.18223775,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2912.41381756,
+      "attack": 57.4871676,
+      "defense": 215.84335725,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2983.55175304,
+      "attack": 58.8913284,
+      "defense": 221.1154965,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3054.6896885200003,
+      "attack": 60.295489200000006,
+      "defense": 226.38763575000002,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3124.97054044,
+      "attack": 61.6827324,
+      "defense": 231.59625525,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3196.1084759200003,
+      "attack": 63.086893200000006,
+      "defense": 236.86839450000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3266.38932784,
+      "attack": 64.47413639999999,
+      "defense": 242.07701400000002,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3337.5272633199997,
+      "attack": 65.87829719999999,
+      "defense": 247.34915324999997,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3407.80811524,
+      "attack": 67.26554039999999,
+      "defense": 252.55777275000003,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3478.94605072,
+      "attack": 68.66970119999999,
+      "defense": 257.829912,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3549.2269026400004,
+      "attack": 70.0569444,
+      "defense": 263.03853150000003,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3620.36483812,
+      "attack": 71.46110519999999,
+      "defense": 268.31067075,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3691.5027736,
+      "attack": 72.86526599999999,
+      "defense": 273.58281,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3761.78362552,
+      "attack": 74.25250919999999,
+      "defense": 278.7914295,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3832.921561,
+      "attack": 75.65667,
+      "defense": 284.06356875,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3903.20241292,
+      "attack": 77.0439132,
+      "defense": 289.27218825,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3974.3403484,
+      "attack": 78.448074,
+      "defense": 294.5443275,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4044.6212003200003,
+      "attack": 79.8353172,
+      "defense": 299.752947,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4115.7591358,
+      "attack": 81.23947799999999,
+      "defense": 305.02508624999996,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4186.89707128,
+      "attack": 82.6436388,
+      "defense": 310.29722549999997,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4257.1779232,
+      "attack": 84.03088199999999,
+      "defense": 315.50584499999997,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4783.25545868,
+      "attack": 94.4151078,
+      "defense": 354.49423425,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4853.5363105999995,
+      "attack": 95.80235099999999,
+      "defense": 359.70285375,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4924.67424608,
+      "attack": 97.2065118,
+      "defense": 364.974993,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4994.955098,
+      "attack": 98.59375499999999,
+      "defense": 370.1836125,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5066.0930334800005,
+      "attack": 99.9979158,
+      "defense": 375.45575175,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5137.230968960001,
+      "attack": 101.4020766,
+      "defense": 380.727891,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5207.51182088,
+      "attack": 102.7893198,
+      "defense": 385.9365105,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5278.6497563600005,
+      "attack": 104.1934806,
+      "defense": 391.20864975,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5348.93060828,
+      "attack": 105.5807238,
+      "defense": 396.41726925,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5420.0685437600005,
+      "attack": 106.9848846,
+      "defense": 401.6894085,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6096.9353956800005,
+      "attack": 120.34554680000001,
+      "defense": 451.853028,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6168.07333116,
+      "attack": 121.74970760000001,
+      "defense": 457.12516725,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6239.211266639999,
+      "attack": 123.1538684,
+      "defense": 462.3973065,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6309.49211856,
+      "attack": 124.54111160000001,
+      "defense": 467.60592600000007,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6380.630054040001,
+      "attack": 125.9452724,
+      "defense": 472.87806524999996,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6450.91090596,
+      "attack": 127.33251560000001,
+      "defense": 478.08668475,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6522.048841440001,
+      "attack": 128.7366764,
+      "defense": 483.358824,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6592.329693360001,
+      "attack": 130.12391960000002,
+      "defense": 488.5674435000001,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6663.4676288400005,
+      "attack": 131.5280804,
+      "defense": 493.83958275,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6734.60556432,
+      "attack": 132.93224120000002,
+      "defense": 499.111722,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7259.82601624,
+      "attack": 143.2995504,
+      "defense": 538.0365915,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7330.96395172,
+      "attack": 144.7037112,
+      "defense": 543.30873075,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7401.24480364,
+      "attack": 146.0909544,
+      "defense": 548.51735025,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7472.38273912,
+      "attack": 147.4951152,
+      "defense": 553.7894895000001,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7542.66359104,
+      "attack": 148.8823584,
+      "defense": 558.998109,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7613.80152652,
+      "attack": 150.2865192,
+      "defense": 564.27024825,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7684.939462,
+      "attack": 151.69068,
+      "defense": 569.5423875,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7755.22031392,
+      "attack": 153.0779232,
+      "defense": 574.7510070000001,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7826.3582494,
+      "attack": 154.482084,
+      "defense": 580.0231462500001,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7896.63910132,
+      "attack": 155.8693272,
+      "defense": 585.23176575,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8422.7165368,
+      "attack": 166.25355100000002,
+      "defense": 624.220145,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8492.997388720001,
+      "attack": 167.64079420000002,
+      "defense": 629.4287644999999,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8564.1353242,
+      "attack": 169.04495500000002,
+      "defense": 634.70090375,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8635.27325968,
+      "attack": 170.4491158,
+      "defense": 639.973043,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8705.5541116,
+      "attack": 171.83635900000002,
+      "defense": 645.1816625,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8776.69204708,
+      "attack": 173.2405198,
+      "defense": 650.4538017499999,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8846.972899,
+      "attack": 174.62776300000002,
+      "defense": 655.6624212500001,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8918.11083448,
+      "attack": 176.0319238,
+      "defense": 660.9345605,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8988.3916864,
+      "attack": 177.41916700000002,
+      "defense": 666.14318,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9059.52962188,
+      "attack": 178.8233278,
+      "defense": 671.41531925,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9585.60715736,
+      "attack": 189.20755559999998,
+      "defense": 710.4037185,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9655.88800928,
+      "attack": 190.59479879999998,
+      "defense": 715.612338,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9727.02594476,
+      "attack": 191.99895959999998,
+      "defense": 720.88447725,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9797.30679668,
+      "attack": 193.38620279999998,
+      "defense": 726.09309675,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9868.44473216,
+      "attack": 194.79036359999998,
+      "defense": 731.365236,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9938.72558408,
+      "attack": 196.17760680000004,
+      "defense": 736.5738555,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10009.86351956,
+      "attack": 197.58176760000003,
+      "defense": 741.8459947500002,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 10080.14437148,
+      "attack": 198.96901079999998,
+      "defense": 747.05461425,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 10151.282306960002,
+      "attack": 200.37317159999998,
+      "defense": 752.3267535000001,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 10222.420242440001,
+      "attack": 201.77733240000003,
+      "defense": 757.5988927500001,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2842.13296564,
+      "attack": 56.0999244,
+      "defense": 210.63473775,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4712.1175232,
+      "attack": 93.01094699999999,
+      "defense": 349.22209499999997,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6026.65454376,
+      "attack": 118.95830360000001,
+      "defense": 446.64440850000005,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7189.54516432,
+      "attack": 141.9123072,
+      "defense": 532.827972,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8351.57860132,
+      "attack": 164.84939020000002,
+      "defense": 618.94800575,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9514.469221880001,
+      "attack": 187.80339479999998,
+      "defense": 705.13157925,
+      "specialized": 0.24
+    }
+  }
+}

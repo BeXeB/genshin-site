@@ -1,0 +1,1780 @@
+{
+  "profile": {
+    "id": 10000053,
+    "name": "Sayu",
+    "title": "Mujina Ninja",
+    "description": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+    "weaponType": "WEAPON_CLAYMORE",
+    "weaponText": "Claymore",
+    "bodyType": "BODY_LOLI",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "10/19",
+    "birthday": "October 19",
+    "elementType": "ELEMENT_ANEMO",
+    "elementText": "Anemo",
+    "affiliation": "Shuumatsuban",
+    "associationType": "ASSOC_INAZUMA",
+    "region": "Inazuma",
+    "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
+    "substatText": "Elemental Mastery",
+    "constellation": "Nyctereutes Minor",
+    "cv": {
+      "english": "Lilypichu (Lily Ki)",
+      "chinese": "Sakula小舞",
+      "japanese": "洲崎綾",
+      "korean": "Lee Ji-hyeon"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104151,
+          "name": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": 101203,
+          "name": "Crystal Marrow",
+          "count": 3
+        },
+        {
+          "id": 112038,
+          "name": "Whopperflower Nectar",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": 113022,
+          "name": "Marionette Core",
+          "count": 2
+        },
+        {
+          "id": 101203,
+          "name": "Crystal Marrow",
+          "count": 10
+        },
+        {
+          "id": 112038,
+          "name": "Whopperflower Nectar",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": 113022,
+          "name": "Marionette Core",
+          "count": 4
+        },
+        {
+          "id": 101203,
+          "name": "Crystal Marrow",
+          "count": 20
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": 113022,
+          "name": "Marionette Core",
+          "count": 8
+        },
+        {
+          "id": 101203,
+          "name": "Crystal Marrow",
+          "count": 30
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": 113022,
+          "name": "Marionette Core",
+          "count": 12
+        },
+        {
+          "id": 101203,
+          "name": "Crystal Marrow",
+          "count": 45
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104154,
+          "name": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113022,
+          "name": "Marionette Core",
+          "count": 20
+        },
+        {
+          "id": 101203,
+          "name": "Crystal Marrow",
+          "count": 60
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/982542a6c0e2dfb628a4f087fa6bde5d_2557212138563128041.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/495b155d1878702b72fed652e17ae61c_4028255231138738337.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/94b60ed23cb102d39f99335e9658b17d.png",
+      "filename_icon": "UI_AvatarIcon_Sayu",
+      "filename_iconCard": "UI_AvatarIcon_Sayu_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Sayu",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Sayu",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sayu",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Sayu.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Sayu_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Sayu"
+    },
+    "version": "2.0"
+  },
+  "skills": {
+    "id": 5301,
+    "name": "Sayu",
+    "combat1": {
+      "name": "Shuumatsuban Ninja Blade",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "Charged Attack Spinning DMG|{param6:F1P}",
+          "Charged Attack Final DMG|{param7:P}",
+          "Charged Attack Stamina Cost|{param8:F1}/s",
+          "Max Duration|{param9:F1}s",
+          "Plunge DMG|{param10:F1P}",
+          "Low/High Plunge DMG|{param11:P}/{param12:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.7224,
+            0.7812,
+            0.84,
+            0.924,
+            0.9828,
+            1.05,
+            1.1424,
+            1.2348,
+            1.3272,
+            1.428,
+            1.5435,
+            1.679328,
+            1.815156,
+            1.950984,
+            2.09916
+          ],
+          "param2": [
+            0.7138,
+            0.7719,
+            0.83,
+            0.913,
+            0.9711,
+            1.0375,
+            1.1288,
+            1.2201,
+            1.3114,
+            1.411,
+            1.525125,
+            1.659336,
+            1.793547,
+            1.927758,
+            2.07417
+          ],
+          "param3": [
+            0.4343,
+            0.46965,
+            0.505,
+            0.5555,
+            0.59085,
+            0.63125,
+            0.6868,
+            0.74235,
+            0.7979,
+            0.8585,
+            0.927937,
+            1.009596,
+            1.091255,
+            1.172913,
+            1.261995
+          ],
+          "param4": [
+            0.4343,
+            0.46965,
+            0.505,
+            0.5555,
+            0.59085,
+            0.63125,
+            0.6868,
+            0.74235,
+            0.7979,
+            0.8585,
+            0.927937,
+            1.009596,
+            1.091255,
+            1.172913,
+            1.261995
+          ],
+          "param5": [
+            0.98126,
+            1.06113,
+            1.141,
+            1.2551,
+            1.33497,
+            1.42625,
+            1.55176,
+            1.67727,
+            1.80278,
+            1.9397,
+            2.096588,
+            2.281087,
+            2.465587,
+            2.650087,
+            2.851359
+          ],
+          "param6": [
+            0.625455,
+            0.676364,
+            0.727273,
+            0.8,
+            0.850909,
+            0.909091,
+            0.989091,
+            1.069091,
+            1.149091,
+            1.236364,
+            1.336364,
+            1.453964,
+            1.571564,
+            1.689164,
+            1.817455
+          ],
+          "param7": [
+            1.1309,
+            1.22295,
+            1.315,
+            1.4465,
+            1.53855,
+            1.64375,
+            1.7884,
+            1.93305,
+            2.0777,
+            2.2355,
+            2.416313,
+            2.628948,
+            2.841584,
+            3.054219,
+            3.286185
+          ],
+          "param8": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "param9": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param10": [
+            0.745878,
+            0.806589,
+            0.8673,
+            0.95403,
+            1.014741,
+            1.084125,
+            1.179528,
+            1.274931,
+            1.370334,
+            1.47441,
+            1.578486,
+            1.682562,
+            1.786638,
+            1.890714,
+            1.99479
+          ],
+          "param11": [
+            1.49144,
+            1.612836,
+            1.734233,
+            1.907656,
+            2.029052,
+            2.167791,
+            2.358556,
+            2.549322,
+            2.740087,
+            2.948195,
+            3.156303,
+            3.364411,
+            3.572519,
+            3.780627,
+            3.988735
+          ],
+          "param12": [
+            1.862889,
+            2.01452,
+            2.16615,
+            2.382765,
+            2.534396,
+            2.707688,
+            2.945964,
+            3.184241,
+            3.422517,
+            3.682455,
+            3.942393,
+            4.202331,
+            4.462269,
+            4.722207,
+            4.982145
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Yoohoo Art: Fuuin Dash",
+      "descriptionRaw": "#The special technique of the Yoohoo Ninja Arts!\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing <color=#80FFD7FF>Anemo DMG</color>. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing <color=#80FFD7FF>AoE Anemo DMG</color>.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\n\n<color=#FFD780FF>Hold</color>\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\nThe Hold version of this skill can trigger Elemental Absorption.\n\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf Sayu comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> while in her Windwheel state, she will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use of this skill.\n\n<i>Sayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.</i>",
+      "description": "The special technique of the Yoohoo Ninja Arts!\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing Anemo DMG. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing AoE Anemo DMG.\n\nPress\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\n\nHold\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\nThe Hold version of this skill can trigger Elemental Absorption.\n\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\n\nElemental Absorption\nIf Sayu comes into contact with Hydro/Pyro/Cryo/Electro while in her Windwheel state, she will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use of this skill.",
+      "flavorText": "Sayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.",
+      "attributes": {
+        "labels": [
+          "Fuufuu Windwheel DMG|{param1:F1P}",
+          "Fuufuu Whirlwind Kick Press DMG|{param3:F1P}",
+          "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+          "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+          "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+          "Max Duration (Hold)|{param6:F1}s",
+          "CD|{param7:F1} to {param8:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.36,
+            0.387,
+            0.414,
+            0.45,
+            0.477,
+            0.504,
+            0.54,
+            0.576,
+            0.612,
+            0.648,
+            0.684,
+            0.72,
+            0.765,
+            0.81,
+            0.855
+          ],
+          "param2": [
+            0.168,
+            0.1806,
+            0.1932,
+            0.21,
+            0.2226,
+            0.2352,
+            0.252,
+            0.2688,
+            0.2856,
+            0.3024,
+            0.3192,
+            0.336,
+            0.357,
+            0.378,
+            0.399
+          ],
+          "param3": [
+            1.584,
+            1.7028,
+            1.8216,
+            1.98,
+            2.0988,
+            2.2176,
+            2.376,
+            2.5344,
+            2.6928,
+            2.8512,
+            3.0096,
+            3.168,
+            3.366,
+            3.564,
+            3.762
+          ],
+          "param4": [
+            2.176,
+            2.3392,
+            2.5024,
+            2.72,
+            2.8832,
+            3.0464,
+            3.264,
+            3.4816,
+            3.6992,
+            3.9168,
+            4.1344,
+            4.352,
+            4.624,
+            4.896,
+            5.168
+          ],
+          "param5": [
+            0.7616,
+            0.81872,
+            0.87584,
+            0.952,
+            1.00912,
+            1.06624,
+            1.1424,
+            1.21856,
+            1.29472,
+            1.37088,
+            1.44704,
+            1.5232,
+            1.6184,
+            1.7136,
+            1.8088
+          ],
+          "param6": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "param7": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param8": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Yoohoo Art: Mujina Flurry",
+      "descriptionRaw": "The other super special technique of the Yoohoo Ninja Arts! It summons a pair of helping hands for Sayu.\nDeals <color=#80FFD7FF>Anemo DMG</color> to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.\n\n<color=#FFD780FF>Muji-Muji Daruma</color>\nAt specific intervals, the Daruma will take one of several actions based on the situation around it:\n·If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing <color=#80FFD7FF>Anemo DMG</color>.\n·If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.\n\n<i>People who don't know the first thing about ninjutsu love to watch Sayu show off this skill, and some have tried to learn it from her. But Sayu just wants to sleep and not be disturbed.</i>",
+      "description": "The other super special technique of the Yoohoo Ninja Arts! It summons a pair of helping hands for Sayu.\nDeals Anemo DMG to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.\n\nMuji-Muji Daruma\nAt specific intervals, the Daruma will take one of several actions based on the situation around it:\n·If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing Anemo DMG.\n·If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.",
+      "flavorText": "People who don't know the first thing about ninjutsu love to watch Sayu show off this skill, and some have tried to learn it from her. But Sayu just wants to sleep and not be disturbed.",
+      "attributes": {
+        "labels": [
+          "Skill Activation DMG|{param1:P}",
+          "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+          "Muji-Muji Daruma DMG|{param4:P}",
+          "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+          "Duration|{param7:F1}s",
+          "CD|{param8:F1}s",
+          "Energy Cost|{param9:I}"
+        ],
+        "parameters": {
+          "param1": [
+            1.168,
+            1.2556,
+            1.3432,
+            1.46,
+            1.5476,
+            1.6352,
+            1.752,
+            1.8688,
+            1.9856,
+            2.1024,
+            2.2192,
+            2.336,
+            2.482,
+            2.628,
+            2.774
+          ],
+          "param2": [
+            577.3388,
+            635.0807,
+            697.63446,
+            765,
+            837.17737,
+            914.16656,
+            995.96765,
+            1082.5804,
+            1174.0051,
+            1270.2417,
+            1371.29,
+            1477.1501,
+            1587.8221,
+            1703.3059,
+            1823.6016
+          ],
+          "param3": [
+            0.9216,
+            0.99072,
+            1.05984,
+            1.152,
+            1.22112,
+            1.29024,
+            1.3824,
+            1.47456,
+            1.56672,
+            1.65888,
+            1.75104,
+            1.8432,
+            1.9584,
+            2.0736,
+            2.1888
+          ],
+          "param4": [
+            0.52,
+            0.559,
+            0.598,
+            0.65,
+            0.689,
+            0.728,
+            0.78,
+            0.832,
+            0.884,
+            0.936,
+            0.988,
+            1.04,
+            1.105,
+            1.17,
+            1.235
+          ],
+          "param5": [
+            500.3603,
+            550.40326,
+            604.6165,
+            663,
+            725.5537,
+            792.2777,
+            863.17194,
+            938.2364,
+            1017.4711,
+            1100.8761,
+            1188.4513,
+            1280.1968,
+            1376.1125,
+            1476.1985,
+            1580.4547
+          ],
+          "param6": [
+            0.79872,
+            0.858624,
+            0.918528,
+            0.9984,
+            1.058304,
+            1.118208,
+            1.19808,
+            1.277952,
+            1.357824,
+            1.437696,
+            1.517568,
+            1.59744,
+            1.69728,
+            1.79712,
+            1.89696
+          ],
+          "param7": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param8": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param9": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Someone More Capable",
+      "descriptionRaw": "When Sayu triggers a Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\nThis effect can be triggered once every 2s.",
+      "description": "When Sayu triggers a Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\nThis effect can be triggered once every 2s."
+    },
+    "passive2": {
+      "name": "No Work Today!",
+      "descriptionRaw": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> gains the following effects:\n·When healing a character, it will also heal characters near that healed character for 20% the amount of HP.\n·Increases the AoE of its attack against opponents.",
+      "description": "The Muji-Muji Daruma created by Yoohoo Art: Mujina Flurry gains the following effects:\n·When healing a character, it will also heal characters near that healed character for 20% the amount of HP.\n·Increases the AoE of its attack against opponents."
+    },
+    "passive3": {
+      "name": "Yoohoo Art: Silencer's Secret",
+      "descriptionRaw": "When Sayu is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
+      "description": "When Sayu is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104326,
+          "name": "Teachings of Light",
+          "count": 3
+        },
+        {
+          "id": 112038,
+          "name": "Whopperflower Nectar",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 2
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 4
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 6
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 9
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 4
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 4
+        },
+        {
+          "id": 113019,
+          "name": "Gilded Scale",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 6
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 6
+        },
+        {
+          "id": 113019,
+          "name": "Gilded Scale",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 12
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 9
+        },
+        {
+          "id": 113019,
+          "name": "Gilded Scale",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 16
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 12
+        },
+        {
+          "id": 113019,
+          "name": "Gilded Scale",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_04",
+      "filename_combat2": "Skill_S_Sayu_01",
+      "filename_combat3": "Skill_E_Sayu_01_HD",
+      "filename_passive1": "UI_Talent_S_Sayu_05",
+      "filename_passive2": "UI_Talent_S_Sayu_06",
+      "filename_passive3": "UI_Talent_S_Sayu_07"
+    },
+    "version": "2.0"
+  },
+  "constellation": {
+    "id": 5301,
+    "name": "Sayu",
+    "c1": {
+      "name": "Multi-Task no Jutsu",
+      "descriptionRaw": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will ignore HP limits and can simultaneously attack nearby opponents and heal characters.",
+      "description": "The Muji-Muji Daruma created by Yoohoo Art: Mujina Flurry will ignore HP limits and can simultaneously attack nearby opponents and heal characters."
+    },
+    "c2": {
+      "name": "Egress Prep",
+      "descriptionRaw": "#<color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> gains the following effects:\n·DMG of Fuufuu Whirlwind Kick in {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode increased by 3.3%.\n·Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%.",
+      "description": "Yoohoo Art: Fuuin Dash gains the following effects:\n·DMG of Fuufuu Whirlwind Kick in Press Mode increased by 3.3%.\n·Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%."
+    },
+    "c3": {
+      "name": "Eh, the Bunshin Can Handle It",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Yoohoo Art: Mujina Flurry by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Skiving: New and Improved",
+      "descriptionRaw": "Sayu recovers 1.2 Energy when she triggers a Swirl reaction.\nThis effect occurs once every 2s.",
+      "description": "Sayu recovers 1.2 Energy when she triggers a Swirl reaction.\nThis effect occurs once every 2s."
+    },
+    "c5": {
+      "name": "Speed Comes First",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Yoohoo Art: Fuuin Dash by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Sleep O'Clock",
+      "descriptionRaw": "The Muji-Muji Daruma created by Sayu's <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\n·Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum DMG increase of 400% ATK can be gained via this method.\n·Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner.",
+      "description": "The Muji-Muji Daruma created by Sayu's Yoohoo Art: Mujina Flurry will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\n·Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum DMG increase of 400% ATK can be gained via this method.\n·Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Sayu_01",
+      "filename_c2": "UI_Talent_S_Sayu_02",
+      "filename_c3": "UI_Talent_U_Sayu_02",
+      "filename_c4": "UI_Talent_S_Sayu_03",
+      "filename_c5": "UI_Talent_U_Sayu_01",
+      "filename_c6": "UI_Talent_S_Sayu_04",
+      "filename_constellation": "Eff_UI_Talent_Sayu"
+    },
+    "version": "2.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 993.8522,
+      "attack": 20.4792,
+      "defense": 62.432476,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1076.3419326,
+      "attack": 22.1789736,
+      "defense": 67.614371508,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1157.837813,
+      "attack": 23.858268,
+      "defense": 72.73383454,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1240.3275456000001,
+      "attack": 25.5580416,
+      "defense": 77.915730048,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1321.8234260000002,
+      "attack": 27.237336,
+      "defense": 83.03519308,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1404.3131586000002,
+      "attack": 28.9371096,
+      "defense": 88.21708858800001,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1485.8090390000002,
+      "attack": 30.616404,
+      "defense": 93.33655162000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1568.2987716000002,
+      "attack": 32.316177599999996,
+      "defense": 98.518447128,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1650.7885042,
+      "attack": 34.015951199999996,
+      "defense": 103.700342636,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1732.2843846,
+      "attack": 35.6952456,
+      "defense": 108.81980566800001,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1814.7741172,
+      "attack": 37.3950192,
+      "defense": 114.00170117600001,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1896.2699976,
+      "attack": 39.074313599999996,
+      "defense": 119.121164208,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1978.7597302000001,
+      "attack": 40.7740872,
+      "defense": 124.303059716,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2060.2556106,
+      "attack": 42.45338159999999,
+      "defense": 129.422522748,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2142.7453432,
+      "attack": 44.1531552,
+      "defense": 134.604418256,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2225.2350758,
+      "attack": 45.852928799999994,
+      "defense": 139.786313764,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2306.7309562,
+      "attack": 47.5322232,
+      "defense": 144.90577679600003,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2389.2206888,
+      "attack": 49.2319968,
+      "defense": 150.087672304,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2470.7165692000003,
+      "attack": 50.9112912,
+      "defense": 155.20713533600002,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2553.2063018,
+      "attack": 52.611064799999994,
+      "defense": 160.389030844,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3377.1606821999994,
+      "attack": 69.5897292,
+      "defense": 212.148743876,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3459.6504148000004,
+      "attack": 71.2895028,
+      "defense": 217.33063938400002,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3542.1401474000004,
+      "attack": 72.9892764,
+      "defense": 222.51253489200002,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3623.6360278,
+      "attack": 74.6685708,
+      "defense": 227.63199792400002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3706.1257604,
+      "attack": 76.3683444,
+      "defense": 232.81389343200001,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3787.6216408,
+      "attack": 78.0476388,
+      "defense": 237.933356464,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3870.1113734,
+      "attack": 79.74741239999999,
+      "defense": 243.115251972,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3951.6072538,
+      "attack": 81.42670679999999,
+      "defense": 248.234715004,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4034.0969864,
+      "attack": 83.12648039999999,
+      "defense": 253.416610512,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4115.592866800001,
+      "attack": 84.8057748,
+      "defense": 258.53607354400003,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4198.0825994,
+      "attack": 86.5055484,
+      "defense": 263.717969052,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4280.572332,
+      "attack": 88.205322,
+      "defense": 268.89986456,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4362.0682124,
+      "attack": 89.88461639999998,
+      "defense": 274.01932759199997,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4444.5579450000005,
+      "attack": 91.58439,
+      "defense": 279.2012231,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4526.0538254,
+      "attack": 93.26368439999999,
+      "defense": 284.320686132,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4608.543558,
+      "attack": 94.96345799999999,
+      "defense": 289.50258164,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4690.0394384,
+      "attack": 96.64275239999999,
+      "defense": 294.622044672,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4772.529171,
+      "attack": 98.34252599999998,
+      "defense": 299.80394018,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4855.0189036,
+      "attack": 100.04229959999999,
+      "defense": 304.98583568799995,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4936.514784,
+      "attack": 101.72159399999998,
+      "defense": 310.10529871999995,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5546.5408166,
+      "attack": 114.29197260000001,
+      "defense": 348.426314228,
+      "specialized": 24
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5628.036697,
+      "attack": 115.97126699999998,
+      "defense": 353.54577726,
+      "specialized": 24
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5710.5264296000005,
+      "attack": 117.6710406,
+      "defense": 358.72767276800005,
+      "specialized": 24
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5792.02231,
+      "attack": 119.350335,
+      "defense": 363.84713580000005,
+      "specialized": 24
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5874.512042599999,
+      "attack": 121.05010859999999,
+      "defense": 369.02903130799996,
+      "specialized": 24
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5957.0017752,
+      "attack": 122.7498822,
+      "defense": 374.210926816,
+      "specialized": 24
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6038.4976556,
+      "attack": 124.4291766,
+      "defense": 379.330389848,
+      "specialized": 24
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6120.987388200001,
+      "attack": 126.12895019999999,
+      "defense": 384.512285356,
+      "specialized": 24
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6202.483268600001,
+      "attack": 127.8082446,
+      "defense": 389.631748388,
+      "specialized": 24
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6284.9730012,
+      "attack": 129.5080182,
+      "defense": 394.81364389600003,
+      "specialized": 24
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7069.850581600001,
+      "attack": 145.6814536,
+      "defense": 444.118610928,
+      "specialized": 48
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7152.340314200001,
+      "attack": 147.3812272,
+      "defense": 449.30050643600003,
+      "specialized": 48
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7234.8300468,
+      "attack": 149.0810008,
+      "defense": 454.482401944,
+      "specialized": 48
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7316.3259272000005,
+      "attack": 150.7602952,
+      "defense": 459.60186497600006,
+      "specialized": 48
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7398.8156598000005,
+      "attack": 152.4600688,
+      "defense": 464.78376048399997,
+      "specialized": 48
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7480.311540200001,
+      "attack": 154.1393632,
+      "defense": 469.903223516,
+      "specialized": 48
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7562.8012728,
+      "attack": 155.83913679999998,
+      "defense": 475.085119024,
+      "specialized": 48
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7644.297153200001,
+      "attack": 157.5184312,
+      "defense": 480.20458205600005,
+      "specialized": 48
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7726.7868858,
+      "attack": 159.2182048,
+      "defense": 485.386477564,
+      "specialized": 48
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7809.2766184,
+      "attack": 160.91797839999998,
+      "defense": 490.568373072,
+      "specialized": 48
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8418.3087988,
+      "attack": 173.4678768,
+      "defense": 528.826962104,
+      "specialized": 48
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8500.7985314,
+      "attack": 175.16765039999999,
+      "defense": 534.008857612,
+      "specialized": 48
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8582.294411800001,
+      "attack": 176.8469448,
+      "defense": 539.128320644,
+      "specialized": 48
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8664.7841444,
+      "attack": 178.5467184,
+      "defense": 544.3102161520001,
+      "specialized": 48
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8746.2800248,
+      "attack": 180.22601279999998,
+      "defense": 549.4296791840001,
+      "specialized": 48
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8828.769757400001,
+      "attack": 181.9257864,
+      "defense": 554.611574692,
+      "specialized": 48
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8911.25949,
+      "attack": 183.62555999999998,
+      "defense": 559.7934702,
+      "specialized": 48
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 8992.7553704,
+      "attack": 185.30485439999998,
+      "defense": 564.912933232,
+      "specialized": 48
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9075.245103000001,
+      "attack": 187.004628,
+      "defense": 570.09482874,
+      "specialized": 48
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9156.7409834,
+      "attack": 188.68392239999997,
+      "defense": 575.214291772,
+      "specialized": 48
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9766.766916,
+      "attack": 201.254303,
+      "defense": 613.53530728,
+      "specialized": 72
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 9848.2627964,
+      "attack": 202.9335974,
+      "defense": 618.654770312,
+      "specialized": 72
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 9930.752529000001,
+      "attack": 204.633371,
+      "defense": 623.83666582,
+      "specialized": 72
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10013.2422616,
+      "attack": 206.33314459999997,
+      "defense": 629.018561328,
+      "specialized": 72
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10094.738142,
+      "attack": 208.012439,
+      "defense": 634.13802436,
+      "specialized": 72
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10177.2278746,
+      "attack": 209.7122126,
+      "defense": 639.3199198679999,
+      "specialized": 72
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10258.723755,
+      "attack": 211.391507,
+      "defense": 644.4393829,
+      "specialized": 72
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10341.2134876,
+      "attack": 213.09128059999998,
+      "defense": 649.621278408,
+      "specialized": 72
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10422.709368000002,
+      "attack": 214.770575,
+      "defense": 654.7407414400001,
+      "specialized": 72
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10505.1991006,
+      "attack": 216.4703486,
+      "defense": 659.922636948,
+      "specialized": 72
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11115.2252332,
+      "attack": 229.0407252,
+      "defense": 698.243662456,
+      "specialized": 96
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11196.7211136,
+      "attack": 230.7200196,
+      "defense": 703.3631254879999,
+      "specialized": 96
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11279.2108462,
+      "attack": 232.41979320000002,
+      "defense": 708.545020996,
+      "specialized": 96
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 11360.7067266,
+      "attack": 234.09908759999996,
+      "defense": 713.6644840280001,
+      "specialized": 96
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11443.1964592,
+      "attack": 235.79886119999998,
+      "defense": 718.8463795360001,
+      "specialized": 96
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 11524.6923396,
+      "attack": 237.47815559999998,
+      "defense": 723.965842568,
+      "specialized": 96
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 11607.182072200001,
+      "attack": 239.1779292,
+      "defense": 729.147738076,
+      "specialized": 96
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 11688.677952600001,
+      "attack": 240.8572236,
+      "defense": 734.267201108,
+      "specialized": 96
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 11771.1676852,
+      "attack": 242.5569972,
+      "defense": 739.449096616,
+      "specialized": 96
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11853.657417800001,
+      "attack": 244.25677079999997,
+      "defense": 744.630992124,
+      "specialized": 96
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3295.6648017999996,
+      "attack": 67.91043479999999,
+      "defense": 207.029280844,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5464.051084000001,
+      "attack": 112.592199,
+      "defense": 343.24441872,
+      "specialized": 24
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6988.354701200001,
+      "attack": 144.0021592,
+      "defense": 438.999147896,
+      "specialized": 48
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8336.812918399999,
+      "attack": 171.7885824,
+      "defense": 523.707499072,
+      "specialized": 48
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9684.2771834,
+      "attack": 199.55452939999998,
+      "defense": 608.3534117720001,
+      "specialized": 72
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11032.7355006,
+      "attack": 227.34095159999998,
+      "defense": 693.061766948,
+      "specialized": 96
+    }
+  }
+}

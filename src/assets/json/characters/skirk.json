@@ -1,0 +1,1858 @@
+{
+  "profile": {
+    "id": 10000114,
+    "name": "Skirk",
+    "title": "Void Star",
+    "description": "A visitor who once appeared in an Abyssal rift and the Primordial Sea, this solitary warrior mentored Tartaglia in the martial arts.",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "weaponText": "Sword",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "11/5",
+    "birthday": "November 5",
+    "elementType": "ELEMENT_CRYO",
+    "elementText": "Cryo",
+    "affiliation": "Cosmic Calamity",
+    "associationType": "ASSOC_OMNI_SCOURGE",
+    "substatType": "FIGHT_PROP_CRITICAL_HURT",
+    "substatText": "CRIT DMG",
+    "constellation": "Crystallina",
+    "cv": {
+      "english": "Cat Protano",
+      "chinese": "谢莹",
+      "japanese": "能登麻美子",
+      "korean": "Seo Da-hye"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104161,
+          "name": "Shivada Jade Sliver",
+          "count": 1
+        },
+        {
+          "id": 101254,
+          "name": "Skysplit Gembloom",
+          "count": 3
+        },
+        {
+          "id": 112083,
+          "name": "Meshing Gear",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 3
+        },
+        {
+          "id": 113067,
+          "name": "Ensnaring Gaze",
+          "count": 2
+        },
+        {
+          "id": 101254,
+          "name": "Skysplit Gembloom",
+          "count": 10
+        },
+        {
+          "id": 112083,
+          "name": "Meshing Gear",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 6
+        },
+        {
+          "id": 113067,
+          "name": "Ensnaring Gaze",
+          "count": 4
+        },
+        {
+          "id": 101254,
+          "name": "Skysplit Gembloom",
+          "count": 20
+        },
+        {
+          "id": 112084,
+          "name": "Mechanical Spur Gear",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 3
+        },
+        {
+          "id": 113067,
+          "name": "Ensnaring Gaze",
+          "count": 8
+        },
+        {
+          "id": 101254,
+          "name": "Skysplit Gembloom",
+          "count": 30
+        },
+        {
+          "id": 112084,
+          "name": "Mechanical Spur Gear",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 6
+        },
+        {
+          "id": 113067,
+          "name": "Ensnaring Gaze",
+          "count": 12
+        },
+        {
+          "id": 101254,
+          "name": "Skysplit Gembloom",
+          "count": 45
+        },
+        {
+          "id": 112085,
+          "name": "Artificed Dynamic Gear",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104164,
+          "name": "Shivada Jade Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113067,
+          "name": "Ensnaring Gaze",
+          "count": 20
+        },
+        {
+          "id": 101254,
+          "name": "Skysplit Gembloom",
+          "count": 60
+        },
+        {
+          "id": 112085,
+          "name": "Artificed Dynamic Gear",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_SkirkNew",
+      "filename_iconCard": "UI_AvatarIcon_SkirkNew_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_SkirkNew",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_SkirkNew",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_SkirkNew",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_SkirkNew.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_SkirkNew.png",
+      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/48dba0c10560a3ef573f17d97408b5a0_2527001828446746987.png"
+    },
+    "version": "5.7"
+  },
+  "skills": {
+    "id": 11401,
+    "name": "Skirk",
+    "combat1": {
+      "name": "Havoc: Sunder",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive attacks.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to hurl a spinning crystal spear, dealing DMG to opponents ahead.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 consecutive attacks.\n\nCharged Attack\nConsumes a certain amount of Stamina to hurl a spinning crystal spear, dealing DMG to opponents ahead.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "5-Hit DMG|{param6:F1P}",
+          "Charged Attack DMG|{param7:F1P}×2",
+          "Charged Attack Stamina Cost|{param8:F1}",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.54524,
+            0.58962,
+            0.634,
+            0.6974,
+            0.74178,
+            0.7925,
+            0.86224,
+            0.93198,
+            1.00172,
+            1.0778,
+            1.15388,
+            1.22996,
+            1.30604,
+            1.38212,
+            1.4582
+          ],
+          "param2": [
+            0.49794,
+            0.53847,
+            0.579,
+            0.6369,
+            0.67743,
+            0.72375,
+            0.78744,
+            0.85113,
+            0.91482,
+            0.9843,
+            1.05378,
+            1.12326,
+            1.19274,
+            1.26222,
+            1.3317
+          ],
+          "param3": [
+            0.32422,
+            0.35061,
+            0.377,
+            0.4147,
+            0.44109,
+            0.47125,
+            0.51272,
+            0.55419,
+            0.59566,
+            0.6409,
+            0.68614,
+            0.73138,
+            0.77662,
+            0.82186,
+            0.8671
+          ],
+          "param4": [
+            0.32422,
+            0.35061,
+            0.377,
+            0.4147,
+            0.44109,
+            0.47125,
+            0.51272,
+            0.55419,
+            0.59566,
+            0.6409,
+            0.68614,
+            0.73138,
+            0.77662,
+            0.82186,
+            0.8671
+          ],
+          "param5": [
+            0.60802,
+            0.65751,
+            0.707,
+            0.7777,
+            0.82719,
+            0.88375,
+            0.96152,
+            1.03929,
+            1.11706,
+            1.2019,
+            1.28674,
+            1.37158,
+            1.45642,
+            1.54126,
+            1.6261
+          ],
+          "param6": [
+            0.82904,
+            0.89652,
+            0.964,
+            1.0604,
+            1.12788,
+            1.205,
+            1.31104,
+            1.41708,
+            1.52312,
+            1.6388,
+            1.75448,
+            1.87016,
+            1.98584,
+            2.10152,
+            2.2172
+          ],
+          "param7": [
+            0.66822,
+            0.72261,
+            0.777,
+            0.8547,
+            0.90909,
+            0.97125,
+            1.05672,
+            1.14219,
+            1.22766,
+            1.3209,
+            1.41414,
+            1.50738,
+            1.60062,
+            1.69386,
+            1.7871
+          ],
+          "param8": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param9": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param10": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param11": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Havoc: Warp",
+      "descriptionRaw": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.\n\n<color=#FFD780FF>Tap</color>\nSkirk gains 45 {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK} and switches to {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mode.\n\n<color=#FFD780FF>Hold</color>\nSkirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.\nDuring this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely.",
+      "description": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.\n\nTap\nSkirk gains 45 **Serpent's Subtlety** and switches to **Seven-Phase Flash** mode.\n\nHold\nSkirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.\nDuring this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}+{param6:F1P}",
+          "5-Hit DMG|{param7:F1P}",
+          "Charged Attack DMG|{param8:F1P}×3",
+          "Charged Attack Stamina Cost|{param9:F1}",
+          "Plunge DMG|{param10:F1P}",
+          "Low/High Plunge DMG|{param11:P}/{param12:P}",
+          "Seven-Phase Flash Mode Duration|{param13:F1}s",
+          "Max Serpent's Subtlety|{param14:F1}",
+          "CD|{param15:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.328244,
+            1.436357,
+            1.54447,
+            1.698917,
+            1.80703,
+            1.930588,
+            2.100479,
+            2.270371,
+            2.440263,
+            2.625599,
+            2.810935,
+            2.996272,
+            3.181608,
+            3.366945,
+            3.552281
+          ],
+          "param2": [
+            1.197997,
+            1.295509,
+            1.39302,
+            1.532322,
+            1.629833,
+            1.741275,
+            1.894507,
+            2.047739,
+            2.200972,
+            2.368134,
+            2.535296,
+            2.702459,
+            2.869621,
+            3.036784,
+            3.203946
+          ],
+          "param3": [
+            0.75723,
+            0.818865,
+            0.8805,
+            0.96855,
+            1.030185,
+            1.100625,
+            1.19748,
+            1.294335,
+            1.39119,
+            1.49685,
+            1.60251,
+            1.70817,
+            1.81383,
+            1.91949,
+            2.02515
+          ],
+          "param4": [
+            0.75723,
+            0.818865,
+            0.8805,
+            0.96855,
+            1.030185,
+            1.100625,
+            1.19748,
+            1.294335,
+            1.39119,
+            1.49685,
+            1.60251,
+            1.70817,
+            1.81383,
+            1.91949,
+            2.02515
+          ],
+          "param5": [
+            0.80539,
+            0.870945,
+            0.9365,
+            1.03015,
+            1.095705,
+            1.170625,
+            1.27364,
+            1.376655,
+            1.47967,
+            1.59205,
+            1.70443,
+            1.81681,
+            1.92919,
+            2.04157,
+            2.15395
+          ],
+          "param6": [
+            0.80539,
+            0.870945,
+            0.9365,
+            1.03015,
+            1.095705,
+            1.170625,
+            1.27364,
+            1.376655,
+            1.47967,
+            1.59205,
+            1.70443,
+            1.81681,
+            1.92919,
+            2.04157,
+            2.15395
+          ],
+          "param7": [
+            1.966244,
+            2.126287,
+            2.28633,
+            2.514963,
+            2.675006,
+            2.857912,
+            3.109409,
+            3.360905,
+            3.612401,
+            3.886761,
+            4.161121,
+            4.43548,
+            4.70984,
+            4.984199,
+            5.258559
+          ],
+          "param8": [
+            0.44548,
+            0.48174,
+            0.518,
+            0.5698,
+            0.60606,
+            0.6475,
+            0.70448,
+            0.76146,
+            0.81844,
+            0.8806,
+            0.94276,
+            1.00492,
+            1.06708,
+            1.12924,
+            1.1914
+          ],
+          "param9": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param10": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param11": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param12": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ],
+          "param13": [
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5
+          ],
+          "param14": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "param15": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Havoc: Ruin",
+      "descriptionRaw": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK}.\nWhen Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal <color=#99FFFFFF>AoE Cryo DMG</color>. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.\n\nWhen Skirk is in {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mode, Havoc: Ruin will be replaced by Havoc: Extinction.\n\n<color=#FFD780FF>Havoc: Extinction</color>\nA special Elemental Burst that can be used even without consuming Serpent's Subtlety.\nAfter using it, Skirk will gain the \"All Shall Wither\" effect, which will last until Seven-Phase Flash ends. After unlocking the Ascension Talent {LINK#N11130007}<color=#FFD780FF>Reason Beyond Reason</color>{/LINK}, she can also absorb nearby Void Rifts.\nWhile \"All Shall Wither\" is active, every 0.1s, after Skirk's Normal Attack hits an opponent, that Normal Attack will deal increased DMG. If she absorbed any Void Rifts while using <color=#FFD780FF>Havoc: Extinction</color>, this Normal Attack's DMG will be further increased based on the number of Rifts absorbed.\nThis effect will be canceled when it has triggered 10 times.",
+      "description": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on **Serpent's Subtlety**.\nWhen Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal AoE Cryo DMG. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.\n\nWhen Skirk is in **Seven-Phase Flash** mode, Havoc: Ruin will be replaced by Havoc: Extinction.\n\nHavoc: Extinction\nA special Elemental Burst that can be used even without consuming Serpent's Subtlety.\nAfter using it, Skirk will gain the \"All Shall Wither\" effect, which will last until Seven-Phase Flash ends. After unlocking the Ascension Talent **Reason Beyond Reason**, she can also absorb nearby Void Rifts.\nWhile \"All Shall Wither\" is active, every 0.1s, after Skirk's Normal Attack hits an opponent, that Normal Attack will deal increased DMG. If she absorbed any Void Rifts while using Havoc: Extinction, this Normal Attack's DMG will be further increased based on the number of Rifts absorbed.\nThis effect will be canceled when it has triggered 10 times.",
+      "attributes": {
+        "labels": [
+          "Slash DMG|{param1:F1P} ×5",
+          "Final Slash DMG|{param2:F1P}",
+          "Serpent's Subtlety Bonus|{param3:F2P} ATK Per Point",
+          "0/1/2/3 Void Rift Absorption DMG Bonus|{param4:F1P}/{param5:F1P}/{param6:F1P}/{param7:F1P}",
+          "CD|{param8:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.2276,
+            1.31967,
+            1.41174,
+            1.5345,
+            1.62657,
+            1.71864,
+            1.8414,
+            1.96416,
+            2.08692,
+            2.20968,
+            2.33244,
+            2.4552,
+            2.60865,
+            2.7621,
+            2.91555
+          ],
+          "param2": [
+            2.046,
+            2.19945,
+            2.3529,
+            2.5575,
+            2.71095,
+            2.8644,
+            3.069,
+            3.2736,
+            3.4782,
+            3.6828,
+            3.8874,
+            4.092,
+            4.34775,
+            4.6035,
+            4.85925
+          ],
+          "param3": [
+            0.193233,
+            0.207726,
+            0.222218,
+            0.241542,
+            0.256034,
+            0.270527,
+            0.28985,
+            0.309173,
+            0.328497,
+            0.34782,
+            0.367143,
+            0.386467,
+            0.410621,
+            0.434775,
+            0.458929
+          ],
+          "param4": [
+            0.035,
+            0.04,
+            0.045,
+            0.05,
+            0.055,
+            0.06,
+            0.065,
+            0.07,
+            0.075,
+            0.08,
+            0.085,
+            0.09,
+            0.095,
+            0.1,
+            0.105
+          ],
+          "param5": [
+            0.066,
+            0.072,
+            0.078,
+            0.084,
+            0.09,
+            0.096,
+            0.102,
+            0.108,
+            0.114,
+            0.12,
+            0.126,
+            0.132,
+            0.138,
+            0.144,
+            0.15
+          ],
+          "param6": [
+            0.088,
+            0.096,
+            0.104,
+            0.112,
+            0.12,
+            0.128,
+            0.136,
+            0.144,
+            0.152,
+            0.16,
+            0.168,
+            0.176,
+            0.184,
+            0.192,
+            0.2
+          ],
+          "param7": [
+            0.11,
+            0.12,
+            0.13,
+            0.14,
+            0.15,
+            0.16,
+            0.17,
+            0.18,
+            0.19,
+            0.2,
+            0.21,
+            0.22,
+            0.23,
+            0.24,
+            0.25
+          ],
+          "param8": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Reason Beyond Reason",
+      "descriptionRaw": "When nearby party members trigger Frozen, Superconduct, Cryo Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\n\nSkirk can use the following methods to absorb nearby Void Rifts:\n· When she hits an opponent with a Charged Attack in her {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mode.\n· When she uses the special Elemental Burst <color=#FFD780FF>Havoc: Extinction</color> while in Seven-Phase Flash mode.\n· When she Holds her Elemental Skill <color=#FFD780FF>Havoc: Warp</color> to engage in rapid movement.\n\nEach Rift absorbed will grant her 8 {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK} points.",
+      "description": "When nearby party members trigger Frozen, Superconduct, Cryo Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\n\nSkirk can use the following methods to absorb nearby Void Rifts:\n· When she hits an opponent with a Charged Attack in her **Seven-Phase Flash** mode.\n· When she uses the special Elemental Burst Havoc: Extinction while in Seven-Phase Flash mode.\n· When she Holds her Elemental Skill Havoc: Warp to engage in rapid movement.\n\nEach Rift absorbed will grant her 8 **Serpent's Subtlety** points."
+    },
+    "passive2": {
+      "name": "Return to Oblivion",
+      "descriptionRaw": "When nearby <color=#80C0FFFF>Hydro</color> party members' <color=#80C0FFFF>Hydro</color> attacks hit opponents, or when nearby <color=#99FFFFFF>Cryo</color> party members apart from Skirk hit opponents with <color=#99FFFFFF>Cryo</color> attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.\nEach character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.\nEach \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst <color=#FFD780FF>Havoc: Ruin</color> to 105%/115%/160% of its original DMG.",
+      "description": "When nearby Hydro party members' Hydro attacks hit opponents, or when nearby Cryo party members apart from Skirk hit opponents with Cryo attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.\nEach character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.\nEach \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in **Seven-Phase Flash** mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst Havoc: Ruin to 105%/115%/160% of its original DMG."
+    },
+    "passive3": {
+      "name": "Mutual Weapons Mentorship",
+      "descriptionRaw": "When all party members are either <color=#80C0FFFF>Hydro</color> or <color=#99FFFFFF>Cryo</color>, and if there is at least 1 Hydro and 1 Cryo character, your own party members' <color=#FFD780FF>Elemental Skill</color> Level is increased by 1.",
+      "description": "When all party members are either Hydro or Cryo, and if there is at least 1 Hydro and 1 Cryo character, your own party members' Elemental Skill Level is increased by 1."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104347,
+          "name": "Teachings of Contention",
+          "count": 3
+        },
+        {
+          "id": 112083,
+          "name": "Meshing Gear",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104348,
+          "name": "Guide to Contention",
+          "count": 2
+        },
+        {
+          "id": 112084,
+          "name": "Mechanical Spur Gear",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104348,
+          "name": "Guide to Contention",
+          "count": 4
+        },
+        {
+          "id": 112084,
+          "name": "Mechanical Spur Gear",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104348,
+          "name": "Guide to Contention",
+          "count": 6
+        },
+        {
+          "id": 112084,
+          "name": "Mechanical Spur Gear",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104348,
+          "name": "Guide to Contention",
+          "count": 9
+        },
+        {
+          "id": 112084,
+          "name": "Mechanical Spur Gear",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104349,
+          "name": "Philosophies of Contention",
+          "count": 4
+        },
+        {
+          "id": 112085,
+          "name": "Artificed Dynamic Gear",
+          "count": 4
+        },
+        {
+          "id": 113073,
+          "name": "Ascended Sample: Knight",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104349,
+          "name": "Philosophies of Contention",
+          "count": 6
+        },
+        {
+          "id": 112085,
+          "name": "Artificed Dynamic Gear",
+          "count": 6
+        },
+        {
+          "id": 113073,
+          "name": "Ascended Sample: Knight",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104349,
+          "name": "Philosophies of Contention",
+          "count": 12
+        },
+        {
+          "id": 112085,
+          "name": "Artificed Dynamic Gear",
+          "count": 9
+        },
+        {
+          "id": 113073,
+          "name": "Ascended Sample: Knight",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104349,
+          "name": "Philosophies of Contention",
+          "count": 16
+        },
+        {
+          "id": 112085,
+          "name": "Artificed Dynamic Gear",
+          "count": 12
+        },
+        {
+          "id": 113073,
+          "name": "Ascended Sample: Knight",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_01",
+      "filename_combat2": "Skill_S_SkirkNew_01",
+      "filename_combat3": "Skill_E_SkirkNew_01_HD",
+      "filename_passive1": "UI_Talent_S_SkirkNew_05",
+      "filename_passive2": "UI_Talent_S_SkirkNew_06",
+      "filename_passive3": "UI_Talent_S_SkirkNew_08"
+    },
+    "version": "5.7"
+  },
+  "constellation": {
+    "id": 11401,
+    "name": "Skirk",
+    "c1": {
+      "name": "Far to Fall",
+      "descriptionRaw": "Enhances the effects of the Ascension Talent {LINK#N11130007}<color=#FFD780FF>Reason Beyond Reason</color>{/LINK}: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as <color=#99FFFFFF>Cryo DMG</color>. This DMG is considered Charged Attack DMG.\nYou must first unlock the Ascension Talent Reason Beyond Reason.",
+      "description": "Enhances the effects of the Ascension Talent **Reason Beyond Reason**: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG.\nYou must first unlock the Ascension Talent Reason Beyond Reason."
+    },
+    "c2": {
+      "name": "Into the Abyss",
+      "descriptionRaw": "After unleashing her Elemental Skill <color=#FFD780FF>Havoc: Warp</color>, Skirk will gain 10 additional {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK} points.\nWhen using her Elemental Burst <color=#FFD780FF>Havoc: Ruin</color>, the DMG of this Elemental Burst instance will be increased by taking up to 10 more Serpent's Subtlety points into account.\nAdditionally, within 12.5s after Skirk unleashes the special Elemental Burst <color=#FFD780FF>Havoc: Extinction</color> while in her {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mode, her ATK is increased by 70%. This effect will be canceled when she leaves the Seven-Phase Flash mode.",
+      "description": "After unleashing her Elemental Skill Havoc: Warp, Skirk will gain 10 additional **Serpent's Subtlety** points.\nWhen using her Elemental Burst Havoc: Ruin, the DMG of this Elemental Burst instance will be increased by taking up to 10 more Serpent's Subtlety points into account.\nAdditionally, within 12.5s after Skirk unleashes the special Elemental Burst Havoc: Extinction while in her **Seven-Phase Flash** mode, her ATK is increased by 70%. This effect will be canceled when she leaves the Seven-Phase Flash mode."
+    },
+    "c3": {
+      "name": "Serendipitous Sin",
+      "descriptionRaw": "Increases the Level of {LINK#S11145}<color=#FFD780FF>Havoc: Ruin</color>{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of **Havoc: Ruin** by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Fractured Flow",
+      "descriptionRaw": "Enhances the effects of the Ascension Talent {LINK#N11130008}<color=#FFD780FF>Return to Oblivion</color>{/LINK}: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.\nYou must first unlock the Ascension Talent Return to Oblivion.",
+      "description": "Enhances the effects of the Ascension Talent **Return to Oblivion**: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.\nYou must first unlock the Ascension Talent Return to Oblivion."
+    },
+    "c5": {
+      "name": "End of Wishes",
+      "descriptionRaw": "Increases the Level of {LINK#S11142}<color=#FFD780FF>Havoc: Warp</color>{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of **Havoc: Warp** by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "To the Source",
+      "descriptionRaw": "Each Void Rift Skirk absorbs via the effects of the Ascension Talent {LINK#N11130007}<color=#FFD780FF>Reason Beyond Reason</color>{/LINK} will grant her 1 Havoc: Sever stack. She can consume such stacks to initiate coordinated attacks and decrease the DMG she takes while in {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mode. These stacks last for 15s, and each stack's duration is counted independently (max 3 stacks).\nYou must first unlock the Ascension Talent \"Reason Beyond Reason.\"\n\n<color=#FFD780FF>Havoc: Sever</color>\n· When Skirk uses the Elemental Burst <color=#FFD780FF>Havoc: Ruin</color>, she will consume all <color=#FFD780FF>Havoc: Sever</color> stacks to initiate a coordinated attack in which each <color=#FFD780FF>Havoc: Sever</color> stack will deal 750% of Skirk's ATK as <color=#99FFFFFF>Cryo DMG</color>. This DMG is considered Elemental Burst DMG.\n· When she uses Normal Attacks while in Seven-Phase Flash mode, 1 <color=#FFD780FF>Havoc: Sever</color> stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 180% of Skirk's ATK as <color=#99FFFFFF>Cryo DMG</color>. This damage is considered Normal Attack DMG.\n· When Skirk takes DMG while in Seven-Phase Flash mode, 1 <color=#FFD780FF>Havoc: Sever</color> stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 180% of Skirk's ATK as <color=#99FFFFFF>Cryo DMG</color>. This DMG is considered Charged Attack DMG.",
+      "description": "Each Void Rift Skirk absorbs via the effects of the Ascension Talent **Reason Beyond Reason** will grant her 1 Havoc: Sever stack. She can consume such stacks to initiate coordinated attacks and decrease the DMG she takes while in **Seven-Phase Flash** mode. These stacks last for 15s, and each stack's duration is counted independently (max 3 stacks).\nYou must first unlock the Ascension Talent \"Reason Beyond Reason.\"\n\nHavoc: Sever\n· When Skirk uses the Elemental Burst Havoc: Ruin, she will consume all Havoc: Sever stacks to initiate a coordinated attack in which each Havoc: Sever stack will deal 750% of Skirk's ATK as Cryo DMG. This DMG is considered Elemental Burst DMG.\n· When she uses Normal Attacks while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 180% of Skirk's ATK as Cryo DMG. This damage is considered Normal Attack DMG.\n· When Skirk takes DMG while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 180% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_SkirkNew_01",
+      "filename_c2": "UI_Talent_S_SkirkNew_02",
+      "filename_c3": "UI_Talent_U_SkirkNew_01",
+      "filename_c4": "UI_Talent_S_SkirkNew_03",
+      "filename_c5": "UI_Talent_U_SkirkNew_02",
+      "filename_c6": "UI_Talent_S_SkirkNew_04",
+      "filename_constellation": "Eff_UI_Talent_SkirkNew"
+    },
+    "version": "5.7"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 966.6665,
+      "attack": 27.93,
+      "defense": 62.76167,
+      "specialized": 0.5
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1046.8998195,
+      "attack": 30.248189999999997,
+      "defense": 67.97088861,
+      "specialized": 0.5
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1127.133139,
+      "attack": 32.566379999999995,
+      "defense": 73.18010722,
+      "specialized": 0.5
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1208.333125,
+      "attack": 34.9125,
+      "defense": 78.4520875,
+      "specialized": 0.5
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1288.5664445,
+      "attack": 37.230689999999996,
+      "defense": 83.66130611,
+      "specialized": 0.5
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1369.7664305,
+      "attack": 39.57681,
+      "defense": 88.93328639,
+      "specialized": 0.5
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1449.99975,
+      "attack": 41.894999999999996,
+      "defense": 94.142505,
+      "specialized": 0.5
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1531.199736,
+      "attack": 44.24112,
+      "defense": 99.41448528000001,
+      "specialized": 0.5
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1612.399722,
+      "attack": 46.587239999999994,
+      "defense": 104.68646556,
+      "specialized": 0.5
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1692.6330415,
+      "attack": 48.905429999999996,
+      "defense": 109.89568417,
+      "specialized": 0.5
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1773.8330275,
+      "attack": 51.25155,
+      "defense": 115.16766445,
+      "specialized": 0.5
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1855.0330135000002,
+      "attack": 53.59767,
+      "defense": 120.43964473000001,
+      "specialized": 0.5
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1936.2329995000002,
+      "attack": 55.94379,
+      "defense": 125.71162501,
+      "specialized": 0.5
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2018.399652,
+      "attack": 58.317840000000004,
+      "defense": 131.04636696,
+      "specialized": 0.5
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2099.599638,
+      "attack": 60.66396,
+      "defense": 136.31834724,
+      "specialized": 0.5
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2180.7996239999998,
+      "attack": 63.010079999999995,
+      "defense": 141.59032752,
+      "specialized": 0.5
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2262.9662765000003,
+      "attack": 65.38413,
+      "defense": 146.92506947,
+      "specialized": 0.5
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2344.1662625,
+      "attack": 67.73025,
+      "defense": 152.19704975,
+      "specialized": 0.5
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2426.332915,
+      "attack": 70.1043,
+      "defense": 157.53179169999999,
+      "specialized": 0.5
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2507.532901,
+      "attack": 72.45042,
+      "defense": 162.80377198,
+      "specialized": 0.5
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3418.5286535,
+      "attack": 98.77017,
+      "defense": 221.95221392999997,
+      "specialized": 0.5
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3500.6953059999996,
+      "attack": 101.14421999999999,
+      "defense": 227.28695588,
+      "specialized": 0.5
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3582.8619585,
+      "attack": 103.51827,
+      "defense": 232.62169783000002,
+      "specialized": 0.5
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3665.028611,
+      "attack": 105.89232000000001,
+      "defense": 237.95643978000004,
+      "specialized": 0.5
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3747.1952635000002,
+      "attack": 108.26637000000001,
+      "defense": 243.29118173,
+      "specialized": 0.5
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3830.3285825,
+      "attack": 110.66835,
+      "defense": 248.68868535000001,
+      "specialized": 0.5
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3912.495235,
+      "attack": 113.0424,
+      "defense": 254.02342729999998,
+      "specialized": 0.5
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3994.6618875,
+      "attack": 115.41645,
+      "defense": 259.35816925,
+      "specialized": 0.5
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4077.7952065000004,
+      "attack": 117.81843,
+      "defense": 264.75567287,
+      "specialized": 0.5
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4159.961859000001,
+      "attack": 120.19248,
+      "defense": 270.09041482000003,
+      "specialized": 0.5
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4243.0951780000005,
+      "attack": 122.59446,
+      "defense": 275.48791844,
+      "specialized": 0.5
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4326.228497,
+      "attack": 124.99643999999999,
+      "defense": 280.88542206,
+      "specialized": 0.5
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4409.3618160000005,
+      "attack": 127.39842,
+      "defense": 286.28292568,
+      "specialized": 0.5
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4491.528468500001,
+      "attack": 129.77247,
+      "defense": 291.61766763,
+      "specialized": 0.5
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4574.6617875,
+      "attack": 132.17445,
+      "defense": 297.01517125,
+      "specialized": 0.5
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4658.761773,
+      "attack": 134.60435999999999,
+      "defense": 302.47543654000003,
+      "specialized": 0.5
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4741.895092000001,
+      "attack": 137.00634,
+      "defense": 307.87294016,
+      "specialized": 0.5
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4825.028411,
+      "attack": 139.40832,
+      "defense": 313.27044378,
+      "specialized": 0.5
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4908.16173,
+      "attack": 141.81029999999998,
+      "defense": 318.6679474,
+      "specialized": 0.5
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4992.261715500001,
+      "attack": 144.24021,
+      "defense": 324.12821269,
+      "specialized": 0.5
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5664.299934500001,
+      "attack": 163.65624,
+      "defense": 367.76176631000004,
+      "specialized": 0.596
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5748.39992,
+      "attack": 166.08615,
+      "defense": 373.22203160000004,
+      "specialized": 0.596
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5832.499905500001,
+      "attack": 168.51606,
+      "defense": 378.68229689000003,
+      "specialized": 0.596
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5915.633224499999,
+      "attack": 170.91803999999996,
+      "defense": 384.07980051,
+      "specialized": 0.596
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5999.73321,
+      "attack": 173.34795000000003,
+      "defense": 389.54006580000004,
+      "specialized": 0.596
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6083.833195499999,
+      "attack": 175.77785999999998,
+      "defense": 395.00033109000003,
+      "specialized": 0.596
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6167.933181,
+      "attack": 178.20776999999998,
+      "defense": 400.46059638,
+      "specialized": 0.596
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6252.033166500001,
+      "attack": 180.63768,
+      "defense": 405.92086167,
+      "specialized": 0.596
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6337.099818500001,
+      "attack": 183.09552000000002,
+      "defense": 411.44388863000006,
+      "specialized": 0.596
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6421.199804,
+      "attack": 185.52543000000003,
+      "defense": 416.90415392000006,
+      "specialized": 0.596
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7290.5061895,
+      "attack": 210.64074,
+      "defense": 473.34580921,
+      "specialized": 0.692
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7375.572841499999,
+      "attack": 213.09858,
+      "defense": 478.86883617,
+      "specialized": 0.692
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7459.672827,
+      "attack": 215.52849,
+      "defense": 484.32910146,
+      "specialized": 0.692
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7544.739479,
+      "attack": 217.98632999999998,
+      "defense": 489.85212842,
+      "specialized": 0.692
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7629.806130999999,
+      "attack": 220.44416999999999,
+      "defense": 495.37515538,
+      "specialized": 0.692
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7714.872783000001,
+      "attack": 222.90201,
+      "defense": 500.89818234,
+      "specialized": 0.692
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7799.939435,
+      "attack": 225.35985,
+      "defense": 506.4212093,
+      "specialized": 0.692
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7885.006087,
+      "attack": 227.81769,
+      "defense": 511.94423626,
+      "specialized": 0.692
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7970.072739000001,
+      "attack": 230.27553,
+      "defense": 517.46726322,
+      "specialized": 0.692
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8055.139391000001,
+      "attack": 232.73337,
+      "defense": 522.9902901800001,
+      "specialized": 0.692
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8729.111143,
+      "attack": 252.20526,
+      "defense": 566.74937714,
+      "specialized": 0.692
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8814.177795000001,
+      "attack": 254.66310000000001,
+      "defense": 572.2724041,
+      "specialized": 0.692
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8900.2111135,
+      "attack": 257.14887,
+      "defense": 577.85819273,
+      "specialized": 0.692
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8985.2777655,
+      "attack": 259.60671,
+      "defense": 583.3812196900001,
+      "specialized": 0.692
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9071.311084,
+      "attack": 262.09248,
+      "defense": 588.9670083200001,
+      "specialized": 0.692
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9157.3444025,
+      "attack": 264.57825,
+      "defense": 594.55279695,
+      "specialized": 0.692
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9242.4110545,
+      "attack": 267.03609,
+      "defense": 600.07582391,
+      "specialized": 0.692
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9328.444373,
+      "attack": 269.52185999999995,
+      "defense": 605.66161254,
+      "specialized": 0.692
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9414.4776915,
+      "attack": 272.00763,
+      "defense": 611.24740117,
+      "specialized": 0.692
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9500.51101,
+      "attack": 274.4934,
+      "defense": 616.8331898000001,
+      "specialized": 0.692
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10175.4490285,
+      "attack": 293.99321999999995,
+      "defense": 660.65502843,
+      "specialized": 0.788
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10262.4490135,
+      "attack": 296.50692,
+      "defense": 666.30357873,
+      "specialized": 0.788
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10348.482332,
+      "attack": 298.99269000000004,
+      "defense": 671.88936736,
+      "specialized": 0.788
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10434.5156505,
+      "attack": 301.47846,
+      "defense": 677.47515599,
+      "specialized": 0.788
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10521.5156355,
+      "attack": 303.99216,
+      "defense": 683.12370629,
+      "specialized": 0.788
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10607.548954,
+      "attack": 306.47793,
+      "defense": 688.70949492,
+      "specialized": 0.788
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10694.548939,
+      "attack": 308.99163,
+      "defense": 694.35804522,
+      "specialized": 0.788
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10781.548924,
+      "attack": 311.50532999999996,
+      "defense": 700.00659552,
+      "specialized": 0.788
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10868.548909000001,
+      "attack": 314.01903000000004,
+      "defense": 705.65514582,
+      "specialized": 0.788
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10955.548894000001,
+      "attack": 316.53273,
+      "defense": 711.30369612,
+      "specialized": 0.788
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11631.453979,
+      "attack": 336.06048,
+      "defense": 755.18829642,
+      "specialized": 0.884
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11718.453964,
+      "attack": 338.57417999999996,
+      "defense": 760.83684672,
+      "specialized": 0.884
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11805.453949,
+      "attack": 341.08788,
+      "defense": 766.48539702,
+      "specialized": 0.884
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 11892.453934,
+      "attack": 343.60158,
+      "defense": 772.1339473200001,
+      "specialized": 0.884
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11979.453919,
+      "attack": 346.11528,
+      "defense": 777.78249762,
+      "specialized": 0.884
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12067.4205705,
+      "attack": 348.65691000000004,
+      "defense": 783.4938095900002,
+      "specialized": 0.884
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12154.4205555,
+      "attack": 351.17061,
+      "defense": 789.1423598900001,
+      "specialized": 0.884
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12242.387207,
+      "attack": 353.71223999999995,
+      "defense": 794.8536718600001,
+      "specialized": 0.884
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12330.3538585,
+      "attack": 356.25387,
+      "defense": 800.5649838300001,
+      "specialized": 0.884
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12417.353843500001,
+      "attack": 358.76757,
+      "defense": 806.21353413,
+      "specialized": 0.884
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3336.362001,
+      "attack": 96.39612,
+      "defense": 216.61747198,
+      "specialized": 0.5
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5581.1666155,
+      "attack": 161.25426,
+      "defense": 362.36426269000003,
+      "specialized": 0.596
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7206.406204000001,
+      "attack": 208.21083000000002,
+      "defense": 467.88554392000003,
+      "specialized": 0.692
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8644.044491,
+      "attack": 249.74742,
+      "defense": 561.22635018,
+      "specialized": 0.692
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10089.415710000001,
+      "attack": 291.50745,
+      "defense": 655.0692398000001,
+      "specialized": 0.788
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11544.453994000001,
+      "attack": 333.54678,
+      "defense": 749.53974612,
+      "specialized": 0.884
+    }
+  }
+}

@@ -1,0 +1,1542 @@
+{
+  "profile": {
+    "id": 10000105,
+    "name": "Ororon",
+    "title": "Shadow of the Night-Wind",
+    "description": "A young man from the Masters of the Night-Wind who instead lives in the wild alongside all manner of life.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_MALE",
+    "gender": "Male",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "10/14",
+    "birthday": "October 14",
+    "elementType": "ELEMENT_ELECTRO",
+    "elementText": "Electro",
+    "affiliation": "Mictlan",
+    "associationType": "ASSOC_NATLAN",
+    "region": "Natlan",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Vampyrum Spectrum",
+    "cv": {
+      "english": "Nathan Nokes",
+      "chinese": "梁达伟",
+      "japanese": "近藤隆",
+      "korean": "Seo Joung-ik"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104141,
+          "name": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 3
+        },
+        {
+          "id": 112101,
+          "name": "Juvenile Fang",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": 113064,
+          "name": "Mark of the Binding Blessing",
+          "count": 2
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 10
+        },
+        {
+          "id": 112101,
+          "name": "Juvenile Fang",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": 113064,
+          "name": "Mark of the Binding Blessing",
+          "count": 4
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 20
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": 113064,
+          "name": "Mark of the Binding Blessing",
+          "count": 8
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 30
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": 113064,
+          "name": "Mark of the Binding Blessing",
+          "count": 12
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 45
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104144,
+          "name": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113064,
+          "name": "Mark of the Binding Blessing",
+          "count": 20
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 60
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Olorun",
+      "filename_iconCard": "UI_AvatarIcon_Olorun_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Olorun",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Olorun",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Olorun",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Olorun.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Olorun.png",
+      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/18/e4830690f8b6a1ebb02cfbc8ce955671_8091252479018770784.png"
+    },
+    "version": "5.2"
+  },
+  "skills": {
+    "id": 10501,
+    "name": "Ororon",
+    "combat1": {
+      "name": "Spiritvessel Snapshot",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, Electro energy will accumulate on the arrowhead. A fully charged arrow will deal <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, Electro energy will accumulate on the arrowhead. A fully charged arrow will deal Electro DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "Aimed Shot|{param4:F1P}",
+          "Fully-Charged Aimed Shot|{param5:P}",
+          "Plunge DMG|{param6:F1P}",
+          "Low/High Plunge DMG|{param7:P}/{param8:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.50642,
+            0.54764,
+            0.58886,
+            0.647746,
+            0.688966,
+            0.736075,
+            0.80085,
+            0.865624,
+            0.930399,
+            1.001062,
+            1.071725,
+            1.142388,
+            1.213052,
+            1.283715,
+            1.354378
+          ],
+          "param2": [
+            0.443734,
+            0.479852,
+            0.51597,
+            0.567567,
+            0.603685,
+            0.644963,
+            0.701719,
+            0.758476,
+            0.815233,
+            0.877149,
+            0.939065,
+            1.000982,
+            1.062898,
+            1.124815,
+            1.186731
+          ],
+          "param3": [
+            0.698208,
+            0.755039,
+            0.81187,
+            0.893057,
+            0.949888,
+            1.014838,
+            1.104143,
+            1.193449,
+            1.282755,
+            1.380179,
+            1.477603,
+            1.575028,
+            1.672452,
+            1.769877,
+            1.867301
+          ],
+          "param4": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.9282,
+            0.9894,
+            1.0506,
+            1.1118,
+            1.173
+          ],
+          "param5": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.356,
+            2.48,
+            2.635,
+            2.79,
+            2.945
+          ],
+          "param6": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param7": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param8": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Night's Sling",
+      "descriptionRaw": "Ororon manifests an ancient mystical technique from the Masters of the Night-Wind as a <color=#FFD780FF>Spirit Orb</color> of midnight shade and throws it at his foe, dealing Nightsoul-aligned <color=#FFACFFFF>Electro DMG</color>.\nWhen other opponents are nearby, the Spirit Orb will bounce between them, dealing Nightsoul-aligned <color=#FFACFFFF>Electro DMG</color>. Each time Night's Sling is used, each opponent can only be selected as a target once.\nAfter 3 bounces, or if there are no eligible targets left, the Orb will disappear.\n\n<i>\"People always wish to foretell the future, but that might be because they have yet to discover that which they must do... Sorry, I'm saying complicated things again, aren't I...\"</i>",
+      "description": "Ororon manifests an ancient mystical technique from the Masters of the Night-Wind as a Spirit Orb of midnight shade and throws it at his foe, dealing Nightsoul-aligned Electro DMG.\nWhen other opponents are nearby, the Spirit Orb will bounce between them, dealing Nightsoul-aligned Electro DMG. Each time Night's Sling is used, each opponent can only be selected as a target once.\nAfter 3 bounces, or if there are no eligible targets left, the Orb will disappear.",
+      "flavorText": "\"People always wish to foretell the future, but that might be because they have yet to discover that which they must do... Sorry, I'm saying complicated things again, aren't I...\"",
+      "attributes": {
+        "labels": [
+          "Spirit Orb DMG|{param1:F1P}",
+          "CD|{param2:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.976,
+            2.1242,
+            2.2724,
+            2.47,
+            2.6182,
+            2.7664,
+            2.964,
+            3.1616,
+            3.3592,
+            3.5568,
+            3.7544,
+            3.952,
+            4.199,
+            4.446,
+            4.693
+          ],
+          "param2": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "combatju": {
+      "name": "Special Jump",
+      "descriptionRaw": "If this character is in Natlan, Hold to consume Phlogiston and execute a Rocket Double Jump. When Phlogiston is completely depleted, it will consume Stamina to execute the Double Jump instead.",
+      "description": "If this character is in Natlan, Hold to consume Phlogiston and execute a Rocket Double Jump. When Phlogiston is completely depleted, it will consume Stamina to execute the Double Jump instead.",
+      "attributes": {
+        "labels": [],
+        "parameters": {}
+      }
+    },
+    "combat3": {
+      "name": "Dark Voices Echo",
+      "descriptionRaw": "Ororon works an ancient ritual, dealing Nightsoul-aligned <color=#FFACFFFF>AoE Electro DMG</color>, summoning forth a Supersonic Oculus.\n\n<color=#FFD780FF>Supersonic Oculus</color>\n·Continuously taunts nearby opponents and attracts attacks from them.\n·Continuously rotates and fires off sonic waves that deal Nightsoul-aligned <color=#FFACFFFF>Electro DMG</color>.\n\n<i>Those with sharp enough senses can hear the minute voices with which all things speak. That way, they will never lose their way — not even on long, lightless nights.</i>",
+      "description": "Ororon works an ancient ritual, dealing Nightsoul-aligned AoE Electro DMG, summoning forth a Supersonic Oculus.\n\nSupersonic Oculus\n·Continuously taunts nearby opponents and attracts attacks from them.\n·Continuously rotates and fires off sonic waves that deal Nightsoul-aligned Electro DMG.",
+      "flavorText": "Those with sharp enough senses can hear the minute voices with which all things speak. That way, they will never lose their way — not even on long, lightless nights.",
+      "attributes": {
+        "labels": [
+          "Ritual DMG|{param1:F1P}",
+          "Soundwave Collision DMG|{param2:F1P}",
+          "Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            1.74384,
+            1.874628,
+            2.005416,
+            2.1798,
+            2.310588,
+            2.441376,
+            2.61576,
+            2.790144,
+            2.964528,
+            3.138912,
+            3.313296,
+            3.48768,
+            3.70566,
+            3.92364,
+            4.14162
+          ],
+          "param2": [
+            0.332,
+            0.3569,
+            0.3818,
+            0.415,
+            0.4399,
+            0.4648,
+            0.498,
+            0.5312,
+            0.5644,
+            0.5976,
+            0.6308,
+            0.664,
+            0.7055,
+            0.747,
+            0.7885
+          ],
+          "param3": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Nightshade Synesthesia",
+      "descriptionRaw": "After a nearby party member triggers Nightsoul Burst, Ororon will gain 40 Nightsoul points. Within 15s after using his Elemental Skill, when other party members' <color=#80C0FFFF>Hydro</color> or <color=#FFACFFFF>Electro</color> attacks hit opponents, Ororon will gain 5 Nightsoul points, an effect that can occur every 0.3s for a maximum of 10 times during this 15s duration.\nOroron can have a maximum of 80 Nightsoul points.\n\nAlso, when nearby opponents take <color=#FFACFFFF>Electro-Charged or Lunar-Charged</color> reaction DMG or Nightsoul-aligned DMG dealt by other nearby characters, Ororon will consume 10 Nightsoul points (provided he has at least that amount), entering the Nightsoul's Blessing state and triggering the Hypersense effect: Deal Nightsoul-aligned <color=#FFACFFFF>Electro DMG</color> based on 160% of Ororon's ATK to at most 4 nearby opponents. The aforementioned effect can trigger once every 1.8s.\n\n<color=#FFD780FF>Nightsoul's Blessing: Ororon</color>\nOroron's Nightsoul's Blessing state lasts 6s.",
+      "description": "After a nearby party member triggers Nightsoul Burst, Ororon will gain 40 Nightsoul points. Within 15s after using his Elemental Skill, when other party members' Hydro or Electro attacks hit opponents, Ororon will gain 5 Nightsoul points, an effect that can occur every 0.3s for a maximum of 10 times during this 15s duration.\nOroron can have a maximum of 80 Nightsoul points.\n\nAlso, when nearby opponents take Electro-Charged or Lunar-Charged reaction DMG or Nightsoul-aligned DMG dealt by other nearby characters, Ororon will consume 10 Nightsoul points (provided he has at least that amount), entering the Nightsoul's Blessing state and triggering the Hypersense effect: Deal Nightsoul-aligned Electro DMG based on 160% of Ororon's ATK to at most 4 nearby opponents. The aforementioned effect can trigger once every 1.8s.\n\nNightsoul's Blessing: Ororon\nOroron's Nightsoul's Blessing state lasts 6s."
+    },
+    "passive2": {
+      "name": "Aspect Catalyst",
+      "descriptionRaw": "After the Elemental Skill <color=#FFD780FF>Night's Sling</color>'s <color=#FFD780FF>Spirit Orb</color> hits an opponent, Ororon will gain the Aspect Sigil effect for 15s.\n\n<color=#FFD780FF>Aspect Sigil</color>\nWhen a nearby active party member hits an opponent with Normal, Charged, or Plunging Attacks, that character will restore 3 Energy. If Ororon is off-field, Ororon will also restore 3 Energy. This effect can trigger once every 1s, and can trigger 3 times per duration.",
+      "description": "After the Elemental Skill Night's Sling's Spirit Orb hits an opponent, Ororon will gain the Aspect Sigil effect for 15s.\n\nAspect Sigil\nWhen a nearby active party member hits an opponent with Normal, Charged, or Plunging Attacks, that character will restore 3 Energy. If Ororon is off-field, Ororon will also restore 3 Energy. This effect can trigger once every 1s, and can trigger 3 times per duration."
+    },
+    "passive3": {
+      "name": "Night Realm's Gift: Flowing Fog, Spritely Shadows",
+      "descriptionRaw": "While in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Ororon. When the active character is currently in the air, the following will trigger when switching to Ororon: Ororon will leap up high. Nightsoul Transmission can be triggered once every 10s by your party.\n\nHolding Aiming Mode will cause Ororon to enter the \"Spiritspeaker\" state, which will allow him to interact with \"Nightspirit Graffiti\" and \"Nightspirit Sigils,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.\n\nAdditionally, holding the jump button will cause Ororon to consume 75 Stamina and leap. In areas within Natlan where Phlogiston mechanics are present, Ororon will prioritize consuming 5 Phlogiston to leap to a height higher still.\nWhen in the air, Ororon can Hold his Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode.",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Ororon. When the active character is currently in the air, the following will trigger when switching to Ororon: Ororon will leap up high. Nightsoul Transmission can be triggered once every 10s by your party.\n\nHolding Aiming Mode will cause Ororon to enter the \"Spiritspeaker\" state, which will allow him to interact with \"Nightspirit Graffiti\" and \"Nightspirit Sigils,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.\n\nAdditionally, holding the jump button will cause Ororon to consume 75 Stamina and leap. In areas within Natlan where Phlogiston mechanics are present, Ororon will prioritize consuming 5 Phlogiston to leap to a height higher still.\nWhen in the air, Ororon can Hold his Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode."
+    },
+    "passive4": {
+      "name": "The Art of Skinchanging",
+      "descriptionRaw": "Increases gliding SPD for your own party members by 15%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "description": "Increases gliding SPD for your own party members by 15%.\nNot stackable with Passive Talents that provide the exact same effects."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104350,
+          "name": "Teachings of Kindling",
+          "count": 3
+        },
+        {
+          "id": 112101,
+          "name": "Juvenile Fang",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 2
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 4
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 6
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104351,
+          "name": "Guide to Kindling",
+          "count": 9
+        },
+        {
+          "id": 112102,
+          "name": "Seasoned Fang",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 4
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 4
+        },
+        {
+          "id": 113054,
+          "name": "Lightless Silk String",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 6
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 6
+        },
+        {
+          "id": 113054,
+          "name": "Lightless Silk String",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 12
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 9
+        },
+        {
+          "id": 113054,
+          "name": "Lightless Silk String",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104352,
+          "name": "Philosophies of Kindling",
+          "count": 16
+        },
+        {
+          "id": 112103,
+          "name": "Tyrant's Fang",
+          "count": 12
+        },
+        {
+          "id": 113054,
+          "name": "Lightless Silk String",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Olorun_01",
+      "filename_combatju": "Skill_E_Olorun_03",
+      "filename_combat3": "Skill_E_Olorun_01_HD",
+      "filename_passive1": "UI_Talent_S_Olorun_05",
+      "filename_passive2": "UI_Talent_S_Olorun_06",
+      "filename_passive3": "UI_Talent_S_Olorun_07",
+      "filename_passive4": "UI_Talent_S_Olorun_08"
+    },
+    "version": "5.2"
+  },
+  "constellation": {
+    "id": 10501,
+    "name": "Ororon",
+    "c1": {
+      "name": "Trails Amidst the Forest Fog",
+      "descriptionRaw": "The Elemental Skill <color=#FFD780FF>Night's Sling</color>'s <color=#FFD780FF>Spirit Orb</color> can bounce 2 additional times.\nAdditionally, after the <color=#FFD780FF>Spirit Orb</color> hits an opponent, it will apply the Nighttide effect to them for 12s. Opponents affected by Nighttide take 50% increased DMG from Hypersense triggered by the Ascension Talent, \"Nightshade Synesthesia.\" You must first unlock the Ascension Talent \"Nightshade Synesthesia.\"",
+      "description": "The Elemental Skill Night's Sling's Spirit Orb can bounce 2 additional times.\nAdditionally, after the Spirit Orb hits an opponent, it will apply the Nighttide effect to them for 12s. Opponents affected by Nighttide take 50% increased DMG from Hypersense triggered by the Ascension Talent, \"Nightshade Synesthesia.\" You must first unlock the Ascension Talent \"Nightshade Synesthesia.\""
+    },
+    "c2": {
+      "name": "King Bee of the Hidden Honeyed Wine",
+      "descriptionRaw": "After using his Elemental Burst, <color=#FFD780FF>Dark Voices Echo</color>, Ororon will obtain the Spiritual Supersense effect for 9s.\n\n<color=#FFD780FF>Spiritual Supersense</color>\nGain 8% <color=#FFACFFFF>Electro DMG Bonus</color>.\nAdditionally, during this time, every additional opponent hit by the Elemental Burst <color=#FFD780FF>Dark Voices Echo</color> or <color=#FFD780FF>Supersonic Oculus</color> will grant Ororon a further 8% <color=#FFACFFFF>Electro DMG Bonus</color>. The maximum that can be gained this way is 32% <color=#FFACFFFF>Electro DMG Bonus</color>.",
+      "description": "After using his Elemental Burst, Dark Voices Echo, Ororon will obtain the Spiritual Supersense effect for 9s.\n\nSpiritual Supersense\nGain 8% Electro DMG Bonus.\nAdditionally, during this time, every additional opponent hit by the Elemental Burst Dark Voices Echo or Supersonic Oculus will grant Ororon a further 8% Electro DMG Bonus. The maximum that can be gained this way is 32% Electro DMG Bonus."
+    },
+    "c3": {
+      "name": "Roosting Bat's Spiritcage",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Dark Voices Echo</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Dark Voices Echo by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "As the Mysteries of the Night Wind",
+      "descriptionRaw": "The <color=#FFD780FF>Supersonic Oculus</color> summoned by the Elemental Burst <color=#FFD780FF>Dark Voices Echo</color> rotates 25% faster.\nAdditionally, Ororon will restore 8 Energy to himself after using <color=#FFD780FF>Dark Voices Echo</color>.",
+      "description": "The Supersonic Oculus summoned by the Elemental Burst Dark Voices Echo rotates 25% faster.\nAdditionally, Ororon will restore 8 Energy to himself after using Dark Voices Echo."
+    },
+    "c5": {
+      "name": "A Gift For the Soul",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Night's Sling</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Night's Sling by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Ode to Deep Springs",
+      "descriptionRaw": "After triggering Hypersense through the Ascension Talent, Nightshade Synesthesia, your current active character's ATK is increased by 10% for 9s. Max 3 stacks, each stack is counted independently.\nAdditionally, when you use the Elemental Burst <color=#FFD780FF>Dark Voices Echo</color>, you will trigger one instance of an effect equivalent to Hypersense, dealing 200% of its original DMG.\nYou must first unlock the Ascension Talent \"Nightshade Synesthesia.\"",
+      "description": "After triggering Hypersense through the Ascension Talent, Nightshade Synesthesia, your current active character's ATK is increased by 10% for 9s. Max 3 stacks, each stack is counted independently.\nAdditionally, when you use the Elemental Burst Dark Voices Echo, you will trigger one instance of an effect equivalent to Hypersense, dealing 200% of its original DMG.\nYou must first unlock the Ascension Talent \"Nightshade Synesthesia.\""
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Olorun_01",
+      "filename_c2": "UI_Talent_S_Olorun_02",
+      "filename_c3": "UI_Talent_U_Olorun_01",
+      "filename_c4": "UI_Talent_S_Olorun_03",
+      "filename_c5": "UI_Talent_U_Olorun_02",
+      "filename_c6": "UI_Talent_S_Olorun_04",
+      "filename_constellation": "Eff_UI_Talent_Olorun"
+    },
+    "version": "5.2"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 775.02234,
+      "attack": 20.4792,
+      "defense": 49.2135,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 839.34919422,
+      "attack": 22.1789736,
+      "defense": 53.2982205,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 902.9010261,
+      "attack": 23.858268,
+      "defense": 57.33372750000001,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 967.2278803199999,
+      "attack": 25.5580416,
+      "defense": 61.418448000000005,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1030.7797122,
+      "attack": 27.237336,
+      "defense": 65.45395500000001,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1095.10656642,
+      "attack": 28.9371096,
+      "defense": 69.53867550000001,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1158.6583983,
+      "attack": 30.616404,
+      "defense": 73.5741825,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1222.9852525200001,
+      "attack": 32.316177599999996,
+      "defense": 77.65890300000001,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1287.31210674,
+      "attack": 34.015951199999996,
+      "defense": 81.74362350000001,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1350.86393862,
+      "attack": 35.6952456,
+      "defense": 85.77913050000001,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1415.19079284,
+      "attack": 37.3950192,
+      "defense": 89.86385100000001,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1478.7426247199999,
+      "attack": 39.074313599999996,
+      "defense": 93.899358,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1543.06947894,
+      "attack": 40.7740872,
+      "defense": 97.98407850000001,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1606.62131082,
+      "attack": 42.45338159999999,
+      "defense": 102.0195855,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1670.94816504,
+      "attack": 44.1531552,
+      "defense": 106.10430600000001,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1735.27501926,
+      "attack": 45.852928799999994,
+      "defense": 110.1890265,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1798.8268511400001,
+      "attack": 47.5322232,
+      "defense": 114.22453350000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1863.15370536,
+      "attack": 49.2319968,
+      "defense": 118.30925400000001,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 1926.7055372400002,
+      "attack": 50.9112912,
+      "defense": 122.34476100000002,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 1991.0323914599999,
+      "attack": 52.611064799999994,
+      "defense": 126.42948150000001,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2633.56562334,
+      "attack": 69.5897292,
+      "defense": 167.2299885,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2697.89247756,
+      "attack": 71.2895028,
+      "defense": 171.314709,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2762.21933178,
+      "attack": 72.9892764,
+      "defense": 175.3994295,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2825.77116366,
+      "attack": 74.6685708,
+      "defense": 179.4349365,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 2890.09801788,
+      "attack": 76.3683444,
+      "defense": 183.519657,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 2953.64984976,
+      "attack": 78.0476388,
+      "defense": 187.555164,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3017.97670398,
+      "attack": 79.74741239999999,
+      "defense": 191.6398845,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3081.52853586,
+      "attack": 81.42670679999999,
+      "defense": 195.6753915,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3145.85539008,
+      "attack": 83.12648039999999,
+      "defense": 199.760112,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3209.4072219600002,
+      "attack": 84.8057748,
+      "defense": 203.79561900000004,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3273.73407618,
+      "attack": 86.5055484,
+      "defense": 207.8803395,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3338.0609304,
+      "attack": 88.205322,
+      "defense": 211.96506,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3401.61276228,
+      "attack": 89.88461639999998,
+      "defense": 216.000567,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3465.9396165000003,
+      "attack": 91.58439,
+      "defense": 220.0852875,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3529.49144838,
+      "attack": 93.26368439999999,
+      "defense": 224.1207945,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3593.8183026,
+      "attack": 94.96345799999999,
+      "defense": 228.20551500000005,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3657.37013448,
+      "attack": 96.64275239999999,
+      "defense": 232.241022,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3721.6969887,
+      "attack": 98.34252599999998,
+      "defense": 236.3257425,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 3786.02384292,
+      "attack": 100.04229959999999,
+      "defense": 240.410463,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 3849.5756748,
+      "attack": 101.72159399999998,
+      "defense": 244.44597,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4325.28397902,
+      "attack": 114.29197260000001,
+      "defense": 274.6531905,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4388.8358109,
+      "attack": 115.97126699999998,
+      "defense": 278.6886975,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4453.16266512,
+      "attack": 117.6710406,
+      "defense": 282.773418,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4516.714497,
+      "attack": 119.350335,
+      "defense": 286.808925,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4581.041351219999,
+      "attack": 121.05010859999999,
+      "defense": 290.8936455,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4645.36820544,
+      "attack": 122.7498822,
+      "defense": 294.97836600000005,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4708.92003732,
+      "attack": 124.4291766,
+      "defense": 299.01387300000005,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 4773.24689154,
+      "attack": 126.12895019999999,
+      "defense": 303.09859350000005,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 4836.79872342,
+      "attack": 127.8082446,
+      "defense": 307.13410050000005,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 4901.12557764,
+      "attack": 129.5080182,
+      "defense": 311.21882100000005,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5513.18615952,
+      "attack": 145.6814536,
+      "defense": 350.084328,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5577.51301374,
+      "attack": 147.3812272,
+      "defense": 354.16904850000003,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5641.8398679599995,
+      "attack": 149.0810008,
+      "defense": 358.25376900000003,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 5705.39169984,
+      "attack": 150.7602952,
+      "defense": 362.2892760000001,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 5769.71855406,
+      "attack": 152.4600688,
+      "defense": 366.3739965,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 5833.270385940001,
+      "attack": 154.1393632,
+      "defense": 370.4095035,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 5897.597240159999,
+      "attack": 155.83913679999998,
+      "defense": 374.49422400000003,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 5961.14907204,
+      "attack": 157.5184312,
+      "defense": 378.5297310000001,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6025.47592626,
+      "attack": 159.2182048,
+      "defense": 382.6144515,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6089.80278048,
+      "attack": 160.91797839999998,
+      "defense": 386.699172,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6564.736012359999,
+      "attack": 173.4678768,
+      "defense": 416.857179,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 6629.0628665799995,
+      "attack": 175.16765039999999,
+      "defense": 420.9418995,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 6692.614698459999,
+      "attack": 176.8469448,
+      "defense": 424.97740650000003,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 6756.941552679999,
+      "attack": 178.5467184,
+      "defense": 429.06212700000003,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 6820.49338456,
+      "attack": 180.22601279999998,
+      "defense": 433.09763399999997,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 6884.820238779999,
+      "attack": 181.9257864,
+      "defense": 437.1823545,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 6949.147093,
+      "attack": 183.62555999999998,
+      "defense": 441.267075,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7012.69892488,
+      "attack": 185.30485439999998,
+      "defense": 445.30258200000003,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7077.025779099999,
+      "attack": 187.004628,
+      "defense": 449.38730250000003,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7140.57761098,
+      "attack": 188.68392239999997,
+      "defense": 453.4228095000001,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 7616.285965200001,
+      "attack": 201.254303,
+      "defense": 483.63003000000003,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 7679.83779708,
+      "attack": 202.9335974,
+      "defense": 487.6655370000001,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 7744.1646513000005,
+      "attack": 204.633371,
+      "defense": 491.7502575000001,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 7808.49150552,
+      "attack": 206.33314459999997,
+      "defense": 495.834978,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 7872.0433374,
+      "attack": 208.012439,
+      "defense": 499.87048500000003,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 7936.37019162,
+      "attack": 209.7122126,
+      "defense": 503.95520550000003,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 7999.9220235,
+      "attack": 211.391507,
+      "defense": 507.9907125000001,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8064.24887772,
+      "attack": 213.09128059999998,
+      "defense": 512.075433,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8127.8007096,
+      "attack": 214.770575,
+      "defense": 516.11094,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8192.127563819999,
+      "attack": 216.4703486,
+      "defense": 520.1956605,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 8667.83591804,
+      "attack": 229.0407252,
+      "defense": 550.402881,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 8731.387749919999,
+      "attack": 230.7200196,
+      "defense": 554.438388,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 8795.71460414,
+      "attack": 232.41979320000002,
+      "defense": 558.5231085,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 8859.26643602,
+      "attack": 234.09908759999996,
+      "defense": 562.5586155,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 8923.59329024,
+      "attack": 235.79886119999998,
+      "defense": 566.643336,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 8987.14512212,
+      "attack": 237.47815559999998,
+      "defense": 570.678843,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9051.47197634,
+      "attack": 239.1779292,
+      "defense": 574.7635635,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9115.02380822,
+      "attack": 240.8572236,
+      "defense": 578.7990705,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9179.35066244,
+      "attack": 242.5569972,
+      "defense": 582.8837910000001,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9243.67751666,
+      "attack": 244.25677079999997,
+      "defense": 586.9685115000001,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2570.01379146,
+      "attack": 67.91043479999999,
+      "defense": 163.1944815,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4260.957124799999,
+      "attack": 112.592199,
+      "defense": 270.56847,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5449.63432764,
+      "attack": 144.0021592,
+      "defense": 346.04882100000003,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6501.18418048,
+      "attack": 171.7885824,
+      "defense": 412.82167200000004,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7551.95911098,
+      "attack": 199.55452939999998,
+      "defense": 479.54530950000003,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 8603.50906382,
+      "attack": 227.34095159999998,
+      "defense": 546.3181605,
+      "specialized": 0.24
+    }
+  }
+}

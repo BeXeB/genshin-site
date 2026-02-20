@@ -1,0 +1,1668 @@
+{
+  "profile": {
+    "id": 10000095,
+    "name": "Sigewinne",
+    "title": "Wondrous Dragonheir",
+    "description": "A Melusine and the Fortress of Meropide's head nurse. She cares equally for every convict locked in the undersea prison.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_LOLI",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "3/30",
+    "birthday": "March 30",
+    "elementType": "ELEMENT_HYDRO",
+    "elementText": "Hydro",
+    "affiliation": "Fortress of Meropide",
+    "associationType": "ASSOC_FONTAINE",
+    "region": "Fontaine",
+    "substatType": "FIGHT_PROP_HP_PERCENT",
+    "substatText": "HP",
+    "constellation": "Nereides",
+    "cv": {
+      "english": "Sarah Williams",
+      "chinese": "赵爽",
+      "japanese": "木野日菜",
+      "korean": "Kim Chae-rin"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104121,
+          "name": "Varunada Lazurite Sliver",
+          "count": 1
+        },
+        {
+          "id": 101233,
+          "name": "Romaritime Flower",
+          "count": 3
+        },
+        {
+          "id": 112080,
+          "name": "Transoceanic Pearl",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 3
+        },
+        {
+          "id": 113057,
+          "name": "Water That Failed To Transcend",
+          "count": 2
+        },
+        {
+          "id": 101233,
+          "name": "Romaritime Flower",
+          "count": 10
+        },
+        {
+          "id": 112080,
+          "name": "Transoceanic Pearl",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 6
+        },
+        {
+          "id": 113057,
+          "name": "Water That Failed To Transcend",
+          "count": 4
+        },
+        {
+          "id": 101233,
+          "name": "Romaritime Flower",
+          "count": 20
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 3
+        },
+        {
+          "id": 113057,
+          "name": "Water That Failed To Transcend",
+          "count": 8
+        },
+        {
+          "id": 101233,
+          "name": "Romaritime Flower",
+          "count": 30
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 6
+        },
+        {
+          "id": 113057,
+          "name": "Water That Failed To Transcend",
+          "count": 12
+        },
+        {
+          "id": 101233,
+          "name": "Romaritime Flower",
+          "count": 45
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104124,
+          "name": "Varunada Lazurite Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113057,
+          "name": "Water That Failed To Transcend",
+          "count": 20
+        },
+        {
+          "id": 101233,
+          "name": "Romaritime Flower",
+          "count": 60
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Sigewinne",
+      "filename_iconCard": "UI_AvatarIcon_Sigewinne_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Sigewinne",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Sigewinne",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sigewinne",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sigewinne.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Sigewinne.png",
+      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/124105/22609467819303b436883092635ae97a_5002591570143526700.png",
+      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/124105/92c470753d2ea1e4acca1ea8e77a2539_6872660230877687686.png",
+      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/26/35428890/2d607aa4d729030ea04f79919257e311_1172370997840232141.png"
+    },
+    "version": "4.7"
+  },
+  "skills": {
+    "id": 9501,
+    "name": "Sigewinne",
+    "combat1": {
+      "name": "Targeted Treatment",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 consecutive attacks.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, the power of Hydro will continually accumulate on the arrow. After fully charging, Sigewinne will periodically fire slow-moving Mini-Stration Bubbles toward the target, dealing <color=#80C0FFFF>Hydro DMG</color>. When released, an arrow imbued with torrential energy will deal <color=#80C0FFFF>Hydro DMG</color> to the opponent hit.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 3 consecutive attacks.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, the power of Hydro will continually accumulate on the arrow. After fully charging, Sigewinne will periodically fire slow-moving Mini-Stration Bubbles toward the target, dealing Hydro DMG. When released, an arrow imbued with torrential energy will deal Hydro DMG to the opponent hit.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "Aimed Shot|{param7:F1P}",
+          "Fully-Charged Aimed Shot|{param8:F1P}",
+          "Mini-Stration Bubble DMG|{param9:F1P}",
+          "Plunge DMG|{param4:F1P}",
+          "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.526139,
+            0.568965,
+            0.61179,
+            0.672969,
+            0.715794,
+            0.764737,
+            0.832034,
+            0.899331,
+            0.966628,
+            1.040043,
+            1.113458,
+            1.186873,
+            1.260287,
+            1.333702,
+            1.407117
+          ],
+          "param2": [
+            0.510711,
+            0.552281,
+            0.59385,
+            0.653235,
+            0.694804,
+            0.742312,
+            0.807636,
+            0.872959,
+            0.938283,
+            1.009545,
+            1.080807,
+            1.152069,
+            1.223331,
+            1.294593,
+            1.365855
+          ],
+          "param3": [
+            0.78291,
+            0.846635,
+            0.91036,
+            1.001396,
+            1.065121,
+            1.13795,
+            1.23809,
+            1.338229,
+            1.438369,
+            1.547612,
+            1.656855,
+            1.766098,
+            1.875342,
+            1.984585,
+            2.093828
+          ],
+          "param4": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param5": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param6": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ],
+          "param7": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.9282,
+            0.9894,
+            1.0506,
+            1.1118,
+            1.173
+          ],
+          "param8": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.356,
+            2.48,
+            2.635,
+            2.79,
+            2.945
+          ],
+          "param9": [
+            0.248,
+            0.2666,
+            0.2852,
+            0.31,
+            0.3286,
+            0.3472,
+            0.372,
+            0.3968,
+            0.4216,
+            0.4464,
+            0.4712,
+            0.496,
+            0.527,
+            0.558,
+            0.589
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Rebound Hydrotherapy",
+      "descriptionRaw": "Blows a <color=#FFD780FF>Bolstering Bubblebalm</color> that can stimulate blood flow and help patients drift off to sleep using a bubblegun specially made in the Fortress of Meropide.\nBolstering Bubblebalms will bounce between nearby opponents, dealing <color=#80C0FFFF>Hydro DMG</color> based on Sigewinne's max HP to opponents it hits. When it bounces, it will restore HP to all nearby party members except Sigewinne herself. The amount healed is based on Sigewinne's max HP.\nAfter bouncing 5 times, the Bolstering Bubblebalm will disappear and restore HP to Sigewinne based on her max HP value.\nWhen no opponents are present, the Bolstering Bubblebalm will bounce nearby. Only one Bolstering Bubblebalm created by a Sigewinne may exist at once.\nWhen Held, the Bolstering Bubblebalm can be boosted to an even bigger size.\n\n<color=#FFD780FF>Hold</color>\nEnter Aiming Mode to begin blowing an even bigger, even more breathtaking Bolstering Bubblebalm!\nThe Bolstering Bubblebalm will grow bigger the longer the skill is Held, until it grows up to two tiers in size. Each tier it grows increases its DMG by 5% and healing by 5%. When a Bolstering Bubblebalm bounces, it will drop down a tier in size, until it returns to being a normal Bolstering Bubblebalm.\nAfter weaker opponents are hit by big Bolstering Bubblebalms, they will be imprisoned and will be unable to move.\n\nIn addition, 2 Sourcewater Droplets will be created near Sigewinne when she uses this Skill. Each Sourcewater Droplet Sigewinne collects will grant her a Bond of Life worth 10% of her Max HP.\nWhen Sigewinne's Bond of Life is cleared, she regains 1 Elemental Energy for every 2,000 HP worth of the Bond of Life that was cleared. Sigewinne can regain up to 5 Elemental Energy in this way.\n\n<color=#FFD780FF>Arkhe: Ousia</color>\nBolstering Bubblebalms periodically call down a Surging Blade on the position they hit, dealing Ousia-aligned <color=#80C0FFFF>Hydro DMG</color> based on Sigewinne's max HP.\n\n<i>\"What do you think? Not only can this kind of hydrotherapy stimulate the circulatory system, but it can also cheer patients up, ooh, and that's not all, it can even help patients who ought to get some rest have a nice nap...\"</i>",
+      "description": "Blows a Bolstering Bubblebalm that can stimulate blood flow and help patients drift off to sleep using a bubblegun specially made in the Fortress of Meropide.\nBolstering Bubblebalms will bounce between nearby opponents, dealing Hydro DMG based on Sigewinne's max HP to opponents it hits. When it bounces, it will restore HP to all nearby party members except Sigewinne herself. The amount healed is based on Sigewinne's max HP.\nAfter bouncing 5 times, the Bolstering Bubblebalm will disappear and restore HP to Sigewinne based on her max HP value.\nWhen no opponents are present, the Bolstering Bubblebalm will bounce nearby. Only one Bolstering Bubblebalm created by a Sigewinne may exist at once.\nWhen Held, the Bolstering Bubblebalm can be boosted to an even bigger size.\n\nHold\nEnter Aiming Mode to begin blowing an even bigger, even more breathtaking Bolstering Bubblebalm!\nThe Bolstering Bubblebalm will grow bigger the longer the skill is Held, until it grows up to two tiers in size. Each tier it grows increases its DMG by 5% and healing by 5%. When a Bolstering Bubblebalm bounces, it will drop down a tier in size, until it returns to being a normal Bolstering Bubblebalm.\nAfter weaker opponents are hit by big Bolstering Bubblebalms, they will be imprisoned and will be unable to move.\n\nIn addition, 2 Sourcewater Droplets will be created near Sigewinne when she uses this Skill. Each Sourcewater Droplet Sigewinne collects will grant her a Bond of Life worth 10% of her Max HP.\nWhen Sigewinne's Bond of Life is cleared, she regains 1 Elemental Energy for every 2,000 HP worth of the Bond of Life that was cleared. Sigewinne can regain up to 5 Elemental Energy in this way.\n\nArkhe: Ousia\nBolstering Bubblebalms periodically call down a Surging Blade on the position they hit, dealing Ousia-aligned Hydro DMG based on Sigewinne's max HP.",
+      "flavorText": "\"What do you think? Not only can this kind of hydrotherapy stimulate the circulatory system, but it can also cheer patients up, ooh, and that's not all, it can even help patients who ought to get some rest have a nice nap...\"",
+      "attributes": {
+        "labels": [
+          "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+          "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+          "Final Bounce Healing|{param4:F1P} Max HP",
+          "Surging Blade DMG|{param7:F2P} Max HP",
+          "Surging Blade Interval|{param8:F1}s",
+          "CD|{param9:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.0228,
+            0.02451,
+            0.02622,
+            0.0285,
+            0.03021,
+            0.03192,
+            0.0342,
+            0.03648,
+            0.03876,
+            0.04104,
+            0.04332,
+            0.0456,
+            0.04845,
+            0.0513,
+            0.05415
+          ],
+          "param2": [
+            0.028,
+            0.0301,
+            0.0322,
+            0.035,
+            0.0371,
+            0.0392,
+            0.042,
+            0.0448,
+            0.0476,
+            0.0504,
+            0.0532,
+            0.056,
+            0.0595,
+            0.063,
+            0.0665
+          ],
+          "param3": [
+            269.6314,
+            296.5983,
+            325.81244,
+            357.2738,
+            390.98242,
+            426.93826,
+            465.14136,
+            505.59167,
+            548.28925,
+            593.2341,
+            640.42615,
+            689.8654,
+            741.55194,
+            795.4857,
+            851.66675
+          ],
+          "param4": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "param6": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "param7": [
+            0.00684,
+            0.007353,
+            0.007866,
+            0.00855,
+            0.009063,
+            0.009576,
+            0.01026,
+            0.010944,
+            0.011628,
+            0.012312,
+            0.012996,
+            0.01368,
+            0.014535,
+            0.01539,
+            0.016245
+          ],
+          "param8": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "param9": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param10": [
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "param11": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Super Saturated Syringing",
+      "descriptionRaw": "Takes out a special Fortress of Meropide-made syringe and assault the area in front with waves of kindness and medicine, dealing <color=#80C0FFFF>AoE Hydro DMG</color> based on Sigewinne's max HP.\nIn addition, Sigewinne absorbs up to 2 nearby Sourcewater Droplets within a certain range when she uses this skill.\n\n<i>\"Hey, overdosing on medicine is no different from poison, you know, it's real dangerous! But patients need care and concern, and nobody can overdose on that!\"</i>",
+      "description": "Takes out a special Fortress of Meropide-made syringe and assault the area in front with waves of kindness and medicine, dealing AoE Hydro DMG based on Sigewinne's max HP.\nIn addition, Sigewinne absorbs up to 2 nearby Sourcewater Droplets within a certain range when she uses this skill.",
+      "flavorText": "\"Hey, overdosing on medicine is no different from poison, you know, it's real dangerous! But patients need care and concern, and nobody can overdose on that!\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P} Max HP",
+          "Duration|{param4:F1}s",
+          "CD|{param2:F1}s",
+          "Energy Cost|{param3:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.117708,
+            0.126536,
+            0.135364,
+            0.147135,
+            0.155963,
+            0.164791,
+            0.176562,
+            0.188333,
+            0.200104,
+            0.211874,
+            0.223645,
+            0.235416,
+            0.250129,
+            0.264843,
+            0.279556
+          ],
+          "param2": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param3": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ],
+          "param4": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Requires Appropriate Rest",
+      "descriptionRaw": "Sigewinne grants herself the \"Semi-Strict Bedrest\" effect for 18s after using <color=#FFD780FF>Rebound Hydrotherapy</color>: Sigewinne gains an 8% <color=#80C0FFFF>Hydro DMG Bonus</color> and 10 stacks of Convalescence. When the Elemental Skills of your nearby off-field party members other than Sigewinne deal DMG, consume 1 stack of Convalescence, and increase the DMG dealt by this instance of Elemental Skill DMG. Every 1,000 Max HP Sigewinne has above 30,000 increases the DMG by 80. The maximum DMG increase for Elemental Skills that can be gained in this way is 2,800.",
+      "description": "Sigewinne grants herself the \"Semi-Strict Bedrest\" effect for 18s after using Rebound Hydrotherapy: Sigewinne gains an 8% Hydro DMG Bonus and 10 stacks of Convalescence. When the Elemental Skills of your nearby off-field party members other than Sigewinne deal DMG, consume 1 stack of Convalescence, and increase the DMG dealt by this instance of Elemental Skill DMG. Every 1,000 Max HP Sigewinne has above 30,000 increases the DMG by 80. The maximum DMG increase for Elemental Skills that can be gained in this way is 2,800."
+    },
+    "passive2": {
+      "name": "Detailed Diagnosis, Thorough Treatment",
+      "descriptionRaw": "When Sigewinne performs healing, the amount healed for this instance is increased based on the total current value of the Bonds of Life on all party members: For each 1,000 HP worth of Bonds of Life, the outgoing healing is increased by 3%. The amount of healing provided can be increased by up to 30% in this way.",
+      "description": "When Sigewinne performs healing, the amount healed for this instance is increased based on the total current value of the Bonds of Life on all party members: For each 1,000 HP worth of Bonds of Life, the outgoing healing is increased by 3%. The amount of healing provided can be increased by up to 30% in this way."
+    },
+    "passive3": {
+      "name": "Emergency Dose",
+      "descriptionRaw": "While underwater, heals your active character over 2.5s when their HP falls under 50%. The amount healed is equal to 50% of their Max HP, and their All Elemental and Physical RES will be decreased by 10% for 10s. This effect can be triggered up to once every 20s.",
+      "description": "While underwater, heals your active character over 2.5s when their HP falls under 50%. The amount healed is equal to 50% of their Max HP, and their All Elemental and Physical RES will be decreased by 10% for 10s. This effect can be triggered up to once every 20s."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104338,
+          "name": "Teachings of Equity",
+          "count": 3
+        },
+        {
+          "id": 112080,
+          "name": "Transoceanic Pearl",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 2
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 4
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 6
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 9
+        },
+        {
+          "id": 112081,
+          "name": "Transoceanic Chunk",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 4
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 4
+        },
+        {
+          "id": 113055,
+          "name": "Lightless Eye of the Maelstrom",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 6
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 6
+        },
+        {
+          "id": 113055,
+          "name": "Lightless Eye of the Maelstrom",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 12
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 9
+        },
+        {
+          "id": 113055,
+          "name": "Lightless Eye of the Maelstrom",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 16
+        },
+        {
+          "id": 112082,
+          "name": "Xenochromatic Crystal",
+          "count": 12
+        },
+        {
+          "id": 113055,
+          "name": "Lightless Eye of the Maelstrom",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Sigewinne_01",
+      "filename_combat3": "Skill_E_Sigewinne_01_HD",
+      "filename_passive1": "UI_Talent_S_Sigewinne_05",
+      "filename_passive2": "UI_Talent_S_Sigewinne_06",
+      "filename_passive3": "UI_Talent_S_Sigewinne_07"
+    },
+    "version": "4.7"
+  },
+  "constellation": {
+    "id": 9501,
+    "name": "Sigewinne",
+    "c1": {
+      "name": "\"Can the Happiest of Spirits Understand Anxiety?\"",
+      "descriptionRaw": "<color=#FFD780FF>Rebound Hydrotherapy</color>'s Bolstering Bubblebalm can bounce 3 extra times, and the first 3 bounces will not cause big Bubblebalms to become smaller.\nThe Ascension Talent \"Requires Appropriate Rest\" is enhanced: Each Bubblebalm bounce adds 1 stack to her Convalescence tally, and the values for the Convalescence stacks' DMG bonus will be modified to: Every 1,000 max HP Sigewinne has above 30,000 increases the DMG by 100. The maximum DMG increase for Elemental Skills that can be gained in this way is 3,500. You must first unlock the Ascension Talent \"Requires Appropriate Rest.\"",
+      "description": "Rebound Hydrotherapy's Bolstering Bubblebalm can bounce 3 extra times, and the first 3 bounces will not cause big Bubblebalms to become smaller.\nThe Ascension Talent \"Requires Appropriate Rest\" is enhanced: Each Bubblebalm bounce adds 1 stack to her Convalescence tally, and the values for the Convalescence stacks' DMG bonus will be modified to: Every 1,000 max HP Sigewinne has above 30,000 increases the DMG by 100. The maximum DMG increase for Elemental Skills that can be gained in this way is 3,500. You must first unlock the Ascension Talent \"Requires Appropriate Rest.\""
+    },
+    "c2": {
+      "name": "\"Can the Most Merciful of Spirits Defeat Its Foes?\"",
+      "descriptionRaw": "When using <color=#FFD780FF>Rebound Hydrotherapy</color> and <color=#FFD780FF>Super Saturated Syringing</color>, Sigewinne can create a Bubbly Shield worth 30% of her Max HP that absorbs <color=#80C0FFFF>Hydro DMG</color> with 250% efficiency. The Bubbly Shield will persist until Sigewinne finishes using relevant skills.\nAdditionally, after Rebound Hydrotherapy's Bolstering Bubblebalm or Super Saturated Syringing hits an opponent, that opponent's <color=#80C0FFFF>Hydro RES</color> will be decreased by 35% for 8s.",
+      "description": "When using Rebound Hydrotherapy and Super Saturated Syringing, Sigewinne can create a Bubbly Shield worth 30% of her Max HP that absorbs Hydro DMG with 250% efficiency. The Bubbly Shield will persist until Sigewinne finishes using relevant skills.\nAdditionally, after Rebound Hydrotherapy's Bolstering Bubblebalm or Super Saturated Syringing hits an opponent, that opponent's Hydro RES will be decreased by 35% for 8s."
+    },
+    "c3": {
+      "name": "\"Can the Healthiest of Spirits Cure Fevers?\"",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Rebound Hydrotherapy</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Rebound Hydrotherapy by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "\"Can the Loveliest of Spirits Keep Decay at Bay?\"",
+      "descriptionRaw": "The duration of <color=#FFD780FF>Super Saturated Syringing</color> is extended by 3s.",
+      "description": "The duration of Super Saturated Syringing is extended by 3s."
+    },
+    "c5": {
+      "name": "\"Can the Most Joyful of Spirits Alleviate Agony?\"",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Super Saturated Syringing</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Super Saturated Syringing by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "\"Can the Most Radiant of Spirits Pray For Me?\"",
+      "descriptionRaw": "When Sigewinne performs healing, she will increase the CRIT Rate and CRIT DMG of her <color=#FFD780FF>Super Saturated Syringing</color> based on her Max HP. Every 1,000 Max HP she has will increase CRIT Rate by 0.4% and CRIT DMG by 2.2% for 15s. The maximum increase achievable this way is 20% CRIT Rate and 110% CRIT DMG.",
+      "description": "When Sigewinne performs healing, she will increase the CRIT Rate and CRIT DMG of her Super Saturated Syringing based on her Max HP. Every 1,000 Max HP she has will increase CRIT Rate by 0.4% and CRIT DMG by 2.2% for 15s. The maximum increase achievable this way is 20% CRIT Rate and 110% CRIT DMG."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Sigewinne_01",
+      "filename_c2": "UI_Talent_S_Sigewinne_02",
+      "filename_c3": "UI_Talent_U_Sigewinne_01",
+      "filename_c4": "UI_Talent_S_Sigewinne_03",
+      "filename_c5": "UI_Talent_U_Sigewinne_02",
+      "filename_c6": "UI_Talent_S_Sigewinne_04",
+      "filename_constellation": "Eff_UI_Talent_Sigewinne"
+    },
+    "version": "4.7"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1039.1188,
+      "attack": 14.9891,
+      "defense": 38.8895,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1125.3656604,
+      "attack": 16.2331953,
+      "defense": 42.1173285,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1211.6125207999999,
+      "attack": 17.4772906,
+      "defense": 45.34515699999999,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1298.8985,
+      "attack": 18.736375000000002,
+      "defense": 48.611875,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1385.1453603999998,
+      "attack": 19.9804703,
+      "defense": 51.8397035,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1472.4313396,
+      "attack": 21.239554700000003,
+      "defense": 55.106421499999996,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1558.6781999999998,
+      "attack": 22.48365,
+      "defense": 58.33425,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1645.9641792,
+      "attack": 23.742734400000003,
+      "defense": 61.600968,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1733.2501584,
+      "attack": 25.0018188,
+      "defense": 64.86768599999999,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1819.4970187999998,
+      "attack": 26.2459141,
+      "defense": 68.0955145,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1906.782998,
+      "attack": 27.5049985,
+      "defense": 71.36223249999999,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1994.0689772,
+      "attack": 28.764082900000002,
+      "defense": 74.6289505,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2081.3549564,
+      "attack": 30.023167300000004,
+      "defense": 77.8956685,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2169.6800544,
+      "attack": 31.2972408,
+      "defense": 81.201276,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2256.9660336,
+      "attack": 32.5563252,
+      "defense": 84.467994,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2344.2520127999996,
+      "attack": 33.815409599999995,
+      "defense": 87.73471199999999,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2432.5771108,
+      "attack": 35.0894831,
+      "defense": 91.04031950000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2519.86309,
+      "attack": 36.3485675,
+      "defense": 94.30703749999999,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2608.1881879999996,
+      "attack": 37.622641,
+      "defense": 97.61264499999999,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2695.4741671999996,
+      "attack": 38.8817254,
+      "defense": 100.87936299999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3674.7497052,
+      "attack": 53.0066579,
+      "defense": 137.5299705,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3763.0748031999997,
+      "attack": 54.2807314,
+      "defense": 140.835578,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3851.3999012000004,
+      "attack": 55.55480490000001,
+      "defense": 144.1411855,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3939.7249992,
+      "attack": 56.8288784,
+      "defense": 147.446793,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 4028.0500972,
+      "attack": 58.1029519,
+      "defense": 150.7524005,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 4117.414314,
+      "attack": 59.3920145,
+      "defense": 154.0968975,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4205.739412,
+      "attack": 60.666088,
+      "defense": 157.402505,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4294.064509999999,
+      "attack": 61.9401615,
+      "defense": 160.70811249999997,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4383.4287268,
+      "attack": 63.2292241,
+      "defense": 164.0526095,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4471.7538248,
+      "attack": 64.5032976,
+      "defense": 167.358217,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4561.1180416,
+      "attack": 65.7923602,
+      "defense": 170.702714,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4650.482258399999,
+      "attack": 67.0814228,
+      "defense": 174.04721099999998,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4739.8464752,
+      "attack": 68.3704854,
+      "defense": 177.391708,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4828.1715732,
+      "attack": 69.6445589,
+      "defense": 180.6973155,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4917.53579,
+      "attack": 70.9336215,
+      "defense": 184.0418125,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 5007.9391256,
+      "attack": 72.2376732,
+      "defense": 187.425199,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 5097.3033424,
+      "attack": 73.52673580000001,
+      "defense": 190.76969599999998,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 5186.6675592,
+      "attack": 74.8157984,
+      "defense": 194.114193,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5276.031775999999,
+      "attack": 76.104861,
+      "defense": 197.45869,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5366.4351116,
+      "attack": 77.4089127,
+      "defense": 200.84207650000002,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 6088.8429884,
+      "attack": 87.82884729999999,
+      "defense": 227.87907349999998,
+      "specialized": 0.072
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 6179.246324,
+      "attack": 89.13289900000001,
+      "defense": 231.26246,
+      "specialized": 0.072
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 6269.6496596,
+      "attack": 90.4369507,
+      "defense": 234.6458465,
+      "specialized": 0.072
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6359.013876399999,
+      "attack": 91.72601329999999,
+      "defense": 237.99034349999997,
+      "specialized": 0.072
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6449.417212,
+      "attack": 93.03006500000001,
+      "defense": 241.37373,
+      "specialized": 0.072
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6539.820547599999,
+      "attack": 94.3341167,
+      "defense": 244.7571165,
+      "specialized": 0.072
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6630.223883199999,
+      "attack": 95.6381684,
+      "defense": 248.14050299999997,
+      "specialized": 0.072
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6720.6272188,
+      "attack": 96.9422201,
+      "defense": 251.5238895,
+      "specialized": 0.072
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6812.069673200001,
+      "attack": 98.26126090000001,
+      "defense": 254.9461655,
+      "specialized": 0.072
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6902.4730088,
+      "attack": 99.5653126,
+      "defense": 258.329552,
+      "specialized": 0.072
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7836.9347443999995,
+      "attack": 113.0438633,
+      "defense": 293.3029385,
+      "specialized": 0.144
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7928.3771988,
+      "attack": 114.36290410000001,
+      "defense": 296.7252145,
+      "specialized": 0.144
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 8018.780534399999,
+      "attack": 115.66695580000001,
+      "defense": 300.10860099999996,
+      "specialized": 0.144
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 8110.222988799999,
+      "attack": 116.9859966,
+      "defense": 303.530877,
+      "specialized": 0.144
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 8201.6654432,
+      "attack": 118.3050374,
+      "defense": 306.953153,
+      "specialized": 0.144
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 8293.107897599999,
+      "attack": 119.62407820000001,
+      "defense": 310.375429,
+      "specialized": 0.144
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 8384.550351999998,
+      "attack": 120.943119,
+      "defense": 313.79770499999995,
+      "specialized": 0.144
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8475.9928064,
+      "attack": 122.2621598,
+      "defense": 317.21998099999996,
+      "specialized": 0.144
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8567.4352608,
+      "attack": 123.58120060000002,
+      "defense": 320.642257,
+      "specialized": 0.144
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8658.8777152,
+      "attack": 124.9002414,
+      "defense": 324.064533,
+      "specialized": 0.144
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 9383.3638696,
+      "attack": 135.3501582,
+      "defense": 351.179309,
+      "specialized": 0.144
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9474.806324000001,
+      "attack": 136.66919900000002,
+      "defense": 354.601585,
+      "specialized": 0.144
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9567.2878972,
+      "attack": 138.0032289,
+      "defense": 358.0627505,
+      "specialized": 0.144
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9658.7303516,
+      "attack": 139.3222697,
+      "defense": 361.4850265,
+      "specialized": 0.144
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9751.2119248,
+      "attack": 140.6562996,
+      "defense": 364.946192,
+      "specialized": 0.144
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9843.693498,
+      "attack": 141.9903295,
+      "defense": 368.4073575,
+      "specialized": 0.144
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9935.1359524,
+      "attack": 143.3093703,
+      "defense": 371.8296335,
+      "specialized": 0.144
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 10027.617525599999,
+      "attack": 144.6434002,
+      "defense": 375.29079899999994,
+      "specialized": 0.144
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 10120.0990988,
+      "attack": 145.9774301,
+      "defense": 378.7519645,
+      "specialized": 0.144
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 10212.580672,
+      "attack": 147.31146,
+      "defense": 382.21313,
+      "specialized": 0.144
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10938.1060452,
+      "attack": 157.77635990000002,
+      "defense": 409.36679549999997,
+      "specialized": 0.216
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 11031.6267372,
+      "attack": 159.12537890000002,
+      "defense": 412.86685049999994,
+      "specialized": 0.216
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 11124.108310399999,
+      "attack": 160.4594088,
+      "defense": 416.328016,
+      "specialized": 0.216
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 11216.5898836,
+      "attack": 161.7934387,
+      "defense": 419.7891815,
+      "specialized": 0.216
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 11310.1105756,
+      "attack": 163.1424577,
+      "defense": 423.28923649999996,
+      "specialized": 0.216
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 11402.5921488,
+      "attack": 164.4764876,
+      "defense": 426.75040199999995,
+      "specialized": 0.216
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 11496.112840799999,
+      "attack": 165.8255066,
+      "defense": 430.250457,
+      "specialized": 0.216
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11589.633532799999,
+      "attack": 167.1745256,
+      "defense": 433.75051199999996,
+      "specialized": 0.216
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11683.1542248,
+      "attack": 168.5235446,
+      "defense": 437.250567,
+      "specialized": 0.216
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11776.6749168,
+      "attack": 169.8725636,
+      "defense": 440.75062199999996,
+      "specialized": 0.216
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 12503.2392088,
+      "attack": 180.3524566,
+      "defense": 467.943177,
+      "specialized": 0.288
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12596.7599008,
+      "attack": 181.7014756,
+      "defense": 471.44323199999997,
+      "specialized": 0.288
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12690.2805928,
+      "attack": 183.0504946,
+      "defense": 474.94328699999994,
+      "specialized": 0.288
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12783.8012848,
+      "attack": 184.3995136,
+      "defense": 478.44334200000003,
+      "specialized": 0.288
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12877.3219768,
+      "attack": 185.7485326,
+      "defense": 481.943397,
+      "specialized": 0.288
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12971.881787600001,
+      "attack": 187.1125407,
+      "defense": 485.4823415000001,
+      "specialized": 0.288
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 13065.402479600001,
+      "attack": 188.4615597,
+      "defense": 488.98239650000005,
+      "specialized": 0.288
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 13159.9622904,
+      "attack": 189.8255678,
+      "defense": 492.521341,
+      "specialized": 0.288
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 13254.522101199998,
+      "attack": 191.18957589999997,
+      "defense": 496.06028549999996,
+      "specialized": 0.288
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 13348.0427932,
+      "attack": 192.53859490000002,
+      "defense": 499.56034050000005,
+      "specialized": 0.288
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3586.4246071999996,
+      "attack": 51.7325844,
+      "defense": 134.22436299999998,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5999.4787716,
+      "attack": 86.5397847,
+      "defense": 224.53457650000001,
+      "specialized": 0.072
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7746.5314088,
+      "attack": 111.7398116,
+      "defense": 289.91955199999995,
+      "specialized": 0.144
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 9291.9214152,
+      "attack": 134.0311174,
+      "defense": 347.757033,
+      "specialized": 0.144
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10845.624472,
+      "attack": 156.44233000000003,
+      "defense": 405.90563,
+      "specialized": 0.216
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 12409.7185168,
+      "attack": 179.0034376,
+      "defense": 464.443122,
+      "specialized": 0.288
+    }
+  }
+}

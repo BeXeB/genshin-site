@@ -1,0 +1,1580 @@
+{
+  "profile": {
+    "id": 10000097,
+    "name": "Sethos",
+    "title": "Wisdom's Measure",
+    "description": "The Temple of Silence's heir. Burdened with secrets, he comes from the sands.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "5/31",
+    "birthday": "May 31",
+    "elementType": "ELEMENT_ELECTRO",
+    "elementText": "Electro",
+    "affiliation": "Temple of Silence",
+    "associationType": "ASSOC_SUMERU",
+    "region": "Sumeru",
+    "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
+    "substatText": "Elemental Mastery",
+    "constellation": "Basileos Delta",
+    "cv": {
+      "english": "Zeno Robinson",
+      "chinese": "李兰陵",
+      "japanese": "千葉翔也",
+      "korean": "Kim Dong-hyun"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104141,
+          "name": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": 101224,
+          "name": "Trishiraite",
+          "count": 3
+        },
+        {
+          "id": 112065,
+          "name": "Faded Red Satin",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": 113058,
+          "name": "Cloudseam Scale",
+          "count": 2
+        },
+        {
+          "id": 101224,
+          "name": "Trishiraite",
+          "count": 10
+        },
+        {
+          "id": 112065,
+          "name": "Faded Red Satin",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": 113058,
+          "name": "Cloudseam Scale",
+          "count": 4
+        },
+        {
+          "id": 101224,
+          "name": "Trishiraite",
+          "count": 20
+        },
+        {
+          "id": 112066,
+          "name": "Trimmed Red Silk",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": 113058,
+          "name": "Cloudseam Scale",
+          "count": 8
+        },
+        {
+          "id": 101224,
+          "name": "Trishiraite",
+          "count": 30
+        },
+        {
+          "id": 112066,
+          "name": "Trimmed Red Silk",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": 113058,
+          "name": "Cloudseam Scale",
+          "count": 12
+        },
+        {
+          "id": 101224,
+          "name": "Trishiraite",
+          "count": 45
+        },
+        {
+          "id": 112067,
+          "name": "Rich Red Brocade",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104144,
+          "name": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113058,
+          "name": "Cloudseam Scale",
+          "count": 20
+        },
+        {
+          "id": 101224,
+          "name": "Trishiraite",
+          "count": 60
+        },
+        {
+          "id": 112067,
+          "name": "Rich Red Brocade",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Sethos",
+      "filename_iconCard": "UI_AvatarIcon_Sethos_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Sethos",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Sethos",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sethos",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sethos.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Sethos.png",
+      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/123866/319ed1f88483c45871108260fc92586b_5839855303457551312.png",
+      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/123866/446949ae8ffdf62e21024ff6c8c4f110_743096476548508441.png",
+      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/04/35428890/cdb7abfcb86138e5b618946a5466d442_6414132746291261116.png"
+    },
+    "version": "4.7"
+  },
+  "skills": {
+    "id": 9701,
+    "name": "Sethos",
+    "combat1": {
+      "name": "Royal Reed Archery",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, the power of Electro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an arrow carrying the power of lightning that deals <color=#FFACFFFF>Electro DMG</color>.\n·Charge Level 2: Fires off a <color=#FFD780FF>Shadowpiercing Shot</color> which can pierce enemies, dealing <color=#FFACFFFF>Electro DMG</color> to enemies along its path. After the Shadowpiercing Shot is fully charged, Sethos cannot move around.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, the power of Electro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an arrow carrying the power of lightning that deals Electro DMG.\n·Charge Level 2: Fires off a Shadowpiercing Shot which can pierce enemies, dealing Electro DMG to enemies along its path. After the Shadowpiercing Shot is fully charged, Sethos cannot move around.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+          "3-Hit DMG|{param4:F1P}",
+          "Aimed Shot|{param5:F1P}",
+          "Aimed Shot Charge Level 1|{param6:F1P}",
+          "Shadowpiercing Shot DMG|{param7:F1P} ATK+{param8:F1P} Elemental Mastery",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:F1P}/{param11:F1P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.526139,
+            0.568965,
+            0.61179,
+            0.672969,
+            0.715794,
+            0.764737,
+            0.832034,
+            0.899331,
+            0.966628,
+            1.040043,
+            1.113458,
+            1.186873,
+            1.260287,
+            1.333702,
+            1.407117
+          ],
+          "param2": [
+            0.237962,
+            0.257331,
+            0.2767,
+            0.30437,
+            0.323739,
+            0.345875,
+            0.376312,
+            0.406749,
+            0.437186,
+            0.47039,
+            0.503594,
+            0.536798,
+            0.570002,
+            0.603206,
+            0.63641
+          ],
+          "param3": [
+            0.266084,
+            0.287742,
+            0.3094,
+            0.34034,
+            0.361998,
+            0.38675,
+            0.420784,
+            0.454818,
+            0.488852,
+            0.52598,
+            0.563108,
+            0.600236,
+            0.637364,
+            0.674492,
+            0.71162
+          ],
+          "param4": [
+            0.739867,
+            0.800088,
+            0.86031,
+            0.946341,
+            1.006563,
+            1.075387,
+            1.170022,
+            1.264656,
+            1.35929,
+            1.462527,
+            1.565764,
+            1.669001,
+            1.772239,
+            1.875476,
+            1.978713
+          ],
+          "param5": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.9282,
+            0.9894,
+            1.0506,
+            1.1118,
+            1.173
+          ],
+          "param6": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.356,
+            2.48,
+            2.635,
+            2.79,
+            2.945
+          ],
+          "param7": [
+            1.4,
+            1.505,
+            1.61,
+            1.75,
+            1.855,
+            1.96,
+            2.1,
+            2.24,
+            2.38,
+            2.52,
+            2.66,
+            2.8,
+            2.975,
+            3.15,
+            3.325
+          ],
+          "param8": [
+            1.3456,
+            1.44652,
+            1.54744,
+            1.682,
+            1.78292,
+            1.88384,
+            2.0184,
+            2.15296,
+            2.28752,
+            2.42208,
+            2.55664,
+            2.6912,
+            2.8594,
+            3.0276,
+            3.1958
+          ],
+          "param9": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param10": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param11": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Ancient Rite: The Thundering Sands",
+      "descriptionRaw": "Gathers the might of thunder, dealing <color=#FFACFFFF>AoE Electro DMG</color> and quickly retreating. If this attack triggers Electro-Charged, Lunar-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reactions, Sethos recovers a certain amount of Elemental Energy.\n\n<i>\"The God indwelt Priest, the Magi who turned pits to springs, the singers of the sea of sand still spread their stories... But I know those are not legends, for they are our ancestors.\"</i>",
+      "description": "Gathers the might of thunder, dealing AoE Electro DMG and quickly retreating. If this attack triggers Electro-Charged, Lunar-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reactions, Sethos recovers a certain amount of Elemental Energy.",
+      "flavorText": "\"The God indwelt Priest, the Magi who turned pits to springs, the singers of the sea of sand still spread their stories... But I know those are not legends, for they are our ancestors.\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Energy Regeneration|{param2:I}",
+          "CD|{param3:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.156,
+            1.2427,
+            1.3294,
+            1.445,
+            1.5317,
+            1.6184,
+            1.734,
+            1.8496,
+            1.9652,
+            2.0808,
+            2.1964,
+            2.312,
+            2.4565,
+            2.601,
+            2.7455
+          ],
+          "param2": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param3": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Secret Rite: Twilight Shadowpiercer",
+      "descriptionRaw": "Perform a secret rite, entering the \"Twilight Meditation\" state, during which Sethos's Normal Attacks will be converted into enemy-piercing <color=#FFD780FF>Dusk Bolts</color>: Deal <color=#FFACFFFF>Electro DMG</color> to opponents in its path, with DMG increased based on Sethos's Elemental Mastery.\nSethos cannot perform Aimed Shots while in this state.\nDMG dealt by Dusk Bolts is considered Charged Attack DMG.\nThis effect will be canceled when Sethos leaves the field.\n\n<i>The archives of the Temple of Silence preserve many tomes left behind by Akhtamun, from the era of King Deshret. Many secret rituals of great power are recorded within, but even among the Temple of Silence, very few could master them.</i>",
+      "description": "Perform a secret rite, entering the \"Twilight Meditation\" state, during which Sethos's Normal Attacks will be converted into enemy-piercing Dusk Bolts: Deal Electro DMG to opponents in its path, with DMG increased based on Sethos's Elemental Mastery.\nSethos cannot perform Aimed Shots while in this state.\nDMG dealt by Dusk Bolts is considered Charged Attack DMG.\nThis effect will be canceled when Sethos leaves the field.",
+      "flavorText": "The archives of the Temple of Silence preserve many tomes left behind by Akhtamun, from the era of King Deshret. Many secret rituals of great power are recorded within, but even among the Temple of Silence, very few could master them.",
+      "attributes": {
+        "labels": [
+          "Dusk Bolt DMG Increase|{param1:F1P} Elemental Mastery",
+          "Twilight Meditation Duration|{param2:F1}s",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            1.9616,
+            2.10872,
+            2.25584,
+            2.452,
+            2.59912,
+            2.74624,
+            2.9424,
+            3.13856,
+            3.33472,
+            3.53088,
+            3.72704,
+            3.9232,
+            4.1684,
+            4.4136,
+            4.6588
+          ],
+          "param2": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "param3": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param4": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Black Kite's Enigma",
+      "descriptionRaw": "When Aiming, the charging time is decreased by 0.285s based on each point of Sethos's current Elemental Energy. Charging time can be reduced to a minimum of 0.3s through this method and a maximum of 20 Energy can be tallied. If a <color=#FFD780FF>Shadowpiercing Shot</color> is fired, consume the tallied amount of Elemental Energy; if it is a Charge Level 1 shot, then consume 50% of the tallied amount of Elemental Energy.",
+      "description": "When Aiming, the charging time is decreased by 0.285s based on each point of Sethos's current Elemental Energy. Charging time can be reduced to a minimum of 0.3s through this method and a maximum of 20 Energy can be tallied. If a Shadowpiercing Shot is fired, consume the tallied amount of Elemental Energy; if it is a Charge Level 1 shot, then consume 50% of the tallied amount of Elemental Energy."
+    },
+    "passive2": {
+      "name": "The Sand King's Boon",
+      "descriptionRaw": "Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by <color=#FFD780FF>Shadowpiercing Shots</color> by 700% of Sethos's Elemental Mastery.\nThe Scorching Sandshade effect will be canceled when any of the following conditions are met:\n· 5s after a Shadowpiercing Shot first hits an opponent.\n· After 4 Shadowpiercing Shots strike opponents.\n\nWhen a Shadowpiercing Shot affected by Scorching Sandshade first hits an opponent, Sethos will regain Scorching Sandshade after 15s.",
+      "description": "Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by Shadowpiercing Shots by 700% of Sethos's Elemental Mastery.\nThe Scorching Sandshade effect will be canceled when any of the following conditions are met:\n· 5s after a Shadowpiercing Shot first hits an opponent.\n· After 4 Shadowpiercing Shots strike opponents.\n\nWhen a Shadowpiercing Shot affected by Scorching Sandshade first hits an opponent, Sethos will regain Scorching Sandshade after 15s."
+    },
+    "passive3": {
+      "name": "Thoth's Revelation",
+      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Sumeru</color> on the mini-map.",
+      "description": "Displays the location of nearby resources unique to Sumeru on the mini-map."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104335,
+          "name": "Teachings of Praxis",
+          "count": 3
+        },
+        {
+          "id": 112065,
+          "name": "Faded Red Satin",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104336,
+          "name": "Guide to Praxis",
+          "count": 2
+        },
+        {
+          "id": 112066,
+          "name": "Trimmed Red Silk",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104336,
+          "name": "Guide to Praxis",
+          "count": 4
+        },
+        {
+          "id": 112066,
+          "name": "Trimmed Red Silk",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104336,
+          "name": "Guide to Praxis",
+          "count": 6
+        },
+        {
+          "id": 112066,
+          "name": "Trimmed Red Silk",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104336,
+          "name": "Guide to Praxis",
+          "count": 9
+        },
+        {
+          "id": 112066,
+          "name": "Trimmed Red Silk",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104337,
+          "name": "Philosophies of Praxis",
+          "count": 4
+        },
+        {
+          "id": 112067,
+          "name": "Rich Red Brocade",
+          "count": 4
+        },
+        {
+          "id": 113043,
+          "name": "Daka's Bell",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104337,
+          "name": "Philosophies of Praxis",
+          "count": 6
+        },
+        {
+          "id": 112067,
+          "name": "Rich Red Brocade",
+          "count": 6
+        },
+        {
+          "id": 113043,
+          "name": "Daka's Bell",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104337,
+          "name": "Philosophies of Praxis",
+          "count": 12
+        },
+        {
+          "id": 112067,
+          "name": "Rich Red Brocade",
+          "count": 9
+        },
+        {
+          "id": 113043,
+          "name": "Daka's Bell",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104337,
+          "name": "Philosophies of Praxis",
+          "count": 16
+        },
+        {
+          "id": 112067,
+          "name": "Rich Red Brocade",
+          "count": 12
+        },
+        {
+          "id": 113043,
+          "name": "Daka's Bell",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Sethos_01",
+      "filename_combat3": "Skill_E_Sethos_01_HD",
+      "filename_passive1": "UI_Talent_S_Sethos_05",
+      "filename_passive2": "UI_Talent_S_Sethos_06",
+      "filename_passive3": "UI_Talent_S_Tighnari_07"
+    },
+    "version": "4.7"
+  },
+  "constellation": {
+    "id": 9701,
+    "name": "Sethos",
+    "c1": {
+      "name": "Sealed Shrine's Spiritsong",
+      "descriptionRaw": "The CRIT Rate of <color=#FFD780FF>Shadowpiercing Shot</color> is increased by 15%.",
+      "description": "The CRIT Rate of Shadowpiercing Shot is increased by 15%."
+    },
+    "c2": {
+      "name": "Papyrus Scripture of Silent Secrets",
+      "descriptionRaw": "When any of the following conditions are met, Sethos gains a 15% <color=#FFACFFFF>Electro DMG Bonus</color> for 10s that may stack twice, with each stack duration counted independently:\n· Consuming Elemental Energy through Aimed Shots. You must first unlock the Ascension Talent \"Black Kite's Enigma\" to trigger this condition.\n· Regaining Elemental Energy by triggering Elemental Reactions using <color=#FFD780FF>Ancient Rite: The Thundering Sands</color>.\n· Using <color=#FFD780FF>Secret Rite: Twilight Shadowpiercer</color>.",
+      "description": "When any of the following conditions are met, Sethos gains a 15% Electro DMG Bonus for 10s that may stack twice, with each stack duration counted independently:\n· Consuming Elemental Energy through Aimed Shots. You must first unlock the Ascension Talent \"Black Kite's Enigma\" to trigger this condition.\n· Regaining Elemental Energy by triggering Elemental Reactions using Ancient Rite: The Thundering Sands.\n· Using Secret Rite: Twilight Shadowpiercer."
+    },
+    "c3": {
+      "name": "Ode to the Moonrise Sage",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Normal Attack: Royal Reed Archery</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Normal Attack: Royal Reed Archery by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Beneficent Plumage",
+      "descriptionRaw": "When a <color=#FFD780FF>Shadowpiercing Shot</color> or <color=#FFD780FF>Dusk Bolt</color> strikes 2 or more opponents, all nearby party members gain 80 Elemental Mastery for 10s.",
+      "description": "When a Shadowpiercing Shot or Dusk Bolt strikes 2 or more opponents, all nearby party members gain 80 Elemental Mastery for 10s."
+    },
+    "c5": {
+      "name": "Record of the Desolate God's Burning Sands",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Secret Rite: Twilight Shadowpiercer</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Secret Rite: Twilight Shadowpiercer by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Pylon of the Sojourning Sun Temple",
+      "descriptionRaw": "After <color=#FFD780FF>Shadowpiercing Shot</color> strikes an opponent, the Elemental Energy consumed by the Ascension Talent \"Black Kite's Enigma\" will be returned. This effect can be triggered up to once every 15s. You must first unlock the Ascension Talent \"Black Kite's Enigma.\"",
+      "description": "After Shadowpiercing Shot strikes an opponent, the Elemental Energy consumed by the Ascension Talent \"Black Kite's Enigma\" will be returned. This effect can be triggered up to once every 15s. You must first unlock the Ascension Talent \"Black Kite's Enigma.\""
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Sethos_01",
+      "filename_c2": "UI_Talent_S_Sethos_02",
+      "filename_c3": "UI_Talent_U_Sethos_01",
+      "filename_c4": "UI_Talent_S_Sethos_03",
+      "filename_c5": "UI_Talent_U_Sethos_02",
+      "filename_c6": "UI_Talent_S_Sethos_04",
+      "filename_constellation": "Eff_UI_Talent_Sethos"
+    },
+    "version": "4.7"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 820.6119,
+      "attack": 19.05456,
+      "defense": 46.9245,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 888.7226876999999,
+      "attack": 20.636088479999998,
+      "defense": 50.8192335,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 956.0128635,
+      "attack": 22.1985624,
+      "defense": 54.6670425,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1024.1236512,
+      "attack": 23.78009088,
+      "defense": 58.561776,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1091.413827,
+      "attack": 25.342564799999998,
+      "defense": 62.40958500000001,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1159.5246147,
+      "attack": 26.924093279999997,
+      "defense": 66.30431850000001,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1226.8147905,
+      "attack": 28.4865672,
+      "defense": 70.1521275,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1294.9255782,
+      "attack": 30.06809568,
+      "defense": 74.046861,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1363.0363659,
+      "attack": 31.64962416,
+      "defense": 77.94159450000001,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1430.3265417,
+      "attack": 33.21209808,
+      "defense": 81.7894035,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1498.4373294,
+      "attack": 34.79362656,
+      "defense": 85.684137,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1565.7275052,
+      "attack": 36.356100479999995,
+      "defense": 89.531946,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1633.8382929000002,
+      "attack": 37.93762896,
+      "defense": 93.4266795,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1701.1284687,
+      "attack": 39.50010287999999,
+      "defense": 97.2744885,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1769.2392564000002,
+      "attack": 41.08163136,
+      "defense": 101.169222,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1837.3500440999999,
+      "attack": 42.66315983999999,
+      "defense": 105.06395549999999,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1904.6402199000001,
+      "attack": 44.22563376,
+      "defense": 108.91176450000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1972.7510075999999,
+      "attack": 45.80716224,
+      "defense": 112.806498,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2040.0411834000001,
+      "attack": 47.36963616,
+      "defense": 116.65430700000002,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2108.1519711,
+      "attack": 48.951164639999995,
+      "defense": 120.5490405,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2788.4812469,
+      "attack": 64.74870456,
+      "defense": 159.4518495,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2856.5920346,
+      "attack": 66.33023304,
+      "defense": 163.346583,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2924.7028223,
+      "attack": 67.91176152,
+      "defense": 167.2413165,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2991.9929981,
+      "attack": 69.47423544,
+      "defense": 171.08912550000002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3060.1037858,
+      "attack": 71.05576392,
+      "defense": 174.98385900000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3127.3939616,
+      "attack": 72.61823783999999,
+      "defense": 178.831668,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3195.5047492999997,
+      "attack": 74.19976632,
+      "defense": 182.7264015,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3262.7949251,
+      "attack": 75.76224024,
+      "defense": 186.57421050000002,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3330.9057128,
+      "attack": 77.34376871999999,
+      "defense": 190.468944,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3398.1958886,
+      "attack": 78.90624264,
+      "defense": 194.316753,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3466.3066762999997,
+      "attack": 80.48777111999999,
+      "defense": 198.2114865,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3534.417464,
+      "attack": 82.0692996,
+      "defense": 202.10622,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3601.7076398,
+      "attack": 83.63177352,
+      "defense": 205.95402900000002,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3669.8184275,
+      "attack": 85.213302,
+      "defense": 209.84876250000002,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3737.1086032999997,
+      "attack": 86.77577592,
+      "defense": 213.6965715,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3805.219391,
+      "attack": 88.3573044,
+      "defense": 217.59130500000003,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3872.5095668,
+      "attack": 89.91977831999999,
+      "defense": 221.43911400000002,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3940.6203545,
+      "attack": 91.5013068,
+      "defense": 225.3338475,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4008.7311422,
+      "attack": 93.08283528,
+      "defense": 229.22858100000002,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4076.0213179999996,
+      "attack": 94.6453092,
+      "defense": 233.07639,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4579.7125057,
+      "attack": 106.34122668,
+      "defense": 261.8786235,
+      "specialized": 24
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4647.0026815,
+      "attack": 107.90370059999998,
+      "defense": 265.7264325,
+      "specialized": 24
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4715.1134692,
+      "attack": 109.48522907999998,
+      "defense": 269.621166,
+      "specialized": 24
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4782.403644999999,
+      "attack": 111.04770299999998,
+      "defense": 273.468975,
+      "specialized": 24
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4850.5144327,
+      "attack": 112.62923147999999,
+      "defense": 277.3637085,
+      "specialized": 24
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4918.6252204,
+      "attack": 114.21075995999999,
+      "defense": 281.258442,
+      "specialized": 24
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4985.9153962,
+      "attack": 115.77323387999999,
+      "defense": 285.106251,
+      "specialized": 24
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5054.0261839,
+      "attack": 117.35476236,
+      "defense": 289.0009845,
+      "specialized": 24
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5121.3163597,
+      "attack": 118.91723628,
+      "defense": 292.8487935,
+      "specialized": 24
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5189.4271474,
+      "attack": 120.49876476,
+      "defense": 296.74352700000003,
+      "specialized": 24
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5837.4912232,
+      "attack": 135.54709168,
+      "defense": 333.801336,
+      "specialized": 48
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5905.6020109,
+      "attack": 137.12862016,
+      "defense": 337.6960695,
+      "specialized": 48
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5973.7127986,
+      "attack": 138.71014864,
+      "defense": 341.590803,
+      "specialized": 48
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6041.0029744,
+      "attack": 140.27262256,
+      "defense": 345.43861200000003,
+      "specialized": 48
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6109.1137621,
+      "attack": 141.85415103999998,
+      "defense": 349.3333455,
+      "specialized": 48
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6176.4039379000005,
+      "attack": 143.41662495999998,
+      "defense": 353.18115450000005,
+      "specialized": 48
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6244.5147256,
+      "attack": 144.99815343999998,
+      "defense": 357.075888,
+      "specialized": 48
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6311.8049014,
+      "attack": 146.56062736,
+      "defense": 360.92369700000006,
+      "specialized": 48
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6379.915689099999,
+      "attack": 148.14215584,
+      "defense": 364.81843050000003,
+      "specialized": 48
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6448.0264768,
+      "attack": 149.72368432,
+      "defense": 368.713164,
+      "specialized": 48
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6950.8971526,
+      "attack": 161.40054623999998,
+      "defense": 397.46847299999996,
+      "specialized": 48
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7019.0079403,
+      "attack": 162.98207472,
+      "defense": 401.3632065,
+      "specialized": 48
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7086.2981161,
+      "attack": 164.54454864,
+      "defense": 405.2110155,
+      "specialized": 48
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7154.4089038,
+      "attack": 166.12607712,
+      "defense": 409.105749,
+      "specialized": 48
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7221.6990796,
+      "attack": 167.68855104,
+      "defense": 412.953558,
+      "specialized": 48
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7289.8098672999995,
+      "attack": 169.27007952,
+      "defense": 416.8482915,
+      "specialized": 48
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7357.920655,
+      "attack": 170.851608,
+      "defense": 420.743025,
+      "specialized": 48
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7425.2108308,
+      "attack": 172.41408192,
+      "defense": 424.590834,
+      "specialized": 48
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7493.3216185,
+      "attack": 173.9956104,
+      "defense": 428.4855675,
+      "specialized": 48
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7560.6117943,
+      "attack": 175.55808431999998,
+      "defense": 432.3333765,
+      "specialized": 48
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8064.302882,
+      "attack": 187.25399979999997,
+      "defense": 461.13561000000004,
+      "specialized": 72
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8131.593057800001,
+      "attack": 188.81647371999998,
+      "defense": 464.983419,
+      "specialized": 72
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8199.7038455,
+      "attack": 190.3980022,
+      "defense": 468.87815250000006,
+      "specialized": 72
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8267.8146332,
+      "attack": 191.97953067999998,
+      "defense": 472.772886,
+      "specialized": 72
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8335.104809,
+      "attack": 193.54200459999998,
+      "defense": 476.620695,
+      "specialized": 72
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8403.2155967,
+      "attack": 195.12353307999996,
+      "defense": 480.5154285,
+      "specialized": 72
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8470.5057725,
+      "attack": 196.68600700000002,
+      "defense": 484.3632375,
+      "specialized": 72
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8538.6165602,
+      "attack": 198.26753548,
+      "defense": 488.257971,
+      "specialized": 72
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8605.906736,
+      "attack": 199.8300094,
+      "defense": 492.10578000000004,
+      "specialized": 72
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8674.0175237,
+      "attack": 201.41153787999997,
+      "defense": 496.0005135,
+      "specialized": 72
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9177.708911400001,
+      "attack": 213.10745735999998,
+      "defense": 524.8027470000001,
+      "specialized": 96
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9244.9990872,
+      "attack": 214.66993128,
+      "defense": 528.650556,
+      "specialized": 96
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9313.1098749,
+      "attack": 216.25145976,
+      "defense": 532.5452895,
+      "specialized": 96
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9380.400050699998,
+      "attack": 217.81393368,
+      "defense": 536.3930985000001,
+      "specialized": 96
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9448.5108384,
+      "attack": 219.39546216,
+      "defense": 540.287832,
+      "specialized": 96
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9515.8010142,
+      "attack": 220.95793608,
+      "defense": 544.1356410000001,
+      "specialized": 96
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9583.911801900002,
+      "attack": 222.53946456,
+      "defense": 548.0303745000001,
+      "specialized": 96
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9651.201977699999,
+      "attack": 224.10193847999997,
+      "defense": 551.8781835,
+      "specialized": 96
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9719.3127654,
+      "attack": 225.68346695999998,
+      "defense": 555.772917,
+      "specialized": 96
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9787.4235531,
+      "attack": 227.26499543999998,
+      "defense": 559.6676505,
+      "specialized": 96
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2721.1910711,
+      "attack": 63.18623063999999,
+      "defense": 155.6040405,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4511.601718,
+      "attack": 104.7596982,
+      "defense": 257.98389,
+      "specialized": 24
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5770.2010474,
+      "attack": 133.98461776,
+      "defense": 329.953527,
+      "specialized": 48
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6883.6069768,
+      "attack": 159.83807231999998,
+      "defense": 393.620664,
+      "specialized": 48
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7996.1920943000005,
+      "attack": 185.67247132,
+      "defense": 457.2408765,
+      "specialized": 72
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9109.5981237,
+      "attack": 211.52592887999998,
+      "defense": 520.9080135,
+      "specialized": 96
+    }
+  }
+}

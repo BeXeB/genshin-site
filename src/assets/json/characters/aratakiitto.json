@@ -1,0 +1,1674 @@
+{
+  "profile": {
+    "id": 10000057,
+    "name": "Arataki Itto",
+    "title": "Hanamizaka Heroics",
+    "description": "The first and greatest head of the Arataki Gang, famed throughout Inazuma City's Hanamizaka... Wait, what? You've never heard of them? Are you trying to be funny here?",
+    "weaponType": "WEAPON_CLAYMORE",
+    "weaponText": "Claymore",
+    "bodyType": "BODY_MALE",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "6/1",
+    "birthday": "June 1",
+    "elementType": "ELEMENT_GEO",
+    "elementText": "Geo",
+    "affiliation": "Arataki Gang",
+    "associationType": "ASSOC_INAZUMA",
+    "region": "Inazuma",
+    "substatType": "FIGHT_PROP_CRITICAL",
+    "substatText": "CRIT Rate",
+    "constellation": "Taurus Iracundus",
+    "cv": {
+      "english": "Max Mittelman",
+      "chinese": "刘照坤",
+      "japanese": "西川貴教",
+      "korean": "Song Jun-seok"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104171,
+          "name": "Prithiva Topaz Sliver",
+          "count": 1
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 3
+        },
+        {
+          "id": 113030,
+          "name": "Riftborn Regalia",
+          "count": 2
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 10
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 6
+        },
+        {
+          "id": 113030,
+          "name": "Riftborn Regalia",
+          "count": 4
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 20
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 3
+        },
+        {
+          "id": 113030,
+          "name": "Riftborn Regalia",
+          "count": 8
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 30
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 6
+        },
+        {
+          "id": 113030,
+          "name": "Riftborn Regalia",
+          "count": 12
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 45
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104174,
+          "name": "Prithiva Topaz Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113030,
+          "name": "Riftborn Regalia",
+          "count": 20
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 60
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20211203/2021120311564937286.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/80c603323013d50fba419fe48b049a85_1179446160895359895.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/c71eda86923329c3f286e959205178bb.png",
+      "filename_icon": "UI_AvatarIcon_Itto",
+      "filename_iconCard": "UI_AvatarIcon_Itto_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Itto",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Itto",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Itto",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Itto.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Arataki Itto_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Arataki_Itto"
+    },
+    "version": "2.3"
+  },
+  "skills": {
+    "id": 5701,
+    "name": "Arataki Itto",
+    "combat1": {
+      "name": "Fight Club Legend",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive strikes.\nWhen the 2nd and 4th strikes hit opponents, Itto will gain 1 and 2 stacks of Superlative Superstrength, respectively.\nMax 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.\n\nAdditionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, \"Masatsu Zetsugi: Akaushi Burst!\"\n\n<color=#FFD780FF>Charged Attack</color>\nWhen holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.\nIf no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\nWhen the 2nd and 4th strikes hit opponents, Itto will gain 1 and 2 stacks of Superlative Superstrength, respectively.\nMax 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.\n\nAdditionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, \"Masatsu Zetsugi: Akaushi Burst!\"\n\nCharged Attack\nWhen holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.\nIf no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "Arataki Kesagiri Combo Slash DMG|{param6:F1P}",
+          "Arataki Kesagiri Final Slash DMG|{param7:F1P}",
+          "Superlative Superstrength Duration|{param12:F1}s",
+          "Saichimonji Slash DMG|{param5:F1P}",
+          "Saichimonji Slash Stamina Cost|{param8:F1}",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.792318,
+            0.856809,
+            0.9213,
+            1.01343,
+            1.077921,
+            1.151625,
+            1.252968,
+            1.354311,
+            1.455654,
+            1.56621,
+            1.692889,
+            1.841863,
+            1.990837,
+            2.139811,
+            2.302329
+          ],
+          "param2": [
+            0.76368,
+            0.82584,
+            0.888,
+            0.9768,
+            1.03896,
+            1.11,
+            1.20768,
+            1.30536,
+            1.40304,
+            1.5096,
+            1.6317,
+            1.77529,
+            1.918879,
+            2.062469,
+            2.219112
+          ],
+          "param3": [
+            0.916416,
+            0.991008,
+            1.0656,
+            1.17216,
+            1.246752,
+            1.332,
+            1.449216,
+            1.566432,
+            1.683648,
+            1.81152,
+            1.95804,
+            2.130348,
+            2.302655,
+            2.474963,
+            2.662934
+          ],
+          "param4": [
+            1.172249,
+            1.267664,
+            1.36308,
+            1.499388,
+            1.594804,
+            1.70385,
+            1.853789,
+            2.003728,
+            2.153666,
+            2.317236,
+            2.504659,
+            2.72507,
+            2.94548,
+            3.16589,
+            3.406337
+          ],
+          "param5": [
+            0.90472,
+            0.97836,
+            1.052,
+            1.1572,
+            1.23084,
+            1.315,
+            1.43072,
+            1.54644,
+            1.66216,
+            1.7884,
+            1.93305,
+            2.103158,
+            2.273267,
+            2.443375,
+            2.628948
+          ],
+          "param6": [
+            0.9116,
+            0.9858,
+            1.06,
+            1.166,
+            1.2402,
+            1.325,
+            1.4416,
+            1.5582,
+            1.6748,
+            1.802,
+            1.94775,
+            2.119152,
+            2.290554,
+            2.461956,
+            2.64894
+          ],
+          "param7": [
+            1.9092,
+            2.0646,
+            2.22,
+            2.442,
+            2.5974,
+            2.775,
+            3.0192,
+            3.2634,
+            3.5076,
+            3.774,
+            4.07925,
+            4.438224,
+            4.797198,
+            5.156172,
+            5.54778
+          ],
+          "param8": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param9": [
+            0.818335,
+            0.884943,
+            0.951552,
+            1.046707,
+            1.113316,
+            1.18944,
+            1.294111,
+            1.398781,
+            1.503452,
+            1.617638,
+            1.731825,
+            1.846011,
+            1.960197,
+            2.074383,
+            2.18857
+          ],
+          "param10": [
+            1.636323,
+            1.769512,
+            1.902701,
+            2.092971,
+            2.22616,
+            2.378376,
+            2.587673,
+            2.79697,
+            3.006267,
+            3.234591,
+            3.462915,
+            3.69124,
+            3.919564,
+            4.147888,
+            4.376212
+          ],
+          "param11": [
+            2.043855,
+            2.210216,
+            2.376576,
+            2.614234,
+            2.780594,
+            2.97072,
+            3.232143,
+            3.493567,
+            3.75499,
+            4.040179,
+            4.325368,
+            4.610557,
+            4.895747,
+            5.180936,
+            5.466125
+          ],
+          "param12": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Masatsu Zetsugi: Akaushi Burst!",
+      "descriptionRaw": "Hurls Ushi, the young akaushi bull and auxiliary member of the Arataki Gang, dealing <color=#FFE699FF>Geo DMG</color> to opponents on hit. When Ushi hits opponents, Arataki Itto gains 1 stack of Superlative Superstrength.\n\nUshi will remain on the field and provide support in the following ways:\n· Taunts surrounding opponents and draws their attacks.\n· Inherits HP based on a percentage of Arataki Itto's Max HP.\n· When Ushi takes DMG, Arataki Itto gains 1 stack of Superlative Superstrength. Only 1 stack can be gained in this way every 2s.\n· Ushi will flee when its HP reaches 0 or its duration ends. It will grant Arataki Itto 1 stack of Superlative Superstrength when it leaves.\n\n<color=#FFD780FF>Hold</color>\nAdjust throwing angle.\n\nUshi is considered a <color=#FFE699FF>Geo construct</color>. Arataki Itto can only deploy 1 Ushi on the field at any one time.\n\n<i>The name of this technique is derived from Onibudou (a light novel series written by Junkichi). However, calling it \"Onisatsu Zetsugi\" probably constitutes copyright infringement — not to mention how Itto himself is an oni and all...</i>",
+      "description": "Hurls Ushi, the young akaushi bull and auxiliary member of the Arataki Gang, dealing Geo DMG to opponents on hit. When Ushi hits opponents, Arataki Itto gains 1 stack of Superlative Superstrength.\n\nUshi will remain on the field and provide support in the following ways:\n· Taunts surrounding opponents and draws their attacks.\n· Inherits HP based on a percentage of Arataki Itto's Max HP.\n· When Ushi takes DMG, Arataki Itto gains 1 stack of Superlative Superstrength. Only 1 stack can be gained in this way every 2s.\n· Ushi will flee when its HP reaches 0 or its duration ends. It will grant Arataki Itto 1 stack of Superlative Superstrength when it leaves.\n\nHold\nAdjust throwing angle.\n\nUshi is considered a Geo construct. Arataki Itto can only deploy 1 Ushi on the field at any one time.",
+      "flavorText": "The name of this technique is derived from Onibudou (a light novel series written by Junkichi). However, calling it \"Onisatsu Zetsugi\" probably constitutes copyright infringement — not to mention how Itto himself is an oni and all...",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}",
+          "Inherited HP|{param2:P}",
+          "Duration|{param3:F1}s",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            3.072,
+            3.3024,
+            3.5328,
+            3.84,
+            4.0704,
+            4.3008,
+            4.608,
+            4.9152,
+            5.2224,
+            5.5296,
+            5.8368,
+            6.144,
+            6.528,
+            6.912,
+            7.296
+          ],
+          "param2": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "param3": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param4": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "param5": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Royal Descent: Behold, Itto the Evil!",
+      "descriptionRaw": "Time to show 'em the might of the Arataki Gang! For a time, Itto lets out his inner Raging Oni King, wielding his Oni King's Kanabou in battle.\nThis state has the following special properties:\n· Converts Itto's Normal, Charged, and Plunging Attacks to <color=#FFE699FF>Geo DMG</color>. This cannot be overridden.\n· Increases Itto's Normal Attack SPD. Also increases his ATK based on his DEF.\n· On hit, the 1st and 3rd strikes of his attack combo will each grant Arataki Itto 1 stack of Superlative Superstrength.\n· Decreases Itto's Elemental and Physical RES by 20%.\n\nThe Raging Oni King state will be cleared when Itto leaves the field.\n\n<i>This is the pinnacle technique of the ultimate fighting style (according to Itto). It would be pointless for Arataki Itto to reference any other fighting styles to improve his own, for he, and no other, is the strongest, most terrible oni in the land.</i>\n<i>Shouta thinks it looks really cool.</i>",
+      "description": "Time to show 'em the might of the Arataki Gang! For a time, Itto lets out his inner Raging Oni King, wielding his Oni King's Kanabou in battle.\nThis state has the following special properties:\n· Converts Itto's Normal, Charged, and Plunging Attacks to Geo DMG. This cannot be overridden.\n· Increases Itto's Normal Attack SPD. Also increases his ATK based on his DEF.\n· On hit, the 1st and 3rd strikes of his attack combo will each grant Arataki Itto 1 stack of Superlative Superstrength.\n· Decreases Itto's Elemental and Physical RES by 20%.\n\nThe Raging Oni King state will be cleared when Itto leaves the field.",
+      "flavorText": "This is the pinnacle technique of the ultimate fighting style (according to Itto). It would be pointless for Arataki Itto to reference any other fighting styles to improve his own, for he, and no other, is the strongest, most terrible oni in the land.\nShouta thinks it looks really cool.",
+      "attributes": {
+        "labels": [
+          "ATK Bonus|{param2:F1P} DEF",
+          "ATK SPD Bonus|{param1:P}",
+          "Duration|{param4:F1}s",
+          "CD|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "param2": [
+            0.576,
+            0.6192,
+            0.6624,
+            0.72,
+            0.7632,
+            0.8064,
+            0.864,
+            0.9216,
+            0.9792,
+            1.0368,
+            1.0944,
+            1.152,
+            1.224,
+            1.296,
+            1.368
+          ],
+          "param3": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "param4": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "param5": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param6": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Arataki Ichiban",
+      "descriptionRaw": "When Arataki Itto uses consecutive Arataki Kesagiri, he obtains the following effects:\n· Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.\n· Increases his resistance to interruption.\n\nThese effects will be cleared once he stops performing consecutive slashes.",
+      "description": "When Arataki Itto uses consecutive Arataki Kesagiri, he obtains the following effects:\n· Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.\n· Increases his resistance to interruption.\n\nThese effects will be cleared once he stops performing consecutive slashes."
+    },
+    "passive2": {
+      "name": "Bloodline of the Crimson Oni",
+      "descriptionRaw": "Arataki Kesagiri DMG is increased by 35% of Arataki Itto's DEF.",
+      "description": "Arataki Kesagiri DMG is increased by 35% of Arataki Itto's DEF."
+    },
+    "passive3": {
+      "name": "Woodchuck Chucked",
+      "descriptionRaw": "When a party member uses attacks to obtain wood from a tree, they have a 25% chance to get an additional log of wood.",
+      "description": "When a party member uses attacks to obtain wood from a tree, they have a 25% chance to get an additional log of wood."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104323,
+          "name": "Teachings of Elegance",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104324,
+          "name": "Guide to Elegance",
+          "count": 2
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104324,
+          "name": "Guide to Elegance",
+          "count": 4
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104324,
+          "name": "Guide to Elegance",
+          "count": 6
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104324,
+          "name": "Guide to Elegance",
+          "count": 9
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104325,
+          "name": "Philosophies of Elegance",
+          "count": 4
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 4
+        },
+        {
+          "id": 113027,
+          "name": "Ashen Heart",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104325,
+          "name": "Philosophies of Elegance",
+          "count": 6
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 6
+        },
+        {
+          "id": 113027,
+          "name": "Ashen Heart",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104325,
+          "name": "Philosophies of Elegance",
+          "count": 12
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 9
+        },
+        {
+          "id": 113027,
+          "name": "Ashen Heart",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104325,
+          "name": "Philosophies of Elegance",
+          "count": 16
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        },
+        {
+          "id": 113027,
+          "name": "Ashen Heart",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_04",
+      "filename_combat2": "Skill_S_Itto_01",
+      "filename_combat3": "Skill_E_Itto_01_HD",
+      "filename_passive1": "UI_Talent_S_Itto_05",
+      "filename_passive2": "UI_Talent_S_Itto_06",
+      "filename_passive3": "UI_Talent_S_Itto_07"
+    },
+    "version": "2.3"
+  },
+  "constellation": {
+    "id": 5701,
+    "name": "Arataki Itto",
+    "c1": {
+      "name": "Stay a While and Listen Up",
+      "descriptionRaw": "After using <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color>, Arataki Itto gains 2 stacks of Superlative Superstrength. After 1s, Itto will gain 1 stack of Superlative Superstrength every 0.5s for 1.5s.",
+      "description": "After using Royal Descent: Behold, Itto the Evil!, Arataki Itto gains 2 stacks of Superlative Superstrength. After 1s, Itto will gain 1 stack of Superlative Superstrength every 0.5s for 1.5s."
+    },
+    "c2": {
+      "name": "Gather 'Round, It's a Brawl!",
+      "descriptionRaw": "After using <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color>, each party member whose Element is <color=#FFE699FF>Geo</color> will decrease that skill's CD by 1.5s and restore 6 Energy to Arataki Itto.\nCD can be decreased by up to 4.5s in this manner. Max 18 Energy can be restored in this manner.",
+      "description": "After using Royal Descent: Behold, Itto the Evil!, each party member whose Element is Geo will decrease that skill's CD by 1.5s and restore 6 Energy to Arataki Itto.\nCD can be decreased by up to 4.5s in this manner. Max 18 Energy can be restored in this manner."
+    },
+    "c3": {
+      "name": "Horns Lowered, Coming Through",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Masatsu Zetsugi: Akaushi Burst!</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Masatsu Zetsugi: Akaushi Burst! by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Jailhouse Bread and Butter",
+      "descriptionRaw": "When the Raging Oni King state caused by <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color> ends, all nearby party members gain 20% DEF and 20% ATK for 10s.",
+      "description": "When the Raging Oni King state caused by Royal Descent: Behold, Itto the Evil! ends, all nearby party members gain 20% DEF and 20% ATK for 10s."
+    },
+    "c5": {
+      "name": "10 Years of Hanamizaka Fame",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Royal Descent: Behold, Itto the Evil! by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Arataki Itto, Present!",
+      "descriptionRaw": "Arataki Itto's Charged Attacks deal +70% CRIT DMG. Additionally, when he uses Arataki Kesagiri, he has a 50% chance to not consume stacks of Superlative Superstrength.",
+      "description": "Arataki Itto's Charged Attacks deal +70% CRIT DMG. Additionally, when he uses Arataki Kesagiri, he has a 50% chance to not consume stacks of Superlative Superstrength."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Itto_01",
+      "filename_c2": "UI_Talent_S_Itto_02",
+      "filename_c3": "UI_Talent_U_Itto_01",
+      "filename_c4": "UI_Talent_S_Itto_03",
+      "filename_c5": "UI_Talent_U_Itto_02",
+      "filename_c6": "UI_Talent_S_Itto_04",
+      "filename_constellation": "Eff_UI_Talent_Itto"
+    },
+    "version": "2.3"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1000.986,
+      "attack": 17.689,
+      "defense": 74.66784,
+      "specialized": 0.05
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1084.067838,
+      "attack": 19.157187,
+      "defense": 80.86527072,
+      "specialized": 0.05
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1167.149676,
+      "attack": 20.625373999999997,
+      "defense": 87.06270144,
+      "specialized": 0.05
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1251.2325,
+      "attack": 22.11125,
+      "defense": 93.3348,
+      "specialized": 0.05
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1334.314338,
+      "attack": 23.579437,
+      "defense": 99.53223072,
+      "specialized": 0.05
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1418.397162,
+      "attack": 25.065313,
+      "defense": 105.80432928,
+      "specialized": 0.05
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1501.479,
+      "attack": 26.5335,
+      "defense": 112.00175999999999,
+      "specialized": 0.05
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1585.5618240000001,
+      "attack": 28.019376,
+      "defense": 118.27385856000001,
+      "specialized": 0.05
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1669.644648,
+      "attack": 29.505252,
+      "defense": 124.54595712,
+      "specialized": 0.05
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1752.7264859999998,
+      "attack": 30.973439,
+      "defense": 130.74338784,
+      "specialized": 0.05
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1836.8093099999999,
+      "attack": 32.459315,
+      "defense": 137.0154864,
+      "specialized": 0.05
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1920.892134,
+      "attack": 33.945191,
+      "defense": 143.28758496,
+      "specialized": 0.05
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2004.974958,
+      "attack": 35.431067,
+      "defense": 149.55968352,
+      "specialized": 0.05
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2090.058768,
+      "attack": 36.934632,
+      "defense": 155.90644992,
+      "specialized": 0.05
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2174.141592,
+      "attack": 38.420508000000005,
+      "defense": 162.17854848000002,
+      "specialized": 0.05
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2258.2244159999996,
+      "attack": 39.906383999999996,
+      "defense": 168.45064703999998,
+      "specialized": 0.05
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2343.308226,
+      "attack": 41.409949000000005,
+      "defense": 174.79741344,
+      "specialized": 0.05
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2427.3910499999997,
+      "attack": 42.895824999999995,
+      "defense": 181.06951199999997,
+      "specialized": 0.05
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2512.47486,
+      "attack": 44.39939,
+      "defense": 187.41627839999998,
+      "specialized": 0.05
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2596.557684,
+      "attack": 45.885265999999994,
+      "defense": 193.68837695999997,
+      "specialized": 0.05
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3539.896494,
+      "attack": 62.554441,
+      "defense": 264.05754335999995,
+      "specialized": 0.05
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3624.9803039999997,
+      "attack": 64.05800599999999,
+      "defense": 270.40430976,
+      "specialized": 0.05
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3710.0641140000002,
+      "attack": 65.561571,
+      "defense": 276.75107616,
+      "specialized": 0.05
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3795.1479240000003,
+      "attack": 67.065136,
+      "defense": 283.09784256,
+      "specialized": 0.05
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3880.2317340000004,
+      "attack": 68.568701,
+      "defense": 289.44460896,
+      "specialized": 0.05
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3966.31653,
+      "attack": 70.089955,
+      "defense": 295.86604320000004,
+      "specialized": 0.05
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4051.40034,
+      "attack": 71.59352,
+      "defense": 302.2128096,
+      "specialized": 0.05
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4136.484149999999,
+      "attack": 73.09708499999999,
+      "defense": 308.559576,
+      "specialized": 0.05
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4222.568946,
+      "attack": 74.618339,
+      "defense": 314.98101024000005,
+      "specialized": 0.05
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4307.652756,
+      "attack": 76.121904,
+      "defense": 321.32777664,
+      "specialized": 0.05
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4393.737552,
+      "attack": 77.643158,
+      "defense": 327.74921088,
+      "specialized": 0.05
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4479.822348,
+      "attack": 79.164412,
+      "defense": 334.17064512,
+      "specialized": 0.05
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4565.907144,
+      "attack": 80.685666,
+      "defense": 340.59207936,
+      "specialized": 0.05
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4650.990954,
+      "attack": 82.189231,
+      "defense": 346.93884576,
+      "specialized": 0.05
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4737.07575,
+      "attack": 83.710485,
+      "defense": 353.36028,
+      "specialized": 0.05
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4824.161532,
+      "attack": 85.24942800000001,
+      "defense": 359.85638208,
+      "specialized": 0.05
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4910.246328,
+      "attack": 86.77068200000001,
+      "defense": 366.27781632,
+      "specialized": 0.05
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4996.331124,
+      "attack": 88.291936,
+      "defense": 372.69925056,
+      "specialized": 0.05
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5082.4159199999995,
+      "attack": 89.81318999999999,
+      "defense": 379.1206848,
+      "specialized": 0.05
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5169.5017020000005,
+      "attack": 91.35213300000001,
+      "defense": 385.61678688,
+      "specialized": 0.05
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5865.399197999999,
+      "attack": 103.648952,
+      "defense": 437.52782112,
+      "specialized": 0.098
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5952.484980000001,
+      "attack": 105.18789500000001,
+      "defense": 444.0239232,
+      "specialized": 0.098
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 6039.570761999999,
+      "attack": 106.726838,
+      "defense": 450.52002528,
+      "specialized": 0.098
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6125.655558,
+      "attack": 108.248092,
+      "defense": 456.94145951999997,
+      "specialized": 0.098
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6212.7413400000005,
+      "attack": 109.787035,
+      "defense": 463.4375616,
+      "specialized": 0.098
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6299.827122000001,
+      "attack": 111.325978,
+      "defense": 469.93366368,
+      "specialized": 0.098
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6386.912903999999,
+      "attack": 112.864921,
+      "defense": 476.42976575999995,
+      "specialized": 0.098
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6473.998686000001,
+      "attack": 114.40386400000001,
+      "defense": 482.92586784,
+      "specialized": 0.098
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6562.085454,
+      "attack": 115.960496,
+      "defense": 489.49663776,
+      "specialized": 0.098
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6649.171236,
+      "attack": 117.49943900000001,
+      "defense": 495.99273984,
+      "specialized": 0.098
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7549.3407179999995,
+      "attack": 133.405801,
+      "defense": 563.14164192,
+      "specialized": 0.14600000000000002
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7637.4274860000005,
+      "attack": 134.962433,
+      "defense": 569.71241184,
+      "specialized": 0.14600000000000002
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7724.513268000001,
+      "attack": 136.501376,
+      "defense": 576.20851392,
+      "specialized": 0.14600000000000002
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7812.600036,
+      "attack": 138.058008,
+      "defense": 582.7792838400001,
+      "specialized": 0.14600000000000002
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7900.686804000001,
+      "attack": 139.61464,
+      "defense": 589.35005376,
+      "specialized": 0.14600000000000002
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7988.773572,
+      "attack": 141.171272,
+      "defense": 595.92082368,
+      "specialized": 0.14600000000000002
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 8076.860339999999,
+      "attack": 142.727904,
+      "defense": 602.4915936,
+      "specialized": 0.14600000000000002
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8164.947108,
+      "attack": 144.284536,
+      "defense": 609.06236352,
+      "specialized": 0.14600000000000002
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8253.033876,
+      "attack": 145.84116799999998,
+      "defense": 615.6331334399999,
+      "specialized": 0.14600000000000002
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8341.120644,
+      "attack": 147.39780000000002,
+      "defense": 622.20390336,
+      "specialized": 0.14600000000000002
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 9039.020012,
+      "attack": 159.72999800000002,
+      "defense": 674.26427328,
+      "specialized": 0.14600000000000002
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9127.10678,
+      "attack": 161.28663,
+      "defense": 680.8350432,
+      "specialized": 0.14600000000000002
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9216.194534,
+      "attack": 162.860951,
+      "defense": 687.48048096,
+      "specialized": 0.14600000000000002
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9304.281302,
+      "attack": 164.41758299999998,
+      "defense": 694.05125088,
+      "specialized": 0.14600000000000002
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9393.369056,
+      "attack": 165.991904,
+      "defense": 700.69668864,
+      "specialized": 0.14600000000000002
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9482.45681,
+      "attack": 167.566225,
+      "defense": 707.3421264,
+      "specialized": 0.14600000000000002
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9570.543578,
+      "attack": 169.122857,
+      "defense": 713.9128963200001,
+      "specialized": 0.14600000000000002
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9659.631331999999,
+      "attack": 170.697178,
+      "defense": 720.5583340799999,
+      "specialized": 0.14600000000000002
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9748.719086000001,
+      "attack": 172.271499,
+      "defense": 727.20377184,
+      "specialized": 0.14600000000000002
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9837.806840000001,
+      "attack": 173.84582,
+      "defense": 733.8492096,
+      "specialized": 0.14600000000000002
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10536.707493999998,
+      "attack": 186.195707,
+      "defense": 785.98424736,
+      "specialized": 0.194
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10626.796234,
+      "attack": 187.787717,
+      "defense": 792.7043529599999,
+      "specialized": 0.194
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10715.883988,
+      "attack": 189.362038,
+      "defense": 799.34979072,
+      "specialized": 0.194
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10804.971742,
+      "attack": 190.93635899999998,
+      "defense": 805.9952284799999,
+      "specialized": 0.194
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10895.060481999999,
+      "attack": 192.528369,
+      "defense": 812.7153340799999,
+      "specialized": 0.194
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10984.148236,
+      "attack": 194.10269,
+      "defense": 819.36077184,
+      "specialized": 0.194
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 11074.236976,
+      "attack": 195.69469999999998,
+      "defense": 826.08087744,
+      "specialized": 0.194
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11164.325716,
+      "attack": 197.28671,
+      "defense": 832.80098304,
+      "specialized": 0.194
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11254.414456,
+      "attack": 198.87872000000002,
+      "defense": 839.52108864,
+      "specialized": 0.194
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11344.503196,
+      "attack": 200.47073,
+      "defense": 846.24119424,
+      "specialized": 0.194
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 12044.405036,
+      "attack": 212.838304,
+      "defense": 898.45089984,
+      "specialized": 0.242
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12134.493776,
+      "attack": 214.430314,
+      "defense": 905.17100544,
+      "specialized": 0.242
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12224.582515999999,
+      "attack": 216.022324,
+      "defense": 911.8911110399999,
+      "specialized": 0.242
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12314.671256,
+      "attack": 217.61433399999999,
+      "defense": 918.61121664,
+      "specialized": 0.242
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12404.759995999999,
+      "attack": 219.206344,
+      "defense": 925.33132224,
+      "specialized": 0.242
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12495.849722,
+      "attack": 220.816043,
+      "defense": 932.12609568,
+      "specialized": 0.242
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12585.938462,
+      "attack": 222.408053,
+      "defense": 938.8462012800001,
+      "specialized": 0.242
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12677.028188,
+      "attack": 224.017752,
+      "defense": 945.6409747199999,
+      "specialized": 0.242
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12768.117913999999,
+      "attack": 225.62745099999998,
+      "defense": 952.4357481599999,
+      "specialized": 0.242
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12858.206654000001,
+      "attack": 227.21946100000002,
+      "defense": 959.15585376,
+      "specialized": 0.242
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3454.812684,
+      "attack": 61.050875999999995,
+      "defense": 257.71077696,
+      "specialized": 0.05
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5779.314402,
+      "attack": 102.12769800000001,
+      "defense": 431.10638688,
+      "specialized": 0.098
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7462.254936000001,
+      "attack": 131.866858,
+      "defense": 556.6455398400001,
+      "specialized": 0.14600000000000002
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8950.933244,
+      "attack": 158.173366,
+      "defense": 667.69350336,
+      "specialized": 0.14600000000000002
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10447.61974,
+      "attack": 184.621386,
+      "defense": 779.3388096,
+      "specialized": 0.194
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11954.316296,
+      "attack": 211.246294,
+      "defense": 891.73079424,
+      "specialized": 0.242
+    }
+  }
+}

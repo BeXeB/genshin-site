@@ -1,0 +1,1642 @@
+{
+  "profile": {
+    "id": 10000022,
+    "name": "Venti",
+    "title": "Windborne Bard",
+    "description": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "6/16",
+    "birthday": "June 16",
+    "elementType": "ELEMENT_ANEMO",
+    "elementText": "Anemo",
+    "affiliation": "Mondstadt",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "substatText": "Energy Recharge",
+    "constellation": "Carmen Dei",
+    "cv": {
+      "english": "Erika Harlacher",
+      "chinese": "喵酱",
+      "japanese": "村瀬歩",
+      "korean": "Jung Yoo-jung"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104151,
+          "name": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": 113001,
+          "name": "Hurricane Seed",
+          "count": 2
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 10
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": 113001,
+          "name": "Hurricane Seed",
+          "count": 4
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 20
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": 113001,
+          "name": "Hurricane Seed",
+          "count": 8
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 30
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": 113001,
+          "name": "Hurricane Seed",
+          "count": 12
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 45
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104154,
+          "name": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113001,
+          "name": "Hurricane Seed",
+          "count": 20
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 60
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Character_Venti_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Character_Venti_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/965e940e6caafe8fbd4bf0e17653000b_4508958090491775485.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20191122/2019112211143037621.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/f42e16fca94650e2e932c093de92ae54.png",
+      "filename_icon": "UI_AvatarIcon_Venti",
+      "filename_iconCard": "UI_AvatarIcon_Venti_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Venti",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Venti",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Venti",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Venti.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Venti_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Venti"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 2201,
+    "name": "Venti",
+    "combat1": {
+      "name": "Divine Marksmanship",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 6 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}+{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}",
+          "6-Hit DMG|{param6:F1P}",
+          "Aimed Shot|{param7:F1P}",
+          "Fully-Charged Aimed Shot|{param8:P}",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}",
+          "Windsunder Arrow DMG|{param12:F1P} Normal Attack DMG"
+        ],
+        "parameters": {
+          "param1": [
+            0.20382,
+            0.22041,
+            0.237,
+            0.2607,
+            0.27729,
+            0.29625,
+            0.32232,
+            0.34839,
+            0.37446,
+            0.4029,
+            0.435487,
+            0.47381,
+            0.512133,
+            0.550456,
+            0.592263
+          ],
+          "param2": [
+            0.44376,
+            0.47988,
+            0.516,
+            0.5676,
+            0.60372,
+            0.645,
+            0.70176,
+            0.75852,
+            0.81528,
+            0.8772,
+            0.94815,
+            1.031587,
+            1.115024,
+            1.198462,
+            1.289484
+          ],
+          "param3": [
+            0.52374,
+            0.56637,
+            0.609,
+            0.6699,
+            0.71253,
+            0.76125,
+            0.82824,
+            0.89523,
+            0.96222,
+            1.0353,
+            1.119037,
+            1.217513,
+            1.315988,
+            1.414463,
+            1.521891
+          ],
+          "param4": [
+            0.26058,
+            0.28179,
+            0.303,
+            0.3333,
+            0.35451,
+            0.37875,
+            0.41208,
+            0.44541,
+            0.47874,
+            0.5151,
+            0.556762,
+            0.605758,
+            0.654753,
+            0.703748,
+            0.757197
+          ],
+          "param5": [
+            0.50654,
+            0.54777,
+            0.589,
+            0.6479,
+            0.68913,
+            0.73625,
+            0.80104,
+            0.86583,
+            0.93062,
+            1.0013,
+            1.082288,
+            1.177529,
+            1.27277,
+            1.368011,
+            1.471911
+          ],
+          "param6": [
+            0.7095,
+            0.76725,
+            0.825,
+            0.9075,
+            0.96525,
+            1.03125,
+            1.122,
+            1.21275,
+            1.3035,
+            1.4025,
+            1.515937,
+            1.64934,
+            1.782742,
+            1.916145,
+            2.061675
+          ],
+          "param7": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.937125,
+            1.019592,
+            1.102059,
+            1.184526,
+            1.27449
+          ],
+          "param8": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.36096,
+            2.5296,
+            2.69824,
+            2.86688,
+            3.03552
+          ],
+          "param9": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param10": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param11": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ],
+          "param12": [
+            1.6,
+            1.7,
+            1.8,
+            1.9,
+            2,
+            2.1,
+            2.2,
+            2.3,
+            2.4,
+            2.5,
+            2.6,
+            2.7,
+            2.8,
+            2.9,
+            3
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Skyward Sonnet",
+      "descriptionRaw": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nSummons a Wind Domain at the opponent's location, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching opponents into the air.\n\n<color=#FFD780FF>Hold</color>\nSummons an even larger Wind Domain with Venti as the epicenter, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching affected opponents into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\n\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\n\n<i>In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.</i>",
+      "description": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\n\nPress\nSummons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.\n\nHold\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\n\nOpponents hit by Skyward Sonnet will fall to the ground slowly.",
+      "flavorText": "In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.",
+      "attributes": {
+        "labels": [
+          "Press DMG|{param1:P}",
+          "Press CD|{param2:F1}s",
+          "Hold DMG|{param3:P}",
+          "Hold CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            2.76,
+            2.967,
+            3.174,
+            3.45,
+            3.657,
+            3.864,
+            4.14,
+            4.416,
+            4.692,
+            4.968,
+            5.244,
+            5.52,
+            5.865,
+            6.21,
+            6.555
+          ],
+          "param2": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param3": [
+            3.8,
+            4.085,
+            4.37,
+            4.75,
+            5.035,
+            5.32,
+            5.7,
+            6.08,
+            6.46,
+            6.84,
+            7.22,
+            7.6,
+            8.075,
+            8.55,
+            9.025
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Wind's Grand Ode",
+      "descriptionRaw": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf the Stormeye comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.</i>",
+      "description": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous Anemo DMG.\n\nElemental Absorption\nIf the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.",
+      "flavorText": "Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.",
+      "attributes": {
+        "labels": [
+          "DoT|{param1:F1P}",
+          "Additional Elemental DMG|{param2:F1P}",
+          "Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.376,
+            0.4042,
+            0.4324,
+            0.47,
+            0.4982,
+            0.5264,
+            0.564,
+            0.6016,
+            0.6392,
+            0.6768,
+            0.7144,
+            0.752,
+            0.799,
+            0.846,
+            0.893
+          ],
+          "param2": [
+            0.188,
+            0.2021,
+            0.2162,
+            0.235,
+            0.2491,
+            0.2632,
+            0.282,
+            0.3008,
+            0.3196,
+            0.3384,
+            0.3572,
+            0.376,
+            0.3995,
+            0.423,
+            0.4465
+          ],
+          "param3": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Embrace of Winds",
+      "descriptionRaw": "Holding <color=#FFD780FF>Skyward Sonnet</color> creates an upcurrent that lasts for 20s.",
+      "description": "Holding Skyward Sonnet creates an upcurrent that lasts for 20s."
+    },
+    "passive2": {
+      "name": "Stormeye",
+      "descriptionRaw": "Regenerates 15 Energy for Venti after the effects of <color=#FFD780FF>Wind's Grand Ode</color> end.\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party.",
+      "description": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end.\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party."
+    },
+    "passive3": {
+      "name": "Windrider",
+      "descriptionRaw": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "description": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104307,
+          "name": "Teachings of Ballad",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 2
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 4
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 6
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 9
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 4
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 4
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 6
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 6
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 12
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 9
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 16
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        },
+        {
+          "id": 113006,
+          "name": "Tail of Boreas",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Venti_01",
+      "filename_combat3": "Skill_E_Venti_01_HD",
+      "filename_passive1": "UI_Talent_S_Venti_05",
+      "filename_passive2": "UI_Talent_S_Venti_06",
+      "filename_passive3": "UI_Talent_Explosion_Glide"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 2201,
+    "name": "Venti",
+    "c1": {
+      "name": "Splitting Gales",
+      "descriptionRaw": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG.",
+      "description": "Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG."
+    },
+    "c2": {
+      "name": "Breeze of Reminiscence",
+      "descriptionRaw": "<color=#FFD780FF>Skyward Sonnet</color> decreases opponents' <color=#80FFD7FF>Anemo RES</color> and Physical RES by 12% for 10s.\nOpponents launched by <color=#FFD780FF>Skyward Sonnet</color> suffer an additional 12% <color=#80FFD7FF>Anemo RES</color> and Physical RES decrease while airborne.",
+      "description": "Skyward Sonnet decreases opponents' Anemo RES and Physical RES by 12% for 10s.\nOpponents launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES decrease while airborne."
+    },
+    "c3": {
+      "name": "Ode to Thousand Winds",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Wind's Grand Ode</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Wind's Grand Ode by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Hurricane of Freedom",
+      "descriptionRaw": "When Venti picks up an Elemental Orb or Particle, he receives a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s.",
+      "description": "When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s."
+    },
+    "c5": {
+      "name": "Concerto dal Cielo",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Skyward Sonnet</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Skyward Sonnet by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Storm of Defiance",
+      "descriptionRaw": "Targets who take DMG from <color=#FFD780FF>Wind's Grand Ode</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+      "description": "Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Venti_01",
+      "filename_c2": "UI_Talent_S_Venti_02",
+      "filename_c3": "UI_Talent_U_Venti_02",
+      "filename_c4": "UI_Talent_S_Venti_03",
+      "filename_c5": "UI_Talent_U_Venti_01",
+      "filename_c6": "UI_Talent_S_Venti_04",
+      "filename_constellation": "Eff_UI_Talent_Venti"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 819.8552,
+      "attack": 20.482,
+      "defense": 52.0521,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 887.9031815999999,
+      "attack": 22.182005999999998,
+      "defense": 56.3724243,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 955.9511631999999,
+      "attack": 23.882011999999996,
+      "defense": 60.6927486,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1024.819,
+      "attack": 25.6025,
+      "defense": 65.06512500000001,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1092.8669816,
+      "attack": 27.302505999999997,
+      "defense": 69.3854493,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1161.7348184,
+      "attack": 29.022994,
+      "defense": 73.75782570000001,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1229.7828,
+      "attack": 30.723,
+      "defense": 78.07815000000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1298.6506368,
+      "attack": 32.443488,
+      "defense": 82.45052640000002,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1367.5184735999999,
+      "attack": 34.163976,
+      "defense": 86.8229028,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1435.5664551999998,
+      "attack": 35.863982,
+      "defense": 91.1432271,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1504.434292,
+      "attack": 37.584469999999996,
+      "defense": 95.5156035,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1573.3021288,
+      "attack": 39.304958,
+      "defense": 99.8879799,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1642.1699656,
+      "attack": 41.025446,
+      "defense": 104.26035630000001,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1711.8576576,
+      "attack": 42.766416,
+      "defense": 108.68478480000002,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1780.7254944000001,
+      "attack": 44.486904,
+      "defense": 113.05716120000001,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1849.5933311999997,
+      "attack": 46.20739199999999,
+      "defense": 117.42953759999999,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1919.2810232000002,
+      "attack": 47.948362,
+      "defense": 121.85396610000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1988.1488599999998,
+      "attack": 49.66884999999999,
+      "defense": 126.2263425,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2057.8365519999998,
+      "attack": 51.409819999999996,
+      "defense": 130.650771,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2126.7043888,
+      "attack": 53.13030799999999,
+      "defense": 135.0231474,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2899.3437808,
+      "attack": 72.43145799999999,
+      "defense": 184.0785759,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2969.0314728,
+      "attack": 74.172428,
+      "defense": 188.5030044,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3038.7191648000003,
+      "attack": 75.913398,
+      "defense": 192.9274329,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3108.4068568000002,
+      "attack": 77.654368,
+      "defense": 197.35186140000002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3178.0945488,
+      "attack": 79.395338,
+      "defense": 201.77628990000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3248.602096,
+      "attack": 81.15679,
+      "defense": 206.2527705,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3318.289788,
+      "attack": 82.89776,
+      "defense": 210.677199,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3387.97748,
+      "attack": 84.63873,
+      "defense": 215.1016275,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3458.4850272000003,
+      "attack": 86.400182,
+      "defense": 219.5781081,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3528.1727192000003,
+      "attack": 88.141152,
+      "defense": 224.0025366,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3598.6802664,
+      "attack": 89.902604,
+      "defense": 228.47901720000002,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3669.1878136,
+      "attack": 91.664056,
+      "defense": 232.95549780000002,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3739.6953608,
+      "attack": 93.42550800000001,
+      "defense": 237.43197840000002,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3809.3830528,
+      "attack": 95.166478,
+      "defense": 241.85640690000002,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3879.8906,
+      "attack": 96.92793,
+      "defense": 246.3328875,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3951.2180024,
+      "attack": 98.70986400000001,
+      "defense": 250.86142020000003,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4021.7255496,
+      "attack": 100.471316,
+      "defense": 255.33790080000003,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4092.2330968,
+      "attack": 102.23276800000001,
+      "defense": 259.8143814,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4162.7406439999995,
+      "attack": 103.99422,
+      "defense": 264.290862,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4234.0680464,
+      "attack": 105.776154,
+      "defense": 268.81939470000003,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4804.041293599999,
+      "attack": 120.01457599999999,
+      "defense": 305.00737530000004,
+      "specialized": 0.08
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4875.368696,
+      "attack": 121.79651,
+      "defense": 309.53590800000006,
+      "specialized": 0.08
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4946.6960984,
+      "attack": 123.57844399999999,
+      "defense": 314.06444070000003,
+      "specialized": 0.08
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5017.2036456,
+      "attack": 125.33989599999998,
+      "defense": 318.5409213,
+      "specialized": 0.08
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5088.531048,
+      "attack": 127.12183,
+      "defense": 323.06945400000006,
+      "specialized": 0.08
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5159.8584504,
+      "attack": 128.903764,
+      "defense": 327.5979867,
+      "specialized": 0.08
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5231.185852799999,
+      "attack": 130.685698,
+      "defense": 332.1265194,
+      "specialized": 0.08
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5302.5132552000005,
+      "attack": 132.467632,
+      "defense": 336.65505210000003,
+      "specialized": 0.08
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5374.6605128,
+      "attack": 134.270048,
+      "defense": 341.23563690000003,
+      "specialized": 0.08
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5445.9879152,
+      "attack": 136.051982,
+      "defense": 345.76416960000006,
+      "specialized": 0.08
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6183.2695176,
+      "attack": 154.469876,
+      "defense": 392.5747023,
+      "specialized": 0.16
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6255.416775199999,
+      "attack": 156.272292,
+      "defense": 397.1552871,
+      "specialized": 0.16
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6326.7441776,
+      "attack": 158.054226,
+      "defense": 401.68381980000004,
+      "specialized": 0.16
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6398.891435199999,
+      "attack": 159.856642,
+      "defense": 406.26440460000003,
+      "specialized": 0.16
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6471.038692799999,
+      "attack": 161.659058,
+      "defense": 410.84498940000003,
+      "specialized": 0.16
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6543.1859504,
+      "attack": 163.461474,
+      "defense": 415.4255742,
+      "specialized": 0.16
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6615.333208,
+      "attack": 165.26389,
+      "defense": 420.006159,
+      "specialized": 0.16
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6687.4804656,
+      "attack": 167.066306,
+      "defense": 424.5867438,
+      "specialized": 0.16
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6759.627723199999,
+      "attack": 168.868722,
+      "defense": 429.1673286,
+      "specialized": 0.16
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6831.774980800001,
+      "attack": 170.671138,
+      "defense": 433.7479134,
+      "specialized": 0.16
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7403.3880384,
+      "attack": 184.950524,
+      "defense": 470.03999820000007,
+      "specialized": 0.16
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7475.535296,
+      "attack": 186.75294000000002,
+      "defense": 474.62058300000007,
+      "specialized": 0.16
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7548.502408799999,
+      "attack": 188.575838,
+      "defense": 479.25321990000003,
+      "specialized": 0.16
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7620.649666400001,
+      "attack": 190.378254,
+      "defense": 483.83380470000003,
+      "specialized": 0.16
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7693.6167792,
+      "attack": 192.201152,
+      "defense": 488.46644160000005,
+      "specialized": 0.16
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7766.583891999999,
+      "attack": 194.02405,
+      "defense": 493.0990785,
+      "specialized": 0.16
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7838.7311496,
+      "attack": 195.826466,
+      "defense": 497.6796633,
+      "specialized": 0.16
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7911.698262399999,
+      "attack": 197.649364,
+      "defense": 502.31230020000004,
+      "specialized": 0.16
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7984.6653752,
+      "attack": 199.472262,
+      "defense": 506.9449371,
+      "specialized": 0.16
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 8057.632487999999,
+      "attack": 201.29516,
+      "defense": 511.577574,
+      "specialized": 0.16
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8630.0652008,
+      "attack": 215.59502799999999,
+      "defense": 547.9217109000001,
+      "specialized": 0.24
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8703.8521688,
+      "attack": 217.43840799999998,
+      "defense": 552.6063999,
+      "specialized": 0.24
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8776.819281600001,
+      "attack": 219.261306,
+      "defense": 557.2390368000001,
+      "specialized": 0.24
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8849.786394399998,
+      "attack": 221.084204,
+      "defense": 561.8716737,
+      "specialized": 0.24
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8923.573362399999,
+      "attack": 222.927584,
+      "defense": 566.5563627,
+      "specialized": 0.24
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8996.5404752,
+      "attack": 224.750482,
+      "defense": 571.1889996,
+      "specialized": 0.24
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 9070.3274432,
+      "attack": 226.593862,
+      "defense": 575.8736886,
+      "specialized": 0.24
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9144.1144112,
+      "attack": 228.437242,
+      "defense": 580.5583776000001,
+      "specialized": 0.24
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 9217.9013792,
+      "attack": 230.280622,
+      "defense": 585.2430666,
+      "specialized": 0.24
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9291.6883472,
+      "attack": 232.124002,
+      "defense": 589.9277556000001,
+      "specialized": 0.24
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9864.9411152,
+      "attack": 246.44435199999998,
+      "defense": 626.3239446,
+      "specialized": 0.32
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9938.7280832,
+      "attack": 248.287732,
+      "defense": 631.0086336,
+      "specialized": 0.32
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 10012.5150512,
+      "attack": 250.13111199999997,
+      "defense": 635.6933226,
+      "specialized": 0.32
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 10086.3020192,
+      "attack": 251.974492,
+      "defense": 640.3780116,
+      "specialized": 0.32
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 10160.088987199999,
+      "attack": 253.81787199999997,
+      "defense": 645.0627006,
+      "specialized": 0.32
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 10234.6958104,
+      "attack": 255.681734,
+      "defense": 649.7994417000001,
+      "specialized": 0.32
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10308.4827784,
+      "attack": 257.52511400000003,
+      "defense": 654.4841307,
+      "specialized": 0.32
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 10383.0896016,
+      "attack": 259.388976,
+      "defense": 659.2208718,
+      "specialized": 0.32
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 10457.696424799999,
+      "attack": 261.252838,
+      "defense": 663.9576129,
+      "specialized": 0.32
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 10531.4833928,
+      "attack": 263.096218,
+      "defense": 668.6423019,
+      "specialized": 0.32
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2829.6560888,
+      "attack": 70.69048799999999,
+      "defense": 179.6541474,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4733.5337464,
+      "attack": 118.253124,
+      "defense": 300.53089470000003,
+      "specialized": 0.08
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6111.9421151999995,
+      "attack": 152.687942,
+      "defense": 388.04616960000004,
+      "specialized": 0.16
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7331.240780800001,
+      "attack": 183.148108,
+      "defense": 465.4594134,
+      "specialized": 0.16
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8557.098087999999,
+      "attack": 213.77213,
+      "defense": 543.289074,
+      "specialized": 0.24
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9791.154147199999,
+      "attack": 244.600972,
+      "defense": 621.6392556000001,
+      "specialized": 0.32
+    }
+  }
+}

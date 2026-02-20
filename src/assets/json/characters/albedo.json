@@ -1,0 +1,1605 @@
+{
+  "profile": {
+    "id": 10000038,
+    "name": "Albedo",
+    "title": "Kreideprinz",
+    "description": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "weaponText": "Sword",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "9/13",
+    "birthday": "September 13",
+    "elementType": "ELEMENT_GEO",
+    "elementText": "Geo",
+    "affiliation": "Knights of Favonius",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
+    "substatText": "Geo DMG Bonus",
+    "constellation": "Princeps Cretaceus",
+    "cv": {
+      "english": "Khoi Dao",
+      "chinese": "Mace",
+      "japanese": "野島健児",
+      "korean": "Kim Myeong-joon"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104171,
+          "name": "Prithiva Topaz Sliver",
+          "count": 1
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 3
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 3
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 2
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 10
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 6
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 4
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 20
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 3
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 8
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 30
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 6
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 12
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 45
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104174,
+          "name": "Prithiva Topaz Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 20
+        },
+        {
+          "id": 100023,
+          "name": "Cecilia",
+          "count": 60
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/f95b03a7d7370aa4f5de3ac9a5f161bc_9195254471817551468.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201216/2020121611271023422.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/94dd9e0cc9d8311e58887a45b9b14861.png",
+      "filename_icon": "UI_AvatarIcon_Albedo",
+      "filename_iconCard": "UI_AvatarIcon_Albedo_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Albedo",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Albedo",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Albedo",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Albedo.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Albedo_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Albedo"
+    },
+    "version": "1.2"
+  },
+  "skills": {
+    "id": 3801,
+    "name": "Albedo",
+    "combat1": {
+      "name": "Favonius Bladework - Weiss",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}",
+          "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+          "Charged Attack Stamina Cost|{param8:F1}",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.367392,
+            0.397296,
+            0.4272,
+            0.46992,
+            0.499824,
+            0.534,
+            0.580992,
+            0.627984,
+            0.674976,
+            0.72624,
+            0.78498,
+            0.854058,
+            0.923136,
+            0.992215,
+            1.067573
+          ],
+          "param2": [
+            0.367392,
+            0.397296,
+            0.4272,
+            0.46992,
+            0.499824,
+            0.534,
+            0.580992,
+            0.627984,
+            0.674976,
+            0.72624,
+            0.78498,
+            0.854058,
+            0.923136,
+            0.992215,
+            1.067573
+          ],
+          "param3": [
+            0.474548,
+            0.513174,
+            0.5518,
+            0.60698,
+            0.645606,
+            0.68975,
+            0.750448,
+            0.811146,
+            0.871844,
+            0.93806,
+            1.013932,
+            1.103159,
+            1.192385,
+            1.281611,
+            1.378948
+          ],
+          "param4": [
+            0.49751,
+            0.538005,
+            0.5785,
+            0.63635,
+            0.676845,
+            0.723125,
+            0.78676,
+            0.850395,
+            0.91403,
+            0.98345,
+            1.062994,
+            1.156537,
+            1.250081,
+            1.343624,
+            1.445671
+          ],
+          "param5": [
+            0.620739,
+            0.671265,
+            0.72179,
+            0.793969,
+            0.844494,
+            0.902238,
+            0.981634,
+            1.061031,
+            1.140428,
+            1.227043,
+            1.326289,
+            1.443003,
+            1.559716,
+            1.676429,
+            1.803753
+          ],
+          "param6": [
+            0.473,
+            0.5115,
+            0.55,
+            0.605,
+            0.6435,
+            0.6875,
+            0.748,
+            0.8085,
+            0.869,
+            0.935,
+            1.010625,
+            1.09956,
+            1.188495,
+            1.27743,
+            1.37445
+          ],
+          "param7": [
+            0.602,
+            0.651,
+            0.7,
+            0.77,
+            0.819,
+            0.875,
+            0.952,
+            1.029,
+            1.106,
+            1.19,
+            1.28625,
+            1.39944,
+            1.51263,
+            1.62582,
+            1.7493
+          ],
+          "param8": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param9": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param10": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param11": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Abiogenesis: Solar Isotoma",
+      "descriptionRaw": "Albedo creates a Solar Isotoma using alchemy, which deals <color=#FFE699FF>AoE Geo DMG</color> on appearance.\n\n<color=#FFD780FF>Solar Isotoma</color>\nhas the following properties:\n·When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal <color=#FFE699FF>AoE Geo DMG</color>. DMG dealt scales off Albedo's DEF. \n·Transient Blossoms can only be generated once every 2s.\n·When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\n·Solar Isotoma is considered a <color=#FFE699FF>Geo construct</color>. Only one Solar Isotoma created by Albedo himself can exist at a time. \n\n<color=#FFD780FF>Hold</color> to designate the location of the skill.\n\n<i>This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.</i>",
+      "description": "Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance.\n\nSolar Isotoma\nhas the following properties:\n·When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF. \n·Transient Blossoms can only be generated once every 2s.\n·When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\n·Solar Isotoma is considered a Geo construct. Only one Solar Isotoma created by Albedo himself can exist at a time. \n\nHold to designate the location of the skill.",
+      "flavorText": "This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}",
+          "Transient Blossom DMG|{param2:P} DEF",
+          "Duration|{param3:F1}s",
+          "Skill CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.304,
+            1.4018,
+            1.4996,
+            1.63,
+            1.7278,
+            1.8256,
+            1.956,
+            2.0864,
+            2.2168,
+            2.3472,
+            2.4776,
+            2.608,
+            2.771,
+            2.934,
+            3.097
+          ],
+          "param2": [
+            1.336,
+            1.4362,
+            1.5364,
+            1.67,
+            1.7702,
+            1.8704,
+            2.004,
+            2.1376,
+            2.2712,
+            2.4048,
+            2.5384,
+            2.672,
+            2.839,
+            3.006,
+            3.173
+          ],
+          "param3": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ],
+          "param4": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Rite of Progeniture: Tectonic Tide",
+      "descriptionRaw": "Under Albedo's command, Geo crystals surge and burst forth, dealing <color=#FFE699FF>AoE Geo DMG</color> in front of him.\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing <color=#FFE699FF>AoE Geo DMG</color>.\n\nTectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.\n\n<i>Under the Kreideprinz's command, the tectonic tide of creation seethes into life.</i>",
+      "description": "Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him.\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG.\n\nTectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.",
+      "flavorText": "Under the Kreideprinz's command, the tectonic tide of creation seethes into life.",
+      "attributes": {
+        "labels": [
+          "Burst DMG|{param1:P}",
+          "Fatal Blossom DMG|{param2:F1P} each",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            3.672,
+            3.9474,
+            4.2228,
+            4.59,
+            4.8654,
+            5.1408,
+            5.508,
+            5.8752,
+            6.2424,
+            6.6096,
+            6.9768,
+            7.344,
+            7.803,
+            8.262,
+            8.721
+          ],
+          "param2": [
+            0.72,
+            0.774,
+            0.828,
+            0.9,
+            0.954,
+            1.008,
+            1.08,
+            1.152,
+            1.224,
+            1.296,
+            1.368,
+            1.44,
+            1.53,
+            1.62,
+            1.71
+          ],
+          "param3": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param4": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Calcite Might",
+      "descriptionRaw": "Transient Blossoms generated by <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> deal 25% more DMG to opponents whose HP is below 50%.",
+      "description": "Transient Blossoms generated by Abiogenesis: Solar Isotoma deal 25% more DMG to opponents whose HP is below 50%."
+    },
+    "passive2": {
+      "name": "Homuncular Nature",
+      "descriptionRaw": "Using <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> increases the Elemental Mastery of nearby party members by 125 for 10s.",
+      "description": "Using Rite of Progeniture: Tectonic Tide increases the Elemental Mastery of nearby party members by 125 for 10s."
+    },
+    "passive3": {
+      "name": "Flash of Genius",
+      "descriptionRaw": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+      "description": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104307,
+          "name": "Teachings of Ballad",
+          "count": 3
+        },
+        {
+          "id": 112008,
+          "name": "Divining Scroll",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 2
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 4
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 6
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 9
+        },
+        {
+          "id": 112009,
+          "name": "Sealed Scroll",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 4
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 4
+        },
+        {
+          "id": 113013,
+          "name": "Tusk of Monoceros Caeli",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 6
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 6
+        },
+        {
+          "id": 113013,
+          "name": "Tusk of Monoceros Caeli",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 12
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 9
+        },
+        {
+          "id": 113013,
+          "name": "Tusk of Monoceros Caeli",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 16
+        },
+        {
+          "id": 112010,
+          "name": "Forbidden Curse Scroll",
+          "count": 12
+        },
+        {
+          "id": 113013,
+          "name": "Tusk of Monoceros Caeli",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_01",
+      "filename_combat2": "Skill_S_Albedo_01",
+      "filename_combat3": "Skill_E_Albedo_01_HD",
+      "filename_passive1": "UI_Talent_S_Albedo_05",
+      "filename_passive2": "UI_Talent_S_Albedo_06",
+      "filename_passive3": "UI_Talent_Combine_Weapon_Double"
+    },
+    "version": "1.2"
+  },
+  "constellation": {
+    "id": 3801,
+    "name": "Albedo",
+    "c1": {
+      "name": "Flower of Eden",
+      "descriptionRaw": "Transient Blossoms generated by Albedo's <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> regenerate 1.2 Energy for Albedo.",
+      "description": "Transient Blossoms generated by Albedo's Abiogenesis: Solar Isotoma regenerate 1.2 Energy for Albedo."
+    },
+    "c2": {
+      "name": "Opening of Phanerozoic",
+      "descriptionRaw": "Transient Blossoms generated by <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> grant Albedo Fatal Reckoning for 30s:\n·Unleashing <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.\n·This effect stacks up to 4 times.",
+      "description": "Transient Blossoms generated by Abiogenesis: Solar Isotoma grant Albedo Fatal Reckoning for 30s:\n·Unleashing Rite of Progeniture: Tectonic Tide consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.\n·This effect stacks up to 4 times."
+    },
+    "c3": {
+      "name": "Grace of Helios",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Abiogenesis: Solar Isotoma by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Descent of Divinity",
+      "descriptionRaw": "Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%.",
+      "description": "Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%."
+    },
+    "c5": {
+      "name": "Tide of Hadean",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Rite of Progeniture: Tectonic Tide by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Dust of Purification",
+      "descriptionRaw": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize, or when Moondrifts are present within the Solar Isotoma field, have their DMG increased by 17%.",
+      "description": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize, or when Moondrifts are present within the Solar Isotoma field, have their DMG increased by 17%."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Albedo_01",
+      "filename_c2": "UI_Talent_S_Albedo_02",
+      "filename_c3": "UI_Talent_U_Albedo_01",
+      "filename_c4": "UI_Talent_S_Albedo_03",
+      "filename_c5": "UI_Talent_U_Albedo_02",
+      "filename_c6": "UI_Talent_S_Albedo_04",
+      "filename_constellation": "Eff_UI_Talent_Albedo"
+    },
+    "version": "1.2"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1029.5856,
+      "attack": 19.551,
+      "defense": 68.2062,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1115.0412048,
+      "attack": 21.173733,
+      "defense": 73.86731459999999,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1200.4968096,
+      "attack": 22.796465999999995,
+      "defense": 79.52842919999999,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1286.9820000000002,
+      "attack": 24.43875,
+      "defense": 85.25774999999999,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1372.4376048000001,
+      "attack": 26.061482999999996,
+      "defense": 90.91886459999999,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1458.9227952,
+      "attack": 27.703767,
+      "defense": 96.6481854,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1544.3784,
+      "attack": 29.326499999999996,
+      "defense": 102.3093,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1630.8635904000002,
+      "attack": 30.968784,
+      "defense": 108.0386208,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1717.3487808000002,
+      "attack": 32.611067999999996,
+      "defense": 113.76794159999999,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1802.8043856000002,
+      "attack": 34.23380099999999,
+      "defense": 119.42905619999999,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1889.2895760000001,
+      "attack": 35.876084999999996,
+      "defense": 125.15837699999999,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1975.7747664000003,
+      "attack": 37.518369,
+      "defense": 130.88769779999998,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2062.2599568000005,
+      "attack": 39.160652999999996,
+      "defense": 136.6170186,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2149.7747328000005,
+      "attack": 40.822488,
+      "defense": 142.4145456,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2236.2599232000002,
+      "attack": 42.464771999999996,
+      "defense": 148.1438664,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2322.7451136,
+      "attack": 44.10705599999999,
+      "defense": 153.87318719999996,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2410.2598896000004,
+      "attack": 45.768890999999996,
+      "defense": 159.6707142,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2496.74508,
+      "attack": 47.41117499999999,
+      "defense": 165.40003499999997,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2584.259856,
+      "attack": 49.07300999999999,
+      "defense": 171.19756199999998,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2670.7450464000003,
+      "attack": 50.71529399999999,
+      "defense": 176.9268828,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3641.0363724000003,
+      "attack": 69.139119,
+      "defense": 241.2064098,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3728.5511484000003,
+      "attack": 70.80095399999999,
+      "defense": 247.00393679999996,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3816.0659244000008,
+      "attack": 72.462789,
+      "defense": 252.8014638,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3903.5807004000008,
+      "attack": 74.124624,
+      "defense": 258.5989908,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3991.0954764000007,
+      "attack": 75.786459,
+      "defense": 264.39651779999997,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 4079.6398380000005,
+      "attack": 77.467845,
+      "defense": 270.262251,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4167.154614000001,
+      "attack": 79.12968,
+      "defense": 276.059778,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4254.669390000001,
+      "attack": 80.79151499999999,
+      "defense": 281.857305,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4343.2137516,
+      "attack": 82.472901,
+      "defense": 287.7230382,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4430.7285276,
+      "attack": 84.13473599999999,
+      "defense": 293.52056519999996,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4519.2728892000005,
+      "attack": 85.816122,
+      "defense": 299.3862984,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4607.817250800001,
+      "attack": 87.49750799999998,
+      "defense": 305.2520316,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4696.3616124,
+      "attack": 89.178894,
+      "defense": 311.11776480000003,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4783.8763884,
+      "attack": 90.840729,
+      "defense": 316.9152918,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4872.420750000001,
+      "attack": 92.52211499999999,
+      "defense": 322.781025,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4961.994697200001,
+      "attack": 94.223052,
+      "defense": 328.7149644,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 5050.539058800001,
+      "attack": 95.90443799999998,
+      "defense": 334.5806976,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 5139.0834204,
+      "attack": 97.585824,
+      "defense": 340.44643080000003,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5227.627782,
+      "attack": 99.26720999999999,
+      "defense": 346.31216399999994,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5317.2017292,
+      "attack": 100.968147,
+      "defense": 352.24610340000004,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 6032.982140800001,
+      "attack": 114.55936799999999,
+      "defense": 399.66483659999994,
+      "specialized": 0.072
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 6122.556088000001,
+      "attack": 116.260305,
+      "defense": 405.59877600000004,
+      "specialized": 0.072
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 6212.130035200001,
+      "attack": 117.961242,
+      "defense": 411.53271540000003,
+      "specialized": 0.072
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6300.6743968,
+      "attack": 119.64262799999999,
+      "defense": 417.39844859999994,
+      "specialized": 0.072
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6390.2483440000005,
+      "attack": 121.343565,
+      "defense": 423.33238800000004,
+      "specialized": 0.072
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6479.8222912,
+      "attack": 123.044502,
+      "defense": 429.2663274,
+      "specialized": 0.072
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6569.396238400001,
+      "attack": 124.74543899999999,
+      "defense": 435.2002668,
+      "specialized": 0.072
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6658.970185600001,
+      "attack": 126.446376,
+      "defense": 441.1342062,
+      "specialized": 0.072
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6749.573718400001,
+      "attack": 128.166864,
+      "defense": 447.13635180000006,
+      "specialized": 0.072
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6839.1476656,
+      "attack": 129.867801,
+      "defense": 453.07029119999993,
+      "specialized": 0.072
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7765.0361128,
+      "attack": 147.44851799999998,
+      "defense": 514.4082305999999,
+      "specialized": 0.144
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7855.6396456,
+      "attack": 149.169006,
+      "defense": 520.4103762,
+      "specialized": 0.144
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7945.213592800001,
+      "attack": 150.86994299999998,
+      "defense": 526.3443156,
+      "specialized": 0.144
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 8035.8171256000005,
+      "attack": 152.590431,
+      "defense": 532.3464611999999,
+      "specialized": 0.144
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 8126.4206584,
+      "attack": 154.31091899999998,
+      "defense": 538.3486068,
+      "specialized": 0.144
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 8217.0241912,
+      "attack": 156.031407,
+      "defense": 544.3507523999999,
+      "specialized": 0.144
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 8307.627724,
+      "attack": 157.751895,
+      "defense": 550.352898,
+      "specialized": 0.144
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8398.231256800002,
+      "attack": 159.472383,
+      "defense": 556.3550435999999,
+      "specialized": 0.144
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8488.834789600001,
+      "attack": 161.192871,
+      "defense": 562.3571892,
+      "specialized": 0.144
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8579.438322400001,
+      "attack": 162.91335899999999,
+      "defense": 568.3593347999999,
+      "specialized": 0.144
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 9297.277955200001,
+      "attack": 176.543682,
+      "defense": 615.9144804,
+      "specialized": 0.144
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9387.881488,
+      "attack": 178.26417,
+      "defense": 621.916626,
+      "specialized": 0.144
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9479.5146064,
+      "attack": 180.004209,
+      "defense": 627.9869778,
+      "specialized": 0.144
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9570.118139200002,
+      "attack": 181.724697,
+      "defense": 633.9891233999999,
+      "specialized": 0.144
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9661.7512576,
+      "attack": 183.464736,
+      "defense": 640.0594752,
+      "specialized": 0.144
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9753.384376,
+      "attack": 185.204775,
+      "defense": 646.129827,
+      "specialized": 0.144
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9843.987908800002,
+      "attack": 186.925263,
+      "defense": 652.1319725999999,
+      "specialized": 0.144
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9935.6210272,
+      "attack": 188.665302,
+      "defense": 658.2023244,
+      "specialized": 0.144
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 10027.2541456,
+      "attack": 190.405341,
+      "defense": 664.2726762,
+      "specialized": 0.144
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 10118.887264,
+      "attack": 192.14538000000002,
+      "defense": 670.343028,
+      "specialized": 0.144
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10837.7561824,
+      "attack": 205.795259,
+      "defense": 717.9663797999999,
+      "specialized": 0.216
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10930.4188864,
+      "attack": 207.554849,
+      "defense": 724.1049377999999,
+      "specialized": 0.216
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 11022.0520048,
+      "attack": 209.29488800000001,
+      "defense": 730.1752895999999,
+      "specialized": 0.216
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 11113.6851232,
+      "attack": 211.03492699999998,
+      "defense": 736.2456414,
+      "specialized": 0.216
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 11206.3478272,
+      "attack": 212.79451699999998,
+      "defense": 742.3841993999999,
+      "specialized": 0.216
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 11297.9809456,
+      "attack": 214.534556,
+      "defense": 748.4545512,
+      "specialized": 0.216
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 11390.6436496,
+      "attack": 216.29414599999996,
+      "defense": 754.5931092,
+      "specialized": 0.216
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11483.3063536,
+      "attack": 218.05373599999996,
+      "defense": 760.7316672,
+      "specialized": 0.216
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11575.969057600001,
+      "attack": 219.81332600000002,
+      "defense": 766.8702251999999,
+      "specialized": 0.216
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11668.631761600001,
+      "attack": 221.57291599999996,
+      "defense": 773.0087831999999,
+      "specialized": 0.216
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 12388.5304656,
+      "attack": 235.24233599999997,
+      "defense": 820.7003411999999,
+      "specialized": 0.288
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12481.193169600001,
+      "attack": 237.00192599999997,
+      "defense": 826.8388992,
+      "specialized": 0.288
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12573.855873600001,
+      "attack": 238.76151599999997,
+      "defense": 832.9774571999999,
+      "specialized": 0.288
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12666.5185776,
+      "attack": 240.52110599999997,
+      "defense": 839.1160152,
+      "specialized": 0.288
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12759.1812816,
+      "attack": 242.28069599999998,
+      "defense": 845.2545731999999,
+      "specialized": 0.288
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12852.873571200002,
+      "attack": 244.05983700000002,
+      "defense": 851.4613374,
+      "specialized": 0.288
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12945.536275200002,
+      "attack": 245.81942700000002,
+      "defense": 857.5998953999999,
+      "specialized": 0.288
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 13039.228564800002,
+      "attack": 247.598568,
+      "defense": 863.8066595999999,
+      "specialized": 0.288
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 13132.9208544,
+      "attack": 249.37770899999998,
+      "defense": 870.0134237999998,
+      "specialized": 0.288
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 13225.583558400001,
+      "attack": 251.13729899999998,
+      "defense": 876.1519817999999,
+      "specialized": 0.288
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3553.5215964000004,
+      "attack": 67.477284,
+      "defense": 235.4088828,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5944.4377792000005,
+      "attack": 112.877982,
+      "defense": 393.79910340000004,
+      "specialized": 0.072
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7675.4621656,
+      "attack": 145.747581,
+      "defense": 508.4742911999999,
+      "specialized": 0.144
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 9206.674422400001,
+      "attack": 174.823194,
+      "defense": 609.9123347999999,
+      "specialized": 0.144
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10746.123064000001,
+      "attack": 204.05522000000002,
+      "defense": 711.896028,
+      "specialized": 0.216
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 12295.867761600002,
+      "attack": 233.48274599999996,
+      "defense": 814.5617832,
+      "specialized": 0.288
+    }
+  }
+}

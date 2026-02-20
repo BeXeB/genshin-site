@@ -1,0 +1,1626 @@
+{
+  "profile": {
+    "id": 10000041,
+    "name": "Mona",
+    "title": "Astral Reflection",
+    "description": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "8/31",
+    "birthday": "August 31",
+    "elementType": "ELEMENT_HYDRO",
+    "elementText": "Hydro",
+    "affiliation": "Mondstadt",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "substatText": "Energy Recharge",
+    "constellation": "Astrolabos",
+    "cv": {
+      "english": "Felecia Angelle",
+      "chinese": "陈婷婷",
+      "japanese": "小原好美",
+      "korean": "Woo Jeong-shin"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104121,
+          "name": "Varunada Lazurite Sliver",
+          "count": 1
+        },
+        {
+          "id": 100025,
+          "name": "Philanemo Mushroom",
+          "count": 3
+        },
+        {
+          "id": 112038,
+          "name": "Whopperflower Nectar",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 3
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 2
+        },
+        {
+          "id": 100025,
+          "name": "Philanemo Mushroom",
+          "count": 10
+        },
+        {
+          "id": 112038,
+          "name": "Whopperflower Nectar",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104122,
+          "name": "Varunada Lazurite Fragment",
+          "count": 6
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 4
+        },
+        {
+          "id": 100025,
+          "name": "Philanemo Mushroom",
+          "count": 20
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 3
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 8
+        },
+        {
+          "id": 100025,
+          "name": "Philanemo Mushroom",
+          "count": 30
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104123,
+          "name": "Varunada Lazurite Chunk",
+          "count": 6
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 12
+        },
+        {
+          "id": 100025,
+          "name": "Philanemo Mushroom",
+          "count": 45
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104124,
+          "name": "Varunada Lazurite Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113012,
+          "name": "Cleansing Heart",
+          "count": 20
+        },
+        {
+          "id": 100025,
+          "name": "Philanemo Mushroom",
+          "count": 60
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Character_Mona_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/9e4203089ad086d328973adf3f6e8c7b_1731345046482271564.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/28/247b5054c574b0ff69b27dfe5d18101b_5626904084481297773.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/1fa7a20fb3b391132e1132ab2a44e146.png",
+      "filename_icon": "UI_AvatarIcon_Mona",
+      "filename_iconCard": "UI_AvatarIcon_Mona_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Mona",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Mona",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mona",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Mona.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Mona_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Mona"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 4101,
+    "name": "Mona",
+    "combat1": {
+      "name": "Ripple of Fate",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nPerforms up to 4 water splash attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "Charged Attack DMG|{param5:P}",
+          "Charged Attack Stamina Cost|{param6:F1}",
+          "Plunge DMG|{param7:F1P}",
+          "Low/High Plunge DMG|{param8:P}/{param9:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.376,
+            0.4042,
+            0.4324,
+            0.47,
+            0.4982,
+            0.5264,
+            0.564,
+            0.6016,
+            0.6392,
+            0.6768,
+            0.7144,
+            0.752,
+            0.799,
+            0.846,
+            0.893
+          ],
+          "param2": [
+            0.36,
+            0.387,
+            0.414,
+            0.45,
+            0.477,
+            0.504,
+            0.54,
+            0.576,
+            0.612,
+            0.648,
+            0.684,
+            0.72,
+            0.765,
+            0.81,
+            0.855
+          ],
+          "param3": [
+            0.448,
+            0.4816,
+            0.5152,
+            0.56,
+            0.5936,
+            0.6272,
+            0.672,
+            0.7168,
+            0.7616,
+            0.8064,
+            0.8512,
+            0.896,
+            0.952,
+            1.008,
+            1.064
+          ],
+          "param4": [
+            0.5616,
+            0.60372,
+            0.64584,
+            0.702,
+            0.74412,
+            0.78624,
+            0.8424,
+            0.89856,
+            0.95472,
+            1.01088,
+            1.06704,
+            1.1232,
+            1.1934,
+            1.2636,
+            1.3338
+          ],
+          "param5": [
+            1.4972,
+            1.60949,
+            1.72178,
+            1.8715,
+            1.98379,
+            2.09608,
+            2.2458,
+            2.39552,
+            2.54524,
+            2.69496,
+            2.850669,
+            3.054288,
+            3.257907,
+            3.461526,
+            3.665146
+          ],
+          "param6": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param7": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param8": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param9": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Mirror Reflection of Doom",
+      "descriptionRaw": "Creates an illusory Phantom of Fate from coalesced waterspouts.\n\n<color=#FFD780FF>Phantom</color>\nHas the following special properties:\n·Continuously taunts nearby opponents, attracting their fire.\n·Continuously deals <color=#80C0FFFF>Hydro DMG</color> to nearby opponents.\n·When its duration expires, the Phantom explodes, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\n\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
+      "description": "Creates an illusory Phantom of Fate from coalesced waterspouts.\n\nPhantom\nHas the following special properties:\n·Continuously taunts nearby opponents, attracting their fire.\n·Continuously deals Hydro DMG to nearby opponents.\n·When its duration expires, the Phantom explodes, dealing AoE Hydro DMG.\n\nHold\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.",
+      "flavorText": "Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.",
+      "attributes": {
+        "labels": [
+          "DoT|{param1:F1P}",
+          "Explosion DMG|{param2:P}",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.32,
+            0.344,
+            0.368,
+            0.4,
+            0.424,
+            0.448,
+            0.48,
+            0.512,
+            0.544,
+            0.576,
+            0.608,
+            0.64,
+            0.68,
+            0.72,
+            0.76
+          ],
+          "param2": [
+            1.328,
+            1.4276,
+            1.5272,
+            1.66,
+            1.7596,
+            1.8592,
+            1.992,
+            2.1248,
+            2.2576,
+            2.3904,
+            2.5232,
+            2.656,
+            2.822,
+            2.988,
+            3.154
+          ],
+          "param5": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      }
+    },
+    "combatsp": {
+      "name": "Illusory Torrent",
+      "descriptionRaw": "<color=#FFD780FF>Alternate Sprint</color>\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\n\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\nApplies the <color=#80C0FFFF>Wet</color> status to nearby opponents when she reappears.\n\n<i>This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...</i>",
+      "description": "Alternate Sprint\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\n\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\nApplies the Wet status to nearby opponents when she reappears.",
+      "flavorText": "This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...",
+      "attributes": {
+        "labels": [
+          "Activation Stamina Consumption|{param1:F2}",
+          "Stamina Drain|{param2:F2}/s"
+        ],
+        "parameters": {
+          "param1": [
+            10
+          ],
+          "param2": [
+            15
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Stellaris Phantasm",
+      "descriptionRaw": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\n\n<color=#FFD780FF>Illusory Bubble</color>\nTraps opponents inside a pocket of destiny and also makes them <color=#80C0FFFF>Wet</color>. Renders weaker opponents immobile.\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\n·Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\n·Removes the Illusory Bubble, dealing <color=#80C0FFFF>Hydro</color> DMG in the process.\n\n<color=#FFD780FF>Omen</color>\nDuring its duration, increases DMG taken by opponents.\n\n<i>It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.</i>",
+      "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\n\nIllusory Bubble\nTraps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile.\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\n·Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\n·Removes the Illusory Bubble, dealing Hydro DMG in the process.\n\nOmen\nDuring its duration, increases DMG taken by opponents.",
+      "flavorText": "It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.",
+      "attributes": {
+        "labels": [
+          "Illusory Bubble Duration|{param1:F1}s",
+          "Illusory Bubble Explosion DMG|{param2:P}",
+          "DMG Bonus|{param10:P}",
+          "Omen Duration|{param4:F1}s",
+          "CD|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "param2": [
+            4.424,
+            4.7558,
+            5.0876,
+            5.53,
+            5.8618,
+            6.1936,
+            6.636,
+            7.0784,
+            7.5208,
+            7.9632,
+            8.4056,
+            8.848,
+            9.401,
+            9.954,
+            10.507
+          ],
+          "param3": [
+            -0.42,
+            -0.44,
+            -0.46,
+            -0.48,
+            -0.5,
+            -0.52,
+            -0.54,
+            -0.56,
+            -0.58,
+            -0.6,
+            -0.6,
+            -0.6,
+            -0.6,
+            -0.6,
+            -0.6
+          ],
+          "param4": [
+            4,
+            4,
+            4,
+            4.5,
+            4.5,
+            4.5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "param10": [
+            0.42,
+            0.44,
+            0.46,
+            0.48,
+            0.5,
+            0.52,
+            0.54,
+            0.56,
+            0.58,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "\"Come 'n' Get Me, Hag!\"",
+      "descriptionRaw": "After she has used <color=#FFD780FF>Illusory Torrent</color> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <color=#FFD780FF>Mirror Reflection of Doom</color>.",
+      "description": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom."
+    },
+    "passive2": {
+      "name": "Waterborne Destiny",
+      "descriptionRaw": "Increases Mona's <color=#80C0FFFF>Hydro DMG Bonus</color> by a degree equivalent to 20% of her Energy Recharge rate.",
+      "description": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate."
+    },
+    "passive3": {
+      "name": "Principium of Astrology",
+      "descriptionRaw": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used.",
+      "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104304,
+          "name": "Teachings of Resistance",
+          "count": 3
+        },
+        {
+          "id": 112038,
+          "name": "Whopperflower Nectar",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 2
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 4
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 6
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 9
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 4
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 4
+        },
+        {
+          "id": 113007,
+          "name": "Ring of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 6
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 6
+        },
+        {
+          "id": 113007,
+          "name": "Ring of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 12
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 9
+        },
+        {
+          "id": 113007,
+          "name": "Ring of Boreas",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 16
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 12
+        },
+        {
+          "id": 113007,
+          "name": "Ring of Boreas",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Mona_01",
+      "filename_combatsp": "Skill_S_Mona_02",
+      "filename_combat3": "Skill_E_Mona_01_HD",
+      "filename_passive1": "UI_Talent_S_Mona_05",
+      "filename_passive2": "UI_Talent_S_Mona_06",
+      "filename_passive3": "UI_Talent_Combine_Weapon"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 4101,
+    "name": "Mona",
+    "c1": {
+      "name": "Prophecy of Submersion",
+      "descriptionRaw": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\n· Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%.\n· Frozen duration is extended by 15%.",
+      "description": "When any of your own party members hits an opponent affected by an Omen, the effects of Hydro-related Elemental Reactions are enhanced for 8s:\n· Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%.\n· Frozen duration is extended by 15%."
+    },
+    "c2": {
+      "name": "Lunar Chain",
+      "descriptionRaw": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\nThis effect can only occur once every 5s.",
+      "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\nThis effect can only occur once every 5s."
+    },
+    "c3": {
+      "name": "Restless Revolution",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Stellaris Phantasm</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Stellaris Phantasm by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Prophecy of Oblivion",
+      "descriptionRaw": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.",
+      "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%."
+    },
+    "c5": {
+      "name": "Mockery of Fortuna",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Mirror Reflection of Doom</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Mirror Reflection of Doom by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Rhetorics of Calamitas",
+      "descriptionRaw": "Upon entering <color=#FFD780FF>Illusory Torrent</color>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+      "description": "Upon entering Illusory Torrent, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Mona_01",
+      "filename_c2": "UI_Talent_S_Mona_02",
+      "filename_c3": "UI_Talent_U_Mona_01",
+      "filename_c4": "UI_Talent_S_Mona_03",
+      "filename_c5": "UI_Talent_U_Mona_02",
+      "filename_c6": "UI_Talent_S_Mona_04",
+      "filename_constellation": "Eff_UI_Talent_Mona"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 810.322,
+      "attack": 22.344,
+      "defense": 50.8555,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 877.578726,
+      "attack": 24.198552,
+      "defense": 55.0765065,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 944.8354519999999,
+      "attack": 26.053104,
+      "defense": 59.297512999999995,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1012.9025,
+      "attack": 27.93,
+      "defense": 63.569375,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1080.159226,
+      "attack": 29.784552,
+      "defense": 67.7903815,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1148.226274,
+      "attack": 31.661448000000004,
+      "defense": 72.0622435,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1215.483,
+      "attack": 33.516000000000005,
+      "defense": 76.28325,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1283.550048,
+      "attack": 35.392896,
+      "defense": 80.55511200000001,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1351.617096,
+      "attack": 37.269792,
+      "defense": 84.82697399999999,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1418.873822,
+      "attack": 39.124344,
+      "defense": 89.0479805,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1486.94087,
+      "attack": 41.00124,
+      "defense": 93.3198425,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1555.007918,
+      "attack": 42.878136000000005,
+      "defense": 97.5917045,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1623.0749660000001,
+      "attack": 44.75503200000001,
+      "defense": 101.8635665,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1691.952336,
+      "attack": 46.654272000000006,
+      "defense": 106.186284,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1760.0193840000002,
+      "attack": 48.53116800000001,
+      "defense": 110.458146,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1828.0864319999998,
+      "attack": 50.408063999999996,
+      "defense": 114.73000799999998,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1896.9638020000002,
+      "attack": 52.30730400000001,
+      "defense": 119.05272550000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1965.0308499999999,
+      "attack": 54.1842,
+      "defense": 123.32458749999999,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2033.9082199999998,
+      "attack": 56.083439999999996,
+      "defense": 127.64730499999999,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2101.9752679999997,
+      "attack": 57.960336,
+      "defense": 131.919167,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2865.630468,
+      "attack": 79.01613599999999,
+      "defense": 179.8468845,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2934.507838,
+      "attack": 80.915376,
+      "defense": 184.16960199999997,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3003.385208,
+      "attack": 82.814616,
+      "defense": 188.4923195,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3072.2625780000003,
+      "attack": 84.713856,
+      "defense": 192.815037,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3141.139948,
+      "attack": 86.613096,
+      "defense": 197.1377545,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3210.82764,
+      "attack": 88.53468000000001,
+      "defense": 201.5113275,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3279.70501,
+      "attack": 90.43392,
+      "defense": 205.83404499999997,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3348.58238,
+      "attack": 92.33316,
+      "defense": 210.15676249999999,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3418.2700720000003,
+      "attack": 94.254744,
+      "defense": 214.5303355,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3487.147442,
+      "attack": 96.15398400000001,
+      "defense": 218.853053,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3556.835134,
+      "attack": 98.075568,
+      "defense": 223.22662599999998,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3626.522826,
+      "attack": 99.997152,
+      "defense": 227.60019899999998,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3696.2105180000003,
+      "attack": 101.91873600000001,
+      "defense": 231.973772,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3765.087888,
+      "attack": 103.817976,
+      "defense": 236.2964895,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3834.77558,
+      "attack": 105.73956,
+      "defense": 240.6700625,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3905.2735940000002,
+      "attack": 107.68348800000001,
+      "defense": 245.094491,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3974.961286,
+      "attack": 109.605072,
+      "defense": 249.468064,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4044.648978,
+      "attack": 111.52665600000002,
+      "defense": 253.841637,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4114.33667,
+      "attack": 113.44824,
+      "defense": 258.21521,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4184.834684,
+      "attack": 115.39216800000001,
+      "defense": 262.63963850000005,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4748.180346,
+      "attack": 130.924992,
+      "defense": 297.99571149999997,
+      "specialized": 0.08
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4818.67836,
+      "attack": 132.86892,
+      "defense": 302.42014000000006,
+      "specialized": 0.08
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4889.176374,
+      "attack": 134.812848,
+      "defense": 306.84456850000004,
+      "specialized": 0.08
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4958.864066,
+      "attack": 136.734432,
+      "defense": 311.2181415,
+      "specialized": 0.08
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5029.36208,
+      "attack": 138.67836,
+      "defense": 315.64257,
+      "specialized": 0.08
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5099.860094,
+      "attack": 140.622288,
+      "defense": 320.0669985,
+      "specialized": 0.08
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5170.358107999999,
+      "attack": 142.566216,
+      "defense": 324.491427,
+      "specialized": 0.08
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5240.856122,
+      "attack": 144.51014400000003,
+      "defense": 328.9158555,
+      "specialized": 0.08
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5312.164458,
+      "attack": 146.47641600000003,
+      "defense": 333.3911395,
+      "specialized": 0.08
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5382.662472,
+      "attack": 148.420344,
+      "defense": 337.815568,
+      "specialized": 0.08
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6111.371085999999,
+      "attack": 168.512592,
+      "defense": 383.54999649999996,
+      "specialized": 0.16
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6182.679421999999,
+      "attack": 170.47886400000002,
+      "defense": 388.02528049999995,
+      "specialized": 0.16
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6253.177436,
+      "attack": 172.422792,
+      "defense": 392.449709,
+      "specialized": 0.16
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6324.485772,
+      "attack": 174.389064,
+      "defense": 396.924993,
+      "specialized": 0.16
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6395.794108,
+      "attack": 176.355336,
+      "defense": 401.40027699999996,
+      "specialized": 0.16
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6467.102444,
+      "attack": 178.321608,
+      "defense": 405.87556099999995,
+      "specialized": 0.16
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6538.41078,
+      "attack": 180.28788,
+      "defense": 410.350845,
+      "specialized": 0.16
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6609.719116,
+      "attack": 182.254152,
+      "defense": 414.826129,
+      "specialized": 0.16
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6681.027452,
+      "attack": 184.220424,
+      "defense": 419.30141299999997,
+      "specialized": 0.16
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6752.335788,
+      "attack": 186.186696,
+      "defense": 423.776697,
+      "specialized": 0.16
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7317.301924000001,
+      "attack": 201.764208,
+      "defense": 459.234481,
+      "specialized": 0.16
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7388.610260000001,
+      "attack": 203.73048,
+      "defense": 463.709765,
+      "specialized": 0.16
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7460.728918000001,
+      "attack": 205.71909600000004,
+      "defense": 468.2359045,
+      "specialized": 0.16
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7532.037254000001,
+      "attack": 207.68536799999998,
+      "defense": 472.7111885,
+      "specialized": 0.16
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7604.155912,
+      "attack": 209.67398400000002,
+      "defense": 477.237328,
+      "specialized": 0.16
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7676.27457,
+      "attack": 211.6626,
+      "defense": 481.7634675,
+      "specialized": 0.16
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7747.582906,
+      "attack": 213.628872,
+      "defense": 486.2387515,
+      "specialized": 0.16
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7819.701563999999,
+      "attack": 215.61748799999998,
+      "defense": 490.764891,
+      "specialized": 0.16
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7891.820222,
+      "attack": 217.60610400000002,
+      "defense": 495.2910305,
+      "specialized": 0.16
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7963.93888,
+      "attack": 219.59472,
+      "defense": 499.81717000000003,
+      "specialized": 0.16
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8529.715538,
+      "attack": 235.194576,
+      "defense": 535.3258095,
+      "specialized": 0.24
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8602.644518000001,
+      "attack": 237.205536,
+      "defense": 539.9028045,
+      "specialized": 0.24
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8674.763176,
+      "attack": 239.194152,
+      "defense": 544.428944,
+      "specialized": 0.24
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8746.881834,
+      "attack": 241.182768,
+      "defense": 548.9550835,
+      "specialized": 0.24
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8819.810814,
+      "attack": 243.193728,
+      "defense": 553.5320785,
+      "specialized": 0.24
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8891.929472,
+      "attack": 245.182344,
+      "defense": 558.058218,
+      "specialized": 0.24
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8964.858452,
+      "attack": 247.193304,
+      "defense": 562.635213,
+      "specialized": 0.24
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9037.787432000001,
+      "attack": 249.204264,
+      "defense": 567.2122079999999,
+      "specialized": 0.24
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 9110.716412000002,
+      "attack": 251.215224,
+      "defense": 571.789203,
+      "specialized": 0.24
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9183.645392,
+      "attack": 253.22618400000002,
+      "defense": 576.3661979999999,
+      "specialized": 0.24
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9750.232172,
+      "attack": 268.848384,
+      "defense": 611.925693,
+      "specialized": 0.32
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9823.161152,
+      "attack": 270.859344,
+      "defense": 616.502688,
+      "specialized": 0.32
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9896.090132,
+      "attack": 272.87030400000003,
+      "defense": 621.0796829999999,
+      "specialized": 0.32
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9969.019112,
+      "attack": 274.881264,
+      "defense": 625.6566779999999,
+      "specialized": 0.32
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 10041.948091999999,
+      "attack": 276.892224,
+      "defense": 630.233673,
+      "specialized": 0.32
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 10115.687394,
+      "attack": 278.92552800000004,
+      "defense": 634.8615235,
+      "specialized": 0.32
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10188.616374000001,
+      "attack": 280.93648800000005,
+      "defense": 639.4385185,
+      "specialized": 0.32
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 10262.355676,
+      "attack": 282.969792,
+      "defense": 644.066369,
+      "specialized": 0.32
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 10336.094978,
+      "attack": 285.003096,
+      "defense": 648.6942194999999,
+      "specialized": 0.32
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 10409.023958000002,
+      "attack": 287.01405600000004,
+      "defense": 653.2712145,
+      "specialized": 0.32
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2796.7530979999997,
+      "attack": 77.116896,
+      "defense": 175.52416699999998,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4678.492654000001,
+      "attack": 129.003408,
+      "defense": 293.6221385,
+      "specialized": 0.08
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6040.873072,
+      "attack": 166.568664,
+      "defense": 379.125568,
+      "specialized": 0.16
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7245.993587999999,
+      "attack": 199.797936,
+      "defense": 454.75919700000003,
+      "specialized": 0.16
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8457.596880000001,
+      "attack": 233.20596,
+      "defense": 530.7996700000001,
+      "specialized": 0.24
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9677.303192,
+      "attack": 266.83742400000006,
+      "defense": 607.348698,
+      "specialized": 0.32
+    }
+  }
+}
