@@ -1,0 +1,1776 @@
+{
+  "profile": {
+    "id": 10000084,
+    "name": "Lyney",
+    "title": "Spectacle of Phantasmagoria",
+    "description": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "2/2",
+    "birthday": "February 2",
+    "elementType": "ELEMENT_PYRO",
+    "elementText": "Pyro",
+    "affiliation": "Hotel Bouffes d'ete",
+    "associationType": "ASSOC_FONTAINE",
+    "region": "Fontaine",
+    "substatType": "FIGHT_PROP_CRITICAL",
+    "substatText": "CRIT Rate",
+    "constellation": "Felis Fuscus",
+    "cv": {
+      "english": "Daman Mills",
+      "chinese": "锦鲤",
+      "japanese": "下野紘",
+      "korean": "Park Seong-yeong"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104111,
+          "name": "Agnidus Agate Sliver",
+          "count": 1
+        },
+        {
+          "id": 101236,
+          "name": "Rainbow Rose",
+          "count": 3
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 3
+        },
+        {
+          "id": 113051,
+          "name": "Emperor's Resolution",
+          "count": 2
+        },
+        {
+          "id": 101236,
+          "name": "Rainbow Rose",
+          "count": 10
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 6
+        },
+        {
+          "id": 113051,
+          "name": "Emperor's Resolution",
+          "count": 4
+        },
+        {
+          "id": 101236,
+          "name": "Rainbow Rose",
+          "count": 20
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 3
+        },
+        {
+          "id": 113051,
+          "name": "Emperor's Resolution",
+          "count": 8
+        },
+        {
+          "id": 101236,
+          "name": "Rainbow Rose",
+          "count": 30
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 6
+        },
+        {
+          "id": 113051,
+          "name": "Emperor's Resolution",
+          "count": 12
+        },
+        {
+          "id": 101236,
+          "name": "Rainbow Rose",
+          "count": 45
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104114,
+          "name": "Agnidus Agate Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113051,
+          "name": "Emperor's Resolution",
+          "count": 20
+        },
+        {
+          "id": 101236,
+          "name": "Rainbow Rose",
+          "count": 60
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/08/10/aed7f3d44289e8f796c19fc4cd13ad9b_8749199347718802064.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/08/10/50b29ea6bbc104990541ad14d6deca77_2152538302683473813.png",
+      "filename_icon": "UI_AvatarIcon_Liney",
+      "filename_iconCard": "UI_AvatarIcon_Liney_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Liney",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Liney",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Liney",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liney.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Liney.png",
+      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/11/35428890/e343d4442cc3b8e243f0d528bb715f75_1232011243947476013.png"
+    },
+    "version": "4.0"
+  },
+  "skills": {
+    "id": 8401,
+    "name": "Lyney",
+    "combat1": {
+      "name": "Card Force Translocation",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive shots with a bow.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, flames will run across the arrowhead before being fired. Different effects will occur based on the time spent charging.\n·Charge Level 1: Fires off a Pyro-infused arrow, dealing <color=#FF9999FF>Pyro DMG</color>.\n·Charge Level 2: Fires off a Prop Arrow that deals <color=#FF9999FF>Pyro DMG</color>, and upon hit, it will summon a Grin-Malkin Hat.\nWhen firing the Prop Arrow, and when Lyney has more than 60% HP, he will consume a portion of his HP to obtain 1 Prop Surplus stack. Max 5 stacks. The effect will be removed after the character spends 30s out of combat.\nThe lowest Lyney can drop to through this method is 60% of his Max HP.\n\n<color=#FFD780FF>Grin-Malkin Hat</color>\n·Can taunt nearby opponents and attract their attacks. Each opponent can only be taunted by the Hat once every 5s.\n·The Hat will inherit a percentage of Lyney's Max HP.\n·If destroyed, or if its duration expires, it will fire off a <color=#FFD780FF>Pyrotechnic Strike</color> at 1 nearby opponent, dealing <color=#FF9999FF>Pyro DMG</color>.\nOnly 1 Hat can exist at any given time.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nAt certain intervals, the Prop Arrow will cause a Spiritbreath Thorn to descend upon its hit location, dealing Pneuma-aligned <color=#FF9999FF>Pyro DMG</color>.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, flames will run across the arrowhead before being fired. Different effects will occur based on the time spent charging.\n·Charge Level 1: Fires off a Pyro-infused arrow, dealing Pyro DMG.\n·Charge Level 2: Fires off a Prop Arrow that deals Pyro DMG, and upon hit, it will summon a Grin-Malkin Hat.\nWhen firing the Prop Arrow, and when Lyney has more than 60% HP, he will consume a portion of his HP to obtain 1 Prop Surplus stack. Max 5 stacks. The effect will be removed after the character spends 30s out of combat.\nThe lowest Lyney can drop to through this method is 60% of his Max HP.\n\nGrin-Malkin Hat\n·Can taunt nearby opponents and attract their attacks. Each opponent can only be taunted by the Hat once every 5s.\n·The Hat will inherit a percentage of Lyney's Max HP.\n·If destroyed, or if its duration expires, it will fire off a Pyrotechnic Strike at 1 nearby opponent, dealing Pyro DMG.\nOnly 1 Hat can exist at any given time.\n\nArkhe: Pneuma\nAt certain intervals, the Prop Arrow will cause a Spiritbreath Thorn to descend upon its hit location, dealing Pneuma-aligned Pyro DMG.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "Plunge DMG|{param6:F1P}",
+          "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+          "Aimed Shot|{param9:F1P}",
+          "Aimed Shot Charge Level 1|{param10:F1P}",
+          "Prop Arrow DMG|{param11:F1P}",
+          "HP Cost|{param12:P} Max HP",
+          "Grin-Malkin Hat Inherited HP|{param13:P}",
+          "Grin-Malkin Hat Duration|{param14:F1}s",
+          "Pyrotechnic Strike DMG|{param15:F1P}",
+          "Spiritbreath Thorn DMG|{param16:F1P}",
+          "Spiritbreath Thorn Interval|{param17:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.38786,
+            0.41943,
+            0.451,
+            0.4961,
+            0.52767,
+            0.56375,
+            0.61336,
+            0.66297,
+            0.71258,
+            0.7667,
+            0.82082,
+            0.87494,
+            0.92906,
+            0.98318,
+            1.0373
+          ],
+          "param2": [
+            0.38012,
+            0.41106,
+            0.442,
+            0.4862,
+            0.51714,
+            0.5525,
+            0.60112,
+            0.64974,
+            0.69836,
+            0.7514,
+            0.80444,
+            0.85748,
+            0.91052,
+            0.96356,
+            1.0166
+          ],
+          "param3": [
+            0.27262,
+            0.29481,
+            0.317,
+            0.3487,
+            0.37089,
+            0.39625,
+            0.43112,
+            0.46599,
+            0.50086,
+            0.5389,
+            0.57694,
+            0.61498,
+            0.65302,
+            0.69106,
+            0.7291
+          ],
+          "param4": [
+            0.27262,
+            0.29481,
+            0.317,
+            0.3487,
+            0.37089,
+            0.39625,
+            0.43112,
+            0.46599,
+            0.50086,
+            0.5389,
+            0.57694,
+            0.61498,
+            0.65302,
+            0.69106,
+            0.7291
+          ],
+          "param5": [
+            0.56932,
+            0.61566,
+            0.662,
+            0.7282,
+            0.77454,
+            0.8275,
+            0.90032,
+            0.97314,
+            1.04596,
+            1.1254,
+            1.20484,
+            1.28428,
+            1.36372,
+            1.44316,
+            1.5226
+          ],
+          "param6": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param7": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param8": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ],
+          "param9": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.9282,
+            0.9894,
+            1.0506,
+            1.1118,
+            1.173
+          ],
+          "param10": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.356,
+            2.48,
+            2.635,
+            2.79,
+            2.945
+          ],
+          "param11": [
+            1.728,
+            1.8576,
+            1.9872,
+            2.16,
+            2.2896,
+            2.4192,
+            2.592,
+            2.7648,
+            2.9376,
+            3.1104,
+            3.2832,
+            3.456,
+            3.672,
+            3.888,
+            4.104
+          ],
+          "param12": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "param13": [
+            0.64,
+            0.688,
+            0.736,
+            0.8,
+            0.848,
+            0.896,
+            0.96,
+            1.024,
+            1.088,
+            1.152,
+            1.216,
+            1.28,
+            1.36,
+            1.44,
+            1.52
+          ],
+          "param14": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "param15": [
+            2.12,
+            2.279,
+            2.438,
+            2.65,
+            2.809,
+            2.968,
+            3.18,
+            3.392,
+            3.604,
+            3.816,
+            4.028,
+            4.24,
+            4.505,
+            4.77,
+            5.035
+          ],
+          "param16": [
+            0.27552,
+            0.296184,
+            0.316848,
+            0.3444,
+            0.365064,
+            0.385728,
+            0.41328,
+            0.440832,
+            0.468384,
+            0.495936,
+            0.523488,
+            0.55104,
+            0.58548,
+            0.61992,
+            0.65436
+          ],
+          "param17": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Bewildering Lights",
+      "descriptionRaw": "Lyney does a flourish with his hat, unleashing a firework surprise!\nWhen used, he will clear all current Prop Surplus stacks and deal <color=#FF9999FF>AoE Pyro DMG</color> to opponents in front of him. DMG will be increased according to the stacks cleared, and this will also regenerate Lyney's HP based on his Max HP.\n\nWhen a Grin-Malkin Hat created by Lyney is on the field, the fireworks will cause it to explode, dealing <color=#FF9999FF>AoE Pyro DMG</color> equal to that of a Pyrotechnic Strike.\nThe DMG dealt through the Grin-Malkin Hat in this way is considered Charged Attack DMG.\n\n<i>\"Everyone knows that magicians will intentionally misdirect the audience... Ah, yes, while you were looking my way, the hat and assistant over there have both disappeared... Fascinating, is it not?\"</i>",
+      "description": "Lyney does a flourish with his hat, unleashing a firework surprise!\nWhen used, he will clear all current Prop Surplus stacks and deal AoE Pyro DMG to opponents in front of him. DMG will be increased according to the stacks cleared, and this will also regenerate Lyney's HP based on his Max HP.\n\nWhen a Grin-Malkin Hat created by Lyney is on the field, the fireworks will cause it to explode, dealing AoE Pyro DMG equal to that of a Pyrotechnic Strike.\nThe DMG dealt through the Grin-Malkin Hat in this way is considered Charged Attack DMG.",
+      "flavorText": "\"Everyone knows that magicians will intentionally misdirect the audience... Ah, yes, while you were looking my way, the hat and assistant over there have both disappeared... Fascinating, is it not?\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+          "HP Regeneration|{param3:P}/Stack",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.672,
+            1.7974,
+            1.9228,
+            2.09,
+            2.2154,
+            2.3408,
+            2.508,
+            2.6752,
+            2.8424,
+            3.0096,
+            3.1768,
+            3.344,
+            3.553,
+            3.762,
+            3.971
+          ],
+          "param2": [
+            0.532,
+            0.5719,
+            0.6118,
+            0.665,
+            0.7049,
+            0.7448,
+            0.798,
+            0.8512,
+            0.9044,
+            0.9576,
+            1.0108,
+            1.064,
+            1.1305,
+            1.197,
+            1.2635
+          ],
+          "param3": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "param7": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param8": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Wondrous Trick: Miracle Parade",
+      "descriptionRaw": "Unleashing his magic, Lyney turns himself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)\nWhen the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of <color=#FF9999FF>Pyro DMG</color> to each opponent. When the duration ends, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal <color=#FF9999FF>AoE Pyro DMG</color>, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.\n\nGrin-Malkin Cat can be actively canceled.\n\n<i>\"Watch closely now. This is a time for miracles, and it belongs to just the two of us!\"</i>",
+      "description": "Unleashing his magic, Lyney turns himself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)\nWhen the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of Pyro DMG to each opponent. When the duration ends, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal AoE Pyro DMG, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.\n\nGrin-Malkin Cat can be actively canceled.",
+      "flavorText": "\"Watch closely now. This is a time for miracles, and it belongs to just the two of us!\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Explosive Firework DMG|{param2:F1P}",
+          "Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            1.54,
+            1.6555,
+            1.771,
+            1.925,
+            2.0405,
+            2.156,
+            2.31,
+            2.464,
+            2.618,
+            2.772,
+            2.926,
+            3.08,
+            3.2725,
+            3.465,
+            3.6575
+          ],
+          "param2": [
+            4.14,
+            4.4505,
+            4.761,
+            5.175,
+            5.4855,
+            5.796,
+            6.21,
+            6.624,
+            7.038,
+            7.452,
+            7.866,
+            8.28,
+            8.7975,
+            9.315,
+            9.8325
+          ],
+          "param3": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Perilous Performance",
+      "descriptionRaw": "If Lyney consumes HP when firing off a <color=#FFD780FF>Prop Arrow</color>, the Grin-Malkin hat summoned by the arrow will, upon hitting an opponent, restore 3 Energy to Lyney and increase DMG dealt by 80% of his ATK.",
+      "description": "If Lyney consumes HP when firing off a Prop Arrow, the Grin-Malkin hat summoned by the arrow will, upon hitting an opponent, restore 3 Energy to Lyney and increase DMG dealt by 80% of his ATK."
+    },
+    "passive2": {
+      "name": "Conclusive Ovation",
+      "descriptionRaw": "The DMG Lyney deals to opponents affected by <color=#FF9999FF>Pyro</color> will receive the following buffs:\n·Increases the DMG dealt by 60%.\n·Each <color=#FF9999FF>Pyro</color> party member other than Lyney will cause the DMG dealt to increase by an additional 20%.\nLyney can deal up to 100% increased DMG to opponents affected by <color=#FF9999FF>Pyro</color> in this way.",
+      "description": "The DMG Lyney deals to opponents affected by Pyro will receive the following buffs:\n·Increases the DMG dealt by 60%.\n·Each Pyro party member other than Lyney will cause the DMG dealt to increase by an additional 20%.\nLyney can deal up to 100% increased DMG to opponents affected by Pyro in this way."
+    },
+    "passive3": {
+      "name": "Trivial Observations",
+      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Fontaine</color> on the mini-map.",
+      "description": "Displays the location of nearby resources unique to Fontaine on the mini-map."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104338,
+          "name": "Teachings of Equity",
+          "count": 3
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 2
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 4
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 6
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104339,
+          "name": "Guide to Equity",
+          "count": 9
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 4
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 4
+        },
+        {
+          "id": 113047,
+          "name": "Primordial Greenbloom",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 6
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 6
+        },
+        {
+          "id": 113047,
+          "name": "Primordial Greenbloom",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 12
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 9
+        },
+        {
+          "id": 113047,
+          "name": "Primordial Greenbloom",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104340,
+          "name": "Philosophies of Equity",
+          "count": 16
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 12
+        },
+        {
+          "id": 113047,
+          "name": "Primordial Greenbloom",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Liney_01",
+      "filename_combat3": "Skill_E_Liney_01_HD",
+      "filename_passive1": "UI_Talent_S_Liney_05",
+      "filename_passive2": "UI_Talent_S_Liney_06",
+      "filename_passive3": "UI_Talent_S_Liney_07"
+    },
+    "version": "4.0"
+  },
+  "constellation": {
+    "id": 8401,
+    "name": "Lyney",
+    "c1": {
+      "name": "Whimsical Wonders",
+      "descriptionRaw": "Lyney can have 2 <color=#FFD780FF>Grin-Malkin Hats</color> present at once.\nAdditionally, Prop Arrows will summon 2 Grin-Malkin Hats and grant Lyney 1 extra stack of Prop Surplus. This effect can occur once every 15s.",
+      "description": "Lyney can have 2 Grin-Malkin Hats present at once.\nAdditionally, Prop Arrows will summon 2 Grin-Malkin Hats and grant Lyney 1 extra stack of Prop Surplus. This effect can occur once every 15s."
+    },
+    "c2": {
+      "name": "Loquacious Cajoling",
+      "descriptionRaw": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. Each stack will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field.",
+      "description": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. Each stack will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field."
+    },
+    "c3": {
+      "name": "Prestidigitation",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Normal Attack: Card Force Translocation</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Normal Attack: Card Force Translocation by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Well-Versed, Well-Rehearsed",
+      "descriptionRaw": "After an opponent is hit by Lyney's <color=#FF9999FF>Pyro</color> Charged Attack, this opponent's <color=#FF9999FF>Pyro RES</color> will be decreased by 20% for 6s.",
+      "description": "After an opponent is hit by Lyney's Pyro Charged Attack, this opponent's Pyro RES will be decreased by 20% for 6s."
+    },
+    "c5": {
+      "name": "To Pierce Enigmas",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Wondrous Trick: Miracle Parade</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Wondrous Trick: Miracle Parade by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Guarded Smile",
+      "descriptionRaw": "When Lyney fires a <color=#FFD780FF>Prop Arrow</color>, he will fire a Pyrotechnic Strike: Reprised that will deal 80% of a Pyrotechnic Strike's DMG. This DMG is considered Charged Attack DMG.",
+      "description": "When Lyney fires a Prop Arrow, he will fire a Pyrotechnic Strike: Reprised that will deal 80% of a Pyrotechnic Strike's DMG. This DMG is considered Charged Attack DMG."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Liney_01",
+      "filename_c2": "UI_Talent_S_Liney_03",
+      "filename_c3": "UI_Talent_U_Liney_01",
+      "filename_c4": "UI_Talent_S_Liney_02",
+      "filename_c5": "UI_Talent_U_Liney_02",
+      "filename_c6": "UI_Talent_S_Liney_04",
+      "filename_constellation": "Eff_UI_Talent_Liney"
+    },
+    "version": "4.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 857.988,
+      "attack": 24.7646,
+      "defense": 41.881,
+      "specialized": 0.05
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 929.201004,
+      "attack": 26.8200618,
+      "defense": 45.357123,
+      "specialized": 0.05
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1000.414008,
+      "attack": 28.8755236,
+      "defense": 48.833245999999995,
+      "specialized": 0.05
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1072.4850000000001,
+      "attack": 30.955750000000002,
+      "defense": 52.35125,
+      "specialized": 0.05
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1143.698004,
+      "attack": 33.0112118,
+      "defense": 55.827373,
+      "specialized": 0.05
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1215.768996,
+      "attack": 35.091438200000006,
+      "defense": 59.345377,
+      "specialized": 0.05
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1286.982,
+      "attack": 37.1469,
+      "defense": 62.8215,
+      "specialized": 0.05
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1359.0529920000001,
+      "attack": 39.2271264,
+      "defense": 66.339504,
+      "specialized": 0.05
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1431.123984,
+      "attack": 41.307352800000004,
+      "defense": 69.857508,
+      "specialized": 0.05
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1502.336988,
+      "attack": 43.3628146,
+      "defense": 73.333631,
+      "specialized": 0.05
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1574.4079800000002,
+      "attack": 45.443041,
+      "defense": 76.851635,
+      "specialized": 0.05
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1646.478972,
+      "attack": 47.5232674,
+      "defense": 80.369639,
+      "specialized": 0.05
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1718.5499640000003,
+      "attack": 49.6034938,
+      "defense": 83.88764300000001,
+      "specialized": 0.05
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1791.4789440000002,
+      "attack": 51.70848480000001,
+      "defense": 87.447528,
+      "specialized": 0.05
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1863.5499360000003,
+      "attack": 53.78871120000001,
+      "defense": 90.96553200000001,
+      "specialized": 0.05
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1935.620928,
+      "attack": 55.868937599999995,
+      "defense": 94.48353599999999,
+      "specialized": 0.05
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2008.5499080000002,
+      "attack": 57.97392860000001,
+      "defense": 98.04342100000001,
+      "specialized": 0.05
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2080.6209,
+      "attack": 60.054155,
+      "defense": 101.561425,
+      "specialized": 0.05
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2153.54988,
+      "attack": 62.159146,
+      "defense": 105.12131,
+      "specialized": 0.05
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2225.620872,
+      "attack": 64.2393724,
+      "defense": 108.639314,
+      "specialized": 0.05
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3034.197012,
+      "attack": 87.5762164,
+      "defense": 148.109199,
+      "specialized": 0.05
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3107.1259919999998,
+      "attack": 89.6812074,
+      "defense": 151.669084,
+      "specialized": 0.05
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3180.0549720000004,
+      "attack": 91.7861984,
+      "defense": 155.228969,
+      "specialized": 0.05
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3252.9839520000005,
+      "attack": 93.89118940000002,
+      "defense": 158.78885400000001,
+      "specialized": 0.05
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3325.912932,
+      "attack": 95.99618040000001,
+      "defense": 162.34873900000002,
+      "specialized": 0.05
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3399.6999,
+      "attack": 98.12593600000001,
+      "defense": 165.950505,
+      "specialized": 0.05
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3472.62888,
+      "attack": 100.23092700000001,
+      "defense": 169.51039,
+      "specialized": 0.05
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3545.55786,
+      "attack": 102.335918,
+      "defense": 173.07027499999998,
+      "specialized": 0.05
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3619.3448280000002,
+      "attack": 104.46567360000002,
+      "defense": 176.672041,
+      "specialized": 0.05
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3692.2738080000004,
+      "attack": 106.57066460000001,
+      "defense": 180.23192600000002,
+      "specialized": 0.05
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3766.0607760000003,
+      "attack": 108.70042020000001,
+      "defense": 183.83369199999999,
+      "specialized": 0.05
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3839.847744,
+      "attack": 110.8301758,
+      "defense": 187.43545799999998,
+      "specialized": 0.05
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3913.6347120000005,
+      "attack": 112.95993140000002,
+      "defense": 191.037224,
+      "specialized": 0.05
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3986.563692,
+      "attack": 115.06492240000001,
+      "defense": 194.59710900000002,
+      "specialized": 0.05
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4060.35066,
+      "attack": 117.19467800000001,
+      "defense": 198.198875,
+      "specialized": 0.05
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4134.995616,
+      "attack": 119.34919820000002,
+      "defense": 201.842522,
+      "specialized": 0.05
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4208.7825840000005,
+      "attack": 121.47895380000001,
+      "defense": 205.444288,
+      "specialized": 0.05
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4282.569552000001,
+      "attack": 123.60870940000001,
+      "defense": 209.046054,
+      "specialized": 0.05
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4356.356519999999,
+      "attack": 125.738465,
+      "defense": 212.64782,
+      "specialized": 0.05
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4431.001476,
+      "attack": 127.89298520000001,
+      "defense": 216.291467,
+      "specialized": 0.05
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5027.485084,
+      "attack": 145.1085338,
+      "defense": 245.408233,
+      "specialized": 0.098
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5102.130040000001,
+      "attack": 147.263054,
+      "defense": 249.05188000000004,
+      "specialized": 0.098
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5176.774996,
+      "attack": 149.41757420000002,
+      "defense": 252.69552700000003,
+      "specialized": 0.098
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5250.561964,
+      "attack": 151.5473298,
+      "defense": 256.29729299999997,
+      "specialized": 0.098
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5325.2069200000005,
+      "attack": 153.70185,
+      "defense": 259.94094,
+      "specialized": 0.098
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5399.851876000001,
+      "attack": 155.85637020000001,
+      "defense": 263.584587,
+      "specialized": 0.098
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5474.496832000001,
+      "attack": 158.0108904,
+      "defense": 267.228234,
+      "specialized": 0.098
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5549.141788000001,
+      "attack": 160.16541060000003,
+      "defense": 270.87188100000003,
+      "specialized": 0.098
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5624.644732000001,
+      "attack": 162.34469540000003,
+      "defense": 274.557409,
+      "specialized": 0.098
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5699.289688000001,
+      "attack": 164.4992156,
+      "defense": 278.201056,
+      "specialized": 0.098
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6470.8634440000005,
+      "attack": 186.7681238,
+      "defense": 315.86470299999996,
+      "specialized": 0.14600000000000002
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6546.366388,
+      "attack": 188.94740860000002,
+      "defense": 319.550231,
+      "specialized": 0.14600000000000002
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6621.0113440000005,
+      "attack": 191.1019288,
+      "defense": 323.193878,
+      "specialized": 0.14600000000000002
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6696.514288,
+      "attack": 193.2812136,
+      "defense": 326.879406,
+      "specialized": 0.14600000000000002
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6772.017232,
+      "attack": 195.4604984,
+      "defense": 330.564934,
+      "specialized": 0.14600000000000002
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6847.520176000001,
+      "attack": 197.6397832,
+      "defense": 334.25046199999997,
+      "specialized": 0.14600000000000002
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6923.023120000001,
+      "attack": 199.81906800000002,
+      "defense": 337.93599,
+      "specialized": 0.14600000000000002
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6998.526064000001,
+      "attack": 201.99835280000002,
+      "defense": 341.62151800000004,
+      "specialized": 0.14600000000000002
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7074.029008,
+      "attack": 204.17763760000003,
+      "defense": 345.307046,
+      "specialized": 0.14600000000000002
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7149.531952000001,
+      "attack": 206.35692240000003,
+      "defense": 348.992574,
+      "specialized": 0.14600000000000002
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7747.731496,
+      "attack": 223.62199320000002,
+      "defense": 378.193102,
+      "specialized": 0.14600000000000002
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7823.23444,
+      "attack": 225.80127800000002,
+      "defense": 381.87863,
+      "specialized": 0.14600000000000002
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7899.595372,
+      "attack": 228.0053274,
+      "defense": 385.60603899999995,
+      "specialized": 0.14600000000000002
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7975.098316,
+      "attack": 230.1846122,
+      "defense": 389.291567,
+      "specialized": 0.14600000000000002
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8051.459248000001,
+      "attack": 232.38866160000003,
+      "defense": 393.018976,
+      "specialized": 0.14600000000000002
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8127.820180000001,
+      "attack": 234.592711,
+      "defense": 396.746385,
+      "specialized": 0.14600000000000002
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8203.323124,
+      "attack": 236.7719958,
+      "defense": 400.431913,
+      "specialized": 0.14600000000000002
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 8279.684056,
+      "attack": 238.9760452,
+      "defense": 404.159322,
+      "specialized": 0.14600000000000002
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 8356.044988,
+      "attack": 241.18009460000002,
+      "defense": 407.886731,
+      "specialized": 0.14600000000000002
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 8432.405920000001,
+      "attack": 243.38414400000002,
+      "defense": 411.61414,
+      "specialized": 0.14600000000000002
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9031.463652,
+      "attack": 260.67398840000004,
+      "defense": 440.856549,
+      "specialized": 0.194
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 9108.682572000002,
+      "attack": 262.9028024,
+      "defense": 444.62583900000004,
+      "specialized": 0.194
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 9185.043504000001,
+      "attack": 265.1068518,
+      "defense": 448.353248,
+      "specialized": 0.194
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 9261.404436,
+      "attack": 267.3109012,
+      "defense": 452.080657,
+      "specialized": 0.194
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 9338.623356,
+      "attack": 269.5397152,
+      "defense": 455.84994699999993,
+      "specialized": 0.194
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 9414.984288,
+      "attack": 271.7437646,
+      "defense": 459.577356,
+      "specialized": 0.194
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 9492.203208,
+      "attack": 273.9725786,
+      "defense": 463.34664599999996,
+      "specialized": 0.194
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9569.422128,
+      "attack": 276.2013926,
+      "defense": 467.11593600000003,
+      "specialized": 0.194
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 9646.641048000001,
+      "attack": 278.4302066,
+      "defense": 470.885226,
+      "specialized": 0.194
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9723.859968,
+      "attack": 280.6590206,
+      "defense": 474.65451600000006,
+      "specialized": 0.194
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 10323.775388000002,
+      "attack": 297.97362960000004,
+      "defense": 503.938806,
+      "specialized": 0.242
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 10400.994308000001,
+      "attack": 300.2024436,
+      "defense": 507.708096,
+      "specialized": 0.242
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 10478.213228,
+      "attack": 302.4312576,
+      "defense": 511.477386,
+      "specialized": 0.242
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 10555.432148,
+      "attack": 304.6600716,
+      "defense": 515.246676,
+      "specialized": 0.242
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 10632.651068,
+      "attack": 306.8888856,
+      "defense": 519.0159659999999,
+      "specialized": 0.242
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 10710.727976000002,
+      "attack": 309.1424642,
+      "defense": 522.827137,
+      "specialized": 0.242
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10787.946896000001,
+      "attack": 311.3712782,
+      "defense": 526.596427,
+      "specialized": 0.242
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 10866.023804,
+      "attack": 313.62485680000003,
+      "defense": 530.407598,
+      "specialized": 0.242
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 10944.100712,
+      "attack": 315.8784354,
+      "defense": 534.218769,
+      "specialized": 0.242
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11021.319632000002,
+      "attack": 318.1072494,
+      "defense": 537.988059,
+      "specialized": 0.242
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2961.268032,
+      "attack": 85.4712254,
+      "defense": 144.54931399999998,
+      "specialized": 0.05
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4953.6981160000005,
+      "attack": 142.97877820000002,
+      "defense": 241.806467,
+      "specialized": 0.098
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6396.218488,
+      "attack": 184.61360360000003,
+      "defense": 312.221056,
+      "specialized": 0.14600000000000002
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7672.2285520000005,
+      "attack": 221.44270840000001,
+      "defense": 374.50757400000003,
+      "specialized": 0.14600000000000002
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8955.10272,
+      "attack": 258.469939,
+      "defense": 437.12914,
+      "specialized": 0.194
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10246.556468,
+      "attack": 295.74481560000004,
+      "defense": 500.16951600000004,
+      "specialized": 0.242
+    }
+  }
+}

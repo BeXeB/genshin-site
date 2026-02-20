@@ -1,0 +1,1708 @@
+{
+  "profile": {
+    "id": 10000050,
+    "name": "Thoma",
+    "title": "Protector From Afar",
+    "description": "The Kamisato Clan's housekeeper. A well-known \"fixer\" in Inazuma.",
+    "weaponType": "WEAPON_POLE",
+    "weaponText": "Polearm",
+    "bodyType": "BODY_MALE",
+    "gender": "Male",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "1/9",
+    "birthday": "January 9",
+    "elementType": "ELEMENT_PYRO",
+    "elementText": "Pyro",
+    "affiliation": "Yashiro Commission",
+    "associationType": "ASSOC_INAZUMA",
+    "region": "Inazuma",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Rubeum Scutum",
+    "cv": {
+      "english": "Christian Banas",
+      "chinese": "张沛",
+      "japanese": "森田成一",
+      "korean": "Ryu Seung-kon"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104111,
+          "name": "Agnidus Agate Sliver",
+          "count": 1
+        },
+        {
+          "id": 101209,
+          "name": "Fluorescent Fungus",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 3
+        },
+        {
+          "id": 113024,
+          "name": "Smoldering Pearl",
+          "count": 2
+        },
+        {
+          "id": 101209,
+          "name": "Fluorescent Fungus",
+          "count": 10
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 6
+        },
+        {
+          "id": 113024,
+          "name": "Smoldering Pearl",
+          "count": 4
+        },
+        {
+          "id": 101209,
+          "name": "Fluorescent Fungus",
+          "count": 20
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 3
+        },
+        {
+          "id": 113024,
+          "name": "Smoldering Pearl",
+          "count": 8
+        },
+        {
+          "id": 101209,
+          "name": "Fluorescent Fungus",
+          "count": 30
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 6
+        },
+        {
+          "id": 113024,
+          "name": "Smoldering Pearl",
+          "count": 12
+        },
+        {
+          "id": 101209,
+          "name": "Fluorescent Fungus",
+          "count": 45
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104114,
+          "name": "Agnidus Agate Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113024,
+          "name": "Smoldering Pearl",
+          "count": 20
+        },
+        {
+          "id": 101209,
+          "name": "Fluorescent Fungus",
+          "count": 60
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/9d753f7cee1ed5c645340d6396c50c46_5113716789151737645.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/8c22510df84f59fbe30bc6e338ec01fc_1179446160895359895.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/3efac14b33f37b567cc3f48f47b3158d.png",
+      "filename_icon": "UI_AvatarIcon_Tohma",
+      "filename_iconCard": "UI_AvatarIcon_Tohma_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Tohma",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Tohma",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Tohma",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Tohma.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Thoma_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Thoma"
+    },
+    "version": "2.2"
+  },
+  "skills": {
+    "id": 5001,
+    "name": "Thoma",
+    "combat1": {
+      "name": "Swiftshatter Spear",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}×2",
+          "4-Hit DMG|{param4:F1P}",
+          "Charged Attack DMG|{param5:P}",
+          "Charged Attack Stamina Cost|{param6:F1}",
+          "Plunge DMG|{param7:F1P}",
+          "Low/High Plunge DMG|{param8:P}/{param9:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.443932,
+            0.480066,
+            0.5162,
+            0.56782,
+            0.603954,
+            0.64525,
+            0.702032,
+            0.758814,
+            0.815596,
+            0.87754,
+            0.939484,
+            1.001428,
+            1.063372,
+            1.125316,
+            1.18726
+          ],
+          "param2": [
+            0.436278,
+            0.471789,
+            0.5073,
+            0.55803,
+            0.593541,
+            0.634125,
+            0.689928,
+            0.745731,
+            0.801534,
+            0.86241,
+            0.923286,
+            0.984162,
+            1.045038,
+            1.105914,
+            1.16679
+          ],
+          "param3": [
+            0.26789,
+            0.289695,
+            0.3115,
+            0.34265,
+            0.364455,
+            0.389375,
+            0.42364,
+            0.457905,
+            0.49217,
+            0.52955,
+            0.56693,
+            0.60431,
+            0.64169,
+            0.67907,
+            0.71645
+          ],
+          "param4": [
+            0.673552,
+            0.728376,
+            0.7832,
+            0.86152,
+            0.916344,
+            0.979,
+            1.065152,
+            1.151304,
+            1.237456,
+            1.33144,
+            1.425424,
+            1.519408,
+            1.613392,
+            1.707376,
+            1.80136
+          ],
+          "param5": [
+            1.12746,
+            1.21923,
+            1.311,
+            1.4421,
+            1.53387,
+            1.63875,
+            1.78296,
+            1.92717,
+            2.07138,
+            2.2287,
+            2.38602,
+            2.54334,
+            2.70066,
+            2.85798,
+            3.0153
+          ],
+          "param6": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param7": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param8": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param9": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Blazing Blessing",
+      "descriptionRaw": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals <color=#FF9999FF>AoE Pyro DMG</color>, while also summoning a defensive Blazing Barrier. At the moment of casting, Thoma's Elemental Skill applies <color=#FF9999FF>Pyro</color> to himself.\nThe DMG Absorption of the Blazing Barrier scales off Thoma's Max HP.\nThe Blazing Barrier has the following traits:\n·Absorbs <color=#FF9999FF>Pyro DMG</color> 250% more effectively.\n·When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\n<i>As a guest from afar, only the most burning passion would allow one to master the pure and precise spear arts of Inazuma. Thoma's mastery, indeed, is not limited to being the \"swiftest-studying student\" or \"a master of the spear,\" but he has imbued his will to protect others and fend off foes into his art as well.</i>",
+      "description": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals AoE Pyro DMG, while also summoning a defensive Blazing Barrier. At the moment of casting, Thoma's Elemental Skill applies Pyro to himself.\nThe DMG Absorption of the Blazing Barrier scales off Thoma's Max HP.\nThe Blazing Barrier has the following traits:\n·Absorbs Pyro DMG 250% more effectively.\n·When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.",
+      "flavorText": "As a guest from afar, only the most burning passion would allow one to master the pure and precise spear arts of Inazuma. Thoma's mastery, indeed, is not limited to being the \"swiftest-studying student\" or \"a master of the spear,\" but he has imbued his will to protect others and fend off foes into his art as well.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}",
+          "Shield DMG Absorption|{param2:F1P} Max HP+{param3:I}",
+          "Shield Duration|{param4:F1}s",
+          "Max Shield DMG Absorption|{param5:F1P} Max HP+{param6:I}",
+          "CD|{param7:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.464,
+            1.5738,
+            1.6836,
+            1.83,
+            1.9398,
+            2.0496,
+            2.196,
+            2.3424,
+            2.4888,
+            2.6352,
+            2.7816,
+            2.928,
+            3.111,
+            3.294,
+            3.477
+          ],
+          "param2": [
+            0.072,
+            0.0774,
+            0.0828,
+            0.09,
+            0.0954,
+            0.1008,
+            0.108,
+            0.1152,
+            0.1224,
+            0.1296,
+            0.1368,
+            0.144,
+            0.153,
+            0.162,
+            0.171
+          ],
+          "param3": [
+            693.33484,
+            762.678,
+            837.7997,
+            918.7,
+            1005.3789,
+            1097.8364,
+            1196.0725,
+            1300.0872,
+            1409.8805,
+            1525.4523,
+            1646.8027,
+            1773.9319,
+            1906.8395,
+            2045.5258,
+            2189.9905
+          ],
+          "param4": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "param5": [
+            0.196,
+            0.2107,
+            0.2254,
+            0.245,
+            0.2597,
+            0.2744,
+            0.294,
+            0.3136,
+            0.3332,
+            0.3528,
+            0.3724,
+            0.392,
+            0.4165,
+            0.441,
+            0.4655
+          ],
+          "param6": [
+            1887.4199,
+            2076.1882,
+            2280.687,
+            2500.9167,
+            2736.877,
+            2988.5679,
+            3255.9897,
+            3539.142,
+            3838.025,
+            4152.6387,
+            4482.983,
+            4829.058,
+            5190.8643,
+            5568.4004,
+            5961.6675
+          ],
+          "param7": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Crimson Ooyoroi",
+      "descriptionRaw": "Thoma spins his polearm, slicing at his foes with roaring flames that deal <color=#FF9999FF>AoE Pyro DMG</color> and weave themselves into a Scorching Ooyoroi.\n\n<color=#FFD780FF>Scorching Ooyoroi</color>\nWhile Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing <color=#FF9999FF>AoE Pyro DMG</color> and summoning a Blazing Barrier.\nFiery Collapse can be triggered once every 1s.\n\nExcept for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:\n·Absorbs <color=#FF9999FF>Pyro DMG</color> 250% more effectively.\n·When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\nIf Thoma falls, the effects of Scorching Ooyoroi will be cleared.\n\n<i>\"I will not forget my initial promise. Let this burning flame protect those I cherish, and may it never be extinguished.\"</i>",
+      "description": "Thoma spins his polearm, slicing at his foes with roaring flames that deal AoE Pyro DMG and weave themselves into a Scorching Ooyoroi.\n\nScorching Ooyoroi\nWhile Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing AoE Pyro DMG and summoning a Blazing Barrier.\nFiery Collapse can be triggered once every 1s.\n\nExcept for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:\n·Absorbs Pyro DMG 250% more effectively.\n·When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\nIf Thoma falls, the effects of Scorching Ooyoroi will be cleared.",
+      "flavorText": "\"I will not forget my initial promise. Let this burning flame protect those I cherish, and may it never be extinguished.\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}",
+          "Fiery Collapse DMG|{param2:P}",
+          "Shield DMG Absorption|{param3:F1P} Max HP+{param4:I}",
+          "Shield Duration|{param5:F1}s",
+          "Scorching Ooyoroi Duration|{param7:F1}s",
+          "CD|{param8:F1}s",
+          "Energy Cost|{param9:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.88,
+            0.946,
+            1.012,
+            1.1,
+            1.166,
+            1.232,
+            1.32,
+            1.408,
+            1.496,
+            1.584,
+            1.672,
+            1.76,
+            1.87,
+            1.98,
+            2.09
+          ],
+          "param2": [
+            0.58,
+            0.6235,
+            0.667,
+            0.725,
+            0.7685,
+            0.812,
+            0.87,
+            0.928,
+            0.986,
+            1.044,
+            1.102,
+            1.16,
+            1.2325,
+            1.305,
+            1.3775
+          ],
+          "param3": [
+            0.01144,
+            0.012298,
+            0.013156,
+            0.0143,
+            0.015158,
+            0.016016,
+            0.01716,
+            0.018304,
+            0.019448,
+            0.020592,
+            0.021736,
+            0.02288,
+            0.02431,
+            0.02574,
+            0.02717
+          ],
+          "param4": [
+            110.03398,
+            121.03891,
+            132.96092,
+            145.8,
+            159.55617,
+            174.2294,
+            189.81972,
+            206.3271,
+            223.75157,
+            242.09312,
+            261.35175,
+            281.52744,
+            302.6202,
+            324.63007,
+            347.557
+          ],
+          "param5": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "param6": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "param7": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param8": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param9": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Imbricated Armor",
+      "descriptionRaw": "When your current active character obtains or refreshes a <color=#FFD780FF>Blazing Barrier</color>, this character's Shield Strength will increase by 5% for 6s.\nThis effect can be triggered once every 0.3s seconds. Max 5 stacks.",
+      "description": "When your current active character obtains or refreshes a Blazing Barrier, this character's Shield Strength will increase by 5% for 6s.\nThis effect can be triggered once every 0.3s seconds. Max 5 stacks."
+    },
+    "passive2": {
+      "name": "Flaming Assault",
+      "descriptionRaw": "DMG dealt by <color=#FFD780FF>Crimson Ooyoroi</color>'s Fiery Collapse is increased by 2.2% of Thoma's Max HP.",
+      "description": "DMG dealt by Crimson Ooyoroi's Fiery Collapse is increased by 2.2% of Thoma's Max HP."
+    },
+    "passive3": {
+      "name": "Snap and Swing",
+      "descriptionRaw": "When you <color=#FFD780FF>fish</color> successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch.",
+      "description": "When you fish successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104320,
+          "name": "Teachings of Transience",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 2
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 4
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 6
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 9
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 4
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 4
+        },
+        {
+          "id": 113026,
+          "name": "Hellfire Butterfly",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 6
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 6
+        },
+        {
+          "id": 113026,
+          "name": "Hellfire Butterfly",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 12
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 9
+        },
+        {
+          "id": 113026,
+          "name": "Hellfire Butterfly",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 16
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        },
+        {
+          "id": 113026,
+          "name": "Hellfire Butterfly",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_03",
+      "filename_combat2": "Skill_S_Tohma_01",
+      "filename_combat3": "Skill_E_Tohma_01_HD",
+      "filename_passive1": "UI_Talent_S_Tohma_05",
+      "filename_passive2": "UI_Talent_S_Tohma_06",
+      "filename_passive3": "UI_Talent_S_Tohma_07"
+    },
+    "version": "2.2"
+  },
+  "constellation": {
+    "id": 5001,
+    "name": "Thoma",
+    "c1": {
+      "name": "A Comrade's Duty",
+      "descriptionRaw": "When a character protected by Thoma's own <color=#FFD780FF>Blazing Barrier</color> (Thoma excluded) is attacked, Thoma's own <color=#FFD780FF>Blazing Blessing</color> CD is decreased by 3s, while his own <color=#FFD780FF>Crimson Ooyoroi</color>'s CD is decreased by 3s.\nThis effect can be triggered once every 20s.",
+      "description": "When a character protected by Thoma's own Blazing Barrier (Thoma excluded) is attacked, Thoma's own Blazing Blessing CD is decreased by 3s, while his own Crimson Ooyoroi's CD is decreased by 3s.\nThis effect can be triggered once every 20s."
+    },
+    "c2": {
+      "name": "A Subordinate's Skills",
+      "descriptionRaw": "<color=#FFD780FF>Crimson Ooyoroi</color>'s duration is increased by 3s.",
+      "description": "Crimson Ooyoroi's duration is increased by 3s."
+    },
+    "c3": {
+      "name": "Fortified Resolve",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Blazing Blessing</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Blazing Blessing by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Long-Term Planning",
+      "descriptionRaw": "After using <color=#FFD780FF>Crimson Ooyoroi</color>, 15 Energy will be restored to Thoma.",
+      "description": "After using Crimson Ooyoroi, 15 Energy will be restored to Thoma."
+    },
+    "c5": {
+      "name": "Raging Wildfire",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Crimson Ooyoroi</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Crimson Ooyoroi by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Burning Heart",
+      "descriptionRaw": "When a <color=#FFD780FF>Blazing Barrier</color> is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
+      "description": "When a Blazing Barrier is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Tohma_01",
+      "filename_c2": "UI_Talent_S_Tohma_02",
+      "filename_c3": "UI_Talent_U_Tohma_01",
+      "filename_c4": "UI_Talent_S_Tohma_03",
+      "filename_c5": "UI_Talent_U_Tohma_02",
+      "filename_c6": "UI_Talent_S_Tohma_04",
+      "filename_constellation": "Eff_UI_Talent_Tohma"
+    },
+    "version": "2.2"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 866.2015,
+      "attack": 16.9176,
+      "defense": 62.9475,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 938.0962245,
+      "attack": 18.3217608,
+      "defense": 68.17214249999999,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1009.1247475,
+      "attack": 19.709004,
+      "defense": 73.3338375,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1081.019472,
+      "attack": 21.1131648,
+      "defense": 78.55848,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1152.0479950000001,
+      "attack": 22.500408,
+      "defense": 83.720175,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1223.9427195,
+      "attack": 23.9045688,
+      "defense": 88.9448175,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1294.9712425,
+      "attack": 25.291812000000004,
+      "defense": 94.10651250000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1366.8659670000002,
+      "attack": 26.6959728,
+      "defense": 99.331155,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1438.7606915000001,
+      "attack": 28.1001336,
+      "defense": 104.5557975,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1509.7892145,
+      "attack": 29.487376800000003,
+      "defense": 109.7174925,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1581.683939,
+      "attack": 30.891537600000003,
+      "defense": 114.94213500000001,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1652.712462,
+      "attack": 32.2787808,
+      "defense": 120.10382999999999,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1724.6071865000001,
+      "attack": 33.6829416,
+      "defense": 125.3284725,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1795.6357095,
+      "attack": 35.0701848,
+      "defense": 130.49016749999998,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1867.5304340000002,
+      "attack": 36.4743456,
+      "defense": 135.71481,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1939.4251585,
+      "attack": 37.8785064,
+      "defense": 140.9394525,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2010.4536815000001,
+      "attack": 39.26574960000001,
+      "defense": 146.1011475,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2082.348406,
+      "attack": 40.6699104,
+      "defense": 151.32578999999998,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2153.376929,
+      "attack": 42.05715360000001,
+      "defense": 156.48748500000002,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2225.2716535,
+      "attack": 43.4613144,
+      "defense": 161.71212749999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2943.3969765,
+      "attack": 57.4871676,
+      "defense": 213.8988225,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3015.291701,
+      "attack": 58.8913284,
+      "defense": 219.123465,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3087.1864255,
+      "attack": 60.295489200000006,
+      "defense": 224.3481075,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3158.2149485,
+      "attack": 61.6827324,
+      "defense": 229.5098025,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3230.109673,
+      "attack": 63.086893200000006,
+      "defense": 234.73444500000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3301.138196,
+      "attack": 64.47413639999999,
+      "defense": 239.89614,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3373.0329205,
+      "attack": 65.87829719999999,
+      "defense": 245.1207825,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3444.0614434999998,
+      "attack": 67.26554039999999,
+      "defense": 250.2824775,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3515.9561679999997,
+      "attack": 68.66970119999999,
+      "defense": 255.50712,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3586.9846910000006,
+      "attack": 70.0569444,
+      "defense": 260.668815,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3658.8794154999996,
+      "attack": 71.46110519999999,
+      "defense": 265.89345749999995,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3730.7741400000004,
+      "attack": 72.86526599999999,
+      "defense": 271.11809999999997,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3801.8026630000004,
+      "attack": 74.25250919999999,
+      "defense": 276.279795,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3873.6973875000003,
+      "attack": 75.65667,
+      "defense": 281.5044375,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3944.7259105000003,
+      "attack": 77.0439132,
+      "defense": 286.6661325,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4016.620635,
+      "attack": 78.448074,
+      "defense": 291.890775,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4087.649158,
+      "attack": 79.8353172,
+      "defense": 297.05246999999997,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4159.5438825,
+      "attack": 81.23947799999999,
+      "defense": 302.2771125,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4231.438607,
+      "attack": 82.6436388,
+      "defense": 307.50175499999995,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4302.46713,
+      "attack": 84.03088199999999,
+      "defense": 312.66344999999995,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4834.1412545,
+      "attack": 94.4151078,
+      "defense": 351.3005925,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4905.1697775,
+      "attack": 95.80235099999999,
+      "defense": 356.4622875,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4977.064502,
+      "attack": 97.2065118,
+      "defense": 361.68692999999996,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5048.093025,
+      "attack": 98.59375499999999,
+      "defense": 366.84862499999997,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5119.9877495,
+      "attack": 99.9979158,
+      "defense": 372.0732675,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5191.882474,
+      "attack": 101.4020766,
+      "defense": 377.29791,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5262.910997,
+      "attack": 102.7893198,
+      "defense": 382.459605,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5334.8057215,
+      "attack": 104.1934806,
+      "defense": 387.6842475,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5405.8342445,
+      "attack": 105.5807238,
+      "defense": 392.8459425,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5477.728969,
+      "attack": 106.9848846,
+      "defense": 398.070585,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6161.796592,
+      "attack": 120.34554680000001,
+      "defense": 447.78228,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6233.6913165,
+      "attack": 121.74970760000001,
+      "defense": 453.00692250000003,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6305.586041,
+      "attack": 123.1538684,
+      "defense": 458.231565,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6376.614564,
+      "attack": 124.54111160000001,
+      "defense": 463.39326,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6448.5092884999995,
+      "attack": 125.9452724,
+      "defense": 468.61790249999996,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6519.5378115,
+      "attack": 127.33251560000001,
+      "defense": 473.7795975,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6591.432535999999,
+      "attack": 128.7366764,
+      "defense": 479.00424,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6662.461059,
+      "attack": 130.12391960000002,
+      "defense": 484.16593500000005,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6734.355783499999,
+      "attack": 131.5280804,
+      "defense": 489.3905775,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6806.250507999999,
+      "attack": 132.93224120000002,
+      "defense": 494.61521999999997,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7337.058330999999,
+      "attack": 143.2995504,
+      "defense": 533.1894149999999,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7408.9530555,
+      "attack": 144.7037112,
+      "defense": 538.4140575,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7479.9815785,
+      "attack": 146.0909544,
+      "defense": 543.5757525,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7551.876303,
+      "attack": 147.4951152,
+      "defense": 548.800395,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7622.904826,
+      "attack": 148.8823584,
+      "defense": 553.96209,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7694.7995505,
+      "attack": 150.2865192,
+      "defense": 559.1867325,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7766.694275,
+      "attack": 151.69068,
+      "defense": 564.411375,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7837.722798,
+      "attack": 153.0779232,
+      "defense": 569.57307,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7909.6175225,
+      "attack": 154.482084,
+      "defense": 574.7977125,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7980.6460455,
+      "attack": 155.8693272,
+      "defense": 579.9594075,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8512.320070000002,
+      "attack": 166.25355100000002,
+      "defense": 618.59655,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8583.348592999999,
+      "attack": 167.64079420000002,
+      "defense": 623.758245,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8655.2433175,
+      "attack": 169.04495500000002,
+      "defense": 628.9828875000001,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8727.138041999999,
+      "attack": 170.4491158,
+      "defense": 634.2075299999999,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8798.166565,
+      "attack": 171.83635900000002,
+      "defense": 639.369225,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8870.0612895,
+      "attack": 173.2405198,
+      "defense": 644.5938675,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8941.0898125,
+      "attack": 174.62776300000002,
+      "defense": 649.7555625,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9012.984537,
+      "attack": 176.0319238,
+      "defense": 654.980205,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 9084.013060000001,
+      "attack": 177.41916700000002,
+      "defense": 660.1419000000001,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9155.9077845,
+      "attack": 178.8233278,
+      "defense": 665.3665424999999,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9687.581809,
+      "attack": 189.20755559999998,
+      "defense": 704.003685,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9758.610332,
+      "attack": 190.59479879999998,
+      "defense": 709.1653799999999,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9830.5050565,
+      "attack": 191.99895959999998,
+      "defense": 714.3900225,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9901.5335795,
+      "attack": 193.38620279999998,
+      "defense": 719.5517175,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9973.428304000001,
+      "attack": 194.79036359999998,
+      "defense": 724.77636,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 10044.456827000002,
+      "attack": 196.17760680000004,
+      "defense": 729.9380550000001,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10116.3515515,
+      "attack": 197.58176760000003,
+      "defense": 735.1626975,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 10187.3800745,
+      "attack": 198.96901079999998,
+      "defense": 740.3243925,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 10259.274798999999,
+      "attack": 200.37317159999998,
+      "defense": 745.549035,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 10331.1695235,
+      "attack": 201.77733240000003,
+      "defense": 750.7736775,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2872.3684535,
+      "attack": 56.0999244,
+      "defense": 208.73712749999999,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4762.246529999999,
+      "attack": 93.01094699999999,
+      "defense": 346.07595,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6090.768069,
+      "attack": 118.95830360000001,
+      "defense": 442.620585,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7266.029807999999,
+      "attack": 141.9123072,
+      "defense": 528.0277199999999,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8440.4253455,
+      "attack": 164.84939020000002,
+      "defense": 613.3719074999999,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9615.687084500001,
+      "attack": 187.80339479999998,
+      "defense": 698.7790425,
+      "specialized": 0.24
+    }
+  }
+}

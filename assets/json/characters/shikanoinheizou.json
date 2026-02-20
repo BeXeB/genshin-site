@@ -1,0 +1,1635 @@
+{
+  "profile": {
+    "id": 10000059,
+    "name": "Shikanoin Heizou",
+    "title": "Analytical Harmony",
+    "description": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "7/24",
+    "birthday": "July 24",
+    "elementType": "ELEMENT_ANEMO",
+    "elementText": "Anemo",
+    "affiliation": "Tenryou Commission",
+    "associationType": "ASSOC_INAZUMA",
+    "region": "Inazuma",
+    "substatType": "FIGHT_PROP_WIND_ADD_HURT",
+    "substatText": "Anemo DMG Bonus",
+    "constellation": "Cervus Minor",
+    "cv": {
+      "english": "Kieran Regan",
+      "chinese": "林景",
+      "japanese": "井口祐一",
+      "korean": "Jung Eui-jin"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104151,
+          "name": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": 113035,
+          "name": "Runic Fang",
+          "count": 2
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 10
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": 113035,
+          "name": "Runic Fang",
+          "count": 4
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 20
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": 113035,
+          "name": "Runic Fang",
+          "count": 8
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 30
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": 113035,
+          "name": "Runic Fang",
+          "count": 12
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 45
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104154,
+          "name": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113035,
+          "name": "Runic Fang",
+          "count": 20
+        },
+        {
+          "id": 101201,
+          "name": "Onikabuto",
+          "count": 60
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/07/c20ab407d9316480290f7c690836f35c_2106028234032197103.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/07/ec07d3511f0ebe503e83ef645acc333c_2276094340014227662.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/3669a189c4a2b374ee0730a8ae112704.png",
+      "filename_icon": "UI_AvatarIcon_Heizo",
+      "filename_iconCard": "UI_AvatarIcon_Heizo_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Heizo",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Heizo",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Heizo",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Heizo.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Shikanoin Heizou_icon.png"
+    },
+    "version": "2.8"
+  },
+  "skills": {
+    "id": 5901,
+    "name": "Shikanoin Heizou",
+    "combat1": {
+      "name": "Fudou Style Martial Arts",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 fisticuffs empowered by a mighty wind, dealing <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina and performs a sweeping kick that deals <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nCalling upon the surging wind, Heizou plunges towards the ground from mid-air, damaging all opponents in his path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nPerforms up to 5 fisticuffs empowered by a mighty wind, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina and performs a sweeping kick that deals Anemo DMG.\n\nPlunging Attack\nCalling upon the surging wind, Heizou plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Anemo DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}+{param5:F1P}+{param6:F1P}",
+          "5-Hit DMG|{param7:F1P}",
+          "Charged Attack|{param8:F1P}",
+          "Charged Attack Stamina Cost|{param9:F1}",
+          "Plunge DMG|{param10:F1P}",
+          "Low/High Plunge DMG|{param11:P}/{param12:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.374736,
+            0.402841,
+            0.430946,
+            0.46842,
+            0.496525,
+            0.52463,
+            0.562104,
+            0.599578,
+            0.637051,
+            0.674525,
+            0.711998,
+            0.749472,
+            0.796314,
+            0.843156,
+            0.889998
+          ],
+          "param2": [
+            0.36852,
+            0.396159,
+            0.423798,
+            0.46065,
+            0.488289,
+            0.515928,
+            0.55278,
+            0.589632,
+            0.626484,
+            0.663336,
+            0.700188,
+            0.73704,
+            0.783105,
+            0.82917,
+            0.875235
+          ],
+          "param3": [
+            0.5106,
+            0.548895,
+            0.58719,
+            0.63825,
+            0.676545,
+            0.71484,
+            0.7659,
+            0.81696,
+            0.86802,
+            0.91908,
+            0.97014,
+            1.0212,
+            1.085025,
+            1.14885,
+            1.212675
+          ],
+          "param4": [
+            0.147824,
+            0.158911,
+            0.169998,
+            0.18478,
+            0.195867,
+            0.206954,
+            0.221736,
+            0.236518,
+            0.251301,
+            0.266083,
+            0.280866,
+            0.295648,
+            0.314126,
+            0.332604,
+            0.351082
+          ],
+          "param5": [
+            0.162608,
+            0.174804,
+            0.186999,
+            0.20326,
+            0.215456,
+            0.227651,
+            0.243912,
+            0.260173,
+            0.276434,
+            0.292694,
+            0.308955,
+            0.325216,
+            0.345542,
+            0.365868,
+            0.386194
+          ],
+          "param6": [
+            0.192176,
+            0.206589,
+            0.221002,
+            0.24022,
+            0.254633,
+            0.269046,
+            0.288264,
+            0.307482,
+            0.326699,
+            0.345917,
+            0.365134,
+            0.384352,
+            0.408374,
+            0.432396,
+            0.456418
+          ],
+          "param7": [
+            0.614496,
+            0.660583,
+            0.70667,
+            0.76812,
+            0.814207,
+            0.860294,
+            0.921744,
+            0.983194,
+            1.044643,
+            1.106093,
+            1.167542,
+            1.228992,
+            1.305804,
+            1.382616,
+            1.459428
+          ],
+          "param8": [
+            0.73,
+            0.78475,
+            0.8395,
+            0.9125,
+            0.96725,
+            1.022,
+            1.095,
+            1.168,
+            1.241,
+            1.314,
+            1.387,
+            1.46,
+            1.55125,
+            1.6425,
+            1.73375
+          ],
+          "param9": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param10": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param11": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param12": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Heartstopper Strike",
+      "descriptionRaw": "<color=#FFD780FF>Tap</color>\nWields the swift winds to launch a Heartstopper Strike that deals <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nCharges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill finishes charging, he will strike forward, dealing <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Declension</color>\nIncreases the power of the next Heartstopper Strike. Max 4 stacks.\nWhen you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Heartstopper Strike to be even stronger and have a larger AoE.\n\n<i>This seemingly ordinary strike contains Heizou's desire for criminals to honestly confess and repent.</i>",
+      "description": "Tap\nWields the swift winds to launch a Heartstopper Strike that deals Anemo DMG.\n\nHold\nCharges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill finishes charging, he will strike forward, dealing Anemo DMG.\n\nDeclension\nIncreases the power of the next Heartstopper Strike. Max 4 stacks.\nWhen you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Heartstopper Strike to be even stronger and have a larger AoE.",
+      "flavorText": "This seemingly ordinary strike contains Heizou's desire for criminals to honestly confess and repent.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Declension DMG Bonus|{param2:F1P}/stack",
+          "Conviction DMG Bonus|{param3:F1P}",
+          "Declension Duration|{param5:F1}s",
+          "CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            2.2752,
+            2.44584,
+            2.61648,
+            2.844,
+            3.01464,
+            3.18528,
+            3.4128,
+            3.64032,
+            3.86784,
+            4.09536,
+            4.32288,
+            4.5504,
+            4.8348,
+            5.1192,
+            5.4036
+          ],
+          "param2": [
+            0.5688,
+            0.61146,
+            0.65412,
+            0.711,
+            0.75366,
+            0.79632,
+            0.8532,
+            0.91008,
+            0.96696,
+            1.02384,
+            1.08072,
+            1.1376,
+            1.2087,
+            1.2798,
+            1.3509
+          ],
+          "param3": [
+            1.1376,
+            1.22292,
+            1.30824,
+            1.422,
+            1.50732,
+            1.59264,
+            1.7064,
+            1.82016,
+            1.93392,
+            2.04768,
+            2.16144,
+            2.2752,
+            2.4174,
+            2.5596,
+            2.7018
+          ],
+          "param4": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "param5": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Windmuster Kick",
+      "descriptionRaw": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon hit and create an Arresting Windtunnel that pulls in nearby objects and opponents, dealing <color=#80FFD7FF>AoE Anemo DMG</color>.\nWhen Vacuum Slugger hits opponents affected by <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, these opponents will be afflicted with Windmuster Iris. This Windmuster Iris will explode after a moment and dissipate, dealing AoE DMG of the corresponding aforementioned elemental type.\nVacuum Slugger can afflict a maximum of 4 opponents with the Windmuster Iris. A single opponent cannot be under the effect of Windmuster Irises of different elements at the same time.\n\n<i>A unique technique that gathers Anemo in one place before unleashing it all in one kick. Is always there in a pinch to land on some criminal's fleeing back.</i>",
+      "description": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon hit and create an Arresting Windtunnel that pulls in nearby objects and opponents, dealing AoE Anemo DMG.\nWhen Vacuum Slugger hits opponents affected by Hydro/Pyro/Cryo/Electro, these opponents will be afflicted with Windmuster Iris. This Windmuster Iris will explode after a moment and dissipate, dealing AoE DMG of the corresponding aforementioned elemental type.\nVacuum Slugger can afflict a maximum of 4 opponents with the Windmuster Iris. A single opponent cannot be under the effect of Windmuster Irises of different elements at the same time.",
+      "flavorText": "A unique technique that gathers Anemo in one place before unleashing it all in one kick. Is always there in a pinch to land on some criminal's fleeing back.",
+      "attributes": {
+        "labels": [
+          "Fudou Style Vacuum Slugger DMG|{param1:F1P}",
+          "Windmuster Iris DMG|{param2:F1P}",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            3.14688,
+            3.382896,
+            3.618912,
+            3.9336,
+            4.169616,
+            4.405632,
+            4.72032,
+            5.035008,
+            5.349696,
+            5.664384,
+            5.979072,
+            6.29376,
+            6.68712,
+            7.08048,
+            7.47384
+          ],
+          "param2": [
+            0.21456,
+            0.230652,
+            0.246744,
+            0.2682,
+            0.284292,
+            0.300384,
+            0.32184,
+            0.343296,
+            0.364752,
+            0.386208,
+            0.407664,
+            0.42912,
+            0.45594,
+            0.48276,
+            0.50958
+          ],
+          "param3": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param4": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Paradoxical Practice",
+      "descriptionRaw": "When Shikanoin Heizou activates a Swirl reaction while on the field, he will gain 1 Declension stack for <color=#FFD780FF>Heartstopper Strike</color>. This effect can be triggered once every 0.1s.",
+      "description": "When Shikanoin Heizou activates a Swirl reaction while on the field, he will gain 1 Declension stack for Heartstopper Strike. This effect can be triggered once every 0.1s."
+    },
+    "passive2": {
+      "name": "Penetrative Reasoning",
+      "descriptionRaw": "After Shikanoin Heizou's <color=#FFD780FF>Heartstopper Strike</color> hits an opponent, increases all party members' (excluding Shikanoin Heizou) Elemental Mastery by 80 for 10s.",
+      "description": "After Shikanoin Heizou's Heartstopper Strike hits an opponent, increases all party members' (excluding Shikanoin Heizou) Elemental Mastery by 80 for 10s."
+    },
+    "passive3": {
+      "name": "Pre-Existing Guilt",
+      "descriptionRaw": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104320,
+          "name": "Teachings of Transience",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 2
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 4
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 6
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104321,
+          "name": "Guide to Transience",
+          "count": 9
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 4
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 4
+        },
+        {
+          "id": 113034,
+          "name": "The Meaning of Aeons",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 6
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 6
+        },
+        {
+          "id": 113034,
+          "name": "The Meaning of Aeons",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 12
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 9
+        },
+        {
+          "id": 113034,
+          "name": "The Meaning of Aeons",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104322,
+          "name": "Philosophies of Transience",
+          "count": 16
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        },
+        {
+          "id": 113034,
+          "name": "The Meaning of Aeons",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Heizo_01",
+      "filename_combat3": "Skill_E_Heizo_01_HD",
+      "filename_passive1": "UI_Talent_S_Heizo_05",
+      "filename_passive2": "UI_Talent_S_Heizo_06",
+      "filename_passive3": "UI_Talent_Explosion_Sprint"
+    },
+    "version": "2.8"
+  },
+  "constellation": {
+    "id": 5901,
+    "name": "Shikanoin Heizou",
+    "c1": {
+      "name": "Named Juvenile Casebook",
+      "descriptionRaw": "For 5s after Shikanoin Heizou takes the field, his Normal Attack SPD is increased by 15%. He also gains 1 Declension stack for <color=#FFD780FF>Heartstopper Strike</color>. This effect can be triggered once every 10s.",
+      "description": "For 5s after Shikanoin Heizou takes the field, his Normal Attack SPD is increased by 15%. He also gains 1 Declension stack for Heartstopper Strike. This effect can be triggered once every 10s."
+    },
+    "c2": {
+      "name": "Investigative Collection",
+      "descriptionRaw": "The pull effect of the Arresting Windtunnel created by <color=#FFD780FF>Windmuster Kick</color> is enhanced, and its duration is increased to 1s.",
+      "description": "The pull effect of the Arresting Windtunnel created by Windmuster Kick is enhanced, and its duration is increased to 1s."
+    },
+    "c3": {
+      "name": "Esoteric Puzzle Book",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Heartstopper Strike</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Heartstopper Strike by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Tome of Lies",
+      "descriptionRaw": "The first Windmuster Iris explosion in each <color=#FFD780FF>Windmuster Kick</color> will regenerate 9 Elemental Energy for Shikanoin Heizou. Every subsequent explosion in that Windmuster Kick will each regenerate an additional 1.5 Energy for Heizou.\nOne <color=#FFD780FF>Windmuster Kick</color> can regenerate a total of 13.5 Energy for Heizou in this manner.",
+      "description": "The first Windmuster Iris explosion in each Windmuster Kick will regenerate 9 Elemental Energy for Shikanoin Heizou. Every subsequent explosion in that Windmuster Kick will each regenerate an additional 1.5 Energy for Heizou.\nOne Windmuster Kick can regenerate a total of 13.5 Energy for Heizou in this manner."
+    },
+    "c5": {
+      "name": "Secret Archive",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Windmuster Kick</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Windmuster Kick by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Curious Casefiles",
+      "descriptionRaw": "Each Declension stack will increase the CRIT Rate of the <color=#FFD780FF>Heartstopper Strike</color> unleashed by 4%. When Heizou possesses Conviction, this Heartstopper Strike's CRIT DMG is increased by 32%.",
+      "description": "Each Declension stack will increase the CRIT Rate of the Heartstopper Strike unleashed by 4%. When Heizou possesses Conviction, this Heartstopper Strike's CRIT DMG is increased by 32%."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Heizo_01",
+      "filename_c2": "UI_Talent_S_Heizo_02",
+      "filename_c3": "UI_Talent_U_Heizo_01",
+      "filename_c4": "UI_Talent_S_Heizo_03",
+      "filename_c5": "UI_Talent_U_Heizo_02",
+      "filename_c6": "UI_Talent_S_Heizo_04",
+      "filename_constellation": "Eff_UI_Talent_Heizo"
+    },
+    "version": "2.8"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 893.5552,
+      "attack": 18.87648,
+      "defense": 57.33945,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 967.7202816,
+      "attack": 20.44322784,
+      "defense": 62.098624349999994,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1040.991808,
+      "attack": 21.9910992,
+      "defense": 66.80045925,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1115.1568896,
+      "attack": 23.557847040000002,
+      "defense": 71.5596336,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1188.428416,
+      "attack": 25.1057184,
+      "defense": 76.2614685,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1262.5934976,
+      "attack": 26.672466240000002,
+      "defense": 81.02064285,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1335.8650240000002,
+      "attack": 28.220337600000004,
+      "defense": 85.72247775000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1410.0301056,
+      "attack": 29.787085440000002,
+      "defense": 90.4816521,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1484.1951872,
+      "attack": 31.353833280000003,
+      "defense": 95.24082645,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1557.4667136,
+      "attack": 32.901704640000005,
+      "defense": 99.94266135000001,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1631.6317952000002,
+      "attack": 34.46845248,
+      "defense": 104.7018357,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1704.9033216,
+      "attack": 36.01632384,
+      "defense": 109.4036706,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1779.0684032000001,
+      "attack": 37.58307168,
+      "defense": 114.16284495000001,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1852.3399296,
+      "attack": 39.13094304,
+      "defense": 118.86467985,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1926.5050112000001,
+      "attack": 40.69769088,
+      "defense": 123.62385420000001,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2000.6700928,
+      "attack": 42.26443872,
+      "defense": 128.38302854999998,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2073.9416192000003,
+      "attack": 43.81231008,
+      "defense": 133.08486345,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2148.1067008,
+      "attack": 45.37905792,
+      "defense": 137.8440378,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2221.3782272000003,
+      "attack": 46.92692928,
+      "defense": 142.54587270000002,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2295.5433088,
+      "attack": 48.49367712,
+      "defense": 147.30504704999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3036.3463352,
+      "attack": 64.14357648,
+      "defense": 194.84238194999998,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3110.5114168,
+      "attack": 65.71032432,
+      "defense": 199.6015563,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3184.6764984,
+      "attack": 67.27707216,
+      "defense": 204.36073065,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3257.9480248,
+      "attack": 68.82494352,
+      "defense": 209.06256555,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3332.1131064,
+      "attack": 70.39169136000001,
+      "defense": 213.8217399,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3405.3846328,
+      "attack": 71.93956272,
+      "defense": 218.5235748,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3479.5497144,
+      "attack": 73.50631056,
+      "defense": 223.28274914999997,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3552.8212408000004,
+      "attack": 75.05418192,
+      "defense": 227.98458405,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3626.9863224,
+      "attack": 76.62092976,
+      "defense": 232.7437584,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3700.2578488000004,
+      "attack": 78.16880112000001,
+      "defense": 237.4455933,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3774.4229304,
+      "attack": 79.73554896,
+      "defense": 242.20476764999998,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3848.588012,
+      "attack": 81.30229680000001,
+      "defense": 246.963942,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3921.8595384,
+      "attack": 82.85016816000001,
+      "defense": 251.6657769,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3996.02462,
+      "attack": 84.41691600000001,
+      "defense": 256.42495125,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4069.2961464,
+      "attack": 85.96478736,
+      "defense": 261.12678615,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4143.461228,
+      "attack": 87.53153520000001,
+      "defense": 265.8859605,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4216.7327544,
+      "attack": 89.07940656000001,
+      "defense": 270.5877954,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4290.897836,
+      "attack": 90.6461544,
+      "defense": 275.34696974999997,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4365.0629176,
+      "attack": 92.21290224,
+      "defense": 280.1061441,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4438.334444,
+      "attack": 93.76077360000001,
+      "defense": 284.807979,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4986.7982256000005,
+      "attack": 105.34738344000002,
+      "defense": 320.00290335,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5060.069752,
+      "attack": 106.8952548,
+      "defense": 324.70473825,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5134.2348336000005,
+      "attack": 108.46200264000001,
+      "defense": 329.4639126,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5207.50636,
+      "attack": 110.009874,
+      "defense": 334.1657475,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5281.6714416,
+      "attack": 111.57662184,
+      "defense": 338.92492185000003,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5355.836523200001,
+      "attack": 113.14336968,
+      "defense": 343.6840962,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5429.1080496,
+      "attack": 114.69124104,
+      "defense": 348.3859311,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5503.2731312000005,
+      "attack": 116.25798888,
+      "defense": 353.14510545,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5576.5446576,
+      "attack": 117.80586024000002,
+      "defense": 357.84694035,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5650.7097392000005,
+      "attack": 119.37260808000002,
+      "defense": 362.60611470000003,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6356.3794656,
+      "attack": 134.28029444,
+      "defense": 407.88894960000005,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6430.5445472,
+      "attack": 135.84704228,
+      "defense": 412.64812395,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6504.709628799999,
+      "attack": 137.41379012,
+      "defense": 417.4072983,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6577.9811552,
+      "attack": 138.96166148,
+      "defense": 422.1091332,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6652.146236799999,
+      "attack": 140.52840932,
+      "defense": 426.86830754999994,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6725.4177632,
+      "attack": 142.07628068,
+      "defense": 431.57014245000005,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6799.582844799999,
+      "attack": 143.64302852,
+      "defense": 436.3293168,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6872.8543712,
+      "attack": 145.19089988000002,
+      "defense": 441.0311517,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6947.0194528,
+      "attack": 146.75764772,
+      "defense": 445.79032605,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7021.1845344,
+      "attack": 148.32439556,
+      "defense": 450.54950039999994,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7568.7546608,
+      "attack": 159.89212992,
+      "defense": 485.6870853,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7642.9197424,
+      "attack": 161.45887776,
+      "defense": 490.44625965,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7716.1912688,
+      "attack": 163.00674912,
+      "defense": 495.14809455,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7790.3563504,
+      "attack": 164.57349696,
+      "defense": 499.9072689,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7863.6278768,
+      "attack": 166.12136832,
+      "defense": 504.6091038,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7937.7929584,
+      "attack": 167.68811616,
+      "defense": 509.36827815,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8011.95804,
+      "attack": 169.254864,
+      "defense": 514.1274525,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 8085.2295664,
+      "attack": 170.80273536,
+      "defense": 518.8292874,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 8159.394648,
+      "attack": 172.36948320000002,
+      "defense": 523.5884617500001,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 8232.666174400001,
+      "attack": 173.91735456,
+      "defense": 528.2902966500001,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8781.129956,
+      "attack": 185.5039644,
+      "defense": 563.485221,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8854.4014824,
+      "attack": 187.05183576000002,
+      "defense": 568.1870559,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8928.566564,
+      "attack": 188.61858360000002,
+      "defense": 572.94623025,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 9002.731645599999,
+      "attack": 190.18533144,
+      "defense": 577.7054046,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 9076.003172,
+      "attack": 191.73320280000002,
+      "defense": 582.4072395000001,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 9150.168253599999,
+      "attack": 193.29995064000002,
+      "defense": 587.16641385,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 9223.43978,
+      "attack": 194.847822,
+      "defense": 591.86824875,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9297.604861599999,
+      "attack": 196.41456984,
+      "defense": 596.6274231,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 9370.876388,
+      "attack": 197.96244120000003,
+      "defense": 601.329258,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9445.041469599999,
+      "attack": 199.52918904,
+      "defense": 606.08843235,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9993.5053512,
+      "attack": 211.11579688,
+      "defense": 641.2833567,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 10066.7768776,
+      "attack": 212.66366824,
+      "defense": 645.9851916,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 10140.9419592,
+      "attack": 214.23041608,
+      "defense": 650.74436595,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 10214.213485600001,
+      "attack": 215.77828744,
+      "defense": 655.44620085,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 10288.378567200001,
+      "attack": 217.34503528000002,
+      "defense": 660.2053752,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 10361.650093600001,
+      "attack": 218.89290664000004,
+      "defense": 664.9072101,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10435.815175200001,
+      "attack": 220.45965448000004,
+      "defense": 669.66638445,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 10509.086701600001,
+      "attack": 222.00752584,
+      "defense": 674.36821935,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 10583.251783200001,
+      "attack": 223.57427368,
+      "defense": 679.1273937,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 10657.416864800001,
+      "attack": 225.14102152,
+      "defense": 683.88656805,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2963.0748088,
+      "attack": 62.595705120000005,
+      "defense": 190.14054704999998,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4912.633144,
+      "attack": 103.78063560000001,
+      "defense": 315.243729,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6283.1079392,
+      "attack": 132.73242308000002,
+      "defense": 403.18711470000005,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7495.4831344,
+      "attack": 158.34425856000001,
+      "defense": 480.9852504,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8706.9648744,
+      "attack": 183.93721656,
+      "defense": 558.72604665,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9919.3402696,
+      "attack": 209.54904904,
+      "defense": 636.5241823499999,
+      "specialized": 0.24
+    }
+  }
+}

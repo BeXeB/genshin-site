@@ -1,0 +1,1515 @@
+{
+  "profile": {
+    "id": 10000027,
+    "name": "Ningguang",
+    "title": "Eclipsing Star",
+    "description": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "bodyType": "BODY_LADY",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "8/26",
+    "birthday": "August 26",
+    "elementType": "ELEMENT_GEO",
+    "elementText": "Geo",
+    "affiliation": "Liyue Qixing",
+    "associationType": "ASSOC_LIYUE",
+    "region": "Liyue",
+    "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
+    "substatText": "Geo DMG Bonus",
+    "constellation": "Opus Aequilibrium",
+    "cv": {
+      "english": "Erin Ebers",
+      "chinese": "杜冥鸦",
+      "japanese": "大原さやか",
+      "korean": "Kwak Kyu-mi"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104171,
+          "name": "Prithiva Topaz Sliver",
+          "count": 1
+        },
+        {
+          "id": 100030,
+          "name": "Glaze Lily",
+          "count": 3
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 3
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 2
+        },
+        {
+          "id": 100030,
+          "name": "Glaze Lily",
+          "count": 10
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 6
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 4
+        },
+        {
+          "id": 100030,
+          "name": "Glaze Lily",
+          "count": 20
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 3
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 8
+        },
+        {
+          "id": 100030,
+          "name": "Glaze Lily",
+          "count": 30
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 6
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 12
+        },
+        {
+          "id": 100030,
+          "name": "Glaze Lily",
+          "count": 45
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104174,
+          "name": "Prithiva Topaz Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113009,
+          "name": "Basalt Pillar",
+          "count": 20
+        },
+        {
+          "id": 100030,
+          "name": "Glaze Lily",
+          "count": 60
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg/",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Character_Ningguang_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/d35a0a1d13f821fd55a6951210c672ac_1444502949404659074.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200305/2020030519431658285.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/498b811beba3fbeb2549a5b362190d43.png",
+      "filename_icon": "UI_AvatarIcon_Ningguang",
+      "filename_iconCard": "UI_AvatarIcon_Ningguang_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Ningguang",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Ningguang",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ningguang",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ningguang.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Ningguang_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Ningguang"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 2701,
+    "name": "Ningguang",
+    "combat1": {
+      "name": "Sparkling Scatter",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nShoots gems that deal <color=#FFE699FF>Geo DMG</color>.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of stamina to fire off a giant gem that deals <color=#FFE699FF>Geo DMG</color>.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFE699FF>AoE Geo DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nShoots gems that deal Geo DMG.\nUpon hit, this grants Ningguang 1 Star Jade.\n\nCharged Attack\nConsumes a certain amount of stamina to fire off a giant gem that deals Geo DMG.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\nPlunging Attack\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Geo DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "Normal Attack DMG|{param1:F1P}",
+          "Charged Attack DMG|{param2:P}",
+          "DMG per Star Jade|{param3:F1P}",
+          "Charged Attack Stamina Cost|{param4:F1}",
+          "Plunge DMG|{param5:F1P}",
+          "Low/High Plunge DMG|{param6:P}/{param7:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.28,
+            0.301,
+            0.322,
+            0.35,
+            0.371,
+            0.392,
+            0.42,
+            0.448,
+            0.476,
+            0.504,
+            0.53312,
+            0.5712,
+            0.60928,
+            0.64736,
+            0.68544
+          ],
+          "param2": [
+            1.7408,
+            1.87136,
+            2.00192,
+            2.176,
+            2.30656,
+            2.43712,
+            2.6112,
+            2.78528,
+            2.95936,
+            3.13344,
+            3.314483,
+            3.551232,
+            3.787981,
+            4.02473,
+            4.261478
+          ],
+          "param3": [
+            0.496,
+            0.5332,
+            0.5704,
+            0.62,
+            0.6572,
+            0.6944,
+            0.744,
+            0.7936,
+            0.8432,
+            0.8928,
+            0.944384,
+            1.01184,
+            1.079296,
+            1.146752,
+            1.214208
+          ],
+          "param4": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param5": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param6": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param7": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Jade Screen",
+      "descriptionRaw": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing <color=#FFE699FF>AoE Geo DMG</color>.\n\n<color=#FFD780FF>Jade Screen</color>\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a <color=#FFE699FF>Geo Construct</color> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n\n<i>The canvas of stars is written upon this jade screen.</i>",
+      "description": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing AoE Geo DMG.\n\nJade Screen\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.",
+      "flavorText": "The canvas of stars is written upon this jade screen.",
+      "attributes": {
+        "labels": [
+          "Inherited HP|{param3:F1P}",
+          "Skill DMG|{param2:P}",
+          "CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            -0.499,
+            -0.469,
+            -0.439,
+            -0.4,
+            -0.37,
+            -0.34,
+            -0.301,
+            -0.262,
+            -0.223,
+            -0.184,
+            -0.145,
+            -0.106,
+            -0.067,
+            -0.028,
+            0.011
+          ],
+          "param2": [
+            2.304,
+            2.4768,
+            2.6496,
+            2.88,
+            3.0528,
+            3.2256,
+            3.456,
+            3.6864,
+            3.9168,
+            4.1472,
+            4.3776,
+            4.608,
+            4.896,
+            5.184,
+            5.472
+          ],
+          "param3": [
+            0.501,
+            0.531,
+            0.561,
+            0.6,
+            0.63,
+            0.66,
+            0.699,
+            0.738,
+            0.777,
+            0.816,
+            0.855,
+            0.894,
+            0.933,
+            0.972,
+            1.011
+          ],
+          "param4": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Starshatter",
+      "descriptionRaw": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <color=#FFE699FF>Geo DMG</color>.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\n\n<i>Stars shatter. Silence falls.</i>",
+      "description": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive Geo DMG.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.",
+      "flavorText": "Stars shatter. Silence falls.",
+      "attributes": {
+        "labels": [
+          "DMG Per Gem|{param1:F1P}",
+          "CD|{param2:F1}s",
+          "Energy Cost|{param3:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.8696,
+            0.93482,
+            1.00004,
+            1.087,
+            1.15222,
+            1.21744,
+            1.3044,
+            1.39136,
+            1.47832,
+            1.56528,
+            1.65224,
+            1.7392,
+            1.8479,
+            1.9566,
+            2.0653
+          ],
+          "param2": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param3": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Backup Plan",
+      "descriptionRaw": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
+      "description": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina."
+    },
+    "passive2": {
+      "name": "Strategic Reserve",
+      "descriptionRaw": "A character that passes through the <color=#FFD780FF>Jade Screen</color> will gain a 12% <color=#FFE699FF>Geo DMG Bonus</color> for 10s.",
+      "description": "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s."
+    },
+    "passive3": {
+      "name": "Trove of Marvelous Treasures",
+      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>ore veins used in forging</color> on the mini-map.",
+      "description": "Displays the location of nearby ore veins used in forging on the mini-map."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104310,
+          "name": "Teachings of Prosperity",
+          "count": 3
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 2
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 4
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 6
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 9
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 4
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 4
+        },
+        {
+          "id": 113008,
+          "name": "Spirit Locket of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 6
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 6
+        },
+        {
+          "id": 113008,
+          "name": "Spirit Locket of Boreas",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 12
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 9
+        },
+        {
+          "id": 113008,
+          "name": "Spirit Locket of Boreas",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 16
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 12
+        },
+        {
+          "id": 113008,
+          "name": "Spirit Locket of Boreas",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Ningguang_01",
+      "filename_combat3": "Skill_E_Ningguang_01_HD",
+      "filename_passive1": "UI_Talent_S_Ningguang_02",
+      "filename_passive2": "UI_Talent_S_Ningguang_06",
+      "filename_passive3": "UI_Talent_Collect_Ore"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 2701,
+    "name": "Ningguang",
+    "c1": {
+      "name": "Piercing Fragments",
+      "descriptionRaw": "When a Normal Attack hits, it deals AoE DMG.",
+      "description": "When a Normal Attack hits, it deals AoE DMG."
+    },
+    "c2": {
+      "name": "Shock Effect",
+      "descriptionRaw": "When <color=#FFD780FF>Jade Screen</color> is shattered, its CD will reset.\nCan occur once every 6s.",
+      "description": "When Jade Screen is shattered, its CD will reset.\nCan occur once every 6s."
+    },
+    "c3": {
+      "name": "Majesty Be the Array of Stars",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Starshatter</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Starshatter by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Exquisite be the Jade, Outshining All Beneath",
+      "descriptionRaw": "<color=#FFD780FF>Jade Screen</color> increases nearby characters' Elemental RES by 10%.",
+      "description": "Jade Screen increases nearby characters' Elemental RES by 10%."
+    },
+    "c5": {
+      "name": "Invincible Be the Jade Screen",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Jade Screen</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Jade Screen by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Grandeur Be the Seven Stars",
+      "descriptionRaw": "When <color=#FFD780FF>Starshatter</color> is used, Ningguang gains 7 Star Jades.",
+      "description": "When Starshatter is used, Ningguang gains 7 Star Jades."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Ningguang_01",
+      "filename_c2": "UI_Talent_S_Ningguang_05",
+      "filename_c3": "UI_Talent_U_Ningguang_02",
+      "filename_c4": "UI_Talent_S_Ningguang_03",
+      "filename_c5": "UI_Talent_U_Ningguang_01",
+      "filename_c6": "UI_Talent_S_Ningguang_04",
+      "filename_constellation": "Eff_UI_Talent_Ningguang"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 820.6119,
+      "attack": 17.808,
+      "defense": 48.069,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 888.7226876999999,
+      "attack": 19.286064,
+      "defense": 52.058727,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 956.0128635,
+      "attack": 20.74632,
+      "defense": 56.000385,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1024.1236512,
+      "attack": 22.224384,
+      "defense": 59.990112,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1091.413827,
+      "attack": 23.68464,
+      "defense": 63.93177000000001,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1159.5246147,
+      "attack": 25.162704,
+      "defense": 67.921497,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1226.8147905,
+      "attack": 26.622960000000003,
+      "defense": 71.863155,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1294.9255782,
+      "attack": 28.101024000000002,
+      "defense": 75.85288200000001,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1363.0363659,
+      "attack": 29.579088,
+      "defense": 79.84260900000001,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1430.3265417,
+      "attack": 31.039344,
+      "defense": 83.78426700000001,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1498.4373294,
+      "attack": 32.517408,
+      "defense": 87.773994,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1565.7275052,
+      "attack": 33.977664,
+      "defense": 91.715652,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1633.8382929000002,
+      "attack": 35.455728,
+      "defense": 95.70537900000001,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1701.1284687,
+      "attack": 36.915984,
+      "defense": 99.647037,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1769.2392564000002,
+      "attack": 38.394048000000005,
+      "defense": 103.63676400000001,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1837.3500440999999,
+      "attack": 39.872111999999994,
+      "defense": 107.626491,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1904.6402199000001,
+      "attack": 41.332368,
+      "defense": 111.56814900000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1972.7510075999999,
+      "attack": 42.810432,
+      "defense": 115.55787600000001,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2040.0411834000001,
+      "attack": 44.270688,
+      "defense": 119.49953400000001,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2108.1519711,
+      "attack": 45.748751999999996,
+      "defense": 123.489261,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2788.4812469,
+      "attack": 60.512808,
+      "defense": 163.34091899999999,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2856.5920346,
+      "attack": 61.990872,
+      "defense": 167.330646,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2924.7028223,
+      "attack": 63.46893600000001,
+      "defense": 171.32037300000002,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2991.9929981,
+      "attack": 64.929192,
+      "defense": 175.262031,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3060.1037858,
+      "attack": 66.407256,
+      "defense": 179.25175800000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3127.3939616,
+      "attack": 67.867512,
+      "defense": 183.193416,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3195.5047492999997,
+      "attack": 69.345576,
+      "defense": 187.183143,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3262.7949251,
+      "attack": 70.805832,
+      "defense": 191.12480100000002,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3330.9057128,
+      "attack": 72.283896,
+      "defense": 195.114528,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3398.1958886,
+      "attack": 73.744152,
+      "defense": 199.05618600000003,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3466.3066762999997,
+      "attack": 75.222216,
+      "defense": 203.045913,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3534.417464,
+      "attack": 76.70027999999999,
+      "defense": 207.03564,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3601.7076398,
+      "attack": 78.160536,
+      "defense": 210.977298,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3669.8184275,
+      "attack": 79.6386,
+      "defense": 214.967025,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3737.1086032999997,
+      "attack": 81.098856,
+      "defense": 218.908683,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3805.219391,
+      "attack": 82.57692,
+      "defense": 222.89841,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3872.5095668,
+      "attack": 84.03717599999999,
+      "defense": 226.840068,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3940.6203545,
+      "attack": 85.51523999999999,
+      "defense": 230.829795,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4008.7311422,
+      "attack": 86.993304,
+      "defense": 234.819522,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4076.0213179999996,
+      "attack": 88.45356,
+      "defense": 238.76118,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4579.7125057,
+      "attack": 99.384324,
+      "defense": 268.265907,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4647.0026815,
+      "attack": 100.84458,
+      "defense": 272.207565,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4715.1134692,
+      "attack": 102.322644,
+      "defense": 276.197292,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4782.403644999999,
+      "attack": 103.7829,
+      "defense": 280.13895,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4850.5144327,
+      "attack": 105.260964,
+      "defense": 284.128677,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4918.6252204,
+      "attack": 106.739028,
+      "defense": 288.118404,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4985.9153962,
+      "attack": 108.199284,
+      "defense": 292.060062,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5054.0261839,
+      "attack": 109.67734800000001,
+      "defense": 296.04978900000003,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5121.3163597,
+      "attack": 111.137604,
+      "defense": 299.991447,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5189.4271474,
+      "attack": 112.615668,
+      "defense": 303.981174,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5837.4912232,
+      "attack": 126.679524,
+      "defense": 341.942832,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5905.6020109,
+      "attack": 128.157588,
+      "defense": 345.932559,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5973.7127986,
+      "attack": 129.635652,
+      "defense": 349.922286,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6041.0029744,
+      "attack": 131.095908,
+      "defense": 353.863944,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6109.1137621,
+      "attack": 132.573972,
+      "defense": 357.85367099999996,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6176.4039379000005,
+      "attack": 134.034228,
+      "defense": 361.79532900000004,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6244.5147256,
+      "attack": 135.512292,
+      "defense": 365.785056,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6311.8049014,
+      "attack": 136.97254800000002,
+      "defense": 369.726714,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6379.915689099999,
+      "attack": 138.45061199999998,
+      "defense": 373.716441,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6448.0264768,
+      "attack": 139.928676,
+      "defense": 377.706168,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6950.8971526,
+      "attack": 150.841632,
+      "defense": 407.162826,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7019.0079403,
+      "attack": 152.319696,
+      "defense": 411.152553,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7086.2981161,
+      "attack": 153.779952,
+      "defense": 415.094211,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7154.4089038,
+      "attack": 155.258016,
+      "defense": 419.083938,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7221.6990796,
+      "attack": 156.71827199999998,
+      "defense": 423.025596,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7289.8098672999995,
+      "attack": 158.196336,
+      "defense": 427.015323,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7357.920655,
+      "attack": 159.6744,
+      "defense": 431.00505,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7425.2108308,
+      "attack": 161.134656,
+      "defense": 434.946708,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7493.3216185,
+      "attack": 162.61272,
+      "defense": 438.936435,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7560.6117943,
+      "attack": 164.072976,
+      "defense": 442.878093,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8064.302882,
+      "attack": 175.00374,
+      "defense": 472.38282000000004,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8131.593057800001,
+      "attack": 176.463996,
+      "defense": 476.324478,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8199.7038455,
+      "attack": 177.94206000000003,
+      "defense": 480.314205,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8267.8146332,
+      "attack": 179.420124,
+      "defense": 484.30393200000003,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8335.104809,
+      "attack": 180.88038,
+      "defense": 488.24559,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8403.2155967,
+      "attack": 182.358444,
+      "defense": 492.235317,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8470.5057725,
+      "attack": 183.8187,
+      "defense": 496.1769750000001,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8538.6165602,
+      "attack": 185.296764,
+      "defense": 500.166702,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8605.906736,
+      "attack": 186.75702,
+      "defense": 504.10836000000006,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8674.0175237,
+      "attack": 188.235084,
+      "defense": 508.09808699999996,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9177.708911400001,
+      "attack": 199.16584799999998,
+      "defense": 537.6028140000001,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9244.9990872,
+      "attack": 200.626104,
+      "defense": 541.544472,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9313.1098749,
+      "attack": 202.104168,
+      "defense": 545.534199,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9380.400050699998,
+      "attack": 203.564424,
+      "defense": 549.475857,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9448.5108384,
+      "attack": 205.042488,
+      "defense": 553.465584,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9515.8010142,
+      "attack": 206.502744,
+      "defense": 557.407242,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9583.911801900002,
+      "attack": 207.980808,
+      "defense": 561.3969690000001,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9651.201977699999,
+      "attack": 209.44106399999998,
+      "defense": 565.3386270000001,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9719.3127654,
+      "attack": 210.919128,
+      "defense": 569.328354,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9787.4235531,
+      "attack": 212.397192,
+      "defense": 573.3180810000001,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2721.1910711,
+      "attack": 59.052552,
+      "defense": 159.399261,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4511.601718,
+      "attack": 97.90626,
+      "defense": 264.27618,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5770.2010474,
+      "attack": 125.219268,
+      "defense": 338.001174,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6883.6069768,
+      "attack": 149.381376,
+      "defense": 403.221168,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7996.1920943000005,
+      "attack": 173.525676,
+      "defense": 468.393093,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9109.5981237,
+      "attack": 197.687784,
+      "defense": 533.613087,
+      "specialized": 0.24
+    }
+  }
+}

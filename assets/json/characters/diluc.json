@@ -1,0 +1,1642 @@
+{
+  "profile": {
+    "id": 10000016,
+    "name": "Diluc",
+    "title": "Dark Side of Dawn",
+    "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+    "weaponType": "WEAPON_CLAYMORE",
+    "weaponText": "Claymore",
+    "bodyType": "BODY_MALE",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "4/30",
+    "birthday": "April 30",
+    "elementType": "ELEMENT_PYRO",
+    "elementText": "Pyro",
+    "affiliation": "Dawn Winery",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_CRITICAL",
+    "substatText": "CRIT Rate",
+    "constellation": "Noctua",
+    "cv": {
+      "english": "Sean Chiplock",
+      "chinese": "马洋",
+      "japanese": "小野賢章",
+      "korean": "Choi Seung-hoon"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104111,
+          "name": "Agnidus Agate Sliver",
+          "count": 1
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 3
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 3
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 2
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 10
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 4
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 20
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 3
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 8
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 30
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 12
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 45
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104114,
+          "name": "Agnidus Agate Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 20
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 60
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Character_Diluc_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Character_Diluc_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/f5ae62eff2cf426e98626c882dd0cf0d_3240767163310397909.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200609/2020060915105012670.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/7f68f45a650bbcf804215fc7890c7f35.png",
+      "filename_icon": "UI_AvatarIcon_Diluc",
+      "filename_iconCard": "UI_AvatarIcon_Diluc_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Diluc",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Diluc",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diluc",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Diluc.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Diluc_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Diluc"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 1601,
+    "name": "Diluc",
+    "combat1": {
+      "name": "Tempered Sword",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:P}",
+          "Charged Attack Cyclic DMG|{param5:F1P}",
+          "Charged Attack Final DMG|{param6:P}",
+          "Charged Attack Stamina Cost|{param7:F1}/s",
+          "Max Duration|{param8:F1}s",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.89698,
+            0.96999,
+            1.043,
+            1.1473,
+            1.22031,
+            1.30375,
+            1.41848,
+            1.53321,
+            1.64794,
+            1.7731,
+            1.916513,
+            2.085166,
+            2.253819,
+            2.422472,
+            2.606457
+          ],
+          "param2": [
+            0.87634,
+            0.94767,
+            1.019,
+            1.1209,
+            1.19223,
+            1.27375,
+            1.38584,
+            1.49793,
+            1.61002,
+            1.7323,
+            1.872412,
+            2.037185,
+            2.201957,
+            2.366729,
+            2.546481
+          ],
+          "param3": [
+            0.98814,
+            1.06857,
+            1.149,
+            1.2639,
+            1.34433,
+            1.43625,
+            1.56264,
+            1.68903,
+            1.81542,
+            1.9533,
+            2.111287,
+            2.297081,
+            2.482874,
+            2.668667,
+            2.871351
+          ],
+          "param4": [
+            1.33988,
+            1.44894,
+            1.558,
+            1.7138,
+            1.82286,
+            1.9475,
+            2.11888,
+            2.29026,
+            2.46164,
+            2.6486,
+            2.862825,
+            3.114754,
+            3.366682,
+            3.618611,
+            3.893442
+          ],
+          "param5": [
+            0.688,
+            0.744,
+            0.8,
+            0.88,
+            0.936,
+            1,
+            1.088,
+            1.176,
+            1.264,
+            1.36,
+            1.47,
+            1.59936,
+            1.72872,
+            1.85808,
+            1.9992
+          ],
+          "param6": [
+            1.247,
+            1.3485,
+            1.45,
+            1.595,
+            1.6965,
+            1.8125,
+            1.972,
+            2.1315,
+            2.291,
+            2.465,
+            2.664375,
+            2.89884,
+            3.133305,
+            3.36777,
+            3.62355
+          ],
+          "param7": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "param8": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param9": [
+            0.895054,
+            0.967907,
+            1.04076,
+            1.144836,
+            1.217689,
+            1.30095,
+            1.415434,
+            1.529917,
+            1.644401,
+            1.769292,
+            1.894183,
+            2.019074,
+            2.143966,
+            2.268857,
+            2.393748
+          ],
+          "param10": [
+            1.789728,
+            1.935403,
+            2.081079,
+            2.289187,
+            2.434862,
+            2.601349,
+            2.830267,
+            3.059186,
+            3.288105,
+            3.537834,
+            3.787564,
+            4.037293,
+            4.287023,
+            4.536752,
+            4.786482
+          ],
+          "param11": [
+            2.235467,
+            2.417423,
+            2.59938,
+            2.859318,
+            3.041275,
+            3.249225,
+            3.535157,
+            3.821089,
+            4.10702,
+            4.418946,
+            4.730872,
+            5.042797,
+            5.354723,
+            5.666648,
+            5.978574
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Searing Onslaught",
+      "descriptionRaw": "Performs a forward slash that deals <color=#FF9999FF>Pyro DMG</color>.\n\nThis skill can be consecutively used 3 times.\nEnters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
+      "description": "Performs a forward slash that deals Pyro DMG.\n\nThis skill can be consecutively used 3 times.\nEnters CD if not cast again within a short period.",
+      "flavorText": "The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:P}",
+          "CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.944,
+            1.0148,
+            1.0856,
+            1.18,
+            1.2508,
+            1.3216,
+            1.416,
+            1.5104,
+            1.6048,
+            1.6992,
+            1.7936,
+            1.888,
+            2.006,
+            2.124,
+            2.242
+          ],
+          "param2": [
+            0.976,
+            1.0492,
+            1.1224,
+            1.22,
+            1.2932,
+            1.3664,
+            1.464,
+            1.5616,
+            1.6592,
+            1.7568,
+            1.8544,
+            1.952,
+            2.074,
+            2.196,
+            2.318
+          ],
+          "param3": [
+            1.288,
+            1.3846,
+            1.4812,
+            1.61,
+            1.7066,
+            1.8032,
+            1.932,
+            2.0608,
+            2.1896,
+            2.3184,
+            2.4472,
+            2.576,
+            2.737,
+            2.898,
+            3.059
+          ],
+          "param4": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Dawn",
+      "descriptionRaw": "Releases intense flames to knock back nearby opponents, dealing <color=#FF9999FF>Pyro DMG</color>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <color=#FF9999FF>Pyro DMG</color> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <color=#FF9999FF>AoE Pyro DMG</color>.\nThe searing flames that run down his blade cause it to be infused with <color=#FF9999FF>Pyro</color>.\n\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
+      "description": "Releases intense flames to knock back nearby opponents, dealing Pyro DMG. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive Pyro DMG to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG.\nThe searing flames that run down his blade cause it to be infused with Pyro.",
+      "flavorText": "The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.",
+      "attributes": {
+        "labels": [
+          "Slashing DMG|{param1:P}",
+          "DoT|{param2:F1P}",
+          "Explosion DMG|{param3:P}",
+          "CD|{param4:F1}s",
+          "Infusion Duration|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            2.04,
+            2.193,
+            2.346,
+            2.55,
+            2.703,
+            2.856,
+            3.06,
+            3.264,
+            3.468,
+            3.672,
+            3.876,
+            4.08,
+            4.335,
+            4.59,
+            4.845
+          ],
+          "param2": [
+            0.6,
+            0.645,
+            0.69,
+            0.75,
+            0.795,
+            0.84,
+            0.9,
+            0.96,
+            1.02,
+            1.08,
+            1.14,
+            1.2,
+            1.275,
+            1.35,
+            1.425
+          ],
+          "param3": [
+            2.04,
+            2.193,
+            2.346,
+            2.55,
+            2.703,
+            2.856,
+            3.06,
+            3.264,
+            3.468,
+            3.672,
+            3.876,
+            4.08,
+            4.335,
+            4.59,
+            4.845
+          ],
+          "param4": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param5": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "param6": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Relentless",
+      "descriptionRaw": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
+      "description": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s."
+    },
+    "passive2": {
+      "name": "Blessing of Phoenix",
+      "descriptionRaw": "The <color=#FF9999FF>Pyro Infusion</color> provided by <color=#FFD780FF>Dawn</color> lasts for 4s longer. Additionally, Diluc gains 20% <color=#FF9999FF>Pyro DMG Bonus</color> during the duration of this effect.",
+      "description": "The Pyro Infusion provided by Dawn lasts for 4s longer. Additionally, Diluc gains 20% Pyro DMG Bonus during the duration of this effect."
+    },
+    "passive3": {
+      "name": "Tradition of the Dawn Knight",
+      "descriptionRaw": "Refunds 15% of the ore used when crafting Claymore-type weapons.",
+      "description": "Refunds 15% of the ore used when crafting Claymore-type weapons."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104304,
+          "name": "Teachings of Resistance",
+          "count": 3
+        },
+        {
+          "id": 112032,
+          "name": "Recruit's Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 2
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 4
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 6
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 9
+        },
+        {
+          "id": 112033,
+          "name": "Sergeant's Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 4
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 4
+        },
+        {
+          "id": 113003,
+          "name": "Dvalin's Plume",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 6
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 6
+        },
+        {
+          "id": 113003,
+          "name": "Dvalin's Plume",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 12
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 9
+        },
+        {
+          "id": 113003,
+          "name": "Dvalin's Plume",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 16
+        },
+        {
+          "id": 112034,
+          "name": "Lieutenant's Insignia",
+          "count": 12
+        },
+        {
+          "id": 113003,
+          "name": "Dvalin's Plume",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_04",
+      "filename_combat2": "Skill_S_Diluc_01_01",
+      "filename_combat3": "Skill_E_Diluc_01_HD",
+      "filename_passive1": "UI_Talent_S_Diluc_05",
+      "filename_passive2": "UI_Talent_S_Diluc_06",
+      "filename_passive3": "UI_Talent_Forge_Claymore"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 1601,
+    "name": "Diluc",
+    "c1": {
+      "name": "Conviction",
+      "descriptionRaw": "Diluc deals 15% more DMG to opponents whose HP is above 50%.",
+      "description": "Diluc deals 15% more DMG to opponents whose HP is above 50%."
+    },
+    "c2": {
+      "name": "Searing Ember",
+      "descriptionRaw": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
+      "description": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s."
+    },
+    "c3": {
+      "name": "Fire and Steel",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Searing Onslaught</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Searing Onslaught by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Flowing Flame",
+      "descriptionRaw": "Casting <color=#FFD780FF>Searing Onslaught</color> in rhythm greatly increases damage dealt.\n2s after casting <color=#FFD780FF>Searing Onslaught</color>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s.",
+      "description": "Casting Searing Onslaught in rhythm greatly increases damage dealt.\n2s after casting Searing Onslaught, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s."
+    },
+    "c5": {
+      "name": "Phoenix, Harbinger of Dawn",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Dawn</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Dawn by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Flaming Sword, Nemesis of the Dark",
+      "descriptionRaw": "After casting <color=#FFD780FF>Searing Onslaught</color>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
+      "description": "After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Diluc_01",
+      "filename_c2": "UI_Talent_S_Diluc_02",
+      "filename_c3": "UI_Talent_U_Diluc_01",
+      "filename_c4": "UI_Talent_S_Diluc_03",
+      "filename_c5": "UI_Talent_U_Diluc_02",
+      "filename_c6": "UI_Talent_S_Diluc_04",
+      "filename_constellation": "Eff_UI_Talent_Diluc"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1010.5192,
+      "attack": 26.068,
+      "defense": 61.0266,
+      "specialized": 0.05
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1094.3922936,
+      "attack": 28.231644,
+      "defense": 66.0918078,
+      "specialized": 0.05
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1178.2653871999999,
+      "attack": 30.395288,
+      "defense": 71.1570156,
+      "specialized": 0.05
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1263.149,
+      "attack": 32.585,
+      "defense": 76.28325000000001,
+      "specialized": 0.05
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1347.0220935999998,
+      "attack": 34.748644,
+      "defense": 81.3484578,
+      "specialized": 0.05
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1431.9057063999999,
+      "attack": 36.938356000000006,
+      "defense": 86.4746922,
+      "specialized": 0.05
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1515.7788,
+      "attack": 39.102000000000004,
+      "defense": 91.5399,
+      "specialized": 0.05
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1600.6624128,
+      "attack": 41.291712000000004,
+      "defense": 96.6661344,
+      "specialized": 0.05
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1685.5460256,
+      "attack": 43.481424,
+      "defense": 101.7923688,
+      "specialized": 0.05
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1769.4191191999998,
+      "attack": 45.645068,
+      "defense": 106.8575766,
+      "specialized": 0.05
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1854.3027319999999,
+      "attack": 47.83478,
+      "defense": 111.983811,
+      "specialized": 0.05
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1939.1863448,
+      "attack": 50.024492,
+      "defense": 117.1100454,
+      "specialized": 0.05
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2024.0699576,
+      "attack": 52.214204,
+      "defense": 122.2362798,
+      "specialized": 0.05
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2109.9640896,
+      "attack": 54.429984000000005,
+      "defense": 127.42354080000001,
+      "specialized": 0.05
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2194.8477024,
+      "attack": 56.619696000000005,
+      "defense": 132.54977520000003,
+      "specialized": 0.05
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2279.7313151999997,
+      "attack": 58.809408,
+      "defense": 137.6760096,
+      "specialized": 0.05
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2365.6254472,
+      "attack": 61.02518800000001,
+      "defense": 142.86327060000002,
+      "specialized": 0.05
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2450.50906,
+      "attack": 63.2149,
+      "defense": 147.98950499999998,
+      "specialized": 0.05
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2536.4031919999998,
+      "attack": 65.43068,
+      "defense": 153.176766,
+      "specialized": 0.05
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2621.2868047999996,
+      "attack": 67.620392,
+      "defense": 158.3030004,
+      "specialized": 0.05
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3573.6097667999998,
+      "attack": 92.18549200000001,
+      "defense": 215.8162614,
+      "specialized": 0.05
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3659.5038987999997,
+      "attack": 94.401272,
+      "defense": 221.00352239999998,
+      "specialized": 0.05
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3745.3980308,
+      "attack": 96.617052,
+      "defense": 226.19078340000002,
+      "specialized": 0.05
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3831.2921628,
+      "attack": 98.832832,
+      "defense": 231.37804440000002,
+      "specialized": 0.05
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3917.1862948,
+      "attack": 101.04861200000002,
+      "defense": 236.5653054,
+      "specialized": 0.05
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 4004.090946,
+      "attack": 103.29046,
+      "defense": 241.813593,
+      "specialized": 0.05
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4089.9850779999997,
+      "attack": 105.50623999999999,
+      "defense": 247.000854,
+      "specialized": 0.05
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4175.87921,
+      "attack": 107.72202000000001,
+      "defense": 252.18811499999998,
+      "specialized": 0.05
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4262.7838612000005,
+      "attack": 109.96386800000002,
+      "defense": 257.4364026,
+      "specialized": 0.05
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4348.6779932,
+      "attack": 112.17964800000001,
+      "defense": 262.62366360000004,
+      "specialized": 0.05
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4435.5826443999995,
+      "attack": 114.42149599999999,
+      "defense": 267.8719512,
+      "specialized": 0.05
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4522.4872956,
+      "attack": 116.663344,
+      "defense": 273.1202388,
+      "specialized": 0.05
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4609.3919468,
+      "attack": 118.905192,
+      "defense": 278.3685264,
+      "specialized": 0.05
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4695.2860788,
+      "attack": 121.120972,
+      "defense": 283.55578740000004,
+      "specialized": 0.05
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4782.19073,
+      "attack": 123.36282,
+      "defense": 288.804075,
+      "specialized": 0.05
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4870.1059004,
+      "attack": 125.63073600000001,
+      "defense": 294.11338920000003,
+      "specialized": 0.05
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4957.0105516,
+      "attack": 127.87258400000002,
+      "defense": 299.3616768,
+      "specialized": 0.05
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 5043.9152028,
+      "attack": 130.11443200000002,
+      "defense": 304.6099644,
+      "specialized": 0.05
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5130.819853999999,
+      "attack": 132.35628,
+      "defense": 309.858252,
+      "specialized": 0.05
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5218.7350244,
+      "attack": 134.624196,
+      "defense": 315.16756620000007,
+      "specialized": 0.05
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5921.260145599999,
+      "attack": 152.745824,
+      "defense": 357.5948538,
+      "specialized": 0.098
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 6009.175316,
+      "attack": 155.01374000000004,
+      "defense": 362.904168,
+      "specialized": 0.098
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 6097.0904863999995,
+      "attack": 157.281656,
+      "defense": 368.2134822,
+      "specialized": 0.098
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6183.995137599999,
+      "attack": 159.523504,
+      "defense": 373.46176979999996,
+      "specialized": 0.098
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6271.9103079999995,
+      "attack": 161.79142000000002,
+      "defense": 378.77108400000003,
+      "specialized": 0.098
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6359.825478399999,
+      "attack": 164.059336,
+      "defense": 384.0803982,
+      "specialized": 0.098
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6447.740648799999,
+      "attack": 166.327252,
+      "defense": 389.3897124,
+      "specialized": 0.098
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6535.6558192,
+      "attack": 168.595168,
+      "defense": 394.6990266,
+      "specialized": 0.098
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6624.5815088,
+      "attack": 170.88915200000002,
+      "defense": 400.06936740000003,
+      "specialized": 0.098
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6712.4966792,
+      "attack": 173.15706800000004,
+      "defense": 405.3786816,
+      "specialized": 0.098
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7621.239249599999,
+      "attack": 196.598024,
+      "defense": 460.2599958,
+      "specialized": 0.14600000000000002
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7710.1649392,
+      "attack": 198.892008,
+      "defense": 465.6303366,
+      "specialized": 0.14600000000000002
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7798.0801096,
+      "attack": 201.159924,
+      "defense": 470.9396508,
+      "specialized": 0.14600000000000002
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7887.005799199999,
+      "attack": 203.453908,
+      "defense": 476.3099916,
+      "specialized": 0.14600000000000002
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7975.931488799999,
+      "attack": 205.747892,
+      "defense": 481.6803324,
+      "specialized": 0.14600000000000002
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 8064.8571784,
+      "attack": 208.041876,
+      "defense": 487.0506732,
+      "specialized": 0.14600000000000002
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 8153.782867999999,
+      "attack": 210.33586000000003,
+      "defense": 492.421014,
+      "specialized": 0.14600000000000002
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8242.708557599999,
+      "attack": 212.62984400000002,
+      "defense": 497.7913548,
+      "specialized": 0.14600000000000002
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8331.6342472,
+      "attack": 214.92382800000001,
+      "defense": 503.16169560000003,
+      "specialized": 0.14600000000000002
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8420.5599368,
+      "attack": 217.217812,
+      "defense": 508.53203640000004,
+      "specialized": 0.14600000000000002
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 9125.1059264,
+      "attack": 235.39157600000004,
+      "defense": 551.0813772,
+      "specialized": 0.14600000000000002
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9214.031616,
+      "attack": 237.68556,
+      "defense": 556.451718,
+      "specialized": 0.14600000000000002
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9303.9678248,
+      "attack": 240.00561199999999,
+      "defense": 561.8830854,
+      "specialized": 0.14600000000000002
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9392.893514399999,
+      "attack": 242.299596,
+      "defense": 567.2534262,
+      "specialized": 0.14600000000000002
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9482.8297232,
+      "attack": 244.61964800000004,
+      "defense": 572.6847936,
+      "specialized": 0.14600000000000002
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9572.765932,
+      "attack": 246.93970000000002,
+      "defense": 578.116161,
+      "specialized": 0.14600000000000002
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9661.691621599999,
+      "attack": 249.23368399999998,
+      "defense": 583.4865018,
+      "specialized": 0.14600000000000002
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9751.627830399999,
+      "attack": 251.55373600000001,
+      "defense": 588.9178692,
+      "specialized": 0.14600000000000002
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9841.564039199999,
+      "attack": 253.873788,
+      "defense": 594.3492366,
+      "specialized": 0.14600000000000002
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9931.500248,
+      "attack": 256.19384,
+      "defense": 599.780604,
+      "specialized": 0.14600000000000002
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10637.0571568,
+      "attack": 274.39367200000004,
+      "defense": 642.3909714,
+      "specialized": 0.194
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10728.0038848,
+      "attack": 276.73979199999997,
+      "defense": 647.8833654,
+      "specialized": 0.194
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10817.940093599998,
+      "attack": 279.059844,
+      "defense": 653.3147328,
+      "specialized": 0.194
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10907.8763024,
+      "attack": 281.37989600000003,
+      "defense": 658.7461002,
+      "specialized": 0.194
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10998.823030399999,
+      "attack": 283.72601599999996,
+      "defense": 664.2384942,
+      "specialized": 0.194
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 11088.7592392,
+      "attack": 286.046068,
+      "defense": 669.6698616,
+      "specialized": 0.194
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 11179.7059672,
+      "attack": 288.39218800000003,
+      "defense": 675.1622556,
+      "specialized": 0.194
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11270.652695199999,
+      "attack": 290.73830799999996,
+      "defense": 680.6546496,
+      "specialized": 0.194
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11361.599423200001,
+      "attack": 293.084428,
+      "defense": 686.1470436,
+      "specialized": 0.194
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11452.5461512,
+      "attack": 295.43054800000004,
+      "defense": 691.6394376000001,
+      "specialized": 0.194
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 12159.1134792,
+      "attack": 313.656448,
+      "defense": 734.3108316,
+      "specialized": 0.242
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12250.0602072,
+      "attack": 316.002568,
+      "defense": 739.8032256,
+      "specialized": 0.242
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12341.0069352,
+      "attack": 318.34868800000004,
+      "defense": 745.2956196,
+      "specialized": 0.242
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12431.953663199998,
+      "attack": 320.694808,
+      "defense": 750.7880136,
+      "specialized": 0.242
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12522.9003912,
+      "attack": 323.040928,
+      "defense": 756.2804076,
+      "specialized": 0.242
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12614.8576384,
+      "attack": 325.41311600000006,
+      "defense": 761.8338282000001,
+      "specialized": 0.242
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12705.8043664,
+      "attack": 327.75923600000004,
+      "defense": 767.3262222000001,
+      "specialized": 0.242
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12797.7616136,
+      "attack": 330.13142400000004,
+      "defense": 772.8796428,
+      "specialized": 0.242
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12889.7188608,
+      "attack": 332.503612,
+      "defense": 778.4330634,
+      "specialized": 0.242
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12980.665588799999,
+      "attack": 334.849732,
+      "defense": 783.9254574000001,
+      "specialized": 0.242
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3487.7156347999994,
+      "attack": 89.96971199999999,
+      "defense": 210.6290004,
+      "specialized": 0.05
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5834.3554944,
+      "attack": 150.50397600000002,
+      "defense": 352.34656620000004,
+      "specialized": 0.098
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7533.3240792,
+      "attack": 194.33010800000002,
+      "defense": 454.9506816,
+      "specialized": 0.14600000000000002
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 9036.180236799999,
+      "attack": 233.09759200000002,
+      "defense": 545.7110364,
+      "specialized": 0.14600000000000002
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10547.120948,
+      "attack": 272.07362,
+      "defense": 636.959604,
+      "specialized": 0.194
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 12068.1667512,
+      "attack": 311.310328,
+      "defense": 728.8184376,
+      "specialized": 0.242
+    }
+  }
+}

@@ -1,0 +1,1604 @@
+{
+  "profile": {
+    "id": 10000055,
+    "name": "Gorou",
+    "title": "Canine Warrior",
+    "description": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "5/18",
+    "birthday": "May 18",
+    "elementType": "ELEMENT_GEO",
+    "elementText": "Geo",
+    "affiliation": "Watatsumi Island",
+    "associationType": "ASSOC_INAZUMA",
+    "region": "Inazuma",
+    "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
+    "substatText": "Geo DMG Bonus",
+    "constellation": "Canis Bellatoris",
+    "cv": {
+      "english": "Cory Yee",
+      "chinese": "杨昕燃",
+      "japanese": "畠中祐",
+      "korean": "Lee Sae-byeok"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104171,
+          "name": "Prithiva Topaz Sliver",
+          "count": 1
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 3
+        },
+        {
+          "id": 112053,
+          "name": "Spectral Husk",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 3
+        },
+        {
+          "id": 113023,
+          "name": "Perpetual Heart",
+          "count": 2
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 10
+        },
+        {
+          "id": 112053,
+          "name": "Spectral Husk",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 6
+        },
+        {
+          "id": 113023,
+          "name": "Perpetual Heart",
+          "count": 4
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 20
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 3
+        },
+        {
+          "id": 113023,
+          "name": "Perpetual Heart",
+          "count": 8
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 30
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 6
+        },
+        {
+          "id": 113023,
+          "name": "Perpetual Heart",
+          "count": 12
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 45
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104174,
+          "name": "Prithiva Topaz Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113023,
+          "name": "Perpetual Heart",
+          "count": 20
+        },
+        {
+          "id": 101207,
+          "name": "Sango Pearl",
+          "count": 60
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/33b7b5d2536416116765a3f55e47f51a_54142758600124938.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/3484c4fab13b8c8fec8ccbeff63ec50a_5464889942943679721.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/781be06fd7f2106fbc28711aa9a46663.png",
+      "filename_icon": "UI_AvatarIcon_Gorou",
+      "filename_iconCard": "UI_AvatarIcon_Gorou_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Gorou",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Gorou",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Gorou",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Gorou.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Gorou_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Gorou"
+    },
+    "version": "2.3"
+  },
+  "skills": {
+    "id": 5501,
+    "name": "Gorou",
+    "combat1": {
+      "name": "Ripping Fang Fletching",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <color=#FFE699FF>Geo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal Geo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "Aimed Shot|{param5:F1P}",
+          "Fully-Charged Aimed Shot|{param6:P}",
+          "Plunge DMG|{param7:F1P}",
+          "Low/High Plunge DMG|{param8:P}/{param9:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.37754,
+            0.40827,
+            0.439,
+            0.4829,
+            0.51363,
+            0.54875,
+            0.59704,
+            0.64533,
+            0.69362,
+            0.7463,
+            0.79898,
+            0.85166,
+            0.90434,
+            0.95702,
+            1.0097
+          ],
+          "param2": [
+            0.37152,
+            0.40176,
+            0.432,
+            0.4752,
+            0.50544,
+            0.54,
+            0.58752,
+            0.63504,
+            0.68256,
+            0.7344,
+            0.78624,
+            0.83808,
+            0.88992,
+            0.94176,
+            0.9936
+          ],
+          "param3": [
+            0.4945,
+            0.53475,
+            0.575,
+            0.6325,
+            0.67275,
+            0.71875,
+            0.782,
+            0.84525,
+            0.9085,
+            0.9775,
+            1.0465,
+            1.1155,
+            1.1845,
+            1.2535,
+            1.3225
+          ],
+          "param4": [
+            0.58996,
+            0.63798,
+            0.686,
+            0.7546,
+            0.80262,
+            0.8575,
+            0.93296,
+            1.00842,
+            1.08388,
+            1.1662,
+            1.24852,
+            1.33084,
+            1.41316,
+            1.49548,
+            1.5778
+          ],
+          "param5": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.9282,
+            0.9894,
+            1.0506,
+            1.1118,
+            1.173
+          ],
+          "param6": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.356,
+            2.48,
+            2.635,
+            2.79,
+            2.945
+          ],
+          "param7": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param8": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param9": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Inuzaka All-Round Defense",
+      "descriptionRaw": "Deals <color=#FFE699FF>AoE Geo DMG</color> and sets up a General's War Banner.\n\n<color=#FFD780FF>General's War Banner</color>\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party at the time of casting:\n· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\n· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\n· 3 Geo characters: Adds \"Crunch\" - <color=#FFE699FF>Geo DMG Bonus</color>.\n\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\n\n<color=#FFD780FF>Hold</color>\nAdjust the location of the skill.\n\n<i>\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.</i>",
+      "description": "Deals AoE Geo DMG and sets up a General's War Banner.\n\nGeneral's War Banner\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of Geo characters in the party at the time of casting:\n· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\n· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\n· 3 Geo characters: Adds \"Crunch\" - Geo DMG Bonus.\n\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\n\nHold\nAdjust the location of the skill.",
+      "flavorText": "\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "DEF Increase|{param2:I}",
+          "Geo DMG Bonus|{param3:P}",
+          "Duration|{param4:F1}s",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.072,
+            1.1524,
+            1.2328,
+            1.34,
+            1.4204,
+            1.5008,
+            1.608,
+            1.7152,
+            1.8224,
+            1.9296,
+            2.0368,
+            2.144,
+            2.278,
+            2.412,
+            2.546
+          ],
+          "param2": [
+            206.16,
+            221.622,
+            237.084,
+            257.7,
+            273.162,
+            288.624,
+            309.24,
+            329.856,
+            350.472,
+            371.088,
+            391.704,
+            412.32,
+            438.09,
+            463.86,
+            489.63
+          ],
+          "param3": [
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15
+          ],
+          "param4": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "param5": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Juuga: Forward Unto Victory",
+      "descriptionRaw": "Displaying his valor as a general, Gorou deals <color=#FFE699FF>AoE Geo DMG</color> and creates a field known as General's Glory to embolden his comrades.\n\n<color=#FFD780FF>General's Glory</color>\nThis field has the following properties:\n· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party. Also moves together with your active character.\n· Generates 1 Crystal Collapse every 1.5s that deals <color=#FFE699FF>AoE Geo DMG</color> to 1 opponent within the skill's AoE.\n· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\n\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\n If Gorou falls, the effects of General's Glory will be cleared.\n\n<i>\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.</i>",
+      "description": "Displaying his valor as a general, Gorou deals AoE Geo DMG and creates a field known as General's Glory to embolden his comrades.\n\nGeneral's Glory\nThis field has the following properties:\n· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of Geo characters in the party. Also moves together with your active character.\n· Generates 1 Crystal Collapse every 1.5s that deals AoE Geo DMG to 1 opponent within the skill's AoE.\n· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\n\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\n If Gorou falls, the effects of General's Glory will be cleared.",
+      "flavorText": "\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P} DEF",
+          "Crystal Collapse DMG|{param2:P} DEF",
+          "Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.98216,
+            1.055822,
+            1.129484,
+            1.2277,
+            1.301362,
+            1.375024,
+            1.47324,
+            1.571456,
+            1.669672,
+            1.767888,
+            1.866104,
+            1.96432,
+            2.08709,
+            2.20986,
+            2.33263
+          ],
+          "param2": [
+            0.613,
+            0.658975,
+            0.70495,
+            0.76625,
+            0.812225,
+            0.8582,
+            0.9195,
+            0.9808,
+            1.0421,
+            1.1034,
+            1.1647,
+            1.226,
+            1.302625,
+            1.37925,
+            1.455875
+          ],
+          "param3": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ],
+          "param4": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param5": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Heedless of the Wind and Weather",
+      "descriptionRaw": "After using <color=#FFD780FF>Juuga: Forward Unto Victory</color>, all nearby party members' DEF is increased by 25% for 12s.",
+      "description": "After using Juuga: Forward Unto Victory, all nearby party members' DEF is increased by 25% for 12s."
+    },
+    "passive2": {
+      "name": "A Favor Repaid",
+      "descriptionRaw": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\n· <color=#FFD780FF>Inuzaka All-Round Defense</color>: Skill DMG increased by 156% of DEF\n· <color=#FFD780FF>Juuga: Forward Unto Victory</color>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
+      "description": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\n· Inuzaka All-Round Defense: Skill DMG increased by 156% of DEF\n· Juuga: Forward Unto Victory: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF"
+    },
+    "passive3": {
+      "name": "Seeker of Shinies",
+      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Inazuma</color> on the mini-map.",
+      "description": "Displays the location of nearby resources unique to Inazuma on the mini-map."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104326,
+          "name": "Teachings of Light",
+          "count": 3
+        },
+        {
+          "id": 112053,
+          "name": "Spectral Husk",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 2
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 4
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 6
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104327,
+          "name": "Guide to Light",
+          "count": 9
+        },
+        {
+          "id": 112054,
+          "name": "Spectral Heart",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 4
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 4
+        },
+        {
+          "id": 113025,
+          "name": "Molten Moment",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 6
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 6
+        },
+        {
+          "id": 113025,
+          "name": "Molten Moment",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 12
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 9
+        },
+        {
+          "id": 113025,
+          "name": "Molten Moment",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104328,
+          "name": "Philosophies of Light",
+          "count": 16
+        },
+        {
+          "id": 112055,
+          "name": "Spectral Nucleus",
+          "count": 12
+        },
+        {
+          "id": 113025,
+          "name": "Molten Moment",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Gorou_01",
+      "filename_combat3": "Skill_E_Gorou_01_HD",
+      "filename_passive1": "UI_Talent_S_Gorou_05",
+      "filename_passive2": "UI_Talent_S_Gorou_06",
+      "filename_passive3": "UI_Talent_S_Gorou_07"
+    },
+    "version": "2.3"
+  },
+  "constellation": {
+    "id": 5501,
+    "name": "Gorou",
+    "c1": {
+      "name": "Rushing Hound: Swift as the Wind",
+      "descriptionRaw": "When characters (other than Gorou) within the AoE of Gorou's <color=#FFD780FF>General's War Banner</color> or <color=#FFD780FF>General's Glory</color> deal Geo DMG to opponents, the CD of Gorou's <color=#FFD780FF>Inuzaka All-Round Defense</color> is decreased by 2s.\nThis effect can occur once every 10s.",
+      "description": "When characters (other than Gorou) within the AoE of Gorou's General's War Banner or General's Glory deal Geo DMG to opponents, the CD of Gorou's Inuzaka All-Round Defense is decreased by 2s.\nThis effect can occur once every 10s."
+    },
+    "c2": {
+      "name": "Sitting Hound: Steady as a Clock",
+      "descriptionRaw": "While <color=#FFD780FF>General's Glory</color> is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction, or triggers a Lunar-Crystallize reaction. \nThis effect can occur once every 0.1s. Max extension is 3s.",
+      "description": "While General's Glory is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction, or triggers a Lunar-Crystallize reaction. \nThis effect can occur once every 0.1s. Max extension is 3s."
+    },
+    "c3": {
+      "name": "Mauling Hound: Fierce as Fire",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Inuzaka All-Round Defense</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Inuzaka All-Round Defense by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Lapping Hound: Warm as Water",
+      "descriptionRaw": "When <color=#FFD780FF>General's Glory</color> is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.",
+      "description": "When General's Glory is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s."
+    },
+    "c5": {
+      "name": "Striking Hound: Thunderous Force",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Juuga: Forward Unto Victory</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Juuga: Forward Unto Victory by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Valiant Hound: Mountainous Fealty",
+      "descriptionRaw": "For 12s after using <color=#FFD780FF>Inuzaka All-Round Defense</color> or <color=#FFD780FF>Juuga: Forward Unto Victory</color>, increases the CRIT DMG of all nearby party members' <color=#FFE699FF>Geo DMG</color> based on the buff level of the skill's field at the time of use:\n· \"Standing Firm\": +10%\n· \"Impregnable\": +20%\n· \"Crunch\": +40%\n\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered.",
+      "description": "For 12s after using Inuzaka All-Round Defense or Juuga: Forward Unto Victory, increases the CRIT DMG of all nearby party members' Geo DMG based on the buff level of the skill's field at the time of use:\n· \"Standing Firm\": +10%\n· \"Impregnable\": +20%\n· \"Crunch\": +40%\n\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Gorou_01",
+      "filename_c2": "UI_Talent_S_Gorou_02",
+      "filename_c3": "UI_Talent_U_Gorou_01",
+      "filename_c4": "UI_Talent_S_Gorou_03",
+      "filename_c5": "UI_Talent_U_Gorou_02",
+      "filename_c6": "UI_Talent_S_Gorou_04",
+      "filename_constellation": "Eff_UI_Talent_Gorou"
+    },
+    "version": "2.3"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 802.3761,
+      "attack": 15.31488,
+      "defense": 54.36375,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 868.9733163,
+      "attack": 16.58601504,
+      "defense": 58.875941250000004,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 934.7681564999999,
+      "attack": 17.841835200000002,
+      "defense": 63.333768750000004,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1001.3653727999999,
+      "attack": 19.11297024,
+      "defense": 67.84596,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1067.1602129999999,
+      "attack": 20.3687904,
+      "defense": 72.30378750000001,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1133.7574293,
+      "attack": 21.639925440000003,
+      "defense": 76.81597875,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1199.5522695,
+      "attack": 22.8957456,
+      "defense": 81.27380625,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1266.1494857999999,
+      "attack": 24.166880640000002,
+      "defense": 85.78599750000001,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1332.7467021,
+      "attack": 25.438015680000003,
+      "defense": 90.29818875000001,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1398.5415423,
+      "attack": 26.693835840000002,
+      "defense": 94.75601625000002,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1465.1387586,
+      "attack": 27.964970880000003,
+      "defense": 99.2682075,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1530.9335987999998,
+      "attack": 29.220791039999998,
+      "defense": 103.726035,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1597.5308151,
+      "attack": 30.491926080000002,
+      "defense": 108.23822625000001,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1663.3256552999999,
+      "attack": 31.74774624,
+      "defense": 112.69605375,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1729.9228716,
+      "attack": 33.01888128,
+      "defense": 117.20824500000002,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1796.5200878999997,
+      "attack": 34.29001632,
+      "defense": 121.72043625,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1862.3149281,
+      "attack": 35.545836480000006,
+      "defense": 126.17826375000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1928.9121443999998,
+      "attack": 36.81697152,
+      "defense": 130.69045500000001,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 1994.7069846,
+      "attack": 38.07279168,
+      "defense": 135.14828250000002,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2061.3042008999996,
+      "attack": 39.34392672,
+      "defense": 139.66047375,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2726.5150411,
+      "attack": 52.04101488,
+      "defense": 184.73080125,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2793.1122574,
+      "attack": 53.31214992,
+      "defense": 189.2429925,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2859.7094737,
+      "attack": 54.58328496000001,
+      "defense": 193.75518375000001,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2925.5043139,
+      "attack": 55.83910512,
+      "defense": 198.21301125000002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 2992.1015302,
+      "attack": 57.110240160000004,
+      "defense": 202.72520250000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3057.8963704000003,
+      "attack": 58.36606032,
+      "defense": 207.18303000000003,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3124.4935867,
+      "attack": 59.63719536,
+      "defense": 211.69522124999997,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3190.2884269,
+      "attack": 60.893015520000006,
+      "defense": 216.15304875000004,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3256.8856432,
+      "attack": 62.16415056,
+      "defense": 220.66523999999998,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3322.6804834,
+      "attack": 63.41997072,
+      "defense": 225.1230675,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3389.2776997,
+      "attack": 64.69110576,
+      "defense": 229.63525875,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3455.874916,
+      "attack": 65.9622408,
+      "defense": 234.14745,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3521.6697562,
+      "attack": 67.21806096,
+      "defense": 238.6052775,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3588.2669725,
+      "attack": 68.489196,
+      "defense": 243.11746875,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3654.0618127,
+      "attack": 69.74501616,
+      "defense": 247.57529625,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3720.659029,
+      "attack": 71.0161512,
+      "defense": 252.0874875,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3786.4538692,
+      "attack": 72.27197136000001,
+      "defense": 256.545315,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3853.0510854999998,
+      "attack": 73.5431064,
+      "defense": 261.05750625,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 3919.6483018,
+      "attack": 74.81424144,
+      "defense": 265.5696975,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 3985.4431419999996,
+      "attack": 76.0700616,
+      "defense": 270.02752499999997,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4477.941258299999,
+      "attack": 85.47051864,
+      "defense": 303.39596625,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4543.7360985,
+      "attack": 86.7263388,
+      "defense": 307.85379375,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4610.3333148,
+      "attack": 87.99747384,
+      "defense": 312.365985,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4676.128154999999,
+      "attack": 89.253294,
+      "defense": 316.82381250000003,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4742.7253713,
+      "attack": 90.52442904,
+      "defense": 321.33600375000003,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4809.3225876,
+      "attack": 91.79556408,
+      "defense": 325.84819500000003,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4875.1174278,
+      "attack": 93.05138424,
+      "defense": 330.30602250000004,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 4941.7146440999995,
+      "attack": 94.32251928,
+      "defense": 334.81821375000004,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5007.5094843,
+      "attack": 95.57833944,
+      "defense": 339.27604125,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5074.1067006,
+      "attack": 96.84947448,
+      "defense": 343.78823250000005,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5707.7693408,
+      "attack": 108.94438964,
+      "defense": 386.72105999999997,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5774.3665571,
+      "attack": 110.21552468,
+      "defense": 391.2332512500001,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5840.963773399999,
+      "attack": 111.48665971999999,
+      "defense": 395.74544249999997,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 5906.7586136,
+      "attack": 112.74247988,
+      "defense": 400.20327,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 5973.3558299,
+      "attack": 114.01361492,
+      "defense": 404.71546125,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6039.1506701,
+      "attack": 115.26943508000001,
+      "defense": 409.17328875,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6105.7478863999995,
+      "attack": 116.54057012,
+      "defense": 413.68548,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6171.5427266,
+      "attack": 117.79639028000001,
+      "defense": 418.1433075,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6238.139942899999,
+      "attack": 119.06752532,
+      "defense": 422.65549875,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6304.737159199999,
+      "attack": 120.33866035999999,
+      "defense": 427.16769,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6796.4328994,
+      "attack": 129.72380551999998,
+      "defense": 460.4817675,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 6863.0301157,
+      "attack": 130.99494056,
+      "defense": 464.99395875000005,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 6928.8249559,
+      "attack": 132.25076072,
+      "defense": 469.45178625,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 6995.4221722,
+      "attack": 133.52189576,
+      "defense": 473.96397750000006,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7061.2170123999995,
+      "attack": 134.77771592,
+      "defense": 478.421805,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7127.8142287,
+      "attack": 136.04885096,
+      "defense": 482.93399625,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7194.411445,
+      "attack": 137.319986,
+      "defense": 487.44618750000006,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7260.2062852,
+      "attack": 138.57580616,
+      "defense": 491.904015,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7326.8035015000005,
+      "attack": 139.8469412,
+      "defense": 496.41620625,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7392.5983417,
+      "attack": 141.10276136,
+      "defense": 500.87403375,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 7885.096258,
+      "attack": 150.50321639999999,
+      "defense": 534.242475,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 7950.8910982,
+      "attack": 151.75903656,
+      "defense": 538.7003025,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8017.4883145,
+      "attack": 153.03017160000002,
+      "defense": 543.21249375,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8084.085530799999,
+      "attack": 154.30130664,
+      "defense": 547.724685,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8149.880370999999,
+      "attack": 155.5571268,
+      "defense": 552.1825125,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8216.4775873,
+      "attack": 156.82826183999998,
+      "defense": 556.6947037499999,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8282.2724275,
+      "attack": 158.08408200000002,
+      "defense": 561.15253125,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8348.869643799999,
+      "attack": 159.35521704,
+      "defense": 565.6647224999999,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8414.664484,
+      "attack": 160.6110372,
+      "defense": 570.12255,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8481.2617003,
+      "attack": 161.88217224,
+      "defense": 574.6347412499999,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 8973.759816599999,
+      "attack": 171.28263027999998,
+      "defense": 608.0031825,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9039.554656799999,
+      "attack": 172.53845044,
+      "defense": 612.46101,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9106.1518731,
+      "attack": 173.80958548,
+      "defense": 616.97320125,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9171.9467133,
+      "attack": 175.06540564,
+      "defense": 621.43102875,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9238.5439296,
+      "attack": 176.33654067999998,
+      "defense": 625.94322,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9304.3387698,
+      "attack": 177.59236084000003,
+      "defense": 630.4010475,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9370.935986100001,
+      "attack": 178.86349588000002,
+      "defense": 634.9132387500001,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9436.7308263,
+      "attack": 180.11931604,
+      "defense": 639.37106625,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9503.3280426,
+      "attack": 181.39045108,
+      "defense": 643.8832575,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9569.925258899999,
+      "attack": 182.66158612,
+      "defense": 648.39544875,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2660.7202009,
+      "attack": 50.78519472,
+      "defense": 180.27297375,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4411.344042,
+      "attack": 84.19938359999999,
+      "defense": 298.883775,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5641.9745006,
+      "attack": 107.68856948,
+      "defense": 382.2632325000001,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6730.6380592,
+      "attack": 128.46798536,
+      "defense": 456.02394000000004,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7818.499041699999,
+      "attack": 149.23208136,
+      "defense": 529.73028375,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 8907.162600299998,
+      "attack": 170.01149524,
+      "defense": 603.49099125,
+      "specialized": 0.24
+    }
+  }
+}

@@ -1,0 +1,1729 @@
+{
+  "profile": {
+    "id": 10000044,
+    "name": "Xinyan",
+    "title": "Blazing Riff",
+    "description": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+    "weaponType": "WEAPON_CLAYMORE",
+    "weaponText": "Claymore",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "10/16",
+    "birthday": "October 16",
+    "elementType": "ELEMENT_PYRO",
+    "elementText": "Pyro",
+    "affiliation": "\"The Red Strings\"",
+    "associationType": "ASSOC_LIYUE",
+    "region": "Liyue",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Fila Ignium",
+    "cv": {
+      "english": "Laura Stahl",
+      "chinese": "王雅欣",
+      "japanese": "たかはし智秋",
+      "korean": "Kim Chae-ha"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104111,
+          "name": "Agnidus Agate Sliver",
+          "count": 1
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 3
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 2
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 10
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 4
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 20
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 3
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 8
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 30
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 12
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 45
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104114,
+          "name": "Agnidus Agate Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 20
+        },
+        {
+          "id": 100034,
+          "name": "Violetgrass",
+          "count": 60
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Xinyan_Card.jpeg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Character_Xinyan_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/3deca8e73a03e779087b74ebeac883cb_7694328369896454033.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201125/2020112516125848571.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/1a30faffb4b122f778b1ab4c7c39d6bf.png",
+      "filename_icon": "UI_AvatarIcon_Xinyan",
+      "filename_iconCard": "UI_AvatarIcon_Xinyan_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Xinyan",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Xinyan",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xinyan",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xinyan.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xinyan_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Xinyan"
+    },
+    "version": "1.1"
+  },
+  "skills": {
+    "id": 4401,
+    "name": "Xinyan",
+    "combat1": {
+      "name": "Dance on Fire",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "Charged Attack Cyclic DMG|{param5:F1P}",
+          "Charged Attack Final DMG|{param6:P}",
+          "Charged Attack Stamina Cost|{param7:F1}/s",
+          "Max Duration|{param8:F1}s",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.7654,
+            0.8277,
+            0.89,
+            0.979,
+            1.0413,
+            1.1125,
+            1.2104,
+            1.3083,
+            1.4062,
+            1.513,
+            1.6198,
+            1.7266,
+            1.8334,
+            1.9402,
+            2.047
+          ],
+          "param2": [
+            0.7396,
+            0.7998,
+            0.86,
+            0.946,
+            1.0062,
+            1.075,
+            1.1696,
+            1.2642,
+            1.3588,
+            1.462,
+            1.5652,
+            1.6684,
+            1.7716,
+            1.8748,
+            1.978
+          ],
+          "param3": [
+            0.9546,
+            1.0323,
+            1.11,
+            1.221,
+            1.2987,
+            1.3875,
+            1.5096,
+            1.6317,
+            1.7538,
+            1.887,
+            2.0202,
+            2.1534,
+            2.2866,
+            2.4198,
+            2.553
+          ],
+          "param4": [
+            1.15842,
+            1.25271,
+            1.347,
+            1.4817,
+            1.57599,
+            1.68375,
+            1.83192,
+            1.98009,
+            2.12826,
+            2.2899,
+            2.45154,
+            2.61318,
+            2.77482,
+            2.93646,
+            3.0981
+          ],
+          "param5": [
+            0.625455,
+            0.676364,
+            0.727273,
+            0.8,
+            0.850909,
+            0.909091,
+            0.989091,
+            1.069091,
+            1.149091,
+            1.236364,
+            1.323636,
+            1.410909,
+            1.498182,
+            1.585455,
+            1.672727
+          ],
+          "param6": [
+            1.1309,
+            1.22295,
+            1.315,
+            1.4465,
+            1.53855,
+            1.64375,
+            1.7884,
+            1.93305,
+            2.0777,
+            2.2355,
+            2.3933,
+            2.5511,
+            2.7089,
+            2.8667,
+            3.0245
+          ],
+          "param7": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "param8": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param9": [
+            0.745878,
+            0.806589,
+            0.8673,
+            0.95403,
+            1.014741,
+            1.084125,
+            1.179528,
+            1.274931,
+            1.370334,
+            1.47441,
+            1.578486,
+            1.682562,
+            1.786638,
+            1.890714,
+            1.99479
+          ],
+          "param10": [
+            1.49144,
+            1.612836,
+            1.734233,
+            1.907656,
+            2.029052,
+            2.167791,
+            2.358556,
+            2.549322,
+            2.740087,
+            2.948195,
+            3.156303,
+            3.364411,
+            3.572519,
+            3.780627,
+            3.988735
+          ],
+          "param11": [
+            1.862889,
+            2.01452,
+            2.16615,
+            2.382765,
+            2.534396,
+            2.707688,
+            2.945964,
+            3.184241,
+            3.422517,
+            3.682455,
+            3.942393,
+            4.202331,
+            4.462269,
+            4.722207,
+            4.982145
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Sweeping Fervor",
+      "descriptionRaw": "Xinyan brandishes her instrument, dealing <color=#FF9999FF>Pyro DMG</color> on nearby opponents, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\n·Hitting 0–1 opponents grants Shield Level 1: Ad Lib.\n·Hitting 2 opponents grants Shield Level 2: Lead-In.\n·Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\n\nThe shield has the following special properties:\n·When unleashed, it infuses Xinyan with <color=#FF9999FF>Pyro</color>.\n·It has 250% DMG Absorption effectiveness against <color=#FF9999FF>Pyro DMG</color>.\n\n<i>Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.</i>",
+      "description": "Xinyan brandishes her instrument, dealing Pyro DMG on nearby opponents, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\n·Hitting 0–1 opponents grants Shield Level 1: Ad Lib.\n·Hitting 2 opponents grants Shield Level 2: Lead-In.\n·Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent Pyro DMG to nearby opponents.\n\nThe shield has the following special properties:\n·When unleashed, it infuses Xinyan with Pyro.\n·It has 250% DMG Absorption effectiveness against Pyro DMG.",
+      "flavorText": "Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.",
+      "attributes": {
+        "labels": [
+          "Swing DMG|{param1:P}",
+          "Shield Level 1 DMG Absorption|{param2:F1P} DEF+{param3:I}",
+          "Shield Level 2 DMG Absorption|{param4:F1P} DEF+{param5:I}",
+          "Shield Level 3 DMG Absorption|{param6:F1P} DEF+{param7:I}",
+          "DoT|{param8:F1P}",
+          "Shield Duration|{param9:F1}s",
+          "CD|{param10:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.696,
+            1.8232,
+            1.9504,
+            2.12,
+            2.2472,
+            2.3744,
+            2.544,
+            2.7136,
+            2.8832,
+            3.0528,
+            3.2224,
+            3.392,
+            3.604,
+            3.816,
+            4.028
+          ],
+          "param2": [
+            1.0404,
+            1.11843,
+            1.19646,
+            1.3005,
+            1.37853,
+            1.45656,
+            1.5606,
+            1.66464,
+            1.76868,
+            1.87272,
+            1.97676,
+            2.0808,
+            2.21085,
+            2.3409,
+            2.47095
+          ],
+          "param3": [
+            500.55273,
+            550.615,
+            604.84906,
+            663.255,
+            725.83276,
+            792.58246,
+            863.5039,
+            938.5973,
+            1017.8625,
+            1101.2996,
+            1188.9084,
+            1280.6892,
+            1376.6418,
+            1476.7662,
+            1581.0626
+          ],
+          "param4": [
+            1.224,
+            1.3158,
+            1.4076,
+            1.53,
+            1.6218,
+            1.7136,
+            1.836,
+            1.9584,
+            2.0808,
+            2.2032,
+            2.3256,
+            2.448,
+            2.601,
+            2.754,
+            2.907
+          ],
+          "param5": [
+            588.88556,
+            647.78235,
+            711.58716,
+            780.3,
+            853.92096,
+            932.44995,
+            1015.88696,
+            1104.232,
+            1197.4852,
+            1295.6465,
+            1398.7158,
+            1506.6931,
+            1619.5786,
+            1737.3721,
+            1860.0736
+          ],
+          "param6": [
+            1.44,
+            1.548,
+            1.656,
+            1.8,
+            1.908,
+            2.016,
+            2.16,
+            2.304,
+            2.448,
+            2.592,
+            2.736,
+            2.88,
+            3.06,
+            3.24,
+            3.42
+          ],
+          "param7": [
+            692.8066,
+            762.09686,
+            837.1613,
+            918,
+            1004.61285,
+            1096.9999,
+            1195.1611,
+            1299.0966,
+            1408.8062,
+            1524.29,
+            1645.548,
+            1772.5802,
+            1905.3866,
+            2043.9672,
+            2188.322
+          ],
+          "param8": [
+            0.336,
+            0.3612,
+            0.3864,
+            0.42,
+            0.4452,
+            0.4704,
+            0.504,
+            0.5376,
+            0.5712,
+            0.6048,
+            0.6384,
+            0.672,
+            0.714,
+            0.756,
+            0.798
+          ],
+          "param9": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param10": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Riff Revolution",
+      "descriptionRaw": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\nThe sheer intensity of the atmosphere will cause explosions that deal <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\n\n<i>Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"</i>",
+      "description": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\nThe sheer intensity of the atmosphere will cause explosions that deal Pyro DMG to nearby opponents.",
+      "flavorText": "Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}",
+          "Pyro DoT|{param2:P}",
+          "Duration|{param5:F1}s",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            3.408,
+            3.6636,
+            3.9192,
+            4.26,
+            4.5156,
+            4.7712,
+            5.112,
+            5.4528,
+            5.7936,
+            6.1344,
+            6.4752,
+            6.816,
+            7.242,
+            7.668,
+            8.094
+          ],
+          "param2": [
+            0.4,
+            0.43,
+            0.46,
+            0.5,
+            0.53,
+            0.56,
+            0.6,
+            0.64,
+            0.68,
+            0.72,
+            0.76,
+            0.8,
+            0.85,
+            0.9,
+            0.95
+          ],
+          "param3": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param4": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "param5": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "\"The Show Goes On, Even Without an Audience...\"",
+      "descriptionRaw": "Decreases the number of opponents <color=#FFD780FF>Sweeping Fervor</color> must hit to trigger each level of shielding.\n·Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\n·Shield Level 3: Rave requirement reduced to 2 opponents hit or more.",
+      "description": "Decreases the number of opponents Sweeping Fervor must hit to trigger each level of shielding.\n·Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\n·Shield Level 3: Rave requirement reduced to 2 opponents hit or more."
+    },
+    "passive2": {
+      "name": "\"...Now That's Rock 'N' Roll!\"",
+      "descriptionRaw": "Characters shielded by <color=#FFD780FF>Sweeping Fervor</color> deal 15% increased Physical DMG.",
+      "description": "Characters shielded by Sweeping Fervor deal 15% increased Physical DMG."
+    },
+    "passive3": {
+      "name": "A Rad Recipe",
+      "descriptionRaw": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product.",
+      "description": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104316,
+          "name": "Teachings of Gold",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 2
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 4
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 6
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104317,
+          "name": "Guide to Gold",
+          "count": 9
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 4
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 4
+        },
+        {
+          "id": 113013,
+          "name": "Tusk of Monoceros Caeli",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 6
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 6
+        },
+        {
+          "id": 113013,
+          "name": "Tusk of Monoceros Caeli",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 12
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 9
+        },
+        {
+          "id": 113013,
+          "name": "Tusk of Monoceros Caeli",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104318,
+          "name": "Philosophies of Gold",
+          "count": 16
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        },
+        {
+          "id": 113013,
+          "name": "Tusk of Monoceros Caeli",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_04",
+      "filename_combat2": "Skill_S_Xinyan_01",
+      "filename_combat3": "Skill_E_Xinyan_01_HD",
+      "filename_passive1": "UI_Talent_S_Xinyan_05",
+      "filename_passive2": "UI_Talent_S_Xinyan_06",
+      "filename_passive3": "UI_Talent_Cook_Defense"
+    },
+    "version": "1.1"
+  },
+  "constellation": {
+    "id": 4401,
+    "name": "Xinyan",
+    "c1": {
+      "name": "Fatal Acceleration",
+      "descriptionRaw": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\nCan only occur once every 5s.",
+      "description": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\nCan only occur once every 5s."
+    },
+    "c2": {
+      "name": "Impromptu Opening",
+      "descriptionRaw": "<color=#FFD780FF>Riff Revolution</color>'s Physical DMG has its CRIT Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.",
+      "description": "Riff Revolution's Physical DMG has its CRIT Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast."
+    },
+    "c3": {
+      "name": "Double-Stop",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Sweeping Fervor</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Sweeping Fervor by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Wildfire Rhythm",
+      "descriptionRaw": "<color=#FFD780FF>Sweeping Fervor</color>'s swing DMG decreases opponent's Physical RES by 15% for 12s.",
+      "description": "Sweeping Fervor's swing DMG decreases opponent's Physical RES by 15% for 12s."
+    },
+    "c5": {
+      "name": "Screamin' for an Encore",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Riff Revolution</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Riff Revolution by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Rockin' in a Flaming World",
+      "descriptionRaw": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF.",
+      "description": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Xinyan_01",
+      "filename_c2": "UI_Talent_S_Xinyan_02",
+      "filename_c3": "UI_Talent_U_Xinyan_01",
+      "filename_c4": "UI_Talent_S_Xinyan_03",
+      "filename_c5": "UI_Talent_U_Xinyan_02",
+      "filename_c6": "UI_Talent_S_Xinyan_04",
+      "filename_constellation": "Eff_UI_Talent_Xinyan"
+    },
+    "version": "1.1"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 939.1447,
+      "attack": 20.83536,
+      "defense": 66.95325,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1017.0937101,
+      "attack": 22.56469488,
+      "defense": 72.51036975,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1094.1035755,
+      "attack": 24.2731944,
+      "defense": 78.00053625,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1172.0525856,
+      "attack": 26.00252928,
+      "defense": 83.557656,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1249.062451,
+      "attack": 27.711028800000005,
+      "defense": 89.0478225,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1327.0114611,
+      "attack": 29.440363680000004,
+      "defense": 94.60494225,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1404.0213265,
+      "attack": 31.148863200000005,
+      "defense": 100.09510875000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1481.9703365999999,
+      "attack": 32.878198080000004,
+      "defense": 105.6522285,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1559.9193467,
+      "attack": 34.60753296,
+      "defense": 111.20934824999999,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1636.9292121,
+      "attack": 36.316032480000004,
+      "defense": 116.69951475,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1714.8782222,
+      "attack": 38.04536736000001,
+      "defense": 122.2566345,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1791.8880875999998,
+      "attack": 39.753866880000004,
+      "defense": 127.74680099999999,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1869.8370977,
+      "attack": 41.48320176000001,
+      "defense": 133.30392075,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1946.8469630999998,
+      "attack": 43.191701280000004,
+      "defense": 138.79408725,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2024.7959732,
+      "attack": 44.92103616000001,
+      "defense": 144.35120700000002,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2102.7449832999996,
+      "attack": 46.65037104,
+      "defense": 149.90832675,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2179.7548487,
+      "attack": 48.35887056000001,
+      "defense": 155.39849325,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2257.7038587999996,
+      "attack": 50.08820544,
+      "defense": 160.955613,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2334.7137242,
+      "attack": 51.79670496000001,
+      "defense": 166.44577950000001,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2412.6627343,
+      "attack": 53.52603984,
+      "defense": 172.00289924999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3191.2617996999998,
+      "attack": 70.79998536,
+      "defense": 227.51056574999996,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3269.2108098,
+      "attack": 72.52932024,
+      "defense": 233.06768549999998,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3347.1598199,
+      "attack": 74.25865512,
+      "defense": 238.62480525,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3424.1696853,
+      "attack": 75.96715464,
+      "defense": 244.11497175,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3502.1186954,
+      "attack": 77.69648952,
+      "defense": 249.67209150000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3579.1285608,
+      "attack": 79.40498904,
+      "defense": 255.162258,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3657.0775708999995,
+      "attack": 81.13432392,
+      "defense": 260.71937775,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3734.0874363,
+      "attack": 82.84282344,
+      "defense": 266.20954425,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3812.0364463999995,
+      "attack": 84.57215832,
+      "defense": 271.766664,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3889.0463118,
+      "attack": 86.28065784,
+      "defense": 277.2568305,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3966.9953218999995,
+      "attack": 88.00999272,
+      "defense": 282.81395025,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4044.9443319999996,
+      "attack": 89.7393276,
+      "defense": 288.37107,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4121.954197399999,
+      "attack": 91.44782712,
+      "defense": 293.86123649999996,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4199.9032075,
+      "attack": 93.177162,
+      "defense": 299.41835625,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4276.9130729,
+      "attack": 94.88566152,
+      "defense": 304.90852275,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4354.862083,
+      "attack": 96.6149964,
+      "defense": 310.4656425,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4431.8719484,
+      "attack": 98.32349592,
+      "defense": 315.955809,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4509.8209584999995,
+      "attack": 100.0528308,
+      "defense": 321.51292874999996,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4587.7699686,
+      "attack": 101.78216567999999,
+      "defense": 327.0700485,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4664.779834,
+      "attack": 103.4906652,
+      "defense": 332.56021499999997,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5241.2264441,
+      "attack": 116.27965908000002,
+      "defense": 373.65608475,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5318.236309499999,
+      "attack": 117.9881586,
+      "defense": 379.14625125,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5396.1853196,
+      "attack": 119.71749348000002,
+      "defense": 384.70337099999995,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5473.195185,
+      "attack": 121.425993,
+      "defense": 390.19353749999993,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5551.1441951,
+      "attack": 123.15532788000002,
+      "defense": 395.75065725,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5629.0932052,
+      "attack": 124.88466276000001,
+      "defense": 401.307777,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5706.1030706,
+      "attack": 126.59316228000002,
+      "defense": 406.7979435,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5784.0520807,
+      "attack": 128.32249716,
+      "defense": 412.35506325000006,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5861.0619461,
+      "attack": 130.03099668000002,
+      "defense": 417.84522975000004,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5939.0109562,
+      "attack": 131.76033156,
+      "defense": 423.4023495,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6680.6842216000005,
+      "attack": 148.21504608,
+      "defense": 476.277516,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6758.6332317,
+      "attack": 149.94438096000002,
+      "defense": 481.83463574999996,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6836.582241799999,
+      "attack": 151.67371584,
+      "defense": 487.39175549999993,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6913.5921072,
+      "attack": 153.38221536000003,
+      "defense": 492.88192200000003,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6991.541117299999,
+      "attack": 155.11155023999999,
+      "defense": 498.43904175,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7068.5509827000005,
+      "attack": 156.82004976000002,
+      "defense": 503.92920825,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7146.4999928,
+      "attack": 158.54938464,
+      "defense": 509.48632799999996,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7223.509858199999,
+      "attack": 160.25788416,
+      "defense": 514.9764945000001,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7301.4588683,
+      "attack": 161.98721904,
+      "defense": 520.5336142499999,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7379.407878399999,
+      "attack": 163.71655392000002,
+      "defense": 526.090734,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7954.915343799999,
+      "attack": 176.48471044000001,
+      "defense": 567.1196504999999,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8032.8643538999995,
+      "attack": 178.21404532000003,
+      "defense": 572.67677025,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8109.8742193,
+      "attack": 179.92254484,
+      "defense": 578.16693675,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8187.8232294,
+      "attack": 181.65187972,
+      "defense": 583.7240565,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8264.8330948,
+      "attack": 183.36037924,
+      "defense": 589.214223,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8342.7821049,
+      "attack": 185.08971412,
+      "defense": 594.7713427499999,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8420.731114999999,
+      "attack": 186.819049,
+      "defense": 600.3284625,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 8497.7409804,
+      "attack": 188.52754851999998,
+      "defense": 605.818629,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 8575.6899905,
+      "attack": 190.2568834,
+      "defense": 611.37574875,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 8652.699855899999,
+      "attack": 191.96538292000002,
+      "defense": 616.86591525,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9229.146465999998,
+      "attack": 204.75437580000002,
+      "defense": 657.961785,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 9306.1563314,
+      "attack": 206.46287532000002,
+      "defense": 663.4519515,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 9384.105341499999,
+      "attack": 208.1922102,
+      "defense": 669.00907125,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 9462.0543516,
+      "attack": 209.92154508,
+      "defense": 674.5661909999999,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 9539.064217,
+      "attack": 211.63004460000002,
+      "defense": 680.0563575,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 9617.0132271,
+      "attack": 213.35937948,
+      "defense": 685.61347725,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 9694.0230925,
+      "attack": 215.067879,
+      "defense": 691.10364375,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9771.972102599999,
+      "attack": 216.79721388,
+      "defense": 696.6607635,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 9848.981968,
+      "attack": 218.50571340000002,
+      "defense": 702.15093,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9926.9309781,
+      "attack": 220.23504828,
+      "defense": 707.70804975,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 10503.377588199999,
+      "attack": 233.02403816000003,
+      "defense": 748.8039194999999,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 10580.387453599998,
+      "attack": 234.73253768,
+      "defense": 754.294086,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 10658.3364637,
+      "attack": 236.46187256000002,
+      "defense": 759.85120575,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 10735.346329099999,
+      "attack": 238.17037208,
+      "defense": 765.34137225,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 10813.2953392,
+      "attack": 239.89970696,
+      "defense": 770.898492,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 10890.3052046,
+      "attack": 241.60820648000004,
+      "defense": 776.3886585,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10968.2542147,
+      "attack": 243.33754136000005,
+      "defense": 781.94577825,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 11045.2640801,
+      "attack": 245.04604088000002,
+      "defense": 787.43594475,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 11123.213090199999,
+      "attack": 246.77537576000003,
+      "defense": 792.9930645,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11201.1621003,
+      "attack": 248.50471064000004,
+      "defense": 798.55018425,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3114.2519343,
+      "attack": 69.09148584,
+      "defense": 222.02039924999997,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5163.277434,
+      "attack": 114.5503242,
+      "defense": 368.098965,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6603.674356199999,
+      "attack": 146.50654656,
+      "defense": 470.7873495,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7877.9054784,
+      "attack": 174.77621092,
+      "defense": 561.6294839999999,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9151.1974559,
+      "attack": 203.02504092,
+      "defense": 652.40466525,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10425.4285781,
+      "attack": 231.29470328000002,
+      "defense": 743.24679975,
+      "specialized": 0.24
+    }
+  }
+}

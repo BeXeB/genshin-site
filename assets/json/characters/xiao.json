@@ -1,0 +1,1622 @@
+{
+  "profile": {
+    "id": 10000026,
+    "name": "Xiao",
+    "title": "Vigilant Yaksha",
+    "description": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
+    "weaponType": "WEAPON_POLE",
+    "weaponText": "Polearm",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "4/17",
+    "birthday": "April 17",
+    "elementType": "ELEMENT_ANEMO",
+    "elementText": "Anemo",
+    "affiliation": "Liyue Adeptus",
+    "associationType": "ASSOC_LIYUE",
+    "region": "Liyue",
+    "substatType": "FIGHT_PROP_CRITICAL",
+    "substatText": "CRIT Rate",
+    "constellation": "Alatus Nemeseos",
+    "cv": {
+      "english": "Laila Berzins",
+      "chinese": "kinsen",
+      "japanese": "松岡禎丞",
+      "korean": "Shim Kyu-hyeok"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104151,
+          "name": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": 113016,
+          "name": "Juvenile Jade",
+          "count": 2
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 10
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": 113016,
+          "name": "Juvenile Jade",
+          "count": 4
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 20
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": 113016,
+          "name": "Juvenile Jade",
+          "count": 8
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 30
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": 113016,
+          "name": "Juvenile Jade",
+          "count": 12
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 45
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104154,
+          "name": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113016,
+          "name": "Juvenile Jade",
+          "count": 20
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 60
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Character_Xiao_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/930f3ce55517e3c711a962c82e4639c0_8691377287489555826.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/20/f39029c2d532da642a6a26e939342cfe_5885839034097905642.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/59cb768b56ebc0143d6d2e37385c934c.png",
+      "filename_icon": "UI_AvatarIcon_Xiao",
+      "filename_iconCard": "UI_AvatarIcon_Xiao_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Xiao",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Xiao",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xiao",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xiao.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiao_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Xiao"
+    },
+    "version": "1.3"
+  },
+  "skills": {
+    "id": 2601,
+    "name": "Xiao",
+    "combat1": {
+      "name": "Whirlwind Thrust",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to perform an upward thrust.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\nXiao does not take DMG from performing Plunging Attacks.",
+      "description": "Normal Attack\nPerforms up to 6 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform an upward thrust.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\nXiao does not take DMG from performing Plunging Attacks.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}+{param2:F1P}",
+          "2-Hit DMG|{param3:F1P}",
+          "3-Hit DMG|{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}+{param6:F1P}",
+          "5-Hit DMG|{param7:F1P}",
+          "6-Hit DMG|{param8:F1P}",
+          "Charged Attack DMG|{param9:P}",
+          "Charged Attack Stamina Cost|{param10:F1}",
+          "Plunge DMG|{param11:P}",
+          "Low/High Plunge DMG|{param12:P}/{param13:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.27544,
+            0.29422,
+            0.313,
+            0.33804,
+            0.35682,
+            0.37873,
+            0.4069,
+            0.43507,
+            0.46324,
+            0.49141,
+            0.51958,
+            0.54775,
+            0.57592,
+            0.60409,
+            0.63226
+          ],
+          "param2": [
+            0.27544,
+            0.29422,
+            0.313,
+            0.33804,
+            0.35682,
+            0.37873,
+            0.4069,
+            0.43507,
+            0.46324,
+            0.49141,
+            0.51958,
+            0.54775,
+            0.57592,
+            0.60409,
+            0.63226
+          ],
+          "param3": [
+            0.56936,
+            0.60818,
+            0.647,
+            0.69876,
+            0.73758,
+            0.78287,
+            0.8411,
+            0.89933,
+            0.95756,
+            1.01579,
+            1.07402,
+            1.13225,
+            1.19048,
+            1.24871,
+            1.30694
+          ],
+          "param4": [
+            0.68552,
+            0.73226,
+            0.779,
+            0.84132,
+            0.88806,
+            0.94259,
+            1.0127,
+            1.08281,
+            1.15292,
+            1.22303,
+            1.29314,
+            1.36325,
+            1.43336,
+            1.50347,
+            1.57358
+          ],
+          "param5": [
+            0.37664,
+            0.40232,
+            0.428,
+            0.46224,
+            0.48792,
+            0.51788,
+            0.5564,
+            0.59492,
+            0.63344,
+            0.67196,
+            0.71048,
+            0.749,
+            0.78752,
+            0.82604,
+            0.86456
+          ],
+          "param6": [
+            0.37664,
+            0.40232,
+            0.428,
+            0.46224,
+            0.48792,
+            0.51788,
+            0.5564,
+            0.59492,
+            0.63344,
+            0.67196,
+            0.71048,
+            0.749,
+            0.78752,
+            0.82604,
+            0.86456
+          ],
+          "param7": [
+            0.71544,
+            0.76422,
+            0.813,
+            0.87804,
+            0.92682,
+            0.98373,
+            1.0569,
+            1.13007,
+            1.20324,
+            1.27641,
+            1.34958,
+            1.42275,
+            1.49592,
+            1.56909,
+            1.64226
+          ],
+          "param8": [
+            0.95832,
+            1.02366,
+            1.089,
+            1.17612,
+            1.24146,
+            1.31769,
+            1.4157,
+            1.51371,
+            1.61172,
+            1.70973,
+            1.80774,
+            1.90575,
+            2.00376,
+            2.10177,
+            2.19978
+          ],
+          "param9": [
+            1.21088,
+            1.29344,
+            1.376,
+            1.48608,
+            1.56864,
+            1.66496,
+            1.7888,
+            1.91264,
+            2.03648,
+            2.16032,
+            2.28416,
+            2.408,
+            2.53184,
+            2.65568,
+            2.77952
+          ],
+          "param10": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param11": [
+            0.818335,
+            0.884943,
+            0.951552,
+            1.046707,
+            1.113316,
+            1.18944,
+            1.294111,
+            1.398781,
+            1.503452,
+            1.617638,
+            1.731825,
+            1.846011,
+            1.960197,
+            2.074383,
+            2.18857
+          ],
+          "param12": [
+            1.636323,
+            1.769512,
+            1.902701,
+            2.092971,
+            2.22616,
+            2.378376,
+            2.587673,
+            2.79697,
+            3.006267,
+            3.234591,
+            3.462915,
+            3.69124,
+            3.919564,
+            4.147888,
+            4.376212
+          ],
+          "param13": [
+            2.043855,
+            2.210216,
+            2.376576,
+            2.614234,
+            2.780594,
+            2.97072,
+            3.232143,
+            3.493567,
+            3.75499,
+            4.040179,
+            4.325368,
+            4.610557,
+            4.895747,
+            5.180936,
+            5.466125
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Lemniscatic Wind Cycling",
+      "descriptionRaw": "Xiao lunges forward, dealing <color=#80FFD7FF>Anemo DMG</color> to opponents in his path.\nCan be used in mid-air.\nStarts with 2 charges.\n\n<i>According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.</i>",
+      "description": "Xiao lunges forward, dealing Anemo DMG to opponents in his path.\nCan be used in mid-air.\nStarts with 2 charges.",
+      "flavorText": "According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}",
+          "CD|{param2:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            2.528,
+            2.7176,
+            2.9072,
+            3.16,
+            3.3496,
+            3.5392,
+            3.792,
+            4.0448,
+            4.2976,
+            4.5504,
+            4.8032,
+            5.056,
+            5.372,
+            5.688,
+            6.004
+          ],
+          "param2": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Bane of All Evil",
+      "descriptionRaw": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\n<color=#FFD780FF>Yaksha's Mask</color>\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into <color=#80FFD7FF>Anemo DMG</color>, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.\n\n<i>Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"</i>",
+      "description": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\nYaksha's Mask\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into Anemo DMG, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.",
+      "flavorText": "Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"",
+      "attributes": {
+        "labels": [
+          "Normal/Charged/Plunging Attack DMG Bonus|{param1:F1P}",
+          "Life Drain|{param2:F1P} Current HP Per Second",
+          "Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.5845,
+            0.6195,
+            0.6545,
+            0.7,
+            0.735,
+            0.77,
+            0.8155,
+            0.861,
+            0.9065,
+            0.952,
+            0.9975,
+            1.043,
+            1.0885,
+            1.134,
+            1.1795
+          ],
+          "param2": [
+            0.03,
+            0.03,
+            0.03,
+            0.025,
+            0.025,
+            0.025,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02
+          ],
+          "param3": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param4": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param5": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Conqueror of Evil: Tamer of Demons",
+      "descriptionRaw": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\nThe maximum DMG Bonus is 25%.",
+      "description": "While under the effects of Bane of All Evil, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\nThe maximum DMG Bonus is 25%."
+    },
+    "passive2": {
+      "name": "Dissolution Eon: Heaven Fall",
+      "descriptionRaw": "Using <color=#FFD780FF>Lemniscatic Wind Cycling</color> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.",
+      "description": "Using Lemniscatic Wind Cycling increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration."
+    },
+    "passive3": {
+      "name": "Transcension: Gravity Defier",
+      "descriptionRaw": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "description": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104310,
+          "name": "Teachings of Prosperity",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 2
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 4
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 6
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104311,
+          "name": "Guide to Prosperity",
+          "count": 9
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 4
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 4
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 6
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 6
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 12
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 9
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104312,
+          "name": "Philosophies of Prosperity",
+          "count": 16
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_03",
+      "filename_combat2": "Skill_S_Xiao_01",
+      "filename_combat3": "Skill_E_Xiao_01_HD",
+      "filename_passive1": "UI_Talent_S_Xiao_05",
+      "filename_passive2": "UI_Talent_S_Xiao_06",
+      "filename_passive3": "UI_Talent_Explosion_Climb"
+    },
+    "version": "1.3"
+  },
+  "constellation": {
+    "id": 2601,
+    "name": "Xiao",
+    "c1": {
+      "name": "Dissolution Eon: Destroyer of Worlds",
+      "descriptionRaw": "Increases <color=#FFD780FF>Lemniscatic Wind Cycling</color>'s charges by 1.",
+      "description": "Increases Lemniscatic Wind Cycling's charges by 1."
+    },
+    "c2": {
+      "name": "Annihilation Eon: Blossom of Kaleidos",
+      "descriptionRaw": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%.",
+      "description": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%."
+    },
+    "c3": {
+      "name": "Conqueror of Evil: Wrath Deity",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Lemniscatic Wind Cycling</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Lemniscatic Wind Cycling by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Transcension: Extinction of Suffering",
+      "descriptionRaw": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus.",
+      "description": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus."
+    },
+    "c5": {
+      "name": "Evolution Eon: Origin of Ignorance",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Bane of All Evil</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Bane of All Evil by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Conqueror of Evil: Guardian Yaksha",
+      "descriptionRaw": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of <color=#FFD780FF>Lemniscatic Wind Cycling</color>, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD.",
+      "description": "While under the effects of Bane of All Evil, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of Lemniscatic Wind Cycling, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Xiao_01",
+      "filename_c2": "UI_Talent_S_Xiao_02",
+      "filename_c3": "UI_Talent_U_Xiao_01",
+      "filename_c4": "UI_Talent_S_Xiao_03",
+      "filename_c5": "UI_Talent_U_Xiao_02",
+      "filename_c6": "UI_Talent_S_Xiao_04",
+      "filename_constellation": "Eff_UI_Talent_Xiao"
+    },
+    "version": "1.3"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 991.4528,
+      "attack": 27.1852,
+      "defense": 62.2232,
+      "specialized": 0.05
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1073.7433824,
+      "attack": 29.441571599999996,
+      "defense": 67.3877256,
+      "specialized": 0.05
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1156.0339648,
+      "attack": 31.697943199999997,
+      "defense": 72.5522512,
+      "specialized": 0.05
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1239.316,
+      "attack": 33.9815,
+      "defense": 77.779,
+      "specialized": 0.05
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1321.6065824,
+      "attack": 36.2378716,
+      "defense": 82.9435256,
+      "specialized": 0.05
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1404.8886176,
+      "attack": 38.5214284,
+      "defense": 88.1702744,
+      "specialized": 0.05
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1487.1792,
+      "attack": 40.7778,
+      "defense": 93.3348,
+      "specialized": 0.05
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1570.4612352000001,
+      "attack": 43.0613568,
+      "defense": 98.5615488,
+      "specialized": 0.05
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1653.7432704,
+      "attack": 45.3449136,
+      "defense": 103.78829759999999,
+      "specialized": 0.05
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1736.0338528,
+      "attack": 47.60128519999999,
+      "defense": 108.9528232,
+      "specialized": 0.05
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1819.315888,
+      "attack": 49.884842,
+      "defense": 114.179572,
+      "specialized": 0.05
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1902.5979232000002,
+      "attack": 52.1683988,
+      "defense": 119.4063208,
+      "specialized": 0.05
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1985.8799584,
+      "attack": 54.4519556,
+      "defense": 124.6330696,
+      "specialized": 0.05
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2070.1534464,
+      "attack": 56.762697599999996,
+      "defense": 129.9220416,
+      "specialized": 0.05
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2153.4354816,
+      "attack": 59.0462544,
+      "defense": 135.1487904,
+      "specialized": 0.05
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2236.7175168,
+      "attack": 61.32981119999999,
+      "defense": 140.3755392,
+      "specialized": 0.05
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2320.9910048,
+      "attack": 63.6405532,
+      "defense": 145.66451120000002,
+      "specialized": 0.05
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2404.27304,
+      "attack": 65.92410999999998,
+      "defense": 150.89126,
+      "specialized": 0.05
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2488.546528,
+      "attack": 68.23485199999999,
+      "defense": 156.180232,
+      "specialized": 0.05
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2571.8285631999997,
+      "attack": 70.51840879999999,
+      "defense": 161.40698079999999,
+      "specialized": 0.05
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3506.1831512,
+      "attack": 96.13629879999999,
+      "defense": 220.0479528,
+      "specialized": 0.05
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3590.4566391999997,
+      "attack": 98.44704079999998,
+      "defense": 225.3369248,
+      "specialized": 0.05
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3674.7301272,
+      "attack": 100.7577828,
+      "defense": 230.62589680000002,
+      "specialized": 0.05
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3759.0036152000002,
+      "attack": 103.06852479999999,
+      "defense": 235.91486880000002,
+      "specialized": 0.05
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3843.2771032,
+      "attack": 105.3792668,
+      "defense": 241.2038408,
+      "specialized": 0.05
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3928.542044,
+      "attack": 107.71719399999999,
+      "defense": 246.555036,
+      "specialized": 0.05
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4012.815532,
+      "attack": 110.027936,
+      "defense": 251.844008,
+      "specialized": 0.05
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4097.08902,
+      "attack": 112.33867799999999,
+      "defense": 257.13298,
+      "specialized": 0.05
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4182.3539608,
+      "attack": 114.6766052,
+      "defense": 262.4841752,
+      "specialized": 0.05
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4266.6274488,
+      "attack": 116.9873472,
+      "defense": 267.7731472,
+      "specialized": 0.05
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4351.892389600001,
+      "attack": 119.3252744,
+      "defense": 273.1243424,
+      "specialized": 0.05
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4437.1573304,
+      "attack": 121.6632016,
+      "defense": 278.4755376,
+      "specialized": 0.05
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4522.4222712,
+      "attack": 124.00112879999999,
+      "defense": 283.8267328,
+      "specialized": 0.05
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4606.695759200001,
+      "attack": 126.3118708,
+      "defense": 289.1157048,
+      "specialized": 0.05
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4691.9607000000005,
+      "attack": 128.649798,
+      "defense": 294.4669,
+      "specialized": 0.05
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4778.2170936,
+      "attack": 131.0149104,
+      "defense": 299.8803184,
+      "specialized": 0.05
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4863.4820344,
+      "attack": 133.3528376,
+      "defense": 305.23151359999997,
+      "specialized": 0.05
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4948.746975200001,
+      "attack": 135.6907648,
+      "defense": 310.5827088,
+      "specialized": 0.05
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5034.011916,
+      "attack": 138.02869199999998,
+      "defense": 315.9339039999999,
+      "specialized": 0.05
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5120.268309600001,
+      "attack": 140.39380440000002,
+      "defense": 321.3473224,
+      "specialized": 0.05
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5809.538350399999,
+      "attack": 159.29207359999998,
+      "defense": 364.60651759999996,
+      "specialized": 0.098
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5895.794744000001,
+      "attack": 161.657186,
+      "defense": 370.01993600000003,
+      "specialized": 0.098
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5982.0511376,
+      "attack": 164.02229839999998,
+      "defense": 375.4333544,
+      "specialized": 0.098
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6067.316078399999,
+      "attack": 166.36022559999998,
+      "defense": 380.78454959999993,
+      "specialized": 0.098
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6153.572472,
+      "attack": 168.725338,
+      "defense": 386.197968,
+      "specialized": 0.098
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6239.8288655999995,
+      "attack": 171.09045039999998,
+      "defense": 391.61138639999996,
+      "specialized": 0.098
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6326.085259199999,
+      "attack": 173.4555628,
+      "defense": 397.02480479999997,
+      "specialized": 0.098
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6412.3416528,
+      "attack": 175.8206752,
+      "defense": 402.4382232,
+      "specialized": 0.098
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6499.5894992,
+      "attack": 178.21297280000002,
+      "defense": 407.9138648,
+      "specialized": 0.098
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6585.8458928,
+      "attack": 180.5780852,
+      "defense": 413.3272832,
+      "specialized": 0.098
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7477.4423864,
+      "attack": 205.0236526,
+      "defense": 469.28470159999995,
+      "specialized": 0.14600000000000002
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7564.690232800001,
+      "attack": 207.4159502,
+      "defense": 474.76034319999997,
+      "specialized": 0.14600000000000002
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7650.9466264,
+      "attack": 209.78106259999998,
+      "defense": 480.1737615999999,
+      "specialized": 0.14600000000000002
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7738.1944728,
+      "attack": 212.1733602,
+      "defense": 485.64940319999994,
+      "specialized": 0.14600000000000002
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7825.4423192,
+      "attack": 214.5656578,
+      "defense": 491.12504479999996,
+      "specialized": 0.14600000000000002
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7912.6901656,
+      "attack": 216.9579554,
+      "defense": 496.6006864,
+      "specialized": 0.14600000000000002
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7999.9380120000005,
+      "attack": 219.350253,
+      "defense": 502.076328,
+      "specialized": 0.14600000000000002
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8087.1858584,
+      "attack": 221.7425506,
+      "defense": 507.5519696,
+      "specialized": 0.14600000000000002
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8174.433704800001,
+      "attack": 224.1348482,
+      "defense": 513.0276112,
+      "specialized": 0.14600000000000002
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8261.6815512,
+      "attack": 226.5271458,
+      "defense": 518.5032528,
+      "specialized": 0.14600000000000002
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8952.9342976,
+      "attack": 245.4797844,
+      "defense": 561.8868944000001,
+      "specialized": 0.14600000000000002
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 9040.182144,
+      "attack": 247.872082,
+      "defense": 567.3625360000001,
+      "specialized": 0.14600000000000002
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9128.4214432,
+      "attack": 250.29156479999997,
+      "defense": 572.9004007999999,
+      "specialized": 0.14600000000000002
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9215.6692896,
+      "attack": 252.68386239999998,
+      "defense": 578.3760424,
+      "specialized": 0.14600000000000002
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9303.9085888,
+      "attack": 255.1033452,
+      "defense": 583.9139072,
+      "specialized": 0.14600000000000002
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9392.147888,
+      "attack": 257.522828,
+      "defense": 589.451772,
+      "specialized": 0.14600000000000002
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9479.395734400001,
+      "attack": 259.9151256,
+      "defense": 594.9274135999999,
+      "specialized": 0.14600000000000002
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9567.6350336,
+      "attack": 262.3346084,
+      "defense": 600.4652784,
+      "specialized": 0.14600000000000002
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9655.8743328,
+      "attack": 264.75409119999995,
+      "defense": 606.0031432,
+      "specialized": 0.14600000000000002
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9744.113632,
+      "attack": 267.17357400000003,
+      "defense": 611.5410079999999,
+      "specialized": 0.14600000000000002
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10436.3580312,
+      "attack": 286.1534008,
+      "defense": 654.9868728,
+      "specialized": 0.194
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10525.588783199999,
+      "attack": 288.6000688,
+      "defense": 660.5869608,
+      "specialized": 0.194
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10613.8280824,
+      "attack": 291.0195516,
+      "defense": 666.1248256,
+      "specialized": 0.194
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10702.0673816,
+      "attack": 293.43903439999997,
+      "defense": 671.6626904,
+      "specialized": 0.194
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10791.2981336,
+      "attack": 295.88570239999996,
+      "defense": 677.2627783999999,
+      "specialized": 0.194
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10879.5374328,
+      "attack": 298.3051852,
+      "defense": 682.8006432,
+      "specialized": 0.194
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10968.7681848,
+      "attack": 300.75185319999997,
+      "defense": 688.4007312,
+      "specialized": 0.194
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 11057.9989368,
+      "attack": 303.19852119999996,
+      "defense": 694.0008192,
+      "specialized": 0.194
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11147.2296888,
+      "attack": 305.6451892,
+      "defense": 699.6009071999999,
+      "specialized": 0.194
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11236.4604408,
+      "attack": 308.0918572,
+      "defense": 705.2009952000001,
+      "specialized": 0.194
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11929.6960928,
+      "attack": 327.09887019999996,
+      "defense": 748.7090832,
+      "specialized": 0.242
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 12018.9268448,
+      "attack": 329.5455382,
+      "defense": 754.3091712,
+      "specialized": 0.242
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 12108.1575968,
+      "attack": 331.99220619999994,
+      "defense": 759.9092592,
+      "specialized": 0.242
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12197.3883488,
+      "attack": 334.4388742,
+      "defense": 765.5093472,
+      "specialized": 0.242
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12286.619100799999,
+      "attack": 336.8855422,
+      "defense": 771.1094352,
+      "specialized": 0.242
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12376.841305600003,
+      "attack": 339.35939540000004,
+      "defense": 776.7717464000001,
+      "specialized": 0.242
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12466.072057600002,
+      "attack": 341.80606339999997,
+      "defense": 782.3718344,
+      "specialized": 0.242
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12556.294262399999,
+      "attack": 344.2799166,
+      "defense": 788.0341456,
+      "specialized": 0.242
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12646.5164672,
+      "attack": 346.7537698,
+      "defense": 793.6964568,
+      "specialized": 0.242
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12735.747219200002,
+      "attack": 349.20043780000003,
+      "defense": 799.2965448000001,
+      "specialized": 0.242
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3421.9096631999996,
+      "attack": 93.82555679999999,
+      "defense": 214.7589808,
+      "specialized": 0.05
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5724.2734096,
+      "attack": 156.9541464,
+      "defense": 359.2553224,
+      "specialized": 0.098
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7391.1859928,
+      "attack": 202.6585402,
+      "defense": 463.8712832,
+      "specialized": 0.14600000000000002
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8865.6864512,
+      "attack": 243.0874868,
+      "defense": 556.4112528,
+      "specialized": 0.14600000000000002
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10348.118732,
+      "attack": 283.733918,
+      "defense": 649.449008,
+      "specialized": 0.194
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11840.465340800001,
+      "attack": 324.65220220000003,
+      "defense": 743.1089952,
+      "specialized": 0.242
+    }
+  }
+}

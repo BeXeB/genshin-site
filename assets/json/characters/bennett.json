@@ -1,0 +1,1744 @@
+{
+  "profile": {
+    "id": 10000032,
+    "name": "Bennett",
+    "title": "Trial by Fire",
+    "description": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "weaponText": "Sword",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "2/29",
+    "birthday": "February 29",
+    "elementType": "ELEMENT_PYRO",
+    "elementText": "Pyro",
+    "affiliation": "Adventurers' Guild",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "substatText": "Energy Recharge",
+    "constellation": "Rota Calamitas",
+    "cv": {
+      "english": "Cristina Vee Valenzuela",
+      "chinese": "穆雪婷",
+      "japanese": "逢坂良太",
+      "korean": "Song Ha-rim"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104111,
+          "name": "Agnidus Agate Sliver",
+          "count": 1
+        },
+        {
+          "id": 100024,
+          "name": "Windwheel Aster",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 3
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 2
+        },
+        {
+          "id": 100024,
+          "name": "Windwheel Aster",
+          "count": 10
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 4
+        },
+        {
+          "id": 100024,
+          "name": "Windwheel Aster",
+          "count": 20
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 3
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 8
+        },
+        {
+          "id": 100024,
+          "name": "Windwheel Aster",
+          "count": 30
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 12
+        },
+        {
+          "id": 100024,
+          "name": "Windwheel Aster",
+          "count": 45
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104114,
+          "name": "Agnidus Agate Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 20
+        },
+        {
+          "id": 100024,
+          "name": "Windwheel Aster",
+          "count": 60
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Character_Bennett_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Character_Bennett_Portrait.png",
+      "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200312/2020031220001589124.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200312/2020031220015487912.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/661fca5d5165dee41fd29c142a59c2f9.png",
+      "filename_icon": "UI_AvatarIcon_Bennett",
+      "filename_iconCard": "UI_AvatarIcon_Bennett_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Bennett",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Bennett",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Bennett",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Bennett.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Bennett_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Bennett"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 3201,
+    "name": "Bennett",
+    "combat1": {
+      "name": "Strike of Fortune",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}",
+          "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+          "Charged Attack Stamina Cost|{param8:F1}",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.44548,
+            0.48174,
+            0.518,
+            0.5698,
+            0.60606,
+            0.6475,
+            0.70448,
+            0.76146,
+            0.81844,
+            0.8806,
+            0.94276,
+            1.00492,
+            1.06708,
+            1.12924,
+            1.1914
+          ],
+          "param2": [
+            0.42742,
+            0.46221,
+            0.497,
+            0.5467,
+            0.58149,
+            0.62125,
+            0.67592,
+            0.73059,
+            0.78526,
+            0.8449,
+            0.90454,
+            0.96418,
+            1.02382,
+            1.08346,
+            1.1431
+          ],
+          "param3": [
+            0.5461,
+            0.59055,
+            0.635,
+            0.6985,
+            0.74295,
+            0.79375,
+            0.8636,
+            0.93345,
+            1.0033,
+            1.0795,
+            1.1557,
+            1.2319,
+            1.3081,
+            1.3843,
+            1.4605
+          ],
+          "param4": [
+            0.59684,
+            0.64542,
+            0.694,
+            0.7634,
+            0.81198,
+            0.8675,
+            0.94384,
+            1.02018,
+            1.09652,
+            1.1798,
+            1.26308,
+            1.34636,
+            1.42964,
+            1.51292,
+            1.5962
+          ],
+          "param5": [
+            0.71896,
+            0.77748,
+            0.836,
+            0.9196,
+            0.97812,
+            1.045,
+            1.13696,
+            1.22892,
+            1.32088,
+            1.4212,
+            1.52152,
+            1.62184,
+            1.72216,
+            1.82248,
+            1.9228
+          ],
+          "param6": [
+            0.559,
+            0.6045,
+            0.65,
+            0.715,
+            0.7605,
+            0.8125,
+            0.884,
+            0.9555,
+            1.027,
+            1.105,
+            1.183,
+            1.261,
+            1.339,
+            1.417,
+            1.495
+          ],
+          "param7": [
+            0.60716,
+            0.65658,
+            0.706,
+            0.7766,
+            0.82602,
+            0.8825,
+            0.96016,
+            1.03782,
+            1.11548,
+            1.2002,
+            1.28492,
+            1.36964,
+            1.45436,
+            1.53908,
+            1.6238
+          ],
+          "param8": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param9": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param10": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param11": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Passion Overload",
+      "descriptionRaw": "#Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nA single, swift flame strike that deals <color=#FF9999FF>Pyro DMG</color>.\n\n<color=#FFD780FF>Hold (Short)</color>\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n·Level 1: Strikes twice, dealing <color=#FF9999FF>Pyro DMG</color> and launching opponents.\n·Level 2: Unleashes 3 consecutive attacks that deal impressive <color=#FF9999FF>Pyro DMG</color>, but the last attack triggers an explosion that launches both Bennett and the enemy.\nBennett takes no damage from being launched.\n\n<i>An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.</i>",
+      "description": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\n\nPress\nA single, swift flame strike that deals Pyro DMG.\n\nHold (Short)\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n·Level 1: Strikes twice, dealing Pyro DMG and launching opponents.\n·Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy.\nBennett takes no damage from being launched.",
+      "flavorText": "An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.",
+      "attributes": {
+        "labels": [
+          "Press DMG|{param1:P}",
+          "Charge Level 1 DMG|{param2:F1P}+{param3:F1P}",
+          "Charge Level 2 DMG|{param4:F1P}+{param5:F1P}",
+          "Explosion DMG|{param6:P}",
+          "CD|{param7:F1}/{param8:F1}/{param9:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.376,
+            1.4792,
+            1.5824,
+            1.72,
+            1.8232,
+            1.9264,
+            2.064,
+            2.2016,
+            2.3392,
+            2.4768,
+            2.6144,
+            2.752,
+            2.924,
+            3.096,
+            3.268
+          ],
+          "param2": [
+            0.84,
+            0.903,
+            0.966,
+            1.05,
+            1.113,
+            1.176,
+            1.26,
+            1.344,
+            1.428,
+            1.512,
+            1.596,
+            1.68,
+            1.785,
+            1.89,
+            1.995
+          ],
+          "param3": [
+            0.92,
+            0.989,
+            1.058,
+            1.15,
+            1.219,
+            1.288,
+            1.38,
+            1.472,
+            1.564,
+            1.656,
+            1.748,
+            1.84,
+            1.955,
+            2.07,
+            2.185
+          ],
+          "param4": [
+            0.88,
+            0.946,
+            1.012,
+            1.1,
+            1.166,
+            1.232,
+            1.32,
+            1.408,
+            1.496,
+            1.584,
+            1.672,
+            1.76,
+            1.87,
+            1.98,
+            2.09
+          ],
+          "param5": [
+            0.96,
+            1.032,
+            1.104,
+            1.2,
+            1.272,
+            1.344,
+            1.44,
+            1.536,
+            1.632,
+            1.728,
+            1.824,
+            1.92,
+            2.04,
+            2.16,
+            2.28
+          ],
+          "param6": [
+            1.32,
+            1.419,
+            1.518,
+            1.65,
+            1.749,
+            1.848,
+            1.98,
+            2.112,
+            2.244,
+            2.376,
+            2.508,
+            2.64,
+            2.805,
+            2.97,
+            3.135
+          ],
+          "param7": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param8": [
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5
+          ],
+          "param9": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Fantastic Voyage",
+      "descriptionRaw": "Bennett performs a jumping attack that deals <color=#FF9999FF>Pyro DMG</color>, creating an Inspiration Field.\n\n<color=#FFD780FF>Inspiration Field</color>\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\n·Imbues characters within the AoE with <color=#FF9999FF>Pyro</color>.\n\n<i>Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"</i>",
+      "description": "Bennett performs a jumping attack that deals Pyro DMG, creating an Inspiration Field.\n\nInspiration Field\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\n·Imbues characters within the AoE with Pyro.",
+      "flavorText": "Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}",
+          "Continuous Regeneration Per Sec|{param2:F2P} Max HP+{param3:I}",
+          "ATK Bonus Ratio|{param4:P}",
+          "Duration|{param5:F1}s",
+          "CD|{param6:F1}s",
+          "Energy Cost|{param7:I}"
+        ],
+        "parameters": {
+          "param1": [
+            2.328,
+            2.5026,
+            2.6772,
+            2.91,
+            3.0846,
+            3.2592,
+            3.492,
+            3.7248,
+            3.9576,
+            4.1904,
+            4.4232,
+            4.656,
+            4.947,
+            5.238,
+            5.529
+          ],
+          "param2": [
+            0.06,
+            0.0645,
+            0.069,
+            0.075,
+            0.0795,
+            0.084,
+            0.09,
+            0.096,
+            0.102,
+            0.108,
+            0.114,
+            0.12,
+            0.1275,
+            0.135,
+            0.1425
+          ],
+          "param3": [
+            577.3388,
+            635.0807,
+            697.63446,
+            765,
+            837.17737,
+            914.16656,
+            995.96765,
+            1082.5804,
+            1174.0051,
+            1270.2417,
+            1371.29,
+            1477.1501,
+            1587.8221,
+            1703.3059,
+            1823.6016
+          ],
+          "param4": [
+            0.56,
+            0.602,
+            0.644,
+            0.7,
+            0.742,
+            0.784,
+            0.84,
+            0.896,
+            0.952,
+            1.008,
+            1.064,
+            1.12,
+            1.19,
+            1.26,
+            1.33
+          ],
+          "param5": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param6": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param7": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Rekindle",
+      "descriptionRaw": "Decreases <color=#FFD780FF>Passion Overload</color>'s CD by 20%.",
+      "description": "Decreases Passion Overload's CD by 20%."
+    },
+    "passive2": {
+      "name": "Fearnaught",
+      "descriptionRaw": "Within the area created by <color=#FFD780FF>Fantastic Voyage</color>, <color=#FFD780FF>Passion Overload</color> takes on the following effects:\n·CD is reduced by 50%.\n·Bennett will not be launched by the effects of Charge Level 2.",
+      "description": "Within the area created by Fantastic Voyage, Passion Overload takes on the following effects:\n·CD is reduced by 50%.\n·Bennett will not be launched by the effects of Charge Level 2."
+    },
+    "passive3": {
+      "name": "It Should Be Safe...",
+      "descriptionRaw": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+      "description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104304,
+          "name": "Teachings of Resistance",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 2
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 4
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 6
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 9
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 4
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 4
+        },
+        {
+          "id": 113003,
+          "name": "Dvalin's Plume",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 6
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 6
+        },
+        {
+          "id": 113003,
+          "name": "Dvalin's Plume",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 12
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 9
+        },
+        {
+          "id": 113003,
+          "name": "Dvalin's Plume",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 16
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        },
+        {
+          "id": 113003,
+          "name": "Dvalin's Plume",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_01",
+      "filename_combat2": "Skill_S_Bennett_01",
+      "filename_combat3": "Skill_E_Bennett_01_HD",
+      "filename_passive1": "UI_Talent_S_Bennett_05",
+      "filename_passive2": "UI_Talent_S_Bennett_06",
+      "filename_passive3": "UI_Talent_Expedition_Mengde"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 3201,
+    "name": "Bennett",
+    "c1": {
+      "name": "Grand Expectation",
+      "descriptionRaw": "<color=#FFD780FF>Fantastic Voyage</color>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
+      "description": "Fantastic Voyage's ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK."
+    },
+    "c2": {
+      "name": "Impasse Conqueror",
+      "descriptionRaw": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
+      "description": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%."
+    },
+    "c3": {
+      "name": "Unstoppable Fervor",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Passion Overload</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Passion Overload by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Unexpected Odyssey",
+      "descriptionRaw": "Using a Normal Attack as the second attack of <color=#FFD780FF>Passion Overload</color>'s Charge Level 1 will perform a follow-up attack.\nThis additional attack does 135% of the second attack's DMG.",
+      "description": "Using a Normal Attack as the second attack of Passion Overload's Charge Level 1 will perform a follow-up attack.\nThis additional attack does 135% of the second attack's DMG."
+    },
+    "c5": {
+      "name": "True Explorer",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Fantastic Voyage</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Fantastic Voyage by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Fire Ventures With Me",
+      "descriptionRaw": "Sword, Claymore, or Polearm-wielding characters inside <color=#FFD780FF>Fantastic Voyage</color>'s radius gain a 15% <color=#FF9999FF>Pyro DMG Bonus</color> and their weapons are infused with <color=#FF9999FF>Pyro</color>.",
+      "description": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Bennett_01",
+      "filename_c2": "UI_Talent_S_Bennett_02",
+      "filename_c3": "UI_Talent_U_Bennett_01",
+      "filename_c4": "UI_Talent_S_Bennett_03",
+      "filename_c5": "UI_Talent_U_Bennett_02",
+      "filename_c6": "UI_Talent_S_Bennett_04",
+      "filename_constellation": "Eff_UI_Talent_Bennett"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1039.4418,
+      "attack": 16.0272,
+      "defense": 64.66425,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1125.7154694,
+      "attack": 17.3574576,
+      "defense": 70.03138274999999,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1210.949697,
+      "attack": 18.671688,
+      "defense": 75.33385125,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1297.2233664,
+      "attack": 20.0019456,
+      "defense": 80.70098399999999,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1382.4575940000002,
+      "attack": 21.316176000000002,
+      "defense": 86.0034525,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1468.7312634000002,
+      "attack": 22.6464336,
+      "defense": 91.37058524999999,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1553.9654910000002,
+      "attack": 23.960664,
+      "defense": 96.67305375,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1640.2391604000002,
+      "attack": 25.2909216,
+      "defense": 102.0401865,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1726.5128298000002,
+      "attack": 26.6211792,
+      "defense": 107.40731925,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1811.7470574000001,
+      "attack": 27.935409600000003,
+      "defense": 112.70978775,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1898.0207268000001,
+      "attack": 29.265667200000003,
+      "defense": 118.0769205,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1983.2549544,
+      "attack": 30.5798976,
+      "defense": 123.37938899999999,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 2069.5286238000003,
+      "attack": 31.910155200000002,
+      "defense": 128.74652175,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2154.7628514000003,
+      "attack": 33.2243856,
+      "defense": 134.04899024999997,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2241.0365208000003,
+      "attack": 34.5546432,
+      "defense": 139.416123,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2327.3101902,
+      "attack": 35.8849008,
+      "defense": 144.78325575,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2412.5444178000002,
+      "attack": 37.199131200000004,
+      "defense": 150.08572425,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2498.8180872000003,
+      "attack": 38.5293888,
+      "defense": 155.452857,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2584.0523148,
+      "attack": 39.843619200000006,
+      "defense": 160.7553255,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2670.3259842,
+      "attack": 41.1738768,
+      "defense": 166.12245825,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3532.0764118,
+      "attack": 54.461527200000006,
+      "defense": 219.73242674999997,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3618.3500812,
+      "attack": 55.7917848,
+      "defense": 225.0995595,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3704.6237506,
+      "attack": 57.12204240000001,
+      "defense": 230.46669225,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3789.8579782,
+      "attack": 58.4362728,
+      "defense": 235.76916075,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3876.1316476000006,
+      "attack": 59.76653040000001,
+      "defense": 241.1362935,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3961.3658752,
+      "attack": 61.08076080000001,
+      "defense": 246.438762,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 4047.6395446,
+      "attack": 62.4110184,
+      "defense": 251.80589474999996,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4132.8737722000005,
+      "attack": 63.7252488,
+      "defense": 257.10836324999997,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4219.1474416,
+      "attack": 65.0555064,
+      "defense": 262.47549599999996,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4304.3816692,
+      "attack": 66.3697368,
+      "defense": 267.7779645,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4390.6553386,
+      "attack": 67.6999944,
+      "defense": 273.14509725,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4476.929008,
+      "attack": 69.030252,
+      "defense": 278.51223,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4562.1632356,
+      "attack": 70.3444824,
+      "defense": 283.81469849999996,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4648.4369050000005,
+      "attack": 71.67474,
+      "defense": 289.18183124999996,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4733.6711326,
+      "attack": 72.9889704,
+      "defense": 294.48429975,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4819.944802,
+      "attack": 74.31922800000001,
+      "defense": 299.8514325,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4905.1790296,
+      "attack": 75.63345840000001,
+      "defense": 305.15390099999996,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4991.452699,
+      "attack": 76.963716,
+      "defense": 310.52103374999996,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 5077.7263684,
+      "attack": 78.2939736,
+      "defense": 315.88816649999995,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5162.960596,
+      "attack": 79.608204,
+      "defense": 321.190635,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5800.9693654,
+      "attack": 89.44589160000001,
+      "defense": 360.88151774999994,
+      "specialized": 0.0667
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5886.203593,
+      "attack": 90.76012200000001,
+      "defense": 366.18398625,
+      "specialized": 0.0667
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5972.4772624,
+      "attack": 92.0903796,
+      "defense": 371.55111899999997,
+      "specialized": 0.0667
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6057.71149,
+      "attack": 93.40461,
+      "defense": 376.8535875,
+      "specialized": 0.0667
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6143.9851594,
+      "attack": 94.7348676,
+      "defense": 382.22072025,
+      "specialized": 0.0667
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6230.258828800001,
+      "attack": 96.06512520000001,
+      "defense": 387.587853,
+      "specialized": 0.0667
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6315.493056400001,
+      "attack": 97.37935560000001,
+      "defense": 392.8903215,
+      "specialized": 0.0667
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6401.7667258,
+      "attack": 98.7096132,
+      "defense": 398.25745425,
+      "specialized": 0.0667
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6487.0009534,
+      "attack": 100.0238436,
+      "defense": 403.55992274999994,
+      "specialized": 0.0667
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6573.2746228000005,
+      "attack": 101.35410120000002,
+      "defense": 408.92705549999994,
+      "specialized": 0.0667
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7394.155950400001,
+      "attack": 114.0115716,
+      "defense": 459.99453400000004,
+      "specialized": 0.1333
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7480.429619800001,
+      "attack": 115.3418292,
+      "defense": 465.36166675000004,
+      "specialized": 0.1333
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7566.7032892,
+      "attack": 116.67208679999999,
+      "defense": 470.7287994999999,
+      "specialized": 0.1333
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7651.937516800001,
+      "attack": 117.9863172,
+      "defense": 476.03126799999995,
+      "specialized": 0.1333
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7738.2111862,
+      "attack": 119.3165748,
+      "defense": 481.39840074999995,
+      "specialized": 0.1333
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7823.445413800001,
+      "attack": 120.63080520000001,
+      "defense": 486.70086925,
+      "specialized": 0.1333
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7909.7190832,
+      "attack": 121.9610628,
+      "defense": 492.068002,
+      "specialized": 0.1333
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7994.9533108000005,
+      "attack": 123.27529320000001,
+      "defense": 497.3704705,
+      "specialized": 0.1333
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8081.2269802,
+      "attack": 124.6055508,
+      "defense": 502.73760325,
+      "specialized": 0.1333
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8167.5006496000005,
+      "attack": 125.9358084,
+      "defense": 508.104736,
+      "specialized": 0.1333
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8804.4699772,
+      "attack": 135.7574688,
+      "defense": 547.7309445,
+      "specialized": 0.1333
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8890.7436466,
+      "attack": 137.0877264,
+      "defense": 553.09807725,
+      "specialized": 0.1333
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8975.9778742,
+      "attack": 138.4019568,
+      "defense": 558.40054575,
+      "specialized": 0.1333
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9062.2515436,
+      "attack": 139.7322144,
+      "defense": 563.7676785,
+      "specialized": 0.1333
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9147.485771200001,
+      "attack": 141.04644480000002,
+      "defense": 569.0701469999999,
+      "specialized": 0.1333
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9233.759440599999,
+      "attack": 142.3767024,
+      "defense": 574.43727975,
+      "specialized": 0.1333
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9320.03311,
+      "attack": 143.70696,
+      "defense": 579.8044125,
+      "specialized": 0.1333
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9405.2673376,
+      "attack": 145.0211904,
+      "defense": 585.1068809999999,
+      "specialized": 0.1333
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9491.541007,
+      "attack": 146.351448,
+      "defense": 590.47401375,
+      "specialized": 0.1333
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9576.775234600002,
+      "attack": 147.6656784,
+      "defense": 595.77648225,
+      "specialized": 0.1333
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10214.784104,
+      "attack": 157.503366,
+      "defense": 635.467365,
+      "specialized": 0.2
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10300.0183316,
+      "attack": 158.8175964,
+      "defense": 640.7698335,
+      "specialized": 0.2
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10386.292001000002,
+      "attack": 160.147854,
+      "defense": 646.13696625,
+      "specialized": 0.2
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10472.5656704,
+      "attack": 161.47811159999998,
+      "defense": 651.504099,
+      "specialized": 0.2
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10557.799898000001,
+      "attack": 162.79234200000002,
+      "defense": 656.8065675,
+      "specialized": 0.2
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10644.073567399999,
+      "attack": 164.1225996,
+      "defense": 662.1737002499999,
+      "specialized": 0.2
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10729.307795,
+      "attack": 165.43683,
+      "defense": 667.4761687499999,
+      "specialized": 0.2
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10815.5814644,
+      "attack": 166.7670876,
+      "defense": 672.8433014999999,
+      "specialized": 0.2
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10900.815692,
+      "attack": 168.081318,
+      "defense": 678.14577,
+      "specialized": 0.2
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10987.0893614,
+      "attack": 169.4115756,
+      "defense": 683.51290275,
+      "specialized": 0.2
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11625.0983308,
+      "attack": 179.2492632,
+      "defense": 723.2037855,
+      "specialized": 0.2667
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11710.3325584,
+      "attack": 180.56349360000002,
+      "defense": 728.5062539999999,
+      "specialized": 0.2667
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11796.6062278,
+      "attack": 181.8937512,
+      "defense": 733.87338675,
+      "specialized": 0.2667
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 11881.8404554,
+      "attack": 183.2079816,
+      "defense": 739.17585525,
+      "specialized": 0.2667
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11968.1141248,
+      "attack": 184.53823920000002,
+      "defense": 744.5429879999999,
+      "specialized": 0.2667
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12053.3483524,
+      "attack": 185.85246960000003,
+      "defense": 749.8454565,
+      "specialized": 0.2667
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12139.6220218,
+      "attack": 187.18272720000002,
+      "defense": 755.2125892500001,
+      "specialized": 0.2667
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12224.8562494,
+      "attack": 188.4969576,
+      "defense": 760.5150577499999,
+      "specialized": 0.2667
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12311.1299188,
+      "attack": 189.8272152,
+      "defense": 765.8821905,
+      "specialized": 0.2667
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12397.4035882,
+      "attack": 191.15747280000002,
+      "defense": 771.2493232500001,
+      "specialized": 0.2667
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3446.8421842000002,
+      "attack": 53.14729680000001,
+      "defense": 214.42995825,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5714.695696,
+      "attack": 88.115634,
+      "defense": 355.51438499999995,
+      "specialized": 0.0667
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7308.921722800001,
+      "attack": 112.69734120000001,
+      "defense": 454.6920655,
+      "specialized": 0.1333
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8719.2357496,
+      "attack": 134.44323839999998,
+      "defense": 542.4284759999999,
+      "specialized": 0.1333
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10128.5104346,
+      "attack": 156.1731084,
+      "defense": 630.10023225,
+      "specialized": 0.2
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11538.8246614,
+      "attack": 177.9190056,
+      "defense": 717.83665275,
+      "specialized": 0.2667
+    }
+  }
+}

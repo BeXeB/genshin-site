@@ -1,0 +1,1586 @@
+{
+  "profile": {
+    "id": 10000056,
+    "name": "Kujou Sara",
+    "title": "Crowfeather Kaburaya",
+    "description": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_LADY",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "7/14",
+    "birthday": "July 14",
+    "elementType": "ELEMENT_ELECTRO",
+    "elementText": "Electro",
+    "affiliation": "Tenryou Commission",
+    "associationType": "ASSOC_INAZUMA",
+    "region": "Inazuma",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Flabellum",
+    "cv": {
+      "english": "Jeannie Tirado",
+      "chinese": "杨梦露",
+      "japanese": "瀬戸麻沙美",
+      "korean": "Moon Ji-young"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104141,
+          "name": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": 101204,
+          "name": "Dendrobium",
+          "count": 3
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": 113029,
+          "name": "Storm Beads",
+          "count": 2
+        },
+        {
+          "id": 101204,
+          "name": "Dendrobium",
+          "count": 10
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": 113029,
+          "name": "Storm Beads",
+          "count": 4
+        },
+        {
+          "id": 101204,
+          "name": "Dendrobium",
+          "count": 20
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": 113029,
+          "name": "Storm Beads",
+          "count": 8
+        },
+        {
+          "id": 101204,
+          "name": "Dendrobium",
+          "count": 30
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": 113029,
+          "name": "Storm Beads",
+          "count": 12
+        },
+        {
+          "id": 101204,
+          "name": "Dendrobium",
+          "count": 45
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104144,
+          "name": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113029,
+          "name": "Storm Beads",
+          "count": 20
+        },
+        {
+          "id": 101204,
+          "name": "Dendrobium",
+          "count": 60
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/f05d8a7e32075403340d0d2ea8e590ff_6962820971885112376.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210818/2021081815224926366.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/5ea7bdaf660c0da94ff445221daf483c.png",
+      "filename_icon": "UI_AvatarIcon_Sara",
+      "filename_iconCard": "UI_AvatarIcon_Sara_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Sara",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Sara",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sara",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Sara.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kujou Sara_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Kujou_Sara"
+    },
+    "version": "2.1"
+  },
+  "skills": {
+    "id": 5601,
+    "name": "Kujou Sara",
+    "combat1": {
+      "name": "Tengu Bowmanship",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal <color=#FFACFFFF>Electro DMG</color>.\nWhen in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal Electro DMG.\nWhen in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}",
+          "Aimed Shot|{param6:F1P}",
+          "Fully-Charged Aimed Shot|{param7:P}",
+          "Plunge DMG|{param8:F1P}",
+          "Low/High Plunge DMG|{param9:P}/{param10:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.36894,
+            0.39897,
+            0.429,
+            0.4719,
+            0.50193,
+            0.53625,
+            0.58344,
+            0.63063,
+            0.67782,
+            0.7293,
+            0.78078,
+            0.83226,
+            0.88374,
+            0.93522,
+            0.9867
+          ],
+          "param2": [
+            0.387,
+            0.4185,
+            0.45,
+            0.495,
+            0.5265,
+            0.5625,
+            0.612,
+            0.6615,
+            0.711,
+            0.765,
+            0.819,
+            0.873,
+            0.927,
+            0.981,
+            1.035
+          ],
+          "param3": [
+            0.48504,
+            0.52452,
+            0.564,
+            0.6204,
+            0.65988,
+            0.705,
+            0.76704,
+            0.82908,
+            0.89112,
+            0.9588,
+            1.02648,
+            1.09416,
+            1.16184,
+            1.22952,
+            1.2972
+          ],
+          "param4": [
+            0.50396,
+            0.54498,
+            0.586,
+            0.6446,
+            0.68562,
+            0.7325,
+            0.79696,
+            0.86142,
+            0.92588,
+            0.9962,
+            1.06652,
+            1.13684,
+            1.20716,
+            1.27748,
+            1.3478
+          ],
+          "param5": [
+            0.5805,
+            0.62775,
+            0.675,
+            0.7425,
+            0.78975,
+            0.84375,
+            0.918,
+            0.99225,
+            1.0665,
+            1.1475,
+            1.2285,
+            1.3095,
+            1.3905,
+            1.4715,
+            1.5525
+          ],
+          "param6": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.9282,
+            0.9894,
+            1.0506,
+            1.1118,
+            1.173
+          ],
+          "param7": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.356,
+            2.48,
+            2.635,
+            2.79,
+            2.945
+          ],
+          "param8": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param9": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param10": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Tengu Stormcall",
+      "descriptionRaw": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather.\nGains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location.\nCrowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing <color=#FFACFFFF>Electro DMG</color> and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.\n\nThe ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.\n\n<i>The tengu race have never lacked for exceptional talents who have received an Electro Vision. It's just that they often habitually chant praises to the Electro Archon while manipulating Electro. The chants go something like this</i>\n<i>\"Show forth your might, O praiseworthy Narukami, and grant this supplicant your thunderous might! Sowaka!\"</i>",
+      "description": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather.\nGains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location.\nCrowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing Electro DMG and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.\n\nThe ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.",
+      "flavorText": "The tengu race have never lacked for exceptional talents who have received an Electro Vision. It's just that they often habitually chant praises to the Electro Archon while manipulating Electro. The chants go something like this\n\"Show forth your might, O praiseworthy Narukami, and grant this supplicant your thunderous might! Sowaka!\"",
+      "attributes": {
+        "labels": [
+          "Tengu Juurai: Ambush DMG|{param1:F1P}",
+          "ATK Bonus Ratio|{param2:P}",
+          "ATK Bonus Duration|{param3:F1}s",
+          "CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.2576,
+            1.35192,
+            1.44624,
+            1.572,
+            1.66632,
+            1.76064,
+            1.8864,
+            2.01216,
+            2.13792,
+            2.26368,
+            2.38944,
+            2.5152,
+            2.6724,
+            2.8296,
+            2.9868
+          ],
+          "param2": [
+            0.4296,
+            0.46182,
+            0.49404,
+            0.537,
+            0.56922,
+            0.60144,
+            0.6444,
+            0.68736,
+            0.73032,
+            0.77328,
+            0.81624,
+            0.8592,
+            0.9129,
+            0.9666,
+            1.0203
+          ],
+          "param3": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param4": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Subjugation: Koukou Sendou",
+      "descriptionRaw": "Casts down Tengu Juurai: Titanbreaker, dealing <color=#FFACFFFF>AoE Electro DMG</color>. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\nTengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall.\n\nThe ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.\n\n<i>Sara departed from her people, the tengu, and also temporarily lost her faith in the Tenryou Commission. But once the clouds over her heart cleared, she found her own lightning anew.</i>",
+      "description": "Casts down Tengu Juurai: Titanbreaker, dealing AoE Electro DMG. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing AoE Electro DMG.\nTengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall.\n\nThe ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.",
+      "flavorText": "Sara departed from her people, the tengu, and also temporarily lost her faith in the Tenryou Commission. But once the clouds over her heart cleared, she found her own lightning anew.",
+      "attributes": {
+        "labels": [
+          "Tengu Juurai: Titanbreaker DMG|{param1:F1P}",
+          "Tengu Juurai: Stormcluster DMG|{param2:F1P}",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            4.096,
+            4.4032,
+            4.7104,
+            5.12,
+            5.4272,
+            5.7344,
+            6.144,
+            6.5536,
+            6.9632,
+            7.3728,
+            7.7824,
+            8.192,
+            8.704,
+            9.216,
+            9.728
+          ],
+          "param2": [
+            0.3412,
+            0.36679,
+            0.39238,
+            0.4265,
+            0.45209,
+            0.47768,
+            0.5118,
+            0.54592,
+            0.58004,
+            0.61416,
+            0.64828,
+            0.6824,
+            0.72505,
+            0.7677,
+            0.81035
+          ],
+          "param3": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param4": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Immovable Will",
+      "descriptionRaw": "While in the Crowfeather Cover state provided by <color=#FFD780FF>Tengu Stormcall</color>, Aimed Shot charge times are decreased by 60%.",
+      "description": "While in the Crowfeather Cover state provided by Tengu Stormcall, Aimed Shot charge times are decreased by 60%."
+    },
+    "passive2": {
+      "name": "Decorum",
+      "descriptionRaw": "When Tengu Juurai: Ambush hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s.",
+      "description": "When Tengu Juurai: Ambush hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s."
+    },
+    "passive3": {
+      "name": "Land Survey",
+      "descriptionRaw": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%.",
+      "description": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104323,
+          "name": "Teachings of Elegance",
+          "count": 3
+        },
+        {
+          "id": 112005,
+          "name": "Damaged Mask",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104324,
+          "name": "Guide to Elegance",
+          "count": 2
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104324,
+          "name": "Guide to Elegance",
+          "count": 4
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104324,
+          "name": "Guide to Elegance",
+          "count": 6
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104324,
+          "name": "Guide to Elegance",
+          "count": 9
+        },
+        {
+          "id": 112006,
+          "name": "Stained Mask",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104325,
+          "name": "Philosophies of Elegance",
+          "count": 4
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 4
+        },
+        {
+          "id": 113027,
+          "name": "Ashen Heart",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104325,
+          "name": "Philosophies of Elegance",
+          "count": 6
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 6
+        },
+        {
+          "id": 113027,
+          "name": "Ashen Heart",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104325,
+          "name": "Philosophies of Elegance",
+          "count": 12
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 9
+        },
+        {
+          "id": 113027,
+          "name": "Ashen Heart",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104325,
+          "name": "Philosophies of Elegance",
+          "count": 16
+        },
+        {
+          "id": 112007,
+          "name": "Ominous Mask",
+          "count": 12
+        },
+        {
+          "id": 113027,
+          "name": "Ashen Heart",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Sara_01",
+      "filename_combat3": "Skill_E_Sara_01_HD",
+      "filename_passive1": "UI_Talent_S_Sara_01",
+      "filename_passive2": "UI_Talent_S_Sara_06",
+      "filename_passive3": "UI_Talent_S_Sara_07"
+    },
+    "version": "2.1"
+  },
+  "constellation": {
+    "id": 5601,
+    "name": "Kujou Sara",
+    "c1": {
+      "name": "Crow's Eye",
+      "descriptionRaw": "When Tengu Juurai grants characters ATK Bonuses or hits opponents, the CD of <color=#FFD780FF>Tengu Stormcall</color> is decreased by 1s.\nThis effect can be triggered once every 3s.",
+      "description": "When Tengu Juurai grants characters ATK Bonuses or hits opponents, the CD of Tengu Stormcall is decreased by 1s.\nThis effect can be triggered once every 3s."
+    },
+    "c2": {
+      "name": "Dark Wings",
+      "descriptionRaw": "Unleashing <color=#FFD780FF>Tengu Stormcall</color> will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG.",
+      "description": "Unleashing Tengu Stormcall will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG."
+    },
+    "c3": {
+      "name": "The War Within",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Subjugation: Koukou Sendou</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Subjugation: Koukou Sendou by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Conclusive Proof",
+      "descriptionRaw": "The number of Tengu Juurai: Stormcluster released by <color=#FFD780FF>Subjugation: Koukou Sendou</color> is increased to 6.",
+      "description": "The number of Tengu Juurai: Stormcluster released by Subjugation: Koukou Sendou is increased to 6."
+    },
+    "c5": {
+      "name": "Spellsinger",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Tengu Stormcall</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Tengu Stormcall by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Sin of Pride",
+      "descriptionRaw": "The <color=#FFACFFFF>Electro DMG</color> of characters who have had their ATK increased by Tengu Juurai has its CRIT DMG increased by 60%.",
+      "description": "The Electro DMG of characters who have had their ATK increased by Tengu Juurai has its CRIT DMG increased by 60%."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Sara_05",
+      "filename_c2": "UI_Talent_S_Sara_02",
+      "filename_c3": "UI_Talent_U_Sara_02",
+      "filename_c4": "UI_Talent_S_Sara_03",
+      "filename_c5": "UI_Talent_U_Sara_01",
+      "filename_c6": "UI_Talent_S_Sara_04",
+      "filename_constellation": "Eff_UI_Talent_Sara"
+    },
+    "version": "2.1"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 802.3761,
+      "attack": 16.38336,
+      "defense": 52.647,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 868.9733163,
+      "attack": 17.74317888,
+      "defense": 57.016701,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 934.7681564999999,
+      "attack": 19.086614400000002,
+      "defense": 61.333755000000004,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1001.3653727999999,
+      "attack": 20.44643328,
+      "defense": 65.703456,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1067.1602129999999,
+      "attack": 21.7898688,
+      "defense": 70.02051,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1133.7574293,
+      "attack": 23.14968768,
+      "defense": 74.390211,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1199.5522695,
+      "attack": 24.493123200000003,
+      "defense": 78.707265,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1266.1494857999999,
+      "attack": 25.852942080000002,
+      "defense": 83.076966,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1332.7467021,
+      "attack": 27.21276096,
+      "defense": 87.446667,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1398.5415423,
+      "attack": 28.55619648,
+      "defense": 91.763721,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1465.1387586,
+      "attack": 29.91601536,
+      "defense": 96.133422,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1530.9335987999998,
+      "attack": 31.25945088,
+      "defense": 100.450476,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1597.5308151,
+      "attack": 32.61926976,
+      "defense": 104.820177,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1663.3256552999999,
+      "attack": 33.96270528,
+      "defense": 109.137231,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1729.9228716,
+      "attack": 35.32252416,
+      "defense": 113.506932,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1796.5200878999997,
+      "attack": 36.68234304,
+      "defense": 117.87663299999998,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1862.3149281,
+      "attack": 38.02577856,
+      "defense": 122.19368700000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1928.9121443999998,
+      "attack": 39.38559744,
+      "defense": 126.56338799999999,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 1994.7069846,
+      "attack": 40.729032960000005,
+      "defense": 130.88044200000002,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2061.3042008999996,
+      "attack": 42.08885184,
+      "defense": 135.25014299999998,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2726.5150411,
+      "attack": 55.67178336,
+      "defense": 178.897197,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2793.1122574,
+      "attack": 57.03160224,
+      "defense": 183.26689799999997,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2859.7094737,
+      "attack": 58.391421120000004,
+      "defense": 187.636599,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2925.5043139,
+      "attack": 59.734856640000004,
+      "defense": 191.95365299999997,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 2992.1015302,
+      "attack": 61.09467552,
+      "defense": 196.323354,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3057.8963704000003,
+      "attack": 62.43811104,
+      "defense": 200.64040799999998,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3124.4935867,
+      "attack": 63.79792992,
+      "defense": 205.010109,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3190.2884269,
+      "attack": 65.14136544,
+      "defense": 209.32716299999998,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3256.8856432,
+      "attack": 66.50118432,
+      "defense": 213.696864,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3322.6804834,
+      "attack": 67.84461984000001,
+      "defense": 218.013918,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3389.2776997,
+      "attack": 69.20443872,
+      "defense": 222.383619,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3455.874916,
+      "attack": 70.5642576,
+      "defense": 226.75331999999997,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3521.6697562,
+      "attack": 71.90769311999999,
+      "defense": 231.07037400000002,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3588.2669725,
+      "attack": 73.267512,
+      "defense": 235.44007499999998,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3654.0618127,
+      "attack": 74.61094752,
+      "defense": 239.75712899999996,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3720.659029,
+      "attack": 75.9707664,
+      "defense": 244.12682999999998,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3786.4538692,
+      "attack": 77.31420192,
+      "defense": 248.44388399999997,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3853.0510854999998,
+      "attack": 78.6740208,
+      "defense": 252.813585,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 3919.6483018,
+      "attack": 80.03383968,
+      "defense": 257.183286,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 3985.4431419999996,
+      "attack": 81.3772752,
+      "defense": 261.50034,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4477.941258299999,
+      "attack": 91.43357808,
+      "defense": 293.815041,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4543.7360985,
+      "attack": 92.77701359999999,
+      "defense": 298.132095,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4610.3333148,
+      "attack": 94.13683248,
+      "defense": 302.501796,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4676.128154999999,
+      "attack": 95.480268,
+      "defense": 306.81885,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4742.7253713,
+      "attack": 96.84008688,
+      "defense": 311.18855099999996,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4809.3225876,
+      "attack": 98.19990576000001,
+      "defense": 315.55825200000004,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4875.1174278,
+      "attack": 99.54334128,
+      "defense": 319.875306,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 4941.7146440999995,
+      "attack": 100.90316016,
+      "defense": 324.245007,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5007.5094843,
+      "attack": 102.24659568,
+      "defense": 328.56206099999997,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5074.1067006,
+      "attack": 103.60641456,
+      "defense": 332.93176200000005,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5707.7693408,
+      "attack": 116.54516208000001,
+      "defense": 374.508816,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5774.3665571,
+      "attack": 117.90498096000002,
+      "defense": 378.878517,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5840.963773399999,
+      "attack": 119.26479984,
+      "defense": 383.24821799999995,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 5906.7586136,
+      "attack": 120.60823536000001,
+      "defense": 387.56527200000005,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 5973.3558299,
+      "attack": 121.96805423999999,
+      "defense": 391.934973,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6039.1506701,
+      "attack": 123.31148976,
+      "defense": 396.252027,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6105.7478863999995,
+      "attack": 124.67130864,
+      "defense": 400.62172799999996,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6171.5427266,
+      "attack": 126.01474415999999,
+      "defense": 404.93878200000006,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6238.139942899999,
+      "attack": 127.37456304,
+      "defense": 409.308483,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6304.737159199999,
+      "attack": 128.73438192,
+      "defense": 413.678184,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6796.4328994,
+      "attack": 138.77430144,
+      "defense": 445.940238,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 6863.0301157,
+      "attack": 140.13412032,
+      "defense": 450.309939,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 6928.8249559,
+      "attack": 141.47755583999998,
+      "defense": 454.62699299999997,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 6995.4221722,
+      "attack": 142.83737471999999,
+      "defense": 458.99669399999993,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7061.2170123999995,
+      "attack": 144.18081024,
+      "defense": 463.3137479999999,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7127.8142287,
+      "attack": 145.54062912,
+      "defense": 467.683449,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7194.411445,
+      "attack": 146.900448,
+      "defense": 472.05314999999996,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7260.2062852,
+      "attack": 148.24388352,
+      "defense": 476.37020399999994,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7326.8035015000005,
+      "attack": 149.6037024,
+      "defense": 480.739905,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7392.5983417,
+      "attack": 150.94713792,
+      "defense": 485.056959,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 7885.096258,
+      "attack": 161.0034408,
+      "defense": 517.37166,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 7950.8910982,
+      "attack": 162.34687632,
+      "defense": 521.688714,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8017.4883145,
+      "attack": 163.7066952,
+      "defense": 526.058415,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8084.085530799999,
+      "attack": 165.06651408,
+      "defense": 530.428116,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8149.880370999999,
+      "attack": 166.4099496,
+      "defense": 534.74517,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8216.4775873,
+      "attack": 167.76976847999998,
+      "defense": 539.114871,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8282.2724275,
+      "attack": 169.113204,
+      "defense": 543.4319250000001,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8348.869643799999,
+      "attack": 170.47302288,
+      "defense": 547.8016259999999,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8414.664484,
+      "attack": 171.8164584,
+      "defense": 552.11868,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8481.2617003,
+      "attack": 173.17627728,
+      "defense": 556.488381,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 8973.759816599999,
+      "attack": 183.23257916,
+      "defense": 588.8030819999999,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9039.554656799999,
+      "attack": 184.57601468,
+      "defense": 593.120136,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9106.1518731,
+      "attack": 185.93583356,
+      "defense": 597.489837,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9171.9467133,
+      "attack": 187.27926908,
+      "defense": 601.806891,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9238.5439296,
+      "attack": 188.63908796,
+      "defense": 606.176592,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9304.3387698,
+      "attack": 189.98252348000003,
+      "defense": 610.493646,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9370.935986100001,
+      "attack": 191.34234236,
+      "defense": 614.863347,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9436.7308263,
+      "attack": 192.68577788,
+      "defense": 619.180401,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9503.3280426,
+      "attack": 194.04559676,
+      "defense": 623.5501019999999,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9569.925258899999,
+      "attack": 195.40541564,
+      "defense": 627.919803,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2660.7202009,
+      "attack": 54.32834784,
+      "defense": 174.58014299999996,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4411.344042,
+      "attack": 90.0737592,
+      "defense": 289.44534,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5641.9745006,
+      "attack": 115.20172656,
+      "defense": 370.19176200000004,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6730.6380592,
+      "attack": 137.43086592,
+      "defense": 441.6231839999999,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7818.499041699999,
+      "attack": 159.64362192,
+      "defense": 513.0019589999999,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 8907.162600299998,
+      "attack": 181.87276028,
+      "defense": 584.433381,
+      "specialized": 0.24
+    }
+  }
+}

@@ -1,0 +1,1676 @@
+{
+  "profile": {
+    "id": 10000039,
+    "name": "Diona",
+    "title": "Kätzlein Cocktail",
+    "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_LOLI",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "1/18",
+    "birthday": "January 18",
+    "elementType": "ELEMENT_CRYO",
+    "elementText": "Cryo",
+    "affiliation": "The Cat's Tail",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_ICE_ADD_HURT",
+    "substatText": "Cryo DMG Bonus",
+    "constellation": "Feles",
+    "cv": {
+      "english": "Dina Sherman",
+      "chinese": "诺亚",
+      "japanese": "井澤詩織",
+      "korean": "Woo Jeong-shin"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104161,
+          "name": "Shivada Jade Sliver",
+          "count": 1
+        },
+        {
+          "id": 100056,
+          "name": "Calla Lily",
+          "count": 3
+        },
+        {
+          "id": 112011,
+          "name": "Firm Arrowhead",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 3
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 2
+        },
+        {
+          "id": 100056,
+          "name": "Calla Lily",
+          "count": 10
+        },
+        {
+          "id": 112011,
+          "name": "Firm Arrowhead",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 4
+        },
+        {
+          "id": 100056,
+          "name": "Calla Lily",
+          "count": 20
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 3
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 8
+        },
+        {
+          "id": 100056,
+          "name": "Calla Lily",
+          "count": 30
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 12
+        },
+        {
+          "id": 100056,
+          "name": "Calla Lily",
+          "count": 45
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104164,
+          "name": "Shivada Jade Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 20
+        },
+        {
+          "id": 100056,
+          "name": "Calla Lily",
+          "count": 60
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Character_Diona_Card.png",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Diona_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/fb11c57bf9789d760d70d35ce634ebe1_7535039246777100657.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201106/2020110618595613115.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/d4e511080346c2ce43636eeb10dd7226.png",
+      "filename_icon": "UI_AvatarIcon_Diona",
+      "filename_iconCard": "UI_AvatarIcon_Diona_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Diona",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Diona",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diona",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Diona.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Diona_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Diona"
+    },
+    "version": "1.1"
+  },
+  "skills": {
+    "id": 3901,
+    "name": "Diona",
+    "combat1": {
+      "name": "Kätzlein Style",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}",
+          "Aimed Shot|{param7:F1P}",
+          "Fully-Charged Aimed Shot|{param8:P}",
+          "Plunge DMG|{param9:F1P}",
+          "Low/High Plunge DMG|{param10:P}/{param11:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.3612,
+            0.3906,
+            0.42,
+            0.462,
+            0.4914,
+            0.525,
+            0.5712,
+            0.6174,
+            0.6636,
+            0.714,
+            0.77175,
+            0.839664,
+            0.907578,
+            0.975492,
+            1.04958
+          ],
+          "param2": [
+            0.3354,
+            0.3627,
+            0.39,
+            0.429,
+            0.4563,
+            0.4875,
+            0.5304,
+            0.5733,
+            0.6162,
+            0.663,
+            0.716625,
+            0.779688,
+            0.842751,
+            0.905814,
+            0.97461
+          ],
+          "param3": [
+            0.4558,
+            0.4929,
+            0.53,
+            0.583,
+            0.6201,
+            0.6625,
+            0.7208,
+            0.7791,
+            0.8374,
+            0.901,
+            0.973875,
+            1.059576,
+            1.145277,
+            1.230978,
+            1.32447
+          ],
+          "param4": [
+            0.43,
+            0.465,
+            0.5,
+            0.55,
+            0.585,
+            0.625,
+            0.68,
+            0.735,
+            0.79,
+            0.85,
+            0.91875,
+            0.9996,
+            1.08045,
+            1.1613,
+            1.2495
+          ],
+          "param5": [
+            0.5375,
+            0.58125,
+            0.625,
+            0.6875,
+            0.73125,
+            0.78125,
+            0.85,
+            0.91875,
+            0.9875,
+            1.0625,
+            1.148438,
+            1.2495,
+            1.350562,
+            1.451625,
+            1.561875
+          ],
+          "param7": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.937125,
+            1.019592,
+            1.102059,
+            1.184526,
+            1.27449
+          ],
+          "param8": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.36096,
+            2.5296,
+            2.69824,
+            2.86688,
+            3.03552
+          ],
+          "param9": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param10": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param11": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Icy Paws",
+      "descriptionRaw": "#Fires an Icy Paw that deals <color=#99FFFFFF>Cryo DMG</color> to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nRapidly fires off 2 Icy Paws.\n\n<color=#FFD780FF>Hold</color>\nDashes back quickly before firing 5 Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% <color=#99FFFFFF>Cryo DMG</color> Absorption Bonus, and will cause your active character to become affected by <color=#99FFFFFF>Cryo</color> at the point of formation for a short duration.\n\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>",
+      "description": "Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\nPress\nRapidly fires off 2 Icy Paws.\n\nHold\nDashes back quickly before firing 5 Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.",
+      "flavorText": "When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!",
+      "attributes": {
+        "labels": [
+          "Icy Paw DMG|{param1:F1P} per Paw",
+          "Base Shield DMG Absorption|{param2:F1P} Max HP+{param3:I}",
+          "Duration|{param6:F1}s per Paw",
+          "Press CD|{param4:F1}s",
+          "Hold CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.4192,
+            0.45064,
+            0.48208,
+            0.524,
+            0.55544,
+            0.58688,
+            0.6288,
+            0.67072,
+            0.71264,
+            0.75456,
+            0.79648,
+            0.8384,
+            0.8908,
+            0.9432,
+            0.9956
+          ],
+          "param2": [
+            0.072,
+            0.0774,
+            0.0828,
+            0.09,
+            0.0954,
+            0.1008,
+            0.108,
+            0.1152,
+            0.1224,
+            0.1296,
+            0.1368,
+            0.144,
+            0.153,
+            0.162,
+            0.171
+          ],
+          "param3": [
+            692.8066,
+            762.09686,
+            837.1613,
+            918,
+            1004.61285,
+            1096.9999,
+            1195.1611,
+            1299.0966,
+            1408.8062,
+            1524.29,
+            1645.548,
+            1772.5802,
+            1905.3866,
+            2043.9672,
+            2188.322
+          ],
+          "param4": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            1.8,
+            1.9,
+            2,
+            2.1,
+            2.2,
+            2.3,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4,
+            2.4
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Signature Mix",
+      "descriptionRaw": "Tosses out a special cold brew that deals <color=#99FFFFFF>AoE Cryo DMG</color> and creates a Drunken Mist in an AoE.\n\n<color=#FFD780FF>Drunken Mist</color>\n·Deals continuous <color=#99FFFFFF>Cryo DMG</color> to opponents within the AoE.\n·Continuously regenerates the HP of characters within the AoE.\n\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>",
+      "description": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\n\nDrunken Mist\n·Deals continuous Cryo DMG to opponents within the AoE.\n·Continuously regenerates the HP of characters within the AoE.",
+      "flavorText": "A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P}",
+          "Continuous Field DMG|{param2:F1P}",
+          "HP Regeneration Over Time|{param3:F2P} Max HP+{param4:I}",
+          "Duration|{param7:F1}s",
+          "CD|{param5:F1}s",
+          "Energy Cost|{param6:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.8,
+            0.86,
+            0.92,
+            1,
+            1.06,
+            1.12,
+            1.2,
+            1.28,
+            1.36,
+            1.44,
+            1.52,
+            1.6,
+            1.7,
+            1.8,
+            1.9
+          ],
+          "param2": [
+            0.5264,
+            0.56588,
+            0.60536,
+            0.658,
+            0.69748,
+            0.73696,
+            0.7896,
+            0.84224,
+            0.89488,
+            0.94752,
+            1.00016,
+            1.0528,
+            1.1186,
+            1.1844,
+            1.2502
+          ],
+          "param3": [
+            0.05336,
+            0.057362,
+            0.061364,
+            0.0667,
+            0.070702,
+            0.074704,
+            0.08004,
+            0.085376,
+            0.090712,
+            0.096048,
+            0.101384,
+            0.10672,
+            0.11339,
+            0.12006,
+            0.12673
+          ],
+          "param4": [
+            513.19006,
+            564.5162,
+            620.1195,
+            680,
+            744.15765,
+            812.5925,
+            885.30457,
+            962.29376,
+            1043.5602,
+            1129.1038,
+            1218.9244,
+            1313.0223,
+            1411.3975,
+            1514.0498,
+            1620.9792
+          ],
+          "param5": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param6": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ],
+          "param7": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Cat's Tail Secret Menu",
+      "descriptionRaw": "Characters shielded by <color=#FFD780FF>Icy Paws</color> have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
+      "description": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
+    },
+    "passive2": {
+      "name": "Drunkards' Farce",
+      "descriptionRaw": "Opponents who enter the AoE of <color=#FFD780FF>Signature Mix</color> have 10% decreased ATK for 15s.",
+      "description": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s."
+    },
+    "passive3": {
+      "name": "Complimentary Bar Food",
+      "descriptionRaw": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104301,
+          "name": "Teachings of Freedom",
+          "count": 3
+        },
+        {
+          "id": 112011,
+          "name": "Firm Arrowhead",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 2
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 4
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 6
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 9
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 4
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 4
+        },
+        {
+          "id": 113014,
+          "name": "Shard of a Foul Legacy",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 6
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 6
+        },
+        {
+          "id": 113014,
+          "name": "Shard of a Foul Legacy",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 12
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 9
+        },
+        {
+          "id": 113014,
+          "name": "Shard of a Foul Legacy",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 16
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 12
+        },
+        {
+          "id": 113014,
+          "name": "Shard of a Foul Legacy",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Diona_01",
+      "filename_combat3": "Skill_E_Diona_01_HD",
+      "filename_passive1": "UI_Talent_S_Diona_05",
+      "filename_passive2": "UI_Talent_S_Diona_06",
+      "filename_passive3": "UI_Talent_Cook_Heal"
+    },
+    "version": "1.1"
+  },
+  "constellation": {
+    "id": 3901,
+    "name": "Diona",
+    "c1": {
+      "name": "A Lingering Flavor",
+      "descriptionRaw": "Regenerates 15 Energy for Diona after the effects of <color=#FFD780FF>Signature Mix</color> end.",
+      "description": "Regenerates 15 Energy for Diona after the effects of Signature Mix end."
+    },
+    "c2": {
+      "name": "Shaken, Not Purred",
+      "descriptionRaw": "Increases <color=#FFD780FF>Icy Paws</color>' DMG by 15%, and increases its shield's DMG Absorption by 15%.\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the <color=#FFD780FF>Icy Paws</color> shield's DMG Absorption for 5s.",
+      "description": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%.\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s."
+    },
+    "c3": {
+      "name": "A—Another Round?",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Signature Mix</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Signature Mix by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Wine Industry Slayer",
+      "descriptionRaw": "Within the radius of <color=#FFD780FF>Signature Mix</color>, Diona's charge time for aimed shots is reduced by 60%",
+      "description": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%"
+    },
+    "c5": {
+      "name": "Double Shot, on the Rocks",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Icy Paws</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Icy Paws by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Cat's Tail Closing Time",
+      "descriptionRaw": "Characters within <color=#FFD780FF>Signature Mix</color>'s radius will gain the following effects based on their HP amounts:\n·Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n·Elemental Mastery increased by 200 when HP is above 50%.",
+      "description": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\n·Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n·Elemental Mastery increased by 200 when HP is above 50%."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Diona_01",
+      "filename_c2": "UI_Talent_S_Diona_02",
+      "filename_c3": "UI_Talent_U_Diona_01",
+      "filename_c4": "UI_Talent_S_Diona_03",
+      "filename_c5": "UI_Talent_U_Diona_02",
+      "filename_c6": "UI_Talent_S_Diona_04",
+      "filename_constellation": "Eff_UI_Talent_Diona"
+    },
+    "version": "1.1"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 802.3761,
+      "attack": 17.808,
+      "defense": 50.358,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 868.9733163,
+      "attack": 19.286064,
+      "defense": 54.537713999999994,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 934.7681564999999,
+      "attack": 20.74632,
+      "defense": 58.667069999999995,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1001.3653727999999,
+      "attack": 22.224384,
+      "defense": 62.846784,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1067.1602129999999,
+      "attack": 23.68464,
+      "defense": 66.97614,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1133.7574293,
+      "attack": 25.162704,
+      "defense": 71.15585399999999,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1199.5522695,
+      "attack": 26.622960000000003,
+      "defense": 75.28521,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1266.1494857999999,
+      "attack": 28.101024000000002,
+      "defense": 79.464924,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1332.7467021,
+      "attack": 29.579088,
+      "defense": 83.644638,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1398.5415423,
+      "attack": 31.039344,
+      "defense": 87.773994,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1465.1387586,
+      "attack": 32.517408,
+      "defense": 91.95370799999999,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1530.9335987999998,
+      "attack": 33.977664,
+      "defense": 96.083064,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1597.5308151,
+      "attack": 35.455728,
+      "defense": 100.262778,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1663.3256552999999,
+      "attack": 36.915984,
+      "defense": 104.39213399999998,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1729.9228716,
+      "attack": 38.394048000000005,
+      "defense": 108.571848,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1796.5200878999997,
+      "attack": 39.872111999999994,
+      "defense": 112.75156199999999,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1862.3149281,
+      "attack": 41.332368,
+      "defense": 116.88091800000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1928.9121443999998,
+      "attack": 42.810432,
+      "defense": 121.06063199999998,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 1994.7069846,
+      "attack": 44.270688,
+      "defense": 125.189988,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2061.3042008999996,
+      "attack": 45.748751999999996,
+      "defense": 129.369702,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2726.5150411,
+      "attack": 60.512808,
+      "defense": 171.119058,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2793.1122574,
+      "attack": 61.990872,
+      "defense": 175.29877199999999,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2859.7094737,
+      "attack": 63.46893600000001,
+      "defense": 179.478486,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2925.5043139,
+      "attack": 64.929192,
+      "defense": 183.607842,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 2992.1015302,
+      "attack": 66.407256,
+      "defense": 187.787556,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3057.8963704000003,
+      "attack": 67.867512,
+      "defense": 191.916912,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3124.4935867,
+      "attack": 69.345576,
+      "defense": 196.096626,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3190.2884269,
+      "attack": 70.805832,
+      "defense": 200.225982,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3256.8856432,
+      "attack": 72.283896,
+      "defense": 204.40569599999998,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3322.6804834,
+      "attack": 73.744152,
+      "defense": 208.535052,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3389.2776997,
+      "attack": 75.222216,
+      "defense": 212.714766,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3455.874916,
+      "attack": 76.70027999999999,
+      "defense": 216.89448,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3521.6697562,
+      "attack": 78.160536,
+      "defense": 221.023836,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3588.2669725,
+      "attack": 79.6386,
+      "defense": 225.20355,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3654.0618127,
+      "attack": 81.098856,
+      "defense": 229.33290599999998,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3720.659029,
+      "attack": 82.57692,
+      "defense": 233.51262,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3786.4538692,
+      "attack": 84.03717599999999,
+      "defense": 237.641976,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3853.0510854999998,
+      "attack": 85.51523999999999,
+      "defense": 241.82169,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 3919.6483018,
+      "attack": 86.993304,
+      "defense": 246.00140399999998,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 3985.4431419999996,
+      "attack": 88.45356,
+      "defense": 250.13075999999998,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4477.941258299999,
+      "attack": 99.384324,
+      "defense": 281.040474,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4543.7360985,
+      "attack": 100.84458,
+      "defense": 285.16982999999993,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4610.3333148,
+      "attack": 102.322644,
+      "defense": 289.349544,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4676.128154999999,
+      "attack": 103.7829,
+      "defense": 293.47889999999995,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4742.7253713,
+      "attack": 105.260964,
+      "defense": 297.65861399999994,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4809.3225876,
+      "attack": 106.739028,
+      "defense": 301.838328,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4875.1174278,
+      "attack": 108.199284,
+      "defense": 305.96768399999996,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 4941.7146440999995,
+      "attack": 109.67734800000001,
+      "defense": 310.14739799999995,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5007.5094843,
+      "attack": 111.137604,
+      "defense": 314.276754,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5074.1067006,
+      "attack": 112.615668,
+      "defense": 318.456468,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5707.7693408,
+      "attack": 126.679524,
+      "defense": 358.225824,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5774.3665571,
+      "attack": 128.157588,
+      "defense": 362.40553800000004,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5840.963773399999,
+      "attack": 129.635652,
+      "defense": 366.58525199999997,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 5906.7586136,
+      "attack": 131.095908,
+      "defense": 370.714608,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 5973.3558299,
+      "attack": 132.573972,
+      "defense": 374.894322,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6039.1506701,
+      "attack": 134.034228,
+      "defense": 379.023678,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6105.7478863999995,
+      "attack": 135.512292,
+      "defense": 383.20339199999995,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6171.5427266,
+      "attack": 136.97254800000002,
+      "defense": 387.33274800000004,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6238.139942899999,
+      "attack": 138.45061199999998,
+      "defense": 391.51246199999997,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6304.737159199999,
+      "attack": 139.928676,
+      "defense": 395.69217599999996,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6796.432699399999,
+      "attack": 150.841632,
+      "defense": 426.55153199999995,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 6863.0299157,
+      "attack": 152.319696,
+      "defense": 430.73124599999994,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 6928.824755899999,
+      "attack": 153.779952,
+      "defense": 434.860602,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 6995.4219722,
+      "attack": 155.258016,
+      "defense": 439.04031599999996,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7061.216812399999,
+      "attack": 156.71827199999998,
+      "defense": 443.169672,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7127.8140287,
+      "attack": 158.196336,
+      "defense": 447.349386,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7194.411244999999,
+      "attack": 159.6744,
+      "defense": 451.52909999999997,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7260.2060851999995,
+      "attack": 161.134656,
+      "defense": 455.658456,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7326.8033015,
+      "attack": 162.61272,
+      "defense": 459.83817,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7392.598141699999,
+      "attack": 164.072976,
+      "defense": 463.967526,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 7885.096258,
+      "attack": 175.00374,
+      "defense": 494.87724,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 7950.8910982,
+      "attack": 176.463996,
+      "defense": 499.00659599999994,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8017.4883145,
+      "attack": 177.94206000000003,
+      "defense": 503.18631,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8084.085530799999,
+      "attack": 179.420124,
+      "defense": 507.3660239999999,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8149.880370999999,
+      "attack": 180.88038,
+      "defense": 511.49538,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8216.4775873,
+      "attack": 182.358444,
+      "defense": 515.675094,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8282.2724275,
+      "attack": 183.8187,
+      "defense": 519.80445,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8348.869643799999,
+      "attack": 185.296764,
+      "defense": 523.984164,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8414.664484,
+      "attack": 186.75702,
+      "defense": 528.11352,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8481.2617003,
+      "attack": 188.235084,
+      "defense": 532.293234,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 8973.759816599999,
+      "attack": 199.16584799999998,
+      "defense": 563.202948,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9039.554656799999,
+      "attack": 200.626104,
+      "defense": 567.332304,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9106.1518731,
+      "attack": 202.104168,
+      "defense": 571.5120179999999,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9171.9467133,
+      "attack": 203.564424,
+      "defense": 575.641374,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9238.5439296,
+      "attack": 205.042488,
+      "defense": 579.8210879999999,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9304.3387698,
+      "attack": 206.502744,
+      "defense": 583.9504440000001,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9370.935986100001,
+      "attack": 207.980808,
+      "defense": 588.130158,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9436.7308263,
+      "attack": 209.44106399999998,
+      "defense": 592.259514,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9503.3280426,
+      "attack": 210.919128,
+      "defense": 596.439228,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9569.925258899999,
+      "attack": 212.397192,
+      "defense": 600.6189420000001,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2660.7202009,
+      "attack": 59.052552,
+      "defense": 166.989702,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4411.344042,
+      "attack": 97.90626,
+      "defense": 276.86075999999997,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5641.9745006,
+      "attack": 125.219268,
+      "defense": 354.096468,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6730.637859199999,
+      "attack": 149.381376,
+      "defense": 422.4221759999999,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7818.499041699999,
+      "attack": 173.525676,
+      "defense": 490.697526,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 8907.162600299998,
+      "attack": 197.687784,
+      "defense": 559.023234,
+      "specialized": 0.24
+    }
+  }
+}

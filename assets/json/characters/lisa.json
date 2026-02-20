@@ -1,0 +1,1624 @@
+{
+  "profile": {
+    "id": 10000006,
+    "name": "Lisa",
+    "title": "Witch of Purple Rose",
+    "description": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Akademiya to be their most distinguished graduate in the past two centuries.",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "bodyType": "BODY_LADY",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "6/9",
+    "birthday": "June 9",
+    "elementType": "ELEMENT_ELECTRO",
+    "elementText": "Electro",
+    "affiliation": "Knights of Favonius",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
+    "substatText": "Elemental Mastery",
+    "constellation": "Tempus Fugit",
+    "cv": {
+      "english": "Mara Junot",
+      "chinese": "钟可",
+      "japanese": "田中理恵",
+      "korean": "Park Go-woon"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104141,
+          "name": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 2
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 10
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 4
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 20
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 8
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 30
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 12
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 45
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104144,
+          "name": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113002,
+          "name": "Lightning Prism",
+          "count": 20
+        },
+        {
+          "id": 100022,
+          "name": "Valberry",
+          "count": 60
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Character_Lisa_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Lisa_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/43922f5162840c215638affedad0459a_3369229991804918602.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20191009/2019100915140016827.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/06b5a07d8f98649e5e09c58aa7904752.png",
+      "filename_icon": "UI_AvatarIcon_Lisa",
+      "filename_iconCard": "UI_AvatarIcon_Lisa_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Lisa",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Lisa",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lisa",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lisa.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Lisa.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Lisa_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Lisa"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 601,
+    "name": "Lisa",
+    "combat1": {
+      "name": "Lightning Touch",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 lightning attacks that deal <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#FFACFFFF>AoE Electro DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFACFFFF>AoE Electro DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nPerforms up to 4 lightning attacks that deal Electro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Electro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Electro DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "Charged Attack DMG|{param5:P}",
+          "Charged Attack Stamina Cost|{param6:F1}",
+          "Plunge DMG|{param7:F1P}",
+          "Low/High Plunge DMG|{param8:P}/{param9:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.396,
+            0.4257,
+            0.4554,
+            0.495,
+            0.5247,
+            0.5544,
+            0.594,
+            0.6336,
+            0.6732,
+            0.7128,
+            0.753984,
+            0.80784,
+            0.861696,
+            0.915552,
+            0.969408
+          ],
+          "param2": [
+            0.3592,
+            0.38614,
+            0.41308,
+            0.449,
+            0.47594,
+            0.50288,
+            0.5388,
+            0.57472,
+            0.61064,
+            0.64656,
+            0.683917,
+            0.732768,
+            0.781619,
+            0.83047,
+            0.879322
+          ],
+          "param3": [
+            0.428,
+            0.4601,
+            0.4922,
+            0.535,
+            0.5671,
+            0.5992,
+            0.642,
+            0.6848,
+            0.7276,
+            0.7704,
+            0.814912,
+            0.87312,
+            0.931328,
+            0.989536,
+            1.047744
+          ],
+          "param4": [
+            0.5496,
+            0.59082,
+            0.63204,
+            0.687,
+            0.72822,
+            0.76944,
+            0.8244,
+            0.87936,
+            0.93432,
+            0.98928,
+            1.046438,
+            1.121184,
+            1.19593,
+            1.270675,
+            1.345421
+          ],
+          "param5": [
+            1.7712,
+            1.90404,
+            2.03688,
+            2.214,
+            2.34684,
+            2.47968,
+            2.6568,
+            2.83392,
+            3.01104,
+            3.18816,
+            3.372365,
+            3.613248,
+            3.854131,
+            4.095014,
+            4.335898
+          ],
+          "param6": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param7": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param8": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param9": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Violet Arc",
+      "descriptionRaw": "#Channels the power of lightning to sweep bothersome matters away.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nReleases a homing Lightning Orb.\nOn hit, it deals <color=#FFACFFFF>Electro DMG</color> and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\n\n<color=#FFD780FF>Hold</color>\nAfter an extended casting time, calls down lightning from the heavens, dealing massive <color=#FFACFFFF>Electro DMG</color> to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\n\n<i>Electro Purple is the raiment of the Witch of Purple Rose.</i>",
+      "description": "Channels the power of lightning to sweep bothersome matters away.\n\nPress\nReleases a homing Lightning Orb.\nOn hit, it deals Electro DMG and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\n\nHold\nAfter an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.",
+      "flavorText": "Electro Purple is the raiment of the Witch of Purple Rose.",
+      "attributes": {
+        "labels": [
+          "Press DMG|{param6:F1P}",
+          "Press CD|{param7:F1}s",
+          "Non-Conductive Hold DMG|{param1:P}",
+          "Stack 1 Conductive Hold DMG|{param2:P}",
+          "Stack 2 Conductive Hold DMG|{param3:P}",
+          "Stack 3 Conductive Hold DMG|{param4:P}",
+          "Holding CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            3.2,
+            3.44,
+            3.68,
+            4,
+            4.24,
+            4.48,
+            4.8,
+            5.12,
+            5.44,
+            5.76,
+            6.08,
+            6.4,
+            6.8,
+            7.2,
+            7.6
+          ],
+          "param2": [
+            3.68,
+            3.956,
+            4.232,
+            4.6,
+            4.876,
+            5.152,
+            5.52,
+            5.888,
+            6.256,
+            6.624,
+            6.992,
+            7.36,
+            7.82,
+            8.28,
+            8.74
+          ],
+          "param3": [
+            4.24,
+            4.558,
+            4.876,
+            5.3,
+            5.618,
+            5.936,
+            6.36,
+            6.784,
+            7.208,
+            7.632,
+            8.056,
+            8.48,
+            9.01,
+            9.54,
+            10.07
+          ],
+          "param4": [
+            4.872,
+            5.2374,
+            5.6028,
+            6.09,
+            6.4554,
+            6.8208,
+            7.308,
+            7.7952,
+            8.2824,
+            8.7696,
+            9.2568,
+            9.744,
+            10.353,
+            10.962,
+            11.571
+          ],
+          "param5": [
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "param6": [
+            0.8,
+            0.86,
+            0.92,
+            1,
+            1.06,
+            1.12,
+            1.2,
+            1.28,
+            1.36,
+            1.44,
+            1.52,
+            1.6,
+            1.7,
+            1.8,
+            1.9
+          ],
+          "param7": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Lightning Rose",
+      "descriptionRaw": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing <color=#FFACFFFF>Electro DMG</color>.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal <color=#FFACFFFF>Electro DMG</color> throughout the ability's duration.\n\n<i>This rose is beautiful, but beware its mortal thorns.</i>",
+      "description": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal Electro DMG throughout the ability's duration.",
+      "flavorText": "This rose is beautiful, but beware its mortal thorns.",
+      "attributes": {
+        "labels": [
+          "Discharge DMG|{param1:F1P}",
+          "Duration|{param2:F1}s",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.3656,
+            0.39302,
+            0.42044,
+            0.457,
+            0.48442,
+            0.51184,
+            0.5484,
+            0.58496,
+            0.62152,
+            0.65808,
+            0.69464,
+            0.7312,
+            0.7769,
+            0.8226,
+            0.8683
+          ],
+          "param2": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param3": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param4": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Induced Aftershock",
+      "descriptionRaw": "Hits by Charged Attacks apply <color=#FFD780FF>Violet Arc</color>'s Conductive status to opponents.",
+      "description": "Hits by Charged Attacks apply Violet Arc's Conductive status to opponents."
+    },
+    "passive2": {
+      "name": "Static Electricity Field",
+      "descriptionRaw": "Opponents hit by <color=#FFD780FF>Lightning Rose</color> have their DEF decreased by 15% for 10s.",
+      "description": "Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s."
+    },
+    "passive3": {
+      "name": "General Pharmaceutics",
+      "descriptionRaw": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used.",
+      "description": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104307,
+          "name": "Teachings of Ballad",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 2
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 4
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 6
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104308,
+          "name": "Guide to Ballad",
+          "count": 9
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 4
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 4
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 6
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 6
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 12
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 9
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104309,
+          "name": "Philosophies of Ballad",
+          "count": 16
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        },
+        {
+          "id": 113004,
+          "name": "Dvalin's Claw",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Lisa_01",
+      "filename_combat3": "Skill_E_Lisa_01_HD",
+      "filename_passive1": "UI_Talent_S_Lisa_05",
+      "filename_passive2": "UI_Talent_S_Lisa_06",
+      "filename_passive3": "UI_Talent_Combine_Potion"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 601,
+    "name": "Lisa",
+    "c1": {
+      "name": "Infinite Circuit",
+      "descriptionRaw": "Lisa regenerates 2 Energy for every opponent hit while holding <color=#FFD780FF>Violet Arc</color>.\nA maximum of 10 Energy can be regenerated in this manner at any one time.",
+      "description": "Lisa regenerates 2 Energy for every opponent hit while holding Violet Arc.\nA maximum of 10 Energy can be regenerated in this manner at any one time."
+    },
+    "c2": {
+      "name": "Electromagnetic Field",
+      "descriptionRaw": "Holding <color=#FFD780FF>Violet Arc</color> has the following effects:\n·Increases DEF by 25%.\n·Increases Lisa's resistance to interruption.",
+      "description": "Holding Violet Arc has the following effects:\n·Increases DEF by 25%.\n·Increases Lisa's resistance to interruption."
+    },
+    "c3": {
+      "name": "Resonant Thunder",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Lightning Rose</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Lightning Rose by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Plasma Eruption",
+      "descriptionRaw": "<color=#FFD780FF>Lightning Rose</color> now unleashes 1-3 lightning bolts when it attacks.",
+      "description": "Lightning Rose now unleashes 1-3 lightning bolts when it attacks."
+    },
+    "c5": {
+      "name": "Electrocute",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Violet Arc</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Violet Arc by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Pulsating Witch",
+      "descriptionRaw": "When Lisa takes the field, she applies 3 stacks of <color=#FFD780FF>Violet Arc</color>'s Conductive status onto nearby opponents.\nThis effect can only occur once every 5s.",
+      "description": "When Lisa takes the field, she applies 3 stacks of Violet Arc's Conductive status onto nearby opponents.\nThis effect can only occur once every 5s."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Lisa_01",
+      "filename_c2": "UI_Talent_S_Lisa_02",
+      "filename_c3": "UI_Talent_U_Lisa_02",
+      "filename_c4": "UI_Talent_S_Lisa_03",
+      "filename_c5": "UI_Talent_U_Lisa_01",
+      "filename_c6": "UI_Talent_S_Lisa_04",
+      "filename_constellation": "Eff_UI_Talent_Lisa"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 802.3761,
+      "attack": 19.41072,
+      "defense": 48.069,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 868.9733163,
+      "attack": 21.02180976,
+      "defense": 52.058727,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 934.7681564999999,
+      "attack": 22.613488800000002,
+      "defense": 56.000385,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1001.3653727999999,
+      "attack": 24.22457856,
+      "defense": 59.990112,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1067.1602129999999,
+      "attack": 25.816257600000004,
+      "defense": 63.93177000000001,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1133.7574293,
+      "attack": 27.427347360000002,
+      "defense": 67.921497,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1199.5522695,
+      "attack": 29.019026400000005,
+      "defense": 71.863155,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1266.1494857999999,
+      "attack": 30.630116160000004,
+      "defense": 75.85288200000001,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1332.7467021,
+      "attack": 32.241205920000006,
+      "defense": 79.84260900000001,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1398.5415423,
+      "attack": 33.83288496,
+      "defense": 83.78426700000001,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1465.1387586,
+      "attack": 35.44397472000001,
+      "defense": 87.773994,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1530.9335987999998,
+      "attack": 37.03565376,
+      "defense": 91.715652,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1597.5308151,
+      "attack": 38.64674352,
+      "defense": 95.70537900000001,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1663.3256552999999,
+      "attack": 40.238422560000004,
+      "defense": 99.647037,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1729.9228716,
+      "attack": 41.84951232,
+      "defense": 103.63676400000001,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1796.5200878999997,
+      "attack": 43.46060208,
+      "defense": 107.626491,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1862.3149281,
+      "attack": 45.05228112,
+      "defense": 111.56814900000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1928.9121443999998,
+      "attack": 46.66337088,
+      "defense": 115.55787600000001,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 1994.7069846,
+      "attack": 48.255049920000005,
+      "defense": 119.49953400000001,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2061.3042008999996,
+      "attack": 49.86613968,
+      "defense": 123.489261,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2726.5150411,
+      "attack": 65.95896072,
+      "defense": 163.34091899999999,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2793.1122574,
+      "attack": 67.57005048,
+      "defense": 167.330646,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2859.7094737,
+      "attack": 69.18114024,
+      "defense": 171.32037300000002,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2925.5043139,
+      "attack": 70.77281928000001,
+      "defense": 175.262031,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 2992.1015302,
+      "attack": 72.38390904,
+      "defense": 179.25175800000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3057.8963704000003,
+      "attack": 73.97558808000001,
+      "defense": 183.193416,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3124.4935867,
+      "attack": 75.58667784,
+      "defense": 187.183143,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3190.2884269,
+      "attack": 77.17835688000001,
+      "defense": 191.12480100000002,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3256.8856432,
+      "attack": 78.78944664000001,
+      "defense": 195.114528,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3322.6804834,
+      "attack": 80.38112568000001,
+      "defense": 199.05618600000003,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3389.2776997,
+      "attack": 81.99221544000001,
+      "defense": 203.045913,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3455.874916,
+      "attack": 83.60330520000001,
+      "defense": 207.03564,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3521.6697562,
+      "attack": 85.19498424000001,
+      "defense": 210.977298,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3588.2669725,
+      "attack": 86.80607400000001,
+      "defense": 214.967025,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3654.0618127,
+      "attack": 88.39775304000001,
+      "defense": 218.908683,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3720.659029,
+      "attack": 90.00884280000001,
+      "defense": 222.89841,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3786.4538692,
+      "attack": 91.60052184000001,
+      "defense": 226.840068,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3853.0510854999998,
+      "attack": 93.2116116,
+      "defense": 230.829795,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 3919.6483018,
+      "attack": 94.82270136000001,
+      "defense": 234.819522,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 3985.4431419999996,
+      "attack": 96.4143804,
+      "defense": 238.76118,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4477.941258299999,
+      "attack": 108.32891316000001,
+      "defense": 268.265907,
+      "specialized": 24
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4543.7360985,
+      "attack": 109.9205922,
+      "defense": 272.207565,
+      "specialized": 24
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4610.3333148,
+      "attack": 111.53168196000001,
+      "defense": 276.197292,
+      "specialized": 24
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4676.128154999999,
+      "attack": 113.123361,
+      "defense": 280.13895,
+      "specialized": 24
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4742.7253713,
+      "attack": 114.73445076000002,
+      "defense": 284.128677,
+      "specialized": 24
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4809.3225876,
+      "attack": 116.34554052000001,
+      "defense": 288.118404,
+      "specialized": 24
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4875.1174278,
+      "attack": 117.93721956000002,
+      "defense": 292.060062,
+      "specialized": 24
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 4941.7146440999995,
+      "attack": 119.54830932000002,
+      "defense": 296.04978900000003,
+      "specialized": 24
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5007.5094843,
+      "attack": 121.13998836000002,
+      "defense": 299.991447,
+      "specialized": 24
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5074.1067006,
+      "attack": 122.75107812000002,
+      "defense": 303.981174,
+      "specialized": 24
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5707.7693408,
+      "attack": 138.08067916,
+      "defense": 341.942832,
+      "specialized": 48
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5774.3665571,
+      "attack": 139.69176892000002,
+      "defense": 345.932559,
+      "specialized": 48
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5840.963773399999,
+      "attack": 141.30285867999999,
+      "defense": 349.922286,
+      "specialized": 48
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 5906.7586136,
+      "attack": 142.89453772000002,
+      "defense": 353.863944,
+      "specialized": 48
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 5973.3558299,
+      "attack": 144.50562748,
+      "defense": 357.85367099999996,
+      "specialized": 48
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6039.1506701,
+      "attack": 146.09730652000002,
+      "defense": 361.79532900000004,
+      "specialized": 48
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6105.7478863999995,
+      "attack": 147.70839628,
+      "defense": 365.785056,
+      "specialized": 48
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6171.5427266,
+      "attack": 149.30007532000002,
+      "defense": 369.726714,
+      "specialized": 48
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6238.139942899999,
+      "attack": 150.91116508,
+      "defense": 373.716441,
+      "specialized": 48
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6304.737159199999,
+      "attack": 152.52225484000002,
+      "defense": 377.706168,
+      "specialized": 48
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6796.4328994,
+      "attack": 164.41737688,
+      "defense": 407.162826,
+      "specialized": 48
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 6863.0301157,
+      "attack": 166.02846664,
+      "defense": 411.152553,
+      "specialized": 48
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 6928.8249559,
+      "attack": 167.62014568,
+      "defense": 415.094211,
+      "specialized": 48
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 6995.4221722,
+      "attack": 169.23123544,
+      "defense": 419.083938,
+      "specialized": 48
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7061.2170123999995,
+      "attack": 170.82291448,
+      "defense": 423.025596,
+      "specialized": 48
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7127.8142287,
+      "attack": 172.43400424,
+      "defense": 427.015323,
+      "specialized": 48
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7194.411445,
+      "attack": 174.045094,
+      "defense": 431.00505,
+      "specialized": 48
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7260.2062852,
+      "attack": 175.63677304,
+      "defense": 434.946708,
+      "specialized": 48
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7326.8035015000005,
+      "attack": 177.2478628,
+      "defense": 438.936435,
+      "specialized": 48
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7392.5983417,
+      "attack": 178.83954184000004,
+      "defense": 442.878093,
+      "specialized": 48
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 7885.096258,
+      "attack": 190.75407660000002,
+      "defense": 472.38282000000004,
+      "specialized": 72
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 7950.8910982,
+      "attack": 192.34575564000002,
+      "defense": 476.324478,
+      "specialized": 72
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8017.4883145,
+      "attack": 193.95684540000002,
+      "defense": 480.314205,
+      "specialized": 72
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8084.085530799999,
+      "attack": 195.56793516,
+      "defense": 484.30393200000003,
+      "specialized": 72
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8149.880370999999,
+      "attack": 197.15961420000002,
+      "defense": 488.24559,
+      "specialized": 72
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8216.4775873,
+      "attack": 198.77070396,
+      "defense": 492.235317,
+      "specialized": 72
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8282.2724275,
+      "attack": 200.36238300000002,
+      "defense": 496.1769750000001,
+      "specialized": 72
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8348.869643799999,
+      "attack": 201.97347276,
+      "defense": 500.166702,
+      "specialized": 72
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8414.664484,
+      "attack": 203.56515180000002,
+      "defense": 504.10836000000006,
+      "specialized": 72
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8481.2617003,
+      "attack": 205.17624156,
+      "defense": 508.09808699999996,
+      "specialized": 72
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 8973.759816599999,
+      "attack": 217.09077132,
+      "defense": 537.6028140000001,
+      "specialized": 96
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9039.554656799999,
+      "attack": 218.68245036,
+      "defense": 541.544472,
+      "specialized": 96
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9106.1518731,
+      "attack": 220.29354012,
+      "defense": 545.534199,
+      "specialized": 96
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9171.9467133,
+      "attack": 221.88521916,
+      "defense": 549.475857,
+      "specialized": 96
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9238.5439296,
+      "attack": 223.49630892,
+      "defense": 553.465584,
+      "specialized": 96
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9304.3387698,
+      "attack": 225.08798796000002,
+      "defense": 557.407242,
+      "specialized": 96
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9370.935986100001,
+      "attack": 226.69907772000002,
+      "defense": 561.3969690000001,
+      "specialized": 96
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9436.7308263,
+      "attack": 228.29075676,
+      "defense": 565.3386270000001,
+      "specialized": 96
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9503.3280426,
+      "attack": 229.90184652,
+      "defense": 569.328354,
+      "specialized": 96
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9569.925258899999,
+      "attack": 231.51293628000002,
+      "defense": 573.3180810000001,
+      "specialized": 96
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2660.7202009,
+      "attack": 64.36728168,
+      "defense": 159.399261,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4411.344042,
+      "attack": 106.7178234,
+      "defense": 264.27618,
+      "specialized": 24
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5641.9745006,
+      "attack": 136.48900012000001,
+      "defense": 338.001174,
+      "specialized": 48
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6730.6380592,
+      "attack": 162.82569784,
+      "defense": 403.221168,
+      "specialized": 48
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7818.499041699999,
+      "attack": 189.14298684000002,
+      "defense": 468.393093,
+      "specialized": 72
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 8907.162600299998,
+      "attack": 215.47968156,
+      "defense": 533.613087,
+      "specialized": 96
+    }
+  }
+}

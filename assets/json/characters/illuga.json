@@ -1,0 +1,1688 @@
+{
+  "profile": {
+    "id": 10000127,
+    "name": "Illuga",
+    "title": "Nightmare's Burning Heart",
+    "description": "Member of the investigation squad, the Nightmare Orioles. The youngest squad leader among the Lightkeepers.",
+    "weaponType": "WEAPON_POLE",
+    "weaponText": "Polearm",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "12/23",
+    "birthday": "December 23",
+    "elementType": "ELEMENT_GEO",
+    "elementText": "Geo",
+    "affiliation": "Lightkeepers",
+    "associationType": "ASSOC_NODKRAI",
+    "region": "Nod-Krai",
+    "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
+    "substatText": "Elemental Mastery",
+    "constellation": "Oriolus",
+    "cv": {
+      "english": "Jonathon Ha",
+      "chinese": "Mace",
+      "japanese": "梅田修一朗",
+      "korean": "Hwang Dong-hyun"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104171,
+          "name": "Prithiva Topaz Sliver",
+          "count": 1
+        },
+        {
+          "id": 101269,
+          "name": "Pine Amber",
+          "count": 3
+        },
+        {
+          "id": 112122,
+          "name": "Broken Drive Shaft",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 3
+        },
+        {
+          "id": 113080,
+          "name": "Cyclic Military Kuuvahki Core",
+          "count": 2
+        },
+        {
+          "id": 101269,
+          "name": "Pine Amber",
+          "count": 10
+        },
+        {
+          "id": 112122,
+          "name": "Broken Drive Shaft",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 6
+        },
+        {
+          "id": 113080,
+          "name": "Cyclic Military Kuuvahki Core",
+          "count": 4
+        },
+        {
+          "id": 101269,
+          "name": "Pine Amber",
+          "count": 20
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 3
+        },
+        {
+          "id": 113080,
+          "name": "Cyclic Military Kuuvahki Core",
+          "count": 8
+        },
+        {
+          "id": 101269,
+          "name": "Pine Amber",
+          "count": 30
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 6
+        },
+        {
+          "id": 113080,
+          "name": "Cyclic Military Kuuvahki Core",
+          "count": 12
+        },
+        {
+          "id": 101269,
+          "name": "Pine Amber",
+          "count": 45
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104174,
+          "name": "Prithiva Topaz Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113080,
+          "name": "Cyclic Military Kuuvahki Core",
+          "count": 20
+        },
+        {
+          "id": 101269,
+          "name": "Pine Amber",
+          "count": 60
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Illuga",
+      "filename_iconCard": "UI_AvatarIcon_Illuga_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Illuga",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Illuga",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Illuga",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Illuga.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Illuga.png",
+      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/12/12/b138122c91d1ce61bf7d06d6042ae08a_4301479487552885437.png"
+    },
+    "version": "6.3"
+  },
+  "skills": {
+    "id": 12701,
+    "name": "Illuga",
+    "combat1": {
+      "name": "Oathkeeper's Spear",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "Charged Attack DMG|{param6:F1P}",
+          "Charged Attack Stamina Cost|{param7:F1}",
+          "Plunge DMG|{param8:F1P}",
+          "Low/High Plunge DMG|{param9:P}/{param10:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.473662,
+            0.512216,
+            0.55077,
+            0.605847,
+            0.644401,
+            0.688462,
+            0.749047,
+            0.809632,
+            0.870217,
+            0.936309,
+            1.002401,
+            1.068494,
+            1.134586,
+            1.200679,
+            1.266771
+          ],
+          "param2": [
+            0.485255,
+            0.524753,
+            0.56425,
+            0.620675,
+            0.660172,
+            0.705313,
+            0.76738,
+            0.829448,
+            0.891515,
+            0.959225,
+            1.026935,
+            1.094645,
+            1.162355,
+            1.230065,
+            1.297775
+          ],
+          "param3": [
+            0.31433,
+            0.339915,
+            0.3655,
+            0.40205,
+            0.427635,
+            0.456875,
+            0.49708,
+            0.537285,
+            0.57749,
+            0.62135,
+            0.66521,
+            0.70907,
+            0.75293,
+            0.79679,
+            0.84065
+          ],
+          "param4": [
+            0.31433,
+            0.339915,
+            0.3655,
+            0.40205,
+            0.427635,
+            0.456875,
+            0.49708,
+            0.537285,
+            0.57749,
+            0.62135,
+            0.66521,
+            0.70907,
+            0.75293,
+            0.79679,
+            0.84065
+          ],
+          "param5": [
+            0.762786,
+            0.824873,
+            0.88696,
+            0.975656,
+            1.037743,
+            1.1087,
+            1.206266,
+            1.303831,
+            1.401397,
+            1.507832,
+            1.614267,
+            1.720702,
+            1.827138,
+            1.933573,
+            2.040008
+          ],
+          "param6": [
+            1.11026,
+            1.20063,
+            1.291,
+            1.4201,
+            1.51047,
+            1.61375,
+            1.75576,
+            1.89777,
+            2.03978,
+            2.1947,
+            2.34962,
+            2.50454,
+            2.65946,
+            2.81438,
+            2.9693
+          ],
+          "param7": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param8": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param9": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param10": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Dawnbearing Songbird",
+      "descriptionRaw": "Summons the trusty messenger bird, \"Aedon.\" Different effects are produced depending on whether the skill is Tapped or Held.\n\n<color=#FFD780FF>Tap</color>\nAedon dashes towards enemies in front, dealing <color=#FFE699FF>Geo DMG</color> to enemies it comes into contact with.\n\n<color=#FFD780FF>Hold</color>\nEnter aiming mode, and command Aedon to dash towards opponents being aimed at, dealing <color=#FFE699FF>Geo DMG</color> to opponents it comes into contact with.",
+      "description": "Summons the trusty messenger bird, \"Aedon.\" Different effects are produced depending on whether the skill is Tapped or Held.\n\nTap\nAedon dashes towards enemies in front, dealing Geo DMG to enemies it comes into contact with.\n\nHold\nEnter aiming mode, and command Aedon to dash towards opponents being aimed at, dealing Geo DMG to opponents it comes into contact with.",
+      "attributes": {
+        "labels": [
+          "Press DMG|{param1:P} Elemental Mastery+{param2:P} DEF",
+          "Hold DMG|{param3:P} Elemental Mastery+{param4:P} DEF",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            4.8256,
+            5.18752,
+            5.54944,
+            6.032,
+            6.39392,
+            6.75584,
+            7.2384,
+            7.72096,
+            8.20352,
+            8.68608,
+            9.16864,
+            9.6512,
+            10.2544,
+            10.8576,
+            11.4608
+          ],
+          "param2": [
+            2.4128,
+            2.59376,
+            2.77472,
+            3.016,
+            3.19696,
+            3.37792,
+            3.6192,
+            3.86048,
+            4.10176,
+            4.34304,
+            4.58432,
+            4.8256,
+            5.1272,
+            5.4288,
+            5.7304
+          ],
+          "param3": [
+            6.032,
+            6.4844,
+            6.9368,
+            7.54,
+            7.9924,
+            8.4448,
+            9.048,
+            9.6512,
+            10.2544,
+            10.8576,
+            11.4608,
+            12.064,
+            12.818,
+            13.572,
+            14.326
+          ],
+          "param4": [
+            3.016,
+            3.2422,
+            3.4684,
+            3.77,
+            3.9962,
+            4.2224,
+            4.524,
+            4.8256,
+            5.1272,
+            5.4288,
+            5.7304,
+            6.032,
+            6.409,
+            6.786,
+            7.163
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Shadowless Reflection",
+      "descriptionRaw": "Light the lamp, dealing <color=#FFE699FF>AoE Geo DMG</color>, and gain Haunted Night's Oriole-Song effect for 20s. When this effect is active, Illuga gains 21 stacks of {LINK#N11270001}<color=#FFD780FF>Nightingale's Song</color>{/LINK}. When Normal Attacks, Charged Attacks, Plunging Attacks, Elemental Skills, and Elemental Bursts of nearby active party members deal <color=#FFE699FF>Geo DMG</color> to opponents, 1 stack of Nightingale's Song is consumed to increase the DMG dealt. Increase in DMG is based on Illuga's Elemental Mastery. If DMG is inflicted by Lunar-Crystallize, DMG dealt will increase further.\nWhen <color=#FFE699FF>Geo DMG</color> dealt in this manner hits multiple opponents, multiple stacks of Nightingale's Song will be consumed, depending on how many opponents are hit.\n\nAdditionally, if there are <color=#FFE699FF>Geo Constructs</color> created by nearby party members on the battlefield while Illuga unleashes his Elemental Burst, or when nearby party members create <color=#FFE699FF>Geo Constructs</color> while Haunted Night's Oriole-Song is active, every <color=#FFE699FF>Geo Construct</color> on the battlefield will allow Illuga to gain 5 additional stacks of Nightingale's Song. Within 20s after unleashing his Elemental Burst, Illuga can gain a maximum of 15 additional stacks of Nightingale's Song this way.\n\nWhen all stacks of Nightingale's Song have been consumed, or when the state's duration ends, the Haunted Night's Oriole-Song effect will end.",
+      "description": "Light the lamp, dealing AoE Geo DMG, and gain Haunted Night's Oriole-Song effect for 20s. When this effect is active, Illuga gains 21 stacks of **Nightingale's Song**. When Normal Attacks, Charged Attacks, Plunging Attacks, Elemental Skills, and Elemental Bursts of nearby active party members deal Geo DMG to opponents, 1 stack of Nightingale's Song is consumed to increase the DMG dealt. Increase in DMG is based on Illuga's Elemental Mastery. If DMG is inflicted by Lunar-Crystallize, DMG dealt will increase further.\nWhen Geo DMG dealt in this manner hits multiple opponents, multiple stacks of Nightingale's Song will be consumed, depending on how many opponents are hit.\n\nAdditionally, if there are Geo Constructs created by nearby party members on the battlefield while Illuga unleashes his Elemental Burst, or when nearby party members create Geo Constructs while Haunted Night's Oriole-Song is active, every Geo Construct on the battlefield will allow Illuga to gain 5 additional stacks of Nightingale's Song. Within 20s after unleashing his Elemental Burst, Illuga can gain a maximum of 15 additional stacks of Nightingale's Song this way.\n\nWhen all stacks of Nightingale's Song have been consumed, or when the state's duration ends, the Haunted Night's Oriole-Song effect will end.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:P} Elemental Mastery+{param2:P} DEF",
+          "Geo DMG Bonus|{param3:F1P} Elemental Mastery",
+          "Lunar-Crystallize Reaction DMG Bonus|{param4:F1P} Elemental Mastery",
+          "Nightingale's Song Stacks Gained from Elemental Burst|{param5:I}",
+          "Nightingale's Song Stacks Gained from Geo Constructs| {param6:I} Per Geo Construct",
+          "Duration|{param7:F1}s",
+          "CD|{param8:F1}s",
+          "Energy Cost|{param9:I}"
+        ],
+        "parameters": {
+          "param1": [
+            8.272,
+            8.8924,
+            9.5128,
+            10.34,
+            10.9604,
+            11.5808,
+            12.408,
+            13.2352,
+            14.0624,
+            14.8896,
+            15.7168,
+            16.544,
+            17.578,
+            18.612,
+            19.646
+          ],
+          "param2": [
+            4.136,
+            4.4462,
+            4.7564,
+            5.17,
+            5.4802,
+            5.7904,
+            6.204,
+            6.6176,
+            7.0312,
+            7.4448,
+            7.8584,
+            8.272,
+            8.789,
+            9.306,
+            9.823
+          ],
+          "param3": [
+            0.336,
+            0.3612,
+            0.3864,
+            0.42,
+            0.4452,
+            0.4704,
+            0.504,
+            0.5376,
+            0.5712,
+            0.6048,
+            0.6384,
+            0.672,
+            0.714,
+            0.756,
+            0.798
+          ],
+          "param4": [
+            2.2592,
+            2.42864,
+            2.59808,
+            2.824,
+            2.99344,
+            3.16288,
+            3.3888,
+            3.61472,
+            3.84064,
+            4.06656,
+            4.29248,
+            4.5184,
+            4.8008,
+            5.0832,
+            5.3656
+          ],
+          "param5": [
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21
+          ],
+          "param6": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "param7": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param8": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param9": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Torchforger's Covenant",
+      "descriptionRaw": "After unleashing Elemental Skill <color=#FFD780FF>{LINK#S11272}Dawnbearing Songbird{/LINK}</color> or Elemental Burst <color=#FFD780FF>{LINK#S11275}Shadowless Reflection{/LINK}</color>, other nearby party members will gain the Lightkeeper's Oath effect for 20s: For <color=#FFE699FF>Geo DMG</color> dealt to opponents, CRIT Rate increases by 5% and CRIT DMG increases by 10%.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color> \nParty members affected by the Lightkeeper's Oath effect have their Elemental Mastery increased by 50.",
+      "description": "After unleashing Elemental Skill **Dawnbearing Songbird** or Elemental Burst **Shadowless Reflection**, other nearby party members will gain the Lightkeeper's Oath effect for 20s: For Geo DMG dealt to opponents, CRIT Rate increases by 5% and CRIT DMG increases by 10%.\n\nMoonsign: Ascendant Gleam \nParty members affected by the Lightkeeper's Oath effect have their Elemental Mastery increased by 50."
+    },
+    "passive2": {
+      "name": "Demonhunter's Dusk",
+      "descriptionRaw": "{LINK#N11270001}<color=#FFD780FF>Nightingale's Song</color>{/LINK}'s effects are enhanced: When there are 1/2/3 <color=#80C0FFFF>Hydro</color> or <color=#FFE699FF>Geo</color> characters in the party, Nightingale's Song will further increase DMG. Increase in DMG is equal to 7%/14%/24% of Illuga's Elemental Mastery. If this aforementioned DMG is inflicted by a Lunar-Crystallize reaction, increase in DMG is equal to 48%/96%/160% of Illuga's Elemental Mastery.",
+      "description": "**Nightingale's Song**'s effects are enhanced: When there are 1/2/3 Hydro or Geo characters in the party, Nightingale's Song will further increase DMG. Increase in DMG is equal to 7%/14%/24% of Illuga's Elemental Mastery. If this aforementioned DMG is inflicted by a Lunar-Crystallize reaction, increase in DMG is equal to 48%/96%/160% of Illuga's Elemental Mastery."
+    },
+    "passive3": {
+      "name": "Moonsign Benediction: Unwithering in Winter",
+      "descriptionRaw": "When Illuga is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
+      "description": "When Illuga is in the party, the party's Moonsign will increase by 1 level."
+    },
+    "passive4": {
+      "name": "Night Warden's Stride",
+      "descriptionRaw": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.\nAdditionally, Illuga appears to be able to decipher the whispers of the Wild Hunt...",
+      "description": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.\nAdditionally, Illuga appears to be able to decipher the whispers of the Wild Hunt..."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104359,
+          "name": "Teachings of Elysium",
+          "count": 3
+        },
+        {
+          "id": 112122,
+          "name": "Broken Drive Shaft",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104360,
+          "name": "Guide to Elysium",
+          "count": 2
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104360,
+          "name": "Guide to Elysium",
+          "count": 4
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104360,
+          "name": "Guide to Elysium",
+          "count": 6
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104360,
+          "name": "Guide to Elysium",
+          "count": 9
+        },
+        {
+          "id": 112123,
+          "name": "Reinforced Drive Shaft",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104361,
+          "name": "Philosophies of Elysium",
+          "count": 4
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 4
+        },
+        {
+          "id": 113068,
+          "name": "Eroded Horn",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104361,
+          "name": "Philosophies of Elysium",
+          "count": 6
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 6
+        },
+        {
+          "id": 113068,
+          "name": "Eroded Horn",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104361,
+          "name": "Philosophies of Elysium",
+          "count": 12
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 9
+        },
+        {
+          "id": 113068,
+          "name": "Eroded Horn",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104361,
+          "name": "Philosophies of Elysium",
+          "count": 16
+        },
+        {
+          "id": 112124,
+          "name": "Precision Drive Shaft",
+          "count": 12
+        },
+        {
+          "id": 113068,
+          "name": "Eroded Horn",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_03",
+      "filename_combat2": "Skill_S_Illuga_01",
+      "filename_combat3": "Skill_E_Illuga_01_HD",
+      "filename_passive1": "UI_Talent_S_Illuga_05",
+      "filename_passive2": "UI_Talent_S_Illuga_06",
+      "filename_passive3": "UI_Talent_S_Illuga_07",
+      "filename_passive4": "UI_Talent_S_Illuga_08"
+    },
+    "version": "6.3"
+  },
+  "constellation": {
+    "id": 12701,
+    "name": "Illuga",
+    "c1": {
+      "name": "Vigilant Sentinel",
+      "descriptionRaw": "After Illuga triggers a <color=#FFE699FF>Geo-related Reaction</color> on the field, he will regain 12 Elemental Energy. This effect can be triggered at most once every 15s.",
+      "description": "After Illuga triggers a Geo-related Reaction on the field, he will regain 12 Elemental Energy. This effect can be triggered at most once every 15s."
+    },
+    "c2": {
+      "name": "Elk With Fanged Antlers",
+      "descriptionRaw": "When Elemental Burst {LINK#S11275}<color=#FFD780FF>Shadowless Reflection</color>{/LINK}'s Haunted Night's Oriole-Song effect is active, for every 7 stacks of {LINK#N11270001}<color=#FFD780FF>Nightingale's Song</color>{/LINK} consumed, Illuga will summon Aedon, dealing a single instance of <color=#FFE699FF>Geo DMG</color> to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG.",
+      "description": "When Elemental Burst **Shadowless Reflection**'s Haunted Night's Oriole-Song effect is active, for every 7 stacks of **Nightingale's Song** consumed, Illuga will summon Aedon, dealing a single instance of Geo DMG to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG."
+    },
+    "c3": {
+      "name": "Earthshaking Maw",
+      "descriptionRaw": "Increases the Level of Elemental Burst <color=#FFD780FF>{LINK#S11275}Shadowless Reflection{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Elemental Burst **Shadowless Reflection** by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Solarhunting Wolf",
+      "descriptionRaw": "When Elemental Burst <color=#FFD780FF>{LINK#S11275}Shadowless Reflection{/LINK}</color>'s Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200.",
+      "description": "When Elemental Burst **Shadowless Reflection**'s Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200."
+    },
+    "c5": {
+      "name": "Hurricane Steed",
+      "descriptionRaw": "Increases the Level of Elemental Skill <color=#FFD780FF>{LINK#S11272}Dawnbearing Songbird{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Elemental Skill **Dawnbearing Songbird** by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Nightmare Orioles",
+      "descriptionRaw": "Enhances the Lightkeeper's Oath effect of the Ascension Talent <color=#FFD780FF>{LINK#P1272101}Torchforger's Covenant{/LINK}</color>: For <color=#FFE699FF>Geo DMG</color> dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam:</color>\nWhen characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.\nYou must first unlock the Ascension Talent \"<color=#FFD780FF>Torchforger's Covenant</color>.\"",
+      "description": "Enhances the Lightkeeper's Oath effect of the Ascension Talent **Torchforger's Covenant**: For Geo DMG dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.\n\nMoonsign: Ascendant Gleam:\nWhen characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.\nYou must first unlock the Ascension Talent \"Torchforger's Covenant.\""
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Illuga_01",
+      "filename_c2": "UI_Talent_S_Illuga_02",
+      "filename_c3": "UI_Talent_U_Illuga_01",
+      "filename_c4": "UI_Talent_S_Illuga_03",
+      "filename_c5": "UI_Talent_U_Illuga_02",
+      "filename_c6": "UI_Talent_S_Illuga_04",
+      "filename_constellation": "Eff_UI_Talent_Illuga"
+    },
+    "version": "6.3"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1002.9701,
+      "attack": 16.0272,
+      "defense": 68.2122,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1086.2166183,
+      "attack": 17.3574576,
+      "defense": 73.8738126,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1168.4601665,
+      "attack": 18.671688,
+      "defense": 79.467213,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1251.7066848,
+      "attack": 20.0019456,
+      "defense": 85.1288256,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1333.950233,
+      "attack": 21.316176000000002,
+      "defense": 90.722226,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1417.1967513,
+      "attack": 22.6464336,
+      "defense": 96.38383859999999,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1499.4402995,
+      "attack": 23.960664,
+      "defense": 101.977239,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1582.6868178,
+      "attack": 25.2909216,
+      "defense": 107.6388516,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1665.9333361000001,
+      "attack": 26.6211792,
+      "defense": 113.3004642,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1748.1768843000002,
+      "attack": 27.935409600000003,
+      "defense": 118.8938646,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1831.4234026000001,
+      "attack": 29.265667200000003,
+      "defense": 124.5554772,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1913.6669508,
+      "attack": 30.5798976,
+      "defense": 130.1488776,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1996.9134691000002,
+      "attack": 31.910155200000002,
+      "defense": 135.8104902,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2079.1570173,
+      "attack": 33.2243856,
+      "defense": 141.40389059999998,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2162.4035356,
+      "attack": 34.5546432,
+      "defense": 147.0655032,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2245.6500539,
+      "attack": 35.8849008,
+      "defense": 152.72711579999998,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2327.8936021,
+      "attack": 37.199131200000004,
+      "defense": 158.32051620000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2411.1401204,
+      "attack": 38.5293888,
+      "defense": 163.98212879999997,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2493.3836686000004,
+      "attack": 39.843619200000006,
+      "defense": 169.5755292,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2576.6301869,
+      "attack": 41.1738768,
+      "defense": 175.2371418,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3408.1437351,
+      "attack": 54.461527200000006,
+      "defense": 231.78854219999997,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3491.3902534,
+      "attack": 55.7917848,
+      "defense": 237.45015479999998,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3574.6367717000003,
+      "attack": 57.12204240000001,
+      "defense": 243.1117674,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3656.8803199,
+      "attack": 58.4362728,
+      "defense": 248.7051678,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3740.1268382000003,
+      "attack": 59.76653040000001,
+      "defense": 254.3667804,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3822.3703864,
+      "attack": 61.08076080000001,
+      "defense": 259.9601808,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3905.6169047,
+      "attack": 62.4110184,
+      "defense": 265.6217934,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3987.8604529,
+      "attack": 63.7252488,
+      "defense": 271.21519379999995,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4071.1069712,
+      "attack": 65.0555064,
+      "defense": 276.87680639999996,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4153.3505194,
+      "attack": 66.3697368,
+      "defense": 282.4702068,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4236.597037699999,
+      "attack": 67.6999944,
+      "defense": 288.1318194,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4319.843556,
+      "attack": 69.030252,
+      "defense": 293.793432,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4402.0871042,
+      "attack": 70.3444824,
+      "defense": 299.3868324,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4485.3336225,
+      "attack": 71.67474,
+      "defense": 305.048445,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4567.5771707,
+      "attack": 72.9889704,
+      "defense": 310.64184539999997,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4650.823689000001,
+      "attack": 74.31922800000001,
+      "defense": 316.303458,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4733.0672372,
+      "attack": 75.63345840000001,
+      "defense": 321.8968583999999,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4816.313755499999,
+      "attack": 76.963716,
+      "defense": 327.55847099999994,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4899.5602738,
+      "attack": 78.2939736,
+      "defense": 333.22008359999995,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4981.803822,
+      "attack": 79.608204,
+      "defense": 338.813484,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5597.4264403,
+      "attack": 89.44589160000001,
+      "defense": 380.6820966,
+      "specialized": 24
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5679.6699885,
+      "attack": 90.76012200000001,
+      "defense": 386.275497,
+      "specialized": 24
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5762.9165068,
+      "attack": 92.0903796,
+      "defense": 391.9371096,
+      "specialized": 24
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5845.160054999999,
+      "attack": 93.40461,
+      "defense": 397.53051,
+      "specialized": 24
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5928.4065733,
+      "attack": 94.7348676,
+      "defense": 403.1921226,
+      "specialized": 24
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6011.6530916,
+      "attack": 96.06512520000001,
+      "defense": 408.8537352,
+      "specialized": 24
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6093.8966398,
+      "attack": 97.37935560000001,
+      "defense": 414.4471356,
+      "specialized": 24
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6177.143158100001,
+      "attack": 98.7096132,
+      "defense": 420.10874820000004,
+      "specialized": 24
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6259.3867063,
+      "attack": 100.0238436,
+      "defense": 425.7021486,
+      "specialized": 24
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6342.6332246,
+      "attack": 101.35410120000002,
+      "defense": 431.3637612,
+      "specialized": 24
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7134.711472800001,
+      "attack": 114.0115716,
+      "defense": 485.2331616,
+      "specialized": 48
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7217.957991100001,
+      "attack": 115.3418292,
+      "defense": 490.89477420000003,
+      "specialized": 48
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7301.2045094,
+      "attack": 116.67208679999999,
+      "defense": 496.5563867999999,
+      "specialized": 48
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7383.4480576000005,
+      "attack": 117.9863172,
+      "defense": 502.1497872,
+      "specialized": 48
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7466.6945759,
+      "attack": 119.3165748,
+      "defense": 507.8113998,
+      "specialized": 48
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7548.938124100001,
+      "attack": 120.63080520000001,
+      "defense": 513.4048002,
+      "specialized": 48
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7632.1846424,
+      "attack": 121.9610628,
+      "defense": 519.0664128,
+      "specialized": 48
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 7714.428190600001,
+      "attack": 123.27529320000001,
+      "defense": 524.6598132,
+      "specialized": 48
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 7797.6747089,
+      "attack": 124.6055508,
+      "defense": 530.3214257999999,
+      "specialized": 48
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 7880.9212272,
+      "attack": 125.9358084,
+      "defense": 535.9830383999999,
+      "specialized": 48
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8495.5409754,
+      "attack": 135.7574688,
+      "defense": 577.7834388,
+      "specialized": 48
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8578.7874937,
+      "attack": 137.0877264,
+      "defense": 583.4450514,
+      "specialized": 48
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 8661.0310419,
+      "attack": 138.4019568,
+      "defense": 589.0384518,
+      "specialized": 48
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 8744.2775602,
+      "attack": 139.7322144,
+      "defense": 594.7000644,
+      "specialized": 48
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 8826.5211084,
+      "attack": 141.04644480000002,
+      "defense": 600.2934647999999,
+      "specialized": 48
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 8909.767626699999,
+      "attack": 142.3767024,
+      "defense": 605.9550773999999,
+      "specialized": 48
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 8993.014145000001,
+      "attack": 143.70696,
+      "defense": 611.61669,
+      "specialized": 48
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9075.257693200001,
+      "attack": 145.0211904,
+      "defense": 617.2100904,
+      "specialized": 48
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9158.5042115,
+      "attack": 146.351448,
+      "defense": 622.871703,
+      "specialized": 48
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9240.7477597,
+      "attack": 147.6656784,
+      "defense": 628.4651034,
+      "specialized": 48
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 9856.370278,
+      "attack": 157.503366,
+      "defense": 670.333716,
+      "specialized": 72
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 9938.6138262,
+      "attack": 158.8175964,
+      "defense": 675.9271163999999,
+      "specialized": 72
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10021.8603445,
+      "attack": 160.147854,
+      "defense": 681.588729,
+      "specialized": 72
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10105.1068628,
+      "attack": 161.47811159999998,
+      "defense": 687.2503416,
+      "specialized": 72
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10187.350411,
+      "attack": 162.79234200000002,
+      "defense": 692.843742,
+      "specialized": 72
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10270.5969293,
+      "attack": 164.1225996,
+      "defense": 698.5053545999999,
+      "specialized": 72
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10352.840477500002,
+      "attack": 165.43683,
+      "defense": 704.098755,
+      "specialized": 72
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10436.0869958,
+      "attack": 166.7670876,
+      "defense": 709.7603675999999,
+      "specialized": 72
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 10518.330544,
+      "attack": 168.081318,
+      "defense": 715.353768,
+      "specialized": 72
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 10601.577062299999,
+      "attack": 169.4115756,
+      "defense": 721.0153806,
+      "specialized": 72
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11217.1996806,
+      "attack": 179.2492632,
+      "defense": 762.8839932,
+      "specialized": 96
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11299.4432288,
+      "attack": 180.56349360000002,
+      "defense": 768.4773935999999,
+      "specialized": 96
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11382.6897471,
+      "attack": 181.8937512,
+      "defense": 774.1390061999999,
+      "specialized": 96
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 11464.9332953,
+      "attack": 183.2079816,
+      "defense": 779.7324066,
+      "specialized": 96
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 11548.1798136,
+      "attack": 184.53823920000002,
+      "defense": 785.3940192,
+      "specialized": 96
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 11630.423361800002,
+      "attack": 185.85246960000003,
+      "defense": 790.9874196000001,
+      "specialized": 96
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 11713.6698801,
+      "attack": 187.18272720000002,
+      "defense": 796.6490322000001,
+      "specialized": 96
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 11795.9134283,
+      "attack": 188.4969576,
+      "defense": 802.2424325999999,
+      "specialized": 96
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 11879.159946599999,
+      "attack": 189.8272152,
+      "defense": 807.9040451999999,
+      "specialized": 96
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11962.4064649,
+      "attack": 191.15747280000002,
+      "defense": 813.5656577999999,
+      "specialized": 96
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3325.9001869,
+      "attack": 53.14729680000001,
+      "defense": 226.1951418,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5514.179921999999,
+      "attack": 88.115634,
+      "defense": 375.020484,
+      "specialized": 24
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7052.4679246000005,
+      "attack": 112.69734120000001,
+      "defense": 479.63976119999995,
+      "specialized": 48
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8413.2974272,
+      "attack": 134.44323839999998,
+      "defense": 572.1900383999999,
+      "specialized": 48
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9773.1237597,
+      "attack": 156.1731084,
+      "defense": 664.6721034,
+      "specialized": 72
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11133.9531623,
+      "attack": 177.9190056,
+      "defense": 757.2223806,
+      "specialized": 96
+    }
+  }
+}

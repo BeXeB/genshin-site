@@ -1,0 +1,1781 @@
+{
+  "profile": {
+    "id": 10000119,
+    "name": "Lauma",
+    "title": "Evermoon's Sacrament Song",
+    "description": "A Maiden blessed by moonlight and the grove alike, hope born to the Frostmoon Scions.",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "bodyType": "BODY_LADY",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "3/1",
+    "birthday": "March 1",
+    "elementType": "ELEMENT_DENDRO",
+    "elementText": "Dendro",
+    "affiliation": "Frostmoon Scions",
+    "associationType": "ASSOC_NODKRAI",
+    "region": "Nod-Krai",
+    "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
+    "substatText": "Elemental Mastery",
+    "constellation": "Cerva Nivea",
+    "cv": {
+      "english": "Alexandra Guelff",
+      "chinese": "张安琪",
+      "japanese": "桑島法子",
+      "korean": "Jang Chae-yeon"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104131,
+          "name": "Nagadus Emerald Sliver",
+          "count": 1
+        },
+        {
+          "id": 101263,
+          "name": "Moonfall Silver",
+          "count": 3
+        },
+        {
+          "id": 112125,
+          "name": "Tattered Warrant",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104132,
+          "name": "Nagadus Emerald Fragment",
+          "count": 3
+        },
+        {
+          "id": 113078,
+          "name": "Lightbearing Scale-Feather",
+          "count": 2
+        },
+        {
+          "id": 101263,
+          "name": "Moonfall Silver",
+          "count": 10
+        },
+        {
+          "id": 112125,
+          "name": "Tattered Warrant",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104132,
+          "name": "Nagadus Emerald Fragment",
+          "count": 6
+        },
+        {
+          "id": 113078,
+          "name": "Lightbearing Scale-Feather",
+          "count": 4
+        },
+        {
+          "id": 101263,
+          "name": "Moonfall Silver",
+          "count": 20
+        },
+        {
+          "id": 112126,
+          "name": "Immaculate Warrant",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104133,
+          "name": "Nagadus Emerald Chunk",
+          "count": 3
+        },
+        {
+          "id": 113078,
+          "name": "Lightbearing Scale-Feather",
+          "count": 8
+        },
+        {
+          "id": 101263,
+          "name": "Moonfall Silver",
+          "count": 30
+        },
+        {
+          "id": 112126,
+          "name": "Immaculate Warrant",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104133,
+          "name": "Nagadus Emerald Chunk",
+          "count": 6
+        },
+        {
+          "id": 113078,
+          "name": "Lightbearing Scale-Feather",
+          "count": 12
+        },
+        {
+          "id": 101263,
+          "name": "Moonfall Silver",
+          "count": 45
+        },
+        {
+          "id": 112127,
+          "name": "Frost-Etched Warrant",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104134,
+          "name": "Nagadus Emerald Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113078,
+          "name": "Lightbearing Scale-Feather",
+          "count": 20
+        },
+        {
+          "id": 101263,
+          "name": "Moonfall Silver",
+          "count": 60
+        },
+        {
+          "id": 112127,
+          "name": "Frost-Etched Warrant",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Lauma",
+      "filename_iconCard": "UI_AvatarIcon_Lauma_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Lauma",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Lauma",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lauma",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lauma.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Lauma.png",
+      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/09/08/b06e9ff48d57de4856f1a05b1199aae1_8565150401481594895.png"
+    },
+    "version": "6.0"
+  },
+  "skills": {
+    "id": 11901,
+    "name": "Lauma",
+    "combat1": {
+      "name": "Peregrination of Linnunrata",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 attacks that deal <color=#99FF88FF>Dendro DMG</color>\n\n<color=#FFD780FF>Charged Attack</color>\nLauma undergoes Spirit Envoy Metamorphosis, transforming into an envoy of the tranquil forest and consuming Stamina to charge forward for up to 10s. While in this state, Lauma's interruption resistance is increased, and she can consume additional Stamina to perform up to two consecutive jumps.\nWhen exiting the Spirit Envoy state, Spirit Envoy Metamorphosis will enter cooldown, during which time, Lauma's Charged Attack will be transformed into Spiritcall Prayer: Consumes a certain amount of Stamina to deal <color=#99FF88FF>AoE Dendro DMG</color> to opponents in front of her after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nCalling upon the might of Dendro, Lauma plunges towards the ground from mid-air, damaging all opponents in her path and dealing <color=#99FF88FF>AoE Dendro DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nPerforms up to 3 attacks that deal Dendro DMG\n\nCharged Attack\nLauma undergoes Spirit Envoy Metamorphosis, transforming into an envoy of the tranquil forest and consuming Stamina to charge forward for up to 10s. While in this state, Lauma's interruption resistance is increased, and she can consume additional Stamina to perform up to two consecutive jumps.\nWhen exiting the Spirit Envoy state, Spirit Envoy Metamorphosis will enter cooldown, during which time, Lauma's Charged Attack will be transformed into Spiritcall Prayer: Consumes a certain amount of Stamina to deal AoE Dendro DMG to opponents in front of her after a short casting time.\n\nPlunging Attack\nCalling upon the might of Dendro, Lauma plunges towards the ground from mid-air, damaging all opponents in her path and dealing AoE Dendro DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+          "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+          "Spirit Envoy Form Max Duration|{param6:F1}s",
+          "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+          "Spiritcall Prayer Stamina Cost|{param8:F1}",
+          "Spiritcall Prayer DMG|{param9:F1P}",
+          "Plunge DMG|{param10:F1P}",
+          "Low/High Plunge DMG|{param11:P}/{param12:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.337024,
+            0.362301,
+            0.387578,
+            0.42128,
+            0.446557,
+            0.471834,
+            0.505536,
+            0.539238,
+            0.572941,
+            0.606643,
+            0.640346,
+            0.674048,
+            0.716176,
+            0.758304,
+            0.800432
+          ],
+          "param2": [
+            0.318048,
+            0.341902,
+            0.365755,
+            0.39756,
+            0.421414,
+            0.445267,
+            0.477072,
+            0.508877,
+            0.540682,
+            0.572486,
+            0.604291,
+            0.636096,
+            0.675852,
+            0.715608,
+            0.755364
+          ],
+          "param3": [
+            0.444968,
+            0.478341,
+            0.511713,
+            0.55621,
+            0.589583,
+            0.622955,
+            0.667452,
+            0.711949,
+            0.756446,
+            0.800942,
+            0.845439,
+            0.889936,
+            0.945557,
+            1.001178,
+            1.056799
+          ],
+          "param4": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param5": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "param6": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "param7": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "param8": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param9": [
+            1.2904,
+            1.38718,
+            1.48396,
+            1.613,
+            1.70978,
+            1.80656,
+            1.9356,
+            2.06464,
+            2.19368,
+            2.32272,
+            2.45176,
+            2.5808,
+            2.7421,
+            2.9034,
+            3.0647
+          ],
+          "param10": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param11": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param12": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Runo: Dawnless Rest of Karsikko",
+      "descriptionRaw": "Silently incants an ancient hymn, summoning a {LINK#N11190001}<color=#FFD780FF>Frostgrove Sanctuary</color>{/LINK} with different effects depending on whether you Tap or Hold.\n\n<color=#FFD780FF>Tap</color>\nIntone a Hymn of Hunting, dealing <color=#99FF88FF>AoE Dendro DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nCan be unleashed when you have at least 1 {LINK#N11190008}<color=#FFD780FF>Verdant Dew</color>{/LINK}. Lauma consumes all Verdant Dew and intones a Hymn of Eternal Rest, dealing one regular instance of <color=#99FF88FF>AoE Dendro DMG</color> and another instance of <color=#99FF88FF>AoE Dendro DMG</color> that is considered Lunar-Bloom DMG. Each Verdant Dew consumed will give Lauma one stack of {LINK#N11190002}<color=#FFD780FF>Moon Song</color>{/LINK}. Each time you Hold to cast an Elemental Skill, a maximum of 3 Verdant Dew can be consumed in this way.\n\nAdditionally, when Lauma's Elemental Skill or attacks from Frostgrove Sanctuary hit an opponent, that opponent's <color=#99FF88FF>Dendro RES</color> and <color=#80C0FFFF>Hydro RES</color> will be decreased for 10s.",
+      "description": "Silently incants an ancient hymn, summoning a **Frostgrove Sanctuary** with different effects depending on whether you Tap or Hold.\n\nTap\nIntone a Hymn of Hunting, dealing AoE Dendro DMG.\n\nHold\nCan be unleashed when you have at least 1 **Verdant Dew**. Lauma consumes all Verdant Dew and intones a Hymn of Eternal Rest, dealing one regular instance of AoE Dendro DMG and another instance of AoE Dendro DMG that is considered Lunar-Bloom DMG. Each Verdant Dew consumed will give Lauma one stack of **Moon Song**. Each time you Hold to cast an Elemental Skill, a maximum of 3 Verdant Dew can be consumed in this way.\n\nAdditionally, when Lauma's Elemental Skill or attacks from Frostgrove Sanctuary hit an opponent, that opponent's Dendro RES and Hydro RES will be decreased for 10s.",
+      "attributes": {
+        "labels": [
+          "Press DMG|{param1:F1P}",
+          "1-Hit Hold DMG|{param2:F1P}",
+          "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+          "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+          "Frostgrove Sanctuary Duration|{param6:F1}s",
+          "Moon Song Duration|{param7:F1}s",
+          "Elemental RES Decrease|{param8:F1P}",
+          "Elemental RES Decrease Duration|{param9:F1}s",
+          "CD|{param10:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.216,
+            1.3072,
+            1.3984,
+            1.52,
+            1.6112,
+            1.7024,
+            1.824,
+            1.9456,
+            2.0672,
+            2.1888,
+            2.3104,
+            2.432,
+            2.584,
+            2.736,
+            2.888
+          ],
+          "param2": [
+            1.5808,
+            1.69936,
+            1.81792,
+            1.976,
+            2.09456,
+            2.21312,
+            2.3712,
+            2.52928,
+            2.68736,
+            2.84544,
+            3.00352,
+            3.1616,
+            3.3592,
+            3.5568,
+            3.7544
+          ],
+          "param3": [
+            1.52,
+            1.634,
+            1.748,
+            1.9,
+            2.014,
+            2.128,
+            2.28,
+            2.432,
+            2.584,
+            2.736,
+            2.888,
+            3.04,
+            3.23,
+            3.42,
+            3.61
+          ],
+          "param4": [
+            0.96,
+            1.032,
+            1.104,
+            1.2,
+            1.272,
+            1.344,
+            1.44,
+            1.536,
+            1.632,
+            1.728,
+            1.824,
+            1.92,
+            2.04,
+            2.16,
+            2.28
+          ],
+          "param5": [
+            1.92,
+            2.064,
+            2.208,
+            2.4,
+            2.544,
+            2.688,
+            2.88,
+            3.072,
+            3.264,
+            3.456,
+            3.648,
+            3.84,
+            4.08,
+            4.32,
+            4.56
+          ],
+          "param6": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param7": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param8": [
+            0.025,
+            0.05,
+            0.075,
+            0.1,
+            0.125,
+            0.15,
+            0.175,
+            0.2,
+            0.225,
+            0.25,
+            0.28,
+            0.31,
+            0.34,
+            0.37,
+            0.4
+          ],
+          "param9": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "param10": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Runo: All Hearts Become the Beating Moon",
+      "descriptionRaw": "Let the wishes of all beings become as moonlight that bathes the earth. Lauma incants a sacred song of the far north, gaining 18 stacks of {LINK#N11190003}<color=#FFD780FF>Pale Hymn</color>{/LINK}.\nAdditionally, if Lauma uses her Elemental Burst while she has {LINK#N11190002}<color=#FFD780FF>Moon Song</color>{/LINK}, or she gains Moon Song within 15s of using her Elemental Burst, she will consume all Moon Song stacks and gain 6 stacks of Pale Hymn for every Moon Song stack consumed. This effect can only be triggered once for each Elemental Burst used, including the 15 seconds following its use.\n\n<color=#FFD780FF>Pale Hymn</color>\nWhen nearby party members deal Bloom, Hyperbloom, Burgeon, or Lunar-Bloom DMG, 1 stack of Pale Hymn will be consumed and the DMG dealt will be increased based on Lauma's Elemental Mastery. If this DMG hits multiple opponents at once, then multiple stacks of Pale Hymn will be consumed, depending on how many opponents are hit.\nThe duration for each stack of Pale Hymn is counted independently.",
+      "description": "Let the wishes of all beings become as moonlight that bathes the earth. Lauma incants a sacred song of the far north, gaining 18 stacks of **Pale Hymn**.\nAdditionally, if Lauma uses her Elemental Burst while she has **Moon Song**, or she gains Moon Song within 15s of using her Elemental Burst, she will consume all Moon Song stacks and gain 6 stacks of Pale Hymn for every Moon Song stack consumed. This effect can only be triggered once for each Elemental Burst used, including the 15 seconds following its use.\n\nPale Hymn\nWhen nearby party members deal Bloom, Hyperbloom, Burgeon, or Lunar-Bloom DMG, 1 stack of Pale Hymn will be consumed and the DMG dealt will be increased based on Lauma's Elemental Mastery. If this DMG hits multiple opponents at once, then multiple stacks of Pale Hymn will be consumed, depending on how many opponents are hit.\nThe duration for each stack of Pale Hymn is counted independently.",
+      "attributes": {
+        "labels": [
+          "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+          "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+          "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+          "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+          "Pale Hymn Duration|{param5:F1}s",
+          "CD|{param6:F1}s",
+          "Energy Cost|{param7:I}"
+        ],
+        "parameters": {
+          "param1": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param2": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param3": [
+            2.7776,
+            2.98592,
+            3.19424,
+            3.472,
+            3.68032,
+            3.88864,
+            4.1664,
+            4.44416,
+            4.72192,
+            4.99968,
+            5.27744,
+            5.5552,
+            5.9024,
+            6.2496,
+            6.5968
+          ],
+          "param4": [
+            2.2224,
+            2.38908,
+            2.55576,
+            2.778,
+            2.94468,
+            3.11136,
+            3.3336,
+            3.55584,
+            3.77808,
+            4.00032,
+            4.22256,
+            4.4448,
+            4.7226,
+            5.0004,
+            5.2782
+          ],
+          "param5": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param6": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param7": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Light for the Frosty Night",
+      "descriptionRaw": "For the next 20s after Lauma uses her Elemental Skill <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color>, corresponding differing buff effects will be granted depending on the party's <color=#FFD780FF>Moonsign</color>. The buffs provided by different Moonsign levels cannot stack.\n\n<color=#FFD780FF>Moonsign: Nascent Gleam</color>\nBloom, Hyperbloom, and Burgeon DMG dealt by all nearby party members can score CRIT Hits, with CRIT Rate fixed at 15%, and CRIT DMG fixed at 100%. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>\nAll nearby party members' Lunar-Bloom DMG CRIT Rate +10%, CRIT DMG +20%.",
+      "description": "For the next 20s after Lauma uses her Elemental Skill **Runo: Dawnless Rest of Karsikko**, corresponding differing buff effects will be granted depending on the party's Moonsign. The buffs provided by different Moonsign levels cannot stack.\n\nMoonsign: Nascent Gleam\nBloom, Hyperbloom, and Burgeon DMG dealt by all nearby party members can score CRIT Hits, with CRIT Rate fixed at 15%, and CRIT DMG fixed at 100%. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT.\n\nMoonsign: Ascendant Gleam\nAll nearby party members' Lunar-Bloom DMG CRIT Rate +10%, CRIT DMG +20%."
+    },
+    "passive2": {
+      "name": "Cleansing for the Spring",
+      "descriptionRaw": "Each point of Elemental Mastery Lauma has will give her the following bonuses:\n· DMG dealt by her Elemental Skill is increased by 0.04%. The maximum increase obtainable this way is 32%.\n· The cooldown of her Charged Attack <color=#FFD780FF>Spirit Envoy Metamorphosis</color> is reduced by 0.02%. The maximum reduction obtainable this way is 20%.",
+      "description": "Each point of Elemental Mastery Lauma has will give her the following bonuses:\n· DMG dealt by her Elemental Skill is increased by 0.04%. The maximum increase obtainable this way is 32%.\n· The cooldown of her Charged Attack Spirit Envoy Metamorphosis is reduced by 0.02%. The maximum reduction obtainable this way is 20%."
+    },
+    "passive3": {
+      "name": "Moonsign Benediction: Nature's Chorus",
+      "descriptionRaw": "When a Bloom reaction is triggered by a party member, it will be converted into the Lunar-Bloom reaction, with every point of Elemental Mastery that Lauma has increasing Lunar-Bloom's Base DMG by 0.0175%, up to a maximum of 14%.\n\nAdditionally, when Lauma is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
+      "description": "When a Bloom reaction is triggered by a party member, it will be converted into the Lunar-Bloom reaction, with every point of Elemental Mastery that Lauma has increasing Lunar-Bloom's Base DMG by 0.0175%, up to a maximum of 14%.\n\nAdditionally, when Lauma is in the party, the party's Moonsign will increase by 1 level."
+    },
+    "passive4": {
+      "name": "Prayers for the Forest",
+      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Nod-Krai</color> on the mini-map.\nAdditionally, Lauma appears to have a special affinity with some small animals affected by kuuvahki...",
+      "description": "Displays the location of nearby resources unique to Nod-Krai on the mini-map.\nAdditionally, Lauma appears to have a special affinity with some small animals affected by kuuvahki..."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104356,
+          "name": "Teachings of Moonlight",
+          "count": 3
+        },
+        {
+          "id": 112125,
+          "name": "Tattered Warrant",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104357,
+          "name": "Guide to Moonlight",
+          "count": 2
+        },
+        {
+          "id": 112126,
+          "name": "Immaculate Warrant",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104357,
+          "name": "Guide to Moonlight",
+          "count": 4
+        },
+        {
+          "id": 112126,
+          "name": "Immaculate Warrant",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104357,
+          "name": "Guide to Moonlight",
+          "count": 6
+        },
+        {
+          "id": 112126,
+          "name": "Immaculate Warrant",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104357,
+          "name": "Guide to Moonlight",
+          "count": 9
+        },
+        {
+          "id": 112126,
+          "name": "Immaculate Warrant",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104358,
+          "name": "Philosophies of Moonlight",
+          "count": 4
+        },
+        {
+          "id": 112127,
+          "name": "Frost-Etched Warrant",
+          "count": 4
+        },
+        {
+          "id": 113070,
+          "name": "Eroded Scale-Feather",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104358,
+          "name": "Philosophies of Moonlight",
+          "count": 6
+        },
+        {
+          "id": 112127,
+          "name": "Frost-Etched Warrant",
+          "count": 6
+        },
+        {
+          "id": 113070,
+          "name": "Eroded Scale-Feather",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104358,
+          "name": "Philosophies of Moonlight",
+          "count": 12
+        },
+        {
+          "id": 112127,
+          "name": "Frost-Etched Warrant",
+          "count": 9
+        },
+        {
+          "id": 113070,
+          "name": "Eroded Scale-Feather",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104358,
+          "name": "Philosophies of Moonlight",
+          "count": 16
+        },
+        {
+          "id": 112127,
+          "name": "Frost-Etched Warrant",
+          "count": 12
+        },
+        {
+          "id": 113070,
+          "name": "Eroded Scale-Feather",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Lauma_01",
+      "filename_combat3": "Skill_E_Lauma_01_HD",
+      "filename_passive1": "UI_Talent_S_Lauma_05",
+      "filename_passive2": "UI_Talent_S_Lauma_06",
+      "filename_passive3": "UI_Talent_S_Lauma_07",
+      "filename_passive4": "UI_Talent_S_Lauma_08"
+    },
+    "version": "6.0"
+  },
+  "constellation": {
+    "id": 11901,
+    "name": "Lauma",
+    "c1": {
+      "name": "\"O Lips, Weave Me Songs and Psalms\"",
+      "descriptionRaw": "After Lauma uses her Elemental Skill <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color> or her Elemental Burst <color=#FFD780FF>{LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK}</color>, she will gain Threads of Life for 20s.\nDuring this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can be triggered once every 1.9s.\nAdditionally, the Stamina cost for Lauma's Spirit Envoy Form will be reduced by 40%, and its Max Duration will be extended by 5s.",
+      "description": "After Lauma uses her Elemental Skill **Runo: Dawnless Rest of Karsikko** or her Elemental Burst **Runo: All Hearts Become the Beating Moon**, she will gain Threads of Life for 20s.\nDuring this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can be triggered once every 1.9s.\nAdditionally, the Stamina cost for Lauma's Spirit Envoy Form will be reduced by 40%, and its Max Duration will be extended by 5s."
+    },
+    "c2": {
+      "name": "\"Twine Warnings and Tales From the North\"",
+      "descriptionRaw": "The Elemental Burst <color=#FFD780FF>{LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK}</color> is enhanced:\n· {LINK#N11190003}<color=#FFD780FF>Pale Hymn</color>{/LINK} effects are increased: All nearby party members' Bloom, Hyperbloom, and Burgeon DMG is further increased by 500% of Lauma's Elemental Mastery, and their Lunar-Bloom DMG is further increased by 400% of Lauma's Elemental Mastery.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: All nearby party members' Lunar-Bloom DMG is increased by 40%.",
+      "description": "The Elemental Burst **Runo: All Hearts Become the Beating Moon** is enhanced:\n· **Pale Hymn** effects are increased: All nearby party members' Bloom, Hyperbloom, and Burgeon DMG is further increased by 500% of Lauma's Elemental Mastery, and their Lunar-Bloom DMG is further increased by 400% of Lauma's Elemental Mastery.\n\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is increased by 40%."
+    },
+    "c3": {
+      "name": "\"Seek Not to Tread the Sly Fox's Path\"",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of **Runo: All Hearts Become the Beating Moon** by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "\"Nor Yearn for the Great Bear's Might\"",
+      "descriptionRaw": "When attacks from the {LINK#N11190001}<color=#FFD780FF>Frostgrove Sanctuary</color>{/LINK} summoned by her Elemental Skill <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color> hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s.",
+      "description": "When attacks from the **Frostgrove Sanctuary** summoned by her Elemental Skill **Runo: Dawnless Rest of Karsikko** hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s."
+    },
+    "c5": {
+      "name": "\"If Truth May Be Subject to Witness\"",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of **Runo: Dawnless Rest of Karsikko** by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "\"I Offer Blood and Tears to the Moonlight\"",
+      "descriptionRaw": "When the {LINK#N11190001}<color=#FFD780FF>Frostgrove Sanctuary</color>{/LINK} attacks opponents, it will deal 1 additional instance of <color=#99FF88FF>AoE Dendro DMG</color> equal to 185% of Lauma's Elemental Mastery. This DMG is considered Lunar-Bloom DMG. This instance of DMG will not consume any {LINK#N11190003}<color=#FFD780FF>Pale Hymn</color>{/LINK} stacks and will provide Lauma with 2 stacks of Pale Hymn, as well as refreshing the duration of Pale Hymn stacks gained in this manner.\nThis effect can occur up to 8 times during each Frostgrove Sanctuary. When using the Elemental Skill <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color>, all Pale Hymn stacks gained in this manner will be removed.\n\nAdditionally, when Lauma uses a Normal Attack while she has Pale Hymn stacks, she will consume 1 stack to convert this to deal <color=#99FF88FF>Dendro DMG</color> equal to 150% of her Elemental Mastery. This DMG is considered Lunar-Bloom DMG.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: All nearby party members' Lunar-Bloom DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 25%.",
+      "description": "When the **Frostgrove Sanctuary** attacks opponents, it will deal 1 additional instance of AoE Dendro DMG equal to 185% of Lauma's Elemental Mastery. This DMG is considered Lunar-Bloom DMG. This instance of DMG will not consume any **Pale Hymn** stacks and will provide Lauma with 2 stacks of Pale Hymn, as well as refreshing the duration of Pale Hymn stacks gained in this manner.\nThis effect can occur up to 8 times during each Frostgrove Sanctuary. When using the Elemental Skill **Runo: Dawnless Rest of Karsikko**, all Pale Hymn stacks gained in this manner will be removed.\n\nAdditionally, when Lauma uses a Normal Attack while she has Pale Hymn stacks, she will consume 1 stack to convert this to deal Dendro DMG equal to 150% of her Elemental Mastery. This DMG is considered Lunar-Bloom DMG.\n\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is **elevated** by 25%."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Lauma_01",
+      "filename_c2": "UI_Talent_S_Lauma_02",
+      "filename_c3": "UI_Talent_U_Lauma_01",
+      "filename_c4": "UI_Talent_S_Lauma_03",
+      "filename_c5": "UI_Talent_U_Lauma_02",
+      "filename_c6": "UI_Talent_S_Lauma_04",
+      "filename_constellation": "Eff_UI_Talent_Lauma"
+    },
+    "version": "6.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 829.3884,
+      "attack": 19.84892,
+      "defense": 52.0521,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 898.2276372,
+      "attack": 21.49638036,
+      "defense": 56.3724243,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 967.0668744,
+      "attack": 23.143840719999996,
+      "defense": 60.6927486,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1036.7355,
+      "attack": 24.811149999999998,
+      "defense": 65.06512500000001,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1105.5747372,
+      "attack": 26.458610359999998,
+      "defense": 69.3854493,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1175.2433628,
+      "attack": 28.12591964,
+      "defense": 73.75782570000001,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1244.0826000000002,
+      "attack": 29.77338,
+      "defense": 78.07815000000001,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1313.7512256000002,
+      "attack": 31.44068928,
+      "defense": 82.45052640000002,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1383.4198512,
+      "attack": 33.10799856,
+      "defense": 86.8229028,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1452.2590883999999,
+      "attack": 34.755458919999995,
+      "defense": 91.1432271,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1521.9277140000002,
+      "attack": 36.4227682,
+      "defense": 95.5156035,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1591.5963396000002,
+      "attack": 38.09007748,
+      "defense": 99.8879799,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1661.2649652000002,
+      "attack": 39.75738676,
+      "defense": 104.26035630000001,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1731.7629792000002,
+      "attack": 41.44454496,
+      "defense": 108.68478480000002,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1801.4316048000003,
+      "attack": 43.11185424,
+      "defense": 113.05716120000001,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1871.1002303999999,
+      "attack": 44.77916352,
+      "defense": 117.42953759999999,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1941.5982444000003,
+      "attack": 46.46632172,
+      "defense": 121.85396610000002,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2011.26687,
+      "attack": 48.133630999999994,
+      "defense": 126.2263425,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2081.764884,
+      "attack": 49.82078919999999,
+      "defense": 130.650771,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2151.4335096,
+      "attack": 51.48809848,
+      "defense": 135.0231474,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2933.0570736,
+      "attack": 70.19266668,
+      "defense": 184.0785759,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3003.5550875999998,
+      "attack": 71.87982488,
+      "defense": 188.5030044,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3074.0531016000004,
+      "attack": 73.56698308,
+      "defense": 192.9274329,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3144.5511156000002,
+      "attack": 75.25414128,
+      "defense": 197.35186140000002,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3215.0491296,
+      "attack": 76.94129948,
+      "defense": 201.77628990000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3286.376532,
+      "attack": 78.6483066,
+      "defense": 206.2527705,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3356.874546,
+      "attack": 80.3354648,
+      "defense": 210.677199,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3427.37256,
+      "attack": 82.022623,
+      "defense": 215.1016275,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3498.6999624,
+      "attack": 83.72963012,
+      "defense": 219.5781081,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3569.1979764000007,
+      "attack": 85.41678832,
+      "defense": 224.0025366,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3640.5253788,
+      "attack": 87.12379544,
+      "defense": 228.47901720000002,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3711.8527812,
+      "attack": 88.83080256,
+      "defense": 232.95549780000002,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3783.1801836000004,
+      "attack": 90.53780968,
+      "defense": 237.43197840000002,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3853.6781976,
+      "attack": 92.22496788,
+      "defense": 241.85640690000002,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3925.0056000000004,
+      "attack": 93.931975,
+      "defense": 246.3328875,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3997.1623908,
+      "attack": 95.65883104,
+      "defense": 250.86142020000003,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4068.4897932000003,
+      "attack": 97.36583816,
+      "defense": 255.33790080000003,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4139.817195600001,
+      "attack": 99.07284528000001,
+      "defense": 259.8143814,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4211.144598,
+      "attack": 100.7798524,
+      "defense": 264.290862,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4283.3013888000005,
+      "attack": 102.50670844000001,
+      "defense": 268.81939470000003,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4859.9021412,
+      "attack": 116.30503356,
+      "defense": 305.00737530000004,
+      "specialized": 28.8
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4932.058932000001,
+      "attack": 118.0318896,
+      "defense": 309.53590800000006,
+      "specialized": 28.8
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5004.215722800001,
+      "attack": 119.75874564,
+      "defense": 314.06444070000003,
+      "specialized": 28.8
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 5075.5431252,
+      "attack": 121.46575275999999,
+      "defense": 318.5409213,
+      "specialized": 28.8
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 5147.6999160000005,
+      "attack": 123.1926088,
+      "defense": 323.06945400000006,
+      "specialized": 28.8
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 5219.8567068,
+      "attack": 124.91946484,
+      "defense": 327.5979867,
+      "specialized": 28.8
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5292.0134976,
+      "attack": 126.64632087999999,
+      "defense": 332.1265194,
+      "specialized": 28.8
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5364.170288400001,
+      "attack": 128.37317692,
+      "defense": 336.65505210000003,
+      "specialized": 28.8
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5437.156467600001,
+      "attack": 130.11988188,
+      "defense": 341.23563690000003,
+      "specialized": 28.8
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5509.3132584,
+      "attack": 131.84673792,
+      "defense": 345.76416960000006,
+      "specialized": 28.8
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 6255.1680492,
+      "attack": 149.69535396,
+      "defense": 392.5747023,
+      "specialized": 57.6
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6328.154228400001,
+      "attack": 151.44205892,
+      "defense": 397.1552871,
+      "specialized": 57.6
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6400.3110192,
+      "attack": 153.16891496,
+      "defense": 401.68381980000004,
+      "specialized": 57.6
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6473.2971984,
+      "attack": 154.91561991999998,
+      "defense": 406.26440460000003,
+      "specialized": 57.6
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6546.283377600001,
+      "attack": 156.66232488,
+      "defense": 410.84498940000003,
+      "specialized": 57.6
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6619.2695568,
+      "attack": 158.40902984,
+      "defense": 415.4255742,
+      "specialized": 57.6
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6692.255736000001,
+      "attack": 160.1557348,
+      "defense": 420.006159,
+      "specialized": 57.6
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6765.2419152,
+      "attack": 161.90243976,
+      "defense": 424.5867438,
+      "specialized": 57.6
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6838.228094400001,
+      "attack": 163.64914472,
+      "defense": 429.1673286,
+      "specialized": 57.6
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6911.2142736000005,
+      "attack": 165.39584968,
+      "defense": 433.7479134,
+      "specialized": 57.6
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7489.4739528,
+      "attack": 179.23387064000002,
+      "defense": 470.03999820000007,
+      "specialized": 57.6
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7562.460132,
+      "attack": 180.9805756,
+      "defense": 474.62058300000007,
+      "specialized": 57.6
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7636.2756996,
+      "attack": 182.74712948,
+      "defense": 479.25321990000003,
+      "specialized": 57.6
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7709.2618788,
+      "attack": 184.49383444,
+      "defense": 483.83380470000003,
+      "specialized": 57.6
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7783.077446400001,
+      "attack": 186.26038832,
+      "defense": 488.46644160000005,
+      "specialized": 57.6
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7856.893014,
+      "attack": 188.0269422,
+      "defense": 493.0990785,
+      "specialized": 57.6
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7929.8791932,
+      "attack": 189.77364716,
+      "defense": 497.6796633,
+      "specialized": 57.6
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 8003.6947608,
+      "attack": 191.54020104,
+      "defense": 502.31230020000004,
+      "specialized": 57.6
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 8077.5103284,
+      "attack": 193.30675492,
+      "defense": 506.9449371,
+      "specialized": 57.6
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 8151.325896,
+      "attack": 195.0733088,
+      "defense": 511.577574,
+      "specialized": 57.6
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8730.414863599999,
+      "attack": 208.93118268,
+      "defense": 547.9217109000001,
+      "specialized": 86.4
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8805.0598196,
+      "attack": 210.71758547999997,
+      "defense": 552.6063999,
+      "specialized": 86.4
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8878.875387200002,
+      "attack": 212.48413935999997,
+      "defense": 557.2390368000001,
+      "specialized": 86.4
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8952.6909548,
+      "attack": 214.25069323999998,
+      "defense": 561.8716737,
+      "specialized": 86.4
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 9027.3359108,
+      "attack": 216.03709604,
+      "defense": 566.5563627,
+      "specialized": 86.4
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 9101.1514784,
+      "attack": 217.80364992,
+      "defense": 571.1889996,
+      "specialized": 86.4
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 9175.7964344,
+      "attack": 219.59005272000002,
+      "defense": 575.8736886,
+      "specialized": 86.4
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 9250.4413904,
+      "attack": 221.37645551999998,
+      "defense": 580.5583776000001,
+      "specialized": 86.4
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 9325.0863464,
+      "attack": 223.16285832,
+      "defense": 585.2430666,
+      "specialized": 86.4
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 9399.7313024,
+      "attack": 224.94926112000002,
+      "defense": 589.9277556000001,
+      "specialized": 86.4
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9979.649658400001,
+      "attack": 238.82697991999999,
+      "defense": 626.3239446,
+      "specialized": 115.2
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 10054.294614400002,
+      "attack": 240.61338272,
+      "defense": 631.0086336,
+      "specialized": 115.2
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 10128.9395704,
+      "attack": 242.39978552000002,
+      "defense": 635.6933226,
+      "specialized": 115.2
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 10203.5845264,
+      "attack": 244.18618831999999,
+      "defense": 640.3780116,
+      "specialized": 115.2
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 10278.2294824,
+      "attack": 245.97259112,
+      "defense": 645.0627006,
+      "specialized": 115.2
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 10353.7038268,
+      "attack": 247.77884284000004,
+      "defense": 649.7994417000001,
+      "specialized": 115.2
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 10428.3487828,
+      "attack": 249.56524564,
+      "defense": 654.4841307,
+      "specialized": 115.2
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 10503.823127200001,
+      "attack": 251.37149735999998,
+      "defense": 659.2208718,
+      "specialized": 115.2
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 10579.297471599999,
+      "attack": 253.17774907999996,
+      "defense": 663.9576129,
+      "specialized": 115.2
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 10653.9424276,
+      "attack": 254.96415188000003,
+      "defense": 668.6423019,
+      "specialized": 115.2
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2862.5590596,
+      "attack": 68.50550848,
+      "defense": 179.6541474,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4788.574738800001,
+      "attack": 114.59802644000001,
+      "defense": 300.53089470000003,
+      "specialized": 28.8
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6183.0112584,
+      "attack": 147.96849792,
+      "defense": 388.04616960000004,
+      "specialized": 57.6
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7416.4877736,
+      "attack": 177.48716568,
+      "defense": 465.4594134,
+      "specialized": 57.6
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8656.599296,
+      "attack": 207.1646288,
+      "defense": 543.289074,
+      "specialized": 86.4
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9905.004702400001,
+      "attack": 237.04057712000002,
+      "defense": 621.6392556000001,
+      "specialized": 115.2
+    }
+  }
+}

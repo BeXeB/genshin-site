@@ -1,0 +1,1605 @@
+{
+  "profile": {
+    "id": 10000021,
+    "name": "Amber",
+    "title": "Gliding Champion",
+    "description": "Always energetic and full of life, Amber's the best — albeit only — Outrider of the Knights of Favonius.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthdaymmdd": "8/10",
+    "birthday": "August 10",
+    "elementType": "ELEMENT_PYRO",
+    "elementText": "Pyro",
+    "affiliation": "Knights of Favonius",
+    "associationType": "ASSOC_MONDSTADT",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Lepus",
+    "cv": {
+      "english": "Kelly Baskin",
+      "chinese": "蔡书瑾",
+      "japanese": "石見舞菜香",
+      "korean": "Kim Yeon-woo"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104111,
+          "name": "Agnidus Agate Sliver",
+          "count": 1
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 3
+        },
+        {
+          "id": 112011,
+          "name": "Firm Arrowhead",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 3
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 2
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 10
+        },
+        {
+          "id": 112011,
+          "name": "Firm Arrowhead",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104112,
+          "name": "Agnidus Agate Fragment",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 4
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 20
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 3
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 8
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 30
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104113,
+          "name": "Agnidus Agate Chunk",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 12
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 45
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104114,
+          "name": "Agnidus Agate Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113011,
+          "name": "Everflame Seed",
+          "count": 20
+        },
+        {
+          "id": 100055,
+          "name": "Small Lamp Grass",
+          "count": 60
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Amber_Card.jpg",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Amber_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/6f0ef40157e95b0d59455c12f4d3f270_6966278935690800707.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/28/4f598572016e3177da5d4256fe9c1f5e_8765525983470991811.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/b7c1e4d14fdaac060eb86e3ad09bbf78.png",
+      "filename_icon": "UI_AvatarIcon_Ambor",
+      "filename_iconCard": "UI_AvatarIcon_Ambor_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Ambor",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Ambor",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ambor",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ambor.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ambor.png",
+      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Amber_icon.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Amber"
+    },
+    "version": "1.0"
+  },
+  "skills": {
+    "id": 2101,
+    "name": "Amber",
+    "combat1": {
+      "name": "Sharpshooter",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal <color=#FF9999FF>Pyro DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 5 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal Pyro DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}",
+          "Aimed Shot|{param6:F1P}",
+          "Fully-Charged Aimed Shot|{param7:P}",
+          "Plunge DMG|{param8:F1P}",
+          "Low/High Plunge DMG|{param9:P}/{param10:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.3612,
+            0.3906,
+            0.42,
+            0.462,
+            0.4914,
+            0.525,
+            0.5712,
+            0.6174,
+            0.6636,
+            0.714,
+            0.7644,
+            0.8148,
+            0.8652,
+            0.9156,
+            0.966
+          ],
+          "param2": [
+            0.3612,
+            0.3906,
+            0.42,
+            0.462,
+            0.4914,
+            0.525,
+            0.5712,
+            0.6174,
+            0.6636,
+            0.714,
+            0.7644,
+            0.8148,
+            0.8652,
+            0.9156,
+            0.966
+          ],
+          "param3": [
+            0.4644,
+            0.5022,
+            0.54,
+            0.594,
+            0.6318,
+            0.675,
+            0.7344,
+            0.7938,
+            0.8532,
+            0.918,
+            0.9828,
+            1.0476,
+            1.1124,
+            1.1772,
+            1.242
+          ],
+          "param4": [
+            0.473,
+            0.5115,
+            0.55,
+            0.605,
+            0.6435,
+            0.6875,
+            0.748,
+            0.8085,
+            0.869,
+            0.935,
+            1.001,
+            1.067,
+            1.133,
+            1.199,
+            1.265
+          ],
+          "param5": [
+            0.5934,
+            0.6417,
+            0.69,
+            0.759,
+            0.8073,
+            0.8625,
+            0.9384,
+            1.0143,
+            1.0902,
+            1.173,
+            1.2558,
+            1.3386,
+            1.4214,
+            1.5042,
+            1.587
+          ],
+          "param6": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.9282,
+            0.9894,
+            1.0506,
+            1.1118,
+            1.173
+          ],
+          "param7": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.356,
+            2.48,
+            2.635,
+            2.79,
+            2.945
+          ],
+          "param8": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param9": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param10": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Explosive Puppet",
+      "descriptionRaw": "The ever-reliable Baron Bunny takes the stage.\n\n<color=#FFD780FF>Baron Bunny</color>\n·Continuously taunts the enemy, drawing their fire.\n·Baron Bunny's HP scales with Amber's Max HP.\n·When destroyed or when its timer expires, Baron Bunny explodes, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nAdjusts the throwing direction of Baron Bunny.\nThe longer the button is held, the further the throw.\n\n<i>Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.</i>",
+      "description": "The ever-reliable Baron Bunny takes the stage.\n\nBaron Bunny\n·Continuously taunts the enemy, drawing their fire.\n·Baron Bunny's HP scales with Amber's Max HP.\n·When destroyed or when its timer expires, Baron Bunny explodes, dealing AoE Pyro DMG.\n\nHold\nAdjusts the throwing direction of Baron Bunny.\nThe longer the button is held, the further the throw.",
+      "flavorText": "Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.",
+      "attributes": {
+        "labels": [
+          "Inherited HP|{param1:F1P}",
+          "Explosion DMG|{param2:P}",
+          "CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.4136,
+            0.44462,
+            0.47564,
+            0.517,
+            0.54802,
+            0.57904,
+            0.6204,
+            0.66176,
+            0.70312,
+            0.74448,
+            0.78584,
+            0.8272,
+            0.8789,
+            0.9306,
+            0.9823
+          ],
+          "param2": [
+            1.232,
+            1.3244,
+            1.4168,
+            1.54,
+            1.6324,
+            1.7248,
+            1.848,
+            1.9712,
+            2.0944,
+            2.2176,
+            2.3408,
+            2.464,
+            2.618,
+            2.772,
+            2.926
+          ],
+          "param3": [
+            -0.5864,
+            -0.55538,
+            -0.52436,
+            -0.483,
+            -0.45198,
+            -0.42096,
+            -0.3796,
+            -0.33824,
+            -0.29688,
+            -0.25552,
+            -0.21416,
+            -0.1728,
+            -0.1211,
+            -0.0694,
+            -0.0177
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Fiery Rain",
+      "descriptionRaw": "Fires off a shower of arrows, dealing continuous <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>Amber's passion truly burns hot.</i>",
+      "description": "Fires off a shower of arrows, dealing continuous AoE Pyro DMG.",
+      "flavorText": "Amber's passion truly burns hot.",
+      "attributes": {
+        "labels": [
+          "Fiery Rain DMG Per Wave|{param1:F1P}",
+          "Total Fiery Rain DMG|{param4:P}",
+          "Duration|{param5:F1}s",
+          "CD|{param2:F1}s",
+          "Energy Cost|{param3:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.2808,
+            0.30186,
+            0.32292,
+            0.351,
+            0.37206,
+            0.39312,
+            0.4212,
+            0.44928,
+            0.47736,
+            0.50544,
+            0.53352,
+            0.5616,
+            0.5967,
+            0.6318,
+            0.6669
+          ],
+          "param2": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param3": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "param4": [
+            5.0544,
+            5.43348,
+            5.81256,
+            6.318,
+            6.69708,
+            7.07616,
+            7.5816,
+            8.08704,
+            8.59248,
+            9.09792,
+            9.60336,
+            10.1088,
+            10.7406,
+            11.3724,
+            12.0042
+          ],
+          "param5": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Every Arrow Finds Its Target",
+      "descriptionRaw": "Increases the CRIT Rate of <color=#FFD780FF>Fiery Rain</color> by 10% and widens its AoE by 30%.",
+      "description": "Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by 30%."
+    },
+    "passive2": {
+      "name": "Precise Shot",
+      "descriptionRaw": "Aimed Shot hits on weak points increase ATK by 15% for 10s.",
+      "description": "Aimed Shot hits on weak points increase ATK by 15% for 10s."
+    },
+    "passive3": {
+      "name": "Gliding Champion",
+      "descriptionRaw": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "description": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104301,
+          "name": "Teachings of Freedom",
+          "count": 3
+        },
+        {
+          "id": 112011,
+          "name": "Firm Arrowhead",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 2
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 4
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 6
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104302,
+          "name": "Guide to Freedom",
+          "count": 9
+        },
+        {
+          "id": 112012,
+          "name": "Sharp Arrowhead",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 4
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 4
+        },
+        {
+          "id": 113005,
+          "name": "Dvalin's Sigh",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 6
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 6
+        },
+        {
+          "id": 113005,
+          "name": "Dvalin's Sigh",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 12
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 9
+        },
+        {
+          "id": 113005,
+          "name": "Dvalin's Sigh",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104303,
+          "name": "Philosophies of Freedom",
+          "count": 16
+        },
+        {
+          "id": 112013,
+          "name": "Weathered Arrowhead",
+          "count": 12
+        },
+        {
+          "id": 113005,
+          "name": "Dvalin's Sigh",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Ambor_01",
+      "filename_combat3": "Skill_E_Ambor_HD",
+      "filename_passive1": "UI_Talent_S_Ambor_05",
+      "filename_passive2": "UI_Talent_S_Ambor_06",
+      "filename_passive3": "UI_Talent_Explosion_Glide"
+    },
+    "version": "1.0"
+  },
+  "constellation": {
+    "id": 2101,
+    "name": "Amber",
+    "c1": {
+      "name": "One Arrow to Rule Them All",
+      "descriptionRaw": "Fires 2 arrows per <color=#FFD780FF>Aimed Shot</color>. The second arrow deals 20% of the first arrow's DMG.",
+      "description": "Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow's DMG."
+    },
+    "c2": {
+      "name": "Bunny Triggered",
+      "descriptionRaw": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\nExplosion via manual detonation deals 200% additional DMG.",
+      "description": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\nExplosion via manual detonation deals 200% additional DMG."
+    },
+    "c3": {
+      "name": "It Burns!",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Fiery Rain</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Fiery Rain by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "It's Not Just Any Doll...",
+      "descriptionRaw": "Decreases <color=#FFD780FF>Explosive Puppet</color>'s CD by 20%. Adds 1 additional charge.",
+      "description": "Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge."
+    },
+    "c5": {
+      "name": "It's Baron Bunny!",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Explosive Puppet</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Explosive Puppet by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Wildfire",
+      "descriptionRaw": "<color=#FFD780FF>Fiery Rain</color> increases all party members' Movement SPD by 15% and ATK by 15% for 10s.",
+      "description": "Fiery Rain increases all party members' Movement SPD by 15% and ATK by 15% for 10s."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Ambor_01",
+      "filename_c2": "UI_Talent_S_Ambor_02",
+      "filename_c3": "UI_Talent_U_Ambor_02",
+      "filename_c4": "UI_Talent_S_Ambor_03",
+      "filename_c5": "UI_Talent_U_Ambor_01",
+      "filename_c6": "UI_Talent_S_Ambor_04",
+      "filename_constellation": "Eff_UI_Talent_Ambor"
+    },
+    "version": "1.0"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 793.2582,
+      "attack": 18.6984,
+      "defense": 50.358,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 859.0986306,
+      "attack": 20.2503672,
+      "defense": 54.537713999999994,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 924.145803,
+      "attack": 21.783636,
+      "defense": 58.667069999999995,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 989.9862336,
+      "attack": 23.335603199999998,
+      "defense": 62.846784,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1055.033406,
+      "attack": 24.868872,
+      "defense": 66.97614,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1120.8738366,
+      "attack": 26.4208392,
+      "defense": 71.15585399999999,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1185.9210090000001,
+      "attack": 27.954108,
+      "defense": 75.28521,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1251.7614396000001,
+      "attack": 29.5060752,
+      "defense": 79.464924,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1317.6018702,
+      "attack": 31.058042399999998,
+      "defense": 83.644638,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1382.6490426,
+      "attack": 32.5913112,
+      "defense": 87.773994,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1448.4894732,
+      "attack": 34.1432784,
+      "defense": 91.95370799999999,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1513.5366456,
+      "attack": 35.676547199999995,
+      "defense": 96.083064,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1579.3770762000001,
+      "attack": 37.2285144,
+      "defense": 100.262778,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1644.4242485999998,
+      "attack": 38.761783199999996,
+      "defense": 104.39213399999998,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1710.2646792,
+      "attack": 40.3137504,
+      "defense": 108.571848,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1776.1051097999998,
+      "attack": 41.865717599999996,
+      "defense": 112.75156199999999,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1841.1522822000002,
+      "attack": 43.398986400000005,
+      "defense": 116.88091800000001,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1906.9927128,
+      "attack": 44.9509536,
+      "defense": 121.06063199999998,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 1972.0398852,
+      "attack": 46.4842224,
+      "defense": 125.189988,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2037.8803157999998,
+      "attack": 48.0361896,
+      "defense": 129.369702,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2695.5319882,
+      "attack": 63.53844839999999,
+      "defense": 171.119058,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2761.3724187999997,
+      "attack": 65.0904156,
+      "defense": 175.29877199999999,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2827.2128494,
+      "attack": 66.64238280000001,
+      "defense": 179.478486,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2892.2600218,
+      "attack": 68.1756516,
+      "defense": 183.607842,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 2958.1004524,
+      "attack": 69.7276188,
+      "defense": 187.787556,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3023.1476248,
+      "attack": 71.2608876,
+      "defense": 191.916912,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3088.9880553999997,
+      "attack": 72.8128548,
+      "defense": 196.096626,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3154.0352278,
+      "attack": 74.3461236,
+      "defense": 200.225982,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3219.8756584,
+      "attack": 75.89809079999999,
+      "defense": 204.40569599999998,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3284.9228308,
+      "attack": 77.43135960000001,
+      "defense": 208.535052,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3350.7632614,
+      "attack": 78.9833268,
+      "defense": 212.714766,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3416.603692,
+      "attack": 80.53529400000001,
+      "defense": 216.89448,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3481.6508643999996,
+      "attack": 82.0685628,
+      "defense": 221.023836,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3547.491295,
+      "attack": 83.62053,
+      "defense": 225.20355,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3612.5384673999997,
+      "attack": 85.1537988,
+      "defense": 229.33290599999998,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3678.378898,
+      "attack": 86.70576600000001,
+      "defense": 233.51262,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3743.4260704,
+      "attack": 88.2390348,
+      "defense": 237.641976,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3809.2665009999996,
+      "attack": 89.79100199999999,
+      "defense": 241.82169,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 3875.1069316,
+      "attack": 91.3429692,
+      "defense": 246.00140399999998,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 3940.1541039999997,
+      "attack": 92.876238,
+      "defense": 250.13075999999998,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4427.0555346,
+      "attack": 104.3535402,
+      "defense": 281.040474,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4492.102707,
+      "attack": 105.88680899999999,
+      "defense": 285.16982999999993,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4557.943137599999,
+      "attack": 107.43877619999999,
+      "defense": 289.349544,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4622.990309999999,
+      "attack": 108.972045,
+      "defense": 293.47889999999995,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4688.830740599999,
+      "attack": 110.52401219999999,
+      "defense": 297.65861399999994,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4754.6711712,
+      "attack": 112.0759794,
+      "defense": 301.838328,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4819.7183436,
+      "attack": 113.6092482,
+      "defense": 305.96768399999996,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 4885.5587742,
+      "attack": 115.1612154,
+      "defense": 310.14739799999995,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 4950.6059466,
+      "attack": 116.69448419999999,
+      "defense": 314.276754,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5016.4463772,
+      "attack": 118.2464514,
+      "defense": 318.456468,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5642.9083496,
+      "attack": 133.0135002,
+      "defense": 358.225824,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5708.7487802,
+      "attack": 134.5654674,
+      "defense": 362.40553800000004,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5774.589210799999,
+      "attack": 136.1174346,
+      "defense": 366.58525199999997,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 5839.636383200001,
+      "attack": 137.6507034,
+      "defense": 370.714608,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 5905.4768138,
+      "attack": 139.20267059999998,
+      "defense": 374.894322,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 5970.5239862,
+      "attack": 140.7359394,
+      "defense": 379.023678,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6036.364416799999,
+      "attack": 142.28790659999999,
+      "defense": 383.20339199999995,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6101.411589200001,
+      "attack": 143.82117540000002,
+      "defense": 387.33274800000004,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6167.2520198,
+      "attack": 145.3731426,
+      "defense": 391.51246199999997,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6233.0924503999995,
+      "attack": 146.9251098,
+      "defense": 395.69217599999996,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6719.2007228,
+      "attack": 158.3837136,
+      "defense": 426.55153199999995,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 6785.0411533999995,
+      "attack": 159.9356808,
+      "defense": 430.73124599999994,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 6850.088325799999,
+      "attack": 161.4689496,
+      "defense": 434.860602,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 6915.928756400001,
+      "attack": 163.0209168,
+      "defense": 439.04031599999996,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 6980.9759288000005,
+      "attack": 164.55418559999998,
+      "defense": 443.169672,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7046.8163594,
+      "attack": 166.1061528,
+      "defense": 447.349386,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7112.656790000001,
+      "attack": 167.65812,
+      "defense": 451.52909999999997,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7177.703962400001,
+      "attack": 169.1913888,
+      "defense": 455.658456,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7243.544393,
+      "attack": 170.743356,
+      "defense": 459.83817,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7308.5915654,
+      "attack": 172.2766248,
+      "defense": 463.967526,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 7795.492996,
+      "attack": 183.753927,
+      "defense": 494.87724,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 7860.5401684,
+      "attack": 185.2871958,
+      "defense": 499.00659599999994,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 7926.380599,
+      "attack": 186.83916299999999,
+      "defense": 503.18631,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 7992.221029599999,
+      "attack": 188.39113019999996,
+      "defense": 507.3660239999999,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8057.268202,
+      "attack": 189.924399,
+      "defense": 511.49538,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8123.1086325999995,
+      "attack": 191.47636619999997,
+      "defense": 515.675094,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8188.155805,
+      "attack": 193.009635,
+      "defense": 519.80445,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8253.9962356,
+      "attack": 194.56160219999998,
+      "defense": 523.984164,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8319.043408000001,
+      "attack": 196.094871,
+      "defense": 528.11352,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8384.883838599999,
+      "attack": 197.6468382,
+      "defense": 532.293234,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 8871.7852692,
+      "attack": 209.1241404,
+      "defense": 563.202948,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 8936.8324416,
+      "attack": 210.6574092,
+      "defense": 567.332304,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9002.6728722,
+      "attack": 212.2093764,
+      "defense": 571.5120179999999,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9067.720044599999,
+      "attack": 213.7426452,
+      "defense": 575.641374,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9133.5604752,
+      "attack": 215.2946124,
+      "defense": 579.8210879999999,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9198.6076476,
+      "attack": 216.8278812,
+      "defense": 583.9504440000001,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9264.4480782,
+      "attack": 218.37984840000001,
+      "defense": 588.130158,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9329.4952506,
+      "attack": 219.9131172,
+      "defense": 592.259514,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9395.3356812,
+      "attack": 221.4650844,
+      "defense": 596.439228,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9461.1761118,
+      "attack": 223.0170516,
+      "defense": 600.6189420000001,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2630.4848158,
+      "attack": 62.0051796,
+      "defense": 166.989702,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4361.215104,
+      "attack": 102.80157299999999,
+      "defense": 276.86075999999997,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5577.8611772,
+      "attack": 131.4802314,
+      "defense": 354.096468,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6654.1535504,
+      "attack": 156.8504448,
+      "defense": 422.4221759999999,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7729.6525654,
+      "attack": 182.2019598,
+      "defense": 490.697526,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 8805.9448386,
+      "attack": 207.57217319999998,
+      "defense": 559.023234,
+      "specialized": 0.24
+    }
+  }
+}

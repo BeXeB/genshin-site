@@ -1,0 +1,1618 @@
+{
+  "profile": {
+    "id": 10000116,
+    "name": "Ineffa",
+    "title": "Boom Boom Thunderwave",
+    "description": "A multifunctional robot containing integrated mechanical components from various nations. The Source Core in her chest has endured the passage of countless years.",
+    "weaponType": "WEAPON_POLE",
+    "weaponText": "Polearm",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "4/2",
+    "birthday": "April 2",
+    "elementType": "ELEMENT_ELECTRO",
+    "elementText": "Electro",
+    "affiliation": "Clink-Clank Krumkake Craftshop",
+    "associationType": "ASSOC_NODKRAI",
+    "region": "Nod-Krai",
+    "substatType": "FIGHT_PROP_CRITICAL",
+    "substatText": "CRIT Rate",
+    "constellation": "Vanilla Planifolia",
+    "cv": {
+      "english": "Angelina Danielle Cama",
+      "chinese": "美加",
+      "japanese": "中島愛",
+      "korean": "Sung Ye-won"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104141,
+          "name": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 3
+        },
+        {
+          "id": 112104,
+          "name": "Sentry's Wooden Whistle",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": 113076,
+          "name": "Secret Source Airflow Accumulator",
+          "count": 2
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 10
+        },
+        {
+          "id": 112104,
+          "name": "Sentry's Wooden Whistle",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104142,
+          "name": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": 113076,
+          "name": "Secret Source Airflow Accumulator",
+          "count": 4
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 20
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": 113076,
+          "name": "Secret Source Airflow Accumulator",
+          "count": 8
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 30
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104143,
+          "name": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": 113076,
+          "name": "Secret Source Airflow Accumulator",
+          "count": 12
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 45
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104144,
+          "name": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113076,
+          "name": "Secret Source Airflow Accumulator",
+          "count": 20
+        },
+        {
+          "id": 101252,
+          "name": "Glowing Hornshroom",
+          "count": 60
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Ineffa",
+      "filename_iconCard": "UI_AvatarIcon_Ineffa_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Ineffa",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Ineffa",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ineffa",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ineffa.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ineffa.png",
+      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/07/28/7c221918444852e9a3c2ad609ccacea2_8687518447126752117.png"
+    },
+    "version": "5.8"
+  },
+  "skills": {
+    "id": 11601,
+    "name": "Ineffa",
+    "combat1": {
+      "name": "Cyclonic Duster",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to perform a spinning attack.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform a spinning attack.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "Charged Attack DMG|{param6:F1P}",
+          "Charged Attack Stamina Cost|{param7:F1}",
+          "Plunge DMG|{param8:F1P}",
+          "Low/High Plunge DMG|{param9:P}/{param10:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.348352,
+            0.376706,
+            0.40506,
+            0.445566,
+            0.47392,
+            0.506325,
+            0.550882,
+            0.595438,
+            0.639995,
+            0.688602,
+            0.737209,
+            0.785816,
+            0.834424,
+            0.883031,
+            0.931638
+          ],
+          "param2": [
+            0.342211,
+            0.370066,
+            0.39792,
+            0.437712,
+            0.465566,
+            0.4974,
+            0.541171,
+            0.584942,
+            0.628714,
+            0.676464,
+            0.724214,
+            0.771965,
+            0.819715,
+            0.867466,
+            0.915216
+          ],
+          "param3": [
+            0.227556,
+            0.246078,
+            0.2646,
+            0.29106,
+            0.309582,
+            0.33075,
+            0.359856,
+            0.388962,
+            0.418068,
+            0.44982,
+            0.481572,
+            0.513324,
+            0.545076,
+            0.576828,
+            0.60858
+          ],
+          "param4": [
+            0.227556,
+            0.246078,
+            0.2646,
+            0.29106,
+            0.309582,
+            0.33075,
+            0.359856,
+            0.388962,
+            0.418068,
+            0.44982,
+            0.481572,
+            0.513324,
+            0.545076,
+            0.576828,
+            0.60858
+          ],
+          "param5": [
+            0.560677,
+            0.606314,
+            0.65195,
+            0.717145,
+            0.762782,
+            0.814938,
+            0.886652,
+            0.958367,
+            1.030081,
+            1.108315,
+            1.186549,
+            1.264783,
+            1.343017,
+            1.421251,
+            1.499485
+          ],
+          "param6": [
+            0.94944,
+            1.02672,
+            1.104,
+            1.2144,
+            1.29168,
+            1.38,
+            1.50144,
+            1.62288,
+            1.74432,
+            1.8768,
+            2.00928,
+            2.14176,
+            2.27424,
+            2.40672,
+            2.5392
+          ],
+          "param7": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param8": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param9": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param10": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Cleaning Mode: Carrier Frequency",
+      "descriptionRaw": "Ineffa engages her Enhanced Cleaning Module, dealing a single instance of <color=#FFACFFFF>AoE Electro DMG</color> to nearby opponents, activating her Optical Flow Shield Barrier, and summoning the Multipurpose Smart Assistance Unit, {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK}.\nThe Optical Flow Shield Barrier absorbs DMG based on Ineffa's ATK, and it will absorb <color=#FFACFFFF>Electro DMG</color> with 250% effectiveness.",
+      "description": "Ineffa engages her Enhanced Cleaning Module, dealing a single instance of AoE Electro DMG to nearby opponents, activating her Optical Flow Shield Barrier, and summoning the Multipurpose Smart Assistance Unit, **Birgitta**.\nThe Optical Flow Shield Barrier absorbs DMG based on Ineffa's ATK, and it will absorb Electro DMG with 250% effectiveness.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+          "Shield Duration|{param6:F1}s",
+          "Birgitta Discharge DMG|{param4:F1P}",
+          "Birgitta Duration|{param5:F1}s",
+          "CD|{param7:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.864,
+            0.9288,
+            0.9936,
+            1.08,
+            1.1448,
+            1.2096,
+            1.296,
+            1.3824,
+            1.4688,
+            1.5552,
+            1.6416,
+            1.728,
+            1.836,
+            1.944,
+            2.052
+          ],
+          "param2": [
+            2.21184,
+            2.377728,
+            2.543616,
+            2.7648,
+            2.930688,
+            3.096576,
+            3.31776,
+            3.538944,
+            3.760128,
+            3.981312,
+            4.202496,
+            4.42368,
+            4.70016,
+            4.97664,
+            5.25312
+          ],
+          "param3": [
+            1386.6759,
+            1525.3628,
+            1675.6068,
+            1837.4082,
+            2010.7667,
+            2195.6826,
+            2392.1558,
+            2600.186,
+            2819.7734,
+            3050.9182,
+            3293.6204,
+            3547.8796,
+            3813.696,
+            4091.0698,
+            4380.0005
+          ],
+          "param4": [
+            0.96,
+            1.032,
+            1.104,
+            1.2,
+            1.272,
+            1.344,
+            1.44,
+            1.536,
+            1.632,
+            1.728,
+            1.824,
+            1.92,
+            2.04,
+            2.16,
+            2.28
+          ],
+          "param5": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param6": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param7": [
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Supreme Instruction: Cyclonic Exterminator",
+      "descriptionRaw": "Through Multipurpose Smart Assistance Unit, {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK}, Ineffa can use Rocket Punches to quickly clean up opponents! Shoots Birgitta into the fray, dealing <color=#FFACFFFF>AoE Electro DMG</color> and allowing Birgitta to remain on the field.\n\nIf Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration.",
+      "description": "Through Multipurpose Smart Assistance Unit, **Birgitta**, Ineffa can use Rocket Punches to quickly clean up opponents! Shoots Birgitta into the fray, dealing AoE Electro DMG and allowing Birgitta to remain on the field.\n\nIf Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "CD|{param2:F1}s",
+          "Energy Cost|{param3:I}"
+        ],
+        "parameters": {
+          "param1": [
+            6.768,
+            7.2756,
+            7.7832,
+            8.46,
+            8.9676,
+            9.4752,
+            10.152,
+            10.8288,
+            11.5056,
+            12.1824,
+            12.8592,
+            13.536,
+            14.382,
+            15.228,
+            16.074
+          ],
+          "param2": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param3": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Overclocking Circuit",
+      "descriptionRaw": "If there are thunderclouds created by Lunar-Charged reactions nearby when {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK} unleashes Discharge attacks, she will initiate an additional attack, dealing <color=#FFACFFFF>AoE Electro DMG</color> equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.",
+      "description": "If there are thunderclouds created by Lunar-Charged reactions nearby when **Birgitta** unleashes Discharge attacks, she will initiate an additional attack, dealing AoE Electro DMG equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG."
+    },
+    "passive2": {
+      "name": "Panoramic Permutation Protocol",
+      "descriptionRaw": "When using the Elemental Burst <color=#FFD780FF>{LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK}</color>, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s.",
+      "description": "When using the Elemental Burst **Supreme Instruction: Cyclonic Exterminator**, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s."
+    },
+    "passive3": {
+      "name": "Moonsign Benediction: Assemblage Hub",
+      "descriptionRaw": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Ineffa has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Ineffa is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
+      "description": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Ineffa has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Ineffa is in the party, the party's Moonsign will increase by 1 level."
+    },
+    "passive4": {
+      "name": "Flavor Synthesis Unit",
+      "descriptionRaw": "When Ineffa uses food, there is a 30% chance of gaining a seasoning ingredient.\n\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means...",
+      "description": "When Ineffa uses food, there is a 30% chance of gaining a seasoning ingredient.\n\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means..."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104353,
+          "name": "Teachings of Conflict",
+          "count": 3
+        },
+        {
+          "id": 112104,
+          "name": "Sentry's Wooden Whistle",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104354,
+          "name": "Guide to Conflict",
+          "count": 2
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104354,
+          "name": "Guide to Conflict",
+          "count": 4
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104354,
+          "name": "Guide to Conflict",
+          "count": 6
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104354,
+          "name": "Guide to Conflict",
+          "count": 9
+        },
+        {
+          "id": 112105,
+          "name": "Warrior's Metal Whistle",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104355,
+          "name": "Philosophies of Conflict",
+          "count": 4
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 4
+        },
+        {
+          "id": 113069,
+          "name": "Eroded Sunfire",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104355,
+          "name": "Philosophies of Conflict",
+          "count": 6
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 6
+        },
+        {
+          "id": 113069,
+          "name": "Eroded Sunfire",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104355,
+          "name": "Philosophies of Conflict",
+          "count": 12
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 9
+        },
+        {
+          "id": 113069,
+          "name": "Eroded Sunfire",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104355,
+          "name": "Philosophies of Conflict",
+          "count": 16
+        },
+        {
+          "id": 112106,
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "count": 12
+        },
+        {
+          "id": 113069,
+          "name": "Eroded Sunfire",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_03",
+      "filename_combat2": "Skill_S_Ineffa_01",
+      "filename_combat3": "Skill_E_Ineffa_01_HD",
+      "filename_passive1": "UI_Talent_S_Ineffa_05",
+      "filename_passive2": "UI_Talent_S_Ineffa_06",
+      "filename_passive3": "UI_Talent_S_Ineffa_07",
+      "filename_passive4": "UI_Talent_S_Ineffa_08"
+    },
+    "version": "5.8"
+  },
+  "constellation": {
+    "id": 11601,
+    "name": "Ineffa",
+    "c1": {
+      "name": "Rectifying Processor",
+      "descriptionRaw": "When Ineffa activates her Optical Flow Shield Barrier, all nearby party members will gain the Carrier Flow Composite effect for 20s: Increases Lunar-Charged DMG by 2.5% for every 100 ATK that Ineffa has, up to a maximum of 50%.",
+      "description": "When Ineffa activates her Optical Flow Shield Barrier, all nearby party members will gain the Carrier Flow Composite effect for 20s: Increases Lunar-Charged DMG by 2.5% for every 100 ATK that Ineffa has, up to a maximum of 50%."
+    },
+    "c2": {
+      "name": "Support Cleaning Module",
+      "descriptionRaw": "After the Elemental Burst <color=#FFD780FF>{LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK}</color> hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is defeated, nearby opponents will take <color=#FFACFFFF>AoE Electro DMG</color> equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.\nAdditionally, when the Elemental Burst <color=#FFD780FF>Supreme Instruction: Cyclonic Exterminator</color> is unleashed, nearby party members will gain Optical Flow Shield Barriers.",
+      "description": "After the Elemental Burst **Supreme Instruction: Cyclonic Exterminator** hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is defeated, nearby opponents will take AoE Electro DMG equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.\nAdditionally, when the Elemental Burst Supreme Instruction: Cyclonic Exterminator is unleashed, nearby party members will gain Optical Flow Shield Barriers."
+    },
+    "c3": {
+      "name": "Enhanced Emotion Emulator",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11162}Cleaning Mode: Carrier Frequency{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of **Cleaning Mode: Carrier Frequency** by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "The Edictless Path",
+      "descriptionRaw": "When your own party members trigger Lunar-Charged reactions, recover 5 Elemental Energy. This effect can occur once every 4s.",
+      "description": "When your own party members trigger Lunar-Charged reactions, recover 5 Elemental Energy. This effect can occur once every 4s."
+    },
+    "c5": {
+      "name": "Mirror's Dream Transcension",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of **Supreme Instruction: Cyclonic Exterminator** by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "A Dawning Morn for You",
+      "descriptionRaw": "When Ineffa is affected by the Carrier Flow Composite effect, she will deal <color=#FFACFFFF>AoE Electro DMG</color> equal to 135% of her ATK to opponents in the current active character's vicinity after nearby thunderclouds release bursts of lightning at opponents. This DMG is considered Lunar-Charged DMG. The aforementioned effect can trigger once every 3.5s.",
+      "description": "When Ineffa is affected by the Carrier Flow Composite effect, she will deal AoE Electro DMG equal to 135% of her ATK to opponents in the current active character's vicinity after nearby thunderclouds release bursts of lightning at opponents. This DMG is considered Lunar-Charged DMG. The aforementioned effect can trigger once every 3.5s."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Ineffa_01",
+      "filename_c2": "UI_Talent_S_Ineffa_02",
+      "filename_c3": "UI_Talent_U_Ineffa_01",
+      "filename_c4": "UI_Talent_S_Ineffa_03",
+      "filename_c5": "UI_Talent_U_Ineffa_02",
+      "filename_c6": "UI_Talent_S_Ineffa_04",
+      "filename_constellation": "Eff_UI_Talent_Ineffa"
+    },
+    "version": "5.8"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 981.9196,
+      "attack": 25.6956,
+      "defense": 64.43691,
+      "specialized": 0.05
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 1063.4189268,
+      "attack": 27.828334799999997,
+      "defense": 69.78517353,
+      "specialized": 0.05
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 1144.9182535999998,
+      "attack": 29.9610696,
+      "defense": 75.13343705999999,
+      "specialized": 0.05
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1227.3995,
+      "attack": 32.1195,
+      "defense": 80.5461375,
+      "specialized": 0.05
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1308.8988267999998,
+      "attack": 34.2522348,
+      "defense": 85.89440103,
+      "specialized": 0.05
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1391.3800732,
+      "attack": 36.4106652,
+      "defense": 91.30710146999999,
+      "specialized": 0.05
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1472.8793999999998,
+      "attack": 38.5434,
+      "defense": 96.65536499999999,
+      "specialized": 0.05
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1555.3606464,
+      "attack": 40.7018304,
+      "defense": 102.06806544,
+      "specialized": 0.05
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1637.8418927999999,
+      "attack": 42.8602608,
+      "defense": 107.48076587999999,
+      "specialized": 0.05
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1719.3412195999997,
+      "attack": 44.99299559999999,
+      "defense": 112.82902940999999,
+      "specialized": 0.05
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1801.8224659999998,
+      "attack": 47.151425999999994,
+      "defense": 118.24172985,
+      "specialized": 0.05
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1884.3037124,
+      "attack": 49.3098564,
+      "defense": 123.65443029,
+      "specialized": 0.05
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1966.7849588,
+      "attack": 51.4682868,
+      "defense": 129.06713073,
+      "specialized": 0.05
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 2050.2481248,
+      "attack": 53.6524128,
+      "defense": 134.54426808,
+      "specialized": 0.05
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 2132.7293712,
+      "attack": 55.8108432,
+      "defense": 139.95696852,
+      "specialized": 0.05
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 2215.2106175999998,
+      "attack": 57.969273599999994,
+      "defense": 145.36966895999998,
+      "specialized": 0.05
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 2298.6737836,
+      "attack": 60.1533996,
+      "defense": 150.84680631,
+      "specialized": 0.05
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 2381.15503,
+      "attack": 62.31182999999999,
+      "defense": 156.25950674999999,
+      "specialized": 0.05
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2464.6181959999994,
+      "attack": 64.49595599999999,
+      "defense": 161.73664409999998,
+      "specialized": 0.05
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2547.0994423999996,
+      "attack": 66.65438639999999,
+      "defense": 167.14934454,
+      "specialized": 0.05
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 3472.4699083999994,
+      "attack": 90.8685574,
+      "defense": 227.87658188999998,
+      "specialized": 0.05
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 3555.9330743999994,
+      "attack": 93.05268339999999,
+      "defense": 233.35371923999998,
+      "specialized": 0.05
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 3639.3962404,
+      "attack": 95.2368094,
+      "defense": 238.83085659,
+      "specialized": 0.05
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 3722.8594064,
+      "attack": 97.4209354,
+      "defense": 244.30799394000002,
+      "specialized": 0.05
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3806.3225724,
+      "attack": 99.6050614,
+      "defense": 249.78513129,
+      "specialized": 0.05
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3890.7676579999998,
+      "attack": 101.814883,
+      "defense": 255.32670554999999,
+      "specialized": 0.05
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3974.2308239999998,
+      "attack": 103.999009,
+      "defense": 260.80384289999995,
+      "specialized": 0.05
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 4057.6939899999998,
+      "attack": 106.183135,
+      "defense": 266.28098024999997,
+      "specialized": 0.05
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 4142.1390756,
+      "attack": 108.3929566,
+      "defense": 271.82255451000003,
+      "specialized": 0.05
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 4225.6022416,
+      "attack": 110.5770826,
+      "defense": 277.29969186,
+      "specialized": 0.05
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 4310.0473272,
+      "attack": 112.7869042,
+      "defense": 282.84126612,
+      "specialized": 0.05
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 4394.492412799999,
+      "attack": 114.9967258,
+      "defense": 288.38284037999995,
+      "specialized": 0.05
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 4478.9374984,
+      "attack": 117.2065474,
+      "defense": 293.92441464,
+      "specialized": 0.05
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 4562.4006644,
+      "attack": 119.3906734,
+      "defense": 299.40155199000003,
+      "specialized": 0.05
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 4646.8457499999995,
+      "attack": 121.600495,
+      "defense": 304.94312625,
+      "specialized": 0.05
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 4732.2727552,
+      "attack": 123.8360122,
+      "defense": 310.54913741999997,
+      "specialized": 0.05
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 4816.7178408,
+      "attack": 126.0458338,
+      "defense": 316.09071168,
+      "specialized": 0.05
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 4901.1629264,
+      "attack": 128.25565540000002,
+      "defense": 321.63228594,
+      "specialized": 0.05
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4985.608012,
+      "attack": 130.465477,
+      "defense": 327.1738601999999,
+      "specialized": 0.05
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 5071.0350172,
+      "attack": 132.70099420000003,
+      "defense": 332.77987137,
+      "specialized": 0.05
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 5753.677302799999,
+      "attack": 150.5637408,
+      "defense": 377.57809563,
+      "specialized": 0.098
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 5839.104308,
+      "attack": 152.799258,
+      "defense": 383.18410680000005,
+      "specialized": 0.098
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 5924.531313199999,
+      "attack": 155.0347752,
+      "defense": 388.79011797,
+      "specialized": 0.098
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 6008.9763987999995,
+      "attack": 157.24459679999998,
+      "defense": 394.33169223,
+      "specialized": 0.098
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 6094.403404000001,
+      "attack": 159.48011400000001,
+      "defense": 399.93770340000003,
+      "specialized": 0.098
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 6179.8304092,
+      "attack": 161.7156312,
+      "defense": 405.54371457,
+      "specialized": 0.098
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 6265.257414399999,
+      "attack": 163.95114839999997,
+      "defense": 411.14972573999995,
+      "specialized": 0.098
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 6350.6844196,
+      "attack": 166.18666560000003,
+      "defense": 416.75573691,
+      "specialized": 0.098
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 6437.0933444,
+      "attack": 168.44787839999998,
+      "defense": 422.42618499,
+      "specialized": 0.098
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 6522.5203495999995,
+      "attack": 170.68339559999998,
+      "defense": 428.03219616,
+      "specialized": 0.098
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 7405.543854799999,
+      "attack": 193.7894828,
+      "defense": 485.98040733,
+      "specialized": 0.14600000000000002
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 7491.952779599999,
+      "attack": 196.05069559999998,
+      "defense": 491.65085540999996,
+      "specialized": 0.14600000000000002
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 7577.3797847999995,
+      "attack": 198.2862128,
+      "defense": 497.25686657999995,
+      "specialized": 0.14600000000000002
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 7663.7887095999995,
+      "attack": 200.5474256,
+      "defense": 502.92731466,
+      "specialized": 0.14600000000000002
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 7750.1976343999995,
+      "attack": 202.80863839999998,
+      "defense": 508.59776274,
+      "specialized": 0.14600000000000002
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 7836.6065591999995,
+      "attack": 205.0698512,
+      "defense": 514.2682108199999,
+      "specialized": 0.14600000000000002
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 7923.015484,
+      "attack": 207.331064,
+      "defense": 519.9386589000001,
+      "specialized": 0.14600000000000002
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 8009.4244088,
+      "attack": 209.5922768,
+      "defense": 525.60910698,
+      "specialized": 0.14600000000000002
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 8095.8333336,
+      "attack": 211.8534896,
+      "defense": 531.27955506,
+      "specialized": 0.14600000000000002
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 8182.2422584,
+      "attack": 214.1147024,
+      "defense": 536.95000314,
+      "specialized": 0.14600000000000002
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 8866.8483832,
+      "attack": 232.0288452,
+      "defense": 581.87710122,
+      "specialized": 0.14600000000000002
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 8953.257308,
+      "attack": 234.290058,
+      "defense": 587.5475493,
+      "specialized": 0.14600000000000002
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 9040.6481524,
+      "attack": 236.57696639999998,
+      "defense": 593.28243429,
+      "specialized": 0.14600000000000002
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 9127.0570772,
+      "attack": 238.83817919999998,
+      "defense": 598.95288237,
+      "specialized": 0.14600000000000002
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 9214.4479216,
+      "attack": 241.1250876,
+      "defense": 604.6877673600001,
+      "specialized": 0.14600000000000002
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 9301.838765999999,
+      "attack": 243.411996,
+      "defense": 610.42265235,
+      "specialized": 0.14600000000000002
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 9388.247690799999,
+      "attack": 245.6732088,
+      "defense": 616.09310043,
+      "specialized": 0.14600000000000002
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 9475.6385352,
+      "attack": 247.96011719999998,
+      "defense": 621.82798542,
+      "specialized": 0.14600000000000002
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 9563.0293796,
+      "attack": 250.2470256,
+      "defense": 627.56287041,
+      "specialized": 0.14600000000000002
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 9650.420224,
+      "attack": 252.533934,
+      "defense": 633.2977554,
+      "specialized": 0.14600000000000002
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 10336.0083684,
+      "attack": 270.4737624,
+      "defense": 678.28928039,
+      "specialized": 0.194
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 10424.3811324,
+      "attack": 272.78636639999996,
+      "defense": 684.0886022899999,
+      "specialized": 0.194
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 10511.771976799999,
+      "attack": 275.0732748,
+      "defense": 689.82348728,
+      "specialized": 0.194
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 10599.1628212,
+      "attack": 277.3601832,
+      "defense": 695.55837227,
+      "specialized": 0.194
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 10687.5355852,
+      "attack": 279.67278719999996,
+      "defense": 701.35769417,
+      "specialized": 0.194
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 10774.9264296,
+      "attack": 281.9596956,
+      "defense": 707.09257916,
+      "specialized": 0.194
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 10863.2991936,
+      "attack": 284.2722996,
+      "defense": 712.89190106,
+      "specialized": 0.194
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 10951.6719576,
+      "attack": 286.58490359999996,
+      "defense": 718.69122296,
+      "specialized": 0.194
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 11040.0447216,
+      "attack": 288.8975076,
+      "defense": 724.49054486,
+      "specialized": 0.194
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 11128.417485599999,
+      "attack": 291.2101116,
+      "defense": 730.28986676,
+      "specialized": 0.194
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 11814.9874496,
+      "attack": 309.1756396,
+      "defense": 775.34584866,
+      "specialized": 0.242
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 11903.3602136,
+      "attack": 311.48824360000003,
+      "defense": 781.14517056,
+      "specialized": 0.242
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 11991.7329776,
+      "attack": 313.8008476,
+      "defense": 786.94449246,
+      "specialized": 0.242
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 12080.1057416,
+      "attack": 316.11345159999996,
+      "defense": 792.74381436,
+      "specialized": 0.242
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 12168.4785056,
+      "attack": 318.4260556,
+      "defense": 798.54313626,
+      "specialized": 0.242
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 12257.8331892,
+      "attack": 320.7643552,
+      "defense": 804.40689507,
+      "specialized": 0.242
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 12346.2059532,
+      "attack": 323.07695920000003,
+      "defense": 810.20621697,
+      "specialized": 0.242
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 12435.560636799999,
+      "attack": 325.4152588,
+      "defense": 816.06997578,
+      "specialized": 0.242
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 12524.9153204,
+      "attack": 327.7535584,
+      "defense": 821.9337345899999,
+      "specialized": 0.242
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 12613.288084400001,
+      "attack": 330.06616240000005,
+      "defense": 827.7330564900001,
+      "specialized": 0.242
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3389.0067423999994,
+      "attack": 88.6844314,
+      "defense": 222.39944454,
+      "specialized": 0.05
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5669.2322172,
+      "attack": 148.3539192,
+      "defense": 372.03652137,
+      "specialized": 0.098
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7320.1168496,
+      "attack": 191.5539656,
+      "defense": 480.37439616,
+      "specialized": 0.14600000000000002
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8780.4394584,
+      "attack": 229.7676324,
+      "defense": 576.20665314,
+      "specialized": 0.14600000000000002
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 10248.617524,
+      "attack": 268.186854,
+      "defense": 672.5543954,
+      "specialized": 0.194
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11726.6146856,
+      "attack": 306.8630356,
+      "defense": 769.54652676,
+      "specialized": 0.242
+    }
+  }
+}

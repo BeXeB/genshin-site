@@ -1,0 +1,1597 @@
+{
+  "profile": {
+    "id": 10000075,
+    "name": "Wanderer",
+    "title": "Eons Adrift",
+    "description": "A wayfaring figure whose identity is a mystery. He dresses like a mountain ascetic, but he certainly does not act the part.",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "bodyType": "BODY_BOY",
+    "gender": "Male",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "1/3",
+    "birthday": "January 3",
+    "elementType": "ELEMENT_ANEMO",
+    "elementText": "Anemo",
+    "affiliation": "None",
+    "associationType": "ASSOC_SUMERU",
+    "region": "Sumeru",
+    "substatType": "FIGHT_PROP_CRITICAL",
+    "substatText": "CRIT Rate",
+    "constellation": "Peregrinus",
+    "cv": {
+      "english": "Patrick Pedraza",
+      "chinese": "鹿喑",
+      "japanese": "柿原徹也",
+      "korean": "Min Seung-woo"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104151,
+          "name": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": 101213,
+          "name": "Rukkhashava Mushrooms",
+          "count": 3
+        },
+        {
+          "id": 112044,
+          "name": "Old Handguard",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": 113038,
+          "name": "Perpetual Caliber",
+          "count": 2
+        },
+        {
+          "id": 101213,
+          "name": "Rukkhashava Mushrooms",
+          "count": 10
+        },
+        {
+          "id": 112044,
+          "name": "Old Handguard",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": 113038,
+          "name": "Perpetual Caliber",
+          "count": 4
+        },
+        {
+          "id": 101213,
+          "name": "Rukkhashava Mushrooms",
+          "count": 20
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": 113038,
+          "name": "Perpetual Caliber",
+          "count": 8
+        },
+        {
+          "id": 101213,
+          "name": "Rukkhashava Mushrooms",
+          "count": 30
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": 113038,
+          "name": "Perpetual Caliber",
+          "count": 12
+        },
+        {
+          "id": 101213,
+          "name": "Rukkhashava Mushrooms",
+          "count": 45
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104154,
+          "name": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113038,
+          "name": "Perpetual Caliber",
+          "count": 20
+        },
+        {
+          "id": 101213,
+          "name": "Rukkhashava Mushrooms",
+          "count": 60
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/11/28/d44dde6ef8b8b1963b06a94d3ea0186b_7722607396547674191.png",
+      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/11/28/11975168707d46fe05531b133bf4bde9_2298638257865854608.png",
+      "filename_icon": "UI_AvatarIcon_Wanderer",
+      "filename_iconCard": "UI_AvatarIcon_Wanderer_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Wanderer",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Wanderer",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Wanderer",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Wanderer.png",
+      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/24d97a22be742fb732ea96f625d1faac_2495743636540582085.png"
+    },
+    "version": "3.3"
+  },
+  "skills": {
+    "id": 7501,
+    "name": "Wanderer",
+    "combat1": {
+      "name": "Yuuban Meigen",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 attacks using wind blades, dealing <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina, gathers a build up of high wind pressure, and deals <color=#80FFD7FF>AoE Anemo DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nCalling upon the power of Anemo, the Wanderer plunges towards the ground from mid-air, damaging all opponents in his path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nPerforms up to 3 attacks using wind blades, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina, gathers a build up of high wind pressure, and deals AoE Anemo DMG after a short casting time.\n\nPlunging Attack\nCalling upon the power of Anemo, the Wanderer plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Anemo DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "Charged Attack DMG|{param5:F1P}",
+          "Charged Attack Stamina Cost|{param6:F1}",
+          "Plunge DMG|{param7:F1P}",
+          "Low/High Plunge DMG|{param8:P}/{param9:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.68714,
+            0.74307,
+            0.799,
+            0.8789,
+            0.93483,
+            0.99875,
+            1.08664,
+            1.17453,
+            1.26242,
+            1.3583,
+            1.45418,
+            1.55006,
+            1.64594,
+            1.74182,
+            1.8377
+          ],
+          "param2": [
+            0.65016,
+            0.70308,
+            0.756,
+            0.8316,
+            0.88452,
+            0.945,
+            1.02816,
+            1.11132,
+            1.19448,
+            1.2852,
+            1.37592,
+            1.46664,
+            1.55736,
+            1.64808,
+            1.7388
+          ],
+          "param3": [
+            0.47644,
+            0.51522,
+            0.554,
+            0.6094,
+            0.64818,
+            0.6925,
+            0.75344,
+            0.81438,
+            0.87532,
+            0.9418,
+            1.00828,
+            1.07476,
+            1.14124,
+            1.20772,
+            1.2742
+          ],
+          "param4": [
+            0.47644,
+            0.51522,
+            0.554,
+            0.6094,
+            0.64818,
+            0.6925,
+            0.75344,
+            0.81438,
+            0.87532,
+            0.9418,
+            1.00828,
+            1.07476,
+            1.14124,
+            1.20772,
+            1.2742
+          ],
+          "param5": [
+            1.3208,
+            1.41986,
+            1.51892,
+            1.651,
+            1.75006,
+            1.84912,
+            1.9812,
+            2.11328,
+            2.24536,
+            2.37744,
+            2.50952,
+            2.6416,
+            2.8067,
+            2.9718,
+            3.1369
+          ],
+          "param6": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param7": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param8": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param9": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Hanega: Song of the Wind",
+      "descriptionRaw": "Concentrates the power of the winds to break free from the shackles of the earth, dealing <color=#80FFD7FF>AoE Anemo DMG</color> before leaping into the air and entering the Windfavored state.\n\n<color=#FFD780FF>Windfavored</color>\nThe Wanderer cannot perform Plunging Attacks in this state. When he uses Normal and Charged Attacks, they will be converted into Kuugo: Fushoudan and Kuugo: Toufukai respectively; the DMG they deal and their AoE will be increased, and their DMG will be considered Normal and Charged Attack DMG respectively. Kuugo: Toufukai will not consume Stamina.\nThe Wanderer will hover persistently during this time. While this state is active, the Wanderer's movements gain the following properties:\n·Persistently consumes Kuugoryoku Points to maintain this hovering state.\n·When sprinting, additional Kuugoryoku Points will be consumed for the Wanderer to accelerate mid-air. Holding sprint will cause persistent Kuugoryoku Point consumption to maintain speed. This effect will replace his default sprint.\n·Jumping expends extra Kuugoryoku Points to increase hovering height. Holding jump will cause persistent Kuugoryoku Point consumption to keep increasing hovering height.\n\nRunning out of Kuugoryoku Points will end the Windfavored state.\nA second cast during the duration of Windfavored will also end it.\n\n<i>\"The world dances in a weightless whirl, presenting a secret that can only be found in the flowers.\"</i>",
+      "description": "Concentrates the power of the winds to break free from the shackles of the earth, dealing AoE Anemo DMG before leaping into the air and entering the Windfavored state.\n\nWindfavored\nThe Wanderer cannot perform Plunging Attacks in this state. When he uses Normal and Charged Attacks, they will be converted into Kuugo: Fushoudan and Kuugo: Toufukai respectively; the DMG they deal and their AoE will be increased, and their DMG will be considered Normal and Charged Attack DMG respectively. Kuugo: Toufukai will not consume Stamina.\nThe Wanderer will hover persistently during this time. While this state is active, the Wanderer's movements gain the following properties:\n·Persistently consumes Kuugoryoku Points to maintain this hovering state.\n·When sprinting, additional Kuugoryoku Points will be consumed for the Wanderer to accelerate mid-air. Holding sprint will cause persistent Kuugoryoku Point consumption to maintain speed. This effect will replace his default sprint.\n·Jumping expends extra Kuugoryoku Points to increase hovering height. Holding jump will cause persistent Kuugoryoku Point consumption to keep increasing hovering height.\n\nRunning out of Kuugoryoku Points will end the Windfavored state.\nA second cast during the duration of Windfavored will also end it.",
+      "flavorText": "\"The world dances in a weightless whirl, presenting a secret that can only be found in the flowers.\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Kuugo: Fushoudan DMG|{param2:F1P} Normal Attack DMG",
+          "Kuugo: Toufukai DMG|{param3:F1P} Charged Attack DMG",
+          "Initial Kuugoryoku Points|{param4:I}",
+          "CD|{param5:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.952,
+            1.0234,
+            1.0948,
+            1.19,
+            1.2614,
+            1.3328,
+            1.428,
+            1.5232,
+            1.6184,
+            1.7136,
+            1.8088,
+            1.904,
+            2.023,
+            2.142,
+            2.261
+          ],
+          "param2": [
+            1.329825,
+            1.349575,
+            1.369325,
+            1.395,
+            1.41475,
+            1.4345,
+            1.460175,
+            1.48585,
+            1.511525,
+            1.5372,
+            1.562875,
+            1.58855,
+            1.614225,
+            1.6399,
+            1.665575
+          ],
+          "param3": [
+            1.26386,
+            1.27966,
+            1.29546,
+            1.316,
+            1.3318,
+            1.3476,
+            1.36814,
+            1.38868,
+            1.40922,
+            1.42976,
+            1.4503,
+            1.47084,
+            1.49138,
+            1.51192,
+            1.53246
+          ],
+          "param4": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "param5": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param7": [
+            0.329825,
+            0.349575,
+            0.369325,
+            0.395,
+            0.41475,
+            0.4345,
+            0.460175,
+            0.48585,
+            0.511525,
+            0.5372,
+            0.562875,
+            0.58855,
+            0.614225,
+            0.6399,
+            0.665575
+          ],
+          "param8": [
+            0.26386,
+            0.27966,
+            0.29546,
+            0.316,
+            0.3318,
+            0.3476,
+            0.36814,
+            0.38868,
+            0.40922,
+            0.42976,
+            0.4503,
+            0.47084,
+            0.49138,
+            0.51192,
+            0.53246
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Kyougen: Five Ceremonial Plays",
+      "descriptionRaw": "Compresses the atmosphere into a singular vacuum that grinds all troubles away, dealing multiple instances of <color=#80FFD7FF>AoE Anemo DMG</color>.\nIf the character is in the Windfavored state due to the skill \"Hanega: Song of the Wind,\" Windfavored state will end after casting.\n\n<i>\"Bright be the narrowed gaze of the sky, casting its sight on dreams both past and present, like radiance washing over dust on the winds.\"</i>",
+      "description": "Compresses the atmosphere into a singular vacuum that grinds all troubles away, dealing multiple instances of AoE Anemo DMG.\nIf the character is in the Windfavored state due to the skill \"Hanega: Song of the Wind,\" Windfavored state will end after casting.",
+      "flavorText": "\"Bright be the narrowed gaze of the sky, casting its sight on dreams both past and present, like radiance washing over dust on the winds.\"",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}×5",
+          "CD|{param2:F1}s",
+          "Energy Cost|{param3:I}"
+        ],
+        "parameters": {
+          "param1": [
+            1.472,
+            1.5824,
+            1.6928,
+            1.84,
+            1.9504,
+            2.0608,
+            2.208,
+            2.3552,
+            2.5024,
+            2.6496,
+            2.7968,
+            2.944,
+            3.128,
+            3.312,
+            3.496
+          ],
+          "param2": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param3": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Jade-Claimed Flower",
+      "descriptionRaw": "If <color=#FFD780FF>Hanega: Song of the Wind</color> comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> when it is unleashed, this instance of the Windfavored state will obtain buffs according to the contacted element(s):\n·<color=#80C0FFFF>Hydro</color>: Kuugoryoku Point cap increases by 20.\n·<color=#FF9999FF>Pyro</color>: ATK increases by 30%.\n·<color=#99FFFFFF>Cryo</color>: CRIT Rate increases by 20%.\n·<color=#FFACFFFF>Electro</color>: When Normal and Charged Attacks hit an opponent, 0.8 Energy will be restored. Energy can be restored this way once every 0.2s.\n\nYou can have up to 2 different kinds of these buffs simultaneously.",
+      "description": "If Hanega: Song of the Wind comes into contact with Hydro/Pyro/Cryo/Electro when it is unleashed, this instance of the Windfavored state will obtain buffs according to the contacted element(s):\n·Hydro: Kuugoryoku Point cap increases by 20.\n·Pyro: ATK increases by 30%.\n·Cryo: CRIT Rate increases by 20%.\n·Electro: When Normal and Charged Attacks hit an opponent, 0.8 Energy will be restored. Energy can be restored this way once every 0.2s.\n\nYou can have up to 2 different kinds of these buffs simultaneously."
+    },
+    "passive2": {
+      "name": "Gales of Reverie",
+      "descriptionRaw": "When the Wanderer hits opponents with Kuugo: Fushoudan or Kuugo: Toufukai in his <color=#FFD780FF>Windfavored</color> state, he has a 16% chance to obtain the Descent effect: The next time the Wanderer accelerates in mid-air while in this instance of the Windfavored state, this effect will be removed, this acceleration instance will not consume any Kuugoryoku Points, and he will fire off 4 wind arrows that deal 35% of his ATK as <color=#80FFD7FF>Anemo DMG</color> each.\nFor each Kuugo: Fushoudan and Kuugo: Toufukai that does not produce this effect, the next attack of those types will have a 12% increased chance of producing it. The calculation of the effect production is done once every 0.1s.",
+      "description": "When the Wanderer hits opponents with Kuugo: Fushoudan or Kuugo: Toufukai in his Windfavored state, he has a 16% chance to obtain the Descent effect: The next time the Wanderer accelerates in mid-air while in this instance of the Windfavored state, this effect will be removed, this acceleration instance will not consume any Kuugoryoku Points, and he will fire off 4 wind arrows that deal 35% of his ATK as Anemo DMG each.\nFor each Kuugo: Fushoudan and Kuugo: Toufukai that does not produce this effect, the next attack of those types will have a 12% increased chance of producing it. The calculation of the effect production is done once every 0.1s."
+    },
+    "passive3": {
+      "name": "Strum the Swirling Winds",
+      "descriptionRaw": "Mora expended when ascending Bows and Catalysts is decreased by 50%.",
+      "description": "Mora expended when ascending Bows and Catalysts is decreased by 50%."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104335,
+          "name": "Teachings of Praxis",
+          "count": 3
+        },
+        {
+          "id": 112044,
+          "name": "Old Handguard",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104336,
+          "name": "Guide to Praxis",
+          "count": 2
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104336,
+          "name": "Guide to Praxis",
+          "count": 4
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104336,
+          "name": "Guide to Praxis",
+          "count": 6
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104336,
+          "name": "Guide to Praxis",
+          "count": 9
+        },
+        {
+          "id": 112045,
+          "name": "Kageuchi Handguard",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104337,
+          "name": "Philosophies of Praxis",
+          "count": 4
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 4
+        },
+        {
+          "id": 113043,
+          "name": "Daka's Bell",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104337,
+          "name": "Philosophies of Praxis",
+          "count": 6
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 6
+        },
+        {
+          "id": 113043,
+          "name": "Daka's Bell",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104337,
+          "name": "Philosophies of Praxis",
+          "count": 12
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 9
+        },
+        {
+          "id": 113043,
+          "name": "Daka's Bell",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104337,
+          "name": "Philosophies of Praxis",
+          "count": 16
+        },
+        {
+          "id": 112046,
+          "name": "Famed Handguard",
+          "count": 12
+        },
+        {
+          "id": 113043,
+          "name": "Daka's Bell",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Wanderer_01",
+      "filename_combat3": "Skill_E_Wanderer_01_HD",
+      "filename_passive1": "UI_Talent_S_Wanderer_05",
+      "filename_passive2": "UI_Talent_S_Wanderer_06",
+      "filename_passive3": "UI_Talent_S_Wanderer_07"
+    },
+    "version": "3.3"
+  },
+  "constellation": {
+    "id": 7501,
+    "name": "Wanderer",
+    "c1": {
+      "name": "Shoban: Ostentatious Plumage",
+      "descriptionRaw": "When in the <color=#FFD780FF>Windfavored</color> state, the Attack SPD of the Wanderer's Kuugo: Fushoudan and Kuugo: Toufukai is increased by 10%.\nAdditionally, the wind arrows fired by the Ascension Talent \"Gales of Reverie\" will deal an additional 25% of his ATK as DMG. You must first unlock the Ascension Talent \"Gales of Reverie.\"",
+      "description": "When in the Windfavored state, the Attack SPD of the Wanderer's Kuugo: Fushoudan and Kuugo: Toufukai is increased by 10%.\nAdditionally, the wind arrows fired by the Ascension Talent \"Gales of Reverie\" will deal an additional 25% of his ATK as DMG. You must first unlock the Ascension Talent \"Gales of Reverie.\""
+    },
+    "c2": {
+      "name": "Niban: Isle Amidst White Waves",
+      "descriptionRaw": "When in the <color=#FFD780FF>Windfavored</color> state, <color=#FFD780FF>Kyougen: Five Ceremonial Plays</color> will see its DMG increased by 4% per point of difference between the max amount of Kuugoryoku Points contrasted with Kuugoryoku's present capacity when using this skill.\nThrough this method, you can increase Kyougen: Five Ceremonial Plays's DMG by a maximum of 200%.",
+      "description": "When in the Windfavored state, Kyougen: Five Ceremonial Plays will see its DMG increased by 4% per point of difference between the max amount of Kuugoryoku Points contrasted with Kuugoryoku's present capacity when using this skill.\nThrough this method, you can increase Kyougen: Five Ceremonial Plays's DMG by a maximum of 200%."
+    },
+    "c3": {
+      "name": "Sanban: Moonflower Kusemai",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Kyougen: Five Ceremonial Plays</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Kyougen: Five Ceremonial Plays by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Yonban: Set Adrift into Spring",
+      "descriptionRaw": "When casting <color=#FFD780FF>Hanega: Song of the Wind</color>, should the Ascension Talent \"Jade-Claimed Flower\" be triggered, the character will gain buffs in correspondence to the contacted Elemental Type(s), and also obtain a random untriggered buff. A maximum of 3 such corresponding elemental buffs can exist simultaneously.\nYou must first unlock the Ascension Talent \"Jade-Claimed Flower.\"",
+      "description": "When casting Hanega: Song of the Wind, should the Ascension Talent \"Jade-Claimed Flower\" be triggered, the character will gain buffs in correspondence to the contacted Elemental Type(s), and also obtain a random untriggered buff. A maximum of 3 such corresponding elemental buffs can exist simultaneously.\nYou must first unlock the Ascension Talent \"Jade-Claimed Flower.\""
+    },
+    "c5": {
+      "name": "Matsuban: Ancient Illuminator From Abroad",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Hanega: Song of the Wind</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Hanega: Song of the Wind by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Shugen: The Curtains' Melancholic Sway",
+      "descriptionRaw": "When the Wanderer actively hits an opponent with Kuugo: Fushoudan while in the <color=#FFD780FF>Windfavored</color> state, the following effects will occur:\n·Deals an additional instance of Kuugo: Fushoudan at the position hit, dealing 40% of the attack's original DMG. This DMG will be considered Normal Attack DMG.\n·When the Wanderer falls below 40 Kuugoryoku Points, restores 4 Points to him. Kuugoryoku Points can be restored in this manner once every 0.2s. This restoration can occur up to 5 times within one Windfavored duration.",
+      "description": "When the Wanderer actively hits an opponent with Kuugo: Fushoudan while in the Windfavored state, the following effects will occur:\n·Deals an additional instance of Kuugo: Fushoudan at the position hit, dealing 40% of the attack's original DMG. This DMG will be considered Normal Attack DMG.\n·When the Wanderer falls below 40 Kuugoryoku Points, restores 4 Points to him. Kuugoryoku Points can be restored in this manner once every 0.2s. This restoration can occur up to 5 times within one Windfavored duration."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Wanderer_01",
+      "filename_c2": "UI_Talent_S_Wanderer_02",
+      "filename_c3": "UI_Talent_U_Wanderer_02",
+      "filename_c4": "UI_Talent_S_Wanderer_03",
+      "filename_c5": "UI_Talent_U_Wanderer_01",
+      "filename_c6": "UI_Talent_S_Wanderer_04",
+      "filename_constellation": "Eff_UI_Talent_Wanderer"
+    },
+    "version": "3.3"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 791.2556,
+      "attack": 25.5094,
+      "defense": 47.2657,
+      "specialized": 0.05
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 856.9298147999999,
+      "attack": 27.6266802,
+      "defense": 51.1887531,
+      "specialized": 0.05
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 922.6040295999999,
+      "attack": 29.7439604,
+      "defense": 55.1118062,
+      "specialized": 0.05
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 989.0695,
+      "attack": 31.88675,
+      "defense": 59.082125000000005,
+      "specialized": 0.05
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1054.7437148,
+      "attack": 34.004030199999995,
+      "defense": 63.0051781,
+      "specialized": 0.05
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1121.2091851999999,
+      "attack": 36.1468198,
+      "defense": 66.97549690000001,
+      "specialized": 0.05
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1186.8834,
+      "attack": 38.2641,
+      "defense": 70.89855,
+      "specialized": 0.05
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1253.3488704,
+      "attack": 40.4068896,
+      "defense": 74.8688688,
+      "specialized": 0.05
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1319.8143407999999,
+      "attack": 42.5496792,
+      "defense": 78.8391876,
+      "specialized": 0.05
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1385.4885556,
+      "attack": 44.666959399999996,
+      "defense": 82.76224069999999,
+      "specialized": 0.05
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1451.9540259999999,
+      "attack": 46.809749,
+      "defense": 86.73255950000001,
+      "specialized": 0.05
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1518.4194963999998,
+      "attack": 48.9525386,
+      "defense": 90.70287830000001,
+      "specialized": 0.05
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1584.8849668,
+      "attack": 51.095328200000004,
+      "defense": 94.67319710000001,
+      "specialized": 0.05
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1652.1416927999999,
+      "attack": 53.2636272,
+      "defense": 98.69078160000001,
+      "specialized": 0.05
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1718.6071632,
+      "attack": 55.4064168,
+      "defense": 102.66110040000001,
+      "specialized": 0.05
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1785.0726335999998,
+      "attack": 57.549206399999996,
+      "defense": 106.6314192,
+      "specialized": 0.05
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1852.3293596,
+      "attack": 59.7175054,
+      "defense": 110.64900370000001,
+      "specialized": 0.05
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1918.7948299999998,
+      "attack": 61.860294999999994,
+      "defense": 114.6193225,
+      "specialized": 0.05
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 1986.0515559999997,
+      "attack": 64.028594,
+      "defense": 118.636907,
+      "specialized": 0.05
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2052.5170264,
+      "attack": 66.1713836,
+      "defense": 122.6072258,
+      "specialized": 0.05
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2798.2038524,
+      "attack": 90.2100876,
+      "defense": 167.1518103,
+      "specialized": 0.05
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2865.4605783999996,
+      "attack": 92.3783866,
+      "defense": 171.16939480000002,
+      "specialized": 0.05
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2932.7173044,
+      "attack": 94.5466856,
+      "defense": 175.18697930000002,
+      "specialized": 0.05
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2999.9740304,
+      "attack": 96.71498460000001,
+      "defense": 179.20456380000002,
+      "specialized": 0.05
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3067.2307564,
+      "attack": 98.88328360000001,
+      "defense": 183.22214830000001,
+      "specialized": 0.05
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3135.278738,
+      "attack": 101.07709200000001,
+      "defense": 187.28699849999998,
+      "specialized": 0.05
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3202.535464,
+      "attack": 103.245391,
+      "defense": 191.30458299999998,
+      "specialized": 0.05
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3269.7921899999997,
+      "attack": 105.41369,
+      "defense": 195.32216749999998,
+      "specialized": 0.05
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3337.8401716,
+      "attack": 107.60749840000001,
+      "defense": 199.3870177,
+      "specialized": 0.05
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3405.0968976,
+      "attack": 109.7757974,
+      "defense": 203.4046022,
+      "specialized": 0.05
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3473.1448792,
+      "attack": 111.96960580000001,
+      "defense": 207.46945240000002,
+      "specialized": 0.05
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3541.1928608,
+      "attack": 114.1634142,
+      "defense": 211.5343026,
+      "specialized": 0.05
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3609.2408424,
+      "attack": 116.35722260000001,
+      "defense": 215.5991528,
+      "specialized": 0.05
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3676.4975684,
+      "attack": 118.5255216,
+      "defense": 219.6167373,
+      "specialized": 0.05
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3744.54555,
+      "attack": 120.71933,
+      "defense": 223.68158750000003,
+      "specialized": 0.05
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3813.3847872,
+      "attack": 122.93864780000001,
+      "defense": 227.79370340000003,
+      "specialized": 0.05
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3881.4327688,
+      "attack": 125.13245620000001,
+      "defense": 231.8585536,
+      "specialized": 0.05
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3949.4807504,
+      "attack": 127.32626460000002,
+      "defense": 235.92340380000002,
+      "specialized": 0.05
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 4017.5287319999998,
+      "attack": 129.520073,
+      "defense": 239.98825399999998,
+      "specialized": 0.05
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4086.3679692,
+      "attack": 131.7393908,
+      "defense": 244.10036990000003,
+      "specialized": 0.05
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4636.4583508,
+      "attack": 149.4726982,
+      "defense": 276.9607201,
+      "specialized": 0.098
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4705.297588,
+      "attack": 151.69201600000002,
+      "defense": 281.07283600000005,
+      "specialized": 0.098
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4774.1368252,
+      "attack": 153.9113338,
+      "defense": 285.18495190000004,
+      "specialized": 0.098
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4842.1848068,
+      "attack": 156.1051422,
+      "defense": 289.2498021,
+      "specialized": 0.098
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4911.024044,
+      "attack": 158.32446,
+      "defense": 293.361918,
+      "specialized": 0.098
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4979.8632812,
+      "attack": 160.5437778,
+      "defense": 297.4740339,
+      "specialized": 0.098
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 5048.7025183999995,
+      "attack": 162.76309559999999,
+      "defense": 301.5861498,
+      "specialized": 0.098
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 5117.5417556,
+      "attack": 164.98241339999998,
+      "defense": 305.69826570000004,
+      "specialized": 0.098
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5187.1722484,
+      "attack": 167.22724060000002,
+      "defense": 309.85764730000005,
+      "specialized": 0.098
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5256.0114856,
+      "attack": 169.44655840000001,
+      "defense": 313.96976320000005,
+      "specialized": 0.098
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5967.5741228,
+      "attack": 192.3852122,
+      "defense": 356.47587910000004,
+      "specialized": 0.14600000000000002
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 6037.2046156,
+      "attack": 194.63003940000002,
+      "defense": 360.6352607,
+      "specialized": 0.14600000000000002
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 6106.0438527999995,
+      "attack": 196.8493572,
+      "defense": 364.7473766,
+      "specialized": 0.14600000000000002
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 6175.6743455999995,
+      "attack": 199.0941844,
+      "defense": 368.9067582,
+      "specialized": 0.14600000000000002
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6245.304838399999,
+      "attack": 201.3390116,
+      "defense": 373.06613980000003,
+      "specialized": 0.14600000000000002
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6314.935331199999,
+      "attack": 203.5838388,
+      "defense": 377.2255214,
+      "specialized": 0.14600000000000002
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6384.565823999999,
+      "attack": 205.828666,
+      "defense": 381.384903,
+      "specialized": 0.14600000000000002
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6454.196316799999,
+      "attack": 208.0734932,
+      "defense": 385.5442846,
+      "specialized": 0.14600000000000002
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6523.826809599999,
+      "attack": 210.3183204,
+      "defense": 389.70366620000004,
+      "specialized": 0.14600000000000002
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6593.4573024,
+      "attack": 212.5631476,
+      "defense": 393.8630478,
+      "specialized": 0.14600000000000002
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 7145.1301952,
+      "attack": 230.3474748,
+      "defense": 426.8179294,
+      "specialized": 0.14600000000000002
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 7214.760688,
+      "attack": 232.59230200000002,
+      "defense": 430.97731100000004,
+      "specialized": 0.14600000000000002
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7285.1824363999995,
+      "attack": 234.86263859999997,
+      "defense": 435.18395830000003,
+      "specialized": 0.14600000000000002
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7354.812929199999,
+      "attack": 237.1074658,
+      "defense": 439.3433399,
+      "specialized": 0.14600000000000002
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7425.2346776,
+      "attack": 239.3778024,
+      "defense": 443.54998720000003,
+      "specialized": 0.14600000000000002
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7495.656426,
+      "attack": 241.64813900000001,
+      "defense": 447.7566345,
+      "specialized": 0.14600000000000002
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7565.2869187999995,
+      "attack": 243.8929662,
+      "defense": 451.91601610000004,
+      "specialized": 0.14600000000000002
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7635.7086672,
+      "attack": 246.1633028,
+      "defense": 456.1226634,
+      "specialized": 0.14600000000000002
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7706.1304156,
+      "attack": 248.4336394,
+      "defense": 460.3293107,
+      "specialized": 0.14600000000000002
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7776.552164,
+      "attack": 250.703976,
+      "defense": 464.53595800000005,
+      "specialized": 0.14600000000000002
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8329.0164124,
+      "attack": 268.5138126,
+      "defense": 497.53810530000004,
+      "specialized": 0.194
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8400.2294164,
+      "attack": 270.8096586,
+      "defense": 501.7920183,
+      "specialized": 0.194
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8470.6511648,
+      "attack": 273.0799952,
+      "defense": 505.99866560000004,
+      "specialized": 0.194
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8541.0729132,
+      "attack": 275.3503318,
+      "defense": 510.2053129,
+      "specialized": 0.194
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8612.285917199999,
+      "attack": 277.6461778,
+      "defense": 514.4592259,
+      "specialized": 0.194
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8682.707665599999,
+      "attack": 279.9165144,
+      "defense": 518.6658732000001,
+      "specialized": 0.194
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8753.9206696,
+      "attack": 282.2123604,
+      "defense": 522.9197862000001,
+      "specialized": 0.194
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8825.1336736,
+      "attack": 284.5082064,
+      "defense": 527.1736992,
+      "specialized": 0.194
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8896.3466776,
+      "attack": 286.8040524,
+      "defense": 531.4276122000001,
+      "specialized": 0.194
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8967.5596816,
+      "attack": 289.09989840000003,
+      "defense": 535.6815252,
+      "specialized": 0.194
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9520.8150856,
+      "attack": 306.9352384,
+      "defense": 568.7309382000001,
+      "specialized": 0.242
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9592.0280896,
+      "attack": 309.2310844,
+      "defense": 572.9848512000001,
+      "specialized": 0.242
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9663.2410936,
+      "attack": 311.52693039999997,
+      "defense": 577.2387642000001,
+      "specialized": 0.242
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9734.454097599999,
+      "attack": 313.8227764,
+      "defense": 581.4926772,
+      "specialized": 0.242
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9805.6671016,
+      "attack": 316.1186224,
+      "defense": 585.7465902,
+      "specialized": 0.242
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9877.6713612,
+      "attack": 318.4399778,
+      "defense": 590.0477689,
+      "specialized": 0.242
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9948.8843652,
+      "attack": 320.7358238,
+      "defense": 594.3016819000001,
+      "specialized": 0.242
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 10020.888624799998,
+      "attack": 323.0571792,
+      "defense": 598.6028606,
+      "specialized": 0.242
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 10092.892884399998,
+      "attack": 325.37853459999997,
+      "defense": 602.9040393,
+      "specialized": 0.242
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 10164.105888400001,
+      "attack": 327.6743806,
+      "defense": 607.1579523,
+      "specialized": 0.242
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2730.9471264,
+      "attack": 88.0417886,
+      "defense": 163.1342258,
+      "specialized": 0.05
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4568.4103692,
+      "attack": 147.2788898,
+      "defense": 272.89586990000004,
+      "specialized": 0.098
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5898.7348856,
+      "attack": 190.1658944,
+      "defense": 352.3637632,
+      "specialized": 0.14600000000000002
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7075.4997024,
+      "attack": 228.1026476,
+      "defense": 422.6585478,
+      "specialized": 0.14600000000000002
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8258.594664,
+      "attack": 266.243476,
+      "defense": 493.33145800000005,
+      "specialized": 0.194
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9449.6020816,
+      "attack": 304.6393924,
+      "defense": 564.4770252000001,
+      "specialized": 0.242
+    }
+  }
+}

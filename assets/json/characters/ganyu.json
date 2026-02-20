@@ -1,0 +1,1642 @@
+{
+  "profile": {
+    "id": 10000037,
+    "name": "Ganyu",
+    "title": "Plenilune Gaze",
+    "description": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "bodyType": "BODY_GIRL",
+    "gender": "Female",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthdaymmdd": "12/2",
+    "birthday": "December 2",
+    "elementType": "ELEMENT_CRYO",
+    "elementText": "Cryo",
+    "affiliation": "Yuehai Pavilion",
+    "associationType": "ASSOC_LIYUE",
+    "region": "Liyue",
+    "substatType": "FIGHT_PROP_CRITICAL_HURT",
+    "substatText": "CRIT DMG",
+    "constellation": "Sinae Unicornis",
+    "cv": {
+      "english": "Rachel Lepore & Jennifer Losi",
+      "chinese": "林簌",
+      "japanese": "上田麗奈",
+      "korean": "Kim Seon-hye"
+    },
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104161,
+          "name": "Shivada Jade Sliver",
+          "count": 1
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 3
+        },
+        {
+          "id": 112038,
+          "name": "Whopperflower Nectar",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 3
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 2
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 10
+        },
+        {
+          "id": 112038,
+          "name": "Whopperflower Nectar",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104162,
+          "name": "Shivada Jade Fragment",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 4
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 20
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 3
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 8
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 30
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104163,
+          "name": "Shivada Jade Chunk",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 12
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 45
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104164,
+          "name": "Shivada Jade Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113010,
+          "name": "Hoarfrost Core",
+          "count": 20
+        },
+        {
+          "id": 100031,
+          "name": "Qingxin",
+          "count": 60
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "card": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Ganyu_Card.png",
+      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Ganyu_Portrait.png",
+      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/1ae0d0aaad9ee9b55652ea7ec67f0465_3602224572622981451.png",
+      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210105/2021010519280045054.png",
+      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/4af4adf192a35db2dd76d9718acc7bc8.png",
+      "filename_icon": "UI_AvatarIcon_Ganyu",
+      "filename_iconCard": "UI_AvatarIcon_Ganyu_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Ganyu",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Ganyu",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ganyu",
+      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
+      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ganyu.png",
+      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/35428890/797ded201635d241d358c307e9e7417f_464481961971717418.png"
+    },
+    "url": {
+      "fandom": "https://genshin-impact.fandom.com/wiki/Ganyu"
+    },
+    "version": "1.2"
+  },
+  "skills": {
+    "id": 3701,
+    "name": "Ganyu",
+    "combat1": {
+      "name": "Liutian Archery",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an icy arrow that deals <color=#99FFFFFF>Cryo DMG</color>.\n·Charge Level 2: Fires off a Frostflake Arrow that deals <color=#99FFFFFF>Cryo DMG</color>. The Frostflake Arrow blooms after hitting its target, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 6 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an icy arrow that deals Cryo DMG.\n·Charge Level 2: Fires off a Frostflake Arrow that deals Cryo DMG. The Frostflake Arrow blooms after hitting its target, dealing AoE Cryo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "4-Hit DMG|{param4:F1P}",
+          "5-Hit DMG|{param5:F1P}",
+          "6-Hit DMG|{param6:F1P}",
+          "Aimed Shot|{param7:F1P}",
+          "Aimed Shot Charge Level 1|{param8:P}",
+          "Frostflake Arrow DMG|{param9:P}",
+          "Frostflake Arrow Bloom DMG|{param10:P}",
+          "Plunge DMG|{param11:F1P}",
+          "Low/High Plunge DMG|{param12:P}/{param13:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.31734,
+            0.34317,
+            0.369,
+            0.4059,
+            0.43173,
+            0.46125,
+            0.50184,
+            0.54243,
+            0.58302,
+            0.6273,
+            0.678037,
+            0.737705,
+            0.797372,
+            0.857039,
+            0.922131
+          ],
+          "param2": [
+            0.35604,
+            0.38502,
+            0.414,
+            0.4554,
+            0.48438,
+            0.5175,
+            0.56304,
+            0.60858,
+            0.65412,
+            0.7038,
+            0.760725,
+            0.827669,
+            0.894613,
+            0.961556,
+            1.034586
+          ],
+          "param3": [
+            0.45494,
+            0.49197,
+            0.529,
+            0.5819,
+            0.61893,
+            0.66125,
+            0.71944,
+            0.77763,
+            0.83582,
+            0.8993,
+            0.972038,
+            1.057577,
+            1.143116,
+            1.228655,
+            1.321971
+          ],
+          "param4": [
+            0.45494,
+            0.49197,
+            0.529,
+            0.5819,
+            0.61893,
+            0.66125,
+            0.71944,
+            0.77763,
+            0.83582,
+            0.8993,
+            0.972038,
+            1.057577,
+            1.143116,
+            1.228655,
+            1.321971
+          ],
+          "param5": [
+            0.48246,
+            0.52173,
+            0.561,
+            0.6171,
+            0.65637,
+            0.70125,
+            0.76296,
+            0.82467,
+            0.88638,
+            0.9537,
+            1.030838,
+            1.121551,
+            1.212265,
+            1.302979,
+            1.401939
+          ],
+          "param6": [
+            0.5762,
+            0.6231,
+            0.67,
+            0.737,
+            0.7839,
+            0.8375,
+            0.9112,
+            0.9849,
+            1.0586,
+            1.139,
+            1.231125,
+            1.339464,
+            1.447803,
+            1.556142,
+            1.67433
+          ],
+          "param7": [
+            0.4386,
+            0.4743,
+            0.51,
+            0.561,
+            0.5967,
+            0.6375,
+            0.6936,
+            0.7497,
+            0.8058,
+            0.867,
+            0.9282,
+            0.9894,
+            1.0506,
+            1.1118,
+            1.173
+          ],
+          "param8": [
+            1.24,
+            1.333,
+            1.426,
+            1.55,
+            1.643,
+            1.736,
+            1.86,
+            1.984,
+            2.108,
+            2.232,
+            2.356,
+            2.48,
+            2.635,
+            2.79,
+            2.945
+          ],
+          "param9": [
+            1.28,
+            1.376,
+            1.472,
+            1.6,
+            1.696,
+            1.792,
+            1.92,
+            2.048,
+            2.176,
+            2.304,
+            2.432,
+            2.56,
+            2.72,
+            2.88,
+            3.04
+          ],
+          "param10": [
+            2.176,
+            2.3392,
+            2.5024,
+            2.72,
+            2.8832,
+            3.0464,
+            3.264,
+            3.4816,
+            3.6992,
+            3.9168,
+            4.1344,
+            4.352,
+            4.624,
+            4.896,
+            5.168
+          ],
+          "param11": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param12": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param13": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Trail of the Qilin",
+      "descriptionRaw": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n\n<color=#FFD780FF>Ice Lotus</color>\n·Continuously taunts surrounding opponents, attracting them to attack it.\n·Endurance scales based on Ganyu's Max HP.\n·Blooms profusely when destroyed or once its duration ends, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n\n<i>\"You saw me, you say? You must be mistaken. I was working overtime then.\"</i>",
+      "description": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing AoE Cryo DMG.\n\nIce Lotus\n·Continuously taunts surrounding opponents, attracting them to attack it.\n·Endurance scales based on Ganyu's Max HP.\n·Blooms profusely when destroyed or once its duration ends, dealing AoE Cryo DMG.",
+      "flavorText": "\"You saw me, you say? You must be mistaken. I was working overtime then.\"",
+      "attributes": {
+        "labels": [
+          "Inherited HP|{param1:P}",
+          "Skill DMG|{param2:P}",
+          "Duration|{param3:F1}s",
+          "CD|{param4:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.2,
+            1.29,
+            1.38,
+            1.5,
+            1.59,
+            1.68,
+            1.8,
+            1.92,
+            2.04,
+            2.16,
+            2.28,
+            2.4,
+            2.55,
+            2.7,
+            2.85
+          ],
+          "param2": [
+            1.32,
+            1.419,
+            1.518,
+            1.65,
+            1.749,
+            1.848,
+            1.98,
+            2.112,
+            2.244,
+            2.376,
+            2.508,
+            2.64,
+            2.805,
+            2.97,
+            3.135
+          ],
+          "param3": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "param4": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Celestial Shower",
+      "descriptionRaw": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <color=#99FFFFFF>Cryo DMG</color>.\n\n<i>Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.</i>",
+      "description": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing Cryo DMG.",
+      "flavorText": "Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.",
+      "attributes": {
+        "labels": [
+          "Ice Shard DMG|{param1:P}",
+          "Duration|{param2:F1}s",
+          "CD|{param3:F1}s",
+          "Energy Cost|{param4:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.70272,
+            0.755424,
+            0.808128,
+            0.8784,
+            0.931104,
+            0.983808,
+            1.05408,
+            1.124352,
+            1.194624,
+            1.264896,
+            1.335168,
+            1.40544,
+            1.49328,
+            1.58112,
+            1.66896
+          ],
+          "param2": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param3": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param4": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Undivided Heart",
+      "descriptionRaw": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s.",
+      "description": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s."
+    },
+    "passive2": {
+      "name": "Harmony Between Heaven and Earth",
+      "descriptionRaw": "<color=#FFD780FF>Celestial Shower</color> grants a 20% <color=#99FFFFFF>Cryo DMG Bonus</color> to active party members in the AoE.",
+      "description": "Celestial Shower grants a 20% Cryo DMG Bonus to active party members in the AoE."
+    },
+    "passive3": {
+      "name": "Preserved for the Hunt",
+      "descriptionRaw": "Refunds 15% of the ore used when crafting Bow-type weapons.",
+      "description": "Refunds 15% of the ore used when crafting Bow-type weapons."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104313,
+          "name": "Teachings of Diligence",
+          "count": 3
+        },
+        {
+          "id": 112038,
+          "name": "Whopperflower Nectar",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104314,
+          "name": "Guide to Diligence",
+          "count": 2
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104314,
+          "name": "Guide to Diligence",
+          "count": 4
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104314,
+          "name": "Guide to Diligence",
+          "count": 6
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104314,
+          "name": "Guide to Diligence",
+          "count": 9
+        },
+        {
+          "id": 112039,
+          "name": "Shimmering Nectar",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104315,
+          "name": "Philosophies of Diligence",
+          "count": 4
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 4
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104315,
+          "name": "Philosophies of Diligence",
+          "count": 6
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 6
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104315,
+          "name": "Philosophies of Diligence",
+          "count": 12
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 9
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104315,
+          "name": "Philosophies of Diligence",
+          "count": 16
+        },
+        {
+          "id": 112040,
+          "name": "Energy Nectar",
+          "count": 12
+        },
+        {
+          "id": 113015,
+          "name": "Shadow of the Warrior",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_02",
+      "filename_combat2": "Skill_S_Ganyu_01",
+      "filename_combat3": "Skill_E_Ganyu_01_HD",
+      "filename_passive1": "UI_Talent_S_Ganyu_05",
+      "filename_passive2": "UI_Talent_S_Ganyu_06",
+      "filename_passive3": "UI_Talent_Forge_Bow"
+    },
+    "version": "1.2"
+  },
+  "constellation": {
+    "id": 3701,
+    "name": "Ganyu",
+    "c1": {
+      "name": "Dew-Drinker",
+      "descriptionRaw": "Charge Level 2 Frostflake Arrows or Frostflake Arrow Blooms decrease opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s upon hit.\nA hit also regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hits the target.",
+      "description": "Charge Level 2 Frostflake Arrows or Frostflake Arrow Blooms decrease opponents' Cryo RES by 15% for 6s upon hit.\nA hit also regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hits the target."
+    },
+    "c2": {
+      "name": "The Auspicious",
+      "descriptionRaw": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge.",
+      "description": "Trail of the Qilin gains 1 additional charge."
+    },
+    "c3": {
+      "name": "Cloud-Strider",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Celestial Shower</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Celestial Shower by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Westward Sojourn",
+      "descriptionRaw": "Opponents standing within the AoE of <color=#FFD780FF>Celestial Shower</color> take increased DMG. This effect strengthens over time.\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\nThe effect lingers for 3s after the opponent leaves the AoE.",
+      "description": "Opponents standing within the AoE of Celestial Shower take increased DMG. This effect strengthens over time.\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\nThe effect lingers for 3s after the opponent leaves the AoE."
+    },
+    "c5": {
+      "name": "The Merciful",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Trail of the Qilin</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Trail of the Qilin by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "The Clement",
+      "descriptionRaw": "Using <color=#FFD780FF>Trail of the Qilin</color> causes the next Frostflake Arrow shot within 30s to not require charging.",
+      "description": "Using Trail of the Qilin causes the next Frostflake Arrow shot within 30s to not require charging."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Ganyu_01",
+      "filename_c2": "UI_Talent_S_Ganyu_02",
+      "filename_c3": "UI_Talent_U_Ganyu_01",
+      "filename_c4": "UI_Talent_S_Ganyu_03",
+      "filename_c5": "UI_Talent_U_Ganyu_02",
+      "filename_c6": "UI_Talent_S_Ganyu_04",
+      "filename_constellation": "Eff_UI_Talent_Ganyu"
+    },
+    "version": "1.2"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 762.656,
+      "attack": 26.068,
+      "defense": 49.0606,
+      "specialized": 0.5
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 825.9564479999999,
+      "attack": 28.231644,
+      "defense": 53.1326298,
+      "specialized": 0.5
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 889.2568959999999,
+      "attack": 30.395288,
+      "defense": 57.2046596,
+      "specialized": 0.5
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 953.3199999999999,
+      "attack": 32.585,
+      "defense": 61.32575,
+      "specialized": 0.5
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1016.6204479999999,
+      "attack": 34.748644,
+      "defense": 65.3977798,
+      "specialized": 0.5
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1080.683552,
+      "attack": 36.938356000000006,
+      "defense": 69.51887020000001,
+      "specialized": 0.5
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1143.984,
+      "attack": 39.102000000000004,
+      "defense": 73.5909,
+      "specialized": 0.5
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1208.047104,
+      "attack": 41.291712000000004,
+      "defense": 77.7119904,
+      "specialized": 0.5
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1272.1102079999998,
+      "attack": 43.481424,
+      "defense": 81.8330808,
+      "specialized": 0.5
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1335.4106559999998,
+      "attack": 45.645068,
+      "defense": 85.9051106,
+      "specialized": 0.5
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1399.4737599999999,
+      "attack": 47.83478,
+      "defense": 90.026201,
+      "specialized": 0.5
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1463.536864,
+      "attack": 50.024492,
+      "defense": 94.1472914,
+      "specialized": 0.5
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1527.599968,
+      "attack": 52.214204,
+      "defense": 98.2683818,
+      "specialized": 0.5
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1592.425728,
+      "attack": 54.429984000000005,
+      "defense": 102.4385328,
+      "specialized": 0.5
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1656.488832,
+      "attack": 56.619696000000005,
+      "defense": 106.5596232,
+      "specialized": 0.5
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1720.5519359999996,
+      "attack": 58.809408,
+      "defense": 110.68071359999999,
+      "specialized": 0.5
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1785.377696,
+      "attack": 61.02518800000001,
+      "defense": 114.85086460000001,
+      "specialized": 0.5
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1849.4407999999999,
+      "attack": 63.2149,
+      "defense": 118.971955,
+      "specialized": 0.5
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 1914.2665599999998,
+      "attack": 65.43068,
+      "defense": 123.142106,
+      "specialized": 0.5
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 1978.3296639999999,
+      "attack": 67.620392,
+      "defense": 127.2631964,
+      "specialized": 0.5
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2697.063994,
+      "attack": 92.18549200000001,
+      "defense": 173.4993474,
+      "specialized": 0.5
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2761.889754,
+      "attack": 94.401272,
+      "defense": 177.66949839999998,
+      "specialized": 0.5
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2826.715514,
+      "attack": 96.617052,
+      "defense": 181.8396494,
+      "specialized": 0.5
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2891.541274,
+      "attack": 98.832832,
+      "defense": 186.00980040000002,
+      "specialized": 0.5
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 2956.367034,
+      "attack": 101.04861200000002,
+      "defense": 190.17995140000002,
+      "specialized": 0.5
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3021.95545,
+      "attack": 103.29046,
+      "defense": 194.39916300000002,
+      "specialized": 0.5
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3086.7812099999996,
+      "attack": 105.50623999999999,
+      "defense": 198.569314,
+      "specialized": 0.5
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3151.60697,
+      "attack": 107.72202000000001,
+      "defense": 202.739465,
+      "specialized": 0.5
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3217.195386,
+      "attack": 109.96386800000002,
+      "defense": 206.95867660000002,
+      "specialized": 0.5
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3282.021146,
+      "attack": 112.17964800000001,
+      "defense": 211.12882760000002,
+      "specialized": 0.5
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3347.609562,
+      "attack": 114.42149599999999,
+      "defense": 215.34803920000002,
+      "specialized": 0.5
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3413.1979779999997,
+      "attack": 116.663344,
+      "defense": 219.5672508,
+      "specialized": 0.5
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3478.786394,
+      "attack": 118.905192,
+      "defense": 223.7864624,
+      "specialized": 0.5
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3543.612154,
+      "attack": 121.120972,
+      "defense": 227.9566134,
+      "specialized": 0.5
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3609.20057,
+      "attack": 123.36282,
+      "defense": 232.175825,
+      "specialized": 0.5
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3675.551642,
+      "attack": 125.63073600000001,
+      "defense": 236.44409720000002,
+      "specialized": 0.5
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3741.140058,
+      "attack": 127.87258400000002,
+      "defense": 240.6633088,
+      "specialized": 0.5
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3806.728474,
+      "attack": 130.11443200000002,
+      "defense": 244.88252040000003,
+      "specialized": 0.5
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 3872.3168899999996,
+      "attack": 132.35628,
+      "defense": 249.101732,
+      "specialized": 0.5
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 3938.667962,
+      "attack": 134.624196,
+      "defense": 253.3700042,
+      "specialized": 0.5
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4468.875607999999,
+      "attack": 152.745824,
+      "defense": 287.4782158,
+      "specialized": 0.596
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4535.22668,
+      "attack": 155.01374000000004,
+      "defense": 291.746488,
+      "specialized": 0.596
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4601.577752,
+      "attack": 157.281656,
+      "defense": 296.0147602,
+      "specialized": 0.596
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4667.166168,
+      "attack": 159.523504,
+      "defense": 300.2339718,
+      "specialized": 0.596
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4733.51724,
+      "attack": 161.79142000000002,
+      "defense": 304.502244,
+      "specialized": 0.596
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4799.868312,
+      "attack": 164.059336,
+      "defense": 308.7705162,
+      "specialized": 0.596
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4866.219384,
+      "attack": 166.327252,
+      "defense": 313.0387884,
+      "specialized": 0.596
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 4932.570456,
+      "attack": 168.595168,
+      "defense": 317.3070606,
+      "specialized": 0.596
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 4999.684184,
+      "attack": 170.88915200000002,
+      "defense": 321.62439340000003,
+      "specialized": 0.596
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5066.035256,
+      "attack": 173.15706800000004,
+      "defense": 325.8926656,
+      "specialized": 0.596
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5751.8786279999995,
+      "attack": 196.598024,
+      "defense": 370.01293780000003,
+      "specialized": 0.692
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5818.992356,
+      "attack": 198.892008,
+      "defense": 374.3302706,
+      "specialized": 0.692
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5885.343427999999,
+      "attack": 201.159924,
+      "defense": 378.5985428,
+      "specialized": 0.692
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 5952.4571559999995,
+      "attack": 203.453908,
+      "defense": 382.9158756,
+      "specialized": 0.692
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6019.570884,
+      "attack": 205.747892,
+      "defense": 387.2332084,
+      "specialized": 0.692
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6086.684611999999,
+      "attack": 208.041876,
+      "defense": 391.5505412,
+      "specialized": 0.692
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6153.798339999999,
+      "attack": 210.33586000000003,
+      "defense": 395.86787400000003,
+      "specialized": 0.692
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6220.912068,
+      "attack": 212.62984400000002,
+      "defense": 400.1852068,
+      "specialized": 0.692
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6288.025796,
+      "attack": 214.92382800000001,
+      "defense": 404.50253960000003,
+      "specialized": 0.692
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6355.139523999999,
+      "attack": 217.217812,
+      "defense": 408.8198724,
+      "specialized": 0.692
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6886.872552,
+      "attack": 235.39157600000004,
+      "defense": 443.02620520000005,
+      "specialized": 0.692
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 6953.98628,
+      "attack": 237.68556,
+      "defense": 447.3435380000001,
+      "specialized": 0.692
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7021.862663999999,
+      "attack": 240.00561199999999,
+      "defense": 451.70993139999996,
+      "specialized": 0.692
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7088.976392,
+      "attack": 242.299596,
+      "defense": 456.0272642,
+      "specialized": 0.692
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7156.852776,
+      "attack": 244.61964800000004,
+      "defense": 460.3936576,
+      "specialized": 0.692
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7224.72916,
+      "attack": 246.93970000000002,
+      "defense": 464.760051,
+      "specialized": 0.692
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7291.842888,
+      "attack": 249.23368399999998,
+      "defense": 469.0773838,
+      "specialized": 0.692
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7359.719271999999,
+      "attack": 251.55373600000001,
+      "defense": 473.4437772,
+      "specialized": 0.692
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7427.5956559999995,
+      "attack": 253.873788,
+      "defense": 477.8101706,
+      "specialized": 0.692
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7495.47204,
+      "attack": 256.19384,
+      "defense": 482.176564,
+      "specialized": 0.692
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 8027.967524,
+      "attack": 274.39367200000004,
+      "defense": 516.4319574,
+      "specialized": 0.788
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8096.606564,
+      "attack": 276.73979199999997,
+      "defense": 520.8474114,
+      "specialized": 0.788
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8164.482948,
+      "attack": 279.059844,
+      "defense": 525.2138048,
+      "specialized": 0.788
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8232.359332,
+      "attack": 281.37989600000003,
+      "defense": 529.5801982,
+      "specialized": 0.788
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8300.998371999998,
+      "attack": 283.72601599999996,
+      "defense": 533.9956522,
+      "specialized": 0.788
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8368.874756,
+      "attack": 286.046068,
+      "defense": 538.3620456,
+      "specialized": 0.788
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8437.513796,
+      "attack": 288.39218800000003,
+      "defense": 542.7774996,
+      "specialized": 0.788
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8506.152836,
+      "attack": 290.73830799999996,
+      "defense": 547.1929536,
+      "specialized": 0.788
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8574.791876,
+      "attack": 293.084428,
+      "defense": 551.6084076000001,
+      "specialized": 0.788
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8643.430916,
+      "attack": 295.43054800000004,
+      "defense": 556.0238616,
+      "specialized": 0.788
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9176.689456,
+      "attack": 313.656448,
+      "defense": 590.3283156,
+      "specialized": 0.884
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9245.328496,
+      "attack": 316.002568,
+      "defense": 594.7437696,
+      "specialized": 0.884
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9313.967536,
+      "attack": 318.34868800000004,
+      "defense": 599.1592236,
+      "specialized": 0.884
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9382.606576,
+      "attack": 320.694808,
+      "defense": 603.5746776,
+      "specialized": 0.884
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9451.245616,
+      "attack": 323.040928,
+      "defense": 607.9901316,
+      "specialized": 0.884
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9520.647312000001,
+      "attack": 325.41311600000006,
+      "defense": 612.4546462000001,
+      "specialized": 0.884
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9589.286352000001,
+      "attack": 327.75923600000004,
+      "defense": 616.8701002,
+      "specialized": 0.884
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9658.688048,
+      "attack": 330.13142400000004,
+      "defense": 621.3346148,
+      "specialized": 0.884
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9728.089743999999,
+      "attack": 332.503612,
+      "defense": 625.7991294,
+      "specialized": 0.884
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9796.728784,
+      "attack": 334.849732,
+      "defense": 630.2145834,
+      "specialized": 0.884
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2632.238234,
+      "attack": 89.96971199999999,
+      "defense": 169.3291964,
+      "specialized": 0.5
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4403.287192,
+      "attack": 150.50397600000002,
+      "defense": 283.2590042,
+      "specialized": 0.596
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5685.527556,
+      "attack": 194.33010800000002,
+      "defense": 365.7446656,
+      "specialized": 0.692
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6819.758824,
+      "attack": 233.09759200000002,
+      "defense": 438.7088724,
+      "specialized": 0.692
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7960.0911399999995,
+      "attack": 272.07362,
+      "defense": 512.065564,
+      "specialized": 0.788
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9108.050416,
+      "attack": 311.310328,
+      "defense": 585.9128616,
+      "specialized": 0.884
+    }
+  }
+}
