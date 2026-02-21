@@ -121,6 +121,7 @@
   font-size: 12px;
   display: inline-block;
   color: var(--white);
+  text-align: center;
 }
 
 .tag button {
