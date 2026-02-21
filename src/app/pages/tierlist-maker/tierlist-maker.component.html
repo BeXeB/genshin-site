@@ -29,7 +29,10 @@
                 >
                   <img
                     class="character-icon"
-                    [src]="char.profile?.images?.hoyowiki_icon"
+                    [src]="
+                      'assets/images/characters/' + char.apiKey + '/icon.png'
+                    "
+                    [alt]="char?.profile?.name"
                   />
                   @if (char.tags.length) {
                     <div class="char-tags">
@@ -69,7 +72,8 @@
           >
             <img
               class="character-icon"
-              [src]="char.profile?.images?.hoyowiki_icon"
+              [src]="'assets/images/characters/' + char.apiKey + '/icon.png'"
+              [alt]="char?.profile?.name"
             />
           </div>
         }

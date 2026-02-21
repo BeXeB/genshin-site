@@ -10,7 +10,12 @@
             <div class="character">
               <img
                 class="character-icon"
-                [src]="char.profile?.images?.hoyowiki_icon"
+                [src]="
+                  'assets/images/characters/' +
+                  char.character.apiKey +
+                  '/icon.png'
+                "
+                [alt]="char?.profile?.name"
               />
               <div class="tags">
                 @for (tag of char.character.tags; track $index) {
