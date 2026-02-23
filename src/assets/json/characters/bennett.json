@@ -210,7 +210,6 @@
     "name": "Bennett",
     "combat1": {
       "name": "Strike of Fortune",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -417,7 +416,6 @@
     },
     "combat2": {
       "name": "Passion Overload",
-      "descriptionRaw": "#Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nA single, swift flame strike that deals <color=#FF9999FF>Pyro DMG</color>.\n\n<color=#FFD780FF>Hold (Short)</color>\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n·Level 1: Strikes twice, dealing <color=#FF9999FF>Pyro DMG</color> and launching opponents.\n·Level 2: Unleashes 3 consecutive attacks that deal impressive <color=#FF9999FF>Pyro DMG</color>, but the last attack triggers an explosion that launches both Bennett and the enemy.\nBennett takes no damage from being launched.\n\n<i>An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.</i>",
       "description": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\n\nPress\nA single, swift flame strike that deals Pyro DMG.\n\nHold (Short)\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n·Level 1: Strikes twice, dealing Pyro DMG and launching opponents.\n·Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy.\nBennett takes no damage from being launched.",
       "flavorText": "An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.",
       "attributes": {
@@ -587,7 +585,6 @@
     },
     "combat3": {
       "name": "Fantastic Voyage",
-      "descriptionRaw": "Bennett performs a jumping attack that deals <color=#FF9999FF>Pyro DMG</color>, creating an Inspiration Field.\n\n<color=#FFD780FF>Inspiration Field</color>\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\n·Imbues characters within the AoE with <color=#FF9999FF>Pyro</color>.\n\n<i>Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"</i>",
       "description": "Bennett performs a jumping attack that deals Pyro DMG, creating an Inspiration Field.\n\nInspiration Field\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\n·Imbues characters within the AoE with Pyro.",
       "flavorText": "Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"",
       "attributes": {
@@ -724,17 +721,14 @@
     },
     "passive1": {
       "name": "Rekindle",
-      "descriptionRaw": "Decreases <color=#FFD780FF>Passion Overload</color>'s CD by 20%.",
       "description": "Decreases Passion Overload's CD by 20%."
     },
     "passive2": {
       "name": "Fearnaught",
-      "descriptionRaw": "Within the area created by <color=#FFD780FF>Fantastic Voyage</color>, <color=#FFD780FF>Passion Overload</color> takes on the following effects:\n·CD is reduced by 50%.\n·Bennett will not be launched by the effects of Charge Level 2.",
       "description": "Within the area created by Fantastic Voyage, Passion Overload takes on the following effects:\n·CD is reduced by 50%.\n·Bennett will not be launched by the effects of Charge Level 2."
     },
     "passive3": {
       "name": "It Should Be Safe...",
-      "descriptionRaw": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
       "description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
     },
     "costs": {
@@ -932,32 +926,26 @@
     "name": "Bennett",
     "c1": {
       "name": "Grand Expectation",
-      "descriptionRaw": "<color=#FFD780FF>Fantastic Voyage</color>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
       "description": "Fantastic Voyage's ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK."
     },
     "c2": {
       "name": "Impasse Conqueror",
-      "descriptionRaw": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
       "description": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%."
     },
     "c3": {
       "name": "Unstoppable Fervor",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Passion Overload</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Passion Overload by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Unexpected Odyssey",
-      "descriptionRaw": "Using a Normal Attack as the second attack of <color=#FFD780FF>Passion Overload</color>'s Charge Level 1 will perform a follow-up attack.\nThis additional attack does 135% of the second attack's DMG.",
       "description": "Using a Normal Attack as the second attack of Passion Overload's Charge Level 1 will perform a follow-up attack.\nThis additional attack does 135% of the second attack's DMG."
     },
     "c5": {
       "name": "True Explorer",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Fantastic Voyage</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Fantastic Voyage by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Fire Ventures With Me",
-      "descriptionRaw": "Sword, Claymore, or Polearm-wielding characters inside <color=#FFD780FF>Fantastic Voyage</color>'s radius gain a 15% <color=#FF9999FF>Pyro DMG Bonus</color> and their weapons are infused with <color=#FF9999FF>Pyro</color>.",
       "description": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro."
     },
     "images": {

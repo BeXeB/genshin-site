@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "update:characters": "ts-node -P tsconfig.scripts.json scripts/update-characters.ts",
-    "organize:icons": "ts-node -P tsconfig.scripts.json scripts/organize-icons.ts"
+    "organize:icons": "ts-node -P tsconfig.scripts.json scripts/organize-icons.ts",
+    "clean:characters": "ts-node -P tsconfig.scripts.json scripts/clean-character-json.ts"
   },
   "private": true,
   "dependencies": {

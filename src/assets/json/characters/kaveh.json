@@ -204,7 +204,6 @@
     "name": "Kaveh",
     "combat1": {
       "name": "Schematic Setup",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nUses Mehrak to perform up to 4 consecutive attacks.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
       "description": "Normal Attack\nUses Mehrak to perform up to 4 consecutive attacks.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -412,7 +411,6 @@
     },
     "combat2": {
       "name": "Artistic Ingenuity",
-      "descriptionRaw": "Uses Mehrak's mapping ability for offensive purposes, initiating a radial scan that deals <color=#99FF88FF>AoE Dendro DMG</color>. It will also scan all Dendro Cores in its AoE and cause them to immediately burst.\n\n<i>Mehrak was created through the modification of ancient technology and may have some other functions apart from mapping work...</i>",
       "description": "Uses Mehrak's mapping ability for offensive purposes, initiating a radial scan that deals AoE Dendro DMG. It will also scan all Dendro Cores in its AoE and cause them to immediately burst.",
       "flavorText": "Mehrak was created through the modification of ancient technology and may have some other functions apart from mapping work...",
       "attributes": {
@@ -460,7 +458,6 @@
     },
     "combat3": {
       "name": "Painted Dome",
-      "descriptionRaw": "Completely unleashes Mehrak's energy and creates a cubic scanned space, dealing <color=#99FF88FF>AoE Dendro DMG</color> to all opponents within it, causing all Dendro Cores in its AoE to immediately burst, and granting Kaveh the following enhanced combat abilities for a specific duration:\n· Increases Kaveh's Normal, Charged, and Plunging Attack AoE, and converts his attack DMG to <color=#99FF88FF>Dendro DMG</color> that cannot be overridden.\n· All Dendro Cores created by all your own party members through Bloom and Lunar-Bloom reactions will deal additional DMG when they burst.\n· Increases Kaveh's resistance to interruption.\nThese effects will be canceled once Kaveh leaves the field.\n\n<i>\"Every building style includes the architect's unique worldview, and from this angle, one can say that the buildings themselves are coalescences of human memories.\"</i>",
       "description": "Completely unleashes Mehrak's energy and creates a cubic scanned space, dealing AoE Dendro DMG to all opponents within it, causing all Dendro Cores in its AoE to immediately burst, and granting Kaveh the following enhanced combat abilities for a specific duration:\n· Increases Kaveh's Normal, Charged, and Plunging Attack AoE, and converts his attack DMG to Dendro DMG that cannot be overridden.\n· All Dendro Cores created by all your own party members through Bloom and Lunar-Bloom reactions will deal additional DMG when they burst.\n· Increases Kaveh's resistance to interruption.\nThese effects will be canceled once Kaveh leaves the field.",
       "flavorText": "\"Every building style includes the architect's unique worldview, and from this angle, one can say that the buildings themselves are coalescences of human memories.\"",
       "attributes": {
@@ -562,17 +559,14 @@
     },
     "passive1": {
       "name": "An Architect's Undertaking",
-      "descriptionRaw": "When DMG dealt by a Dendro Core (including DMG from Burgeon and Hyperbloom) hits Kaveh, Kaveh will regain HP equal to 300% of his Elemental Mastery. This effect can be triggered once every 0.5s.",
       "description": "When DMG dealt by a Dendro Core (including DMG from Burgeon and Hyperbloom) hits Kaveh, Kaveh will regain HP equal to 300% of his Elemental Mastery. This effect can be triggered once every 0.5s."
     },
     "passive2": {
       "name": "A Craftsman's Curious Conceptions",
-      "descriptionRaw": "During <color=#FFD780FF>Painted Dome</color>, after Kaveh's Normal, Charged, or Plunging Attacks hit opponents, his Elemental Mastery will increase by 25. This effect can be triggered once every 0.1s. Max 4 stacks.\nThis effect will be canceled when Painted Dome's effects end.",
       "description": "During Painted Dome, after Kaveh's Normal, Charged, or Plunging Attacks hit opponents, his Elemental Mastery will increase by 25. This effect can be triggered once every 0.1s. Max 4 stacks.\nThis effect will be canceled when Painted Dome's effects end."
     },
     "passive3": {
       "name": "The Art of Budgeting",
-      "descriptionRaw": "When Kaveh crafts Landscape, Building, and Courtyard-type Furnishings, he has a 100% chance to refund a portion of the materials used.",
       "description": "When Kaveh crafts Landscape, Building, and Courtyard-type Furnishings, he has a 100% chance to refund a portion of the materials used."
     },
     "costs": {
@@ -770,32 +764,26 @@
     "name": "Kaveh",
     "c1": {
       "name": "Sublime Salutations",
-      "descriptionRaw": "Within 3s after using <color=#FFD780FF>Artistic Ingenuity</color>, Kaveh's <color=#99FF88FF>Dendro RES</color> and Incoming Healing Bonus will be increased by 50% and 25% respectively.",
       "description": "Within 3s after using Artistic Ingenuity, Kaveh's Dendro RES and Incoming Healing Bonus will be increased by 50% and 25% respectively."
     },
     "c2": {
       "name": "Grace of Royal Roads",
-      "descriptionRaw": "Kaveh's Normal Attack SPD increases by 15% during <color=#FFD780FF>Painted Dome</color>.",
       "description": "Kaveh's Normal Attack SPD increases by 15% during Painted Dome."
     },
     "c3": {
       "name": "Profferings of Dur Untash",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Painted Dome</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Painted Dome by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Feast of Apadana",
-      "descriptionRaw": "Dendro Cores created from Bloom and Lunar-Bloom reactions Kaveh triggers will deal 60% more DMG when they burst.",
       "description": "Dendro Cores created from Bloom and Lunar-Bloom reactions Kaveh triggers will deal 60% more DMG when they burst."
     },
     "c5": {
       "name": "Treasures of Bonkhanak",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Artistic Ingenuity</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Artistic Ingenuity by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Pairidaeza's Dreams",
-      "descriptionRaw": "When Kaveh's Normal, Charged, or Plunging Attacks hit opponents during <color=#FFD780FF>Painted Dome</color>, they will unleash Pairidaeza's Light upon the opponent's position, dealing 61.8% of Kaveh's ATK as <color=#99FF88FF>AoE Dendro DMG</color> and causing all Dendro Cores within that AoE to burst. This effect can be triggered once every 3s.",
       "description": "When Kaveh's Normal, Charged, or Plunging Attacks hit opponents during Painted Dome, they will unleash Pairidaeza's Light upon the opponent's position, dealing 61.8% of Kaveh's ATK as AoE Dendro DMG and causing all Dendro Cores within that AoE to burst. This effect can be triggered once every 3s."
     },
     "images": {

@@ -69,6 +69,7 @@ export type CharacterSkills = {
   passive2: PassiveSkill;
   passive3: PassiveSkill;
   passive4: PassiveSkill;
+  passive5: PassiveSkill;
 
   costs: Record<
     `lvl${number}`,

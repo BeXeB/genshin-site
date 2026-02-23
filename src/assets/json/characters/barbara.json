@@ -210,7 +210,6 @@
     "name": "Barbara",
     "combat1": {
       "name": "Whisper of Water",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
       "description": "Normal Attack\nPerforms up to 4 water splash attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
       "attributes": {
         "labels": [
@@ -382,7 +381,6 @@
     },
     "combat2": {
       "name": "Let the Show Begin♪",
-      "descriptionRaw": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and applying the <color=#80C0FFFF>Wet</color> status to them.\n\n<color=#FFD780FF>Melody Loop</color>\n·On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\n·On hit, Barbara's Charged Attack generates 4 times the amount of healing.\n·Periodically regenerates your own active character's HP.\n·Applies the <color=#80C0FFFF>Wet</color> status to the character and to opponents who come in contact with them.\n\n<i>Barbara's music is the magic that heals her companions.</i>",
       "description": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding opponents and applying the Wet status to them.\n\nMelody Loop\n·On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\n·On hit, Barbara's Charged Attack generates 4 times the amount of healing.\n·Periodically regenerates your own active character's HP.\n·Applies the Wet status to the character and to opponents who come in contact with them.",
       "flavorText": "Barbara's music is the magic that heals her companions.",
       "attributes": {
@@ -518,7 +516,6 @@
     },
     "combat3": {
       "name": "Shining Miracle♪",
-      "descriptionRaw": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\n\n<i>Barbara's desire to heal strengthens her will to fight and sing.</i>",
       "description": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.",
       "flavorText": "Barbara's desire to heal strengthens her will to fight and sing.",
       "attributes": {
@@ -601,17 +598,14 @@
     },
     "passive1": {
       "name": "Glorious Season",
-      "descriptionRaw": "The Stamina Consumption of characters within <color=#FFD780FF>Let the Show Begin♪</color>'s Melody Loop is reduced by 12%.",
       "description": "The Stamina Consumption of characters within Let the Show Begin♪'s Melody Loop is reduced by 12%."
     },
     "passive2": {
       "name": "Encore",
-      "descriptionRaw": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <color=#FFD780FF>Let the Show Begin♪</color> is extended by 1s.\nThe maximum extension is 5s.",
       "description": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of Let the Show Begin♪ is extended by 1s.\nThe maximum extension is 5s."
     },
     "passive3": {
       "name": "With My Whole Heart♪",
-      "descriptionRaw": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
       "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
     },
     "costs": {
@@ -809,32 +803,26 @@
     "name": "Barbara",
     "c1": {
       "name": "Gleeful Songs",
-      "descriptionRaw": "Barbara regenerates 1 Energy every 10s.",
       "description": "Barbara regenerates 1 Energy every 10s."
     },
     "c2": {
       "name": "Vitality Burst",
-      "descriptionRaw": "Decreases the CD of <color=#FFD780FF>Let the Show Begin♪</color> by 15%.\nDuring the ability's duration, your active character gains a 15% <color=#80C0FFFF>Hydro DMG Bonus</color>.",
       "description": "Decreases the CD of Let the Show Begin♪ by 15%.\nDuring the ability's duration, your active character gains a 15% Hydro DMG Bonus."
     },
     "c3": {
       "name": "Star of Tomorrow",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Shining Miracle♪</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Shining Miracle♪ by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Attentiveness Be My Power",
-      "descriptionRaw": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
       "description": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack."
     },
     "c5": {
       "name": "The Purest Companionship",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Let the Show Begin♪</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Let the Show Begin♪ by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Dedicating Everything to You",
-      "descriptionRaw": "When Barbara is in the party but not on the field, and one of your own party members falls:\n·Automatically revives the fallen character.\n·Fully restores the revived character's HP to 100%.\nThis effect can only occur once every 15 mins.",
       "description": "When Barbara is in the party but not on the field, and one of your own party members falls:\n·Automatically revives the fallen character.\n·Fully restores the revived character's HP to 100%.\nThis effect can only occur once every 15 mins."
     },
     "images": {
