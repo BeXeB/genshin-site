@@ -1,5 +1,80 @@
-@for (char of characterData; track $index) {
-  <div (click)="openDetails(char.name)">
-    {{ char.name }}
+<div class="container">
+  <app-page-title [title]="'Characters'" [backLink]="'/'"></app-page-title>
+  <div class="search-bar">
+    <div class="filters-section">
+      <button
+        class="filters-button"
+        [class.active]="showFiltersDropdown"
+        (click)="toggleFiltersDropdown()"
+      >
+        Filters
+      </button>
+      @if (showFiltersDropdown) {
+        <div class="filters-dropdown">
+          <div class="filter-group">
+            <p>Elements</p>
+            <div>
+              @for (element of elements; track $index) {
+                <button
+                  class="filter-btn"
+                  [class.active]="elementFilters.includes(element)"
+                  (click)="toggleFilter(elementFilters, element)"
+                >
+                  {{ element }}
+                </button>
+              }
+            </div>
+          </div>
+          <div class="filter-group">
+            <p>Weapons</p>
+            <div>
+              @for (wType of weaponTypes; track $index) {
+                <button
+                  class="filter-btn"
+                  [class.active]="weaponFilters.includes(wType)"
+                  (click)="toggleFilter(weaponFilters, wType)"
+                >
+                  {{ wType }}
+                </button>
+              }
+            </div>
+          </div>
+          <div class="filter-group">
+            <p>Rarity</p>
+            <div>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('5')"
+                (click)="toggleFilter(rarityFilters, '5')"
+              >
+                5-Star
+              </button>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('4')"
+                (click)="toggleFilter(rarityFilters, '4')"
+              >
+                4-Star
+              </button>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+    <input
+      type="text"
+      placeholder="Search characters..."
+      [(ngModel)]="searchTerm"
+      (ngModelChange)="onSearchTermChange()"
+    />
   </div>
-}
+
+  <div class="character-container">
+    @for (char of characterData; track $index) {
+      <app-character-card
+        [style.display]="filteredCharacters.includes(char) ? 'block' : 'none'"
+        [char]="char"
+      ></app-character-card>
+    }
+  </div>
+</div>

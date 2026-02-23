@@ -1,0 +1,70 @@
+<div class="character-stats">
+  @if (char) {
+    <div class="char-container">
+      <div class="left">
+        <div class="char-info" [style]="`border-color: ${getElementColor()};`">
+          <h2>{{ char.profile.name }}</h2>
+          <p>{{ char.profile.title }}</p>
+        </div>
+        <div class="menus">
+          <button
+            [class.active]="selectedMenu === 'profile'"
+            (click)="selectedMenu = 'profile'"
+            [style.border-color]="
+              selectedMenu === 'profile' ? getElementColor() : 'transparent'
+            "
+          >
+            Profile
+          </button>
+          <button
+            [class.active]="selectedMenu === 'talents'"
+            (click)="selectedMenu = 'talents'"
+            [style.border-color]="
+              selectedMenu === 'talents' ? getElementColor() : 'transparent'
+            "
+          >
+            Talent
+          </button>
+          <button
+            [class.active]="selectedMenu === 'constellations'"
+            (click)="selectedMenu = 'constellations'"
+            [style.border-color]="
+              selectedMenu === 'constellations'
+                ? getElementColor()
+                : 'transparent'
+            "
+          >
+            Constellation
+          </button>
+        </div>
+      </div>
+      <div class="right" [style]="`border-color: ${getElementColor()};`">
+        @if (selectedMenu === "profile") {
+          <app-overview-profile
+            [elementColor]="getElementColor()"
+            [char]="char"
+          ></app-overview-profile>
+        }
+        @if (selectedMenu === "talents") {
+          <app-overview-talents
+            [elementColor]="getElementColor()"
+            [char]="char"
+          ></app-overview-talents>
+        }
+        @if (selectedMenu === "constellations") {
+          <app-overview-constellations
+            [elementColor]="getElementColor()"
+            [char]="char"
+          >
+          </app-overview-constellations>
+        }
+      </div>
+    </div>
+  }
+</div>
+@if (selectedMenu === "profile") {
+  <div
+    class="background"
+    [style]="`background-image: url(${imageUrls.gachaSplash});`"
+  ></div>
+}

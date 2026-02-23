@@ -3,11 +3,12 @@ import { Tier, TierCharacter } from '../../_models/tierlist';
 import { TierlistService } from '../../_services/tierlist.service';
 import { CharacterProfile } from '../../_models/character';
 import { CharacterService } from '../../_services/character.service';
+import { PageTitleComponent } from "../../_components/page-title/page-title.component";
 
 @Component({
   selector: 'app-tierlist',
   standalone: true,
-  imports: [],
+  imports: [PageTitleComponent],
   templateUrl: './tierlist.component.html',
   styleUrl: './tierlist.component.css',
 })
@@ -33,7 +34,6 @@ export class TierlistComponent {
             c,
           ]),
         );
-        console.log(characters);
       });
   }
 

@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { TodoComponent } from './pages/tools/todo/todo.component';
+import { TodoComponent } from './pages/todo/todo.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CharactersComponent } from './pages/characters/characters.component';
 import { TierlistComponent } from './pages/tierlist/tierlist.component';
@@ -26,13 +26,11 @@ export const routes: Routes = [
   //     { path: 'theatre', component: TheatreComponent },
   //   ],
   // },
-  // { path: 'characters', component: CharactersComponent },
-  // { path: 'characters/:name', component: CharacterDetailsComponent },
+  { path: 'characters', component: CharactersComponent },
+  { path: 'characters/:name', component: CharacterDetailsComponent },
   // { path: 'weapons', component: WeaponsComponent },
   // { path: 'artifacts', component: ArtifactsComponent },
-  // {
-  //   path: 'tools',
-  //   component: ToolsComponent,
-  //   children: [{ path: 'todo', component: TodoComponent }],
-  // },
+  { path: 'tools', component: ToolsComponent },
+  // { path: 'todo', component: TodoComponent },
+  { path: 'tierlist-maker', component: TierlistMakerComponent },
 ];

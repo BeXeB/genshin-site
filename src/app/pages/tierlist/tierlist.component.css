@@ -34,13 +34,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 5px;
-  gap:5px
+  gap: 5px;
 }
 
-.character{
+.character {
   display: flex;
   flex-direction: column;
-  gap:0
+  gap: 0;
 }
 
 .character-icon {
@@ -51,7 +51,7 @@
   margin-top: 5px;
   display: flex;
   flex-direction: column;
-  gap:5px;
+  gap: 5px;
 }
 
 .tag {
@@ -62,6 +62,7 @@
   border-radius: 4px;
   cursor: pointer;
   display: flex;
+  max-width: 100px;
   justify-content: center;
 }
 
@@ -72,7 +73,7 @@
   top: 100%;
 
   background: var(--black);
-  color:  var(--white);
+  color: var(--white);
 
   padding: 4px 8px;
   font-size: 12px;

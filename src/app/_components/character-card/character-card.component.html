@@ -1,0 +1,19 @@
+<div class="character" (click)="openDetails()">
+  <div class="icons">
+    <div class="icon element" [style]="getElementStyle()">
+      @if (char?.elementText != "None") {
+        <img [src]="charElementUrl" alt="" />
+      }
+    </div>
+    <div class="icon">
+      <img [src]="charWeaponUrl" alt="" />
+    </div>
+  </div>
+  <div class="character-icon">
+    <img
+      [src]="charIconUrl"
+      alt="{{ char?.name }}"
+    />
+  </div>
+  <p>{{ char?.name }}</p>
+</div>

@@ -12,6 +12,14 @@
   --white: #dbdbdb;
   --blue: #0064c7;
   --shadow-blue: #002f5974;
+
+  --pyro: #e79d6c;
+  --hydro: #54b0f0;
+  --anemo: #7fdeac;
+  --electro: #b993e4;
+  --dendro: #b5dd47;
+  --cryo: #88dbdc;
+  --geo: #e3cd65;
 }
 
 body {
@@ -56,7 +64,8 @@ button {
   height: 40px;
 }
 
-button:hover {
+button:hover,
+button.active {
   border-color: var(--blue);
   box-shadow: 0 0 8px var(--shadow-blue);
   background-color: var(--darker-gray);
