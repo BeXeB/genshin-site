@@ -1,45 +1,45 @@
-import fs from "fs";
-import path from "path";
+import fs from 'fs';
+import path from 'path';
 
-const SOURCE_DIR = path.join(__dirname, "../raw_icons");
-const TARGET_DIR = path.join(__dirname, "../src/assets/images/characters");
+const SOURCE_DIR = path.join(__dirname, '../raw_icons');
+const TARGET_DIR = path.join(__dirname, '../src/assets/images/characters');
 const PROFILES_FILE = path.join(
   __dirname,
-  "../src/assets/json/characters/profiles.json"
+  '../src/assets/json/characters/profiles.json',
 );
 const CHARACTER_JSON_DIR = path.join(
   __dirname,
-  "../src/assets/json/characters"
+  '../src/assets/json/characters',
 );
 
 // --- Image mappings ---
 
 const CHARACTER_IMAGE_MAP: Record<string, string> = {
-  filename_icon: "icon.png",
-  filename_iconCard: "card.png",
-  filename_sideIcon: "side.png",
-  filename_gachaSplash: "gacha-splash.png",
-  filename_gachaSlice: "gacha-icon.png",
+  filename_icon: 'icon.png',
+  filename_iconCard: 'card.png',
+  filename_sideIcon: 'side.png',
+  filename_gachaSplash: 'gacha-splash.png',
+  filename_gachaSlice: 'gacha-icon.png',
 };
 
 const SKILL_IMAGE_MAP: Record<string, string> = {
-  filename_combat1: "combat1.png",
-  filename_combat2: "combat2.png",
-  filename_combat3: "combat3.png",
-  filename_passive1: "passive1.png",
-  filename_passive2: "passive2.png",
-  filename_passive3: "passive3.png",
-  filename_passive4: "passive4.png",
+  filename_combat1: 'combat1.png',
+  filename_combat2: 'combat2.png',
+  filename_combat3: 'combat3.png',
+  filename_passive1: 'passive1.png',
+  filename_passive2: 'passive2.png',
+  filename_passive3: 'passive3.png',
+  filename_passive4: 'passive4.png',
 };
 
 const CONSTELLATION_IMAGE_MAP: Record<string, string> = {
-  filename_c1: "c1.png",
-  filename_c2: "c2.png",
-  filename_c3: "c3.png",
-  filename_c4: "c4.png",
-  filename_c5: "c5.png",
-  filename_c6: "c6.png",
-  filename_constellation: "constellation.png",
+  filename_c1: 'c1.png',
+  filename_c2: 'c2.png',
+  filename_c3: 'c3.png',
+  filename_c4: 'c4.png',
+  filename_c5: 'c5.png',
+  filename_c6: 'c6.png',
+  filename_constellation: 'constellation.png',
 };
 
 function ensureDir(dir: string) {
@@ -49,13 +49,13 @@ function ensureDir(dir: string) {
 }
 
 function normalizeName(name: string): string {
-  return name.toLowerCase().replace(/\s+/g, "");
+  return name.toLowerCase().replace(/\s+/g, '');
 }
 
 function organize() {
-  const profiles = JSON.parse(fs.readFileSync(PROFILES_FILE, "utf-8"));
+  const profiles = JSON.parse(fs.readFileSync(PROFILES_FILE, 'utf-8'));
 
-  const lookup: Record<string, string> = {};
+  const lookup: Record<string, string[]> = {};
 
   for (const profile of profiles) {
     const normalized = normalizeName(profile.name);
@@ -64,11 +64,16 @@ function organize() {
 
     // --- CHARACTER ICONS ---
     if (profile.images) {
-      for (const [key, filename] of Object.entries(profile.images)) {
-        if (CHARACTER_IMAGE_MAP[key] && filename) {
-          lookup[filename as string] = path.join(
-            charFolder,
-            CHARACTER_IMAGE_MAP[key]
+      for (const [jsonKey, filename] of Object.entries(profile.images)) {
+        if (CHARACTER_IMAGE_MAP[jsonKey] && filename) {
+          const imageName = filename as string;
+
+          if (!lookup[imageName]) {
+            lookup[imageName] = [];
+          }
+
+          lookup[imageName].push(
+            path.join(charFolder, CHARACTER_IMAGE_MAP[jsonKey]),
           );
         }
       }
@@ -77,7 +82,7 @@ function organize() {
     // --- LOAD CHARACTER-SPECIFIC JSON ---
     const characterJsonPath = path.join(
       CHARACTER_JSON_DIR,
-      `${normalized}.json`
+      `${normalized}.json`,
     );
 
     if (!fs.existsSync(characterJsonPath)) {
@@ -86,21 +91,26 @@ function organize() {
     }
 
     const characterData = JSON.parse(
-      fs.readFileSync(characterJsonPath, "utf-8")
+      fs.readFileSync(characterJsonPath, 'utf-8'),
     );
 
     // --- SKILLS ---
     if (characterData.skills?.images) {
-      const skillFolder = path.join(charFolder, "skills");
+      const skillFolder = path.join(charFolder, 'skills');
       ensureDir(skillFolder);
 
-      for (const [key, filename] of Object.entries(
-        characterData.skills.images
+      for (const [jsonKey, filename] of Object.entries(
+        characterData.skills.images,
       )) {
-        if (SKILL_IMAGE_MAP[key] && filename) {
-          lookup[filename as string] = path.join(
-            skillFolder,
-            SKILL_IMAGE_MAP[key]
+        if (SKILL_IMAGE_MAP[jsonKey] && filename) {
+          const imageName = filename as string;
+
+          if (!lookup[imageName]) {
+            lookup[imageName] = [];
+          }
+
+          lookup[imageName].push(
+            path.join(skillFolder, SKILL_IMAGE_MAP[jsonKey]),
           );
         }
       }
@@ -108,43 +118,52 @@ function organize() {
 
     // --- CONSTELLATIONS ---
     if (characterData.constellation?.images) {
-      const constellationFolder = path.join(charFolder, "constellation");
+      const constellationFolder = path.join(charFolder, 'constellation');
       ensureDir(constellationFolder);
-
-      for (const [key, filename] of Object.entries(
-        characterData.constellation.images
+      for (const [jsonKey, filename] of Object.entries(
+        characterData.constellation.images,
       )) {
-        if (CONSTELLATION_IMAGE_MAP[key] && filename) {
-          lookup[filename as string] = path.join(
-            constellationFolder,
-            CONSTELLATION_IMAGE_MAP[key]
+        if (CONSTELLATION_IMAGE_MAP[jsonKey] && filename) {
+          const imageName = filename as string;
+
+          if (!lookup[imageName]) {
+            lookup[imageName] = [];
+          }
+
+          lookup[imageName].push(
+            path.join(constellationFolder, CONSTELLATION_IMAGE_MAP[jsonKey]),
           );
         }
       }
     }
   }
 
-  // --- MOVE FILES ---
+  // --- COPY FILES ---
   const files = fs.readdirSync(SOURCE_DIR);
 
   files.forEach((file) => {
-    if (!file.endsWith(".png")) return;
+    if (!file.endsWith('.png')) return;
 
     const nameWithoutExt = path.parse(file).name;
-    const destination = lookup[nameWithoutExt];
+    const destinations = lookup[nameWithoutExt];
 
-    if (destination) {
+    if (destinations && destinations.length > 0) {
       const srcPath = path.join(SOURCE_DIR, file);
-      fs.renameSync(srcPath, destination);
-      console.log(
-        `Moved ${file} → ${path.relative(TARGET_DIR, destination)}`
-      );
+
+      destinations.forEach((destination) => {
+        fs.mkdirSync(path.dirname(destination), { recursive: true });
+        fs.copyFileSync(srcPath, destination);
+
+        console.log(
+          `Copied ${file} → ${path.relative(TARGET_DIR, destination)}`,
+        );
+      });
     } else {
       console.log(`Skipping ${file} (not referenced in JSON)`);
     }
   });
 
-  console.log("✅ Done organizing all character assets.");
+  console.log('✅ Done organizing all character assets.');
 }
 
 organize();
