@@ -6,26 +6,17 @@
     "description": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart — and a dab hand at guiding even the dullest of pupils.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "12/29",
     "birthday": "December 29",
+    "birthdaymmdd": "12/29",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Gandharva Ville",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_GRASS_ADD_HURT",
     "substatText": "Dendro DMG Bonus",
     "constellation": "Vulpes Zerda",
-    "cv": {
-      "english": "Zachary Gordon",
-      "chinese": "莫然",
-      "japanese": "小林沙苗",
-      "korean": "Jung Ui-taek"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/23/a15445b2b2e4443398eabf3b479f49e7_2848574930993769772.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/23/b00b62e3b4f10026bfa95bc07896bbd7_4361735007308383481.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/58163a3ff45260b4b6a5e447e9e1b7eb.png",
       "filename_icon": "UI_AvatarIcon_Tighnari",
       "filename_iconCard": "UI_AvatarIcon_Tighnari_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Tighnari",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Tighnari",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Tighnari",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Tighnari.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/22/35428890/497dd6fac3d3c652a367c67428550747_306268558608889633.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Tighnari"
     },
     "version": "3.0"
   },
@@ -205,7 +190,6 @@
     "name": "Tighnari",
     "combat1": {
       "name": "Khanda Barrier-Buster",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, the power of Dendro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an arrow carrying the power of flora that deals <color=#99FF88FF>Dendro DMG</color>.\n·Charge Level 2: Fires off a Wreath Arrow that deals <color=#99FF88FF>Dendro DMG</color>. Upon hit, the Wreath Arrow will create 4 Clusterbloom Arrows that will track nearby opponents automatically and deal <color=#99FF88FF>Dendro DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, the power of Dendro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an arrow carrying the power of flora that deals Dendro DMG.\n·Charge Level 2: Fires off a Wreath Arrow that deals Dendro DMG. Upon hit, the Wreath Arrow will create 4 Clusterbloom Arrows that will track nearby opponents automatically and deal Dendro DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -413,9 +397,7 @@
     },
     "combat2": {
       "name": "Vijnana-Phala Mine",
-      "descriptionRaw": "Tighnari throws a Vijnana Stormheart ahead that deals <color=#99FF88FF>AoE Dendro DMG</color>, creating a Vijnana-Khanda Field that creates mysterious illusions that taunt opponents and draw their fire.\nAdditionally, Tighnari gains the Vijnana Suffusion effect, which will decrease the Wreath Arrow's charging time by 2.4s. This effect will dissipate once the skill duration ends or after Tighnari has fired 3 Wreath Arrows.\n\n<i>\"If seeds wither apart from the soil, they will remain a single seed. But if returned to the soil, they shall multiply ten-million fold.\"</i>",
       "description": "Tighnari throws a Vijnana Stormheart ahead that deals AoE Dendro DMG, creating a Vijnana-Khanda Field that creates mysterious illusions that taunt opponents and draw their fire.\nAdditionally, Tighnari gains the Vijnana Suffusion effect, which will decrease the Wreath Arrow's charging time by 2.4s. This effect will dissipate once the skill duration ends or after Tighnari has fired 3 Wreath Arrows.",
-      "flavorText": "\"If seeds wither apart from the soil, they will remain a single seed. But if returned to the soil, they shall multiply ten-million fold.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -497,9 +479,7 @@
     },
     "combat3": {
       "name": "Fashioner's Tanglevine Shaft",
-      "descriptionRaw": "Combines the power of all seeds to fire 6 Tanglevine Shafts that can track opponents and deal <color=#99FF88FF>Dendro DMG</color>.\nAfter they hit, the Tanglevine Shafts will create a secondary wave of Tanglevine Shafts that can also track nearby opponents and deal <color=#99FF88FF>Dendro DMG</color> on hit.\n\n<i>\"Do not seek to escape so easily. The vines grow and regrow ever on. Things might get dicey if you don't clear every last one of them out.\"</i>",
       "description": "Combines the power of all seeds to fire 6 Tanglevine Shafts that can track opponents and deal Dendro DMG.\nAfter they hit, the Tanglevine Shafts will create a secondary wave of Tanglevine Shafts that can also track nearby opponents and deal Dendro DMG on hit.",
-      "flavorText": "\"Do not seek to escape so easily. The vines grow and regrow ever on. Things might get dicey if you don't clear every last one of them out.\"",
       "attributes": {
         "labels": [
           "Tanglevine Shaft DMG|{param1:F1P}",
@@ -581,17 +561,14 @@
     },
     "passive1": {
       "name": "Keen Sight",
-      "descriptionRaw": "After Tighnari fires a <color=#FFD780FF>Wreath Arrow</color>, his Elemental Mastery is increased by 50 for 4s.",
       "description": "After Tighnari fires a Wreath Arrow, his Elemental Mastery is increased by 50 for 4s."
     },
     "passive2": {
       "name": "Scholarly Blade",
-      "descriptionRaw": "For every point of Elemental Mastery Tighnari possesses, his Charged Attack and <color=#FFD780FF>Fashioner's Tanglevine Shaft</color> DMG are increased by 0.06%.\nThe maximum DMG Bonus obtainable this way is 60%.",
       "description": "For every point of Elemental Mastery Tighnari possesses, his Charged Attack and Fashioner's Tanglevine Shaft DMG are increased by 0.06%.\nThe maximum DMG Bonus obtainable this way is 60%."
     },
     "passive3": {
       "name": "Encyclopedic Knowledge",
-      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Sumeru</color> on the mini-map.",
       "description": "Displays the location of nearby resources unique to Sumeru on the mini-map."
     },
     "costs": {
@@ -789,32 +766,26 @@
     "name": "Tighnari",
     "c1": {
       "name": "Beginnings Determined at the Roots",
-      "descriptionRaw": "Tighnari's Charged Attack CRIT Rate is increased by 15%.",
       "description": "Tighnari's Charged Attack CRIT Rate is increased by 15%."
     },
     "c2": {
       "name": "Origins Known From the Stem",
-      "descriptionRaw": "When there are opponents within the Vijnana-Khanda Field created by <color=#FFD780FF>Vijnana-Phala Mine</color>, Tighnari gains 20% <color=#99FF88FF>Dendro DMG Bonus</color>.\nThe effect will last up to 6s if the field's duration ends or if it no longer has opponents within it.",
       "description": "When there are opponents within the Vijnana-Khanda Field created by Vijnana-Phala Mine, Tighnari gains 20% Dendro DMG Bonus.\nThe effect will last up to 6s if the field's duration ends or if it no longer has opponents within it."
     },
     "c3": {
       "name": "Fortunes Read Amongst the Branches",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Fashioner's Tanglevine Shaft</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Fashioner's Tanglevine Shaft by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Withering Glimpsed in the Leaves",
-      "descriptionRaw": "When <color=#FFD780FF>Fashioner's Tanglevine Shaft</color> is unleashed, all nearby party members gain 60 Elemental Mastery for 8s. If the Fashioner's Tanglevine Shaft triggers a Burning, Bloom, Lunar-Bloom, Quicken, or Spread reaction, their Elemental Mastery will be further increased by 60. This latter case will also refresh the buff state's duration.",
       "description": "When Fashioner's Tanglevine Shaft is unleashed, all nearby party members gain 60 Elemental Mastery for 8s. If the Fashioner's Tanglevine Shaft triggers a Burning, Bloom, Lunar-Bloom, Quicken, or Spread reaction, their Elemental Mastery will be further increased by 60. This latter case will also refresh the buff state's duration."
     },
     "c5": {
       "name": "Comprehension Amidst the Flowers",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Vijnana-Phala Mine</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Vijnana-Phala Mine by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Karma Adjudged From the Leaden Fruit",
-      "descriptionRaw": "<color=#FFD780FF>Wreath Arrow</color>'s charging time is decreased by 0.9s, and will produce 1 additional Clusterbloom Arrow upon hit. This arrow deals 150% of Tighnari's ATK as DMG.",
       "description": "Wreath Arrow's charging time is decreased by 0.9s, and will produce 1 additional Clusterbloom Arrow upon hit. This arrow deals 150% of Tighnari's ATK as DMG."
     },
     "images": {
@@ -1547,6 +1518,22 @@
       "hp": 10849.87711806,
       "attack": 267.8797916,
       "defense": 630.2145834,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11235.0336603,
+      "attack": 298.0143996,
+      "defense": 652.586217,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11621.034844079999,
+      "attack": 328.14900759999995,
+      "defense": 675.0069111999999,
       "specialized": 0.288
     },
     "20+": {

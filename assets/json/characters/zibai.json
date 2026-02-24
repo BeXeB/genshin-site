@@ -6,25 +6,16 @@
     "description": "The White Horse Adeptus from Liyue's legends, known as Zibai. The most mysterious figure in Liyue's myths.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "5/15",
     "birthday": "May 15",
+    "birthdaymmdd": "5/15",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Liyue Harbor",
-    "associationType": "ASSOC_NODKRAI_ZIBAI",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Equa Alba",
-    "cv": {
-      "english": "Laura Welsh",
-      "chinese": "昱头",
-      "japanese": "福圓美里",
-      "korean": "Chun Song-e"
-    },
     "costs": {
       "ascend1": [
         {
@@ -189,10 +180,7 @@
       "filename_iconCard": "UI_AvatarIcon_Zibai_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Zibai",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Zibai",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Zibai",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zibai.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Zibai.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/12/11/6a57d2dd9677f63ae7d38f525484c55f_7837326903952372916.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Zibai"
     },
     "version": "6.3"
   },
@@ -201,7 +189,6 @@
     "name": "Zibai",
     "combat1": {
       "name": "Golden Blade's Petaled Touch",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 4 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -407,7 +394,6 @@
     },
     "combat2": {
       "name": "Heaven and Earth Made Manifest",
-      "descriptionRaw": "Summoning a shadow of her former powers, she switches to the {LINK#N11260001}<color=#FFD780FF>Lunar Phase Shift</color>{/LINK} mode.\nIn this mode, Zibai's Normal Attacks and Charged Attacks will deal <color=#FFE699FF>Geo DMG</color> that cannot be overridden by other infusions, and she can accrue special <color=#FFD780FF>Phase Shift Radiance</color> through different methods. Zibai can consume Phase Shift Radiance to unleash the special Elemental Skill <color=#FFD780FF>Spirit Steed's Stride</color>.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>\nWhile in the <color=#FFD780FF>Lunar Phase Shift</color> mode, when Zibai performs Normal Attacks, the fourth attack will deal an additional instance of <color=#FFE699FF>Geo DMG</color>, which is considered Lunar-Crystallize Reaction DMG.",
       "description": "Summoning a shadow of her former powers, she switches to the **Lunar Phase Shift** mode.\nIn this mode, Zibai's Normal Attacks and Charged Attacks will deal Geo DMG that cannot be overridden by other infusions, and she can accrue special Phase Shift Radiance through different methods. Zibai can consume Phase Shift Radiance to unleash the special Elemental Skill Spirit Steed's Stride.\n\nMoonsign: Ascendant Gleam\nWhile in the Lunar Phase Shift mode, when Zibai performs Normal Attacks, the fourth attack will deal an additional instance of Geo DMG, which is considered Lunar-Crystallize Reaction DMG.",
       "attributes": {
         "labels": [
@@ -632,7 +618,6 @@
     },
     "combat3": {
       "name": "Tri-Sphere Eminence",
-      "descriptionRaw": "Zibai operates the Jadelight Canopy, dealing two instances of <color=#FFE699FF>Geo DMG</color>, with the second damage instance being considered Lunar-Crystallize Reaction DMG.\nWhen cast, if Zibai is in the {LINK#N11260001}<color=#FFD780FF>Lunar Phase Shift</color>{/LINK}, the duration of the current Lunar Phase Shift will extend by an additional 1.7s.",
       "description": "Zibai operates the Jadelight Canopy, dealing two instances of Geo DMG, with the second damage instance being considered Lunar-Crystallize Reaction DMG.\nWhen cast, if Zibai is in the **Lunar Phase Shift**, the duration of the current Lunar Phase Shift will extend by an additional 1.7s.",
       "attributes": {
         "labels": [
@@ -715,22 +700,18 @@
     },
     "passive1": {
       "name": "The Selenic Adeptus Descends",
-      "descriptionRaw": "When casting the Elemental Skill <color=#FFD780FF>{LINK#S11262}Heaven and Earth Made Manifest{/LINK}</color>, or when nearby party members trigger Moondrift Harmony, Zibai gains the <color=#FFD780FF>Selenic Descent</color> effect for 4s: The DMG dealt by the 2nd hit of {LINK#N11260001}<color=#FFD780FF>Spirit Steed's Stride</color>{/LINK} is increased by 60% of Zibai's DEF.",
       "description": "When casting the Elemental Skill **Heaven and Earth Made Manifest**, or when nearby party members trigger Moondrift Harmony, Zibai gains the Selenic Descent effect for 4s: The DMG dealt by the 2nd hit of **Spirit Steed's Stride** is increased by 60% of Zibai's DEF."
     },
     "passive2": {
       "name": "Layered Peaks Pierce the Clouds",
-      "descriptionRaw": "Other <color=#FFE699FF>Geo</color> party members increase Zibai's DEF by 15% each. <color=#80C0FFFF>Hydro</color> party members increase her Elemental Mastery by 60 each.",
       "description": "Other Geo party members increase Zibai's DEF by 15% each. Hydro party members increase her Elemental Mastery by 60 each."
     },
     "passive3": {
       "name": "Moonsign Benediction: The Coursing Sun and Moon",
-      "descriptionRaw": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Zibai has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Zibai is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
       "description": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Zibai has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Zibai is in the party, the party's Moonsign will increase by 1 level."
     },
     "passive4": {
       "name": "Moonlit Flower Forest",
-      "descriptionRaw": "At night (18:00 – 06:00), when not in combat, restore 1 Elemental Energy to Zibai every 2 seconds.\nThis effect does not work in Domains, Trounce Domains, or the Spiral Abyss.",
       "description": "At night (18:00 – 06:00), when not in combat, restore 1 Elemental Energy to Zibai every 2 seconds.\nThis effect does not work in Domains, Trounce Domains, or the Spiral Abyss."
     },
     "costs": {
@@ -929,32 +910,26 @@
     "name": "Zibai",
     "c1": {
       "name": "Burst Forth With Vigor, But Enter in Silence",
-      "descriptionRaw": "After using the Elemental Skill <color=#FFD780FF>{LINK#S11262}Heaven and Earth Made Manifest{/LINK}</color>, Zibai will immediately gain 100 {LINK#N11260001}<color=#FFD780FF>Phase Shift Radiance</color>{/LINK}, and the max number of <color=#FFD780FF>Spirit Steed's Stride</color> usages per <color=#FFD780FF>Lunar Phase Shift</color> mode is increased to 5 times.\nAdditionally, each time you switch to the Lunar Phase Shift mode, the first Spirit Steed's Stride's 2nd-hit Lunar-Crystallize Reaction DMG is increased by 220%.",
       "description": "After using the Elemental Skill **Heaven and Earth Made Manifest**, Zibai will immediately gain 100 **Phase Shift Radiance**, and the max number of Spirit Steed's Stride usages per Lunar Phase Shift mode is increased to 5 times.\nAdditionally, each time you switch to the Lunar Phase Shift mode, the first Spirit Steed's Stride's 2nd-hit Lunar-Crystallize Reaction DMG is increased by 220%."
     },
     "c2": {
       "name": "At Birth Are Souls Born, and in Death Leave But Husks",
-      "descriptionRaw": "When in the {LINK#N11260001}<color=#FFD780FF>Lunar Phase Shift</color>{/LINK} mode, all nearby party members' Lunar-Crystallize Reaction DMG is increased by 30%.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Ascension Talent <color=#FFD780FF>{LINK#P1262101}The Selenic Adeptus Descends{/LINK}</color> is enhanced: the DMG dealt by the 2nd hit of <color=#FFD780FF>Spirit Steed's Stride</color> is further increased by 550% of Zibai's DEF. You must first unlock the Ascension Talent \"The Selenic Adeptus Descends.\"",
       "description": "When in the **Lunar Phase Shift** mode, all nearby party members' Lunar-Crystallize Reaction DMG is increased by 30%.\n\nMoonsign: Ascendant Gleam: Ascension Talent **The Selenic Adeptus Descends** is enhanced: the DMG dealt by the 2nd hit of Spirit Steed's Stride is further increased by 550% of Zibai's DEF. You must first unlock the Ascension Talent \"The Selenic Adeptus Descends.\""
     },
     "c3": {
       "name": "Free From Constraints and Worldly Ties",
-      "descriptionRaw": "Increases the Level of Elemental Skill <color=#FFD780FF>{LINK#S11262}Heaven and Earth Made Manifest{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Elemental Skill **Heaven and Earth Made Manifest** by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "The Spirit Passes, Then Form Follows",
-      "descriptionRaw": "While in the {LINK#N11260001}<color=#FFD780FF>Lunar Phase Shift</color>{/LINK} mode, Zibai's Normal Attack sequence will not reset, and when <color=#FFD780FF>Spirit Steed's Stride</color> hits opponents, Zibai will gain the <color=#FFD780FF>\"Scattermoon Splendor\"</color> effect: The next time she uses Normal Attacks, the additional attack from her 4th hit will deal 250% of the original damage as Lunar-Crystallize Reaction DMG.",
       "description": "While in the **Lunar Phase Shift** mode, Zibai's Normal Attack sequence will not reset, and when Spirit Steed's Stride hits opponents, Zibai will gain the \"Scattermoon Splendor\" effect: The next time she uses Normal Attacks, the additional attack from her 4th hit will deal 250% of the original damage as Lunar-Crystallize Reaction DMG."
     },
     "c5": {
       "name": "Perceive the Worthless and Debate It Not",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11265}Tri-Sphere Eminence{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of **Tri-Sphere Eminence** by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "The World, A Journey in Passing",
-      "descriptionRaw": "While Zibai is in the {LINK#N11260001}<color=#FFD780FF>Lunar Phase Shift</color>{/LINK} mode, her <color=#FFD780FF>Phase Shift Radiance</color> gain rate is increased by 50%.\nAdditionally, <color=#FFD780FF>Spirit Steed's Stride</color> will change such that it will consume all Phase Shift Radiance. This will {LINK#N11190007}<color=#FFD780FF>elevate</color>{/LINK} the DMG dealt by this instance of Spirit Steed's Stride and the Lunar-Crystallize Reaction DMG dealt by Zibai within the next 3s by 1.6% for every point consumed above 70. This effect cannot stack.",
       "description": "While Zibai is in the **Lunar Phase Shift** mode, her Phase Shift Radiance gain rate is increased by 50%.\nAdditionally, Spirit Steed's Stride will change such that it will consume all Phase Shift Radiance. This will **elevate** the DMG dealt by this instance of Spirit Steed's Stride and the Lunar-Crystallize Reaction DMG dealt by Zibai within the next 3s by 1.6% for every point consumed above 70. This effect cannot stack."
     },
     "images": {
@@ -1687,6 +1662,22 @@
       "hp": 12919.435971400002,
       "attack": 224.82766920000003,
       "defense": 956.8501906500001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13378.059157,
+      "attack": 250.11921519999999,
+      "defense": 990.81687825,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13837.6880952,
+      "attack": 275.4107612,
+      "defense": 1024.8580542,
       "specialized": 0.884
     },
     "20+": {

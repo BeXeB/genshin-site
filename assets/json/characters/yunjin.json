@@ -6,26 +6,17 @@
     "description": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "5/21",
     "birthday": "May 21",
+    "birthdaymmdd": "5/21",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Yun-Han Opera Troupe",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "substatText": "Energy Recharge",
     "constellation": "Opera Grandis",
-    "cv": {
-      "english": "Judy Alice Lee & Yang Yang",
-      "chinese": "贺文潇&杨扬",
-      "japanese": "小岩井ことり & Yang Yang",
-      "korean": "Sah Moon-young & Yang Yang"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,20 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/974d7a34d3cc71f74ac98e50d4b935fc_1119374554505290278.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/d6dfc43ded6b12754f21ff3e1ba27c6a_4483363052773458916.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/e8694b5926d1f18752a07f07c6965316.png",
       "filename_icon": "UI_AvatarIcon_Yunjin",
       "filename_iconCard": "UI_AvatarIcon_Yunjin_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Yunjin",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yunjin",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yunjin",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yunjin.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yun Jin_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Yun_Jin"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yunjin"
     },
     "version": "2.4"
   },
@@ -208,7 +190,6 @@
     "name": "Yun Jin",
     "combat1": {
       "name": "Cloud-Grazing Strike",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 5 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -432,9 +413,7 @@
     },
     "combat2": {
       "name": "Opening Flourish",
-      "descriptionRaw": "#Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nFlourishes her polearm in a cloud-grasping stance, dealing <color=#FFE699FF>Geo DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing <color=#FFE699FF>Geo DMG</color>.\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\n\n<i>One glorious moment on-stage, a decade of preparation behind it.</i>",
       "description": "Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\n\nPress\nFlourishes her polearm in a cloud-grasping stance, dealing Geo DMG.\n\nHold\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing Geo DMG.\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.",
-      "flavorText": "One glorious moment on-stage, a decade of preparation behind it.",
       "attributes": {
         "labels": [
           "Press DMG|{param3:F1P} DEF",
@@ -551,9 +530,7 @@
     },
     "combat3": {
       "name": "Cliffbreaker's Banner",
-      "descriptionRaw": "Deals <color=#FFE699FF>AoE Geo DMG</color> and grants all nearby party members a Flying Cloud Flag Formation.\n\n<color=#FFD780FF>Flying Cloud Flag Formation</color>\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\n\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.\n\n<i>As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.</i>\n<i>As the instruments on stage strum in unison, lo, see how she vanquishes these demons!</i>",
       "description": "Deals AoE Geo DMG and grants all nearby party members a Flying Cloud Flag Formation.\n\nFlying Cloud Flag Formation\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\n\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.",
-      "flavorText": "As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.\nAs the instruments on stage strum in unison, lo, see how she vanquishes these demons!",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -671,17 +648,14 @@
     },
     "passive1": {
       "name": "True to Oneself",
-      "descriptionRaw": "Using <color=#FFD780FF>Opening Flourish</color> at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form.",
       "description": "Using Opening Flourish at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form."
     },
     "passive2": {
       "name": "Breaking Conventions",
-      "descriptionRaw": "The Normal Attack DMG Bonus granted by <color=#FFD780FF>Flying Cloud Flag Formation</color> is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively.",
       "description": "The Normal Attack DMG Bonus granted by Flying Cloud Flag Formation is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively."
     },
     "passive3": {
       "name": "Light Nourishment",
-      "descriptionRaw": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product.",
       "description": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product."
     },
     "costs": {
@@ -879,32 +853,26 @@
     "name": "Yun Jin",
     "c1": {
       "name": "Thespian Gallop",
-      "descriptionRaw": "<color=#FFD780FF>Opening Flourish's</color> CD is decreased by 18%.",
       "description": "Opening Flourish's CD is decreased by 18%."
     },
     "c2": {
       "name": "Myriad Mise-En-Scène",
-      "descriptionRaw": "After <color=#FFD780FF>Cliffbreaker's Banner</color> is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.",
       "description": "After Cliffbreaker's Banner is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s."
     },
     "c3": {
       "name": "Seafaring General",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Cliffbreaker's Banner</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Cliffbreaker's Banner by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Flower and a Fighter",
-      "descriptionRaw": "When Yun Jin triggers Crystallize or Lunar-Crystallize reactions, her DEF is increased by 20% for 12s.",
       "description": "When Yun Jin triggers Crystallize or Lunar-Crystallize reactions, her DEF is increased by 20% for 12s."
     },
     "c5": {
       "name": "Famed Throughout the Land",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Opening Flourish</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Opening Flourish by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Decorous Harmony",
-      "descriptionRaw": "Characters under the effects of the <color=#FFD780FF>Flying Cloud Flag Formation</color> have their Normal ATK SPD increased by 12%.",
       "description": "Characters under the effects of the Flying Cloud Flag Formation have their Normal ATK SPD increased by 12%."
     },
     "images": {
@@ -1637,6 +1605,22 @@
       "hp": 10657.416864800001,
       "attack": 191.15747280000002,
       "defense": 734.3931609000001,
+      "specialized": 0.2667
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11025.5616072,
+      "attack": 215.534844,
+      "defense": 759.7616901,
+      "specialized": 0.2667
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11394.5999048,
+      "attack": 239.92824240000002,
+      "defense": 785.1917934,
       "specialized": 0.2667
     },
     "20+": {

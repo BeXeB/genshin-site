@@ -6,26 +6,17 @@
     "description": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "3/21",
     "birthday": "March 21",
+    "birthdaymmdd": "3/21",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Knights of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_DEFENSE_PERCENT",
     "substatText": "DEF",
     "constellation": "Parma Cordis",
-    "cv": {
-      "english": "Laura Faye Smith",
-      "chinese": "宴宁",
-      "japanese": "高尾奏音",
-      "korean": "Lee Bo-hee"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Character_Noelle_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/c8a5da498d29faa1c8f2e2bfb60efbd5_4363852007421467828.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200325/2020032510564718459.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/42120a5c88658419970a1e8f71d2b245.png",
       "filename_icon": "UI_AvatarIcon_Noel",
       "filename_iconCard": "UI_AvatarIcon_Noel_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Noel",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Noel",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Noel",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Noel.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Noelle_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Noelle"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Noel"
     },
     "version": "1.0"
   },
@@ -210,7 +190,6 @@
     "name": "Noelle",
     "combat1": {
       "name": "Favonius Bladework - Maid",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -418,9 +397,7 @@
     },
     "combat2": {
       "name": "Breastplate",
-      "descriptionRaw": "Summons protective stone armor, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\nThe shield has the following properties:\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\n·Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\n\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\n\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
       "description": "Summons protective stone armor, dealing Geo DMG to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\nThe shield has the following properties:\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\n·Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\n\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.",
-      "flavorText": "Noelle is both a dutiful maid and a valiant knight.",
       "attributes": {
         "labels": [
           "Skill DMG|{param6:P} DEF",
@@ -572,9 +549,7 @@
     },
     "combat3": {
       "name": "Sweeping Time",
-      "descriptionRaw": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <color=#FFE699FF>Geo DMG</color>.\nAfterwards, Noelle gains the following effects:\n·Larger attack AoE.\n·Converts attack DMG to <color=#FFE699FF>Geo DMG</color> that cannot be overridden by any other elemental infusion.\n·Increased ATK that scales based on her DEF.\n\n<i>Sometimes, it's not just dust that needs sweeping...</i>",
       "description": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing Geo DMG.\nAfterwards, Noelle gains the following effects:\n·Larger attack AoE.\n·Converts attack DMG to Geo DMG that cannot be overridden by any other elemental infusion.\n·Increased ATK that scales based on her DEF.",
-      "flavorText": "Sometimes, it's not just dust that needs sweeping...",
       "attributes": {
         "labels": [
           "Burst DMG|{param1:F1P}",
@@ -692,17 +667,14 @@
     },
     "passive1": {
       "name": "Devotion",
-      "descriptionRaw": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\nThis effect can only occur once every 60s.",
       "description": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\nThis effect can only occur once every 60s."
     },
     "passive2": {
       "name": "Nice and Clean",
-      "descriptionRaw": "Noelle will decrease the CD of <color=#FFD780FF>Breastplate</color> by 1s for every 4 Normal or Charged Attack hits she scores on opponents.\nOne hit may be counted every 0.1s.",
       "description": "Noelle will decrease the CD of Breastplate by 1s for every 4 Normal or Charged Attack hits she scores on opponents.\nOne hit may be counted every 0.1s."
     },
     "passive3": {
       "name": "Maid's Knighthood",
-      "descriptionRaw": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.",
       "description": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product."
     },
     "costs": {
@@ -900,32 +872,26 @@
     "name": "Noelle",
     "c1": {
       "name": "I Got Your Back",
-      "descriptionRaw": "While <color=#FFD780FF>Sweeping Time</color> and <color=#FFD780FF>Breastplate</color> are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.",
       "description": "While Sweeping Time and Breastplate are both in effect, the chance of Breastplate's healing effects activating is increased to 100%."
     },
     "c2": {
       "name": "Combat Maid",
-      "descriptionRaw": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.",
       "description": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%."
     },
     "c3": {
       "name": "Invulnerable Maid",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Breastplate</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Breastplate by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "To Be Cleaned",
-      "descriptionRaw": "When <color=#FFD780FF>Breastplate</color>'s duration expires or it is destroyed by DMG, it will deal 400% of Noelle's ATK as <color=#FFE699FF>Geo DMG</color> to surrounding opponents.",
       "description": "When Breastplate's duration expires or it is destroyed by DMG, it will deal 400% of Noelle's ATK as Geo DMG to surrounding opponents."
     },
     "c5": {
       "name": "Favonius Sweeper Master",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Sweeping Time</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Sweeping Time by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Must Be Spotless",
-      "descriptionRaw": "<color=#FFD780FF>Sweeping Time</color> increases Noelle's ATK by an additional 50% of her DEF.\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.",
       "description": "Sweeping Time increases Noelle's ATK by an additional 50% of her DEF.\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s."
     },
     "images": {
@@ -1658,6 +1624,22 @@
       "hp": 12071.155412,
       "attack": 191.15747280000002,
       "defense": 798.55018425,
+      "specialized": 0.3
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12488.135667999999,
+      "attack": 215.534844,
+      "defense": 826.1349232499999,
+      "specialized": 0.3
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 12906.128012,
+      "attack": 239.92824240000002,
+      "defense": 853.7866154999999,
       "specialized": 0.3
     },
     "20+": {

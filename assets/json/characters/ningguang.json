@@ -6,26 +6,17 @@
     "description": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "8/26",
     "birthday": "August 26",
+    "birthdaymmdd": "8/26",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Liyue Qixing",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
     "substatText": "Geo DMG Bonus",
     "constellation": "Opus Aequilibrium",
-    "cv": {
-      "english": "Erin Ebers",
-      "chinese": "杜冥鸦",
-      "japanese": "大原さやか",
-      "korean": "Kwak Kyu-mi"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg/",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Character_Ningguang_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/d35a0a1d13f821fd55a6951210c672ac_1444502949404659074.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200305/2020030519431658285.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/498b811beba3fbeb2549a5b362190d43.png",
       "filename_icon": "UI_AvatarIcon_Ningguang",
       "filename_iconCard": "UI_AvatarIcon_Ningguang_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Ningguang",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ningguang",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ningguang",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ningguang.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Ningguang_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Ningguang"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ningguang"
     },
     "version": "1.0"
   },
@@ -210,7 +190,6 @@
     "name": "Ningguang",
     "combat1": {
       "name": "Sparkling Scatter",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nShoots gems that deal <color=#FFE699FF>Geo DMG</color>.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of stamina to fire off a giant gem that deals <color=#FFE699FF>Geo DMG</color>.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFE699FF>AoE Geo DMG</color> upon impact with the ground.",
       "description": "Normal Attack\nShoots gems that deal Geo DMG.\nUpon hit, this grants Ningguang 1 Star Jade.\n\nCharged Attack\nConsumes a certain amount of stamina to fire off a giant gem that deals Geo DMG.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\nPlunging Attack\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Geo DMG upon impact with the ground.",
       "attributes": {
         "labels": [
@@ -346,9 +325,7 @@
     },
     "combat2": {
       "name": "Jade Screen",
-      "descriptionRaw": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing <color=#FFE699FF>AoE Geo DMG</color>.\n\n<color=#FFD780FF>Jade Screen</color>\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a <color=#FFE699FF>Geo Construct</color> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n\n<i>The canvas of stars is written upon this jade screen.</i>",
       "description": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing AoE Geo DMG.\n\nJade Screen\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.",
-      "flavorText": "The canvas of stars is written upon this jade screen.",
       "attributes": {
         "labels": [
           "Inherited HP|{param3:F1P}",
@@ -429,9 +406,7 @@
     },
     "combat3": {
       "name": "Starshatter",
-      "descriptionRaw": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <color=#FFE699FF>Geo DMG</color>.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\n\n<i>Stars shatter. Silence falls.</i>",
       "description": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive Geo DMG.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.",
-      "flavorText": "Stars shatter. Silence falls.",
       "attributes": {
         "labels": [
           "DMG Per Gem|{param1:F1P}",
@@ -495,17 +470,14 @@
     },
     "passive1": {
       "name": "Backup Plan",
-      "descriptionRaw": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
       "description": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina."
     },
     "passive2": {
       "name": "Strategic Reserve",
-      "descriptionRaw": "A character that passes through the <color=#FFD780FF>Jade Screen</color> will gain a 12% <color=#FFE699FF>Geo DMG Bonus</color> for 10s.",
       "description": "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s."
     },
     "passive3": {
       "name": "Trove of Marvelous Treasures",
-      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>ore veins used in forging</color> on the mini-map.",
       "description": "Displays the location of nearby ore veins used in forging on the mini-map."
     },
     "costs": {
@@ -703,32 +675,26 @@
     "name": "Ningguang",
     "c1": {
       "name": "Piercing Fragments",
-      "descriptionRaw": "When a Normal Attack hits, it deals AoE DMG.",
       "description": "When a Normal Attack hits, it deals AoE DMG."
     },
     "c2": {
       "name": "Shock Effect",
-      "descriptionRaw": "When <color=#FFD780FF>Jade Screen</color> is shattered, its CD will reset.\nCan occur once every 6s.",
       "description": "When Jade Screen is shattered, its CD will reset.\nCan occur once every 6s."
     },
     "c3": {
       "name": "Majesty Be the Array of Stars",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Starshatter</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Starshatter by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Exquisite be the Jade, Outshining All Beneath",
-      "descriptionRaw": "<color=#FFD780FF>Jade Screen</color> increases nearby characters' Elemental RES by 10%.",
       "description": "Jade Screen increases nearby characters' Elemental RES by 10%."
     },
     "c5": {
       "name": "Invincible Be the Jade Screen",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Jade Screen</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Jade Screen by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Grandeur Be the Seven Stars",
-      "descriptionRaw": "When <color=#FFD780FF>Starshatter</color> is used, Ningguang gains 7 Star Jades.",
       "description": "When Starshatter is used, Ningguang gains 7 Star Jades."
     },
     "images": {
@@ -1461,6 +1427,22 @@
       "hp": 9787.4235531,
       "attack": 212.397192,
       "defense": 573.3180810000001,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10125.515655899999,
+      "attack": 239.48315999999997,
+      "defense": 593.122509,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10464.428370599999,
+      "attack": 266.586936,
+      "defense": 612.975006,
       "specialized": 0.24
     },
     "20+": {

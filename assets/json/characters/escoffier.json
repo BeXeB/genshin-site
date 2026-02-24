@@ -6,26 +6,17 @@
     "description": "The ex-head chef of Hotel Debord, renowned throughout Fontaine as the Patissiere Supreme and vanguard of precision gastronomy. Has incomparably strict standards when it comes to cooking.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "6/8",
     "birthday": "June 8",
+    "birthdaymmdd": "6/8",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Fontaine",
-    "associationType": "ASSOC_FONTAINE",
     "region": "Fontaine",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Dulciaria Structura",
-    "cv": {
-      "english": "Emily Cass",
-      "chinese": "蔡海婷",
-      "japanese": "佐藤聡美",
-      "korean": "Son Jeong-min"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Escoffier_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Escoffier",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Escoffier",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Escoffier",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Escoffier.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Escoffier.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ddbc128157d69479f61747f0918f9e72_2470321636402108639.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Escoffier"
     },
     "version": "5.6"
   },
@@ -202,7 +190,6 @@
     "name": "Escoffier",
     "combat1": {
       "name": "Kitchen Skills",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to perform an upward thrust.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 3 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform an upward thrust.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -373,7 +360,6 @@
     },
     "combat2": {
       "name": "Low-Temperature Cooking",
-      "descriptionRaw": "Behold the true meaning of \"cooking\"! Escoffier will demonstrate different cooking techniques when you Tap or Hold this skill, but rest assured, each of them is Fontaine's pride and joy.\n\n<color=#FFD780FF>Tap</color>\nActivates her All-Spectrum Multi-Use Cooking Mek in its Cold Storage mode and deals <color=#99FFFFFF>AoE Cryo DMG</color> to nearby opponents.\n\n<color=#FFD780FF>Cooking Mek: Cold Storage Mode</color>\nFollows the current active character and fires Frosty Parfaits at nearby opponents at intervals, dealing <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Arkhe: Ousia</color>\nAt intervals, Escoffier will summon a Surging Blade when activating her Cooking Mek in Cold Storage mode, dealing Ousia-aligned <color=#99FFFFFF>AoE Cryo DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nActivates her All-Spectrum Multi-Use Cooking Mek's {LINK#N11120002}<color=#FFD780FF>Off-the-Cuff Cookery Mode</color>{/LINK}.",
       "description": "Behold the true meaning of \"cooking\"! Escoffier will demonstrate different cooking techniques when you Tap or Hold this skill, but rest assured, each of them is Fontaine's pride and joy.\n\nTap\nActivates her All-Spectrum Multi-Use Cooking Mek in its Cold Storage mode and deals AoE Cryo DMG to nearby opponents.\n\nCooking Mek: Cold Storage Mode\nFollows the current active character and fires Frosty Parfaits at nearby opponents at intervals, dealing Cryo DMG.\n\nArkhe: Ousia\nAt intervals, Escoffier will summon a Surging Blade when activating her Cooking Mek in Cold Storage mode, dealing Ousia-aligned AoE Cryo DMG.\n\nHold\nActivates her All-Spectrum Multi-Use Cooking Mek's **Off-the-Cuff Cookery Mode**.",
       "attributes": {
         "labels": [
@@ -510,7 +496,6 @@
     },
     "combat3": {
       "name": "Scoring Cuts",
-      "descriptionRaw": "Displaying her exceptional knife skills, Escoffier deals <color=#99FFFFFF>AoE Cryo DMG</color> and restores HP to all nearby party members based on her ATK.",
       "description": "Displaying her exceptional knife skills, Escoffier deals AoE Cryo DMG and restores HP to all nearby party members based on her ATK.",
       "attributes": {
         "labels": [
@@ -610,17 +595,14 @@
     },
     "passive1": {
       "name": "Better to Salivate Than Medicate",
-      "descriptionRaw": "After using the Elemental Burst <color=#FFD780FF>{LINK#S11125}Scoring Cuts{/LINK}</color>, Escoffier will obtain the Rehab Diet effect for 9s: Restores HP for nearby active characters every 1s based on 138.24% of Escoffier's ATK.",
       "description": "After using the Elemental Burst **Scoring Cuts**, Escoffier will obtain the Rehab Diet effect for 9s: Restores HP for nearby active characters every 1s based on 138.24% of Escoffier's ATK."
     },
     "passive2": {
       "name": "Inspiration-Immersed Seasoning",
-      "descriptionRaw": "When there are 1/2/3/4 <color=#80C0FFFF>Hydro</color> or <color=#99FFFFFF>Cryo</color> characters in the party, Escoffier will decrease the <color=#80C0FFFF>Hydro RES</color> and <color=#99FFFFFF>Cryo RES</color> of any opponents hit by her Elemental Skill, <color=#FFD780FF>{LINK#S11122}Low-Temperature Cooking{/LINK}</color>, or her Elemental Burst, <color=#FFD780FF>{LINK#S11125}Scoring Cuts{/LINK}</color>, by 5%/10%/15%/55% for 12s.",
       "description": "When there are 1/2/3/4 Hydro or Cryo characters in the party, Escoffier will decrease the Hydro RES and Cryo RES of any opponents hit by her Elemental Skill, **Low-Temperature Cooking**, or her Elemental Burst, **Scoring Cuts**, by 5%/10%/15%/55% for 12s."
     },
     "passive3": {
       "name": "Constant Off-the-Cuff Cookery",
-      "descriptionRaw": "#When using the Hold form of her Elemental Skill <color=#FFD780FF>{LINK#S11122}Low-Temperature Cooking{/LINK}</color>, Escoffier will activate her All-Spectrum Multi-Use Cooking Mek in its Off-the-Cuff Cookery mode.\n\n<color=#FFD780FF>Cooking Mek: Off-the-Cuff Cookery Mode</color>\n· Places the Cooking Mek on the field. The Cooking Mek can absorb elemental attacks. When the absorbed elemental energy hits a certain limit, Escoffier can convert the ingredients placed within it into wonderful food.\n· Escoffier needs time to purchase new ingredients, so she can only make a certain number of dishes like this each week. The number of dishes Escoffier can make resets every Monday at 4:00 AM {TIMEZONE}.",
       "description": "When using the Hold form of her Elemental Skill **Low-Temperature Cooking**, Escoffier will activate her All-Spectrum Multi-Use Cooking Mek in its Off-the-Cuff Cookery mode.\n\nCooking Mek: Off-the-Cuff Cookery Mode\n· Places the Cooking Mek on the field. The Cooking Mek can absorb elemental attacks. When the absorbed elemental energy hits a certain limit, Escoffier can convert the ingredients placed within it into wonderful food.\n· Escoffier needs time to purchase new ingredients, so she can only make a certain number of dishes like this each week. The number of dishes Escoffier can make resets every Monday at 4:00 AM ."
     },
     "costs": {
@@ -818,32 +800,26 @@
     "name": "Escoffier",
     "c1": {
       "name": "Pre-Dinner Dance for Your Taste Buds",
-      "descriptionRaw": "When 4 party members are <color=#80C0FFFF>Hydro</color> or <color=#99FFFFFF>Cryo</color>, all nearby party members will have their <color=#99FFFFFF>Cryo DMG</color> CRIT DMG increased by 60% for 15s after Escoffier uses her Elemental Skill <color=#FFD780FF>{LINK#S11122}Low-Temperature Cooking{/LINK}</color> or Elemental Burst <color=#FFD780FF>{LINK#S11125}Scoring Cuts{/LINK}</color>.\nYou must first unlock the Ascension Talent \"Inspiration-Immersed Seasoning.\"",
       "description": "When 4 party members are Hydro or Cryo, all nearby party members will have their Cryo DMG CRIT DMG increased by 60% for 15s after Escoffier uses her Elemental Skill **Low-Temperature Cooking** or Elemental Burst **Scoring Cuts**.\nYou must first unlock the Ascension Talent \"Inspiration-Immersed Seasoning.\""
     },
     "c2": {
       "name": "Fresh, Fragrant Stew Is an Art",
-      "descriptionRaw": "When Escoffier activates her Cooking Mek in its {LINK#N11120001}<color=#FFD780FF>Cold Storage Mode</color>{/LINK}, she will gain the \"Freshly-Prepped Delicacy\" effect for 15s. During this time, Escoffier will gain 5 Cold Dish stacks. When nearby active characters apart from Escoffier deal <color=#99FFFFFF>Cryo DMG</color> with a Normal, Charged, or Plunging Attack, or an Elemental Skill or Elemental Burst, they will expend 1 Cold Dish stack to increase their DMG dealt by 240% of Escoffier's ATK.\nIf you hit multiple opponents with a single instance of <color=#99FFFFFF>Cryo DMG</color>, Cold Dish stacks will be consumed based on the number of opponents hit.",
       "description": "When Escoffier activates her Cooking Mek in its **Cold Storage Mode**, she will gain the \"Freshly-Prepped Delicacy\" effect for 15s. During this time, Escoffier will gain 5 Cold Dish stacks. When nearby active characters apart from Escoffier deal Cryo DMG with a Normal, Charged, or Plunging Attack, or an Elemental Skill or Elemental Burst, they will expend 1 Cold Dish stack to increase their DMG dealt by 240% of Escoffier's ATK.\nIf you hit multiple opponents with a single instance of Cryo DMG, Cold Dish stacks will be consumed based on the number of opponents hit."
     },
     "c3": {
       "name": "The Bakery Magic of Caramel Browning",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11122}Low-Temperature Cooking{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of **Low-Temperature Cooking** by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Secret Rosemary Recipe",
-      "descriptionRaw": "{LINK#P1122101}<color=#FFD780FF>Rehab Diet</color>{/LINK} lasts 6 more seconds. While it is active, you have a chance of healing 100% extra HP and restoring 2 Energy to Escoffier when you trigger healing through <color=#FFD780FF>Rehab Diet</color>. This chance corresponds to Escoffier's CRIT Rate. You can trigger this effect 7 times during any one <color=#FFD780FF>Rehab Diet</color>'s duration.\nYou must first unlock the Ascension Talent \"Better to Salivate Than Medicate.\"",
       "description": "**Rehab Diet** lasts 6 more seconds. While it is active, you have a chance of healing 100% extra HP and restoring 2 Energy to Escoffier when you trigger healing through Rehab Diet. This chance corresponds to Escoffier's CRIT Rate. You can trigger this effect 7 times during any one Rehab Diet's duration.\nYou must first unlock the Ascension Talent \"Better to Salivate Than Medicate.\""
     },
     "c5": {
       "name": "Symphony of a Thousand Sauces",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11125}Scoring Cuts{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of **Scoring Cuts** by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Tea Parties Bursting With Color",
-      "descriptionRaw": "{LINK#N11120001}<color=#FFD780FF>Cooking Mek: Cold Storage Mode</color>{/LINK} is enhanced:\n· When your party's active character's Normal, Charged, or Plunging Attacks hit opponents, Cooking Mek: Cold Storage Mode will fire off another Special-Grade Frosty Parfait, dealing 500% of Escoffier's ATK as <color=#99FFFFFF>AoE Cryo DMG</color>. This DMG is considered Elemental Skill DMG.\nThis effect can be triggered once every 0.5s, and this effect can be triggered 6 times within the duration of one Cooking Mek: Cold Storage Mode.",
       "description": "**Cooking Mek: Cold Storage Mode** is enhanced:\n· When your party's active character's Normal, Charged, or Plunging Attacks hit opponents, Cooking Mek: Cold Storage Mode will fire off another Special-Grade Frosty Parfait, dealing 500% of Escoffier's ATK as AoE Cryo DMG. This DMG is considered Elemental Skill DMG.\nThis effect can be triggered once every 0.5s, and this effect can be triggered 6 times within the duration of one Cooking Mek: Cold Storage Mode."
     },
     "images": {
@@ -1576,6 +1552,22 @@
       "hp": 13348.0427932,
       "attack": 346.808651,
       "defense": 731.66376024,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13821.880966,
+      "attack": 385.822206,
+      "defense": 757.6366812,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14296.758257599999,
+      "attack": 424.835761,
+      "defense": 783.6665603199999,
       "specialized": 0.242
     },
     "20+": {

@@ -6,26 +6,17 @@
     "description": "A dragon born from M's pen, who came to alight in the human world. His \"story\" continues to unfold.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "3/14",
     "birthday": "March 14",
+    "birthdaymmdd": "3/14",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Hexenzirkel",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Draco Rubedo",
-    "cv": {
-      "english": "Laurie Kynaston",
-      "chinese": "陶典",
-      "japanese": "小林千晃",
-      "korean": "Kim Ji-yul"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Durin_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Durin",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Durin",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Durin",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Durin.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Durin.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/11/28/e3e2b8fcbff2f2f3cdcec6bbf04efa84_3327367670955368711.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Durin"
     },
     "version": "6.2"
   },
@@ -202,7 +190,6 @@
     "name": "Durin",
     "combat1": {
       "name": "Radiant Wingslash",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive sword strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to perform a slash toward the front.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 4 consecutive sword strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform a slash toward the front.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -391,7 +378,6 @@
     },
     "combat2": {
       "name": "Binary Form: Convergence and Division",
-      "descriptionRaw": "Purify the substance of souls and wishes to undergo {LINK#N11230001}<color=#FFD780FF>Essential Transmutation</color>{/LINK}. While transmuted, Durin's Elemental Skill <color=#FFD780FF>Binary Form: Convergence and Division</color> will be replaced with the special Elemental Skill <color=#FFD780FF>Transmutation: Confirmation of Purity</color>, and the Normal Attack <color=#FFD780FF>Radiant Wingslash</color> will be replaced with the special Elemental Skill <color=#FFD780FF>Transmutation: Denial of Darkness</color>.\n\n<color=#FFD780FF>Transmutation: Confirmation of Purity</color>\nDeal 1 instance of <color=#FF9999FF>AoE Pyro DMG</color> to nearby opponents, reverse Essential Transmutation, and enter the <color=#FFD780FF>Confirmation of Purity</color> state for 30s.\n\n<color=#FFD780FF>Transmutation: Denial of Darkness</color>\nDeal 3 consecutive instances of <color=#FF9999FF>Pyro DMG</color> to opponents in front, reverse Essential Transmutation, and enter the <color=#FFD780FF>Denial of Darkness</color> state for 30s.\n\nWhen Durin enters the <color=#FFD780FF>Confirmation of Purity</color> or <color=#FFD780FF>Denial of Darkness</color> state while in battle, he will restore a certain amount of Elemental Energy. Elemental Energy can be restored this way once every 6s.",
       "description": "Purify the substance of souls and wishes to undergo **Essential Transmutation**. While transmuted, Durin's Elemental Skill Binary Form: Convergence and Division will be replaced with the special Elemental Skill Transmutation: Confirmation of Purity, and the Normal Attack Radiant Wingslash will be replaced with the special Elemental Skill Transmutation: Denial of Darkness.\n\nTransmutation: Confirmation of Purity\nDeal 1 instance of AoE Pyro DMG to nearby opponents, reverse Essential Transmutation, and enter the Confirmation of Purity state for 30s.\n\nTransmutation: Denial of Darkness\nDeal 3 consecutive instances of Pyro DMG to opponents in front, reverse Essential Transmutation, and enter the Denial of Darkness state for 30s.\n\nWhen Durin enters the Confirmation of Purity or Denial of Darkness state while in battle, he will restore a certain amount of Elemental Energy. Elemental Energy can be restored this way once every 6s.",
       "attributes": {
         "labels": [
@@ -508,7 +494,6 @@
     },
     "combat3": {
       "name": "Principle of Purity: As the Light Shifts",
-      "descriptionRaw": "Unleash the power of the \"Beast\" in different ways. Durin can use different Elemental Bursts based on his {LINK#N11230001}<color=#FFD780FF>Essential Transmutation</color>{/LINK} state.\n\n<color=#FFD780FF>Principle of Purity: As the Light Shifts</color>\nWhen Durin is in the <color=#FFD780FF>Confirmation of Purity</color> state, he will use the Elemental Burst <color=#FFD780FF>Principle of Purity: As the Light Shifts</color>, dealing 3 instances of <color=#FF9999FF>AoE Pyro DMG</color> to opponents in front, and manifesting his power in the <color=#FFD780FF>Dragon of White Flame</color> form. The Dragon of White Flame will follow the current active character and attack nearby opponents at intervals, dealing <color=#FF9999FF>AoE Pyro DMG</color>. This DMG is considered Elemental Burst DMG.\n\n<color=#FFD780FF>Principle of Darkness: As the Stars Smolder</color>\nWhen Durin is in the <color=#FFD780FF>Denial of Darkness</color> state, he will use the Elemental Burst <color=#FFD780FF>Principle of Darkness: As the Stars Smolder</color>, dealing 3 instances of <color=#FF9999FF>AoE Pyro DMG</color> to opponents in front, and manifesting his power in the <color=#FFD780FF>Dragon of Dark Decay</color> form. The Dragon of Dark Decay will follow the current active character and periodically attack a single nearby opponent, dealing <color=#FF9999FF>Pyro DMG</color>. This DMG is considered Elemental Burst DMG.\n\nWhen Durin is not in a special state as a result of Essential Transmutation, he will use the Elemental Burst <color=#FFD780FF>Principle of Purity: As the Light Shifts</color>.",
       "description": "Unleash the power of the \"Beast\" in different ways. Durin can use different Elemental Bursts based on his **Essential Transmutation** state.\n\nPrinciple of Purity: As the Light Shifts\nWhen Durin is in the Confirmation of Purity state, he will use the Elemental Burst Principle of Purity: As the Light Shifts, dealing 3 instances of AoE Pyro DMG to opponents in front, and manifesting his power in the Dragon of White Flame form. The Dragon of White Flame will follow the current active character and attack nearby opponents at intervals, dealing AoE Pyro DMG. This DMG is considered Elemental Burst DMG.\n\nPrinciple of Darkness: As the Stars Smolder\nWhen Durin is in the Denial of Darkness state, he will use the Elemental Burst Principle of Darkness: As the Stars Smolder, dealing 3 instances of AoE Pyro DMG to opponents in front, and manifesting his power in the Dragon of Dark Decay form. The Dragon of Dark Decay will follow the current active character and periodically attack a single nearby opponent, dealing Pyro DMG. This DMG is considered Elemental Burst DMG.\n\nWhen Durin is not in a special state as a result of Essential Transmutation, he will use the Elemental Burst Principle of Purity: As the Light Shifts.",
       "attributes": {
         "labels": [
@@ -731,18 +716,19 @@
     },
     "passive1": {
       "name": "Light Manifest of the Divine Calculus",
-      "descriptionRaw": "Durin will trigger different buffs depending on the form that his power manifests as when he unleashes his Elemental Burst. When that form is:\n\n<color=#FFD780FF>Dragon of White Flame</color>\nAfter nearby party members trigger Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions on an opponent, or deal <color=#FF9999FF>Pyro DMG</color> or <color=#99FF88FF>Dendro DMG</color> to an opponent affected by Burning, that opponent's <color=#FF9999FF>Pyro RES</color>, and the RES for the corresponding Element involved in the reaction, are decreased by 20% for 6s.\n\n<color=#FFD780FF>Dragon of Dark Decay</color>\nDurin's Vaporize DMG is increased by 40% and his Melt DMG is increased by 40%.",
       "description": "Durin will trigger different buffs depending on the form that his power manifests as when he unleashes his Elemental Burst. When that form is:\n\nDragon of White Flame\nAfter nearby party members trigger Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions on an opponent, or deal Pyro DMG or Dendro DMG to an opponent affected by Burning, that opponent's Pyro RES, and the RES for the corresponding Element involved in the reaction, are decreased by 20% for 6s.\n\nDragon of Dark Decay\nDurin's Vaporize DMG is increased by 40% and his Melt DMG is increased by 40%."
     },
     "passive2": {
       "name": "Chaos Formed Like the Night",
-      "descriptionRaw": "After unleashing an Elemental Burst, Durin gains the Primordial Fusion of Forms effect for 20s: Durin gains 10 stacks of Primordial Fusion. When a periodic attack from <color=#FFD780FF>Dragon of White Flame</color> or <color=#FFD780FF>Dragon of Dark Decay</color> deals DMG, 1 stack of Primordial Fusion will be consumed to increase the DMG dealt by 3% of the original DMG for every 100 ATK. A maximum of 75% additional DMG can be dealt this way. When a single attack from <color=#FFD780FF>Dragon of White Flame</color> or <color=#FFD780FF>Dragon of Dark Decay</color> hits multiple opponents, only one stack of Primordial Fusion is consumed.\nPrimordial Fusion stacks are reset when the Elemental Burst is unleashed again.",
       "description": "After unleashing an Elemental Burst, Durin gains the Primordial Fusion of Forms effect for 20s: Durin gains 10 stacks of Primordial Fusion. When a periodic attack from Dragon of White Flame or Dragon of Dark Decay deals DMG, 1 stack of Primordial Fusion will be consumed to increase the DMG dealt by 3% of the original DMG for every 100 ATK. A maximum of 75% additional DMG can be dealt this way. When a single attack from Dragon of White Flame or Dragon of Dark Decay hits multiple opponents, only one stack of Primordial Fusion is consumed.\nPrimordial Fusion stacks are reset when the Elemental Burst is unleashed again."
     },
     "passive3": {
       "name": "Echoes of the Surging Earth",
-      "descriptionRaw": "Gains 25% more rewards when dispatched on a Mondstadt Expedition for 20 hours.",
       "description": "Gains 25% more rewards when dispatched on a Mondstadt Expedition for 20 hours."
+    },
+    "passive4": {
+      "name": "Witch's Eve Rite: Ode to Ascension",
+      "description": "After completing Witch's Homework: Of This World, Durin will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nIncreases all effects of the Ascension Talent Light Manifest of the Divine Calculus (except for Duration) by 75%."
     },
     "costs": {
       "lvl2": [
@@ -930,7 +916,7 @@
       "filename_combat3": "Skill_E_Durin_01_HD",
       "filename_passive1": "UI_Talent_S_Durin_01",
       "filename_passive2": "UI_Talent_S_Durin_02",
-      "filename_passive3": "UI_Talent_S_Durin_07"
+      "filename_passive4": "UI_Talent_S_Durin_08"
     },
     "version": "6.2"
   },
@@ -939,32 +925,26 @@
     "name": "Durin",
     "c1": {
       "name": "Adamah's Redemption",
-      "descriptionRaw": "After casting his Elemental Burst, Durin's effects will vary depending on the form of his Elemental Burst:\n· <color=#FFD780FF>Principle of Purity: As the Light Shifts</color>: All other nearby party members gain 20 stacks of <color=#FFD780FF>Cycle of Enlightenment</color> lasting 20s. When nearby active characters deal Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst DMG, 1 stack of Cycle of Enlightenment will be consumed to increase the DMG dealt by 60% of Durin's ATK. Stack counts for characters in the party who have Cycle of Enlightenment are managed individually.\n· <color=#FFD780FF>Principle of Darkness: As the Stars Smolder</color>: Durin gains 20 stacks of <color=#FFD780FF>Cycle of Enlightenment</color> lasting 20s. When Durin deals Elemental Burst DMG, 2 stacks of Cycle of Enlightenment will be consumed to increase the DMG dealt by 150% of Durin's ATK.\n\nWhen an Elemental Burst is used, <color=#FFD780FF>Cycle of Enlightenment</color> stacks will be refreshed.",
       "description": "After casting his Elemental Burst, Durin's effects will vary depending on the form of his Elemental Burst:\n· Principle of Purity: As the Light Shifts: All other nearby party members gain 20 stacks of Cycle of Enlightenment lasting 20s. When nearby active characters deal Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst DMG, 1 stack of Cycle of Enlightenment will be consumed to increase the DMG dealt by 60% of Durin's ATK. Stack counts for characters in the party who have Cycle of Enlightenment are managed individually.\n· Principle of Darkness: As the Stars Smolder: Durin gains 20 stacks of Cycle of Enlightenment lasting 20s. When Durin deals Elemental Burst DMG, 2 stacks of Cycle of Enlightenment will be consumed to increase the DMG dealt by 150% of Durin's ATK.\n\nWhen an Elemental Burst is used, Cycle of Enlightenment stacks will be refreshed."
     },
     "c2": {
       "name": "Unground Visions",
-      "descriptionRaw": "For 20s after Durin uses an Elemental Burst, after nearby party members trigger Vaporize, Melt, Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions, or deal <color=#FF9999FF>Pyro DMG</color> or <color=#99FF88FF>Dendro DMG</color> to an opponent affected by Burning, all nearby party members gain a 50% increase to their <color=#FF9999FF>Pyro DMG</color> and to the corresponding elemental DMG involved in the reaction for 6s.",
       "description": "For 20s after Durin uses an Elemental Burst, after nearby party members trigger Vaporize, Melt, Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions, or deal Pyro DMG or Dendro DMG to an opponent affected by Burning, all nearby party members gain a 50% increase to their Pyro DMG and to the corresponding elemental DMG involved in the reaction for 6s."
     },
     "c3": {
       "name": "Flame Mirror's Revelation",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11235}Principle of Purity: As the Light Shifts{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of **Principle of Purity: As the Light Shifts** by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Emanare's Source",
-      "descriptionRaw": "Durin's Elemental Burst DMG is increased by 40%. Additionally, when effects that consume <color=#FFD780FF>Cycle of Enlightenment</color> stacks are triggered as part of the Constellation <color=#FFD780FF>{LINK#T1231}Adamah's Redemption{/LINK}</color>, there is a 30% chance that no Cycle of Enlightenment stacks will be consumed.",
       "description": "Durin's Elemental Burst DMG is increased by 40%. Additionally, when effects that consume Cycle of Enlightenment stacks are triggered as part of the Constellation **Adamah's Redemption**, there is a 30% chance that no Cycle of Enlightenment stacks will be consumed."
     },
     "c5": {
       "name": "Scouring Flame's Sundering",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11232}Binary Form: Convergence and Division{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of **Binary Form: Convergence and Division** by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Dual Birth",
-      "descriptionRaw": "Durin's Elemental Burst DMG ignores 30% of opponents' DEF.\nAdditionally, Durin's Elemental Bursts <color=#FFD780FF>Principle of Purity: As the Light Shifts</color> and <color=#FFD780FF>Principle of Darkness: As the Stars Smolder</color> are each enhanced:\n· After <color=#FFD780FF>Principle of Purity: As the Light Shifts</color> and <color=#FFD780FF>Dragon of White Flame</color> hit an opponent, that opponent's DEF is decreased by 30% for 6s.\n· DMG from <color=#FFD780FF>Principle of Darkness: As the Stars Smolder</color> and <color=#FFD780FF>Dragon of Dark Decay</color> will ignore an additional 40% of opponents' DEF.",
       "description": "Durin's Elemental Burst DMG ignores 30% of opponents' DEF.\nAdditionally, Durin's Elemental Bursts Principle of Purity: As the Light Shifts and Principle of Darkness: As the Stars Smolder are each enhanced:\n· After Principle of Purity: As the Light Shifts and Dragon of White Flame hit an opponent, that opponent's DEF is decreased by 30% for 6s.\n· DMG from Principle of Darkness: As the Stars Smolder and Dragon of Dark Decay will ignore an additional 40% of opponents' DEF."
     },
     "images": {
@@ -1697,6 +1677,22 @@
       "hp": 12429.5994322,
       "attack": 346.808651,
       "defense": 822.3531759000001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12870.834061000001,
+      "attack": 385.822206,
+      "defense": 851.5454295000001,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13313.0363096,
+      "attack": 424.835761,
+      "defense": 880.8017012,
       "specialized": 0.884
     },
     "20+": {

@@ -6,26 +6,17 @@
     "description": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "3/3",
     "birthday": "March 3",
+    "birthdaymmdd": "3/3",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Bubu Pharmacy",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_HEAL_ADD",
     "substatText": "Healing Bonus",
     "constellation": "Pristina Nola",
-    "cv": {
-      "english": "Christie Cate",
-      "chinese": "宴宁",
-      "japanese": "田村ゆかり",
-      "korean": "Lee Seul"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Qiqi_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png",
-      "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200828/2020082817145380161.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200828/2020082817153781489.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/d696551575bc6c117462563fc92eae6c.png",
       "filename_icon": "UI_AvatarIcon_Qiqi",
       "filename_iconCard": "UI_AvatarIcon_Qiqi_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Qiqi",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Qiqi",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Qiqi",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Qiqi.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Qiqi_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Qiqi"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Qiqi"
     },
     "version": "1.0"
   },
@@ -210,7 +190,6 @@
     "name": "Qiqi",
     "combat1": {
       "name": "Ancient Sword Art",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -400,9 +379,7 @@
     },
     "combat2": {
       "name": "Adeptus Art: Herald of Frost",
-      "descriptionRaw": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\n\n<color=#FFD780FF>Herald of Frost</color>\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\n\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
       "description": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to surrounding opponents.\n\nHerald of Frost\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing Cryo DMG to opponents in their path.",
-      "flavorText": "I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.",
       "attributes": {
         "labels": [
           "Skill DMG|{param8:P}",
@@ -554,9 +531,7 @@
     },
     "combat3": {
       "name": "Adeptus Art: Preserver of Fortune",
-      "descriptionRaw": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\n<i>— Qiqi does not remember these words.</i>",
       "description": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals Cryo DMG.\n\nFortune-Preserving Talisman\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.",
-      "flavorText": "\"I am the Fortune Preserver, the Maiden of Resurrection.\"\n— Qiqi does not remember these words.",
       "attributes": {
         "labels": [
           "Skill DMG|{param3:P}",
@@ -673,17 +648,14 @@
     },
     "passive1": {
       "name": "Life-Prolonging Methods",
-      "descriptionRaw": "When a character under the effects of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
       "description": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
     },
     "passive2": {
       "name": "A Glimpse Into Arcanum",
-      "descriptionRaw": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
       "description": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s."
     },
     "passive3": {
       "name": "Former Life Memories",
-      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map.",
       "description": "Displays the location of nearby resources unique to Liyue on the mini-map."
     },
     "costs": {
@@ -881,32 +853,26 @@
     "name": "Qiqi",
     "c1": {
       "name": "Ascetics of Frost",
-      "descriptionRaw": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
       "description": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy."
     },
     "c2": {
       "name": "Frozen to the Bone",
-      "descriptionRaw": "Qiqi's Normal and Charged Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.",
       "description": "Qiqi's Normal and Charged Attack DMG against opponents affected by Cryo is increased by 15%."
     },
     "c3": {
       "name": "Ascendant Praise",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Adeptus Art: Preserver of Fortune by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Divine Suppression",
-      "descriptionRaw": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
       "description": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%."
     },
     "c5": {
       "name": "Crimson Lotus Bloom",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Adeptus Art: Herald of Frost by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Rite of Resurrection",
-      "descriptionRaw": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins.",
       "description": "Using Adeptus Art: Preserver of Fortune revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins."
     },
     "images": {
@@ -1639,6 +1605,22 @@
       "hp": 12368.369914800001,
       "attack": 287.01405600000004,
       "defense": 922.2652440000002,
+      "specialized": 0.2215
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12807.430974,
+      "attack": 319.30113600000004,
+      "defense": 955.00422,
+      "specialized": 0.2215
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13247.4548864,
+      "attack": 351.588216,
+      "defense": 987.8149920000001,
       "specialized": 0.2215
     },
     "20+": {

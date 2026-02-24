@@ -6,26 +6,17 @@
     "description": "The owner of Bubu Pharmacy, who is rarely seen without the white snake named Changsheng. His medicinal knowledge is encyclopedic, and his personal intrigues subtle.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_MALE",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "4/25",
     "birthday": "April 25",
+    "birthdaymmdd": "4/25",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Bubu Pharmacy",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Lagenaria",
-    "cv": {
-      "english": "Sean Durrie & Xanthe Huynh",
-      "chinese": "秦且歌 & 王晓彤",
-      "japanese": "遊佐浩二 & 庄子裕衣",
-      "korean": "Yi Ho-san & Jang Mi"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/7e0096b8907484d2c530a57a0d0bda80_6830097800800736702.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/7f741e68d13763893e9765114653dbba_6767301111904721877.png",
       "filename_icon": "UI_AvatarIcon_Baizhuer",
       "filename_iconCard": "UI_AvatarIcon_Baizhuer_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Baizhuer",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Baizhuer",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Baizhuer",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Baizhuer.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/05599650d7f42e1c4adde373de6b297d_8001303176243726128.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Baizhuer"
     },
     "version": "3.6"
   },
@@ -204,7 +190,6 @@
     "name": "Baizhu",
     "combat1": {
       "name": "The Classics of Acupuncture",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 attacks that deal <color=#99FF88FF>Dendro DMG</color> to opponents in front of him.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#99FF88FF>AoE Dendro DMG</color> to opponents in front of him after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nCalling upon the might of Dendro, Baizhu plunges towards the ground from mid-air, damaging all opponents in his path. Deals <color=#99FF88FF>AoE Dendro DMG</color> upon impact with the ground.",
       "description": "Normal Attack\nPerforms up to 4 attacks that deal Dendro DMG to opponents in front of him.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Dendro DMG to opponents in front of him after a short casting time.\n\nPlunging Attack\nCalling upon the might of Dendro, Baizhu plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Dendro DMG upon impact with the ground.",
       "attributes": {
         "labels": [
@@ -376,9 +361,7 @@
     },
     "combat2": {
       "name": "Universal Diagnosis",
-      "descriptionRaw": "Controls a Gossamer Sprite that cruises and attacks nearby opponents, dealing <color=#99FF88FF>Dendro DMG</color>.\nAfter it performs 3 attacks or if there are no opponents nearby, the Sprite will return, healing all nearby party members based on Baizhu's Max HP.\n\n<i>Those in the medical field who can read true signs of illness from false ones may even cure people before any symptoms can show.</i>",
       "description": "Controls a Gossamer Sprite that cruises and attacks nearby opponents, dealing Dendro DMG.\nAfter it performs 3 attacks or if there are no opponents nearby, the Sprite will return, healing all nearby party members based on Baizhu's Max HP.",
-      "flavorText": "Those in the medical field who can read true signs of illness from false ones may even cure people before any symptoms can show.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -459,9 +442,7 @@
     },
     "combat3": {
       "name": "Holistic Revivification",
-      "descriptionRaw": "Enters the Pulsing Clarity state, creating a Seamless Shield that absorbs <color=#99FF88FF>Dendro DMG</color> with 250% effectiveness.\nWhile in this state, Baizhu will generate a new Seamless Shield every 2.5s.\n\nThe Seamless Shield will heal your own active character based on Baizhu's Max HP and attack opponents by unleashing Spiritveins, dealing <color=#99FF88FF>Dendro DMG</color> under the following circumstances:\n·When a character is under the protection of a Seamless Shield and a new Seamless Shield is generated.\n·When the Seamless Shield's effects expire, or when it is shattered.\n\n<i>If you can perceive the heavens and the earth, defend against malignant auras with the flow of qi, and keep your mind clear, surely nothing can hinder you.</i>",
       "description": "Enters the Pulsing Clarity state, creating a Seamless Shield that absorbs Dendro DMG with 250% effectiveness.\nWhile in this state, Baizhu will generate a new Seamless Shield every 2.5s.\n\nThe Seamless Shield will heal your own active character based on Baizhu's Max HP and attack opponents by unleashing Spiritveins, dealing Dendro DMG under the following circumstances:\n·When a character is under the protection of a Seamless Shield and a new Seamless Shield is generated.\n·When the Seamless Shield's effects expire, or when it is shattered.",
-      "flavorText": "If you can perceive the heavens and the earth, defend against malignant auras with the flow of qi, and keep your mind clear, surely nothing can hinder you.",
       "attributes": {
         "labels": [
           "Seamless Shield DMG Absorption|{param1:F2P} Max HP+{param2:I}",
@@ -648,17 +629,14 @@
     },
     "passive1": {
       "name": "Five Fortunes Forever",
-      "descriptionRaw": "Baizhu gains different effects according to the current HP of your current active character:\n·When their HP is less than 50%, Baizhu gains 20% Healing Bonus.\n·When their HP is equal to or more than 50%, Baizhu gains 25% <color=#99FF88FF>Dendro DMG Bonus</color>.",
       "description": "Baizhu gains different effects according to the current HP of your current active character:\n·When their HP is less than 50%, Baizhu gains 20% Healing Bonus.\n·When their HP is equal to or more than 50%, Baizhu gains 25% Dendro DMG Bonus."
     },
     "passive2": {
       "name": "All Things Are of the Earth",
-      "descriptionRaw": "Characters who are healed by <color=#FFD780FF>Seamless Shields</color> will gain the Year of Verdant Favor effect: Each 1,000 Max HP that Baizhu possesses that does not exceed 50,000 will increase the Burning, Bloom, Hyperbloom, and Burgeon reaction DMG dealt by these characters by 2%, their Lunar-Bloom DMG by 0.7%, and the DMG Bonus provided by Aggravate and Spread by 0.8%. This effect lasts 6s.",
       "description": "Characters who are healed by Seamless Shields will gain the Year of Verdant Favor effect: Each 1,000 Max HP that Baizhu possesses that does not exceed 50,000 will increase the Burning, Bloom, Hyperbloom, and Burgeon reaction DMG dealt by these characters by 2%, their Lunar-Bloom DMG by 0.7%, and the DMG Bonus provided by Aggravate and Spread by 0.8%. This effect lasts 6s."
     },
     "passive3": {
       "name": "Herbal Nourishment",
-      "descriptionRaw": "When Baizhu is in the party, interacting with certain harvestable items will heal your current active character for 2.5% of Baizhu's Max HP.",
       "description": "When Baizhu is in the party, interacting with certain harvestable items will heal your current active character for 2.5% of Baizhu's Max HP."
     },
     "costs": {
@@ -856,32 +834,26 @@
     "name": "Baizhu",
     "c1": {
       "name": "Attentive Observation",
-      "descriptionRaw": "<color=#FFD780FF>Universal Diagnosis</color> gains 1 additional charge.",
       "description": "Universal Diagnosis gains 1 additional charge."
     },
     "c2": {
       "name": "Incisive Discernment",
-      "descriptionRaw": "When your own active character hits a nearby opponent with their attacks, Baizhu will unleash a Gossamer Sprite: Splice.\nGossamer Sprite: Splice will initiate 1 attack before returning, dealing 250% of Baizhu's ATK as <color=#99FF88FF>Dendro DMG</color> and healing for 20% of <color=#FFD780FF>Universal Diagnosis</color>'s Gossamer Sprite's normal healing.\nDMG dealt this way is considered Elemental Skill DMG.\nThis effect can be triggered once every 5s.",
       "description": "When your own active character hits a nearby opponent with their attacks, Baizhu will unleash a Gossamer Sprite: Splice.\nGossamer Sprite: Splice will initiate 1 attack before returning, dealing 250% of Baizhu's ATK as Dendro DMG and healing for 20% of Universal Diagnosis's Gossamer Sprite's normal healing.\nDMG dealt this way is considered Elemental Skill DMG.\nThis effect can be triggered once every 5s."
     },
     "c3": {
       "name": "All Aspects Stabilized",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Holistic Revivification</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Holistic Revivification by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Ancient Art of Perception",
-      "descriptionRaw": "For 15s after <color=#FFD780FF>Holistic Revivification</color> is used, Baizhu will increase all nearby party members' Elemental Mastery by 80.",
       "description": "For 15s after Holistic Revivification is used, Baizhu will increase all nearby party members' Elemental Mastery by 80."
     },
     "c5": {
       "name": "The Hidden Ebb and Flow",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Universal Diagnosis</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Universal Diagnosis by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Elimination of Malicious Qi",
-      "descriptionRaw": "Increases the DMG dealt by <color=#FFD780FF>Holistic Revivification</color>'s Spiritveins by 8% of Baizhu's Max HP.\nAdditionally, when a <color=#FFD780FF>Gossamer Sprite</color> or Gossamer Sprite: Splice hits opponents, there is a 100% chance of generating one of <color=#FFD780FF>Holistic Revivification</color>'s Seamless Shields. This effect can only be triggered once by each Gossamer Sprite or Gossamer Sprite: Splice.",
       "description": "Increases the DMG dealt by Holistic Revivification's Spiritveins by 8% of Baizhu's Max HP.\nAdditionally, when a Gossamer Sprite or Gossamer Sprite: Splice hits opponents, there is a 100% chance of generating one of Holistic Revivification's Seamless Shields. This effect can only be triggered once by each Gossamer Sprite or Gossamer Sprite: Splice."
     },
     "images": {
@@ -1614,6 +1586,22 @@
       "hp": 13348.0427932,
       "attack": 192.53859490000002,
       "defense": 499.56034050000005,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13821.880966,
+      "attack": 214.1978444,
+      "defense": 517.2939525,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14296.758257599999,
+      "attack": 235.8570939,
+      "defense": 535.066454,
       "specialized": 0.288
     },
     "20+": {

@@ -6,26 +6,17 @@
     "description": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "7/27",
     "birthday": "July 27",
+    "birthdaymmdd": "7/27",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Knights of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_FIRE_ADD_HURT",
     "substatText": "Pyro DMG Bonus",
     "constellation": "Trifolium",
-    "cv": {
-      "english": "Poonam Basu",
-      "chinese": "花玲",
-      "japanese": "久野美咲",
-      "korean": "Bang Yeon-ji"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Character_Klee_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/16cff1c00f651f98427fc3fbab7fc855_1896139197098586359.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200103/2020010311014850622.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/cb31fe8dae809ebdbc72039cba527501.png",
       "filename_icon": "UI_AvatarIcon_Klee",
       "filename_iconCard": "UI_AvatarIcon_Klee_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Klee",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Klee",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Klee",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Klee.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Klee_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Klee"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Klee"
     },
     "version": "1.0"
   },
@@ -210,7 +190,6 @@
     "name": "Klee",
     "combat1": {
       "name": "Kaboom!",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nThrows things that go boom when they hit things! Performs up to 3 explosive attacks, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina and deals <color=#FF9999FF>AoE Pyro DMG</color> to opponents after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FF9999FF>AoE Pyro DMG</color> upon impact with the ground.",
       "description": "Normal Attack\nThrows things that go boom when they hit things! Performs up to 3 explosive attacks, dealing AoE Pyro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina and deals AoE Pyro DMG to opponents after a short casting time.\n\nPlunging Attack\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground.",
       "attributes": {
         "labels": [
@@ -364,9 +343,7 @@
     },
     "combat2": {
       "name": "Jumpy Dumpty",
-      "descriptionRaw": "Jumpy Dumpty is tons of boom-bang-fun! \nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing <color=#FF9999FF>AoE Pyro DMG</color> with every bounce.\n\nOn the third bounce, the bomb splits into many mines.\nThe mines will explode upon contact with opponents, or after a short period of time, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\nStarts with 2 charges.\n\n<i>Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.</i>",
       "description": "Jumpy Dumpty is tons of boom-bang-fun! \nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE Pyro DMG with every bounce.\n\nOn the third bounce, the bomb splits into many mines.\nThe mines will explode upon contact with opponents, or after a short period of time, dealing AoE Pyro DMG.\n\nStarts with 2 charges.",
-      "flavorText": "Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.",
       "attributes": {
         "labels": [
           "Jumpy Dumpty DMG|{param1:F1P}",
@@ -482,9 +459,7 @@
     },
     "combat3": {
       "name": "Sparks 'n' Splash",
-      "descriptionRaw": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...</i>",
       "description": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing AoE Pyro DMG.",
-      "flavorText": "The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...",
       "attributes": {
         "labels": [
           "Sparks 'n' Splash DMG|{param1:F1P}",
@@ -583,18 +558,19 @@
     },
     "passive1": {
       "name": "Pounding Surprise",
-      "descriptionRaw": "When <color=#FFD780FF>Jumpy Dumpty</color> and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
       "description": "When Jumpy Dumpty and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG."
     },
     "passive2": {
       "name": "Sparkling Burst",
-      "descriptionRaw": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy.",
       "description": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy."
     },
     "passive3": {
       "name": "All Of My Treasures!",
-      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Mondstadt</color> on the mini-map.",
       "description": "Displays the location of nearby resources unique to Mondstadt on the mini-map."
+    },
+    "passive4": {
+      "name": "Witch's Eve Rite: Sparkborne Magic",
+      "description": "After completing Witch's Homework: Of Leaves That Spark, Klee will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nWhen Klee deals DMG with Normal Attacks, Elemental Skills, or Elemental Bursts, she gains 1 Boom Badge that lasts 20s. Each type of attack can grant at most 1 Boom Badge this way, and each badge has its own independent timer. While Klee has 1/2/3 Boom Badges, her special Charged Attack Boom-Boom Strike deals 115%/130%/150% of its original DMG."
     },
     "costs": {
       "lvl2": [
@@ -782,7 +758,8 @@
       "filename_combat3": "Skill_E_Klee_01_HD",
       "filename_passive1": "UI_Talent_S_Klee_05",
       "filename_passive2": "UI_Talent_S_Klee_06",
-      "filename_passive3": "UI_Talent_Collect_Local_Mengde"
+      "filename_passive3": "UI_Talent_Collect_Local_Mengde",
+      "filename_passive4": "UI_Talent_S_Klee_07"
     },
     "version": "1.0"
   },
@@ -791,33 +768,27 @@
     "name": "Klee",
     "c1": {
       "name": "Chained Reactions",
-      "descriptionRaw": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <color=#FFD780FF>Sparks 'n' Splash</color>'s DMG.",
-      "description": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of Sparks 'n' Splash's DMG."
+      "description": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of Sparks 'n' Splash's DMG.\nFor 12s after triggering the above effect, Klee's ATK is increased by 60%."
     },
     "c2": {
       "name": "Explosive Frags",
-      "descriptionRaw": "Being hit by <color=#FFD780FF>Jumpy Dumpty</color>'s mines decreases opponents' DEF by 23% for 10s.",
       "description": "Being hit by Jumpy Dumpty's mines decreases opponents' DEF by 23% for 10s."
     },
     "c3": {
       "name": "Exquisite Compound",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Jumpy Dumpty</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Jumpy Dumpty by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Sparkly Explosion",
-      "descriptionRaw": "If Klee leaves the field during the duration of <color=#FFD780FF>Sparks 'n' Splash</color>, her departure triggers an explosion that deals 555% of her ATK as <color=#FF9999FF>AoE Pyro DMG</color>.",
-      "description": "If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 555% of her ATK as AoE Pyro DMG."
+      "description": "An explosion will be triggered if Klee leaves the field while Sparks 'n' Splash is active or when Sparks 'n' Splash ends, dealing 555% of ATK as AoE Pyro DMG. If Klee is on-field when the explosion occurs, its DMG will be increased by 100%."
     },
     "c5": {
       "name": "Nova Burst",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Sparks 'n' Splash</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Sparks 'n' Splash by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Blazing Delight",
-      "descriptionRaw": "While under the effects of <color=#FFD780FF>Sparks 'n' Splash</color>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\nWhen <color=#FFD780FF>Sparks 'n' Splash</color> is used, all party members will gain a 10% <color=#FF9999FF>Pyro DMG Bonus</color> for 25s.",
-      "description": "While under the effects of Sparks 'n' Splash, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\nWhen Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s."
+      "description": "While under the effects of Sparks 'n' Splash, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\nFor 25s after Sparks 'n' Splash is used, all other party members will gain a 10% Pyro DMG Bonus, and Klee will gain a 50% Pyro DMG Bonus.\n\nHexerei: Secret Rite\n· When Klee uses an Explosive Spark, there is a 50% chance it will not be consumed. Additionally, while Sparks 'n' Splash is active, Klee's Normal Attacks have a 40% chance on the first and second hits to consume an Explosive Spark, dealing an additional attack equivalent to Boom-Boom Strike to her opponent(s)."
     },
     "images": {
       "filename_c1": "UI_Talent_S_Klee_01",
@@ -1549,6 +1520,22 @@
       "hp": 10286.5650232,
       "attack": 310.931894,
       "defense": 614.843496,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10651.724716,
+      "attack": 345.909564,
+      "defense": 636.66948,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11017.6851976,
+      "attack": 380.887234,
+      "defense": 658.543328,
       "specialized": 0.288
     },
     "20+": {

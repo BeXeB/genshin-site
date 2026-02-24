@@ -6,26 +6,17 @@
     "description": "A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "5/8",
     "birthday": "May 8",
+    "birthdaymmdd": "5/8",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Gandharva Ville",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Leptailurus Cervarius",
-    "cv": {
-      "english": "Christina Costello",
-      "chinese": "秦文静",
-      "japanese": "前川涼子",
-      "korean": "Bang Siu"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/23/2c752da0a5921583011a4ec36f83703c_2223942731920819478.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/23/2466e194064e0306c4290a252269593c_8578361332348289831.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/7d6142936ebd4cfd4b5501f187cc4be7.png",
       "filename_icon": "UI_AvatarIcon_Collei",
       "filename_iconCard": "UI_AvatarIcon_Collei_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Collei",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Collei",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Collei",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Collei.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/24/194600931/37a18b6b6865c59063003a9380f08225_7758071773430345954.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Collei"
     },
     "version": "3.0"
   },
@@ -205,7 +190,6 @@
     "name": "Collei",
     "combat1": {
       "name": "Supplicant's Bowmanship",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, Dendro energy will accumulate on the arrowhead. A fully charged arrow will deal <color=#99FF88FF>Dendro DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, Dendro energy will accumulate on the arrowhead. A fully charged arrow will deal Dendro DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -377,9 +361,7 @@
     },
     "combat2": {
       "name": "Floral Brush",
-      "descriptionRaw": "Throws out a Floral Ring that deals 1 instance of <color=#99FF88FF>Dendro DMG</color> to targets it comes into contact with.\nThe Floral Ring will return after a set time, dealing <color=#99FF88FF>Dendro DMG</color> once again.\n\n<i>This is Collei's go-to gadget for dealing with unruly wild beasts. A few good thwacks from this tool will generally improve their behavior. This same principle works just as well on evildoers.</i>",
       "description": "Throws out a Floral Ring that deals 1 instance of Dendro DMG to targets it comes into contact with.\nThe Floral Ring will return after a set time, dealing Dendro DMG once again.",
-      "flavorText": "This is Collei's go-to gadget for dealing with unruly wild beasts. A few good thwacks from this tool will generally improve their behavior. This same principle works just as well on evildoers.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -425,9 +407,7 @@
     },
     "combat3": {
       "name": "Trump-Card Kitty",
-      "descriptionRaw": "Trusty Cuilein-Anbar comes to save the day!\nThrows the doll named Cuilein-Anbar, causing an explosion that deals <color=#99FF88FF>AoE Dendro DMG</color>, creating a Cuilein-Anbar Zone. Cuilein-Anbar will bounce around within this zone, dealing <color=#99FF88FF>AoE Dendro DMG</color>.\n\n<i>\"Pretty impressive, huh? ... Eh? You want to know how I came up with the name Cuilein-Anbar? Uh, well, I...\"</i>",
       "description": "Trusty Cuilein-Anbar comes to save the day!\nThrows the doll named Cuilein-Anbar, causing an explosion that deals AoE Dendro DMG, creating a Cuilein-Anbar Zone. Cuilein-Anbar will bounce around within this zone, dealing AoE Dendro DMG.",
-      "flavorText": "\"Pretty impressive, huh? ... Eh? You want to know how I came up with the name Cuilein-Anbar? Uh, well, I...\"",
       "attributes": {
         "labels": [
           "Explosion DMG|{param1:F1P}",
@@ -527,17 +507,14 @@
     },
     "passive1": {
       "name": "Floral Sidewinder",
-      "descriptionRaw": "If one of your party members has triggered Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, Burgeon, or Lunar-Bloom reactions before the <color=#FFD780FF>Floral Ring</color> returns, it will grant the character the Sprout effect upon return, which will continuously deal <color=#99FF88FF>Dendro DMG</color> equivalent to 40% of Collei's ATK to nearby opponents for 3s.\nIf another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.",
       "description": "If one of your party members has triggered Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, Burgeon, or Lunar-Bloom reactions before the Floral Ring returns, it will grant the character the Sprout effect upon return, which will continuously deal Dendro DMG equivalent to 40% of Collei's ATK to nearby opponents for 3s.\nIf another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG."
     },
     "passive2": {
       "name": "The Languid Wood",
-      "descriptionRaw": "When a character within the <color=#FFD780FF>Cuilein-Anbar Zone</color> triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, Burgeon, or Lunar-Bloom reactions, the Zone's duration will be increased by 1s.\nA single <color=#FFD780FF>Trump-Card Kitty</color> can be extended this way by up to 3s.",
       "description": "When a character within the Cuilein-Anbar Zone triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, Burgeon, or Lunar-Bloom reactions, the Zone's duration will be increased by 1s.\nA single Trump-Card Kitty can be extended this way by up to 3s."
     },
     "passive3": {
       "name": "Gliding Champion of Sumeru",
-      "descriptionRaw": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
       "description": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
     },
     "costs": {
@@ -735,32 +712,26 @@
     "name": "Collei",
     "c1": {
       "name": "Deepwood Patrol",
-      "descriptionRaw": "When in the party and not on the field, Collei's Energy Recharge is increased by 20%.",
       "description": "When in the party and not on the field, Collei's Energy Recharge is increased by 20%."
     },
     "c2": {
       "name": "Through Hill and Copse",
-      "descriptionRaw": "The Ascension Talent Floral Sidewinder is changed to this:\nThe <color=#FFD780FF>Floral Ring</color> will grant the character the Sprout effect from Floral Sidewinder upon return, dealing 40% of Collei's ATK as <color=#99FF88FF>Dendro DMG</color> to nearby opponents for 3s.\nFrom the moment of using <color=#FFD780FF>Floral Brush</color> to the moment when this instance of Sprout effect ends, if any of your party members triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, Lunar-Bloom, or Burgeon reactions, the Sprout effect will be extended by 3s.\nThe Sprout effect can only be extended this way once. If another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.\nYou must first unlock the Ascension Talent \"Floral Sidewinder.\"",
       "description": "The Ascension Talent Floral Sidewinder is changed to this:\nThe Floral Ring will grant the character the Sprout effect from Floral Sidewinder upon return, dealing 40% of Collei's ATK as Dendro DMG to nearby opponents for 3s.\nFrom the moment of using Floral Brush to the moment when this instance of Sprout effect ends, if any of your party members triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, Lunar-Bloom, or Burgeon reactions, the Sprout effect will be extended by 3s.\nThe Sprout effect can only be extended this way once. If another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.\nYou must first unlock the Ascension Talent \"Floral Sidewinder.\""
     },
     "c3": {
       "name": "Scent of Summer",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Floral Brush</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Floral Brush by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Gift of the Woods",
-      "descriptionRaw": "Using <color=#FFD780FF>Trump-Card Kitty</color> will increase all nearby characters' Elemental Mastery by 60 for 12s (not including Collei herself).",
       "description": "Using Trump-Card Kitty will increase all nearby characters' Elemental Mastery by 60 for 12s (not including Collei herself)."
     },
     "c5": {
       "name": "All Embers",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Trump-Card Kitty</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Trump-Card Kitty by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Forest of Falling Arrows",
-      "descriptionRaw": "When the <color=#FFD780FF>Floral Ring</color> hits, it will create a miniature Cuilein-Anbar that will deal 200% of Collei's ATK as <color=#99FF88FF>Dendro DMG</color>.\nEach <color=#FFD780FF>Floral Brush</color> can only create one such miniature Cuilein-Anbar.",
       "description": "When the Floral Ring hits, it will create a miniature Cuilein-Anbar that will deal 200% of Collei's ATK as Dendro DMG.\nEach Floral Brush can only create one such miniature Cuilein-Anbar."
     },
     "images": {
@@ -1493,6 +1464,22 @@
       "hp": 9787.4235531,
       "attack": 199.65335947999998,
       "defense": 600.6189420000001,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10125.515655899999,
+      "attack": 225.11416939999998,
+      "defense": 621.366438,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10464.428370599999,
+      "attack": 250.59171883999997,
+      "defense": 642.1642919999999,
       "specialized": 0.24
     },
     "20+": {

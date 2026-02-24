@@ -6,26 +6,17 @@
     "description": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "2/14",
     "birthday": "February 14",
+    "birthdaymmdd": "2/14",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "The Crux",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ELEC_ADD_HURT",
     "substatText": "Electro DMG Bonus",
     "constellation": "Victor Mare",
-    "cv": {
-      "english": "Allegra Clark",
-      "chinese": "唐雅菁",
-      "japanese": "小清水亜美",
-      "korean": "Jung Yoo-mi"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Character_Beidou_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Character_Beidou_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/01d9b164e0de2611c84ccdec5b84ced8_6933755020052845255.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200227/2020022720104965706.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/515effa5bfabb8fc03a52cbf76a4a79e.png",
       "filename_icon": "UI_AvatarIcon_Beidou",
       "filename_iconCard": "UI_AvatarIcon_Beidou_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Beidou",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Beidou",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Beidou",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Beidou.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Beidou_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Beidou"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Beidou"
     },
     "version": "1.0"
   },
@@ -210,7 +190,6 @@
     "name": "Beidou",
     "combat1": {
       "name": "Oceanborne",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 5 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -436,9 +415,7 @@
     },
     "combat2": {
       "name": "Tidecaller",
-      "descriptionRaw": "#Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <color=#FFACFFFF>Electro DMG</color>. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\nThe shield possesses the following properties:\n·Has 250% <color=#FFACFFFF>Electro DMG</color> Absorption Efficiency.\n·Applies the <color=#FFACFFFF>Electro element</color> to Beidou upon activation.\n\n<i>Conquer the high seas! Pursue the waves and chase the storm!</i>",
       "description": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\nPress\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing Electro DMG.\n\nHold\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing Electro DMG. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\nThe shield possesses the following properties:\n·Has 250% Electro DMG Absorption Efficiency.\n·Applies the Electro element to Beidou upon activation.",
-      "flavorText": "Conquer the high seas! Pursue the waves and chase the storm!",
       "attributes": {
         "labels": [
           "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
@@ -537,9 +514,7 @@
     },
     "combat3": {
       "name": "Stormbreaker",
-      "descriptionRaw": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <color=#FFACFFFF>Electro DMG</color> to nearby opponents.\n\n<color=#FFD780FF>Thunderbeast's Targe</color>\n·When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing <color=#FFACFFFF>Electro DMG</color>.\n·Increases the character's resistance to interruption, and decreases DMG taken.\n\nA maximum of 1 lightning discharge can be triggered per second.\n\n<i>With a peal of thunder, Haishan is slain.</i>",
       "description": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing Electro DMG to nearby opponents.\n\nThunderbeast's Targe\n·When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing Electro DMG.\n·Increases the character's resistance to interruption, and decreases DMG taken.\n\nA maximum of 1 lightning discharge can be triggered per second.",
-      "flavorText": "With a peal of thunder, Haishan is slain.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -657,17 +632,14 @@
     },
     "passive1": {
       "name": "Retribution",
-      "descriptionRaw": "Counterattacking with <color=#FFD780FF>Tidecaller</color> at the precise moment when the character is hit grants the maximum DMG Bonus.",
       "description": "Counterattacking with Tidecaller at the precise moment when the character is hit grants the maximum DMG Bonus."
     },
     "passive2": {
       "name": "Lightning Storm",
-      "descriptionRaw": "Gain the following effects for 10s after unleashing <color=#FFD780FF>Tidecaller</color> with its maximum DMG Bonus: \n·DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\n·Greatly reduced delay before unleashing Charged Attacks.",
       "description": "Gain the following effects for 10s after unleashing Tidecaller with its maximum DMG Bonus: \n·DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\n·Greatly reduced delay before unleashing Charged Attacks."
     },
     "passive3": {
       "name": "Conqueror of Tides",
-      "descriptionRaw": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
       "description": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
     },
     "costs": {
@@ -865,32 +837,26 @@
     "name": "Beidou",
     "c1": {
       "name": "Sea Beast's Scourge",
-      "descriptionRaw": "When <color=#FFD780FF>Stormbreaker</color> is used:\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\nThis shield absorbs <color=#FFACFFFF>Electro DMG</color> 250% more effectively.",
       "description": "When Stormbreaker is used:\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\nThis shield absorbs Electro DMG 250% more effectively."
     },
     "c2": {
       "name": "Upon the Turbulent Sea, the Thunder Arises",
-      "descriptionRaw": "<color=#FFD780FF>Stormbreaker</color>'s arc lightning can jump to 2 additional targets.",
       "description": "Stormbreaker's arc lightning can jump to 2 additional targets."
     },
     "c3": {
       "name": "Summoner of Storm",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Tidecaller</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Tidecaller by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Stunning Revenge",
-      "descriptionRaw": "Upon being attacked, Beidou's Normal Attacks gain an additional instance of 20% <color=#FFACFFFF>Electro DMG</color> for 10s.",
       "description": "Upon being attacked, Beidou's Normal Attacks gain an additional instance of 20% Electro DMG for 10s."
     },
     "c5": {
       "name": "Crimson Tidewalker",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Stormbreaker</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Stormbreaker by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Bane of Evil",
-      "descriptionRaw": "During the duration of <color=#FFD780FF>Stormbreaker</color>, the <color=#FFACFFFF>Electro RES</color> of surrounding opponents is decreased by 15%.",
       "description": "During the duration of Stormbreaker, the Electro RES of surrounding opponents is decreased by 15%."
     },
     "images": {
@@ -1623,6 +1589,22 @@
       "hp": 13049.897870800001,
       "attack": 225.14102152,
       "defense": 648.39544875,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13500.6873412,
+      "attack": 253.8521476,
+      "defense": 670.7933137499999,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13952.5709608,
+      "attack": 282.58215015999997,
+      "defense": 693.2455425,
       "specialized": 0.24
     },
     "20+": {

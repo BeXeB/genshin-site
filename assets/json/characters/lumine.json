@@ -6,26 +6,17 @@
     "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "",
     "birthday": "",
+    "birthdaymmdd": "",
     "elementType": "ELEMENT_NONE",
     "elementText": "None",
     "affiliation": "",
-    "associationType": "ASSOC_MAINACTOR",
     "region": "",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Viatrix",
-    "cv": {
-      "english": "Sarah Miller-Crews & Various Artists",
-      "chinese": "宴宁 & 多多poi",
-      "japanese": "悠木碧 & 古賀葵",
-      "korean": "Lee Sae-ah & Kim Ka-ryoung"
-    },
     "costs": {
       "ascend1": [
         {
@@ -161,23 +152,12 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Traveler_Female_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Character_Traveler_%28Female%29_Portrait.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/f11f153ff86acab65e3610f73b0d1728.png",
       "filename_icon": "UI_AvatarIcon_PlayerGirl",
       "filename_iconCard": "UI_AvatarIcon_PlayerGirl_Card",
-      "filename_sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerGirl.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_PlayerGirl.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Traveler_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Lumine"
+      "filename_sideIcon": "UI_AvatarIcon_Side_PlayerGirl"
     },
     "version": "1.0"
   },
-  "skills": "",
-  "constellation": "",
   "stats": {
     "1": {
       "level": 1,
@@ -897,6 +877,22 @@
       "hp": 10874.914859,
       "attack": 212.397192,
       "defense": 682.521525,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11250.572751,
+      "attack": 239.48315999999997,
+      "defense": 706.098225,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11627.142434000001,
+      "attack": 266.586936,
+      "defense": 729.7321499999999,
       "specialized": 0.24
     },
     "20+": {

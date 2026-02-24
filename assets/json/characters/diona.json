@@ -6,26 +6,17 @@
     "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "1/18",
     "birthday": "January 18",
+    "birthdaymmdd": "1/18",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "The Cat's Tail",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_ICE_ADD_HURT",
     "substatText": "Cryo DMG Bonus",
     "constellation": "Feles",
-    "cv": {
-      "english": "Dina Sherman",
-      "chinese": "诺亚",
-      "japanese": "井澤詩織",
-      "korean": "Woo Jeong-shin"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Character_Diona_Card.png",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Diona_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/fb11c57bf9789d760d70d35ce634ebe1_7535039246777100657.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201106/2020110618595613115.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/d4e511080346c2ce43636eeb10dd7226.png",
       "filename_icon": "UI_AvatarIcon_Diona",
       "filename_iconCard": "UI_AvatarIcon_Diona_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Diona",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Diona",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diona",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Diona.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Diona_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Diona"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diona"
     },
     "version": "1.1"
   },
@@ -210,7 +190,6 @@
     "name": "Diona",
     "combat1": {
       "name": "Kätzlein Style",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
       "description": "Normal Attack\nPerforms up to 5 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
       "attributes": {
         "labels": [
@@ -400,9 +379,7 @@
     },
     "combat2": {
       "name": "Icy Paws",
-      "descriptionRaw": "#Fires an Icy Paw that deals <color=#99FFFFFF>Cryo DMG</color> to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nRapidly fires off 2 Icy Paws.\n\n<color=#FFD780FF>Hold</color>\nDashes back quickly before firing 5 Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% <color=#99FFFFFF>Cryo DMG</color> Absorption Bonus, and will cause your active character to become affected by <color=#99FFFFFF>Cryo</color> at the point of formation for a short duration.\n\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>",
       "description": "Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\nPress\nRapidly fires off 2 Icy Paws.\n\nHold\nDashes back quickly before firing 5 Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.",
-      "flavorText": "When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!",
       "attributes": {
         "labels": [
           "Icy Paw DMG|{param1:F1P} per Paw",
@@ -519,9 +496,7 @@
     },
     "combat3": {
       "name": "Signature Mix",
-      "descriptionRaw": "Tosses out a special cold brew that deals <color=#99FFFFFF>AoE Cryo DMG</color> and creates a Drunken Mist in an AoE.\n\n<color=#FFD780FF>Drunken Mist</color>\n·Deals continuous <color=#99FFFFFF>Cryo DMG</color> to opponents within the AoE.\n·Continuously regenerates the HP of characters within the AoE.\n\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>",
       "description": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\n\nDrunken Mist\n·Deals continuous Cryo DMG to opponents within the AoE.\n·Continuously regenerates the HP of characters within the AoE.",
-      "flavorText": "A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -656,17 +631,14 @@
     },
     "passive1": {
       "name": "Cat's Tail Secret Menu",
-      "descriptionRaw": "Characters shielded by <color=#FFD780FF>Icy Paws</color> have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
       "description": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
     },
     "passive2": {
       "name": "Drunkards' Farce",
-      "descriptionRaw": "Opponents who enter the AoE of <color=#FFD780FF>Signature Mix</color> have 10% decreased ATK for 15s.",
       "description": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s."
     },
     "passive3": {
       "name": "Complimentary Bar Food",
-      "descriptionRaw": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
       "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
     },
     "costs": {
@@ -864,32 +836,26 @@
     "name": "Diona",
     "c1": {
       "name": "A Lingering Flavor",
-      "descriptionRaw": "Regenerates 15 Energy for Diona after the effects of <color=#FFD780FF>Signature Mix</color> end.",
       "description": "Regenerates 15 Energy for Diona after the effects of Signature Mix end."
     },
     "c2": {
       "name": "Shaken, Not Purred",
-      "descriptionRaw": "Increases <color=#FFD780FF>Icy Paws</color>' DMG by 15%, and increases its shield's DMG Absorption by 15%.\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the <color=#FFD780FF>Icy Paws</color> shield's DMG Absorption for 5s.",
       "description": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%.\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s."
     },
     "c3": {
       "name": "A—Another Round?",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Signature Mix</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Signature Mix by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Wine Industry Slayer",
-      "descriptionRaw": "Within the radius of <color=#FFD780FF>Signature Mix</color>, Diona's charge time for aimed shots is reduced by 60%",
       "description": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%"
     },
     "c5": {
       "name": "Double Shot, on the Rocks",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Icy Paws</color> by 3.\nMaximum upgrade level is 15.",
       "description": "Increases the Level of Icy Paws by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Cat's Tail Closing Time",
-      "descriptionRaw": "Characters within <color=#FFD780FF>Signature Mix</color>'s radius will gain the following effects based on their HP amounts:\n·Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n·Elemental Mastery increased by 200 when HP is above 50%.",
       "description": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\n·Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n·Elemental Mastery increased by 200 when HP is above 50%."
     },
     "images": {
@@ -1622,6 +1588,22 @@
       "hp": 9569.925258899999,
       "attack": 212.397192,
       "defense": 600.6189420000001,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 9900.504212099999,
+      "attack": 239.48315999999997,
+      "defense": 621.366438,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10231.885541399999,
+      "attack": 266.586936,
+      "defense": 642.1642919999999,
       "specialized": 0.24
     },
     "20+": {
