@@ -34,10 +34,12 @@ export class OverviewProfileComponent {
     '80+',
     '85',
     '90',
+    '95',
+    '100',
   ];
 
   level: string = '90';
-  levelIndex: number = this.quickLevels.length - 1;
+  levelIndex: number = this.quickLevels.indexOf(this.level);
 
   updateLevelFromIndex() {
     this.level = this.quickLevels[this.levelIndex].toString();
@@ -46,14 +48,41 @@ export class OverviewProfileComponent {
   validateLevel() {
     const ascensionPattern = /^(20|40|50|60|70|80)\+$/;
     if (ascensionPattern.test(this.level)) {
+      this.setLevel(this.level);
       return;
     }
 
     let num = parseInt(this.level);
     if (isNaN(num)) {
-      this.level = '1';
+      this.setLevel('1');
     } else {
-      this.level = Math.min(90, Math.max(1, num)).toString();
+      if ((num >= 91 && num <= 94) || (num >= 96 && num <= 99)) {
+        this.setLevel('90');
+      } else {
+        num = Math.max(1, Math.min(100, num));
+        this.setLevel(num.toString());
+      }
     }
+  }
+
+  setLevel(level: string) {
+    this.level = level;
+
+    const index = this.quickLevels.indexOf(level);
+    console.log('Setting level to:', level, 'Index found:', index);
+
+    const closestIndex = this.quickLevels.reduce((closest, current, idx) => {
+      const currentNum = parseInt(current);
+      const closestNum = parseInt(this.quickLevels[closest]);
+      const targetNum = parseInt(level);
+      if (isNaN(currentNum) || isNaN(closestNum) || isNaN(targetNum)) {
+        return closest;
+      }
+      return Math.abs(currentNum - targetNum) < Math.abs(closestNum - targetNum)
+        ? idx
+        : closest;
+    }, 0);
+
+    this.levelIndex = index !== -1 ? index : closestIndex;
   }
 }

@@ -1,27 +1,44 @@
 import { Component, Input } from '@angular/core';
-import { Character, CombatSkill } from '../../../../_models/character';
+import { CombatSkill, PassiveSkill } from '../../../../../_models/character';
 import { FormsModule } from '@angular/forms';
-import { TalentDetailsComponent } from './talent-details/talent-details.component';
 
 @Component({
-  selector: 'app-overview-talents',
-  imports: [FormsModule, TalentDetailsComponent],
-  templateUrl: './talents.component.html',
-  styleUrl: './talents.component.css',
+  selector: 'app-talent-details',
+  imports: [FormsModule],
+  templateUrl: './talent-details.component.html',
+  styleUrl: './talent-details.component.css',
 })
-export class OverviewTalentsComponent {
-  @Input() char: Character | null = null;
-  @Input() apiKey: string | null = null;
+export class TalentDetailsComponent {
+  @Input() talent: CombatSkill | PassiveSkill | null = null;
   @Input() elementColor: string | null = null;
+  @Input() imageUrl: string | null = null;
 
-  talentLevels: number[] = [9, 9, 9];
+  talentLevel = 9;
+
+  incrementLevel() {
+    const max = 13;
+    if (this.talentLevel < max) {
+      this.talentLevel++;
+    }
+  }
+
+  decrementLevel() {
+    const min = 1;
+    if (this.talentLevel > min) {
+      this.talentLevel--;
+    }
+  }
 
   getTalentStats(
-    talent: CombatSkill,
+    talent: CombatSkill | PassiveSkill,
     level: number,
   ): { name: string; value: string }[] {
+    if (!this.IsCombatSkill) {
+      return [];
+    }
+    const combatSkill = talent as CombatSkill;
     const stats: { name: string; value: string }[] = [];
-    for (const label of talent.attributes.labels) {
+    for (const label of combatSkill.attributes.labels) {
       let stat = label;
       const regex = /{param(\d+):([A-Z, 0-9]+)}/g;
       let paramName: string | null = null;
@@ -32,7 +49,7 @@ export class OverviewTalentsComponent {
         format = match[2];
 
         if (paramName && format) {
-          const paramValue = talent.attributes.parameters[paramName][level - 1];
+          const paramValue = combatSkill.attributes.parameters[paramName][level - 1];
           let formattedValue: string;
           switch (format) {
             case 'F1P':
@@ -57,15 +74,7 @@ export class OverviewTalentsComponent {
     return stats;
   }
 
-  get talentImageUrls() {
-    return {
-      combat1: `assets/images/${this.char?.skills?.images?.filename_combat1 || 'Skill_A_00'}.png`,
-      combat2: `assets/images/characters/${this.apiKey}/skills/combat2.png`,
-      combat3: `assets/images/characters/${this.apiKey}/skills/combat3.png`,
-      passive1: `assets/images/characters/${this.apiKey}/skills/passive1.png`,
-      passive2: `assets/images/characters/${this.apiKey}/skills/passive2.png`,
-      passive3: `assets/images/characters/${this.apiKey}/skills/passive3.png`,
-      passive4: `assets/images/characters/${this.apiKey}/skills/passive4.png`,
-    };
+  get IsCombatSkill(): boolean {
+    return (this.talent as CombatSkill).attributes !== undefined;
   }
 }

@@ -1,1 +1,37 @@
-<p>constellations works!</p>
+<div class="constellations-container">
+  <app-constellation-details
+    [constellation]="char?.constellation?.c1"
+    [elementColor]="elementColor"
+    [imageUrl]="constellationImageUrls.c1"
+  ></app-constellation-details>
+  <hr [style.color]="elementColor">
+  <app-constellation-details
+    [constellation]="char?.constellation?.c2"
+    [elementColor]="elementColor"
+    [imageUrl]="constellationImageUrls.c2"
+  ></app-constellation-details>
+  <hr [style.color]="elementColor">
+  <app-constellation-details
+    [constellation]="char?.constellation?.c3"
+    [elementColor]="elementColor"
+    [imageUrl]="constellationImageUrls.c3"
+  ></app-constellation-details>
+  <hr [style.color]="elementColor">
+  <app-constellation-details
+    [constellation]="char?.constellation?.c4"
+    [elementColor]="elementColor"
+    [imageUrl]="constellationImageUrls.c4"
+  ></app-constellation-details>
+  <hr [style.color]="elementColor">
+  <app-constellation-details
+    [constellation]="char?.constellation?.c5"
+    [elementColor]="elementColor"
+    [imageUrl]="constellationImageUrls.c5"
+  ></app-constellation-details>
+  <hr [style.color]="elementColor">
+  <app-constellation-details
+    [constellation]="char?.constellation?.c6"
+    [elementColor]="elementColor"
+    [imageUrl]="constellationImageUrls.c6"
+  ></app-constellation-details>
+</div>

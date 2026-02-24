@@ -14,6 +14,7 @@ import { OverviewTalentsComponent } from "./talents/talents.component";
 export class CharacterOverviewComponent {
   @Input() char: Character | null = null;
   @Input() apikey: string | null = null;
+  @Input() elementColor: string | null = null;
 
   selectedMenu: 'profile' | 'talents' | 'constellations' = 'profile';
 
@@ -25,10 +26,5 @@ export class CharacterOverviewComponent {
       gachaSplash: `assets/images/characters/${this.apikey}/gacha-splash.png`,
       gachaSlice: `assets/images/characters/${this.apikey}/gacha-icon.png`,
     };
-  }
-
-  getElementColor(): string {
-    if (!this.char) return '';
-    return `var(--${this.char?.profile.elementText.toLowerCase()})`;
   }
 }

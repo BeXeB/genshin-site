@@ -9,6 +9,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
+  text-shadow: 3px 3px 4px var(--black);
 }
 
 .title .back-button {

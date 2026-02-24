@@ -3,10 +3,15 @@
     [title]="'Character Details'"
     [backLink]="'/characters'"
   ></app-page-title>
-  <!-- ToC -->
-  <!-- Char overview -->
-  <app-character-overview [char]="char" [apikey]="apikey"></app-character-overview>
-  <!-- Artifacts -->
-  <!-- Weapons -->
-  <!-- Teams -->
+  <div class="overview">
+    <app-character-overview
+      [char]="char"
+      [apikey]="apikey"
+      [elementColor]="getElementColor()"
+    ></app-character-overview>
+  </div>
+  <app-character-guide
+    [apikey]="apikey"
+    [elementColor]="getElementColor()"
+  ></app-character-guide>
 </div>

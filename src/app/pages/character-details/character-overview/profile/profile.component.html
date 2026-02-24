@@ -44,8 +44,10 @@
       </div>
       <div class="stat-row">
         <span class="label">{{ char.profile.substatText }}</span>
-        <span class="value"
-          >{{ char.stats[level].specialized * 100 | number: "1.2-2" }}%</span
+        <span class="value">
+          {{
+            (char.stats[level].specialized ?? 0) * 100 | number: "1.2-2"
+          }}%</span
         >
       </div>
       <hr style="width: 100%" [style]="`color: ${elementColor};`" />

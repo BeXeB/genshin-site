@@ -1,0 +1,10 @@
+.talents-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.talents-container hr {
+  width: 100%;
+}

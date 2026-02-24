@@ -2,7 +2,7 @@
   @if (char) {
     <div class="char-container">
       <div class="left">
-        <div class="char-info" [style]="`border-color: ${getElementColor()};`">
+        <div class="char-info" [style]="`border-color: ${elementColor};`">
           <h2>{{ char.profile.name }}</h2>
           <p>{{ char.profile.title }}</p>
         </div>
@@ -11,7 +11,7 @@
             [class.active]="selectedMenu === 'profile'"
             (click)="selectedMenu = 'profile'"
             [style.border-color]="
-              selectedMenu === 'profile' ? getElementColor() : 'transparent'
+              selectedMenu === 'profile' ? elementColor : 'transparent'
             "
           >
             Profile
@@ -20,7 +20,7 @@
             [class.active]="selectedMenu === 'talents'"
             (click)="selectedMenu = 'talents'"
             [style.border-color]="
-              selectedMenu === 'talents' ? getElementColor() : 'transparent'
+              selectedMenu === 'talents' ? elementColor : 'transparent'
             "
           >
             Talent
@@ -30,7 +30,7 @@
             (click)="selectedMenu = 'constellations'"
             [style.border-color]="
               selectedMenu === 'constellations'
-                ? getElementColor()
+                ? elementColor
                 : 'transparent'
             "
           >
@@ -38,22 +38,24 @@
           </button>
         </div>
       </div>
-      <div class="right" [style]="`border-color: ${getElementColor()};`">
+      <div class="right" [style]="`border-color: ${elementColor};`">
         @if (selectedMenu === "profile") {
           <app-overview-profile
-            [elementColor]="getElementColor()"
+            [elementColor]="elementColor"
             [char]="char"
           ></app-overview-profile>
         }
         @if (selectedMenu === "talents") {
           <app-overview-talents
-            [elementColor]="getElementColor()"
+            [elementColor]="elementColor"
+            [apiKey]="apikey"
             [char]="char"
           ></app-overview-talents>
         }
         @if (selectedMenu === "constellations") {
           <app-overview-constellations
-            [elementColor]="getElementColor()"
+            [elementColor]="elementColor"
+            [apiKey]="apikey"
             [char]="char"
           >
           </app-overview-constellations>

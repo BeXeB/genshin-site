@@ -1,118 +1,60 @@
-@if (char) {
-  @if (char.skills.combat1) {
-    <div class="talent">
-      <div class="talent-name">{{ char.skills.combat1.name }}</div>
-      <div class="talent-description">
-        {{ char.skills.combat1.description }}
-      </div>
-      <div class="talent-level">
-        <label for="combat1-level">Level:</label>
-        <input
-          id="combat1-level"
-          type="number"
-          min="1"
-          max="10"
-          [(ngModel)]="talentLevels[0]"
-        />
-      </div>
-      <div class="talent-stats">
-        @for (
-          attribute of getTalentStats(char.skills.combat1, talentLevels[0]);
-          track $index
-        ) {
-          <div class="talent-stat">{{ attribute }}</div>
-        }
-      </div>
-    </div>
+<div class="talents-container">
+  @if (char && char.skills) {
+    @if (char.skills.combat1) {
+      <app-talent-details
+        [talent]="char.skills.combat1"
+        [elementColor]="elementColor"
+        [imageUrl]="talentImageUrls.combat1"
+      ></app-talent-details>
+    }
+    @if (char.skills.combat2) {
+      <hr [style.color]="elementColor" />
+      <app-talent-details
+        [talent]="char.skills.combat2"
+        [elementColor]="elementColor"
+        [imageUrl]="talentImageUrls.combat2"
+      ></app-talent-details>
+    }
+
+    @if (char.skills.combat3) {
+      <hr [style.color]="elementColor" />
+      <app-talent-details
+        [talent]="char.skills.combat3"
+        [elementColor]="elementColor"
+        [imageUrl]="talentImageUrls.combat3"
+      ></app-talent-details>
+    }
+    @if (char.skills.passive1) {
+      <hr [style.color]="elementColor" />
+      <app-talent-details
+        [talent]="char.skills.passive1"
+        [elementColor]="elementColor"
+        [imageUrl]="talentImageUrls.passive1"
+      ></app-talent-details>
+    }
+    @if (char.skills.passive2) {
+      <hr [style.color]="elementColor" />
+      <app-talent-details
+        [talent]="char.skills.passive2"
+        [elementColor]="elementColor"
+        [imageUrl]="talentImageUrls.passive2"
+      ></app-talent-details>
+    }
+    @if (char.skills.passive3) {
+      <hr [style.color]="elementColor" />
+      <app-talent-details
+        [talent]="char.skills.passive3"
+        [elementColor]="elementColor"
+        [imageUrl]="talentImageUrls.passive3"
+      ></app-talent-details>
+    }
+    @if (char.skills.passive4) {
+      <hr [style.color]="elementColor" />
+      <app-talent-details
+        [talent]="char.skills.passive4"
+        [elementColor]="elementColor"
+        [imageUrl]="talentImageUrls.passive4"
+      ></app-talent-details>
+    }
   }
-  <hr />
-  @if (char.skills.combat2) {
-    <div class="talent">
-      <div class="talent-name">{{ char.skills.combat2.name }}</div>
-      <div class="talent-description">
-        {{ char.skills.combat2.description }}
-      </div>
-      <div class="talent-level">
-        <label for="combat2-level">Level:</label>
-        <input
-          id="combat2-level"
-          type="number"
-          min="1"
-          max="13"
-          [(ngModel)]="talentLevels[1]"
-        />
-      </div>
-      <div class="talent-stats">
-        @for (
-          attribute of getTalentStats(char.skills.combat2, talentLevels[1]);
-          track $index
-        ) {
-          <div class="talent-stat">{{ attribute }}</div>
-        }
-      </div>
-    </div>
-  }
-  <hr />
-  @if (char.skills.combat3) {
-    <div class="talent">
-      <div class="talent-name">{{ char.skills.combat3.name }}</div>
-      <div class="talent-description">
-        {{ char.skills.combat3.description }}
-      </div>
-      <div class="talent-level">
-        <label for="combat3-level">Level:</label>
-        <input
-          id="combat3-level"
-          type="number"
-          min="1"
-          max="13"
-          [(ngModel)]="talentLevels[2]"
-        />
-      </div>
-      <div class="talent-stats">
-        @for (
-          attribute of getTalentStats(char.skills.combat3, talentLevels[2]);
-          track $index
-        ) {
-          <div class="talent-stat">{{ attribute }}</div>
-        }
-      </div>
-    </div>
-  }
-  @if (char.skills.passive1) {
-    <hr />
-    <div class="talent">
-      <div class="talent-name">{{ char.skills.passive1.name }}</div>
-      <div class="talent-description">
-        {{ char.skills.passive1.description }}
-      </div>
-    </div>
-  }
-  @if (char.skills.passive2) {
-    <hr />
-    <div class="talent">
-      <div class="talent-name">{{ char.skills.passive2.name }}</div>
-      <div class="talent-description">
-        {{ char.skills.passive2.description }}
-      </div>
-    </div>
-  }
-  @if (char.skills.passive3) {
-    <hr />
-    <div class="talent">
-      <div class="talent-name">{{ char.skills.passive3.name }}</div>
-      <div class="talent-description">
-        {{ char.skills.passive3.description }}
-      </div>
-    </div>
-  }
-  @if (char.skills.passive4) {
-    <hr />
-    <div class="talent">
-      <div class="talent-name">{{ char.skills.passive4.name }}</div>
-      <div class="talent-description">
-        {{ char.skills.passive4.description }}
-      </div>
-    </div>
-  }
-}
+</div>

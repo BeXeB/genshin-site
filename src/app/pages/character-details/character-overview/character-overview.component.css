@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 20px;
 }
 
 
@@ -44,7 +45,6 @@
   border-radius: 13px;
   padding: 20px;
   border: 1px solid;
-  max-width: 400px;
 }
 
 .background {

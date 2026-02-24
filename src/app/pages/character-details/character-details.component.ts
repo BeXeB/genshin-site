@@ -4,11 +4,12 @@ import { ActivatedRoute } from '@angular/router';
 import { PageTitleComponent } from "../../_components/page-title/page-title.component";
 import { CharacterOverviewComponent } from "./character-overview/character-overview.component";
 import { Character } from '../../_models/character';
+import { CharacterGuideComponent } from './character-guide/character-guide.component';
 
 @Component({
   selector: 'app-character-details',
   standalone: true,
-  imports: [PageTitleComponent, CharacterOverviewComponent],
+  imports: [PageTitleComponent, CharacterOverviewComponent, CharacterGuideComponent],
   templateUrl: './character-details.component.html',
   styleUrl: './character-details.component.css',
 })
@@ -30,5 +31,10 @@ export class CharacterDetailsComponent implements OnInit {
       .subscribe((data) => {
         this.char = data;
       });
+  }
+
+  getElementColor(): string {
+    if (!this.char) return '';
+    return `var(--${this.char?.profile.elementText.toLowerCase()})`;
   }
 }

@@ -193,14 +193,12 @@ async function run(): Promise<void> {
 
   const existingFiles = await fs.readdir(OUTPUT_PATH);
 
-  // const existingCharacters = existingFiles
-  //   .filter(
-  //     (f) => f.endsWith('.json') && f !== 'index.json' && f !== 'profiles.json',
-  //   )
-  //   .map((f) => f.replace('.json', ''));
+  const existingCharacters = existingFiles
+    .filter(
+      (f) => f.endsWith('.json') && f !== 'index.json' && f !== 'profiles.json',
+    )
+    .map((f) => f.replace('.json', ''));
 
-
-  const existingCharacters = ["albedo", "durin", "klee", "venti", "mona", "razor", "fischl", "sucrose"]
 
   const normalizedNames = characters.map(normalize);
 
