@@ -6,26 +6,17 @@
     "description": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Akademiya to be their most distinguished graduate in the past two centuries.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "6/9",
     "birthday": "June 9",
+    "birthdaymmdd": "6/9",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Knights of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
     "substatText": "Elemental Mastery",
     "constellation": "Tempus Fugit",
-    "cv": {
-      "english": "Mara Junot",
-      "chinese": "钟可",
-      "japanese": "田中理恵",
-      "korean": "Park Go-woon"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Character_Lisa_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Lisa_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/43922f5162840c215638affedad0459a_3369229991804918602.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20191009/2019100915140016827.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/06b5a07d8f98649e5e09c58aa7904752.png",
       "filename_icon": "UI_AvatarIcon_Lisa",
       "filename_iconCard": "UI_AvatarIcon_Lisa_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Lisa",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Lisa",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lisa",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lisa.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Lisa.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Lisa_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Lisa"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lisa"
     },
     "version": "1.0"
   },
@@ -382,7 +362,6 @@
     "combat2": {
       "name": "Violet Arc",
       "description": "Channels the power of lightning to sweep bothersome matters away.\n\nPress\nReleases a homing Lightning Orb.\nOn hit, it deals Electro DMG and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\n\nHold\nAfter an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.",
-      "flavorText": "Electro Purple is the raiment of the Witch of Purple Rose.",
       "attributes": {
         "labels": [
           "Press DMG|{param6:F1P}",
@@ -519,7 +498,6 @@
     "combat3": {
       "name": "Lightning Rose",
       "description": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal Electro DMG throughout the ability's duration.",
-      "flavorText": "This rose is beautiful, but beware its mortal thorns.",
       "attributes": {
         "labels": [
           "Discharge DMG|{param1:F1P}",
@@ -1558,6 +1536,22 @@
       "hp": 9569.925258899999,
       "attack": 231.51293628000002,
       "defense": 573.3180810000001,
+      "specialized": 96
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 9900.504212099999,
+      "attack": 261.0366414,
+      "defense": 593.122509,
+      "specialized": 96
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10231.885541399999,
+      "attack": 290.57975724,
+      "defense": 612.975006,
       "specialized": 96
     },
     "20+": {

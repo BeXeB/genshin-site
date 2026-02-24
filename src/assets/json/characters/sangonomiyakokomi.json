@@ -6,26 +6,17 @@
     "description": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "2/22",
     "birthday": "February 22",
+    "birthdaymmdd": "2/22",
     "elementType": "ELEMENT_HYDRO",
     "elementText": "Hydro",
     "affiliation": "Watatsumi Island",
-    "associationType": "ASSOC_INAZUMA",
     "region": "Inazuma",
     "substatType": "FIGHT_PROP_WATER_ADD_HURT",
     "substatText": "Hydro DMG Bonus",
     "constellation": "Dracaena Somnolenta",
-    "cv": {
-      "english": "Risa Mei",
-      "chinese": "龟娘",
-      "japanese": "三森すずこ",
-      "korean": "Yeo Yoon-mi"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,20 +177,11 @@
       ]
     },
     "images": {
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/fd94f2afc70ab075c727ce0805fd0201.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/8ca5953fb331d71bc880496f5e8b7745_3256211802655370131.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/20/6b5d5658498d64378f6bc3a499be1061_5372222117088715540.png",
       "filename_icon": "UI_AvatarIcon_Kokomi",
       "filename_iconCard": "UI_AvatarIcon_Kokomi_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Kokomi",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kokomi",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kokomi",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kokomi.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Sangonomiya Kokomi_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Sangonomiya_Kokomi"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kokomi"
     },
     "version": "2.1"
   },
@@ -362,7 +344,6 @@
     "combat2": {
       "name": "Kurage's Oath",
       "description": "Summons a \"Bake-Kurage\" created from water that can heal her allies.\nUsing this skill will apply the Wet status to Sangonomiya Kokomi.\n\nBake-Kurage\nDeals Hydro DMG to surrounding opponents and heals nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP.",
-      "flavorText": "Kokomi needs timely \"refreshment\" in order to maintain optimal work efficiency.",
       "attributes": {
         "labels": [
           "Regeneration|{param1:F1P} Max HP+{param2:I}",
@@ -462,7 +443,6 @@
     "combat3": {
       "name": "Nereid's Ascension",
       "description": "Summons the might of Watatsumi, dealing Hydro DMG to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.\n\nCeremonial Garment\n·Sangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP.\n·When her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.\n·Increases Sangonomiya Kokomi's resistance to interruption and allows her to walk on the water's surface.\n\nThese effects will be cleared once Sangonomiya Kokomi leaves the field.",
-      "flavorText": "Clear light coalesces into robes around Her Excellency, Sangonomiya Kokomi, reflecting her magnificent form.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P} Max HP",
@@ -1595,6 +1575,22 @@
       "hp": 13470.501828000002,
       "attack": 234.39481640000002,
       "defense": 657.11398635,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13948.687140000002,
+      "attack": 260.76259839999994,
+      "defense": 680.4405067499999,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14427.921104,
+      "attack": 287.1303804,
+      "defense": 703.8181817999999,
       "specialized": 0.288
     },
     "20+": {

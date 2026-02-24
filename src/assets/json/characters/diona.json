@@ -6,26 +6,17 @@
     "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "1/18",
     "birthday": "January 18",
+    "birthdaymmdd": "1/18",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "The Cat's Tail",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_ICE_ADD_HURT",
     "substatText": "Cryo DMG Bonus",
     "constellation": "Feles",
-    "cv": {
-      "english": "Dina Sherman",
-      "chinese": "诺亚",
-      "japanese": "井澤詩織",
-      "korean": "Woo Jeong-shin"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Character_Diona_Card.png",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Diona_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/fb11c57bf9789d760d70d35ce634ebe1_7535039246777100657.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201106/2020110618595613115.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/d4e511080346c2ce43636eeb10dd7226.png",
       "filename_icon": "UI_AvatarIcon_Diona",
       "filename_iconCard": "UI_AvatarIcon_Diona_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Diona",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Diona",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diona",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Diona.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Diona_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Diona"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diona"
     },
     "version": "1.1"
   },
@@ -400,7 +380,6 @@
     "combat2": {
       "name": "Icy Paws",
       "description": "Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\nPress\nRapidly fires off 2 Icy Paws.\n\nHold\nDashes back quickly before firing 5 Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.",
-      "flavorText": "When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!",
       "attributes": {
         "labels": [
           "Icy Paw DMG|{param1:F1P} per Paw",
@@ -518,7 +497,6 @@
     "combat3": {
       "name": "Signature Mix",
       "description": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\n\nDrunken Mist\n·Deals continuous Cryo DMG to opponents within the AoE.\n·Continuously regenerates the HP of characters within the AoE.",
-      "flavorText": "A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1610,6 +1588,22 @@
       "hp": 9569.925258899999,
       "attack": 212.397192,
       "defense": 600.6189420000001,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 9900.504212099999,
+      "attack": 239.48315999999997,
+      "defense": 621.366438,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10231.885541399999,
+      "attack": 266.586936,
+      "defense": 642.1642919999999,
       "specialized": 0.24
     },
     "20+": {

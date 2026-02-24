@@ -6,26 +6,17 @@
     "description": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "9/7",
     "birthday": "September 7",
+    "birthdaymmdd": "9/7",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Tianheng Thaumaturges",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Nubis Caesor",
-    "cv": {
-      "english": "Beau Bridgland",
-      "chinese": "kinsen",
-      "japanese": "斉藤壮馬",
-      "korean": "Yang Jeong-hwa"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Chongyun_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Character_Chongyun_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/d0accc6031019427d20d2f009169d7cd_1874773208585953392.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200602/2020060220205013044.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/af335b6e68883e7e40237040aa020cf1.png",
       "filename_icon": "UI_AvatarIcon_Chongyun",
       "filename_iconCard": "UI_AvatarIcon_Chongyun_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Chongyun",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Chongyun",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Chongyun",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Chongyun.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Chongyun_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Chongyun"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Chongyun"
     },
     "version": "1.0"
   },
@@ -418,7 +398,6 @@
     "combat2": {
       "name": "Spirit Blade: Chonghua's Layered Frost",
       "description": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals Cryo DMG.\nAfter a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with Cryo.",
-      "flavorText": "\"A crystal-clear ring, and all is silent. The rivers move not, and the clouds are heavy with frost. The altar gates open, and evil is banished.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -501,7 +480,6 @@
     "combat3": {
       "name": "Spirit Blade: Cloud-Parting Star",
       "description": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\nWhen the spirit blades explode, they will deal AoE Cryo DMG and launch opponents.",
-      "flavorText": "\"As ice doth give the biting frost birth, My transcendent blade shakes heaven and earth. Heed my summons and come hence!\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1522,6 +1500,22 @@
       "hp": 10983.66434006,
       "attack": 223.0170516,
       "defense": 648.39544875,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11363.07882334,
+      "attack": 251.457318,
+      "defense": 670.7933137499999,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11743.41421556,
+      "attack": 279.9162828,
+      "defense": 693.2455425,
       "specialized": 0.24
     },
     "20+": {

@@ -6,26 +6,17 @@
     "description": "A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "5/8",
     "birthday": "May 8",
+    "birthdaymmdd": "5/8",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Gandharva Ville",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Leptailurus Cervarius",
-    "cv": {
-      "english": "Christina Costello",
-      "chinese": "秦文静",
-      "japanese": "前川涼子",
-      "korean": "Bang Siu"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/23/2c752da0a5921583011a4ec36f83703c_2223942731920819478.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/23/2466e194064e0306c4290a252269593c_8578361332348289831.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/7d6142936ebd4cfd4b5501f187cc4be7.png",
       "filename_icon": "UI_AvatarIcon_Collei",
       "filename_iconCard": "UI_AvatarIcon_Collei_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Collei",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Collei",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Collei",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Collei.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/24/194600931/37a18b6b6865c59063003a9380f08225_7758071773430345954.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Collei"
     },
     "version": "3.0"
   },
@@ -377,7 +362,6 @@
     "combat2": {
       "name": "Floral Brush",
       "description": "Throws out a Floral Ring that deals 1 instance of Dendro DMG to targets it comes into contact with.\nThe Floral Ring will return after a set time, dealing Dendro DMG once again.",
-      "flavorText": "This is Collei's go-to gadget for dealing with unruly wild beasts. A few good thwacks from this tool will generally improve their behavior. This same principle works just as well on evildoers.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -424,7 +408,6 @@
     "combat3": {
       "name": "Trump-Card Kitty",
       "description": "Trusty Cuilein-Anbar comes to save the day!\nThrows the doll named Cuilein-Anbar, causing an explosion that deals AoE Dendro DMG, creating a Cuilein-Anbar Zone. Cuilein-Anbar will bounce around within this zone, dealing AoE Dendro DMG.",
-      "flavorText": "\"Pretty impressive, huh? ... Eh? You want to know how I came up with the name Cuilein-Anbar? Uh, well, I...\"",
       "attributes": {
         "labels": [
           "Explosion DMG|{param1:F1P}",
@@ -1481,6 +1464,22 @@
       "hp": 9787.4235531,
       "attack": 199.65335947999998,
       "defense": 600.6189420000001,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10125.515655899999,
+      "attack": 225.11416939999998,
+      "defense": 621.366438,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10464.428370599999,
+      "attack": 250.59171883999997,
+      "defense": 642.1642919999999,
       "specialized": 0.24
     },
     "20+": {

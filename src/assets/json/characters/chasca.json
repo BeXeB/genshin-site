@@ -6,26 +6,17 @@
     "description": "The Peacemaker of the Tlalocan, the ender of all disputes.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "12/10",
     "birthday": "December 10",
+    "birthdaymmdd": "12/10",
     "elementType": "ELEMENT_ANEMO",
     "elementText": "Anemo",
     "affiliation": "Tlalocan",
-    "associationType": "ASSOC_NATLAN",
     "region": "Natlan",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Vultur Gryphus",
-    "cv": {
-      "english": "Lauren Amante",
-      "chinese": "张若瑜",
-      "japanese": "甲斐田裕子",
-      "korean": "Soo-hyun"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Chasca_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Chasca",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Chasca",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Chasca",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chasca.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Chasca.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/18/abe1192cc7aad45f6b273478dd5fa88a_4799372826012752249.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Chasca"
     },
     "version": "5.2"
   },
@@ -374,7 +362,6 @@
     "combat2": {
       "name": "Spirit Reins, Shadow Hunt",
       "description": "Chasca and the will residing in her weapon resonate, dealing Nightsoul-aligned AoE Anemo DMG.\nAfter using this Skill, Chasca gains 80 Nightsoul points and enters the Nightsoul's Blessing state.\n\nNightsoul's Blessing: Chasca\nContinually consume Nightsoul points. When Nightsoul points are fully depleted or the skill is used again, Chasca's Nightsoul's Blessing state will end. Her Nightsoul's Blessing has the following traits:\n·Mounts \"Soulsniper: Ritual Staff,\" increasing Chasca's Movement SPD and interruption resistance. In this state, Chasca will continually consume Nightsoul points to remain airborne. When Sprinting or increasing height, extra Nightsoul points will be consumed.\n·When using Normal or Charged Attacks, Tap or Hold to switch between using \"Multitarget Fire\" in different ways.\n\nMultitarget Fire\nTap\nDeal Nightsoul-aligned Anemo DMG to opponents in front. This DMG is considered Normal Attack DMG.\nHold\nEnter Aiming Mode and choose a certain number of opponents within a certain range, before loading up to 6 Shadowhunt Shells based on the duration for which the skill was charged. When 6 Shells have been loaded or charging is stopped, these Shells will be fired at the chosen opponents in sequence.\n\nShadowhunt Shells\n·Deal Nightsoul-aligned Anemo DMG, which is considered Charged Attack DMG.\n·The 4th, 5th, and 6th Shells loaded into the cylinder will undergo Elemental Conversion based on the Elemental Types of the other characters in the party: For each Pyro, Hydro, Cryo, or Electro character in the party, one Shadowhunt Shell will randomly be Converted into a \"Shining Shadowhunt Shell\" of one of these corresponding Elemental Types, dealing Nightsoul-aligned DMG corresponding to that Elemental Type. This DMG is considered Charged Attack DMG.\n·The Shells loaded into the cylinder are fired starting from the last Shadowhunt Shell to be loaded, in a \"last in, first out\" order.\n\nAdditionally, when Chasca is in the Nightsoul's Blessing state, Holding her Elemental Skill Spirit Reins, Shadow Hunt will cause her to execute a Nightsoul-aligned Plunging Attack. Release the Elemental Skill to interrupt this Plunging Attack and maintain her airborne state. Should Chasca hit the ground with her Plunging Attack, her Nightsoul's Blessing state will end.",
-      "flavorText": "In theory, as long as she's willing, those reins can bridle anything... But what could possibly be as cool as a giant hand cannon?",
       "attributes": {
         "labels": [
           "Resonance DMG|{param1:F1P}",
@@ -493,7 +480,6 @@
     "combat3": {
       "name": "Soul Reaper's Fatal Round",
       "description": "Chasca concentrates her will, firing a single \"Galesplitting Soulseeker Shell\" that deals Nightsoul-aligned AoE Anemo DMG. Afterward, the Galesplitting Soulseeker Shell will split into 6 Soulseeker Shells, which attack nearby opponents.\n\nSoulseeker Shells\n·Deal Nightsoul-aligned Anemo DMG.\n·For each Pyro, Hydro, Cryo, or Electro character in the party, two Soulseeker Shells will undergo corresponding Elemental Conversions to become \"Radiant Soulseeker Shells,\" which deal Nightsoul-aligned Elemental DMG from a randomly selected one of the corresponding Elemental Types.",
-      "flavorText": "None can escape from the moonlight or the whispers of the night, just as no foe can flee her attentive eyes once she's got them in her sights.",
       "attributes": {
         "labels": [
           "Galesplitting Soulseeker Shell DMG|{param1:F1P}",
@@ -1555,6 +1541,22 @@
       "hp": 9796.728784,
       "attack": 346.808651,
       "defense": 614.843496,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10144.49992,
+      "attack": 385.822206,
+      "defense": 636.66948,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10493.033711999999,
+      "attack": 424.835761,
+      "defense": 658.543328,
       "specialized": 0.242
     },
     "20+": {

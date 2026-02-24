@@ -6,26 +6,17 @@
     "description": "A researcher from \"one hundred years ago.\" She enjoys self-identifying as everyone's senior, and has significant knowledge of ancient scripts and machines of all kinds.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "8/20",
     "birthday": "August 20",
+    "birthdaymmdd": "8/20",
     "elementType": "ELEMENT_ANEMO",
     "elementText": "Anemo",
     "affiliation": "Haravatat",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Flosculi Implexi",
-    "cv": {
-      "english": "Chandni Parekh",
-      "chinese": "阎萌萌",
-      "japanese": "堀江由衣",
-      "korean": "Kim Yu-rim"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/12/03/820230e5076f0cba1837d7bca81d8483_183851182002256600.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/12/01/cfbfca72a20d9e80e6995c27df20d4a0_7483278288635891945.png",
       "filename_icon": "UI_AvatarIcon_Faruzan",
       "filename_iconCard": "UI_AvatarIcon_Faruzan_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Faruzan",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Faruzan",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Faruzan",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Faruzan.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/38c12ab46678a4008f83a0e46c900ef5_528211919348170763.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Faruzan"
     },
     "version": "3.3"
   },
@@ -376,7 +362,6 @@
     "combat2": {
       "name": "Wind Realm of Nasamjnin",
       "description": "Faruzan deploys a polyhedron that deals AoE Anemo DMG to nearby opponents. She will also enter the Manifest Gale state.\nWhile in the Manifest Gale state, Faruzan's next fully charged shot will consume this state and will become a Hurricane Arrow that contains high-pressure currents. This arrow deals Anemo DMG based on the DMG of a fully charged Aimed Shot from \"Normal Attack: Parthian Shot.\"\n\nPressurized Collapse\nThe Hurricane Arrow will apply a Pressurized Collapse effect to the opponent or character hit. This effect will be removed after a short delay, creating a vortex that deals AoE Anemo DMG and pulls nearby objects and opponents in. If the Hurricane Arrow does not hit any opponent or character, it will create a Pressurized Collapse effect at its point of impact.\nThe vortex DMG is considered Elemental Skill DMG.",
-      "flavorText": "The winds of truth buffet the spirits of those who seek truth, dispersing the miasma of preconception.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -476,7 +461,6 @@
     "combat3": {
       "name": "The Wind's Secret Ways",
       "description": "Faruzan deploys a Dazzling Polyhedron that unleashes a Whirlwind Pulse and deals AoE Anemo DMG.\nWhile the Dazzling Polyhedron persists, it will continuously move along a triangular path. Once it reaches each corner of that triangular path, it will unleash 1 more Whirlwind Pulse.\n\nWhirlwind Pulse\n·When the Whirlwind Pulse is unleashed, it will apply Perfidious Wind's Bale to nearby opponents, decreasing their Anemo RES.\n·The Whirlwind Pulse will also apply Prayerful Wind's Benefit to all nearby party members when it is unleashed, granting them an Anemo DMG Bonus.",
-      "flavorText": "One must have respect for the unknown wisdom that one might find hidden in ancient ruins.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1587,6 +1571,22 @@
       "hp": 9569.925258899999,
       "attack": 196.4674026,
       "defense": 627.919803,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 9900.504212099999,
+      "attack": 221.521923,
+      "defense": 649.610367,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10231.885541399999,
+      "attack": 246.5929158,
+      "defense": 671.353578,
       "specialized": 0.24
     },
     "20+": {

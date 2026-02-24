@@ -6,26 +6,17 @@
     "description": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "4/20",
     "birthday": "April 20",
+    "birthdaymmdd": "4/20",
     "elementType": "ELEMENT_HYDRO",
     "elementText": "Hydro",
     "affiliation": "Yanshang Teahouse",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Umbrabilis Orchis",
-    "cv": {
-      "english": "Laura Post",
-      "chinese": "徐慧",
-      "japanese": "遠藤綾",
-      "korean": "Min Ah"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/073932dc472fa00623cefb70a18df516_1986871510991586178.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/05/18/8116c096a9c49f2fab7c68a5c8cdad51_1511721754149629825.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/ab71dda11563ba0a54261e025684fd99.png",
       "filename_icon": "UI_AvatarIcon_Yelan",
       "filename_iconCard": "UI_AvatarIcon_Yelan_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Yelan",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yelan",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yelan",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yelan.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yelan_icon.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yelan"
     },
     "version": "2.7"
   },
@@ -395,7 +380,6 @@
     "combat2": {
       "name": "Lingering Lifeline",
       "description": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\nWhen this rapid movement ends, the Lifeline will explode, dealing Hydro DMG to the marked opponents based on Yelan's Max HP.\n\nTap\nMoves a certain distance forward swiftly.\n\nHold\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\n\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.",
-      "flavorText": "Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P} Max HP",
@@ -477,7 +461,6 @@
     "combat3": {
       "name": "Depth-Clarion Dice",
       "description": "Deals AoE Hydro DMG and creates an \"Exquisite Throw,\" which aids her in battle.\n\nExquisite Throw\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing Hydro DMG based on Yelan's Max HP:\n·Can occur once every second when your active character uses a Normal Attack.\n·Will occur each time Yelan's Lifeline explodes and hits opponents.",
-      "flavorText": "\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F2P} Max HP",
@@ -1534,6 +1517,22 @@
       "hp": 14450.174906400001,
       "attack": 243.96194960000003,
       "defense": 547.97926581,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 14963.137332,
+      "attack": 271.4059676,
+      "defense": 567.4316740500001,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 15477.2246752,
+      "attack": 298.84998559999997,
+      "defense": 586.92674108,
       "specialized": 0.242
     },
     "20+": {

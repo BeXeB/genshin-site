@@ -6,26 +6,17 @@
     "description": "A laid-back orchard manager and warrior of the Collective of Plenty. An aspiring hero who hungers for justice... and lots and lots of food!",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "11/15",
     "birthday": "November 15",
+    "birthdaymmdd": "11/15",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Teteocan",
-    "associationType": "ASSOC_NATLAN",
     "region": "Natlan",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Mascara Luctatori",
-    "cv": {
-      "english": "Jane Jackson",
-      "chinese": "乔苏",
-      "japanese": "M・A・O",
-      "korean": "Kim Yea-lim"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Varesa_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Varesa",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Varesa",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Varesa",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varesa.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Varesa.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/03/25/a54efe1bb7e82a589b9af44683a696ca_8635138146175164187.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Varesa"
     },
     "version": "5.5"
   },
@@ -499,7 +487,6 @@
     "combat2": {
       "name": "Riding the Night-Rainbow",
       "description": "With footwork swift as lightning and fierce as thunder, Varesa displays the true spirit of lucha libre, rushing forward a certain distance and dealing Nightsoul-aligned Electro DMG to opponents in her path.\nAfter using this Skill, Varesa gains 20 Nightsoul points and gains the \"Follow-Up Strike\" effect: Varesa has increased interruption resistance during this time, and upon pressing her Normal Attack, she will quickly unleash a Charged Attack that does not consume Stamina. \"Follow-Up Strike\" will be canceled after Varesa uses a Charged Attack.\nShe will use different techniques based on whether the skill is Tapped or Held.\n\nTap\nQuickly rush a certain distance forward.\n\nHold\nVaresa enters the Nightsoul's Blessing state and switches to Sudden Onrush mode.\n\nSudden Onrush\nContinuously consumes Nightsoul points. In this state, Varesa's Movement SPD and interruption resistance are increased. She can use terrain to execute flying leaps or consume additional Nightsoul points to traverse atop water or liquid Phlogiston while remaining immune to DMG from the latter.\n\nNightsoul's Blessing: Varesa\nWhen she runs out of Nightsoul points, her Nightsoul's Blessing state will be canceled. When Varesa is in the Sudden Onrush state or Fiery Passion state, she will always be counted as being in the Nightsoul's Blessing state.\n\nHas 2 charges. When Varesa enters the Fiery Passion state, she will obtain an additional Tap charge of her Elemental Skill and its DMG will be increased.\n\nFiery Passion\n· While not in the Fiery Passion state, Varesa can use Plunging Attacks to gain Nightsoul points. She will enter Fiery Passion when she reaches maximum Nightsoul points via this method, or when she uses her Elemental Burst Guardian Vent!\n· While in the Fiery Passion state, her Normal Attacks, Elemental Skill, and Elemental Burst will gain unique buffs. She can also use a special Elemental Burst shortly after using a Plunging Attack.\n· The Fiery Passion state lasts for up to 15s and will end when she runs out of Nightsoul points or after she leaves combat for a period of time.",
-      "flavorText": "\"Right now, I'm my own hero.\"",
       "attributes": {
         "labels": [
           "Rush DMG|{param1:F1P}",
@@ -600,7 +587,6 @@
     "combat3": {
       "name": "Guardian Vent!",
       "description": "Leaps into the air before using the momentum of the drop to unleash a powerful flying kick, dealing Nightsoul-aligned AoE Electro DMG to opponents — just like those heroes of justice in woven scrolls for kids!\nAfter using this Skill, Varesa's Nightsoul points will be restored to maximum and she will enter the Fiery Passion state.\n\nIn the Fiery Passion state, Varesa's Elemental Burst will deal a greater amount of Nightsoul-aligned AoE Electro DMG.\n\nAdditionally, she will briefly activate Apex Drive after using a Plunging Attack while in her Fiery Passion state.\n\nApex Drive\nIncreases Varesa's interruption resistance. While affected by Apex Drive, Varesa can ignore her Elemental Burst CD and consume less Energy to use her special Elemental Burst, \"Guardian Vent: Volcano Kablam\": This causes her to use the especially powerful Plunging Attack, the \"Thunderous Tornado Eruption,\" which deals Nightsoul-aligned AoE Electro DMG upon landing before causing her to exit Apex Drive. This DMG is considered Plunging Attack DMG.\nVaresa will exit Apex Drive after using her Elemental Skill.",
-      "flavorText": "In truth, the original name Varesa gave this move was the \"Invincible Dynamic Heroic Justice Super Mega Ultimate Thundercrash Sky-Splitting Supersonic Boom Kick.\" Alas, this name proved too long, and she was too embarrassed to shout it in front of everyone, even with her mask on. As such, she changed it to its present title instead.",
       "attributes": {
         "labels": [
           "Flying Kick DMG|{param1:F1P}",
@@ -1680,6 +1666,22 @@
       "hp": 12699.00924137,
       "attack": 356.3757822,
       "defense": 781.6197942900001,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13149.80757185,
+      "attack": 396.4655732,
+      "defense": 809.36607645,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13601.59449516,
+      "attack": 436.5553642,
+      "defense": 837.1732057199999,
       "specialized": 0.242
     },
     "20+": {

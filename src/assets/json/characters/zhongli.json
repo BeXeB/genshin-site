@@ -6,26 +6,17 @@
     "description": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_MALE",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "12/31",
     "birthday": "December 31",
+    "birthdaymmdd": "12/31",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Liyue Harbor",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
     "substatText": "Geo DMG Bonus",
     "constellation": "Lapis Dei",
-    "cv": {
-      "english": "Keith Silverstein",
-      "chinese": "彭博",
-      "japanese": "前野智昭",
-      "korean": "Pyo Young-jae"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Zhongli_Card.png",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/7/7d/Character_Zhongli_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/e699d7e2413ed5dfb384ee48c2b872d3_2081056854784197634.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/20/f9a6207d4b412504efe924c61bb7b5a0_6794957859138365424.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/693b8a54de3e9ea43854615c14a5032b.png",
       "filename_icon": "UI_AvatarIcon_Zhongli",
       "filename_iconCard": "UI_AvatarIcon_Zhongli_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Zhongli",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Zhongli",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Zhongli",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Zhongli.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Zhongli_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Zhongli"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Zhongli"
     },
     "version": "1.1"
   },
@@ -418,7 +398,6 @@
     "combat2": {
       "name": "Dominus Lapidis",
       "description": "Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.\n\nPress\nCommands the power of earth to create a Stone Stele.\n\nHold\nCauses nearby Geo energy to explode, causing the following effects:\n·If their maximum number hasn't been reached, creates a Stone Stele.\n·Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.\n·Deals AoE Geo DMG.\n·If there are nearby targets with the Geo element, it will drain a large amount of Geo element from a maximum of 2 such targets. This effect does not cause DMG.\n\nStone Stele\nWhen created, deals AoE Geo DMG.\nAdditionally, it will intermittently resonate with other nearby Geo constructs, dealing Geo DMG to nearby opponents.\nThe Stone Stele is considered a Geo construct that can both be climbed and used to block attacks.\nOnly one Stele created by Zhongli himself may initially exist at any one time.\n\nJade Shield\nPossesses 150% DMG Absorption against all Elemental and Physical DMG.\nCharacters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.",
-      "flavorText": "A true master of stone may carve jade and shape gold.",
       "attributes": {
         "labels": [
           "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
@@ -572,7 +551,6 @@
     "combat3": {
       "name": "Planet Befall",
       "description": "Brings a falling meteor down to earth, dealing massive Geo DMG to opponents caught in its AoE and applying the Petrification status to them.\n\nPetrification\nOpponents affected by the Petrification status cannot move.",
-      "flavorText": "The falling meteor punishes the unjust.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1611,6 +1589,22 @@
       "hp": 14695.093175999998,
       "attack": 251.137289,
       "defense": 737.8121952,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 15216.74988,
+      "attack": 279.38848399999995,
+      "defense": 764.0033760000001,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 15739.550567999999,
+      "attack": 307.63967899999994,
+      "defense": 790.2519935999999,
       "specialized": 0.288
     },
     "20+": {

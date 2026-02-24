@@ -6,26 +6,17 @@
     "description": "A young man from the Masters of the Night-Wind who instead lives in the wild alongside all manner of life.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_MALE",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "10/14",
     "birthday": "October 14",
+    "birthdaymmdd": "10/14",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Mictlan",
-    "associationType": "ASSOC_NATLAN",
     "region": "Natlan",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Vampyrum Spectrum",
-    "cv": {
-      "english": "Nathan Nokes",
-      "chinese": "梁达伟",
-      "japanese": "近藤隆",
-      "korean": "Seo Joung-ik"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Olorun_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Olorun",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Olorun",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Olorun",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Olorun.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Olorun.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/18/e4830690f8b6a1ebb02cfbc8ce955671_8091252479018770784.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Olorun"
     },
     "version": "5.2"
   },
@@ -356,7 +344,6 @@
     "combat2": {
       "name": "Night's Sling",
       "description": "Ororon manifests an ancient mystical technique from the Masters of the Night-Wind as a Spirit Orb of midnight shade and throws it at his foe, dealing Nightsoul-aligned Electro DMG.\nWhen other opponents are nearby, the Spirit Orb will bounce between them, dealing Nightsoul-aligned Electro DMG. Each time Night's Sling is used, each opponent can only be selected as a target once.\nAfter 3 bounces, or if there are no eligible targets left, the Orb will disappear.",
-      "flavorText": "\"People always wish to foretell the future, but that might be because they have yet to discover that which they must do... Sorry, I'm saying complicated things again, aren't I...\"",
       "attributes": {
         "labels": [
           "Spirit Orb DMG|{param1:F1P}",
@@ -400,18 +387,9 @@
         }
       }
     },
-    "combatju": {
-      "name": "Special Jump",
-      "description": "If this character is in Natlan, Hold to consume Phlogiston and execute a Rocket Double Jump. When Phlogiston is completely depleted, it will consume Stamina to execute the Double Jump instead.",
-      "attributes": {
-        "labels": [],
-        "parameters": {}
-      }
-    },
     "combat3": {
       "name": "Dark Voices Echo",
       "description": "Ororon works an ancient ritual, dealing Nightsoul-aligned AoE Electro DMG, summoning forth a Supersonic Oculus.\n\nSupersonic Oculus\n·Continuously taunts nearby opponents and attracts attacks from them.\n·Continuously rotates and fires off sonic waves that deal Nightsoul-aligned Electro DMG.",
-      "flavorText": "Those with sharp enough senses can hear the minute voices with which all things speak. That way, they will never lose their way — not even on long, lightless nights.",
       "attributes": {
         "labels": [
           "Ritual DMG|{param1:F1P}",
@@ -708,7 +686,6 @@
     "images": {
       "filename_combat1": "Skill_A_02",
       "filename_combat2": "Skill_S_Olorun_01",
-      "filename_combatju": "Skill_E_Olorun_03",
       "filename_combat3": "Skill_E_Olorun_01_HD",
       "filename_passive1": "UI_Talent_S_Olorun_05",
       "filename_passive2": "UI_Talent_S_Olorun_06",
@@ -1474,6 +1451,22 @@
       "hp": 9243.67751666,
       "attack": 244.25677079999997,
       "defense": 586.9685115000001,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 9562.98672074,
+      "attack": 275.40563399999996,
+      "defense": 607.2444735,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 9883.07094716,
+      "attack": 306.57497639999997,
+      "defense": 627.569649,
       "specialized": 0.24
     },
     "20+": {

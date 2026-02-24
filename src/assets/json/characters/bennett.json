@@ -6,26 +6,17 @@
     "description": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "2/29",
     "birthday": "February 29",
+    "birthdaymmdd": "2/29",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Adventurers' Guild",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "substatText": "Energy Recharge",
     "constellation": "Rota Calamitas",
-    "cv": {
-      "english": "Cristina Vee Valenzuela",
-      "chinese": "穆雪婷",
-      "japanese": "逢坂良太",
-      "korean": "Song Ha-rim"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Character_Bennett_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Character_Bennett_Portrait.png",
-      "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200312/2020031220001589124.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200312/2020031220015487912.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/661fca5d5165dee41fd29c142a59c2f9.png",
       "filename_icon": "UI_AvatarIcon_Bennett",
       "filename_iconCard": "UI_AvatarIcon_Bennett_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Bennett",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Bennett",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Bennett",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Bennett.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Bennett_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Bennett"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Bennett"
     },
     "version": "1.0"
   },
@@ -417,7 +397,6 @@
     "combat2": {
       "name": "Passion Overload",
       "description": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\n\nPress\nA single, swift flame strike that deals Pyro DMG.\n\nHold (Short)\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n·Level 1: Strikes twice, dealing Pyro DMG and launching opponents.\n·Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy.\nBennett takes no damage from being launched.",
-      "flavorText": "An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.",
       "attributes": {
         "labels": [
           "Press DMG|{param1:P}",
@@ -586,7 +565,6 @@
     "combat3": {
       "name": "Fantastic Voyage",
       "description": "Bennett performs a jumping attack that deals Pyro DMG, creating an Inspiration Field.\n\nInspiration Field\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\n·Imbues characters within the AoE with Pyro.",
-      "flavorText": "Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1678,6 +1656,22 @@
       "hp": 12397.4035882,
       "attack": 191.15747280000002,
       "defense": 771.2493232500001,
+      "specialized": 0.2667
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12825.6536098,
+      "attack": 215.534844,
+      "defense": 797.89099425,
+      "specialized": 0.2667
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13254.9430732,
+      "attack": 239.92824240000002,
+      "defense": 824.5973294999999,
       "specialized": 0.2667
     },
     "20+": {

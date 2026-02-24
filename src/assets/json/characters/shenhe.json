@@ -6,26 +6,17 @@
     "description": "An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "3/10",
     "birthday": "March 10",
+    "birthdaymmdd": "3/10",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Cloud Retainer's Abode",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Crista Doloris",
-    "cv": {
-      "english": "Chelsea Kwoka",
-      "chinese": "秦紫翼",
-      "japanese": "川澄綾子",
-      "korean": "Lee Hyeon-jin"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,20 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/cb95a5b5d57165a4970d801c5dcf0435_6784858246585696705.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/1346e716a5106af1799a0689dbb447d4_2694372439747645027.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/443ee6e42959bcdded66f453f50dc807.png",
       "filename_icon": "UI_AvatarIcon_Shenhe",
       "filename_iconCard": "UI_AvatarIcon_Shenhe_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Shenhe",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Shenhe",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Shenhe",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Shenhe.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Shenhe_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Shenhe"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Shenhe"
     },
     "version": "2.4"
   },
@@ -415,7 +397,6 @@
     "combat2": {
       "name": "Spring Spirit Summoning",
       "description": "The frosted dew, silvery and dense, shall exorcise all demons.\nGrants all nearby party members the Icy Quill effect and deals Cryo DMG in different ways based on whether it is pressed or held.\n\nPress\nRushes forward together with a Talisman Spirit, dealing Cryo DMG to opponents along the path.\n\nHold\nCommands the Talisman Spirit to deal AoE Cryo DMG.\n\nIcy Quill\nWhen Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal Cryo DMG to opponents, the DMG dealt is increased based on Shenhe's current ATK.\n\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than pressed, the Icy Quill's effect lasts longer and can be triggered more times.\nWhen one Cryo DMG instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.",
-      "flavorText": "The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!",
       "attributes": {
         "labels": [
           "Press Skill DMG|{param1:P}",
@@ -586,7 +567,6 @@
     "combat3": {
       "name": "Divine Maiden's Deliverance",
       "description": "Unleashes the power of the Talisman Spirit, allowing it to roam free in this plane, dealing AoE Cryo DMG.\nThe Talisman Spirit then creates a field that decreases the Cryo RES and Physical RES of opponents within it. It also deals periodic Cryo DMG to opponents within the field.",
-      "flavorText": "The way of the adepti is not defined only by the mysterious and fantastical. Only by observing the changes in the heavens and the earth, and understanding the laws of cause and effect in this realm, may its essence be understood.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1661,6 +1641,22 @@
       "hp": 12992.91143967,
       "attack": 303.7565386,
       "defense": 830.0387196,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13454.14291335,
+      "attack": 337.92703159999996,
+      "defense": 859.503798,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13916.38585956,
+      "attack": 372.09752460000004,
+      "defense": 889.0334928,
       "specialized": 0.288
     },
     "20+": {

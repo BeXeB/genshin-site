@@ -6,26 +6,17 @@
     "description": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "4/17",
     "birthday": "April 17",
+    "birthdaymmdd": "4/17",
     "elementType": "ELEMENT_ANEMO",
     "elementText": "Anemo",
     "affiliation": "Liyue Adeptus",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Alatus Nemeseos",
-    "cv": {
-      "english": "Laila Berzins",
-      "chinese": "kinsen",
-      "japanese": "松岡禎丞",
-      "korean": "Shim Kyu-hyeok"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Character_Xiao_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/930f3ce55517e3c711a962c82e4639c0_8691377287489555826.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/20/f39029c2d532da642a6a26e939342cfe_5885839034097905642.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/59cb768b56ebc0143d6d2e37385c934c.png",
       "filename_icon": "UI_AvatarIcon_Xiao",
       "filename_iconCard": "UI_AvatarIcon_Xiao_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Xiao",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Xiao",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xiao",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xiao.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiao_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Xiao"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xiao"
     },
     "version": "1.3"
   },
@@ -452,7 +432,6 @@
     "combat2": {
       "name": "Lemniscatic Wind Cycling",
       "description": "Xiao lunges forward, dealing Anemo DMG to opponents in his path.\nCan be used in mid-air.\nStarts with 2 charges.",
-      "flavorText": "According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -499,7 +478,6 @@
     "combat3": {
       "name": "Bane of All Evil",
       "description": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\nYaksha's Mask\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into Anemo DMG, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.",
-      "flavorText": "Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"",
       "attributes": {
         "labels": [
           "Normal/Charged/Plunging Attack DMG Bonus|{param1:F1P}",
@@ -1556,6 +1534,22 @@
       "hp": 12735.747219200002,
       "attack": 349.20043780000003,
       "defense": 799.2965448000001,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13187.849696000001,
+      "attack": 388.4830518,
+      "defense": 827.670324,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13640.9436256,
+      "attack": 427.76566579999997,
+      "defense": 856.1063264,
       "specialized": 0.242
     },
     "20+": {

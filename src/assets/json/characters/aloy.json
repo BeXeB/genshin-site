@@ -6,26 +6,17 @@
     "description": "Formerly an outcast, now a hunter of unparalleled skill. Ready to do the right thing at any time.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE_SP",
     "rarity": 5,
-    "birthdaymmdd": "4/4",
     "birthday": "April 4",
+    "birthdaymmdd": "4/4",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Wandering Heroine",
-    "associationType": "ASSOC_RANGER",
     "region": "",
     "substatType": "FIGHT_PROP_ICE_ADD_HURT",
     "substatText": "Cryo DMG Bonus",
     "constellation": "Nora Fortis",
-    "cv": {
-      "english": "—",
-      "chinese": "沐霏",
-      "japanese": "高垣彩陽",
-      "korean": "Jo Hyeon-jung"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,19 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/9344fdabebf5e14d8ecaf34253d838c0_5896806722384038228.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/20/8ef5a843157d2bba1073f1f15e99ab88_559558664955241387.png",
       "filename_icon": "UI_AvatarIcon_Aloy",
       "filename_iconCard": "UI_AvatarIcon_Aloy_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Aloy",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Aloy",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Aloy",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aloy.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Aloy.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/19/80830045/1fb2086af3c7933af37eda1ff9084317_163049704110308134.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Aloy"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Aloy"
     },
     "version": "2.1"
   },
@@ -396,7 +379,6 @@
     "combat2": {
       "name": "Frozen Wilds",
       "description": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing Cryo DMG. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing Cryo DMG.\nWhen a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.\nAloy can gain up to 1 Coil stack every 0.1s.\n\nCoil\n·Each stack increases Aloy's Normal Attack DMG.\n·When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG.\n\nWhile in the Rushing Ice state, Aloy cannot obtain new Coil stacks.\nCoil effects will be cleared 30s after Aloy leaves combat.",
-      "flavorText": "You think that's cold? Guess you've never been to The Cut.",
       "attributes": {
         "labels": [
           "Freeze Bomb DMG|{param1:P}",
@@ -585,7 +567,6 @@
     "combat3": {
       "name": "Prophecies of Dawn",
       "description": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing AoE Cryo DMG.",
-      "flavorText": "Whether \"Zero Dawn\" referred to hope or extinction no longer matters. Aloy has already saved her world, and the fate of this one is still being forged by its own heroes.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1606,6 +1587,22 @@
       "hp": 10898.8604972,
       "attack": 233.91645604,
       "defense": 676.3278456,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11285.755885999999,
+      "attack": 260.23042624,
+      "defense": 700.3364280000001,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11673.4997296,
+      "attack": 286.54439644,
+      "defense": 724.3976607999999,
       "specialized": 0.288
     },
     "20+": {

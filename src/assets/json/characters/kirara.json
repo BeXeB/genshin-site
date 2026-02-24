@@ -6,26 +6,17 @@
     "description": "A courier for Komaniya Express, a delivery company in Inazuma. A nekomata who loves her job and human society.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "1/22",
     "birthday": "January 22",
+    "birthdaymmdd": "1/22",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Komaniya Express",
-    "associationType": "ASSOC_INAZUMA",
     "region": "Inazuma",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Arcella",
-    "cv": {
-      "english": "Julia Gu",
-      "chinese": "孙艳琦",
-      "japanese": "鈴代紗弓",
-      "korean": "Kang Eun-ae"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/05/17/58ed3bce339f53a535cec2e64898fb77_6359020412357438909.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/05/17/8eaec8a513f04167ad4b9d58ab4974ea_295699587114986903.png",
       "filename_icon": "UI_AvatarIcon_Momoka",
       "filename_iconCard": "UI_AvatarIcon_Momoka_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Momoka",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Momoka",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Momoka",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Momoka.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Momoka.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/23/35428890/d1699810632f8c3bc8c1e8c8beb8250f_3141235252861584883.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Momoka"
     },
     "version": "3.7"
   },
@@ -427,7 +413,6 @@
     "combat2": {
       "name": "Meow-teor Kick",
       "description": "Press\nLeaps into the air with all the agility of a cat passing through the bushes, and thwacks her foes with a flying kick that deals AoE Dendro DMG while creating a Shield of Safe Transport. This will also briefly apply Dendro to Kirara. The shield will absorb Dendro DMG with 250% effectiveness. The shield's DMG absorption will be based on Kirara's Max HP and will not exceed a certain percentage of that Max HP. The remaining DMG absorption on a Shield of Safe Transport will stack on a new one when it is created, and its duration will reset.\n\nHold\nOut of her desire to \"deliver within half a day,\" Kirara deploys a Shield of Safe Transport identical to the one that can be created by pressing the skill. She will also curl up into a special express delivery box, entering the Urgent Neko Parcel state in order to move and fight more swiftly.\n\nUrgent Neko Parcel\n· Deals Dendro DMG to opponents she crashes into. This effect can be triggered once on each opponent every 0.5s.\n· When in this state, Kirara's movement speed, climbing speed, and jumping power are all increased, and her Stamina Consumption from climbing is increased.\n· When the duration ends or the skill is used again, a Flipclaw Strike more powerful than the attack in the Press Mode will be unleashed, dealing AoE Dendro DMG.\n· The Urgent Neko Parcel state lasts a maximum of 10s. When the state ends, the skill will enter CD. The longer Kirara spends in this state, the longer the CD will be.\n· Sprinting or actively canceling climbing will end this state early.",
-      "flavorText": "\"So you wanna know the secret to speedy deliveries? Well, it's all in the legs!\"",
       "attributes": {
         "labels": [
           "Tail-Flicking Flying Kick DMG|{param1:F1P}",
@@ -633,7 +618,6 @@
     "combat3": {
       "name": "Secret Art: Surprise Dispatch",
       "description": "Smash opponents with a Special Delivery Package used for punishing parcel thieves, dealing AoE Dendro DMG. After the Special Delivery Package explodes, it will split up into many Cat Grass Cardamoms that will explode either upon contact with opponents or after a period of time, dealing AoE Dendro DMG.",
-      "flavorText": "\"Hehe, that's right, this stuff was made to deal with those parcel thieves! Remember to leave a 5-star rating once you've received yours!\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1690,6 +1674,22 @@
       "hp": 12179.90470957,
       "attack": 223.0170516,
       "defense": 546.01722,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12600.64155273,
+      "attack": 251.457318,
+      "defense": 564.87858,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13022.39960182,
+      "attack": 279.9162828,
+      "defense": 583.7857200000001,
       "specialized": 0.24
     },
     "20+": {

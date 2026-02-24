@@ -6,26 +6,17 @@
     "description": "The General Mahamatra in charge of supervising the researchers of the Akademiya. It is said that when he gets down to work, the General Mahamatra is even more efficient than the \"Great Vayuvyastra\" made by the Kshahrewar.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "6/23",
     "birthday": "June 23",
+    "birthdaymmdd": "6/23",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Temple of Silence",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Lupus Aureus",
-    "cv": {
-      "english": "Alejandro Saab",
-      "chinese": "李轻扬",
-      "japanese": "入野自由",
-      "korean": "Jung Eui-jin & Lee Woo-ri"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/09/20/c4f05fb0c04afac045171c27c7d03cdc_3872571629427575985.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/09/20/e3bf32076e4144083d84320cda30dc82_5932460027027482354.png",
-      "hoyolab-avatar": "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/4c1d9bbfdfcb964080600105ac6f37a9_8216471529097708423.png",
       "filename_icon": "UI_AvatarIcon_Cyno",
       "filename_iconCard": "UI_AvatarIcon_Cyno_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Cyno",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Cyno",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Cyno",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Cyno.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/e09e2bda5e022611fad0dea1bb6518bb_6757667565719577204.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Cyno"
     },
     "version": "3.1"
   },
@@ -394,7 +379,6 @@
     "combat2": {
       "name": "Secret Rite: Chasmic Soulfarer",
       "description": "Performs a swift thrust, dealing Electro DMG to opponents along the path.\n\nWhen Cyno is under the Pactsworn Pathclearer state triggered by Sacred Rite: Wolf's Swiftness, he will instead unleash a Mortuary Rite that deals thunderous AoE Electro DMG and extends the duration of Pactsworn Pathclearer.",
-      "flavorText": "\"This judgment brooks no choice. There is no rejection or acceptance here... We have both long been bound up in this conviction.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -495,7 +479,6 @@
     "combat3": {
       "name": "Sacred Rite: Wolf's Swiftness",
       "description": "Calls upon a divine spirit to indwell him, morphing into the Pactsworn Pathclearer.\n\nPactsworn Pathclearer\nCyno's Normal, Charged, and Plunging Attacks will be converted to Electro DMG that cannot be overridden.\n·Cyno's Elemental Mastery and resistance to interruption will increase, and he gains immunity to Electro-Charged DMG.\n\nThis effect will be canceled when Cyno leaves the field and lasts a maximum of 18s.",
-      "flavorText": "The secret rituals passed down within the ancient nation are as a final judgment to the General Mahamatra.\nWhether now or in the past, whether great storm or serpent, none shall shake the majesty of the law.",
       "attributes": {
         "labels": [
           "1-Hit DMG|{param1:F1P}",
@@ -1730,6 +1713,22 @@
       "hp": 12490.8290496,
       "attack": 318.1072494,
       "defense": 859.24378566,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12934.237248,
+      "attack": 353.8920964,
+      "defense": 889.7455983,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13378.617832799999,
+      "attack": 389.6769434,
+      "defense": 920.31430088,
       "specialized": 0.884
     },
     "20+": {

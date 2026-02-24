@@ -6,26 +6,17 @@
     "description": "Indefatigable reporter of The Steambird, constantly on the hunt for the \"truth.\"",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "4/10",
     "birthday": "April 10",
+    "birthdaymmdd": "4/10",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "The Steambird",
-    "associationType": "ASSOC_FONTAINE",
     "region": "Fontaine",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Hualina Veritas",
-    "cv": {
-      "english": "Rebecca Wang & Maya Aoki Tuttle",
-      "chinese": "阮从青",
-      "japanese": "和氣あず未",
-      "korean": "Shin On-yu"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Charlotte_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Charlotte",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Charlotte",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Charlotte",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Charlotte.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Charlotte.png",
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113448/f4c603b5b2e3dbb901922ad592d00abb_5941873373722590118.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113448/431275f6404757189fc6545306f52b86_2915839935932664773.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/7bbbff3f35661a93b5091b1f17fae6c0_6927814687713967999.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Charlotte"
     },
     "version": "4.2"
   },
@@ -394,7 +380,6 @@
     "combat2": {
       "name": "Framing: Freezing Point Composition",
       "description": "Using the keen instincts of an ace reporter, Charlotte uses her photography skills to produce different effects based on whether the ability is Tapped or Held.\n\nTap\nTakes a snapshot using Monsieur Verite, dealing AoE Cryo DMG to opponents in front of her and applying Snappy Silhouette to a maximum of 5 opponents. During this effect's duration, it will deal Cryo DMG to affected opponents at intervals.\n\nHold\nPopping Monsieur Verite's viewfinder open, Charlotte enters Composition Mode, and during this time, the viewfinder will expand as you hold until you reach a Finisher Frame state. In this state, Charlotte can move and change direction freely.\nWhen the hold state ends, Monsieur Verite will deal Cryo DMG to all opponents locked on within the viewfinder, and apply the same Snappy Silhouette as Tap Mode does to them. If you unleash this ability only after reaching Finisher Frame, you will instead apply Focused Impression, which lasts longer and deals more DMG, although the Skill CD will be longer.\nComposition Mode lasts a maximum of 15s and allows a maximum of 5 opponents to be selected.",
-      "flavorText": "\"Press photography requires simple shots with exceptional theming, but most of all, you need to have a knack for capturing the moment!\"",
       "attributes": {
         "labels": [
           "Photo DMG (Press)|{param1:F1P}",
@@ -585,7 +570,6 @@
     "combat3": {
       "name": "Still Photo: Comprehensive Confirmation",
       "description": "Condensing ice to create The Steambird's signature, Charlotte creates a Newsflash Field that will deal AoE Cryo DMG and restores HP for all nearby party members based on Charlotte's ATK.\nNewsflash Field\n·While the ability is active, Monsieur Verite will deal Cryo DMG at intervals to opponents within its AoE.\n·Will continuously restore HP to active character(s) within its AoE based on Charlotte's ATK.",
-      "flavorText": "\"Hearing stories from multiple perspectives to recreate what really happened is key to a good report... I mean, that's how you can pick the best angle for your article!\"",
       "attributes": {
         "labels": [
           "Cast Healing|{param1:F1P} ATK+{param2:I}",
@@ -1712,6 +1696,22 @@
       "hp": 10766.1657119,
       "attack": 173.10371048,
       "defense": 546.01722,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11138.067029099999,
+      "attack": 195.17877439999998,
+      "defense": 564.87858,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11510.8710194,
+      "attack": 217.26835183999998,
+      "defense": 583.7857200000001,
       "specialized": 0.24
     },
     "20+": {

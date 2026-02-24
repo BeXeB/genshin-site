@@ -6,26 +6,17 @@
     "description": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "7/28",
     "birthday": "July 28",
+    "birthdaymmdd": "7/28",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Yanfei Legal Consultancy",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_FIRE_ADD_HURT",
     "substatText": "Pyro DMG Bonus",
     "constellation": "Bestia Iustitia",
-    "cv": {
-      "english": "Lizzie Freeman",
-      "chinese": "苏子芜",
-      "japanese": "花守ゆみり",
-      "korean": "Jo Kyeong-i"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,20 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/494f7aa4668cb7fe2d6d0463e7cc835f_4533806775377872955.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/b59981536d706e05ef5d8074f813933e_1795113348526016806.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/75c1d48b2fa08bd4c583501a3bb476d3.png",
       "filename_icon": "UI_AvatarIcon_Feiyan",
       "filename_iconCard": "UI_AvatarIcon_Feiyan_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Feiyan",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Feiyan",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Feiyan",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Feiyan.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yanfei_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Yanfei"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Feiyan"
     },
     "version": "1.5"
   },
@@ -568,7 +550,6 @@
     "combat2": {
       "name": "Signed Edict",
       "description": "Summons blistering flames that deal AoE Pyro DMG.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.",
-      "flavorText": "Apart from their legal uses, Yanfei's seals also come with her customized additional terms and conditions. Well, it's not as if the Ministry of Civil Affairs can change the laws of nature.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -615,7 +596,6 @@
     "combat3": {
       "name": "Done Deal",
       "description": "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\nBrilliance\nHas the following effects:\n·Grants Yanfei a Scarlet Seal at fixed intervals.\n·Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.",
-      "flavorText": "\"Here are the full terms for this matter of life and death — by which I mean my life and your death!\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1690,6 +1670,22 @@
       "hp": 9352.42703074,
       "attack": 240.00882496,
       "defense": 586.9685115000001,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 9675.492817859998,
+      "attack": 270.6159688,
+      "defense": 607.2444735,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 9999.34274524,
+      "attack": 301.24323568,
+      "defense": 627.569649,
       "specialized": 0.24
     },
     "20+": {

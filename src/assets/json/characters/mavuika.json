@@ -6,26 +6,17 @@
     "description": "The leader of Natlan who inherited the Ancient Name of \"Kiongozi.\" She made a vow to illuminate the future of the nation of war with the Sacred Flame.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "8/28",
     "birthday": "August 28",
+    "birthdaymmdd": "8/28",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Huitztlan",
-    "associationType": "ASSOC_NATLAN",
     "region": "Natlan",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Sol Invictus",
-    "cv": {
-      "english": "Katiana Sarkissian",
-      "chinese": "李晔",
-      "japanese": "小松未可子",
-      "korean": "Kim Na-yul"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Mavuika_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Mavuika",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Mavuika",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mavuika",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mavuika.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Mavuika.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/12/30/2f098b1f15854fd9dafc54998795a59e_864981592196815761.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mavuika"
     },
     "version": "5.3"
   },
@@ -374,7 +362,6 @@
     "combat2": {
       "name": "The Named Moment",
       "description": "Calling upon her authority over \"conflict,\" Mavuika summons the All-Fire Armaments passed down through the line of human Archons, dealing Nightsoul-aligned Pyro DMG.\nAfter using this, Mavuika's Nightsoul points are restored to max value, and she enters the Nightsoul's Blessing state.\n\nAll-Fire Armaments\nHas different forms when Tapped or Held.\n\nTap\n\"Divine Name Unleashed\": The All-Fire Armaments manifest as a Ring of Searing Radiance. The Ring follows the current active character and attacks nearby opponents at intervals, dealing Nightsoul-aligned Pyro DMG.\n\nHold\n\"Ancient Name Unbound\": The All-Fire Armaments manifest as a Flamestrider. In this state, Mavuika can ride the Flamestrider at high speed, or activate its hidden backup propulsion module to temporarily cross various terrain types and glide in mid-air. Mavuika's Normal, Charged, and Plunging Attacks will also be converted to deal Nightsoul-aligned Pyro DMG which cannot be overridden. When sprinting, she also deals Nightsoul-aligned Pyro DMG to opponents along her path.\n\nWhile in the Nightsoul's Blessing state, Tapping the Elemental Skill can switch the All-Fire Armaments' form. The Armaments will disappear once Mavuika's Nightsoul's Blessing state ends.\n\nNightsoul's Blessing: Mavuika\nContinuously consumes Nightsoul points according to the All-Fire Armaments' form. Mavuika's Nightsoul's Blessing state ends once her Nightsoul points are exhausted.",
-      "flavorText": "If you told Mavuika that in another world vehicles like the Flamestrider required license plates for identification, that would make her happy too:\n\"Well, mine's the only one that exists here. Guess that means I get to pick whatever plate number I want, huh?\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -637,7 +624,6 @@
     "combat3": {
       "name": "Hour of Burning Skies",
       "description": "Let the people's inner voices reach the divine throne in the heavens.\nMavuika's Elemental Burst is not reliant on Energy, but instead, on \"Fighting Spirit.\"\n\nFighting Spirit\nWhen Mavuika has at least 50% Fighting Spirit, she can consume it all to unleash her Elemental Burst.\nMavuika can obtain Fighting Spirit via the following methods:\n· When in combat, Nightsoul points consumed by nearby party members are converted to Fighting Spirit.\n· When nearby party members' Normal Attacks hit opponents, Mavuika gains 1.5 Fighting Spirit. This can trigger once every 0.1s.\n\nAfter using this, Mavuika gains 10 Nightsoul points and enters the Nightsoul's Blessing state. Riding her Flamestrider high in the air, she uses a powerful Sunfell Slice against opponents on the ground, dealing Nightsoul-aligned AoE Pyro DMG and entering the \"Crucible of Death and Life\" state.\n\nCrucible of Death and Life\nDuring this time, Mavuika's various actions will no longer consume Nightsoul points, and her interruption resistance is increased. Also, the DMG dealt by Sunfell Slice and \"Ancient Name Unbound\"'s Normal and Charged Attacks is increased based on the amount of Fighting Spirit she has when using the Elemental Burst.\nCrucible of Death and Life will be canceled when Mavuika leaves the field.",
-      "flavorText": "\"—But this time, I want to break the cycle and free us from this fate for good.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1769,6 +1755,22 @@
       "hp": 12552.058567,
       "attack": 358.76757,
       "defense": 791.6110011000001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12997.640335,
+      "attack": 399.12642,
+      "defense": 819.7119555,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13444.199256,
+      "attack": 439.48526999999996,
+      "defense": 847.8745348,
       "specialized": 0.884
     },
     "20+": {

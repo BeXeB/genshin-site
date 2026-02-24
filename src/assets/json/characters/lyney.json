@@ -6,26 +6,17 @@
     "description": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "2/2",
     "birthday": "February 2",
+    "birthdaymmdd": "2/2",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Hotel Bouffes d'ete",
-    "associationType": "ASSOC_FONTAINE",
     "region": "Fontaine",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Felis Fuscus",
-    "cv": {
-      "english": "Daman Mills",
-      "chinese": "锦鲤",
-      "japanese": "下野紘",
-      "korean": "Park Seong-yeong"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/08/10/aed7f3d44289e8f796c19fc4cd13ad9b_8749199347718802064.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/08/10/50b29ea6bbc104990541ad14d6deca77_2152538302683473813.png",
       "filename_icon": "UI_AvatarIcon_Liney",
       "filename_iconCard": "UI_AvatarIcon_Liney_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Liney",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Liney",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Liney",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liney.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Liney.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/11/35428890/e343d4442cc3b8e243f0d528bb715f75_1232011243947476013.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Liney"
     },
     "version": "4.0"
   },
@@ -519,7 +505,6 @@
     "combat2": {
       "name": "Bewildering Lights",
       "description": "Lyney does a flourish with his hat, unleashing a firework surprise!\nWhen used, he will clear all current Prop Surplus stacks and deal AoE Pyro DMG to opponents in front of him. DMG will be increased according to the stacks cleared, and this will also regenerate Lyney's HP based on his Max HP.\n\nWhen a Grin-Malkin Hat created by Lyney is on the field, the fireworks will cause it to explode, dealing AoE Pyro DMG equal to that of a Pyrotechnic Strike.\nThe DMG dealt through the Grin-Malkin Hat in this way is considered Charged Attack DMG.",
-      "flavorText": "\"Everyone knows that magicians will intentionally misdirect the audience... Ah, yes, while you were looking my way, the hat and assistant over there have both disappeared... Fascinating, is it not?\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -653,7 +638,6 @@
     "combat3": {
       "name": "Wondrous Trick: Miracle Parade",
       "description": "Unleashing his magic, Lyney turns himself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)\nWhen the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of Pyro DMG to each opponent. When the duration ends, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal AoE Pyro DMG, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.\n\nGrin-Malkin Cat can be actively canceled.",
-      "flavorText": "\"Watch closely now. This is a time for miracles, and it belongs to just the two of us!\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1710,6 +1694,22 @@
       "hp": 11021.319632000002,
       "attack": 318.1072494,
       "defense": 537.988059,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11412.562160000001,
+      "attack": 353.8920964,
+      "defense": 557.085795,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11804.662676,
+      "attack": 389.6769434,
+      "defense": 576.225412,
       "specialized": 0.242
     },
     "20+": {

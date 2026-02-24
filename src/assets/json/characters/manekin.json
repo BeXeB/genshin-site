@@ -6,26 +6,17 @@
     "description": "A Manekin gifted to you and Paimon by a witch who uses the pseudonym \"Octavia.\" They are gifted at exploring the mysteries sealed within the Miliastra Wonderland.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE_SP",
     "rarity": 5,
-    "birthdaymmdd": "0/0",
     "birthday": "November 30",
+    "birthdaymmdd": "0/0",
     "elementType": "ELEMENT_NONE",
     "elementText": "None",
     "affiliation": "——",
-    "associationType": "ASSOC_MAINACTOR",
     "region": "",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "——",
-    "cv": {
-      "english": "——",
-      "chinese": "——",
-      "japanese": "——",
-      "korean": "——"
-    },
     "costs": {
       "ascend1": [
         {
@@ -75,10 +66,7 @@
       "filename_iconCard": "UI_AvatarIcon_MannequinBoy_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_MannequinBoy",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_MannequinBoy",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_MannequinBoy",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_MannequinBoy.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_MannequinBoy.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/10/28/dce3192b30cf478dfe123a28416cb451_6891113533276891360.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_MannequinBoy"
     },
     "version": "6.1"
   },
@@ -473,7 +461,6 @@
     },
     "version": "6.1"
   },
-  "constellation": "",
   "stats": {
     "1": {
       "level": 1,
@@ -1193,6 +1180,22 @@
       "hp": 10874.914859,
       "attack": 212.397192,
       "defense": 682.521525,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11250.572751,
+      "attack": 239.48315999999997,
+      "defense": 706.098225,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11627.142434000001,
+      "attack": 266.586936,
+      "defense": 729.7321499999999,
       "specialized": 0.24
     },
     "20+": {

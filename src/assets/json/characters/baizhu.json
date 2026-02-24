@@ -6,26 +6,17 @@
     "description": "The owner of Bubu Pharmacy, who is rarely seen without the white snake named Changsheng. His medicinal knowledge is encyclopedic, and his personal intrigues subtle.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_MALE",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "4/25",
     "birthday": "April 25",
+    "birthdaymmdd": "4/25",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Bubu Pharmacy",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Lagenaria",
-    "cv": {
-      "english": "Sean Durrie & Xanthe Huynh",
-      "chinese": "秦且歌 & 王晓彤",
-      "japanese": "遊佐浩二 & 庄子裕衣",
-      "korean": "Yi Ho-san & Jang Mi"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/7e0096b8907484d2c530a57a0d0bda80_6830097800800736702.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/7f741e68d13763893e9765114653dbba_6767301111904721877.png",
       "filename_icon": "UI_AvatarIcon_Baizhuer",
       "filename_iconCard": "UI_AvatarIcon_Baizhuer_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Baizhuer",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Baizhuer",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Baizhuer",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Baizhuer.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/05599650d7f42e1c4adde373de6b297d_8001303176243726128.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Baizhuer"
     },
     "version": "3.6"
   },
@@ -376,7 +362,6 @@
     "combat2": {
       "name": "Universal Diagnosis",
       "description": "Controls a Gossamer Sprite that cruises and attacks nearby opponents, dealing Dendro DMG.\nAfter it performs 3 attacks or if there are no opponents nearby, the Sprite will return, healing all nearby party members based on Baizhu's Max HP.",
-      "flavorText": "Those in the medical field who can read true signs of illness from false ones may even cure people before any symptoms can show.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -458,7 +443,6 @@
     "combat3": {
       "name": "Holistic Revivification",
       "description": "Enters the Pulsing Clarity state, creating a Seamless Shield that absorbs Dendro DMG with 250% effectiveness.\nWhile in this state, Baizhu will generate a new Seamless Shield every 2.5s.\n\nThe Seamless Shield will heal your own active character based on Baizhu's Max HP and attack opponents by unleashing Spiritveins, dealing Dendro DMG under the following circumstances:\n·When a character is under the protection of a Seamless Shield and a new Seamless Shield is generated.\n·When the Seamless Shield's effects expire, or when it is shattered.",
-      "flavorText": "If you can perceive the heavens and the earth, defend against malignant auras with the flow of qi, and keep your mind clear, surely nothing can hinder you.",
       "attributes": {
         "labels": [
           "Seamless Shield DMG Absorption|{param1:F2P} Max HP+{param2:I}",
@@ -1602,6 +1586,22 @@
       "hp": 13348.0427932,
       "attack": 192.53859490000002,
       "defense": 499.56034050000005,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13821.880966,
+      "attack": 214.1978444,
+      "defense": 517.2939525,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14296.758257599999,
+      "attack": 235.8570939,
+      "defense": 535.066454,
       "specialized": 0.288
     },
     "20+": {

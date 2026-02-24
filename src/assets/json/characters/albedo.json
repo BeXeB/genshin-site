@@ -6,26 +6,17 @@
     "description": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "9/13",
     "birthday": "September 13",
+    "birthdaymmdd": "9/13",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Knights of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
     "substatText": "Geo DMG Bonus",
     "constellation": "Princeps Cretaceus",
-    "cv": {
-      "english": "Khoi Dao",
-      "chinese": "Mace",
-      "japanese": "野島健児",
-      "korean": "Kim Myeong-joon"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/f95b03a7d7370aa4f5de3ac9a5f161bc_9195254471817551468.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201216/2020121611271023422.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/94dd9e0cc9d8311e58887a45b9b14861.png",
       "filename_icon": "UI_AvatarIcon_Albedo",
       "filename_iconCard": "UI_AvatarIcon_Albedo_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Albedo",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Albedo",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Albedo",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Albedo.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Albedo_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Albedo"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Albedo"
     },
     "version": "1.2"
   },
@@ -417,7 +397,6 @@
     "combat2": {
       "name": "Abiogenesis: Solar Isotoma",
       "description": "Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance.\n\nSolar Isotoma\nhas the following properties:\n·When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF. \n·Transient Blossoms can only be generated once every 2s.\n·When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\n·Solar Isotoma is considered a Geo construct. Only one Solar Isotoma created by Albedo himself can exist at a time. \n\nHold to designate the location of the skill.",
-      "flavorText": "This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -500,7 +479,6 @@
     "combat3": {
       "name": "Rite of Progeniture: Tectonic Tide",
       "description": "Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him.\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG.\n\nTectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.",
-      "flavorText": "Under the Kreideprinz's command, the tectonic tide of creation seethes into life.",
       "attributes": {
         "labels": [
           "Burst DMG|{param1:P}",
@@ -1545,6 +1523,22 @@
       "hp": 13225.583558400001,
       "attack": 251.13729899999998,
       "defense": 876.1519817999999,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13695.074592,
+      "attack": 279.388494,
+      "defense": 907.254009,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14165.5952112,
+      "attack": 307.639689,
+      "defense": 938.4242423999999,
       "specialized": 0.288
     },
     "20+": {

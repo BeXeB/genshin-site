@@ -6,26 +6,17 @@
     "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_MALE",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "4/30",
     "birthday": "April 30",
+    "birthdaymmdd": "4/30",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Dawn Winery",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Noctua",
-    "cv": {
-      "english": "Sean Chiplock",
-      "chinese": "马洋",
-      "japanese": "小野賢章",
-      "korean": "Choi Seung-hoon"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Character_Diluc_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Character_Diluc_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/f5ae62eff2cf426e98626c882dd0cf0d_3240767163310397909.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200609/2020060915105012670.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/7f68f45a650bbcf804215fc7890c7f35.png",
       "filename_icon": "UI_AvatarIcon_Diluc",
       "filename_iconCard": "UI_AvatarIcon_Diluc_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Diluc",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Diluc",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diluc",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Diluc.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Diluc_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Diluc"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diluc"
     },
     "version": "1.0"
   },
@@ -418,7 +398,6 @@
     "combat2": {
       "name": "Searing Onslaught",
       "description": "Performs a forward slash that deals Pyro DMG.\n\nThis skill can be consecutively used 3 times.\nEnters CD if not cast again within a short period.",
-      "flavorText": "The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.",
       "attributes": {
         "labels": [
           "1-Hit DMG|{param1:F1P}",
@@ -501,7 +480,6 @@
     "combat3": {
       "name": "Dawn",
       "description": "Releases intense flames to knock back nearby opponents, dealing Pyro DMG. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive Pyro DMG to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG.\nThe searing flames that run down his blade cause it to be infused with Pyro.",
-      "flavorText": "The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.",
       "attributes": {
         "labels": [
           "Slashing DMG|{param1:P}",
@@ -1576,6 +1554,22 @@
       "hp": 12980.665588799999,
       "attack": 334.849732,
       "defense": 783.9254574000001,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13441.462344,
+      "attack": 372.51799200000005,
+      "defense": 811.753587,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13903.269618399998,
+      "attack": 410.18625199999997,
+      "defense": 839.6427432,
       "specialized": 0.242
     },
     "20+": {

@@ -6,26 +6,17 @@
     "description": "A Lightkeeper of Nod-Krai, guardian of a lighthouse and graveyard on a northern isle. An enigmatic gentleman, cultured and courtly.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_MALE",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "10/31",
     "birthday": "October 31",
+    "birthdaymmdd": "10/31",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Lightkeepers",
-    "associationType": "ASSOC_NODKRAI",
     "region": "Nod-Krai",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Laterna Vigilis",
-    "cv": {
-      "english": "Nic Olsen",
-      "chinese": "马正阳",
-      "japanese": "中村悠一",
-      "korean": "Shin Yong-woo"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Flins_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Flins",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Flins",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Flins",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Flins.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Flins.png",
-      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2025/09/29/35428890/f6feccecc61d2bf772461f057dfb41cd_5944664216414192017.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Flins"
     },
     "version": "6.0"
   },
@@ -1697,6 +1685,22 @@
       "hp": 12490.8290496,
       "attack": 351.5922196,
       "defense": 808.51919724,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12934.237248,
+      "attack": 391.14389259999996,
+      "defense": 837.2203662000001,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13378.617832799999,
+      "attack": 430.6955656,
+      "defense": 865.98447632,
       "specialized": 0.884
     },
     "20+": {

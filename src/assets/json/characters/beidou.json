@@ -6,26 +6,17 @@
     "description": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "2/14",
     "birthday": "February 14",
+    "birthdaymmdd": "2/14",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "The Crux",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ELEC_ADD_HURT",
     "substatText": "Electro DMG Bonus",
     "constellation": "Victor Mare",
-    "cv": {
-      "english": "Allegra Clark",
-      "chinese": "唐雅菁",
-      "japanese": "小清水亜美",
-      "korean": "Jung Yoo-mi"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Character_Beidou_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Character_Beidou_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/01d9b164e0de2611c84ccdec5b84ced8_6933755020052845255.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200227/2020022720104965706.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/515effa5bfabb8fc03a52cbf76a4a79e.png",
       "filename_icon": "UI_AvatarIcon_Beidou",
       "filename_iconCard": "UI_AvatarIcon_Beidou_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Beidou",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Beidou",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Beidou",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Beidou.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Beidou_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Beidou"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Beidou"
     },
     "version": "1.0"
   },
@@ -436,7 +416,6 @@
     "combat2": {
       "name": "Tidecaller",
       "description": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\nPress\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing Electro DMG.\n\nHold\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing Electro DMG. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\nThe shield possesses the following properties:\n·Has 250% Electro DMG Absorption Efficiency.\n·Applies the Electro element to Beidou upon activation.",
-      "flavorText": "Conquer the high seas! Pursue the waves and chase the storm!",
       "attributes": {
         "labels": [
           "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
@@ -536,7 +515,6 @@
     "combat3": {
       "name": "Stormbreaker",
       "description": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing Electro DMG to nearby opponents.\n\nThunderbeast's Targe\n·When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing Electro DMG.\n·Increases the character's resistance to interruption, and decreases DMG taken.\n\nA maximum of 1 lightning discharge can be triggered per second.",
-      "flavorText": "With a peal of thunder, Haishan is slain.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1611,6 +1589,22 @@
       "hp": 13049.897870800001,
       "attack": 225.14102152,
       "defense": 648.39544875,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13500.6873412,
+      "attack": 253.8521476,
+      "defense": 670.7933137499999,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13952.5709608,
+      "attack": 282.58215015999997,
+      "defense": 693.2455425,
       "specialized": 0.24
     },
     "20+": {

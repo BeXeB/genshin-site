@@ -6,26 +6,17 @@
     "description": "A young knight born to an ordinary family. He serves as a Front-Line Surveyor in his Company. He is a low-key and cautious character.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "8/11",
     "birthday": "August 11",
+    "birthdaymmdd": "8/11",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Knights of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Palumbus",
-    "cv": {
-      "english": "Robb Moreira",
-      "chinese": "邓宥希",
-      "japanese": "三瓶由布子",
-      "korean": "Yoon Eun-seo"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/02/13/df329c62acad08953832134777166e57_8412092087979447029.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/02/13/1e48750f7e23545246579cec4e0c1080_7700251263078617358.png",
       "filename_icon": "UI_AvatarIcon_Mika",
       "filename_iconCard": "UI_AvatarIcon_Mika_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Mika",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Mika",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mika",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mika.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Mika.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/21/35428890/da13e3b1a2c6c0e5892b201cec735f9b_6392765476968311284.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mika"
     },
     "version": "3.5"
   },
@@ -411,7 +397,6 @@
     "combat2": {
       "name": "Starfrost Swirl",
       "description": "Mika uses his crossbow to attack, granting all nearby characters in your party Soulwind. When characters in the Soulwind state are on the field, their ATK SPD will be increased.\nWill take effect in different ways if Tapped or Held.\n\nTap\nFires a Flowfrost Arrow that can pierce through opponents, dealing Cryo DMG to enemies it comes into contact with.\n\nHold\nGoes into Aiming Mode, locking on to an opponent and firing a Rimestar Flare at them, dealing Cryo DMG. When the Rimestar Flare hits, it will rise before exploding, launching Rimestar Shards into a maximum of 3 other opponents, dealing Cryo DMG.",
-      "flavorText": "Stars burst 'neath the frosted skies.",
       "attributes": {
         "labels": [
           "Flowfrost Arrow DMG|{param1:F2P}",
@@ -530,7 +515,6 @@
     "combat3": {
       "name": "Skyfeather Song",
       "description": "Derives the ability to spur his teammates on from the recited prayers of the knightly order, regenerating HP for all nearby party members. This healing is based on Mika's Max HP and will grant them the Eagleplume state.\n\nEagleplume\nWhen the Normal Attacks of active characters affected by Eagleplume hit an opponent, Mika will help them regenerate HP based on his Max HP.\nCharacters affected by this state can only regenerate HP in this way once per short interval of time.",
-      "flavorText": "\"Carry hope when in dire straits, and keep vigil when all is well... For that pure white plume shall at last guide the lost wayfarers.\"",
       "attributes": {
         "labels": [
           "Cast Healing|{param2:F1P} Max HP+{param1:I}",
@@ -1639,6 +1623,22 @@
       "hp": 12506.152435299999,
       "attack": 223.0170516,
       "defense": 713.234993625,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12938.159031700001,
+      "attack": 251.457318,
+      "defense": 737.872645125,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13371.2141878,
+      "attack": 279.9162828,
+      "defense": 762.57009675,
       "specialized": 0.24
     },
     "20+": {

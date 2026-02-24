@@ -6,26 +6,17 @@
     "description": "Deacon of the Church of Favonius and the Anemo Archon's representative in the church.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "5/25",
     "birthday": "May 25",
+    "birthdaymmdd": "5/25",
     "elementType": "ELEMENT_HYDRO",
     "elementText": "Hydro",
     "affiliation": "Church of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Cantus Choralis",
-    "cv": {
-      "english": "Aileen Mythen",
-      "chinese": "风袖",
-      "japanese": "山本和臣",
-      "korean": "Seok Seung-hoon"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Dahlia_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Dahlia",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Dahlia",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Dahlia",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dahlia.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Dahlia.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/255dedc5048565aec2c5af510c6f74a5_7726536808309970424.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Dahlia"
     },
     "version": "5.7"
   },
@@ -1527,6 +1515,22 @@
       "hp": 12506.152435299999,
       "attack": 189.03350088000002,
       "defense": 559.6676505,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12938.159031700001,
+      "attack": 213.1400124,
+      "defense": 579.0005445,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13371.2141878,
+      "attack": 237.26237304,
+      "defense": 598.380363,
       "specialized": 0.24
     },
     "20+": {

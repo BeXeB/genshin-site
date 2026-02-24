@@ -6,26 +6,17 @@
     "description": "An undefeated Champion Duelist. Sword in hand, she defends justice in the Court of Fontaine.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "9/20",
     "birthday": "September 20",
+    "birthdaymmdd": "9/20",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Trial Court",
-    "associationType": "ASSOC_FONTAINE",
     "region": "Fontaine",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Rapperia",
-    "cv": {
-      "english": "Crystal Lee",
-      "chinese": "赵涵雨",
-      "japanese": "石川由依",
-      "korean": "Shin Na-ri"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Clorinde_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Clorinde",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Clorinde",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Clorinde",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Clorinde.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Clorinde.png",
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/123842/2578e615ea87f7d43cec797000614f69_5180085721299058794.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/123842/74250ee9d21f2f37663d8d1025e91af6_370686632736138915.png",
-      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/04/35428890/770a66030815971c697ab81bc5436329_1296341861352728851.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Clorinde"
     },
     "version": "4.7"
   },
@@ -445,7 +431,6 @@
     "combat2": {
       "name": "Hunter's Vigil",
       "description": "Preparing her pistolet, she enters the \"Night Vigil\" state, using steel and shot together. In this state, Clorinde's Normal Attacks will be transformed into \"Swift Hunt\" pistolet attacks, and the DMG dealt is converted into Electro DMG that cannot be overridden by infusions, and she will be unable to use Charged Attacks. Using her Elemental Skill will transform it into \"Impale the Night\": Perform a lunging attack, dealing Electro DMG. The DMG done through the aforementioned method is considered Normal Attack DMG.\n\nSwift Hunt\n· When her Bond of Life is equal to or greater than 100% of her max HP: Performs a pistolet shot.\n· When her Bond of Life is less than 100%, firing her pistolet will grant her Bond of Life, with the amount gained based on her max HP. The shots she fires can pierce opponents, and DMG dealt to opponents in their path is increased.\n\nImpale the Night\nThe current percentage value of Clorinde's Bond of Life determines its effect:\n· When the Bond of Life value is 0%, perform a normal lunging strike;\n· When the Bond of Life value is less than 100% of her max HP, Clorinde is healed based on the Bond of Life value, and the AoE of the lunging attack and the DMG dealt is increased;\n· When the value of the Bond of Life is equal to or greater than 100% of her max HP, use Impale the Night: Pact. The healing multiplier is increased, and the AoE and DMG dealt by the lunge is increased even further.\n\nIn addition, when Clorinde is in the Night Vigil state, healing effects other than Impale the Night will not take effect and will instead be converted into a Bond of Life that is a percentage of the healing that would have been received.\n\nClorinde will exit the \"Night Vigil\" state when she leaves the field.\n\nArkhe: Ousia\nPeriodically, when Clorinde's Swift Hunt shots strike opponents, she will summon a Surging Blade at the position hit that deals Ousia-aligned Electro DMG.",
-      "flavorText": "Though the evil that lurked in the shadows of the night had been purged across thousands of years, a shadow that the light could not reach clouded human hearts.\nEven now, the warning left by the Golden Hunter is etched into her memory: Those of the Night Vigil, carrying aloft lit candles against the blackness, have greater need still to remain vigilant. Be not corrupted by the cold dark.",
       "attributes": {
         "labels": [
           "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
@@ -686,7 +671,6 @@
     "combat3": {
       "name": "Last Lightfall",
       "description": "Grants herself a Bond of Life based upon her own max HP before swiftly evading and striking with saber and sidearm as one, dealing AoE Electro DMG.",
-      "flavorText": "It is said the legacy of the ancient art of resisting non-human beings with but a mortal body can be traced back to the Lochknights who resisted the Remurian Empire.\nBe that as it may, so long as one can find a way to control the level of force used, it's not as if it cannot be used in duels against ordinary opponents.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}×5",
@@ -1725,6 +1709,22 @@
       "hp": 12956.173074450002,
       "attack": 337.2415138,
       "defense": 783.9254574000001,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13416.10039725,
+      "attack": 375.1788328,
+      "defense": 811.753587,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13877.0363326,
+      "attack": 413.1161518,
+      "defense": 839.6427432,
       "specialized": 0.242
     },
     "20+": {

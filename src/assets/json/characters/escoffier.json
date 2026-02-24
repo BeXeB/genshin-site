@@ -6,26 +6,17 @@
     "description": "The ex-head chef of Hotel Debord, renowned throughout Fontaine as the Patissiere Supreme and vanguard of precision gastronomy. Has incomparably strict standards when it comes to cooking.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "6/8",
     "birthday": "June 8",
+    "birthdaymmdd": "6/8",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Fontaine",
-    "associationType": "ASSOC_FONTAINE",
     "region": "Fontaine",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Dulciaria Structura",
-    "cv": {
-      "english": "Emily Cass",
-      "chinese": "蔡海婷",
-      "japanese": "佐藤聡美",
-      "korean": "Son Jeong-min"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Escoffier_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Escoffier",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Escoffier",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Escoffier",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Escoffier.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Escoffier.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ddbc128157d69479f61747f0918f9e72_2470321636402108639.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Escoffier"
     },
     "version": "5.6"
   },
@@ -1564,6 +1552,22 @@
       "hp": 13348.0427932,
       "attack": 346.808651,
       "defense": 731.66376024,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13821.880966,
+      "attack": 385.822206,
+      "defense": 757.6366812,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14296.758257599999,
+      "attack": 424.835761,
+      "defense": 783.6665603199999,
       "specialized": 0.242
     },
     "20+": {

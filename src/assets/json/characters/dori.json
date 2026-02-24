@@ -6,26 +6,17 @@
     "description": "An elusive merchant who has a fondness for glittering Mora.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "12/21",
     "birthday": "December 21",
+    "birthdaymmdd": "12/21",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "The Palace of Alcazarzaray",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Magicae Lucerna",
-    "cv": {
-      "english": "Anjali Kunapaneni",
-      "chinese": "王晓彤",
-      "japanese": "金田朋子",
-      "korean": "Lee Myeong-ho"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/30/9b5c8d26504c19154056175bbb7e287a_5787324797772373669.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/30/2cff1eeb6d74ff8e00813614cb9d7635_8541812394706368377.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/ff9085c679cf2c31bd8428eee1c026ce.png",
       "filename_icon": "UI_AvatarIcon_Dori",
       "filename_iconCard": "UI_AvatarIcon_Dori_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Dori",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Dori",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Dori",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Dori.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/35428890/6539bea71efd0f839db897cfc4094362_3469125131800075941.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Dori"
     },
     "version": "3.0"
   },
@@ -412,7 +397,6 @@
     "combat2": {
       "name": "Spirit-Warding Lamp: Troubleshooter Cannon",
       "description": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing Electro DMG.\nAfter the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track nearby opponents and deal Electro DMG.",
-      "flavorText": "It is said that Dori can fix any problem for you... for the right price.",
       "attributes": {
         "labels": [
           "Troubleshooter Shot DMG|{param1:F1P}",
@@ -477,7 +461,6 @@
     "combat3": {
       "name": "Alcazarzaray's Exactitude",
       "description": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\n\nJinni\nConnects to a nearby character. The connected character will:\n· Continuously restore HP based on Dori's Max HP.\n· Continuously regenerate Energy.\n· Be affected by Electro.\nWhen the connector between the Jinni and the character touches opponents, it will deal one instance of Electro DMG to them every 0.4s.\n\nOnly one Jinni can exist at one time.",
-      "flavorText": "\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure — comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"",
       "attributes": {
         "labels": [
           "Connector DMG|{param1:P}",
@@ -1569,6 +1552,22 @@
       "hp": 12397.4035882,
       "attack": 223.0170516,
       "defense": 723.4728165,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12825.6536098,
+      "attack": 251.457318,
+      "defense": 748.4641184999999,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13254.9430732,
+      "attack": 279.9162828,
+      "defense": 773.5160789999999,
       "specialized": 0.24
     },
     "20+": {

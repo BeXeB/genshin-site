@@ -6,26 +6,17 @@
     "description": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_MALE",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "11/30",
     "birthday": "November 30",
+    "birthdaymmdd": "11/30",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Knights of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "substatText": "Energy Recharge",
     "constellation": "Pavo Ocellus",
-    "cv": {
-      "english": "Josey Montana McCoy",
-      "chinese": "孙晔",
-      "japanese": "鳥海浩輔",
-      "korean": "Jung Joo-won"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Character_Kaeya_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Character_Kaeya_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/cbce61ef1ee5586c4e77b2070348685f_2003673786618101140.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20191009/2019100910351589464.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/428a3008f1d6fda010ccfcf7d83b08fe.png",
       "filename_icon": "UI_AvatarIcon_Kaeya",
       "filename_iconCard": "UI_AvatarIcon_Kaeya_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Kaeya",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kaeya",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kaeya",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaeya.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kaeya.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kaeya_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Kaeya"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kaeya"
     },
     "version": "1.0"
   },
@@ -417,7 +397,6 @@
     "combat2": {
       "name": "Frostgnaw",
       "description": "Unleashes a frigid blast, dealing Cryo DMG to opponents in front of Kaeya.",
-      "flavorText": "Kaeya seems affable, but his nature is that of unyielding ice.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -464,7 +443,6 @@
     "combat3": {
       "name": "Glacial Waltz",
       "description": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\nThese icicles will follow the character around and deal Cryo DMG to opponents in their path for the ability's duration.",
-      "flavorText": "A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1503,6 +1481,22 @@
       "hp": 11636.1591236,
       "attack": 223.0170516,
       "defense": 791.724969,
+      "specialized": 0.2667
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12038.113080399999,
+      "attack": 251.457318,
+      "defense": 819.073941,
+      "specialized": 0.2667
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 12441.042653599998,
+      "attack": 279.9162828,
+      "defense": 846.489294,
       "specialized": 0.2667
     },
     "20+": {

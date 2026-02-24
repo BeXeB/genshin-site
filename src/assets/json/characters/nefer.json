@@ -6,26 +6,17 @@
     "description": "The remarkably resourceful owner of the Curatorium of Secrets.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "5/9",
     "birthday": "May 9",
+    "birthdaymmdd": "5/9",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Curatorium of Secrets",
-    "associationType": "ASSOC_NODKRAI",
     "region": "Nod-Krai",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Ludus Latrunculorum",
-    "cv": {
-      "english": "Ashleigh Haddad",
-      "chinese": "曾彤",
-      "japanese": "水樹奈々",
-      "korean": "Won Esther"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Nefer_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Nefer",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Nefer",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Nefer",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nefer.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Nefer.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/10/21/7557acebcb72b4d9912bcb0e6c92306a_3655566527985254987.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Nefer"
     },
     "version": "6.1"
   },
@@ -410,7 +398,6 @@
     "combat2": {
       "name": "Senet Strategy: Dance of a Thousand Nights",
       "description": "A dance that dissolved dynasties, as chilling as a winter's night on the great sea of sand, yet lingering with the tenderness of moonlit gauze. Nefer charges forward, dealing AoE Dendro DMG and entering the **Shadow Dance** state.\nWhile in the Shadow Dance state, if you have at least 1 **Verdant Dew**, Nefer's Charged Attacks will be replaced with the special Charged Attack **Phantasm Performance**, which will not consume Stamina. When in the Shadow Dance state, Nefer's resistance to interruption is increased.\n\nTwo initial charges.",
-      "flavorText": "\"The world is a game in which the pieces remain hidden behind a veil. To avoid falling into a trap, one must collect every piece of information one can. This is the meaning of secrets.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P} ATK+{param2:F1P} Elemental Mastery",
@@ -634,7 +621,6 @@
     "combat3": {
       "name": "Sacred Vow: True Eye's Phantasm",
       "description": "Grant \"revelation\" to the mysteries of the false through Thoth's true sight, dealing AoE Dendro DMG to opponents ahead. When unleashed, Nefer will consume all **Veils of Falsehood** to increase the DMG dealt by the current Elemental Burst.",
-      "flavorText": "The blessings of the Ibis King proclaimed by the singers of the burning sands are, in truth, more akin to dire curses.",
       "attributes": {
         "labels": [
           "1-Hit DMG|{param1:F1P} ATK+{param2:F1P} Elemental Mastery",
@@ -1730,6 +1716,22 @@
       "hp": 12703.9082338,
       "attack": 344.4168692,
       "defense": 799.2965448000001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13154.880469,
+      "attack": 383.1613652,
+      "defense": 827.670324,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13606.8416784,
+      "attack": 421.90586119999995,
+      "defense": 856.1063264,
       "specialized": 0.884
     },
     "20+": {

@@ -6,26 +6,17 @@
     "description": "The current President of Spina di Rosula, who is lovely, dutiful, and a great boss.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "8/16",
     "birthday": "August 16",
+    "birthdaymmdd": "8/16",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Spina di Rosula",
-    "associationType": "ASSOC_FONTAINE",
     "region": "Fontaine",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Rosa Multiflora",
-    "cv": {
-      "english": "Brenna Larsen",
-      "chinese": "小敢",
-      "japanese": "豊崎愛生",
-      "korean": "Jeong Hae-eun"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113799/c765b3ba5e3b25ce6e8afd3e758251a8_8182638561484390418.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113799/865a415e7278fa634898a3d55fbd3884_137330819669966012.png",
       "filename_icon": "UI_AvatarIcon_Navia",
       "filename_iconCard": "UI_AvatarIcon_Navia_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Navia",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Navia",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Navia",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Navia.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Navia.png",
-      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/18/35428890/3fc7580c01a9e622692402889706c4db_8301615651200775487.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Navia"
     },
     "version": "4.3"
   },
@@ -412,7 +398,6 @@
     "combat2": {
       "name": "Ceremonial Crystalshot",
       "description": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, or when they trigger the Lunar-Crystallize reaction, Navia will gain 1 Crystal Shrapnel stack. Navia can have up to 6 stacks of Crystal Shrapnel at once. Each time Crystal Shrapnel gain is triggered, the duration of the Crystal Shrapnel stacks you already have will be reset. Through the Lunar-Crystallize reaction, Navia will gain up to 1 Crystal Shrapnel stack every second.\nWhen she fires, Navia will consume all Crystal Shrapnel stacks and open her elegant yet lethal Gunbrella, firing multiple Rosula Shardshots that can penetrate opponents, dealing Geo DMG to opponents hit.\nWhen 0/1/2/3 or more stacks of Crystal Shrapnel are consumed, 5/7/9/11 Rosula Shardshots will be fired respectively. The more Rosula Shardshots that strike a single opponent, the greater the DMG dealt to them. When all 11 Rosula Shardshots strike, 200% of the original amount of DMG is dealt.\nIn addition, when more than 3 stacks of Crystal Shrapnel are consumed, every stack consumed beyond those 3 will increase the DMG dealt by this Gunbrella attack by an additional 15%.\n\nHold\nEnter Aiming Mode, continually collecting nearby Elemental Shards created by Crystallize reactions. When released, fire Rosula Shardshots with the same effect as when the skill is Tapped.\n\nTwo initial charges.\n\nArkhe: Ousia\nPeriodically, when Navia fires her Gunbrella, a Surging Blade will be summoned, dealing Ousia-aligned Geo DMG.",
-      "flavorText": "\"Maintaining the appropriate distance with those whom distance should be maintained is an essential part of etiquette. Naturally, there are also many ways to do this...\"",
       "attributes": {
         "labels": [
           "Rosula Shardshot Base DMG|{param1:F1P}",
@@ -530,7 +515,6 @@
     "combat3": {
       "name": "As the Sunlit Sky's Singing Salute",
       "description": "On the orders of the President of the Spina di Rosula, call for a magnificent Rosula Dorata Salute. Unleashes a massive cannon bombardment on opponents in front of her, dealing AoE Geo DMG and providing Cannon Fire Support for a duration afterward, periodically dealing Geo DMG to nearby opponents.\nWhen cannon attacks hit opponents, Navia will gain 1 stack of Crystal Shrapnel. This effect can be triggered up to once every 2.4s.",
-      "flavorText": "\"The Spina di Rosula's salute is a preemptive celebration of the successful conclusion of our negotiations and is fired just before talks begin. Don't misunderstand, it isn't in any way, shape, or form some kind of threat.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1604,6 +1588,22 @@
       "hp": 12650.02580006,
       "attack": 351.5922196,
       "defense": 793.1481098400001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13099.085270300002,
+      "attack": 391.14389259999996,
+      "defense": 821.3036292,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13549.129520079998,
+      "attack": 430.6955656,
+      "defense": 849.52089312,
       "specialized": 0.884
     },
     "20+": {

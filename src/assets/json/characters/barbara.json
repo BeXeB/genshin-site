@@ -6,26 +6,17 @@
     "description": "Every citizen of Mondstadt adores Barbara. She learned the word \"idol\" from a magazine.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "7/5",
     "birthday": "July 5",
+    "birthdaymmdd": "7/5",
     "elementType": "ELEMENT_HYDRO",
     "elementText": "Hydro",
     "affiliation": "Church of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Crater",
-    "cv": {
-      "english": "Laura Stahl",
-      "chinese": "宋媛媛",
-      "japanese": "鬼頭明里",
-      "korean": "Yoon Ah-young"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Character_Barbara_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Barbara_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/6c009f0631eb71e697c2da76b608a51e_679009763713991286.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200609/2020060915102571828.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityweb/upload/2adac6e4e0195c39d90696955f9a7902.png",
       "filename_icon": "UI_AvatarIcon_Barbara",
       "filename_iconCard": "UI_AvatarIcon_Barbara_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Barbara",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Barbara",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Barbara",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Barbara.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Barbara_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Barbara"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Barbara"
     },
     "version": "1.0"
   },
@@ -382,7 +362,6 @@
     "combat2": {
       "name": "Let the Show Begin♪",
       "description": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding opponents and applying the Wet status to them.\n\nMelody Loop\n·On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\n·On hit, Barbara's Charged Attack generates 4 times the amount of healing.\n·Periodically regenerates your own active character's HP.\n·Applies the Wet status to the character and to opponents who come in contact with them.",
-      "flavorText": "Barbara's music is the magic that heals her companions.",
       "attributes": {
         "labels": [
           "HP Regeneration Per Hit|{param3:F2P} Max HP+{param4:I}",
@@ -517,7 +496,6 @@
     "combat3": {
       "name": "Shining Miracle♪",
       "description": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.",
-      "flavorText": "Barbara's desire to heal strengthens her will to fight and sing.",
       "attributes": {
         "labels": [
           "Regeneration|{param1:F1P} Max HP+{param2:I}",
@@ -1555,6 +1533,22 @@
       "hp": 9787.4235531,
       "attack": 159.29789399999999,
       "defense": 668.8710945,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10125.515655899999,
+      "attack": 179.61236999999997,
+      "defense": 691.9762605,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10464.428370599999,
+      "attack": 199.94020199999997,
+      "defense": 715.1375069999999,
       "specialized": 0.24
     },
     "20+": {

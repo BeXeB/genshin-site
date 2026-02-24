@@ -6,26 +6,17 @@
     "description": "A Melusine and the Fortress of Meropide's head nurse. She cares equally for every convict locked in the undersea prison.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "3/30",
     "birthday": "March 30",
+    "birthdaymmdd": "3/30",
     "elementType": "ELEMENT_HYDRO",
     "elementText": "Hydro",
     "affiliation": "Fortress of Meropide",
-    "associationType": "ASSOC_FONTAINE",
     "region": "Fontaine",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Nereides",
-    "cv": {
-      "english": "Sarah Williams",
-      "chinese": "赵爽",
-      "japanese": "木野日菜",
-      "korean": "Kim Chae-rin"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Sigewinne_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Sigewinne",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Sigewinne",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sigewinne",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sigewinne.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Sigewinne.png",
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/124105/22609467819303b436883092635ae97a_5002591570143526700.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/124105/92c470753d2ea1e4acca1ea8e77a2539_6872660230877687686.png",
-      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/26/35428890/2d607aa4d729030ea04f79919257e311_1172370997840232141.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sigewinne"
     },
     "version": "4.7"
   },
@@ -376,7 +362,6 @@
     "combat2": {
       "name": "Rebound Hydrotherapy",
       "description": "Blows a Bolstering Bubblebalm that can stimulate blood flow and help patients drift off to sleep using a bubblegun specially made in the Fortress of Meropide.\nBolstering Bubblebalms will bounce between nearby opponents, dealing Hydro DMG based on Sigewinne's max HP to opponents it hits. When it bounces, it will restore HP to all nearby party members except Sigewinne herself. The amount healed is based on Sigewinne's max HP.\nAfter bouncing 5 times, the Bolstering Bubblebalm will disappear and restore HP to Sigewinne based on her max HP value.\nWhen no opponents are present, the Bolstering Bubblebalm will bounce nearby. Only one Bolstering Bubblebalm created by a Sigewinne may exist at once.\nWhen Held, the Bolstering Bubblebalm can be boosted to an even bigger size.\n\nHold\nEnter Aiming Mode to begin blowing an even bigger, even more breathtaking Bolstering Bubblebalm!\nThe Bolstering Bubblebalm will grow bigger the longer the skill is Held, until it grows up to two tiers in size. Each tier it grows increases its DMG by 5% and healing by 5%. When a Bolstering Bubblebalm bounces, it will drop down a tier in size, until it returns to being a normal Bolstering Bubblebalm.\nAfter weaker opponents are hit by big Bolstering Bubblebalms, they will be imprisoned and will be unable to move.\n\nIn addition, 2 Sourcewater Droplets will be created near Sigewinne when she uses this Skill. Each Sourcewater Droplet Sigewinne collects will grant her a Bond of Life worth 10% of her Max HP.\nWhen Sigewinne's Bond of Life is cleared, she regains 1 Elemental Energy for every 2,000 HP worth of the Bond of Life that was cleared. Sigewinne can regain up to 5 Elemental Energy in this way.\n\nArkhe: Ousia\nBolstering Bubblebalms periodically call down a Surging Blade on the position they hit, dealing Ousia-aligned Hydro DMG based on Sigewinne's max HP.",
-      "flavorText": "\"What do you think? Not only can this kind of hydrotherapy stimulate the circulatory system, but it can also cheer patients up, ooh, and that's not all, it can even help patients who ought to get some rest have a nice nap...\"",
       "attributes": {
         "labels": [
           "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
@@ -563,7 +548,6 @@
     "combat3": {
       "name": "Super Saturated Syringing",
       "description": "Takes out a special Fortress of Meropide-made syringe and assault the area in front with waves of kindness and medicine, dealing AoE Hydro DMG based on Sigewinne's max HP.\nIn addition, Sigewinne absorbs up to 2 nearby Sourcewater Droplets within a certain range when she uses this skill.",
-      "flavorText": "\"Hey, overdosing on medicine is no different from poison, you know, it's real dangerous! But patients need care and concern, and nobody can overdose on that!\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P} Max HP",
@@ -1602,6 +1586,22 @@
       "hp": 13348.0427932,
       "attack": 192.53859490000002,
       "defense": 499.56034050000005,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13821.880966,
+      "attack": 214.1978444,
+      "defense": 517.2939525,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14296.758257599999,
+      "attack": 235.8570939,
+      "defense": 535.066454,
       "specialized": 0.288
     },
     "20+": {

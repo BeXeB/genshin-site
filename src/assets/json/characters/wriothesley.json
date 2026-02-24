@@ -6,26 +6,17 @@
     "description": "Duke of the Fortress of Meropide, Lord Incognito of the murky depths.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_MALE",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "11/23",
     "birthday": "November 23",
+    "birthdaymmdd": "11/23",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Fortress of Meropide",
-    "associationType": "ASSOC_FONTAINE",
     "region": "Fontaine",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Cerberus",
-    "cv": {
-      "english": "Joe Zieja",
-      "chinese": "刘北辰",
-      "japanese": "小野大輔",
-      "korean": "Kwon Chang-wook"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Wriothesley_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Wriothesley",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Wriothesley",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Wriothesley",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Wriothesley.png",
-      "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/09/15/dc378808e6f7d2109a95186b0f312773_225064411558331279.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/09/15/0b76d66fb940afbf5c754b57301e2013_1537958048918053582.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/15/35428890/31a0eb2dec5d69ca8dd7616572136b8b_8886987124386670150.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Wriothesley"
     },
     "version": "4.1"
   },
@@ -411,7 +397,6 @@
     "combat2": {
       "name": "Icefang Rush",
       "description": "Adjusting his breathing, rhythm, and pace, Wriothesley sprints forward a short distance, entering the Chilling Penalty state and unleashing more powerful attacks than before.\n\nChilling Penalty\n·Increases Wriothesley's interruption resistance\n·When his HP is above 50%, it will enhance the Repelling Fists of Normal Attack: Forceful Fists of Frost and increase its DMG. When such an attack hits, it will consume a fixed amount of Wriothesley's HP. HP can be lost this way once every 0.1s.\nThis effect will be canceled should Wriothesley leave the field.",
-      "flavorText": "\"Past convictions are past. It is our future choices that we must grasp.\"\n\"Defy your fate, or else this glutton be, to pay your fate's due, by the crime and thee.\"",
       "attributes": {
         "labels": [
           "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
@@ -511,7 +496,6 @@
     "combat3": {
       "name": "Darkgold Wolfbite",
       "description": "Activating his boxing gloves, Wriothesley strikes out with an icy straight, then uses Icicle Impact to cause multiple instances of AoE Cryo DMG in a frontal area.\n\nArkhe: Ousia\nAfter Icicle Impact ends, a Surging Blade will descend upon the opponent's position, dealing Ousia-aligned Cryo DMG.",
-      "flavorText": "There are some things that even the Duke of the Fortress of Meropide can do little about — for example, complicated paperwork, the trivialities of a supervisor, or even... little kids pasting a whole host of cute but difficult-to-remove stickers on his boxing gloves.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F2P}×5",
@@ -1568,6 +1552,22 @@
       "hp": 13592.9609628,
       "attack": 310.931894,
       "defense": 763.17448941,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 14075.493413999999,
+      "attack": 345.909564,
+      "defense": 790.26599205,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14559.084050399997,
+      "attack": 380.887234,
+      "defense": 817.41690588,
       "specialized": 0.884
     },
     "20+": {

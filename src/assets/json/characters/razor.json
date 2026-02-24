@@ -6,26 +6,17 @@
     "description": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "9/9",
     "birthday": "September 9",
+    "birthdaymmdd": "9/9",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Wolvendom",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_PHYSICAL_ADD_HURT",
     "substatText": "Physical DMG Bonus",
     "constellation": "Lupus Minor",
-    "cv": {
-      "english": "Todd Haberkorn",
-      "chinese": "周帅",
-      "japanese": "内山昂輝",
-      "korean": "Kim Seo-young"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Razor_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Razor_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/a1594317bbd0cefeb7da501f9879375b_2033485936169222365.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20191018/2019101811585976188.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/997709a43b4f8d80a58ac14d412bf2e7.png",
       "filename_icon": "UI_AvatarIcon_Razor",
       "filename_iconCard": "UI_AvatarIcon_Razor_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Razor",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Razor",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Razor",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Razor.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Razor_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Razor"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Razor"
     },
     "version": "1.0"
   },
@@ -418,7 +398,6 @@
     "combat2": {
       "name": "Claw and Thunder",
       "description": "Hunts his prey using the techniques taught to him by his master and his lupical.\n\nPress\nSwings the Thunder Wolf Claw, dealing Electro DMG to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\nHold\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.",
-      "flavorText": "In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.",
       "attributes": {
         "labels": [
           "Press Skill DMG|{param1:P}",
@@ -555,7 +534,6 @@
     "combat3": {
       "name": "Lightning Fang",
       "description": "Summons the Wolf Within, which deals Electro DMG to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\nThe Wolf Within\n·Strikes alongside Razor's normal attacks, dealing Electro DMG.\n·Raises Razor's ATK SPD and Electro RES.\n·Causes Razor to be immune to DMG inflicted by the Electro-Charged status.\n·Disables Razor's Charged Attacks.\n·Increases Razor's resistance to interruption.\n\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.",
-      "flavorText": "The wolf has awoken. The hunt is on.",
       "attributes": {
         "labels": [
           "Burst DMG|{param1:P}",
@@ -1653,6 +1631,22 @@
       "hp": 11962.4064649,
       "attack": 233.6369112,
       "defense": 750.7736775,
+      "specialized": 0.3
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12375.630146099998,
+      "attack": 263.431476,
+      "defense": 776.7080474999999,
+      "specialized": 0.3
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 12789.8567974,
+      "attack": 293.2456296,
+      "defense": 802.705365,
       "specialized": 0.3
     },
     "20+": {

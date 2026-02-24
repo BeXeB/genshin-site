@@ -6,26 +6,17 @@
     "description": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "11/26",
     "birthday": "November 26",
+    "birthdaymmdd": "11/26",
     "elementType": "ELEMENT_ANEMO",
     "elementText": "Anemo",
     "affiliation": "Knights of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_WIND_ADD_HURT",
     "substatText": "Anemo DMG Bonus",
     "constellation": "Ampulla",
-    "cv": {
-      "english": "Valeria Rodriguez & Anonymous",
-      "chinese": "小敢",
-      "japanese": "藤田茜",
-      "korean": "Kim Ha-young"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Sucrose_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Character_Sucrose_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/448bc697f852e5726717fa2be839eedc_8541949366334435361.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200723/2020072319142329434.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/4ffb3198b59f3ae36df71d4b938447af.png",
       "filename_icon": "UI_AvatarIcon_Sucrose",
       "filename_iconCard": "UI_AvatarIcon_Sucrose_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Sucrose",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Sucrose",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sucrose",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Sucrose.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Sucrose_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Sucrose"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sucrose"
     },
     "version": "1.0"
   },
@@ -382,7 +362,6 @@
     "combat2": {
       "name": "Astable Anemohypostasis Creation - 6308",
       "description": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals Anemo DMG.",
-      "flavorText": "This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -429,7 +408,6 @@
     "combat3": {
       "name": "Forbidden Creation - Isomer 75 / Type II",
       "description": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal Anemo DMG.\n\nElemental Absorption\nIf the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro energy, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.",
-      "flavorText": "Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.",
       "attributes": {
         "labels": [
           "DoT|{param1:P}",
@@ -1491,6 +1469,22 @@
       "hp": 9243.67751666,
       "attack": 169.9177536,
       "defense": 702.99717075,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 9562.98672074,
+      "attack": 191.586528,
+      "defense": 727.28117175,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 9883.07094716,
+      "attack": 213.2695488,
+      "defense": 751.6241145,
       "specialized": 0.24
     },
     "20+": {

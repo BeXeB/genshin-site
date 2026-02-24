@@ -6,26 +6,17 @@
     "description": "A shareholder of Aisa Bathhouse, a baku, and a clinical psychologist. Dedicated to the dispersal of nightmares, and to bringing people peace of mind.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "3/16",
     "birthday": "March 16",
+    "birthdaymmdd": "3/16",
     "elementType": "ELEMENT_ANEMO",
     "elementText": "Anemo",
     "affiliation": "Inazuma",
-    "associationType": "ASSOC_INAZUMA",
     "region": "Inazuma",
     "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
     "substatText": "Elemental Mastery",
     "constellation": "Tapirus Somniator",
-    "cv": {
-      "english": "Naomi McDonald",
-      "chinese": "浮梦若薇",
-      "japanese": "会沢紗弥",
-      "korean": "Kim Seo-hyun"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Mizuki_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Mizuki",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Mizuki",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mizuki",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mizuki.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Mizuki.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/02/08/11662c12fb353d88bd2b20a2726c9f1c_8013472600677983943.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mizuki"
     },
     "version": "5.4"
   },
@@ -356,7 +344,6 @@
     "combat2": {
       "name": "Aisa Utamakura Pilgrimage",
       "description": "Weaves memories of lovely dreams, entering a Dreamdrifter state where Yumemizuki Mizuki floats above the ground, and dealing 1 instance of AoE Anemo DMG to nearby opponents.\n\nDreamdrifter\n·While in the Dreamdrifter state, Yumemizuki Mizuki will continuously drift forward, dealing AoE Anemo DMG to nearby opponents at regular intervals.\n·During this time, Yumemizuki Mizuki can control her direction of drift, and the pick-up distance of Yumemi Style Special Snacks from the Elemental Burst Anraku Secret Spring Therapy will be increased.\n·Increases the Swirl DMG that nearby party members deal based on Yumemizuki Mizuki's Elemental Mastery.\n·Dreamdrifter will end when Mizuki leaves the field or uses her Elemental Skill again.",
-      "flavorText": "\"Our dreams touch at midnight, their song ringing on in our hearts.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param4:F1P}",
@@ -457,7 +444,6 @@
     "combat3": {
       "name": "Anraku Secret Spring Therapy",
       "description": "Summons forth countless lovely dreams and nightmares that pull in nearby objects and opponents, dealing AoE Anemo DMG and summoning a Mini Baku.\n\nMini Baku:\nFollows the current active character. At regular intervals, the Mini Baku will create 1 Yumemi Style Special Snack nearby. After one of your own party members picks up a Special Snack, if their HP is higher than 70%, the Snack will explode and unleash a Munen Shockwave, dealing 1 instance of AoE Anemo DMG to nearby opponents. Otherwise, it will heal the character who picked it up based on Yumemizuki Mizuki's Elemental Mastery. When Yumemizuki Mizuki triggers healing by picking up a Yumemi Style Special Snack, the amount of healing is increased by 100%. If a Snack is not picked up after a period of time, it will explode and release a Munen Shockwave, dealing 1 instance of AoE Anemo DMG to surrounding opponents.",
-      "flavorText": "\"If you bury dark emotions for too long, they will become nightmares. With that in mind, why don't we turn them into 'delicious snacks' while we've got the time?\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1549,6 +1535,22 @@
       "hp": 12735.747219200002,
       "attack": 215.260542,
       "defense": 757.0260544500001,
+      "specialized": 115.2
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13187.849696000001,
+      "attack": 239.47585199999997,
+      "defense": 783.89929725,
+      "specialized": 115.2
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13640.9436256,
+      "attack": 263.69116199999996,
+      "defense": 810.8314726,
       "specialized": 115.2
     },
     "20+": {

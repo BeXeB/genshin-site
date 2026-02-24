@@ -6,26 +6,17 @@
     "description": "Streetward Rambler's youngest disciple. A gentle and caring \"little adult.\"",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "3/6",
     "birthday": "March 6",
+    "birthdaymmdd": "3/6",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Streetward Rambler's Abode",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Osmanthus",
-    "cv": {
-      "english": "Kelsey Jaffer",
-      "chinese": "刘颐诺",
-      "japanese": "門脇舞以",
-      "korean": "Yu Hye-ji"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/01/16/52985680295fe1bf3b9eebbbace892f6_2359952543393457185.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/01/16/21adb9a49874e165414e47d92bbf665c_4562109367337128675.png",
       "filename_icon": "UI_AvatarIcon_Yaoyao",
       "filename_iconCard": "UI_AvatarIcon_Yaoyao_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Yaoyao",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yaoyao",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yaoyao",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yaoyao.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yaoyao.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/5bc9df1fb67391e4c8080da3d855de53_8974356791001371659.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yaoyao"
     },
     "version": "3.4"
   },
@@ -393,7 +379,6 @@
     "combat2": {
       "name": "Raphanus Sky Cluster",
       "description": "Calls upon \"Yuegui: Throwing Mode,\" a special device created by a certain adeptus to help Yaoyao solve her problems.\nThis skill will be used differently in Holding Mode.\n\nHold\nEnters Aiming Mode to adjust the throw direction.\n\nYuegui: Throwing Mode\nThrows out White Jade Radishes that will explode upon hitting characters or opponents, dealing Dendro DMG to opponents within a certain AoE, and healing characters within that same AoE based on Yaoyao's Max HP. If a radish does not hit either an opponent or a character, the radish will remain where it is and explode on contact with a character or opponent, or will explode after its duration expires.\nYuegui: Throwing Mode will choose its radish-throw targets.\n·If all nearby characters have more than 70% HP remaining, then it will throw the radish at a nearby opponent.\n·If nearby characters have 70% or less HP remaining, it will throw a radish at the character with the lowest HP percentage remaining. If no opponents exist nearby, Yuegui will also throw White Jade Radishes at characters if they all have more than 70% HP and less than 100% HP remaining. Otherwise, it will throw radishes into the area at random.\n\nA maximum of 2 instances of Yuegui: Throwing Mode can exist at any one time.",
-      "flavorText": "\"A radish a day keeps trouble away! ... Oh, this isn't about a radish's medical properties, exactly, but it does have some health benefits, yeah!\"",
       "attributes": {
         "labels": [
           "White Jade Radish DMG|{param1:F1P}",
@@ -511,7 +496,6 @@
     "combat3": {
       "name": "Moonjade Descent",
       "description": "At the enjoinment of a certain adeptus, Yuegui's full potential can be unleashed in an emergency, dealing Dendro DMG to nearby opponents and entering an (in some sense) unsurpassed Adeptal Legacy state.\n\nAdeptal Legacy\n·White Jade Radishes generated will be changed to heal and deal DMG according to this skill. Explosions will heal all nearby party members, and the Dendro DMG that they deal will be viewed as Elemental Burst DMG instead.\n·Summons \"Yuegui: Jumping Mode\" at intervals until their limit has been reached. The behavior of this version of Yuegui is the same as that of \"Yuegui: Throwing Mode\" in the Elemental Skill, Raphanus Sky Cluster. A maximum of 3 Yuegui: Jumping Mode can exist at any one time.\n·Yaoyao's Movement SPD is increased by 15%.\n·Yaoyao's Dendro RES will be increased.\n\nThe Adeptal Legacy state will end once Yaoyao is off-field, and all remaining Yuegui: Jumping Mode will be cleared once this state ends.",
-      "flavorText": "\"Eh? Which one of these is actually Yuegui, you ask? Aren't they all Yuegui?\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param4:F1P}",
@@ -1621,6 +1605,22 @@
       "hp": 12288.654441100001,
       "attack": 212.397192,
       "defense": 750.7736775,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12713.1478879,
+      "attack": 239.48315999999997,
+      "defense": 776.7080474999999,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13138.6716586,
+      "attack": 266.586936,
+      "defense": 802.705365,
       "specialized": 0.24
     },
     "20+": {

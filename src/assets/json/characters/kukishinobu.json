@@ -6,26 +6,17 @@
     "description": "The capable and reliable Arataki Gang deputy leader. Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "7/27",
     "birthday": "July 27",
+    "birthdaymmdd": "7/27",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Arataki Gang",
-    "associationType": "ASSOC_INAZUMA",
     "region": "Inazuma",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Tribulatio Demptio",
-    "cv": {
-      "english": "Kira Buckland",
-      "chinese": "杨凝",
-      "japanese": "水橋かおり",
-      "korean": "Kim Yool"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/ef220a612a40dc5d4d7c9136345f4967_781122695746863474.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/e497caa0da05be3ef9ad4257397aac2b_2081488015651963536.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/be3096da72e3f1d86d6856f298a95147.png",
       "filename_icon": "UI_AvatarIcon_Shinobu",
       "filename_iconCard": "UI_AvatarIcon_Shinobu_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Shinobu",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Shinobu",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Shinobu",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Shinobu.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kuki Shinobu_icon.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Shinobu"
     },
     "version": "2.7"
   },
@@ -394,7 +379,6 @@
     "combat2": {
       "name": "Sanctifying Ring",
       "description": "Creates a Grass Ring of Sanctification at the cost of part of her HP, dealing Electro DMG to nearby opponents.\n\nGrass Ring of Sanctification\nFollows your current active character around. Deals Electro DMG to nearby opponents every 1.5s and restores HP for active character(s) within the ring's AoE based on Kuki Shinobu's Max HP.\n\nThe HP consumption from using this skill can only bring her to 20% HP.",
-      "flavorText": "\"Band the Naku Weed into a loop around your waist, and it shall exorcise evil.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -530,7 +514,6 @@
     "combat3": {
       "name": "Gyoei Narukami Kariyama Rite",
       "description": "Stabs an evil-excoriating blade into the ground, creating a field that cleanses the area of all that is foul, dealing continuous Electro DMG to opponents within its AoE based on Shinobu's Max HP.\nIf Shinobu's HP is less than or equal to 50% when this skill is used, the field will last longer.",
-      "flavorText": "This was originally a technique used in weeding and in ritual prayers for the yearly harvest, but Shinobu has not forgotten it, though her career as a shrine maiden may have ended.",
       "attributes": {
         "labels": [
           "Single Instance DMG|{param1:F1P} Max HP",
@@ -1621,6 +1604,22 @@
       "hp": 12288.654441100001,
       "attack": 212.397192,
       "defense": 750.7736775,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12713.1478879,
+      "attack": 239.48315999999997,
+      "defense": 776.7080474999999,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13138.6716586,
+      "attack": 266.586936,
+      "defense": 802.705365,
       "specialized": 0.24
     },
     "20+": {

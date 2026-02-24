@@ -6,26 +6,17 @@
     "description": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "10/16",
     "birthday": "October 16",
+    "birthdaymmdd": "10/16",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "\"The Red Strings\"",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Fila Ignium",
-    "cv": {
-      "english": "Laura Stahl",
-      "chinese": "王雅欣",
-      "japanese": "たかはし智秋",
-      "korean": "Kim Chae-ha"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Xinyan_Card.jpeg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Character_Xinyan_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/3deca8e73a03e779087b74ebeac883cb_7694328369896454033.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201125/2020112516125848571.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/1a30faffb4b122f778b1ab4c7c39d6bf.png",
       "filename_icon": "UI_AvatarIcon_Xinyan",
       "filename_iconCard": "UI_AvatarIcon_Xinyan_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Xinyan",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Xinyan",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xinyan",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xinyan.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xinyan_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Xinyan"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xinyan"
     },
     "version": "1.1"
   },
@@ -418,7 +398,6 @@
     "combat2": {
       "name": "Sweeping Fervor",
       "description": "Xinyan brandishes her instrument, dealing Pyro DMG on nearby opponents, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\n·Hitting 0–1 opponents grants Shield Level 1: Ad Lib.\n·Hitting 2 opponents grants Shield Level 2: Lead-In.\n·Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent Pyro DMG to nearby opponents.\n\nThe shield has the following special properties:\n·When unleashed, it infuses Xinyan with Pyro.\n·It has 250% DMG Absorption effectiveness against Pyro DMG.",
-      "flavorText": "Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.",
       "attributes": {
         "labels": [
           "Swing DMG|{param1:P}",
@@ -606,7 +585,6 @@
     "combat3": {
       "name": "Riff Revolution",
       "description": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\nThe sheer intensity of the atmosphere will cause explosions that deal Pyro DMG to nearby opponents.",
-      "flavorText": "Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1663,6 +1641,22 @@
       "hp": 11201.1621003,
       "attack": 248.50471064000004,
       "defense": 798.55018425,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11588.089716699998,
+      "attack": 280.1952932,
+      "defense": 826.1349232499999,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11975.956477799999,
+      "attack": 311.90671112,
+      "defense": 853.7866154999999,
       "specialized": 0.24
     },
     "20+": {

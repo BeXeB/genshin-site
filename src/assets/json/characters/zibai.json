@@ -6,25 +6,16 @@
     "description": "The White Horse Adeptus from Liyue's legends, known as Zibai. The most mysterious figure in Liyue's myths.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "5/15",
     "birthday": "May 15",
+    "birthdaymmdd": "5/15",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Liyue Harbor",
-    "associationType": "ASSOC_NODKRAI_ZIBAI",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Equa Alba",
-    "cv": {
-      "english": "Laura Welsh",
-      "chinese": "昱头",
-      "japanese": "福圓美里",
-      "korean": "Chun Song-e"
-    },
     "costs": {
       "ascend1": [
         {
@@ -189,10 +180,7 @@
       "filename_iconCard": "UI_AvatarIcon_Zibai_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Zibai",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Zibai",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Zibai",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zibai.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Zibai.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/12/11/6a57d2dd9677f63ae7d38f525484c55f_7837326903952372916.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Zibai"
     },
     "version": "6.3"
   },
@@ -1674,6 +1662,22 @@
       "hp": 12919.435971400002,
       "attack": 224.82766920000003,
       "defense": 956.8501906500001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13378.059157,
+      "attack": 250.11921519999999,
+      "defense": 990.81687825,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13837.6880952,
+      "attack": 275.4107612,
+      "defense": 1024.8580542,
       "specialized": 0.884
     },
     "20+": {

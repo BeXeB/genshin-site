@@ -6,26 +6,17 @@
     "description": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart — and a dab hand at guiding even the dullest of pupils.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "12/29",
     "birthday": "December 29",
+    "birthdaymmdd": "12/29",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Gandharva Ville",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_GRASS_ADD_HURT",
     "substatText": "Dendro DMG Bonus",
     "constellation": "Vulpes Zerda",
-    "cv": {
-      "english": "Zachary Gordon",
-      "chinese": "莫然",
-      "japanese": "小林沙苗",
-      "korean": "Jung Ui-taek"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/23/a15445b2b2e4443398eabf3b479f49e7_2848574930993769772.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/23/b00b62e3b4f10026bfa95bc07896bbd7_4361735007308383481.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/58163a3ff45260b4b6a5e447e9e1b7eb.png",
       "filename_icon": "UI_AvatarIcon_Tighnari",
       "filename_iconCard": "UI_AvatarIcon_Tighnari_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Tighnari",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Tighnari",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Tighnari",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Tighnari.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/22/35428890/497dd6fac3d3c652a367c67428550747_306268558608889633.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Tighnari"
     },
     "version": "3.0"
   },
@@ -413,7 +398,6 @@
     "combat2": {
       "name": "Vijnana-Phala Mine",
       "description": "Tighnari throws a Vijnana Stormheart ahead that deals AoE Dendro DMG, creating a Vijnana-Khanda Field that creates mysterious illusions that taunt opponents and draw their fire.\nAdditionally, Tighnari gains the Vijnana Suffusion effect, which will decrease the Wreath Arrow's charging time by 2.4s. This effect will dissipate once the skill duration ends or after Tighnari has fired 3 Wreath Arrows.",
-      "flavorText": "\"If seeds wither apart from the soil, they will remain a single seed. But if returned to the soil, they shall multiply ten-million fold.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -496,7 +480,6 @@
     "combat3": {
       "name": "Fashioner's Tanglevine Shaft",
       "description": "Combines the power of all seeds to fire 6 Tanglevine Shafts that can track opponents and deal Dendro DMG.\nAfter they hit, the Tanglevine Shafts will create a secondary wave of Tanglevine Shafts that can also track nearby opponents and deal Dendro DMG on hit.",
-      "flavorText": "\"Do not seek to escape so easily. The vines grow and regrow ever on. Things might get dicey if you don't clear every last one of them out.\"",
       "attributes": {
         "labels": [
           "Tanglevine Shaft DMG|{param1:F1P}",
@@ -1535,6 +1518,22 @@
       "hp": 10849.87711806,
       "attack": 267.8797916,
       "defense": 630.2145834,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11235.0336603,
+      "attack": 298.0143996,
+      "defense": 652.586217,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11621.034844079999,
+      "attack": 328.14900759999995,
+      "defense": 675.0069111999999,
       "specialized": 0.288
     },
     "20+": {

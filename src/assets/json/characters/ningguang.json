@@ -6,26 +6,17 @@
     "description": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "8/26",
     "birthday": "August 26",
+    "birthdaymmdd": "8/26",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Liyue Qixing",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
     "substatText": "Geo DMG Bonus",
     "constellation": "Opus Aequilibrium",
-    "cv": {
-      "english": "Erin Ebers",
-      "chinese": "杜冥鸦",
-      "japanese": "大原さやか",
-      "korean": "Kwak Kyu-mi"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg/",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Character_Ningguang_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/d35a0a1d13f821fd55a6951210c672ac_1444502949404659074.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200305/2020030519431658285.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/498b811beba3fbeb2549a5b362190d43.png",
       "filename_icon": "UI_AvatarIcon_Ningguang",
       "filename_iconCard": "UI_AvatarIcon_Ningguang_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Ningguang",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ningguang",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ningguang",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ningguang.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Ningguang_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Ningguang"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ningguang"
     },
     "version": "1.0"
   },
@@ -346,7 +326,6 @@
     "combat2": {
       "name": "Jade Screen",
       "description": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing AoE Geo DMG.\n\nJade Screen\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.",
-      "flavorText": "The canvas of stars is written upon this jade screen.",
       "attributes": {
         "labels": [
           "Inherited HP|{param3:F1P}",
@@ -428,7 +407,6 @@
     "combat3": {
       "name": "Starshatter",
       "description": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive Geo DMG.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.",
-      "flavorText": "Stars shatter. Silence falls.",
       "attributes": {
         "labels": [
           "DMG Per Gem|{param1:F1P}",
@@ -1449,6 +1427,22 @@
       "hp": 9787.4235531,
       "attack": 212.397192,
       "defense": 573.3180810000001,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10125.515655899999,
+      "attack": 239.48315999999997,
+      "defense": 593.122509,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10464.428370599999,
+      "attack": 266.586936,
+      "defense": 612.975006,
       "specialized": 0.24
     },
     "20+": {

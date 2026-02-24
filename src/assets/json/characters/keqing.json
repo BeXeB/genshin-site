@@ -6,26 +6,17 @@
     "description": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis's unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "11/20",
     "birthday": "November 20",
+    "birthdaymmdd": "11/20",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Liyue Qixing",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Trulla Cementarii",
-    "cv": {
-      "english": "Kayli Mills & Anonymous",
-      "chinese": "谢莹",
-      "japanese": "喜多村英梨",
-      "korean": "Lee Bo-hee"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Keqing_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Character_Keqing_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/d063646e97392638e07da24ce6b8c3cb_3663735388079282123.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200828/2020082817205925817.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/40d97fbb1ae120a4d97573aef702d0a3.png",
       "filename_icon": "UI_AvatarIcon_Keqing",
       "filename_iconCard": "UI_AvatarIcon_Keqing_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Keqing",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Keqing",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Keqing",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Keqing.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Keqing_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Keqing"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Keqing"
     },
     "version": "1.0"
   },
@@ -434,7 +414,6 @@
     "combat2": {
       "name": "Stellar Restoration",
       "description": "Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder.\nWhen the Stiletto hits its target, it deals Electro DMG to opponents in a small AoE, and places a Stiletto Mark on the spot hit.\n\nHold\nHold to adjust the direction in which the Stiletto shall be thrown.\nStilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.\n\nLightning Stiletto\n If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:\n·If she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals AoE Electro DMG. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.\n·If Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing AoE Electro DMG.",
-      "flavorText": "\"Humans are like moths, endlessly chasing the flame we call gods and adepti. But this light that I have here is my own.\"",
       "attributes": {
         "labels": [
           "Lightning Stiletto DMG|{param1:F1P}",
@@ -517,7 +496,6 @@
     "combat3": {
       "name": "Starward Sword",
       "description": "Keqing unleashes the power of lightning, dealing Electro DMG in an AOE.\nShe then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of Electro DMG. The final attack deals massive AoE Electro DMG.",
-      "flavorText": "The swiftest technique in Keqing's personal arsenal is fast enough to bring stars crashing down.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1574,6 +1552,22 @@
       "hp": 13103.1246236,
       "attack": 322.89081300000004,
       "defense": 799.2965448000001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13568.268518,
+      "attack": 359.213778,
+      "defense": 827.670324,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14034.4324648,
+      "attack": 395.536743,
+      "defense": 856.1063264,
       "specialized": 0.884
     },
     "20+": {

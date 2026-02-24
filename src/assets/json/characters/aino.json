@@ -6,26 +6,17 @@
     "description": "A genius mechanic and inventor from Nod-Krai who loves interesting machines and sweet treats.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "9/21",
     "birthday": "September 21",
+    "birthdaymmdd": "9/21",
     "elementType": "ELEMENT_HYDRO",
     "elementText": "Hydro",
     "affiliation": "Clink-Clank Krumkake Craftshop",
-    "associationType": "ASSOC_NODKRAI",
     "region": "Nod-Krai",
     "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
     "substatText": "Elemental Mastery",
     "constellation": "Cistellula Mira",
-    "cv": {
-      "english": "Annabel Brook",
-      "chinese": "葛子瑞",
-      "japanese": "高森奈津美",
-      "korean": "Jo Kyeong-i"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Aino_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Aino",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Aino",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Aino",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aino.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Aino.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/09/09/4e58c851d6c947865026faa168db83bd_3944254802105067377.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Aino"
     },
     "version": "6.0"
   },
@@ -1499,6 +1487,22 @@
       "hp": 11201.1621003,
       "attack": 242.13280088,
       "defense": 607.44415725,
+      "specialized": 96
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11588.089716699998,
+      "attack": 273.0108044,
+      "defense": 628.42742025,
+      "specialized": 96
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11975.956477799999,
+      "attack": 303.90910904,
+      "defense": 649.4616135,
       "specialized": 96
     },
     "20+": {

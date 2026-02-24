@@ -6,26 +6,17 @@
     "description": "A renowned architect from Sumeru who perhaps cares a bit too much about too many things. He is an aesthete troubled by reality.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_MALE",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "7/9",
     "birthday": "July 9",
+    "birthdaymmdd": "7/9",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Independent Design Studio",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
     "substatText": "Elemental Mastery",
     "constellation": "Paradisaea",
-    "cv": {
-      "english": "Ben Balmaceda",
-      "chinese": "刘三木",
-      "japanese": "内田雄馬",
-      "korean": "Lee Jeong-min"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/4f486ee9943936bb8d8a8ebc9c9df9b2_800333136869382089.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/a4d61e94a9ef987d9a90f569b3bc14f0_7192969562052229000.png",
       "filename_icon": "UI_AvatarIcon_Kaveh",
       "filename_iconCard": "UI_AvatarIcon_Kaveh_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Kaveh",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kaveh",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kaveh",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaveh.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kaveh.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/2270aba02b92034d7d76b4426be8f53b_7062168821433378650.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kaveh"
     },
     "version": "3.6"
   },
@@ -412,7 +398,6 @@
     "combat2": {
       "name": "Artistic Ingenuity",
       "description": "Uses Mehrak's mapping ability for offensive purposes, initiating a radial scan that deals AoE Dendro DMG. It will also scan all Dendro Cores in its AoE and cause them to immediately burst.",
-      "flavorText": "Mehrak was created through the modification of ancient technology and may have some other functions apart from mapping work...",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -459,7 +444,6 @@
     "combat3": {
       "name": "Painted Dome",
       "description": "Completely unleashes Mehrak's energy and creates a cubic scanned space, dealing AoE Dendro DMG to all opponents within it, causing all Dendro Cores in its AoE to immediately burst, and granting Kaveh the following enhanced combat abilities for a specific duration:\n· Increases Kaveh's Normal, Charged, and Plunging Attack AoE, and converts his attack DMG to Dendro DMG that cannot be overridden.\n· All Dendro Cores created by all your own party members through Bloom and Lunar-Bloom reactions will deal additional DMG when they burst.\n· Increases Kaveh's resistance to interruption.\nThese effects will be canceled once Kaveh leaves the field.",
-      "flavorText": "\"Every building style includes the architect's unique worldview, and from this angle, one can say that the buildings themselves are coalescences of human memories.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1516,6 +1500,22 @@
       "hp": 11962.4064649,
       "attack": 233.6369112,
       "defense": 750.7736775,
+      "specialized": 96
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12375.630146099998,
+      "attack": 263.431476,
+      "defense": 776.7080474999999,
+      "specialized": 96
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 12789.8567974,
+      "attack": 293.2456296,
+      "defense": 802.705365,
       "specialized": 96
     },
     "20+": {

@@ -6,26 +6,17 @@
     "description": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "5/21",
     "birthday": "May 21",
+    "birthdaymmdd": "5/21",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Yun-Han Opera Troupe",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "substatText": "Energy Recharge",
     "constellation": "Opera Grandis",
-    "cv": {
-      "english": "Judy Alice Lee & Yang Yang",
-      "chinese": "贺文潇&杨扬",
-      "japanese": "小岩井ことり & Yang Yang",
-      "korean": "Sah Moon-young & Yang Yang"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,20 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/974d7a34d3cc71f74ac98e50d4b935fc_1119374554505290278.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/d6dfc43ded6b12754f21ff3e1ba27c6a_4483363052773458916.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/e8694b5926d1f18752a07f07c6965316.png",
       "filename_icon": "UI_AvatarIcon_Yunjin",
       "filename_iconCard": "UI_AvatarIcon_Yunjin_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Yunjin",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yunjin",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yunjin",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yunjin.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yun Jin_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Yun_Jin"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yunjin"
     },
     "version": "2.4"
   },
@@ -432,7 +414,6 @@
     "combat2": {
       "name": "Opening Flourish",
       "description": "Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\n\nPress\nFlourishes her polearm in a cloud-grasping stance, dealing Geo DMG.\n\nHold\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing Geo DMG.\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.",
-      "flavorText": "One glorious moment on-stage, a decade of preparation behind it.",
       "attributes": {
         "labels": [
           "Press DMG|{param3:F1P} DEF",
@@ -550,7 +531,6 @@
     "combat3": {
       "name": "Cliffbreaker's Banner",
       "description": "Deals AoE Geo DMG and grants all nearby party members a Flying Cloud Flag Formation.\n\nFlying Cloud Flag Formation\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\n\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.",
-      "flavorText": "As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.\nAs the instruments on stage strum in unison, lo, see how she vanquishes these demons!",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1625,6 +1605,22 @@
       "hp": 10657.416864800001,
       "attack": 191.15747280000002,
       "defense": 734.3931609000001,
+      "specialized": 0.2667
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11025.5616072,
+      "attack": 215.534844,
+      "defense": 759.7616901,
+      "specialized": 0.2667
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11394.5999048,
+      "attack": 239.92824240000002,
+      "defense": 785.1917934,
       "specialized": 0.2667
     },
     "20+": {

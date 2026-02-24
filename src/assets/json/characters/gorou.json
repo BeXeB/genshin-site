@@ -6,26 +6,17 @@
     "description": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "5/18",
     "birthday": "May 18",
+    "birthdaymmdd": "5/18",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Watatsumi Island",
-    "associationType": "ASSOC_INAZUMA",
     "region": "Inazuma",
     "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
     "substatText": "Geo DMG Bonus",
     "constellation": "Canis Bellatoris",
-    "cv": {
-      "english": "Cory Yee",
-      "chinese": "杨昕燃",
-      "japanese": "畠中祐",
-      "korean": "Lee Sae-byeok"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,20 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/33b7b5d2536416116765a3f55e47f51a_54142758600124938.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/3484c4fab13b8c8fec8ccbeff63ec50a_5464889942943679721.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/781be06fd7f2106fbc28711aa9a46663.png",
       "filename_icon": "UI_AvatarIcon_Gorou",
       "filename_iconCard": "UI_AvatarIcon_Gorou_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Gorou",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Gorou",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Gorou",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Gorou.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Gorou_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Gorou"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Gorou"
     },
     "version": "2.3"
   },
@@ -380,7 +362,6 @@
     "combat2": {
       "name": "Inuzaka All-Round Defense",
       "description": "Deals AoE Geo DMG and sets up a General's War Banner.\n\nGeneral's War Banner\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of Geo characters in the party at the time of casting:\n· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\n· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\n· 3 Geo characters: Adds \"Crunch\" - Geo DMG Bonus.\n\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\n\nHold\nAdjust the location of the skill.",
-      "flavorText": "\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -481,7 +462,6 @@
     "combat3": {
       "name": "Juuga: Forward Unto Victory",
       "description": "Displaying his valor as a general, Gorou deals AoE Geo DMG and creates a field known as General's Glory to embolden his comrades.\n\nGeneral's Glory\nThis field has the following properties:\n· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of Geo characters in the party. Also moves together with your active character.\n· Generates 1 Crystal Collapse every 1.5s that deals AoE Geo DMG to 1 opponent within the skill's AoE.\n· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\n\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\n If Gorou falls, the effects of General's Glory will be cleared.",
-      "flavorText": "\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P} DEF",
@@ -1538,6 +1518,22 @@
       "hp": 9569.925258899999,
       "attack": 182.66158612,
       "defense": 648.39544875,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 9900.504212099999,
+      "attack": 205.95551859999998,
+      "defense": 670.7933137499999,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10231.885541399999,
+      "attack": 229.26476596,
+      "defense": 693.2455425,
       "specialized": 0.24
     },
     "20+": {

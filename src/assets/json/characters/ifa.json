@@ -6,26 +6,17 @@
     "description": "A vet from the Flower-Feather Clan who cherishes the life he leads alongside all manner of living things — people, animals, you name it.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_MALE",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "3/23",
     "birthday": "March 23",
+    "birthdaymmdd": "3/23",
     "elementType": "ELEMENT_ANEMO",
     "elementText": "Anemo",
     "affiliation": "Tlalocan",
-    "associationType": "ASSOC_NATLAN",
     "region": "Natlan",
     "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
     "substatText": "Elemental Mastery",
     "constellation": "Catena Opele",
-    "cv": {
-      "english": "Jonny Loquasto & Dominic Catrambone",
-      "chinese": "吕书君",
-      "japanese": "寺島惇太&小松昌平",
-      "korean": "Park Ki-wook"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Ifa_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Ifa",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ifa",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ifa",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ifa.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ifa.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ce693d1e36aef5936b2d2db006605fc4_9036718103340803450.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ifa"
     },
     "version": "5.6"
   },
@@ -1498,6 +1486,22 @@
       "hp": 10081.0465747,
       "attack": 178.41364328,
       "defense": 605.396592675,
+      "specialized": 96
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10429.2814583,
+      "attack": 201.1658564,
+      "defense": 626.3091255749999,
+      "specialized": 96
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10778.3615722,
+      "attack": 223.93302824,
+      "defense": 647.27241705,
       "specialized": 96
     },
     "20+": {

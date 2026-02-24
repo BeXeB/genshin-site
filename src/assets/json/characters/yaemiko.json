@@ -6,26 +6,17 @@
     "description": "Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "6/27",
     "birthday": "June 27",
+    "birthdaymmdd": "6/27",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Grand Narukami Shrine",
-    "associationType": "ASSOC_INAZUMA",
     "region": "Inazuma",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Divina Vulpes",
-    "cv": {
-      "english": "Ratana",
-      "chinese": "杜冥鸦",
-      "japanese": "佐倉綾音",
-      "korean": "Moon Yoo-jung"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,20 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20220208/2022020815142412039.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/555743f86c50e014c9491740133b98d9_5691798437294925597.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/158a1580973af357e2181114631fae6f.png",
       "filename_icon": "UI_AvatarIcon_Yae",
       "filename_iconCard": "UI_AvatarIcon_Yae_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Yae",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yae",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yae",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yae.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yae Miko_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Yae_Miko"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yae"
     },
     "version": "2.5"
   },
@@ -362,7 +344,6 @@
     "combat2": {
       "name": "Yakan Evocation: Sesshou Sakura",
       "description": "To Yae, such dull tasks as can be accomplished by driving spirits out need not be done personally.\nMoves swiftly, leaving a Sesshou Sakura behind.\n\nSesshou Sakura\nHas the following properties:\n· Periodically strikes one nearby opponent with lightning, dealing Electro DMG\n· When there are other Sesshou Sakura nearby, their level will increase, boosting the DMG dealt by these lightning strikes.\n\nThis skill has three charges.\nA maximum of 3 Sesshou Sakura can exist simultaneously. The initial level of each Sesshou Sakura is 1, and the initial highest level each sakura can reach is 3. If a new Sesshou Sakura is created too close to an existing one, the existing one will be destroyed.",
-      "flavorText": "\"The kitsune spirits sealed in the branches are all yakan who stooped to preying upon humans. The yakan are two grades lower than us Sky Kitsune, and so, I hardly see the problem with... asking that they do my bidding. Now, this doesn't mean that you humans should go learning from our grading systems, no indeed — and as for which of us, kitsune or human, is higher up in the pecking order... Heh, wouldn't you like to know?\"",
       "attributes": {
         "labels": [
           "Sesshou Sakura DMG: Level 1|{param1:F1P}",
@@ -481,7 +462,6 @@
     "combat3": {
       "name": "Great Secret Art: Tenko Kenshin",
       "description": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing AoE Electro DMG.\nWhen she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing AoE Electro DMG. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.",
-      "flavorText": "Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1520,6 +1500,22 @@
       "hp": 10372.286467560001,
       "attack": 339.6332956,
       "defense": 568.7302338000001,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10740.4891578,
+      "attack": 377.83967359999997,
+      "defense": 588.919269,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11109.49931008,
+      "attack": 416.04605159999994,
+      "defense": 609.1525784,
       "specialized": 0.242
     },
     "20+": {

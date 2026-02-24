@@ -6,26 +6,17 @@
     "description": "A dragon born from M's pen, who came to alight in the human world. His \"story\" continues to unfold.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "3/14",
     "birthday": "March 14",
+    "birthdaymmdd": "3/14",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Hexenzirkel",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Draco Rubedo",
-    "cv": {
-      "english": "Laurie Kynaston",
-      "chinese": "陶典",
-      "japanese": "小林千晃",
-      "korean": "Kim Ji-yul"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Durin_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Durin",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Durin",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Durin",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Durin.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Durin.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/11/28/e3e2b8fcbff2f2f3cdcec6bbf04efa84_3327367670955368711.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Durin"
     },
     "version": "6.2"
   },
@@ -1689,6 +1677,22 @@
       "hp": 12429.5994322,
       "attack": 346.808651,
       "defense": 822.3531759000001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12870.834061000001,
+      "attack": 385.822206,
+      "defense": 851.5454295000001,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13313.0363096,
+      "attack": 424.835761,
+      "defense": 880.8017012,
       "specialized": 0.884
     },
     "20+": {

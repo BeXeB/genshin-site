@@ -6,26 +6,17 @@
     "description": "A young warrior of the Nanatzcayan, given the Ancient Name of \"Uthabiti.\" Kind-hearted and insatiably persistent, she grows stronger and more capable with each setback she faces.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "4/22",
     "birthday": "April 22",
+    "birthdaymmdd": "4/22",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Nanatzcayan",
-    "associationType": "ASSOC_NATLAN",
     "region": "Natlan",
     "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
     "substatText": "Geo DMG Bonus",
     "constellation": "Ochotona Princeps",
-    "cv": {
-      "english": "Kristen McGuire",
-      "chinese": "静宸",
-      "japanese": "久保ユリカ",
-      "korean": "Son Sun-young"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Kachina_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Kachina",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kachina",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kachina",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kachina.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kachina.png",
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/125395/16e50c02258c1f884935108cff029bc7_3477147837847852587.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/125395/b442bc8e0039f2a65d74ac2036dbfa64_6494129458549470541.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/23/26925adb1092d29c8afdf46d92fad8bd_343637410022641529.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kachina"
     },
     "version": "5.0"
   },
@@ -393,7 +379,6 @@
     "combat2": {
       "name": "Go, Go Turbo Twirly!",
       "description": "Fight alongside the turbo trusty Turbo Twirly!\nSummons Turbo Twirly. When the skill is Held and released, Kachina will summon and ride Turbo Twirly.\nAfter the Skill is used, Kachina will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.\n\nNightsoul's Blessing: Kachina\nTurbo Twirly's various actions consume Kachina's Nightsoul points.\nThe Nightsoul's Blessing state will end when these points have been depleted.\n\nTurbo Twirly\nCan exist independently or be ridden and operated by Kachina. When Turbo Twirly is present, Kachina's Elemental Skill, \"Go, Go Turbo Twirly!\", will change to an option to Mount/Dismount Turbo Twirly.\n·When present independent of Kachina, it will slam the ground at intervals, dealing Nightsoul-aligned AoE Geo DMG based on Kachina's DEF.\n·When Kachina is riding Turbo Twirly, she can control it to move and climb swiftly, and use Normal Attacks to slam the ground, dealing Nightsoul-aligned AoE Geo DMG based on Kachina's DEF.\n\nTurbo Twirly will disappear once Kachina's Nightsoul's Blessing state ends, and it is considered a Geo Construct. Only 1 Turbo Twirly created by Kachina herself can exist on the field at any one time.",
-      "flavorText": "Turbo Twirly only looks like a top — it is, in fact, a drill that can split even the strongest rock asunder!",
       "attributes": {
         "labels": [
           "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
@@ -476,7 +461,6 @@
     "combat3": {
       "name": "Time to Get Serious!",
       "description": "Striking the ground, Kachina deals AoE Geo DMG based on her DEF and creates a Turbo Drill Field.\nThe Field increases Turbo Twirly's attack AoE and its Movement SPD when Kachina is riding it.\n\nIf Kachina's own Turbo Twirly is present when this is used, the Turbo Twirly will be summoned to her side.",
-      "flavorText": "Just as nervous performers might imagine audience members as wooden puppets, Kachina imagines that her opponents are the loveliest of gem-bearing ores — the kind you'd be proud to bring home and hoard.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P} DEF",
@@ -1520,6 +1504,22 @@
       "hp": 11799.2822268,
       "attack": 216.64513184,
       "defense": 792.4074905250001,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12206.8710252,
+      "attack": 244.2728192,
+      "defense": 819.780039225,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 12615.449116799999,
+      "attack": 271.91867071999997,
+      "defense": 847.21902615,
       "specialized": 0.24
     },
     "20+": {

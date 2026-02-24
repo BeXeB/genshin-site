@@ -6,26 +6,17 @@
     "description": "The Curatorium of Secrets' extremely reliable, do-it-all super employee (or so she claims).",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "1/5",
     "birthday": "January 5",
+    "birthdaymmdd": "1/5",
     "elementType": "ELEMENT_ANEMO",
     "elementText": "Anemo",
     "affiliation": "Curatorium of Secrets",
-    "associationType": "ASSOC_NODKRAI",
     "region": "Nod-Krai",
     "substatType": "FIGHT_PROP_HEAL_ADD",
     "substatText": "Healing Bonus",
     "constellation": "Fragum",
-    "cv": {
-      "english": "Sonya Krueger",
-      "chinese": "韩娇娇",
-      "japanese": "稲垣好",
-      "korean": "Oh Ro-ah"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Jahoda_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Jahoda",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Jahoda",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Jahoda",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Jahoda.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Jahoda.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/12/01/19708bac6eba4779a70908bf0bee70b1_1653339605275422455.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Jahoda"
     },
     "version": "6.2"
   },
@@ -356,7 +344,6 @@
     "combat2": {
       "name": "Savvy Strategy: Splitting the Spoils",
       "description": "Jahoda dashes toward her opponent, entering the Shadow Pursuit state upon contact. While in this state, Jahoda moves continuously and swiftly: If nearby opponents are affected by Pyro, Hydro, Electro, or Cryo, she will quietly convert her **Purr-loined Treasure Flask** to that element, gradually filling it. When the duration ends or the skill is used again, Jahoda drains the Purr-loined Treasure Flask and deals a single instance of Anemo DMG to nearby opponents. When the Purr-loined Treasure Flask is full, Jahoda immediately drains it, exiting the Shadow Pursuit state and dealing a more powerful instance of Anemo DMG.\nIf her dash fails to make contact with an opponent, Jahoda instead drops a Smoke Bomb at her location, dealing a single instance of Anemo DMG to nearby opponents.\n\nMoonsign: Ascendant Gleam: When the Purr-loined Treasure Flask becomes full, Jahoda will not immediately discharge it. Instead, for a short duration, she steadily consumes the stored element inside and periodically fires Fluffy Meowballs at nearby opponents, dealing DMG of the corresponding element stored in the Purr-loined Treasure Flask. When a Fluffy Meowball hits an opponent, Jahoda regenerates 2 Elemental Energy. This effect can be triggered once every 3.5s.",
-      "flavorText": "There are many ways to divide wealth in this world — but for Nod-Krai's treasure hunters — and hoarders — only one has ever proven sufficiently effective.",
       "attributes": {
         "labels": [
           "Smoke Bomb DMG|{param1:F1P}",
@@ -543,7 +530,6 @@
     "combat3": {
       "name": "Hidden Aces: Seven Tools of the Hunter",
       "description": "Time to reveal those pocket aces! Jahoda retrieves 2 **Purrsonal Coordinated Assistance Robots** and deals a single instance of Anemo DMG to nearby opponents.",
-      "flavorText": "\"Coordinated assistance? It means you 'assist' some Mora our way, and we handle the 'coordination.' Makes purrfect sense, don't you agree?\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1709,6 +1695,22 @@
       "hp": 9646.0494514,
       "attack": 223.0170516,
       "defense": 580.14329625,
+      "specialized": 0.1846
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 9979.2579946,
+      "attack": 251.457318,
+      "defense": 600.18349125,
+      "specialized": 0.1846
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10313.2752964,
+      "attack": 279.9162828,
+      "defense": 620.2723275,
       "specialized": 0.1846
     },
     "20+": {

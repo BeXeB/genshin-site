@@ -6,26 +6,17 @@
     "description": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "11/2",
     "birthday": "November 2",
+    "birthdaymmdd": "11/2",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Wanmin Restaurant",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
     "substatText": "Elemental Mastery",
     "constellation": "Trulla",
-    "cv": {
-      "english": "Jackie Lastra",
-      "chinese": "小N",
-      "japanese": "小澤亜李",
-      "korean": "Yoon Ah-young"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Xiangling_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Xiangling_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/1169862f9fa35734b06ce09c96dad9ae_3683516363976115873.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200325/2020032510443747968.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/f406695ce989bda634c6d952eb15493a.png",
       "filename_icon": "UI_AvatarIcon_Xiangling",
       "filename_iconCard": "UI_AvatarIcon_Xiangling_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Xiangling",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Xiangling",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xiangling",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xiangling.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiangling_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Xiangling"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xiangling"
     },
     "version": "1.0"
   },
@@ -400,7 +380,6 @@
     "combat2": {
       "name": "Guoba Attack",
       "description": "Summons Guoba, who will continuously breathe fire at opponents, dealing AoE Pyro DMG.",
-      "flavorText": "Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.",
       "attributes": {
         "labels": [
           "Flame DMG|{param1:P}",
@@ -447,7 +426,6 @@
     "combat3": {
       "name": "Pyronado",
       "description": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\nThe Pyronado will move with your character for the ability's duration, dealing Pyro DMG to all opponents in its path.",
-      "flavorText": "There will never be enough heat. Never.",
       "attributes": {
         "labels": [
           "1-Hit Swing DMG|{param1:F1P}",
@@ -1540,6 +1518,22 @@
       "hp": 10874.914859,
       "attack": 225.14102152,
       "defense": 668.8710945,
+      "specialized": 96
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11250.572751,
+      "attack": 253.8521476,
+      "defense": 691.9762605,
+      "specialized": 96
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11627.142434000001,
+      "attack": 282.58215015999997,
+      "defense": 715.1375069999999,
       "specialized": 96
     },
     "20+": {

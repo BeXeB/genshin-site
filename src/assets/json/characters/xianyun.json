@@ -6,26 +6,17 @@
     "description": "One of the Mighty and Illuminated Adepti of Jueyun, known as \"Cloud Retainer.\" Expert in all kinds of mechanical contraptions, her heart now turns towards the affairs of the mortal world, through which she walks under the name \"Xianyun.\"",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "4/11",
     "birthday": "April 11",
+    "birthdaymmdd": "4/11",
     "elementType": "ELEMENT_ANEMO",
     "elementText": "Anemo",
     "affiliation": "Mt. Aocang",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Grus Serena",
-    "cv": {
-      "english": "Stephanie Panisello",
-      "chinese": "秦紫翼",
-      "japanese": "中臣真菜",
-      "korean": "Kang Si-hyun"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Liuyun_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Liuyun",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Liuyun",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Liuyun",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liuyun.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Liuyun.png",
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/119401/d90148725e88befcb5ab715daff4fb78_7567749653854887214.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/119401/5a404ebf56a38044c63b61e0f5078689_5604231276881933270.png",
-      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/2c2be27f8876e9435ab8c8b933b8408c_7973851751945394462.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Liuyun"
     },
     "version": "4.4"
   },
@@ -376,7 +362,6 @@
     "combat2": {
       "name": "White Clouds at Dawn",
       "description": "Xianyun enters the Cloud Transmogrification state, in which she will not take Fall DMG, and uses Skyladder once.\nIn this state, her Plunging Attack will be converted into Driftcloud Wave instead, which deals AoE Anemo DMG and ends the Cloud Transmogrification state. This DMG is considered Plunging Attack DMG.\nEach use of Skyladder while in this state increases the DMG and AoE of the next Driftcloud Wave used.\n\nSkyladder\nCan be used while in mid-air. Xianyun leaps forward, dealing Anemo DMG to targets along her path.\nDuring each Cloud Transmogrification state Xianyun enters, Skyladder may be used up to 3 times and only 1 instance of Skyladder DMG can be dealt to any one opponent.\nIf Skyladder is not used again in a short period, the Cloud Transmogrification state will be canceled.\n\nIf Xianyun does not use Driftcloud Wave while in this state, the next CD of White Clouds at Dawn will be decreased by 3s.",
-      "flavorText": "Do not shake Cloud Retainer's hand too tightly; cranes are quite adept at gripping.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F2P}",
@@ -475,7 +460,6 @@
     "combat3": {
       "name": "Stars Gather at Dusk",
       "description": "Brings forth a sacred breeze that deals AoE Anemo DMG and heals all nearby characters based on Xianyun's ATK. It will also summon the \"Starwicker\" mechanism.\n\nStarwicker\n·Continuously follows the active character and periodically heals all nearby party members based on Xianyun's ATK.\n·Starts with 8 stacks of Adeptal Assistance. While Adeptal Assistance is active, nearby active characters in the party will have their jump height increased.\n·When the active character completes a Plunging Attack, Starwicker will consume 1 stack of Adeptal Assistance and deal AoE Anemo DMG.\nOnly 1 Starwicker can exist simultaneously.",
-      "flavorText": "This is the newest invention in the \"Lunastar Artifices\" series, of which previous creations include the Supreme Cuisine Machine, the Snowdrift Mechanism, the Supreme Housekeeping Machine, the Floating Toting Device, and the Bloom Pruner. This series was intended for young humans Cloud Retainer held in great esteem, and so was not designed with a certain half-adeptus in mind. However, when offered Starwicker, a certain female disciple of hers had these emotionless words to say: \"No thank you.\"\nCloud Retainer thus had no choice but to keep it herself.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1636,6 +1620,22 @@
       "hp": 10409.023958000002,
       "attack": 334.849732,
       "defense": 572.57300565,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10778.53079,
+      "attack": 372.51799200000005,
+      "defense": 592.89845325,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11148.847944,
+      "attack": 410.18625199999997,
+      "defense": 613.2684741999999,
       "specialized": 0.288
     },
     "20+": {

@@ -6,26 +6,17 @@
     "description": "A Name Engraver of the Nanatzcayan, she is especially skilled at finding a good balance between the heavy responsibilities of her job and living well.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "3/13",
     "birthday": "March 13",
+    "birthdaymmdd": "3/13",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Nanatzcayan",
-    "associationType": "ASSOC_NATLAN",
     "region": "Natlan",
     "substatType": "FIGHT_PROP_DEFENSE_PERCENT",
     "substatText": "DEF",
     "constellation": "Panthera Ocelota",
-    "cv": {
-      "english": "Elizabeth Dean",
-      "chinese": "弭洋",
-      "japanese": "ファイルーズあい",
-      "korean": "Kim I-an"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Xilonen_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Xilonen",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Xilonen",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xilonen",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xilonen.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xilonen.png",
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/126103/0dca02ec950a9713e811f2aee6169ba6_1602207587041151783.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/126103/d25363d76e30dd5975a92d82a303c967_8425846795526166122.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/25/b07074c2b9040516fd240b6b8d65c011_2487211347344319683.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xilonen"
     },
     "version": "5.1"
   },
@@ -447,7 +433,6 @@
     "combat2": {
       "name": "Yohual's Scratch",
       "description": "Let the rhythms of passion resound throughout the land! Xilonen switches to high-speed combat blading gear and rushes forward a certain distance before dealing Nightsoul-aligned Geo DMG based on her DEF.\nAfter using this, Xilonen will gain 45 Nightsoul points and enter the Nightsoul's Blessing state. In this state, she will shift to the Blade Roller mode.\n\nSource Samples\nXilonen has 3 Samplers with her that can generate different Soundscapes based on her other party members' Elemental Types, decreasing nearby opponents' corresponding Elemental RES while active.\nThe initial recorded Source Sample within each Sampler will be Geo, and for each party member who is Pyro/Hydro/Cryo/Electro, 1 Geo Sample will change to that corresponding Element.\nWhile Xilonen is in the Nightsoul's Blessing state, the Geo Source Sample she carries will always be active. After unlocking her Ascension Talent, \"Netotiliztli's Echoes,\" Xilonen can trigger said Ascension Talent's effects to regenerate Nightsoul points for herself. When her Nightsoul points hit the maximum, she will consume all her Nightsoul points and activate the 3 Source Samples she has on hand for 15s.\nWhen the Source Samples are active, nearby opponents' corresponding Elemental RES will decrease. Source Sample effects of the same Elemental Type cannot stack. Xilonen can trigger these effects even when off-field.\n\nNightsoul's Blessing: Xilonen\nContinuously consume Nightsoul points. When these points are depleted or if used again, this Nightsoul's Blessing state will end. This state has the following traits:\n·Switches to the Blade Roller mode, increasing Xilonen's Movement SPD and climbing speed, and she can perform high-speed leaps in Ocelot Form while climbing.\n·Xilonen's Nightsoul's Blessing has the following restrictions: When in this state, Xilonen's Nightsoul points have a 9s time limit. After this limit passes, her Nightsoul points will immediately expire.\n\nAfter Xilonen's Nightsoul points have expired while she is in the Nightsoul's Blessing state, she will no longer be able to generate Nightsoul points via the Ascension Talent \"Netotiliztli's Echoes.\"",
-      "flavorText": "In some ways, gem-craft and music-mixing share similar principles: Filtering out impurities and retaining only the most radiant things.\nXilonen isn't picky about the two, however. She enjoys both immensely, after all!",
       "attributes": {
         "labels": [
           "Rush DMG|{param1:F1P} DEF",
@@ -566,7 +551,6 @@
     "combat3": {
       "name": "Ocelotlicue Point!",
       "description": "Activates the Phlogiston Stereo DJ Controller (Portable) at full power, dealing Nightsoul-aligned AoE Geo DMG based on Xilonen's DEF.\n\nAdditionally, she will trigger the following effects based on her different Source Samples:\n·If she has at least 2 Source Samples that have had their Elemental Types changed, Xilonen will play an Ebullient rhythm, healing nearby active characters at intervals based on her DEF.\n·If she has fewer than 2 Source Samples that have had their Elemental Types changed, Xilonen will start up an Ardent rhythm, which will play two additional beats that deal Nightsoul-aligned AoE Geo DMG based on her DEF.",
-      "flavorText": "\"Alright, time for a time-out!\"\n\"It's cool, I recorded those beats just now. Let's see what we get when we mix our rhythms!\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P} DEF",
@@ -1663,6 +1647,22 @@
       "hp": 12405.10724307,
       "attack": 275.05513700000006,
       "defense": 929.9507877000001,
+      "specialized": 0.36
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 12845.47243035,
+      "attack": 305.996922,
+      "defense": 962.9625885,
+      "specialized": 0.36
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13286.80333076,
+      "attack": 336.938707,
+      "defense": 996.0467836,
       "specialized": 0.36
     },
     "20+": {

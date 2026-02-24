@@ -6,26 +6,17 @@
     "description": "The star of the Zubayr Theater. She is full of warmth and innocence, and her dances are lively and elegant.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "12/3",
     "birthday": "December 3",
+    "birthdaymmdd": "12/3",
     "elementType": "ELEMENT_HYDRO",
     "elementText": "Hydro",
     "affiliation": "Zubayr Theater",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Lotos Somno",
-    "cv": {
-      "english": "Dani Chambers",
-      "chinese": "紫苏九月",
-      "japanese": "金元寿子",
-      "korean": "Chae Rim"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/09/28/d978cf1ce85e372971bdcf6add639e8f_3351442670589638152.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/09/28/f1da8e801b8c23e250bb2e7d23fb49d5_2712267028161546061.png",
-      "hoyolab-avatar": "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/31ed69d405cd0b83662fffb7ad065b36_4256098748428542260.png",
       "filename_icon": "UI_AvatarIcon_Nilou",
       "filename_iconCard": "UI_AvatarIcon_Nilou_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Nilou",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Nilou",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Nilou",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Nilou.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/10/35428890/586d726f9ebda3506c78beaaa41f13b6_5916447718992361520.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Nilou"
     },
     "version": "3.1"
   },
@@ -376,7 +361,6 @@
     "combat2": {
       "name": "Dance of Haftkarsvar",
       "description": "Enters the Pirouette state, dealing Hydro DMG to nearby opponents based on Nilou's Max HP.\nWhile she is in the Pirouette state, Nilou's Normal Attacks and Elemental Skill will cause her to enter the Sword Dance and Whirling Steps stances respectively, causing DMG she deals to be converted to Hydro DMG that cannot be overridden and that is considered Elemental Skill DMG.\n\nIn these stances, Nilou's third dance step will end Pirouette, and has the following effects based on the type of said dance step:\n·Sword Dance: unleashes a Luminous Illusion that deals Hydro DMG to opponents it touches and grants Nilou the Lunar Prayer effect. This effect converts Nilou's Normal Attacks into Sword Dance techniques, and her final hit will unleash a Luminous Illusion.\n·Whirling Steps: Nilou unleashes a Whirling Water Wheel that deals AoE Hydro DMG and creates a Tranquility Aura that follows your active character around and applies Wet to opponents within its AoE.\n\nNilou is unable to perform Charged Attacks when under the effect of Pirouette or Lunar Prayer. These effects will be removed once she leaves the field.",
-      "flavorText": "\"Daintily her toes touch the water's face, and the light that ripples forth equals even the seven heavens.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F2P} Max HP",
@@ -582,7 +566,6 @@
     "combat3": {
       "name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
       "description": "Begins the dance of faraway dreams and springs that hear, causing a Lotus of Distant Waters to bloom, dealing AoE Hydro DMG based on Nilou's Max HP and applying the Lingering Aeon effect to all opponents hit.\nAfter an interval, opponents affected by Lingering Aeon will take Hydro DMG.",
-      "flavorText": "\"We have never witnessed that distant dream, but this dance can bring it to life.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P} Max HP",
@@ -1621,6 +1604,22 @@
       "hp": 15184.929315200003,
       "attack": 229.6112428,
       "defense": 728.5895427600001,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 15723.974576,
+      "attack": 255.4409068,
+      "defense": 754.4533338,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 16264.2019536,
+      "attack": 281.2705708,
+      "defense": 780.3738436799999,
       "specialized": 0.288
     },
     "20+": {

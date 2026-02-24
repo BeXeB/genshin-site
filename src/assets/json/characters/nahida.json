@@ -6,26 +6,17 @@
     "description": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "10/27",
     "birthday": "October 27",
+    "birthdaymmdd": "10/27",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Sumeru City",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
     "substatText": "Elemental Mastery",
     "constellation": "Sapientia Oromasdis",
-    "cv": {
-      "english": "Kimberley Anne Campbell",
-      "chinese": "花玲",
-      "japanese": "田村ゆかり",
-      "korean": "Park Shi-yoon"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/10/26/fe684624008db25ac4b44ea4704f9ba0_3756826627935711351.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/10/24/27e20ed23e1c42678538e40d93a31179_2119350427386020474.png",
       "filename_icon": "UI_AvatarIcon_Nahida",
       "filename_iconCard": "UI_AvatarIcon_Nahida_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Nahida",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Nahida",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Nahida",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Nahida.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/29/35428890/f29490bddc56b4a6773b6c5003bbb853_9091170755650648414.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Nahida"
     },
     "version": "3.2"
   },
@@ -376,7 +362,6 @@
     "combat2": {
       "name": "All Schemes to Know",
       "description": "Sends forth karmic bonds of wood and tree from her side, dealing AoE Dendro DMG and marking up to 8 opponents hit with the Seed of Skandha.\nWhen held, this skill will trigger differently.\n\nHold\nEnters Aiming Mode, which will allow you to select a limited number of opponents within a limited area. During this time, Nahida's resistance to interruption will be increased.\nWhen released, this skill deals Dendro DMG to these opponents and marks them with the Seed of Skandha.\nAiming Mode will last up to 5s and can select a maximum of 8 opponents.\n\nSeed of Skandha\nOpponents who have been marked by the Seed of Skandha will be linked to one another up till a certain distance.\nAfter you trigger Elemental Reactions on opponents who are affected by the Seeds of Skandha or when they take DMG from Dendro Cores (including Burgeon and Hyperbloom DMG), Nahida will unleash Tri-Karma Purification on the opponents and all connected opponents, dealing Dendro DMG based on her ATK and Elemental Mastery.\nYou can trigger at most 1 Tri-Karma Purification within a short period of time.",
-      "flavorText": "Lo, the god of grass and trees shines her ultimate truth into the void, illuminating the origin and destruction of the three karmas.",
       "attributes": {
         "labels": [
           "Press DMG|{param1:F1P}",
@@ -530,7 +515,6 @@
     "combat3": {
       "name": "Illusory Heart",
       "description": "Manifests the Court of Dreams and expands the Shrine of Maya.\n\nWhen the Shrine of Maya field is unleashed, the following effects will be separately unleashed based on the Elemental Types present within the party.\n·Pyro: While Nahida remains within the Shrine of Maya, the DMG dealt by Tri-Karma Purification from \"All Schemes to Know\" is increased.\n·Electro: While Nahida remains within the Shrine of Maya, the interval between each Tri-Karma Purification from \"All Schemes to Know\" is decreased.\n·Hydro: The Shrine of Maya's duration is increased.\n\nIf there are at least 2 party members of the aforementioned Elemental Types present when the field is deployed, the aforementioned effects will be increased further.\n\nEven if Nahida is not on the field, these bonuses will still take effect so long as party members are within the Shrine of Maya.",
-      "flavorText": "Perhaps all that dwell under the bowers of trees are naught but a fleeting upside-down dream in the eyes of the God of Wisdom.",
       "attributes": {
         "labels": [
           "Pyro: DMG Bonus|1 Character {param1:F1P}",
@@ -1659,6 +1643,22 @@
       "hp": 10360.0405293,
       "attack": 298.972975,
       "defense": 630.2145834,
+      "specialized": 115.2
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10727.8084965,
+      "attack": 332.60535,
+      "defense": 652.586217,
+      "specialized": 115.2
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11096.382972399999,
+      "attack": 366.23772499999995,
+      "defense": 675.0069111999999,
       "specialized": 115.2
     },
     "20+": {

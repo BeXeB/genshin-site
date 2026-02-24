@@ -6,26 +6,17 @@
     "description": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "12/22",
     "birthday": "December 22",
+    "birthdaymmdd": "12/22",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Sword and Strongbox Secure Transport Agency",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Leo Expergiscens",
-    "cv": {
-      "english": "Caleb Yen",
-      "chinese": "谢莹",
-      "japanese": "小松昌平",
-      "korean": "Kim Yoon-gi"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Gaming_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Gaming",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Gaming",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Gaming",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gaming.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Gaming.png",
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/119403/c649538cd00d8802daf3051a4f7d8cc3_7678226519918318299.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/119403/9abb338b8452bc5162483f76d3cc67b3_1627152661334822845.png",
-      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/b041ad23a9d6245efac952a9379c5114_8939761424130236195.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Gaming"
     },
     "version": "4.4"
   },
@@ -412,7 +398,6 @@
     "combat2": {
       "name": "Bestial Ascent",
       "description": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface.\nAfter Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead.\n\nPlunging Attack: Charmed Cloudstrider\nThe DMG from Plunging Attacks caused by Bestial Ascent is converted to Pyro DMG that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.\nCharmed Cloudstrider DMG is considered Plunging Attack DMG.",
-      "flavorText": "\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"",
       "attributes": {
         "labels": [
           "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
@@ -477,7 +462,6 @@
     "combat3": {
       "name": "Suanni's Gilded Dance",
       "description": "Gaming enters Wushou Stance, briefly applying Pyro to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing AoE Pyro DMG.\nAfter bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.\nWhile Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.\nEach Gaming can only have 1 Man Chai on the field simultaneously.\nThis effect will be canceled once Gaming leaves the field.",
-      "flavorText": "\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"",
       "attributes": {
         "labels": [
           "Suanni Man Chai Smash DMG|{param1:F1P}",
@@ -1534,6 +1518,22 @@
       "hp": 11418.66071195,
       "attack": 301.60400863999996,
       "defense": 702.99717075,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11813.101498549999,
+      "attack": 340.0660832,
+      "defense": 727.28117175,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 12208.4996657,
+      "attack": 378.55344512,
+      "defense": 751.6241145,
       "specialized": 0.24
     },
     "20+": {

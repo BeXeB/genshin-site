@@ -1,59 +1,45 @@
+import { ElementType, QualityType, WeaponType } from "./enum";
+import { Items } from "./items";
+
 export type CharacterProfile = {
   id: number;
   name: string;
+
   title: string;
   description: string;
 
-  weaponType: string;
+  weaponType: WeaponType;
   weaponText: string;
 
-  bodyType: string;
-  gender: string;
-
-  qualityType: string;
+  qualityType: QualityType;
   rarity: number;
 
   birthdaymmdd: string;
   birthday: string;
 
-  elementType: string;
+  elementType: ElementType;
   elementText: string;
 
   affiliation: string;
-  associationType: string;
+  region: string;
 
   substatType: string;
   substatText: string;
 
   constellation: string;
 
-  cv: {
-    english: string;
-    chinese: string;
-    japanese: string;
-    korean: string;
-  };
-
   costs: Record<
     `ascend${1 | 2 | 3 | 4 | 5 | 6}`,
-    {
-      id: number;
-      name: string;
-      count: number;
-    }[]
+    Items[]
   >;
 
   images: {
-    filename_icon: string;
-    filename_iconCard: string;
-    filename_sideIcon: string;
-    filename_gachaSplash: string;
-    filename_gachaSlice: string;
-    mihoyo_icon: string;
-    mihoyo_sideIcon: string;
-    hoyowiki_icon: string;
+    filename_icon?: string;
+    filename_iconCard?: string;
+    filename_sideIcon?: string;
+    filename_gachaSplash?: string;
+    filename_gachaSlice?: string;
   };
-
   version: string;
 };
 
@@ -67,27 +53,22 @@ export type CharacterSkills = {
 
   passive1: PassiveSkill;
   passive2: PassiveSkill;
-  passive3: PassiveSkill;
-  passive4: PassiveSkill;
-  passive5: PassiveSkill;
+  passive3?: PassiveSkill;
+  passive4?: PassiveSkill;
 
   costs: Record<
-    `lvl${number}`,
-    {
-      id: number;
-      name: string;
-      count: number;
-    }[]
+    `lvl${2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10}`,
+    Items[]
   >;
 
-  images: {
-    filename_combat1: string;
-    filename_combat2: string;
-    filename_combat3: string;
-    filename_passive1: string;
-    filename_passive2: string;
-    filename_passive3: string;
-    filename_passive4: string;
+  images?: {
+    filename_combat1?: string;
+    filename_combat2?: string;
+    filename_combat3?: string;
+    filename_passive1?: string;
+    filename_passive2?: string;
+    filename_passive3?: string;
+    filename_passive4?: string;
   };
 
   version: string;
@@ -95,7 +76,6 @@ export type CharacterSkills = {
 
 export type CombatSkill = {
   name: string;
-  descriptionRaw: string;
   description: string;
   attributes: {
     labels: string[];
@@ -105,17 +85,16 @@ export type CombatSkill = {
 
 export type PassiveSkill = {
   name: string;
-  descriptionRaw: string;
   description: string;
 };
 
 export type CharacterStat = {
   level: number;
   ascension: number;
-  hp: number;
-  attack: number;
-  defense: number;
-  specialized: number;
+  hp?: number;
+  attack?: number;
+  defense?: number;
+  specialized?: number;
 };
 
 export type CharacterStats = Record<string, CharacterStat>;
@@ -146,13 +125,12 @@ export type CharacterConstellation = {
 
 export type ConstellationSkill = {
   name: string;
-  descriptionRaw: string;
   description: string;
 };
 
 export type Character = {
   profile: CharacterProfile;
-  skills: CharacterSkills;
+  skills?: CharacterSkills;
   stats: CharacterStats;
-  constellation: CharacterConstellation;
+  constellation?: CharacterConstellation;
 };

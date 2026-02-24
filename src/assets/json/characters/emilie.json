@@ -6,26 +6,17 @@
     "description": "A Fontainian perfumer, one who bottles secrets.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "9/22",
     "birthday": "September 22",
+    "birthdaymmdd": "9/22",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Court of Fontaine",
-    "associationType": "ASSOC_FONTAINE",
     "region": "Fontaine",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Pomum de Ambra",
-    "cv": {
-      "english": "Amber Aviles",
-      "chinese": "木子橙",
-      "japanese": "日笠陽子",
-      "korean": "Kwon Da-ye"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Emilie_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Emilie",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Emilie",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Emilie",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Emilie.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Emilie.png",
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/124961/fb657c32a71d5b2aa6ae71a11e28e2a9_2770952801034163422.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/124961/5a3e7c03cc7085842c679cf468fc7f6e_1875658860657387036.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/31/87ad30965e0c1b45364fdccc51b3429d_6108610286145583716.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Emilie"
     },
     "version": "4.8"
   },
@@ -376,7 +362,6 @@
     "combat2": {
       "name": "Fragrance Extraction",
       "description": "Creates a Lumidouce Case that deals AoE Dendro DMG.\n\nLumidouce Case\n·Fires Puffs of Puredew at nearby opponents at intervals, dealing Dendro DMG.\n·When nearby opponents are affected by Burning, they will give off Scents at intervals, and 1 Scent can be created this way every 2s. The Lumidouce Case collects nearby Scents. The Lumidouce Case will level up after gathering 2 of them, after which it will fire 1 extra Puff of Puredew when firing, while the DMG dealt by and DMG AoE of the above attack will also be increased.\n·1 Lumidouce Case created by Emilie herself can exist at any one time. The Case starts at Level 1 and can go up to Level 2. If the Case does not collect any Scents for 8s while it is on the field, it will go back to Level 1.\n\nArkhe: Pneuma\nAt intervals, after Emilie creates a Lumidouce Case this way, a Spiritbreath Thorn will descend in front of her and pierce her opponent, dealing Pneuma-aligned Dendro DMG.",
-      "flavorText": "\"The world is an endless harmony of fragrance, color, and song.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -513,7 +498,6 @@
     "combat3": {
       "name": "Aromatic Explication",
       "description": "Guiding the fragrances collected within the Case, Emilie converts them into pure Dendro energy, creating a Level 3 Lumidouce Case and stowing existing Cases away.\nWhile it exists, the Level 3 Lumidouce Case will not gather nearby Scents, but it will continuously cause Scented Dew to descend, attacking opponents within range and dealing Dendro DMG. During this time, 1 drop of Scented Dew will descend every 0.3 seconds, and 1 opponent can become the target every 0.7 seconds.\nWhen the duration ends, a Level 1 Lumidouce Case will be recreated. If a Lumidouce Case was stowed away when using Aromatic Explication, then the Case that was stowed away will be deployed instead, and its duration will be reset.\nWhile Aromatic Explication is active, the Elemental Skill \"Fragrance Extraction\" will not create a Lumidouce Case.",
-      "flavorText": "No matter the perfume, it will begin to change the instant it comes into contact with the air, before finally dissipating amidst the whispers of wind, trees, and grass. In that sense, no two people will appreciate the exact same fragrance.\nSo it is for the paths taken by all who live. In that sense, you can consider perfumes an explication of human life.",
       "attributes": {
         "labels": [
           "Level 3 Lumidouce Case Attack DMG|{param1:F1P}",
@@ -1552,6 +1536,22 @@
       "hp": 13568.469685400001,
       "attack": 334.849732,
       "defense": 730.1266515000001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 14050.132727,
+      "attack": 372.51799200000005,
+      "defense": 756.0450075,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14532.8520472,
+      "attack": 410.18625199999997,
+      "defense": 782.0202019999999,
       "specialized": 0.884
     },
     "20+": {

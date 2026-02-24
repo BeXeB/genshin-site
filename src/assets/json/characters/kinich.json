@@ -6,26 +6,17 @@
     "description": "A Huitztlan Saurian Hunter skilled at counting costs.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "11/11",
     "birthday": "November 11",
+    "birthdaymmdd": "11/11",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Huitztlan",
-    "associationType": "ASSOC_NATLAN",
     "region": "Natlan",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Chimaera Alebriius",
-    "cv": {
-      "english": "Jacob Takanashi & Abby Espiritu",
-      "chinese": "斑马 & 弭洋",
-      "japanese": "杉山紀彰 & 竹内順子",
-      "korean": "Kang Seong-woo & Park Li-na"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Kinich_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Kinich",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kinich",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kinich",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kinich.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kinich.png",
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/125716/e0cfc13a904c1fc542924ae1e4d61da5_7486504169372511290.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/125716/1650c98ff8016466780acb0fdad1af7d_1971907431566579730.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/12/0099e74b4d0c919f6feab4bade3ab748_5795733017114624391.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kinich"
     },
     "version": "5.0"
   },
@@ -376,7 +362,6 @@
     "combat2": {
       "name": "Canopy Hunter: Riding High",
       "description": "Kinich uses his big-game hunting skills to either move swiftly or attack his opponent.\nWhen there is an opponent or object that can be attacked nearby, he will attach a grappling hook to the target and enter Nightsoul's Blessing with 0 Nightsoul points. If neither is nearby, he fires a grappling hook forward and swings in mid-air, and this Skill's CD is decreased by 60%.\nThis skill can be Held to release. When it is Held, Kinich can aim the grappling hook.\n\nNightsoul's Blessing: Kinich\nKinich's Nightsoul's Blessing lasts 10s and generates 2 Nightsoul points every second.\nIn this state, Kinich will hook onto a nearby opponent and perform a variable attack:\n·When using a Normal Attack, Kinich will fire Loop Shots as he loops around the grappled target based on his current movement direction, dealing Nightsoul-aligned Dendro DMG and generating 3 Nightsoul points. Loop Shot DMG is considered Elemental Skill DMG.\n·When Nightsoul points are at max, he can use the Elemental Skill \"Scalespiker Cannon\": Consume all Nightsoul points to deal Nightsoul-aligned Dendro DMG. When \"Scalespiker Cannon\" is Held, Kinich can aim this shot. After firing the Cannon, Kinich will try to grapple to its target.\nWhile in Nightsoul's Blessing, after grappling an opponent or firing \"Scalespiker Cannon,\" a Blind Spot will be generated next to the opponent. When Kinich enters this Blind Spot, it will disappear and he will generate 4 Nightsoul points.\nIf the grapple connection should snap due to exceeding the maximum distance or some other reason, using a Normal Attack will establish a new connection with a nearby opponent before performing Loop Shots.",
-      "flavorText": "\"All things come with a cost. I suggest you make a suitable offer... What? No, I don't do installments.\"",
       "attributes": {
         "labels": [
           "Loop Shot DMG|{param1:F1P}×2",
@@ -459,7 +444,6 @@
     "combat3": {
       "name": "Hail to the Almighty Dragonlord",
       "description": "Unleashes the power of the Almighty Dragonlord, K'uhul Ajaw (on a limited, conditional, restricted, contractual, partial, temporary basis), dealing Nightsoul-aligned AoE Dendro DMG. Ajaw will unleash his Dragon Breath at intervals, dealing Nightsoul-aligned AoE Dendro DMG.\nIf Kinich is in Nightsoul's Blessing when this is used, this Blessing's duration is extended by 1.7s.",
-      "flavorText": "\"Yes, yes! You stand before K'uhul Ajaw the Almighty Dragonlord! Come forward, then! Kneel, and kiss our feet!\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -1521,6 +1505,22 @@
       "hp": 12858.206654000001,
       "attack": 332.4579502,
       "defense": 801.6022079100001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13314.65627,
+      "attack": 369.8571512,
+      "defense": 830.05783455,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13772.106871999998,
+      "attack": 407.2563522,
+      "defense": 858.57586388,
       "specialized": 0.884
     },
     "20+": {

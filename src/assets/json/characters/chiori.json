@@ -6,26 +6,17 @@
     "description": "The owner of Chioriya Boutique. A tailor renowned throughout Fontaine.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "8/17",
     "birthday": "August 17",
+    "birthdaymmdd": "8/17",
     "elementType": "ELEMENT_GEO",
     "elementText": "Geo",
     "affiliation": "Court of Fontaine",
-    "associationType": "ASSOC_INAZUMA",
     "region": "Inazuma",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Cisoria",
-    "cv": {
-      "english": "Brittany Lauda",
-      "chinese": "陈阳",
-      "japanese": "竹達彩奈",
-      "korean": "Lee Da-eun"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,16 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/122720/3bc6e3dcbc632fa1e792dc682b7df781_8779470100131570406.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/122720/3b54cf383b9dae86d0776517d4ad5787_1822870703680010086.png",
       "filename_icon": "UI_AvatarIcon_Chiori",
       "filename_iconCard": "UI_AvatarIcon_Chiori_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Chiori",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Chiori",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Chiori",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chiori.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Chiori.png",
-      "hoyowiki_icon": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/11/35428890/5470f90694af13476e49be7b8346e2b1_5366587928381003654.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Chiori"
     },
     "version": "4.5"
   },
@@ -410,7 +396,6 @@
     "combat2": {
       "name": "Fluttering Hasode",
       "description": "Dashes nimbly forward with silken steps. Once this dash ends, Chiori will summon the automaton doll \"Tamoto\" beside her and sweep her blade upward, dealing AoE Geo DMG to nearby opponents based on her ATK and DEF.\nHolding the Skill will cause it to behave differently.\n\nHold\nEnter Aiming Mode to adjust the dash direction.\n\nTamoto\n· Will slash at nearby opponents at intervals, dealing AoE Geo DMG based on Chiori's ATK and DEF.\n· While active, if there are nearby Geo Construct(s) or Geo Construct(s) are created nearby, an additional Tamoto will be summoned next to your active character. Only 1 additional Tamoto can be summoned in this manner, and its duration is independently counted.",
-      "flavorText": "\"Sakura red dyes the brocade, the fragrance suffuses the sleeves, the orioles intoxicated.\"",
       "attributes": {
         "labels": [
           "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
@@ -545,7 +530,6 @@
     "combat3": {
       "name": "Hiyoku: Twin Blades",
       "description": "Twin blades leave their sheaths as Chiori slices with the clean cuts of a master tailor, dealing AoE Geo DMG based on her ATK and DEF.",
-      "flavorText": "\"Master one principle, and the path to all others shall open to you.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P} ATK+{param2:P} DEF",
@@ -1583,6 +1567,22 @@
       "hp": 11437.6807651,
       "attack": 322.89081300000004,
       "defense": 953.0074188000001,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11843.7035755,
+      "attack": 359.213778,
+      "defense": 986.837694,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 12250.6167868,
+      "attack": 395.536743,
+      "defense": 1020.7421584,
       "specialized": 0.242
     },
     "20+": {

@@ -6,26 +6,17 @@
     "description": "A rattan weaver from Chenyu Vale. Clear-minded and well-tempered, she is as lively as a mountain spring.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "1/6",
     "birthday": "January 6",
+    "birthdaymmdd": "1/6",
     "elementType": "ELEMENT_ANEMO",
     "elementText": "Anemo",
     "affiliation": "Chenyu Vale",
-    "associationType": "ASSOC_LIYUE",
     "region": "Liyue",
     "substatType": "FIGHT_PROP_ATTACK_PERCENT",
     "substatText": "ATK",
     "constellation": "Hirundo Lazuli",
-    "cv": {
-      "english": "Anna Devlin",
-      "chinese": "刘十四",
-      "japanese": "若山詩音",
-      "korean": "Kim Soon-mi"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Lanyan_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Lanyan",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Lanyan",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lanyan",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lanyan.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Lanyan.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/01/17/02a299cec38b4ef4f21952c37a624258_5744396397316809821.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lanyan"
     },
     "version": "5.3"
   },
@@ -408,7 +396,6 @@
     "combat2": {
       "name": "Swallow-Wisp Pinion Dance",
       "description": "Summoning forth the Swallow-Wisp Shield, a secret art passed down across generations, Lan Yan dashes forward and, upon making contact with her target, will leap back into the air.\nThe Swallow-Wisp Shield's DMG absorption scales based on her ATK, and has a 250% absorption efficiency against Anemo DMG.\nWhile in mid-air due to the effects of her Elemental Skill: Swallow-Wisp Pinion Dance, pressing her Elemental Skill again or pressing Normal Attack will cause Lan Yan to hurl her Feathermoon Rings at an opponent, and they will spin between nearby opponents twice upon hit, dealing Anemo DMG.\nHolding the Skill will cause it to behave differently.\n\nHold\nEnter Aiming Mode to adjust the dash direction.",
-      "flavorText": "\"The clouds cut the lunar light, like shadows silver gracing one's sight.\"",
       "attributes": {
         "labels": [
           "Feathermoon Ring DMG|{param1:F1P}",
@@ -508,7 +495,6 @@
     "combat3": {
       "name": "Lustrous Moonrise",
       "description": "Lan Yan creates a Feathermoon Swallow Array, pulling in nearby opponents and objects and dealing multiple instances of AoE Anemo DMG.",
-      "flavorText": "Strictly speaking, with only Lan Yan herself present, it cannot properly be called an \"array.\" However, if her Rattan Figures are brought into the picture, she can sort of fulfill the requirements... Probably.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}×3",
@@ -1529,6 +1515,22 @@
       "hp": 9243.67751666,
       "attack": 250.62869056,
       "defense": 580.14329625,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 9562.98672074,
+      "attack": 282.5901328,
+      "defense": 600.18349125,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 9883.07094716,
+      "attack": 314.57258848,
+      "defense": 620.2723275,
       "specialized": 0.24
     },
     "20+": {

@@ -6,26 +6,17 @@
     "description": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
     "weaponText": "Sword",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "9/28",
     "birthday": "September 28",
+    "birthdaymmdd": "9/28",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Yashiro Commission",
-    "associationType": "ASSOC_INAZUMA",
     "region": "Inazuma",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Grus Nivis",
-    "cv": {
-      "english": "Erica Mendez",
-      "chinese": "小N",
-      "japanese": "早見沙織",
-      "korean": "Lee Yoo-ri"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,20 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210715/2021071516533380974.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/3e70ceb4ff8af4cb953528cbe0ad978c_4989955667583935904.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/dbb893c26e20822aabd876a52361fffa.png",
       "filename_icon": "UI_AvatarIcon_Ayaka",
       "filename_iconCard": "UI_AvatarIcon_Ayaka_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Ayaka",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ayaka",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ayaka",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ayaka.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kamisato Ayaka_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ayaka"
     },
     "version": "2.0"
   },
@@ -398,7 +380,6 @@
     "combat2": {
       "name": "Kamisato Art: Hyouka",
       "description": "Summons blooming ice to launch nearby opponents, dealing AoE Cryo DMG.",
-      "flavorText": "\"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\"",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -442,33 +423,9 @@
         }
       }
     },
-    "combatsp": {
-      "name": "Kamisato Art: Senho",
-      "description": "Alternate Sprint\nAyaka consumes Stamina and cloaks herself in a frozen fog that moves with her.\n\nIn Senho form, she moves swiftly upon water.\nWhen she reappears, the following effects occur:\n·Ayaka unleashes frigid energy to apply Cryo on nearby opponents.\n·Coldness condenses around Ayaka's blade, infusing her attacks with Cryo for a brief period.",
-      "flavorText": "\"Feathers fleeting wet / the white heron treads water / a sight without flaw\"",
-      "attributes": {
-        "labels": [
-          "Activation Stamina Consumption|{param1:F1}",
-          "Stamina Drain|{param2:F1}/s",
-          "Infusion Duration|{param3:F1}s"
-        ],
-        "parameters": {
-          "param1": [
-            10
-          ],
-          "param2": [
-            15
-          ],
-          "param3": [
-            5
-          ]
-        }
-      }
-    },
     "combat3": {
       "name": "Kamisato Art: Soumetsu",
       "description": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.\n\nFrostflake Seki no To\n·A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing Cryo DMG.\n·The snowstorm explodes after its duration ends, dealing AoE Cryo DMG.",
-      "flavorText": "\"The blizzard veils the heron's thoughts, pity heavy in its heart.\"",
       "attributes": {
         "labels": [
           "Cutting DMG|{param1:P}",
@@ -761,7 +718,6 @@
     "images": {
       "filename_combat1": "Skill_A_01",
       "filename_combat2": "Skill_S_Ayaka_01",
-      "filename_combatsp": "Skill_S_Ayaka_02",
       "filename_combat3": "Skill_E_Ayaka_HD",
       "filename_passive1": "UI_Talent_S_Ayaka_05",
       "filename_passive2": "UI_Talent_S_Ayaka_06",
@@ -1526,6 +1482,22 @@
       "hp": 12858.206654000001,
       "attack": 342.0250874,
       "defense": 783.9254574000001,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13314.65627,
+      "attack": 380.5005244,
+      "defense": 811.753587,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13772.106871999998,
+      "attack": 418.97596139999996,
+      "defense": 839.6427432,
       "specialized": 0.884
     },
     "20+": {

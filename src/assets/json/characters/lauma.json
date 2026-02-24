@@ -6,26 +6,17 @@
     "description": "A Maiden blessed by moonlight and the grove alike, hope born to the Frostmoon Scions.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "3/1",
     "birthday": "March 1",
+    "birthdaymmdd": "3/1",
     "elementType": "ELEMENT_DENDRO",
     "elementText": "Dendro",
     "affiliation": "Frostmoon Scions",
-    "associationType": "ASSOC_NODKRAI",
     "region": "Nod-Krai",
     "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
     "substatText": "Elemental Mastery",
     "constellation": "Cerva Nivea",
-    "cv": {
-      "english": "Alexandra Guelff",
-      "chinese": "张安琪",
-      "japanese": "桑島法子",
-      "korean": "Jang Chae-yeon"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Lauma_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Lauma",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Lauma",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lauma",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lauma.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Lauma.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/09/08/b06e9ff48d57de4856f1a05b1199aae1_8565150401481594895.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lauma"
     },
     "version": "6.0"
   },
@@ -1714,6 +1702,22 @@
       "hp": 10653.9424276,
       "attack": 254.96415188000003,
       "defense": 668.6423019,
+      "specialized": 115.2
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11032.143538,
+      "attack": 283.64584127999996,
+      "defense": 692.3780595000001,
+      "specialized": 115.2
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11411.1740368,
+      "attack": 312.32753068,
+      "defense": 716.1658692,
       "specialized": 115.2
     },
     "20+": {

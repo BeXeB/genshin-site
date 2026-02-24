@@ -6,26 +6,17 @@
     "description": "A well-known guide in Natlan who owns a watersports shop, and expert in all forms of wave-chasing.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "8/3",
     "birthday": "August 3",
+    "birthdaymmdd": "8/3",
     "elementType": "ELEMENT_HYDRO",
     "elementText": "Hydro",
     "affiliation": "Meztli",
-    "associationType": "ASSOC_NATLAN",
     "region": "Natlan",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Phoca Neomonachus",
-    "cv": {
-      "english": "Cassandra Lee Morris",
-      "chinese": "王晓彤",
-      "japanese": "東山奈央",
-      "korean": "Kim Do-hee"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,12 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Mualani_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Mualani",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Mualani",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mualani",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mualani.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Mualani.png",
-      "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/125394/15252d1fb7f5cb3b5f6441f507abfefd_638784673605744288.png",
-      "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/125394/7fa4c0572f12f22cfc885ef3bcc8e991_2852091828899427969.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/26/f4c75caad42923eb91ee760aa2eb473a_7439123622315070718.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mualani"
     },
     "version": "5.0"
   },
@@ -358,7 +344,6 @@
     "combat2": {
       "name": "Surfshark Wavebreaker",
       "description": "Combining her mastery of speed and the waves and water, Mualani can surf anytime, anywhere.\nAfter using this skill, Mualani will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.\n\nNightsoul's Blessing: Mualani\nContinuously consume Nightsoul points. When they are depleted or when the skill is used again, Mualani's Nightsoul's Blessing will end. The state itself has the following traits:\n·Mualani mounts her Sharky Surfboard, increasing Mualani's Movement SPD and interruption resistance. Mualani can move on water and liquid Phlogiston while this state is active, and she will take no DMG from the latter.\n·Normal Attacks will be converted to Sharky's Bites, dealing Nightsoul-aligned Hydro DMG based on Mualani's Max HP. Sharky's Bites can be used in mid-air. DMG dealt this way is considered Normal Attack DMG.\n·When she makes contact with opponents in this state, Mualani applies \"Marked as Prey\" to them and gains 1 Wave Momentum stack. Max 3 stacks. 1 stack can be gained from the same opponent every 0.7s.\n\nWave Momentum and Marked as Prey\nWhen Mualani uses Sharky's Bite, her DMG dealt increases based on Wave Momentum stacks. When she has 3 stacks, Sharky's Bite will be converted to Sharky's Surging Bite, further increasing her DMG and removing all her stacks when hitting an opponent.\nWhen Sharky's Bite hits an opponent Marked as Prey, that mark will be removed, and she will fire Shark Missiles at up to 5 nearby opponents Marked as Prey, dealing DMG to them equal to this Sharky's Bite instance and clearing their Marks. If more than 1 opponent is the target of Sharky's Bite and Shark Missiles, the DMG dealt will decrease, decreasing at most to 72% of the original DMG when 3 opponents are targeted.",
-      "flavorText": "First off, Sharky is a freshwater shark on top of being a surfboard. Second, it's not that it wants to eat for real, just that it definitely bites for real.",
       "attributes": {
         "labels": [
           "Sharky's Bite Base DMG|{param1:F2P} Max HP",
@@ -477,7 +462,6 @@
     "combat3": {
       "name": "Boomsharka-laka",
       "description": "Fires a Super Shark Missile that can track opponents, dealing Nightsoul-aligned AoE Hydro DMG based on Mualani's Max HP.",
-      "flavorText": "Mualani picked this moniker for launching her Shark Missile because it combines the warmth of explosive passion with a more chill, laid-back vibe — most hot spring-ish.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P} Max HP",
@@ -1503,6 +1487,22 @@
       "hp": 15184.929315200003,
       "attack": 181.7755668,
       "defense": 570.26734254,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 15723.974576,
+      "attack": 202.2240508,
+      "defense": 590.5109427,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 16264.2019536,
+      "attack": 222.67253479999997,
+      "defense": 610.7989367199999,
       "specialized": 0.242
     },
     "20+": {

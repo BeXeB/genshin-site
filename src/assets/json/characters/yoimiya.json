@@ -6,26 +6,17 @@
     "description": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
     "weaponType": "WEAPON_BOW",
     "weaponText": "Bow",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "6/21",
     "birthday": "June 21",
+    "birthdaymmdd": "6/21",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Naganohara Fireworks",
-    "associationType": "ASSOC_INAZUMA",
     "region": "Inazuma",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Carassius Auratus",
-    "cv": {
-      "english": "Jenny Yokobori",
-      "chinese": "金娜",
-      "japanese": "植田佳奈",
-      "korean": "Park Shin-hee"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,20 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/593e6a6d5d8836ca2ab5c27a98593e58_2669475025677636265.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/477828c8143db56cf4bf8f4794dc366a_6260604716479682113.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/7c15028cb304de316e2cdb584bc33ff3.png",
       "filename_icon": "UI_AvatarIcon_Yoimiya",
       "filename_iconCard": "UI_AvatarIcon_Yoimiya_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Yoimiya",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yoimiya",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yoimiya",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yoimiya.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yoimiya_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Yoimiya"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yoimiya"
     },
     "version": "2.0"
   },
@@ -416,7 +398,6 @@
     "combat2": {
       "name": "Niwabi Fire-Dance",
       "description": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\n\nNiwabi Enshou\nDuring this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to Pyro DMG. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\n\nThis effect will deactivate when Yoimiya leaves the field.",
-      "flavorText": "\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.",
       "attributes": {
         "labels": [
           "Blazing Arrow DMG|{param4:F1P} Normal Attack DMG",
@@ -498,7 +479,6 @@
     "combat3": {
       "name": "Ryuukin Saxifrage",
       "description": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal AoE Pyro DMG and mark one of the hit opponents with Aurous Blaze.\n\nAurous Blaze\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing AoE Pyro DMG.\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\n\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.",
-      "flavorText": "Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1572,6 +1552,22 @@
       "hp": 10164.105888400001,
       "attack": 322.89081300000004,
       "defense": 614.843496,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10524.918441999998,
+      "attack": 359.213778,
+      "defense": 636.66948,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10886.5222512,
+      "attack": 395.536743,
+      "defense": 658.543328,
       "specialized": 0.242
     },
     "20+": {

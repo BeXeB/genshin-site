@@ -6,26 +6,17 @@
     "description": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
     "weaponType": "WEAPON_CLAYMORE",
     "weaponText": "Claymore",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "10/25",
     "birthday": "October 25",
+    "birthdaymmdd": "10/25",
     "elementType": "ELEMENT_CRYO",
     "elementText": "Cryo",
     "affiliation": "Knights of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_CRITICAL_HURT",
     "substatText": "CRIT DMG",
     "constellation": "Aphros Delos",
-    "cv": {
-      "english": "Suzie Yeung",
-      "chinese": "子音",
-      "japanese": "佐藤利奈",
-      "korean": "Kim Hyeon-ji"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,20 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/4c4b8babc68ffedce9bd5766b60e1ae5_8042598886702510210.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/28/2c3a966eca931163af47670403ea8e50_2166620963369140642.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/6840f27db9745020aad45853bff79c7c.png",
       "filename_icon": "UI_AvatarIcon_Eula",
       "filename_iconCard": "UI_AvatarIcon_Eula_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Eula",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Eula",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Eula",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Eula.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Eula_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Eula"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Eula"
     },
     "version": "1.5"
   },
@@ -434,7 +416,6 @@
     "combat2": {
       "name": "Icetide Vortex",
       "description": "Sharp frost, swift blade.\n\nPress\nSlashes swiftly, dealing Cryo DMG.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\n\nGrimheart\nIncreases Eula's resistance to interruption and DEF.\n\nHold\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.",
-      "flavorText": "\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"",
       "attributes": {
         "labels": [
           "Press DMG|{param1:P}",
@@ -676,7 +657,6 @@
     "combat3": {
       "name": "Glacial Illumination",
       "description": "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.",
-      "flavorText": "It is easy to sink. But even so, she desires to freeze this oncoming tide.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:P}",
@@ -1751,6 +1731,22 @@
       "hp": 13225.583558400001,
       "attack": 342.0250874,
       "defense": 750.87761949,
+      "specialized": 0.884
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13695.074592,
+      "attack": 380.5005244,
+      "defense": 777.53260245,
+      "specialized": 0.884
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 14165.5952112,
+      "attack": 418.97596139999996,
+      "defense": 804.2460393199999,
       "specialized": 0.884
     },
     "20+": {

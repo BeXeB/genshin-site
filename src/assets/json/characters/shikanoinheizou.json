@@ -6,26 +6,17 @@
     "description": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_BOY",
-    "gender": "Male",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "7/24",
     "birthday": "July 24",
+    "birthdaymmdd": "7/24",
     "elementType": "ELEMENT_ANEMO",
     "elementText": "Anemo",
     "affiliation": "Tenryou Commission",
-    "associationType": "ASSOC_INAZUMA",
     "region": "Inazuma",
     "substatType": "FIGHT_PROP_WIND_ADD_HURT",
     "substatText": "Anemo DMG Bonus",
     "constellation": "Cervus Minor",
-    "cv": {
-      "english": "Kieran Regan",
-      "chinese": "林景",
-      "japanese": "井口祐一",
-      "korean": "Jung Eui-jin"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/07/c20ab407d9316480290f7c690836f35c_2106028234032197103.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/07/ec07d3511f0ebe503e83ef645acc333c_2276094340014227662.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/3669a189c4a2b374ee0730a8ae112704.png",
       "filename_icon": "UI_AvatarIcon_Heizo",
       "filename_iconCard": "UI_AvatarIcon_Heizo_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Heizo",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Heizo",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Heizo",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Heizo.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Shikanoin Heizou_icon.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Heizo"
     },
     "version": "2.8"
   },
@@ -429,7 +414,6 @@
     "combat2": {
       "name": "Heartstopper Strike",
       "description": "Tap\nWields the swift winds to launch a Heartstopper Strike that deals Anemo DMG.\n\nHold\nCharges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill finishes charging, he will strike forward, dealing Anemo DMG.\n\nDeclension\nIncreases the power of the next Heartstopper Strike. Max 4 stacks.\nWhen you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Heartstopper Strike to be even stronger and have a larger AoE.",
-      "flavorText": "This seemingly ordinary strike contains Heizou's desire for criminals to honestly confess and repent.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P}",
@@ -530,7 +514,6 @@
     "combat3": {
       "name": "Windmuster Kick",
       "description": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon hit and create an Arresting Windtunnel that pulls in nearby objects and opponents, dealing AoE Anemo DMG.\nWhen Vacuum Slugger hits opponents affected by Hydro/Pyro/Cryo/Electro, these opponents will be afflicted with Windmuster Iris. This Windmuster Iris will explode after a moment and dissipate, dealing AoE DMG of the corresponding aforementioned elemental type.\nVacuum Slugger can afflict a maximum of 4 opponents with the Windmuster Iris. A single opponent cannot be under the effect of Windmuster Irises of different elements at the same time.",
-      "flavorText": "A unique technique that gathers Anemo in one place before unleashing it all in one kick. Is always there in a pinch to land on some criminal's fleeing back.",
       "attributes": {
         "labels": [
           "Fudou Style Vacuum Slugger DMG|{param1:F1P}",
@@ -1569,6 +1552,22 @@
       "hp": 10657.416864800001,
       "attack": 225.14102152,
       "defense": 683.88656805,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11025.5616072,
+      "attack": 253.8521476,
+      "defense": 707.51042145,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11394.5999048,
+      "attack": 282.58215015999997,
+      "defense": 731.1916143,
       "specialized": 0.24
     },
     "20+": {

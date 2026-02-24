@@ -6,26 +6,17 @@
     "description": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
     "weaponType": "WEAPON_CATALYST",
     "weaponText": "Catalyst",
-    "bodyType": "BODY_LOLI",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "7/27",
     "birthday": "July 27",
+    "birthdaymmdd": "7/27",
     "elementType": "ELEMENT_PYRO",
     "elementText": "Pyro",
     "affiliation": "Knights of Favonius",
-    "associationType": "ASSOC_MONDSTADT",
     "region": "Mondstadt",
     "substatType": "FIGHT_PROP_FIRE_ADD_HURT",
     "substatText": "Pyro DMG Bonus",
     "constellation": "Trifolium",
-    "cv": {
-      "english": "Poonam Basu",
-      "chinese": "花玲",
-      "japanese": "久野美咲",
-      "korean": "Bang Yeon-ji"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,22 +177,11 @@
       ]
     },
     "images": {
-      "card": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Character_Klee_Card.jpg",
-      "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png",
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/16cff1c00f651f98427fc3fbab7fc855_1896139197098586359.png",
-      "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200103/2020010311014850622.png",
-      "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/cb31fe8dae809ebdbc72039cba527501.png",
       "filename_icon": "UI_AvatarIcon_Klee",
       "filename_iconCard": "UI_AvatarIcon_Klee_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Klee",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Klee",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Klee",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Klee.png",
-      "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Klee_icon.png"
-    },
-    "url": {
-      "fandom": "https://genshin-impact.fandom.com/wiki/Klee"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Klee"
     },
     "version": "1.0"
   },
@@ -364,7 +344,6 @@
     "combat2": {
       "name": "Jumpy Dumpty",
       "description": "Jumpy Dumpty is tons of boom-bang-fun! \nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE Pyro DMG with every bounce.\n\nOn the third bounce, the bomb splits into many mines.\nThe mines will explode upon contact with opponents, or after a short period of time, dealing AoE Pyro DMG.\n\nStarts with 2 charges.",
-      "flavorText": "Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.",
       "attributes": {
         "labels": [
           "Jumpy Dumpty DMG|{param1:F1P}",
@@ -481,7 +460,6 @@
     "combat3": {
       "name": "Sparks 'n' Splash",
       "description": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing AoE Pyro DMG.",
-      "flavorText": "The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...",
       "attributes": {
         "labels": [
           "Sparks 'n' Splash DMG|{param1:F1P}",
@@ -1542,6 +1520,22 @@
       "hp": 10286.5650232,
       "attack": 310.931894,
       "defense": 614.843496,
+      "specialized": 0.288
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10651.724716,
+      "attack": 345.909564,
+      "defense": 636.66948,
+      "specialized": 0.288
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11017.6851976,
+      "attack": 380.887234,
+      "defense": 658.543328,
       "specialized": 0.288
     },
     "20+": {

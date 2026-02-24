@@ -6,26 +6,17 @@
     "description": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_LADY",
-    "gender": "Female",
     "qualityType": "QUALITY_PURPLE",
     "rarity": 4,
-    "birthdaymmdd": "5/3",
     "birthday": "May 3",
+    "birthdaymmdd": "5/3",
     "elementType": "ELEMENT_HYDRO",
     "elementText": "Hydro",
     "affiliation": "Aaru Village",
-    "associationType": "ASSOC_SUMERU",
     "region": "Sumeru",
     "substatType": "FIGHT_PROP_HP_PERCENT",
     "substatText": "HP",
     "constellation": "Sagitta Scutum",
-    "cv": {
-      "english": "Shara Kirby & Anonymous",
-      "chinese": "张琦",
-      "japanese": "柚木涼香",
-      "korean": "Jun Young-soo"
-    },
     "costs": {
       "ascend1": [
         {
@@ -186,17 +177,11 @@
       ]
     },
     "images": {
-      "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/09/22/d0226e61c64dbd14f3041775ceebb59a_2656769579196461401.png",
-      "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/09/22/c12a433c36d75fbbf77a6e7619d86cc5_2978398623185018654.png",
-      "hoyolab-avatar": "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/776150fc42d323732b988b6a80150f34_8066483729031867205.png",
       "filename_icon": "UI_AvatarIcon_Candace",
       "filename_iconCard": "UI_AvatarIcon_Candace_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Candace",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Candace",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Candace",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Candace.png",
-      "hoyowiki_icon": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/2f43da4ece9eabfbde6ec2fcc81b3bff_6412967003441390014.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Candace"
     },
     "version": "3.1"
   },
@@ -394,7 +379,6 @@
     "combat2": {
       "name": "Sacred Rite: Heron's Sanctum",
       "description": "Candace's fighting style is capable of warding off an entire tide of foes.\n\nTap\nRushes forward with her shield, dealing Hydro DMG to opponents in front of her.\n\nHold\nRaises her shield to block incoming attacks from nearby opponents, forming a barrier that absorbs DMG based on her Max HP and absorbs Hydro DMG 250% more effectively. This barrier lasts until the Elemental Skill is unleashed.\nAfter holding for a certain period of time, Candace will finish charging, and when the skill button is released, the skill duration expires, or when the barrier is broken, she will perform a leaping strike that deals Hydro DMG to opponents in front of her.",
-      "flavorText": "The oath of the guardians is more stalwart yet than the shields they inherit.",
       "attributes": {
         "labels": [
           "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
@@ -512,7 +496,6 @@
     "combat3": {
       "name": "Sacred Rite: Wagtail's Tide",
       "description": "Raising her weapon on high, Candace calls upon a divine blessing that deals AoE Hydro DMG based on her Max HP and continuously confers the Prayer of the Crimson Crown on your active character.\n\nPrayer of the Crimson Crown\nThis effect has the following properties:\n·Characters deal increased Elemental DMG with their Normal Attacks.\n·Whenever a character takes the field, they will unleash a rippling wave of water that deals Hydro DMG to nearby opponents. There is a limited number of waves that can be triggered in the duration of this skill.\n·Sword, Claymore, and Polearm-wielding characters under this effect will obtain a Hydro Infusion.",
-      "flavorText": "This secret rite has been passed down through Candace's clan from generation to generation. Though the old faiths have become lost over the years, the sands still protect the heirs of the ancient realm.",
       "attributes": {
         "labels": [
           "Skill DMG|{param1:F1P} Max HP",
@@ -1605,6 +1588,22 @@
       "hp": 10874.914859,
       "attack": 212.397192,
       "defense": 682.521525,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 11250.572751,
+      "attack": 239.48315999999997,
+      "defense": 706.098225,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 11627.142434000001,
+      "attack": 266.586936,
+      "defense": 729.7321499999999,
       "specialized": 0.24
     },
     "20+": {

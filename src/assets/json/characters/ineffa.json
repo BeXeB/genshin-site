@@ -6,26 +6,17 @@
     "description": "A multifunctional robot containing integrated mechanical components from various nations. The Source Core in her chest has endured the passage of countless years.",
     "weaponType": "WEAPON_POLE",
     "weaponText": "Polearm",
-    "bodyType": "BODY_GIRL",
-    "gender": "Female",
     "qualityType": "QUALITY_ORANGE",
     "rarity": 5,
-    "birthdaymmdd": "4/2",
     "birthday": "April 2",
+    "birthdaymmdd": "4/2",
     "elementType": "ELEMENT_ELECTRO",
     "elementText": "Electro",
     "affiliation": "Clink-Clank Krumkake Craftshop",
-    "associationType": "ASSOC_NODKRAI",
     "region": "Nod-Krai",
     "substatType": "FIGHT_PROP_CRITICAL",
     "substatText": "CRIT Rate",
     "constellation": "Vanilla Planifolia",
-    "cv": {
-      "english": "Angelina Danielle Cama",
-      "chinese": "美加",
-      "japanese": "中島愛",
-      "korean": "Sung Ye-won"
-    },
     "costs": {
       "ascend1": [
         {
@@ -190,10 +181,7 @@
       "filename_iconCard": "UI_AvatarIcon_Ineffa_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_Ineffa",
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ineffa",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ineffa",
-      "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ineffa.png",
-      "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ineffa.png",
-      "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/07/28/7c221918444852e9a3c2ad609ccacea2_8687518447126752117.png"
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ineffa"
     },
     "version": "5.8"
   },
@@ -1551,6 +1539,22 @@
       "hp": 12613.288084400001,
       "attack": 330.06616240000005,
       "defense": 827.7330564900001,
+      "specialized": 0.242
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 13061.043422,
+      "attack": 367.1963044,
+      "defense": 857.1162874500001,
+      "specialized": 0.242
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 13509.7806792,
+      "attack": 404.32644639999995,
+      "defense": 886.5639553199999,
       "specialized": 0.242
     },
     "20+": {
