@@ -2,7 +2,7 @@
   <div class="profile">
     <div class="stats-grid">
       <div class="stat-row">
-        <span class="label">Level</span>
+        <span class="label">Szint</span>
         <div class="level-controls">
           <input
             type="range"
@@ -27,17 +27,17 @@
         </div>
       </div>
       <div class="stat-row">
-        <span class="label">Base HP</span>
+        <span class="label">Alap HP</span>
         <span class="value">{{ char.stats[level].hp | number: "1.0-0" }}</span>
       </div>
       <div class="stat-row">
-        <span class="label">Base ATK</span>
+        <span class="label">Alap ATK</span>
         <span class="value">{{
           char.stats[level].attack | number: "1.0-0"
         }}</span>
       </div>
       <div class="stat-row">
-        <span class="label">Base DEF</span>
+        <span class="label">Alap DEF</span>
         <span class="value">{{
           char.stats[level].defense | number: "1.0-0"
         }}</span>
@@ -52,23 +52,23 @@
       </div>
       <hr style="width: 100%" [style]="`color: ${elementColor};`" />
       <div class="stat-row">
-        <span class="label">Element</span>
+        <span class="label">Elem</span>
         <span class="value">{{ char.profile.elementText }}</span>
       </div>
       <div class="stat-row">
-        <span class="label">Weapon</span>
+        <span class="label">Fegyver</span>
         <span class="value">{{ char.profile.weaponText }}</span>
       </div>
       <div class="stat-row">
-        <span class="label">Constellation</span>
+        <span class="label">Constelláció</span>
         <span class="value">{{ char.profile.constellation }}</span>
       </div>
       <div class="stat-row">
-        <span class="label">Affiliation</span>
+        <span class="label">Tagság</span>
         <span class="value">{{ char.profile.affiliation }}</span>
       </div>
       <div class="stat-row">
-        <span class="label">Birthday</span>
+        <span class="label">Születésnap</span>
         <span class="value">{{ char.profile.birthday }}</span>
       </div>
       <span class="desc">{{ char.profile.description }}</span>

@@ -1,0 +1,31 @@
+.tools {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tool-card {
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+  background-color: var(--black);
+  border: 1px solid var(--darker-gray);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 300px;
+  min-height: 100px;
+}
+
+.tool-card:hover {
+  background-color: var(--darker-gray);
+  border-color: var(--dark-gray);
+  box-shadow: 0 4px 8px var(--shadow-blue);
+}

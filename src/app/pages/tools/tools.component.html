@@ -1,3 +1,8 @@
-<p>tools works!</p>
-
-<router-outlet />
+<div class="container">
+  <app-page-title title="Eszközök" backLink="/" />
+  <div class="tools">
+    <div class="tool-card" [routerLink]="['/tierlist-maker']">
+      Tier List Készítő
+    </div>
+  </div>
+</div>

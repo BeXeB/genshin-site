@@ -1,4 +1,5 @@
 <div class="container">
+  <app-page-title title="Tier List Készítő" backLink="/tools" />
   <div class="main-section">
     <div class="first-col">
       <div class="tierlist">
@@ -8,7 +9,7 @@
               class="tier-name"
               type="text"
               [(ngModel)]="tier.tier"
-              placeholder="Enter tier name"
+              placeholder="Tier neve"
             />
 
             <div
@@ -51,8 +52,8 @@
           </div>
         }
       </div>
-      <button class="add-button" (click)="addTier()">Add Tier</button>
-      <h3>Available characters</h3>
+      <button class="add-button" (click)="addTier()">Tier Hozzáadása</button>
+      <h3>Elérhető Karakterek</h3>
       <div
         cdkDropList
         #charactersList="cdkDropList"
@@ -84,7 +85,7 @@
         <div class="character-sidebar">
           <h3>{{ selectedCharacter.profile?.name || "Character" }}</h3>
 
-          <h4>Tags</h4>
+          <h4>Tag-ek</h4>
           <div class="tag-list">
             @for (tag of selectedCharacter.tags; track tag.id) {
               <div class="tag" [style.background]="tag.color">
@@ -100,26 +101,26 @@
             }
           </div>
 
-          <h4>Add Tag</h4>
+          <h4>Tag Hozzáadása</h4>
           <div class="add-tag-options">
             <select [(ngModel)]="selectedTagId">
-              <option value="" disabled>Select a tag</option>
+                <option value="" disabled>Válassz egy tag-et</option>
               @for (tag of tags; track tag.id) {
                 <option [value]="tag.id">{{ tag.label }}</option>
               }
             </select>
             <input
               type="text"
-              placeholder="Extra values (comma separated)"
+              placeholder="Extra infó (Pl. 'DPS, Support')"
               [(ngModel)]="selectedTagExtras"
             />
 
-            <button (click)="onAddTag()">Add Tag</button>
+            <button (click)="onAddTag()">Tag Hozzáadása</button>
           </div>
         </div>
       }
       <div class="tag-editor">
-        <h3>Tags</h3>
+        <h3>Tag-ek</h3>
         <div class="tag-list">
           @for (tag of tags; track tag.id) {
             <span class="tag" [style.background]="tag.color">
@@ -132,15 +133,15 @@
           <input
             type="text"
             [(ngModel)]="newTagLabel"
-            placeholder="New tag label"
+            placeholder="Tag neve"
           />
           <input class="color" type="color" [(ngModel)]="newTagColor" />
         </div>
-        <button class="add-button" (click)="addTag()">Add Tag</button>
+        <button class="add-button" (click)="addTag()">Tag Hozzáadása</button>
       </div>
       <hr />
       <button class="download-button" (click)="getJsonFiles()">
-        Download Json Files
+        Json file-ok letöltése
       </button>
     </div>
   </div>

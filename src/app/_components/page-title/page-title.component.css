@@ -9,7 +9,9 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
-  text-shadow: 3px 3px 4px var(--black);
+  background-color: var(--black);
+  border-radius: 8px;
+  padding: 0px 8px;
 }
 
 .title .back-button {

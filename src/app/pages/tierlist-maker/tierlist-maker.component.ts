@@ -13,11 +13,12 @@ import {
   Tier,
   TierCharacter,
 } from '../../_models/tierlist';
+import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 
 @Component({
   selector: 'app-tierlist-maker',
   standalone: true,
-  imports: [FormsModule, DragDropModule],
+  imports: [FormsModule, DragDropModule, PageTitleComponent],
   templateUrl: './tierlist-maker.component.html',
   styleUrl: './tierlist-maker.component.css',
 })

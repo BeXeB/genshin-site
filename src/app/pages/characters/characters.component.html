@@ -1,5 +1,5 @@
 <div class="container">
-  <app-page-title [title]="'Characters'" [backLink]="'/'"></app-page-title>
+  <app-page-title [title]="'Karakterek'" [backLink]="'/'"></app-page-title>
   <div class="search-bar">
     <div class="filters-section">
       <button
@@ -7,12 +7,12 @@
         [class.active]="showFiltersDropdown"
         (click)="toggleFiltersDropdown()"
       >
-        Filters
+        Szűrők
       </button>
       @if (showFiltersDropdown) {
         <div class="filters-dropdown">
           <div class="filter-group">
-            <p>Elements</p>
+            <p>Elemek</p>
             <div>
               @for (element of elements; track $index) {
                 <button
@@ -26,7 +26,7 @@
             </div>
           </div>
           <div class="filter-group">
-            <p>Weapons</p>
+            <p>Fegyverek</p>
             <div>
               @for (wType of weaponTypes; track $index) {
                 <button
@@ -40,21 +40,21 @@
             </div>
           </div>
           <div class="filter-group">
-            <p>Rarity</p>
+            <p>Ritkaság</p>
             <div>
               <button
                 class="filter-btn"
                 [class.active]="rarityFilters.includes('5')"
                 (click)="toggleFilter(rarityFilters, '5')"
               >
-                5-Star
+                5-Csillagos
               </button>
               <button
                 class="filter-btn"
                 [class.active]="rarityFilters.includes('4')"
                 (click)="toggleFilter(rarityFilters, '4')"
               >
-                4-Star
+                4-Csillagos
               </button>
             </div>
           </div>
@@ -63,7 +63,7 @@
     </div>
     <input
       type="text"
-      placeholder="Search characters..."
+      placeholder="Karakterek keresése..."
       [(ngModel)]="searchTerm"
       (ngModelChange)="onSearchTermChange()"
     />
