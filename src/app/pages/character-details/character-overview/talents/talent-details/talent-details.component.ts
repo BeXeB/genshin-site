@@ -1,6 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CombatSkill, PassiveSkill } from '../../../../../_models/character';
 import { FormsModule } from '@angular/forms';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-talent-details',
@@ -8,12 +9,23 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './talent-details.component.html',
   styleUrl: './talent-details.component.css',
 })
-export class TalentDetailsComponent {
+export class TalentDetailsComponent implements OnInit{
   @Input() talent: CombatSkill | PassiveSkill | null = null;
   @Input() elementColor: string | null = null;
   @Input() imageUrl: string | null = null;
 
   talentLevel = 9;
+
+  talentDesc: SafeHtml = '';
+
+  constructor(private sanitizer: DomSanitizer) {}
+
+  ngOnInit() {
+    if (this.talent) {
+      this.talentDesc = this.getFormattedDescription(this.talent.description);
+    }
+  }
+
 
   incrementLevel() {
     const max = 13;
@@ -49,7 +61,8 @@ export class TalentDetailsComponent {
         format = match[2];
 
         if (paramName && format) {
-          const paramValue = combatSkill.attributes.parameters[paramName][level - 1];
+          const paramValue =
+            combatSkill.attributes.parameters[paramName][level - 1];
           let formattedValue: string;
           switch (format) {
             case 'F1P':
@@ -72,6 +85,32 @@ export class TalentDetailsComponent {
       });
     }
     return stats;
+  }
+
+  getFormattedDescription(description: string | undefined): SafeHtml {
+    if (!description) {
+      return '';
+    }
+
+    if (!(this.talent as CombatSkill).attributes) {
+      return description;
+    }
+
+    description = description.replaceAll('\n', '<br>');
+
+    description = description.replaceAll(
+      /<br><br>/g,
+      `</div><div style="margin: 14px 0;">`,
+    );
+
+    description = description.replaceAll(/<br>/g, '</div><div>');
+
+    const htmlString = `<div style="margin: 0px 0px 14px;">${description}</div>`;
+
+    const formattedDescription: SafeHtml =
+      this.sanitizer.bypassSecurityTrustHtml(htmlString);
+
+    return formattedDescription;
   }
 
   get IsCombatSkill(): boolean {

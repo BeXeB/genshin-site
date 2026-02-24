@@ -57,3 +57,28 @@
   background-position: center;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  .char-container {
+    flex-direction: column;
+  }
+
+  .char-container .left {
+    flex: none;
+    width: 100%;
+  }
+
+  .menus {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .menus button {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+  .background {
+    display: none;
+  }
+}

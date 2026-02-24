@@ -4,8 +4,7 @@
       <img [src]="imageUrl" />
       <div>{{ talent?.name }}</div>
     </div>
-    <div class="talent-description">
-      {{ talent?.description }}
+    <div class="talent-description" [innerHTML]="talentDesc">
     </div>
   </div>
   @if (IsCombatSkill && talent) {
