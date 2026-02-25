@@ -6,9 +6,14 @@ const CHARACTER_JSON_DIR = path.join(
   '../src/assets/json/characters',
 );
 const WEAPON_JSON_DIR = path.join(__dirname, '../src/assets/json/weapons');
+const ARTIFACT_JSON_DIR = path.join(__dirname, '../src/assets/json/artifacts');
 
 const ASSET_DIR_CHAR = path.join(__dirname, '../src/assets/images/characters');
 const ASSET_DIR_WEAPONS = path.join(__dirname, '../src/assets/images/weapons');
+const ASSET_DIR_ARTIFACTS = path.join(
+  __dirname,
+  '../src/assets/images/artifacts',
+);
 
 const SKILL_IMAGE_MAP: Record<string, string> = {
   filename_combat2: 'combat2.png',
@@ -40,6 +45,14 @@ const WEAPON_IMAGE_MAP: Record<string, string> = {
   filename_icon: 'icon.png',
   filename_awakenIcon: 'awaken.png',
   filename_gacha: 'gacha.png',
+};
+
+const ARTIFACT_IMAGE_MAP: Record<string, string> = {
+  filename_flower: 'flower.png',
+  filename_plume: 'plume.png',
+  filename_sands: 'sands.png',
+  filename_goblet: 'goblet.png',
+  filename_circlet: 'circlet.png',
 };
 
 const IGNORE_MISSING: Set<string> = new Set([
@@ -135,6 +148,8 @@ function check() {
     }
   });
 
+  // --- WEAPONS ---
+
   const weaponFiles = fs.readdirSync(WEAPON_JSON_DIR);
 
   weaponFiles.forEach((file) => {
@@ -160,6 +175,40 @@ function check() {
         if (!fs.existsSync(expectedPath)) {
           console.log(
             `❌ weapons/${weaponName}/${outputFile}  (JSON: ${originalName}.png)`,
+          );
+          missingCount++;
+        }
+      }
+    }
+  });
+
+  // --- ARTIFACTS ---
+
+  const artifactFiles = fs.readdirSync(ARTIFACT_JSON_DIR);
+
+  artifactFiles.forEach((file) => {
+    if (!file.endsWith('.json')) return;
+    if (file === 'index.json') return;
+
+    const artifactName = path.parse(file).name;
+
+    const jsonPath = path.join(ARTIFACT_JSON_DIR, file);
+    const artifactData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+
+    const artifactDir = path.join(ASSET_DIR_ARTIFACTS, artifactName);
+
+    if (artifactData.images) {
+      for (const [jsonKey, outputFile] of Object.entries(ARTIFACT_IMAGE_MAP)) {
+        const originalName =
+          artifactData.images[jsonKey as keyof typeof artifactData.images];
+
+        if (!originalName) continue;
+
+        const expectedPath = path.join(artifactDir, outputFile);
+
+        if (!fs.existsSync(expectedPath)) {
+          console.log(
+            `❌ artifacts/${artifactName}/${outputFile}  (JSON: ${originalName}.png)`,
           );
           missingCount++;
         }

@@ -13,8 +13,13 @@ const CHARACTER_JSON_DIR = path.join(
 );
 
 const WEAPON_JSON_DIR = path.join(__dirname, '../src/assets/json/weapons');
-
 const WEAPON_TARGET_DIR = path.join(__dirname, '../src/assets/images/weapons');
+
+const ARTIFACT_JSON_DIR = path.join(__dirname, '../src/assets/json/artifacts');
+const ARTIFACT_TARGET_DIR = path.join(
+  __dirname,
+  '../src/assets/images/artifacts',
+);
 
 // --- Image mappings ---
 
@@ -50,6 +55,14 @@ const CONSTELLATION_IMAGE_MAP: Record<string, string> = {
   filename_c5: 'c5.png',
   filename_c6: 'c6.png',
   filename_constellation: 'constellation.png',
+};
+
+const ARTIFACT_IMAGE_MAP: Record<string, string> = {
+  filename_flower: 'flower.png',
+  filename_plume: 'plume.png',
+  filename_sands: 'sands.png',
+  filename_goblet: 'goblet.png',
+  filename_circlet: 'circlet.png',
 };
 
 function ensureDir(dir: string) {
@@ -177,6 +190,45 @@ function organize() {
 
           lookup[imageName].push(
             path.join(weaponFolder, WEAPON_IMAGE_MAP[jsonKey]),
+          );
+        }
+      }
+    }
+  }
+
+  // ----------------------------
+  // ARTIFACTS
+  // ----------------------------
+
+  // ----------------------------
+  // ARTIFACTS
+  // ----------------------------
+
+  const artifactFiles = fs.readdirSync(ARTIFACT_JSON_DIR);
+
+  for (const file of artifactFiles) {
+    if (!file.endsWith('.json')) continue;
+    if (file === 'index.json') continue;
+
+    const artifactName = path.parse(file).name;
+    const artifactJsonPath = path.join(ARTIFACT_JSON_DIR, file);
+
+    const artifactData = JSON.parse(fs.readFileSync(artifactJsonPath, 'utf-8'));
+
+    const artifactFolder = path.join(ARTIFACT_TARGET_DIR, artifactName);
+    ensureDir(artifactFolder);
+
+    if (artifactData.images) {
+      for (const [jsonKey, filename] of Object.entries(artifactData.images)) {
+        if (ARTIFACT_IMAGE_MAP[jsonKey] && filename) {
+          const imageName = filename as string;
+
+          if (!lookup[imageName]) {
+            lookup[imageName] = [];
+          }
+
+          lookup[imageName].push(
+            path.join(artifactFolder, ARTIFACT_IMAGE_MAP[jsonKey]),
           );
         }
       }
