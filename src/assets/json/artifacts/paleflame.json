@@ -43,21 +43,11 @@
     "story": "Since the stain of my compatriots' blood cannot be cleansed, I shall become The Jester, who laughs in the face of fate.\nSince my level of learning could not compare with the sages, I failed to earn the favor of the previous ruler.\nSo too did I fail to stop them from tearing away the veil of sin, ushering in a tide of divine wrath, destruction, and foolishness...\nThen I shall become instead a fool, a Fatuus, and devote myself to Her Majesty, who understands my pain...\n\nMy name is Pierro, The Jester. Please listen to the words I have to say:\n\nProud Fatui comrades, I know your hearts harbor both the fires of rage and the cold of eternal winter.\nEach one of us has borne witness to the absurd callousness of the foundational principles of this world.\nSo, let us don our masks in mockery of the world as we go forth and rewrite the rules of destiny."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_3.png",
     "filename_flower": "UI_RelicIcon_15018_4",
     "filename_plume": "UI_RelicIcon_15018_2",
     "filename_sands": "UI_RelicIcon_15018_5",
     "filename_goblet": "UI_RelicIcon_15018_1",
-    "filename_circlet": "UI_RelicIcon_15018_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_3.png"
+    "filename_circlet": "UI_RelicIcon_15018_3"
   },
   "version": "1.5"
 }

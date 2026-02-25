@@ -43,21 +43,11 @@
     "story": "A very ancient diadem.\nIt shines with the light of the pacified lightning.\n\nThe ferocious Beast of Thunder\nonce enslaved people with its mighty lightning.\nBut its lightning existed only in a flash,\nand like the lightning, its mightiness soon disappeared.\n\nThe Thundersoother defeated the beast in a lightning storm.\nHe claimed this diadem as his trophy.\nBut the past can never be fully pacified."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_3.png",
     "filename_flower": "UI_RelicIcon_14002_4",
     "filename_plume": "UI_RelicIcon_14002_2",
     "filename_sands": "UI_RelicIcon_14002_5",
     "filename_goblet": "UI_RelicIcon_14002_1",
-    "filename_circlet": "UI_RelicIcon_14002_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_3.png"
+    "filename_circlet": "UI_RelicIcon_14002_3"
   },
   "version": "1.0"
 }

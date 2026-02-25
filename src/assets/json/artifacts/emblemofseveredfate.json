@@ -43,21 +43,11 @@
     "story": "\"I've been wondering, Sir Douin, could your sword actually slice through lightning?\"\nSo said the young Kanjou Head, Hiroshi, while sheathing his blade. Douin replied thus, woodenly:\n\"How could that be possible? At most, I'd say that it could strike a Tengu in mid-air.\"\n\"That said, though, no one has ever brought a tengu down before. Not even once.\"\n\n\"Is that so? In that case, where does the name of your secret blade, 'Tengu Sweeper,' come from?\"\nSeeing that Douin did not answer, the Kanjou Head who had built Ritou up said:\n\"Ah, if it wasn't for old man Kujou making a move first, I would've loved to recruit you.\"\n\"With your sword, even Ako Domeki of Seirai would be no match...\"\n\nCleaving through the storm clouds, that tengu had given him a new name and a new life.\nShe threw him the rusty blade and told him to strike her, a tengu, down.\nAnd after his sword broke, these were her last words to him..."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_3.png",
     "filename_flower": "UI_RelicIcon_15020_4",
     "filename_plume": "UI_RelicIcon_15020_2",
     "filename_sands": "UI_RelicIcon_15020_5",
     "filename_goblet": "UI_RelicIcon_15020_1",
-    "filename_circlet": "UI_RelicIcon_15020_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_3.png"
+    "filename_circlet": "UI_RelicIcon_15020_3"
   },
   "version": "2.0"
 }

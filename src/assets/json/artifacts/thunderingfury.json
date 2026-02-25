@@ -43,21 +43,11 @@
     "story": "In the ancient tribe that worshiped the Thunderbird,\nelder shamans worn this crown.\n\nThe Thunderbird soared through the thunderstorms, raining down purple thunder and rain.\nAncient tribes feared its powers and thanked it for its blessings.\nShamans were chosen to offer blood sacrifices to it for protection and forgiveness.\n\nThe Thunderbird was still a monster that cared not for the worship of mankind.\nThey knew it not, and regarded the unpredictable actions of the Thunderbird as divine revelations.\nYet thunder was its breath, as were the fates of men.\nFrom the sky, men were no different from animals.\n\nUntil one day a song pierced through the roaring thunderstorm.\nThe song ripped through the clouds, and bestowed upon it, light."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_3.png",
     "filename_flower": "UI_RelicIcon_15005_4",
     "filename_plume": "UI_RelicIcon_15005_2",
     "filename_sands": "UI_RelicIcon_15005_5",
     "filename_goblet": "UI_RelicIcon_15005_1",
-    "filename_circlet": "UI_RelicIcon_15005_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_3.png"
+    "filename_circlet": "UI_RelicIcon_15005_3"
   },
   "version": "1.0"
 }

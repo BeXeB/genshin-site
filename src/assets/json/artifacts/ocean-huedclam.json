@@ -43,21 +43,11 @@
     "story": "Omikami once selected his clergy from amongst the people of Watatsumi, personally giving them these circlets of office.\nBut when the age of the martyrdom passed, and the old priesthood passed with it, these lovely crowns were sealed.\n\nThe people of the sea sing that these crowns of pearls and coral will never be stained by any dirt,\nAnd that any who should have the fortune to receive one were recognized as rulers by Omikami.\nThe valiant vassal lord known as Touzannou and the twins who traversed the waves freely...\nThey all had Omikami's tender gaze and favor, and have been immortalized in the islanders' songs.\nIt is said that these rulers once served as the deity's auxiliaries, guiding the people of the sea to farm, fish, and hunt on their island.\nBut as the time of destined martyrdom came, a god would fall.\n\nBearing the hopes and memories that were brought up from the ocean depths, and steeped in a history and culture that are now lost,\nThese intricate and enchanting crowns passed with their owners into the forgotten rifts."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_3.png",
     "filename_flower": "UI_RelicIcon_15022_4",
     "filename_plume": "UI_RelicIcon_15022_2",
     "filename_sands": "UI_RelicIcon_15022_5",
     "filename_goblet": "UI_RelicIcon_15022_1",
-    "filename_circlet": "UI_RelicIcon_15022_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_3.png"
+    "filename_circlet": "UI_RelicIcon_15022_3"
   },
   "version": "2.3"
 }

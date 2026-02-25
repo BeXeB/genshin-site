@@ -30,7 +30,13 @@ function mapArtifact(artifact: genshindb.Artifact): ArtifactSet {
     goblet: artifact.goblet as ArtifactPiece,
     circlet: artifact.circlet as ArtifactPiece,
 
-    images: artifact.images,
+    images: {
+      filename_flower: artifact.images.filename_flower,
+      filename_plume: artifact.images.filename_plume,
+      filename_sands: artifact.images.filename_sands,
+      filename_goblet: artifact.images.filename_goblet,
+      filename_circlet: artifact.images.filename_circlet
+    },
 
     version: artifact.version,
   };

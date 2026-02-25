@@ -43,21 +43,11 @@
     "story": "There is a time appointed for all things to live and die, and the cycle continues on forever,\nThus did the ruler of trees once preach the cycle of life.\nAll things that die will gain new life in some other form,\nAnd all things that decay will sprout pure and tender new shoots.\nFruits that fall upon the land will feed the beasts of the land,\nAnd the beasts will return to the land and themselves become fruits.\nThe forests were always full of life.\n\nLegend has it that when the god of trees created a forest amidst the sands,\nThe first order of the day was to create a device that could call forth the rains.\nThus did the bright moon reflect the patterns of light from the labyrinth upon the water,\nAnd from this was the \"tiger\" born.\n\nThe tiger's stripes were ever-changing, resembling the forest's branches,\nAnd thus did it become the ruler of the jungle, whose name was Viaghara.\nThe blessed lord of the forest walked amidst the garden, head held high,\nRuling over the primates, the birds, and the beasts of the labyrinth.\n\nLater, the seeds of the pomegranates fell upon the soil and gave birth to the forest spirits.\nThus did the lord of the forest bless them under the first Vasara Tree, and made a pact with the divine,\nTo share the labyrinth with them, and to command the birds and beasts not to harm them.\n\nThough the sun's light was shrouded for a time, the flowing water was once corrupted,\nAnd the final forest lord died in defense of the nurseries of life,\nA large whiskered cat succeeded that regal name,\nAnd guarded the woodland creatures in imitation of that lord.\nThough it could not match even an iota of that lord's might,\nIt would keep the promise and protect the forest,\nNor would it ever attempt to harm the guardian spirits of the trees.\nYes, though the ever-changing labyrinth has perished,\nThe forest is still filled with life."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15025_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15025_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15025_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15025_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15025_3.png",
     "filename_flower": "UI_RelicIcon_15025_4",
     "filename_plume": "UI_RelicIcon_15025_2",
     "filename_sands": "UI_RelicIcon_15025_5",
     "filename_goblet": "UI_RelicIcon_15025_1",
-    "filename_circlet": "UI_RelicIcon_15025_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15025_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15025_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15025_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15025_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15025_3.png"
+    "filename_circlet": "UI_RelicIcon_15025_3"
   },
   "version": "3.0"
 }

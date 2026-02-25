@@ -43,21 +43,11 @@
     "story": "The mask of one indwelt by a deity.\nA mask that has been cast in the image of some legendary deity.\n\nPeople will often take on the guise of the fox of legend,\nCovering their faces with masks based on her divine visage,\nPerhaps wishing that they might gain her ability of transformation.\n\nIn Inazuma's legends, everything has a spirit.\n...But even so,\nIt is likely that most such beings would have long fled,\nDriven into the forests by the suppression of the Shogun.\n\nBut many people still believe in these divine foxes and the ability to be indwelt by them...\nThey believe that thousands of years of age may confer power upon animals.\nAs such, they also believe in what this fox mask represents.\n\nA note has been left on the back of this mask, written in a lovely hand.\n\"I'm sorry, I departed under the cover of the fireworks.\"\n\"We will most likely never meet again. Take care of yourself.\""
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_3.png",
     "filename_flower": "UI_RelicIcon_15015_4",
     "filename_plume": "UI_RelicIcon_15015_2",
     "filename_sands": "UI_RelicIcon_15015_5",
     "filename_goblet": "UI_RelicIcon_15015_1",
-    "filename_circlet": "UI_RelicIcon_15015_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_3.png"
+    "filename_circlet": "UI_RelicIcon_15015_3"
   },
   "version": "1.0"
 }

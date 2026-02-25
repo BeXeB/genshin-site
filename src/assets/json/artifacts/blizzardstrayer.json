@@ -43,21 +43,11 @@
     "story": "The hero set out on his journey, bearing the tiny hopes that the entombed city still had for salvation.\nDonning his winter crown, he marched purposefully away, disappearing into the boundless snowstorm.\n\nBearing his agreement with the mountain city, bearing their clear-eyed gazes, the hero never once feared the unknown beyond the icy curtain.\nThe once-lush mountainside and the blessings that now no longer fell from the skies — these were the hero's motivation to carry on no matter what.\n\n\"Past the ice-sealed door, walking down the corridors to the depths,\"\n\"He will break off a branch of silver-white, and bring hope to the snowy land.\"\n\nThe maiden sang these songs to comfort her people, and she nursed her memories of him.\nShe believed that he would return to her, with genial springtime and unshakeable hope in his train.\n\nBut in the end, the hero who stepped out into the snow would not return in time.\nHe would stand accused of flight by hateful words long ground to dust amid the snowstorms..."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_3.png",
     "filename_flower": "UI_RelicIcon_14001_4",
     "filename_plume": "UI_RelicIcon_14001_2",
     "filename_sands": "UI_RelicIcon_14001_5",
     "filename_goblet": "UI_RelicIcon_14001_1",
-    "filename_circlet": "UI_RelicIcon_14001_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_3.png"
+    "filename_circlet": "UI_RelicIcon_14001_3"
   },
   "version": "1.2"
 }

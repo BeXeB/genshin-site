@@ -43,21 +43,11 @@
     "story": "A silver mask inlaid with gold and gems and engraved with delicate patterns.\nDelicately made, it showcases the elegance and customs of the old nobles.\n\nThe first nobles who rose up to rule Mondstadt began as heroes of humble origins.\nThese great chieftains and elegant princes as well as beautiful princesses and noblemen\nonce welcomed the people to their banquets and feasts.\nIn those days long past, the nobles shared their wisdom and elegance generously.\n\nIn that golden age, the nobles shared with the people their knowledge and profits.\nBut the later nobles were seduced by power. Their banquets were exclusively for their own pleasure."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_3.png",
     "filename_flower": "UI_RelicIcon_15007_4",
     "filename_plume": "UI_RelicIcon_15007_2",
     "filename_sands": "UI_RelicIcon_15007_5",
     "filename_goblet": "UI_RelicIcon_15007_1",
-    "filename_circlet": "UI_RelicIcon_15007_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_3.png"
+    "filename_circlet": "UI_RelicIcon_15007_3"
   },
   "version": "1.0"
 }

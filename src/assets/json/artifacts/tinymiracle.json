@@ -43,21 +43,11 @@
     "story": "An inexpensive pair of earrings made from metal that shines like the stars.\nWhat the sellers don't know is that the shine of these earrings comes from the fallen stars of ancient times."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_3.png",
     "filename_flower": "UI_RelicIcon_10004_4",
     "filename_plume": "UI_RelicIcon_10004_2",
     "filename_sands": "UI_RelicIcon_10004_5",
     "filename_goblet": "UI_RelicIcon_10004_1",
-    "filename_circlet": "UI_RelicIcon_10004_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_3.png"
+    "filename_circlet": "UI_RelicIcon_10004_3"
   },
   "version": "1.0"
 }

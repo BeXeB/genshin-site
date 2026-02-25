@@ -47,12 +47,7 @@
     "filename_plume": "UI_RelicIcon_15041_2",
     "filename_sands": "UI_RelicIcon_15041_5",
     "filename_goblet": "UI_RelicIcon_15041_1",
-    "filename_circlet": "UI_RelicIcon_15041_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15041_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15041_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15041_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15041_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15041_3.png"
+    "filename_circlet": "UI_RelicIcon_15041_3"
   },
   "version": "6.0"
 }

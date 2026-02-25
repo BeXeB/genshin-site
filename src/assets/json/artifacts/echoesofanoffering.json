@@ -43,21 +43,11 @@
     "story": "Chenyu Vale is home to many mountains, streams, and stories. Among these, the most famous is:\nA long time ago, there was a priceless gem that fell into the hands of a demon and was thrown into the waters where it sunk...\n\nThe wide river of a legend will oft produce many tributaries. One of these goes like this:\nThis gem was once jade from a sacred mountain, carved into its current shape only by the hand of Rex Lapis himself.\nAnd the stone that had been lost to the waters may have been a lesser jade, or perhaps just a simple cup.\nSome even say that the \"jade\" in the tale is in fact an analogy for a beautiful person.\n\nThe legends even have it that people had once seen this:\n\nUnnumbered carp with tails like gems in the sunlight,\nHaving left the shackles of the lakes and rivers to which aquatic creatures are bound,\nFlying freely with the wind in the sky.\nSo too did the pair of jade earrings belonging to a certain person change form."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15024_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15024_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15024_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15024_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15024_3.png",
     "filename_flower": "UI_RelicIcon_15024_4",
     "filename_plume": "UI_RelicIcon_15024_2",
     "filename_sands": "UI_RelicIcon_15024_5",
     "filename_goblet": "UI_RelicIcon_15024_1",
-    "filename_circlet": "UI_RelicIcon_15024_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15024_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15024_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15024_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15024_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15024_3.png"
+    "filename_circlet": "UI_RelicIcon_15024_3"
   },
   "version": "2.6"
 }

@@ -43,21 +43,11 @@
     "story": "This mask was given to one whose face was wounded in service to the Court of Fontaine.\nIt is a replacement for an appalling visage — the glory, or perhaps the shame, of an old soldier.\nYet even though the scars can be covered, the wounds laid on one's heart will not disappear.\n\n\"If I do not return, I leave those two kids to you.\"\nHis friend said to him — she with whom he had grown up, and served the Court of Fontaine together.\nI've stopped asking you to fight alongside me, she wanted to say,\nBut today, the tacit understanding between them was a blank span of years.\nSo long as they didn't discuss it, it was almost as if the Poisson incident had never happened.\n\nThe Institute might be drowned for certain this time, and things won't be safe without myself and the Director,\nAnd so it might be better to entrust the children to trustworthy people like yourself and Ingold,\nHis friend explained, seeing the look he was giving her, mute beneath that mask.\n\n\"When I return in triumph, let's invite Lasker and Ingold for a get-together.\"\n\"I'll cook this time. I'll show you lot my skills.\"\nSeeing the suspicion in his eyes, she added this on in a huff—\n\"Hey, I've picked up baking these past few years! The children love it!\"\n\n\"Well, guess it's goodbye, Guillotin... My dear Emanuel.\"\n\"Hope everything goes smoothly on your end. Don't get yourself in trouble, now.\"\n\"I do hope that those brats haven't wrecked my Sponsian just yet...\"\n\nHe had no love of children — indeed, he wished to have no dealings with anyone,\nFor all seeing people did was remind him that they, too, had red blood flowing within them.\nBut since his old friend was asking this of him, he would help watch over them for now.\nHe'd just throw the hot potato back at Basil when she returned..."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15031_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15031_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15031_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15031_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15031_3.png",
     "filename_flower": "UI_RelicIcon_15031_4",
     "filename_plume": "UI_RelicIcon_15031_2",
     "filename_sands": "UI_RelicIcon_15031_5",
     "filename_goblet": "UI_RelicIcon_15031_1",
-    "filename_circlet": "UI_RelicIcon_15031_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15031_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15031_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15031_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15031_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15031_3.png"
+    "filename_circlet": "UI_RelicIcon_15031_3"
   },
   "version": "4.0"
 }

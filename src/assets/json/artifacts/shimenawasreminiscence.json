@@ -43,21 +43,11 @@
     "story": "A bright and elegant festival mask that once belonged to a certain miko.\nA faint smile curls the edges of the mask's lips, but there is no real light in its eyes.\n\nI've spent much time training at the Grand Shrine, and I must say that I've matured a lot.\nAt the very least, I'm not as foolish as I was when I was young, and I'm more independent now.\nBut for some reason, the more I grow, the more Lady Saiguu's face seems to fall under a shadow.\nWhat emerges on her face is not anxiety nor fear, but rather a sorrowful reluctance...\n\n\"Life is full of uncertainty. Love is fleeting, and even lasting memories may be lost.\"\n\"Losing one's memory is no different from losing one's life. It is like death amidst darkness eternal.\"\n\nThis time, even a faint smile could not conceal her sorrow.\nThough this is a festive day, it seems more like a farewell.\n\n\"Right, then. Why don't you tell me about the idiot Konbumaru?\"\n\"What's wrong? Still afraid that an old hag like me will steal him from you?\""
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_3.png",
     "filename_flower": "UI_RelicIcon_15019_4",
     "filename_plume": "UI_RelicIcon_15019_2",
     "filename_sands": "UI_RelicIcon_15019_5",
     "filename_goblet": "UI_RelicIcon_15019_1",
-    "filename_circlet": "UI_RelicIcon_15019_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_3.png"
+    "filename_circlet": "UI_RelicIcon_15019_3"
   },
   "version": "2.0"
 }
