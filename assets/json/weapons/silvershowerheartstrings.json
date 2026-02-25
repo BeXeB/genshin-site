@@ -1,0 +1,771 @@
+{
+  "id": 15513,
+  "name": "Silvershower Heartstrings",
+  "description": "Legendary bow of the fairies. Whether on the stage or the battlefield, it can easily touch the hearts of the listener.",
+  "descriptionRaw": "Legendary bow of the fairies. Whether on the stage or the battlefield, it can easily touch the hearts of the listener.",
+  "weaponType": "WEAPON_BOW",
+  "weaponText": "Bow",
+  "rarity": 5,
+  "story": "Fontaine playwrights often use strings as analogies for hearts — and indeed, this is the oft-used phrase, \"heartstrings.\"\nAnd just like harpstrings, a person's heart will shift in shade and color according to fate's melody.\nThe term \"heartstring\" is found in one of the oldest Fontainian plays, \"Dryas,\"\nAlthough the \"string\" being referenced there was at first not that of a harp, but of a bow.\n\nThe main character was named Aurelius, the ur-form of the identically-named character from Coppelius's famous \"The Saga of Aurelius.\"\nAccording to the script, he was honored as a hero as glorious as gold, who conquered countless traitorous nations and cities for Fontaine.\nHowever, there is no such corresponding figure in recorded history, and as such, he is often regarded as a fictitious invention, much like the figure of Ajax.\n\nLegend has it that while out on a campaign, he fell into a trap laid by his foe, and was lost along with his army amidst the pine forest.\nJust as an assassin's blade was about to take his life, silver arrows pierced the air like falling rain.\nAnd as he looked in the direction of the bowstring's quivering pulse, he saw that \"the gods had made such loveliness, yet destroyed the mold for pity of mortals.\"\nThe young maiden, Dryastis, took his hand, a hand that should never have again felt such delicate touch, and brought him beyond the bloodstained pines.\n\n\"I simply desire that no more die here in vain. Too much grief has flowed through the waters already.\"\n\"I ask but one thing of you, noble warrior — take this conflict away from this land.\"\n\"Taint these pure waters with 'death' no longer. Let us preserve our final home.\"\n\nConquering youths often believe their bodies and hearts as tough as the marble that adorns city walls.\nBut just as all kingdoms must fall into silence, the agitated strings added dissonant notes to the hero's poetic saga...\n\nMillennia of shifting legends and theatrical edits have given this tale all manner of extended developments.\nIn some versions, the hero, who once subdued cities and nations unnumbered, heeds the words of the fairy maiden.\nHe accepts the proffered bow from her hands and sounds the withdrawal, only to be slain en route by conniving traitors, his body consigned to the ocean depths.\nIn other tales, the illustrious Aurelius falls into agonizing, maddening love, he leads his army into the pine forest,\nSeeking her out, yearning to see her once more and make her his lover, that she might stay by his side.\nThe young maiden flees to the riverbank, weeping as she appeals to her pure-water mother to save her from the obsessions of the hero.\nThe ruler of the Many Waters took pity on her fate, turning her into a pine tree.\nThen, the bowstring that once shot love into Aurelius snapped like the heart the arrow had struck, and it fell by the maiden's side in silence, sinking into the countless blooming Pluie Lotuses.\nThe pained young hero stared at the flowers in the water and would not leave, eventually falling into a deep pool...\n\nNatural philosophers who came after would claim that according to their research, a barbarian tribe named Dryas had once settled here,\nWhich led to the pine forest being named as such. Such unromantic explanations have never had much to do with theater.\nWhether he met his end sinking into the deep sea, to have his will and desire sanded down by the passage of time,\nOr if he resurfaced after many years, only to be slain by the new White Armada or the Marechaussee Hunters,\nThe tale of the youthful hero ended, and Dryastis too was rendered naught but a legend born from chaotic times.\n\nAnd as to how this bow, that had so disturbed Aurelius's destiny, came to pass into the hands of someone who dwelled deep beneath the waters after changing hands many times,\nThen be adorned and modified into a theatrical prop for children's performances in that person's homeland... That is a different tale altogether.",
+  "baseAtkValue": 44.3358,
+  "baseStatText": "14.4%",
+  "mainStatType": "FIGHT_PROP_HP_PERCENT",
+  "mainStatText": "HP",
+  "effectName": "Dryas's Nocturne",
+  "effectTemplateRaw": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by <color=#99FFFFFF>{0}</color>. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by <color=#99FFFFFF>{1}</color>. This effect will be canceled 4s after falling under 3 stacks.",
+  "r1": {
+    "description": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by 12%/24%/40%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 28%. This effect will be canceled 4s after falling under 3 stacks.",
+    "values": [
+      "12%/24%/40%",
+      "28%"
+    ]
+  },
+  "r2": {
+    "description": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by 15%/30%/50%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 35%. This effect will be canceled 4s after falling under 3 stacks.",
+    "values": [
+      "15%/30%/50%",
+      "35%"
+    ]
+  },
+  "r3": {
+    "description": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by 18%/36%/60%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 42%. This effect will be canceled 4s after falling under 3 stacks.",
+    "values": [
+      "18%/36%/60%",
+      "42%"
+    ]
+  },
+  "r4": {
+    "description": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by 21%/42%/70%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 49%. This effect will be canceled 4s after falling under 3 stacks.",
+    "values": [
+      "21%/42%/70%",
+      "49%"
+    ]
+  },
+  "r5": {
+    "description": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by 24%/48%/80%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 56%. This effect will be canceled 4s after falling under 3 stacks.",
+    "values": [
+      "24%/48%/80%",
+      "56%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114053,
+        "name": "Dross of Pure Sacred Dewdrop",
+        "count": 5
+      },
+      {
+        "id": 112095,
+        "name": "Feathery Fin",
+        "count": 5
+      },
+      {
+        "id": 112080,
+        "name": "Transoceanic Pearl",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114054,
+        "name": "Sublimation of Pure Sacred Dewdrop",
+        "count": 5
+      },
+      {
+        "id": 112095,
+        "name": "Feathery Fin",
+        "count": 18
+      },
+      {
+        "id": 112080,
+        "name": "Transoceanic Pearl",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114054,
+        "name": "Sublimation of Pure Sacred Dewdrop",
+        "count": 9
+      },
+      {
+        "id": 112096,
+        "name": "Lunar Fin",
+        "count": 9
+      },
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114055,
+        "name": "Spring of Pure Sacred Dewdrop",
+        "count": 5
+      },
+      {
+        "id": 112096,
+        "name": "Lunar Fin",
+        "count": 18
+      },
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114055,
+        "name": "Spring of Pure Sacred Dewdrop",
+        "count": 9
+      },
+      {
+        "id": 112097,
+        "name": "Chasmlight Fin",
+        "count": 14
+      },
+      {
+        "id": 112082,
+        "name": "Xenochromatic Crystal",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114056,
+        "name": "Essence of Pure Sacred Dewdrop",
+        "count": 6
+      },
+      {
+        "id": 112097,
+        "name": "Chasmlight Fin",
+        "count": 27
+      },
+      {
+        "id": 112082,
+        "name": "Xenochromatic Crystal",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Bow_Arcdange",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Arcdange_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Arcdange",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arcdange.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arcdange_Awaken.png"
+  },
+  "version": "4.7",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 44.3358,
+      "specialized": 0.144
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 47.8383282,
+      "specialized": 0.144
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 51.3851922,
+      "specialized": 0.144
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 54.8877204,
+      "specialized": 0.144
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 58.3902486,
+      "specialized": 0.16732799999999998
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 61.848441,
+      "specialized": 0.16732799999999998
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 65.3509692,
+      "specialized": 0.16732799999999998
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 68.8091616,
+      "specialized": 0.16732799999999998
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 72.3116898,
+      "specialized": 0.16732799999999998
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 75.7698822,
+      "specialized": 0.19627199999999997
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 79.2280746,
+      "specialized": 0.19627199999999997
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 82.686267,
+      "specialized": 0.19627199999999997
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 86.10012359999999,
+      "specialized": 0.19627199999999997
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 89.558316,
+      "specialized": 0.19627199999999997
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 93.01650839999999,
+      "specialized": 0.22535999999999998
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 96.430365,
+      "specialized": 0.22535999999999998
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 99.8885574,
+      "specialized": 0.22535999999999998
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 103.302414,
+      "specialized": 0.22535999999999998
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 106.7606064,
+      "specialized": 0.22535999999999998
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 110.17446299999999,
+      "specialized": 0.25444799999999995
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 144.6883196,
+      "specialized": 0.25444799999999995
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 148.1021762,
+      "specialized": 0.25444799999999995
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 151.5603686,
+      "specialized": 0.25444799999999995
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 154.9742252,
+      "specialized": 0.25444799999999995
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 158.3880818,
+      "specialized": 0.283536
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 161.80193839999998,
+      "specialized": 0.283536
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 165.26013079999998,
+      "specialized": 0.283536
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 168.6739874,
+      "specialized": 0.283536
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 172.087844,
+      "specialized": 0.283536
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 175.5017006,
+      "specialized": 0.31262399999999996
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 178.9155572,
+      "specialized": 0.31262399999999996
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 182.3737496,
+      "specialized": 0.31262399999999996
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 185.7876062,
+      "specialized": 0.31262399999999996
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 189.20146279999997,
+      "specialized": 0.31262399999999996
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 192.6596552,
+      "specialized": 0.341712
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 196.0735118,
+      "specialized": 0.341712
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 199.48736839999998,
+      "specialized": 0.341712
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 202.94556079999998,
+      "specialized": 0.341712
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 206.35941739999998,
+      "specialized": 0.341712
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 209.81760979999999,
+      "specialized": 0.3708
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 244.3758022,
+      "specialized": 0.3708
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 247.78965879999998,
+      "specialized": 0.3708
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 251.2478512,
+      "specialized": 0.3708
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 254.7060436,
+      "specialized": 0.3708
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 258.11990019999996,
+      "specialized": 0.39988799999999997
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 261.5780926,
+      "specialized": 0.39988799999999997
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 265.036285,
+      "specialized": 0.39988799999999997
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 268.4944774,
+      "specialized": 0.39988799999999997
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 271.95266979999997,
+      "specialized": 0.39988799999999997
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 275.455198,
+      "specialized": 0.42897599999999997
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 310.11339039999996,
+      "specialized": 0.42897599999999997
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 313.5715828,
+      "specialized": 0.42897599999999997
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 317.0297752,
+      "specialized": 0.42897599999999997
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 320.53230340000005,
+      "specialized": 0.42897599999999997
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 323.99049579999996,
+      "specialized": 0.45806399999999997
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 327.493024,
+      "specialized": 0.45806399999999997
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 330.9955522,
+      "specialized": 0.45806399999999997
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 334.45374460000005,
+      "specialized": 0.45806399999999997
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 337.95627279999997,
+      "specialized": 0.45806399999999997
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 341.458801,
+      "specialized": 0.487152
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 376.06132920000005,
+      "specialized": 0.487152
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 379.56385739999996,
+      "specialized": 0.487152
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 383.1107214,
+      "specialized": 0.487152
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 386.6132496,
+      "specialized": 0.487152
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 390.1157778,
+      "specialized": 0.5162399999999999
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 393.66264179999996,
+      "specialized": 0.5162399999999999
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 397.16517,
+      "specialized": 0.5162399999999999
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 400.712034,
+      "specialized": 0.5162399999999999
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 404.258898,
+      "specialized": 0.5162399999999999
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 407.80576199999996,
+      "specialized": 0.545184
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 442.452626,
+      "specialized": 0.545184
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 445.9994899999999,
+      "specialized": 0.545184
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 449.54635399999995,
+      "specialized": 0.545184
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 453.093218,
+      "specialized": 0.545184
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 456.6844178,
+      "specialized": 0.574272
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 460.23128180000003,
+      "specialized": 0.574272
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 463.82248159999995,
+      "specialized": 0.574272
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 467.4136814,
+      "specialized": 0.574272
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 470.9605454,
+      "specialized": 0.574272
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 474.5517452,
+      "specialized": 0.60336
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 509.242945,
+      "specialized": 0.60336
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 512.8784806,
+      "specialized": 0.60336
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 516.4696804,
+      "specialized": 0.60336
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 520.0608801999999,
+      "specialized": 0.60336
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 523.6964158,
+      "specialized": 0.632448
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 527.2876156,
+      "specialized": 0.632448
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 530.9231512,
+      "specialized": 0.632448
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 534.5586868,
+      "specialized": 0.632448
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 538.1942224,
+      "specialized": 0.632448
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 541.829758,
+      "specialized": 0.661536
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 141.274463,
+      "specialized": 0.25444799999999995
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 240.91760979999998,
+      "specialized": 0.3708
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 306.655198,
+      "specialized": 0.42897599999999997
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 372.558801,
+      "specialized": 0.487152
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 438.905762,
+      "specialized": 0.545184
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 505.6517452,
+      "specialized": 0.60336
+    }
+  }
+}

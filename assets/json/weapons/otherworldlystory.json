@@ -1,0 +1,768 @@
+{
+  "id": 14303,
+  "name": "Otherworldly Story",
+  "description": "A cheap fantasy novel with no value whatsoever. Any claim that it possesses the power of catalysis is also pure fantasy.",
+  "descriptionRaw": "A cheap fantasy novel with no value whatsoever. Any claim that it possesses the power of catalysis is also pure fantasy.",
+  "weaponType": "WEAPON_CATALYST",
+  "weaponText": "Catalyst",
+  "rarity": 3,
+  "story": "A mediocre work of fiction telling the tale of an ordinary fellow who finds himself in another world after death.\nThat world is filled with dangers. Steel monsters as vast as galaxies lurk beneath the ground and devour people in the thousands.\nBut there also exist powerful beings who can make rooms comfortable in any season and turn night into day with a snap of their fingers. This is a story as groundless as it is meaningless.\nIt only shares one thing in common with the real world: most of the precious metals are owned by a handful of individuals, who keep them locked up in the vault.",
+  "baseAtkValue": 38.7413,
+  "baseStatText": "8.5%",
+  "mainStatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "mainStatText": "Energy Recharge",
+  "effectName": "Energy Shower",
+  "effectTemplateRaw": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>{0}</color> HP.",
+  "r1": {
+    "description": "Picking up an Elemental Energy Orb/Particle recovers 1% HP.",
+    "values": [
+      "1%"
+    ]
+  },
+  "r2": {
+    "description": "Each Elemental Orb or Particle collected restores 1.25% HP.",
+    "values": [
+      "1.25%"
+    ]
+  },
+  "r3": {
+    "description": "Each Elemental Orb or Particle collected restores 1.5% HP.",
+    "values": [
+      "1.5%"
+    ]
+  },
+  "r4": {
+    "description": "Each Elemental Orb or Particle collected restores 1.75% HP.",
+    "values": [
+      "1.75%"
+    ]
+  },
+  "r5": {
+    "description": "Each Elemental Orb or Particle collected restores 2% HP.",
+    "values": [
+      "2%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114009,
+        "name": "Fetters of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 2
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 8
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 4
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 4
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 8
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 4
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 6
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114012,
+        "name": "Dream of the Dandelion Gladiator",
+        "count": 3
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 12
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 8
+      }
+    ]
+  },
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Lightnov.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Lightnov_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Catalyst_Lightnov",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Lightnov_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Lightnov",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Lightnov.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Lightnov_Awaken.png"
+  },
+  "version": "1.0",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 38.7413,
+      "specialized": 0.085
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 41.68563880000001,
+      "specialized": 0.085
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 44.6299776,
+      "specialized": 0.085
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 47.5743164,
+      "specialized": 0.085
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 50.4799139,
+      "specialized": 0.09877
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 53.424252700000004,
+      "specialized": 0.09877
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 56.3298502,
+      "specialized": 0.09877
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 59.2354477,
+      "specialized": 0.09877
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 62.14104520000001,
+      "specialized": 0.09877
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 65.0466427,
+      "specialized": 0.11585500000000001
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 67.9522402,
+      "specialized": 0.11585500000000001
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 70.8190964,
+      "specialized": 0.11585500000000001
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 73.7246939,
+      "specialized": 0.11585500000000001
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 76.5915501,
+      "specialized": 0.11585500000000001
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 79.45840630000001,
+      "specialized": 0.133025
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 82.32526250000001,
+      "specialized": 0.133025
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 85.1921187,
+      "specialized": 0.133025
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 88.05897490000001,
+      "specialized": 0.133025
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 90.92583110000001,
+      "specialized": 0.133025
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 93.753946,
+      "specialized": 0.150195
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 116.0820609,
+      "specialized": 0.150195
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 118.94891710000002,
+      "specialized": 0.150195
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 121.777032,
+      "specialized": 0.150195
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 124.60514690000001,
+      "specialized": 0.150195
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 127.43326180000001,
+      "specialized": 0.167365
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 130.2613767,
+      "specialized": 0.167365
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 133.0507503,
+      "specialized": 0.167365
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 135.8788652,
+      "specialized": 0.167365
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 138.6682388,
+      "specialized": 0.167365
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 141.45761240000002,
+      "specialized": 0.184535
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 144.28572730000002,
+      "specialized": 0.184535
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 147.0751009,
+      "specialized": 0.184535
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 149.86447450000003,
+      "specialized": 0.184535
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 152.6538481,
+      "specialized": 0.184535
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 155.4044804,
+      "specialized": 0.20170500000000002
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 158.19385400000002,
+      "specialized": 0.20170500000000002
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 160.98322760000002,
+      "specialized": 0.20170500000000002
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 163.7338599,
+      "specialized": 0.20170500000000002
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 166.4844922,
+      "specialized": 0.20170500000000002
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 169.2738658,
+      "specialized": 0.21887500000000004
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 191.42449810000002,
+      "specialized": 0.21887500000000004
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 194.17513040000003,
+      "specialized": 0.21887500000000004
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 196.9257627,
+      "specialized": 0.21887500000000004
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 199.67639500000004,
+      "specialized": 0.21887500000000004
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 202.42702730000002,
+      "specialized": 0.23604500000000003
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 205.13891830000003,
+      "specialized": 0.23604500000000003
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 207.8895506,
+      "specialized": 0.23604500000000003
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 210.6401829,
+      "specialized": 0.23604500000000003
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 213.35207390000002,
+      "specialized": 0.23604500000000003
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 216.1027062,
+      "specialized": 0.253215
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 238.3145972,
+      "specialized": 0.253215
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 241.02648820000005,
+      "specialized": 0.253215
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 243.7383792,
+      "specialized": 0.253215
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 246.48901150000003,
+      "specialized": 0.253215
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 249.2009025,
+      "specialized": 0.27038500000000004
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 251.91279350000002,
+      "specialized": 0.27038500000000004
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 254.62468450000003,
+      "specialized": 0.27038500000000004
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 257.2978342,
+      "specialized": 0.27038500000000004
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 260.0097252,
+      "specialized": 0.27038500000000004
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 262.7216162,
+      "specialized": 0.287555
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 284.83350720000004,
+      "specialized": 0.287555
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 287.5066569,
+      "specialized": 0.287555
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 290.2185479,
+      "specialized": 0.287555
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 292.8916976,
+      "specialized": 0.287555
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 295.6035886,
+      "specialized": 0.304725
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 298.2767383,
+      "specialized": 0.304725
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 300.9886293,
+      "specialized": 0.304725
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 303.661779,
+      "specialized": 0.304725
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 306.33492870000003,
+      "specialized": 0.304725
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 309.0080784,
+      "specialized": 0.32181000000000004
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 331.2199694,
+      "specialized": 0.32181000000000004
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 333.89311910000004,
+      "specialized": 0.32181000000000004
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 336.56626880000005,
+      "specialized": 0.32181000000000004
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 339.2394185,
+      "specialized": 0.32181000000000004
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 341.9125682,
+      "specialized": 0.33898
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 344.5857179,
+      "specialized": 0.33898
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 347.25886760000003,
+      "specialized": 0.33898
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 349.9320173,
+      "specialized": 0.33898
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 352.605167,
+      "specialized": 0.33898
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 355.2783167,
+      "specialized": 0.3561500000000001
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 377.3127251,
+      "specialized": 0.3561500000000001
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 379.98587480000003,
+      "specialized": 0.3561500000000001
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 382.6590245,
+      "specialized": 0.3561500000000001
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 385.3321742,
+      "specialized": 0.3561500000000001
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 388.0053239,
+      "specialized": 0.37332000000000004
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 390.6397323,
+      "specialized": 0.37332000000000004
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 393.312882,
+      "specialized": 0.37332000000000004
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 395.9860317,
+      "specialized": 0.37332000000000004
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 398.6204401,
+      "specialized": 0.37332000000000004
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 401.2935898,
+      "specialized": 0.39049000000000006
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 113.253946,
+      "specialized": 0.150195
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.21887500000000004
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.253215
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.287555
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.32181000000000004
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.3561500000000001
+    }
+  }
+}

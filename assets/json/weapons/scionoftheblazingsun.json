@@ -1,0 +1,773 @@
+{
+  "id": 15424,
+  "name": "Scion of the Blazing Sun",
+  "description": "An ancient longbow that is a remnant of King Deshret's ancient era. An indecipherable ancient text and solemn patterns have been carved into it.",
+  "descriptionRaw": "An ancient longbow that is a remnant of King Deshret's ancient era. An indecipherable ancient text and solemn patterns have been carved into it.",
+  "weaponType": "WEAPON_BOW",
+  "weaponText": "Bow",
+  "rarity": 4,
+  "story": "In the era when the desert king ruled the lands, authority covered the realm like sunlight over the rolling dunes.\nThe surviving songs of the nomads are like the chirping of desert insects, forever singing of the glory of that forgotten golden age.\nThe red lord, they say, once contended against the bright sun, and ultimately fell to the earth like a meteorite.\nThere are those amongst the priests, they say, who were not slain by the kings and princes who followed, who pass down King Deshret's art of archery...\n\nThe descendants of the priests call themselves the \"Heirs of the Burning Sun,\" and practice the ceremonies of King Deshret's kingdom from days past without ceasing.\nEven the travelling merchants and their information networks know precious little about these mysterious cabals.\nFew among the gilded descendants of the desert have the right to inherit the legacy of King Deshret's priests, and few can still read the ancient texts,\nMuch less the graceful combat arts that the ancient priests had mastered: cudgel, spear, and that of which they were most proud, archery.\n\nThe Eremites name these people \"ascetics,\" and some have now turned their loyalty to the only surviving God King of Sumeru.\nBut most disappeared into the boundless desert, hiding among the snakes, scorpions, and specters of the ancient kingdom.\nThose loyal to the rainforest retain the customs of being hidden and silent, using their strength to repay the ancient favor,\nYet in their heart of hearts, they deeply mourn their ancestors and His Majesty, King Deshret, who met with disaster millennia before.\n\nIn this way, the elegant and ancient art and ceremony of archery has been passed down till today by the descendants of the priests.\nThough the meaning of many ancient texts and pictures have long been lost or have succumbed to error,\nAnd though the mighty figure of the red lord nocking an arrow to his bow has become only a shattered dream of the distant past...\nThe fragile embers of that ancient nation have not yet been extinguished, but have become an even more deeply concealed element,\nPassing on their inherited knowledge of the ancient days, protecting civilization today.\n\nAnd among those \"ascetics\" who disappeared into the desert, some strayed from the path of the priest.\nThey became obsessed with fleeting mirages of authority, attempting to meddle with and mold the nomadic tribes.\nUsing the strict ceremonies of the ancient past, they trained lost children as \"Falcons.\"\nThe advanced techniques honed from generation to generation to cultivate noble warriors have today taken a decidedly different path.\nTo assist in the birth of a new \"king,\" they trained completely mindless Falcons and dogs...\nBut that is another tale for another time, for those with great ambition often disappear into the vast desert,\nWithout a sound, like bitter tears falling into the infinite and endless ocean.",
+  "baseAtkValue": 43.7349,
+  "baseStatText": "4%",
+  "mainStatType": "FIGHT_PROP_CRITICAL",
+  "mainStatText": "CRIT Rate",
+  "effectName": "The Way of Sunfire",
+  "effectTemplateRaw": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing <color=#99FFFFFF>{0}</color> ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take <color=#99FFFFFF>{1}</color> more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+  "r1": {
+    "description": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing 60% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take 28% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+    "values": [
+      "60%",
+      "28%"
+    ]
+  },
+  "r2": {
+    "description": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing 75% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take 35% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+    "values": [
+      "75%",
+      "35%"
+    ]
+  },
+  "r3": {
+    "description": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing 90% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take 42% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+    "values": [
+      "90%",
+      "42%"
+    ]
+  },
+  "r4": {
+    "description": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing 105% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take 49% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+    "values": [
+      "105%",
+      "49%"
+    ]
+  },
+  "r5": {
+    "description": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing 120% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take 56% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+    "values": [
+      "120%",
+      "56%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114045,
+        "name": "Echo of Scorching Might",
+        "count": 3
+      },
+      {
+        "id": 112077,
+        "name": "A Flower Yet to Bloom",
+        "count": 3
+      },
+      {
+        "id": 112059,
+        "name": "Fungal Spores",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114046,
+        "name": "Remnant Glow of Scorching Might",
+        "count": 3
+      },
+      {
+        "id": 112077,
+        "name": "A Flower Yet to Bloom",
+        "count": 12
+      },
+      {
+        "id": 112059,
+        "name": "Fungal Spores",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114046,
+        "name": "Remnant Glow of Scorching Might",
+        "count": 6
+      },
+      {
+        "id": 112078,
+        "name": "Treasured Flower",
+        "count": 6
+      },
+      {
+        "id": 112060,
+        "name": "Luminescent Pollen",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114047,
+        "name": "Dream of Scorching Might",
+        "count": 3
+      },
+      {
+        "id": 112078,
+        "name": "Treasured Flower",
+        "count": 12
+      },
+      {
+        "id": 112060,
+        "name": "Luminescent Pollen",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114047,
+        "name": "Dream of Scorching Might",
+        "count": 6
+      },
+      {
+        "id": 112079,
+        "name": "Wanderer's Blooming Flower",
+        "count": 9
+      },
+      {
+        "id": 112061,
+        "name": "Crystalline Cyst Dust",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114048,
+        "name": "Olden Days of Scorching Might",
+        "count": 4
+      },
+      {
+        "id": 112079,
+        "name": "Wanderer's Blooming Flower",
+        "count": 18
+      },
+      {
+        "id": 112061,
+        "name": "Crystalline Cyst Dust",
+        "count": 12
+      }
+    ]
+  },
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Gurabad.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Gurabad_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Bow_Gurabad",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Gurabad_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Gurabad",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Gurabad.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Gurabad_Awaken.png"
+  },
+  "version": "4.0",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 43.7349,
+      "specialized": 0.04
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 47.58357120000001,
+      "specialized": 0.04
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 51.4322424,
+      "specialized": 0.04
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 55.280913600000005,
+      "specialized": 0.04
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 59.1733197,
+      "specialized": 0.04648
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 63.0657258,
+      "specialized": 0.04648
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 66.9581319,
+      "specialized": 0.04648
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 70.8942729,
+      "specialized": 0.04648
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 74.786679,
+      "specialized": 0.04648
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 78.72282000000001,
+      "specialized": 0.05452
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 82.70269590000001,
+      "specialized": 0.05452
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 86.63883690000002,
+      "specialized": 0.05452
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 90.61871280000001,
+      "specialized": 0.05452
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 94.5548538,
+      "specialized": 0.05452
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 98.53472970000001,
+      "specialized": 0.0626
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 102.55834050000001,
+      "specialized": 0.0626
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 106.53821640000001,
+      "specialized": 0.0626
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 110.51809230000002,
+      "specialized": 0.0626
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 114.54170310000002,
+      "specialized": 0.0626
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 118.5653139,
+      "specialized": 0.07067999999999999
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 148.4889247,
+      "specialized": 0.07067999999999999
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 152.5125355,
+      "specialized": 0.07067999999999999
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 156.5361463,
+      "specialized": 0.07067999999999999
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 160.60349200000002,
+      "specialized": 0.07067999999999999
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 164.62710280000002,
+      "specialized": 0.07876000000000001
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 168.69444850000002,
+      "specialized": 0.07876000000000001
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 172.76179420000003,
+      "specialized": 0.07876000000000001
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 176.82913990000003,
+      "specialized": 0.07876000000000001
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 180.8964856,
+      "specialized": 0.07876000000000001
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 184.9638313,
+      "specialized": 0.08684
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 189.07491190000002,
+      "specialized": 0.08684
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 193.14225760000002,
+      "specialized": 0.08684
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 197.25333820000003,
+      "specialized": 0.08684
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 201.32068390000003,
+      "specialized": 0.08684
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 205.43176450000004,
+      "specialized": 0.09492
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 209.54284510000002,
+      "specialized": 0.09492
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 213.65392570000003,
+      "specialized": 0.09492
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 217.7650063,
+      "specialized": 0.09492
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 221.87608690000002,
+      "specialized": 0.09492
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 225.98716750000003,
+      "specialized": 0.10300000000000001
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 256.0982481,
+      "specialized": 0.10300000000000001
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 260.2093287,
+      "specialized": 0.10300000000000001
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 264.3641442,
+      "specialized": 0.10300000000000001
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 268.4752248,
+      "specialized": 0.10300000000000001
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 272.6300403,
+      "specialized": 0.11108000000000001
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 276.7848558,
+      "specialized": 0.11108000000000001
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 280.8959364,
+      "specialized": 0.11108000000000001
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 285.0507519,
+      "specialized": 0.11108000000000001
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 289.2055674,
+      "specialized": 0.11108000000000001
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 293.3603829,
+      "specialized": 0.11916
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 323.4151984,
+      "specialized": 0.11916
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 327.57001390000005,
+      "specialized": 0.11916
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 331.72482940000003,
+      "specialized": 0.11916
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 335.8796449,
+      "specialized": 0.11916
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 340.03446040000006,
+      "specialized": 0.12724
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 344.2330108,
+      "specialized": 0.12724
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 348.38782630000003,
+      "specialized": 0.12724
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 352.5426418,
+      "specialized": 0.12724
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 356.74119220000006,
+      "specialized": 0.12724
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 360.89600770000004,
+      "specialized": 0.13532
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 390.9945581,
+      "specialized": 0.13532
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 395.1493736,
+      "specialized": 0.13532
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 399.347924,
+      "specialized": 0.13532
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 403.5464744,
+      "specialized": 0.13532
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 407.7012899,
+      "specialized": 0.1434
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 411.8998403,
+      "specialized": 0.1434
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 416.0983907,
+      "specialized": 0.1434
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 420.2969411,
+      "specialized": 0.1434
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 424.4954915,
+      "specialized": 0.1434
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 428.6940419,
+      "specialized": 0.15144
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 458.89259230000005,
+      "specialized": 0.15144
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 463.09114270000003,
+      "specialized": 0.15144
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 467.2896931,
+      "specialized": 0.15144
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 471.4882435,
+      "specialized": 0.15144
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 475.6867939,
+      "specialized": 0.15952
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 479.8853443,
+      "specialized": 0.15952
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 484.08389470000003,
+      "specialized": 0.15952
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 488.2824451,
+      "specialized": 0.15952
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 492.5247304,
+      "specialized": 0.15952
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 496.7232808,
+      "specialized": 0.16760000000000003
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 526.8218312,
+      "specialized": 0.16760000000000003
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 531.0641165000001,
+      "specialized": 0.16760000000000003
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 535.2626669,
+      "specialized": 0.16760000000000003
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 539.4612173,
+      "specialized": 0.16760000000000003
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 543.7035026000001,
+      "specialized": 0.17568000000000003
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 547.902053,
+      "specialized": 0.17568000000000003
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 552.1443383000001,
+      "specialized": 0.17568000000000003
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 556.3428887,
+      "specialized": 0.17568000000000003
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 560.585174,
+      "specialized": 0.17568000000000003
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 564.7837244,
+      "specialized": 0.18376
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 144.4653139,
+      "specialized": 0.07067999999999999
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.10300000000000001
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.11916
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.13532
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.15144
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.16760000000000003
+    }
+  }
+}

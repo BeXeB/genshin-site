@@ -1,0 +1,768 @@
+{
+  "id": 11306,
+  "name": "Skyrider Sword",
+  "description": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
+  "descriptionRaw": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
+  "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "weaponText": "Sword",
+  "rarity": 3,
+  "story": "Leap, the master swordsman Skyrider did, from the heights of Jueyun Karst.\nHe pierced the clouds as the winds hollered by his ears,\nBut what followed was the sound of bones shattering.\nWhat he had hoped for was something swordsmanship could not bring him.\nHe pawned the sword for medicine,\nBut die it did not, his dream of flight.",
+  "baseAtkValue": 37.6075,
+  "baseStatText": "11.3%",
+  "mainStatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "mainStatText": "Energy Recharge",
+  "effectName": "Determination",
+  "effectTemplateRaw": "Using an Elemental Burst grants a <color=#99FFFFFF>{0}</color> increase in ATK and Movement SPD for 15s.",
+  "r1": {
+    "description": "Using an Elemental Burst grants a 12% increase in ATK and Movement SPD for 15s.",
+    "values": [
+      "12%"
+    ]
+  },
+  "r2": {
+    "description": "Using an Elemental Burst grants a 15% increase in ATK and Movement SPD for 15s.",
+    "values": [
+      "15%"
+    ]
+  },
+  "r3": {
+    "description": "Using an Elemental Burst grants a 18% increase in ATK and Movement SPD for 15s.",
+    "values": [
+      "18%"
+    ]
+  },
+  "r4": {
+    "description": "Using an Elemental Burst grants a 21% increase in ATK and Movement SPD for 15s.",
+    "values": [
+      "21%"
+    ]
+  },
+  "r5": {
+    "description": "Using an Elemental Burst grants a 24% increase in ATK and Movement SPD for 15s.",
+    "values": [
+      "24%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114021,
+        "name": "Grain of Aerosiderite",
+        "count": 2
+      },
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 2
+      },
+      {
+        "id": 112032,
+        "name": "Recruit's Insignia",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 2
+      },
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 8
+      },
+      {
+        "id": 112032,
+        "name": "Recruit's Insignia",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 4
+      },
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 4
+      },
+      {
+        "id": 112033,
+        "name": "Sergeant's Insignia",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 2
+      },
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 8
+      },
+      {
+        "id": 112033,
+        "name": "Sergeant's Insignia",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 4
+      },
+      {
+        "id": 112043,
+        "name": "Fossilized Bone Shard",
+        "count": 6
+      },
+      {
+        "id": 112034,
+        "name": "Lieutenant's Insignia",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114024,
+        "name": "Chunk of Aerosiderite",
+        "count": 3
+      },
+      {
+        "id": 112043,
+        "name": "Fossilized Bone Shard",
+        "count": 12
+      },
+      {
+        "id": 112034,
+        "name": "Lieutenant's Insignia",
+        "count": 8
+      }
+    ]
+  },
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Sword_Mitsurugi",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Mitsurugi_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Mitsurugi",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi_Awaken.png"
+  },
+  "version": "1.0",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 37.6075,
+      "specialized": 0.113333
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 40.2776325,
+      "specialized": 0.113333
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 42.910157500000004,
+      "specialized": 0.113333
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 45.542682500000005,
+      "specialized": 0.113333
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 48.137600000000006,
+      "specialized": 0.131692946
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 50.7325175,
+      "specialized": 0.131692946
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 53.2898275,
+      "specialized": 0.131692946
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 55.884745,
+      "specialized": 0.131692946
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 58.4044475,
+      "specialized": 0.131692946
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 60.961757500000004,
+      "specialized": 0.154472879
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 63.48146,
+      "specialized": 0.154472879
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 65.963555,
+      "specialized": 0.154472879
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 68.44565,
+      "specialized": 0.154472879
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 70.927745,
+      "specialized": 0.154472879
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 73.40984,
+      "specialized": 0.177366145
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 75.8543275,
+      "specialized": 0.177366145
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 78.298815,
+      "specialized": 0.177366145
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 80.7433025,
+      "specialized": 0.177366145
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 83.1501825,
+      "specialized": 0.177366145
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 85.5570625,
+      "specialized": 0.200259411
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 107.4639425,
+      "specialized": 0.200259411
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 109.83321500000001,
+      "specialized": 0.200259411
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 112.24009500000001,
+      "specialized": 0.200259411
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 114.6093675,
+      "specialized": 0.200259411
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 116.9410325,
+      "specialized": 0.22315267700000002
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 119.310305,
+      "specialized": 0.22315267700000002
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 121.64197000000001,
+      "specialized": 0.22315267700000002
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 123.973635,
+      "specialized": 0.22315267700000002
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 126.3053,
+      "specialized": 0.22315267700000002
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 128.5993575,
+      "specialized": 0.246045943
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 130.893415,
+      "specialized": 0.246045943
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 133.1874725,
+      "specialized": 0.246045943
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 135.48153000000002,
+      "specialized": 0.246045943
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 137.7755875,
+      "specialized": 0.246045943
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 140.0320375,
+      "specialized": 0.268939209
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 142.28848750000003,
+      "specialized": 0.268939209
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 144.5449375,
+      "specialized": 0.268939209
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 146.8013875,
+      "specialized": 0.268939209
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 149.0578375,
+      "specialized": 0.268939209
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 151.27668,
+      "specialized": 0.29183247500000004
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 172.93313,
+      "specialized": 0.29183247500000004
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 175.15197250000003,
+      "specialized": 0.29183247500000004
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 177.37081500000002,
+      "specialized": 0.29183247500000004
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 179.58965750000002,
+      "specialized": 0.29183247500000004
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 181.7708925,
+      "specialized": 0.314725741
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 183.98973500000002,
+      "specialized": 0.314725741
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 186.17097,
+      "specialized": 0.314725741
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 188.35220500000003,
+      "specialized": 0.314725741
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 190.53344,
+      "specialized": 0.314725741
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 192.714675,
+      "specialized": 0.337619007
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 214.39591000000001,
+      "specialized": 0.337619007
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 216.53953750000002,
+      "specialized": 0.337619007
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 218.7207725,
+      "specialized": 0.337619007
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 220.86440000000002,
+      "specialized": 0.337619007
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 223.0080275,
+      "specialized": 0.360512273
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 225.151655,
+      "specialized": 0.360512273
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 227.2952825,
+      "specialized": 0.360512273
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 229.43891000000002,
+      "specialized": 0.360512273
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 231.58253750000003,
+      "specialized": 0.360512273
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 233.6885575,
+      "specialized": 0.383405539
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 255.23218500000002,
+      "specialized": 0.383405539
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 257.338205,
+      "specialized": 0.383405539
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 259.444225,
+      "specialized": 0.383405539
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 261.5878525,
+      "specialized": 0.383405539
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 263.6938725,
+      "specialized": 0.406298805
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 265.7998925,
+      "specialized": 0.406298805
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 267.868305,
+      "specialized": 0.406298805
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 269.974325,
+      "specialized": 0.406298805
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 272.080345,
+      "specialized": 0.406298805
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 274.186365,
+      "specialized": 0.429078738
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 295.7547775,
+      "specialized": 0.429078738
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 297.8607975,
+      "specialized": 0.429078738
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 299.92921,
+      "specialized": 0.429078738
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 301.9976225,
+      "specialized": 0.429078738
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 304.066035,
+      "specialized": 0.45197200400000004
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 306.172055,
+      "specialized": 0.45197200400000004
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 308.2404675,
+      "specialized": 0.45197200400000004
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 310.30888,
+      "specialized": 0.45197200400000004
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 312.3772925,
+      "specialized": 0.45197200400000004
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 314.44570500000003,
+      "specialized": 0.47486527000000006
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 335.87651,
+      "specialized": 0.47486527000000006
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 337.9449225,
+      "specialized": 0.47486527000000006
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 340.013335,
+      "specialized": 0.47486527000000006
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 342.0817475,
+      "specialized": 0.47486527000000006
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 344.1125525,
+      "specialized": 0.49775853600000003
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 346.180965,
+      "specialized": 0.49775853600000003
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 348.21177,
+      "specialized": 0.49775853600000003
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 350.2801825,
+      "specialized": 0.49775853600000003
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 352.3109875,
+      "specialized": 0.49775853600000003
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 354.37940000000003,
+      "specialized": 0.520651802
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 105.0570625,
+      "specialized": 0.200259411
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 0.29183247500000004
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 0.337619007
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 0.383405539
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 0.429078738
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 0.47486527000000006
+    }
+  }
+}

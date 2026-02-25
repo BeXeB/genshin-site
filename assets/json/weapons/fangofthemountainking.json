@@ -1,0 +1,766 @@
+{
+  "id": 12513,
+  "name": "Fang of the Mountain King",
+  "description": "A giant sword forged from pure turquoise. Due to its greater weight than most ordinary weapons, it was named for Kongomato the Mountain King.",
+  "descriptionRaw": "A giant sword forged from pure turquoise. Due to its greater weight than most ordinary weapons, it was named for Kongomato the Mountain King.",
+  "weaponType": "WEAPON_CLAYMORE",
+  "weaponText": "Claymore",
+  "rarity": 5,
+  "story": "In the heart of Huitztlan lies the \"Mountain King\" Kongamato, a gargantuan creature like the mountains among which it sleeps.\nIn moments of searing pain, in half-waking frenzies, the Mountain King sees everything as a mortal enemy,\nAs if to prevent something from being stolen, it attacks all living things that approach without discrimination.\nPeople say that Kongamato, who once protected the tribes, was driven mad by that dark disaster,\nBut they are never able to explain why the Mountain King, who ought not to be sentient, only attacks those who draw near.\n\nIndeed, its sanity was lost long ago, back when its sharp fangs pierced that person's flesh.\nLegends speak of the one who once made pacts with it, who hunted by its side,\nBut no matter how precious these memories were, they have now been lost to the Mountain King's long nightmare,\nEven the name \"Kongamato\" itself has become unfamiliar to the ancient lord of the Yumkasaurs.\n\nYet, even so—\nEven if it is unable to break free from the nightmare, it must at least protect the fire — though to whom it belongs, it knows not.\nEven if who that person was, or why such a promise was made, have long been forgotten.\n\nEven if the great body it was once so proud of continues to be wracked by burning agony,\nEven if its now decaying frame still bears the imprints of unbearable shame,\nEven so, it would never allow anyone to desecrate the life and fire that were once his.\n\nFor the giant beast, now lost to madness,\nDespite its soul having been consumed by the filth of darkness,\nThis final shred of resolve it refuses to abandon, no matter what.\n\n\"I shall return the Turnfire name to the Night Realm, in exchange for the final kindling.\"\n\"By past fuel, and present flame, life marches ever on.\"\n\"We will answer to the fire for all our deeds. Amidst the flames, we shall be reunited.\"",
+  "baseAtkValue": 49.1377,
+  "baseStatText": "2.4%",
+  "mainStatType": "FIGHT_PROP_CRITICAL",
+  "mainStatText": "CRIT Rate",
+  "effectName": "Turquoise Hunt",
+  "effectTemplateRaw": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by <color=#99FFFFFF>{0}</color> for 6s. Max 6 stacks. Each stack is counted independently.",
+  "r1": {
+    "description": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by 10% for 6s. Max 6 stacks. Each stack is counted independently.",
+    "values": [
+      "10%"
+    ]
+  },
+  "r2": {
+    "description": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by 12.5% for 6s. Max 6 stacks. Each stack is counted independently.",
+    "values": [
+      "12.5%"
+    ]
+  },
+  "r3": {
+    "description": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by 15% for 6s. Max 6 stacks. Each stack is counted independently.",
+    "values": [
+      "15%"
+    ]
+  },
+  "r4": {
+    "description": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by 17.5% for 6s. Max 6 stacks. Each stack is counted independently.",
+    "values": [
+      "17.5%"
+    ]
+  },
+  "r5": {
+    "description": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by 20% for 6s. Max 6 stacks. Each stack is counted independently.",
+    "values": [
+      "20%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114065,
+        "name": "Delirious Decadence of the Sacred Lord",
+        "count": 5
+      },
+      {
+        "id": 112110,
+        "name": "Ignited Stone",
+        "count": 5
+      },
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114066,
+        "name": "Delirious Desolation of the Sacred Lord",
+        "count": 5
+      },
+      {
+        "id": 112110,
+        "name": "Ignited Stone",
+        "count": 18
+      },
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114066,
+        "name": "Delirious Desolation of the Sacred Lord",
+        "count": 9
+      },
+      {
+        "id": 112111,
+        "name": "Ignited Seed of Life",
+        "count": 9
+      },
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114067,
+        "name": "Delirious Demeanor of the Sacred Lord",
+        "count": 5
+      },
+      {
+        "id": 112111,
+        "name": "Ignited Seed of Life",
+        "count": 18
+      },
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114067,
+        "name": "Delirious Demeanor of the Sacred Lord",
+        "count": 9
+      },
+      {
+        "id": 112112,
+        "name": "Ignited Seeing Eye",
+        "count": 14
+      },
+      {
+        "id": 112106,
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114068,
+        "name": "Delirious Divinity of the Sacred Lord",
+        "count": 6
+      },
+      {
+        "id": 112112,
+        "name": "Ignited Seeing Eye",
+        "count": 27
+      },
+      {
+        "id": 112106,
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Claymore_EmeraldSword",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_EmeraldSword_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_EmeraldSword",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_EmeraldSword.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_EmeraldSword_Awaken.png"
+  },
+  "version": "5.0",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 49.1377,
+      "specialized": 0.024
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 53.9040569,
+      "specialized": 0.024
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 58.6704138,
+      "specialized": 0.024
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 63.48590840000001,
+      "specialized": 0.024
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 68.35054070000001,
+      "specialized": 0.027888
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 73.21517300000001,
+      "specialized": 0.027888
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 78.1780807,
+      "specialized": 0.027888
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 83.1409884,
+      "specialized": 0.027888
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 88.1038961,
+      "specialized": 0.027888
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 93.1159415,
+      "specialized": 0.032712
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 98.1771246,
+      "specialized": 0.032712
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 103.2874454,
+      "specialized": 0.032712
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 108.3977662,
+      "specialized": 0.032712
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 113.508087,
+      "specialized": 0.032712
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 118.6675455,
+      "specialized": 0.037559999999999996
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 123.8761417,
+      "specialized": 0.037559999999999996
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 129.0847379,
+      "specialized": 0.037559999999999996
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 134.3424718,
+      "specialized": 0.037559999999999996
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 139.6002057,
+      "specialized": 0.037559999999999996
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 144.9070773,
+      "specialized": 0.042408
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 181.31394889999999,
+      "specialized": 0.042408
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 186.6208205,
+      "specialized": 0.042408
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 191.9768298,
+      "specialized": 0.042408
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 197.3819768,
+      "specialized": 0.042408
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 202.7379861,
+      "specialized": 0.047256000000000006
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 208.19227080000002,
+      "specialized": 0.047256000000000006
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 213.5974178,
+      "specialized": 0.047256000000000006
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 219.0517025,
+      "specialized": 0.047256000000000006
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 224.55512489999998,
+      "specialized": 0.047256000000000006
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 230.05854730000001,
+      "specialized": 0.052104
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 235.5619697,
+      "specialized": 0.052104
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 241.0653921,
+      "specialized": 0.052104
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 246.61795220000002,
+      "specialized": 0.052104
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 252.17051229999998,
+      "specialized": 0.052104
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 257.77221010000005,
+      "specialized": 0.05695200000000001
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 263.37390790000006,
+      "specialized": 0.05695200000000001
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 268.9756057,
+      "specialized": 0.05695200000000001
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 274.62644120000004,
+      "specialized": 0.05695200000000001
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 280.2772767,
+      "specialized": 0.05695200000000001
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 285.92811220000004,
+      "specialized": 0.06180000000000001
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 322.6789477,
+      "specialized": 0.06180000000000001
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 328.37892089999997,
+      "specialized": 0.06180000000000001
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 334.0788941,
+      "specialized": 0.06180000000000001
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 339.828005,
+      "specialized": 0.06180000000000001
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 345.5771159,
+      "specialized": 0.066648
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 351.32622680000003,
+      "specialized": 0.066648
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 357.07533770000003,
+      "specialized": 0.066648
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 362.82444860000004,
+      "specialized": 0.066648
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 368.6226972,
+      "specialized": 0.066648
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 374.4209458,
+      "specialized": 0.071496
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 411.4683321,
+      "specialized": 0.071496
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 417.31571840000004,
+      "specialized": 0.071496
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 423.113967,
+      "specialized": 0.071496
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 429.010491,
+      "specialized": 0.071496
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 434.85787730000004,
+      "specialized": 0.07634400000000001
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 440.75440130000004,
+      "specialized": 0.07634400000000001
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 446.65092530000004,
+      "specialized": 0.07634400000000001
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 452.54744930000004,
+      "specialized": 0.07634400000000001
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 458.44397330000004,
+      "specialized": 0.07634400000000001
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 464.389635,
+      "specialized": 0.081192
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 501.43529670000004,
+      "specialized": 0.081192
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 507.3809584,
+      "specialized": 0.081192
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 513.3266201,
+      "specialized": 0.081192
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 519.3214195,
+      "specialized": 0.081192
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 525.3162189,
+      "specialized": 0.08604
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 531.3110183,
+      "specialized": 0.08604
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 537.3058177,
+      "specialized": 0.08604
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 543.3497548,
+      "specialized": 0.08604
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 549.3445542000001,
+      "specialized": 0.08604
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 555.3884913,
+      "specialized": 0.090864
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 592.5815661,
+      "specialized": 0.090864
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 598.6255032,
+      "specialized": 0.090864
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 604.7185780000001,
+      "specialized": 0.090864
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 610.7625151,
+      "specialized": 0.090864
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 616.8555899,
+      "specialized": 0.095712
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 622.9978024000001,
+      "specialized": 0.095712
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 629.0908772,
+      "specialized": 0.095712
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 635.2330896999999,
+      "specialized": 0.095712
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 641.3753022,
+      "specialized": 0.095712
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 647.5175147,
+      "specialized": 0.10056000000000001
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 684.7597272,
+      "specialized": 0.10056000000000001
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 690.9019397,
+      "specialized": 0.10056000000000001
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 697.0932899000001,
+      "specialized": 0.10056000000000001
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 703.2846400999999,
+      "specialized": 0.10056000000000001
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 709.4759902999999,
+      "specialized": 0.10540800000000002
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 715.6673405000001,
+      "specialized": 0.10540800000000002
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 721.9078284,
+      "specialized": 0.10540800000000002
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 728.0991786,
+      "specialized": 0.10540800000000002
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 734.3396665,
+      "specialized": 0.10540800000000002
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 740.5801544000001,
+      "specialized": 0.110256
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 176.0070773,
+      "specialized": 0.042408
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 317.0281122,
+      "specialized": 0.06180000000000001
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 405.6209458000001,
+      "specialized": 0.071496
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 495.489635,
+      "specialized": 0.081192
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 586.4884913000001,
+      "specialized": 0.090864
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 678.6175146999999,
+      "specialized": 0.10056000000000001
+    }
+  }
+}

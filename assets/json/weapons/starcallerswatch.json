@@ -1,0 +1,771 @@
+{
+  "id": 14517,
+  "name": "Starcaller's Watch",
+  "description": "A statue carved in the shape of an eagle, a sacred relic of the Masters of the Night-Wind that has been passed down from generation to generation.",
+  "descriptionRaw": "A statue carved in the shape of an eagle, a sacred relic of the Masters of the Night-Wind that has been passed down from generation to generation.",
+  "weaponType": "WEAPON_CATALYST",
+  "weaponText": "Catalyst",
+  "rarity": 5,
+  "story": "Let her eyes be dyed in burning smoke, so she will not be entranced by the colors they reflect.\nLet her ankles be blessed by a flint blade, so she shall not abandon her beloved comrades.\nIn accordance with a ancient, exalted contract, the messenger of night selected a child with a star-bright soul,\nAnd set upon her brow a crown of eagle feathers, to guide the ancient people bereft of form into night's slumber.\n\nWhether it be dragons who drowned in dreams, or saints who contended unceasingly in ethereal realms,\nNone noticed the schemes of the one who claimed to be a sage. A covenant was established between the people of the valley and the noble scions,\nAnd it cut off the flames of the war-chiefs' bloodlust, leaving but the peaceful silence of death on the shrouded paths,\nSuch that even the bravest warrior in that valley could only be servile to the star-caller.\nThis was not part of some grand plan, but the decay of the fallen disgusted him still.\nAs such, he used small tricks to incite her to rebellion against the dragons, all in the name of goodwill.\n\nAs the self-proclaimed sage had thought, manipulating the hearts of humans had always been a simple affair.\nAdd a little fuel onto the flames of suffering here, speak a few clever words about so-called \"hope\" there,\nAnd that young mortal woman, weak as an ant and foolish as a withered tree, hung upon his every word.\nFor had he not once guided her through the perilous realm of night, to gaze upon those night-wind shrouded ways,\nThough she, in her naivete, should have seen naught when faced with the mist and smoke...\nAll that was needed now was the gentlest push, and the laughable dreamscape would surely disintegrate...\n\nJust as the self-proclaimed sage had predicted, the young woman, who had once kneeled before the dragons,\nLed an outlander he had never seen before through the wall of fumes with flute and song,\nAnd by his perfect plan did she send her silent servant Dinga forth from the deep valley.\nThen, the flames of slaughter would soon be drawn to this land, cut off from the rest of the world as it was...\n\nMany years later, when the hero Maghan plunged the Python King's golden dagger into his former master's heart,\nOnly then did that sage, who had thought he could control human hearts, realize that the fiery seeds of betrayal had long been sown,\nJust that they had not, as he had imagined, been pointed toward the dragons in their deep slumber,\nBut had instead come alongside the song of the newborn Wayob, from within the deepest halls of the Night Realm,\nSecuring the foundations of the tribe named \"Mictlan\" for a thousand years to come.\nThe invisible, seven-layered curtains in this cell seal the ancient, lightless land of disorder,\nAnd amidst the night wind and cold light of day, ants stole the secret rites that even the self-proclaimed sage could never hope to acquire.\n\n\"Do not put all your hope in the night, do not rely on the benevolence of the saints, and most of all, do not trust easily the enticements of the one who calls himself a sage.\"\n\"Though we are weak and cowardly, though we are stained by wretchedness and evil, we humans can rely only on ourselves.\"\n\"Yet we mortals are ultimately fragile. Even if all goes as I intend, I shall only stabilize the boundary for a hundred years.\"\n\"Therefore, you must speak, you must tell. Tell the people of the tribes, tell them of the glorious ones, heroic and valiant.\"\n\"Tell of their 'memories,' stretch them out upon woven scrolls, and anchor this home that shall in latter days be named Natlan.\"\n\"Take this statuette with you, Dinga, my most loyal servant, and set off on your journey to follow the first rising dawn.\"\n\"I shall watch over you always, O hero solely mine, bound to your shoulder always, like a silken string...\"\n\"Until our souls are entwined eternally in profoundest peace, where even death shall not do us part.\"",
+  "baseAtkValue": 44.3358,
+  "baseStatText": "58",
+  "mainStatType": "FIGHT_PROP_ELEMENT_MASTERY",
+  "mainStatText": "Elemental Mastery",
+  "effectName": "Offering Unto Wind and Sun",
+  "effectTemplateRaw": "Increases Elemental Mastery by <color=#99FFFFFF>{0}</color>. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals <color=#99FFFFFF>{1}</color> increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+  "r1": {
+    "description": "Increases Elemental Mastery by 100. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 28% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+    "values": [
+      "100",
+      "28%"
+    ]
+  },
+  "r2": {
+    "description": "Increases Elemental Mastery by 125. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 35% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+    "values": [
+      "125",
+      "35%"
+    ]
+  },
+  "r3": {
+    "description": "Increases Elemental Mastery by 150. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 42% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+    "values": [
+      "150",
+      "42%"
+    ]
+  },
+  "r4": {
+    "description": "Increases Elemental Mastery by 175. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 49% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+    "values": [
+      "175",
+      "49%"
+    ]
+  },
+  "r5": {
+    "description": "Increases Elemental Mastery by 200. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 56% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+    "values": [
+      "200",
+      "56%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114065,
+        "name": "Delirious Decadence of the Sacred Lord",
+        "count": 5
+      },
+      {
+        "id": 112107,
+        "name": "Shard of a Shattered Will",
+        "count": 5
+      },
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114066,
+        "name": "Delirious Desolation of the Sacred Lord",
+        "count": 5
+      },
+      {
+        "id": 112107,
+        "name": "Shard of a Shattered Will",
+        "count": 18
+      },
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114066,
+        "name": "Delirious Desolation of the Sacred Lord",
+        "count": 9
+      },
+      {
+        "id": 112108,
+        "name": "Locus of a Clear Will",
+        "count": 9
+      },
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114067,
+        "name": "Delirious Demeanor of the Sacred Lord",
+        "count": 5
+      },
+      {
+        "id": 112108,
+        "name": "Locus of a Clear Will",
+        "count": 18
+      },
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114067,
+        "name": "Delirious Demeanor of the Sacred Lord",
+        "count": 9
+      },
+      {
+        "id": 112109,
+        "name": "Sigil of a Striding Will",
+        "count": 14
+      },
+      {
+        "id": 112106,
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114068,
+        "name": "Delirious Divinity of the Sacred Lord",
+        "count": 6
+      },
+      {
+        "id": 112109,
+        "name": "Sigil of a Striding Will",
+        "count": 27
+      },
+      {
+        "id": 112106,
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Catalyst_Figurines",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Figurines_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Figurines",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Figurines.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Figurines_Awaken.png"
+  },
+  "version": "5.3",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 44.3358,
+      "specialized": 57.6
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 47.8383282,
+      "specialized": 57.6
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 51.3851922,
+      "specialized": 57.6
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 54.8877204,
+      "specialized": 57.6
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 58.3902486,
+      "specialized": 66.9312
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 61.848441,
+      "specialized": 66.9312
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 65.3509692,
+      "specialized": 66.9312
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 68.8091616,
+      "specialized": 66.9312
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 72.3116898,
+      "specialized": 66.9312
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 75.7698822,
+      "specialized": 78.50880000000001
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 79.2280746,
+      "specialized": 78.50880000000001
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 82.686267,
+      "specialized": 78.50880000000001
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 86.10012359999999,
+      "specialized": 78.50880000000001
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 89.558316,
+      "specialized": 78.50880000000001
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 93.01650839999999,
+      "specialized": 90.144
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 96.430365,
+      "specialized": 90.144
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 99.8885574,
+      "specialized": 90.144
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 103.302414,
+      "specialized": 90.144
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 106.7606064,
+      "specialized": 90.144
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 110.17446299999999,
+      "specialized": 101.7792
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 144.6883196,
+      "specialized": 101.7792
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 148.1021762,
+      "specialized": 101.7792
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 151.5603686,
+      "specialized": 101.7792
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 154.9742252,
+      "specialized": 101.7792
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 158.3880818,
+      "specialized": 113.4144
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 161.80193839999998,
+      "specialized": 113.4144
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 165.26013079999998,
+      "specialized": 113.4144
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 168.6739874,
+      "specialized": 113.4144
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 172.087844,
+      "specialized": 113.4144
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 175.5017006,
+      "specialized": 125.0496
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 178.9155572,
+      "specialized": 125.0496
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 182.3737496,
+      "specialized": 125.0496
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 185.7876062,
+      "specialized": 125.0496
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 189.20146279999997,
+      "specialized": 125.0496
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 192.6596552,
+      "specialized": 136.68480000000002
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 196.0735118,
+      "specialized": 136.68480000000002
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 199.48736839999998,
+      "specialized": 136.68480000000002
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 202.94556079999998,
+      "specialized": 136.68480000000002
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 206.35941739999998,
+      "specialized": 136.68480000000002
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 209.81760979999999,
+      "specialized": 148.32000000000002
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 244.3758022,
+      "specialized": 148.32000000000002
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 247.78965879999998,
+      "specialized": 148.32000000000002
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 251.2478512,
+      "specialized": 148.32000000000002
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 254.7060436,
+      "specialized": 148.32000000000002
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 258.11990019999996,
+      "specialized": 159.95520000000002
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 261.5780926,
+      "specialized": 159.95520000000002
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 265.036285,
+      "specialized": 159.95520000000002
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 268.4944774,
+      "specialized": 159.95520000000002
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 271.95266979999997,
+      "specialized": 159.95520000000002
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 275.455198,
+      "specialized": 171.59040000000002
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 310.11339039999996,
+      "specialized": 171.59040000000002
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 313.5715828,
+      "specialized": 171.59040000000002
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 317.0297752,
+      "specialized": 171.59040000000002
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 320.53230340000005,
+      "specialized": 171.59040000000002
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 323.99049579999996,
+      "specialized": 183.22560000000001
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 327.493024,
+      "specialized": 183.22560000000001
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 330.9955522,
+      "specialized": 183.22560000000001
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 334.45374460000005,
+      "specialized": 183.22560000000001
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 337.95627279999997,
+      "specialized": 183.22560000000001
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 341.458801,
+      "specialized": 194.8608
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 376.06132920000005,
+      "specialized": 194.8608
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 379.56385739999996,
+      "specialized": 194.8608
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 383.1107214,
+      "specialized": 194.8608
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 386.6132496,
+      "specialized": 194.8608
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 390.1157778,
+      "specialized": 206.496
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 393.66264179999996,
+      "specialized": 206.496
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 397.16517,
+      "specialized": 206.496
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 400.712034,
+      "specialized": 206.496
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 404.258898,
+      "specialized": 206.496
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 407.80576199999996,
+      "specialized": 218.0736
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 442.452626,
+      "specialized": 218.0736
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 445.9994899999999,
+      "specialized": 218.0736
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 449.54635399999995,
+      "specialized": 218.0736
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 453.093218,
+      "specialized": 218.0736
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 456.6844178,
+      "specialized": 229.7088
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 460.23128180000003,
+      "specialized": 229.7088
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 463.82248159999995,
+      "specialized": 229.7088
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 467.4136814,
+      "specialized": 229.7088
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 470.9605454,
+      "specialized": 229.7088
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 474.5517452,
+      "specialized": 241.34400000000002
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 509.242945,
+      "specialized": 241.34400000000002
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 512.8784806,
+      "specialized": 241.34400000000002
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 516.4696804,
+      "specialized": 241.34400000000002
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 520.0608801999999,
+      "specialized": 241.34400000000002
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 523.6964158,
+      "specialized": 252.97920000000002
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 527.2876156,
+      "specialized": 252.97920000000002
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 530.9231512,
+      "specialized": 252.97920000000002
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 534.5586868,
+      "specialized": 252.97920000000002
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 538.1942224,
+      "specialized": 252.97920000000002
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 541.829758,
+      "specialized": 264.61440000000005
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 141.274463,
+      "specialized": 101.7792
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 240.91760979999998,
+      "specialized": 148.32000000000002
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 306.655198,
+      "specialized": 171.59040000000002
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 372.558801,
+      "specialized": 194.8608
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 438.905762,
+      "specialized": 218.0736
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 505.6517452,
+      "specialized": 241.34400000000002
+    }
+  }
+}

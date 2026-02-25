@@ -1,0 +1,771 @@
+{
+  "id": 14515,
+  "name": "Crane's Echoing Call",
+  "description": "A fan carved from pure jade, around which swirls an ancient aura of adeptal energy.",
+  "descriptionRaw": "A fan carved from pure jade, around which swirls an ancient aura of adeptal energy.",
+  "weaponType": "WEAPON_CATALYST",
+  "weaponText": "Catalyst",
+  "rarity": 5,
+  "story": "This was in the distant past, before the prosperous port city was ever established.\nThen, even the abodes of the adepti were not spared from the flaming beacons of war.\nThe lords once worshipped as gods fought for reasons their own,\nBlood and fire, separation and betrayal. All the mortal world was stained.\n\nThose who lost everything in the tumult fled to the mountains, and there they begged for the adepti for shelter.\nDoggedly pursuing those survivors were countless monsters who had long since lost their senses.\nTheir names were unknown, their numbers uncountable, they came on like a flood, destroying all in their path.\nThe other master that they had once revered had fallen, and their fierce roaring was, in truth, a final mourning howl.\n\nBut the mortals then could not have known that the lord who once defended these mountains and waters had now passed,\nAnd that all that stood between them and the onrushing deluge of catastrophe were a few vigilant yaksha who dwelled there.\nAfter several days of fierce battle, white clothes had turned scarlet, and scarlet garments had been stained black. Still, the monsters came on like an endless horde...\n\nAs this tale dates to days ancient beyond memory, the tale thereafter has branched out into many versions. Some say that just as all hung in the balance,\nAn adeptus with azure and white feathers burst from the clouds like a descending gale,\nSolitary, solemn, silent, in proud majesty and dignity did this being defend and administer the forebears,\nTurning a hopeless cause around by vanquishing what had appeared a limitless tide of monstrosities...\n\nOthers say that as things appeared most perilous, two jade-carved cranes hurtled from the skies above,\nAnd in a hail of sigils did they subjugate countless evils as a chill wind disperses an expanse of cloud.\nBut when all turned to look, Lo! There were no cranes, but an adeptus airborne, folding fan in fair hand...\n\nStill others claim that so far above mortal reach was this adeptus's might that the ancestors but heard a crane's cry,\nAnd before them, the endless monsters were as ash in an instant, like dust that dissipates in the sunlight...\n\nNo matter which version of the tale, the people of Liyue thereafter would, when speaking of the adeptus Cloud Retainer,\nWould never fail choose their words with some respect. And as for what really happened back then...\n\n\"Interested in such distant matters? You truly are a person of some leisure.\"\n\"Well, what with a similar mood being upon oneself, one shall speak of it.\"\n\"Now, one believes this tale may be naught but eight or nine hours in the telling, but you should pull a chair up, still...\"\n\"...What? Were you trying to slink away while one was distracted!?\"",
+  "baseAtkValue": 49.1377,
+  "baseStatText": "3.6%",
+  "mainStatType": "FIGHT_PROP_ATTACK_PERCENT",
+  "mainStatText": "ATK",
+  "effectName": "Cloudfall Axiom",
+  "effectTemplateRaw": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal <color=#99FFFFFF>{0}</color> increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore <color=#99FFFFFF>{1}</color> Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+  "r1": {
+    "description": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal 28% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 2.5 Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+    "values": [
+      "28%",
+      "2.5"
+    ]
+  },
+  "r2": {
+    "description": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal 41% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 2.75 Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+    "values": [
+      "41%",
+      "2.75"
+    ]
+  },
+  "r3": {
+    "description": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal 54% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 3 Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+    "values": [
+      "54%",
+      "3"
+    ]
+  },
+  "r4": {
+    "description": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal 67% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 3.25 Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+    "values": [
+      "67%",
+      "3.25"
+    ]
+  },
+  "r5": {
+    "description": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal 80% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 3.5 Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+    "values": [
+      "80%",
+      "3.5"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114017,
+        "name": "Mist Veiled Lead Elixir",
+        "count": 5
+      },
+      {
+        "id": 112095,
+        "name": "Feathery Fin",
+        "count": 5
+      },
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 5
+      },
+      {
+        "id": 112095,
+        "name": "Feathery Fin",
+        "count": 18
+      },
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 9
+      },
+      {
+        "id": 112096,
+        "name": "Lunar Fin",
+        "count": 9
+      },
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 5
+      },
+      {
+        "id": 112096,
+        "name": "Lunar Fin",
+        "count": 18
+      },
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 9
+      },
+      {
+        "id": 112097,
+        "name": "Chasmlight Fin",
+        "count": 14
+      },
+      {
+        "id": 112010,
+        "name": "Forbidden Curse Scroll",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114020,
+        "name": "Mist Veiled Primo Elixir",
+        "count": 6
+      },
+      {
+        "id": 112097,
+        "name": "Chasmlight Fin",
+        "count": 27
+      },
+      {
+        "id": 112010,
+        "name": "Forbidden Curse Scroll",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Catalyst_MountainGale",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_MountainGale_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_MountainGale",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MountainGale.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MountainGale_Awaken.png"
+  },
+  "version": "4.4",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 49.1377,
+      "specialized": 0.036
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 53.9040569,
+      "specialized": 0.036
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 58.6704138,
+      "specialized": 0.036
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 63.48590840000001,
+      "specialized": 0.036
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 68.35054070000001,
+      "specialized": 0.041831999999999994
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 73.21517300000001,
+      "specialized": 0.041831999999999994
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 78.1780807,
+      "specialized": 0.041831999999999994
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 83.1409884,
+      "specialized": 0.041831999999999994
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 88.1038961,
+      "specialized": 0.041831999999999994
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 93.1159415,
+      "specialized": 0.049067999999999994
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 98.1771246,
+      "specialized": 0.049067999999999994
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 103.2874454,
+      "specialized": 0.049067999999999994
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 108.3977662,
+      "specialized": 0.049067999999999994
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 113.508087,
+      "specialized": 0.049067999999999994
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 118.6675455,
+      "specialized": 0.056339999999999994
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 123.8761417,
+      "specialized": 0.056339999999999994
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 129.0847379,
+      "specialized": 0.056339999999999994
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 134.3424718,
+      "specialized": 0.056339999999999994
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 139.6002057,
+      "specialized": 0.056339999999999994
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 144.9070773,
+      "specialized": 0.06361199999999999
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 181.31394889999999,
+      "specialized": 0.06361199999999999
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 186.6208205,
+      "specialized": 0.06361199999999999
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 191.9768298,
+      "specialized": 0.06361199999999999
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 197.3819768,
+      "specialized": 0.06361199999999999
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 202.7379861,
+      "specialized": 0.070884
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 208.19227080000002,
+      "specialized": 0.070884
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 213.5974178,
+      "specialized": 0.070884
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 219.0517025,
+      "specialized": 0.070884
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 224.55512489999998,
+      "specialized": 0.070884
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 230.05854730000001,
+      "specialized": 0.07815599999999999
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 235.5619697,
+      "specialized": 0.07815599999999999
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 241.0653921,
+      "specialized": 0.07815599999999999
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 246.61795220000002,
+      "specialized": 0.07815599999999999
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 252.17051229999998,
+      "specialized": 0.07815599999999999
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 257.77221010000005,
+      "specialized": 0.085428
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 263.37390790000006,
+      "specialized": 0.085428
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 268.9756057,
+      "specialized": 0.085428
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 274.62644120000004,
+      "specialized": 0.085428
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 280.2772767,
+      "specialized": 0.085428
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 285.92811220000004,
+      "specialized": 0.0927
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 322.6789477,
+      "specialized": 0.0927
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 328.37892089999997,
+      "specialized": 0.0927
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 334.0788941,
+      "specialized": 0.0927
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 339.828005,
+      "specialized": 0.0927
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 345.5771159,
+      "specialized": 0.09997199999999999
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 351.32622680000003,
+      "specialized": 0.09997199999999999
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 357.07533770000003,
+      "specialized": 0.09997199999999999
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 362.82444860000004,
+      "specialized": 0.09997199999999999
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 368.6226972,
+      "specialized": 0.09997199999999999
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 374.4209458,
+      "specialized": 0.10724399999999999
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 411.4683321,
+      "specialized": 0.10724399999999999
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 417.31571840000004,
+      "specialized": 0.10724399999999999
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 423.113967,
+      "specialized": 0.10724399999999999
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 429.010491,
+      "specialized": 0.10724399999999999
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 434.85787730000004,
+      "specialized": 0.11451599999999999
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 440.75440130000004,
+      "specialized": 0.11451599999999999
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 446.65092530000004,
+      "specialized": 0.11451599999999999
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 452.54744930000004,
+      "specialized": 0.11451599999999999
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 458.44397330000004,
+      "specialized": 0.11451599999999999
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 464.389635,
+      "specialized": 0.121788
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 501.43529670000004,
+      "specialized": 0.121788
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 507.3809584,
+      "specialized": 0.121788
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 513.3266201,
+      "specialized": 0.121788
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 519.3214195,
+      "specialized": 0.121788
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 525.3162189,
+      "specialized": 0.12905999999999998
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 531.3110183,
+      "specialized": 0.12905999999999998
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 537.3058177,
+      "specialized": 0.12905999999999998
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 543.3497548,
+      "specialized": 0.12905999999999998
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 549.3445542000001,
+      "specialized": 0.12905999999999998
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 555.3884913,
+      "specialized": 0.136296
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 592.5815661,
+      "specialized": 0.136296
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 598.6255032,
+      "specialized": 0.136296
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 604.7185780000001,
+      "specialized": 0.136296
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 610.7625151,
+      "specialized": 0.136296
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 616.8555899,
+      "specialized": 0.143568
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 622.9978024000001,
+      "specialized": 0.143568
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 629.0908772,
+      "specialized": 0.143568
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 635.2330896999999,
+      "specialized": 0.143568
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 641.3753022,
+      "specialized": 0.143568
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 647.5175147,
+      "specialized": 0.15084
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 684.7597272,
+      "specialized": 0.15084
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 690.9019397,
+      "specialized": 0.15084
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 697.0932899000001,
+      "specialized": 0.15084
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 703.2846400999999,
+      "specialized": 0.15084
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 709.4759902999999,
+      "specialized": 0.158112
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 715.6673405000001,
+      "specialized": 0.158112
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 721.9078284,
+      "specialized": 0.158112
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 728.0991786,
+      "specialized": 0.158112
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 734.3396665,
+      "specialized": 0.158112
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 740.5801544000001,
+      "specialized": 0.165384
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 176.0070773,
+      "specialized": 0.06361199999999999
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 317.0281122,
+      "specialized": 0.0927
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 405.6209458000001,
+      "specialized": 0.10724399999999999
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 495.489635,
+      "specialized": 0.121788
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 586.4884913000001,
+      "specialized": 0.136296
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 678.6175146999999,
+      "specialized": 0.15084
+    }
+  }
+}

@@ -1,0 +1,766 @@
+{
+  "id": 11430,
+  "name": "Sturdy Bone",
+  "description": "A longsword made of bone that has only grown harder after being hit and swung countless times. It is said that this was the hero Wanjiru's reliable weapon.",
+  "descriptionRaw": "A longsword made of bone that has only grown harder after being hit and swung countless times. It is said that this was the hero Wanjiru's reliable weapon.",
+  "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "weaponText": "Sword",
+  "rarity": 4,
+  "story": "Just as the sea beasts within the deep currents and massive waves follow the sounds of water to their resting place,\nSo too did the great dragon that once ruled the land of flame have a tomb to amass its legacy.\nThere, spindly spider-leg ridges of bleached bones grasp at the sky like giant claws.\nThe secret machines that guard the night and borders of death were ordered to patrol there around the clock.\n\nThat is a dangerous place to any and all, and even the most agile of couriers would not willingly go prying.\nMoreover, why disturb powerful foes who carefully counting down their last days on their claws?\nSitting around the tribe's bonfire, Wanjiru suddenly leapt for joy upon hearing the tales of this place.\nFor there were no longer any foes in the world more terrifying than them, and Wanjiru, who already possessed wondrous strength,\nCould surely obtain what she desired more than anything else at that time from their remains.\n\nO Wondrous Wanjiru, with whose single swing ironwood that had endured a hundred years would shatter asunder,\nAnd in whose palm raw ore would be crushed to powder, and before whose arm all boulders that bar her path must bend,\nNot to mention how objects made of the toughest metal were as malleable as misshapen mud in her fingers...\nWhere should she find a reliable weapon? After pondering it day and night, Wanjiru finally had the answer.\n\nShe leaped into the volcano from Tollan's peak, avoiding the creations that slithered like serpents and entering the ruins that had lain desolate for ages.\nAs she followed the traces left behind by the heroes who once fought a vicious battle against the great dragon, the great gashes left in the mountainside by their struggle,\nIf only she had been born in those times, she thought! Then, she would be just like those ancestors who had left legends behind.\nHow she envied those ancestors who had had the chance to pit their skills against the mighty, robust dragon, and to test their martial might against the primordial spirits.\n\nBut that jagged boneyard of which the tribe's storytellers had made a point of stressing its deadly seriousness,\nWas nothing more than the lonely corpses of a few giant beasts who had met gruesome ends.\nJust as disappointment was setting in, the young girl with hand outstretched suddenly saw in a trance a huge shadow with wings outstretched, throwing itself towards her.\nWith no time to consider just what that figure was, with a great laugh, she fought the golden shadow.\nThere is no need to dwell overmuch on the details of that desperate battle. It was an eye for an eye, a tooth for a tooth, a battle of raw blows as they fought for their lives,\nFinally, the one who ended the battle was the brave warrior, tearing off the dragon's shattered wing with her two bloody hands.\nAnd that golden shadow disappeared with a wailing cry, as though it were a creation once real.\n\nAs she came to her senses, her hand was still extended, as though it had all been but a fleeting fragment of a dream.\nBut had it really been a dream? The arm that she had shattered in the dream still ached dully, and in her outstretched palm,\nA heavy dragon bone had appeared, as if out of nowhere, and it was the spitting image of the tail of the giant beast she had caught in battle.\n\nWhen she told her friends who loved to tell stories about this, the nose of that High Priest of the Masters of the Night-Wind scrunched and wrinkled,\n\"The Great Volcano of Tollan is forbidden ground, and ordinary people cannot even enter! Moreover, you were still so young then.\"\nAnd the man holding the ceremonial blade said, \"Also, are you serious? We've never even seen you draw that blade.\"\n\"Of course I'm serious! I just don't use it because I usually don't need to, my hands are more than enough.\"\nBeside the campfire, on the eve of battle, she could already see the great black beast's silhouette on the shore, Wanjiru said,\nAnd she gripped the hilt of that bleached bone blade, silently waiting for the battlefield where she would draw it once more.",
+  "baseAtkValue": 43.7349,
+  "baseStatText": "6%",
+  "mainStatType": "FIGHT_PROP_ATTACK_PERCENT",
+  "mainStatText": "ATK",
+  "effectName": "Trapper's Pride",
+  "effectTemplateRaw": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by <color=#99FFFFFF>{0}</color> of ATK. This effect expires after triggering 18 times or 7s.",
+  "r1": {
+    "description": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by 16% of ATK. This effect expires after triggering 18 times or 7s.",
+    "values": [
+      "16%"
+    ]
+  },
+  "r2": {
+    "description": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by 20% of ATK. This effect expires after triggering 18 times or 7s.",
+    "values": [
+      "20%"
+    ]
+  },
+  "r3": {
+    "description": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by 24% of ATK. This effect expires after triggering 18 times or 7s.",
+    "values": [
+      "24%"
+    ]
+  },
+  "r4": {
+    "description": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by 28% of ATK. This effect expires after triggering 18 times or 7s.",
+    "values": [
+      "28%"
+    ]
+  },
+  "r5": {
+    "description": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by 32% of ATK. This effect expires after triggering 18 times or 7s.",
+    "values": [
+      "32%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114061,
+        "name": "Blazing Sacrificial Heart's Terror",
+        "count": 3
+      },
+      {
+        "id": 112107,
+        "name": "Shard of a Shattered Will",
+        "count": 3
+      },
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114062,
+        "name": "Blazing Sacrificial Heart's Hesitance",
+        "count": 3
+      },
+      {
+        "id": 112107,
+        "name": "Shard of a Shattered Will",
+        "count": 12
+      },
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114062,
+        "name": "Blazing Sacrificial Heart's Hesitance",
+        "count": 6
+      },
+      {
+        "id": 112108,
+        "name": "Locus of a Clear Will",
+        "count": 6
+      },
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114063,
+        "name": "Blazing Sacrificial Heart's Resolve",
+        "count": 3
+      },
+      {
+        "id": 112108,
+        "name": "Locus of a Clear Will",
+        "count": 12
+      },
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114063,
+        "name": "Blazing Sacrificial Heart's Resolve",
+        "count": 6
+      },
+      {
+        "id": 112109,
+        "name": "Sigil of a Striding Will",
+        "count": 9
+      },
+      {
+        "id": 112106,
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114064,
+        "name": "Blazing Sacrificial Heart's Splendor",
+        "count": 4
+      },
+      {
+        "id": 112109,
+        "name": "Sigil of a Striding Will",
+        "count": 18
+      },
+      {
+        "id": 112106,
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "count": 12
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Sword_Umpakati",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Umpakati_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Umpakati",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Umpakati.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Umpakati_Awaken.png"
+  },
+  "version": "5.1",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 43.7349,
+      "specialized": 0.06
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 47.58357120000001,
+      "specialized": 0.06
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 51.4322424,
+      "specialized": 0.06
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 55.280913600000005,
+      "specialized": 0.06
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 59.1733197,
+      "specialized": 0.06971999999999999
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 63.0657258,
+      "specialized": 0.06971999999999999
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 66.9581319,
+      "specialized": 0.06971999999999999
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 70.8942729,
+      "specialized": 0.06971999999999999
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 74.786679,
+      "specialized": 0.06971999999999999
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 78.72282000000001,
+      "specialized": 0.08177999999999999
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 82.70269590000001,
+      "specialized": 0.08177999999999999
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 86.63883690000002,
+      "specialized": 0.08177999999999999
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 90.61871280000001,
+      "specialized": 0.08177999999999999
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 94.5548538,
+      "specialized": 0.08177999999999999
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 98.53472970000001,
+      "specialized": 0.0939
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 102.55834050000001,
+      "specialized": 0.0939
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 106.53821640000001,
+      "specialized": 0.0939
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 110.51809230000002,
+      "specialized": 0.0939
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 114.54170310000002,
+      "specialized": 0.0939
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 118.5653139,
+      "specialized": 0.10601999999999999
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 148.4889247,
+      "specialized": 0.10601999999999999
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 152.5125355,
+      "specialized": 0.10601999999999999
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 156.5361463,
+      "specialized": 0.10601999999999999
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 160.60349200000002,
+      "specialized": 0.10601999999999999
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 164.62710280000002,
+      "specialized": 0.11814
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 168.69444850000002,
+      "specialized": 0.11814
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 172.76179420000003,
+      "specialized": 0.11814
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 176.82913990000003,
+      "specialized": 0.11814
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 180.8964856,
+      "specialized": 0.11814
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 184.9638313,
+      "specialized": 0.13026
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 189.07491190000002,
+      "specialized": 0.13026
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 193.14225760000002,
+      "specialized": 0.13026
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 197.25333820000003,
+      "specialized": 0.13026
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 201.32068390000003,
+      "specialized": 0.13026
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 205.43176450000004,
+      "specialized": 0.14238
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 209.54284510000002,
+      "specialized": 0.14238
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 213.65392570000003,
+      "specialized": 0.14238
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 217.7650063,
+      "specialized": 0.14238
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 221.87608690000002,
+      "specialized": 0.14238
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 225.98716750000003,
+      "specialized": 0.1545
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 256.0982481,
+      "specialized": 0.1545
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 260.2093287,
+      "specialized": 0.1545
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 264.3641442,
+      "specialized": 0.1545
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 268.4752248,
+      "specialized": 0.1545
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 272.6300403,
+      "specialized": 0.16662
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 276.7848558,
+      "specialized": 0.16662
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 280.8959364,
+      "specialized": 0.16662
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 285.0507519,
+      "specialized": 0.16662
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 289.2055674,
+      "specialized": 0.16662
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 293.3603829,
+      "specialized": 0.17874
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 323.4151984,
+      "specialized": 0.17874
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 327.57001390000005,
+      "specialized": 0.17874
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 331.72482940000003,
+      "specialized": 0.17874
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 335.8796449,
+      "specialized": 0.17874
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 340.03446040000006,
+      "specialized": 0.19086
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 344.2330108,
+      "specialized": 0.19086
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 348.38782630000003,
+      "specialized": 0.19086
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 352.5426418,
+      "specialized": 0.19086
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 356.74119220000006,
+      "specialized": 0.19086
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 360.89600770000004,
+      "specialized": 0.20298
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 390.9945581,
+      "specialized": 0.20298
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 395.1493736,
+      "specialized": 0.20298
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 399.347924,
+      "specialized": 0.20298
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 403.5464744,
+      "specialized": 0.20298
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 407.7012899,
+      "specialized": 0.21509999999999999
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 411.8998403,
+      "specialized": 0.21509999999999999
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 416.0983907,
+      "specialized": 0.21509999999999999
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 420.2969411,
+      "specialized": 0.21509999999999999
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 424.4954915,
+      "specialized": 0.21509999999999999
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 428.6940419,
+      "specialized": 0.22716
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 458.89259230000005,
+      "specialized": 0.22716
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 463.09114270000003,
+      "specialized": 0.22716
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 467.2896931,
+      "specialized": 0.22716
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 471.4882435,
+      "specialized": 0.22716
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 475.6867939,
+      "specialized": 0.23928
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 479.8853443,
+      "specialized": 0.23928
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 484.08389470000003,
+      "specialized": 0.23928
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 488.2824451,
+      "specialized": 0.23928
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 492.5247304,
+      "specialized": 0.23928
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 496.7232808,
+      "specialized": 0.2514
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 526.8218312,
+      "specialized": 0.2514
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 531.0641165000001,
+      "specialized": 0.2514
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 535.2626669,
+      "specialized": 0.2514
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 539.4612173,
+      "specialized": 0.2514
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 543.7035026000001,
+      "specialized": 0.26352000000000003
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 547.902053,
+      "specialized": 0.26352000000000003
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 552.1443383000001,
+      "specialized": 0.26352000000000003
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 556.3428887,
+      "specialized": 0.26352000000000003
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 560.585174,
+      "specialized": 0.26352000000000003
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 564.7837244,
+      "specialized": 0.27564
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 144.4653139,
+      "specialized": 0.10601999999999999
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.1545
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.17874
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.20298
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.22716
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.2514
+    }
+  }
+}

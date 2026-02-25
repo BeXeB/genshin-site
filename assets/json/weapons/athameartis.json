@@ -1,0 +1,776 @@
+{
+  "id": 11518,
+  "name": "Athame Artis",
+  "description": "A precious sword gifted by the Day King to the brave hero in the little witch's story, only for the witch to take it and defeat the hero herself.",
+  "descriptionRaw": "A precious sword gifted by the Day King to the brave hero in the little witch's story, only for the witch to take it and defeat the hero herself.",
+  "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "weaponText": "Sword",
+  "rarity": 5,
+  "story": "By the time the little witch arrived at the Day King's palace, twilight had already taken hold.\nHad she come any later, the kingdom would have already passed beyond the Day King's rule.\nBefore the night curtain descended, the Day King received her in what remained of his fleeting hours.\n\n\"O witch who has traversed the vast cosmos, kindler of time's eternal flame... what brings you to this lonely planet?\"\n\"I did not come of my own accord. It was the planet's cry that found me through the void. Answering its call, I crossed the gate of stars forgotten by time.\"\n\"In a universe nearing its quiet end, every world that yet glimmers is a treasure beyond compare...\"\n\"Who would have thought that in a region long considered dark and inhospitable, a living world would still endure?\"\n\nBut this was not the whole story. In truth, the little witch had caught wind of whispers from this dark expanse — whispers that had flown to her on the eve of the Night Carnival.\nUnder ordinary circumstances, she would likely have dismissed such strange signals as just another error from the scryglass.\nBut as the message reached her, she was fretting over the next day's festivities, desperately trying to find a way to avoid her nemesis, who would also be there.\nSo she seized the opportunity to hide away in her workshop — spending considerable effort deciphering this distant missive.\n\"Hmm... So this peculiar message means that some unknown planet has been feeling unwell?\"\n\n\"No matter what, the righteous Kingdom of Day would never do anything to harm the planet,\" the Day King said solemnly.\n\"Perhaps you should ask the wicked Night King. This very morning I sent my army to vanquish him, alas...\"\nBut before he could finish, the last rays of the setting sun vanished into night, and the king's apparition melted away like cream.\nWith the curtain of darkness descending, the court itself vanished too. The ground boiled like a raging sea, and black smoke rose from the earth.\nThe entire planet became a vast black ocean. Fortunately, the little witch had remembered her broom — otherwise, she may well have plunged into the water.\nRiding her broom beneath the blood-red moon, she traveled far before finally spying a lonely castle, glowing with firelight.\n\n\"Vanquish the Night King? That's the easy part. What we have to do is far more important.\"\nThe castle seemed to have been built by the Day King's army. For unknown reasons, it had escaped dissolution by the sea of mist.\nThe leading warrior, carrying a sword on his back, was not at all surprised by the little witch's arrival. Instead, he met her with an invitation.\n\"Even if we defeat the Night King, it changes nothing. As soon as the sun sets anew, the dark tides will swallow the land once more.\"\n\"To break this endless cycle, we built this castle. From here, we can search for a solution.\"\n\nAt his invitation, the little witch descended to the deepest level of the castle, where — beyond its fragile boundaries — stretched a sea of pure darkness.\nSustaining this boundary was a massive mechanism that spat out an endless stream of smoke. Countless pipes were continuously drawing thick seawater into its core.\n\"This is the perpetual motion machine, or you may call it the Holy Grail. By burning the seawater, it generates light and heat.\"\n\"Since all tangible things on this planet are merely shadows cast by light, so long as we can create a fire that never goes out...\"\n\"But doing this will only make the planet burn out even faster...\" the little witch sighed.\n\"Once the sea's been drained, this place will be finished. There's nothing 'holy' about this so-called grail...\"\n\"Now I know why the planet's been feeling unwell.\"\n\nBefore the warrior could react, the little witch drew the sword from his back and hurled it into the \"perpetual motion machine.\"\nThe warrior reached out to retrieve it, but the moment the blade touched the black sea mist, both he and the fading light vanished into nothingness.\nThe entire planet was once again swallowed by darkness. When daylight finally returned, it was as if everything from the previous night had been nothing more than a deep and distant dream.\n\n\"I suppose that's a temporary fix, at least,\" the little witch murmured, glancing back one last time before leaving the planet on her broom.\nIn the morning light, the warrior — his shadow trailing long behind him — took up the sword bestowed by the Day King and set out on his journey once more.\n\"This cycle may go on for a long, long time... until the day you too become nothing but an empty shell.\"\n\"But no matter what, you must keep going. At least... you must live until we meet again.\"",
+  "baseAtkValue": 45.9364,
+  "baseStatText": "7.2%",
+  "mainStatType": "FIGHT_PROP_CRITICAL",
+  "mainStatText": "CRIT Rate",
+  "effectName": "Day King's Splendor Solis",
+  "effectTemplateRaw": "CRIT DMG from Elemental Bursts is increased by <color=#99FFFFFF>{0}</color>. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by <color=#99FFFFFF>{1}</color>. Nearby active party members other than the equipping character have their ATK increased by <color=#99FFFFFF>{2}</color> for 3s.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field.",
+  "r1": {
+    "description": "CRIT DMG from Elemental Bursts is increased by 16%. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by 20%. Nearby active party members other than the equipping character have their ATK increased by 16% for 3s.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field.",
+    "values": [
+      "16%",
+      "20%",
+      "16%"
+    ]
+  },
+  "r2": {
+    "description": "CRIT DMG from Elemental Bursts is increased by 20%. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by 25%. Nearby active party members other than the equipping character have their ATK increased by 20% for 3s.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field.",
+    "values": [
+      "20%",
+      "25%",
+      "20%"
+    ]
+  },
+  "r3": {
+    "description": "CRIT DMG from Elemental Bursts is increased by 24%. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by 30%. Nearby active party members other than the equipping character have their ATK increased by 24% for 3s.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field.",
+    "values": [
+      "24%",
+      "30%",
+      "24%"
+    ]
+  },
+  "r4": {
+    "description": "CRIT DMG from Elemental Bursts is increased by 28%. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by 35%. Nearby active party members other than the equipping character have their ATK increased by 28% for 3s.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field.",
+    "values": [
+      "28%",
+      "35%",
+      "28%"
+    ]
+  },
+  "r5": {
+    "description": "CRIT DMG from Elemental Bursts is increased by 32%. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by 40%. Nearby active party members other than the equipping character have their ATK increased by 32% for 3s.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field.",
+    "values": [
+      "32%",
+      "40%",
+      "32%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 5
+      },
+      {
+        "id": 112128,
+        "name": "Frostnight's Glimmer",
+        "count": 5
+      },
+      {
+        "id": 112122,
+        "name": "Broken Drive Shaft",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 5
+      },
+      {
+        "id": 112128,
+        "name": "Frostnight's Glimmer",
+        "count": 18
+      },
+      {
+        "id": 112122,
+        "name": "Broken Drive Shaft",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 9
+      },
+      {
+        "id": 112129,
+        "name": "Frostnight's Glow",
+        "count": 9
+      },
+      {
+        "id": 112123,
+        "name": "Reinforced Drive Shaft",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 5
+      },
+      {
+        "id": 112129,
+        "name": "Frostnight's Glow",
+        "count": 18
+      },
+      {
+        "id": 112123,
+        "name": "Reinforced Drive Shaft",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 9
+      },
+      {
+        "id": 112130,
+        "name": "Frostnight's Glory",
+        "count": 14
+      },
+      {
+        "id": 112124,
+        "name": "Precision Drive Shaft",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114004,
+        "name": "Scattered Piece of Decarabian's Dream",
+        "count": 6
+      },
+      {
+        "id": 112130,
+        "name": "Frostnight's Glory",
+        "count": 27
+      },
+      {
+        "id": 112124,
+        "name": "Precision Drive Shaft",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Sword_Motsognir",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Motsognir_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Motsognir",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Motsognir.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Motsognir_Awaken.png"
+  },
+  "version": "6.2",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 45.9364,
+      "specialized": 0.072
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 49.886930400000004,
+      "specialized": 0.072
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 53.7915244,
+      "specialized": 0.072
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 57.74205479999999,
+      "specialized": 0.072
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 61.692585199999996,
+      "specialized": 0.08366399999999999
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 65.6431156,
+      "specialized": 0.08366399999999999
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 69.6395824,
+      "specialized": 0.08366399999999999
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 73.5901128,
+      "specialized": 0.08366399999999999
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 77.58657960000001,
+      "specialized": 0.08366399999999999
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 81.53711,
+      "specialized": 0.09813599999999999
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 85.5335768,
+      "specialized": 0.09813599999999999
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 89.5300436,
+      "specialized": 0.09813599999999999
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 93.5265104,
+      "specialized": 0.09813599999999999
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 97.5689136,
+      "specialized": 0.09813599999999999
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 101.5653804,
+      "specialized": 0.11267999999999999
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 105.60778359999999,
+      "specialized": 0.11267999999999999
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 109.6042504,
+      "specialized": 0.11267999999999999
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 113.64665360000001,
+      "specialized": 0.11267999999999999
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 117.68905679999999,
+      "specialized": 0.11267999999999999
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 121.73146,
+      "specialized": 0.12722399999999998
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 156.8738632,
+      "specialized": 0.12722399999999998
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 160.9622028,
+      "specialized": 0.12722399999999998
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 165.004606,
+      "specialized": 0.12722399999999998
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 169.09294559999998,
+      "specialized": 0.12722399999999998
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 173.1812852,
+      "specialized": 0.141768
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 177.2696248,
+      "specialized": 0.141768
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 181.3579644,
+      "specialized": 0.141768
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 185.446304,
+      "specialized": 0.141768
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 189.58058,
+      "specialized": 0.141768
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 193.6689196,
+      "specialized": 0.15631199999999998
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 197.80319559999998,
+      "specialized": 0.15631199999999998
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 201.93747159999998,
+      "specialized": 0.15631199999999998
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 206.0717476,
+      "specialized": 0.15631199999999998
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 210.20602359999998,
+      "specialized": 0.15631199999999998
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 214.34029959999998,
+      "specialized": 0.170856
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 218.520512,
+      "specialized": 0.170856
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 222.654788,
+      "specialized": 0.170856
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 226.83500039999998,
+      "specialized": 0.170856
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 231.0152128,
+      "specialized": 0.170856
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 235.19542519999996,
+      "specialized": 0.1854
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 270.47563759999997,
+      "specialized": 0.1854
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 274.65585,
+      "specialized": 0.1854
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 278.88199879999996,
+      "specialized": 0.1854
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 283.0622112,
+      "specialized": 0.1854
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 287.28836,
+      "specialized": 0.19994399999999998
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 291.5145088,
+      "specialized": 0.19994399999999998
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 295.74065759999996,
+      "specialized": 0.19994399999999998
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 299.9668064,
+      "specialized": 0.19994399999999998
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 304.1929552,
+      "specialized": 0.19994399999999998
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 308.419104,
+      "specialized": 0.21448799999999998
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 343.8911892,
+      "specialized": 0.21448799999999998
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 348.1632744,
+      "specialized": 0.21448799999999998
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 352.3894232,
+      "specialized": 0.21448799999999998
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 356.6615084,
+      "specialized": 0.21448799999999998
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 360.97952999999995,
+      "specialized": 0.22903199999999999
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 365.25161520000006,
+      "specialized": 0.22903199999999999
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 369.52370040000005,
+      "specialized": 0.22903199999999999
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 373.841722,
+      "specialized": 0.22903199999999999
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 378.1138072,
+      "specialized": 0.22903199999999999
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 382.43182879999995,
+      "specialized": 0.243576
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 417.8498504,
+      "specialized": 0.243576
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 422.167872,
+      "specialized": 0.243576
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 426.53183,
+      "specialized": 0.243576
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 430.84985159999997,
+      "specialized": 0.243576
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 435.1678732,
+      "specialized": 0.25811999999999996
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 439.5318312,
+      "specialized": 0.25811999999999996
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 443.8957892,
+      "specialized": 0.25811999999999996
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 448.2597472,
+      "specialized": 0.25811999999999996
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 452.62370519999996,
+      "specialized": 0.25811999999999996
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 456.9876632,
+      "specialized": 0.272592
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 492.49755759999994,
+      "specialized": 0.272592
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 496.86151559999996,
+      "specialized": 0.272592
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 501.27141000000006,
+      "specialized": 0.272592
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 505.68130440000004,
+      "specialized": 0.272592
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 510.0911987999999,
+      "specialized": 0.287136
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 514.5010932,
+      "specialized": 0.287136
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 518.9109876,
+      "specialized": 0.287136
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 523.320882,
+      "specialized": 0.287136
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 527.7767128,
+      "specialized": 0.287136
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 532.2325436,
+      "specialized": 0.30168
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 567.742438,
+      "specialized": 0.30168
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 572.1982687999999,
+      "specialized": 0.30168
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 576.6540996,
+      "specialized": 0.30168
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 581.1558668,
+      "specialized": 0.30168
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 585.6116976,
+      "specialized": 0.316224
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 590.1134648,
+      "specialized": 0.316224
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 594.5692956,
+      "specialized": 0.316224
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 599.0710627999999,
+      "specialized": 0.316224
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 603.57283,
+      "specialized": 0.316224
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 608.0745972,
+      "specialized": 0.330768
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 152.83146,
+      "specialized": 0.12722399999999998
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 266.29542519999995,
+      "specialized": 0.1854
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 339.619104,
+      "specialized": 0.21448799999999998
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 413.53182879999997,
+      "specialized": 0.243576
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 488.08766319999995,
+      "specialized": 0.272592
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 563.3325436,
+      "specialized": 0.30168
+    }
+  }
+}

@@ -1,0 +1,771 @@
+{
+  "id": 12512,
+  "name": "Verdict",
+  "description": "A weapon once used by a young maiden who forsook her family name, stained with the blood of enemies and loved ones both.",
+  "descriptionRaw": "A weapon once used by a young maiden who forsook her family name, stained with the blood of enemies and loved ones both.",
+  "weaponType": "WEAPON_CLAYMORE",
+  "weaponText": "Claymore",
+  "rarity": 5,
+  "story": "\"Listen well, dear Leticia. Remember that you are the eldest daughter of House Randolph.\"\n\"Understand that when we nobles sit down, we tilt the ship of state.\"\n\"And when we fall, we take countless homes and common folk with us in our crashing ruin.\"\n\"So listen well, dear Leticia.\"\n\"You must maintain your noble bearing and purity of appearance. Do not be quick to show anger, sadness, or joy.\"\n\"For our family name can grant a commoner prosperity, or send them to the Fleuve Cendre.\"\n\nBut though her father spoke thus, a young lady was still a young lady before she was a noble.\nWhen one's hands are unfettered by soot or machine oil, one's heart will hanker after \"adventure.\"\nBehind her father, brother, and servants' backs, she would don a disguise and step into the subterranean city that knew neither sun nor rain.\nShe just wanted to see the lives of those base folk who had no control over their destinies.\nPerhaps this might even be more interesting than Parsifal's magic! Such was the young lady's secret excitement.\nBut adventure was quite different from what she anticipated. For it was a thing unarranged by others,\nAnd so became a tale she could not tell to her peers or her aristocratic friends during their reunions.\nAnd when perils unseen — like music, lies, or poisoned wine — were about to be unsheathed and show their keen edge...\n\n\"Oh my. Whose daughter might you be, gentle lady, and what brings you to our Fleuve Cendre?\"\nIt was a gentle, familiar light that cast the appalling, encroaching shadows aside.\n\"You're...\"\nHis name was right on the tip of her tongue, but what slipped out instead was a question as to how her disguise had been discovered.\n\"Well, you're a terrible liar, for one. You've as much as admitted to being an outsider now, haven't you?\"\n\"...And my dear lady, your clothes lack either soot or machine oil, nor have they ever been stained by blood...\"\n\"And also, from the way you walk, you don't wear pants very often.\"\n\nWhen asked why Reed, whom she knew, could walk freely in the Fleuve Cendre, the young man said:\n\"I do hope that you agree that your good father, brother, and house-servants need not know what goes on here.\"\n\"Like the Boss says, 'Let all that the sun shines upon belong to them, and let the Fleuve Cendre belong to us.'\"\n\"Dear Leticia, please forget, at least for a time, that you are the eldest daughter of House Randolph,\"\n\"And come with me, as but a mere person, and with your bright eyes, that have never been covered in dust,\"\n\"See the world where your compatriots live, who, just like you, have red blood flowing in their veins, passions, and loves.\"\nStill, this was quite a different adventure from what she had expected, and, as fate would have it,\nShe would experience much that she could not tell her aristocratic friends and peers, or her servants, when they would meet and chat and laugh...\n\n\"Leticia, your noble soul is one I adore.\"\n\"No longer will our axes be swung at the trees.\"\n\"And if one day, I should be lost to the glories of this world,\"\n\"By your hand shall my fate be reckoned...\"\n\n...\nWhen she met her father once more, years later, she had already taken on the name of the rose,\nAnd she was no longer used to the fancy dresses once foisted on her, but was far more accustomed to the weight of an axe in her hand.\nYet she could not get used to the now fragile, hoary appearance of the dignified, gentle father she remembered.\n\n\"Dearest father, I have made a pact with my beloved, an oath to those I love.\"\n\"That I am still alive means that our blood is not yet spent.\"\n\"And I have yet to allow the Randolph name to be indelibly stained on my account.\"\n\n\"My dearest Leticia. Not a day goes by when I do not light a candle for you.\"\n\"Even now, though you wish to forsake our family name, we are still father and daughter.\"\n\"These trivial games have ended. Please, return home.\"\n\"Your child is innocent, and I will not abandon your flesh and blood for some fatuity.\"\n\"And as for your husband, well, there is some Randolph magic that can be worked there...\"\n\n...\nBut in dreams, she finally remembered. \"At that time, the pounding barrage of the naval cannons had not shaken us.\"\n\"No outsiders should have known the secret paths by which the hunters infiltrated.\"",
+  "baseAtkValue": 47.537,
+  "baseStatText": "4.8%",
+  "mainStatType": "FIGHT_PROP_CRITICAL",
+  "mainStatText": "CRIT Rate",
+  "effectName": "Many Oaths of Dawn and Dusk",
+  "effectTemplateRaw": "Increases ATK by <color=#99FFFFFF>{0}</color>. When party members obtain Elemental Shards from Crystallize or trigger Lunar-Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by <color=#99FFFFFF>{1}</color>. The Seal lasts for 15s, and the equipper may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG. Up to 1 Seal may be obtained every second through the Lunar-Crystallize reaction.",
+  "r1": {
+    "description": "Increases ATK by 20%. When party members obtain Elemental Shards from Crystallize or trigger Lunar-Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 18%. The Seal lasts for 15s, and the equipper may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG. Up to 1 Seal may be obtained every second through the Lunar-Crystallize reaction.",
+    "values": [
+      "20%",
+      "18%"
+    ]
+  },
+  "r2": {
+    "description": "Increases ATK by 25%. When party members obtain Elemental Shards from Crystallize or Lunar-Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 22.5%. The Seal lasts for 15s, and the equipper may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG. Up to 1 Seal may be obtained every second through the Lunar-Crystallize reaction.",
+    "values": [
+      "25%",
+      "22.5%"
+    ]
+  },
+  "r3": {
+    "description": "Increases ATK by 30%. When party members obtain Elemental Shards from Crystallize or trigger Lunar-Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 27%. The Seal lasts for 15s, and the equipper may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG. Up to 1 Seal may be obtained every second through the Lunar-Crystallize reaction.",
+    "values": [
+      "30%",
+      "27%"
+    ]
+  },
+  "r4": {
+    "description": "Increases ATK by 35%. When party members obtain Elemental Shards from Crystallize or Lunar-Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 31.5%. The Seal lasts for 15s, and the equipper may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG. Up to 1 Seal may be obtained every second through the Lunar-Crystallize reaction.",
+    "values": [
+      "35%",
+      "31.5%"
+    ]
+  },
+  "r5": {
+    "description": "Increases ATK by 40%. When party members obtain Elemental Shards from Crystallize or trigger Lunar-Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 36%. The Seal lasts for 15s, and the equipper may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG. Up to 1 Seal may be obtained every second through the Lunar-Crystallize reaction.",
+    "values": [
+      "40%",
+      "36%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114049,
+        "name": "Fragment of an Ancient Chord",
+        "count": 5
+      },
+      {
+        "id": 112089,
+        "name": "Rift Core",
+        "count": 5
+      },
+      {
+        "id": 112083,
+        "name": "Meshing Gear",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114050,
+        "name": "Chapter of an Ancient Chord",
+        "count": 5
+      },
+      {
+        "id": 112089,
+        "name": "Rift Core",
+        "count": 18
+      },
+      {
+        "id": 112083,
+        "name": "Meshing Gear",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114050,
+        "name": "Chapter of an Ancient Chord",
+        "count": 9
+      },
+      {
+        "id": 112090,
+        "name": "Foreign Synapse",
+        "count": 9
+      },
+      {
+        "id": 112084,
+        "name": "Mechanical Spur Gear",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114051,
+        "name": "Movement of an Ancient Chord",
+        "count": 5
+      },
+      {
+        "id": 112090,
+        "name": "Foreign Synapse",
+        "count": 18
+      },
+      {
+        "id": 112084,
+        "name": "Mechanical Spur Gear",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114051,
+        "name": "Movement of an Ancient Chord",
+        "count": 9
+      },
+      {
+        "id": 112091,
+        "name": "Alien Life Core",
+        "count": 14
+      },
+      {
+        "id": 112085,
+        "name": "Artificed Dynamic Gear",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114052,
+        "name": "Echo of an Ancient Chord",
+        "count": 6
+      },
+      {
+        "id": 112091,
+        "name": "Alien Life Core",
+        "count": 27
+      },
+      {
+        "id": 112085,
+        "name": "Artificed Dynamic Gear",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Claymore_GoldenVerdict",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_GoldenVerdict_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_GoldenVerdict",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_GoldenVerdict.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_GoldenVerdict_Awaken.png"
+  },
+  "version": "4.3",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 47.537,
+      "specialized": 0.048
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 51.862866999999994,
+      "specialized": 0.048
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 56.236271,
+      "specialized": 0.048
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 60.609674999999996,
+      "specialized": 0.048
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 65.03061600000001,
+      "specialized": 0.055776
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 69.45155700000001,
+      "specialized": 0.055776
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 73.87249800000001,
+      "specialized": 0.055776
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 78.340976,
+      "specialized": 0.055776
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 82.85699100000001,
+      "specialized": 0.055776
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 87.325469,
+      "specialized": 0.065424
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 91.889021,
+      "specialized": 0.065424
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 96.405036,
+      "specialized": 0.065424
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 100.968588,
+      "specialized": 0.065424
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 105.53214000000001,
+      "specialized": 0.065424
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 110.143229,
+      "specialized": 0.07511999999999999
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 114.754318,
+      "specialized": 0.07511999999999999
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 119.365407,
+      "specialized": 0.07511999999999999
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 123.976496,
+      "specialized": 0.07511999999999999
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 128.635122,
+      "specialized": 0.07511999999999999
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 133.293748,
+      "specialized": 0.084816
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 169.099911,
+      "specialized": 0.084816
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 173.80607399999997,
+      "specialized": 0.084816
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 178.512237,
+      "specialized": 0.084816
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 183.2184,
+      "specialized": 0.084816
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 187.97209999999998,
+      "specialized": 0.09451200000000001
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 192.7258,
+      "specialized": 0.09451200000000001
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 197.4795,
+      "specialized": 0.09451200000000001
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 202.280737,
+      "specialized": 0.09451200000000001
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 207.034437,
+      "specialized": 0.09451200000000001
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 211.883211,
+      "specialized": 0.104208
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 216.68444799999997,
+      "specialized": 0.104208
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 221.485685,
+      "specialized": 0.104208
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 226.334459,
+      "specialized": 0.104208
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 231.18323299999997,
+      "specialized": 0.104208
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 236.079544,
+      "specialized": 0.11390400000000002
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 240.92831799999996,
+      "specialized": 0.11390400000000002
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 245.82462900000002,
+      "specialized": 0.11390400000000002
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 250.72093999999998,
+      "specialized": 0.11390400000000002
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 255.61725099999998,
+      "specialized": 0.11390400000000002
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 260.561099,
+      "specialized": 0.12360000000000002
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 296.604947,
+      "specialized": 0.12360000000000002
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 301.548795,
+      "specialized": 0.12360000000000002
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 306.492643,
+      "specialized": 0.12360000000000002
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 311.436491,
+      "specialized": 0.12360000000000002
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 316.42787599999997,
+      "specialized": 0.133296
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 321.419261,
+      "specialized": 0.133296
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 326.410646,
+      "specialized": 0.133296
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 331.402031,
+      "specialized": 0.133296
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 336.39341599999995,
+      "specialized": 0.133296
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 341.43233799999996,
+      "specialized": 0.142992
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 377.6712600000001,
+      "specialized": 0.142992
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 382.71018200000003,
+      "specialized": 0.142992
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 387.749104,
+      "specialized": 0.142992
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 392.835563,
+      "specialized": 0.142992
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 397.92202199999997,
+      "specialized": 0.15268800000000002
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 403.00848099999996,
+      "specialized": 0.15268800000000002
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 408.09493999999995,
+      "specialized": 0.15268800000000002
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 413.18139900000006,
+      "specialized": 0.15268800000000002
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 418.31539499999997,
+      "specialized": 0.15268800000000002
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 423.40185399999996,
+      "specialized": 0.162384
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 459.63585,
+      "specialized": 0.162384
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 464.76984600000003,
+      "specialized": 0.162384
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 469.95137900000003,
+      "specialized": 0.162384
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 475.085375,
+      "specialized": 0.162384
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 480.266908,
+      "specialized": 0.17208
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 485.40090399999997,
+      "specialized": 0.17208
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 490.58243699999997,
+      "specialized": 0.17208
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 495.811507,
+      "specialized": 0.17208
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 500.99304,
+      "specialized": 0.17208
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 506.22211,
+      "specialized": 0.181728
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 542.503643,
+      "specialized": 0.181728
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 547.732713,
+      "specialized": 0.181728
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 552.961783,
+      "specialized": 0.181728
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 558.23839,
+      "specialized": 0.181728
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 563.46746,
+      "specialized": 0.191424
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 568.744067,
+      "specialized": 0.191424
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 574.020674,
+      "specialized": 0.191424
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 579.297281,
+      "specialized": 0.191424
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 584.5738879999999,
+      "specialized": 0.191424
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 589.850495,
+      "specialized": 0.20112000000000002
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 626.274639,
+      "specialized": 0.20112000000000002
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 631.551246,
+      "specialized": 0.20112000000000002
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 636.8753899999999,
+      "specialized": 0.20112000000000002
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 642.1995340000001,
+      "specialized": 0.20112000000000002
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 647.523678,
+      "specialized": 0.21081600000000003
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 652.895359,
+      "specialized": 0.21081600000000003
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 658.219503,
+      "specialized": 0.21081600000000003
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 663.591184,
+      "specialized": 0.21081600000000003
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 668.962865,
+      "specialized": 0.21081600000000003
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 674.3345459999999,
+      "specialized": 0.220512
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 164.393748,
+      "specialized": 0.084816
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 291.661099,
+      "specialized": 0.12360000000000002
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 372.632338,
+      "specialized": 0.142992
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 454.501854,
+      "specialized": 0.162384
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 537.32211,
+      "specialized": 0.181728
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 620.950495,
+      "specialized": 0.20112000000000002
+    }
+  }
+}

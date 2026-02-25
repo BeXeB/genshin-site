@@ -1,0 +1,776 @@
+{
+  "id": 14521,
+  "name": "Reliquary of Truth",
+  "description": "An angular box carved from gold and jade. Legend has it that it was once enshrined in a temple deep within Tulaytullah, the Sapphire City.",
+  "descriptionRaw": "An angular box carved from gold and jade. Legend has it that it was once enshrined in a temple deep within Tulaytullah, the Sapphire City.",
+  "weaponType": "WEAPON_CATALYST",
+  "weaponText": "Catalyst",
+  "rarity": 5,
+  "story": "After the great tower of Shah Ramshahr finally fell, like a honeyed yet poisoned dream swallowed by the blood-soaked sands...\nHis royal power shifted between countless states as fleeting as the morning dew, until it was buried itself in yet more blood and tears.\nBeneath the sapphire domes, those nobles who once pledged allegiance to the tyrant broke free of his yoke...\nOnly to follow false sages and be drawn into games of carnage and collapse amid the scorching sands once more.\n\nO, the proud people of Tulaytullah who had long forgotten the silent warnings of the sages.\nIt was only when their ambitions faded along with Gurkan's name that they came to know the true cost of rebellion.\nBy the time the brutal Khagans arrived on horseback, there were no more warriors guarding the Garden of Endless Pillars.\nAnd like tamed beasts, those who dwelled in gilded dreams had no choice but to lower their heads before new masters once more.\n\nSoldiers and tax collectors, driven by insatiable greed, came from distant lands to prey upon the already weary people.\nThough the viridian court, which had claimed such benevolence, was unrelentingly harsh to its people.\nThere will always be those who, subjugated beneath the iron-clad hooves of foreign tribes, seek solace in a romanticized past.\nThey whispered praise for the brief reign of King Humayun while huddled in the shade, taking shelter from the searing sun.\n\nThe young noble Goudarz stepped into the sacred hall buried deep beneath the sands, determined to free his countrymen from their shackles.\nLegend has it that the palace belonged to the Ibis King, and the wisest of the seven sage monks — the keeper of records — who served as secret envoy to the moon and stars.\nBut that desperate and near-hopeless assault stood little chance, for no plan could match the conqueror's forces, which blazed with the brilliance of the sun.\nThe wise men of Tighnar had long since fled, and that magnificent sanctuary of wisdom in the desert lay buried beneath the iron-hued sea of sand.\nYet, from the depths of a dried-up spring, sacred and ancient echoes rose in answer to the young man's prayers...\n\n\"O reckless child, o noble one, you yearn for the power of the blazing sun and the fury of sandstorms, yet you dream the fool's dream of raising a tower from quicksand.\"\n\"I can bestow upon you a power not yet witnessed by prophet or proselyte, much as one might give bitter and brackish water to a thirsty camel.\"\n\"However, the lord of the flowers and oases once left three riddles for my master, King Deshret.\"\n\"But he, wise and sagacious as he was, could not answer them before he fell into that poisonous dream.\"\n\"If you can lift the fog of confusion that has long plagued me, I will grant you the power of a king.\"\n\nThe young Goudarz answered thusly:\n\"Then pray reveal these ancient riddles, o Holy One, of the sacred edicts, writing, medicine, and wisdom.\"\n\"I shall offer my mortal answers with truest sincerity, for there is no room for the shadows of falsehood on my path.\"\n\nAnd so, the wisest of them all among the sage monks spoke thusly:\n\"What rises and falls in endless turns, perishing at its apex before swelling once more?\"\n\"Like the moon, it waxes full, then wanes away into nothing.\"\n\"Both the wise and the foolish yearn for it, in ceaseless cycles of desire.\"\n\"Yet like the tides, it ebbs and flows within the hearts of men.\"\n\nThe young Goudarz answered thusly:\n\"What you speak of is conspiracy and treachery. The robes of those who speak idly of virtue conceal nothing but festering weakness and fatigue.\"\n\"It is this very weakness that brought down the sapphire domes, and it is this very weakness that has driven the people to cry out in sorrow.\"\n\nThe sage monk burst out in laughter, though he did not directly address the youthful noble's answer.\nNonetheless, he handed him the Staff of Falsehoods.\n\nAnd this was how Goudarz's name became lost to history...\nTo be replaced by the mighty title of King Saleb Dowleh.\nThe warrior who once would brook no lies had gained kingly power through cunning.\nCasting the illusion of a golden age over the fading hues of twilight.\n\n...\n\nIt was not until even the most perfect lie could no longer control his insatiable thirst for power...\nUntil King Deshret's creations could no longer fabricate the illusion of divine manifestation...\nUntil the voice of the Ibis King rose once more to ask him that very same question...\nThat the aged king gave his final answer amid the laments of Gurabad:\n\n\"O Holy One, all I speak are lies. Even I do not trust my own words.\"\n\"The only thing I can do now is fight to the death. At the very least, I shall not betray once more the trust of the brothers who have come to my rescue.\"\n\"O, Holy One, whether you seek truth or falsehood, you must taste it in your own blood.\"\n\nHis kingly power was seized by the Deys of other tribes, and on and on it went, until the various kingdoms were ground to dust by the desert winds.\nAnd, as if collecting moonlight like amber honey, the holy one had taken the king's last will as his final answer.",
+  "baseAtkValue": 44.3358,
+  "baseStatText": "19.2%",
+  "mainStatType": "FIGHT_PROP_CRITICAL_HURT",
+  "mainStatText": "CRIT DMG",
+  "effectName": "Essence of Falsity",
+  "effectTemplateRaw": "CRIT Rate is increased by <color=#99FFFFFF>{0}</color>. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by <color=#99FFFFFF>{1}</color> for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by <color=#99FFFFFF>{2}</color> for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+  "r1": {
+    "description": "CRIT Rate is increased by 8%. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by 80 for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by 24% for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+    "values": [
+      "8%",
+      "80",
+      "24%"
+    ]
+  },
+  "r2": {
+    "description": "CRIT Rate is increased by 10%. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by 100 for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by 30% for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+    "values": [
+      "10%",
+      "100",
+      "30%"
+    ]
+  },
+  "r3": {
+    "description": "CRIT Rate is increased by 12%. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by 120 for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by 36% for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+    "values": [
+      "12%",
+      "120",
+      "36%"
+    ]
+  },
+  "r4": {
+    "description": "CRIT Rate is increased by 14%. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by 140 for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by 42% for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+    "values": [
+      "14%",
+      "140",
+      "42%"
+    ]
+  },
+  "r5": {
+    "description": "CRIT Rate is increased by 16%. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by 160 for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by 48% for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+    "values": [
+      "16%",
+      "160",
+      "48%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114041,
+        "name": "Oasis Garden's Reminiscence",
+        "count": 5
+      },
+      {
+        "id": 112131,
+        "name": "Lightless Bone",
+        "count": 5
+      },
+      {
+        "id": 112059,
+        "name": "Fungal Spores",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114042,
+        "name": "Oasis Garden's Kindness",
+        "count": 5
+      },
+      {
+        "id": 112131,
+        "name": "Lightless Bone",
+        "count": 18
+      },
+      {
+        "id": 112059,
+        "name": "Fungal Spores",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114042,
+        "name": "Oasis Garden's Kindness",
+        "count": 9
+      },
+      {
+        "id": 112132,
+        "name": "Glowing Remains",
+        "count": 9
+      },
+      {
+        "id": 112060,
+        "name": "Luminescent Pollen",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114043,
+        "name": "Oasis Garden's Mourning",
+        "count": 5
+      },
+      {
+        "id": 112132,
+        "name": "Glowing Remains",
+        "count": 18
+      },
+      {
+        "id": 112060,
+        "name": "Luminescent Pollen",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114043,
+        "name": "Oasis Garden's Mourning",
+        "count": 9
+      },
+      {
+        "id": 112133,
+        "name": "Radiant Exoskeleton",
+        "count": 14
+      },
+      {
+        "id": 112061,
+        "name": "Crystalline Cyst Dust",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114044,
+        "name": "Oasis Garden's Truth",
+        "count": 6
+      },
+      {
+        "id": 112133,
+        "name": "Radiant Exoskeleton",
+        "count": 27
+      },
+      {
+        "id": 112061,
+        "name": "Crystalline Cyst Dust",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Catalyst_Sistrum",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Sistrum_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Sistrum",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Sistrum.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Sistrum_Awaken.png"
+  },
+  "version": "6.1",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 44.3358,
+      "specialized": 0.192
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 47.8383282,
+      "specialized": 0.192
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 51.3851922,
+      "specialized": 0.192
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 54.8877204,
+      "specialized": 0.192
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 58.3902486,
+      "specialized": 0.223104
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 61.848441,
+      "specialized": 0.223104
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 65.3509692,
+      "specialized": 0.223104
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 68.8091616,
+      "specialized": 0.223104
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 72.3116898,
+      "specialized": 0.223104
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 75.7698822,
+      "specialized": 0.261696
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 79.2280746,
+      "specialized": 0.261696
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 82.686267,
+      "specialized": 0.261696
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 86.10012359999999,
+      "specialized": 0.261696
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 89.558316,
+      "specialized": 0.261696
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 93.01650839999999,
+      "specialized": 0.30047999999999997
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 96.430365,
+      "specialized": 0.30047999999999997
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 99.8885574,
+      "specialized": 0.30047999999999997
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 103.302414,
+      "specialized": 0.30047999999999997
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 106.7606064,
+      "specialized": 0.30047999999999997
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 110.17446299999999,
+      "specialized": 0.339264
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 144.6883196,
+      "specialized": 0.339264
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 148.1021762,
+      "specialized": 0.339264
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 151.5603686,
+      "specialized": 0.339264
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 154.9742252,
+      "specialized": 0.339264
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 158.3880818,
+      "specialized": 0.37804800000000005
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 161.80193839999998,
+      "specialized": 0.37804800000000005
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 165.26013079999998,
+      "specialized": 0.37804800000000005
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 168.6739874,
+      "specialized": 0.37804800000000005
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 172.087844,
+      "specialized": 0.37804800000000005
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 175.5017006,
+      "specialized": 0.416832
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 178.9155572,
+      "specialized": 0.416832
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 182.3737496,
+      "specialized": 0.416832
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 185.7876062,
+      "specialized": 0.416832
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 189.20146279999997,
+      "specialized": 0.416832
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 192.6596552,
+      "specialized": 0.4556160000000001
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 196.0735118,
+      "specialized": 0.4556160000000001
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 199.48736839999998,
+      "specialized": 0.4556160000000001
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 202.94556079999998,
+      "specialized": 0.4556160000000001
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 206.35941739999998,
+      "specialized": 0.4556160000000001
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 209.81760979999999,
+      "specialized": 0.49440000000000006
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 244.3758022,
+      "specialized": 0.49440000000000006
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 247.78965879999998,
+      "specialized": 0.49440000000000006
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 251.2478512,
+      "specialized": 0.49440000000000006
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 254.7060436,
+      "specialized": 0.49440000000000006
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 258.11990019999996,
+      "specialized": 0.533184
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 261.5780926,
+      "specialized": 0.533184
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 265.036285,
+      "specialized": 0.533184
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 268.4944774,
+      "specialized": 0.533184
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 271.95266979999997,
+      "specialized": 0.533184
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 275.455198,
+      "specialized": 0.571968
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 310.11339039999996,
+      "specialized": 0.571968
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 313.5715828,
+      "specialized": 0.571968
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 317.0297752,
+      "specialized": 0.571968
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 320.53230340000005,
+      "specialized": 0.571968
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 323.99049579999996,
+      "specialized": 0.6107520000000001
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 327.493024,
+      "specialized": 0.6107520000000001
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 330.9955522,
+      "specialized": 0.6107520000000001
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 334.45374460000005,
+      "specialized": 0.6107520000000001
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 337.95627279999997,
+      "specialized": 0.6107520000000001
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 341.458801,
+      "specialized": 0.649536
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 376.06132920000005,
+      "specialized": 0.649536
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 379.56385739999996,
+      "specialized": 0.649536
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 383.1107214,
+      "specialized": 0.649536
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 386.6132496,
+      "specialized": 0.649536
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 390.1157778,
+      "specialized": 0.68832
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 393.66264179999996,
+      "specialized": 0.68832
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 397.16517,
+      "specialized": 0.68832
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 400.712034,
+      "specialized": 0.68832
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 404.258898,
+      "specialized": 0.68832
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 407.80576199999996,
+      "specialized": 0.726912
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 442.452626,
+      "specialized": 0.726912
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 445.9994899999999,
+      "specialized": 0.726912
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 449.54635399999995,
+      "specialized": 0.726912
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 453.093218,
+      "specialized": 0.726912
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 456.6844178,
+      "specialized": 0.765696
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 460.23128180000003,
+      "specialized": 0.765696
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 463.82248159999995,
+      "specialized": 0.765696
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 467.4136814,
+      "specialized": 0.765696
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 470.9605454,
+      "specialized": 0.765696
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 474.5517452,
+      "specialized": 0.8044800000000001
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 509.242945,
+      "specialized": 0.8044800000000001
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 512.8784806,
+      "specialized": 0.8044800000000001
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 516.4696804,
+      "specialized": 0.8044800000000001
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 520.0608801999999,
+      "specialized": 0.8044800000000001
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 523.6964158,
+      "specialized": 0.8432640000000001
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 527.2876156,
+      "specialized": 0.8432640000000001
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 530.9231512,
+      "specialized": 0.8432640000000001
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 534.5586868,
+      "specialized": 0.8432640000000001
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 538.1942224,
+      "specialized": 0.8432640000000001
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 541.829758,
+      "specialized": 0.882048
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 141.274463,
+      "specialized": 0.339264
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 240.91760979999998,
+      "specialized": 0.49440000000000006
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 306.655198,
+      "specialized": 0.571968
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 372.558801,
+      "specialized": 0.649536
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 438.905762,
+      "specialized": 0.726912
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 505.6517452,
+      "specialized": 0.8044800000000001
+    }
+  }
+}

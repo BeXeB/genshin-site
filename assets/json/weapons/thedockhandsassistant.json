@@ -1,0 +1,771 @@
+{
+  "id": 11427,
+  "name": "The Dockhand's Assistant",
+  "description": "A convenient cutting tool that you can rarely find nowadays. You can replace the blades as they are dulled by usage.",
+  "descriptionRaw": "A convenient cutting tool that you can rarely find nowadays. You can replace the blades as they are dulled by usage.",
+  "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "weaponText": "Sword",
+  "rarity": 4,
+  "story": "A once-popular tool during the days when Fontaine was more dependent on manual labor.\nThe blade might not have been strong enough for prolonged, intense use,\nBut it made up for this by allowing the blunt section to be broken off at the user's convenience.\n\nDock workers often used it to cut through thin materials and untie knotted cables.\nAlthough the use of this type of weapon was always heavily regulated and no blade never truly belonged to the user,\nIt was widely circulated under the tables, and was once hailed as the blade of the people.\nIt was perfect for self-preservation in less friendly natural environments, as well as for cutting paths through aquatic plants.\nLegend has it that many people also discovered new uses for it during the purge.\nAs society advanced and more regulations were put into place, this type of blade gradually ceased to appear in public.\n\nAlthough such blades were not owned by their wielders,\nThose who depended on them saw them as extensions of their limbs,\nAnd so they often inscribed their names onto the hilts and blades to avoid losing them.\nThe name inscribed on this blade belongs to one of Poisson's former mayors.",
+  "baseAtkValue": 42.401,
+  "baseStatText": "9%",
+  "mainStatType": "FIGHT_PROP_HP_PERCENT",
+  "mainStatText": "HP",
+  "effectName": "Sea Shanty",
+  "effectTemplateRaw": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain <color=#99FFFFFF>{0}</color> Elemental Mastery, and 2s after the effect occurs, <color=#99FFFFFF>{1}</color> Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+  "r1": {
+    "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40 Elemental Mastery, and 2s after the effect occurs, 2 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "values": [
+      "40",
+      "2"
+    ]
+  },
+  "r2": {
+    "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 50 Elemental Mastery, and 2s after the effect occurs, 2.5 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "values": [
+      "50",
+      "2.5"
+    ]
+  },
+  "r3": {
+    "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 60 Elemental Mastery, and 2s after the effect occurs, 3 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "values": [
+      "60",
+      "3"
+    ]
+  },
+  "r4": {
+    "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 70 Elemental Mastery, and 2s after the effect occurs, 3.5 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "values": [
+      "70",
+      "3.5"
+    ]
+  },
+  "r5": {
+    "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 80 Elemental Mastery, and 2s after the effect occurs, 4 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "values": [
+      "80",
+      "4"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114053,
+        "name": "Dross of Pure Sacred Dewdrop",
+        "count": 3
+      },
+      {
+        "id": 112092,
+        "name": "Old Operative's Pocket Watch",
+        "count": 3
+      },
+      {
+        "id": 112080,
+        "name": "Transoceanic Pearl",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114054,
+        "name": "Sublimation of Pure Sacred Dewdrop",
+        "count": 3
+      },
+      {
+        "id": 112092,
+        "name": "Old Operative's Pocket Watch",
+        "count": 12
+      },
+      {
+        "id": 112080,
+        "name": "Transoceanic Pearl",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114054,
+        "name": "Sublimation of Pure Sacred Dewdrop",
+        "count": 6
+      },
+      {
+        "id": 112093,
+        "name": "Operative's Standard Pocket Watch",
+        "count": 6
+      },
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114055,
+        "name": "Spring of Pure Sacred Dewdrop",
+        "count": 3
+      },
+      {
+        "id": 112093,
+        "name": "Operative's Standard Pocket Watch",
+        "count": 12
+      },
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114055,
+        "name": "Spring of Pure Sacred Dewdrop",
+        "count": 6
+      },
+      {
+        "id": 112094,
+        "name": "Operative's Constancy",
+        "count": 9
+      },
+      {
+        "id": 112082,
+        "name": "Xenochromatic Crystal",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114056,
+        "name": "Essence of Pure Sacred Dewdrop",
+        "count": 4
+      },
+      {
+        "id": 112094,
+        "name": "Operative's Constancy",
+        "count": 18
+      },
+      {
+        "id": 112082,
+        "name": "Xenochromatic Crystal",
+        "count": 12
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Sword_Mechanic",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Mechanic_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Mechanic",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mechanic.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mechanic_Awaken.png"
+  },
+  "version": "4.1",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.09
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 45.920283000000005,
+      "specialized": 0.09
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 49.39716500000001,
+      "specialized": 0.09
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 52.916448,
+      "specialized": 0.09
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 56.393330000000006,
+      "specialized": 0.10457999999999999
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 59.91261300000001,
+      "specialized": 0.10457999999999999
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 63.38949500000001,
+      "specialized": 0.10457999999999999
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 66.90877800000001,
+      "specialized": 0.10457999999999999
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 70.42806100000001,
+      "specialized": 0.10457999999999999
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 73.90494300000002,
+      "specialized": 0.12267
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 77.424226,
+      "specialized": 0.12267
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 80.90110800000001,
+      "specialized": 0.12267
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 84.42039100000001,
+      "specialized": 0.12267
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 87.897273,
+      "specialized": 0.12267
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 91.41655600000001,
+      "specialized": 0.14085
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 94.935839,
+      "specialized": 0.14085
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 98.41272100000002,
+      "specialized": 0.14085
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 101.932004,
+      "specialized": 0.14085
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 105.40888600000002,
+      "specialized": 0.14085
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.15902999999999998
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 138.305051,
+      "specialized": 0.15902999999999998
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 141.824334,
+      "specialized": 0.15902999999999998
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 145.34361700000002,
+      "specialized": 0.15902999999999998
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 148.820499,
+      "specialized": 0.15902999999999998
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 152.339782,
+      "specialized": 0.17721
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 155.81666400000003,
+      "specialized": 0.17721
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 159.335947,
+      "specialized": 0.17721
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 162.81282900000002,
+      "specialized": 0.17721
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 166.33211200000002,
+      "specialized": 0.17721
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 169.808994,
+      "specialized": 0.19538999999999998
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 173.328277,
+      "specialized": 0.19538999999999998
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 176.84756000000002,
+      "specialized": 0.19538999999999998
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 180.324442,
+      "specialized": 0.19538999999999998
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 183.84372500000003,
+      "specialized": 0.19538999999999998
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 187.32060700000002,
+      "specialized": 0.21357
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 190.83989000000003,
+      "specialized": 0.21357
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 194.31677200000001,
+      "specialized": 0.21357
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 197.83605500000002,
+      "specialized": 0.21357
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 201.35533800000002,
+      "specialized": 0.21357
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 204.83222,
+      "specialized": 0.23175
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 234.351503,
+      "specialized": 0.23175
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 237.828385,
+      "specialized": 0.23175
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 241.34766800000003,
+      "specialized": 0.23175
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 244.82455000000002,
+      "specialized": 0.23175
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 248.34383300000002,
+      "specialized": 0.24993
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 251.86311600000002,
+      "specialized": 0.24993
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 255.33999800000004,
+      "specialized": 0.24993
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 258.859281,
+      "specialized": 0.24993
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 262.336163,
+      "specialized": 0.24993
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 265.85544600000003,
+      "specialized": 0.26811
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 295.232328,
+      "specialized": 0.26811
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 298.751611,
+      "specialized": 0.26811
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 302.270894,
+      "specialized": 0.26811
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 305.74777600000004,
+      "specialized": 0.26811
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 309.267059,
+      "specialized": 0.28629
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 312.743941,
+      "specialized": 0.28629
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 316.263224,
+      "specialized": 0.28629
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 319.740106,
+      "specialized": 0.28629
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 323.259389,
+      "specialized": 0.28629
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 326.77867200000003,
+      "specialized": 0.30446999999999996
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 356.155554,
+      "specialized": 0.30446999999999996
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 359.674837,
+      "specialized": 0.30446999999999996
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 363.151719,
+      "specialized": 0.30446999999999996
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 366.671002,
+      "specialized": 0.30446999999999996
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 370.147884,
+      "specialized": 0.32265
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 373.667167,
+      "specialized": 0.32265
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 377.18645000000004,
+      "specialized": 0.32265
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 380.663332,
+      "specialized": 0.32265
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 384.182615,
+      "specialized": 0.32265
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 387.659497,
+      "specialized": 0.34074
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 417.17878,
+      "specialized": 0.34074
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 420.655662,
+      "specialized": 0.34074
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 424.17494500000004,
+      "specialized": 0.34074
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 427.694228,
+      "specialized": 0.34074
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 431.17111,
+      "specialized": 0.35891999999999996
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 434.690393,
+      "specialized": 0.35891999999999996
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 438.167275,
+      "specialized": 0.35891999999999996
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 441.686558,
+      "specialized": 0.35891999999999996
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 445.16344000000004,
+      "specialized": 0.35891999999999996
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 448.682723,
+      "specialized": 0.37710000000000005
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 478.10200599999996,
+      "specialized": 0.37710000000000005
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 481.578888,
+      "specialized": 0.37710000000000005
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 485.098171,
+      "specialized": 0.37710000000000005
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 488.575053,
+      "specialized": 0.37710000000000005
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 492.094336,
+      "specialized": 0.39528
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 495.57121800000004,
+      "specialized": 0.39528
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 499.090501,
+      "specialized": 0.39528
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 502.56738300000006,
+      "specialized": 0.39528
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 506.08666600000004,
+      "specialized": 0.39528
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.41346
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.15902999999999998
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    }
+  }
+}

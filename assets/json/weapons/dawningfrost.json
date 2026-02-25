@@ -1,0 +1,771 @@
+{
+  "id": 14434,
+  "name": "Dawning Frost",
+  "description": "A silver-forged ritual vessel, pure and completely without blemish. It is said to be a sacred relic passed down for generations among the priestesses of the far north.",
+  "descriptionRaw": "A silver-forged ritual vessel, pure and completely without blemish. It is said to be a sacred relic passed down for generations among the priestesses of the far north.",
+  "weaponType": "WEAPON_CATALYST",
+  "weaponText": "Catalyst",
+  "rarity": 4,
+  "story": "\"Always remember, Avrelian, my dear child — the one precious gift that fate has granted me.\"\n\"A thousand-year-old curse runs through your veins, and my only wish is for you to live a life of peace and joy.\"\n\"No matter what happens, you must never set foot in Nod-Krai, and you must never be taken in by that fool's dream of 'Elysium.'\"\n\"No earthly paradise under the moon has ever been built for mortals. All that the Lord of the Sky has created has its boundaries.\"\n\nOn a snowy evening gently veiled in the aurora's light, the woman once worshipped as the Maiden had another glimpse of the dream foretelling the fate of her homeland.\nIt had been many years since she bade farewell to that place. Yet, like the creeping frost, those deliberately forgotten whispers always found their way into her warm, quiet dreams, nonetheless.\nPerhaps it was the new life growing within her that stirred the long-dormant visions, and now, those haunting, twisting phantoms grew ever clearer...\n\nAt first, they came to her as ceaseless nightmares, countless dreams that came and went endlessly in stifling, unyielding cycles.\nThe seeds of life, born not of natural evolution, fell from silver branches into the ruins of the desolate city.\nWhere featherless creatures, walking upright, enjoyed untold wisdom and the blessings it bestowed.\nThen came endless greed and selfish desire, masked behind noble-sounding names.\nAnd from these followed hatred, curses, betrayal, strife, plunder, slaughter, and kin turning against kin.\nThe cities scattered across the land pursued their own paths of good and evil while the divine envoys stood by in silence, watching all unfold.\nUntil the kings of the lands dared test the eternal heavens.\nAnd only then did the great towers fall in flame, burying the cries of the slaves.\n\nLike a fleeting shadow vanishing in a single breath, a dreamless dream stretched across a thousand years and then a thousand more.\nA mountain of crowns in a secret place, beneath a withered tree, forgotten by all.\nBut sometimes even the divine plan falters, and the golden city that rose from the earth...\nCould not satiate the hearts of mortals, aflame with desire.\nHearts swollen with ambition, drawn to the vacant throne of the world, longing to shatter the boundaries between man and god.\nBut like all tragic illusions, that boundless Elysium would crumble.\nThe draconic kings of flame plunged into the dark abyss, and the tides swallowed the white-stone empire whole.\nThe dying world was moving toward its end, with only the shadows of the past lingering in its halls.\n\nCountless dreams steeped in blood, tears, and sin... Countless dreams, forever out of reach...\nYears of division and hatred, carried across generations, cycling endlessly beneath the starless night.\nAnd then, a voice unheard, yet more familiar than any she had known...\nWhispered to her on the bitter end of darkness, with compassion soft and luminous as light.\n\n\"I shall bring an end to the warriors of this land and raise a boundless Elysium in their place.\"\n\"I do this not to be king, but so that no other can ever claim that role.\"\n\nHer dream would always shatter just as it reached the moment of promise, and she would be pulled back to the shores of reality.\nAccompanied by the pale morning light and the faint stirring of the life within her.\nThe young mother let out a quiet sigh as her fingers brushed against the silvery-white talisman resting against her chest.\nGazing upon the face of the one she loved beside her, the woman gently placed a hand over her belly and asked...\n\n\"My child, my dear child... why do you stir so?\"\n\"Is it because you sense your mother's heart — are you afraid?\"",
+  "baseAtkValue": 42.401,
+  "baseStatText": "12%",
+  "mainStatType": "FIGHT_PROP_CRITICAL_HURT",
+  "mainStatText": "CRIT DMG",
+  "effectName": "Nocturnal Dreams",
+  "effectTemplateRaw": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by <color=#99FFFFFF>{0}</color>. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by <color=#99FFFFFF>{1}</color>.",
+  "r1": {
+    "description": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 72. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 48.",
+    "values": [
+      "72",
+      "48"
+    ]
+  },
+  "r2": {
+    "description": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 90. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 60.",
+    "values": [
+      "90",
+      "60"
+    ]
+  },
+  "r3": {
+    "description": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 108. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 72.",
+    "values": [
+      "108",
+      "72"
+    ]
+  },
+  "r4": {
+    "description": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 126. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 84.",
+    "values": [
+      "126",
+      "84"
+    ]
+  },
+  "r5": {
+    "description": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 144. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 96.",
+    "values": [
+      "144",
+      "96"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114073,
+        "name": "Artful Device Fragment",
+        "count": 3
+      },
+      {
+        "id": 112128,
+        "name": "Frostnight's Glimmer",
+        "count": 3
+      },
+      {
+        "id": 112125,
+        "name": "Tattered Warrant",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114074,
+        "name": "Artful Device Replica",
+        "count": 3
+      },
+      {
+        "id": 112128,
+        "name": "Frostnight's Glimmer",
+        "count": 12
+      },
+      {
+        "id": 112125,
+        "name": "Tattered Warrant",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114074,
+        "name": "Artful Device Replica",
+        "count": 6
+      },
+      {
+        "id": 112129,
+        "name": "Frostnight's Glow",
+        "count": 6
+      },
+      {
+        "id": 112126,
+        "name": "Immaculate Warrant",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114075,
+        "name": "Artful Device Inheritance",
+        "count": 3
+      },
+      {
+        "id": 112129,
+        "name": "Frostnight's Glow",
+        "count": 12
+      },
+      {
+        "id": 112126,
+        "name": "Immaculate Warrant",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114075,
+        "name": "Artful Device Inheritance",
+        "count": 6
+      },
+      {
+        "id": 112130,
+        "name": "Frostnight's Glory",
+        "count": 9
+      },
+      {
+        "id": 112127,
+        "name": "Frost-Etched Warrant",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114076,
+        "name": "Artful Device Wish",
+        "count": 4
+      },
+      {
+        "id": 112130,
+        "name": "Frostnight's Glory",
+        "count": 18
+      },
+      {
+        "id": 112127,
+        "name": "Frost-Etched Warrant",
+        "count": 12
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Catalyst_Ziedas",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Ziedas_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Ziedas",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ziedas.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ziedas_Awaken.png"
+  },
+  "version": "6.1",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.12
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 45.920283000000005,
+      "specialized": 0.12
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 49.39716500000001,
+      "specialized": 0.12
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 52.916448,
+      "specialized": 0.12
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 56.393330000000006,
+      "specialized": 0.13943999999999998
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 59.91261300000001,
+      "specialized": 0.13943999999999998
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 63.38949500000001,
+      "specialized": 0.13943999999999998
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 66.90877800000001,
+      "specialized": 0.13943999999999998
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 70.42806100000001,
+      "specialized": 0.13943999999999998
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 73.90494300000002,
+      "specialized": 0.16355999999999998
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 77.424226,
+      "specialized": 0.16355999999999998
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 80.90110800000001,
+      "specialized": 0.16355999999999998
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 84.42039100000001,
+      "specialized": 0.16355999999999998
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 87.897273,
+      "specialized": 0.16355999999999998
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 91.41655600000001,
+      "specialized": 0.1878
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 94.935839,
+      "specialized": 0.1878
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 98.41272100000002,
+      "specialized": 0.1878
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 101.932004,
+      "specialized": 0.1878
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 105.40888600000002,
+      "specialized": 0.1878
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.21203999999999998
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 138.305051,
+      "specialized": 0.21203999999999998
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 141.824334,
+      "specialized": 0.21203999999999998
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 145.34361700000002,
+      "specialized": 0.21203999999999998
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 148.820499,
+      "specialized": 0.21203999999999998
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 152.339782,
+      "specialized": 0.23628
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 155.81666400000003,
+      "specialized": 0.23628
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 159.335947,
+      "specialized": 0.23628
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 162.81282900000002,
+      "specialized": 0.23628
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 166.33211200000002,
+      "specialized": 0.23628
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 169.808994,
+      "specialized": 0.26052
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 173.328277,
+      "specialized": 0.26052
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 176.84756000000002,
+      "specialized": 0.26052
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 180.324442,
+      "specialized": 0.26052
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 183.84372500000003,
+      "specialized": 0.26052
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 187.32060700000002,
+      "specialized": 0.28476
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 190.83989000000003,
+      "specialized": 0.28476
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 194.31677200000001,
+      "specialized": 0.28476
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 197.83605500000002,
+      "specialized": 0.28476
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 201.35533800000002,
+      "specialized": 0.28476
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 204.83222,
+      "specialized": 0.309
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 234.351503,
+      "specialized": 0.309
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 237.828385,
+      "specialized": 0.309
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 241.34766800000003,
+      "specialized": 0.309
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 244.82455000000002,
+      "specialized": 0.309
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 248.34383300000002,
+      "specialized": 0.33324
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 251.86311600000002,
+      "specialized": 0.33324
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 255.33999800000004,
+      "specialized": 0.33324
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 258.859281,
+      "specialized": 0.33324
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 262.336163,
+      "specialized": 0.33324
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 265.85544600000003,
+      "specialized": 0.35748
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 295.232328,
+      "specialized": 0.35748
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 298.751611,
+      "specialized": 0.35748
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 302.270894,
+      "specialized": 0.35748
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 305.74777600000004,
+      "specialized": 0.35748
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 309.267059,
+      "specialized": 0.38172
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 312.743941,
+      "specialized": 0.38172
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 316.263224,
+      "specialized": 0.38172
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 319.740106,
+      "specialized": 0.38172
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 323.259389,
+      "specialized": 0.38172
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 326.77867200000003,
+      "specialized": 0.40596
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 356.155554,
+      "specialized": 0.40596
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 359.674837,
+      "specialized": 0.40596
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 363.151719,
+      "specialized": 0.40596
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 366.671002,
+      "specialized": 0.40596
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 370.147884,
+      "specialized": 0.43019999999999997
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 373.667167,
+      "specialized": 0.43019999999999997
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 377.18645000000004,
+      "specialized": 0.43019999999999997
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 380.663332,
+      "specialized": 0.43019999999999997
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 384.182615,
+      "specialized": 0.43019999999999997
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 387.659497,
+      "specialized": 0.45432
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 417.17878,
+      "specialized": 0.45432
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 420.655662,
+      "specialized": 0.45432
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 424.17494500000004,
+      "specialized": 0.45432
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 427.694228,
+      "specialized": 0.45432
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 431.17111,
+      "specialized": 0.47856
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 434.690393,
+      "specialized": 0.47856
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 438.167275,
+      "specialized": 0.47856
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 441.686558,
+      "specialized": 0.47856
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 445.16344000000004,
+      "specialized": 0.47856
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 448.682723,
+      "specialized": 0.5028
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 478.10200599999996,
+      "specialized": 0.5028
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 481.578888,
+      "specialized": 0.5028
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 485.098171,
+      "specialized": 0.5028
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 488.575053,
+      "specialized": 0.5028
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 492.094336,
+      "specialized": 0.5270400000000001
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 495.57121800000004,
+      "specialized": 0.5270400000000001
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 499.090501,
+      "specialized": 0.5270400000000001
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 502.56738300000006,
+      "specialized": 0.5270400000000001
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 506.08666600000004,
+      "specialized": 0.5270400000000001
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.55128
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.21203999999999998
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.309
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.35748
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.40596
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.45432
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.5028
+    }
+  }
+}
