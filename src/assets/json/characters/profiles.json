@@ -156,7 +156,8 @@
       "filename_iconCard": "UI_AvatarIcon_PlayerBoy_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_PlayerBoy"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "aether"
   },
   {
     "id": 10000121,
@@ -342,7 +343,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Aino",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Aino"
     },
-    "version": "6.0"
+    "version": "6.0",
+    "normalizedName": "aino"
   },
   {
     "id": 10000038,
@@ -528,7 +530,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Albedo",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Albedo"
     },
-    "version": "1.2"
+    "version": "1.2",
+    "normalizedName": "albedo"
   },
   {
     "id": 10000078,
@@ -714,7 +717,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Alhatham",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Alhatham"
     },
-    "version": "3.4"
+    "version": "3.4",
+    "normalizedName": "alhaitham"
   },
   {
     "id": 10000062,
@@ -900,7 +904,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Aloy",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Aloy"
     },
-    "version": "2.1"
+    "version": "2.1",
+    "normalizedName": "aloy"
   },
   {
     "id": 10000021,
@@ -1086,7 +1091,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ambor",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ambor"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "amber"
   },
   {
     "id": 10000057,
@@ -1272,7 +1278,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Itto",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Itto"
     },
-    "version": "2.3"
+    "version": "2.3",
+    "normalizedName": "aratakiitto"
   },
   {
     "id": 10000096,
@@ -1458,7 +1465,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Arlecchino",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Arlecchino"
     },
-    "version": "4.6"
+    "version": "4.6",
+    "normalizedName": "arlecchino"
   },
   {
     "id": 10000082,
@@ -1644,7 +1652,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Baizhuer",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Baizhuer"
     },
-    "version": "3.6"
+    "version": "3.6",
+    "normalizedName": "baizhu"
   },
   {
     "id": 10000014,
@@ -1830,7 +1839,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Barbara",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Barbara"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "barbara"
   },
   {
     "id": 10000024,
@@ -2016,7 +2026,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Beidou",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Beidou"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "beidou"
   },
   {
     "id": 10000032,
@@ -2202,7 +2213,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Bennett",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Bennett"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "bennett"
   },
   {
     "id": 10000072,
@@ -2388,7 +2400,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Candace",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Candace"
     },
-    "version": "3.1"
+    "version": "3.1",
+    "normalizedName": "candace"
   },
   {
     "id": 10000088,
@@ -2574,7 +2587,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Charlotte",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Charlotte"
     },
-    "version": "4.2"
+    "version": "4.2",
+    "normalizedName": "charlotte"
   },
   {
     "id": 10000104,
@@ -2760,7 +2774,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Chasca",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Chasca"
     },
-    "version": "5.2"
+    "version": "5.2",
+    "normalizedName": "chasca"
   },
   {
     "id": 10000090,
@@ -2946,7 +2961,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Chevreuse",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Chevreuse"
     },
-    "version": "4.3"
+    "version": "4.3",
+    "normalizedName": "chevreuse"
   },
   {
     "id": 10000094,
@@ -3132,7 +3148,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Chiori",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Chiori"
     },
-    "version": "4.5"
+    "version": "4.5",
+    "normalizedName": "chiori"
   },
   {
     "id": 10000036,
@@ -3318,7 +3335,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Chongyun",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Chongyun"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "chongyun"
   },
   {
     "id": 10000107,
@@ -3504,7 +3522,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Citlali",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Citlali"
     },
-    "version": "5.3"
+    "version": "5.3",
+    "normalizedName": "citlali"
   },
   {
     "id": 10000098,
@@ -3690,7 +3709,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Clorinde",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Clorinde"
     },
-    "version": "4.7"
+    "version": "4.7",
+    "normalizedName": "clorinde"
   },
   {
     "id": 10000067,
@@ -3876,7 +3896,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Collei",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Collei"
     },
-    "version": "3.0"
+    "version": "3.0",
+    "normalizedName": "collei"
   },
   {
     "id": 10000125,
@@ -4062,7 +4083,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Columbina",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Columbina"
     },
-    "version": "6.3"
+    "version": "6.3",
+    "normalizedName": "columbina"
   },
   {
     "id": 10000071,
@@ -4248,7 +4270,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Cyno",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Cyno"
     },
-    "version": "3.1"
+    "version": "3.1",
+    "normalizedName": "cyno"
   },
   {
     "id": 10000115,
@@ -4434,7 +4457,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Dahlia",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Dahlia"
     },
-    "version": "5.7"
+    "version": "5.7",
+    "normalizedName": "dahlia"
   },
   {
     "id": 10000079,
@@ -4620,7 +4644,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Dehya",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Dehya"
     },
-    "version": "3.5"
+    "version": "3.5",
+    "normalizedName": "dehya"
   },
   {
     "id": 10000016,
@@ -4806,7 +4831,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Diluc",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diluc"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "diluc"
   },
   {
     "id": 10000039,
@@ -4992,7 +5018,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Diona",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diona"
     },
-    "version": "1.1"
+    "version": "1.1",
+    "normalizedName": "diona"
   },
   {
     "id": 10000068,
@@ -5178,7 +5205,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Dori",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Dori"
     },
-    "version": "3.0"
+    "version": "3.0",
+    "normalizedName": "dori"
   },
   {
     "id": 10000123,
@@ -5364,7 +5392,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Durin",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Durin"
     },
-    "version": "6.2"
+    "version": "6.2",
+    "normalizedName": "durin"
   },
   {
     "id": 10000099,
@@ -5550,7 +5579,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Emilie",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Emilie"
     },
-    "version": "4.8"
+    "version": "4.8",
+    "normalizedName": "emilie"
   },
   {
     "id": 10000112,
@@ -5736,7 +5766,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Escoffier",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Escoffier"
     },
-    "version": "5.6"
+    "version": "5.6",
+    "normalizedName": "escoffier"
   },
   {
     "id": 10000051,
@@ -5922,7 +5953,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Eula",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Eula"
     },
-    "version": "1.5"
+    "version": "1.5",
+    "normalizedName": "eula"
   },
   {
     "id": 10000076,
@@ -6108,7 +6140,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Faruzan",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Faruzan"
     },
-    "version": "3.3"
+    "version": "3.3",
+    "normalizedName": "faruzan"
   },
   {
     "id": 10000031,
@@ -6294,7 +6327,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Fischl",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Fischl"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "fischl"
   },
   {
     "id": 10000120,
@@ -6480,7 +6514,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Flins",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Flins"
     },
-    "version": "6.0"
+    "version": "6.0",
+    "normalizedName": "flins"
   },
   {
     "id": 10000085,
@@ -6666,7 +6701,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Freminet",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Freminet"
     },
-    "version": "4.0"
+    "version": "4.0",
+    "normalizedName": "freminet"
   },
   {
     "id": 10000089,
@@ -6852,7 +6888,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Furina",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Furina"
     },
-    "version": "4.2"
+    "version": "4.2",
+    "normalizedName": "furina"
   },
   {
     "id": 10000092,
@@ -7038,7 +7075,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Gaming",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Gaming"
     },
-    "version": "4.4"
+    "version": "4.4",
+    "normalizedName": "gaming"
   },
   {
     "id": 10000037,
@@ -7224,7 +7262,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ganyu",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ganyu"
     },
-    "version": "1.2"
+    "version": "1.2",
+    "normalizedName": "ganyu"
   },
   {
     "id": 10000055,
@@ -7410,7 +7449,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Gorou",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Gorou"
     },
-    "version": "2.3"
+    "version": "2.3",
+    "normalizedName": "gorou"
   },
   {
     "id": 10000046,
@@ -7596,7 +7636,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Hutao",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Hutao"
     },
-    "version": "1.3"
+    "version": "1.3",
+    "normalizedName": "hutao"
   },
   {
     "id": 10000110,
@@ -7782,7 +7823,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Iansan",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Iansan"
     },
-    "version": "5.5"
+    "version": "5.5",
+    "normalizedName": "iansan"
   },
   {
     "id": 10000113,
@@ -7968,7 +8010,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ifa",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ifa"
     },
-    "version": "5.6"
+    "version": "5.6",
+    "normalizedName": "ifa"
   },
   {
     "id": 10000127,
@@ -8154,7 +8197,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Illuga",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Illuga"
     },
-    "version": "6.3"
+    "version": "6.3",
+    "normalizedName": "illuga"
   },
   {
     "id": 10000116,
@@ -8340,7 +8384,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ineffa",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ineffa"
     },
-    "version": "5.8"
+    "version": "5.8",
+    "normalizedName": "ineffa"
   },
   {
     "id": 10000124,
@@ -8526,7 +8571,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Jahoda",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Jahoda"
     },
-    "version": "6.2"
+    "version": "6.2",
+    "normalizedName": "jahoda"
   },
   {
     "id": 10000003,
@@ -8712,7 +8758,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Qin",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Qin"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "jean"
   },
   {
     "id": 10000100,
@@ -8898,7 +8945,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kachina",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kachina"
     },
-    "version": "5.0"
+    "version": "5.0",
+    "normalizedName": "kachina"
   },
   {
     "id": 10000047,
@@ -9084,7 +9132,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kazuha",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kazuha"
     },
-    "version": "1.6"
+    "version": "1.6",
+    "normalizedName": "kaedeharakazuha"
   },
   {
     "id": 10000015,
@@ -9270,7 +9319,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kaeya",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kaeya"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "kaeya"
   },
   {
     "id": 10000002,
@@ -9456,7 +9506,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ayaka",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ayaka"
     },
-    "version": "2.0"
+    "version": "2.0",
+    "normalizedName": "kamisatoayaka"
   },
   {
     "id": 10000066,
@@ -9642,7 +9693,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ayato",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ayato"
     },
-    "version": "2.6"
+    "version": "2.6",
+    "normalizedName": "kamisatoayato"
   },
   {
     "id": 10000081,
@@ -9828,7 +9880,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kaveh",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kaveh"
     },
-    "version": "3.6"
+    "version": "3.6",
+    "normalizedName": "kaveh"
   },
   {
     "id": 10000042,
@@ -10014,7 +10067,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Keqing",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Keqing"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "keqing"
   },
   {
     "id": 10000101,
@@ -10200,7 +10254,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kinich",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kinich"
     },
-    "version": "5.0"
+    "version": "5.0",
+    "normalizedName": "kinich"
   },
   {
     "id": 10000061,
@@ -10386,7 +10441,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Momoka",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Momoka"
     },
-    "version": "3.7"
+    "version": "3.7",
+    "normalizedName": "kirara"
   },
   {
     "id": 10000029,
@@ -10572,7 +10628,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Klee",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Klee"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "klee"
   },
   {
     "id": 10000056,
@@ -10758,7 +10815,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Sara",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sara"
     },
-    "version": "2.1"
+    "version": "2.1",
+    "normalizedName": "kujousara"
   },
   {
     "id": 10000065,
@@ -10944,7 +11002,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Shinobu",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Shinobu"
     },
-    "version": "2.7"
+    "version": "2.7",
+    "normalizedName": "kukishinobu"
   },
   {
     "id": 10000108,
@@ -11130,7 +11189,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Lanyan",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lanyan"
     },
-    "version": "5.3"
+    "version": "5.3",
+    "normalizedName": "lanyan"
   },
   {
     "id": 10000119,
@@ -11316,7 +11376,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Lauma",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lauma"
     },
-    "version": "6.0"
+    "version": "6.0",
+    "normalizedName": "lauma"
   },
   {
     "id": 10000074,
@@ -11502,7 +11563,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Layla",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Layla"
     },
-    "version": "3.2"
+    "version": "3.2",
+    "normalizedName": "layla"
   },
   {
     "id": 10000006,
@@ -11688,7 +11750,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Lisa",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Lisa"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "lisa"
   },
   {
     "id": 10000007,
@@ -11847,7 +11910,8 @@
       "filename_iconCard": "UI_AvatarIcon_PlayerGirl_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_PlayerGirl"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "lumine"
   },
   {
     "id": 10000083,
@@ -12033,7 +12097,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Linette",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Linette"
     },
-    "version": "4.0"
+    "version": "4.0",
+    "normalizedName": "lynette"
   },
   {
     "id": 10000084,
@@ -12219,7 +12284,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Liney",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Liney"
     },
-    "version": "4.0"
+    "version": "4.0",
+    "normalizedName": "lyney"
   },
   {
     "id": 10000117,
@@ -12290,7 +12356,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_MannequinBoy",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_MannequinBoy"
     },
-    "version": "6.1"
+    "version": "6.1",
+    "normalizedName": "manekin"
   },
   {
     "id": 10000118,
@@ -12361,7 +12428,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_MannequinGirl",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_MannequinGirl"
     },
-    "version": "6.1"
+    "version": "6.1",
+    "normalizedName": "manekina"
   },
   {
     "id": 10000106,
@@ -12547,7 +12615,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Mavuika",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mavuika"
     },
-    "version": "5.3"
+    "version": "5.3",
+    "normalizedName": "mavuika"
   },
   {
     "id": 10000080,
@@ -12733,7 +12802,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Mika",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mika"
     },
-    "version": "3.5"
+    "version": "3.5",
+    "normalizedName": "mika"
   },
   {
     "id": 10000041,
@@ -12919,7 +12989,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Mona",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mona"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "mona"
   },
   {
     "id": 10000102,
@@ -13105,7 +13176,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Mualani",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mualani"
     },
-    "version": "5.0"
+    "version": "5.0",
+    "normalizedName": "mualani"
   },
   {
     "id": 10000073,
@@ -13291,7 +13363,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Nahida",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Nahida"
     },
-    "version": "3.2"
+    "version": "3.2",
+    "normalizedName": "nahida"
   },
   {
     "id": 10000091,
@@ -13477,7 +13550,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Navia",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Navia"
     },
-    "version": "4.3"
+    "version": "4.3",
+    "normalizedName": "navia"
   },
   {
     "id": 10000122,
@@ -13663,7 +13737,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Nefer",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Nefer"
     },
-    "version": "6.1"
+    "version": "6.1",
+    "normalizedName": "nefer"
   },
   {
     "id": 10000087,
@@ -13849,7 +13924,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Neuvillette",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Neuvillette"
     },
-    "version": "4.1"
+    "version": "4.1",
+    "normalizedName": "neuvillette"
   },
   {
     "id": 10000070,
@@ -14035,7 +14111,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Nilou",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Nilou"
     },
-    "version": "3.1"
+    "version": "3.1",
+    "normalizedName": "nilou"
   },
   {
     "id": 10000027,
@@ -14221,7 +14298,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Ningguang",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Ningguang"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "ningguang"
   },
   {
     "id": 10000034,
@@ -14407,7 +14485,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Noel",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Noel"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "noelle"
   },
   {
     "id": 10000105,
@@ -14593,7 +14672,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Olorun",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Olorun"
     },
-    "version": "5.2"
+    "version": "5.2",
+    "normalizedName": "ororon"
   },
   {
     "id": 10000035,
@@ -14779,7 +14859,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Qiqi",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Qiqi"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "qiqi"
   },
   {
     "id": 10000052,
@@ -14965,7 +15046,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Shougun",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Shougun"
     },
-    "version": "2.1"
+    "version": "2.1",
+    "normalizedName": "raidenshogun"
   },
   {
     "id": 10000020,
@@ -15151,7 +15233,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Razor",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Razor"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "razor"
   },
   {
     "id": 10000045,
@@ -15337,7 +15420,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Rosaria",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Rosaria"
     },
-    "version": "1.4"
+    "version": "1.4",
+    "normalizedName": "rosaria"
   },
   {
     "id": 10000054,
@@ -15523,7 +15607,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Kokomi",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Kokomi"
     },
-    "version": "2.1"
+    "version": "2.1",
+    "normalizedName": "sangonomiyakokomi"
   },
   {
     "id": 10000053,
@@ -15709,7 +15794,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Sayu",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sayu"
     },
-    "version": "2.0"
+    "version": "2.0",
+    "normalizedName": "sayu"
   },
   {
     "id": 10000097,
@@ -15895,7 +15981,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Sethos",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sethos"
     },
-    "version": "4.7"
+    "version": "4.7",
+    "normalizedName": "sethos"
   },
   {
     "id": 10000063,
@@ -16081,7 +16168,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Shenhe",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Shenhe"
     },
-    "version": "2.4"
+    "version": "2.4",
+    "normalizedName": "shenhe"
   },
   {
     "id": 10000059,
@@ -16267,7 +16355,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Heizo",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Heizo"
     },
-    "version": "2.8"
+    "version": "2.8",
+    "normalizedName": "shikanoinheizou"
   },
   {
     "id": 10000095,
@@ -16453,7 +16542,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Sigewinne",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sigewinne"
     },
-    "version": "4.7"
+    "version": "4.7",
+    "normalizedName": "sigewinne"
   },
   {
     "id": 10000114,
@@ -16638,7 +16728,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_SkirkNew",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_SkirkNew"
     },
-    "version": "5.7"
+    "version": "5.7",
+    "normalizedName": "skirk"
   },
   {
     "id": 10000043,
@@ -16824,7 +16915,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Sucrose",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Sucrose"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "sucrose"
   },
   {
     "id": 10000033,
@@ -17010,7 +17102,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Tartaglia",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Tartaglia"
     },
-    "version": "1.1"
+    "version": "1.1",
+    "normalizedName": "tartaglia"
   },
   {
     "id": 10000050,
@@ -17196,7 +17289,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Tohma",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Tohma"
     },
-    "version": "2.2"
+    "version": "2.2",
+    "normalizedName": "thoma"
   },
   {
     "id": 10000069,
@@ -17382,7 +17476,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Tighnari",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Tighnari"
     },
-    "version": "3.0"
+    "version": "3.0",
+    "normalizedName": "tighnari"
   },
   {
     "id": 10000111,
@@ -17568,7 +17663,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Varesa",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Varesa"
     },
-    "version": "5.5"
+    "version": "5.5",
+    "normalizedName": "varesa"
   },
   {
     "id": 10000128,
@@ -17941,7 +18037,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Venti",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Venti"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "venti"
   },
   {
     "id": 10000075,
@@ -18127,7 +18224,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Wanderer",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Wanderer"
     },
-    "version": "3.3"
+    "version": "3.3",
+    "normalizedName": "wanderer"
   },
   {
     "id": 10000086,
@@ -18313,7 +18411,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Wriothesley",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Wriothesley"
     },
-    "version": "4.1"
+    "version": "4.1",
+    "normalizedName": "wriothesley"
   },
   {
     "id": 10000023,
@@ -18499,7 +18598,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Xiangling",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xiangling"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "xiangling"
   },
   {
     "id": 10000093,
@@ -18685,7 +18785,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Liuyun",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Liuyun"
     },
-    "version": "4.4"
+    "version": "4.4",
+    "normalizedName": "xianyun"
   },
   {
     "id": 10000026,
@@ -18871,7 +18972,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Xiao",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xiao"
     },
-    "version": "1.3"
+    "version": "1.3",
+    "normalizedName": "xiao"
   },
   {
     "id": 10000103,
@@ -19057,7 +19159,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Xilonen",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xilonen"
     },
-    "version": "5.1"
+    "version": "5.1",
+    "normalizedName": "xilonen"
   },
   {
     "id": 10000025,
@@ -19243,7 +19346,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Xingqiu",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xingqiu"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "xingqiu"
   },
   {
     "id": 10000044,
@@ -19429,7 +19533,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Xinyan",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Xinyan"
     },
-    "version": "1.1"
+    "version": "1.1",
+    "normalizedName": "xinyan"
   },
   {
     "id": 10000058,
@@ -19615,7 +19720,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yae",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yae"
     },
-    "version": "2.5"
+    "version": "2.5",
+    "normalizedName": "yaemiko"
   },
   {
     "id": 10000048,
@@ -19801,7 +19907,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Feiyan",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Feiyan"
     },
-    "version": "1.5"
+    "version": "1.5",
+    "normalizedName": "yanfei"
   },
   {
     "id": 10000077,
@@ -19987,7 +20094,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yaoyao",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yaoyao"
     },
-    "version": "3.4"
+    "version": "3.4",
+    "normalizedName": "yaoyao"
   },
   {
     "id": 10000060,
@@ -20173,7 +20281,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yelan",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yelan"
     },
-    "version": "2.7"
+    "version": "2.7",
+    "normalizedName": "yelan"
   },
   {
     "id": 10000049,
@@ -20359,7 +20468,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yoimiya",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yoimiya"
     },
-    "version": "2.0"
+    "version": "2.0",
+    "normalizedName": "yoimiya"
   },
   {
     "id": 10000109,
@@ -20545,7 +20655,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Mizuki",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mizuki"
     },
-    "version": "5.4"
+    "version": "5.4",
+    "normalizedName": "yumemizukimizuki"
   },
   {
     "id": 10000064,
@@ -20731,7 +20842,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yunjin",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yunjin"
     },
-    "version": "2.4"
+    "version": "2.4",
+    "normalizedName": "yunjin"
   },
   {
     "id": 10000030,
@@ -20917,7 +21029,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Zhongli",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Zhongli"
     },
-    "version": "1.1"
+    "version": "1.1",
+    "normalizedName": "zhongli"
   },
   {
     "id": 10000126,
@@ -21102,6 +21215,7 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Zibai",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Zibai"
     },
-    "version": "6.3"
+    "version": "6.3",
+    "normalizedName": "zibai"
   }
 ]
