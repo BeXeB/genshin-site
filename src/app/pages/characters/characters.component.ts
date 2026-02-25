@@ -4,7 +4,7 @@ import { CharacterProfile } from '../../_models/character';
 import { Router } from '@angular/router';
 import { CharacterCardComponent } from '../../_components/character-card/character-card.component';
 import { FormsModule } from '@angular/forms';
-import { PageTitleComponent } from "../../_components/page-title/page-title.component";
+import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 
 @Component({
   selector: 'app-characters',
@@ -41,8 +41,16 @@ export class CharactersComponent implements OnInit {
 
   ngOnInit(): void {
     this.characterService.getCharacters().subscribe((data) => {
-      data = data.filter((char) => char.name !== 'Aether' && char.name !== 'Lumine' && char.name !== 'Manekin' && char.name !== 'Manekina');
-      data.sort((a: CharacterProfile, b: CharacterProfile) => b.version.localeCompare(a.version));
+      data = data.filter(
+        (char) =>
+          char.name !== 'Aether' &&
+          char.name !== 'Lumine' &&
+          char.name !== 'Manekin' &&
+          char.name !== 'Manekina',
+      );
+      data.sort((a: CharacterProfile, b: CharacterProfile) =>
+        b.version.localeCompare(a.version),
+      );
       this.characterData = data;
       this.filteredCharacters = data;
     });
@@ -85,13 +93,5 @@ export class CharactersComponent implements OnInit {
     }
 
     this.filteredCharacters = results;
-  }
-
-  getCharacterKey(name: string): string {
-    return name.replace(/\s+/g, '').toLowerCase();
-  }
-
-  openDetails(name: string): void {
-    this.router.navigate(['/characters', this.getCharacterKey(name)]);
   }
 }

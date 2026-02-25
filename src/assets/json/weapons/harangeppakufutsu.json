@@ -1,0 +1,773 @@
+{
+  "id": 11510,
+  "name": "Haran Geppaku Futsu",
+  "description": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves.",
+  "descriptionRaw": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves.",
+  "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "weaponText": "Sword",
+  "rarity": 5,
+  "story": "This blade was recorded in the \"Anthology of Inazuman Blades\" written by Inspector Mikoshi Nagamasa of Tatarasuna.\nThere were two swords of the \"Geppaku Futsu\" series made by the Futsu school by order: \"Hasui,\" the Wavespike, and \"Haran,\" the Rippling Upheaval.\nOf these two, the \"Haran\" is the sole blade forged by the great smith Masagomaru that remains extant.\n\nMany say that blades are indwelt with the souls of those who forge them...\nThis is how the Anthology begins.\nIt is said that the Hasui blade was forged by the third-generation master of the school, Master Futsu Minori.\nIts blade was a pale blue, and its hamon was as beauteous as rippling water, and so it was oft found at the waist of the Shogun's valet.\nLater, the blade would be broken during a mortal duel to decide the fate of the oni people, and was sent back for reforging.\nAt this time, Minori, who had by now been long tortured by alcohol, old wounds, and the lingering memories of Tatarigami, was a broken woman, not unlike an untempered steel sword.\nNor could the fourth-generation head Futsu Hiroyoshi match his mother's skill.\nIt was his sworn brother, Futsu Masayoshi, the one they call Masagomaru—\nHe was the one who would forge this weapon, allowing the Futsu school's masterpiece to re-enter this world.\nThe two Geppaku Futsu blades look very similar to one another, but their qualities are in fact vastly different.\n\nMasagomaru would only come to name this one work, and the reason why that happened is quite simple, really...\nHe was an orphan taken in by the third-generation master, illiterate by education and aphasic from birth.\nWhen ordered to revive the beauty of the \"Hasui\" blade, he inscribed its name just as it had been before.\n\nWhen Futsu Minori passed on, Masagomaru would help her pass her forging techniques on to Hiroyoshi.\nIndeed, it is said that she had wished for him to take up the mastery of their school, but he demurred multiple times.\nIndeed, the fame from the forging of the \"Haran\" very nearly affected Hiroyoshi's succession to be the fourth-generation head.\nAs such, safe in the knowledge that his sworn brother was now independent, Masagomaru would choose to depart for other lands.\nLater, he would approach other forging schools, gleaning gems of wisdom from other famed smiths.\nIn his latter years, he would have three pupils that he was most proud of: Kaedehara Kagemitsu, Niwa Nagamitsu, and Akame Mitsunaga.\nThese three would create the \"Isshin Sansaku,\" the three great works of the Isshin Art.\n\n\"Then, I was but a born-mute, an ugly, filthy, abandoned child.\"\n\"Like a moth, I longed for warmth in the bitter, cold nights, and what I found was the forge-fires of the smithy.\"\n\"Standing before me was the third-generation master, she who people called surly and arrogant.\"\n\"But she did not bid me to get gone, and even gave me some rice to fill my stomach.\"\n\"Seeing that I was covered in metallic sand, she named me 'Masagomaru.'\"\n\nUnable to speak but subtle in thought, Masagomaru must have had many stories hidden away in his heart.\nAll those unsaid things would finally sink as sediment, disappearing beneath the waves...\n\n\"The third-generation master would tell me, one who could not speak, a great many things.\"\n\"Like the old wound that afflicted one side of her body, like the wishes of her mother and brother,\"\n\"Like the crimson hakama she could never wear, and the giant wave that would one day devour everything...\"\n\nOne night, the child would enter the smithy, seeing the famed but capricious smith within.\nShe hammered at a chunk of iron, not caring as tears streamed down her face...\n\"You forget what you just saw. We clear about that?\"\nHe nodded, flustered. Then the woman suddenly clapped her hands together and smiled broadly.\n\"Right, silly me! You're a good friend, a real keeper of secrets!\"\n\n\"I suppose it is as they say: one who leans into the drink is themselves not to be leaned on too much.\"\n\"But now that I think about it, I should still have accepted her offer to drink together...\"\n\nThe \"Anthology\" also speaks of the differences in form between the Geppaku Futsu blades.\nThe one forged by Futsu Minori was as gently beauteous as the ocean at night, and thus was named \"Hasui.\"\nThe one made by mute Masayoshi was formidable as the driving hurricane, and was thus called \"Haran.\"",
+  "baseAtkValue": 45.9364,
+  "baseStatText": "7.2%",
+  "mainStatType": "FIGHT_PROP_CRITICAL",
+  "mainStatText": "CRIT Rate",
+  "effectName": "Honed Flow",
+  "effectTemplateRaw": "Obtain <color=#99FFFFFF>{0}</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>{1}</color> for 8s.",
+  "r1": {
+    "description": "Obtain 12% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 20% for 8s.",
+    "values": [
+      "12%",
+      "20%"
+    ]
+  },
+  "r2": {
+    "description": "Obtain 15% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 25% for 8s.",
+    "values": [
+      "15%",
+      "25%"
+    ]
+  },
+  "r3": {
+    "description": "Obtain 18% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 30% for 8s.",
+    "values": [
+      "18%",
+      "30%"
+    ]
+  },
+  "r4": {
+    "description": "Obtain 21% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 35% for 8s.",
+    "values": [
+      "21%",
+      "35%"
+    ]
+  },
+  "r5": {
+    "description": "Obtain 24% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 40% for 8s.",
+    "values": [
+      "24%",
+      "40%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114029,
+        "name": "Narukami's Wisdom",
+        "count": 5
+      },
+      {
+        "id": 112017,
+        "name": "Gloomy Statuette",
+        "count": 5
+      },
+      {
+        "id": 112044,
+        "name": "Old Handguard",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114030,
+        "name": "Narukami's Joy",
+        "count": 5
+      },
+      {
+        "id": 112017,
+        "name": "Gloomy Statuette",
+        "count": 18
+      },
+      {
+        "id": 112044,
+        "name": "Old Handguard",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114030,
+        "name": "Narukami's Joy",
+        "count": 9
+      },
+      {
+        "id": 112018,
+        "name": "Dark Statuette",
+        "count": 9
+      },
+      {
+        "id": 112045,
+        "name": "Kageuchi Handguard",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114031,
+        "name": "Narukami's Affection",
+        "count": 5
+      },
+      {
+        "id": 112018,
+        "name": "Dark Statuette",
+        "count": 18
+      },
+      {
+        "id": 112045,
+        "name": "Kageuchi Handguard",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114031,
+        "name": "Narukami's Affection",
+        "count": 9
+      },
+      {
+        "id": 112019,
+        "name": "Deathly Statuette",
+        "count": 14
+      },
+      {
+        "id": 112046,
+        "name": "Famed Handguard",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114032,
+        "name": "Narukami's Valor",
+        "count": 6
+      },
+      {
+        "id": 112019,
+        "name": "Deathly Statuette",
+        "count": 27
+      },
+      {
+        "id": 112046,
+        "name": "Famed Handguard",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Sword_Amenoma",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Amenoma_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Amenoma",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma_Awaken.png"
+  },
+  "version": "2.6",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 45.9364,
+      "specialized": 0.072
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 49.886930400000004,
+      "specialized": 0.072
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 53.7915244,
+      "specialized": 0.072
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 57.74205479999999,
+      "specialized": 0.072
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 61.692585199999996,
+      "specialized": 0.08366399999999999
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 65.6431156,
+      "specialized": 0.08366399999999999
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 69.6395824,
+      "specialized": 0.08366399999999999
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 73.5901128,
+      "specialized": 0.08366399999999999
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 77.58657960000001,
+      "specialized": 0.08366399999999999
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 81.53711,
+      "specialized": 0.09813599999999999
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 85.5335768,
+      "specialized": 0.09813599999999999
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 89.5300436,
+      "specialized": 0.09813599999999999
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 93.5265104,
+      "specialized": 0.09813599999999999
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 97.5689136,
+      "specialized": 0.09813599999999999
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 101.5653804,
+      "specialized": 0.11267999999999999
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 105.60778359999999,
+      "specialized": 0.11267999999999999
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 109.6042504,
+      "specialized": 0.11267999999999999
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 113.64665360000001,
+      "specialized": 0.11267999999999999
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 117.68905679999999,
+      "specialized": 0.11267999999999999
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 121.73146,
+      "specialized": 0.12722399999999998
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 156.8738632,
+      "specialized": 0.12722399999999998
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 160.9622028,
+      "specialized": 0.12722399999999998
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 165.004606,
+      "specialized": 0.12722399999999998
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 169.09294559999998,
+      "specialized": 0.12722399999999998
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 173.1812852,
+      "specialized": 0.141768
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 177.2696248,
+      "specialized": 0.141768
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 181.3579644,
+      "specialized": 0.141768
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 185.446304,
+      "specialized": 0.141768
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 189.58058,
+      "specialized": 0.141768
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 193.6689196,
+      "specialized": 0.15631199999999998
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 197.80319559999998,
+      "specialized": 0.15631199999999998
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 201.93747159999998,
+      "specialized": 0.15631199999999998
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 206.0717476,
+      "specialized": 0.15631199999999998
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 210.20602359999998,
+      "specialized": 0.15631199999999998
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 214.34029959999998,
+      "specialized": 0.170856
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 218.520512,
+      "specialized": 0.170856
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 222.654788,
+      "specialized": 0.170856
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 226.83500039999998,
+      "specialized": 0.170856
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 231.0152128,
+      "specialized": 0.170856
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 235.19542519999996,
+      "specialized": 0.1854
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 270.47563759999997,
+      "specialized": 0.1854
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 274.65585,
+      "specialized": 0.1854
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 278.88199879999996,
+      "specialized": 0.1854
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 283.0622112,
+      "specialized": 0.1854
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 287.28836,
+      "specialized": 0.19994399999999998
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 291.5145088,
+      "specialized": 0.19994399999999998
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 295.74065759999996,
+      "specialized": 0.19994399999999998
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 299.9668064,
+      "specialized": 0.19994399999999998
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 304.1929552,
+      "specialized": 0.19994399999999998
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 308.419104,
+      "specialized": 0.21448799999999998
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 343.8911892,
+      "specialized": 0.21448799999999998
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 348.1632744,
+      "specialized": 0.21448799999999998
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 352.3894232,
+      "specialized": 0.21448799999999998
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 356.6615084,
+      "specialized": 0.21448799999999998
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 360.97952999999995,
+      "specialized": 0.22903199999999999
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 365.25161520000006,
+      "specialized": 0.22903199999999999
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 369.52370040000005,
+      "specialized": 0.22903199999999999
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 373.841722,
+      "specialized": 0.22903199999999999
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 378.1138072,
+      "specialized": 0.22903199999999999
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 382.43182879999995,
+      "specialized": 0.243576
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 417.8498504,
+      "specialized": 0.243576
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 422.167872,
+      "specialized": 0.243576
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 426.53183,
+      "specialized": 0.243576
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 430.84985159999997,
+      "specialized": 0.243576
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 435.1678732,
+      "specialized": 0.25811999999999996
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 439.5318312,
+      "specialized": 0.25811999999999996
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 443.8957892,
+      "specialized": 0.25811999999999996
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 448.2597472,
+      "specialized": 0.25811999999999996
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 452.62370519999996,
+      "specialized": 0.25811999999999996
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 456.9876632,
+      "specialized": 0.272592
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 492.49755759999994,
+      "specialized": 0.272592
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 496.86151559999996,
+      "specialized": 0.272592
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 501.27141000000006,
+      "specialized": 0.272592
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 505.68130440000004,
+      "specialized": 0.272592
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 510.0911987999999,
+      "specialized": 0.287136
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 514.5010932,
+      "specialized": 0.287136
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 518.9109876,
+      "specialized": 0.287136
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 523.320882,
+      "specialized": 0.287136
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 527.7767128,
+      "specialized": 0.287136
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 532.2325436,
+      "specialized": 0.30168
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 567.742438,
+      "specialized": 0.30168
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 572.1982687999999,
+      "specialized": 0.30168
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 576.6540996,
+      "specialized": 0.30168
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 581.1558668,
+      "specialized": 0.30168
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 585.6116976,
+      "specialized": 0.316224
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 590.1134648,
+      "specialized": 0.316224
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 594.5692956,
+      "specialized": 0.316224
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 599.0710627999999,
+      "specialized": 0.316224
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 603.57283,
+      "specialized": 0.316224
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 608.0745972,
+      "specialized": 0.330768
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 152.83146,
+      "specialized": 0.12722399999999998
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 266.29542519999995,
+      "specialized": 0.1854
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 339.619104,
+      "specialized": 0.21448799999999998
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 413.53182879999997,
+      "specialized": 0.243576
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 488.08766319999995,
+      "specialized": 0.272592
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 563.3325436,
+      "specialized": 0.30168
+    }
+  }
+}

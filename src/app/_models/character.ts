@@ -1,9 +1,10 @@
-import { ElementType, QualityType, WeaponType } from "./enum";
-import { Items } from "./items";
+import { ElementType, QualityType, StatType, WeaponType } from './enum';
+import { Items } from './items';
 
 export type CharacterProfile = {
   id: number;
   name: string;
+  normalizedName: string;
 
   title: string;
   description: string;
@@ -23,15 +24,12 @@ export type CharacterProfile = {
   affiliation: string;
   region: string;
 
-  substatType: string;
+  substatType: StatType;
   substatText: string;
 
   constellation: string;
 
-  costs: Record<
-    `ascend${1 | 2 | 3 | 4 | 5 | 6}`,
-    Items[]
-  >;
+  costs: Record<`ascend${1 | 2 | 3 | 4 | 5 | 6}`, Items[]>;
 
   images: {
     filename_icon?: string;
@@ -43,23 +41,20 @@ export type CharacterProfile = {
   version: string;
 };
 
-export type CharacterSkills = {
+export type CharacterTalentss = {
   id: number;
   name: string;
 
-  combat1: CombatSkill;
-  combat2: CombatSkill;
-  combat3: CombatSkill;
+  combat1: CombatTalent;
+  combat2: CombatTalent;
+  combat3: CombatTalent;
 
-  passive1: PassiveSkill;
-  passive2: PassiveSkill;
-  passive3?: PassiveSkill;
-  passive4?: PassiveSkill;
+  passive1: PassiveTalent;
+  passive2: PassiveTalent;
+  passive3?: PassiveTalent;
+  passive4?: PassiveTalent;
 
-  costs: Record<
-    `lvl${2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10}`,
-    Items[]
-  >;
+  costs: Record<`lvl${2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10}`, Items[]>;
 
   images?: {
     filename_combat1?: string;
@@ -74,17 +69,19 @@ export type CharacterSkills = {
   version: string;
 };
 
-export type CombatSkill = {
+export type CombatTalent = {
   name: string;
   description: string;
+  descriptionRaw: string;
   attributes: {
     labels: string[];
     parameters: Record<string, number[]>;
   };
 };
 
-export type PassiveSkill = {
+export type PassiveTalent = {
   name: string;
+  descriptionRaw: string;
   description: string;
 };
 
@@ -103,12 +100,12 @@ export type CharacterConstellation = {
   id: number;
   name: string;
 
-  c1: ConstellationSkill;
-  c2: ConstellationSkill;
-  c3: ConstellationSkill;
-  c4: ConstellationSkill;
-  c5: ConstellationSkill;
-  c6: ConstellationSkill;
+  c1: ConstellationDetail;
+  c2: ConstellationDetail;
+  c3: ConstellationDetail;
+  c4: ConstellationDetail;
+  c5: ConstellationDetail;
+  c6: ConstellationDetail;
 
   images: {
     filename_c1: string;
@@ -123,14 +120,15 @@ export type CharacterConstellation = {
   version: string;
 };
 
-export type ConstellationSkill = {
+export type ConstellationDetail = {
   name: string;
+  descriptionRaw: string;
   description: string;
 };
 
 export type Character = {
   profile: CharacterProfile;
-  skills?: CharacterSkills;
+  skills?: CharacterTalentss;
   stats: CharacterStats;
   constellation?: CharacterConstellation;
 };

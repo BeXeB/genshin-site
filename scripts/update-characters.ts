@@ -4,14 +4,14 @@ import path from 'path';
 import {
   Character,
   CharacterProfile,
-  CharacterSkills,
+  CharacterTalentss,
   CharacterConstellation,
   CharacterStats,
-  CombatSkill,
-  PassiveSkill,
-  ConstellationSkill,
+  CombatTalent,
+  PassiveTalent,
+  ConstellationDetail,
 } from '../src/app/_models/character';
-import { ElementType, QualityType, WeaponType } from '../src/app/_models/enum';
+import { ElementType, QualityType, StatType, WeaponType } from '../src/app/_models/enum';
 
 const OUTPUT_PATH = path.join(__dirname, '../src/assets/json/characters');
 const queryLanguage = genshindb.Language.English;
@@ -20,7 +20,7 @@ const characters = genshindb.characters('names', {
 });
 
 function normalize(name: string): string {
-  return name.replace(/\s+/g, '').toLowerCase();
+  return name.replace(/[\s'"`]+/g, '').toLowerCase();
 }
 
 function toWeaponType(value: string): WeaponType {
@@ -35,10 +35,15 @@ function toQualityType(value: string): QualityType {
   return value as QualityType;
 }
 
+function toStatType(value: string): StatType {
+  return value as StatType;
+}
+
 function mapProfile(profile: genshindb.Character): CharacterProfile {
   return {
     id: profile.id,
     name: profile.name,
+    normalizedName: normalize(profile.name),
 
     title: profile.title,
     description: profile.description,
@@ -58,7 +63,7 @@ function mapProfile(profile: genshindb.Character): CharacterProfile {
     affiliation: profile.affiliation,
     region: profile.region,
 
-    substatType: profile.substatType,
+    substatType: toStatType(profile.substatType),
     substatText: profile.substatText,
 
     constellation: profile.constellation,
@@ -75,44 +80,44 @@ function mapProfile(profile: genshindb.Character): CharacterProfile {
   };
 }
 
-function mapSkills(skills: genshindb.Talent): CharacterSkills {
-  let mappedCombatSkills: Record<string, CombatSkill> = {
-    combat1: mapCombatSkill(skills.combat1)
+function mapTalents(skills: genshindb.Talent): CharacterTalentss {
+  let mappedCombatTalents: Record<string, CombatTalent> = {
+    combat1: mapCombatTalent(skills.combat1)
   };
 
   if (skills.combat2) {
-    mappedCombatSkills['combat2'] = mapCombatSkill(skills.combat2);
+    mappedCombatTalents['combat2'] = mapCombatTalent(skills.combat2);
   }
 
   if (skills.combat3) {
-    mappedCombatSkills['combat3'] = mapCombatSkill(skills.combat3);
+    mappedCombatTalents['combat3'] = mapCombatTalent(skills.combat3);
   }
 
-  let mappedPassiveSkills: Record<string, PassiveSkill> = {
-    passive1: mapPassiveSkill(skills.passive1),
-    passive2: mapPassiveSkill(skills.passive2),
+  let mappedPassiveTalents: Record<string, PassiveTalent> = {
+    passive1: mapPassiveTalent(skills.passive1),
+    passive2: mapPassiveTalent(skills.passive2),
   };
 
   if (skills.passive3) {
-    mappedPassiveSkills['passive3'] = mapPassiveSkill(skills.passive3);
+    mappedPassiveTalents['passive3'] = mapPassiveTalent(skills.passive3);
   }
 
   if (skills.passive4) {
-    mappedPassiveSkills['passive4'] = mapPassiveSkill(skills.passive4);
+    mappedPassiveTalents['passive4'] = mapPassiveTalent(skills.passive4);
   }
 
   return {
     id: skills.id,
     name: skills.name,
 
-    combat1: mappedCombatSkills['combat1'],
-    combat2: mappedCombatSkills['combat2'],
-    combat3: mappedCombatSkills['combat3'],
+    combat1: mappedCombatTalents['combat1'],
+    combat2: mappedCombatTalents['combat2'],
+    combat3: mappedCombatTalents['combat3'],
 
-    passive1: mappedPassiveSkills['passive1'],
-    passive2: mappedPassiveSkills['passive2'],
-    passive3: mappedPassiveSkills['passive3'],
-    passive4: mappedPassiveSkills['passive4'],
+    passive1: mappedPassiveTalents['passive1'],
+    passive2: mappedPassiveTalents['passive2'],
+    passive3: mappedPassiveTalents['passive3'],
+    passive4: mappedPassiveTalents['passive4'],
 
     costs: skills.costs,
 
@@ -129,21 +134,23 @@ function mapSkills(skills: genshindb.Talent): CharacterSkills {
   };
 }
 
-function mapCombatSkill(skill: genshindb.CombatTalentDetail): CombatSkill {
+function mapCombatTalent(talent: genshindb.CombatTalentDetail): CombatTalent {
   return {
-    name: skill.name,
-    description: skill.description,
+    name: talent.name,
+    description: talent.description,
+    descriptionRaw: talent.descriptionRaw,
     attributes: {
-      labels: skill.attributes.labels,
-      parameters: skill.attributes.parameters,
+      labels: talent.attributes.labels,
+      parameters: talent.attributes.parameters,
     },
   };
 }
 
-function mapPassiveSkill(skill: genshindb.PassiveTalentDetail): PassiveSkill {
+function mapPassiveTalent(talent: genshindb.PassiveTalentDetail): PassiveTalent {
   return {
-    name: skill.name,
-    description: skill.description,
+    name: talent.name,
+    descriptionRaw: talent.descriptionRaw,
+    description: talent.description,
   };
 }
 
@@ -176,9 +183,10 @@ function mapConstellation(
 
 function mapConstellationDetail(
   constellation: genshindb.ConstellationDetail,
-): ConstellationSkill {
+): ConstellationDetail {
   return {
     name: constellation.name,
+    descriptionRaw: constellation.descriptionRaw,
     description: constellation.description,
   };
 }
@@ -230,7 +238,6 @@ async function run(): Promise<void> {
 
       if (!profileRes) {
         console.error(`Failed to fetch data for ${name}`);
-        console.error('Profile:', profileRes);
         continue;
       }
 
@@ -238,7 +245,7 @@ async function run(): Promise<void> {
       const levels: number[] = Array.from({ length: 90 }, (_, i) => i + 1);
       levels.push(95);
       levels.push(100);
-      const ascensionLevels = [20, 40, 50, 60, 70, 80];
+      const ascensionLevels: number[] = [20, 40, 50, 60, 70, 80];
 
       for (const level of levels) {
         const stats = profileRes.stats(level);
@@ -264,11 +271,11 @@ async function run(): Promise<void> {
         };
       }
 
-      let skills: CharacterSkills | undefined = undefined;
+      let skills: CharacterTalentss | undefined = undefined;
       let constellations: CharacterConstellation | undefined = undefined;
 
       if (skillsRes) {
-        skills = mapSkills(skillsRes);
+        skills = mapTalents(skillsRes);
       }
 
       if (constellationRes) {

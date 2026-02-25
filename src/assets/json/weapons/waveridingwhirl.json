@@ -1,0 +1,776 @@
+{
+  "id": 14430,
+  "name": "Waveriding Whirl",
+  "description": "A boomerang made from the fangs of a giant sea serpent. It was a rare weapon indeed that the giant Tupac would call \"trusty.\"",
+  "descriptionRaw": "A boomerang made from the fangs of a giant sea serpent. It was a rare weapon indeed that the giant Tupac would call \"trusty.\"",
+  "weaponType": "WEAPON_CATALYST",
+  "weaponText": "Catalyst",
+  "rarity": 4,
+  "story": "Once, when the mighty winds blew through the valley where the springs converged, a giant who towered like a mountain once stood by the sea's edge.\nWithin his sandstone-like body, a scorching heart burned, and the steam that rose thereby nigh blocked out the sun.\nAll knew that this was Tupac of the Meztli, and that none who ever lived was taller than he.\nFrom the mountains to the seas, from the forests to the plains, not one in Natlan was his equal.\n\nThis was a rare time of prosperity. Peace reigned in the four corners of the earth. Even the ancient shadow-foe was silent.\nUnder the sunlight, people flourished and were at ease, almost forgetting the ancient, traditional night patrols.\nYet, though all the tribes recognized his name, and even the rebellious hero was hard-pressed to match him,\nStill mighty Tupac was sullen, his wild spirit like a dragon trapped in a pool.\n\n\"I should have been born in the times of yore. Then, I might have stood alongside masterful Xbalanque, cleaving the skulls of wicked dragons from their necks.\"\n\"Or perhaps I should have been one of those who raised the golden-eyed royal banner, striking at the brutal Python King and saving the people from destruction.\"\n\"Shall this strength of mine be wasted upon this age of mediocrity?\"\n\nThe waves lapped against his feet, the flocks of gulls circled the reefs, and the sea breeze began to sing.\nSince he had no equals on land, the only thing to do now was to look to the untouched seas beyond.\nIf he could bring back the great bones of some titanic beast, or discover some treasures from times bygone, he might not have lived in vain.\nAnd so he stepped into the sea's wrathful churn, and let the endless currents carry him to parts unknown.\n\nFirst, he encountered a winged dragon once exiled by a wise king of old, and its wings served as sails to catch the wind.\nNext came the whale that once drove the waves themselves backward. Its bones the giant used as his white boat.\nThen came the voracious sea python of the depths, whose fang became Tupac's trusty weapon.\nAfter turning that great seabed-dwelling serpent into a delicious meal to go with his drink, he at last reached the edge of the sea.\n\n\"Tupac, hero of the blazing lands, valiant titan, rest your arrogant waves here.\"\n\"You are sullen, for the deathly path is yet hidden, and the dark gate has not revealed itself to you.\"\n\"Hone your flesh and blood, that they may be as iron armor. Temper your muscle and bone, that they may be as a golden mace.\"\n\"Lose not your true heart, and forget not your oath, until the day the exile, who was once your foe, returns.\"\n\nWhen the final moment came, mighty Tupac finally understood his duty.\nCarrying the master of flames, he came to the place where fire belonged, the Lord of the Night's admonishment still ringing in his ears.\nForever etched into the earth would his legend be, no less than those of any other ancient hero.\nAnd thus did he witness death's door showing itself to him, just as he had once sworn to the deity.",
+  "baseAtkValue": 41.0671,
+  "baseStatText": "13.3%",
+  "mainStatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "mainStatText": "Energy Recharge",
+  "effectName": "Fangs Flying To and Fro",
+  "effectTemplateRaw": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by <color=#99FFFFFF>{0}</color>. For every Hydro Elemental Type character in the party, Max HP is increased by another <color=#99FFFFFF>{1}</color>, and the maximum increase that can be achieved in this way is <color=#99FFFFFF>{2}</color>. Can be triggered once every 15s.",
+  "r1": {
+    "description": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by 20%. For every Hydro Elemental Type character in the party, Max HP is increased by another 12%, and the maximum increase that can be achieved in this way is 24%. Can be triggered once every 15s.",
+    "values": [
+      "20%",
+      "12%",
+      "24%"
+    ]
+  },
+  "r2": {
+    "description": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by 25%. For every Hydro Elemental Type character in the party, Max HP is increased by another 15%, and the maximum increase that can be achieved in this way is 30%. Can be triggered once every 15s.",
+    "values": [
+      "25%",
+      "15%",
+      "30%"
+    ]
+  },
+  "r3": {
+    "description": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by 30%. For every Hydro Elemental Type character in the party, Max HP is increased by another 18%, and the maximum increase that can be achieved in this way is 36%. Can be triggered once every 15s.",
+    "values": [
+      "30%",
+      "18%",
+      "36%"
+    ]
+  },
+  "r4": {
+    "description": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by 35%. For every Hydro Elemental Type character in the party, Max HP is increased by another 21%, and the maximum increase that can be achieved in this way is 42%. Can be triggered once every 15s.",
+    "values": [
+      "35%",
+      "21%",
+      "42%"
+    ]
+  },
+  "r5": {
+    "description": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by 40%. For every Hydro Elemental Type character in the party, Max HP is increased by another 24%, and the maximum increase that can be achieved in this way is 48%. Can be triggered once every 15s.",
+    "values": [
+      "40%",
+      "24%",
+      "48%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114061,
+        "name": "Blazing Sacrificial Heart's Terror",
+        "count": 3
+      },
+      {
+        "id": 112107,
+        "name": "Shard of a Shattered Will",
+        "count": 3
+      },
+      {
+        "id": 112101,
+        "name": "Juvenile Fang",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114062,
+        "name": "Blazing Sacrificial Heart's Hesitance",
+        "count": 3
+      },
+      {
+        "id": 112107,
+        "name": "Shard of a Shattered Will",
+        "count": 12
+      },
+      {
+        "id": 112101,
+        "name": "Juvenile Fang",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114062,
+        "name": "Blazing Sacrificial Heart's Hesitance",
+        "count": 6
+      },
+      {
+        "id": 112108,
+        "name": "Locus of a Clear Will",
+        "count": 6
+      },
+      {
+        "id": 112102,
+        "name": "Seasoned Fang",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114063,
+        "name": "Blazing Sacrificial Heart's Resolve",
+        "count": 3
+      },
+      {
+        "id": 112108,
+        "name": "Locus of a Clear Will",
+        "count": 12
+      },
+      {
+        "id": 112102,
+        "name": "Seasoned Fang",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114063,
+        "name": "Blazing Sacrificial Heart's Resolve",
+        "count": 6
+      },
+      {
+        "id": 112109,
+        "name": "Sigil of a Striding Will",
+        "count": 9
+      },
+      {
+        "id": 112103,
+        "name": "Tyrant's Fang",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114064,
+        "name": "Blazing Sacrificial Heart's Splendor",
+        "count": 4
+      },
+      {
+        "id": 112109,
+        "name": "Sigil of a Striding Will",
+        "count": 18
+      },
+      {
+        "id": 112103,
+        "name": "Tyrant's Fang",
+        "count": 12
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Catalyst_Umpakati",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Umpakati_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Umpakati",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Umpakati.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Umpakati_Awaken.png"
+  },
+  "version": "5.2",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 41.0671,
+      "specialized": 0.133333
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 44.229266700000004,
+      "specialized": 0.133333
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 47.391433400000004,
+      "specialized": 0.133333
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 50.512533000000005,
+      "specialized": 0.133333
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 53.633632600000006,
+      "specialized": 0.154932946
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 56.7547322,
+      "specialized": 0.154932946
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 59.83476470000001,
+      "specialized": 0.154932946
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 62.9558643,
+      "specialized": 0.154932946
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 65.99482970000001,
+      "specialized": 0.154932946
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 69.0748622,
+      "specialized": 0.181732879
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 72.1548947,
+      "specialized": 0.181732879
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 75.19386010000001,
+      "specialized": 0.181732879
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 78.2328255,
+      "specialized": 0.181732879
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 81.27179090000001,
+      "specialized": 0.181732879
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 84.2696892,
+      "specialized": 0.208666145
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 87.3086546,
+      "specialized": 0.208666145
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 90.3065529,
+      "specialized": 0.208666145
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 93.3044512,
+      "specialized": 0.208666145
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 96.30234950000002,
+      "specialized": 0.208666145
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 99.2591807,
+      "specialized": 0.235599411
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 128.157079,
+      "specialized": 0.235599411
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 131.1139102,
+      "specialized": 0.235599411
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 134.0707414,
+      "specialized": 0.235599411
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 137.0686397,
+      "specialized": 0.235599411
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 139.9844038,
+      "specialized": 0.26253267700000005
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 142.941235,
+      "specialized": 0.26253267700000005
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 145.89806620000002,
+      "specialized": 0.26253267700000005
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 148.8138303,
+      "specialized": 0.26253267700000005
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 151.77066150000002,
+      "specialized": 0.26253267700000005
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 154.68642560000004,
+      "specialized": 0.289465943
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 157.6021897,
+      "specialized": 0.289465943
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 160.51795380000002,
+      "specialized": 0.289465943
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 163.43371790000003,
+      "specialized": 0.289465943
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 166.34948200000002,
+      "specialized": 0.289465943
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 169.22417900000002,
+      "specialized": 0.31639920900000007
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 172.1399431,
+      "specialized": 0.31639920900000007
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 175.05570720000003,
+      "specialized": 0.31639920900000007
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 177.93040420000003,
+      "specialized": 0.31639920900000007
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 180.80510120000002,
+      "specialized": 0.31639920900000007
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 183.67979820000002,
+      "specialized": 0.343332475
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 212.5955623,
+      "specialized": 0.343332475
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 215.47025930000004,
+      "specialized": 0.343332475
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 218.3449563,
+      "specialized": 0.343332475
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 221.1785862,
+      "specialized": 0.343332475
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 224.05328320000004,
+      "specialized": 0.37026574100000004
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 226.9279802,
+      "specialized": 0.37026574100000004
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 229.8026772,
+      "specialized": 0.37026574100000004
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 232.6363071,
+      "specialized": 0.37026574100000004
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 235.51100410000004,
+      "specialized": 0.37026574100000004
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 238.344634,
+      "specialized": 0.39719900700000005
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 267.0782639,
+      "specialized": 0.39719900700000005
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 269.95296090000005,
+      "specialized": 0.39719900700000005
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 272.7865908,
+      "specialized": 0.39719900700000005
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 275.6202207,
+      "specialized": 0.39719900700000005
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 278.4538506,
+      "specialized": 0.424132273
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 281.2874805,
+      "specialized": 0.424132273
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 284.1211104,
+      "specialized": 0.424132273
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 286.9547403,
+      "specialized": 0.424132273
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 289.78837020000003,
+      "specialized": 0.424132273
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 292.62200010000004,
+      "specialized": 0.451065539
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 321.35563,
+      "specialized": 0.451065539
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 324.14819280000006,
+      "specialized": 0.451065539
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 326.9818227,
+      "specialized": 0.451065539
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 329.8154526,
+      "specialized": 0.451065539
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 332.6080154,
+      "specialized": 0.477998805
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 335.4416453,
+      "specialized": 0.477998805
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 338.23420810000005,
+      "specialized": 0.477998805
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 341.06783800000005,
+      "specialized": 0.477998805
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 343.86040080000004,
+      "specialized": 0.477998805
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 346.6529636,
+      "specialized": 0.5047987380000001
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 375.4865935,
+      "specialized": 0.5047987380000001
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 378.2791563,
+      "specialized": 0.5047987380000001
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 381.0717191,
+      "specialized": 0.5047987380000001
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 383.86428190000004,
+      "specialized": 0.5047987380000001
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 386.6568447,
+      "specialized": 0.531732004
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 389.49047459999997,
+      "specialized": 0.531732004
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 392.2830374,
+      "specialized": 0.531732004
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 395.0756002,
+      "specialized": 0.531732004
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 397.86816300000004,
+      "specialized": 0.531732004
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 400.6607258,
+      "specialized": 0.5586652700000001
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 429.31222149999996,
+      "specialized": 0.5586652700000001
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 432.1047843,
+      "specialized": 0.5586652700000001
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 434.89734710000005,
+      "specialized": 0.5586652700000001
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 437.6899099,
+      "specialized": 0.5586652700000001
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 440.4824727,
+      "specialized": 0.5855985360000001
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 443.27503550000006,
+      "specialized": 0.5855985360000001
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 446.0265312,
+      "specialized": 0.5855985360000001
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 448.81909399999995,
+      "specialized": 0.5855985360000001
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 451.6116568,
+      "specialized": 0.5855985360000001
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 454.36315250000007,
+      "specialized": 0.6125318020000001
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 125.15918070000001,
+      "specialized": 0.235599411
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 209.67979820000002,
+      "specialized": 0.343332475
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 264.244634,
+      "specialized": 0.39719900700000005
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 318.5220001,
+      "specialized": 0.451065539
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 372.6529636,
+      "specialized": 0.5047987380000001
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 426.5607258,
+      "specialized": 0.5586652700000001
+    }
+  }
+}

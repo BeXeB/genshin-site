@@ -1,54 +1,102 @@
-import fs from "fs";
-import path from "path";
+import fs from 'fs';
+import path from 'path';
 
 const CHARACTER_JSON_DIR = path.join(
   __dirname,
-  "../src/assets/json/characters"
+  '../src/assets/json/characters',
 );
+const WEAPON_JSON_DIR = path.join(__dirname, '../src/assets/json/weapons');
 
-const ASSET_DIR = path.join(
-  __dirname,
-  "../src/assets/images/characters"
-);
+const ASSET_DIR_CHAR = path.join(__dirname, '../src/assets/images/characters');
+const ASSET_DIR_WEAPONS = path.join(__dirname, '../src/assets/images/weapons');
 
 const SKILL_IMAGE_MAP: Record<string, string> = {
-  filename_combat2: "combat2.png",
-  filename_combat3: "combat3.png",
-  filename_passive1: "passive1.png",
-  filename_passive2: "passive2.png",
-  filename_passive3: "passive3.png",
-  filename_passive4: "passive4.png",
+  filename_combat2: 'combat2.png',
+  filename_combat3: 'combat3.png',
+  filename_passive1: 'passive1.png',
+  filename_passive2: 'passive2.png',
+  filename_passive3: 'passive3.png',
+  filename_passive4: 'passive4.png',
 };
 
 const CONSTELLATION_IMAGE_MAP: Record<string, string> = {
-  filename_c1: "c1.png",
-  filename_c2: "c2.png",
-  filename_c3: "c3.png",
-  filename_c4: "c4.png",
-  filename_c5: "c5.png",
-  filename_c6: "c6.png",
+  filename_c1: 'c1.png',
+  filename_c2: 'c2.png',
+  filename_c3: 'c3.png',
+  filename_c4: 'c4.png',
+  filename_c5: 'c5.png',
+  filename_c6: 'c6.png',
 };
 
+const PROFILE_IMAGE_MAP: Record<string, string> = {
+  filename_icon: 'icon.png',
+  filename_iconCard: 'card.png',
+  filename_sideIcon: 'side.png',
+  filename_gachaSplash: 'gacha-splash.png',
+  filename_gachaSlice: 'gacha-icon.png',
+};
+
+const WEAPON_IMAGE_MAP: Record<string, string> = {
+  filename_icon: 'icon.png',
+  filename_awakenIcon: 'awaken.png',
+  filename_gacha: 'gacha.png',
+};
+
+const IGNORE_MISSING: Set<string> = new Set([
+  'manekin/card.png',
+  'manekin/gacha-splash.png',
+  'manekin/gacha-icon.png',
+  'manekina/card.png',
+  'manekina/gacha-splash.png',
+  'manekina/gacha-icon.png',
+]);
+
 function check() {
-  const files = fs.readdirSync(CHARACTER_JSON_DIR);
+  const characterFiles = fs.readdirSync(CHARACTER_JSON_DIR);
 
   let missingCount = 0;
 
-  files.forEach((file) => {
-    if (!file.endsWith(".json")) return;
-    if (file === "profiles.json" || file === "index.json") return;
+  characterFiles.forEach((file) => {
+    if (!file.endsWith('.json')) return;
+    if (file === 'profiles.json' || file === 'index.json') return;
 
     const characterName = path.parse(file).name;
 
     const jsonPath = path.join(CHARACTER_JSON_DIR, file);
-    const characterData = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
+    const characterData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
 
-    const skillDir = path.join(ASSET_DIR, characterName, "skills");
+    const skillDir = path.join(ASSET_DIR_CHAR, characterName, 'skills');
     const constellationDir = path.join(
-      ASSET_DIR,
+      ASSET_DIR_CHAR,
       characterName,
-      "constellation"
+      'constellation',
     );
+
+    // --- PROFILE IMAGES ---
+    if (characterData.profile?.images) {
+      const profileDir = path.join(ASSET_DIR_CHAR, characterName);
+
+      for (const [jsonKey, outputFile] of Object.entries(PROFILE_IMAGE_MAP)) {
+        const originalName =
+          characterData.profile.images[
+            jsonKey as keyof typeof characterData.profile.images
+          ];
+        if (!originalName) continue;
+
+        const expectedPath = path.join(profileDir, outputFile);
+
+        if (!fs.existsSync(expectedPath)) {
+          const key = `${characterName}/${outputFile}`;
+
+          if (!IGNORE_MISSING.has(key)) {
+            console.log(
+              `❌ ${characterName}/${outputFile}  (JSON: ${originalName}.png)`,
+            );
+            missingCount++;
+          }
+        }
+      }
+    }
 
     // --- SKILLS ---
     if (characterData.skills?.images) {
@@ -60,7 +108,7 @@ function check() {
 
         if (!fs.existsSync(expectedPath)) {
           console.log(
-            `❌ ${characterName}/skills/${outputFile}  (JSON: ${originalName}.png)`
+            `❌ ${characterName}/skills/${outputFile}  (JSON: ${originalName}.png)`,
           );
           missingCount++;
         }
@@ -70,7 +118,7 @@ function check() {
     // --- CONSTELLATIONS ---
     if (characterData.constellation?.images) {
       for (const [jsonKey, outputFile] of Object.entries(
-        CONSTELLATION_IMAGE_MAP
+        CONSTELLATION_IMAGE_MAP,
       )) {
         const originalName = characterData.constellation.images[jsonKey];
         if (!originalName) continue;
@@ -79,7 +127,39 @@ function check() {
 
         if (!fs.existsSync(expectedPath)) {
           console.log(
-            `❌ ${characterName}/constellation/${outputFile}  (JSON: ${originalName}.png)`
+            `❌ ${characterName}/constellation/${outputFile}  (JSON: ${originalName}.png)`,
+          );
+          missingCount++;
+        }
+      }
+    }
+  });
+
+  const weaponFiles = fs.readdirSync(WEAPON_JSON_DIR);
+
+  weaponFiles.forEach((file) => {
+    if (!file.endsWith('.json')) return;
+    if (file === 'index.json') return;
+
+    const weaponName = path.parse(file).name;
+
+    const jsonPath = path.join(WEAPON_JSON_DIR, file);
+    const weaponData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+
+    const weaponDir = path.join(ASSET_DIR_WEAPONS, weaponName);
+
+    if (weaponData.images) {
+      for (const [jsonKey, outputFile] of Object.entries(WEAPON_IMAGE_MAP)) {
+        const originalName =
+          weaponData.images[jsonKey as keyof typeof weaponData.images];
+
+        if (!originalName) continue;
+
+        const expectedPath = path.join(weaponDir, outputFile);
+
+        if (!fs.existsSync(expectedPath)) {
+          console.log(
+            `❌ weapons/${weaponName}/${outputFile}  (JSON: ${originalName}.png)`,
           );
           missingCount++;
         }
@@ -88,7 +168,7 @@ function check() {
   });
 
   if (missingCount === 0) {
-    console.log("✅ No missing images found.");
+    console.log('✅ No missing images found.');
   } else {
     console.log(`\n⚠ Total missing images: ${missingCount}`);
   }

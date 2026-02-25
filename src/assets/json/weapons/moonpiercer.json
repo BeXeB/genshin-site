@@ -1,0 +1,768 @@
+{
+  "id": 13417,
+  "name": "Moonpiercer",
+  "description": "A weapon you obtained from an Aranara tale. It is shaped like a giant arrow and can be used as a spear.",
+  "descriptionRaw": "A weapon you obtained from an Aranara tale. It is shaped like a giant arrow and can be used as a spear.",
+  "weaponType": "WEAPON_POLE",
+  "weaponText": "Polearm",
+  "rarity": 4,
+  "story": "\"This story is about all the children who are fascinated by the moonlight...\"\n\nSometimes, when looking at the solitary moon, the children would mourn just as the last king of the forest did as he was dying.\nAnother legend says that if you drink water reflecting the full moon from a small pool within the footprint of the forest king, you will become the king's attendant.\n\nThe tale of the moon goes like this: this story came from a very ancient dream, one that was hidden in a Nilotpala Lotus.\nLong before Aramuhukunda had been born from the pomegranate, and before a great and noble race and your ancestors walked the earth together,\nThere were once three sisters. When night came, they would leave the pearl-colored palace to roam the desert, and Nilotpala Lotuses would bloom at their feet.\n\n...\nUltimately, two moon-wheels shattered into dust and disappeared. The last of the sisters was so overcome with sorrow that she would never leave her palace again.\nAfter a long time, the moon debris finally fell to the earth. At that time, the god of vegetation had already brought the forest to the desert lands.\nWhere the dust of the moon fell, the Nilotpala Lotuses bloom. And those children who breathe in the dust will have a pearl-like moon in their hearts.\nThis is why there are always children who are confused by the moon, and the reason why the Nilotpala Lotus blossoms every night, and why the moon always favors these children.\nBecause the three sisters, who mirror each other, long to be reunited.\n\nThe Nilotpala Lotus withered after telling this story. She had waited long — long enough for the desert to become a jungle, and for the great race to be dethroned,\nLong enough for us to appear on the earth, and for the Aranara who told me this story to appear before her and speak to her.\nThat Aranara lost many, many more memories time and time again, until Vanarana was destroyed and we entered a dream.\nBut that is just as well, for the story of the moon will grow into a pearly moon in our hearts as well as yours.\n\nChildren fascinated by the moon will weep when they gaze upon it, for the moon has turned into fine sand and entered their eyes.\nIn countless tales, not a single tear will be in vain.",
+  "baseAtkValue": 43.7349,
+  "baseStatText": "24",
+  "mainStatType": "FIGHT_PROP_ELEMENT_MASTERY",
+  "mainStatText": "Elemental Mastery",
+  "effectName": "Stillwood Moonshadow",
+  "effectTemplateRaw": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <color=#99FFFFFF>{0}</color> ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+  "r1": {
+    "description": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 16% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+    "values": [
+      "16%"
+    ]
+  },
+  "r2": {
+    "description": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 20% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+    "values": [
+      "20%"
+    ]
+  },
+  "r3": {
+    "description": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 24% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+    "values": [
+      "24%"
+    ]
+  },
+  "r4": {
+    "description": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 28% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+    "values": [
+      "28%"
+    ]
+  },
+  "r5": {
+    "description": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 32% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+    "values": [
+      "32%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114041,
+        "name": "Oasis Garden's Reminiscence",
+        "count": 3
+      },
+      {
+        "id": 112068,
+        "name": "Chaos Storage",
+        "count": 3
+      },
+      {
+        "id": 112032,
+        "name": "Recruit's Insignia",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114042,
+        "name": "Oasis Garden's Kindness",
+        "count": 3
+      },
+      {
+        "id": 112068,
+        "name": "Chaos Storage",
+        "count": 12
+      },
+      {
+        "id": 112032,
+        "name": "Recruit's Insignia",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114042,
+        "name": "Oasis Garden's Kindness",
+        "count": 6
+      },
+      {
+        "id": 112069,
+        "name": "Chaos Module",
+        "count": 6
+      },
+      {
+        "id": 112033,
+        "name": "Sergeant's Insignia",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114043,
+        "name": "Oasis Garden's Mourning",
+        "count": 3
+      },
+      {
+        "id": 112069,
+        "name": "Chaos Module",
+        "count": 12
+      },
+      {
+        "id": 112033,
+        "name": "Sergeant's Insignia",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114043,
+        "name": "Oasis Garden's Mourning",
+        "count": 6
+      },
+      {
+        "id": 112070,
+        "name": "Chaos Bolt",
+        "count": 9
+      },
+      {
+        "id": 112034,
+        "name": "Lieutenant's Insignia",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114044,
+        "name": "Oasis Garden's Truth",
+        "count": 4
+      },
+      {
+        "id": 112070,
+        "name": "Chaos Bolt",
+        "count": 18
+      },
+      {
+        "id": 112034,
+        "name": "Lieutenant's Insignia",
+        "count": 12
+      }
+    ]
+  },
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Arakalari.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Arakalari_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Pole_Arakalari",
+    "filename_awakenIcon": "UI_EquipIcon_Pole_Arakalari_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Arakalari",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Arakalari.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Arakalari_Awaken.png"
+  },
+  "version": "3.0",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 43.7349,
+      "specialized": 24
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 47.58357120000001,
+      "specialized": 24
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 51.4322424,
+      "specialized": 24
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 55.280913600000005,
+      "specialized": 24
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 59.1733197,
+      "specialized": 27.887999999999998
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 63.0657258,
+      "specialized": 27.887999999999998
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 66.9581319,
+      "specialized": 27.887999999999998
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 70.8942729,
+      "specialized": 27.887999999999998
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 74.786679,
+      "specialized": 27.887999999999998
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 78.72282000000001,
+      "specialized": 32.712
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 82.70269590000001,
+      "specialized": 32.712
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 86.63883690000002,
+      "specialized": 32.712
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 90.61871280000001,
+      "specialized": 32.712
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 94.5548538,
+      "specialized": 32.712
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 98.53472970000001,
+      "specialized": 37.56
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 102.55834050000001,
+      "specialized": 37.56
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 106.53821640000001,
+      "specialized": 37.56
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 110.51809230000002,
+      "specialized": 37.56
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 114.54170310000002,
+      "specialized": 37.56
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 118.5653139,
+      "specialized": 42.408
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 148.4889247,
+      "specialized": 42.408
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 152.5125355,
+      "specialized": 42.408
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 156.5361463,
+      "specialized": 42.408
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 160.60349200000002,
+      "specialized": 42.408
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 164.62710280000002,
+      "specialized": 47.256
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 168.69444850000002,
+      "specialized": 47.256
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 172.76179420000003,
+      "specialized": 47.256
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 176.82913990000003,
+      "specialized": 47.256
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 180.8964856,
+      "specialized": 47.256
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 184.9638313,
+      "specialized": 52.104
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 189.07491190000002,
+      "specialized": 52.104
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 193.14225760000002,
+      "specialized": 52.104
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 197.25333820000003,
+      "specialized": 52.104
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 201.32068390000003,
+      "specialized": 52.104
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 205.43176450000004,
+      "specialized": 56.952000000000005
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 209.54284510000002,
+      "specialized": 56.952000000000005
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 213.65392570000003,
+      "specialized": 56.952000000000005
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 217.7650063,
+      "specialized": 56.952000000000005
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 221.87608690000002,
+      "specialized": 56.952000000000005
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 225.98716750000003,
+      "specialized": 61.800000000000004
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 256.0982481,
+      "specialized": 61.800000000000004
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 260.2093287,
+      "specialized": 61.800000000000004
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 264.3641442,
+      "specialized": 61.800000000000004
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 268.4752248,
+      "specialized": 61.800000000000004
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 272.6300403,
+      "specialized": 66.648
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 276.7848558,
+      "specialized": 66.648
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 280.8959364,
+      "specialized": 66.648
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 285.0507519,
+      "specialized": 66.648
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 289.2055674,
+      "specialized": 66.648
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 293.3603829,
+      "specialized": 71.49600000000001
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 323.4151984,
+      "specialized": 71.49600000000001
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 327.57001390000005,
+      "specialized": 71.49600000000001
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 331.72482940000003,
+      "specialized": 71.49600000000001
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 335.8796449,
+      "specialized": 71.49600000000001
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 340.03446040000006,
+      "specialized": 76.344
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 344.2330108,
+      "specialized": 76.344
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 348.38782630000003,
+      "specialized": 76.344
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 352.5426418,
+      "specialized": 76.344
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 356.74119220000006,
+      "specialized": 76.344
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 360.89600770000004,
+      "specialized": 81.19200000000001
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 390.9945581,
+      "specialized": 81.19200000000001
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 395.1493736,
+      "specialized": 81.19200000000001
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 399.347924,
+      "specialized": 81.19200000000001
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 403.5464744,
+      "specialized": 81.19200000000001
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 407.7012899,
+      "specialized": 86.03999999999999
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 411.8998403,
+      "specialized": 86.03999999999999
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 416.0983907,
+      "specialized": 86.03999999999999
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 420.2969411,
+      "specialized": 86.03999999999999
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 424.4954915,
+      "specialized": 86.03999999999999
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 428.6940419,
+      "specialized": 90.864
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 458.89259230000005,
+      "specialized": 90.864
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 463.09114270000003,
+      "specialized": 90.864
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 467.2896931,
+      "specialized": 90.864
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 471.4882435,
+      "specialized": 90.864
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 475.6867939,
+      "specialized": 95.712
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 479.8853443,
+      "specialized": 95.712
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 484.08389470000003,
+      "specialized": 95.712
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 488.2824451,
+      "specialized": 95.712
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 492.5247304,
+      "specialized": 95.712
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 496.7232808,
+      "specialized": 100.56
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 526.8218312,
+      "specialized": 100.56
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 531.0641165000001,
+      "specialized": 100.56
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 535.2626669,
+      "specialized": 100.56
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 539.4612173,
+      "specialized": 100.56
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 543.7035026000001,
+      "specialized": 105.40800000000002
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 547.902053,
+      "specialized": 105.40800000000002
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 552.1443383000001,
+      "specialized": 105.40800000000002
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 556.3428887,
+      "specialized": 105.40800000000002
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 560.585174,
+      "specialized": 105.40800000000002
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 564.7837244,
+      "specialized": 110.256
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 144.4653139,
+      "specialized": 42.408
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 61.800000000000004
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 71.49600000000001
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 81.19200000000001
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 90.864
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 100.56
+    }
+  }
+}

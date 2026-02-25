@@ -20,7 +20,6 @@ export class CharacterService {
   }
 
   getCharacterDetails(name: string): Observable<Character> {
-    name = name.replace(/\s+/g, '').toLowerCase();
     return this.http.get<Character>(`${this.basePath}${name}.json`);
   }
 }

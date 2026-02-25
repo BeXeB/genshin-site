@@ -1,0 +1,778 @@
+{
+  "id": 12503,
+  "name": "Song of Broken Pines",
+  "description": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+  "descriptionRaw": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+  "weaponType": "WEAPON_CLAYMORE",
+  "weaponText": "Claymore",
+  "rarity": 5,
+  "story": "There was once a popular folk song that went like this:\n\"Toss to the bard all the coins you can spare,\"\n\"Give your bouquet to yon maiden so fair,\"\n\"Take wine so bitter it makes the tears flow,\"\n\"Drink to the yesterday now been and gone, and sing for tomorrow that comes with the dawn.\"\n\nIn the land where songs and music carry on the wind, the people have merry yet sensitive souls.\nIt is said that there were times in history when the tyrant Decarabian and the ruling aristocrats would ban certain chords and tunes,\nFor discerning people could sense the spirit of resistance that lay behind the music of the bards and singers.\nSongs and hymns had also indeed been used before as a way for rebels to communicate.\n\nIn the days of the ruling aristocracy, the Church that revered the Anemo Archon was once split in twain by a schism:\nOn one side stood the clergy, who ate at the lords' table, and overturned the archon's statues with them even as they wrote songs and hymns of praise.\nOn the other stood the saints, who held no clerical office, and who walked the streets, the wine cellars, and the world beyond the walls.\nThese saints drank cheap moonshine, blessing the slave and the plebeian with the original holy manuscripts that circulated amongst the people and with words that the wind brought to them.\nAnd while they did so, they penned forbidden songs and poetry.\n\nWhen the gladiator from a foreign land arose together with the re-awakened Anemo Archon and raised the banner of rebellion,\nThe aged saint known as the Nameless Shepherd mobilized the true adherents of the Church of Favonius.\nTogether with many others, they spilled their martyred blood upon these emerald fields.\nAnd together, they sang a rallying cry to save the nation, the hitherto-unsung half of that folk song of old:\n\n\"Leave the keen steel to those who will give their lives for the fight,\"\n\"Prepare the thieves' gallows,\"\n\"Sharpen your rusted arrows,\"\n\"For when the music sounds, we shoot the beasts down.\"",
+  "baseAtkValue": 49.1377,
+  "baseStatText": "4.5%",
+  "mainStatType": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+  "mainStatText": "Physical DMG Bonus",
+  "effectName": "Rebel's Banner-Hymn",
+  "effectTemplateRaw": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>{0}</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>{1}</color> and increases ATK by <color=#99FFFFFF>{2}</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+  "r1": {
+    "description": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 16%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 12% and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+    "values": [
+      "16%",
+      "12%",
+      "20%"
+    ]
+  },
+  "r2": {
+    "description": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 20%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 15% and increases ATK by 25%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+    "values": [
+      "20%",
+      "15%",
+      "25%"
+    ]
+  },
+  "r3": {
+    "description": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 24%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 18% and increases ATK by 30%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+    "values": [
+      "24%",
+      "18%",
+      "30%"
+    ]
+  },
+  "r4": {
+    "description": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 28%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 21% and increases ATK by 35%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+    "values": [
+      "28%",
+      "21%",
+      "35%"
+    ]
+  },
+  "r5": {
+    "description": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 32%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 24% and increases ATK by 40%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+    "values": [
+      "32%",
+      "24%",
+      "40%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 5
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 5
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 5
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 18
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 9
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 9
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 5
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 18
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 9
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 14
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114004,
+        "name": "Scattered Piece of Decarabian's Dream",
+        "count": 6
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 27
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Widsith",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Widsith_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Widsith",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith_Awaken.png"
+  },
+  "version": "1.5",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 49.1377,
+      "specialized": 0.045
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 53.9040569,
+      "specialized": 0.045
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 58.6704138,
+      "specialized": 0.045
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 63.48590840000001,
+      "specialized": 0.045
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 68.35054070000001,
+      "specialized": 0.052289999999999996
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 73.21517300000001,
+      "specialized": 0.052289999999999996
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 78.1780807,
+      "specialized": 0.052289999999999996
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 83.1409884,
+      "specialized": 0.052289999999999996
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 88.1038961,
+      "specialized": 0.052289999999999996
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 93.1159415,
+      "specialized": 0.061335
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 98.1771246,
+      "specialized": 0.061335
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 103.2874454,
+      "specialized": 0.061335
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 108.3977662,
+      "specialized": 0.061335
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 113.508087,
+      "specialized": 0.061335
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 118.6675455,
+      "specialized": 0.070425
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 123.8761417,
+      "specialized": 0.070425
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 129.0847379,
+      "specialized": 0.070425
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 134.3424718,
+      "specialized": 0.070425
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 139.6002057,
+      "specialized": 0.070425
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 144.9070773,
+      "specialized": 0.07951499999999999
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 181.31394889999999,
+      "specialized": 0.07951499999999999
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 186.6208205,
+      "specialized": 0.07951499999999999
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 191.9768298,
+      "specialized": 0.07951499999999999
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 197.3819768,
+      "specialized": 0.07951499999999999
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 202.7379861,
+      "specialized": 0.088605
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 208.19227080000002,
+      "specialized": 0.088605
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 213.5974178,
+      "specialized": 0.088605
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 219.0517025,
+      "specialized": 0.088605
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 224.55512489999998,
+      "specialized": 0.088605
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 230.05854730000001,
+      "specialized": 0.09769499999999999
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 235.5619697,
+      "specialized": 0.09769499999999999
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 241.0653921,
+      "specialized": 0.09769499999999999
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 246.61795220000002,
+      "specialized": 0.09769499999999999
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 252.17051229999998,
+      "specialized": 0.09769499999999999
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 257.77221010000005,
+      "specialized": 0.106785
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 263.37390790000006,
+      "specialized": 0.106785
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 268.9756057,
+      "specialized": 0.106785
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 274.62644120000004,
+      "specialized": 0.106785
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 280.2772767,
+      "specialized": 0.106785
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 285.92811220000004,
+      "specialized": 0.115875
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 322.6789477,
+      "specialized": 0.115875
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 328.37892089999997,
+      "specialized": 0.115875
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 334.0788941,
+      "specialized": 0.115875
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 339.828005,
+      "specialized": 0.115875
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 345.5771159,
+      "specialized": 0.124965
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 351.32622680000003,
+      "specialized": 0.124965
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 357.07533770000003,
+      "specialized": 0.124965
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 362.82444860000004,
+      "specialized": 0.124965
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 368.6226972,
+      "specialized": 0.124965
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 374.4209458,
+      "specialized": 0.134055
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 411.4683321,
+      "specialized": 0.134055
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 417.31571840000004,
+      "specialized": 0.134055
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 423.113967,
+      "specialized": 0.134055
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 429.010491,
+      "specialized": 0.134055
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 434.85787730000004,
+      "specialized": 0.143145
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 440.75440130000004,
+      "specialized": 0.143145
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 446.65092530000004,
+      "specialized": 0.143145
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 452.54744930000004,
+      "specialized": 0.143145
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 458.44397330000004,
+      "specialized": 0.143145
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 464.389635,
+      "specialized": 0.15223499999999998
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 501.43529670000004,
+      "specialized": 0.15223499999999998
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 507.3809584,
+      "specialized": 0.15223499999999998
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 513.3266201,
+      "specialized": 0.15223499999999998
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 519.3214195,
+      "specialized": 0.15223499999999998
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 525.3162189,
+      "specialized": 0.161325
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 531.3110183,
+      "specialized": 0.161325
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 537.3058177,
+      "specialized": 0.161325
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 543.3497548,
+      "specialized": 0.161325
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 549.3445542000001,
+      "specialized": 0.161325
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 555.3884913,
+      "specialized": 0.17037
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 592.5815661,
+      "specialized": 0.17037
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 598.6255032,
+      "specialized": 0.17037
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 604.7185780000001,
+      "specialized": 0.17037
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 610.7625151,
+      "specialized": 0.17037
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 616.8555899,
+      "specialized": 0.17945999999999998
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 622.9978024000001,
+      "specialized": 0.17945999999999998
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 629.0908772,
+      "specialized": 0.17945999999999998
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 635.2330896999999,
+      "specialized": 0.17945999999999998
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 641.3753022,
+      "specialized": 0.17945999999999998
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 647.5175147,
+      "specialized": 0.18855000000000002
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 684.7597272,
+      "specialized": 0.18855000000000002
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 690.9019397,
+      "specialized": 0.18855000000000002
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 697.0932899000001,
+      "specialized": 0.18855000000000002
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 703.2846400999999,
+      "specialized": 0.18855000000000002
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 709.4759902999999,
+      "specialized": 0.19764
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 715.6673405000001,
+      "specialized": 0.19764
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 721.9078284,
+      "specialized": 0.19764
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 728.0991786,
+      "specialized": 0.19764
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 734.3396665,
+      "specialized": 0.19764
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 740.5801544000001,
+      "specialized": 0.20673
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 176.0070773,
+      "specialized": 0.07951499999999999
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 317.0281122,
+      "specialized": 0.115875
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 405.6209458000001,
+      "specialized": 0.134055
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 495.489635,
+      "specialized": 0.15223499999999998
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 586.4884913000001,
+      "specialized": 0.17037
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 678.6175146999999,
+      "specialized": 0.18855000000000002
+    }
+  }
+}

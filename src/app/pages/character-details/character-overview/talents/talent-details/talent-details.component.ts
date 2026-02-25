@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { CombatSkill, PassiveSkill } from '../../../../../_models/character';
+import { CombatTalent, PassiveTalent } from '../../../../../_models/character';
 import { FormsModule } from '@angular/forms';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
@@ -10,7 +10,7 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
   styleUrl: './talent-details.component.css',
 })
 export class TalentDetailsComponent implements OnInit{
-  @Input() talent: CombatSkill | PassiveSkill | null = null;
+  @Input() talent: CombatTalent | PassiveTalent | null = null;
   @Input() elementColor: string | null = null;
   @Input() imageUrl: string | null = null;
 
@@ -42,13 +42,13 @@ export class TalentDetailsComponent implements OnInit{
   }
 
   getTalentStats(
-    talent: CombatSkill | PassiveSkill,
+    talent: CombatTalent | PassiveTalent,
     level: number,
   ): { name: string; value: string }[] {
     if (!this.IsCombatSkill) {
       return [];
     }
-    const combatSkill = talent as CombatSkill;
+    const combatSkill = talent as CombatTalent;
     const stats: { name: string; value: string }[] = [];
     for (const label of combatSkill.attributes.labels) {
       let stat = label;
@@ -92,7 +92,7 @@ export class TalentDetailsComponent implements OnInit{
       return '';
     }
 
-    if (!(this.talent as CombatSkill).attributes) {
+    if (!(this.talent as CombatTalent).attributes) {
       return description;
     }
 
@@ -114,6 +114,6 @@ export class TalentDetailsComponent implements OnInit{
   }
 
   get IsCombatSkill(): boolean {
-    return (this.talent as CombatSkill).attributes !== undefined;
+    return (this.talent as CombatTalent).attributes !== undefined;
   }
 }

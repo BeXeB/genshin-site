@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 const SOURCE_DIR = path.join(__dirname, '../raw_icons');
-const TARGET_DIR = path.join(__dirname, '../src/assets/images/characters');
+const CHAR_TARGET_DIR = path.join(__dirname, '../src/assets/images/characters');
 const PROFILES_FILE = path.join(
   __dirname,
   '../src/assets/json/characters/profiles.json',
@@ -12,6 +12,10 @@ const CHARACTER_JSON_DIR = path.join(
   '../src/assets/json/characters',
 );
 
+const WEAPON_JSON_DIR = path.join(__dirname, '../src/assets/json/weapons');
+
+const WEAPON_TARGET_DIR = path.join(__dirname, '../src/assets/images/weapons');
+
 // --- Image mappings ---
 
 const CHARACTER_IMAGE_MAP: Record<string, string> = {
@@ -20,6 +24,12 @@ const CHARACTER_IMAGE_MAP: Record<string, string> = {
   filename_sideIcon: 'side.png',
   filename_gachaSplash: 'gacha-splash.png',
   filename_gachaSlice: 'gacha-icon.png',
+};
+
+const WEAPON_IMAGE_MAP: Record<string, string> = {
+  filename_icon: 'icon.png',
+  filename_awakenIcon: 'awaken.png',
+  filename_gacha: 'gacha.png',
 };
 
 const SKILL_IMAGE_MAP: Record<string, string> = {
@@ -49,7 +59,7 @@ function ensureDir(dir: string) {
 }
 
 function normalizeName(name: string): string {
-  return name.toLowerCase().replace(/\s+/g, '');
+  return name.toLowerCase().replace(/[\s'"`]+/g, '');
 }
 
 function organize() {
@@ -59,7 +69,7 @@ function organize() {
 
   for (const profile of profiles) {
     const normalized = normalizeName(profile.name);
-    const charFolder = path.join(TARGET_DIR, normalized);
+    const charFolder = path.join(CHAR_TARGET_DIR, normalized);
     ensureDir(charFolder);
 
     // --- CHARACTER ICONS ---
@@ -138,6 +148,41 @@ function organize() {
     }
   }
 
+  // ----------------------------
+  // WEAPONS
+  // ----------------------------
+
+  const weaponFiles = fs.readdirSync(WEAPON_JSON_DIR);
+
+  for (const file of weaponFiles) {
+    if (!file.endsWith('.json')) continue;
+    if (file === 'index.json') continue;
+
+    const weaponName = path.parse(file).name;
+    const weaponJsonPath = path.join(WEAPON_JSON_DIR, file);
+
+    const weaponData = JSON.parse(fs.readFileSync(weaponJsonPath, 'utf-8'));
+
+    const weaponFolder = path.join(WEAPON_TARGET_DIR, weaponName);
+    ensureDir(weaponFolder);
+
+    if (weaponData.images) {
+      for (const [jsonKey, filename] of Object.entries(weaponData.images)) {
+        if (WEAPON_IMAGE_MAP[jsonKey] && filename) {
+          const imageName = filename as string;
+
+          if (!lookup[imageName]) {
+            lookup[imageName] = [];
+          }
+
+          lookup[imageName].push(
+            path.join(weaponFolder, WEAPON_IMAGE_MAP[jsonKey]),
+          );
+        }
+      }
+    }
+  }
+
   // --- COPY FILES ---
   const files = fs.readdirSync(SOURCE_DIR);
 
@@ -155,7 +200,7 @@ function organize() {
         fs.copyFileSync(srcPath, destination);
 
         console.log(
-          `Copied ${file} → ${path.relative(TARGET_DIR, destination)}`,
+          `Copied ${file} → ${path.relative(CHAR_TARGET_DIR, destination)}`,
         );
       });
     } else {

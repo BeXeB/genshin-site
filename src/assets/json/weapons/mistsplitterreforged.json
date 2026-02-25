@@ -1,0 +1,773 @@
+{
+  "id": 11509,
+  "name": "Mistsplitter Reforged",
+  "description": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
+  "descriptionRaw": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
+  "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "weaponText": "Sword",
+  "rarity": 5,
+  "story": "One of the swords that the Shogun bestowed upon her Hatamoto. It is said that it can call upon the power of lightning itself to slice through the mountain mist and night fog.\nIt was once shattered into a thousand pieces. After being reforged, a hamon resembling flowing clouds was left on the blade.\n\nAs the folk song goes: \"Arataki of the Front Gate, Iwakura the Successor, Kitain the Serpent, Takamine the Mistsplitter.\"\nThus do children who love martial arts list famous historical martial artists, and \"Takamine the Mistsplitter\" was the very same user of this sword.\nThis man once accompanied a member of the clergy, using the Mistsplitter to slay countless demons and Tatarigami.\nHe also learned archery from the Yougou Tengu, and passed that knowledge on to a person he loved.\nHowever, Mistsplitter would have no successors, and now only exists within storybooks, artworks, and fairytales.\n\nAt the end of his life, he assumed the position of one of the Shogun's yoriki and fought against a dark army.\n\nIf he hadn't left his beloved bow to her as part of their wager, maybe things would've been different.\nBut real gamblers never regret, never care about \"what ifs,\" and never feel remorse over \"if onlys.\"\nThe foe flooded over like mist — and so he would just keep slashing away with that secret blade that could disperse the brumous night.\nAs long as his strikes were swift enough, he would pierce the dark night, and day would come again—\n\n\"Asase, our promise... No, say rather our great bet. I will not lose it, not for the world!\"\n\"I shall return, and together with the bow that I'd wagered... I'll claim the future as my prize!\"\n\nLike a never-ending chain of lightning, he and Mistsplitter slew countless demons together.\nYet at the last, the sword was not as tenacious as the swordsman, and it gradually broke down.\nAnd he became submerged in that thick dark mist...\nIn the end, only some of the blade's fragments were retrieved for reforging, such that the resultant weapon might inherit the Mistsplitter name.\n\nAs though holding onto a spider's thread hanging down in the dark, the samurai held the handle of his broken sword tightly.\nAmidst the dark mist, he kept stubbornly reminding himself:\nThe result of our wager is still undecided. I must return to Asase's side...",
+  "baseAtkValue": 47.537,
+  "baseStatText": "9.6%",
+  "mainStatType": "FIGHT_PROP_CRITICAL_HURT",
+  "mainStatText": "CRIT DMG",
+  "effectName": "Mistsplitter's Edge",
+  "effectTemplateRaw": "Gain a <color=#99FFFFFF>{0}</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>{1}</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of the Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+  "r1": {
+    "description": "Gain a 12% Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a 8/16/28% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+    "values": [
+      "12%",
+      "8/16/28%"
+    ]
+  },
+  "r2": {
+    "description": "Gain a 15% Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a 10/20/35% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+    "values": [
+      "15%",
+      "10/20/35%"
+    ]
+  },
+  "r3": {
+    "description": "Gain a 18% Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a 12/24/42% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+    "values": [
+      "18%",
+      "12/24/42%"
+    ]
+  },
+  "r4": {
+    "description": "Gain a 21% Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a 14/28/49% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+    "values": [
+      "21%",
+      "14/28/49%"
+    ]
+  },
+  "r5": {
+    "description": "Gain a 24% Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a 16/32/56% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of the Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+    "values": [
+      "24%",
+      "16/32/56%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114025,
+        "name": "Coral Branch of a Distant Sea",
+        "count": 5
+      },
+      {
+        "id": 112047,
+        "name": "Chaos Gear",
+        "count": 5
+      },
+      {
+        "id": 112044,
+        "name": "Old Handguard",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114026,
+        "name": "Jeweled Branch of a Distant Sea",
+        "count": 5
+      },
+      {
+        "id": 112047,
+        "name": "Chaos Gear",
+        "count": 18
+      },
+      {
+        "id": 112044,
+        "name": "Old Handguard",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114026,
+        "name": "Jeweled Branch of a Distant Sea",
+        "count": 9
+      },
+      {
+        "id": 112048,
+        "name": "Chaos Axis",
+        "count": 9
+      },
+      {
+        "id": 112045,
+        "name": "Kageuchi Handguard",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114027,
+        "name": "Jade Branch of a Distant Sea",
+        "count": 5
+      },
+      {
+        "id": 112048,
+        "name": "Chaos Axis",
+        "count": 18
+      },
+      {
+        "id": 112045,
+        "name": "Kageuchi Handguard",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114027,
+        "name": "Jade Branch of a Distant Sea",
+        "count": 9
+      },
+      {
+        "id": 112049,
+        "name": "Chaos Oculus",
+        "count": 14
+      },
+      {
+        "id": 112046,
+        "name": "Famed Handguard",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114028,
+        "name": "Golden Branch of a Distant Sea",
+        "count": 6
+      },
+      {
+        "id": 112049,
+        "name": "Chaos Oculus",
+        "count": 27
+      },
+      {
+        "id": 112046,
+        "name": "Famed Handguard",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Narukami_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Sword_Narukami",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Narukami_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Narukami",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Narukami_Awaken.png"
+  },
+  "version": "2.0",
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "attack": 47.537,
+      "specialized": 0.096
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "attack": 51.862866999999994,
+      "specialized": 0.096
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "attack": 56.236271,
+      "specialized": 0.096
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "attack": 60.609674999999996,
+      "specialized": 0.096
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "attack": 65.03061600000001,
+      "specialized": 0.111552
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "attack": 69.45155700000001,
+      "specialized": 0.111552
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "attack": 73.87249800000001,
+      "specialized": 0.111552
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "attack": 78.340976,
+      "specialized": 0.111552
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "attack": 82.85699100000001,
+      "specialized": 0.111552
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "attack": 87.325469,
+      "specialized": 0.130848
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "attack": 91.889021,
+      "specialized": 0.130848
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "attack": 96.405036,
+      "specialized": 0.130848
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "attack": 100.968588,
+      "specialized": 0.130848
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "attack": 105.53214000000001,
+      "specialized": 0.130848
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "attack": 110.143229,
+      "specialized": 0.15023999999999998
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "attack": 114.754318,
+      "specialized": 0.15023999999999998
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "attack": 119.365407,
+      "specialized": 0.15023999999999998
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "attack": 123.976496,
+      "specialized": 0.15023999999999998
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "attack": 128.635122,
+      "specialized": 0.15023999999999998
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "attack": 133.293748,
+      "specialized": 0.169632
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "attack": 169.099911,
+      "specialized": 0.169632
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "attack": 173.80607399999997,
+      "specialized": 0.169632
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "attack": 178.512237,
+      "specialized": 0.169632
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "attack": 183.2184,
+      "specialized": 0.169632
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "attack": 187.97209999999998,
+      "specialized": 0.18902400000000003
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "attack": 192.7258,
+      "specialized": 0.18902400000000003
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "attack": 197.4795,
+      "specialized": 0.18902400000000003
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "attack": 202.280737,
+      "specialized": 0.18902400000000003
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "attack": 207.034437,
+      "specialized": 0.18902400000000003
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "attack": 211.883211,
+      "specialized": 0.208416
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "attack": 216.68444799999997,
+      "specialized": 0.208416
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "attack": 221.485685,
+      "specialized": 0.208416
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "attack": 226.334459,
+      "specialized": 0.208416
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "attack": 231.18323299999997,
+      "specialized": 0.208416
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "attack": 236.079544,
+      "specialized": 0.22780800000000004
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "attack": 240.92831799999996,
+      "specialized": 0.22780800000000004
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "attack": 245.82462900000002,
+      "specialized": 0.22780800000000004
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "attack": 250.72093999999998,
+      "specialized": 0.22780800000000004
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "attack": 255.61725099999998,
+      "specialized": 0.22780800000000004
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "attack": 260.561099,
+      "specialized": 0.24720000000000003
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "attack": 296.604947,
+      "specialized": 0.24720000000000003
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "attack": 301.548795,
+      "specialized": 0.24720000000000003
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "attack": 306.492643,
+      "specialized": 0.24720000000000003
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "attack": 311.436491,
+      "specialized": 0.24720000000000003
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "attack": 316.42787599999997,
+      "specialized": 0.266592
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "attack": 321.419261,
+      "specialized": 0.266592
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "attack": 326.410646,
+      "specialized": 0.266592
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "attack": 331.402031,
+      "specialized": 0.266592
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "attack": 336.39341599999995,
+      "specialized": 0.266592
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "attack": 341.43233799999996,
+      "specialized": 0.285984
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "attack": 377.6712600000001,
+      "specialized": 0.285984
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "attack": 382.71018200000003,
+      "specialized": 0.285984
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "attack": 387.749104,
+      "specialized": 0.285984
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "attack": 392.835563,
+      "specialized": 0.285984
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "attack": 397.92202199999997,
+      "specialized": 0.30537600000000004
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "attack": 403.00848099999996,
+      "specialized": 0.30537600000000004
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "attack": 408.09493999999995,
+      "specialized": 0.30537600000000004
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "attack": 413.18139900000006,
+      "specialized": 0.30537600000000004
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "attack": 418.31539499999997,
+      "specialized": 0.30537600000000004
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "attack": 423.40185399999996,
+      "specialized": 0.324768
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "attack": 459.63585,
+      "specialized": 0.324768
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "attack": 464.76984600000003,
+      "specialized": 0.324768
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "attack": 469.95137900000003,
+      "specialized": 0.324768
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "attack": 475.085375,
+      "specialized": 0.324768
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "attack": 480.266908,
+      "specialized": 0.34416
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "attack": 485.40090399999997,
+      "specialized": 0.34416
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "attack": 490.58243699999997,
+      "specialized": 0.34416
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "attack": 495.811507,
+      "specialized": 0.34416
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "attack": 500.99304,
+      "specialized": 0.34416
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "attack": 506.22211,
+      "specialized": 0.363456
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "attack": 542.503643,
+      "specialized": 0.363456
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "attack": 547.732713,
+      "specialized": 0.363456
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "attack": 552.961783,
+      "specialized": 0.363456
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "attack": 558.23839,
+      "specialized": 0.363456
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "attack": 563.46746,
+      "specialized": 0.382848
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "attack": 568.744067,
+      "specialized": 0.382848
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "attack": 574.020674,
+      "specialized": 0.382848
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "attack": 579.297281,
+      "specialized": 0.382848
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "attack": 584.5738879999999,
+      "specialized": 0.382848
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "attack": 589.850495,
+      "specialized": 0.40224000000000004
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "attack": 626.274639,
+      "specialized": 0.40224000000000004
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "attack": 631.551246,
+      "specialized": 0.40224000000000004
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "attack": 636.8753899999999,
+      "specialized": 0.40224000000000004
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "attack": 642.1995340000001,
+      "specialized": 0.40224000000000004
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "attack": 647.523678,
+      "specialized": 0.42163200000000006
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "attack": 652.895359,
+      "specialized": 0.42163200000000006
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "attack": 658.219503,
+      "specialized": 0.42163200000000006
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "attack": 663.591184,
+      "specialized": 0.42163200000000006
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "attack": 668.962865,
+      "specialized": 0.42163200000000006
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "attack": 674.3345459999999,
+      "specialized": 0.441024
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "attack": 164.393748,
+      "specialized": 0.169632
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "attack": 291.661099,
+      "specialized": 0.24720000000000003
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "attack": 372.632338,
+      "specialized": 0.285984
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "attack": 454.501854,
+      "specialized": 0.324768
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "attack": 537.32211,
+      "specialized": 0.363456
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "attack": 620.950495,
+      "specialized": 0.40224000000000004
+    }
+  }
+}

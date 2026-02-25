@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ConstellationSkill } from '../../../../../_models/character';
+import { ConstellationDetail } from '../../../../../_models/character';
 
 @Component({
   selector: 'app-constellation-details',
@@ -8,7 +8,7 @@ import { ConstellationSkill } from '../../../../../_models/character';
   styleUrl: './constellation-details.component.css',
 })
 export class ConstellationDetailsComponent {
-  @Input() constellation: ConstellationSkill | undefined = undefined;
+  @Input() constellation: ConstellationDetail | undefined = undefined;
   @Input() elementColor: string | null = null;
   @Input() imageUrl: string | null = null;
 }

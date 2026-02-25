@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Character, CombatSkill } from '../../../../_models/character';
+import { Character, CombatTalent } from '../../../../_models/character';
 import { FormsModule } from '@angular/forms';
 import { TalentDetailsComponent } from './talent-details/talent-details.component';
 
@@ -17,7 +17,7 @@ export class OverviewTalentsComponent {
   talentLevels: number[] = [9, 9, 9];
 
   getTalentStats(
-    talent: CombatSkill,
+    talent: CombatTalent,
     level: number,
   ): { name: string; value: string }[] {
     const stats: { name: string; value: string }[] = [];

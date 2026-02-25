@@ -17,7 +17,7 @@ export class CharacterCardComponent implements OnInit {
 
   ngOnInit(): void {
     if (this.char) {
-      this.charIconUrl = `assets/images/characters/${this.getCharacterKey()}/icon.png`;
+      this.charIconUrl = `assets/images/characters/${this.char.normalizedName}/icon.png`;
       this.charElementUrl = `assets/images/${this.char.elementText}.png`;
       this.charWeaponUrl = `assets/images/${this.char.weaponText}.png`;
     }
@@ -25,12 +25,9 @@ export class CharacterCardComponent implements OnInit {
 
   constructor(private router: Router) {}
 
-  getCharacterKey(): string | undefined {
-    return this.char?.name.replace(/\s+/g, '').toLowerCase();
-  }
 
   openDetails() {
-    this.router.navigate(['/characters', this.getCharacterKey()]);
+    this.router.navigate(['/characters', this.char?.normalizedName]);
   }
 
   getElementStyle(): Record<string, string> {

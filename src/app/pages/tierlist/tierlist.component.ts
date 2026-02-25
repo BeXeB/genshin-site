@@ -30,7 +30,7 @@ export class TierlistComponent {
       .subscribe((characters: CharacterProfile[]) => {
         this.characterMap = new Map(
           characters.map((c: CharacterProfile) => [
-            c.name.replace(/\s+/g, '').toLowerCase(),
+            c.normalizedName,
             c,
           ]),
         );

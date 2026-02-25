@@ -46,7 +46,7 @@ export class TierlistMakerComponent implements OnInit {
           .filter((c) => c.name !== 'Manekina' && c.name !== 'Manekin')
           .map((c) => ({
             id: c.id,
-            apiKey: c.name.replace(/\s+/g, '').toLowerCase(),
+            apiKey: c.normalizedName,
             tags: [],
             profile: c,
           }))),
@@ -70,14 +70,18 @@ export class TierlistMakerComponent implements OnInit {
     this.tiers = this.tiers.filter((t) => t !== tierToRemove);
   }
 
+  normalize(tag: string): string {
+    return tag.toLowerCase().replace(/[\s'"`]+/g, '');
+  }
+
   addTag() {
     if (!this.newTagLabel.trim()) return;
-    const newTagId = this.newTagLabel.toLowerCase().replace(/\s+/g, '-');
+    const newTagId = this.normalize(this.newTagLabel);
     if (this.tags.some((tag) => tag.id === newTagId)) {
       return;
     }
     const newTag: TagDefinition = {
-      id: this.newTagLabel.toLowerCase().replace(/\s+/g, '-'),
+      id: this.normalize(this.newTagLabel),
       label: this.newTagLabel,
       color: this.newTagColor,
     };
