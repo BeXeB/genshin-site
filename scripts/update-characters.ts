@@ -4,7 +4,7 @@ import path from 'path';
 import {
   Character,
   CharacterProfile,
-  CharacterTalentss,
+  CharacterTalents,
   CharacterConstellation,
   CharacterStats,
   CombatTalent,
@@ -80,7 +80,7 @@ function mapProfile(profile: genshindb.Character): CharacterProfile {
   };
 }
 
-function mapTalents(skills: genshindb.Talent): CharacterTalentss {
+function mapTalents(skills: genshindb.Talent): CharacterTalents {
   let mappedCombatTalents: Record<string, CombatTalent> = {
     combat1: mapCombatTalent(skills.combat1)
   };
@@ -271,7 +271,7 @@ async function run(): Promise<void> {
         };
       }
 
-      let skills: CharacterTalentss | undefined = undefined;
+      let skills: CharacterTalents | undefined = undefined;
       let constellations: CharacterConstellation | undefined = undefined;
 
       if (skillsRes) {

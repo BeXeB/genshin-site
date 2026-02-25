@@ -183,7 +183,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Qiqi",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Qiqi"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "qiqi"
   },
   "skills": {
     "id": 3501,
@@ -375,7 +376,8 @@
             4.27041
           ]
         }
-      }
+      },
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
     },
     "combat2": {
       "name": "Adeptus Art: Herald of Frost",
@@ -527,7 +529,8 @@
             2.28
           ]
         }
-      }
+      },
+      "descriptionRaw": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\n\n<color=#FFD780FF>Herald of Frost</color>\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\n\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>"
     },
     "combat3": {
       "name": "Adeptus Art: Preserver of Fortune",
@@ -644,19 +647,23 @@
             80
           ]
         }
-      }
+      },
+      "descriptionRaw": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\n<i>— Qiqi does not remember these words.</i>"
     },
     "passive1": {
       "name": "Life-Prolonging Methods",
-      "description": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
+      "description": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
+      "descriptionRaw": "When a character under the effects of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
     },
     "passive2": {
       "name": "A Glimpse Into Arcanum",
-      "description": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s."
+      "description": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
+      "descriptionRaw": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s."
     },
     "passive3": {
       "name": "Former Life Memories",
-      "description": "Displays the location of nearby resources unique to Liyue on the mini-map."
+      "description": "Displays the location of nearby resources unique to Liyue on the mini-map.",
+      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map."
     },
     "costs": {
       "lvl2": [
@@ -853,27 +860,33 @@
     "name": "Qiqi",
     "c1": {
       "name": "Ascetics of Frost",
-      "description": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy."
+      "description": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+      "descriptionRaw": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy."
     },
     "c2": {
       "name": "Frozen to the Bone",
-      "description": "Qiqi's Normal and Charged Attack DMG against opponents affected by Cryo is increased by 15%."
+      "description": "Qiqi's Normal and Charged Attack DMG against opponents affected by Cryo is increased by 15%.",
+      "descriptionRaw": "Qiqi's Normal and Charged Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%."
     },
     "c3": {
       "name": "Ascendant Praise",
-      "description": "Increases the Level of Adeptus Art: Preserver of Fortune by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Adeptus Art: Preserver of Fortune by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Divine Suppression",
-      "description": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%."
+      "description": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+      "descriptionRaw": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%."
     },
     "c5": {
       "name": "Crimson Lotus Bloom",
-      "description": "Increases the Level of Adeptus Art: Herald of Frost by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Adeptus Art: Herald of Frost by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Rite of Resurrection",
-      "description": "Using Adeptus Art: Preserver of Fortune revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins."
+      "description": "Using Adeptus Art: Preserver of Fortune revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins.",
+      "descriptionRaw": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins."
     },
     "images": {
       "filename_c1": "UI_Talent_S_Qiqi_01",

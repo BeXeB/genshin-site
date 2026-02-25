@@ -183,7 +183,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Shenhe",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Shenhe"
     },
-    "version": "2.4"
+    "version": "2.4",
+    "normalizedName": "shenhe"
   },
   "skills": {
     "id": 6301,
@@ -392,7 +393,8 @@
             4.27041
           ]
         }
-      }
+      },
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
     },
     "combat2": {
       "name": "Spring Spirit Summoning",
@@ -562,7 +564,8 @@
             15
           ]
         }
-      }
+      },
+      "descriptionRaw": "#The frosted dew, silvery and dense, shall exorcise all demons.\nGrants all nearby party members the Icy Quill effect and deals <color=#99FFFFFF>Cryo DMG</color> in different ways based on whether it is {LAYOUT_MOBILE#tapped}{LAYOUT_PC#pressed}{LAYOUT_PS#pressed} or held.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nRushes forward together with a Talisman Spirit, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents along the path.\n\n<color=#FFD780FF>Hold</color>\nCommands the Talisman Spirit to deal <color=#99FFFFFF>AoE Cryo DMG</color>.\n\n<color=#FFD780FF>Icy Quill</color>\nWhen Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal <color=#99FFFFFF>Cryo DMG</color> to opponents, the DMG dealt is increased based on Shenhe's current ATK.\n\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than {LAYOUT_MOBILE#tapped}{LAYOUT_PC#pressed}{LAYOUT_PS#pressed}, the Icy Quill's effect lasts longer and can be triggered more times.\nWhen one <color=#99FFFFFF>Cryo DMG</color> instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.\n\n<i>The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!</i>"
     },
     "combat3": {
       "name": "Divine Maiden's Deliverance",
@@ -680,19 +683,23 @@
             80
           ]
         }
-      }
+      },
+      "descriptionRaw": "Unleashes the power of the Talisman Spirit, allowing it to roam free in this plane, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\nThe Talisman Spirit then creates a field that decreases the <color=#99FFFFFF>Cryo RES</color> and Physical RES of opponents within it. It also deals periodic <color=#99FFFFFF>Cryo DMG</color> to opponents within the field.\n\n<i>The way of the adepti is not defined only by the mysterious and fantastical. Only by observing the changes in the heavens and the earth, and understanding the laws of cause and effect in this realm, may its essence be understood.</i>"
     },
     "passive1": {
       "name": "Deific Embrace",
-      "description": "An active character within the field created by Divine Maiden's Deliverance gains 15% Cryo DMG Bonus."
+      "description": "An active character within the field created by Divine Maiden's Deliverance gains 15% Cryo DMG Bonus.",
+      "descriptionRaw": "An active character within the field created by <color=#FFD780FF>Divine Maiden's Deliverance</color> gains 15% <color=#99FFFFFF>Cryo DMG Bonus</color>."
     },
     "passive2": {
       "name": "Spirit Communion Seal",
-      "description": "After Shenhe uses Spring Spirit Summoning, she will grant all nearby party members the following effects:\n· Press: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s."
+      "description": "After Shenhe uses Spring Spirit Summoning, she will grant all nearby party members the following effects:\n· Press: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s.",
+      "descriptionRaw": "#After Shenhe uses <color=#FFD780FF>Spring Spirit Summoning</color>, she will grant all nearby party members the following effects:\n· {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s."
     },
     "passive3": {
       "name": "Precise Comings and Goings",
-      "description": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours."
+      "description": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
+      "descriptionRaw": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours."
     },
     "costs": {
       "lvl2": [
@@ -889,27 +896,33 @@
     "name": "Shenhe",
     "c1": {
       "name": "Clarity of Heart",
-      "description": "Spring Spirit Summoning can be used 1 more time."
+      "description": "Spring Spirit Summoning can be used 1 more time.",
+      "descriptionRaw": "<color=#FFD780FF>Spring Spirit Summoning</color> can be used 1 more time."
     },
     "c2": {
       "name": "Centered Spirit",
-      "description": "Divine Maiden's Deliverance lasts for 6 seconds longer. Active characters within the skill's field deal 15% increased Cryo CRIT DMG."
+      "description": "Divine Maiden's Deliverance lasts for 6 seconds longer. Active characters within the skill's field deal 15% increased Cryo CRIT DMG.",
+      "descriptionRaw": "<color=#FFD780FF>Divine Maiden's Deliverance</color> lasts for 6 seconds longer. Active characters within the skill's field deal 15% increased <color=#99FFFFFF>Cryo</color> CRIT DMG."
     },
     "c3": {
       "name": "Seclusion",
-      "description": "Increases the Level of Spring Spirit Summoning by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Spring Spirit Summoning by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Spring Spirit Summoning</color> by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Insight",
-      "description": "When characters under the effect of Icy Quill applied by Shenhe trigger its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack:\n· When Shenhe uses Spring Spirit Summoning, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed.\n· Max 50 stacks. Stacks last for 60s."
+      "description": "When characters under the effect of Icy Quill applied by Shenhe trigger its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack:\n· When Shenhe uses Spring Spirit Summoning, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed.\n· Max 50 stacks. Stacks last for 60s.",
+      "descriptionRaw": "When characters under the effect of <color=#FFD780FF>Icy Quill</color> applied by Shenhe trigger its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack:\n· When Shenhe uses <color=#FFD780FF>Spring Spirit Summoning</color>, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed.\n· Max 50 stacks. Stacks last for 60s."
     },
     "c5": {
       "name": "Divine Attainment",
-      "description": "Increases the Level of Divine Maiden's Deliverance by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Divine Maiden's Deliverance by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Divine Maiden's Deliverance</color> by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Mystical Abandon",
-      "description": "When characters trigger Icy Quill's effects using Normal and Charged Attack DMG, it does not count toward the Trigger Quota."
+      "description": "When characters trigger Icy Quill's effects using Normal and Charged Attack DMG, it does not count toward the Trigger Quota.",
+      "descriptionRaw": "When characters trigger <color=#FFD780FF>Icy Quill</color>'s effects using Normal and Charged Attack DMG, it does not count toward the Trigger Quota."
     },
     "images": {
       "filename_c1": "UI_Talent_S_Shenhe_02",

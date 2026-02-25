@@ -41,7 +41,7 @@ export type CharacterProfile = {
   version: string;
 };
 
-export type CharacterTalentss = {
+export type CharacterTalents = {
   id: number;
   name: string;
 
@@ -128,7 +128,7 @@ export type ConstellationDetail = {
 
 export type Character = {
   profile: CharacterProfile;
-  skills?: CharacterTalentss;
+  skills?: CharacterTalents;
   stats: CharacterStats;
   constellation?: CharacterConstellation;
 };

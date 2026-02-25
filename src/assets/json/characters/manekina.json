@@ -68,7 +68,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_MannequinGirl",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_MannequinGirl"
     },
-    "version": "6.1"
+    "version": "6.1",
+    "normalizedName": "manekina"
   },
   "skills": {
     "id": 11801,
@@ -259,19 +260,23 @@
             4.27041
           ]
         }
-      }
+      },
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
     },
     "passive1": {
       "name": "Battlelines Redrawn",
-      "description": "When the Manekin leaves the field, if a Restricted Area that they summoned is still active, it will explode, dealing AoE DMG of the Manekin's Elemental Type equal to 200% of the Manekin's ATK."
+      "description": "When the Manekin leaves the field, if a Restricted Area that they summoned is still active, it will explode, dealing AoE DMG of the Manekin's Elemental Type equal to 200% of the Manekin's ATK.",
+      "descriptionRaw": "When the Manekin leaves the field, if a Restricted Area that they summoned is still active, it will explode, dealing AoE DMG of the Manekin's Elemental Type equal to 200% of the Manekin's ATK."
     },
     "passive2": {
       "name": "Combat Readiness",
-      "description": "When the Manekin is not on the field and their Elemental Energy is below 30%, they will recover 2 Elemental Energy per second."
+      "description": "When the Manekin is not on the field and their Elemental Energy is below 30%, they will recover 2 Elemental Energy per second.",
+      "descriptionRaw": "When the Manekin is not on the field and their Elemental Energy is below 30%, they will recover 2 Elemental Energy per second."
     },
     "passive3": {
       "name": "Agile Stance",
-      "description": "When the Manekin unleashes an Elemental Skill or Burst, it will change to one of its existing Cosmetic Plans at random."
+      "description": "When the Manekin unleashes an Elemental Skill or Burst, it will change to one of its existing Cosmetic Plans at random.",
+      "descriptionRaw": "When the Manekin unleashes an Elemental Skill or Burst, it will change to one of its existing Cosmetic Plans at random."
     },
     "costs": {
       "lvl2": [
