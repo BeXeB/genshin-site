@@ -43,21 +43,11 @@
     "story": "Even when surrounded by flowers from her courters, \nThe maiden never removed her hat to get a better look at them.\nTheir names and faces were not worth remembering.\n\nFor years, at the end of every day,\nthe maiden would brush off the dust on her hat.\nBut the passage of time showed in her face, too — and unlike the dust, it could never be brushed off.\n\nAs time passed, fewer and fewer courters visited her with flowers.\nWhat did it matter? For her, time had already stopped long ago on that fateful day."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_3.png",
     "filename_flower": "UI_RelicIcon_14004_4",
     "filename_plume": "UI_RelicIcon_14004_2",
     "filename_sands": "UI_RelicIcon_14004_5",
     "filename_goblet": "UI_RelicIcon_14004_1",
-    "filename_circlet": "UI_RelicIcon_14004_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_3.png"
+    "filename_circlet": "UI_RelicIcon_14004_3"
   },
   "version": "1.0"
 }

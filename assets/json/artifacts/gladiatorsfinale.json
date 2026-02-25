@@ -43,21 +43,11 @@
     "story": "A helmet of the gladiator adorned with feathers.\nTo zealous spectators, this helmet was the symbol of invincibility.\n\nThe legendary gladiator had fought numerous battles. None had ever stood a chance of survival before his sword, be they human or monster.\nOn each triumphant day, the champion gladiator would walk through the gate to a hero's welcome from the adoring crowd.\n\nOnly in moments of victory could the slave have a taste of what it felt like to be a master. But the cost of this vain aspiration was for the faint glow of freedom to be shrouded by darkness.\nOn the day of his triumph, the gladiator finally caught a glimpse of the world outside his cell. He was a step closer to freedom.\n\nBut only when his helmet fell down on the arena floor did he and the spectators alike realize that it was all just a farce.\nThe offering of his petty life made no difference. He would always be a worthless slave in the eyes of his master."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_3.png",
     "filename_flower": "UI_RelicIcon_15001_4",
     "filename_plume": "UI_RelicIcon_15001_2",
     "filename_sands": "UI_RelicIcon_15001_5",
     "filename_goblet": "UI_RelicIcon_15001_1",
-    "filename_circlet": "UI_RelicIcon_15001_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_3.png"
+    "filename_circlet": "UI_RelicIcon_15001_3"
   },
   "version": "1.0"
 }

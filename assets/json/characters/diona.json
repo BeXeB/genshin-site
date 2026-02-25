@@ -183,7 +183,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Diona",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diona"
     },
-    "version": "1.1"
+    "version": "1.1",
+    "normalizedName": "diona"
   },
   "skills": {
     "id": 3901,
@@ -375,7 +376,8 @@
             3.79592
           ]
         }
-      }
+      },
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
     },
     "combat2": {
       "name": "Icy Paws",
@@ -492,7 +494,8 @@
             2.4
           ]
         }
-      }
+      },
+      "descriptionRaw": "#Fires an Icy Paw that deals <color=#99FFFFFF>Cryo DMG</color> to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nRapidly fires off 2 Icy Paws.\n\n<color=#FFD780FF>Hold</color>\nDashes back quickly before firing 5 Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% <color=#99FFFFFF>Cryo DMG</color> Absorption Bonus, and will cause your active character to become affected by <color=#99FFFFFF>Cryo</color> at the point of formation for a short duration.\n\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>"
     },
     "combat3": {
       "name": "Signature Mix",
@@ -627,19 +630,23 @@
             12
           ]
         }
-      }
+      },
+      "descriptionRaw": "Tosses out a special cold brew that deals <color=#99FFFFFF>AoE Cryo DMG</color> and creates a Drunken Mist in an AoE.\n\n<color=#FFD780FF>Drunken Mist</color>\n·Deals continuous <color=#99FFFFFF>Cryo DMG</color> to opponents within the AoE.\n·Continuously regenerates the HP of characters within the AoE.\n\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>"
     },
     "passive1": {
       "name": "Cat's Tail Secret Menu",
-      "description": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
+      "description": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
+      "descriptionRaw": "Characters shielded by <color=#FFD780FF>Icy Paws</color> have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
     },
     "passive2": {
       "name": "Drunkards' Farce",
-      "description": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s."
+      "description": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s.",
+      "descriptionRaw": "Opponents who enter the AoE of <color=#FFD780FF>Signature Mix</color> have 10% decreased ATK for 15s."
     },
     "passive3": {
       "name": "Complimentary Bar Food",
-      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+      "descriptionRaw": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
     },
     "costs": {
       "lvl2": [
@@ -836,27 +843,33 @@
     "name": "Diona",
     "c1": {
       "name": "A Lingering Flavor",
-      "description": "Regenerates 15 Energy for Diona after the effects of Signature Mix end."
+      "description": "Regenerates 15 Energy for Diona after the effects of Signature Mix end.",
+      "descriptionRaw": "Regenerates 15 Energy for Diona after the effects of <color=#FFD780FF>Signature Mix</color> end."
     },
     "c2": {
       "name": "Shaken, Not Purred",
-      "description": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%.\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s."
+      "description": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%.\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s.",
+      "descriptionRaw": "Increases <color=#FFD780FF>Icy Paws</color>' DMG by 15%, and increases its shield's DMG Absorption by 15%.\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the <color=#FFD780FF>Icy Paws</color> shield's DMG Absorption for 5s."
     },
     "c3": {
       "name": "A—Another Round?",
-      "description": "Increases the Level of Signature Mix by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Signature Mix by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Signature Mix</color> by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Wine Industry Slayer",
-      "description": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%"
+      "description": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%",
+      "descriptionRaw": "Within the radius of <color=#FFD780FF>Signature Mix</color>, Diona's charge time for aimed shots is reduced by 60%"
     },
     "c5": {
       "name": "Double Shot, on the Rocks",
-      "description": "Increases the Level of Icy Paws by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Icy Paws by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Icy Paws</color> by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Cat's Tail Closing Time",
-      "description": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\n·Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n·Elemental Mastery increased by 200 when HP is above 50%."
+      "description": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\n·Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n·Elemental Mastery increased by 200 when HP is above 50%.",
+      "descriptionRaw": "Characters within <color=#FFD780FF>Signature Mix</color>'s radius will gain the following effects based on their HP amounts:\n·Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n·Elemental Mastery increased by 200 when HP is above 50%."
     },
     "images": {
       "filename_c1": "UI_Talent_S_Diona_01",

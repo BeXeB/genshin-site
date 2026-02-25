@@ -43,21 +43,11 @@
     "story": "It is said that during the years when gods contended against one another, Rex Lapis' aspect was that of boundless slaughter.\nIn those god-eat-god battles, one could never have ascribed gentleness to him.\n\nHe knew right from wrong, and never missed his mark: in those days of tumult, he would show no mercy, even to friends-turned-foes.\nRex Lapis' stone-cold expression never once changed throughout that storied age.\n\nThey say that only when the dust settled did he lay down that unmovable visage.\nBut it had been necessary, for he had donned it to fulfill a contract."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_3.png",
     "filename_flower": "UI_RelicIcon_15014_4",
     "filename_plume": "UI_RelicIcon_15014_2",
     "filename_sands": "UI_RelicIcon_15014_5",
     "filename_goblet": "UI_RelicIcon_15014_1",
-    "filename_circlet": "UI_RelicIcon_15014_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_3.png"
+    "filename_circlet": "UI_RelicIcon_15014_3"
   },
   "version": "1.0"
 }

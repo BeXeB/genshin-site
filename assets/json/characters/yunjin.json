@@ -183,7 +183,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Yunjin",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Yunjin"
     },
-    "version": "2.4"
+    "version": "2.4",
+    "normalizedName": "yunjin"
   },
   "skills": {
     "id": 6401,
@@ -409,7 +410,8 @@
             4.27041
           ]
         }
-      }
+      },
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
     },
     "combat2": {
       "name": "Opening Flourish",
@@ -526,7 +528,8 @@
             9
           ]
         }
-      }
+      },
+      "descriptionRaw": "#Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nFlourishes her polearm in a cloud-grasping stance, dealing <color=#FFE699FF>Geo DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing <color=#FFE699FF>Geo DMG</color>.\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\n\n<i>One glorious moment on-stage, a decade of preparation behind it.</i>"
     },
     "combat3": {
       "name": "Cliffbreaker's Banner",
@@ -644,19 +647,23 @@
             30
           ]
         }
-      }
+      },
+      "descriptionRaw": "Deals <color=#FFE699FF>AoE Geo DMG</color> and grants all nearby party members a Flying Cloud Flag Formation.\n\n<color=#FFD780FF>Flying Cloud Flag Formation</color>\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\n\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.\n\n<i>As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.</i>\n<i>As the instruments on stage strum in unison, lo, see how she vanquishes these demons!</i>"
     },
     "passive1": {
       "name": "True to Oneself",
-      "description": "Using Opening Flourish at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form."
+      "description": "Using Opening Flourish at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form.",
+      "descriptionRaw": "Using <color=#FFD780FF>Opening Flourish</color> at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form."
     },
     "passive2": {
       "name": "Breaking Conventions",
-      "description": "The Normal Attack DMG Bonus granted by Flying Cloud Flag Formation is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively."
+      "description": "The Normal Attack DMG Bonus granted by Flying Cloud Flag Formation is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively.",
+      "descriptionRaw": "The Normal Attack DMG Bonus granted by <color=#FFD780FF>Flying Cloud Flag Formation</color> is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively."
     },
     "passive3": {
       "name": "Light Nourishment",
-      "description": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product."
+      "description": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product.",
+      "descriptionRaw": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product."
     },
     "costs": {
       "lvl2": [
@@ -853,27 +860,33 @@
     "name": "Yun Jin",
     "c1": {
       "name": "Thespian Gallop",
-      "description": "Opening Flourish's CD is decreased by 18%."
+      "description": "Opening Flourish's CD is decreased by 18%.",
+      "descriptionRaw": "<color=#FFD780FF>Opening Flourish's</color> CD is decreased by 18%."
     },
     "c2": {
       "name": "Myriad Mise-En-Scène",
-      "description": "After Cliffbreaker's Banner is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s."
+      "description": "After Cliffbreaker's Banner is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.",
+      "descriptionRaw": "After <color=#FFD780FF>Cliffbreaker's Banner</color> is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s."
     },
     "c3": {
       "name": "Seafaring General",
-      "description": "Increases the Level of Cliffbreaker's Banner by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Cliffbreaker's Banner by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Cliffbreaker's Banner</color> by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Flower and a Fighter",
-      "description": "When Yun Jin triggers Crystallize or Lunar-Crystallize reactions, her DEF is increased by 20% for 12s."
+      "description": "When Yun Jin triggers Crystallize or Lunar-Crystallize reactions, her DEF is increased by 20% for 12s.",
+      "descriptionRaw": "When Yun Jin triggers Crystallize or Lunar-Crystallize reactions, her DEF is increased by 20% for 12s."
     },
     "c5": {
       "name": "Famed Throughout the Land",
-      "description": "Increases the Level of Opening Flourish by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Opening Flourish by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Opening Flourish</color> by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Decorous Harmony",
-      "description": "Characters under the effects of the Flying Cloud Flag Formation have their Normal ATK SPD increased by 12%."
+      "description": "Characters under the effects of the Flying Cloud Flag Formation have their Normal ATK SPD increased by 12%.",
+      "descriptionRaw": "Characters under the effects of the <color=#FFD780FF>Flying Cloud Flag Formation</color> have their Normal ATK SPD increased by 12%."
     },
     "images": {
       "filename_c1": "UI_Talent_S_Yunjin_01",

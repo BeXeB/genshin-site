@@ -43,21 +43,11 @@
     "story": "Bathed in the flames that devoured his homeland, the berserker's face was no longer recognizable.\nThe iron mask became joined with his flesh, permanently branding his face with a heartless countenance.\nThen, in a fierce battle, his horrifying mask was split into two by his opponent.\nThe cracks of the mask tore apart the flesh that had long stuck to it.\nBut neither pain nor blood could stop the berserker's unfaltering footsteps.\nThe berserker kept roaring until the fresh blood covered the black clots hardened on his face."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_3.png",
     "filename_flower": "UI_RelicIcon_10005_4",
     "filename_plume": "UI_RelicIcon_10005_2",
     "filename_sands": "UI_RelicIcon_10005_5",
     "filename_goblet": "UI_RelicIcon_10005_1",
-    "filename_circlet": "UI_RelicIcon_10005_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_3.png"
+    "filename_circlet": "UI_RelicIcon_10005_3"
   },
   "version": "1.0"
 }

@@ -43,21 +43,11 @@
     "story": "These ostentatious earrings are the perfect representation of the gambler's transient wealth.\nThe glimmer of the gem is just as soothing as the sky and the lake.\nThe earrings would be coated with a mildly sedative substance to keep the gambler calm in the game.\nIn games where one gambles with life and death, remaining calm and composed is the key to winning."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_3.png",
     "filename_flower": "UI_RelicIcon_10008_4",
     "filename_plume": "UI_RelicIcon_10008_2",
     "filename_sands": "UI_RelicIcon_10008_5",
     "filename_goblet": "UI_RelicIcon_10008_1",
-    "filename_circlet": "UI_RelicIcon_10008_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_3.png"
+    "filename_circlet": "UI_RelicIcon_10008_3"
   },
   "version": "1.0"
 }

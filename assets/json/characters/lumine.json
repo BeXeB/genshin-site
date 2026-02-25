@@ -156,7 +156,8 @@
       "filename_iconCard": "UI_AvatarIcon_PlayerGirl_Card",
       "filename_sideIcon": "UI_AvatarIcon_Side_PlayerGirl"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "lumine"
   },
   "stats": {
     "1": {

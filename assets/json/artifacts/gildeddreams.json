@@ -43,21 +43,11 @@
     "story": "\"The ruler shall come with light that blazes like the sun,\"\n\"And will take from the people the crown woven from rose thorns.\"\nIn the beginning, a divine pillar descended from the skies, burying tree and meadow under the flowing sands.\nThe golden sun fell, then rose again, clothing the sea of sand in an opulent death-shroud.\n\nLater, the venomous winds of time disturbed the slumber of the fallen, attracting nostalgic delusions.\nIn that accursed time, many cities thrived atop fertile oases.\nFollowing the ideals of their God King, the priests would rule the utopias justly, spreading abundance everywhere.\nOnce, the wise mortal king and the clergy received divine oracles personally, and they were the masters of the land.\nToday, those who rule as proxies in the oases are the shadows of the gods.\n\n\"The royal regalia and divine scepters are scattered across the land like jujubes,\"\n\"And under the shade, the subjects could live and seek.\"\n\nSome time later, absurd decisions would be issued alongside illusory madness,\nUsing lovely expectations as bait to lead the people towards a bitter end."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15026_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15026_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15026_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15026_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15026_3.png",
     "filename_flower": "UI_RelicIcon_15026_4",
     "filename_plume": "UI_RelicIcon_15026_2",
     "filename_sands": "UI_RelicIcon_15026_5",
     "filename_goblet": "UI_RelicIcon_15026_1",
-    "filename_circlet": "UI_RelicIcon_15026_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15026_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15026_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15026_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15026_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15026_3.png"
+    "filename_circlet": "UI_RelicIcon_15026_3"
   },
   "version": "3.0"
 }

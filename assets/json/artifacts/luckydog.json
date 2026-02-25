@@ -44,21 +44,11 @@
     "story": "One who is favored by fortune can even find priceless treasures in the most deadly of traps.\nWhile wandering around some ruins, the boy known as Lucky Dog accidentally fell into a deep pit.\nHe landed safely on a pile of dust. It turned out to be a mattress that over the years had gradually broken down, eventually turning to dust.\nJust like that, Lucky Dog discovered a treasure trove left by the old aristocrats. This circlet came to epitomize his luck."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_3.png",
     "filename_flower": "UI_RelicIcon_10011_4",
     "filename_plume": "UI_RelicIcon_10011_2",
     "filename_sands": "UI_RelicIcon_10011_5",
     "filename_goblet": "UI_RelicIcon_10011_1",
-    "filename_circlet": "UI_RelicIcon_10011_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_3.png"
+    "filename_circlet": "UI_RelicIcon_10011_3"
   },
   "version": "1.0"
 }

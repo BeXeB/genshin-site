@@ -43,21 +43,11 @@
     "story": "A luxurious platinum mask that once belonged to a knight of noble birth.\nThe dark stains of dry blood are now a permanent part of its appearance.\n\nAs the Bloodstained Knight reached out to help a person in need after slaying the monster,\nThe way she cowered in fear made the knight realize:\nHe was now a monster himself.\nTainted by the blood and cruelty of his drawn-out war.\n\n\"Shield me from the eyes\"\n\"Of those I vowed to protect.\"\n\"And shield them from the horrors I am bound to effect.\""
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_3.png",
     "filename_flower": "UI_RelicIcon_15008_4",
     "filename_plume": "UI_RelicIcon_15008_2",
     "filename_sands": "UI_RelicIcon_15008_5",
     "filename_goblet": "UI_RelicIcon_15008_1",
-    "filename_circlet": "UI_RelicIcon_15008_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_3.png"
+    "filename_circlet": "UI_RelicIcon_15008_3"
   },
   "version": "1.0"
 }

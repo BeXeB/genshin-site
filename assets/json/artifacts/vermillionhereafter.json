@@ -43,21 +43,11 @@
     "story": "Tianqiu once played host to a Yaksha, four-armed and mighty.\nHe came to The Chasm from afar, to the praises of the tribes.\nA feast they put forth for him, the food in abundance.\nBlade in hand, he entered The Chasm, a disaster to still.\nMighty as a demon, purple bale-fire shone in his eyes.\nThe lightning pierced the deathly shadow, and thunder dissolved the darkness.\nThe clouds hid the abyss, maw stretching to devour the firmament.\nThe wild wind howled, the cinnabar sweeping the darkness.\nThe mountain ranges shock, and the gorges caved in.\nThe depths cried out as they collapsed, and then all was silent.\nThe dense clouds solidified sundown-light as the perching birds sang sadly:\n\"Do you not hear? The drums die in the north wind, the hero sinks into the vortex.\"\n\"Have you not seen? The Yaksha's battle for the dawn — alas for a life so spent.\""
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15023_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15023_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15023_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15023_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15023_3.png",
     "filename_flower": "UI_RelicIcon_15023_4",
     "filename_plume": "UI_RelicIcon_15023_2",
     "filename_sands": "UI_RelicIcon_15023_5",
     "filename_goblet": "UI_RelicIcon_15023_1",
-    "filename_circlet": "UI_RelicIcon_15023_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15023_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15023_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15023_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15023_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15023_3.png"
+    "filename_circlet": "UI_RelicIcon_15023_3"
   },
   "version": "2.6"
 }

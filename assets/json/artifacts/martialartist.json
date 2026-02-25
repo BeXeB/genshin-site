@@ -43,21 +43,11 @@
     "story": "A bright-red bandana that belonged to a martial artist. The color has now faded.\nIt serves as proof that the bearer practiced martial arts at a young age. It also represents the high ambition the young martial artist once had.\nBefore the first crack of dawn, the young martial artist was already training in the forest.\nMany years later, the martial artist is now an instructor. Though youth may be a thing of his past, he remains just as alert and diligent as when he was young."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_3.png",
     "filename_flower": "UI_RelicIcon_10006_4",
     "filename_plume": "UI_RelicIcon_10006_2",
     "filename_sands": "UI_RelicIcon_10006_5",
     "filename_goblet": "UI_RelicIcon_10006_1",
-    "filename_circlet": "UI_RelicIcon_10006_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_3.png"
+    "filename_circlet": "UI_RelicIcon_10006_3"
   },
   "version": "1.0"
 }

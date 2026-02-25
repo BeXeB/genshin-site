@@ -183,7 +183,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Diluc",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Diluc"
     },
-    "version": "1.0"
+    "version": "1.0",
+    "normalizedName": "diluc"
   },
   "skills": {
     "id": 1601,
@@ -393,7 +394,8 @@
             5.978574
           ]
         }
-      }
+      },
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
     },
     "combat2": {
       "name": "Searing Onslaught",
@@ -475,7 +477,8 @@
             10
           ]
         }
-      }
+      },
+      "descriptionRaw": "Performs a forward slash that deals <color=#FF9999FF>Pyro DMG</color>.\n\nThis skill can be consecutively used 3 times.\nEnters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>"
     },
     "combat3": {
       "name": "Dawn",
@@ -593,19 +596,23 @@
             40
           ]
         }
-      }
+      },
+      "descriptionRaw": "Releases intense flames to knock back nearby opponents, dealing <color=#FF9999FF>Pyro DMG</color>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <color=#FF9999FF>Pyro DMG</color> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <color=#FF9999FF>AoE Pyro DMG</color>.\nThe searing flames that run down his blade cause it to be infused with <color=#FF9999FF>Pyro</color>.\n\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>"
     },
     "passive1": {
       "name": "Relentless",
-      "description": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s."
+      "description": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
+      "descriptionRaw": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s."
     },
     "passive2": {
       "name": "Blessing of Phoenix",
-      "description": "The Pyro Infusion provided by Dawn lasts for 4s longer. Additionally, Diluc gains 20% Pyro DMG Bonus during the duration of this effect."
+      "description": "The Pyro Infusion provided by Dawn lasts for 4s longer. Additionally, Diluc gains 20% Pyro DMG Bonus during the duration of this effect.",
+      "descriptionRaw": "The <color=#FF9999FF>Pyro Infusion</color> provided by <color=#FFD780FF>Dawn</color> lasts for 4s longer. Additionally, Diluc gains 20% <color=#FF9999FF>Pyro DMG Bonus</color> during the duration of this effect."
     },
     "passive3": {
       "name": "Tradition of the Dawn Knight",
-      "description": "Refunds 15% of the ore used when crafting Claymore-type weapons."
+      "description": "Refunds 15% of the ore used when crafting Claymore-type weapons.",
+      "descriptionRaw": "Refunds 15% of the ore used when crafting Claymore-type weapons."
     },
     "costs": {
       "lvl2": [
@@ -802,27 +809,33 @@
     "name": "Diluc",
     "c1": {
       "name": "Conviction",
-      "description": "Diluc deals 15% more DMG to opponents whose HP is above 50%."
+      "description": "Diluc deals 15% more DMG to opponents whose HP is above 50%.",
+      "descriptionRaw": "Diluc deals 15% more DMG to opponents whose HP is above 50%."
     },
     "c2": {
       "name": "Searing Ember",
-      "description": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s."
+      "description": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
+      "descriptionRaw": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s."
     },
     "c3": {
       "name": "Fire and Steel",
-      "description": "Increases the Level of Searing Onslaught by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Searing Onslaught by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Searing Onslaught</color> by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Flowing Flame",
-      "description": "Casting Searing Onslaught in rhythm greatly increases damage dealt.\n2s after casting Searing Onslaught, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s."
+      "description": "Casting Searing Onslaught in rhythm greatly increases damage dealt.\n2s after casting Searing Onslaught, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s.",
+      "descriptionRaw": "Casting <color=#FFD780FF>Searing Onslaught</color> in rhythm greatly increases damage dealt.\n2s after casting <color=#FFD780FF>Searing Onslaught</color>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s."
     },
     "c5": {
       "name": "Phoenix, Harbinger of Dawn",
-      "description": "Increases the Level of Dawn by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Dawn by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Dawn</color> by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Flaming Sword, Nemesis of the Dark",
-      "description": "After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo."
+      "description": "After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
+      "descriptionRaw": "After casting <color=#FFD780FF>Searing Onslaught</color>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo."
     },
     "images": {
       "filename_c1": "UI_Talent_S_Diluc_01",

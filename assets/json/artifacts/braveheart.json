@@ -43,21 +43,11 @@
     "story": "The little hero entered the deep, mysterious forest, and henceforth walked the path of resistance.\nHis best playmate played the role of the champion knight of the aristocracy.\n\n\"Like a lion I stride the battlefield, like she did a thousand years before.\"\n\"Songs I will inspire with my sword, to give to generations to come.\"\n\nTheir toy greatswords and tree branches clashed in their fierce duel—\nTill at last the hero won the day, and seized the aristocrats' crowns from their heads.\n\nMany years later, this wreath of flowers, though crudely made,\nWould seem more precious still than the power a master of knights held..."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_3.png",
     "filename_flower": "UI_RelicIcon_10002_4",
     "filename_plume": "UI_RelicIcon_10002_2",
     "filename_sands": "UI_RelicIcon_10002_5",
     "filename_goblet": "UI_RelicIcon_10002_1",
-    "filename_circlet": "UI_RelicIcon_10002_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_3.png"
+    "filename_circlet": "UI_RelicIcon_10002_3"
   },
   "version": "1.0"
 }

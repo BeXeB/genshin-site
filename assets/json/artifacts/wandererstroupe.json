@@ -43,21 +43,11 @@
     "story": "A beautiful top hat untouched by time.\nListening closely, one can almost hear an ancient tune echoing inside the hat.\n\nThousands of years ago, a troupe wandered through the lands.\nThe troupe owned not a single shred of sheet music. What they saw was what they sung, and what they heard was what they played.\nAs time passed, the troupe gradually realized the vastness of the world.\n\n\"There are so many things in the world for us to sing of.\"\n\nThe members then turned the notes into words and recorded their journey in a book.\nThis book, The Widsith as they called it, was still held tightly in the conductor's hands even after his death."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_3.png",
     "filename_flower": "UI_RelicIcon_15003_4",
     "filename_plume": "UI_RelicIcon_15003_2",
     "filename_sands": "UI_RelicIcon_15003_5",
     "filename_goblet": "UI_RelicIcon_15003_1",
-    "filename_circlet": "UI_RelicIcon_15003_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_3.png"
+    "filename_circlet": "UI_RelicIcon_15003_3"
   },
   "version": "1.0"
 }

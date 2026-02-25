@@ -43,21 +43,11 @@
     "story": "An ancient circlet that once belonged to the Lavawalker — a sage who wandered in the Mare Jivari.\nUpon close examination, one can almost see his figure standing strong amidst the fiery flames.\n\nThe wandering sage of the Mare Jivari known as the Lavawalker crafted this circlet from crimson agate to resist the intense heat of the flames.\nThe circlet was built with wisdom and tenacity. It sparked fear and jealousy among peers and seniors alike.\n\n\"How dare the Lavawalker challenge the flames of the Mare Jivari! Such blasphemy has not been seen in hundreds of years!\nThe flaming sea will surely devour this arrogant young man and the sky will blow his ashes into the void.\"\n\nIn his jealousy, the teacher demanded that his student step into the flaming sea wearing the circlet.\nIn a state of calmness, the Lavawalker strolled onto the lava and gradually disappeared into the horizon."
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_3.png",
     "filename_flower": "UI_RelicIcon_14003_4",
     "filename_plume": "UI_RelicIcon_14003_2",
     "filename_sands": "UI_RelicIcon_14003_5",
     "filename_goblet": "UI_RelicIcon_14003_1",
-    "filename_circlet": "UI_RelicIcon_14003_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_3.png"
+    "filename_circlet": "UI_RelicIcon_14003_3"
   },
   "version": "1.0"
 }

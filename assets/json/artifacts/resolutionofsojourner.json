@@ -43,21 +43,11 @@
     "story": "The departing traveler would take this crown of willow branches as a final memento.\nWith it, he would remember his lover, now departed like a dandelion on the breeze.\n\nThe traveler was the wandering lyrist, and that maiden in the country of wine was a prisoner of the nobility.\nFor reasons he knew not himself, his lyre-song revealed his true heart.\n\n\"What would move me, you ask? ...Well, it would be your smile.\"\n\"I've never known you to smile, after all. Not even once.\"\n\"I will break the chains that bind you.\"\n\"When that time comes, would you let me see you smile?\"\n\n\"Yes, and thank you. It would be wonderful indeed if you could do that.\"\nPretty words, but who could trust them, coming from a singer?"
   },
   "images": {
-    "flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_4.png",
-    "plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_2.png",
-    "sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_5.png",
-    "goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_1.png",
-    "circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_3.png",
     "filename_flower": "UI_RelicIcon_10001_4",
     "filename_plume": "UI_RelicIcon_10001_2",
     "filename_sands": "UI_RelicIcon_10001_5",
     "filename_goblet": "UI_RelicIcon_10001_1",
-    "filename_circlet": "UI_RelicIcon_10001_3",
-    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_4.png",
-    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_2.png",
-    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_5.png",
-    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_1.png",
-    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_3.png"
+    "filename_circlet": "UI_RelicIcon_10001_3"
   },
   "version": "1.0"
 }

@@ -183,7 +183,8 @@
       "filename_gachaSplash": "UI_Gacha_AvatarImg_Alhatham",
       "filename_gachaSlice": "UI_Gacha_AvatarIcon_Alhatham"
     },
-    "version": "3.4"
+    "version": "3.4",
+    "normalizedName": "alhaitham"
   },
   "skills": {
     "id": 7801,
@@ -409,7 +410,8 @@
             4.27041
           ]
         }
-      }
+      },
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
     },
     "combat2": {
       "name": "Universality: An Elaboration on Form",
@@ -613,7 +615,8 @@
             18
           ]
         }
-      }
+      },
+      "descriptionRaw": "Rushes forward, dealing <color=#99FF88FF>Dendro DMG</color> to nearby opponents when the rush ends, causing a Chisel-Light Mirror to form.\nHolding this skill will cause it to behave differently.\n\n<color=#FFD780FF>Hold</color>\nEnters Aiming Mode to adjust the direction of Alhaitham's rush attack.\n\n<color=#FFD780FF>Chisel-Light Mirror</color>\nWhen this skill is unleashed, Alhaitham will generate 1 Chisel-Light Mirror. If there are no Mirrors at this time, he will generate 1 additional Mirror. Chisel-Light Mirrors will have the following properties:\n·When he possesses Chisel-Light Mirrors, Alhaitham's Normal, Charged, and Plunging Attacks will be converted to <color=#99FF88FF>Dendro DMG</color>. This cannot be overridden.\n·When attacks of the aforementioned kind hit opponents, the Chisel-Light Mirrors will unleash a Projection Attack that deals <color=#99FF88FF>AoE Dendro DMG</color> based on the number of Mirrors on the field.\n·A total of 3 Chisel-Light Mirrors can exist at once.\n·The Chisel-Light Mirrors will disappear one after the other over time, and will all disappear when Alhaitham leaves the field.\n\n<i>\"Truth inherently exists amidst uncertainty. Even the greatest of scholars are not immune to error.\"</i>"
     },
     "combat3": {
       "name": "Particular Field: Fetters of Phenomena",
@@ -766,19 +769,23 @@
             70
           ]
         }
-      }
+      },
+      "descriptionRaw": "Creates a Particular Binding Field and deals multiple instances of <color=#99FF88FF>AoE Dendro DMG</color>.\nIf Chisel-Light Mirrors exist when this ability is unleashed, all such Mirrors will be consumed and increase the number of DMG instances dealt.\n2s after this ability is unleashed, if 0/1/2/3 Mirrors were consumed, Alhaitham will generate 3/2/1/0 new Mirrors in turn.\n\n<i>\"If a researcher makes wisdom their goal, then they should be prepared to make an enemy of every word they read. Only then can they avoid bias.\"</i>"
     },
     "passive1": {
       "name": "Four-Causal Correction",
-      "description": "When Alhaitham's Charged or Plunging Attacks hit opponents, they will generate 1 Chisel-Light Mirror. This effect can be triggered once every 12s."
+      "description": "When Alhaitham's Charged or Plunging Attacks hit opponents, they will generate 1 Chisel-Light Mirror. This effect can be triggered once every 12s.",
+      "descriptionRaw": "When Alhaitham's Charged or Plunging Attacks hit opponents, they will generate 1 Chisel-Light Mirror. This effect can be triggered once every 12s."
     },
     "passive2": {
       "name": "Mysteries Laid Bare",
-      "description": "Each point of Alhaitham's Elemental Mastery will increase the DMG dealt by Projection Attacks and Particular Field: Fetters of Phenomena by 0.1%.\nThe DMG of both aforementioned abilities can be increased by a maximum of 100% this way."
+      "description": "Each point of Alhaitham's Elemental Mastery will increase the DMG dealt by Projection Attacks and Particular Field: Fetters of Phenomena by 0.1%.\nThe DMG of both aforementioned abilities can be increased by a maximum of 100% this way.",
+      "descriptionRaw": "Each point of Alhaitham's Elemental Mastery will increase the DMG dealt by Projection Attacks and <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> by 0.1%.\nThe DMG of both aforementioned abilities can be increased by a maximum of 100% this way."
     },
     "passive3": {
       "name": "Law of Reductive Overdetermination",
-      "description": "When Alhaitham crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
+      "description": "When Alhaitham crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+      "descriptionRaw": "When Alhaitham crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
     },
     "costs": {
       "lvl2": [
@@ -975,27 +982,33 @@
     "name": "Alhaitham",
     "c1": {
       "name": "Intuition",
-      "description": "When a Projection Attack hits an opponent, Universality: An Elaboration on Form's CD is decreased by 1.2s. This effect can be triggered once every 1s."
+      "description": "When a Projection Attack hits an opponent, Universality: An Elaboration on Form's CD is decreased by 1.2s. This effect can be triggered once every 1s.",
+      "descriptionRaw": "When a Projection Attack hits an opponent, <color=#FFD780FF>Universality: An Elaboration on Form</color>'s CD is decreased by 1.2s. This effect can be triggered once every 1s."
     },
     "c2": {
       "name": "Debate",
-      "description": "When Alhaitham generates a Chisel-Light Mirror, his Elemental Mastery will be increased by 50 for 8 seconds, max 4 stacks. Each stack's duration is counted independently. This effect can be triggered even when the maximum number of Chisel-Light Mirrors has been reached."
+      "description": "When Alhaitham generates a Chisel-Light Mirror, his Elemental Mastery will be increased by 50 for 8 seconds, max 4 stacks. Each stack's duration is counted independently. This effect can be triggered even when the maximum number of Chisel-Light Mirrors has been reached.",
+      "descriptionRaw": "When Alhaitham generates a Chisel-Light Mirror, his Elemental Mastery will be increased by 50 for 8 seconds, max 4 stacks. Each stack's duration is counted independently. This effect can be triggered even when the maximum number of Chisel-Light Mirrors has been reached."
     },
     "c3": {
       "name": "Negation",
-      "description": "Increases the Level of Universality: An Elaboration on Form by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Universality: An Elaboration on Form by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Universality: An Elaboration on Form</color> by 3.\nMaximum upgrade level is 15."
     },
     "c4": {
       "name": "Elucidation",
-      "description": "When Particular Field: Fetters of Phenomena is unleashed, the following effects will become active based on the number of Chisel-Light Mirrors consumed and created this time around:\n·Each Mirror consumed will increase the Elemental Mastery of all other nearby party members by 30 for 15s.\n·Each Mirror generated will grant Alhaitham a 10% Dendro DMG Bonus for 15s.\n\nThe pre-existing duration of the aforementioned effects will be cleared if you use Particular Field: Fetters of Phenomena again while they are in effect."
+      "description": "When Particular Field: Fetters of Phenomena is unleashed, the following effects will become active based on the number of Chisel-Light Mirrors consumed and created this time around:\n·Each Mirror consumed will increase the Elemental Mastery of all other nearby party members by 30 for 15s.\n·Each Mirror generated will grant Alhaitham a 10% Dendro DMG Bonus for 15s.\n\nThe pre-existing duration of the aforementioned effects will be cleared if you use Particular Field: Fetters of Phenomena again while they are in effect.",
+      "descriptionRaw": "When <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> is unleashed, the following effects will become active based on the number of Chisel-Light Mirrors consumed and created this time around:\n·Each Mirror consumed will increase the Elemental Mastery of all other nearby party members by 30 for 15s.\n·Each Mirror generated will grant Alhaitham a 10% <color=#99FF88FF>Dendro DMG Bonus</color> for 15s.\n\nThe pre-existing duration of the aforementioned effects will be cleared if you use Particular Field: Fetters of Phenomena again while they are in effect."
     },
     "c5": {
       "name": "Sagacity",
-      "description": "Increases the Level of Particular Field: Fetters of Phenomena by 3.\nMaximum upgrade level is 15."
+      "description": "Increases the Level of Particular Field: Fetters of Phenomena by 3.\nMaximum upgrade level is 15.",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> by 3.\nMaximum upgrade level is 15."
     },
     "c6": {
       "name": "Structuration",
-      "description": "Alhaitham gains the following effects:\n· 2 seconds after Particular Field: Fetters of Phenomena is unleashed, he will generate 3 Chisel-Light Mirrors regardless of the number of mirrors consumed.\n· If Alhaitham generates Chisel-Light Mirrors when their numbers have already maxed out, his CRIT Rate and CRIT DMG will increase by 10% and 70% respectively for 6s. If this effect is triggered again during its initial duration, the duration remaining will be increased by 6s."
+      "description": "Alhaitham gains the following effects:\n· 2 seconds after Particular Field: Fetters of Phenomena is unleashed, he will generate 3 Chisel-Light Mirrors regardless of the number of mirrors consumed.\n· If Alhaitham generates Chisel-Light Mirrors when their numbers have already maxed out, his CRIT Rate and CRIT DMG will increase by 10% and 70% respectively for 6s. If this effect is triggered again during its initial duration, the duration remaining will be increased by 6s.",
+      "descriptionRaw": "Alhaitham gains the following effects:\n· 2 seconds after <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> is unleashed, he will generate 3 Chisel-Light Mirrors regardless of the number of mirrors consumed.\n· If Alhaitham generates Chisel-Light Mirrors when their numbers have already maxed out, his CRIT Rate and CRIT DMG will increase by 10% and 70% respectively for 6s. If this effect is triggered again during its initial duration, the duration remaining will be increased by 6s."
     },
     "images": {
       "filename_c1": "UI_Talent_S_Alhatham_02",
