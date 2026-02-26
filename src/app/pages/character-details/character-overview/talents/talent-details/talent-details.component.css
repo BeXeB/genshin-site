@@ -64,13 +64,13 @@
 }
 
 .talent-level .increment {
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .talent-level .decrement {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .talent-level input::-webkit-outer-spin-button,
