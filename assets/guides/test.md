@@ -39,22 +39,22 @@
 
 ### Unordered
 
--   Item 1
--   Item 2
-    -   Subitem 2.1
-    -   Subitem 2.2
+- Item 1
+- Item 2
+  - Subitem 2.1
+  - Subitem 2.2
 
 ### Ordered
 
-1.  First
-2.  Second
-    1.  Subitem 2.1
-    2.  Subitem 2.2
+1. First
+2. Second
+    1. Subitem 2.1
+    2. Subitem 2.2
 
 ### Task List
 
--   [x] Completed
--   [ ] Not completed
+- [x] Completed
+- [ ] Not completed
 
 ------------------------------------------------------------------------
 
@@ -69,6 +69,10 @@ Autolink: <https://openai.com>
 ## Images
 
 ![Example Image](assets/images/Geo.png)
+
+![Geo Icon][geo-img]
+
+[geo-img]: assets/images/Geo.png
 
 ------------------------------------------------------------------------
 
@@ -104,7 +108,6 @@ greet("World");
 | Lisa   | Mage     | Electro |
 | Kaeya  | Swordsman| Cryo    |
 
-
 | Left | Center | Right |
 |:-----|:------:|------:|
 | A    | B      | C     |
@@ -124,10 +127,10 @@ greet("World");
 
 > ### Quoted Heading
 >
-> -   Nested list item
-> -   Another item
->     1.  Subitem
->     2.  Subitem
+> - Nested list item
+> - Another item
+>     1. Subitem
+>     2. Subitem
 
 ------------------------------------------------------------------------
 
