@@ -12,7 +12,7 @@ export class HomeComponent {
   quickAccesses = [
     {
       title: 'Tier List',
-      description: 'Karakterek rangsorolása erősség és szerepkör szerint.',
+      description: 'Karakterek rangsorolása erősség szerint.',
       link: '/tierlist',
     },
     {
