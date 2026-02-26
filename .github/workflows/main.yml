@@ -14,8 +14,10 @@ jobs:
 
     steps:
       # Checkout repo
-      - name: Checkout code
+      - name: Checkout code with LFS
         uses: actions/checkout@v3
+        with:
+          lfs: true
 
       # Setup Node
       - name: Setup Node.js
