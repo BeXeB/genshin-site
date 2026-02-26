@@ -9,7 +9,7 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
   templateUrl: './talent-details.component.html',
   styleUrl: './talent-details.component.css',
 })
-export class TalentDetailsComponent implements OnInit{
+export class TalentDetailsComponent implements OnInit {
   @Input() talent: CombatTalent | PassiveTalent | null = null;
   @Input() elementColor: string | null = null;
   @Input() imageUrl: string | null = null;
@@ -22,10 +22,11 @@ export class TalentDetailsComponent implements OnInit{
 
   ngOnInit() {
     if (this.talent) {
-      this.talentDesc = this.getFormattedDescription(this.talent.description);
+      this.talentDesc = this.getFormattedDescription(
+        this.talent.descriptionRaw,
+      );
     }
   }
-
 
   incrementLevel() {
     const max = 13;
@@ -92,9 +93,15 @@ export class TalentDetailsComponent implements OnInit{
       return '';
     }
 
-    if (!(this.talent as CombatTalent).attributes) {
-      return description;
-    }
+    description = description.replace(/\{LINK#[^}]+\}(.*?)\{\/LINK\}/g, '$1');
+
+    description = description.replace(
+      /<color="?(#?[0-9A-Fa-f]{3,8})"?>(.*?)<\/color>/g,
+      (_, color, text) => {
+        const normalizedColor = color.startsWith('#') ? color : `#${color}`;
+        return `<span style="color:${normalizedColor}">${text}</span>`;
+      },
+    );
 
     description = description.replaceAll('\n', '<br>');
 

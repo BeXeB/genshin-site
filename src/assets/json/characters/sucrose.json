@@ -526,7 +526,7 @@
     },
     "passive4": {
       "name": "Witch's Eve Rite: Sevenfold Transmutation",
-      "description": "After completing Witch's Homework: Of Wonderland Flowers, Sucrose will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\n· After Sucrose creates a Small Wind Spirit, nearby party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 5.71428% for 15s.\n· After Sucrose creates a Large Wind Spirit, nearby Hexerei party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 7.14285% for 20s."
+      "description": "After completing <color=#FFD780FF>Witch's Homework: Of Wonderland Flowers</color>, Sucrose will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\n· After Sucrose creates a Small Wind Spirit, nearby party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 5.71428% for 15s.\n· After Sucrose creates a Large Wind Spirit, nearby Hexerei party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 7.14285% for 20s."
     },
     "costs": {
       "lvl2": [
@@ -750,7 +750,7 @@
     "c6": {
       "name": "Chaotic Entropy",
       "description": "If Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during the skill's duration, while nearby Hexerei characters in the party gain an additional 8.57142% Elemental DMG Bonus for the corresponding absorbed element.",
-      "descriptionRaw": "If <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration."
+      "descriptionRaw": "If <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during the skill's duration, while nearby Hexerei characters in the party gain an additional 8.57142% Elemental DMG Bonus for the corresponding absorbed element."
     },
     "images": {
       "filename_c1": "UI_Talent_S_Sucrose_01",

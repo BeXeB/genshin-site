@@ -26,6 +26,7 @@
 
       <div class="talent-stats">
         @for (attribute of getTalentStats(talent, talentLevel); track $index) {
+          <hr>
           <div class="talent-stat">
             <div class="talent-stat-name">{{ attribute.name }}</div>
             <div class="talent-stat-value">{{ attribute.value }}</div>

@@ -735,7 +735,8 @@
     },
     "passive4": {
       "name": "Witch's Eve Rite: Ode to Ascension",
-      "description": "After completing Witch's Homework: Of This World, Durin will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nIncreases all effects of the Ascension Talent Light Manifest of the Divine Calculus (except for Duration) by 75%."
+      "description": "After completing Witch's Homework: Of This World, Durin will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nIncreases all effects of the Ascension Talent Light Manifest of the Divine Calculus (except for Duration) by 75%.",
+      "descriptionRaw": "After completing <color=#FFD780FF>Witch's Homework: Of This World</color>, Durin will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nIncreases all effects of the Ascension Talent <color=#FFD780FF>Light Manifest of the Divine Calculus</color> (except for Duration) by 75%."
     },
     "costs": {
       "lvl2": [
