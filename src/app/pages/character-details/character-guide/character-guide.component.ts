@@ -15,7 +15,7 @@ export class CharacterGuideComponent implements OnInit {
   htmlContent: SafeHtml = '';
 
   ngOnInit(): void {
-    fetch(`assets/guides/${this.apikey}.md`)
+    fetch(`assets/guides/characters/${this.apikey}.md`)
       .then((response) => {
         if (!response.ok) {
           this.htmlContent = '<p>Hamarosan</p>';

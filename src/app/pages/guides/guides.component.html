@@ -1,0 +1,25 @@
+<div class="container">
+  <app-page-title backLink="/" title="Útmutatók"></app-page-title>
+  <div class="guide-container" routerLink="/characters">
+    <div class="guide-card">
+        <img src="assets/images/UI_BtnIcon_AvatarList.png" />
+        <div>
+          <div class="guide-name">Karakter Útmutatók</div>
+          <div class="guide-description">Részletes útmutatók és információk a karakterekről</div>
+        </div>
+      </div>
+  </div>
+  <div class="guide-container">
+    @for (guide of guides; track $index) {
+      <div [routerLink]="`/guides/${guide.slug}`" class="guide-card">
+        @if (guide.imageUrl) {
+          <img [src]="guide.imageUrl" />
+        }
+        <div>
+          <div class="guide-name">{{ guide.name }}</div>
+          <div class="guide-description">{{ guide.description }}</div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

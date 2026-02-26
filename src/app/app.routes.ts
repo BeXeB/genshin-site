@@ -12,6 +12,8 @@ import { StygianComponent } from './pages/endgames/stygian/stygian.component';
 import { TheatreComponent } from './pages/endgames/theatre/theatre.component';
 import { CharacterDetailsComponent } from './pages/character-details/character-details.component';
 import { TierlistMakerComponent } from './pages/tierlist-maker/tierlist-maker.component';
+import { GuidesComponent } from './pages/guides/guides.component';
+import { GuideDetailsComponent } from './pages/guide-details/guide-details.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -28,6 +30,8 @@ export const routes: Routes = [
   // },
   { path: 'characters', component: CharactersComponent },
   { path: 'characters/:name', component: CharacterDetailsComponent },
+  { path: 'guides', component: GuidesComponent },
+  { path: 'guides/:slug', component: GuideDetailsComponent },
   // { path: 'weapons', component: WeaponsComponent },
   // { path: 'artifacts', component: ArtifactsComponent },
   { path: 'tools', component: ToolsComponent },
