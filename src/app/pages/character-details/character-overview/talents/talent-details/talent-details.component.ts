@@ -29,7 +29,7 @@ export class TalentDetailsComponent implements OnInit {
   }
 
   incrementLevel() {
-    const max = 13;
+    const max = 15;
     if (this.talentLevel < max) {
       this.talentLevel++;
     }
