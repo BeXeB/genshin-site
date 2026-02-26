@@ -1,6 +1,6 @@
 # Markdown Test File
 
-------------------------------------------------------------------------
+---
 
 ## Headings
 
@@ -16,16 +16,16 @@
 
 ###### H6
 
-------------------------------------------------------------------------
+---
 
 ## Text Formatting
 
 **Bold**\
-*Italic*\
-***Bold & Italic***\
+_Italic_\
+**_Bold & Italic_**\
 ~~Strikethrough~~
 
-------------------------------------------------------------------------
+---
 
 ## Blockquote
 
@@ -33,7 +33,7 @@
 >
 > > This is a nested blockquote.
 
-------------------------------------------------------------------------
+---
 
 ## Lists
 
@@ -48,15 +48,15 @@
 
 1. First
 2. Second
-    1. Subitem 2.1
-    2. Subitem 2.2
+   1. Subitem 2.1
+   2. Subitem 2.2
 
 ### Task List
 
 - [x] Completed
 - [ ] Not completed
 
-------------------------------------------------------------------------
+---
 
 ## Links
 
@@ -64,7 +64,7 @@
 
 Autolink: <https://openai.com>
 
-------------------------------------------------------------------------
+---
 
 ## Images
 
@@ -74,46 +74,46 @@ Autolink: <https://openai.com>
 
 [geo-img]: assets/images/Geo.png
 
-------------------------------------------------------------------------
+---
 
 ## Inline Code
 
 Use the `print()` function.
 
-------------------------------------------------------------------------
+---
 
 ## Code Blocks
 
-``` python
+```python
 def greet(name):
     print(f"Hello, {name}!")
 
 greet("World")
 ```
 
-``` javascript
+```javascript
 function greet(name) {
-    console.log("Hello, " + name + "!");
+  console.log("Hello, " + name + "!");
 }
 greet("World");
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Tables
 
-| Name   | Role     | Element |
-|--------|----------|---------|
-| Amber  | Archer   | Pyro    |
-| Lisa   | Mage     | Electro |
-| Kaeya  | Swordsman| Cryo    |
+| Name  | Role      | Element |
+| ----- | --------- | ------- |
+| Amber | Archer    | Pyro    |
+| Lisa  | Mage      | Electro |
+| Kaeya | Swordsman | Cryo    |
 
 | Left | Center | Right |
-|:-----|:------:|------:|
-| A    | B      | C     |
-| 1    | 2      | 3     |
+| :--- | :----: | ----: |
+| A    |   B    |     C |
+| 1    |   2    |     3 |
 
-------------------------------------------------------------------------
+---
 
 ## Escaping Characters
 
@@ -121,7 +121,7 @@ greet("World");
 \# Not a heading\
 \`Not code\`
 
-------------------------------------------------------------------------
+---
 
 ## Nested Elements
 
@@ -129,13 +129,30 @@ greet("World");
 >
 > - Nested list item
 > - Another item
->     1. Subitem
->     2. Subitem
+>   1. Subitem
+>   2. Subitem
 
-------------------------------------------------------------------------
+---
 
 ## HTML
 
 <div class="test-box">
   <strong>HTML works inside Markdown</strong>
+</div>
+
+<div class="video">
+  <iframe
+    src="https://www.youtube.com/embed/uvn3H_7lnIw?si=tqsvjXAqy9-uSkTi"
+    title="YouTube video player"
+    frameborder="0"
+    allow="
+      accelerometer;
+      autoplay;
+      clipboard-write;
+      encrypted-media;
+      gyroscope;
+      picture-in-picture;
+      web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+  ></iframe>
 </div>

@@ -17,8 +17,6 @@ export class GuidesService {
   }
 
   getGuideMarkdown(fileName: string): Observable<string> {
-    console.log(fileName);
-    console.log(`${this.guideFiles}/${fileName}.md`);
     return this.http.get(`${this.guideFiles}/${fileName}.md`, {
       responseType: 'text',
     });
