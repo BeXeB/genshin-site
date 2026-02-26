@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+.introducion {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.quick-access-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.quick-access-card {
+  width: 100%;
+  background-color: var(--darker-gray);
+  border: 1px solid var(--dark-gray);
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quick-access-card:hover {
+  border-color: var(--blue);
+  box-shadow: 0 0 15px var(--shadow-blue);
+  background-color: var(--dark-gray);
+}
+
+.quick-access-card .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.quick-access-card .description {
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
+@media (max-width: 768px) {
+  .introducion {
+    font-size: 1.5rem;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+}

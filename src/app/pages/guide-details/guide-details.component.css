@@ -1,0 +1,52 @@
+.guide ::ng-deep img {
+  max-width: 100%;
+}
+
+.guide ::ng-deep pre {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: pre;
+  max-width: 100%;
+  padding-bottom: 15px;
+}
+
+.guide ::ng-deep a {
+  color: var(--light-gray);
+  text-decoration: none;
+}
+
+.guide ::ng-deep a:hover {
+  color: var(--blue);
+  transition: color 0.2s;
+}
+
+.guide ::ng-deep hr {
+  color: var(--white)
+}
+
+.guide ::ng-deep table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.guide ::ng-deep tr {
+  display: flex;
+  width: 100%;
+}
+
+.guide ::ng-deep th,
+.guide ::ng-deep td {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--dark-gray);
+  background-color: var(--darker-gray);
+}
+
+.guide ::ng-deep th {
+  font-weight: bold;
+  background-color: var(--dark-gray);
+  color: var(--white);
+}

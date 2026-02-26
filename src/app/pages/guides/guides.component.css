@@ -7,8 +7,8 @@
 }
 
 .guide-card {
-  background-color: var(--black);
-  border: 1px solid var(--darker-gray);
+  background-color: var(--darker-gray);
+  border: 1px solid var(--dark-gray);
   border-radius: 8px;
   padding: 15px;
   display: flex;
@@ -18,9 +18,9 @@
 }
 
 .guide-card:hover {
-  box-shadow: 0 0 12px var(--shadow-blue);
-  background-color: var(--darker-gray);
-  border-color: var(--dark-gray);
+  border-color: var(--blue);
+  box-shadow: 0 0 15px var(--shadow-blue);
+  background-color: var(--dark-gray);
 }
 
 .guide-card img {
