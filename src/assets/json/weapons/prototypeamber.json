@@ -183,13 +183,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Proto.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Proto_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Proto",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Proto_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Proto",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Proto.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Proto_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Proto"
   },
   "version": "1.0",
   "stats": {

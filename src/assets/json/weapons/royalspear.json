@@ -178,12 +178,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Theocrat.png",
     "filename_icon": "UI_EquipIcon_Pole_Theocrat",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Theocrat_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Theocrat",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Theocrat.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Theocrat_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Theocrat"
   },
   "version": "1.1",
   "stats": {

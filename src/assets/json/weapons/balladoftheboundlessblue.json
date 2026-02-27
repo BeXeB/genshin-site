@@ -185,9 +185,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_DandelionPoem",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_DandelionPoem_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_DandelionPoem",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_DandelionPoem.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_DandelionPoem_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_DandelionPoem"
   },
   "version": "4.1",
   "stats": {

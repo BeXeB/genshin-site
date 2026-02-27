@@ -190,9 +190,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_Umpakati",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Umpakati_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Umpakati",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Umpakati.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Umpakati_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Umpakati"
   },
   "version": "5.2",
   "stats": {

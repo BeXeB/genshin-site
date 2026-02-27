@@ -185,9 +185,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_Figurines",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Figurines_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Figurines",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Figurines.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Figurines_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Figurines"
   },
   "version": "5.3",
   "stats": {

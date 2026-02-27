@@ -180,9 +180,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Bow_ElegguaBow",
     "filename_awakenIcon": "UI_EquipIcon_Bow_ElegguaBow_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_ElegguaBow",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_ElegguaBow.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_ElegguaBow_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_ElegguaBow"
   },
   "version": "6.2",
   "stats": {

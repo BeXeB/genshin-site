@@ -188,13 +188,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Homa_Awaken.png",
     "filename_icon": "UI_EquipIcon_Pole_Homa",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Homa_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Homa",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Homa_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Homa"
   },
   "version": "1.3",
   "stats": {

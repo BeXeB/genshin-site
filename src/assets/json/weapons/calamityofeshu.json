@@ -185,9 +185,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Sword_SacrificialNgombe",
     "filename_awakenIcon": "UI_EquipIcon_Sword_SacrificialNgombe_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Sword_SacrificialNgombe",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_SacrificialNgombe.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_SacrificialNgombe_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_SacrificialNgombe"
   },
   "version": "5.2",
   "stats": {

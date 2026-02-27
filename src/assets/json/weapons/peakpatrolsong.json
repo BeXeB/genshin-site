@@ -195,9 +195,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Sword_XochitlsTube",
     "filename_awakenIcon": "UI_EquipIcon_Sword_XochitlsTube_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Sword_XochitlsTube",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_XochitlsTube.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_XochitlsTube_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_XochitlsTube"
   },
   "version": "5.1",
   "stats": {

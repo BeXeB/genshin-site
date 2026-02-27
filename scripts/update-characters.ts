@@ -20,7 +20,7 @@ const characters = genshindb.characters('names', {
 });
 
 function normalize(name: string): string {
-  return name.replace(/[\s'"`]+/g, '').toLowerCase();
+  return name.replace(/[\s'"`:\-—]+/g, '').toLowerCase();
 }
 
 function toWeaponType(value: string): WeaponType {

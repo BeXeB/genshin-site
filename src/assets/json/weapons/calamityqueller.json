@@ -183,12 +183,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Santika.png",
     "filename_icon": "UI_EquipIcon_Pole_Santika",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Santika_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Santika",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Santika.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Santika_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Santika"
   },
   "version": "2.4",
   "stats": {

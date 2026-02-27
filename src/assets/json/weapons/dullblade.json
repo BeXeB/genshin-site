@@ -99,13 +99,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Blunt.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Blunt_Awaken.png",
     "filename_icon": "UI_EquipIcon_Sword_Blunt",
     "filename_awakenIcon": "UI_EquipIcon_Sword_Blunt_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Blunt",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Blunt.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Blunt_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Blunt"
   },
   "version": "1.0",
   "stats": {

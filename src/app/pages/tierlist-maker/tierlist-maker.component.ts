@@ -71,7 +71,7 @@ export class TierlistMakerComponent implements OnInit {
   }
 
   normalize(tag: string): string {
-    return tag.toLowerCase().replace(/[\s'"`]+/g, '');
+    return tag.toLowerCase().replace(/[\s'"`:\-—]+/g, '');
   }
 
   addTag() {

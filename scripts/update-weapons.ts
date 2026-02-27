@@ -12,7 +12,7 @@ const weapons = genshindb.weapons('names', {
 });
 
 function normalize(name: string): string {
-  return name.replace(/[\s'"`]+/g, '').toLowerCase();
+  return name.replace(/[\s'"`:\-—]+/g, '').toLowerCase();
 }
 
 function mapWeapon(weapon: genshindb.Weapon): Weapon {

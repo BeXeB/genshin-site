@@ -190,9 +190,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Sword_OuterSword",
     "filename_awakenIcon": "UI_EquipIcon_Sword_OuterSword_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Sword_OuterSword",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_OuterSword.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_OuterSword_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_OuterSword"
   },
   "version": "5.7",
   "stats": {

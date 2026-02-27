@@ -178,13 +178,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Pulpfic",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Pulpfic_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Pulpfic",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Pulpfic"
   },
   "version": "1.0",
   "stats": {

@@ -20,7 +20,7 @@ genshindb.setOptions({
 });
 
 function normalize(name: string): string {
-  return name.replace(/[\s'"`]+/g, '').toLowerCase();
+  return name.replace(/[\s'"`:\-—]+/g, '').toLowerCase();
 }
 
 function getMaterialNames(category: string): string[] {
@@ -225,6 +225,12 @@ async function processMaterialGroup(
       }
     }
   }
+
+  await fs.writeJson(path.join(outputPath, 'index.json'), normalizedNames, {
+      spaces: 2,
+    });
+
+  console.log('Update complete.');
 }
 
 run().catch((error) => {

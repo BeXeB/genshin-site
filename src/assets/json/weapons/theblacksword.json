@@ -183,13 +183,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bloodstained.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bloodstained_Awaken.png",
     "filename_icon": "UI_EquipIcon_Sword_Bloodstained",
     "filename_awakenIcon": "UI_EquipIcon_Sword_Bloodstained_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Bloodstained",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bloodstained.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bloodstained_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Bloodstained"
   },
   "version": "1.0",
   "stats": {

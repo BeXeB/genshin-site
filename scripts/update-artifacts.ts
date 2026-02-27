@@ -11,7 +11,7 @@ const artifacts = genshindb.artifacts('names', {
 });
 
 function normalize(name: string): string {
-  return name.replace(/[\s'"`]+/g, '').toLowerCase();
+  return name.replace(/[\s'"`:\-—]+/g, '').toLowerCase();
 }
 
 function mapArtifact(artifact: genshindb.Artifact): ArtifactSet {
@@ -35,7 +35,7 @@ function mapArtifact(artifact: genshindb.Artifact): ArtifactSet {
       filename_plume: artifact.images.filename_plume,
       filename_sands: artifact.images.filename_sands,
       filename_goblet: artifact.images.filename_goblet,
-      filename_circlet: artifact.images.filename_circlet
+      filename_circlet: artifact.images.filename_circlet,
     },
 
     version: artifact.version,
@@ -84,6 +84,11 @@ async function run() {
       spaces: 2,
     });
   }
+  await fs.writeJson(path.join(OUTPUT_PATH, 'index.json'), normalizedNames, {
+    spaces: 2,
+  });
+
+  console.log('Update complete.');
 }
 
 run().catch((error) => {

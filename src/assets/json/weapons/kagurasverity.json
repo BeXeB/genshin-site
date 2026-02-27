@@ -183,12 +183,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Narukami",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Narukami_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Narukami",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Narukami"
   },
   "version": "2.5",
   "stats": {

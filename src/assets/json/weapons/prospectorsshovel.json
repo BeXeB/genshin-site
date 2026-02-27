@@ -190,9 +190,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Pole_Ilmarinen",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Ilmarinen_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Ilmarinen",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ilmarinen.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ilmarinen_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Ilmarinen"
   },
   "version": "6.0",
   "stats": {

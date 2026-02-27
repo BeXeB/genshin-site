@@ -185,9 +185,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Claymore_Umpakati",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Umpakati_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Umpakati",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Umpakati.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Umpakati_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Umpakati"
   },
   "version": "5.1",
   "stats": {
