@@ -1,1 +1,59 @@
-<p>tierlist-viewer works!</p>
+<div class="container">
+  <app-page-title title="Tier List Néző" backLink="/tools"></app-page-title>
+  @if (tierlist) {
+    <div class="tierlist">
+      @for (tier of tierlist.tiers; track $index) {
+        <div class="tier">
+          <h2 class="tier-title">
+            {{ tier.tier }}
+          </h2>
+          <div class="characters">
+            @for (char of getCharsWithProfile(tier); track $index) {
+              <div class="character">
+                <img
+                  class="character-icon"
+                  [src]="
+                    'assets/images/characters/' +
+                    char.character.apiKey +
+                    '/icon.webp'
+                  "
+                  [alt]="char?.profile?.name"
+                />
+                <div class="tags">
+                  @for (tag of char.character.tags; track $index) {
+                    <span class="tag" [style.background]="tag.color">
+                      {{ tag.label }}
+
+                      @if (tag.extra?.length) {
+                        <span class="tooltip">
+                          {{ getExtraNames(tag.extra || []) }}
+                        </span>
+                      }
+                    </span>
+                  }
+                </div>
+              </div>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  } @else {
+    <div
+      class="upload-area"
+      (dragover)="onDragOver($event)"
+      (dragleave)="onDragLeave($event)"
+      (drop)="onDrop($event)"
+      [class.dragging]="isDragging"
+    >
+      <p>Húzd ide a JSON fájlt vagy kattints a feltöltéshez</p>
+
+      <input
+        type="file"
+        accept=".json,application/json"
+        (change)="onFileSelected($event)"
+        class="file-input"
+      />
+    </div>
+  }
+</div>
