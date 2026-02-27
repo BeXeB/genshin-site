@@ -23,7 +23,6 @@
   padding: 0px 5px;
 }
 
-
 .level-slider::-webkit-slider-runnable-track {
   height: 4px;
   background: var(--dark-gray);
@@ -86,6 +85,21 @@
 
 .profile {
   max-width: 400px;
+}
+
+.materials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.materials img {
+  max-width: 64px;
+}
+
+.materials img:hover {
+  outline: 1px solid;
+  border-radius: 8px;
 }
 
 @media (max-width: 768px) {

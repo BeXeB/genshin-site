@@ -73,5 +73,20 @@
       </div>
       <span class="desc">{{ char.profile.description }}</span>
     </div>
+    <hr
+      style="width: 100%; margin-top: 20px"
+      [style]="`color: ${elementColor};`"
+    />
+    <div class="materials">
+      @for (material of materials; track $index) {
+        <img
+          [src]="getMaterialImageUrl(material)"
+          [alt]="material.name"
+          [title]="material.name"
+          [routerLink]="`/materials/${material.normalizedName}`"
+          [style.outline-color]="elementColor"
+        />
+      }
+    </div>
   </div>
 }

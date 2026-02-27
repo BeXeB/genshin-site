@@ -32,14 +32,18 @@ export class TierlistService {
               const def = tagMap.get(tag.id);
 
               if (!def) {
-                tag.color = '#999';
-                tag.label = tag.id;
-              } else {
-                tag.color = def.color;
-                tag.label = def.label;
+                return {
+                  ...tag,
+                  color: '#999',
+                  label: tag.id,
+                };
               }
 
-              return tag;
+              return {
+                ...tag,
+                color: def.color,
+                label: def.label,
+              };
             }),
           })),
         }));

@@ -1,15 +1,17 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CharacterResolved } from '../../../../_models/character';
 import { DecimalPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { Material } from '../../../../_models/materials';
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-overview-profile',
-  imports: [DecimalPipe, FormsModule],
+  imports: [DecimalPipe, FormsModule, RouterLink],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.css',
 })
-export class OverviewProfileComponent {
+export class OverviewProfileComponent implements OnInit {
   @Input() char: CharacterResolved | null = null;
   @Input() elementColor: string | null = null;
 
@@ -37,6 +39,21 @@ export class OverviewProfileComponent {
     '95',
     '100',
   ];
+
+  ngOnInit(): void {
+    this.char?.profile.costs.ascend6.map((i) => {
+      if (i.material.id === 202) return;
+      if (this.materials.some((m) => m.id === i.material.id)) return;
+      this.materials.push(i.material);
+    });
+    this.char?.skills?.costs.lvl9.map((i) => {
+      if (i.material.id === 202) return;
+      if (this.materials.some((m) => m.id === i.material.id)) return;
+      this.materials.push(i.material);
+    });
+  }
+
+  materials: Material[] = [];
 
   level: string = '90';
   levelIndex: number = this.quickLevels.indexOf(this.level);
@@ -84,5 +101,9 @@ export class OverviewProfileComponent {
     }, 0);
 
     this.levelIndex = index !== -1 ? index : closestIndex;
+  }
+
+  getMaterialImageUrl(material: Material): string {
+    return `assets/images/materials/${material.type}/${material.normalizedName}.webp`;
   }
 }

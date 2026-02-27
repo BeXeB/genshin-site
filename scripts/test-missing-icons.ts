@@ -227,39 +227,41 @@ function check() {
 
   // materials
 
-  materialFolders.forEach((folder) => {
-    // skip crafts folder
-    if (folder === 'crafts') return;
+materialFolders.forEach((folder) => {
+  // skip crafts folder
+  if (folder === 'crafts') return;
 
-    const folderPath = path.join(MATERIAL_JSON_DIR, folder);
-    const materialFiles = fs.readdirSync(folderPath);
+  const folderPath = path.join(MATERIAL_JSON_DIR, folder);
+  const materialsJsonPath = path.join(folderPath, 'materials.json');
 
-    materialFiles.forEach((file) => {
-      if (!file.endsWith('.json')) return;
-      if (file === 'index.json') return;
+  if (!fs.existsSync(materialsJsonPath)) return;
 
-      const materialName = path.parse(file).name;
+  const materialsData = JSON.parse(
+    fs.readFileSync(materialsJsonPath, 'utf-8'),
+  );
 
-      const jsonPath = path.join(folderPath, file);
-      const materialData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+  // materials.json is an array
+  materialsData.forEach((materialData: any) => {
+    const normalizedName = materialData.normalizedName;
+    if (!normalizedName) return;
 
-      const originalName = materialData.images?.filename_icon;
-      if (!originalName) return;
+    const originalName = materialData.images?.filename_icon;
+    if (!originalName) return;
 
-      const expectedPath = path.join(
-        ASSET_DIR_MATERIALS,
-        folder,
-        `${materialName}.webp`,
+    const expectedPath = path.join(
+      ASSET_DIR_MATERIALS,
+      folder,
+      `${normalizedName}.webp`,
+    );
+
+    if (!fs.existsSync(expectedPath)) {
+      console.log(
+        `❌ materials/${folder}/${normalizedName}.webp  (JSON: ${originalName}.webp)`,
       );
-
-      if (!fs.existsSync(expectedPath)) {
-        console.log(
-          `❌ materials/${folder}/${materialName}.webp  (JSON: ${originalName}.webp)`,
-        );
-        missingCount++;
-      }
-    });
+      missingCount++;
+    }
   });
+});
 
   if (missingCount === 0) {
     console.log('✅ No missing images found.');

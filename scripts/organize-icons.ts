@@ -250,21 +250,19 @@ function organize() {
     .filter((f) => fs.statSync(path.join(MATERIAL_JSON_DIR, f)).isDirectory());
 
   for (const folder of materialFolders) {
-    if (folder === 'crafts') continue;
-
     const folderPath = path.join(MATERIAL_JSON_DIR, folder);
-    const materialFiles = fs.readdirSync(folderPath);
+    const materialsJsonPath = path.join(folderPath, 'materials.json');
 
-    for (const file of materialFiles) {
-      if (!file.endsWith('.json')) continue;
-      if (file === 'index.json') continue;
+    if (!fs.existsSync(materialsJsonPath)) continue;
 
-      const materialName = path.parse(file).name;
-      const materialJsonPath = path.join(folderPath, file);
+    const materialsData = JSON.parse(
+      fs.readFileSync(materialsJsonPath, 'utf-8'),
+    );
 
-      const materialData = JSON.parse(
-        fs.readFileSync(materialJsonPath, 'utf-8'),
-      );
+    for (const materialData of materialsData) {
+      const normalizedName = materialData.normalizedName;
+
+      if (!normalizedName) continue;
 
       if (materialData.images) {
         for (const [jsonKey, filename] of Object.entries(materialData.images)) {
@@ -275,9 +273,8 @@ function organize() {
               lookup[imageName] = [];
             }
 
-            // materialname.webp (not icon.webp)
             lookup[imageName].push(
-              path.join(MATERIAL_TARGET_DIR, folder, `${materialName}.webp`),
+              path.join(MATERIAL_TARGET_DIR, folder, `${normalizedName}.webp`),
             );
           }
         }
