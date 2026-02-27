@@ -1,6 +1,7 @@
 {
   "id": 14513,
   "name": "Cashflow Supervision",
+  "normalizedName": "cashflowsupervision",
   "description": "A floating device that can monitor certain phenomena. It was picked up and modified to serve other purposes following its abandonment.",
   "descriptionRaw": "A floating device that can monitor certain phenomena. It was picked up and modified to serve other purposes following its abandonment.",
   "weaponType": "WEAPON_CATALYST",
@@ -195,9 +196,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_Wheatley",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Wheatley_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Wheatley",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Wheatley.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Wheatley_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Wheatley"
   },
   "version": "4.1",
   "stats": {

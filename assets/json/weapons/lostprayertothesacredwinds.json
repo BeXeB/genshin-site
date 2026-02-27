@@ -1,6 +1,7 @@
 {
   "id": 14502,
   "name": "Lost Prayer to the Sacred Winds",
+  "normalizedName": "lostprayertothesacredwinds",
   "description": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.",
   "descriptionRaw": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.",
   "weaponType": "WEAPON_CATALYST",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Fourwinds",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Fourwinds_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Fourwinds",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Fourwinds"
   },
   "version": "1.0",
   "stats": {

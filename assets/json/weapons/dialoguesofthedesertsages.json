@@ -1,6 +1,7 @@
 {
   "id": 13426,
   "name": "Dialogues of the Desert Sages",
+  "normalizedName": "dialoguesofthedesertsages",
   "description": "A caduceus symbolizing the glory of alchemy, made from special alloys to match its special status. It is exceedingly rigid and heavy, and would probably hurt pretty bad if used as a cudgel.",
   "descriptionRaw": "A caduceus symbolizing the glory of alchemy, made from special alloys to match its special status. It is exceedingly rigid and heavy, and would probably hurt pretty bad if used as a cudgel.",
   "weaponType": "WEAPON_POLE",
@@ -180,9 +181,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Pole_Caduceus",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Caduceus_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Caduceus",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Caduceus.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Caduceus_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Caduceus"
   },
   "version": "4.5",
   "stats": {

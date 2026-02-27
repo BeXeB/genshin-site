@@ -1,6 +1,7 @@
 {
   "id": 12201,
   "name": "Old Merc's Pal",
+  "normalizedName": "oldmercspal",
   "description": "A battle-tested greatsword that has seen better days and worse.",
   "descriptionRaw": "A battle-tested greatsword that has seen better days and worse.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -99,13 +100,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Oyaji.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Oyaji_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Oyaji",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Oyaji_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Oyaji",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Oyaji.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Oyaji_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Oyaji"
   },
   "version": "1.0",
   "stats": {

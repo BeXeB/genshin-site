@@ -1,6 +1,7 @@
 {
   "id": 12303,
   "name": "White Iron Greatsword",
+  "normalizedName": "whiteirongreatsword",
   "description": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",
   "descriptionRaw": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Tin.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Tin_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Tin",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Tin_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Tin",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Tin.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Tin_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Tin"
   },
   "version": "1.0",
   "stats": {

@@ -1,6 +1,7 @@
 {
   "id": 15434,
   "name": "Rainbow Serpent's Rain Bow",
+  "normalizedName": "rainbowserpentsrainbow",
   "description": "An ancient ceremonial weapon passed down by the Masters of the Night-Wind. This dark bow is forever wreathed in an unshakable chill.",
   "descriptionRaw": "An ancient ceremonial weapon passed down by the Masters of the Night-Wind. This dark bow is forever wreathed in an unshakable chill.",
   "weaponType": "WEAPON_BOW",
@@ -180,9 +181,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Bow_ElegguaBow",
     "filename_awakenIcon": "UI_EquipIcon_Bow_ElegguaBow_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_ElegguaBow",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_ElegguaBow.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_ElegguaBow_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_ElegguaBow"
   },
   "version": "6.2",
   "stats": {

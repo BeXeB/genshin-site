@@ -1,6 +1,7 @@
 {
   "id": 15503,
   "name": "Elegy for the End",
+  "normalizedName": "elegyfortheend",
   "description": "A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.",
   "descriptionRaw": "A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.",
   "weaponType": "WEAPON_BOW",
@@ -188,13 +189,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Widsith_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Widsith",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Widsith_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Widsith",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Widsith_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Widsith"
   },
   "version": "1.4",
   "stats": {

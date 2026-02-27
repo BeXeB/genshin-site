@@ -1,6 +1,7 @@
 {
   "id": 13433,
   "name": "Prospector's Shovel",
+  "normalizedName": "prospectorsshovel",
   "description": "A polearm that appears to have been crafted from a metal agricultural tool. At first glance, it could not look more ordinary, yet its discreet design hides fittings that are both lavish and undeniably exquisite.",
   "descriptionRaw": "A polearm that appears to have been crafted from a metal agricultural tool. At first glance, it could not look more ordinary, yet its discreet design hides fittings that are both lavish and undeniably exquisite.",
   "weaponType": "WEAPON_POLE",
@@ -190,9 +191,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Pole_Ilmarinen",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Ilmarinen_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Ilmarinen",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ilmarinen.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ilmarinen_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Ilmarinen"
   },
   "version": "6.0",
   "stats": {

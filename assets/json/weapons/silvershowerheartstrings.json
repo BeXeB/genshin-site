@@ -1,6 +1,7 @@
 {
   "id": 15513,
   "name": "Silvershower Heartstrings",
+  "normalizedName": "silvershowerheartstrings",
   "description": "Legendary bow of the fairies. Whether on the stage or the battlefield, it can easily touch the hearts of the listener.",
   "descriptionRaw": "Legendary bow of the fairies. Whether on the stage or the battlefield, it can easily touch the hearts of the listener.",
   "weaponType": "WEAPON_BOW",
@@ -185,9 +186,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Bow_Arcdange",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Arcdange_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Arcdange",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arcdange.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arcdange_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Arcdange"
   },
   "version": "4.7",
   "stats": {

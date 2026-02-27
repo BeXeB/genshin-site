@@ -1,6 +1,7 @@
 {
   "id": 13502,
   "name": "Skyward Spine",
+  "normalizedName": "skywardspine",
   "description": "A polearm that symbolizes Dvalin's firm resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.",
   "descriptionRaw": "A polearm that symbolizes Dvalin's firm resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.",
   "weaponType": "WEAPON_POLE",
@@ -193,13 +194,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Dvalin.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Dvalin_Awaken.png",
     "filename_icon": "UI_EquipIcon_Pole_Dvalin",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Dvalin_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Dvalin",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Dvalin.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Dvalin_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Dvalin"
   },
   "version": "1.0",
   "stats": {

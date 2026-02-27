@@ -1,6 +1,7 @@
 {
   "id": 15426,
   "name": "Cloudforged",
+  "normalizedName": "cloudforged",
   "description": "A prototype for a standard-issue weapon the Yuheng commissioned from Blackcliff Forge after having analyzed the ancient mechanisms that protected the adeptal abode upon Tianheng.",
   "descriptionRaw": "A prototype for a standard-issue weapon the Yuheng commissioned from Blackcliff Forge after having analyzed the ancient mechanisms that protected the adeptal abode upon Tianheng.",
   "weaponType": "WEAPON_BOW",
@@ -180,9 +181,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Bow_Ultimatum",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Ultimatum_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Ultimatum",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ultimatum.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ultimatum_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Ultimatum"
   },
   "version": "4.7",
   "stats": {

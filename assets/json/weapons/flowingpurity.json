@@ -1,6 +1,7 @@
 {
   "id": 14425,
   "name": "Flowing Purity",
+  "normalizedName": "flowingpurity",
   "description": "A strangely-shaped anthology of scripts. All the scripts written by Coppelius are recorded within.",
   "descriptionRaw": "A strangely-shaped anthology of scripts. All the scripts written by Coppelius are recorded within.",
   "weaponType": "WEAPON_CATALYST",
@@ -188,13 +189,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Vorpal.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Vorpal_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Vorpal",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Vorpal_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Vorpal",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Vorpal.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Vorpal_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Vorpal"
   },
   "version": "4.0",
   "stats": {

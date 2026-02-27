@@ -1,6 +1,7 @@
 {
   "id": 12101,
   "name": "Waster Greatsword",
+  "normalizedName": "wastergreatsword",
   "description": "A sturdy sheet of iron that may be powerful enough to break apart mountains if wielded with enough willpower.",
   "descriptionRaw": "A sturdy sheet of iron that may be powerful enough to break apart mountains if wielded with enough willpower.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -99,13 +100,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Aniki.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Aniki_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Aniki",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Aniki_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Aniki",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Aniki.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Aniki_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Aniki"
   },
   "version": "1.0",
   "stats": {

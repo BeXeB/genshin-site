@@ -1,6 +1,7 @@
 {
   "id": 12514,
   "name": "A Thousand Blazing Suns",
+  "normalizedName": "athousandblazingsuns",
   "description": "A greatsword that dazzles like the rising sun. It has witnessed the extinguishing and rekindling of innumerable suns.",
   "descriptionRaw": "A greatsword that dazzles like the rising sun. It has witnessed the extinguishing and rekindling of innumerable suns.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -185,9 +186,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Claymore_RadianceSword",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_RadianceSword_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_RadianceSword",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_RadianceSword.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_RadianceSword_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_RadianceSword"
   },
   "version": "5.3",
   "stats": {

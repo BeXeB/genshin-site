@@ -1,6 +1,7 @@
 {
   "id": 14516,
   "name": "Surf's Up",
+  "normalizedName": "surfsup",
   "description": "A commemorative item originally reserved for the champion of the \"First All-Tribe Surfing Championship.\" Since said tournament is currently in the preparatory stage, the prize is in temporary storage at the Leisurely Puffer, with the shop owner as its custodian.",
   "descriptionRaw": "A commemorative item originally reserved for the champion of the \"First All-Tribe Surfing Championship.\" Since said tournament is currently in the preparatory stage, the prize is in temporary storage at the Leisurely Puffer, with the shop owner as its custodian.",
   "weaponType": "WEAPON_CATALYST",
@@ -185,9 +186,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_MechaPufferfish",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_MechaPufferfish_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_MechaPufferfish",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MechaPufferfish.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MechaPufferfish_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_MechaPufferfish"
   },
   "version": "5.0",
   "stats": {

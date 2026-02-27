@@ -1,6 +1,7 @@
 {
   "id": 14402,
   "name": "The Widsith",
+  "normalizedName": "thewidsith",
   "description": "A heavy notebook filled with musical scores. Though suffering from moth damage and heavy wear-and-tear, there is still much power to be found among the hand-written words within.",
   "descriptionRaw": "A heavy notebook filled with musical scores. Though suffering from moth damage and heavy wear-and-tear, there is still much power to be found among the hand-written words within.",
   "weaponType": "WEAPON_CATALYST",
@@ -188,13 +189,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Troupe",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Troupe_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Troupe",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Troupe"
   },
   "version": "1.0",
   "stats": {

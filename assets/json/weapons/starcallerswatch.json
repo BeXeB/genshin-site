@@ -1,6 +1,7 @@
 {
   "id": 14517,
   "name": "Starcaller's Watch",
+  "normalizedName": "starcallerswatch",
   "description": "A statue carved in the shape of an eagle, a sacred relic of the Masters of the Night-Wind that has been passed down from generation to generation.",
   "descriptionRaw": "A statue carved in the shape of an eagle, a sacred relic of the Masters of the Night-Wind that has been passed down from generation to generation.",
   "weaponType": "WEAPON_CATALYST",
@@ -185,9 +186,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_Figurines",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Figurines_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Figurines",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Figurines.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Figurines_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Figurines"
   },
   "version": "5.3",
   "stats": {

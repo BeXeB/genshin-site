@@ -1,6 +1,7 @@
 {
   "id": 15410,
   "name": "Alley Hunter",
+  "normalizedName": "alleyhunter",
   "description": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
   "descriptionRaw": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
   "weaponType": "WEAPON_BOW",
@@ -188,13 +189,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Outlaw",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Outlaw_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Outlaw",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Outlaw"
   },
   "version": "1.4",
   "stats": {

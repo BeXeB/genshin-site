@@ -1,6 +1,7 @@
 {
   "id": 14514,
   "name": "Tome of the Eternal Flow",
+  "normalizedName": "tomeoftheeternalflow",
   "description": "A manual that was once passed down from generation to generation within an underwater priory. Today, none know of its existence.",
   "descriptionRaw": "A manual that was once passed down from generation to generation within an underwater priory. Today, none know of its existence.",
   "weaponType": "WEAPON_CATALYST",
@@ -190,9 +191,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_Iudex",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Iudex_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Iudex",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Iudex.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Iudex_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Iudex"
   },
   "version": "4.1",
   "stats": {

@@ -1,6 +1,7 @@
 {
   "id": 15409,
   "name": "The Viridescent Hunt",
+  "normalizedName": "theviridescenthunt",
   "description": "A pure green hunting bow. This once belonged to a certain hunter whose home was the forest.",
   "descriptionRaw": "A pure green hunting bow. This once belonged to a certain hunter whose home was the forest.",
   "weaponType": "WEAPON_BOW",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Viridescent.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Viridescent_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Viridescent",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Viridescent_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Viridescent",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Viridescent.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Viridescent_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Viridescent"
   },
   "version": "1.0",
   "stats": {

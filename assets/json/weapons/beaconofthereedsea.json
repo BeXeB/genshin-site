@@ -1,6 +1,7 @@
 {
   "id": 12511,
   "name": "Beacon of the Reed Sea",
+  "normalizedName": "beaconofthereedsea",
   "description": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
   "descriptionRaw": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -188,13 +189,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Deshret",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Deshret_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Deshret",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Deshret"
   },
   "version": "3.5",
   "stats": {

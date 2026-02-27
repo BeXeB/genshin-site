@@ -1,6 +1,7 @@
 {
   "id": 12515,
   "name": "Gest of the Mighty Wolf",
+  "normalizedName": "gestofthemightywolf",
   "description": "Legend has it that this greatsword was forged by the hand of Ravenwood, who inherited the name of Boreas, prior to his ascension to knighthood.",
   "descriptionRaw": "Legend has it that this greatsword was forged by the hand of Ravenwood, who inherited the name of Boreas, prior to his ascension to knighthood.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -185,9 +186,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Claymore_EnsisAquilonis",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_EnsisAquilonis_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_EnsisAquilonis",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_EnsisAquilonis.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_EnsisAquilonis_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_EnsisAquilonis"
   },
   "version": "6.4",
   "stats": {

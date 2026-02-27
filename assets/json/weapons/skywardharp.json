@@ -1,6 +1,7 @@
 {
   "id": 15501,
   "name": "Skyward Harp",
+  "normalizedName": "skywardharp",
   "description": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.",
   "descriptionRaw": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.",
   "weaponType": "WEAPON_BOW",
@@ -188,13 +189,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Dvalin",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Dvalin_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Dvalin",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Dvalin"
   },
   "version": "1.0",
   "stats": {

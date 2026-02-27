@@ -1,6 +1,7 @@
 {
   "id": 13407,
   "name": "Favonius Lance",
+  "normalizedName": "favoniuslance",
   "description": "A polearm made in the style of the Knights of Favonius. Its shaft is straight, and its tip flows lightly like the wind.",
   "descriptionRaw": "A polearm made in the style of the Knights of Favonius. Its shaft is straight, and its tip flows lightly like the wind.",
   "weaponType": "WEAPON_POLE",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus_Awaken.png",
     "filename_icon": "UI_EquipIcon_Pole_Zephyrus",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Zephyrus_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Zephyrus",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Zephyrus"
   },
   "version": "1.0",
   "stats": {

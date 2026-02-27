@@ -1,6 +1,7 @@
 {
   "id": 12504,
   "name": "The Unforged",
+  "normalizedName": "theunforged",
   "description": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
   "descriptionRaw": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Kunwu",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Kunwu_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Kunwu",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Kunwu"
   },
   "version": "1.1",
   "stats": {

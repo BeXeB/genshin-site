@@ -1,6 +1,7 @@
 {
   "id": 15424,
   "name": "Scion of the Blazing Sun",
+  "normalizedName": "scionoftheblazingsun",
   "description": "An ancient longbow that is a remnant of King Deshret's ancient era. An indecipherable ancient text and solemn patterns have been carved into it.",
   "descriptionRaw": "An ancient longbow that is a remnant of King Deshret's ancient era. An indecipherable ancient text and solemn patterns have been carved into it.",
   "weaponType": "WEAPON_BOW",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Gurabad.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Gurabad_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Gurabad",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Gurabad_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Gurabad",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Gurabad.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Gurabad_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Gurabad"
   },
   "version": "4.0",
   "stats": {

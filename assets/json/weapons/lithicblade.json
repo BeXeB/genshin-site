@@ -1,6 +1,7 @@
 {
   "id": 12410,
   "name": "Lithic Blade",
+  "normalizedName": "lithicblade",
   "description": "A greatsword carved and chiseled from the very bedrock of Liyue.",
   "descriptionRaw": "A greatsword carved and chiseled from the very bedrock of Liyue.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Lapis",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Lapis_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Lapis",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Lapis"
   },
   "version": "1.3",
   "stats": {

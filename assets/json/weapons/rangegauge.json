@@ -1,6 +1,7 @@
 {
   "id": 15427,
   "name": "Range Gauge",
+  "normalizedName": "rangegauge",
   "description": "A measuring instrument that you can rarely find nowadays. It is capable of firing arrows.",
   "descriptionRaw": "A measuring instrument that you can rarely find nowadays. It is capable of firing arrows.",
   "weaponType": "WEAPON_BOW",
@@ -185,9 +186,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Bow_Mechanic",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Mechanic_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Mechanic",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Mechanic.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Mechanic_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Mechanic"
   },
   "version": "4.1",
   "stats": {

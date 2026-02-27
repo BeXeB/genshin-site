@@ -1,6 +1,7 @@
 {
   "id": 12431,
   "name": "Earth Shaker",
+  "normalizedName": "earthshaker",
   "description": "A heavy blade that people claim was beloved by the hero known as the Firethief. They say that even the Lord of Cinder Keep's flames could not burn it away.",
   "descriptionRaw": "A heavy blade that people claim was beloved by the hero known as the Firethief. They say that even the Lord of Cinder Keep's flames could not burn it away.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -180,9 +181,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Claymore_Isikhulu",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Isikhulu_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Isikhulu",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Isikhulu.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Isikhulu_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Isikhulu"
   },
   "version": "5.0",
   "stats": {

@@ -1,6 +1,7 @@
 {
   "id": 15414,
   "name": "Hamayumi",
+  "normalizedName": "hamayumi",
   "description": "A certain shrine maiden once owned this warbow. It was made with surpassing skill, and is both intricate and sturdy.",
   "descriptionRaw": "A certain shrine maiden once owned this warbow. It was made with surpassing skill, and is both intricate and sturdy.",
   "weaponType": "WEAPON_BOW",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Bakufu.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Bakufu_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Bakufu",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Bakufu_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Bakufu",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Bakufu.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Bakufu_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Bakufu"
   },
   "version": "2.0",
   "stats": {

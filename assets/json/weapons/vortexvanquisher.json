@@ -1,6 +1,7 @@
 {
   "id": 13504,
   "name": "Vortex Vanquisher",
+  "normalizedName": "vortexvanquisher",
   "description": "This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.",
   "descriptionRaw": "This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.",
   "weaponType": "WEAPON_POLE",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu_Awaken.png",
     "filename_icon": "UI_EquipIcon_Pole_Kunwu",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Kunwu_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Kunwu",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Kunwu"
   },
   "version": "1.1",
   "stats": {

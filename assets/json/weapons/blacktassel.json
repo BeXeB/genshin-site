@@ -1,6 +1,7 @@
 {
   "id": 13303,
   "name": "Black Tassel",
+  "normalizedName": "blacktassel",
   "description": "An exceptionally powerful polearm that also offers a simple but elegant solution to the issue of the easily stained white tassel.",
   "descriptionRaw": "An exceptionally powerful polearm that also offers a simple but elegant solution to the issue of the easily stained white tassel.",
   "weaponType": "WEAPON_POLE",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire_Awaken.png",
     "filename_icon": "UI_EquipIcon_Pole_Noire",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Noire_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Noire",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Noire"
   },
   "version": "1.0",
   "stats": {

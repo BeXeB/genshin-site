@@ -1,6 +1,7 @@
 {
   "id": 15403,
   "name": "Sacrificial Bow",
+  "normalizedName": "sacrificialbow",
   "description": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
   "descriptionRaw": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
   "weaponType": "WEAPON_BOW",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Fossil",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Fossil_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Fossil",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Fossil"
   },
   "version": "1.0",
   "stats": {

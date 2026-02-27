@@ -1,6 +1,7 @@
 {
   "id": 15515,
   "name": "The Daybreak Chronicles",
+  "normalizedName": "thedaybreakchronicles",
   "description": "The songs of resistance come hither on the wind to settle as gentle tones upon these strings, their combined power great enough to rip boundless darkness asunder with the light of the breaking dawn.",
   "descriptionRaw": "The songs of resistance come hither on the wind to settle as gentle tones upon these strings, their combined power great enough to rip boundless darkness asunder with the light of the breaking dawn.",
   "weaponType": "WEAPON_BOW",
@@ -200,9 +201,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Bow_Arianna",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Arianna_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Arianna",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arianna.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arianna_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Arianna"
   },
   "version": "6.2",
   "stats": {

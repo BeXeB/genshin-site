@@ -1,6 +1,7 @@
 {
   "id": 11426,
   "name": "Fleuve Cendre Ferryman",
+  "normalizedName": "fleuvecendreferryman",
   "description": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous — or infamous, depending — in some circles.",
   "descriptionRaw": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous — or infamous, depending — in some circles.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Machination.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Machination_Awaken.png",
     "filename_icon": "UI_EquipIcon_Sword_Machination",
     "filename_awakenIcon": "UI_EquipIcon_Sword_Machination_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Machination",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Machination.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Machination_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Machination"
   },
   "version": "4.0",
   "stats": {

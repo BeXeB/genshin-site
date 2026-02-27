@@ -1,6 +1,7 @@
 {
   "id": 14511,
   "name": "A Thousand Floating Dreams",
+  "normalizedName": "athousandfloatingdreams",
   "description": "This lamp illuminates the dreams that float up over a thousand nights, and in its emerald-green light flows a song of ancient days.",
   "descriptionRaw": "This lamp illuminates the dreams that float up over a thousand nights, and in its emerald-green light flows a song of ancient days.",
   "weaponType": "WEAPON_CATALYST",
@@ -188,13 +189,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ayus.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ayus_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Ayus",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Ayus_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Ayus",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ayus.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ayus_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Ayus"
   },
   "version": "3.2",
   "stats": {

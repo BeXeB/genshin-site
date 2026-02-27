@@ -1,6 +1,7 @@
 {
   "id": 14412,
   "name": "Frostbearer",
+  "normalizedName": "frostbearer",
   "description": "A fruit that possesses a strange, frosty will. A faint sense of agony emanates from it.",
   "descriptionRaw": "A fruit that possesses a strange, frosty will. A faint sense of agony emanates from it.",
   "weaponType": "WEAPON_CATALYST",
@@ -188,12 +189,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Everfrost.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Everfrost",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Everfrost_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Everfrost",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Everfrost.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Everfrost_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Everfrost"
   },
   "version": "1.2",
   "stats": {

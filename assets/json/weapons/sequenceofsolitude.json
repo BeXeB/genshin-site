@@ -1,6 +1,7 @@
 {
   "id": 15432,
   "name": "Sequence of Solitude",
+  "normalizedName": "sequenceofsolitude",
   "description": "A mechanical longbow purpose-built for long shots and silent kills. Its twang is swallowed up amidst the night, the note lengthy and cold.",
   "descriptionRaw": "A mechanical longbow purpose-built for long shots and silent kills. Its twang is swallowed up amidst the night, the note lengthy and cold.",
   "weaponType": "WEAPON_BOW",
@@ -180,9 +181,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Bow_Stinger",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Stinger_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Stinger",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Stinger.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Stinger_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Stinger"
   },
   "version": "5.6",
   "stats": {

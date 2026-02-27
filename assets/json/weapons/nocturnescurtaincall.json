@@ -1,6 +1,7 @@
 {
   "id": 14522,
   "name": "Nocturne's Curtain Call",
+  "normalizedName": "nocturnescurtaincall",
   "description": "A jade pearl shrouded in the light of the moon. Even in the coldest winter night, its gentle warmth lingers like a song.",
   "descriptionRaw": "A jade pearl shrouded in the light of the moon. Even in the coldest winter night, its gentle warmth lingers like a song.",
   "weaponType": "WEAPON_CATALYST",
@@ -195,9 +196,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_Brisingamen",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Brisingamen_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Brisingamen",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Brisingamen.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Brisingamen_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Brisingamen"
   },
   "version": "6.3",
   "stats": {

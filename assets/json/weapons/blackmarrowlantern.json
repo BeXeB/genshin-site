@@ -1,6 +1,7 @@
 {
   "id": 14433,
   "name": "Blackmarrow Lantern",
+  "normalizedName": "blackmarrowlantern",
   "description": "A lantern that emits a faint, ghostly glow, contained by a midnight-black alloy that resembles interlocking bones. It is said to have once been revered as a precious treasure by a certain secret organization.",
   "descriptionRaw": "A lantern that emits a faint, ghostly glow, contained by a midnight-black alloy that resembles interlocking bones. It is said to have once been revered as a precious treasure by a certain secret organization.",
   "weaponType": "WEAPON_CATALYST",
@@ -190,9 +191,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_Ilmarinen",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Ilmarinen_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Ilmarinen",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ilmarinen.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ilmarinen_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Ilmarinen"
   },
   "version": "6.0",
   "stats": {

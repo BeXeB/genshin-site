@@ -1,6 +1,7 @@
 {
   "id": 15407,
   "name": "Compound Bow",
+  "normalizedName": "compoundbow",
   "description": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
   "descriptionRaw": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
   "weaponType": "WEAPON_BOW",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Exotic.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Exotic_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Exotic",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Exotic_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Exotic",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Exotic.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Exotic_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Exotic"
   },
   "version": "1.0",
   "stats": {

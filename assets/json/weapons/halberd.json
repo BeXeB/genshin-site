@@ -1,6 +1,7 @@
 {
   "id": 13302,
   "name": "Halberd",
+  "normalizedName": "halberd",
   "description": "A polearm with an axe blade mounted on top that can deal quite a lot of damage. It's favored by the Millelith officers.",
   "descriptionRaw": "A polearm with an axe blade mounted on top that can deal quite a lot of damage. It's favored by the Millelith officers.",
   "weaponType": "WEAPON_POLE",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Halberd.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Halberd_Awaken.png",
     "filename_icon": "UI_EquipIcon_Pole_Halberd",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Halberd_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Halberd",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Halberd.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Halberd_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Halberd"
   },
   "version": "1.0",
   "stats": {

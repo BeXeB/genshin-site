@@ -1,6 +1,7 @@
 {
   "id": 15514,
   "name": "Astral Vulture's Crimson Plumage",
+  "normalizedName": "astralvulturescrimsonplumage",
   "description": "An ancient longbow crested with red feathers, a sacred relic of the Flower-Feather Clan that has been passed down from generation to generation.",
   "descriptionRaw": "An ancient longbow crested with red feathers, a sacred relic of the Flower-Feather Clan that has been passed down from generation to generation.",
   "weaponType": "WEAPON_BOW",
@@ -190,9 +191,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Bow_Qoyllorsnova",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Qoyllorsnova_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Qoyllorsnova",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Qoyllorsnova.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Qoyllorsnova_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Qoyllorsnova"
   },
   "version": "5.2",
   "stats": {

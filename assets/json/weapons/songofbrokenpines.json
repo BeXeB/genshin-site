@@ -1,6 +1,7 @@
 {
   "id": 12503,
   "name": "Song of Broken Pines",
+  "normalizedName": "songofbrokenpines",
   "description": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
   "descriptionRaw": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -188,13 +189,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Widsith",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Widsith_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Widsith",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Widsith"
   },
   "version": "1.5",
   "stats": {

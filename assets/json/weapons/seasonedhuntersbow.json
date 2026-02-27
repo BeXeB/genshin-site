@@ -1,6 +1,7 @@
 {
   "id": 15201,
   "name": "Seasoned Hunter's Bow",
+  "normalizedName": "seasonedhuntersbow",
   "description": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm.",
   "descriptionRaw": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm.",
   "weaponType": "WEAPON_BOW",
@@ -99,13 +100,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Old.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Old_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Old",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Old_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Old",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Old.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Old_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Old"
   },
   "version": "1.0",
   "stats": {

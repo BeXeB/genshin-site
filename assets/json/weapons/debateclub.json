@@ -1,6 +1,7 @@
 {
   "id": 12305,
   "name": "Debate Club",
+  "normalizedName": "debateclub",
   "description": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
   "descriptionRaw": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Reasoning",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Reasoning_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Reasoning",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Reasoning"
   },
   "version": "1.0",
   "stats": {

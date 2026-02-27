@@ -1,6 +1,7 @@
 {
   "id": 15404,
   "name": "Royal Bow",
+  "normalizedName": "royalbow",
   "description": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
   "descriptionRaw": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
   "weaponType": "WEAPON_BOW",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Theocrat.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Theocrat_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Theocrat",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Theocrat_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Theocrat",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Theocrat.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Theocrat_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Theocrat"
   },
   "version": "1.0",
   "stats": {

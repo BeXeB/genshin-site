@@ -1,6 +1,7 @@
 {
   "id": 15405,
   "name": "Rust",
+  "normalizedName": "rust",
   "description": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
   "descriptionRaw": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
   "weaponType": "WEAPON_BOW",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Recluse",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Recluse_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Recluse",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Recluse"
   },
   "version": "1.0",
   "stats": {

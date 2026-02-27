@@ -1,6 +1,7 @@
 {
   "id": 14415,
   "name": "Oathsworn Eye",
+  "normalizedName": "oathsworneye",
   "description": "A national treasure of Byakuyakoku stored in the Dainichi Mikoshi. With the coming of the Serpent God, this item was used to notarize great oaths and wishes.",
   "descriptionRaw": "A national treasure of Byakuyakoku stored in the Dainichi Mikoshi. With the coming of the Serpent God, this item was used to notarize great oaths and wishes.",
   "weaponType": "WEAPON_CATALYST",
@@ -178,12 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jyanome.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Jyanome",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Jyanome_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Jyanome",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jyanome.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jyanome_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Jyanome"
   },
   "version": "2.5",
   "stats": {

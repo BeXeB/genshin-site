@@ -1,6 +1,7 @@
 {
   "id": 15511,
   "name": "Hunter's Path",
+  "normalizedName": "hunterspath",
   "description": "This gilded bow was made using precious white branches. It has felled countless wicked beasts attempting to infiltrate the woods.",
   "descriptionRaw": "This gilded bow was made using precious white branches. It has felled countless wicked beasts attempting to infiltrate the woods.",
   "weaponType": "WEAPON_BOW",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ayus.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ayus_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Ayus",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Ayus_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Ayus",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ayus.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ayus_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Ayus"
   },
   "version": "3.0",
   "stats": {

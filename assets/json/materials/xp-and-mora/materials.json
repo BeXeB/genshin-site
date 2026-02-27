@@ -1,0 +1,93 @@
+[
+  {
+    "id": 202,
+    "name": "Mora",
+    "normalizedName": "mora",
+    "rarity": 3,
+    "sortRank": 10,
+    "description": "Common currency. The one language everybody speaks.",
+    "type": "xp-and-mora",
+    "typeText": "Common Currency",
+    "images": {
+      "filename_icon": "UI_ItemIcon_202"
+    }
+  },
+  {
+    "id": 104002,
+    "name": "Adventurer's Experience",
+    "normalizedName": "adventurersexperience",
+    "rarity": 3,
+    "sortRank": 100,
+    "description": "Character EXP material. Gives 5,000 EXP.\nThese experiences are very beneficial for journeys into the unknown.",
+    "type": "xp-and-mora",
+    "typeText": "Character EXP Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104002"
+    }
+  },
+  {
+    "id": 104003,
+    "name": "Hero's Wit",
+    "normalizedName": "heroswit",
+    "rarity": 4,
+    "sortRank": 100,
+    "description": "Character EXP material. Gives 20,000 EXP.\nThese experiences are extremely precious for a pilgrim traveling through Teyvat in order to be closer to Celestia.",
+    "type": "xp-and-mora",
+    "typeText": "Character EXP Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104003"
+    }
+  },
+  {
+    "id": 104001,
+    "name": "Wanderer's Advice",
+    "normalizedName": "wanderersadvice",
+    "rarity": 2,
+    "sortRank": 100,
+    "description": "Character EXP material. Gives 1,000 EXP.\nThese experiences are still beneficial even if one does not live in Teyvat.",
+    "type": "xp-and-mora",
+    "typeText": "Character EXP Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104001"
+    }
+  },
+  {
+    "id": 104011,
+    "name": "Enhancement Ore",
+    "normalizedName": "enhancementore",
+    "rarity": 1,
+    "sortRank": 5,
+    "description": "Weapon EXP material. Gives 400 EXP.\nA refined ingot with endless possibilities that can be used to enhance weapons.",
+    "type": "xp-and-mora",
+    "typeText": "Weapon Enhancement Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104011"
+    }
+  },
+  {
+    "id": 104012,
+    "name": "Fine Enhancement Ore",
+    "normalizedName": "fineenhancementore",
+    "rarity": 2,
+    "sortRank": 5,
+    "description": "Weapon EXP material. Gives 2,000 EXP.\nFor reasons unknown, this special and refined ore can be absorbed by weapons to greatly increase their strengths.",
+    "type": "xp-and-mora",
+    "typeText": "Weapon Enhancement Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104012"
+    }
+  },
+  {
+    "id": 104013,
+    "name": "Mystic Enhancement Ore",
+    "normalizedName": "mysticenhancementore",
+    "rarity": 3,
+    "sortRank": 5,
+    "description": "Weapon EXP material. Gives 10,000 EXP.\nLegend has it that this refined ingot contains the memories of battles that had taken place in the land. The weapons that benefit from these memories naturally become sentient.",
+    "type": "xp-and-mora",
+    "typeText": "Weapon Enhancement Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104013"
+    }
+  }
+]

@@ -1,6 +1,7 @@
 {
   "id": 14409,
   "name": "Eye of Perception",
+  "normalizedName": "eyeofperception",
   "description": "A dim black glaze pearl that is said to have the power to read the purity of one's heart.",
   "descriptionRaw": "A dim black glaze pearl that is said to have the power to read the purity of one's heart.",
   "weaponType": "WEAPON_CATALYST",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Truelens",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Truelens_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Truelens",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Truelens"
   },
   "version": "1.0",
   "stats": {

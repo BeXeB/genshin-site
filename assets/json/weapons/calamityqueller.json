@@ -1,6 +1,7 @@
 {
   "id": 13507,
   "name": "Calamity Queller",
+  "normalizedName": "calamityqueller",
   "description": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
   "descriptionRaw": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
   "weaponType": "WEAPON_POLE",
@@ -183,12 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Santika.png",
     "filename_icon": "UI_EquipIcon_Pole_Santika",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Santika_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Santika",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Santika.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Santika_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Santika"
   },
   "version": "2.4",
   "stats": {

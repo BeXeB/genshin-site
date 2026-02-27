@@ -1,6 +1,7 @@
 {
   "id": 12406,
   "name": "Prototype Archaic",
+  "normalizedName": "prototypearchaic",
   "description": "An ancient greatsword discovered in the Blackcliff Forge. It swings with such an immense force that one feels it could cut straight through reality itself.",
   "descriptionRaw": "An ancient greatsword discovered in the Blackcliff Forge. It swings with such an immense force that one feels it could cut straight through reality itself.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Proto.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Proto_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Proto",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Proto_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Proto",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Proto.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Proto_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Proto"
   },
   "version": "1.0",
   "stats": {

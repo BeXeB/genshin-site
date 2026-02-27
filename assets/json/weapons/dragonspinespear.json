@@ -1,6 +1,7 @@
 {
   "id": 13409,
   "name": "Dragonspine Spear",
+  "normalizedName": "dragonspinespear",
   "description": "A spear created from the fang of a dragon. It is oddly warm to the touch.",
   "descriptionRaw": "A spear created from the fang of a dragon. It is oddly warm to the touch.",
   "weaponType": "WEAPON_POLE",
@@ -188,12 +189,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Everfrost.png",
     "filename_icon": "UI_EquipIcon_Pole_Everfrost",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Everfrost_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Everfrost",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Everfrost.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Everfrost_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Everfrost"
   },
   "version": "1.2",
   "stats": {

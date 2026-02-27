@@ -1,6 +1,7 @@
 {
   "id": 14414,
   "name": "Hakushin Ring",
+  "normalizedName": "hakushinring",
   "description": "A catalyst that carries the memory of the Kitsune Saiguu of ancient times. However, this device is but an impoverished vessel for the full breadth of her thought.",
   "descriptionRaw": "A catalyst that carries the memory of the Kitsune Saiguu of ancient times. However, this device is but an impoverished vessel for the full breadth of her thought.",
   "weaponType": "WEAPON_CATALYST",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Bakufu.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Bakufu_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Bakufu",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Bakufu_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Bakufu",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Bakufu.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Bakufu_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Bakufu"
   },
   "version": "2.0",
   "stats": {

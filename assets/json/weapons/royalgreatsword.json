@@ -1,6 +1,7 @@
 {
   "id": 12404,
   "name": "Royal Greatsword",
+  "normalizedName": "royalgreatsword",
   "description": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by the nobility only.",
   "descriptionRaw": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by the nobility only.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Theocrat.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Theocrat_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Theocrat",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Theocrat_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Theocrat",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Theocrat.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Theocrat_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Theocrat"
   },
   "version": "1.0",
   "stats": {

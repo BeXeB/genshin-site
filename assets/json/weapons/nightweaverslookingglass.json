@@ -1,6 +1,7 @@
 {
   "id": 14520,
   "name": "Nightweaver's Looking Glass",
+  "normalizedName": "nightweaverslookingglass",
   "description": "A mirror crafted from flawless silver that is said to have witnessed the birth of the Moon Maiden. It is seen as a relic of unrivalled provenance by the Frostmoon Scions.",
   "descriptionRaw": "A mirror crafted from flawless silver that is said to have witnessed the birth of the Moon Maiden. It is seen as a relic of unrivalled provenance by the Frostmoon Scions.",
   "weaponType": "WEAPON_CATALYST",
@@ -200,9 +201,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_MenulisRing",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_MenulisRing_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_MenulisRing",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MenulisRing.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MenulisRing_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_MenulisRing"
   },
   "version": "6.0",
   "stats": {

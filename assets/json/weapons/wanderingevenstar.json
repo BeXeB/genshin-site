@@ -1,6 +1,7 @@
 {
   "id": 14416,
   "name": "Wandering Evenstar",
+  "normalizedName": "wanderingevenstar",
   "description": "This was originally a device used by researchers to observe and perform calculations on celestial phenomena. It serves as a conduit and catalyst.",
   "descriptionRaw": "This was originally a device used by researchers to observe and perform calculations on celestial phenomena. It serves as a conduit and catalyst.",
   "weaponType": "WEAPON_CATALYST",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pleroma.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pleroma_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Pleroma",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Pleroma_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Pleroma",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pleroma.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pleroma_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Pleroma"
   },
   "version": "3.1",
   "stats": {

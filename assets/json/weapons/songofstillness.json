@@ -1,6 +1,7 @@
 {
   "id": 15425,
   "name": "Song of Stillness",
+  "normalizedName": "songofstillness",
   "description": "A strange longbow that resembles a sea creature. Its string makes no sound at all.",
   "descriptionRaw": "A strange longbow that resembles a sea creature. Its string makes no sound at all.",
   "weaponType": "WEAPON_BOW",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Vorpal.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Vorpal_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Vorpal",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Vorpal_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Vorpal",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Vorpal.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Vorpal_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Vorpal"
   },
   "version": "4.0",
   "stats": {

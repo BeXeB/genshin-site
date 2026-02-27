@@ -1,6 +1,7 @@
 {
   "id": 15305,
   "name": "Messenger",
+  "normalizedName": "messenger",
   "description": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
   "descriptionRaw": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
   "weaponType": "WEAPON_BOW",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Msg.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Msg_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Msg",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Msg_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Msg",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Msg.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Msg_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Msg"
   },
   "version": "1.0",
   "stats": {

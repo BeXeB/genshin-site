@@ -1,6 +1,7 @@
 {
   "id": 11412,
   "name": "Sword of Descension",
+  "normalizedName": "swordofdescension",
   "description": "A sword of unique craftsmanship. It does not appear to belong to this world.",
   "descriptionRaw": "A sword of unique craftsmanship. It does not appear to belong to this world.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
@@ -156,13 +157,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Psalmus.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Psalmus_Awaken.png",
     "filename_icon": "UI_EquipIcon_Sword_Psalmus",
     "filename_awakenIcon": "UI_EquipIcon_Sword_Psalmus_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Psalmus",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Psalmus.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Psalmus_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Psalmus"
   },
   "version": "1.0",
   "stats": {

@@ -1,6 +1,7 @@
 {
   "id": 15509,
   "name": "Thundering Pulse",
+  "normalizedName": "thunderingpulse",
   "description": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
   "descriptionRaw": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
   "weaponType": "WEAPON_BOW",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Narukami",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Narukami_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Narukami",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Narukami"
   },
   "version": "2.0",
   "stats": {

@@ -1,6 +1,7 @@
 {
   "id": 15101,
   "name": "Hunter's Bow",
+  "normalizedName": "huntersbow",
   "description": "A hunter's music consists of but two sounds: the twang of the bowstring and the whoosh of soaring arrows.",
   "descriptionRaw": "A hunter's music consists of but two sounds: the twang of the bowstring and the whoosh of soaring arrows.",
   "weaponType": "WEAPON_BOW",
@@ -99,13 +100,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Hunters.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Hunters_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Hunters",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Hunters_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Hunters",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Hunters.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Hunters_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Hunters"
   },
   "version": "1.0",
   "stats": {

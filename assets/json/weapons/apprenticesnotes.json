@@ -1,6 +1,7 @@
 {
   "id": 14101,
   "name": "Apprentice's Notes",
+  "normalizedName": "apprenticesnotes",
   "description": "Notes left behind by a top student. Many useful spells are listed, and the handwriting is beautiful.",
   "descriptionRaw": "Notes left behind by a top student. Many useful spells are listed, and the handwriting is beautiful.",
   "weaponType": "WEAPON_CATALYST",
@@ -99,13 +100,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Apprentice.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Apprentice_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Apprentice",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Apprentice",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Apprentice.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Apprentice_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Apprentice"
   },
   "version": "1.0",
   "stats": {

@@ -1,6 +1,7 @@
 {
   "id": 14515,
   "name": "Crane's Echoing Call",
+  "normalizedName": "cranesechoingcall",
   "description": "A fan carved from pure jade, around which swirls an ancient aura of adeptal energy.",
   "descriptionRaw": "A fan carved from pure jade, around which swirls an ancient aura of adeptal energy.",
   "weaponType": "WEAPON_CATALYST",
@@ -185,9 +186,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_MountainGale",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_MountainGale_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_MountainGale",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MountainGale.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MountainGale_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_MountainGale"
   },
   "version": "4.4",
   "stats": {

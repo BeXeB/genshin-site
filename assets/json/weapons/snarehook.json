@@ -1,6 +1,7 @@
 {
   "id": 15433,
   "name": "Snare Hook",
+  "normalizedName": "snarehook",
   "description": "The stave of this bow is comprised of metal alloy and yet remains surprisingly light. Even when faced with thick, heavy snares, the arrows it fires can pass through unhindered.",
   "descriptionRaw": "The stave of this bow is comprised of metal alloy and yet remains surprisingly light. Even when faced with thick, heavy snares, the arrows it fires can pass through unhindered.",
   "weaponType": "WEAPON_BOW",
@@ -185,9 +186,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Bow_Ilmarinen",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Ilmarinen_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Ilmarinen",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ilmarinen.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ilmarinen_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Ilmarinen"
   },
   "version": "6.0",
   "stats": {

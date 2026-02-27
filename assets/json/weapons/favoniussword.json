@@ -1,6 +1,7 @@
 {
   "id": 11401,
   "name": "Favonius Sword",
+  "normalizedName": "favoniussword",
   "description": "A standard-issue longsword of the Knights of Favonius. When you're armed with this agile and sharp weapon, channeling the power of the elements has never been so easy!",
   "descriptionRaw": "A standard-issue longsword of the Knights of Favonius. When you're armed with this agile and sharp weapon, channeling the power of the elements has never been so easy!",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus_Awaken.png",
     "filename_icon": "UI_EquipIcon_Sword_Zephyrus",
     "filename_awakenIcon": "UI_EquipIcon_Sword_Zephyrus_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Zephyrus",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Zephyrus"
   },
   "version": "1.0",
   "stats": {

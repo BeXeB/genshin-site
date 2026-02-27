@@ -1,6 +1,7 @@
 {
   "id": 14431,
   "name": "Ring of Yaxche",
+  "normalizedName": "ringofyaxche",
   "description": "This jade vessel was created by a hero of yesteryear. Legend has it that it once shot the giant dragon that dwelt in the volcano down from the skies.",
   "descriptionRaw": "This jade vessel was created by a hero of yesteryear. Legend has it that it once shot the giant dragon that dwelt in the volcano down from the skies.",
   "weaponType": "WEAPON_CATALYST",
@@ -185,9 +186,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_Isikhulu",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Isikhulu_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Isikhulu",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Isikhulu.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Isikhulu_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Isikhulu"
   },
   "version": "5.0",
   "stats": {

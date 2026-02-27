@@ -1,6 +1,7 @@
 {
   "id": 12301,
   "name": "Ferrous Shadow",
+  "normalizedName": "ferrousshadow",
   "description": "A replica of the famed sword of Arundolyn, the Lion of Light. Feel the power of a legendary hero as you hold this sword in your hand! Imagine yourself as the great warrior himself! Note: Daydreaming not recommended in live combat.",
   "descriptionRaw": "A replica of the famed sword of Arundolyn, the Lion of Light. Feel the power of a legendary hero as you hold this sword in your hand! Imagine yourself as the great warrior himself! Note: Daydreaming not recommended in live combat.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Glaive.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Glaive_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Glaive",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Glaive_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Glaive",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Glaive.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Glaive_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Glaive"
   },
   "version": "1.0",
   "stats": {

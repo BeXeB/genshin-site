@@ -1,6 +1,7 @@
 {
   "id": 15302,
   "name": "Sharpshooter's Oath",
+  "normalizedName": "sharpshootersoath",
   "description": "This superior bow once belonged to a master archer. However, it gives off a strong scent, thus making it unsuitable for hunting.",
   "descriptionRaw": "This superior bow once belonged to a master archer. However, it gives off a strong scent, thus making it unsuitable for hunting.",
   "weaponType": "WEAPON_BOW",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arjuna.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arjuna_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Arjuna",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Arjuna_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Arjuna",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arjuna.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arjuna_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Arjuna"
   },
   "version": "1.0",
   "stats": {

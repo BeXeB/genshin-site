@@ -1,6 +1,7 @@
 {
   "id": 14410,
   "name": "Wine and Song",
+  "normalizedName": "wineandsong",
   "description": "A songbook from the bygone aristocratic era, whose composer has become forgotten. It chronicles the tale of a certain heroic outlaw.",
   "descriptionRaw": "A songbook from the bygone aristocratic era, whose composer has become forgotten. It chronicles the tale of a certain heroic outlaw.",
   "weaponType": "WEAPON_CATALYST",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw_Awaken.png",
     "filename_icon": "UI_EquipIcon_Catalyst_Outlaw",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_Outlaw_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Outlaw",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Outlaw"
   },
   "version": "1.4",
   "stats": {

@@ -1,6 +1,7 @@
 {
   "id": 15415,
   "name": "Predator",
+  "normalizedName": "predator",
   "description": "A uniquely-designed bow. This should not belong in this world.",
   "descriptionRaw": "A uniquely-designed bow. This should not belong in this world.",
   "weaponType": "WEAPON_BOW",
@@ -152,12 +153,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Predator.png",
     "filename_icon": "UI_EquipIcon_Bow_Predator",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Predator_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Predator",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Predator.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Predator_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Predator"
   },
   "version": "2.1",
   "stats": {

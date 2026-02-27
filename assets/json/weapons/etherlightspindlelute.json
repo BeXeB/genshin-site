@@ -1,6 +1,7 @@
 {
   "id": 14432,
   "name": "Etherlight Spindlelute",
+  "normalizedName": "etherlightspindlelute",
   "description": "A lute whose golden strings are as radiant as sunlight. It appears to be a relic from the Seelie of old.",
   "descriptionRaw": "A lute whose golden strings are as radiant as sunlight. It appears to be a relic from the Seelie of old.",
   "weaponType": "WEAPON_CATALYST",
@@ -180,9 +181,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Catalyst_SeeliesLute",
     "filename_awakenIcon": "UI_EquipIcon_Catalyst_SeeliesLute_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_SeeliesLute",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_SeeliesLute.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_SeeliesLute_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_SeeliesLute"
   },
   "version": "6.0",
   "stats": {

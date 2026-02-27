@@ -1,6 +1,7 @@
 {
   "id": 13419,
   "name": "Missive Windspear",
+  "normalizedName": "missivewindspear",
   "description": "A beacon that shows the direction of the wind. Not every idyll carried on the breeze remains a gentle thing...",
   "descriptionRaw": "A beacon that shows the direction of the wind. Not every idyll carried on the breeze remains a gentle thing...",
   "weaponType": "WEAPON_POLE",
@@ -183,13 +184,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Windvane.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Windvane_Awaken.png",
     "filename_icon": "UI_EquipIcon_Pole_Windvane",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Windvane_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Windvane",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Windvane.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Windvane_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Windvane"
   },
   "version": "3.1",
   "stats": {

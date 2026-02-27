@@ -1,6 +1,7 @@
 {
   "id": 12407,
   "name": "Whiteblind",
+  "normalizedName": "whiteblind",
   "description": "An exotic sword with one section of the blade left blunt. It made its way into Liyue via the hands of foreign traders. Incredibly powerful in the hands of someone who knows how to use it.",
   "descriptionRaw": "An exotic sword with one section of the blade left blunt. It made its way into Liyue via the hands of foreign traders. Incredibly powerful in the hands of someone who knows how to use it.",
   "weaponType": "WEAPON_CLAYMORE",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Exotic.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Exotic_Awaken.png",
     "filename_icon": "UI_EquipIcon_Claymore_Exotic",
     "filename_awakenIcon": "UI_EquipIcon_Claymore_Exotic_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Exotic",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Exotic.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Exotic_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Exotic"
   },
   "version": "1.0",
   "stats": {

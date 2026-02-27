@@ -1,6 +1,7 @@
 {
   "id": 11407,
   "name": "Iron Sting",
+  "normalizedName": "ironsting",
   "description": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
   "descriptionRaw": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Exotic.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Exotic_Awaken.png",
     "filename_icon": "UI_EquipIcon_Sword_Exotic",
     "filename_awakenIcon": "UI_EquipIcon_Sword_Exotic_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Exotic",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Exotic.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Exotic_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Exotic"
   },
   "version": "1.0",
   "stats": {

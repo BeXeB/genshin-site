@@ -1,6 +1,7 @@
 {
   "id": 15408,
   "name": "Blackcliff Warbow",
+  "normalizedName": "blackcliffwarbow",
   "description": "A bow made of blackcliff that features extremely sturdy bow limbs. It requires an archer with a strong bow arm to use.",
   "descriptionRaw": "A bow made of blackcliff that features extremely sturdy bow limbs. It requires an archer with a strong bow arm to use.",
   "weaponType": "WEAPON_BOW",
@@ -178,13 +179,9 @@
     ]
   },
   "images": {
-    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Blackrock.png",
-    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Blackrock_Awaken.png",
     "filename_icon": "UI_EquipIcon_Bow_Blackrock",
     "filename_awakenIcon": "UI_EquipIcon_Bow_Blackrock_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Blackrock",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Blackrock.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Blackrock_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Blackrock"
   },
   "version": "1.0",
   "stats": {

@@ -1,6 +1,7 @@
 {
   "id": 13432,
   "name": "Tamayuratei no Ohanashi",
+  "normalizedName": "tamayurateinoohanashi",
   "description": "Once upon a time, there was a youkai that roamed Inazuma in the form of a lantern's flame. This must once have been one of its vessels.",
   "descriptionRaw": "Once upon a time, there was a youkai that roamed Inazuma in the form of a lantern's flame. This must once have been one of its vessels.",
   "weaponType": "WEAPON_POLE",
@@ -180,9 +181,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Pole_Aoandon",
     "filename_awakenIcon": "UI_EquipIcon_Pole_Aoandon_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Aoandon",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Aoandon.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Aoandon_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Aoandon"
   },
   "version": "5.4",
   "stats": {

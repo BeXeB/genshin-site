@@ -1,6 +1,7 @@
 {
   "id": 11431,
   "name": "Flute of Ezpitzal",
+  "normalizedName": "fluteofezpitzal",
   "description": "A peculiarly shaped jade longsword that has been passed down amongst the Masters of the Night-Wind as a \"priestly flute.\"",
   "descriptionRaw": "A peculiarly shaped jade longsword that has been passed down amongst the Masters of the Night-Wind as a \"priestly flute.\"",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
@@ -180,9 +181,7 @@
   "images": {
     "filename_icon": "UI_EquipIcon_Sword_Isikhulu",
     "filename_awakenIcon": "UI_EquipIcon_Sword_Isikhulu_Awaken",
-    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Isikhulu",
-    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Isikhulu.png",
-    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Isikhulu_Awaken.png"
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Isikhulu"
   },
   "version": "5.0",
   "stats": {
