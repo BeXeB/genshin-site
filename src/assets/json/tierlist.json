@@ -1,53 +1,77 @@
-[
-  {
-    "tier": "Meta",
-    "characters": [
-      {
-        "id": 10000122,
-        "apiKey": "nefer",
-        "tags": [
-          {
-            "id": "lunarbloom"
-          },
-          {
-            "id": "partner",
-            "extra": ["lauma", "columbina"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "tier": "Alternativa",
-    "characters": [
-      {
-        "id": 10000052,
-        "apiKey": "raidenshogun",
-        "tags": [
-          {
-            "id": "partner",
-            "extra": ["lauma"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "tier": "Szodaval",
-    "characters": [
-      {
-        "id": 10000052,
-        "apiKey": "raidenshogun",
-        "tags": [
-          {
-            "id": "carry"
-          },
-          {
-            "id":"partner",
-            "extra": ["chevreuse"]
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "tiers": [
+    {
+      "tier": "Meta",
+      "characters": [
+        {
+          "id": 10000122,
+          "apiKey": "nefer",
+          "tags": [
+            {
+              "id": "lunarbloom"
+            },
+            {
+              "id": "partner",
+              "extra": ["lauma", "columbina"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tier": "Alternativa",
+      "characters": [
+        {
+          "id": 10000052,
+          "apiKey": "raidenshogun",
+          "tags": [
+            {
+              "id": "partner",
+              "extra": ["lauma"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tier": "Szodaval",
+      "characters": [
+        {
+          "id": 10000052,
+          "apiKey": "raidenshogun",
+          "tags": [
+            {
+              "id": "carry"
+            },
+            {
+              "id": "partner",
+              "extra": ["chevreuse"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "id": "partner",
+      "label": "Partner",
+      "color": "#660000"
+    },
+    {
+      "id": "lunarbloom",
+      "label": "Lunar Bloom",
+      "color": "#555555"
+    },
+    {
+      "id": "hyperbloom",
+      "label": "Hyperbloom",
+      "color": "#555555"
+    },
+    {
+      "id": "carry",
+      "label": "Carry",
+      "color": "#555555"
+    }
+  ]
+}

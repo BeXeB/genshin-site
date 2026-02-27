@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { Tier, TierCharacter } from '../../_models/tierlist';
+import { Tier, TierCharacter, Tierlist } from '../../_models/tierlist';
 import { TierlistService } from '../../_services/tierlist.service';
 import { CharacterProfile } from '../../_models/character';
 import { CharacterService } from '../../_services/character.service';
-import { PageTitleComponent } from "../../_components/page-title/page-title.component";
+import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 
 @Component({
   selector: 'app-tierlist',
@@ -18,21 +18,18 @@ export class TierlistComponent {
     private characterService: CharacterService,
   ) {}
 
-  tierlist: Tier[] = [];
+  tierlist: Tierlist = { tiers: [], tags: [] };
   characterMap: Map<string, CharacterProfile> = new Map();
 
   ngOnInit() {
     this.tierlistService
       .getTierlist()
-      .subscribe((tiers: Tier[]) => (this.tierlist = tiers));
+      .subscribe((tierlist: Tierlist) => (this.tierlist = tierlist));
     this.characterService
       .getCharacters()
       .subscribe((characters: CharacterProfile[]) => {
         this.characterMap = new Map(
-          characters.map((c: CharacterProfile) => [
-            c.normalizedName,
-            c,
-          ]),
+          characters.map((c: CharacterProfile) => [c.normalizedName, c]),
         );
       });
   }

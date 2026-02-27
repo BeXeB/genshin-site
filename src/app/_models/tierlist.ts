@@ -24,3 +24,8 @@ export type Tier = {
   tier: string;
   characters: TierCharacter[];
 }
+
+export type Tierlist = {
+  tiers: Tier[],
+  tags: TagDefinition[]
+}

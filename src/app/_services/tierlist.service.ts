@@ -1,8 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { combineLatest, map, Observable } from 'rxjs';
-import { CharacterTag, TagDefinition, Tier, TierCharacter } from '../_models/tierlist';
-import { TagService } from './tag.service';
+import { map, Observable } from 'rxjs';
+import {
+  CharacterTag,
+  TagDefinition,
+  Tier,
+  TierCharacter,
+  Tierlist,
+} from '../_models/tierlist';
 
 @Injectable({
   providedIn: 'root',
@@ -10,20 +15,16 @@ import { TagService } from './tag.service';
 export class TierlistService {
   private tierlistUrl = 'assets/json/tierlist.json';
 
-  constructor(
-    private http: HttpClient,
-    private tagService: TagService,
-  ) {}
+  constructor(private http: HttpClient) {}
 
-  getTierlist(): Observable<Tier[]> {
-    return combineLatest([
-      this.http.get<Tier[]>(this.tierlistUrl),
-      this.tagService.getTags(),
-    ]).pipe(
-      map(([tierlist, tags]) => {
-        const tagMap: Map<string, TagDefinition> = new Map(tags.map((tag: TagDefinition) => [tag.id, tag]));
+  getTierlist(): Observable<Tierlist> {
+    return this.http.get<Tierlist>(this.tierlistUrl).pipe(
+      map((tierlist: Tierlist) => {
+        const tagMap: Map<string, TagDefinition> = new Map(
+          tierlist.tags.map((tag: TagDefinition) => [tag.id, tag]),
+        );
 
-        return tierlist.map((tier: Tier) => ({
+        const tiersWithTags = tierlist.tiers.map((tier: Tier) => ({
           ...tier,
           characters: tier.characters.map((character: TierCharacter) => ({
             ...character,
@@ -31,17 +32,22 @@ export class TierlistService {
               const def = tagMap.get(tag.id);
 
               if (!def) {
-                tag.color = "#999";
+                tag.color = '#999';
                 tag.label = tag.id;
               } else {
                 tag.color = def.color;
                 tag.label = def.label;
               }
 
-              return tag
-            })
+              return tag;
+            }),
           })),
         }));
+
+        return {
+          ...tierlist,
+          tiers: tiersWithTags,
+        };
       }),
     );
   }

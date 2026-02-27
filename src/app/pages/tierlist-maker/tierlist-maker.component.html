@@ -3,7 +3,7 @@
   <div class="main-section">
     <div class="first-col">
       <div class="tierlist">
-        @for (tier of tiers; track tier.tier) {
+        @for (tier of tierlist.tiers; track tier.tier) {
           <div class="tier">
             <input
               class="tier-name"
@@ -105,7 +105,7 @@
           <div class="add-tag-options">
             <select [(ngModel)]="selectedTagId">
                 <option value="" disabled>Válassz egy tag-et</option>
-              @for (tag of tags; track tag.id) {
+              @for (tag of tierlist.tags; track tag.id) {
                 <option [value]="tag.id">{{ tag.label }}</option>
               }
             </select>
@@ -122,7 +122,7 @@
       <div class="tag-editor">
         <h3>Tag-ek</h3>
         <div class="tag-list">
-          @for (tag of tags; track tag.id) {
+          @for (tag of tierlist.tags; track tag.id) {
             <span class="tag" [style.background]="tag.color">
               {{ tag.label }}
               <button type="button" (click)="removeTag(tag.id)">X</button>
@@ -140,8 +140,8 @@
         <button class="add-button" (click)="addTag()">Tag Hozzáadása</button>
       </div>
       <hr />
-      <button class="download-button" (click)="getJsonFiles()">
-        Json file-ok letöltése
+      <button class="download-button" (click)="getJsonFile()">
+        Json file letöltése
       </button>
     </div>
   </div>

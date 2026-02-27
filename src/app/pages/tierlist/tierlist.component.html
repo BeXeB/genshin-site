@@ -4,7 +4,7 @@
     backLink="/"
   ></app-page-title>
   <div class="tierlist">
-    @for (tier of tierlist; track $index) {
+    @for (tier of tierlist.tiers; track $index) {
       <div class="tier">
         <h2 class="tier-title">
           {{ tier.tier }}
