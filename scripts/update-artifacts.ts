@@ -18,6 +18,8 @@ function mapArtifact(artifact: genshindb.Artifact): ArtifactSet {
   return {
     id: artifact.id,
     name: artifact.name,
+    normalizedName: normalize(artifact.name),
+
     rarityList: artifact.rarityList,
 
     effect1Pc: artifact.effect1Pc,

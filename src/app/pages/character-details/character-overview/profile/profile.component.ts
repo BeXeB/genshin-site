@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Character } from '../../../../_models/character';
+import { CharacterResolved } from '../../../../_models/character';
 import { DecimalPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './profile.component.css',
 })
 export class OverviewProfileComponent {
-  @Input() char: Character | null = null;
+  @Input() char: CharacterResolved | null = null;
   @Input() elementColor: string | null = null;
 
   quickLevels = [

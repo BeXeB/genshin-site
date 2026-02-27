@@ -1,6 +1,7 @@
 {
   "id": 11427,
   "name": "The Dockhand's Assistant",
+  "normalizedName": "thedockhandsassistant",
   "description": "A convenient cutting tool that you can rarely find nowadays. You can replace the blades as they are dulled by usage.",
   "descriptionRaw": "A convenient cutting tool that you can rarely find nowadays. You can replace the blades as they are dulled by usage.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

@@ -1,8 +1,10 @@
 import { MaterialType } from './enum';
+import { Item, ResolvedItem } from './items';
 
 export type Material = {
   id: number;
   name: string;
+  normalizedName: string;
 
   rarity?: 1 | 2 | 3 | 4 | 5;
   sortRank: number;
@@ -24,10 +26,14 @@ export type MaterialCraft = {
 
   resultCount: number;
   moraCost: number;
-  recipe: CraftIngredient[];
+  recipe: Item[];
 };
 
-export type CraftIngredient = {
-  id: number;
-  count: number;
+export type MaterialResolved = Material & {
+  craftable?: boolean;
+  craftFrom?: ResolvedItem[];
+};
+
+export type MaterialCraftResolved = Omit<MaterialCraft, 'recipe'> & {
+  recipe: ResolvedItem[];
 };

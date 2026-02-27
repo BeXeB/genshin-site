@@ -1,6 +1,7 @@
 {
   "id": 15433,
   "name": "Snare Hook",
+  "normalizedName": "snarehook",
   "description": "The stave of this bow is comprised of metal alloy and yet remains surprisingly light. Even when faced with thick, heavy snares, the arrows it fires can pass through unhindered.",
   "descriptionRaw": "The stave of this bow is comprised of metal alloy and yet remains surprisingly light. Even when faced with thick, heavy snares, the arrows it fires can pass through unhindered.",
   "weaponType": "WEAPON_BOW",

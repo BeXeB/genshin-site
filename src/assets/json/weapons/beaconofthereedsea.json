@@ -1,6 +1,7 @@
 {
   "id": 12511,
   "name": "Beacon of the Reed Sea",
+  "normalizedName": "beaconofthereedsea",
   "description": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
   "descriptionRaw": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
   "weaponType": "WEAPON_CLAYMORE",

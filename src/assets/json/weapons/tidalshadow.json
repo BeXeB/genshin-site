@@ -1,6 +1,7 @@
 {
   "id": 12425,
   "name": "Tidal Shadow",
+  "normalizedName": "tidalshadow",
   "description": "An exquisitely-crafted, standard-model sword forged for the high-ranking officers and flagship captains of Fontaine's old navy.",
   "descriptionRaw": "An exquisitely-crafted, standard-model sword forged for the high-ranking officers and flagship captains of Fontaine's old navy.",
   "weaponType": "WEAPON_CLAYMORE",

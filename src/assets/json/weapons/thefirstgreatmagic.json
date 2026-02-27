@@ -1,6 +1,7 @@
 {
   "id": 15512,
   "name": "The First Great Magic",
+  "normalizedName": "thefirstgreatmagic",
   "description": "A stage prop once used by a past \"Great Magician.\" Its final secret was that it was also a weapon beyond the pale.",
   "descriptionRaw": "A stage prop once used by a past \"Great Magician.\" Its final secret was that it was also a weapon beyond the pale.",
   "weaponType": "WEAPON_BOW",

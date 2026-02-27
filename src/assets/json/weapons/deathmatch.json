@@ -1,6 +1,7 @@
 {
   "id": 13405,
   "name": "Deathmatch",
+  "normalizedName": "deathmatch",
   "description": "A sharp crimson polearm that was once a gladiator's priceless treasure. Its awl has been stained by the blood of countless beasts and men.",
   "descriptionRaw": "A sharp crimson polearm that was once a gladiator's priceless treasure. Its awl has been stained by the blood of countless beasts and men.",
   "weaponType": "WEAPON_POLE",

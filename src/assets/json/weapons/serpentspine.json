@@ -1,6 +1,7 @@
 {
   "id": 12409,
   "name": "Serpent Spine",
+  "normalizedName": "serpentspine",
   "description": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it.",
   "descriptionRaw": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it.",
   "weaponType": "WEAPON_CLAYMORE",

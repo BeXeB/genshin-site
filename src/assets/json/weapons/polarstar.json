@@ -1,6 +1,7 @@
 {
   "id": 15507,
   "name": "Polar Star",
+  "normalizedName": "polarstar",
   "description": "A pristine bow that is as sharp as the glaciers of the far north.",
   "descriptionRaw": "A pristine bow that is as sharp as the glaciers of the far north.",
   "weaponType": "WEAPON_BOW",

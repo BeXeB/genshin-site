@@ -1,6 +1,7 @@
 {
   "id": 12427,
   "name": "Portable Power Saw",
+  "normalizedName": "portablepowersaw",
   "description": "An old-school power saw that you can rarely find nowadays. It was once a cutting tool trusted by workers all around.",
   "descriptionRaw": "An old-school power saw that you can rarely find nowadays. It was once a cutting tool trusted by workers all around.",
   "weaponType": "WEAPON_CLAYMORE",

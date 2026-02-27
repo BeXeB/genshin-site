@@ -1,4 +1,4 @@
-import genshindb from 'genshin-db';
+import genshindb, { Items } from 'genshin-db';
 import fs from 'fs-extra';
 import path from 'path';
 import {
@@ -12,6 +12,7 @@ import {
   ConstellationDetail,
 } from '../src/app/_models/character';
 import { ElementType, QualityType, StatType, WeaponType } from '../src/app/_models/enum';
+import { Item } from '../src/app/_models/items';
 
 const OUTPUT_PATH = path.join(__dirname, '../src/assets/json/characters');
 const queryLanguage = genshindb.Language.English;
@@ -67,7 +68,15 @@ function mapProfile(profile: genshindb.Character): CharacterProfile {
     substatText: profile.substatText,
 
     constellation: profile.constellation,
-    costs: profile.costs,
+
+    costs: {
+      ascend1: mapItems(profile.costs.ascend1),
+      ascend2: mapItems(profile.costs.ascend2),
+      ascend3: mapItems(profile.costs.ascend3),
+      ascend4: mapItems(profile.costs.ascend4),
+      ascend5: mapItems(profile.costs.ascend5),
+      ascend6: mapItems(profile.costs.ascend6),
+    },
 
     images: {
       filename_icon: profile.images.filename_icon,
@@ -78,6 +87,10 @@ function mapProfile(profile: genshindb.Character): CharacterProfile {
     },
     version: profile.version,
   };
+}
+
+function mapItems(item: Items[]): Item[] {
+  return item.map(i => ({id: +i.id, name: i.name, count: i.count}));
 }
 
 function mapTalents(skills: genshindb.Talent): CharacterTalents {
@@ -119,7 +132,17 @@ function mapTalents(skills: genshindb.Talent): CharacterTalents {
     passive3: mappedPassiveTalents['passive3'],
     passive4: mappedPassiveTalents['passive4'],
 
-    costs: skills.costs,
+    costs: {
+      lvl2: mapItems(skills.costs.lvl2),
+      lvl3: mapItems(skills.costs.lvl3),
+      lvl4: mapItems(skills.costs.lvl4),
+      lvl5: mapItems(skills.costs.lvl5),
+      lvl6: mapItems(skills.costs.lvl6),
+      lvl7: mapItems(skills.costs.lvl7),
+      lvl8: mapItems(skills.costs.lvl8),
+      lvl9: mapItems(skills.costs.lvl9),
+      lvl10: mapItems(skills.costs.lvl10),
+    },
 
     images: {
       filename_combat1: skills.images?.filename_combat1,

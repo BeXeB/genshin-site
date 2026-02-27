@@ -1,6 +1,7 @@
 {
   "id": 13425,
   "name": "Rightful Reward",
+  "normalizedName": "rightfulreward",
   "description": "A sharp spear. Only its tip remains freshly bloodstained.",
   "descriptionRaw": "A sharp spear. Only its tip remains freshly bloodstained.",
   "weaponType": "WEAPON_POLE",

@@ -57,13 +57,11 @@ export enum ArtifactType {
 }
 
 export enum MaterialType {
-  TALENT_MATERIAL,
-  BOSS_MATERIAL,
-  GEMSTONE,
-  LOCAL_SPECIALTY,
-  WEAPON_MATERIAL,
-  GENERIC_MATERIAL,
-  MORA,
-  CHARACTER_XP,
-  WEAPON_XP
+  TALENT_MATERIAL = 'talent',
+  BOSS_MATERIAL = 'boss',
+  GEMSTONE = 'gemstone',
+  LOCAL_SPECIALTY = 'local-specialty',
+  WEAPON_MATERIAL = 'weapon',
+  GENERIC_MATERIAL = 'generic',
+  XP_AND_MORA = 'xp-and-mora',
 }

@@ -1,6 +1,7 @@
 {
   "id": 12417,
   "name": "Forest Regalia",
+  "normalizedName": "forestregalia",
   "description": "A weapon you obtained from an Aranara tale. It has taken on the shape of a greatsword that shall cut down the foes of the forest.",
   "descriptionRaw": "A weapon you obtained from an Aranara tale. It has taken on the shape of a greatsword that shall cut down the foes of the forest.",
   "weaponType": "WEAPON_CLAYMORE",

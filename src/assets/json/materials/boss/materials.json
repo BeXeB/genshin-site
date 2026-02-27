@@ -1,0 +1,1094 @@
+[
+  {
+    "id": 113049,
+    "name": "Artificed Spare Clockwork Component — Coppelia",
+    "normalizedName": "artificedspareclockworkcomponentcoppelia",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "An artificed spare clockwork component belonging to Coppelia. It powers this artificed dancer.\nAccording to its creator's design, the story of the artificed dancer with delicate joints ends at a merry moment. Coppelia will send whoever attempts to disturb that moment to a chapter of misfortune with her superb combat skills.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113049"
+    }
+  },
+  {
+    "id": 113050,
+    "name": "Artificed Spare Clockwork Component — Coppelius",
+    "normalizedName": "artificedspareclockworkcomponentcoppelius",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "An artificed spare clockwork component belonging to Coppelius. It powers this artificed dancer.\nThe artificed dancer whirls to a platinum tune, performing an unending waltz of icewind. Coppelius's dance will not stop. He will continue whirling till the bell tolls.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113050"
+    }
+  },
+  {
+    "id": 113073,
+    "name": "Ascended Sample: Knight",
+    "normalizedName": "ascendedsampleknight",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A rare sample resulting from the alchemical activation of a substance.\nIn the esoteric codices, the bronze knight knows not whether its mission is to conquer or to protect. Since its alchemical elevation, it has merely been seeking to discover its purpose. The age of bronze was an age of heroes.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113073"
+    }
+  },
+  {
+    "id": 113075,
+    "name": "Ascended Sample: Queen",
+    "normalizedName": "ascendedsamplequeen",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A rare sample resulting from the alchemical activation of a substance.\nThe \"Queen\" was once known as the \"Minister,\" but as the rules of the game evolved, it grew to become the most powerful piece and a representation of the authority of the family behind the throne — a true symbol of gilded royalty.\nPerhaps the promotion of an ordinary foot soldier shares some similarities with the transmutation of matter, yet even should they manage to turn to gold, the most a pawn might hope for is to be represented by an upturned rook.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113075"
+    }
+  },
+  {
+    "id": 113074,
+    "name": "Ascended Sample: Rook",
+    "normalizedName": "ascendedsamplerook",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A rare sample resulting from the alchemical activation of a substance.\nThe name of this piece derives from the word for the \"Chariot\" in the ancient language of Sumeru. In divination, the Chariot card is depicted with two heavenly steeds — one black and one white — symbolizing the alchemical principle of balancing opposing properties.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113074"
+    }
+  },
+  {
+    "id": 113027,
+    "name": "Ashen Heart",
+    "normalizedName": "ashenheart",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A deformed fragment that contains powerful emotions. You obtained this from defeating Signora, who unleashed her original power.\nEven tears cannot extinguish the flames. Molten-hot agony and rage rush through her veins, oozing from her tear ducts.\nThe First Fatuus found her just before her heart could be destroyed by the eternal blaze. He understood that only deeper hate and obsession could quench the fire that devoured her and make her his ally...",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113027"
+    }
+  },
+  {
+    "id": 113009,
+    "name": "Basalt Pillar",
+    "normalizedName": "basaltpillar",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A pillar formed by the shell of a Geo Hypostasis, composed of high-density Geo energy.\nIt is a testament to Geo's status as the heaviest of the elements. Maybe the reason a Geo Hypostasis creates this pillar out of its shell and raises itself is just to get closer to the sky, not to combat enemies.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113009"
+    }
+  },
+  {
+    "id": 113018,
+    "name": "Bloodjade Branch",
+    "normalizedName": "bloodjadebranch",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "Nurtured by the might of the dragon king, these bone branches glitter with strange, unique colors.\nHatred coursed through the natural streams and kissed the cold moonlight, and from them were these crystalline branches born and grown...\nEven though they were severed in battle, these branches steeped in dragon blood rustle as if eternally ill-at-ease.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113018"
+    }
+  },
+  {
+    "id": 113012,
+    "name": "Cleansing Heart",
+    "normalizedName": "cleansingheart",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A palmful of eternal water left by an oceanid.\nThough it has already diffused among the depths of the lake, its purity remains all the same. But why would a creature so pure and clean as an oceanid covet the appearance of a being that roams the land, and assume such a form with pure water? They need not breathe nor do they require sustenance...",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113012"
+    }
+  },
+  {
+    "id": 113058,
+    "name": "Cloudseam Scale",
+    "normalizedName": "cloudseamscale",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "Cold and solid scales from a Solitary Suanni. They retain pure adeptal energy even after falling off and cannot be damaged by ordinary weapons.\nOrdinary beasts can sometimes be affected by errant adeptal energy and become more powerful than usual. However, a suanni's adeptal energy originates from within themselves, which is why their leader is often regarded as equal to adepti.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113058"
+    }
+  },
+  {
+    "id": 113020,
+    "name": "Crystalline Bloom",
+    "normalizedName": "crystallinebloom",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "An ice crystal of exceeding purity that is created in the frigid blooming of a Cryo Hypostasis.\nThese frosty crystals will continue to grow according to their own cold, rigid laws, till one day a flower of winter shall bloom and freeze everything. Perhaps it is stagnant time, that never-thawing bosom, that is the essence of this undying flower.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113020"
+    }
+  },
+  {
+    "id": 113080,
+    "name": "Cyclic Military Kuuvahki Core",
+    "normalizedName": "cyclicmilitarykuuvahkicore",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A kuuvahki device obtained from the energy core after defeating the Super-Heavy Landrover: Mechanized Fortress.\nThe Fontaine Research Institute of Kinetic Energy Engineering once defined several ideal cycle patterns for elemental working substance engines. Regardless of the type, the most perfect number of cycles has consistently been four. Although most engineers from the Armory Palace and the Kuuvahki Experimental Design Bureau tend to regard kuuvahki as a working substance distinct from elemental energy, design configurations beyond the four-cycle paradigm have still been proven inefficient and impractical. In a certain sense, the \"four\"-cycle might be the world's peculiar preference. Although, the world may have no preference at all, and for the world, the habit of presumptuous mortals making self-satisfied conjectures could well be the strangest preference of all.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113080"
+    }
+  },
+  {
+    "id": 113043,
+    "name": "Daka's Bell",
+    "normalizedName": "dakasbell",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "This ball joint, used to connect mechanical limbs together, is shaped almost like a bell. Though it may seem dainty, it can be used to carry an unimaginably large amount of energy.\nIf connected to one's arms, then one will lose all feeling in them.\nAnd all strength in one's legs will dissipate if such joints are connected to them.\nConnect this joint to one's skull...\nAh, hatred, pain, madness, pride — none of these will be washed away.\nMost fortunate.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113043"
+    }
+  },
+  {
+    "id": 113062,
+    "name": "Denial and Judgment",
+    "normalizedName": "denialandjudgment",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "An earring that you picked up in the ruins after completing the duel against The Knave.\nThe red symbol upon it resembles the image in her eyes, a declaration and a rejection alike.\nThe orphaned live lives filled with suffering from childhood — this she sees and keeps in her heart.\nAs fate casts an examining eye on humanity, so too will humans cast judgment upon fate.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113062"
+    }
+  },
+  {
+    "id": 113028,
+    "name": "Dew of Repudiation",
+    "normalizedName": "dewofrepudiation",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A strange water droplet left behind by the collapse of the Hydro Hypostasis.\nIt has strong rejection properties, and this forms the basis of one of the Hydro Hypostasis' attack patterns as well. They say that water contains memories and willpower, and that these things can grow when bodies of water meld together. However, the waves conjured by the Hydro Hypostasis are incompatible with the currents that flow above and below ground. Even if it were to flow into the surpassingly pure waters of Petrichor, this drop of water will likely resist assimilation as strongly as mercury.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113028"
+    }
+  },
+  {
+    "id": 113031,
+    "name": "Dragonheir's False Fin",
+    "normalizedName": "dragonheirsfalsefin",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A piece of biological tissue that you found after defeating the Bathysmal Vishaps.\nAlthough it looks like a fin of some kind, it does not actually have any function at all.\nThe people of Byakuyakoku once investigated the Bathysmal Vishaps quite deeply. Their most distinctive feature was the ability to choose what traits it wished to pass on to its offspring. Because of their great hatred for man-made light sources, these vishaps will lose any visual acuity by the time they reach maturity. At the same time, they have also evolved a certain degree of elemental polymorphism for combat purposes.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113031"
+    }
+  },
+  {
+    "id": 113017,
+    "name": "Dragon Lord's Crown",
+    "normalizedName": "dragonlordscrown",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "Horns created from hardened jade crystallized over a thousand years are the natural crown of the dragon king.\nInfused with spirit and carved from bedrock, it was born from the mountain's heart to show the strength of the earth to the land amidst monoliths, and its long golden horns are the mark of its ancient strife with an ancient lord.\nFor a time, this horn was shattered and lost its luster, but now it gleams cold and gold as it sits in your palm.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113017"
+    }
+  },
+  {
+    "id": 113004,
+    "name": "Dvalin's Claw",
+    "normalizedName": "dvalinsclaw",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A claw from the Dragon of the East.\nIt once contained the shadow dragon Durin's vile poison, having torn through the latter's flesh in battle. Thanks to your purification and healing, it is no longer toxic.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113004"
+    }
+  },
+  {
+    "id": 113003,
+    "name": "Dvalin's Plume",
+    "normalizedName": "dvalinsplume",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A feather from the tail of the Dragon of the East.\nAs a dragon's feather it has experienced more than a thousand years' worth of winds. One senses within it a yearning for freedom so strong that it could whip up a light breeze to rescue it from its current confines. Its former owner's recognition of you is what makes it content to stay in your hands.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113003"
+    }
+  },
+  {
+    "id": 113005,
+    "name": "Dvalin's Sigh",
+    "normalizedName": "dvalinssigh",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A bit of power taken from the whirlwinds evoked by the Dragon of the East.\nBeautiful and transparent, both trade winds and tornadoes will work in his name. The winds move as his companion, his voice, and his freedom.\nHis enemies are the thousands who stand against the wind.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113005"
+    }
+  },
+  {
+    "id": 113083,
+    "name": "Elixir of the Heretic",
+    "normalizedName": "elixiroftheheretic",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A vial found in the heretical testing grounds after defeating the false god that usurped the moon.\nFor centuries, self-proclaimed scholars have crawled beneath the weight of the six cardinal prohibitions, their studies little more than circular reasoning and empty words. The pursuit of truth should know no bounds — by this measure, those condemned as heretics by the world are the truest seekers of knowledge.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113083"
+    }
+  },
+  {
+    "id": 113051,
+    "name": "Emperor's Resolution",
+    "normalizedName": "emperorsresolution",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The war hammer of the Emperor of Fire and Iron.\nThe mighty crab has crushed countless foes with this giant claw. Be they clockwork meka, other Fontemer Aberrants, or hunters with ill-placed curiosity — all have yielded under its power.\nFontemer Aberrants are different from human beings in that the concepts of aristocracy or inheritance are entirely foreign to them. None of them are born superior. One that survives deadly predators and adversities can accumulate infinite power as it keeps hunting and feeding over centuries. Such a creature is often referred to as an overlord for the fear it inspires.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113051"
+    }
+  },
+  {
+    "id": 113067,
+    "name": "Ensnaring Gaze",
+    "normalizedName": "ensnaringgaze",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "An object obtained after defeating the monster known as the Tenebrous Papilla. It may look like a piece of fruit, but it is not.\nFormed from energy that has condensed in a single spot, its \"eye\" seems to gaze out from a distant, dark otherworld.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113067"
+    }
+  },
+  {
+    "id": 113068,
+    "name": "Eroded Horn",
+    "normalizedName": "erodedhorn",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "The Lord of Eroded Primal Fire's blazing horn, cut off in the heat of battle.\nLegend has it that the original primal flame was the birthplace of light and wisdom, and the horn of the Pyro Dragon shone like a pillar of fire, illuminating the savage, desolate world.\nAnd though the base of the flaming horn has been corroded, the light that once illuminated the world remains without blemish.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113068"
+    }
+  },
+  {
+    "id": 113070,
+    "name": "Eroded Scale-Feather",
+    "normalizedName": "erodedscalefeather",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A pitch-black scale that fell to the ground after the battle against the Lord of Eroded Primal Fire.\nThe ancient dragons once used their fallen scales as a means to transmit secret messages and edicts.\nThis scale has been utterly corroded by the power of darkness, the light that was once engraved upon it wholly devoured, leaving naught but twisted, dark remnants.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113070"
+    }
+  },
+  {
+    "id": 113069,
+    "name": "Eroded Sunfire",
+    "normalizedName": "erodedsunfire",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "Though the battle with the Lord of Eroded Primal Fire has ended, this ring-shaped flame yet burns.\nIn the beginning, in the deepest, darkest of nights, the master of flame emulated the sun, thus supplanting the light of the starry skies.\nThough the flame's glow has been halfway corroded, it still reflects the world of old in its glory.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113069"
+    }
+  },
+  {
+    "id": 113048,
+    "name": "Everamber",
+    "normalizedName": "everamber",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A piece of amber taken from the oasis within Apep. Inside the amber, a small, long-extinct insect remains frozen in time.\nTo the tree, it was circumstance that led this little life to be wreathed within its amber. But for said life, this was fate.\nFollowing the heaven-sent disaster, wood, vines, roots, and all manner of flora withered and turned to dust. A great many life forms disappeared.\nBut in the stillness of amber, a nameless insect endures in this otherworldly oasis, reaching a future that no others of its kind could.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113048"
+    }
+  },
+  {
+    "id": 113011,
+    "name": "Everflame Seed",
+    "normalizedName": "everflameseed",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A seed that fuels the unending flames of the Pyro Regisvine. It emits Pyro energy as if it will burn all that has ever sprouted from the ground.\nEndless desires flow among turbulent energy deep within the earth. What desire could steadily hold such fire to the plants and long so eagerly to bathe everything in unquenchable flames?",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113011"
+    }
+  },
+  {
+    "id": 113045,
+    "name": "Evergloom Ring",
+    "normalizedName": "evergloomring",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A mystical weapon obtained after defeating the Four-Armed Envoy of dark tidings.\nRings are shaped like passageways, which is why arcane formations that are meant to produce some mystical effect are often ring-shaped. Such rings are perhaps gateways intended to guide the universe itself.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113045"
+    }
+  },
+  {
+    "id": 113060,
+    "name": "Fading Candle",
+    "normalizedName": "fadingcandle",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A candle that you picked up in the ruins after completing the duel against The Knave.\nLegends passed down claim that when the candle's flame flickers in the hands of sinners, the light may become shadows, making footsteps faint and masking fatal intent.\nYou cannot tell what material this is made of, and it weeps no wax after burning, releasing only black ash that scatters into the wind, drifting towards the distant unknown.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113060"
+    }
+  },
+  {
+    "id": 113053,
+    "name": "Fontemer Unihorn",
+    "normalizedName": "fontemerunihorn",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The electricity-emitting section of the Millennial Pearl Seahorse, and its regalia, the symbol of its surpassing might — now snapped off amidst a clash against a mighty challenger.\nAs the greatest predator that can arise from seahorses, this being's evolutionary journey is not the same as that experienced by other Fontemer Aberrants. It did not start from a base form before growing larger and stronger, but instead grew limbs and a horn that have no place on an ordinary seahorse. Even its musculature and skeleton have changed. It really seems to resemble a fantastical beast from legends of yore more than its original shape. In the imaginations of poets and authors, even seahorses can frolick upon the earth.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113053"
+    }
+  },
+  {
+    "id": 113059,
+    "name": "Fragment of a Golden Melody",
+    "normalizedName": "fragmentofagoldenmelody",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A golden fragment that fell from the centaur golem's chest. Putting the tune inscribed upon the shattered rubble back together, it appears to be a small sliver of a grander musical movement.\nPeople once believed that the song of eternal happiness and harmony would resound throughout the world till the end of all destinies. But harmonies can be changed. When the rebellious God King fell from his throne, the imperishable capital was reduced to refuse and rubble — for whom, then, shall the lyre in the hands of a legion-less commander play?",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113059"
+    }
+  },
+  {
+    "id": 113019,
+    "name": "Gilded Scale",
+    "normalizedName": "gildedscale",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "Scaled armor that grows naturally over mystical stone, tough and silent, and filled with the strength of the dragon king.\nAcross the years as countless generations returned to the mulch of the earth, gold and obsidian embedded themselves into flesh and blood forged from bedrock before spreading and turning into scales.\nSearing agony, wordless cries... perhaps they will all vanish when the grudges that spawned them, too, finally come to an end.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113019"
+    }
+  },
+  {
+    "id": 113066,
+    "name": "Gold-Inscribed Secret Source Core",
+    "normalizedName": "goldinscribedsecretsourcecore",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "This is a core component that separated from the body of a Secret Source Automaton: Configuration Device that lost its ability to move after being defeated.\nSome say that the cores that power all the Secret Source Automatons are the same type, and that they simply carry different information, as attested by the fact that the golden patterns on them are different. At first, the many commands were only added to the circuits to aid their smooth running, but it seems that all the superimposition and layering of orders onto one another has wound up creating a rudimentary artificial intelligence.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113066"
+    }
+  },
+  {
+    "id": 113026,
+    "name": "Hellfire Butterfly",
+    "normalizedName": "hellfirebutterfly",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A warped shard that houses great might. You obtained this from defeating Signora, who unleashed her original power.\nThe seal of ice was broken under duress, and as her former will surged forth from its pale white prison and she remembered her old name once more, the undying butterfly danced amidst burning flesh and blood. And she remembered her past, wandering the land, spreading the flame, burning away all evil — and she recalled the face of the person she could never meet again.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113026"
+    }
+  },
+  {
+    "id": 113010,
+    "name": "Hoarfrost Core",
+    "normalizedName": "hoarfrostcore",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The exposed core of a defeated Cryo Regisvine. Pure Cryo energy is contained within it.\nEnergy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to living things on the ground, turning even ordinary vegetation like vines into huge, vicious predators.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113010"
+    }
+  },
+  {
+    "id": 113001,
+    "name": "Hurricane Seed",
+    "normalizedName": "hurricaneseed",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The imploded form of an Anemo Hypostasis upon its defeat.\nContains the essence of Anemo energy.\nIt is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must surely be waiting for the day when it can conjure up storms once again.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113001"
+    }
+  },
+  {
+    "id": 113016,
+    "name": "Juvenile Jade",
+    "normalizedName": "juvenilejade",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A crystalline substance taken from a Primo Geovishap. Within it is contained the potential to become a dragon.\nThese dull crystals are precipitated within the bodies of vishaps sleeping in the mountains. Liyue folklore holds that they will gather power over many years, after which this crystal will, at last, replace their original heart, and the vishap will become a true dragon — one that can shake the mountains and split the earth.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113016"
+    }
+  },
+  {
+    "id": 113078,
+    "name": "Lightbearing Scale-Feather",
+    "normalizedName": "lightbearingscalefeather",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The scaly wings shed by a defeated Radiant Moonfly.\nIn many local folk tales, those who enter the forbidden ground are frequently bewitched by these wings and never seen again. Some say this is because the moon, whose illusory magic these butterfly-shaped monsters have harnessed, is prone to inducing madness, while others take it as a warning of the inconstancy and danger of ancient power...",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113078"
+    }
+  },
+  {
+    "id": 113039,
+    "name": "Light Guiding Tetrahedron",
+    "normalizedName": "lightguidingtetrahedron",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A core component obtained via defeating a mysterious ruin machine.\nTo this day, these ancient devices have not forgotten the dreams of their masters or their own duties: to build a thousand palaces, to administrate three thousand machines, to sow ten thousand flowers that shall never bloom again, and to recreate a paradise now buried beneath the desert sands for the sake of all who live in this world.\nThough the lord of the desert no longer lives, and those dreams have long been corrupted by sinful whispers, and though all the magical pillars have been broken and have collapsed, the great beast once favored by the king hides still within the great searing storm.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113039"
+    }
+  },
+  {
+    "id": 113055,
+    "name": "Lightless Eye of the Maelstrom",
+    "normalizedName": "lightlesseyeofthemaelstrom",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A strange \"substance\" obtained from fighting against the All-Devouring Narwhal. Its actual weight far exceeds what would be expected given its size.\nEverything gathers around heavy objects, just as gold attracts more than iron, or the ground more than in the breeze blowing above. Just as light cannot escape from the vortex of darkness, cause and effect is attached to fate, perhaps irreversibly so.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113055"
+    }
+  },
+  {
+    "id": 113056,
+    "name": "Lightless Mass",
+    "normalizedName": "lightlessmass",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A fragment produced from the intense battle against the All-Devouring Narwhal.\nThe universe is a dark and cold place.\nBut look carefully. Inside are always faint glimmers of light, like pearls gleaming from within the sand, splinters of diamond sprinkled over asphalt, lights lancing through the fog on a misty night, and sparks that ignite the brightest blazes.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113056"
+    }
+  },
+  {
+    "id": 113054,
+    "name": "Lightless Silk String",
+    "normalizedName": "lightlesssilkstring",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A slender strand that somehow ended up entangled on your weapon while fighting the All-Devouring Narwhal.\nIn ancient Fontaine, some thought that Fortuna, which ruled the world, was woven from countless fibers, like the strings of a harp. Strings that resonate with the majestic music would bring happiness to all, while discord would destroy the fabric of the universe.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113054"
+    }
+  },
+  {
+    "id": 113002,
+    "name": "Lightning Prism",
+    "normalizedName": "lightningprism",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. Contains the essence of Electro energy.\nAn ordinary prism separates white light into its component colors; a Lightning Prism, however, channels flowing energies and weaves them into lightning. It will continue to do so even after the Electro Hypostasis has been defeated.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113002"
+    }
+  },
+  {
+    "id": 113082,
+    "name": "Madman's Restraint",
+    "normalizedName": "madmansrestraint",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A band found in the heretical testing grounds after defeating the false god that usurped the moon.\nHumanity defines civilization by driving out madness. Yet believing that all things, whether they exist or not, can be contained within reason may itself be another form of lunacy. The madman sees through reason's cunning, and in his world, all things are permitted.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113082"
+    }
+  },
+  {
+    "id": 113036,
+    "name": "Majestic Hooked Beak",
+    "normalizedName": "majestichookedbeak",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "An elongated bill that you found after defeating the Jadeplume Terrorshroom.\nResearchers still consider it a miracle even now that some soft Fungi have evolved these rock-hard hooked beaks. This magnificent king amongst Fungi has been leisurely pacing on the finish line of evolution. Now and then, it emits a long call to all the living beings in the rainforest: Even the most helpless and timid creature may one day become the monarch of the woods.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113036"
+    }
+  },
+  {
+    "id": 113022,
+    "name": "Marionette Core",
+    "normalizedName": "marionettecore",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "This core can power the inorganic Maguu Kenki and cause it to wield a blade like a living being.\nFlesh decays, and with it decay all martial arts mastery and all poignant memories.\nPerhaps only by converting one's four limbs and body into sturdy mechanical parts, and by at last sacrificing one's very own heart for a sophisticated mechanical one, can one transcend the impermanence of the fleshly form...",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113022"
+    }
+  },
+  {
+    "id": 113064,
+    "name": "Mark of the Binding Blessing",
+    "normalizedName": "markofthebindingblessing",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A horn fragment obtained after defeating the Goldflame Qucusaur Tyrant.\nA strange mark known as the \"Flamelord's Blessing\" extends out across its surface. Saurians that bear this mark are said to wield an ancient power of terrible potency. Yet given their slighter statures, this power is too great a burden for the Saurians of the present day to bear. As such, it has been the cause of much calamity, and many tragedies have stemmed from the uncontrollable power it has unleashed.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113064"
+    }
+  },
+  {
+    "id": 113081,
+    "name": "Mask of the Virtuous Doctor",
+    "normalizedName": "maskofthevirtuousdoctor",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A mask found in the heretical testing grounds after defeating the false god that usurped the moon.\nMedicine is meant to cure the ailments of the flesh, yet mortal physicians turn a blind eye to the true causes of death. In the hands of a wise healer, the frail human body escapes the bounds of birth, aging, sickness, and death, revealing strength that defies common sense.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113081"
+    }
+  },
+  {
+    "id": 113042,
+    "name": "Mirror of Mushin",
+    "normalizedName": "mirrorofmushin",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "The mirror that was set in Shouki no Kami's chest to separate him from the outside world. The mitsudomoe symbol is emblazoned on it as a deliberate show of status and might.\nThis symbol, however, is no show of obeisance to the master of lightning, but is instead a blade pointed at the existing powers that be in this world. Nor is the mirror a means to shut out the looks of judgment from onlooking people, but is rather a bulwark against this base and sullied world. Within this great temple shall punishment be meted out and ignorance be cleansed.\nDreams shall be overturned, desires shall be cut away, and karma shall be reset.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113042"
+    }
+  },
+  {
+    "id": 113025,
+    "name": "Molten Moment",
+    "normalizedName": "moltenmoment",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A certain deformed fragment containing great might. You obtained this from defeating La Signora, who unleashed her original power.\n\"I had a long, long dream.\"\n\"I dreamed that you and I met again in the pure white world that we created.\"\n\"But I woke up at last, having long been consumed by the raging flames, while you had long returned to the earth along with that poisoned blood.\"\n\"But none of it matters anymore. I must continue forging ahead. I must incinerate everything behind me. I must believe in that pure, spotless, everlasting realm that he spoke of — that I saw in the 'delusion' he let me see, at the end of the horizon of Her Majesty's dreams.\"",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113025"
+    }
+  },
+  {
+    "id": 113032,
+    "name": "Mudra of the Malefic General",
+    "normalizedName": "mudraofthemaleficgeneral",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\nAnd yet, as the countless disasters ground on for far too long, the baleful general's shell had to embrace a new spring.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113032"
+    }
+  },
+  {
+    "id": 113065,
+    "name": "Overripe Flamegranate",
+    "normalizedName": "overripeflamegranate",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A strange Flamegranate obtained after defeating the Gluttonous Yumkasaur Mountain King.\nNormally, Flamegranates that keep growing once they have already ripened simply fall into the mud and rot. But Flamegranates that have fallen from the Mountain King's mane, perhaps owing to the unique internal temperature conditions, exhibit a rarely-seen \"Overripe\" state. Flamegranates in this state are stable, phlogiston-packed, brightly colored, and possess a rich and highly distinctive flavor.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113065"
+    }
+  },
+  {
+    "id": 113038,
+    "name": "Perpetual Caliber",
+    "normalizedName": "perpetualcaliber",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A motive device obtained from a mysterious ruin machine.\nThe machine it once powered may have been destroyed, but it continues to rotate all the same.\nThere should be no such thing as an energy source that can sustain itself forever in this world, and most research results obtained in the field of \"perpetual motion\" have been eventually proved false. Yet, this device is proof that a now-destroyed civilization once reached heights that present-day nations could not hope to match...",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113038"
+    }
+  },
+  {
+    "id": 113023,
+    "name": "Perpetual Heart",
+    "normalizedName": "perpetualheart",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The core that powers the autonomous movements of the Perpetual Mechanical Array.\nSome theorize that the symbols on these cores have knowledge and logic inscribed upon them in a language that eyes cannot perceive. Some go a step further and believe that these unique Ruin machines autonomously decided to forsake a biomimetic form to pursue strength of function on account of their especially large cores and complex inscriptions.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113023"
+    }
+  },
+  {
+    "id": 113077,
+    "name": "Precision Kuuvahki Stamping Die",
+    "normalizedName": "precisionkuuvahkistampingdie",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A stamping die taken from the wreckage of a defeated Knuckle Duckle — think of it as a keepsake from Aino.\nA philosopher from Sumeru once argued that self-replication is a unique characteristic of life, an unparalleled achievement that no man-made object can mimic. The power to reproduce is the key that separates mankind from the divine.\nHowever, if a machine is given an exact mold that it can use to replicate itself, mold included, then can not this too be considered perpetual self-replication? The former master of the silent, blue-haired maid who stands by Aino's side once pondered that same question but ultimately dismissed it out of fear that a perpetually self-replicating machine would consume everything on the planet's surface.\nSuch problems have never concerned Aino. This machine will not exhaust the world's resources to multiply itself just yet — after all, it's just a duck.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113077"
+    }
+  },
+  {
+    "id": 113047,
+    "name": "Primordial Greenbloom",
+    "normalizedName": "primordialgreenbloom",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A primordial flower procured from the oasis within Apep.\nWith the passing of eons, flowers grew in fragrance and volume, and they gained a collection of titles as numerous as the stars in the night sky.\nHowever, this first flower to bloom never bore any name. For the dragons of old, even if a rose lost its name, it would not lose its scent. Naming things is but how lesser, ephemeral beings understand the world. Life is not constrained by words, and will always grow and evolve.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113047"
+    }
+  },
+  {
+    "id": 113085,
+    "name": "Prismatic Severed Tail",
+    "normalizedName": "prismaticseveredtail",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A crystallized tail vertebra left behind by a defeated Radiant Moongecko in its attempt to escape.\nBy all logic, a lizard that has evolved to such formidable strength should no longer face the threat of natural predators. Yet it still retains the instinct to shed its tail in a bid for survival. Perhaps in an age when moonlight blanketed the land, even more terrifying predators once prowled this place.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113085"
+    }
+  },
+  {
+    "id": 113044,
+    "name": "Pseudo-Stamens",
+    "normalizedName": "pseudostamens",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The pale wing-sheathes hiding in a Wenut's tail are as thin as the blooming stamens of a flower.\nIt is said that in the past, even before the beginning of time, they used to travel through the moist land under meadows and forests, similar to birds flying across the sky and fish swimming in the water. It is generally believed that their mimicry of flowers is to lure lost prey caught by sandstorms. There is also a theory, however, that their imitation of a blooming flower was inspired by the splendid blossoms countless epochs ago, which have long gone the way of the desert winds.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113044"
+    }
+  },
+  {
+    "id": 113041,
+    "name": "Puppet Strings",
+    "normalizedName": "puppetstrings",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "Tubes that were inserted into the mechanical puppet's back. The colors that flow within them are sometimes dull, and at others, vibrant. The contrast is so great as to be fearful.\nThey provided power to the mechanical puppet, and at the same time served as its strings, controlling it and binding it.\nOnce the support of these tubes is lost, the puppet becomes as weak as a newborn infant, barely able to even move.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113041"
+    }
+  },
+  {
+    "id": 113040,
+    "name": "Quelled Creeper",
+    "normalizedName": "quelledcreeper",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The final coalesced form of the Dendro Hypostasis. The tough vines protect a pure cubic elemental crystal.\nDendro defies any common logic yet exists in perfect harmony with life. Elemental Hypostases, on the contrary, are most distant in appearance to all living beings. The combination of these two should probably never have appeared in this world. It is said that such elemental hypostases have the intelligence to \"learn\" and have thus understood the colors and dreams of the forest, a process that has transformed them into this shape over thousands of years.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113040"
+    }
+  },
+  {
+    "id": 113079,
+    "name": "Radiant Antler",
+    "normalizedName": "radiantantler",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A fragment of a defeated Frostnight Herra's majestic antlers. Light and razor-sharp, it requires no sharpening to help it slice through metal armor with ease.\nAccording to ancient tales, these beautiful, proud creatures were created by the first emissary. When Elysium fell, they made a pact with the mistress of the Frost Moon, vowing to use the primal light bestowed by the Frost Moon to cleanse the mortal world's defilement until the patron of old could return once more. Today, these legends' origins are long lost, and their veracity is impossible to prove. Yet the creatures that once walked with the light continue to watch over this land from the shadows, through the long frozen nights and withering black tide alike — none of which could cause their forms to vanish from this world.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113079"
+    }
+  },
+  {
+    "id": 113084,
+    "name": "Remnant of the Dreadwing",
+    "normalizedName": "remnantofthedreadwing",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A deep-black bone relic taken from the lingering corruption left behind after defeating the Whisperer of Nightmares that came invading from beyond this world.\nThe formless beast that soared through the starless void should never have required organs this world calls \"wings.\" Those grotesque, profane appendages may have arisen to adapt to the laws beneath the moon, or perhaps they are merely the distorted fragment of its true form that mortal eyes are able to witness.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113084"
+    }
+  },
+  {
+    "id": 113030,
+    "name": "Riftborn Regalia",
+    "normalizedName": "riftbornregalia",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A broken horn that you obtained from defeating the Wolflord. That said, it should not have left anything behind after your hunt.\nEven a lord among the Riftwolves is nothing before monsters of a higher pedigree.\n\"Gold\" mass-produced these malformed wolf packs almost as if by accident, like shrunken drawings on discarded sheets of paper, and the horns on this one represent its authority to command its dark brood to dissolve space itself.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113030"
+    }
+  },
+  {
+    "id": 113007,
+    "name": "Ring of Boreas",
+    "normalizedName": "ringofboreas",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A bit of crystallized ice from the Great Wolf King of the North.\nThis land was once a realm of freezing-cold blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. Though his power may have diminished, he could still freeze the land in an instant.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113007"
+    }
+  },
+  {
+    "id": 113035,
+    "name": "Runic Fang",
+    "normalizedName": "runicfang",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A \"fang\" with which the mysterious, snakelike machine of old dug into mountains' depths. There are many ominous runes carved on it.\nIt is said that giant serpents lurk in the dark fissures deep beneath the ground. Burning with eternal resentment and malice toward the world above, they throw themselves into digging great tunnels, yet none know what their malicious purposes are...",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113035"
+    }
+  },
+  {
+    "id": 113076,
+    "name": "Secret Source Airflow Accumulator",
+    "normalizedName": "secretsourceairflowaccumulator",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A special structure removed from a dragon-headed Source Mechanism. It is no longer active.\nIt may once have been designed to allow all manner of objects to escape the bonds of celestial bodies before being trialed in the Source Mechanisms. If everything had gone smoothly, this technology might, in time, have been applied to more important areas...",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113076"
+    }
+  },
+  {
+    "id": 113015,
+    "name": "Shadow of the Warrior",
+    "normalizedName": "shadowofthewarrior",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A fragment of power that you obtained from defeating Childe, who had unleashed the might of his Delusion.\nIt is the product of a will to fight that has been honed over countless slaughters.\nIf humans do indeed have destinies, then his must surely have been twisted by such deeds. Why else, then, would he always be at the heart of every conflict?",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113015"
+    }
+  },
+  {
+    "id": 113014,
+    "name": "Shard of a Foul Legacy",
+    "normalizedName": "shardofafoullegacy",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "The shard of a weapon that you obtained from defeating Childe, who had unleashed the might of his Delusion.\nIt is stained with a profound color that is not of this world, no doubt due to the land of endless darkness that the young boy saw with his own two eyes.\nPerhaps it has nothing to do with the power of a Delusion, but as they say, the weapon reflects its user...",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113014"
+    }
+  },
+  {
+    "id": 113061,
+    "name": "Silken Feather",
+    "normalizedName": "silkenfeather",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A crystal that you picked up in the ruins after completing the duel against The Knave.\nThe already-cooled blood and fire still maintain the shape of a feather, that is framed with solidified sleek black threads.\nBefore their thoughts have matured, young children are reliant on the meticulous care of their parents, just as fledglings need the aegis of an adult wing.\nIt is to fulfill such wishes that \"Father\" wove dangerous spider-silk into a facsimile of feathers, that she might grant her family some warmth.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113061"
+    }
+  },
+  {
+    "id": 113024,
+    "name": "Smoldering Pearl",
+    "normalizedName": "smolderingpearl",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A crystallization of a Pyro Hypostasis that constantly emits heat.\nEven the burning flames shall one day grow cold, and even the ashen firewood can will itself back into a raging blaze. It must then be the will of the world that Pyro Hypostases should constantly cool down and heat up, much like the universe teems with endless life... until the fated darkness shall one day descend and bring it all to naught.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113024"
+    }
+  },
+  {
+    "id": 113072,
+    "name": "Sparkless Statue Core",
+    "normalizedName": "sparklessstatuecore",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A core pulled from the blazing remains of the Lava Dragon Statue. \nIt is said that the entity known as the Lava Dragon Statue is a special existence born from the limitless accumulation of Phlogiston. Originally, it was believed that pure energy would produce a being with human-like intelligence. However, this attempt ultimately failed. Unlike in ancient times, it seems that pure energy can no longer naturally give rise to complex, intelligent, and controllable organisms capable of growth.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113072"
+    }
+  },
+  {
+    "id": 113008,
+    "name": "Spirit Locket of Boreas",
+    "normalizedName": "spiritlocketofboreas",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A bit of the Great Wolf King of the North's power drawn from its soul.\nThis land was once a realm of freezing-cold blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. In his final moments, he finally realized the chilling north wind could only extinguish life, not nurture it. Therefore, Boreas let his powers freely flow into the land to protect it and its inhabitants.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113008"
+    }
+  },
+  {
+    "id": 113029,
+    "name": "Storm Beads",
+    "normalizedName": "stormbeads",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "Crackling Electro pearls left behind by the Thunder Manifestation.\nIt is said that Thunder Manifestations will only descend upon lands where powerful hatred dwells. The singers say that it is the unbearable disappointments and sufferings of life that drive them to forever wander the broken earth, unleashing sky-searing lightning as they go.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113029"
+    }
+  },
+  {
+    "id": 113006,
+    "name": "Tail of Boreas",
+    "normalizedName": "tailofboreas",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A handful of tail scales from the Great Wolf King of the North.\nEven without his physical body and beyond death, Boreas still possesses extraordinary powers. He took a form comprised of ice and wind to embrace a new challenge, but even such a form could not house all of his power. The ice scales that fell during the battle still retain some of their spiritual energy.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113006"
+    }
+  },
+  {
+    "id": 113071,
+    "name": "Talisman of the Enigmatic Land",
+    "normalizedName": "talismanoftheenigmaticland",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "A talisman that somehow appeared in your inventory after you passed the Wayward Hermetic Spiritspeaker's test.\nIn some records kept by the Masters of the Night-Wind, priests masterful in Spiritspeaking can use meditation to pass their consciousness through the light and shadow that reflects off obsidian, thus reaching the enigmatic underground realm that only the dead may enter. This deed is, however, perilous, and priests who perform it must often wear such talismans to guard their souls from being lost in that mysterious land. However, this talisman's symbolic value far outstrips its real effects. Perhaps the hermit-priest who grants this to a warrior who passes the test only does so as a simple blessing.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113071"
+    }
+  },
+  {
+    "id": 113033,
+    "name": "Tears of the Calamitous God",
+    "normalizedName": "tearsofthecalamitousgod",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A puppet joint obtained from the Plane of Euthymia. The gesture here is in the shape of the baleful Eye of Stormy Judgment.\nSince they are able to bring down curse and catastrophe alike with a mere gaze, it might seem natural to blame life's misfortunes on calamitous deities. However, if you think about it a little harder, if your will is strong enough, and if your convictions are firm enough...\nThe catastrophes go on for too long. Even a baleful gaze must wash itself with tears.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113033"
+    }
+  },
+  {
+    "id": 113063,
+    "name": "The Cornerstone of Stars and Flames",
+    "normalizedName": "thecornerstoneofstarsandflames",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "\"Heroes ignite the sacred flame, illuminating the world, yet eventually they shall rest, nestled among the stars.\"\n\"They left behind a stone, a weaving. With these as our foundation, we have erected an everlasting civilization.\"",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113063"
+    }
+  },
+  {
+    "id": 113034,
+    "name": "The Meaning of Aeons",
+    "normalizedName": "themeaningofaeons",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A small piece of headgear obtained once the dust settled in the Plane of Euthymia.\nOne thought may end all calamity, and there will always be thoughts that may transcend time.\nAmid all this, one wonders if Makoto's true meaning was successfully communicated or not.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113034"
+    }
+  },
+  {
+    "id": 113037,
+    "name": "Thunderclap Fruitcore",
+    "normalizedName": "thunderclapfruitcore",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The core of an Electro Regisvine, wrapped in razor-sharp leaves, wantonly emits Electro energy.\nThe roaring energy rampaging deep within the earth is eager to pour out its rage, thus even tainting these unfortunate vines with its mania, causing them to wail and flail their branches frantically. One can hardly tell whether it longs for others to taste the pain of being continuously electrocuted and charred or if it is struggling, looking forward to its inevitable doom.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113037"
+    }
+  },
+  {
+    "id": 113052,
+    "name": "\"Tourbillon Device\"",
+    "normalizedName": "tourbillondevice",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The core component of the Experimental Field Generator.\nA precision-machined mechanical component that counteracts the effects of gravity via high-speed rotation. The revolution speed is so fast that it is almost impossible to capture with the naked eye.\nThroughout its long history, the Fontaine Research Institute of Kinetic Energy Engineering has always warred against a flood that once washed countless lives away, and may yet cover the earth and sky one day far in the future, searching for a means to survive.\nArkhium, with its immense energetic potential and power to shatter the shackles of the earth, was once considered the key to the gate of salvation.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113052"
+    }
+  },
+  {
+    "id": 113013,
+    "name": "Tusk of Monoceros Caeli",
+    "normalizedName": "tuskofmonoceroscaeli",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "The horn of a whale that you obtained from defeating Childe, who had unleashed the might of his Delusion.\nIt is said that the shape of one's constellation determines one's character. The image of a whale cruising across the celestial heights represents a solipsism that seeks to crush and devour all in its path.\nEmbracing this aspect of himself, Childe gleefully summoned one such beast before throwing himself into battle against you.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113013"
+    }
+  },
+  {
+    "id": 113057,
+    "name": "Water That Failed To Transcend",
+    "normalizedName": "waterthatfailedtotranscend",
+    "rarity": 4,
+    "sortRank": 11101,
+    "description": "The only remnants of Hydro Tulpas after their parts are dispersed.\nThis substance is very similar to the crystals extracted from the bodies of Fontemer Aberrants, but they contain a lot of tiny impurities, like the bubbles in glass crafted by clumsy craftsmen.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113057"
+    }
+  },
+  {
+    "id": 113046,
+    "name": "Worldspan Fern",
+    "normalizedName": "worldspanfern",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A fern taken from the oasis within Apep's body.\nAt the dawn of time, the world belonged to the dragons. There, the ferns were the first to sprout in the lush verdant world of Apep's court.\nIn the ages after, these ferns would become trees, vines, roots, and leaves, blanketing the world with their touch. But Apep still remembers the first frond as it stretched freely toward the sky, making a sound so delicate as to go unheard.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113046"
+    }
+  }
+]

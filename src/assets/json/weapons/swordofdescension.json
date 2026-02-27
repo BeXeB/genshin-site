@@ -1,6 +1,7 @@
 {
   "id": 11412,
   "name": "Sword of Descension",
+  "normalizedName": "swordofdescension",
   "description": "A sword of unique craftsmanship. It does not appear to belong to this world.",
   "descriptionRaw": "A sword of unique craftsmanship. It does not appear to belong to this world.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

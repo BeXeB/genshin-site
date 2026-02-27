@@ -1,6 +1,7 @@
 {
   "id": 11430,
   "name": "Sturdy Bone",
+  "normalizedName": "sturdybone",
   "description": "A longsword made of bone that has only grown harder after being hit and swung countless times. It is said that this was the hero Wanjiru's reliable weapon.",
   "descriptionRaw": "A longsword made of bone that has only grown harder after being hit and swung countless times. It is said that this was the hero Wanjiru's reliable weapon.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

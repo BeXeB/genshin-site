@@ -1,6 +1,7 @@
 {
   "id": 12412,
   "name": "Luxurious Sea-Lord",
+  "normalizedName": "luxurioussealord",
   "description": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance.",
   "descriptionRaw": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance.",
   "weaponType": "WEAPON_CLAYMORE",

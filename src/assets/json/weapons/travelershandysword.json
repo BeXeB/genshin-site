@@ -1,6 +1,7 @@
 {
   "id": 11303,
   "name": "Traveler's Handy Sword",
+  "normalizedName": "travelershandysword",
   "description": "A handy steel sword which contains scissors, a magnifying glass, tinder, and other useful items in its sheath.",
   "descriptionRaw": "A handy steel sword which contains scissors, a magnifying glass, tinder, and other useful items in its sheath.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

@@ -1,6 +1,7 @@
 {
   "id": 12433,
   "name": "Master Key",
+  "normalizedName": "masterkey",
   "description": "A heavy greatsword with a razor-sharp blade. Power is a key that can open almost any lock.",
   "descriptionRaw": "A heavy greatsword with a razor-sharp blade. Power is a key that can open almost any lock.",
   "weaponType": "WEAPON_CLAYMORE",

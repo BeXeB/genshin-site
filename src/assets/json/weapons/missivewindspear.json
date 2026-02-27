@@ -1,6 +1,7 @@
 {
   "id": 13419,
   "name": "Missive Windspear",
+  "normalizedName": "missivewindspear",
   "description": "A beacon that shows the direction of the wind. Not every idyll carried on the breeze remains a gentle thing...",
   "descriptionRaw": "A beacon that shows the direction of the wind. Not every idyll carried on the breeze remains a gentle thing...",
   "weaponType": "WEAPON_POLE",

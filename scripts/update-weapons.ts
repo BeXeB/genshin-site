@@ -1,8 +1,9 @@
-import genshindb from 'genshin-db';
+import genshindb, { Items } from 'genshin-db';
 import fs from 'fs-extra';
 import path from 'path';
 import { Weapon, WeaponStats } from '../src/app/_models/weapons';
 import { StatType, WeaponType } from '../src/app/_models/enum';
+import { Item } from '../src/app/_models/items';
 
 const OUTPUT_PATH = path.join(__dirname, '../src/assets/json/weapons');
 const queryLanguage = genshindb.Language.English;
@@ -15,10 +16,15 @@ function normalize(name: string): string {
   return name.replace(/[\s'"`:\-—]+/g, '').toLowerCase();
 }
 
+function mapItems(item: Items[]): Item[] {
+  return item.map((i) => ({ id: +i.id, name: i.name, count: i.count }));
+}
+
 function mapWeapon(weapon: genshindb.Weapon): Weapon {
   return {
     id: weapon.id,
     name: weapon.name,
+    normalizedName: normalize(weapon.name),
 
     description: weapon.description,
     descriptionRaw: weapon.descriptionRaw,
@@ -44,18 +50,29 @@ function mapWeapon(weapon: genshindb.Weapon): Weapon {
     r4: weapon.r4,
     r5: weapon.r5,
 
-    costs: weapon.costs,
+    costs: {
+      ascend1: mapItems(weapon.costs.ascend1),
+      ascend2: mapItems(weapon.costs.ascend2),
+      ascend3: mapItems(weapon.costs.ascend3),
+      ascend4: mapItems(weapon.costs.ascend4),
+      ascend5: weapon.costs.ascend5
+        ? mapItems(weapon.costs.ascend5)
+        : undefined,
+      ascend6: weapon.costs.ascend6
+        ? mapItems(weapon.costs.ascend6)
+        : undefined,
+    },
 
     images: {
       filename_icon: weapon.images.filename_icon,
       filename_awakenIcon: weapon.images.filename_awakenIcon,
-      filename_gacha: weapon.images.filename_gacha
+      filename_gacha: weapon.images.filename_gacha,
     },
 
     version: weapon.version,
 
-    stats: {}
-  }
+    stats: {},
+  };
 }
 
 async function run() {
@@ -98,8 +115,12 @@ async function run() {
 
     const rarity: number = weaponRes.rarity;
 
-    const levels: number[] = Array.from({ length: rarity > 2 ? 90 : 70 }, (_, i) => i + 1);
-    const ascensionLevels: number[] = rarity > 2 ? [20, 40, 50, 60, 70, 80] : [20, 40, 50, 60];
+    const levels: number[] = Array.from(
+      { length: rarity > 2 ? 90 : 70 },
+      (_, i) => i + 1,
+    );
+    const ascensionLevels: number[] =
+      rarity > 2 ? [20, 40, 50, 60, 70, 80] : [20, 40, 50, 60];
 
     for (const level of levels) {
       const stats = weaponRes.stats(level);

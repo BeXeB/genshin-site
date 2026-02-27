@@ -1,6 +1,7 @@
 {
   "id": 11418,
   "name": "Xiphos' Moonlight",
+  "normalizedName": "xiphosmoonlight",
   "description": "This ancient double-edged sword glimmers with moonlight. It is said that a now-silent Jinni dwells within it.",
   "descriptionRaw": "This ancient double-edged sword glimmers with moonlight. It is said that a now-silent Jinni dwells within it.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

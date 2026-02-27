@@ -1,6 +1,7 @@
 {
   "id": 13509,
   "name": "Engulfing Lightning",
+  "normalizedName": "engulfinglightning",
   "description": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
   "descriptionRaw": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
   "weaponType": "WEAPON_POLE",

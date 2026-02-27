@@ -1,6 +1,7 @@
 {
   "id": 13417,
   "name": "Moonpiercer",
+  "normalizedName": "moonpiercer",
   "description": "A weapon you obtained from an Aranara tale. It is shaped like a giant arrow and can be used as a spear.",
   "descriptionRaw": "A weapon you obtained from an Aranara tale. It is shaped like a giant arrow and can be used as a spear.",
   "weaponType": "WEAPON_POLE",

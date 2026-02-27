@@ -1,6 +1,7 @@
 {
   "id": 14432,
   "name": "Etherlight Spindlelute",
+  "normalizedName": "etherlightspindlelute",
   "description": "A lute whose golden strings are as radiant as sunlight. It appears to be a relic from the Seelie of old.",
   "descriptionRaw": "A lute whose golden strings are as radiant as sunlight. It appears to be a relic from the Seelie of old.",
   "weaponType": "WEAPON_CATALYST",

@@ -1,6 +1,7 @@
 {
   "id": 13427,
   "name": "Prospector's Drill",
+  "normalizedName": "prospectorsdrill",
   "description": "A long-handled drill that you can rarely find nowadays. It was often used in delving and in carving stones.",
   "descriptionRaw": "A long-handled drill that you can rarely find nowadays. It was often used in delving and in carving stones.",
   "weaponType": "WEAPON_POLE",

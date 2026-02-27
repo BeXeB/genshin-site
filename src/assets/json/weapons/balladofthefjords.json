@@ -1,6 +1,7 @@
 {
   "id": 13424,
   "name": "Ballad of the Fjords",
+  "normalizedName": "balladofthefjords",
   "description": "A polearm used by those seeking to catch fish in the tundra. It lets none escape.",
   "descriptionRaw": "A polearm used by those seeking to catch fish in the tundra. It lets none escape.",
   "weaponType": "WEAPON_POLE",

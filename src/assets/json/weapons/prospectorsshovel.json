@@ -1,6 +1,7 @@
 {
   "id": 13433,
   "name": "Prospector's Shovel",
+  "normalizedName": "prospectorsshovel",
   "description": "A polearm that appears to have been crafted from a metal agricultural tool. At first glance, it could not look more ordinary, yet its discreet design hides fittings that are both lavish and undeniably exquisite.",
   "descriptionRaw": "A polearm that appears to have been crafted from a metal agricultural tool. At first glance, it could not look more ordinary, yet its discreet design hides fittings that are both lavish and undeniably exquisite.",
   "weaponType": "WEAPON_POLE",

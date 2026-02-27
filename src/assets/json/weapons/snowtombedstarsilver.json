@@ -1,6 +1,7 @@
 {
   "id": 12411,
   "name": "Snow-Tombed Starsilver",
+  "normalizedName": "snowtombedstarsilver",
   "description": "An ancient greatsword that was stored between frescoes. Forged from Starsilver, it has the power to cleave through ice and snow.",
   "descriptionRaw": "An ancient greatsword that was stored between frescoes. Forged from Starsilver, it has the power to cleave through ice and snow.",
   "weaponType": "WEAPON_CLAYMORE",

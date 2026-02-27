@@ -1,6 +1,7 @@
 {
   "id": 11424,
   "name": "Wolf-Fang",
+  "normalizedName": "wolffang",
   "description": "Legend has it that this longsword was once used by a wandering knight in the distant past.",
   "descriptionRaw": "Legend has it that this longsword was once used by a wandering knight in the distant past.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

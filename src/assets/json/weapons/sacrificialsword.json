@@ -1,6 +1,7 @@
 {
   "id": 11403,
   "name": "Sacrificial Sword",
+  "normalizedName": "sacrificialsword",
   "description": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
   "descriptionRaw": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

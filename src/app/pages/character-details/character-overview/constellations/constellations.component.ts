@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Character } from '../../../../_models/character';
+import { CharacterResolved } from '../../../../_models/character';
 import { ConstellationDetailsComponent } from './constellation-details/constellation-details.component';
 
 @Component({
@@ -9,7 +9,7 @@ import { ConstellationDetailsComponent } from './constellation-details/constella
   styleUrl: './constellations.component.css',
 })
 export class OverviewConstellationsComponent {
-  @Input() char: Character | null = null;
+  @Input() char: CharacterResolved | null = null;
   @Input() apiKey: string | null = null;
   @Input() elementColor: string | null = null;
 

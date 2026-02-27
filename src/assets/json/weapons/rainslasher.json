@@ -1,6 +1,7 @@
 {
   "id": 12405,
   "name": "Rainslasher",
+  "normalizedName": "rainslasher",
   "description": "A fluorescent greatsword with no sharp edge that crushes enemies with brute force and raw power.",
   "descriptionRaw": "A fluorescent greatsword with no sharp edge that crushes enemies with brute force and raw power.",
   "weaponType": "WEAPON_CLAYMORE",

@@ -1,6 +1,7 @@
 {
   "id": 11306,
   "name": "Skyrider Sword",
+  "normalizedName": "skyridersword",
   "description": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
   "descriptionRaw": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

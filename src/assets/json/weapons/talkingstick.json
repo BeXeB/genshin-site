@@ -1,6 +1,7 @@
 {
   "id": 12424,
   "name": "Talking Stick",
+  "normalizedName": "talkingstick",
   "description": "Most people will find this obsidian-inlaid club quite convincing indeed.",
   "descriptionRaw": "Most people will find this obsidian-inlaid club quite convincing indeed.",
   "weaponType": "WEAPON_CLAYMORE",

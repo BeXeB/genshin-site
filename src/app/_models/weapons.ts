@@ -1,9 +1,10 @@
 import { StatType, WeaponType } from './enum';
-import { Items } from './items';
+import { Item, ResolvedItem } from './items';
 
 export type Weapon = {
   id: number;
   name: string;
+  normalizedName: string;
 
   description: string;
   descriptionRaw: string;
@@ -28,8 +29,8 @@ export type Weapon = {
   r4?: WeaponRefine;
   r5?: WeaponRefine;
 
-  costs: Record<`ascend${1 | 2 | 3 | 4}`, Items[]> &
-    Partial<Record<`ascend${5 | 6}`, Items[]>>;
+  costs: Record<`ascend${1 | 2 | 3 | 4}`, Item[]> &
+    Partial<Record<`ascend${5 | 6}`, Item[]>>;
 
   images: {
     filename_icon: string;
@@ -54,4 +55,11 @@ export type WeaponStat = {
   ascension: number;
   attack?: number;
   specialized?: number;
+};
+
+export type WeaponResolved = Omit<Weapon, 'costs'> & {
+  costs: Record<
+    `ascend${1 | 2 | 3 | 4 | 5 | 6}`,
+    ResolvedItem[]
+  >;
 };

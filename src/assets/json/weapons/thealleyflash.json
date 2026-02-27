@@ -1,6 +1,7 @@
 {
   "id": 11410,
   "name": "The Alley Flash",
+  "normalizedName": "thealleyflash",
   "description": "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
   "descriptionRaw": "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

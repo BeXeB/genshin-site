@@ -1,6 +1,7 @@
 {
   "id": 15406,
   "name": "Prototype Crescent",
+  "normalizedName": "prototypecrescent",
   "description": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight.",
   "descriptionRaw": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight.",
   "weaponType": "WEAPON_BOW",

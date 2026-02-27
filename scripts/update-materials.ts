@@ -1,11 +1,7 @@
 import genshindb from 'genshin-db';
 import fs from 'fs-extra';
 import path from 'path';
-import {
-  CraftIngredient,
-  Material,
-  MaterialCraft,
-} from '../src/app/_models/materials';
+import { Material, MaterialCraft } from '../src/app/_models/materials';
 import { MaterialType } from '../src/app/_models/enum';
 
 const BASE_OUTPUT_PATH = path.join(__dirname, '../src/assets/json/materials');
@@ -13,6 +9,7 @@ const BASE_CRAFTS_PATH = path.join(
   __dirname,
   '../src/assets/json/materials/crafts',
 );
+const CRAFTS_OUTPUT_FILE = path.join(BASE_OUTPUT_PATH, 'crafts.json');
 const queryLanguage = genshindb.Language.English;
 genshindb.setOptions({
   queryLanguages: [queryLanguage],
@@ -39,6 +36,7 @@ function mapMaterial(mat: genshindb.Material, type: MaterialType): Material {
   return {
     id: mat.id,
     name: mat.name,
+    normalizedName: normalize(mat.name),
 
     rarity: mat.rarity,
     sortRank: mat.sortRank,
@@ -56,13 +54,17 @@ function mapMaterial(mat: genshindb.Material, type: MaterialType): Material {
   };
 }
 
-function mapCraft(craft: genshindb.Craft): MaterialCraft {
+function mapCraft(craft: genshindb.Craft, materialToCraft: genshindb.Material): MaterialCraft {
   return {
-    id: craft.id,
+    id: materialToCraft.id,
 
     resultCount: craft.resultCount,
     moraCost: craft.moraCost,
-    recipe: craft.recipe.map((r) => ({ id: r.id, count: r.count })),
+    recipe: craft.recipe.map((r) => ({
+      id: r.id,
+      name: r.name,
+      count: r.count,
+    })),
   };
 }
 
@@ -108,77 +110,83 @@ const charXPNames = getMaterialNames('Character EXP Material');
 const weaponXPNames = getMaterialNames('Weapon Enhancement Material');
 
 async function run() {
+  let allCrafts: MaterialCraft[] = [];
+  if (await fs.pathExists(CRAFTS_OUTPUT_FILE)) {
+    allCrafts = (await fs.readJson(CRAFTS_OUTPUT_FILE)) as MaterialCraft[];
+  }
+
   await processMaterialGroup(
     talentMaterialNames,
     'talent',
     MaterialType.TALENT_MATERIAL,
-    true,
+    allCrafts,
   );
   await processMaterialGroup(
     weaponMaterialNames,
     'weapon',
     MaterialType.WEAPON_MATERIAL,
-    true,
+    allCrafts,
   );
   await processMaterialGroup(
     gemstoneNames,
     'gemstone',
     MaterialType.GEMSTONE,
-    true,
+    allCrafts,
   );
   await processMaterialGroup(
     genericMaterialNames,
     'generic',
     MaterialType.GENERIC_MATERIAL,
-    true,
+    allCrafts,
   );
 
   await processMaterialGroup(
     bossMaterialNames,
     'boss',
     MaterialType.BOSS_MATERIAL,
+    allCrafts,
   );
   await processMaterialGroup(
     localSpecialtyNames,
     'local-specialty',
     MaterialType.LOCAL_SPECIALTY,
-  );
-  await processMaterialGroup(moraName, 'xp-and-mora', MaterialType.MORA);
-  await processMaterialGroup(
-    charXPNames,
-    'xp-and-mora',
-    MaterialType.CHARACTER_XP,
+    allCrafts,
   );
   await processMaterialGroup(
-    weaponXPNames,
+    moraName.concat(charXPNames, weaponXPNames),
     'xp-and-mora',
-    MaterialType.WEAPON_XP,
+    MaterialType.XP_AND_MORA,
+    allCrafts,
   );
+
+  await fs.writeJson(CRAFTS_OUTPUT_FILE, allCrafts, { spaces: 2 });
+  console.log(`All crafts written to ${CRAFTS_OUTPUT_FILE}`);
 }
 
 async function processMaterialGroup(
   names: string[],
   folderName: string,
   materialType: MaterialType,
-  generateCrafts = false,
+  allCrafts: MaterialCraft[],
 ) {
   if (!names || names.length === 0) {
     console.log(`No materials found for ${folderName}`);
     return;
   }
 
+  const materials: Material[] = [];
+
   const outputPath = path.join(BASE_OUTPUT_PATH, folderName);
-  const craftPath = path.join(BASE_CRAFTS_PATH, folderName);
   await fs.ensureDir(outputPath);
 
-  if (generateCrafts) {
-    await fs.ensureDir(craftPath);
-  }
+  let existingMaterials: string[] = [];
+  const indexFilePath = path.join(outputPath, 'index.json');
 
-  const existingFiles = await fs.readdir(outputPath);
-  const existingMaterials = existingFiles
-    .filter((f) => f.endsWith('.json') && f !== 'index.json')
-    .map((f) => f.replace('.json', ''));
+  if (await fs.pathExists(indexFilePath)) {
+    existingMaterials = (await fs.readJson(indexFilePath)) as string[];
+  } else {
+    existingMaterials = [];
+  }
 
   const normalizedNames = names.map(normalize);
 
@@ -204,31 +212,23 @@ async function processMaterialGroup(
 
     material = mapMaterial(materialRes, materialType);
 
-    await fs.writeJson(path.join(outputPath, `${name}.json`), material, {
-      spaces: 2,
+    materials.push(material);
+
+    const craftRes = genshindb.crafts(name, {
+      queryLanguages: [queryLanguage],
     });
-
-    // Handle crafts if required
-    if (generateCrafts) {
-      let craft: MaterialCraft;
-
-      const craftRes = genshindb.crafts(name, {
-        queryLanguages: [queryLanguage],
-      });
-
-      if (craftRes) {
-        craft = mapCraft(craftRes);
-
-        await fs.writeJson(path.join(craftPath, `${name}.json`), craft, {
-          spaces: 2,
-        });
-      }
+    if (craftRes) {
+      allCrafts.push(mapCraft(craftRes, materialRes));
     }
   }
 
+  await fs.writeJson(path.join(outputPath, `materials.json`), materials, {
+    spaces: 2,
+  });
+
   await fs.writeJson(path.join(outputPath, 'index.json'), normalizedNames, {
-      spaces: 2,
-    });
+    spaces: 2,
+  });
 
   console.log('Update complete.');
 }
@@ -236,7 +236,3 @@ async function processMaterialGroup(
 run().catch((error) => {
   console.error('Error updating materials:', error);
 });
-
-// save each type of material into separate folders
-// for talent/weapon/gemstone/generic materials fill out the crafts json as well
-// if a craft returns undefined it doesnt exist and its the smallest verison of the item

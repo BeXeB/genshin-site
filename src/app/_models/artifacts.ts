@@ -3,6 +3,8 @@ import { ArtifactType } from "./enum";
 export type ArtifactSet = {
   id: number;
   name: string;
+  normalizedName: string;
+
   rarityList: (1 | 2 | 3 | 4 | 5)[];
   effect1Pc?: string;
   effect2Pc?: string;

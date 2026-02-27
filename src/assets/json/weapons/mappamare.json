@@ -1,6 +1,7 @@
 {
   "id": 14407,
   "name": "Mappa Mare",
+  "normalizedName": "mappamare",
   "description": "A nautical chart featuring nearby currents and climates that somehow found its way into Liyue via foreign traders.",
   "descriptionRaw": "A nautical chart featuring nearby currents and climates that somehow found its way into Liyue via foreign traders.",
   "weaponType": "WEAPON_CATALYST",

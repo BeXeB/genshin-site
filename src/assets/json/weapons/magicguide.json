@@ -1,6 +1,7 @@
 {
   "id": 14301,
   "name": "Magic Guide",
+  "normalizedName": "magicguide",
   "description": "Version 12. A reprint featuring corrections to Version 11 and brand-new additions based on recent developments.",
   "descriptionRaw": "Version 12. A reprint featuring corrections to Version 11 and brand-new additions based on recent developments.",
   "weaponType": "WEAPON_CATALYST",

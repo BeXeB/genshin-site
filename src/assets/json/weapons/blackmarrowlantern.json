@@ -1,6 +1,7 @@
 {
   "id": 14433,
   "name": "Blackmarrow Lantern",
+  "normalizedName": "blackmarrowlantern",
   "description": "A lantern that emits a faint, ghostly glow, contained by a midnight-black alloy that resembles interlocking bones. It is said to have once been revered as a precious treasure by a certain secret organization.",
   "descriptionRaw": "A lantern that emits a faint, ghostly glow, contained by a midnight-black alloy that resembles interlocking bones. It is said to have once been revered as a precious treasure by a certain secret organization.",
   "weaponType": "WEAPON_CATALYST",

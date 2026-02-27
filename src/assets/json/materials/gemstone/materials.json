@@ -1,0 +1,418 @@
+[
+  {
+    "id": 104113,
+    "name": "Agnidus Agate Chunk",
+    "normalizedName": "agnidusagatechunk",
+    "rarity": 4,
+    "sortRank": 12102,
+    "description": "Character Ascension material.\n\"A pilgrimage for a wish; a battle to earn a name...\nBurnt to cinders for a dream.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104113"
+    }
+  },
+  {
+    "id": 104112,
+    "name": "Agnidus Agate Fragment",
+    "normalizedName": "agnidusagatefragment",
+    "rarity": 3,
+    "sortRank": 12102,
+    "description": "Character Ascension material.\n\"A pilgrimage for a wish; a battle to earn a name...\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104112"
+    }
+  },
+  {
+    "id": 104114,
+    "name": "Agnidus Agate Gemstone",
+    "normalizedName": "agnidusagategemstone",
+    "rarity": 5,
+    "sortRank": 12102,
+    "description": "Character Ascension material.\n\"A pilgrimage for a wish; a battle to earn a name...\nBurnt to cinders for a dream.\nIf the intention yet remains, achieved ██'s truth he has.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104114"
+    }
+  },
+  {
+    "id": 104111,
+    "name": "Agnidus Agate Sliver",
+    "normalizedName": "agnidusagatesliver",
+    "rarity": 2,
+    "sortRank": 12102,
+    "description": "Character Ascension material.",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104111"
+    }
+  },
+  {
+    "id": 104103,
+    "name": "Brilliant Diamond Chunk",
+    "normalizedName": "brilliantdiamondchunk",
+    "rarity": 4,
+    "sortRank": 12101,
+    "description": "Character Ascension material.\n\"Welcome to this world.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104103"
+    }
+  },
+  {
+    "id": 104102,
+    "name": "Brilliant Diamond Fragment",
+    "normalizedName": "brilliantdiamondfragment",
+    "rarity": 3,
+    "sortRank": 12101,
+    "description": "Character Ascension material.\n\"Welcome to this world.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104102"
+    }
+  },
+  {
+    "id": 104104,
+    "name": "Brilliant Diamond Gemstone",
+    "normalizedName": "brilliantdiamondgemstone",
+    "rarity": 5,
+    "sortRank": 12101,
+    "description": "Character Ascension material.\n\"Welcome to this world.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104104"
+    }
+  },
+  {
+    "id": 104101,
+    "name": "Brilliant Diamond Sliver",
+    "normalizedName": "brilliantdiamondsliver",
+    "rarity": 2,
+    "sortRank": 12101,
+    "description": "Character Ascension material.\n\"Welcome to this world.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104101"
+    }
+  },
+  {
+    "id": 104133,
+    "name": "Nagadus Emerald Chunk",
+    "normalizedName": "nagadusemeraldchunk",
+    "rarity": 4,
+    "sortRank": 12104,
+    "description": "Character Ascension material.\n\"I had a very, very long dream...\"\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104133"
+    }
+  },
+  {
+    "id": 104132,
+    "name": "Nagadus Emerald Fragment",
+    "normalizedName": "nagadusemeraldfragment",
+    "rarity": 3,
+    "sortRank": 12104,
+    "description": "Character Ascension material.\n\"I had a very, very long dream...\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104132"
+    }
+  },
+  {
+    "id": 104134,
+    "name": "Nagadus Emerald Gemstone",
+    "normalizedName": "nagadusemeraldgemstone",
+    "rarity": 5,
+    "sortRank": 12104,
+    "description": "Character Ascension material.\n\"I had a very, very long dream...\"\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"\n\"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104134"
+    }
+  },
+  {
+    "id": 104131,
+    "name": "Nagadus Emerald Sliver",
+    "normalizedName": "nagadusemeraldsliver",
+    "rarity": 2,
+    "sortRank": 12104,
+    "description": "Character Ascension material.",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104131"
+    }
+  },
+  {
+    "id": 104173,
+    "name": "Prithiva Topaz Chunk",
+    "normalizedName": "prithivatopazchunk",
+    "rarity": 4,
+    "sortRank": 12108,
+    "description": "Character Ascension material.\n\"The currencies that flow through this land are my flesh and blood.\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104173"
+    }
+  },
+  {
+    "id": 104172,
+    "name": "Prithiva Topaz Fragment",
+    "normalizedName": "prithivatopazfragment",
+    "rarity": 3,
+    "sortRank": 12108,
+    "description": "Character Ascension material.\n\"The currencies that flow through this land are my flesh and blood.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104172"
+    }
+  },
+  {
+    "id": 104174,
+    "name": "Prithiva Topaz Gemstone",
+    "normalizedName": "prithivatopazgemstone",
+    "rarity": 5,
+    "sortRank": 12108,
+    "description": "Character Ascension material.\n\"The currencies that flow through this land are my flesh and blood.\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\nThis is the trust I have placed in them. Betray it, and you taint my blood.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104174"
+    }
+  },
+  {
+    "id": 104171,
+    "name": "Prithiva Topaz Sliver",
+    "normalizedName": "prithivatopazsliver",
+    "rarity": 2,
+    "sortRank": 12108,
+    "description": "Character Ascension material.",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104171"
+    }
+  },
+  {
+    "id": 104163,
+    "name": "Shivada Jade Chunk",
+    "normalizedName": "shivadajadechunk",
+    "rarity": 4,
+    "sortRank": 12107,
+    "description": "Character Ascension material.\n\"Sorry...\"\n\"...to also have you shoulder the grievances of the world.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104163"
+    }
+  },
+  {
+    "id": 104162,
+    "name": "Shivada Jade Fragment",
+    "normalizedName": "shivadajadefragment",
+    "rarity": 3,
+    "sortRank": 12107,
+    "description": "Character Ascension material.\n\"Sorry...\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104162"
+    }
+  },
+  {
+    "id": 104164,
+    "name": "Shivada Jade Gemstone",
+    "normalizedName": "shivadajadegemstone",
+    "rarity": 5,
+    "sortRank": 12107,
+    "description": "Character Ascension material.\n\"Sorry... to also have you shoulder the grievances of the world.\n\"Since you could endure my bitter cold, you must have the desire to burn?\n\"Then, burn away the old world for me.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104164"
+    }
+  },
+  {
+    "id": 104161,
+    "name": "Shivada Jade Sliver",
+    "normalizedName": "shivadajadesliver",
+    "rarity": 2,
+    "sortRank": 12107,
+    "description": "Character Ascension material.",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104161"
+    }
+  },
+  {
+    "id": 104143,
+    "name": "Vajrada Amethyst Chunk",
+    "normalizedName": "vajradaamethystchunk",
+    "rarity": 4,
+    "sortRank": 12105,
+    "description": "Character Ascension material.\n\"This body is the noblest and most eminent of all in this world.\nIt should hold absolute control over this world.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104143"
+    }
+  },
+  {
+    "id": 104142,
+    "name": "Vajrada Amethyst Fragment",
+    "normalizedName": "vajradaamethystfragment",
+    "rarity": 3,
+    "sortRank": 12105,
+    "description": "Character Ascension material.\n\"This body is the noblest and most eminent of all in this world.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104142"
+    }
+  },
+  {
+    "id": 104144,
+    "name": "Vajrada Amethyst Gemstone",
+    "normalizedName": "vajradaamethystgemstone",
+    "rarity": 5,
+    "sortRank": 12105,
+    "description": "Character Ascension material.\n\"This body is the noblest and most eminent of all in this world.\n\"It should hold absolute control over this world.\n\"It once promised its people a dream: the never-changing 'eternity.'\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104144"
+    }
+  },
+  {
+    "id": 104141,
+    "name": "Vajrada Amethyst Sliver",
+    "normalizedName": "vajradaamethystsliver",
+    "rarity": 2,
+    "sortRank": 12105,
+    "description": "Character Ascension material.",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104141"
+    }
+  },
+  {
+    "id": 104123,
+    "name": "Varunada Lazurite Chunk",
+    "normalizedName": "varunadalazuritechunk",
+    "rarity": 4,
+    "sortRank": 12103,
+    "description": "Character Ascension material.\n\"My ideals have no stains.\nI must correct you. People here bear no sins in the eyes of the gods...\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104123"
+    }
+  },
+  {
+    "id": 104122,
+    "name": "Varunada Lazurite Fragment",
+    "normalizedName": "varunadalazuritefragment",
+    "rarity": 3,
+    "sortRank": 12103,
+    "description": "Character Ascension material.\n\"My ideals have no stains.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104122"
+    }
+  },
+  {
+    "id": 104124,
+    "name": "Varunada Lazurite Gemstone",
+    "normalizedName": "varunadalazuritegemstone",
+    "rarity": 5,
+    "sortRank": 12103,
+    "description": "Character Ascension material.\n\"My ideals have no stains.\nI must correct you. People here bear no sins in the eyes of the gods... Only laws and the Tribunal can judge someone.\nThey can judge even me. So praise my magnificence and purity.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104124"
+    }
+  },
+  {
+    "id": 104121,
+    "name": "Varunada Lazurite Sliver",
+    "normalizedName": "varunadalazuritesliver",
+    "rarity": 2,
+    "sortRank": 12103,
+    "description": "Character Ascension material.",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104121"
+    }
+  },
+  {
+    "id": 104153,
+    "name": "Vayuda Turquoise Chunk",
+    "normalizedName": "vayudaturquoisechunk",
+    "rarity": 4,
+    "sortRank": 12106,
+    "description": "Character Ascension material.\n\"Still, the winds change direction.\nSomeday, they will blow towards a brighter future...\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104153"
+    }
+  },
+  {
+    "id": 104152,
+    "name": "Vayuda Turquoise Fragment",
+    "normalizedName": "vayudaturquoisefragment",
+    "rarity": 3,
+    "sortRank": 12106,
+    "description": "Character Ascension material.\n\"Still, the winds change direction.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104152"
+    }
+  },
+  {
+    "id": 104154,
+    "name": "Vayuda Turquoise Gemstone",
+    "normalizedName": "vayudaturquoisegemstone",
+    "rarity": 5,
+    "sortRank": 12106,
+    "description": "Character Ascension material.\n\"Still, the winds change direction.\n\"Someday, they will blow towards a brighter future...\n\"Take my blessings and live leisurely from this day onward.\"",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104154"
+    }
+  },
+  {
+    "id": 104151,
+    "name": "Vayuda Turquoise Sliver",
+    "normalizedName": "vayudaturquoisesliver",
+    "rarity": 2,
+    "sortRank": 12106,
+    "description": "Character Ascension material.",
+    "type": "gemstone",
+    "typeText": "Character Ascension Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104151"
+    }
+  }
+]

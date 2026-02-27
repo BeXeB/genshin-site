@@ -1,6 +1,7 @@
 {
   "id": 11406,
   "name": "Prototype Rancour",
+  "normalizedName": "prototyperancour",
   "description": "An ancient longsword discovered in the Blackcliff Forge that cuts through rocks like a hot knife through butter.",
   "descriptionRaw": "An ancient longsword discovered in the Blackcliff Forge that cuts through rocks like a hot knife through butter.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

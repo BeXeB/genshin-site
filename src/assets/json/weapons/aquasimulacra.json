@@ -1,6 +1,7 @@
 {
   "id": 15508,
   "name": "Aqua Simulacra",
+  "normalizedName": "aquasimulacra",
   "description": "This longbow's color is unpredictable. Under the light, it takes on a lustrous, watery blue.",
   "descriptionRaw": "This longbow's color is unpredictable. Under the light, it takes on a lustrous, watery blue.",
   "weaponType": "WEAPON_BOW",

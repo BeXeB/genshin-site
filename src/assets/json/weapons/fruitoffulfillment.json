@@ -1,6 +1,7 @@
 {
   "id": 14417,
   "name": "Fruit of Fulfillment",
+  "normalizedName": "fruitoffulfillment",
   "description": "A fruit you obtained from an Aranara tale. It holds the potential to conquer any crisis.",
   "descriptionRaw": "A fruit you obtained from an Aranara tale. It holds the potential to conquer any crisis.",
   "weaponType": "WEAPON_CATALYST",

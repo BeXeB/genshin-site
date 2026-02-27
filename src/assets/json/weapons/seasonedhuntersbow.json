@@ -1,6 +1,7 @@
 {
   "id": 15201,
   "name": "Seasoned Hunter's Bow",
+  "normalizedName": "seasonedhuntersbow",
   "description": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm.",
   "descriptionRaw": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm.",
   "weaponType": "WEAPON_BOW",

@@ -1,6 +1,7 @@
 {
   "id": 12410,
   "name": "Lithic Blade",
+  "normalizedName": "lithicblade",
   "description": "A greatsword carved and chiseled from the very bedrock of Liyue.",
   "descriptionRaw": "A greatsword carved and chiseled from the very bedrock of Liyue.",
   "weaponType": "WEAPON_CLAYMORE",

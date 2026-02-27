@@ -1,6 +1,7 @@
 {
   "id": 14514,
   "name": "Tome of the Eternal Flow",
+  "normalizedName": "tomeoftheeternalflow",
   "description": "A manual that was once passed down from generation to generation within an underwater priory. Today, none know of its existence.",
   "descriptionRaw": "A manual that was once passed down from generation to generation within an underwater priory. Today, none know of its existence.",
   "weaponType": "WEAPON_CATALYST",

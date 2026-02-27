@@ -1,6 +1,7 @@
 {
   "id": 12305,
   "name": "Debate Club",
+  "normalizedName": "debateclub",
   "description": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
   "descriptionRaw": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
   "weaponType": "WEAPON_CLAYMORE",

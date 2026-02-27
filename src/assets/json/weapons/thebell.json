@@ -1,6 +1,7 @@
 {
   "id": 12402,
   "name": "The Bell",
+  "normalizedName": "thebell",
   "description": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
   "descriptionRaw": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
   "weaponType": "WEAPON_CLAYMORE",

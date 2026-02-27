@@ -1,6 +1,7 @@
 {
   "id": 13302,
   "name": "Halberd",
+  "normalizedName": "halberd",
   "description": "A polearm with an axe blade mounted on top that can deal quite a lot of damage. It's favored by the Millelith officers.",
   "descriptionRaw": "A polearm with an axe blade mounted on top that can deal quite a lot of damage. It's favored by the Millelith officers.",
   "weaponType": "WEAPON_POLE",

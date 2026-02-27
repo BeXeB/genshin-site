@@ -1,6 +1,7 @@
 {
   "id": 15405,
   "name": "Rust",
+  "normalizedName": "rust",
   "description": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
   "descriptionRaw": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
   "weaponType": "WEAPON_BOW",

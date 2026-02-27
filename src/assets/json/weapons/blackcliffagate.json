@@ -1,6 +1,7 @@
 {
   "id": 14408,
   "name": "Blackcliff Agate",
+  "normalizedName": "blackcliffagate",
   "description": "A mysterious catalyst made of a material known as \"blackcliff.\" It has an ominous crimson glow that seems to pulse in synchronization with the tremors from deep within the earth.",
   "descriptionRaw": "A mysterious catalyst made of a material known as \"blackcliff.\" It has an ominous crimson glow that seems to pulse in synchronization with the tremors from deep within the earth.",
   "weaponType": "WEAPON_CATALYST",

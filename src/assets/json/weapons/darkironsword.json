@@ -1,6 +1,7 @@
 {
   "id": 11304,
   "name": "Dark Iron Sword",
+  "normalizedName": "darkironsword",
   "description": "A perfectly ordinary iron sword, just slightly darker than most.",
   "descriptionRaw": "A perfectly ordinary iron sword, just slightly darker than most.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

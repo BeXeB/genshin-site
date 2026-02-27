@@ -1,6 +1,7 @@
 {
   "id": 15427,
   "name": "Range Gauge",
+  "normalizedName": "rangegauge",
   "description": "A measuring instrument that you can rarely find nowadays. It is capable of firing arrows.",
   "descriptionRaw": "A measuring instrument that you can rarely find nowadays. It is capable of firing arrows.",
   "weaponType": "WEAPON_BOW",

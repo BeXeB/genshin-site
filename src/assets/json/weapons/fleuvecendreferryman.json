@@ -1,6 +1,7 @@
 {
   "id": 11426,
   "name": "Fleuve Cendre Ferryman",
+  "normalizedName": "fleuvecendreferryman",
   "description": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous — or infamous, depending — in some circles.",
   "descriptionRaw": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous — or infamous, depending — in some circles.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

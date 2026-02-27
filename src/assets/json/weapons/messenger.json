@@ -1,6 +1,7 @@
 {
   "id": 15305,
   "name": "Messenger",
+  "normalizedName": "messenger",
   "description": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
   "descriptionRaw": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
   "weaponType": "WEAPON_BOW",

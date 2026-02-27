@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Character } from '../../../_models/character';
+import { CharacterResolved } from '../../../_models/character';
 import { FormsModule } from '@angular/forms';
 import { OverviewProfileComponent } from "./profile/profile.component";
 import { OverviewConstellationsComponent } from "./constellations/constellations.component";
@@ -12,7 +12,7 @@ import { OverviewTalentsComponent } from "./talents/talents.component";
   styleUrl: './character-overview.component.css',
 })
 export class CharacterOverviewComponent {
-  @Input() char: Character | null = null;
+  @Input() char: CharacterResolved | null = null;
   @Input() apikey: string | null = null;
   @Input() elementColor: string | null = null;
 

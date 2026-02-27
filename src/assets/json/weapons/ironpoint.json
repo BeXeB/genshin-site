@@ -1,6 +1,7 @@
 {
   "id": 13201,
   "name": "Iron Point",
+  "normalizedName": "ironpoint",
   "description": "Sharp and pointy at one end, it is a balanced weapon that is quite popular among travelers.",
   "descriptionRaw": "Sharp and pointy at one end, it is a balanced weapon that is quite popular among travelers.",
   "weaponType": "WEAPON_POLE",

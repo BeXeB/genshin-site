@@ -1,0 +1,1212 @@
+[
+  {
+    "id": 104319,
+    "name": "Crown of Insight",
+    "normalizedName": "crownofinsight",
+    "rarity": 5,
+    "sortRank": 14101,
+    "description": "A precious Talent Level-Up material.\nOnce a medium for the storage and transfer of wisdom in ancient times. Now, wisdom is found in ancient texts and in profound speech. Nevertheless, this Crown of Insight must still be able to impart some transcendent power and wisdom to its bearer.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_104319"
+    }
+  },
+  {
+    "id": 104330,
+    "name": "Guide to Admonition",
+    "normalizedName": "guidetoadmonition",
+    "rarity": 3,
+    "sortRank": 13110,
+    "description": "Talent Level-Up material.\nAdmonition is the branches of the nation of wisdom.\nAdmonition is paired with wise thinking. Careful deliberation affords humble words a clarity that convinces the wise and enlightens the foolish. Such words allow wisdom to flow like an unobstructed river.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Full Moon",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104330"
+    }
+  },
+  {
+    "id": 104308,
+    "name": "Guide to Ballad",
+    "normalizedName": "guidetoballad",
+    "rarity": 3,
+    "sortRank": 13103,
+    "description": "Talent Level-Up material.\nPoetry is the soul of the land of the wind.\nPoetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Realm of Slumber",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104308"
+    }
+  },
+  {
+    "id": 104354,
+    "name": "Guide to Conflict",
+    "normalizedName": "guidetoconflict",
+    "rarity": 3,
+    "sortRank": 13118,
+    "description": "Talent Level-Up material.\nConflict is considered reason in the Nation of Pyro.\nConflicts can always be resolved by greater powers. This fact means that they can always be managed, as opposed to developing into something uncontrollable. Conflict is also a kind of limitation, preventing people from endless shirking of responsibilities without weighing the costs. It demands that participants settle their scores decisively and efficiently.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Return",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104354"
+    }
+  },
+  {
+    "id": 104348,
+    "name": "Guide to Contention",
+    "normalizedName": "guidetocontention",
+    "rarity": 3,
+    "sortRank": 13116,
+    "description": "Talent Level-Up material.\nContention is the principle by which all is weighed in the Nation of Pyro.\nThough humans cannot fly at the speed of winged beasts, nor match the flexibility of slimes, yet still, they have their own unique strengths. Sometimes, understanding both why and how to compete is the key to knowing oneself.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Sublime Turning",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104348"
+    }
+  },
+  {
+    "id": 104314,
+    "name": "Guide to Diligence",
+    "normalizedName": "guidetodiligence",
+    "rarity": 3,
+    "sortRank": 13105,
+    "description": "Talent Level-Up material.\nIndustriousness is the foundation of the land of Geo.\nIndustriousness is the catalyst that flows in the blood of the people of Liyue, able to turn rocks into gold. It is what lies behind the greatness of its great commercial port.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Heart of the Flames",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104314"
+    }
+  },
+  {
+    "id": 104324,
+    "name": "Guide to Elegance",
+    "normalizedName": "guidetoelegance",
+    "rarity": 3,
+    "sortRank": 13108,
+    "description": "Talent Level-Up material.\nElegance is the form of the nation of thunder.\nElegance shuns arrogance. The elegant are ever humble, and only by discarding vanity and sloth may one see clearly — and is there not beauty and loveliness even in the basest of appearances?",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Thundering Valley",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104324"
+    }
+  },
+  {
+    "id": 104360,
+    "name": "Guide to Elysium",
+    "normalizedName": "guidetoelysium",
+    "rarity": 3,
+    "sortRank": 13120,
+    "description": "Talent Level-Up material.\n\"Elysium\" is the dream of the land beneath the moon.\nTo create a paradise without borders or distinctions upon a land overflowing with bitterness and sorrow — though it might be but a childish delusion, it may yet be a foundation for the future.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Shadowed Legacy",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104360"
+    }
+  },
+  {
+    "id": 104339,
+    "name": "Guide to Equity",
+    "normalizedName": "guidetoequity",
+    "rarity": 3,
+    "sortRank": 13113,
+    "description": "Talent Level-Up Material.\nThe shore of the Nation of Water is equity.\nEquity is the foundation upon which Fontaine was founded. Equity forms the standard of the law. If law loses the essence of equity, it will become a chessboard played for profit.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Rhyming Rhythm",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104339"
+    }
+  },
+  {
+    "id": 104302,
+    "name": "Guide to Freedom",
+    "normalizedName": "guidetofreedom",
+    "rarity": 3,
+    "sortRank": 13101,
+    "description": "Talent Level-Up material.\nFreedom is the spirit of the land of the wind.\nThe freedom of travel is one of such. It is the freedom to traverse the land freely without being obstructed.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Frosted Altar",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104302"
+    }
+  },
+  {
+    "id": 104317,
+    "name": "Guide to Gold",
+    "normalizedName": "guidetogold",
+    "rarity": 3,
+    "sortRank": 13106,
+    "description": "Talent Level-Up material.\nGold is the symbol of the land of Geo.\nGold symbolizes conversion. This is the unspoken understanding between Liyue's mountains, land, city, and people. In Liyue, industriousness is converted into gold, and gold into prosperity.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Circle of Embers",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104317"
+    }
+  },
+  {
+    "id": 104333,
+    "name": "Guide to Ingenuity",
+    "normalizedName": "guidetoingenuity",
+    "rarity": 3,
+    "sortRank": 13111,
+    "description": "Talent Level-Up material.\nIngenuity is the leaf-veins of the nation of wisdom. Ingenuity sets words of integrity on the right path. One who thinks out of goodwill and in a clever and careful fashion never deviates from the path of boons. Yet one who thinks with contempt and malice shall taint their words with despicable colors.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Witticism",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104333"
+    }
+  },
+  {
+    "id": 104342,
+    "name": "Guide to Justice",
+    "normalizedName": "guidetojustice",
+    "rarity": 3,
+    "sortRank": 13114,
+    "description": "Talent Level-Up Material.\nThe sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Justice must be blind, and those who wield the sword of justice must not be led astray by their own interests or affairs.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Admonishing Engraving",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104342"
+    }
+  },
+  {
+    "id": 104351,
+    "name": "Guide to Kindling",
+    "normalizedName": "guidetokindling",
+    "rarity": 3,
+    "sortRank": 13117,
+    "description": "Talent Level-Up material.\nOffering up kindling is the established rule of the Nation of Pyro.\nTo acquire a certain amount of something, one must first pay the corresponding price. Sometimes, you may end up paying too much to obtain something; while other times, you may pay too little, and lose it as a result. Understanding how to strike this balance between giving and receiving is one of the meanings of offering kindling.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Myriad Illusions",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104351"
+    }
+  },
+  {
+    "id": 104327,
+    "name": "Guide to Light",
+    "normalizedName": "guidetolight",
+    "rarity": 3,
+    "sortRank": 13109,
+    "description": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThough the sun rays themselves should be blocked by layers upon layers of clouds, there are still those in the thunder god's land who dream of piercing that wrathful sea of lightning to pursue the glory of the divine, fearing not that they shall be cruelly struck down.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Vine-Infested Ruins",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104327"
+    }
+  },
+  {
+    "id": 104357,
+    "name": "Guide to Moonlight",
+    "normalizedName": "guidetomoonlight",
+    "rarity": 3,
+    "sortRank": 13119,
+    "description": "Talent Level-Up material.\n\"Moonlight\" is the blessing of the land beneath the moon.\nThe cloud-veiled moonlight glows but faintly over the boundless dark wilds. Yet its fragile glimmer is a guide through the endless night.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Fallen City",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104357"
+    }
+  },
+  {
+    "id": 104345,
+    "name": "Guide to Order",
+    "normalizedName": "guidetoorder",
+    "rarity": 3,
+    "sortRank": 13115,
+    "description": "Talent Level-Up Material.\nThe shield of the Nation of Water is order.\nAll law in Fontaine ultimately serves to maintain a stable order. Without the guarantee provided by order, justice will be reduced to unlimited violence, a weapon used by all against all.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Chiming Recitation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104345"
+    }
+  },
+  {
+    "id": 104336,
+    "name": "Guide to Praxis",
+    "normalizedName": "guidetopraxis",
+    "rarity": 3,
+    "sortRank": 13112,
+    "description": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes validate words of honesty. Though one speaks and acts out of goodwill, one has not yet obtained wisdom. Wisdom, born from action, is a signet pressed upon honest words.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Basket of Discipline",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104336"
+    }
+  },
+  {
+    "id": 104311,
+    "name": "Guide to Prosperity",
+    "normalizedName": "guidetoprosperity",
+    "rarity": 3,
+    "sortRank": 13104,
+    "description": "Talent Level-Up material.\nProsperity is the people's pursuit in the land of Geo.\nProsperity is the promise made by Liyue to its children: To repay the hard-working laborers with enough gold to brighten up this land.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Altar of Flames",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104311"
+    }
+  },
+  {
+    "id": 104305,
+    "name": "Guide to Resistance",
+    "normalizedName": "guidetoresistance",
+    "rarity": 3,
+    "sortRank": 13102,
+    "description": "Talent Level-Up material.\nResistance is the backbone of the city of Wind.\nThe history of Mondstadt is one of resistances. People rose up to grant the citizens of Mondstadt the freedom they now enjoy, like the Anemo Archon blowing away the snow, or like Vennessa rising up to fight.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Frozen Abyss",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104305"
+    }
+  },
+  {
+    "id": 104321,
+    "name": "Guide to Transience",
+    "normalizedName": "guidetotransience",
+    "rarity": 3,
+    "sortRank": 13107,
+    "description": "Talent Level-Up material.\nTransience is the dream of the nation of thunder.\nWe find the greatest joys in mortal life in transient dreams, for is life itself not like the shadow of the thunder? Pursue your dreams into the clouds if you wish, and enjoy the unexpected silence of the dim lamp-lit nights.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Reign of Violet",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104321"
+    }
+  },
+  {
+    "id": 104363,
+    "name": "Guide to Vagrancy",
+    "normalizedName": "guidetovagrancy",
+    "rarity": 3,
+    "sortRank": 13121,
+    "description": "Talent Level-Up material.\n\"Vagrancy\" is the living of the land beneath the moon.\nTo live is to wander, for none of us can settle in this world. What is remembered is not the moment of arrival, but the footprints that we leave along the way.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Overturned Roost",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104363"
+    }
+  },
+  {
+    "id": 104331,
+    "name": "Philosophies of Admonition",
+    "normalizedName": "philosophiesofadmonition",
+    "rarity": 4,
+    "sortRank": 13110,
+    "description": "Talent Level-Up material.\nAdmonition is the branches of the nation of wisdom.\nAdmonition is completed by good deeds. What is done confers real meaning upon what is said. When one's mind, words, and deeds are aligned, their nourishment shall guarantee the fruition of wisdom's tree.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Full Moon",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104331"
+    }
+  },
+  {
+    "id": 104309,
+    "name": "Philosophies of Ballad",
+    "normalizedName": "philosophiesofballad",
+    "rarity": 4,
+    "sortRank": 13103,
+    "description": "Talent Level-Up material.\nPoetry is the soul of the land of the wind.\nPoetry is the manifestations of the desire to spread the word. Though nothing is eternal, though nothing will be the same, the wind's poetry will still spread beyond the skies, the land, the seas to every corner of the world.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Realm of Slumber",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104309"
+    }
+  },
+  {
+    "id": 104355,
+    "name": "Philosophies of Conflict",
+    "normalizedName": "philosophiesofconflict",
+    "rarity": 4,
+    "sortRank": 13118,
+    "description": "Talent Level-Up material.\nConflict is considered reason in the Nation of Pyro.\nThe premise of conflict is that all parties involved must confront their own desires with the utmost sincerity. Only then, amid the fight or debate, can they remain mindful of what they wish to achieve and stay true to their original objectives.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Return",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104355"
+    }
+  },
+  {
+    "id": 104349,
+    "name": "Philosophies of Contention",
+    "normalizedName": "philosophiesofcontention",
+    "rarity": 4,
+    "sortRank": 13116,
+    "description": "Talent Level-Up material.\nContention is the principle by which all is weighed in the Nation of Pyro.\nIts purpose is to make yourself stronger. After the outcome of a competition has been decided, the victor gains the confidence to be sure of their direction, while the loser gains insights on how they must become stronger. Beyond winning or losing, this is the true meaning of contention.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Sublime Turning",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104349"
+    }
+  },
+  {
+    "id": 104315,
+    "name": "Philosophies of Diligence",
+    "normalizedName": "philosophiesofdiligence",
+    "rarity": 4,
+    "sortRank": 13105,
+    "description": "Talent Level-Up material.\nIndustriousness is the foundation of the land of Geo.\nIndustriousness is believing in one's own ability to earn a place in the land of the gods through sweat, wisdom, and power.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Heart of the Flames",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104315"
+    }
+  },
+  {
+    "id": 104325,
+    "name": "Philosophies of Elegance",
+    "normalizedName": "philosophiesofelegance",
+    "rarity": 4,
+    "sortRank": 13108,
+    "description": "Talent Level-Up material.\nElegance is the form of the nation of thunder.\nElegance abhors vulgarity, and the elegant ever walk alone. Resisting base evils, unmoved by base loves, never taking refuge in base ignorance — that is how one perceives the chasm between the elegant and the contemptuous.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Thundering Valley",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104325"
+    }
+  },
+  {
+    "id": 104361,
+    "name": "Philosophies of Elysium",
+    "normalizedName": "philosophiesofelysium",
+    "rarity": 4,
+    "sortRank": 13120,
+    "description": "Talent Level-Up material.\n\"Elysium\" is the dream of the land beneath the moon.\nSeldom do we share the same dreams of paradise. For those who wish not to settle for the present, there is no greater paradise than Nod-Krai. Yet for all the rest, the truth is quite the opposite.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Shadowed Legacy",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104361"
+    }
+  },
+  {
+    "id": 104340,
+    "name": "Philosophies of Equity",
+    "normalizedName": "philosophiesofequity",
+    "rarity": 4,
+    "sortRank": 13113,
+    "description": "Talent Level-Up Material.\nThe shore of the Nation of Water is equity.\nEquity is the foundation upon which Fontaine was founded. Equity requires the continuous and steady support of morality and law, and morality and law constantly change based upon the invariant principle of equity.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Rhyming Rhythm",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104340"
+    }
+  },
+  {
+    "id": 104303,
+    "name": "Philosophies of Freedom",
+    "normalizedName": "philosophiesoffreedom",
+    "rarity": 4,
+    "sortRank": 13101,
+    "description": "Talent Level-Up material.\nFreedom is the spirit of the land of the wind.\nTo sing is one such freedom. To sing on the land created by the Anemo Archon is to send your heart away with the song on the wind.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Frosted Altar",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104303"
+    }
+  },
+  {
+    "id": 104318,
+    "name": "Philosophies of Gold",
+    "normalizedName": "philosophiesofgold",
+    "rarity": 4,
+    "sortRank": 13106,
+    "description": "Talent Level-Up material.\nGold is the symbol of the land of Geo.\nGold is the wealth of Liyue, but Liyue's true wealth is the hearts of its people that shine like gold.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Circle of Embers",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104318"
+    }
+  },
+  {
+    "id": 104334,
+    "name": "Philosophies of Ingenuity",
+    "normalizedName": "philosophiesofingenuity",
+    "rarity": 4,
+    "sortRank": 13111,
+    "description": "Talent Level-Up material.\nIngenuity is the leaf-veins of the nation of wisdom.\nIngenuity is completed by harmonious conduct. What is done completes what is thought. Wisdom blooms where the mind, words, and practice converge.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Witticism",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104334"
+    }
+  },
+  {
+    "id": 104343,
+    "name": "Philosophies of Justice",
+    "normalizedName": "philosophiesofjustice",
+    "rarity": 4,
+    "sortRank": 13114,
+    "description": "Talent Level-Up Material.\nThe sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Justice means judgment and reconciliation, the blade of judgment arrests the actions of evil, while reconciliation maintains order.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Admonishing Engraving",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104343"
+    }
+  },
+  {
+    "id": 104352,
+    "name": "Philosophies of Kindling",
+    "normalizedName": "philosophiesofkindling",
+    "rarity": 4,
+    "sortRank": 13117,
+    "description": "Talent Level-Up material.\nOffering up kindling is the established rule of the Nation of Pyro.\nWhat is meant by offering kindling is to offer up a sacrifice before one obtains something, though it does not always guarantee a response or return. Its true meaning lies in paying a price without expecting a reward — for in the end, the day when the fruits will be reaped is sure to come.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Myriad Illusions",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104352"
+    }
+  },
+  {
+    "id": 104328,
+    "name": "Philosophies of Light",
+    "normalizedName": "philosophiesoflight",
+    "rarity": 4,
+    "sortRank": 13109,
+    "description": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThough they must live forever on the earth, humanity will always reach for the light. Mortals will pursue and surpass, and they will never stop. A sealed eternity may, perhaps, look magnificent, but its essence is death.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Vine-Infested Ruins",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104328"
+    }
+  },
+  {
+    "id": 104358,
+    "name": "Philosophies of Moonlight",
+    "normalizedName": "philosophiesofmoonlight",
+    "rarity": 4,
+    "sortRank": 13119,
+    "description": "Talent Level-Up material.\n\"Moonlight\" is the blessing of the land beneath the moon.\nPraying to the new moon for guidance and fortune is a rite passed down from the days of the first people. Tonight's moonlight seems no different from any other night, yet where is the new moon that people once looked to?",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Fallen City",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104358"
+    }
+  },
+  {
+    "id": 104346,
+    "name": "Philosophies of Order",
+    "normalizedName": "philosophiesoforder",
+    "rarity": 4,
+    "sortRank": 13115,
+    "description": "Talent Level-Up Material.\nThe shield of the Nation of Water is order.\nAll law in Fontaine ultimately serves to maintain a stable order. Equity and justice come from order, and serve order. Like the still, ripple-less surface of the waters of Fontaine, order is the cornerstone of Fontaine's existence.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Chiming Recitation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104346"
+    }
+  },
+  {
+    "id": 104337,
+    "name": "Philosophies of Praxis",
+    "normalizedName": "philosophiesofpraxis",
+    "rarity": 4,
+    "sortRank": 13112,
+    "description": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes bring forth the fruit of wisdom. Practice grants itself meaning, and it is only by treading a path that unites action, speech, and thought that the wise may reach perfection.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Basket of Discipline",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104337"
+    }
+  },
+  {
+    "id": 104312,
+    "name": "Philosophies of Prosperity",
+    "normalizedName": "philosophiesofprosperity",
+    "rarity": 4,
+    "sortRank": 13104,
+    "description": "Talent Level-Up material.\nProsperity is the people's pursuit in the land of Geo.\nProsperity is Liyue's past, present, and future. This prosperity is unmatched and unobtainable by any other nations — it all belongs to Liyue and its inhabitants.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Altar of Flames",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104312"
+    }
+  },
+  {
+    "id": 104306,
+    "name": "Philosophies of Resistance",
+    "normalizedName": "philosophiesofresistance",
+    "rarity": 4,
+    "sortRank": 13102,
+    "description": "Talent Level-Up material.\nResistance is the backbone of the land of the wind.\nThe history of Mondstadt is one of resistances. People rose up to allow the future Mondstadt's poetry to freely be that of the wind and be spread across the land.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Frozen Abyss",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104306"
+    }
+  },
+  {
+    "id": 104322,
+    "name": "Philosophies of Transience",
+    "normalizedName": "philosophiesoftransience",
+    "rarity": 4,
+    "sortRank": 13107,
+    "description": "Talent Level-Up material.\nTransience is the dream of the nation of thunder.\nThe fleeting nature of this mortal world is the essence of beauty, for are our lives in this world not akin to the levin flash? Yet the might of the divine comes suddenly, and before the roar of eternity, who can stand?",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Reign of Violet",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104322"
+    }
+  },
+  {
+    "id": 104364,
+    "name": "Philosophies of Vagrancy",
+    "normalizedName": "philosophiesofvagrancy",
+    "rarity": 4,
+    "sortRank": 13121,
+    "description": "Talent Level-Up material.\n\"Vagrancy\" is the living of the land beneath the moon.\nThrough thunder and storms, across mountains and snowfields, though scarred and weary, the wanderer does not stop — nor will they till they find a place to call home.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Overturned Roost",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104364"
+    }
+  },
+  {
+    "id": 104329,
+    "name": "Teachings of Admonition",
+    "normalizedName": "teachingsofadmonition",
+    "rarity": 2,
+    "sortRank": 13110,
+    "description": "Talent Level-Up material.\nAdmonition is the branches of the nation of wisdom.\nAdmonition comes from a pure heart. Only sensible words of goodwill can express profound wisdom and free the sprout of knowledge from the shackles of arrogance.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Full Moon",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104329"
+    }
+  },
+  {
+    "id": 104307,
+    "name": "Teachings of Ballad",
+    "normalizedName": "teachingsofballad",
+    "rarity": 2,
+    "sortRank": 13103,
+    "description": "Talent Level-Up material.\nPoetry is the soul of the land of the wind.\nPoetry is the manifestations of beautiful feelings. On a beautiful day, the breezes carry with them poetry that touches the heart of people like the wind caressing the leaves.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Realm of Slumber",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104307"
+    }
+  },
+  {
+    "id": 104353,
+    "name": "Teachings of Conflict",
+    "normalizedName": "teachingsofconflict",
+    "rarity": 2,
+    "sortRank": 13118,
+    "description": "Talent Level-Up material.\nConflict is considered reason in the Nation of Pyro.\nRather than avoiding conflict, one should face confrontations head-on. Once the outcome has been made manifest, the path forward should be determined accordingly.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Return",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104353"
+    }
+  },
+  {
+    "id": 104347,
+    "name": "Teachings of Contention",
+    "normalizedName": "teachingsofcontention",
+    "rarity": 2,
+    "sortRank": 13116,
+    "description": "Talent Level-Up material.\nContention is the principle by which all is weighed in the Nation of Pyro.\nWhat defines strength, and what weakness? Only victory and defeat. The results of a contest are more convincing than any words.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Sublime Turning",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104347"
+    }
+  },
+  {
+    "id": 104313,
+    "name": "Teachings of Diligence",
+    "normalizedName": "teachingsofdiligence",
+    "rarity": 2,
+    "sortRank": 13105,
+    "description": "Talent Level-Up material.\nIndustriousness is the foundation of the land of Geo.\nDiligence is having the bravery and the strength to conquer mountains and seas and to pursue gold and prosperity through honest, hard work.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Heart of the Flames",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104313"
+    }
+  },
+  {
+    "id": 104323,
+    "name": "Teachings of Elegance",
+    "normalizedName": "teachingsofelegance",
+    "rarity": 2,
+    "sortRank": 13108,
+    "description": "Talent Level-Up material.\nElegance is the form of the nation of thunder.\nElegance brooks no flattery, and the elegant are ever noble. They are like the sea eagles who soar on high to contend with the resounding storms. They will not cater to philistine vulgarity, as one would not cast a flower crown into the mud, staining its dignity.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Thundering Valley",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104323"
+    }
+  },
+  {
+    "id": 104359,
+    "name": "Teachings of Elysium",
+    "normalizedName": "teachingsofelysium",
+    "rarity": 2,
+    "sortRank": 13120,
+    "description": "Talent Level-Up material.\n\"Elysium\" is the dream of the land beneath the moon.\nThere are those who are desperate to get in, and those who are desperate to get out. Perhaps Elysium is not a place one can ever truly reach.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Shadowed Legacy",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104359"
+    }
+  },
+  {
+    "id": 104338,
+    "name": "Teachings of Equity",
+    "normalizedName": "teachingsofequity",
+    "rarity": 2,
+    "sortRank": 13113,
+    "description": "Talent Level-Up Material.\nThe shore of the Nation of Water is equity.\nEquity sets boundaries on rights. Without equity, the rights granted by law will be abused, and become a tool to damage our virtuous customs.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Rhyming Rhythm",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104338"
+    }
+  },
+  {
+    "id": 104301,
+    "name": "Teachings of Freedom",
+    "normalizedName": "teachingsoffreedom",
+    "rarity": 2,
+    "sortRank": 13101,
+    "description": "Talent Level-Up material.\nFreedom is the spirit of the land of the wind.\nThe freedom to live is one of such. It is the freedom to live freely and healthily without concerns of one's own safety.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Frosted Altar",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104301"
+    }
+  },
+  {
+    "id": 104316,
+    "name": "Teachings of Gold",
+    "normalizedName": "teachingsofgold",
+    "rarity": 2,
+    "sortRank": 13106,
+    "description": "Talent Level-Up material.\nGold is the symbol of the land of Geo.\nGold is the blood that flows deep within Liyue's veins, the muscle that makes up Liyue's beating heart, and the bones that make Liyue stand proud.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Circle of Embers",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104316"
+    }
+  },
+  {
+    "id": 104332,
+    "name": "Teachings of Ingenuity",
+    "normalizedName": "teachingsofingenuity",
+    "rarity": 2,
+    "sortRank": 13111,
+    "description": "Talent Level-Up material.\nIngenuity is the leaf-veins of the nation of wisdom.\nIngenuity springs forth from benevolent consideration. They say that \"a poisonous tree bears no kind fruit.\" Similarly, ingenious nascent ideas are always born from determined and benign minds, for only they are worthy bearers of wisdom.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Witticism",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104332"
+    }
+  },
+  {
+    "id": 104341,
+    "name": "Teachings of Justice",
+    "normalizedName": "teachingsofjustice",
+    "rarity": 2,
+    "sortRank": 13114,
+    "description": "Talent Level-Up Material.\nThe sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Without the guidance of justice, all law is reduced to meaningless words, to be tampered with and slaughtered at a whim.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Admonishing Engraving",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104341"
+    }
+  },
+  {
+    "id": 104350,
+    "name": "Teachings of Kindling",
+    "normalizedName": "teachingsofkindling",
+    "rarity": 2,
+    "sortRank": 13117,
+    "description": "Talent Level-Up material.\nOffering up kindling is the established rule of the Nation of Pyro.\nFor something gained, something must be given. If you wish to obtain something, you must first pay the corresponding price, just like the offerings that should be made as kindling in the process of incineration.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Myriad Illusions",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104350"
+    }
+  },
+  {
+    "id": 104326,
+    "name": "Teachings of Light",
+    "normalizedName": "teachingsoflight",
+    "rarity": 2,
+    "sortRank": 13109,
+    "description": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThe ruler who claims to have perceived all forever aims to hoard celestial glory. But this vision that cannot be shared only leads people to long for it more fiercely, like moths diving into the flame.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Vine-Infested Ruins",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104326"
+    }
+  },
+  {
+    "id": 104356,
+    "name": "Teachings of Moonlight",
+    "normalizedName": "teachingsofmoonlight",
+    "rarity": 2,
+    "sortRank": 13119,
+    "description": "Talent Level-Up material.\n\"Moonlight\" is the blessing of the land beneath the moon.\nThings come in all sizes, and people come in all states of wisdom. Yet under the moonlight, all are equal.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Fallen City",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104356"
+    }
+  },
+  {
+    "id": 104344,
+    "name": "Teachings of Order",
+    "normalizedName": "teachingsoforder",
+    "rarity": 2,
+    "sortRank": 13115,
+    "description": "Talent Level-Up Material.\nThe shield of the Nation of Water is order.\nAll law in Fontaine ultimately serves to maintain a stable order. Without order, there is chaos, and there can be no fairness in chaos.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Chiming Recitation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104344"
+    }
+  },
+  {
+    "id": 104335,
+    "name": "Teachings of Praxis",
+    "normalizedName": "teachingsofpraxis",
+    "rarity": 2,
+    "sortRank": 13112,
+    "description": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes stem from an unwavering will. All wisdom is manifested through the unyielding pursuit of goodness. Where goodness is not practiced, ingenuity and eloquence wither.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Basket of Discipline",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104335"
+    }
+  },
+  {
+    "id": 104310,
+    "name": "Teachings of Prosperity",
+    "normalizedName": "teachingsofprosperity",
+    "rarity": 2,
+    "sortRank": 13104,
+    "description": "Talent Level-Up material.\nProsperity is the people's pursuit in the land of Geo.\nProsperity is the blessing of Liyue, it is the foundation of the great city built by the gods and the people of Liyue, and it is the source of the peace and safety of the land.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Altar of Flames",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104310"
+    }
+  },
+  {
+    "id": 104304,
+    "name": "Teachings of Resistance",
+    "normalizedName": "teachingsofresistance",
+    "rarity": 2,
+    "sortRank": 13102,
+    "description": "Talent Level-Up material.\nResistance is the backbone of the land of the wind.\nThe history of Mondstadt is one of resistances. People rose up to prevent past conflicts from ever being forgotten, like sprouts breaking through the soil, like the eternal wind eroding through stone walls.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Frozen Abyss",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104304"
+    }
+  },
+  {
+    "id": 104320,
+    "name": "Teachings of Transience",
+    "normalizedName": "teachingsoftransience",
+    "rarity": 2,
+    "sortRank": 13107,
+    "description": "Talent Level-Up material.\nTransience is the dream of the nation of thunder.\nFleeting glories are the highest expression of mortal beauty, for are we mortals not like the flashing lightning itself? Like a lovely dream or blossoming spark, we shall leave a gorgeous mark on the eternal night sky.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Reign of Violet",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104320"
+    }
+  },
+  {
+    "id": 104362,
+    "name": "Teachings of Vagrancy",
+    "normalizedName": "teachingsofvagrancy",
+    "rarity": 2,
+    "sortRank": 13121,
+    "description": "Talent Level-Up material.\n\"Vagrancy\" is the living of the land beneath the moon.\nEnjoy a moment's respite, then depart before the sky turns black. Dawn is not the end, but the beginning of another journey.",
+    "type": "talent",
+    "typeText": "Character Talent Material",
+    "dropDomainName": "Domain of Mastery: Overturned Roost",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_104362"
+    }
+  }
+]

@@ -1,6 +1,7 @@
 {
   "id": 11305,
   "name": "Fillet Blade",
+  "normalizedName": "filletblade",
   "description": "A sharp filleting knife. The blade is long, thin, and incredibly sharp.",
   "descriptionRaw": "A sharp filleting knife. The blade is long, thin, and incredibly sharp.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

@@ -1,6 +1,7 @@
 {
   "id": 14513,
   "name": "Cashflow Supervision",
+  "normalizedName": "cashflowsupervision",
   "description": "A floating device that can monitor certain phenomena. It was picked up and modified to serve other purposes following its abandonment.",
   "descriptionRaw": "A floating device that can monitor certain phenomena. It was picked up and modified to serve other purposes following its abandonment.",
   "weaponType": "WEAPON_CATALYST",

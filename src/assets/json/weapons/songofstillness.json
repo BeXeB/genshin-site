@@ -1,6 +1,7 @@
 {
   "id": 15425,
   "name": "Song of Stillness",
+  "normalizedName": "songofstillness",
   "description": "A strange longbow that resembles a sea creature. Its string makes no sound at all.",
   "descriptionRaw": "A strange longbow that resembles a sea creature. Its string makes no sound at all.",
   "weaponType": "WEAPON_BOW",

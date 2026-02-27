@@ -1,6 +1,7 @@
 {
   "id": 10010,
   "name": "Adventurer",
+  "normalizedName": "adventurer",
   "rarityList": [
     1,
     2,

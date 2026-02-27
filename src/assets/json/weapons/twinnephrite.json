@@ -1,6 +1,7 @@
 {
   "id": 14305,
   "name": "Twin Nephrite",
+  "normalizedName": "twinnephrite",
   "description": "A jade pendant formed by piecing together two jade stones.",
   "descriptionRaw": "A jade pendant formed by piecing together two jade stones.",
   "weaponType": "WEAPON_CATALYST",

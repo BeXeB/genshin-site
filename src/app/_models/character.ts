@@ -1,5 +1,5 @@
 import { ElementType, QualityType, StatType, WeaponType } from './enum';
-import { Items } from './items';
+import { Item, ResolvedItem } from './items';
 
 export type CharacterProfile = {
   id: number;
@@ -29,7 +29,7 @@ export type CharacterProfile = {
 
   constellation: string;
 
-  costs: Record<`ascend${1 | 2 | 3 | 4 | 5 | 6}`, Items[]>;
+  costs: Record<`ascend${1 | 2 | 3 | 4 | 5 | 6}`, Item[]>;
 
   images: {
     filename_icon?: string;
@@ -54,7 +54,7 @@ export type CharacterTalents = {
   passive3?: PassiveTalent;
   passive4?: PassiveTalent;
 
-  costs: Record<`lvl${2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10}`, Items[]>;
+  costs: Record<`lvl${2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10}`, Item[]>;
 
   images?: {
     filename_combat1?: string;
@@ -131,4 +131,17 @@ export type Character = {
   skills?: CharacterTalents;
   stats: CharacterStats;
   constellation?: CharacterConstellation;
+};
+
+export type CharacterProfileResolved = Omit<CharacterProfile, 'costs'> & {
+  costs: Record<`ascend${1 | 2 | 3 | 4 | 5 | 6}`, ResolvedItem[]>;
+};
+
+export type CharacterTalentsResolved = Omit<CharacterTalents, 'costs'> & {
+  costs: Record<`lvl${2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10}`, ResolvedItem[]>;
+};
+
+export type CharacterResolved = Omit<Character, 'profile' | 'skills'> & {
+  profile: CharacterProfileResolved;
+  skills?: CharacterTalentsResolved;
 };

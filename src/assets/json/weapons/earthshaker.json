@@ -1,6 +1,7 @@
 {
   "id": 12431,
   "name": "Earth Shaker",
+  "normalizedName": "earthshaker",
   "description": "A heavy blade that people claim was beloved by the hero known as the Firethief. They say that even the Lord of Cinder Keep's flames could not burn it away.",
   "descriptionRaw": "A heavy blade that people claim was beloved by the hero known as the Firethief. They say that even the Lord of Cinder Keep's flames could not burn it away.",
   "weaponType": "WEAPON_CLAYMORE",

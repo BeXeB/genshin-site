@@ -1,6 +1,7 @@
 {
   "id": 11402,
   "name": "The Flute",
+  "normalizedName": "theflute",
   "description": "Beneath its rusty exterior is a lavishly decorated thin blade. It swings as swiftly as the wind.",
   "descriptionRaw": "Beneath its rusty exterior is a lavishly decorated thin blade. It swings as swiftly as the wind.",
   "weaponType": "WEAPON_SWORD_ONE_HAND",

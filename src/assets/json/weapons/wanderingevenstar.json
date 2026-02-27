@@ -1,6 +1,7 @@
 {
   "id": 14416,
   "name": "Wandering Evenstar",
+  "normalizedName": "wanderingevenstar",
   "description": "This was originally a device used by researchers to observe and perform calculations on celestial phenomena. It serves as a conduit and catalyst.",
   "descriptionRaw": "This was originally a device used by researchers to observe and perform calculations on celestial phenomena. It serves as a conduit and catalyst.",
   "weaponType": "WEAPON_CATALYST",

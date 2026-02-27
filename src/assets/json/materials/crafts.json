@@ -1,0 +1,2642 @@
+[
+  {
+    "id": 104330,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104329,
+        "name": "Teachings of Admonition",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104308,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104307,
+        "name": "Teachings of Ballad",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104354,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104353,
+        "name": "Teachings of Conflict",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104348,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104347,
+        "name": "Teachings of Contention",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104314,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104313,
+        "name": "Teachings of Diligence",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104324,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104323,
+        "name": "Teachings of Elegance",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104360,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104359,
+        "name": "Teachings of Elysium",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104339,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104338,
+        "name": "Teachings of Equity",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104302,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104301,
+        "name": "Teachings of Freedom",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104317,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104316,
+        "name": "Teachings of Gold",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104333,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104332,
+        "name": "Teachings of Ingenuity",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104342,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104341,
+        "name": "Teachings of Justice",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104351,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104350,
+        "name": "Teachings of Kindling",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104327,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104326,
+        "name": "Teachings of Light",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104357,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104356,
+        "name": "Teachings of Moonlight",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104345,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104344,
+        "name": "Teachings of Order",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104336,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104335,
+        "name": "Teachings of Praxis",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104311,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104310,
+        "name": "Teachings of Prosperity",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104305,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104304,
+        "name": "Teachings of Resistance",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104321,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104320,
+        "name": "Teachings of Transience",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104363,
+    "resultCount": 1,
+    "moraCost": 175,
+    "recipe": [
+      {
+        "id": 104362,
+        "name": "Teachings of Vagrancy",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104331,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104330,
+        "name": "Guide to Admonition",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104309,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104308,
+        "name": "Guide to Ballad",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104355,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104354,
+        "name": "Guide to Conflict",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104349,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104348,
+        "name": "Guide to Contention",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104315,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104314,
+        "name": "Guide to Diligence",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104325,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104324,
+        "name": "Guide to Elegance",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104361,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104360,
+        "name": "Guide to Elysium",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104340,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104339,
+        "name": "Guide to Equity",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104303,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104302,
+        "name": "Guide to Freedom",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104318,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104317,
+        "name": "Guide to Gold",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104334,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104333,
+        "name": "Guide to Ingenuity",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104343,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104342,
+        "name": "Guide to Justice",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104352,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104351,
+        "name": "Guide to Kindling",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104328,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104327,
+        "name": "Guide to Light",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104358,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104357,
+        "name": "Guide to Moonlight",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104346,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104345,
+        "name": "Guide to Order",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104337,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104336,
+        "name": "Guide to Praxis",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104312,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104311,
+        "name": "Guide to Prosperity",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104306,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104305,
+        "name": "Guide to Resistance",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104322,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104321,
+        "name": "Guide to Transience",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104364,
+    "resultCount": 1,
+    "moraCost": 550,
+    "recipe": [
+      {
+        "id": 104363,
+        "name": "Guide to Vagrancy",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114078,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114077,
+        "name": "Ember of Long Night Flint",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114075,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114074,
+        "name": "Artful Device Replica",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114074,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114073,
+        "name": "Artful Device Fragment",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114076,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114075,
+        "name": "Artful Device Inheritance",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114084,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114083,
+        "name": "Oblation of the Far-North Scions",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114023,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114080,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114079,
+        "name": "Flare of Long Night Flint",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114062,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114061,
+        "name": "Blazing Sacrificial Heart's Terror",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114063,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114062,
+        "name": "Blazing Sacrificial Heart's Hesitance",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114064,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114063,
+        "name": "Blazing Sacrificial Heart's Resolve",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114007,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114006,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114005,
+        "name": "Boreal Wolf's Milk Tooth",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114008,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114010,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114009,
+        "name": "Fetters of the Dandelion Gladiator",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114050,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114049,
+        "name": "Fragment of an Ancient Chord",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114024,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114002,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114067,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114066,
+        "name": "Delirious Desolation of the Sacred Lord",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114066,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114065,
+        "name": "Delirious Decadence of the Sacred Lord",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114068,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114067,
+        "name": "Delirious Demeanor of the Sacred Lord",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114016,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114047,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114046,
+        "name": "Remnant Glow of Scorching Might",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114012,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114052,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114051,
+        "name": "Movement of an Ancient Chord",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114056,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114055,
+        "name": "Spring of Pure Sacred Dewdrop",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114079,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114078,
+        "name": "Afterglow of Long Night Flint",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114003,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114028,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114027,
+        "name": "Jade Branch of a Distant Sea",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114060,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114059,
+        "name": "Silver Goblet of the Pristine Sea",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114040,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114039,
+        "name": "Silver Talisman of the Forest Dew",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114038,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114037,
+        "name": "Copper Talisman of the Forest Dew",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114027,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114026,
+        "name": "Jeweled Branch of a Distant Sea",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114026,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114025,
+        "name": "Coral Branch of a Distant Sea",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114014,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114013,
+        "name": "Luminous Sands from Guyun",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114036,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114035,
+        "name": "Mask of the One-Horned",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114035,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114034,
+        "name": "Mask of the Tiger's Bite",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114034,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114033,
+        "name": "Mask of the Wicked Lieutenant",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114019,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114018,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114017,
+        "name": "Mist Veiled Lead Elixir",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114020,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114051,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114050,
+        "name": "Chapter of an Ancient Chord",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114031,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114030,
+        "name": "Narukami's Joy",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114030,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114029,
+        "name": "Narukami's Wisdom",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114032,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114031,
+        "name": "Narukami's Affection",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114071,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114070,
+        "name": "Night-Wind's Mystic Premonition",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114070,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114069,
+        "name": "Night-Wind's Mystic Consideration",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114072,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114071,
+        "name": "Night-Wind's Mystic Augury",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114042,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114041,
+        "name": "Oasis Garden's Reminiscence",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114043,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114042,
+        "name": "Oasis Garden's Kindness",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114044,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114043,
+        "name": "Oasis Garden's Mourning",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114083,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114082,
+        "name": "Unyielding Delusion of the Far-North Scions",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114048,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114047,
+        "name": "Dream of Scorching Might",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114022,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114021,
+        "name": "Grain of Aerosiderite",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114015,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114046,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114045,
+        "name": "Echo of Scorching Might",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114004,
+    "resultCount": 1,
+    "moraCost": 1075,
+    "recipe": [
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114011,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114059,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114058,
+        "name": "Wine Goblet of the Pristine Sea",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114039,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114038,
+        "name": "Iron Talisman of the Forest Dew",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114055,
+    "resultCount": 1,
+    "moraCost": 350,
+    "recipe": [
+      {
+        "id": 114054,
+        "name": "Sublimation of Pure Sacred Dewdrop",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114054,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114053,
+        "name": "Dross of Pure Sacred Dewdrop",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114082,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114081,
+        "name": "Sundered Glory of the Far-North Scions",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 114058,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114057,
+        "name": "Broken Goblet of the Pristine Sea",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104113,
+    "resultCount": 1,
+    "moraCost": 900,
+    "recipe": [
+      {
+        "id": 104112,
+        "name": "Agnidus Agate Fragment",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104112,
+    "resultCount": 1,
+    "moraCost": 300,
+    "recipe": [
+      {
+        "id": 104111,
+        "name": "Agnidus Agate Sliver",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104114,
+    "resultCount": 1,
+    "moraCost": 2700,
+    "recipe": [
+      {
+        "id": 104113,
+        "name": "Agnidus Agate Chunk",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104133,
+    "resultCount": 1,
+    "moraCost": 900,
+    "recipe": [
+      {
+        "id": 104132,
+        "name": "Nagadus Emerald Fragment",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104132,
+    "resultCount": 1,
+    "moraCost": 300,
+    "recipe": [
+      {
+        "id": 104131,
+        "name": "Nagadus Emerald Sliver",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104134,
+    "resultCount": 1,
+    "moraCost": 2700,
+    "recipe": [
+      {
+        "id": 104133,
+        "name": "Nagadus Emerald Chunk",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104173,
+    "resultCount": 1,
+    "moraCost": 900,
+    "recipe": [
+      {
+        "id": 104172,
+        "name": "Prithiva Topaz Fragment",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104172,
+    "resultCount": 1,
+    "moraCost": 300,
+    "recipe": [
+      {
+        "id": 104171,
+        "name": "Prithiva Topaz Sliver",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104174,
+    "resultCount": 1,
+    "moraCost": 2700,
+    "recipe": [
+      {
+        "id": 104173,
+        "name": "Prithiva Topaz Chunk",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104163,
+    "resultCount": 1,
+    "moraCost": 900,
+    "recipe": [
+      {
+        "id": 104162,
+        "name": "Shivada Jade Fragment",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104162,
+    "resultCount": 1,
+    "moraCost": 300,
+    "recipe": [
+      {
+        "id": 104161,
+        "name": "Shivada Jade Sliver",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104164,
+    "resultCount": 1,
+    "moraCost": 2700,
+    "recipe": [
+      {
+        "id": 104163,
+        "name": "Shivada Jade Chunk",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104143,
+    "resultCount": 1,
+    "moraCost": 900,
+    "recipe": [
+      {
+        "id": 104142,
+        "name": "Vajrada Amethyst Fragment",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104142,
+    "resultCount": 1,
+    "moraCost": 300,
+    "recipe": [
+      {
+        "id": 104141,
+        "name": "Vajrada Amethyst Sliver",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104144,
+    "resultCount": 1,
+    "moraCost": 2700,
+    "recipe": [
+      {
+        "id": 104143,
+        "name": "Vajrada Amethyst Chunk",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104123,
+    "resultCount": 1,
+    "moraCost": 900,
+    "recipe": [
+      {
+        "id": 104122,
+        "name": "Varunada Lazurite Fragment",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104122,
+    "resultCount": 1,
+    "moraCost": 300,
+    "recipe": [
+      {
+        "id": 104121,
+        "name": "Varunada Lazurite Sliver",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104124,
+    "resultCount": 1,
+    "moraCost": 2700,
+    "recipe": [
+      {
+        "id": 104123,
+        "name": "Varunada Lazurite Chunk",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104153,
+    "resultCount": 1,
+    "moraCost": 900,
+    "recipe": [
+      {
+        "id": 104152,
+        "name": "Vayuda Turquoise Fragment",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104152,
+    "resultCount": 1,
+    "moraCost": 300,
+    "recipe": [
+      {
+        "id": 104151,
+        "name": "Vayuda Turquoise Sliver",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 104154,
+    "resultCount": 1,
+    "moraCost": 2700,
+    "recipe": [
+      {
+        "id": 104153,
+        "name": "Vayuda Turquoise Chunk",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112138,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112137,
+        "name": "Fractured Eye of the Deep Shadow",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112030,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112091,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112090,
+        "name": "Foreign Synapse",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112085,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112084,
+        "name": "Mechanical Spur Gear",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112117,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112116,
+        "name": "Refractive Bud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112015,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112016,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112121,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112120,
+        "name": "Warm Back-Shell",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112048,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112047,
+        "name": "Chaos Gear",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112070,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112069,
+        "name": "Chaos Module",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112024,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112025,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112069,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112068,
+        "name": "Chaos Storage",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112049,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112048,
+        "name": "Chaos Axis",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112097,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112096,
+        "name": "Lunar Fin",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112058,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112057,
+        "name": "Concealed Unguis",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112057,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112056,
+        "name": "Concealed Claw",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112061,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112060,
+        "name": "Luminescent Pollen",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112051,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112050,
+        "name": "Dismal Prism",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112018,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112017,
+        "name": "Gloomy Statuette",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112021,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112019,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112018,
+        "name": "Dark Statuette",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112063,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112062,
+        "name": "Inactivated Fungal Nucleus",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112040,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112039,
+        "name": "Shimmering Nectar",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112046,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112045,
+        "name": "Kageuchi Handguard",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112010,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112090,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112089,
+        "name": "Rift Core",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112043,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112127,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112126,
+        "name": "Immaculate Warrant",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112130,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112129,
+        "name": "Frostnight's Glow",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112129,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112128,
+        "name": "Frostnight's Glimmer",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112132,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112131,
+        "name": "Lightless Bone",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112037,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112115,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112114,
+        "name": "Sheath of the Secret Source",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112139,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112138,
+        "name": "Aberrant Core of the Deep Shadow",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112111,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112110,
+        "name": "Ignited Stone",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112112,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112111,
+        "name": "Ignited Seed of Life",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112118,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112117,
+        "name": "Bewildering Broadleaf",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112126,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112125,
+        "name": "Tattered Warrant",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112031,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112045,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112044,
+        "name": "Old Handguard",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112022,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112034,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112033,
+        "name": "Sergeant's Insignia",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112108,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112107,
+        "name": "Shard of a Shattered Will",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112060,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112059,
+        "name": "Fungal Spores",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112096,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112095,
+        "name": "Feathery Fin",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112076,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112075,
+        "name": "Sturdy Shell",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112084,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112083,
+        "name": "Meshing Gear",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112027,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112026,
+        "name": "Mist Grass Pollen",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112028,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112027,
+        "name": "Mist Grass",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112136,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112135,
+        "name": "Mistshroud Plate",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112135,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112134,
+        "name": "Mistshroud Manifestation",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112088,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112087,
+        "name": "Scoop of Tainted Water",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112007,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112094,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112093,
+        "name": "Operative's Standard Pocket Watch",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112093,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112092,
+        "name": "Old Operative's Pocket Watch",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112052,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112051,
+        "name": "Crystal Prism",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112124,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112123,
+        "name": "Reinforced Drive Shaft",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112133,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112132,
+        "name": "Glowing Remains",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112073,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112072,
+        "name": "Turbid Prism",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112123,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112122,
+        "name": "Broken Drive Shaft",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112067,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112066,
+        "name": "Trimmed Red Silk",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112064,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112063,
+        "name": "Dormant Fungal Nucleus",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112106,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112087,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112086,
+        "name": "Drop of Tainted Water",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112009,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112102,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112101,
+        "name": "Juvenile Fang",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112033,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112032,
+        "name": "Recruit's Insignia",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112012,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112114,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112113,
+        "name": "Axis of the Secret Source",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112039,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112038,
+        "name": "Whopperflower Nectar",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112109,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112108,
+        "name": "Locus of a Clear Will",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112036,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112004,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112003,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112054,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112053,
+        "name": "Spectral Husk",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112055,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112054,
+        "name": "Spectral Heart",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112099,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112098,
+        "name": "Ruined Hilt",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112006,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112100,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112099,
+        "name": "Splintered Hilt",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112042,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112075,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112074,
+        "name": "Desiccated Shell",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112081,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112080,
+        "name": "Transoceanic Pearl",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112078,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112077,
+        "name": "A Flower Yet to Bloom",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112066,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112065,
+        "name": "Faded Red Satin",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112072,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112071,
+        "name": "Damaged Prism",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112103,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112102,
+        "name": "Seasoned Fang",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112079,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 112078,
+        "name": "Treasured Flower",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112120,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112119,
+        "name": "Cold-Cracked Shellshard",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112105,
+    "resultCount": 1,
+    "moraCost": 25,
+    "recipe": [
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112013,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 112082,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 101225,
+    "resultCount": 1,
+    "moraCost": 125,
+    "recipe": [
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "resultCount": 1,
+    "moraCost": 50,
+    "recipe": [
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 3
+      }
+    ]
+  }
+]

@@ -1,6 +1,7 @@
 {
   "id": 12418,
   "name": "Mailed Flower",
+  "normalizedName": "mailedflower",
   "description": "A graceful and elegant greatsword that is decorated with flowers and ribbons.",
   "descriptionRaw": "A graceful and elegant greatsword that is decorated with flowers and ribbons.",
   "weaponType": "WEAPON_CLAYMORE",
