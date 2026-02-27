@@ -59,13 +59,13 @@ export class OverviewTalentsComponent {
 
   get talentImageUrls() {
     return {
-      combat1: `assets/images/${this.char?.skills?.images?.filename_combat1 || 'Skill_A_00'}.png`,
-      combat2: `assets/images/characters/${this.apiKey}/skills/combat2.png`,
-      combat3: `assets/images/characters/${this.apiKey}/skills/combat3.png`,
-      passive1: `assets/images/characters/${this.apiKey}/skills/passive1.png`,
-      passive2: `assets/images/characters/${this.apiKey}/skills/passive2.png`,
-      passive3: `assets/images/characters/${this.apiKey}/skills/passive3.png`,
-      passive4: `assets/images/characters/${this.apiKey}/skills/passive4.png`,
+      combat1: `assets/images/${this.char?.skills?.images?.filename_combat1 || 'Skill_A_00'}.webp`,
+      combat2: `assets/images/characters/${this.apiKey}/skills/combat2.webp`,
+      combat3: `assets/images/characters/${this.apiKey}/skills/combat3.webp`,
+      passive1: `assets/images/characters/${this.apiKey}/skills/passive1.webp`,
+      passive2: `assets/images/characters/${this.apiKey}/skills/passive2.webp`,
+      passive3: `assets/images/characters/${this.apiKey}/skills/passive3.webp`,
+      passive4: `assets/images/characters/${this.apiKey}/skills/passive4.webp`,
     };
   }
 }

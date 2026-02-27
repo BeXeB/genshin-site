@@ -3,7 +3,7 @@
     "name": "Test Guide",
     "slug": "test",
     "description": "Guide to test if this works",
-    "imageUrl": "assets/images/Anemo.png",
+    "imageUrl": "assets/images/Anemo.webp",
     "fileUrl": "testguide.md"
   }
 ]

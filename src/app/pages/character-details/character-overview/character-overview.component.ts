@@ -20,11 +20,11 @@ export class CharacterOverviewComponent {
 
   get imageUrls() {
     return {
-      icon: `assets/images/characters/${this.apikey}/icon.png`,
-      iconCard: `assets/images/characters/${this.apikey}/card.png`,
-      sideIcon: `assets/images/characters/${this.apikey}/side.png`,
-      gachaSplash: `assets/images/characters/${this.apikey}/gacha-splash.png`,
-      gachaSlice: `assets/images/characters/${this.apikey}/gacha-icon.png`,
+      icon: `assets/images/characters/${this.apikey}/icon.webp`,
+      iconCard: `assets/images/characters/${this.apikey}/card.webp`,
+      sideIcon: `assets/images/characters/${this.apikey}/side.webp`,
+      gachaSplash: `assets/images/characters/${this.apikey}/gacha-splash.webp`,
+      gachaSlice: `assets/images/characters/${this.apikey}/gacha-icon.webp`,
     };
   }
 }

@@ -15,12 +15,12 @@ export class OverviewConstellationsComponent {
 
     get constellationImageUrls() {
     return {
-      c1: `assets/images/characters/${this.apiKey}/constellation/c1.png`,
-      c2: `assets/images/characters/${this.apiKey}/constellation/c2.png`,
-      c3: `assets/images/characters/${this.apiKey}/constellation/c3.png`,
-      c4: `assets/images/characters/${this.apiKey}/constellation/c4.png`,
-      c5: `assets/images/characters/${this.apiKey}/constellation/c5.png`,
-      c6: `assets/images/characters/${this.apiKey}/constellation/c6.png`,
+      c1: `assets/images/characters/${this.apiKey}/constellation/c1.webp`,
+      c2: `assets/images/characters/${this.apiKey}/constellation/c2.webp`,
+      c3: `assets/images/characters/${this.apiKey}/constellation/c3.webp`,
+      c4: `assets/images/characters/${this.apiKey}/constellation/c4.webp`,
+      c5: `assets/images/characters/${this.apiKey}/constellation/c5.webp`,
+      c6: `assets/images/characters/${this.apiKey}/constellation/c6.webp`,
     };
   }
 }

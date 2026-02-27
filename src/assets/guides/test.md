@@ -68,11 +68,11 @@ Autolink: <https://openai.com>
 
 ## Images
 
-![Example Image](assets/images/Geo.png)
+![Example Image](assets/images/Geo.webp)
 
 ![Geo Icon][geo-img]
 
-[geo-img]: assets/images/Geo.png
+[geo-img]: assets/images/Geo.webp
 
 ---
 

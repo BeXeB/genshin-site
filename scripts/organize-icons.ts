@@ -30,49 +30,49 @@ const MATERIAL_TARGET_DIR = path.join(
 // --- Image mappings ---
 
 const CHARACTER_IMAGE_MAP: Record<string, string> = {
-  filename_icon: 'icon.png',
-  filename_iconCard: 'card.png',
-  filename_sideIcon: 'side.png',
-  filename_gachaSplash: 'gacha-splash.png',
-  filename_gachaSlice: 'gacha-icon.png',
+  filename_icon: 'icon.webp',
+  filename_iconCard: 'card.webp',
+  filename_sideIcon: 'side.webp',
+  filename_gachaSplash: 'gacha-splash.webp',
+  filename_gachaSlice: 'gacha-icon.webp',
 };
 
 const WEAPON_IMAGE_MAP: Record<string, string> = {
-  filename_icon: 'icon.png',
-  filename_awakenIcon: 'awaken.png',
-  filename_gacha: 'gacha.png',
+  filename_icon: 'icon.webp',
+  filename_awakenIcon: 'awaken.webp',
+  filename_gacha: 'gacha.webp',
 };
 
 const SKILL_IMAGE_MAP: Record<string, string> = {
-  filename_combat1: 'combat1.png',
-  filename_combat2: 'combat2.png',
-  filename_combat3: 'combat3.png',
-  filename_passive1: 'passive1.png',
-  filename_passive2: 'passive2.png',
-  filename_passive3: 'passive3.png',
-  filename_passive4: 'passive4.png',
+  filename_combat1: 'combat1.webp',
+  filename_combat2: 'combat2.webp',
+  filename_combat3: 'combat3.webp',
+  filename_passive1: 'passive1.webp',
+  filename_passive2: 'passive2.webp',
+  filename_passive3: 'passive3.webp',
+  filename_passive4: 'passive4.webp',
 };
 
 const CONSTELLATION_IMAGE_MAP: Record<string, string> = {
-  filename_c1: 'c1.png',
-  filename_c2: 'c2.png',
-  filename_c3: 'c3.png',
-  filename_c4: 'c4.png',
-  filename_c5: 'c5.png',
-  filename_c6: 'c6.png',
-  filename_constellation: 'constellation.png',
+  filename_c1: 'c1.webp',
+  filename_c2: 'c2.webp',
+  filename_c3: 'c3.webp',
+  filename_c4: 'c4.webp',
+  filename_c5: 'c5.webp',
+  filename_c6: 'c6.webp',
+  filename_constellation: 'constellation.webp',
 };
 
 const ARTIFACT_IMAGE_MAP: Record<string, string> = {
-  filename_flower: 'flower.png',
-  filename_plume: 'plume.png',
-  filename_sands: 'sands.png',
-  filename_goblet: 'goblet.png',
-  filename_circlet: 'circlet.png',
+  filename_flower: 'flower.webp',
+  filename_plume: 'plume.webp',
+  filename_sands: 'sands.webp',
+  filename_goblet: 'goblet.webp',
+  filename_circlet: 'circlet.webp',
 };
 
 const MATERIAL_IMAGE_MAP: Record<string, string> = {
-  filename_icon: 'icon.png',
+  filename_icon: 'icon.webp',
 };
 
 function ensureDir(dir: string) {
@@ -275,9 +275,9 @@ function organize() {
               lookup[imageName] = [];
             }
 
-            // materialname.png (not icon.png)
+            // materialname.webp (not icon.webp)
             lookup[imageName].push(
-              path.join(MATERIAL_TARGET_DIR, folder, `${materialName}.png`),
+              path.join(MATERIAL_TARGET_DIR, folder, `${materialName}.webp`),
             );
           }
         }
@@ -289,7 +289,7 @@ function organize() {
   const files = fs.readdirSync(SOURCE_DIR);
 
   files.forEach((file) => {
-    if (!file.endsWith('.png')) return;
+    if (!file.endsWith('.webp')) return;
 
     const nameWithoutExt = path.parse(file).name;
     const destinations = lookup[nameWithoutExt];

@@ -25,52 +25,52 @@ const materialFolders = fs
   .filter((f) => fs.statSync(path.join(MATERIAL_JSON_DIR, f)).isDirectory());
 
 const SKILL_IMAGE_MAP: Record<string, string> = {
-  filename_combat2: 'combat2.png',
-  filename_combat3: 'combat3.png',
-  filename_passive1: 'passive1.png',
-  filename_passive2: 'passive2.png',
-  filename_passive3: 'passive3.png',
-  filename_passive4: 'passive4.png',
+  filename_combat2: 'combat2.webp',
+  filename_combat3: 'combat3.webp',
+  filename_passive1: 'passive1.webp',
+  filename_passive2: 'passive2.webp',
+  filename_passive3: 'passive3.webp',
+  filename_passive4: 'passive4.webp',
 };
 
 const CONSTELLATION_IMAGE_MAP: Record<string, string> = {
-  filename_c1: 'c1.png',
-  filename_c2: 'c2.png',
-  filename_c3: 'c3.png',
-  filename_c4: 'c4.png',
-  filename_c5: 'c5.png',
-  filename_c6: 'c6.png',
+  filename_c1: 'c1.webp',
+  filename_c2: 'c2.webp',
+  filename_c3: 'c3.webp',
+  filename_c4: 'c4.webp',
+  filename_c5: 'c5.webp',
+  filename_c6: 'c6.webp',
 };
 
 const PROFILE_IMAGE_MAP: Record<string, string> = {
-  filename_icon: 'icon.png',
-  filename_iconCard: 'card.png',
-  filename_sideIcon: 'side.png',
-  filename_gachaSplash: 'gacha-splash.png',
-  filename_gachaSlice: 'gacha-icon.png',
+  filename_icon: 'icon.webp',
+  filename_iconCard: 'card.webp',
+  filename_sideIcon: 'side.webp',
+  filename_gachaSplash: 'gacha-splash.webp',
+  filename_gachaSlice: 'gacha-icon.webp',
 };
 
 const WEAPON_IMAGE_MAP: Record<string, string> = {
-  filename_icon: 'icon.png',
-  filename_awakenIcon: 'awaken.png',
-  filename_gacha: 'gacha.png',
+  filename_icon: 'icon.webp',
+  filename_awakenIcon: 'awaken.webp',
+  filename_gacha: 'gacha.webp',
 };
 
 const ARTIFACT_IMAGE_MAP: Record<string, string> = {
-  filename_flower: 'flower.png',
-  filename_plume: 'plume.png',
-  filename_sands: 'sands.png',
-  filename_goblet: 'goblet.png',
-  filename_circlet: 'circlet.png',
+  filename_flower: 'flower.webp',
+  filename_plume: 'plume.webp',
+  filename_sands: 'sands.webp',
+  filename_goblet: 'goblet.webp',
+  filename_circlet: 'circlet.webp',
 };
 
 const IGNORE_MISSING: Set<string> = new Set([
-  'manekin/card.png',
-  'manekin/gacha-splash.png',
-  'manekin/gacha-icon.png',
-  'manekina/card.png',
-  'manekina/gacha-splash.png',
-  'manekina/gacha-icon.png',
+  'manekin/card.webp',
+  'manekin/gacha-splash.webp',
+  'manekin/gacha-icon.webp',
+  'manekina/card.webp',
+  'manekina/gacha-splash.webp',
+  'manekina/gacha-icon.webp',
 ]);
 
 function check() {
@@ -112,7 +112,7 @@ function check() {
 
           if (!IGNORE_MISSING.has(key)) {
             console.log(
-              `❌ ${characterName}/${outputFile}  (JSON: ${originalName}.png)`,
+              `❌ ${characterName}/${outputFile}  (JSON: ${originalName}.webp)`,
             );
             missingCount++;
           }
@@ -130,7 +130,7 @@ function check() {
 
         if (!fs.existsSync(expectedPath)) {
           console.log(
-            `❌ ${characterName}/skills/${outputFile}  (JSON: ${originalName}.png)`,
+            `❌ ${characterName}/skills/${outputFile}  (JSON: ${originalName}.webp)`,
           );
           missingCount++;
         }
@@ -149,7 +149,7 @@ function check() {
 
         if (!fs.existsSync(expectedPath)) {
           console.log(
-            `❌ ${characterName}/constellation/${outputFile}  (JSON: ${originalName}.png)`,
+            `❌ ${characterName}/constellation/${outputFile}  (JSON: ${originalName}.webp)`,
           );
           missingCount++;
         }
@@ -183,7 +183,7 @@ function check() {
 
         if (!fs.existsSync(expectedPath)) {
           console.log(
-            `❌ weapons/${weaponName}/${outputFile}  (JSON: ${originalName}.png)`,
+            `❌ weapons/${weaponName}/${outputFile}  (JSON: ${originalName}.webp)`,
           );
           missingCount++;
         }
@@ -217,7 +217,7 @@ function check() {
 
         if (!fs.existsSync(expectedPath)) {
           console.log(
-            `❌ artifacts/${artifactName}/${outputFile}  (JSON: ${originalName}.png)`,
+            `❌ artifacts/${artifactName}/${outputFile}  (JSON: ${originalName}.webp)`,
           );
           missingCount++;
         }
@@ -249,12 +249,12 @@ function check() {
       const expectedPath = path.join(
         ASSET_DIR_MATERIALS,
         folder,
-        `${materialName}.png`,
+        `${materialName}.webp`,
       );
 
       if (!fs.existsSync(expectedPath)) {
         console.log(
-          `❌ materials/${folder}/${materialName}.png  (JSON: ${originalName}.png)`,
+          `❌ materials/${folder}/${materialName}.webp  (JSON: ${originalName}.webp)`,
         );
         missingCount++;
       }

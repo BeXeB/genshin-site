@@ -17,9 +17,9 @@ export class CharacterCardComponent implements OnInit {
 
   ngOnInit(): void {
     if (this.char) {
-      this.charIconUrl = `assets/images/characters/${this.char.normalizedName}/icon.png`;
-      this.charElementUrl = `assets/images/${this.char.elementText}.png`;
-      this.charWeaponUrl = `assets/images/${this.char.weaponText}.png`;
+      this.charIconUrl = `assets/images/characters/${this.char.normalizedName}/icon.webp`;
+      this.charElementUrl = `assets/images/${this.char.elementText}.webp`;
+      this.charWeaponUrl = `assets/images/${this.char.weaponText}.webp`;
     }
   }
 

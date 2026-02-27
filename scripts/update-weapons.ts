@@ -46,7 +46,11 @@ function mapWeapon(weapon: genshindb.Weapon): Weapon {
 
     costs: weapon.costs,
 
-    images: weapon.images,
+    images: {
+      filename_icon: weapon.images.filename_icon,
+      filename_awakenIcon: weapon.images.filename_awakenIcon,
+      filename_gacha: weapon.images.filename_gacha
+    },
 
     version: weapon.version,
 
