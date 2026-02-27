@@ -10,6 +10,7 @@
     "update:characters": "ts-node -P tsconfig.scripts.json scripts/update-characters.ts",
     "update:weapons": "ts-node -P tsconfig.scripts.json scripts/update-weapons.ts",
     "update:artifacts": "ts-node -P tsconfig.scripts.json scripts/update-artifacts.ts",
+    "update:materials": "ts-node -P tsconfig.scripts.json scripts/update-materials.ts",
     "organize:icons": "ts-node -P tsconfig.scripts.json scripts/organize-icons.ts",
     "test:icons": "ts-node -P tsconfig.scripts.json scripts/test-missing-icons.ts"
   },

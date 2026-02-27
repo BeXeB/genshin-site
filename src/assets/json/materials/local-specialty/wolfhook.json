@@ -1,0 +1,11 @@
+{
+  "id": 100021,
+  "name": "Wolfhook",
+  "sortRank": 311,
+  "description": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+  "type": 3,
+  "typeText": "Local Specialty (Mondstadt)",
+  "images": {
+    "filename_icon": "UI_ItemIcon_100021"
+  }
+}

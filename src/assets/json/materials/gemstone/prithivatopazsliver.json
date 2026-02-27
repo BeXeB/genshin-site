@@ -1,0 +1,12 @@
+{
+  "id": 104171,
+  "name": "Prithiva Topaz Sliver",
+  "rarity": 2,
+  "sortRank": 12108,
+  "description": "Character Ascension material.",
+  "type": 2,
+  "typeText": "Character Ascension Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_104171"
+  }
+}

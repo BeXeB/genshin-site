@@ -1,0 +1,12 @@
+{
+  "id": 104143,
+  "name": "Vajrada Amethyst Chunk",
+  "rarity": 4,
+  "sortRank": 12105,
+  "description": "Character Ascension material.\n\"This body is the noblest and most eminent of all in this world.\nIt should hold absolute control over this world.\"",
+  "type": 2,
+  "typeText": "Character Ascension Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_104143"
+  }
+}

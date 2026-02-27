@@ -1,0 +1,12 @@
+{
+  "id": 112030,
+  "name": "Agent's Sacrificial Knife",
+  "rarity": 3,
+  "sortRank": 10110,
+  "description": "An oddly-shaped weapon made with superior Snezhnayan technology that once belonged to a senior agent. Proper training is required for using this strange weapon.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112030"
+  }
+}

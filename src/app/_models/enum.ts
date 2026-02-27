@@ -55,3 +55,15 @@ export enum ArtifactType {
   RING = 'EQUIP_RING',
   CIRCLET = 'EQUIP_DRESS',
 }
+
+export enum MaterialType {
+  TALENT_MATERIAL,
+  BOSS_MATERIAL,
+  GEMSTONE,
+  LOCAL_SPECIALTY,
+  WEAPON_MATERIAL,
+  GENERIC_MATERIAL,
+  MORA,
+  CHARACTER_XP,
+  WEAPON_XP
+}

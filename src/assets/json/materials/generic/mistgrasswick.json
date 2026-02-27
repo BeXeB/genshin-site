@@ -1,0 +1,12 @@
+{
+  "id": 112028,
+  "name": "Mist Grass Wick",
+  "rarity": 4,
+  "sortRank": 10109,
+  "description": "A rare bundle of Mist Grass that gives off a faint glow. Those who carry it invite both the Cicins and misfortune.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112028"
+  }
+}

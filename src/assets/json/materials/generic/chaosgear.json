@@ -1,0 +1,12 @@
+{
+  "id": 112047,
+  "name": "Chaos Gear",
+  "rarity": 2,
+  "sortRank": 10116,
+  "description": "Comes from a now-inactive ancient Ruin machine.\nThis is the energy source of that biomimetic mechanism.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112047"
+  }
+}

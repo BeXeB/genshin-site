@@ -1,0 +1,12 @@
+{
+  "id": 112089,
+  "name": "Rift Core",
+  "rarity": 2,
+  "sortRank": 10131,
+  "description": "A shard left by Breacher Primus.\nIt bears no resemblance to any other known form of life in the world.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112089"
+  }
+}

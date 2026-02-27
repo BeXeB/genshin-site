@@ -1,0 +1,12 @@
+{
+  "id": 112004,
+  "name": "Slime Concentrate",
+  "rarity": 3,
+  "sortRank": 10601,
+  "description": "Concentrated slime essence. When left alone, it will begin to move on its own.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112004"
+  }
+}

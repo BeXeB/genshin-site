@@ -1,0 +1,12 @@
+{
+  "id": 112023,
+  "name": "Chaos Device",
+  "rarity": 2,
+  "sortRank": 10108,
+  "description": "Comes from ancient defunct relic structures. A part that once held the structure together. Its aesthetically-pleasing engineering is quite exquisite.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112023"
+  }
+}

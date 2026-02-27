@@ -1,0 +1,12 @@
+{
+  "id": 112080,
+  "name": "Transoceanic Pearl",
+  "rarity": 1,
+  "sortRank": 10628,
+  "description": "A small crystal obtained from a defeated Fontemer Aberrant.\nFontemer Aberrants arise from Fontaine's sea. They are believed to be a unique life form born from the mysterious energy in the water.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112080"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 104347,
+  "name": "Teachings of Contention",
+  "rarity": 2,
+  "sortRank": 13116,
+  "description": "Talent Level-Up material.\nContention is the principle by which all is weighed in the Nation of Pyro.\nWhat defines strength, and what weakness? Only victory and defeat. The results of a contest are more convincing than any words.",
+  "type": 0,
+  "typeText": "Character Talent Material",
+  "dropDomainName": "Domain of Mastery: Sublime Turning",
+  "daysOfWeek": [
+    "Monday",
+    "Thursday",
+    "Sunday"
+  ],
+  "images": {
+    "filename_icon": "UI_ItemIcon_104347"
+  }
+}

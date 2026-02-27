@@ -1,0 +1,11 @@
+{
+  "id": 100033,
+  "name": "Starconch",
+  "sortRank": 312,
+  "description": "Empty seashells brought ashore by the tides. Hold one close to your ear, and hear the longing calls of the sea.",
+  "type": 3,
+  "typeText": "Local Specialty (Liyue)",
+  "images": {
+    "filename_icon": "UI_ItemIcon_100033"
+  }
+}

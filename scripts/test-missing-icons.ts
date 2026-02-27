@@ -7,6 +7,7 @@ const CHARACTER_JSON_DIR = path.join(
 );
 const WEAPON_JSON_DIR = path.join(__dirname, '../src/assets/json/weapons');
 const ARTIFACT_JSON_DIR = path.join(__dirname, '../src/assets/json/artifacts');
+const MATERIAL_JSON_DIR = path.join(__dirname, '../src/assets/json/materials');
 
 const ASSET_DIR_CHAR = path.join(__dirname, '../src/assets/images/characters');
 const ASSET_DIR_WEAPONS = path.join(__dirname, '../src/assets/images/weapons');
@@ -14,6 +15,14 @@ const ASSET_DIR_ARTIFACTS = path.join(
   __dirname,
   '../src/assets/images/artifacts',
 );
+const ASSET_DIR_MATERIALS = path.join(
+  __dirname,
+  '../src/assets/images/materials',
+);
+
+const materialFolders = fs
+  .readdirSync(MATERIAL_JSON_DIR)
+  .filter((f) => fs.statSync(path.join(MATERIAL_JSON_DIR, f)).isDirectory());
 
 const SKILL_IMAGE_MAP: Record<string, string> = {
   filename_combat2: 'combat2.png',
@@ -214,6 +223,42 @@ function check() {
         }
       }
     }
+  });
+
+  // materials
+
+  materialFolders.forEach((folder) => {
+    // skip crafts folder
+    if (folder === 'crafts') return;
+
+    const folderPath = path.join(MATERIAL_JSON_DIR, folder);
+    const materialFiles = fs.readdirSync(folderPath);
+
+    materialFiles.forEach((file) => {
+      if (!file.endsWith('.json')) return;
+      if (file === 'index.json') return;
+
+      const materialName = path.parse(file).name;
+
+      const jsonPath = path.join(folderPath, file);
+      const materialData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+
+      const originalName = materialData.images?.filename_icon;
+      if (!originalName) return;
+
+      const expectedPath = path.join(
+        ASSET_DIR_MATERIALS,
+        folder,
+        `${materialName}.png`,
+      );
+
+      if (!fs.existsSync(expectedPath)) {
+        console.log(
+          `❌ materials/${folder}/${materialName}.png  (JSON: ${originalName}.png)`,
+        );
+        missingCount++;
+      }
+    });
   });
 
   if (missingCount === 0) {

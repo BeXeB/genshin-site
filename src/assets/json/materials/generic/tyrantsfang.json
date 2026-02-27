@@ -1,0 +1,12 @@
+{
+  "id": 112103,
+  "name": "Tyrant's Fang",
+  "rarity": 3,
+  "sortRank": 10635,
+  "description": "A sharp tooth that fell from a mighty Natlan Saurian.\nIts serrated edge and fearsome shape attest to the ferocity of its owner in battle. Among the many Saurians of Natlan, one with such a tooth must have been a ruthless tyrant indeed.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112103"
+  }
+}

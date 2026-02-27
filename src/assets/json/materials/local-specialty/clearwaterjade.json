@@ -1,0 +1,11 @@
+{
+  "id": 101241,
+  "name": "Clearwater Jade",
+  "sortRank": 312,
+  "description": "Jade from Chenyu Vale. Named for its cool, refreshing touch, that is much like clear water.",
+  "type": 3,
+  "typeText": "Local Specialty (Liyue)",
+  "images": {
+    "filename_icon": "UI_ItemIcon_101241"
+  }
+}

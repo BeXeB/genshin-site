@@ -1,0 +1,11 @@
+{
+  "id": 100029,
+  "name": "Silk Flower",
+  "sortRank": 312,
+  "description": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
+  "type": 3,
+  "typeText": "Local Specialty (Liyue)",
+  "images": {
+    "filename_icon": "UI_ItemIcon_100029"
+  }
+}

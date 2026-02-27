@@ -1,0 +1,12 @@
+{
+  "id": 112041,
+  "name": "Fragile Bone Shard",
+  "rarity": 2,
+  "sortRank": 10114,
+  "description": "A bone shard once carried by a Geovishap.\nAlthough they are quite fragile, they seem to still harbor some indescribable power.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112041"
+  }
+}

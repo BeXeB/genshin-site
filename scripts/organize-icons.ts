@@ -21,6 +21,12 @@ const ARTIFACT_TARGET_DIR = path.join(
   '../src/assets/images/artifacts',
 );
 
+const MATERIAL_JSON_DIR = path.join(__dirname, '../src/assets/json/materials');
+const MATERIAL_TARGET_DIR = path.join(
+  __dirname,
+  '../src/assets/images/materials',
+);
+
 // --- Image mappings ---
 
 const CHARACTER_IMAGE_MAP: Record<string, string> = {
@@ -63,6 +69,10 @@ const ARTIFACT_IMAGE_MAP: Record<string, string> = {
   filename_sands: 'sands.png',
   filename_goblet: 'goblet.png',
   filename_circlet: 'circlet.png',
+};
+
+const MATERIAL_IMAGE_MAP: Record<string, string> = {
+  filename_icon: 'icon.png',
 };
 
 function ensureDir(dir: string) {
@@ -200,10 +210,6 @@ function organize() {
   // ARTIFACTS
   // ----------------------------
 
-  // ----------------------------
-  // ARTIFACTS
-  // ----------------------------
-
   const artifactFiles = fs.readdirSync(ARTIFACT_JSON_DIR);
 
   for (const file of artifactFiles) {
@@ -230,6 +236,50 @@ function organize() {
           lookup[imageName].push(
             path.join(artifactFolder, ARTIFACT_IMAGE_MAP[jsonKey]),
           );
+        }
+      }
+    }
+  }
+
+  // ----------------------------
+  // MATERIALS
+  // ----------------------------
+
+  const materialFolders = fs
+    .readdirSync(MATERIAL_JSON_DIR)
+    .filter((f) => fs.statSync(path.join(MATERIAL_JSON_DIR, f)).isDirectory());
+
+  for (const folder of materialFolders) {
+    if (folder === 'crafts') continue;
+
+    const folderPath = path.join(MATERIAL_JSON_DIR, folder);
+    const materialFiles = fs.readdirSync(folderPath);
+
+    for (const file of materialFiles) {
+      if (!file.endsWith('.json')) continue;
+      if (file === 'index.json') continue;
+
+      const materialName = path.parse(file).name;
+      const materialJsonPath = path.join(folderPath, file);
+
+      const materialData = JSON.parse(
+        fs.readFileSync(materialJsonPath, 'utf-8'),
+      );
+
+      if (materialData.images) {
+        for (const [jsonKey, filename] of Object.entries(materialData.images)) {
+          if (MATERIAL_IMAGE_MAP[jsonKey] && filename) {
+            const imageName = filename as string;
+
+            if (!lookup[imageName]) {
+              lookup[imageName] = [];
+            }
+
+            // materialname.png (not icon.png)
+            lookup[imageName].push(
+              path.join(MATERIAL_TARGET_DIR, folder, `${materialName}.png`),
+            );
+          }
         }
       }
     }

@@ -1,0 +1,11 @@
+{
+  "id": 100055,
+  "name": "Small Lamp Grass",
+  "sortRank": 311,
+  "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+  "type": 3,
+  "typeText": "Local Specialty (Mondstadt)",
+  "images": {
+    "filename_icon": "UI_ItemIcon_100055"
+  }
+}

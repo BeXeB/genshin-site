@@ -1,0 +1,12 @@
+{
+  "id": 112007,
+  "name": "Ominous Mask",
+  "rarity": 3,
+  "sortRank": 10602,
+  "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies.\nNo one really knows why hilichurls are so fascinated with masks. Some say that it's because they don't want to see their own reflections in the water.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112007"
+  }
+}

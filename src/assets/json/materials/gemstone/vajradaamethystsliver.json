@@ -1,0 +1,12 @@
+{
+  "id": 104141,
+  "name": "Vajrada Amethyst Sliver",
+  "rarity": 2,
+  "sortRank": 12105,
+  "description": "Character Ascension material.",
+  "type": 2,
+  "typeText": "Character Ascension Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_104141"
+  }
+}

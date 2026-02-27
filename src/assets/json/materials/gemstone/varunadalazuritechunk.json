@@ -1,0 +1,12 @@
+{
+  "id": 104123,
+  "name": "Varunada Lazurite Chunk",
+  "rarity": 4,
+  "sortRank": 12103,
+  "description": "Character Ascension material.\n\"My ideals have no stains.\nI must correct you. People here bear no sins in the eyes of the gods...\"",
+  "type": 2,
+  "typeText": "Character Ascension Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_104123"
+  }
+}

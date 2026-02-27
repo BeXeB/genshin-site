@@ -1,0 +1,12 @@
+{
+  "id": 112083,
+  "name": "Meshing Gear",
+  "rarity": 1,
+  "sortRank": 10629,
+  "description": "Clockwork meka's gear.\nIt is a crucial part of the meka's transmission structure. The whole system will malfunction if this gear is absent.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112083"
+  }
+}
