@@ -1,0 +1,18 @@
+{
+  "id": 104346,
+  "name": "Philosophies of Order",
+  "rarity": 4,
+  "sortRank": 13115,
+  "description": "Talent Level-Up Material.\nThe shield of the Nation of Water is order.\nAll law in Fontaine ultimately serves to maintain a stable order. Equity and justice come from order, and serve order. Like the still, ripple-less surface of the waters of Fontaine, order is the cornerstone of Fontaine's existence.",
+  "type": 0,
+  "typeText": "Character Talent Material",
+  "dropDomainName": "Domain of Mastery: Chiming Recitation",
+  "daysOfWeek": [
+    "Wednesday",
+    "Saturday",
+    "Sunday"
+  ],
+  "images": {
+    "filename_icon": "UI_ItemIcon_104346"
+  }
+}

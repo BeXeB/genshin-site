@@ -1,0 +1,12 @@
+{
+  "id": 113004,
+  "name": "Dvalin's Claw",
+  "rarity": 5,
+  "sortRank": 11101,
+  "description": "A claw from the Dragon of the East.\nIt once contained the shadow dragon Durin's vile poison, having torn through the latter's flesh in battle. Thanks to your purification and healing, it is no longer toxic.",
+  "type": 1,
+  "typeText": "Character Level-Up Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_113004"
+  }
+}

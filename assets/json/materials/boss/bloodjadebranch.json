@@ -1,0 +1,12 @@
+{
+  "id": 113018,
+  "name": "Bloodjade Branch",
+  "rarity": 5,
+  "sortRank": 11101,
+  "description": "Nurtured by the might of the dragon king, these bone branches glitter with strange, unique colors.\nHatred coursed through the natural streams and kissed the cold moonlight, and from them were these crystalline branches born and grown...\nEven though they were severed in battle, these branches steeped in dragon blood rustle as if eternally ill-at-ease.",
+  "type": 1,
+  "typeText": "Character Level-Up Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_113018"
+  }
+}

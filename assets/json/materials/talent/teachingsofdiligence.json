@@ -1,0 +1,18 @@
+{
+  "id": 104313,
+  "name": "Teachings of Diligence",
+  "rarity": 2,
+  "sortRank": 13105,
+  "description": "Talent Level-Up material.\nIndustriousness is the foundation of the land of Geo.\nDiligence is having the bravery and the strength to conquer mountains and seas and to pursue gold and prosperity through honest, hard work.",
+  "type": 0,
+  "typeText": "Character Talent Material",
+  "dropDomainName": "Domain of Mastery: Heart of the Flames",
+  "daysOfWeek": [
+    "Tuesday",
+    "Friday",
+    "Sunday"
+  ],
+  "images": {
+    "filename_icon": "UI_ItemIcon_104313"
+  }
+}

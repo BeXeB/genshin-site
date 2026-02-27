@@ -1,0 +1,18 @@
+{
+  "id": 114024,
+  "name": "Chunk of Aerosiderite",
+  "rarity": 5,
+  "sortRank": 15106,
+  "description": "Weapon Ascension Material.\nWhen Khaenri'ah was destroyed, a great sinner created endless monsters with dark, alien blood flowing through their veins. They rampaged across the land, destroying all in their paths. They were mutated lifeforms, and the mutations were caused by powers from beyond this world. The black serpentine dragon Durin that attacked Mondstadt was one such mutated being.",
+  "type": 4,
+  "typeText": "Weapon Ascension Material",
+  "dropDomainName": "Domain of Forgery: Trial Grounds of Thunder",
+  "daysOfWeek": [
+    "Wednesday",
+    "Saturday",
+    "Sunday"
+  ],
+  "images": {
+    "filename_icon": "UI_ItemIcon_114024"
+  }
+}

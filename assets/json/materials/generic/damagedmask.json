@@ -1,0 +1,12 @@
+{
+  "id": 112005,
+  "name": "Damaged Mask",
+  "rarity": 1,
+  "sortRank": 10602,
+  "description": "A broken bone mask that once belonged to some hilichurl.\nNow more broken than complete, it can no longer perform its primary function.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112005"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": 112069,
+  "name": "Chaos Module",
+  "rarity": 3,
+  "sortRank": 10124,
+  "description": "Comes from a now-inactive ancient Ruin Drake.\nThe dragons were once the most primitive and ancient bodily form of the supreme elements until they were defeated, conquered, or assimilated.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112069"
+  }
+}

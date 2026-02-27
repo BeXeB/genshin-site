@@ -1,0 +1,18 @@
+{
+  "id": 114037,
+  "name": "Copper Talisman of the Forest Dew",
+  "rarity": 2,
+  "sortRank": 15110,
+  "description": "Weapon Ascension Material.\nUnder the instructions of the First Sage, the ancestors of the forest people made these talismans using withered trees to commemorate the Lord of Verdure.\nThe talisman's shape was inspired by the forest dew. It symbolizes the permeation of wisdom into mortal minds.",
+  "type": 4,
+  "typeText": "Weapon Ascension Material",
+  "dropDomainName": "Domain of Forgery: Tainted Clouds",
+  "daysOfWeek": [
+    "Monday",
+    "Thursday",
+    "Sunday"
+  ],
+  "images": {
+    "filename_icon": "UI_ItemIcon_114037"
+  }
+}

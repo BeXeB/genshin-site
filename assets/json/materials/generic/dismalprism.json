@@ -1,0 +1,12 @@
+{
+  "id": 112050,
+  "name": "Dismal Prism",
+  "rarity": 2,
+  "sortRank": 10117,
+  "description": "This was once a prism that could polarize light, but has grown dull through the passing of years.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112050"
+  }
+}

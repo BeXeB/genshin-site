@@ -1,0 +1,12 @@
+{
+  "id": 112099,
+  "name": "Splintered Hilt",
+  "rarity": 3,
+  "sortRank": 10134,
+  "description": "A stone hilt obtained from an ancient statue.\nThe chips and grooves speak to the brutal battles its owner once weathered.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112099"
+  }
+}

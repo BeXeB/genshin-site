@@ -1,0 +1,12 @@
+{
+  "id": 104124,
+  "name": "Varunada Lazurite Gemstone",
+  "rarity": 5,
+  "sortRank": 12103,
+  "description": "Character Ascension material.\n\"My ideals have no stains.\nI must correct you. People here bear no sins in the eyes of the gods... Only laws and the Tribunal can judge someone.\nThey can judge even me. So praise my magnificence and purity.\"",
+  "type": 2,
+  "typeText": "Character Ascension Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_104124"
+  }
+}

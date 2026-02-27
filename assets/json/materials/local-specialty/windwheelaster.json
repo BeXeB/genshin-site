@@ -1,0 +1,11 @@
+{
+  "id": 100024,
+  "name": "Windwheel Aster",
+  "sortRank": 311,
+  "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
+  "type": 3,
+  "typeText": "Local Specialty (Mondstadt)",
+  "images": {
+    "filename_icon": "UI_ItemIcon_100024"
+  }
+}

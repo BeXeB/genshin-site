@@ -1,0 +1,12 @@
+{
+  "id": 112058,
+  "name": "Concealed Talon",
+  "rarity": 4,
+  "sortRank": 10119,
+  "description": "A sharp nail left behind by one of the Riftwolves.\nAll the marvels in the world must pale before \"Cretaceus,\" the greatest work of them all.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112058"
+  }
+}

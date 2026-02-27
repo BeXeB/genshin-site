@@ -1,0 +1,12 @@
+{
+  "id": 112139,
+  "name": "Hooked Beak of the Deep Shadow",
+  "rarity": 4,
+  "sortRank": 10145,
+  "description": "The remains of a fisher from beyond this world, left after its body dissolved.\nA birdlike, hook-shaped beak used by predators from beyond this world to store the biomass they seize.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112139"
+  }
+}

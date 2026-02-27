@@ -1,0 +1,11 @@
+{
+  "id": 101203,
+  "name": "Crystal Marrow",
+  "sortRank": 313,
+  "description": "A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
+  "type": 3,
+  "typeText": "Local Specialty (Inazuma)",
+  "images": {
+    "filename_icon": "UI_ItemIcon_101203"
+  }
+}

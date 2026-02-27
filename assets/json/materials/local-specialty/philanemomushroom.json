@@ -1,0 +1,11 @@
+{
+  "id": 100025,
+  "name": "Philanemo Mushroom",
+  "sortRank": 311,
+  "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+  "type": 3,
+  "typeText": "Local Specialty (Mondstadt)",
+  "images": {
+    "filename_icon": "UI_ItemIcon_100025"
+  }
+}

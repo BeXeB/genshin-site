@@ -1,0 +1,11 @@
+{
+  "id": 101253,
+  "name": "Withering Purpurbloom",
+  "sortRank": 316,
+  "description": "A flower, the leaves and petals of which look scorched and withered, that can often be seen in places where ash abounds.",
+  "type": 3,
+  "typeText": "Local Specialty (Natlan)",
+  "images": {
+    "filename_icon": "UI_ItemIcon_101253"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": 101250,
+  "name": "Saurian Claw Succulent",
+  "sortRank": 316,
+  "description": "A succulent shaped like the paw of a great animal.",
+  "type": 3,
+  "typeText": "Local Specialty (Natlan)",
+  "images": {
+    "filename_icon": "UI_ItemIcon_101250"
+  }
+}

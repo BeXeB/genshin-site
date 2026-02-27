@@ -1,0 +1,18 @@
+{
+  "id": 114014,
+  "name": "Lustrous Stone from Guyun",
+  "rarity": 3,
+  "sortRank": 15104,
+  "description": "Weapon Ascension Material.\nThe learned know that Guyun Stone Forest is far more than simply a miraculous sight on the sea to behold: It is the cemetery of the former gods of Liyue. Hatred and filth have periodically risen up from it, but all have been subdued by a demon-conquering young man.",
+  "type": 4,
+  "typeText": "Weapon Ascension Material",
+  "dropDomainName": "Domain of Forgery: Thundercloud Altar",
+  "daysOfWeek": [
+    "Monday",
+    "Thursday",
+    "Sunday"
+  ],
+  "images": {
+    "filename_icon": "UI_ItemIcon_114014"
+  }
+}

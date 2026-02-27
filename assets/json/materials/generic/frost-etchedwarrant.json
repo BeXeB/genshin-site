@@ -1,0 +1,12 @@
+{
+  "id": 112127,
+  "name": "Frost-Etched Warrant",
+  "rarity": 3,
+  "sortRank": 10638,
+  "description": "A warrant issued to members of the Fatui Oprichniki.\nAdorned by a frost-colored crystal — a symbol of glory. One wonders what deeds its bearer must have performed to prove their loyalty and worth.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112127"
+  }
+}

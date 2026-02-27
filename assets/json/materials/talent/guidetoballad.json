@@ -1,0 +1,18 @@
+{
+  "id": 104308,
+  "name": "Guide to Ballad",
+  "rarity": 3,
+  "sortRank": 13103,
+  "description": "Talent Level-Up material.\nPoetry is the soul of the land of the wind.\nPoetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm.",
+  "type": 0,
+  "typeText": "Character Talent Material",
+  "dropDomainName": "Domain of Mastery: Realm of Slumber",
+  "daysOfWeek": [
+    "Wednesday",
+    "Saturday",
+    "Sunday"
+  ],
+  "images": {
+    "filename_icon": "UI_ItemIcon_104308"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": 112136,
+  "name": "Mistshroud Helmet",
+  "rarity": 4,
+  "sortRank": 10144,
+  "description": "A helmet found in the mists of the Wild Hunt.\nPerhaps because the sullying presence from beyond this world has fed from the memories of the Ley Lines, its shape appears oddly similar to the relics of a lost kingdom.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112136"
+  }
+}

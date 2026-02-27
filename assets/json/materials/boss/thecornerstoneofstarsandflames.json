@@ -1,0 +1,12 @@
+{
+  "id": 113063,
+  "name": "The Cornerstone of Stars and Flames",
+  "rarity": 5,
+  "sortRank": 11101,
+  "description": "\"Heroes ignite the sacred flame, illuminating the world, yet eventually they shall rest, nestled among the stars.\"\n\"They left behind a stone, a weaving. With these as our foundation, we have erected an everlasting civilization.\"",
+  "type": 1,
+  "typeText": "Character Level-Up Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_113063"
+  }
+}

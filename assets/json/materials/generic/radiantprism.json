@@ -1,0 +1,12 @@
+{
+  "id": 112073,
+  "name": "Radiant Prism",
+  "rarity": 4,
+  "sortRank": 10125,
+  "description": "An exquisite component obtained from defeating a Primal Construct.\nThe lord of the barren desert once had a dream, and once made a great many promises.\nThe legends of the desert say that these machines were originally vehicles for these unknown promises, which now live on only within their mechanical memory banks.",
+  "type": 5,
+  "typeText": "Character and Weapon Enhancement Material",
+  "images": {
+    "filename_icon": "UI_ItemIcon_112073"
+  }
+}
