@@ -3,7 +3,8 @@
     <img [src]="imageUrl" />
     <div>{{ constellation?.name }}</div>
   </div>
-  <div class="constellation-description">
-    {{ constellation?.description }}
-  </div>
+  <div
+    class="constellation-description"
+    [innerHTML]="getFormattedDescription(constellation?.descriptionRaw)"
+  ></div>
 </div>
