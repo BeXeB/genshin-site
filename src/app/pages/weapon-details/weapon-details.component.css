@@ -1,0 +1,174 @@
+.weapon-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.weapon-card {
+  flex: 1;
+  border-radius: 13px;
+  border: 1px solid var(--dark-gray);
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.weapon-stats {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px 0px 10px;
+  border-bottom: 1px solid var(--dark-gray);
+}
+
+.weapon-card img {
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+}
+
+.card-bottom {
+  padding: 10px;
+}
+
+.weapon-desc {
+  font-style: italic;
+}
+
+.weapon-name {
+  font-size: 1.2em;
+  color: var(--light-gray);
+  margin-bottom: 8px;
+}
+
+.effect-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.refinement-selector {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.ref-btn {
+  width: 30px;
+  height: 30px;
+}
+
+.effect-name {
+  color: var(--light-gray);
+}
+
+.effect {
+  margin-bottom: 15px;
+}
+
+.level-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex: 1;
+}
+
+.level-slider {
+  flex: 1;
+  cursor: pointer;
+  padding: 0 5px;
+  margin: 0;
+
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+}
+
+.level-slider {
+  box-shadow: none;
+}
+
+.level-input {
+  width: 50px;
+  text-align: right;
+  padding: 0px 5px;
+}
+
+.level-slider::-webkit-slider-runnable-track {
+  height: 4px;
+  background: var(--dark-gray);
+  border-radius: 5px;
+}
+.level-slider::-moz-range-track {
+  height: 4px;
+  background: var(--dark-gray);
+  border-radius: 5px;
+}
+
+.level-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  background: var(--gray);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+.level-slider::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  background: var(--gray);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+.level-slider::-moz-range-progress {
+  background: var(--gray);
+  height: 4px;
+  border-radius: 5px;
+}
+
+.level-slider::-webkit-progress-value {
+  background: var(--gray);
+  height: 4px;
+  border-radius: 5px;
+}
+
+.weapon-story {
+  flex: 1;
+  border-radius: 13px;
+  border: 1px solid var(--dark-gray);
+  padding: 10px;
+}
+
+.story-header {
+  color: var(--light-gray);
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}

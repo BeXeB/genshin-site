@@ -16,7 +16,6 @@ import { PageTitleComponent } from '../../_components/page-title/page-title.comp
 export class CharactersComponent implements OnInit {
   constructor(
     private characterService: CharacterService,
-    private router: Router,
   ) {}
 
   elements: string[] = [

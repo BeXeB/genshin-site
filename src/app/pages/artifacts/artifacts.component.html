@@ -1,1 +1,78 @@
-<p>artifacts works!</p>
+<div class="container">
+  <app-page-title [title]="'Artifaktok'" [backLink]="'/'"></app-page-title>
+  <div class="search-bar">
+    <div class="filters-section">
+      <button
+        class="filters-button"
+        [class.active]="showFiltersDropdown"
+        (click)="toggleFiltersDropdown()"
+      >
+        Szűrők
+      </button>
+      @if (showFiltersDropdown) {
+        <div class="filters-dropdown">
+          <div class="filter-group">
+            <p>Ritkaság</p>
+            <div>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('5')"
+                (click)="toggleFilter(rarityFilters, '5')"
+              >
+                5-Csillagos
+              </button>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('4')"
+                (click)="toggleFilter(rarityFilters, '4')"
+              >
+                4-Csillagos
+              </button>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('3')"
+                (click)="toggleFilter(rarityFilters, '3')"
+              >
+                3-Csillagos
+              </button>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('2')"
+                (click)="toggleFilter(rarityFilters, '2')"
+              >
+                2-Csillagos
+              </button>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('1')"
+                (click)="toggleFilter(rarityFilters, '1')"
+              >
+                1-Csillagos
+              </button>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+    <input
+      type="text"
+      placeholder="Artifaktok keresése..."
+      [(ngModel)]="searchTerm"
+      (ngModelChange)="onSearchTermChange()"
+    />
+  </div>
+  <div class="artifacts">
+    @for (artifact of artifacts; track $index) {
+      <div
+        [routerLink]="`/artifacts/${artifact.normalizedName}`"
+        class="artifact-card"
+        [style.display]="
+          filteredArtifacts.includes(artifact) ? 'block' : 'none'
+        "
+        [style.border-color]="rarityColor[getMaxRarity(artifact)]"
+      >
+        <img [src]="getImage(artifact)" [title]="artifact.name" />
+      </div>
+    }
+  </div>
+</div>

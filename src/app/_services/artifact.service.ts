@@ -1,25 +1,25 @@
-import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
 import { forkJoin, Observable, of, switchMap } from 'rxjs';
-import { Weapon } from '../_models/weapons';
+import { ArtifactSet } from '../_models/artifacts';
 
 @Injectable({
   providedIn: 'root',
 })
-export class WeaponService {
-  private basePath = 'assets/json/weapons';
+export class ArtifactService {
+  private basePath = 'assets/json/artifacts';
 
   constructor(private http: HttpClient) {}
 
-  getWeapons(): Observable<Weapon[]> {
+  getArtifacts(): Observable<ArtifactSet[]> {
     return this.http.get<string[]>(`${this.basePath}/index.json`).pipe(
       switchMap((names) => {
         if (!names || names.length === 0) {
-          return of([] as Weapon[]);
+          return of([] as ArtifactSet[]);
         }
 
         const requests = names.map((name) =>
-          this.http.get<Weapon>(`${this.basePath}/${name}.json`),
+          this.http.get<ArtifactSet>(`${this.basePath}/${name}.json`),
         );
 
         return forkJoin(requests);
@@ -27,7 +27,7 @@ export class WeaponService {
     );
   }
 
-  getWeapon(slug: string): Observable<Weapon> {
-    return this.http.get<Weapon>(`${this.basePath}/${slug}.json`);
+  getArtifact(slug: string): Observable<ArtifactSet> {
+    return this.http.get<ArtifactSet>(`${this.basePath}/${slug}.json`);
   }
 }

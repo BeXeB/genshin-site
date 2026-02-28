@@ -1,0 +1,11 @@
+<div [style.border-color]="rarityColor" class="weapon">
+  <div class="icons">
+    <div class="icon">
+      <img [src]="typeUrl" alt="" />
+    </div>
+  </div>
+  <div class="weapon-icon">
+    <img [src]="iconUrl" [alt]="weapon?.name" [title]="weapon?.name" />
+  </div>
+  <p>{{ weapon?.name }}</p>
+</div>

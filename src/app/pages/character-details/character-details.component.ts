@@ -6,6 +6,7 @@ import { CharacterOverviewComponent } from './character-overview/character-overv
 import { CharacterResolved } from '../../_models/character';
 import { CharacterGuideComponent } from './character-guide/character-guide.component';
 import { ResolverService } from '../../_services/resolver.service';
+import { map, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-character-details',
@@ -29,12 +30,19 @@ export class CharacterDetailsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const name = this.route.snapshot.paramMap.get('name');
+    const name = this.route.snapshot.paramMap.get('slug');
     if (!name) return;
     this.apikey = name;
-    this.characterService.getCharacterDetails(name).subscribe((data) => {
-      this.char = this.resolverService.resolveCharacter(data);
-    });
+
+    this.resolverService
+      .initialize()
+      .pipe(
+        switchMap(() => this.characterService.getCharacterDetails(name)),
+        map((data) => this.resolverService.resolveCharacter(data)),
+      )
+      .subscribe((resolvedChar) => {
+        this.char = resolvedChar;
+      });
   }
 
   getElementColor(): string {

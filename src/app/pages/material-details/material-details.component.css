@@ -1,0 +1,70 @@
+.material-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid var(--dark-gray);
+  border-radius: 13px;
+  padding: 20px;
+}
+
+.material-card {
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  padding: 20px 10px;
+}
+
+.material-card img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.name {
+  font-size: 1.1em;
+  color: var(--light-gray);
+  margin-bottom: 5px;
+}
+
+.farm {
+  margin-top: 8px;
+}
+
+.farm .where,
+.farm .when {
+  color: var(--light-gray);
+}
+
+.craft {
+  flex: 1;
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.material-craft {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: left;
+}
+
+.craft-mat img {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  display: block;
+}
+
+.craft-mat .amount {
+  text-align: center;
+  background-color: var(--dark-gray);
+  padding: 5px;
+}
+
+.craft-mat {
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+}

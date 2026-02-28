@@ -1,0 +1,73 @@
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.filters-section {
+  position: relative;
+}
+
+.filters-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.filters-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--black);
+  border: 1px solid var(--dark-gray);
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 5px;
+  z-index: 99;
+
+  max-width: 380px;
+  width: max-content;
+}
+
+.filter-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group p {
+  margin: 0 0 10px 0;
+}
+
+.filter-group > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.search-bar input {
+  padding: 10px 15px;
+  flex: 1;
+}
+
+.weapons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 20px;
+}

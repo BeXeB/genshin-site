@@ -2,7 +2,11 @@ import { Injectable } from '@angular/core';
 import { MaterialService } from './material.service';
 import { CharacterService } from './character.service';
 import { WeaponService } from './weapon.service';
-import { Material, MaterialCraft } from '../_models/materials';
+import {
+  Material,
+  MaterialCraft,
+  MaterialResolved,
+} from '../_models/materials';
 import { forkJoin, map, Observable, tap } from 'rxjs';
 import { ResolvedItem, Item } from '../_models/items';
 import {
@@ -11,6 +15,7 @@ import {
   CharacterResolved,
   CharacterTalentsResolved,
 } from '../_models/character';
+import { Weapon, WeaponResolved } from '../_models/weapons';
 
 @Injectable({
   providedIn: 'root',
@@ -18,24 +23,34 @@ import {
 export class ResolverService {
   public materialMap = new Map<number, Material>();
   public craftMap = new Map<number, MaterialCraft>();
+  private initialized = false;
+  private init$?: Observable<void>;
 
-  constructor(
-    private materialService: MaterialService,
-    private characterService: CharacterService,
-    private weaponService: WeaponService,
-  ) {}
+  constructor(private materialService: MaterialService) {}
 
   initialize(): Observable<void> {
-    return forkJoin({
-      materials: this.materialService.getMaterials(),
-      crafts: this.materialService.getMaterialCrafts(),
-    }).pipe(
-      tap(({ materials, crafts }) => {
-        materials.forEach((m) => this.materialMap.set(m.id, m));
-        crafts.forEach((c) => this.craftMap.set(c.id, c));
-      }),
-      map(() => void 0),
-    );
+    if (this.initialized) {
+      return new Observable((observer) => {
+        observer.next();
+        observer.complete();
+      });
+    }
+
+    if (!this.init$) {
+      this.init$ = forkJoin({
+        materials: this.materialService.getMaterials(),
+        crafts: this.materialService.getMaterialCrafts(),
+      }).pipe(
+        tap(({ materials, crafts }) => {
+          materials.forEach((m) => this.materialMap.set(m.id, m));
+          crafts.forEach((c) => this.craftMap.set(c.id, c));
+          this.initialized = true;
+        }),
+        map(() => void 0),
+      );
+    }
+
+    return this.init$;
   }
 
   resolveItems(items: Item[]): ResolvedItem[] {
@@ -66,6 +81,32 @@ export class ResolverService {
     };
   }
 
+  resolveMaterial(material: Material): MaterialResolved {
+    const resolvedMaterial = this.materialMap.get(material.id) ?? material;
+
+    const craftData = this.craftMap.get(material.id);
+
+    const craft = craftData
+      ? {
+          recipe: craftData.recipe.map((r) =>
+            this.resolveItem({ id: r.id, name: r.name, count: r.count }),
+          ),
+          moraCost: craftData?.moraCost,
+          resultCount: craftData?.resultCount,
+        }
+      : undefined;
+
+    return {
+      ...resolvedMaterial,
+      craftable: !!craftData,
+      craft,
+    };
+  }
+
+  resolveMaterials(materials: Material[]): MaterialResolved[] {
+    return materials.map((m) => this.resolveMaterial(m));
+  }
+
   resolveCharacter(char: Character): CharacterResolved {
     return {
       ...char,
@@ -90,5 +131,18 @@ export class ResolverService {
           }
         : undefined,
     };
+  }
+
+  resolveWeapon(weapon: Weapon): WeaponResolved {
+    return {
+      ...weapon,
+      costs: Object.fromEntries(
+        Object.entries(weapon.costs).map(([k, v]) => [k, this.resolveItems(v)]),
+      ) as WeaponResolved['costs'],
+    };
+  }
+
+  resolveWeapons(weapons: Weapon[]): WeaponResolved[] {
+    return weapons.map((w) => this.resolveWeapon(w));
   }
 }

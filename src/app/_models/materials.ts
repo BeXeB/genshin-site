@@ -31,7 +31,11 @@ export type MaterialCraft = {
 
 export type MaterialResolved = Material & {
   craftable?: boolean;
-  craftFrom?: ResolvedItem[];
+  craft?: {
+    recipe: ResolvedItem[];
+    moraCost: number;
+    resultCount: number;
+  };
 };
 
 export type MaterialCraftResolved = Omit<MaterialCraft, 'recipe'> & {

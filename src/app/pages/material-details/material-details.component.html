@@ -1,0 +1,63 @@
+<div class="container">
+  <app-page-title
+    backLink="/materials"
+    title="Material Részletek"
+  ></app-page-title>
+  @if (material) {
+    <div class="material-container">
+      <div class="material-card">
+        <img
+          [title]="material.name"
+          [src]="
+            `assets/images/materials/${material.type}/${material.normalizedName}.webp`
+          "
+        />
+        <div class="details">
+          <div class="name">{{ material.name }}</div>
+          <div
+            class="description"
+            [innerHTML]="toHtml(material.description)"
+          ></div>
+          @if (material.daysOfWeek) {
+            <div class="farm">
+              <div>
+                Domain: <span class="where">{{ material.dropDomainName }}</span>
+              </div>
+              <div>
+                Days:
+                <span class="when">{{ material.daysOfWeek.join(", ") }}</span>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+      @if (material.craftable) {
+        <div class="craft">
+          <div class="name">Craftolható:</div>
+          <div class="material-craft">
+            @for (cMat of material.craft?.recipe; track $index) {
+              <div class="craft-mat">
+                <img
+                  [title]="cMat.material.name"
+                  [src]="
+                    `assets/images/materials/${cMat.material.type}/${cMat.material.normalizedName}.webp`
+                  "
+                />
+                <div class="amount">{{ cMat.count }}</div>
+              </div>
+            }
+            <div class="craft-mat">
+              <img
+                [title]="mora?.name"
+                [src]="
+                  `assets/images/materials/${mora?.type}/${mora?.normalizedName}.webp`
+                "
+              />
+              <div class="amount">{{ material.craft?.moraCost }}</div>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  }
+</div>

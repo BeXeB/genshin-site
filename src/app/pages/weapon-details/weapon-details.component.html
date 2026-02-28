@@ -1,0 +1,89 @@
+<div class="container">
+  <app-page-title
+    backLink="/weapons"
+    title="Fegyver Részletek"
+  ></app-page-title>
+  @if (weapon) {
+    <div class="weapon-container">
+      <div class="weapon-card">
+        <div class="card-header">
+          <div class="weapon-stats">
+            <div class="weapon-name">{{ weapon.name }}</div>
+            <div class="stat-row">
+              <span class="label">Szint</span>
+              <div class="level-controls">
+                <input
+                  type="range"
+                  min="0"
+                  max="{{ quickLevels.length - 1 }}"
+                  [(ngModel)]="levelIndex"
+                  (input)="updateLevelFromIndex()"
+                  class="level-slider"
+                />
+                <datalist id="level-ticks">
+                  @for (lvl of quickLevels; track lvl) {
+                    <option [value]="lvl"></option>
+                  }
+                </datalist>
+                <input
+                  type="text"
+                  [(ngModel)]="level"
+                  (change)="validateLevel()"
+                  class="level-input"
+                />
+              </div>
+            </div>
+            <div class="stat-row">
+              <span class="label">Alap ATK</span>
+              <span class="value">{{
+                weapon.stats[level].attack | number: "1.0-0"
+              }}</span>
+            </div>
+            <div class="stat-row">
+              <span class="label">{{ weapon.mainStatText }}</span>
+              <span class="value"
+                >{{
+                  (weapon.stats[level].specialized ?? 0) * 100
+                    | number: "1.2-2"
+                }}%</span
+              >
+            </div>
+          </div>
+          <div class="image">
+            <img
+              [src]="`assets/images/weapons/${weapon.normalizedName}/icon.webp`"
+            />
+          </div>
+        </div>
+        <div class="card-bottom">
+          <div class="effect">
+            <div class="effect-header">
+              <div class="effect-name">{{ weapon.effectName }}</div>
+              <div class="refinement-selector">
+                @for (ref of [1, 2, 3, 4, 5]; track ref) {
+                  <button
+                    type="button"
+                    class="ref-btn"
+                    [class.active]="selectedRefine === ref"
+                    (click)="selectedRefine = ref"
+                  >
+                    R{{ ref }}
+                  </button>
+                }
+              </div>
+            </div>
+            <div
+              class="effect-text"
+              [innerHTML]="effectToHtml(weapon[refinements[selectedRefine]])"
+            ></div>
+          </div>
+          <div class="weapon-desc">{{ weapon.description }}</div>
+        </div>
+      </div>
+      <div class="weapon-story">
+        <div class="story-header">Story</div>
+        <div class="story-text" [innerHTML]="toHtml(weapon.story)"></div>
+      </div>
+    </div>
+  }
+</div>

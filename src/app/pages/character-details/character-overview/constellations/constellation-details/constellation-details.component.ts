@@ -44,8 +44,6 @@ export class ConstellationDetailsComponent {
     const formattedDescription: SafeHtml =
       this.sanitizer.bypassSecurityTrustHtml(htmlString);
 
-    console.log(formattedDescription)
-
     return formattedDescription;
   }
 }

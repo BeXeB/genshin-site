@@ -1,0 +1,41 @@
+.materials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px 15px;
+  flex: 1;
+}
+
+.material-card {
+  max-width: 120px;
+  border: 1px solid var(--dark-gray);
+  border-radius: 13px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.material-card:hover {
+  border-color: var(--gray);
+  box-shadow: 0 0 14px var(--shadow-blue);
+}
+
+.material-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 1;
+}

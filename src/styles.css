@@ -1,6 +1,7 @@
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('assets/fonts/JetBrainsMono/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-family: "JetBrains Mono";
+  src: url("assets/fonts/JetBrainsMono/fonts/webfonts/JetBrainsMono-Regular.woff2")
+    format("woff2");
 }
 
 :root {
@@ -20,13 +21,19 @@
   --dendro: #b5dd47;
   --cryo: #88dbdc;
   --geo: #e3cd65;
+
+  --rar-1: #3a3d42;
+  --rar-2: #1b4d2a;
+  --rar-3: #0f3f73;
+  --rar-4: #3d1a5f;
+  --rar-5: #7a4b00;
 }
 
 body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   background-color: var(--black);
   color: var(--white);
 }
@@ -69,16 +76,21 @@ button.active {
   border-color: var(--blue);
   box-shadow: 0 0 8px var(--shadow-blue);
   background-color: var(--darker-gray);
-  transition: border-color 0.2s, background-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    background-color 0.2s,
+    box-shadow 0.2s;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   background-color: var(--darker-gray);
   color: var(--white);
   border: 1px solid var(--dark-gray);
   border-radius: 6px;
   padding: 8px 12px;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: 14px;
   outline: none;
   transition: all 0.2s ease-in-out;
@@ -86,18 +98,25 @@ input, textarea, select {
   box-sizing: border-box;
 }
 
-input:hover, textarea:hover, select:hover,
-input:focus, textarea:focus, select:focus {
+input:hover,
+textarea:hover,
+select:hover,
+input:focus,
+textarea:focus,
+select:focus {
   border-color: var(--blue);
   box-shadow: 0 0 8px var(--shadow-blue);
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: var(--light-gray);
   opacity: 0.7;
 }
 
-input:disabled, textarea:disabled, select:disabled {
+input:disabled,
+textarea:disabled,
+select:disabled {
   background-color: var(--gray);
   color: var(--light-gray);
   cursor: not-allowed;
@@ -108,7 +127,9 @@ textarea {
   min-height: 80px;
 }
 
-input.error, textarea.error, select.error {
+input.error,
+textarea.error,
+select.error {
   border-color: #ff4c4c;
   box-shadow: 0 0 6px rgba(255, 76, 76, 0.5);
 }

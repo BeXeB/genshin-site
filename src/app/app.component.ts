@@ -12,10 +12,4 @@ import { ResolverService } from './_services/resolver.service';
 })
 export class AppComponent {
   title = 'genshin-site';
-
-  constructor(private resolverService: ResolverService) {}
-
-  ngOnInit() {
-    this.resolverService.initialize().subscribe();
-  }
 }

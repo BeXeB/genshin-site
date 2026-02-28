@@ -150,8 +150,6 @@ export class TierlistMakerComponent implements OnInit {
   }
 
   drop(event: CdkDragDrop<any[]>) {
-    const movedItem = event.previousContainer.data[event.previousIndex];
-    console.log('Character being moved:', movedItem);
     if (event.previousContainer === event.container) {
       moveItemInArray(
         event.container.data,

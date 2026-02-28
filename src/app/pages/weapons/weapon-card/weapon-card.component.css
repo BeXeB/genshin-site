@@ -1,4 +1,4 @@
-.character {
+.weapon {
   max-width: 120px;
   border: 1px solid var(--dark-gray);
   border-radius: 13px;
@@ -7,24 +7,23 @@
   overflow: hidden;
 }
 
-.character:hover {
+.weapon:hover {
   border-color: var(--gray);
   box-shadow: 0 0 14px var(--shadow-blue);
 }
 
-.character-icon {
+.weapon-icon {
   margin: 15px 0px 25px;
   width: 100%;
   z-index: 1;
 }
 
-.character-icon img {
+.weapon-icon img {
   width: 100%;
   height: auto;
   display: block;
   z-index: 1;
 }
-
 
 .icons {
   width: 100%;
@@ -42,17 +41,13 @@
   margin: 5px;
 }
 
-.element img {
-  mix-blend-mode: multiply;
-}
-
 .icon img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.character p {
+.weapon p {
   text-align: center;
   margin: 0;
   position: absolute;
@@ -60,11 +55,12 @@
   left: 0;
   width: 100%;
   padding: 8px 0;
+  font-size: 0.8em;
 
   z-index: 3;
 }
 
-.character::after {
+.weapon::after {
   content: "";
   position: absolute;
   left: 0;
@@ -73,10 +69,9 @@
   height: 150px;
 
   background: linear-gradient(
-    var(--black) 5%,
-    transparent 25%,
-    transparent 55%,
-    var(--black) 75%
+    transparent,
+    transparent 50%,
+    var(--black) 80%
   );
 
   z-index: 2;

@@ -1,0 +1,87 @@
+.artifact-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.set-card {
+  flex: 1;
+  border: 1px solid var(--dark-gray);
+  border-radius: 13px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.set-name {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.set-effects {
+  border-top: 1px solid var(--dark-gray);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.set-effect {
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.effect-name {
+  font-size: 1.1em;
+  color: var(--light-gray);
+  margin-bottom: 5px;
+}
+
+.pieces {
+  flex: 2;
+  border: 1px solid var(--dark-gray);
+  border-radius: 13px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  gap: 10px;
+}
+
+.artifact-piece {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.artifact-piece img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.piece-name {
+  font-size: 1.1em;
+  color: var(--light-gray);
+  margin-bottom: 5px;
+}
+
+.piece-story {
+  font-size: 1em;
+  color: var(--light-gray);
+  margin: 5px 0;
+}
+
+.piece-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.piece-subtext {
+  font-style: italic;
+}

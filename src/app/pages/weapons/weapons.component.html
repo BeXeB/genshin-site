@@ -1,1 +1,88 @@
-<p>weapons works!</p>
+<div class="container">
+  <app-page-title backLink="/" title="Fegyverek"></app-page-title>
+  <div class="search-bar">
+    <div class="filters-section">
+      <button
+        class="filters-button"
+        [class.active]="showFiltersDropdown"
+        (click)="toggleFiltersDropdown()"
+      >
+        Szűrők
+      </button>
+      @if (showFiltersDropdown) {
+        <div class="filter-group">
+          <p>Tipus</p>
+          <div>
+            @for (wType of weaponTypes; track $index) {
+              <button
+                class="filter-btn"
+                [class.active]="weaponFilters.includes(wType)"
+                (click)="toggleFilter(weaponFilters, wType)"
+              >
+                {{ wType }}
+              </button>
+            }
+          </div>
+        </div>
+        <div class="filters-dropdown">
+          <div class="filter-group">
+            <p>Ritkaság</p>
+            <div>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('5')"
+                (click)="toggleFilter(rarityFilters, '5')"
+              >
+                5-Csillagos
+              </button>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('4')"
+                (click)="toggleFilter(rarityFilters, '4')"
+              >
+                4-Csillagos
+              </button>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('3')"
+                (click)="toggleFilter(rarityFilters, '3')"
+              >
+                3-Csillagos
+              </button>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('2')"
+                (click)="toggleFilter(rarityFilters, '2')"
+              >
+                2-Csillagos
+              </button>
+              <button
+                class="filter-btn"
+                [class.active]="rarityFilters.includes('1')"
+                (click)="toggleFilter(rarityFilters, '1')"
+              >
+                1-Csillagos
+              </button>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+    <input
+      type="text"
+      placeholder="Fegyverek keresése..."
+      [(ngModel)]="searchTerm"
+      (ngModelChange)="onSearchTermChange()"
+    />
+  </div>
+  <div class="weapons">
+    @for (weapon of weapons; track $index) {
+      <app-weapon-card
+        [routerLink]="`/weapons/${weapon.normalizedName}`"
+        [style.display]="filteredWeapons.includes(weapon) ? 'block' : 'none'"
+        [weapon]="weapon"
+        [rarityColor]="rarityColor[weapon.rarity]"
+      ></app-weapon-card>
+    }
+  </div>
+</div>

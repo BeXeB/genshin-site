@@ -3,7 +3,7 @@ import { CharacterResolved } from '../../../../_models/character';
 import { DecimalPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Material } from '../../../../_models/materials';
-import { RouterLink } from "@angular/router";
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-overview-profile',
@@ -86,7 +86,6 @@ export class OverviewProfileComponent implements OnInit {
     this.level = level;
 
     const index = this.quickLevels.indexOf(level);
-    console.log('Setting level to:', level, 'Index found:', index);
 
     const closestIndex = this.quickLevels.reduce((closest, current, idx) => {
       const currentNum = parseInt(current);

@@ -1,0 +1,107 @@
+<div class="container">
+  <app-page-title
+    backLink="/artifacts"
+    title="Artifakt Részletek"
+  ></app-page-title>
+  <div class="artifact-container">
+    <div class="set-card">
+      <div class="set-name">{{ artifact?.name }}</div>
+      <div class="set-effects">
+        @if (artifact?.effect1Pc) {
+          <div class="set-effect">
+            <div class="effect-name">1 Darabos Effekt</div>
+            <div class="effect-details">{{ artifact?.effect1Pc }}</div>
+          </div>
+        } @else {
+          <div class="set-effect">
+            <div class="effect-name">2 Darabos Effekt</div>
+            <div class="effect-details">{{ artifact?.effect2Pc }}</div>
+          </div>
+          <div class="set-effect">
+            <div class="effect-name">4 Darabos Effekt</div>
+            <div class="effect-details">{{ artifact?.effect4Pc }}</div>
+          </div>
+        }
+      </div>
+    </div>
+    <div class="pieces">
+      @if (artifact?.flower) {
+        <div class="artifact-piece">
+          <img
+            [src]="
+              `assets/images/artifacts/${artifact?.normalizedName}/flower.webp`
+            "
+          />
+          <div class="piece-desc">
+            <div class="piece-name">{{ artifact?.flower?.name }}</div>
+            <div class="piece-subtext">{{ artifact?.flower?.description }}</div>
+            <div class="piece-story">Story</div>
+            <div [innerHTML]="toHtml(artifact?.flower?.story)"></div>
+          </div>
+        </div>
+      }
+      @if (artifact?.plume) {
+        <div class="artifact-piece">
+          <img
+            [src]="
+              `assets/images/artifacts/${artifact?.normalizedName}/plume.webp`
+            "
+          />
+          <div class="piece-desc">
+            <div class="piece-name">{{ artifact?.plume?.name }}</div>
+            <div class="piece-subtext">{{ artifact?.plume?.description }}</div>
+            <div class="piece-story">Story</div>
+            <div [innerHTML]="toHtml(artifact?.plume?.story)"></div>
+          </div>
+        </div>
+      }
+      @if (artifact?.sands) {
+        <div class="artifact-piece">
+          <img
+            [src]="
+              `assets/images/artifacts/${artifact?.normalizedName}/sands.webp`
+            "
+          />
+          <div class="piece-desc">
+            <div class="piece-name">{{ artifact?.sands?.name }}</div>
+            <div class="piece-subtext">{{ artifact?.sands?.description }}</div>
+            <div class="piece-story">Story</div>
+            <div [innerHTML]="toHtml(artifact?.sands?.story)"></div>
+          </div>
+        </div>
+      }
+      @if (artifact?.goblet) {
+        <div class="artifact-piece">
+          <img
+            [src]="
+              `assets/images/artifacts/${artifact?.normalizedName}/goblet.webp`
+            "
+          />
+          <div class="piece-desc">
+            <div class="piece-name">{{ artifact?.goblet?.name }}</div>
+            <div class="piece-subtext">{{ artifact?.goblet?.description }}</div>
+            <div class="piece-story">Story</div>
+            <div [innerHTML]="toHtml(artifact?.goblet?.story)"></div>
+          </div>
+        </div>
+      }
+      @if (artifact?.circlet) {
+        <div class="artifact-piece">
+          <img
+            [src]="
+              `assets/images/artifacts/${artifact?.normalizedName}/circlet.webp`
+            "
+          />
+          <div class="piece-desc">
+            <div class="piece-name">{{ artifact?.circlet?.name }}</div>
+            <div class="piece-subtext">
+              {{ artifact?.circlet?.description }}
+            </div>
+            <div class="piece-story">Story</div>
+            <div [innerHTML]="toHtml(artifact?.circlet?.story)"></div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</div>
