@@ -7,6 +7,7 @@ import { WeaponCardComponent } from './weapon-card/weapon-card.component';
 import { RouterLink } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
 import { map, switchMap } from 'rxjs';
+import { StorageService } from '../../_services/storage.service';
 
 @Component({
   selector: 'app-weapons',
@@ -16,9 +17,11 @@ import { map, switchMap } from 'rxjs';
   styleUrl: './weapons.component.css',
 })
 export class WeaponsComponent implements OnInit {
+  private readonly FILTERS_KEY = 'weaponFilters';
   constructor(
     private weaponsService: WeaponService,
     private resolver: ResolverService,
+    private storageService: StorageService,
   ) {}
 
   rarityColor: Record<number, string> = {
@@ -30,6 +33,8 @@ export class WeaponsComponent implements OnInit {
   };
 
   ngOnInit(): void {
+    this.loadFilters();
+
     this.resolver
       .initialize()
       .pipe(
@@ -44,7 +49,7 @@ export class WeaponsComponent implements OnInit {
           return a.weaponType.localeCompare(b.weaponType);
         });
         this.weapons = sorted;
-        this.filteredWeapons = sorted;
+        this.onSearchTermChange();
       });
   }
 
@@ -69,6 +74,7 @@ export class WeaponsComponent implements OnInit {
       filterArray.push(value);
     }
     this.onSearchTermChange();
+    this.saveFilters();
   }
 
   onSearchTermChange(): void {
@@ -89,5 +95,29 @@ export class WeaponsComponent implements OnInit {
     }
 
     this.filteredWeapons = results;
+    this.saveFilters();
   }
+
+  private saveFilters(): void {
+    this.storageService.saveData<WeaponFilters>(this.FILTERS_KEY, {
+      weaponFilters: this.weaponFilters,
+      rarityFilters: this.rarityFilters,
+      searchTerm: this.searchTerm,
+    });
+  }
+
+  private loadFilters(): void {
+    const saved = this.storageService.getData<WeaponFilters>(this.FILTERS_KEY);
+    if (!saved) return;
+
+    this.weaponFilters = saved.weaponFilters ?? [];
+    this.rarityFilters = saved.rarityFilters ?? [];
+    this.searchTerm = saved.searchTerm ?? '';
+  }
+}
+
+interface WeaponFilters {
+  weaponFilters: string[];
+  rarityFilters: string[];
+  searchTerm: string;
 }

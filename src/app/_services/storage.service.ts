@@ -7,6 +7,24 @@ const STORAGE_KEY = 'tierlistData';
   providedIn: 'root',
 })
 export class StorageService {
+  saveData<T>(key: string, data: T): void {
+    try {
+      localStorage.setItem(key, JSON.stringify(data));
+    } catch (err) {
+      console.error(`Failed to save ${key}:`, err);
+    }
+  }
+
+  getData<T>(key: string): T | null {
+    try {
+      const item = localStorage.getItem(key);
+      return item ? (JSON.parse(item) as T) : null;
+    } catch (err) {
+      console.error(`Failed to load ${key}:`, err);
+      return null;
+    }
+  }
+
   saveTierlist(tierlist: Tierlist): void {
     try {
       const tiersWithoutProfile = tierlist.tiers.map((tier) => ({
@@ -29,9 +47,5 @@ export class StorageService {
       console.error('Failed to load tierlist:', err);
       return null;
     }
-  }
-
-  clearTierlist(): void {
-    localStorage.removeItem(STORAGE_KEY);
   }
 }

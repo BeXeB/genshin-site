@@ -4,6 +4,7 @@ import { ArtifactSet } from '../../_models/artifacts';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
+import { StorageService } from '../../_services/storage.service';
 
 @Component({
   selector: 'app-artifacts',
@@ -13,7 +14,11 @@ import { RouterLink } from '@angular/router';
   styleUrl: './artifacts.component.css',
 })
 export class ArtifactsComponent implements OnInit {
-  constructor(private artifactService: ArtifactService) {}
+  private readonly FILTERS_KEY = 'artifactFilters';
+  constructor(
+    private artifactService: ArtifactService,
+    private storageService: StorageService,
+  ) {}
 
   artifacts: ArtifactSet[] = [];
   filteredArtifacts: ArtifactSet[] = [];
@@ -31,13 +36,14 @@ export class ArtifactsComponent implements OnInit {
   };
 
   ngOnInit(): void {
+    this.loadFilters();
     this.artifactService.getArtifacts().subscribe((data) => {
       this.artifacts = data.sort((a, b) => {
         let maxA = this.getMaxRarity(a);
         let maxB = this.getMaxRarity(b);
         return maxA < maxB ? 1 : -1;
       });
-      this.filteredArtifacts = data;
+      this.onSearchTermChange();
     });
   }
 
@@ -53,6 +59,7 @@ export class ArtifactsComponent implements OnInit {
       filterArray.push(value);
     }
     this.onSearchTermChange();
+    this.saveFilters();
   }
 
   onSearchTermChange(): void {
@@ -69,6 +76,7 @@ export class ArtifactsComponent implements OnInit {
     }
 
     this.filteredArtifacts = results;
+    this.saveFilters();
   }
 
   getImage(artifact: ArtifactSet): string {
@@ -85,4 +93,27 @@ export class ArtifactsComponent implements OnInit {
 
     return max;
   }
+
+  private saveFilters(): void {
+    this.storageService.saveData<ArtifactFilters>(this.FILTERS_KEY, {
+      rarityFilters: this.rarityFilters,
+      searchTerm: this.searchTerm,
+    });
+  }
+
+  private loadFilters(): void {
+    const saved = this.storageService.getData<ArtifactFilters>(
+      this.FILTERS_KEY,
+    );
+
+    if (!saved) return;
+
+    this.rarityFilters = saved.rarityFilters ?? [];
+    this.searchTerm = saved.searchTerm ?? '';
+  }
+}
+
+interface ArtifactFilters {
+  rarityFilters: string[];
+  searchTerm: string;
 }

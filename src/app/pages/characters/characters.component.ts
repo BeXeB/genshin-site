@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { CharacterCardComponent } from '../../_components/character-card/character-card.component';
 import { FormsModule } from '@angular/forms';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
+import { StorageService } from '../../_services/storage.service';
 
 @Component({
   selector: 'app-characters',
@@ -14,8 +15,10 @@ import { PageTitleComponent } from '../../_components/page-title/page-title.comp
   styleUrl: './characters.component.css',
 })
 export class CharactersComponent implements OnInit {
+  private readonly FILTERS_KEY = 'characterFilters';
   constructor(
     private characterService: CharacterService,
+    private storageService: StorageService,
   ) {}
 
   elements: string[] = [
@@ -39,6 +42,7 @@ export class CharactersComponent implements OnInit {
   showFiltersDropdown: boolean = false;
 
   ngOnInit(): void {
+    this.loadFilters();
     this.characterService.getCharacters().subscribe((data) => {
       data = data.filter(
         (char) =>
@@ -51,7 +55,7 @@ export class CharactersComponent implements OnInit {
         b.version.localeCompare(a.version),
       );
       this.characterData = data;
-      this.filteredCharacters = data;
+      this.onSearchTermChange();
     });
   }
 
@@ -67,6 +71,7 @@ export class CharactersComponent implements OnInit {
       filterArray.push(value);
     }
     this.onSearchTermChange();
+    this.saveFilters();
   }
   onSearchTermChange(): void {
     let results = this.characterData.filter((char) =>
@@ -92,5 +97,33 @@ export class CharactersComponent implements OnInit {
     }
 
     this.filteredCharacters = results;
+    this.saveFilters();
   }
+  private saveFilters(): void {
+    this.storageService.saveData<CharacterFilters>(this.FILTERS_KEY, {
+      elementFilters: this.elementFilters,
+      weaponFilters: this.weaponFilters,
+      rarityFilters: this.rarityFilters,
+      searchTerm: this.searchTerm,
+    });
+  }
+
+  private loadFilters(): void {
+    const saved = this.storageService.getData<CharacterFilters>(
+      this.FILTERS_KEY,
+    );
+    if (!saved) return;
+
+    this.elementFilters = saved.elementFilters ?? [];
+    this.weaponFilters = saved.weaponFilters ?? [];
+    this.rarityFilters = saved.rarityFilters ?? [];
+    this.searchTerm = saved.searchTerm ?? '';
+  }
+}
+
+interface CharacterFilters {
+  elementFilters: string[];
+  weaponFilters: string[];
+  rarityFilters: string[];
+  searchTerm: string;
 }

@@ -6,6 +6,7 @@ import { MaterialResolved } from '../../_models/materials';
 import { ResolverService } from '../../_services/resolver.service';
 import { RouterLink } from '@angular/router';
 import { map, switchMap } from 'rxjs';
+import { StorageService } from '../../_services/storage.service';
 
 @Component({
   selector: 'app-materials',
@@ -14,9 +15,11 @@ import { map, switchMap } from 'rxjs';
   styleUrl: './materials.component.css',
 })
 export class MaterialsComponent implements OnInit {
+  private readonly FILTERS_KEY = 'materialFilter';
   constructor(
     private materialService: MaterialService,
     private resolver: ResolverService,
+    private storageService: StorageService,
   ) {}
 
   rarityColor: Record<number, string> = {
@@ -28,6 +31,7 @@ export class MaterialsComponent implements OnInit {
   };
 
   ngOnInit(): void {
+    this.loadFilters();
     this.resolver
       .initialize()
       .pipe(
@@ -44,7 +48,7 @@ export class MaterialsComponent implements OnInit {
           return rarityB - rarityA;
         });
         this.materials = sorted;
-        this.filteredMaterials = sorted;
+        this.onSearchTermChange();
       });
   }
 
@@ -59,9 +63,28 @@ export class MaterialsComponent implements OnInit {
     );
 
     this.filteredMaterials = results;
+    this.saveFilters();
   }
 
   getImage(material: MaterialResolved): string {
     return `assets/images/materials/${material.type}/${material.normalizedName}.webp`;
   }
+
+  private saveFilters(): void {
+    this.storageService.saveData<MaterialFilter>(this.FILTERS_KEY, {
+      searchTerm: this.searchTerm,
+    });
+  }
+
+  private loadFilters(): void {
+    const saved = this.storageService.getData<MaterialFilter>(this.FILTERS_KEY);
+
+    if (!saved) return;
+
+    this.searchTerm = saved.searchTerm ?? '';
+  }
+}
+
+interface MaterialFilter {
+  searchTerm: string;
 }
