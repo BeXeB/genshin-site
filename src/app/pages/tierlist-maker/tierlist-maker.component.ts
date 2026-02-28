@@ -15,6 +15,7 @@ import {
   Tierlist,
 } from '../../_models/tierlist';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
+import { StorageService } from '../../_services/storage.service';
 
 @Component({
   selector: 'app-tierlist-maker',
@@ -24,10 +25,16 @@ import { PageTitleComponent } from '../../_components/page-title/page-title.comp
   styleUrl: './tierlist-maker.component.css',
 })
 export class TierlistMakerComponent implements OnInit {
-  constructor(private characterSerivce: CharacterService) {}
+  constructor(
+    private characterSerivce: CharacterService,
+    private storageService: StorageService,
+  ) {}
 
   get allDropLists() {
-    return ['charactersList', ...this.tierlist.tiers.map((_, i) => 'tier-' + i)];
+    return [
+      'charactersList',
+      ...this.tierlist.tiers.map((_, i) => 'tier-' + i),
+    ];
   }
 
   characters: TierCharacter[] = [];
@@ -43,21 +50,32 @@ export class TierlistMakerComponent implements OnInit {
   selectedCharacter: TierCharacter | null = null;
 
   ngOnInit(): void {
-    this.characterSerivce.getCharacters().subscribe(
-      (data) =>
-        (this.characters = data
-          .filter((c) => c.name !== 'Manekina' && c.name !== 'Manekin')
-          .map((c) => ({
-            id: c.id,
-            apiKey: c.normalizedName,
-            tags: [],
-            profile: c,
-          }))),
-    );
+    const saved = this.storageService.loadTierlist();
+    if (saved) {
+      this.tierlist = saved;
+    }
+
+    this.characterSerivce.getCharacters().subscribe((data) => {
+      this.characters = data
+        .filter((c) => c.name !== 'Manekina' && c.name !== 'Manekin')
+        .map((c) => ({
+          id: c.id,
+          apiKey: c.normalizedName,
+          tags: [],
+          profile: c,
+        }));
+      this.characters = this.characters.filter(
+        (c) =>
+          !this.tierlist.tiers.some((t) =>
+            t.characters.some((c2) => c2.apiKey == c.apiKey),
+          ),
+      );
+    });
   }
 
   addTier() {
     this.tierlist.tiers.push({ tier: '', characters: [] });
+    this.storageService.saveTierlist(this.tierlist);
   }
 
   removeTier(tierToRemove: Tier) {
@@ -69,8 +87,8 @@ export class TierlistMakerComponent implements OnInit {
         this.characters.length,
       );
     }
-
     this.tierlist.tiers = this.tierlist.tiers.filter((t) => t !== tierToRemove);
+    this.storageService.saveTierlist(this.tierlist);
   }
 
   normalize(tag: string): string {
@@ -91,6 +109,7 @@ export class TierlistMakerComponent implements OnInit {
     this.tierlist.tags.push(newTag);
     this.newTagLabel = '';
     this.newTagColor = '#555555';
+    this.storageService.saveTierlist(this.tierlist);
   }
 
   removeTag(tagId: string) {
@@ -130,6 +149,8 @@ export class TierlistMakerComponent implements OnInit {
     this.selectedCharacter.tags = this.selectedCharacter.tags.filter(
       (t) => t.id !== tagId,
     );
+
+    this.storageService.saveTierlist(this.tierlist);
   }
 
   selectedTagId: string = '';
@@ -147,6 +168,8 @@ export class TierlistMakerComponent implements OnInit {
 
     this.selectedTagId = '';
     this.selectedTagExtras = '';
+
+    this.storageService.saveTierlist(this.tierlist);
   }
 
   drop(event: CdkDragDrop<any[]>) {
@@ -167,6 +190,8 @@ export class TierlistMakerComponent implements OnInit {
         event.currentIndex,
       );
     }
+
+    this.storageService.saveTierlist(this.tierlist);
   }
 
   getJsonFile() {
