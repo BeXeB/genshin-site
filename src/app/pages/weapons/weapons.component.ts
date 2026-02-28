@@ -37,6 +37,7 @@ export class WeaponsComponent implements OnInit {
         map((data) => this.resolver.resolveWeapons(data)),
       )
       .subscribe((resolvedWeapons) => {
+        resolvedWeapons = resolvedWeapons.filter((w) => w.id !== 11419);
         let sorted = resolvedWeapons.sort((a, b) => {
           if (a.rarity !== b.rarity) return b.rarity - a.rarity;
 

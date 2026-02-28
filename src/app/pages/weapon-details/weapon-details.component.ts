@@ -60,7 +60,7 @@ export class WeaponDetailsComponent implements OnInit {
 
   selectedRefine: number = 1;
 
-  level: string = '90';
+  level: string = '1';
   levelIndex: number = this.quickLevels.indexOf(this.level);
 
   ngOnInit(): void {
@@ -79,6 +79,7 @@ export class WeaponDetailsComponent implements OnInit {
       .subscribe((resolvedWeapon) => {
         if (resolvedWeapon) {
           this.weapon = resolvedWeapon;
+          this.setLevel(this.weapon?.rarity > 2 ? '90' : '70');
         } else {
           console.warn(`Weapon with slug "${name}" not found`);
         }
@@ -123,12 +124,27 @@ export class WeaponDetailsComponent implements OnInit {
     );
   }
 
+  hasRefine(ref: number): boolean {
+    const key = `r${ref}` as keyof typeof this.weapon;
+    return !!this.weapon?.[key];
+  }
+
   updateLevelFromIndex() {
-    this.level = this.quickLevels[this.levelIndex].toString();
+    if (!this.weapon) return;
+
+    let level = this.quickLevels[this.levelIndex].toString();
+
+    if (this.weapon.rarity <= 2 && level === '70+') {
+      level = '70';
+    }
+
+    this.level = level;
   }
 
   validateLevel() {
-    const ascensionPattern = /^(20|40|50|60|70|80)\+$/;
+    if (!this.weapon) return;
+    const ascensionPattern =
+      this.weapon?.rarity > 2 ? /^(20|40|50|60|70|80)\+$/ : /^(20|40|50|60)\+$/;
     if (ascensionPattern.test(this.level)) {
       this.setLevel(this.level);
       return;
