@@ -3,37 +3,67 @@ import { PageTitleComponent } from '../../_components/page-title/page-title.comp
 import { WeaponService } from '../../_services/weapon.service';
 import { WeaponResolved } from '../../_models/weapons';
 import { FormsModule } from '@angular/forms';
-import { WeaponCardComponent } from './weapon-card/weapon-card.component';
 import { RouterLink } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
 import { map, switchMap } from 'rxjs';
-import { StorageService } from '../../_services/storage.service';
+import { FiltersComponent } from '../../_components/filters/filters.component';
+import { PageFilters } from '../../_models/filters';
+import { FilterService } from '../../_services/filter.service';
+import { ItemCardComponent } from "../../_components/item-card/item-card.component";
 
 @Component({
   selector: 'app-weapons',
   standalone: true,
-  imports: [PageTitleComponent, FormsModule, WeaponCardComponent, RouterLink],
+  imports: [
+    PageTitleComponent,
+    FormsModule,
+    RouterLink,
+    FiltersComponent,
+    ItemCardComponent
+],
   templateUrl: './weapons.component.html',
   styleUrl: './weapons.component.css',
 })
 export class WeaponsComponent implements OnInit {
-  private readonly FILTERS_KEY = 'weaponFilters';
+  private readonly STORAGE_KEY = 'weaponFilters';
+
   constructor(
     private weaponsService: WeaponService,
     private resolver: ResolverService,
-    private storageService: StorageService,
+    private filterService: FilterService,
   ) {}
 
-  rarityColor: Record<number, string> = {
-    1: 'var(--rar-1)',
-    2: 'var(--rar-2)',
-    3: 'var(--rar-3)',
-    4: 'var(--rar-4)',
-    5: 'var(--rar-5)',
+  weapons: WeaponResolved[] = [];
+  filteredWeapons: WeaponResolved[] = [];
+
+  searchTerm: string = '';
+  filters: PageFilters = {};
+
+  filterGroups = [
+    {
+      label: 'Tipus',
+      key: 'weapons',
+      options: ['Sword', 'Claymore', 'Polearm', 'Bow', 'Catalyst'],
+    },
+    {
+      label: 'Ritkaság',
+      key: 'rarity',
+      options: ['5', '4', '3', '2', '1'],
+    },
+  ];
+
+  filterFns = {
+    weapons: (c: WeaponResolved, values: string[]) =>
+      values.includes(c.weaponText),
+
+    rarity: (c: WeaponResolved, values: string[]) =>
+      values.includes(c.rarity.toString()),
   };
 
   ngOnInit(): void {
-    this.loadFilters();
+    const state = this.filterService.loadState(this.STORAGE_KEY);
+    this.filters = state.filters ?? {};
+    this.searchTerm = state.searchTerm;
 
     this.resolver
       .initialize()
@@ -49,75 +79,34 @@ export class WeaponsComponent implements OnInit {
           return a.weaponType.localeCompare(b.weaponType);
         });
         this.weapons = sorted;
-        this.onSearchTermChange();
+        this.applyFilters();
       });
   }
 
-  weapons: WeaponResolved[] = [];
-  filteredWeapons: WeaponResolved[] = [];
-  weaponTypes: string[] = ['Sword', 'Claymore', 'Polearm', 'Bow', 'Catalyst'];
-
-  weaponFilters: string[] = [];
-  rarityFilters: string[] = [];
-  searchTerm: string = '';
-  showFiltersDropdown: boolean = false;
-
-  toggleFiltersDropdown(): void {
-    this.showFiltersDropdown = !this.showFiltersDropdown;
-  }
-
-  toggleFilter(filterArray: string[], value: string): void {
-    const index = filterArray.indexOf(value);
-    if (index > -1) {
-      filterArray.splice(index, 1);
-    } else {
-      filterArray.push(value);
-    }
-    this.onSearchTermChange();
-    this.saveFilters();
-  }
-
-  onSearchTermChange(): void {
-    let results = this.weapons.filter((weapon) =>
-      weapon.name.toLowerCase().includes(this.searchTerm.toLowerCase()),
+  applyFilters() {
+    this.filteredWeapons = this.filterService.filter(
+      this.weapons,
+      this.searchTerm,
+      (c) => c.name,
+      this.filters,
+      this.filterFns,
     );
 
-    if (this.weaponFilters.length > 0) {
-      results = results.filter((char) =>
-        this.weaponFilters.includes(char.weaponText),
-      );
-    }
-
-    if (this.rarityFilters.length > 0) {
-      results = results.filter((weapon) =>
-        this.rarityFilters.includes(weapon.rarity.toString()),
-      );
-    }
-
-    this.filteredWeapons = results;
-    this.saveFilters();
-  }
-
-  private saveFilters(): void {
-    this.storageService.saveData<WeaponFilters>(this.FILTERS_KEY, {
-      weaponFilters: this.weaponFilters,
-      rarityFilters: this.rarityFilters,
+    this.filterService.saveState(this.STORAGE_KEY, {
+      filters: this.filters,
       searchTerm: this.searchTerm,
     });
   }
 
-  private loadFilters(): void {
-    const saved = this.storageService.getData<WeaponFilters>(this.FILTERS_KEY);
-    if (!saved) return;
-
-    this.weaponFilters = saved.weaponFilters ?? [];
-    this.rarityFilters = saved.rarityFilters ?? [];
-    this.searchTerm = saved.searchTerm ?? '';
+  onFiltersChange(filters: PageFilters) {
+    this.filters = filters;
+    this.applyFilters();
   }
-}
 
-interface WeaponFilters {
-  weaponFilters: string[];
-  rarityFilters: string[];
-  searchTerm: string;
+  getIconUrls(weapon: WeaponResolved) {
+    return {
+      iconUrl: `assets/images/weapons/${weapon.normalizedName}/icon.webp`,
+      typeUrl: `assets/images/${weapon.weaponText}.webp`,
+    };
+  }
 }

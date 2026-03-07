@@ -1,4 +1,4 @@
-.weapon {
+.item-card {
   max-width: 120px;
   border: 1px solid var(--dark-gray);
   border-radius: 13px;
@@ -7,18 +7,22 @@
   overflow: hidden;
 }
 
-.weapon:hover {
+.item-card:hover {
   border-color: var(--gray);
   box-shadow: 0 0 14px var(--shadow-blue);
 }
 
-.weapon-icon {
-  margin: 15px 0px 25px;
+.item-icon {
+  margin: 15px 0px 35px;
   width: 100%;
   z-index: 1;
 }
 
-.weapon-icon img {
+.no-icons {
+  margin: 0px 0px 25px;
+}
+
+.item-icon img {
   width: 100%;
   height: auto;
   display: block;
@@ -27,27 +31,34 @@
 
 .icons {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
 
   position: absolute;
   z-index: 3;
 }
 
-.icons .icon {
+::ng-deep .icons div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+::ng-deep .icons .icon {
   width: 35px;
   height: 35px;
   margin: 5px;
 }
 
-.icon img {
+::ng-deep .element img {
+  mix-blend-mode: multiply;
+}
+
+::ng-deep .icon img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.weapon p {
+.item-card p {
   text-align: center;
   margin: 0;
   position: absolute;
@@ -56,22 +67,27 @@
   width: 100%;
   padding: 8px 0;
   font-size: 0.8em;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   z-index: 3;
 }
 
-.weapon::after {
+.item-card::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 150px;
+  height: 170px;
 
   background: linear-gradient(
-    transparent,
-    transparent 50%,
-    var(--black) 80%
+    var(--black) 5%,
+    transparent 25%,
+    transparent 55%,
+    var(--black) 75%
   );
 
   z-index: 2;

@@ -10,16 +10,16 @@
   </div>
   <div class="materials">
     @for (material of materials; track $index) {
-      <div
+      <app-item-card
         [routerLink]="`/materials/${material.normalizedName}`"
-        class="material-card"
         [style.display]="
           filteredMaterials.includes(material) ? 'block' : 'none'
         "
-        [style.border-color]="rarityColor[material.rarity ?? 1]"
+        [imageUrl]="getImage(material)"
+        [itemName]="material.name"
+        [rarity]="material.rarity ?? 1"
       >
-        <img [src]="getImage(material)" [title]="material.name" />
-      </div>
+      </app-item-card>
     }
   </div>
 </div>

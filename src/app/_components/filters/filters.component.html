@@ -1,0 +1,31 @@
+<div class="filters-section">
+  <button
+    class="filters-button"
+    [class.active]="showDropdown"
+    (click)="toggleDropdown()"
+  >
+    Szűrők
+  </button>
+
+  @if (showDropdown) {
+    <div class="filters-dropdown">
+      @for (group of groups; track group.key) {
+        <div class="filter-group">
+          <p>{{ group.label }}</p>
+
+          <div>
+            @for (opt of group.options; track opt) {
+              <button
+                class="filter-btn"
+                [class.active]="filters[group.key]?.includes(opt)"
+                (click)="toggleFilter(group.key, opt)"
+              >
+                {{ opt }}
+              </button>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  }
+</div>

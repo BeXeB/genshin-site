@@ -1,80 +1,39 @@
 <div class="container">
   <app-page-title [title]="'Karakterek'" [backLink]="'/'"></app-page-title>
   <div class="search-bar">
-    <div class="filters-section">
-      <button
-        class="filters-button"
-        [class.active]="showFiltersDropdown"
-        (click)="toggleFiltersDropdown()"
-      >
-        Szűrők
-      </button>
-      @if (showFiltersDropdown) {
-        <div class="filters-dropdown">
-          <div class="filter-group">
-            <p>Elemek</p>
-            <div>
-              @for (element of elements; track $index) {
-                <button
-                  class="filter-btn"
-                  [class.active]="elementFilters.includes(element)"
-                  (click)="toggleFilter(elementFilters, element)"
-                >
-                  {{ element }}
-                </button>
-              }
-            </div>
-          </div>
-          <div class="filter-group">
-            <p>Fegyverek</p>
-            <div>
-              @for (wType of weaponTypes; track $index) {
-                <button
-                  class="filter-btn"
-                  [class.active]="weaponFilters.includes(wType)"
-                  (click)="toggleFilter(weaponFilters, wType)"
-                >
-                  {{ wType }}
-                </button>
-              }
-            </div>
-          </div>
-          <div class="filter-group">
-            <p>Ritkaság</p>
-            <div>
-              <button
-                class="filter-btn"
-                [class.active]="rarityFilters.includes('5')"
-                (click)="toggleFilter(rarityFilters, '5')"
-              >
-                5-Csillagos
-              </button>
-              <button
-                class="filter-btn"
-                [class.active]="rarityFilters.includes('4')"
-                (click)="toggleFilter(rarityFilters, '4')"
-              >
-                4-Csillagos
-              </button>
-            </div>
-          </div>
-        </div>
-      }
-    </div>
+    <app-filters
+      [groups]="filterGroups"
+      [filters]="filters"
+      (filtersChange)="onFiltersChange($event)"
+    />
     <input
       type="text"
       placeholder="Karakterek keresése..."
       [(ngModel)]="searchTerm"
-      (ngModelChange)="onSearchTermChange()"
+      (ngModelChange)="applyFilters()"
     />
   </div>
 
   <div class="character-container">
     @for (char of characterData; track $index) {
-      <app-character-card
+      <app-item-card
+        [routerLink]="`/characters/${char.normalizedName}`"
         [style.display]="filteredCharacters.includes(char) ? 'block' : 'none'"
-        [char]="char"
-      ></app-character-card>
+        [imageUrl]="getIcons(char).iconUrl"
+        [itemName]="char.name"
+        [rarity]="char.rarity"
+      >
+        <div icon-slot>
+          <div class="icon">
+            <img [src]="getIcons(char).weaponUrl" alt="" />
+          </div>
+          <div class="icon element" [style]="getElementStyle(char)">
+            @if (char?.elementText != "None") {
+              <img [src]="getIcons(char).elementUrl" alt="" />
+            }
+          </div>
+        </div>
+      </app-item-card>
     }
   </div>
 </div>

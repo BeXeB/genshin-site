@@ -1,129 +1,146 @@
 import { Component, OnInit } from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
 import { CharacterProfile } from '../../_models/character';
-import { Router } from '@angular/router';
-import { CharacterCardComponent } from '../../_components/character-card/character-card.component';
 import { FormsModule } from '@angular/forms';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
-import { StorageService } from '../../_services/storage.service';
+import { PageFilters } from '../../_models/filters';
+import { FilterService } from '../../_services/filter.service';
+import { FiltersComponent } from '../../_components/filters/filters.component';
+import { ItemCardComponent } from '../../_components/item-card/item-card.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-characters',
   standalone: true,
-  imports: [CharacterCardComponent, FormsModule, PageTitleComponent],
+  imports: [
+    FormsModule,
+    PageTitleComponent,
+    FiltersComponent,
+    ItemCardComponent,
+    RouterLink,
+  ],
   templateUrl: './characters.component.html',
   styleUrl: './characters.component.css',
 })
 export class CharactersComponent implements OnInit {
-  private readonly FILTERS_KEY = 'characterFilters';
+  private readonly STORAGE_KEY = 'characterFilters';
+
   constructor(
     private characterService: CharacterService,
-    private storageService: StorageService,
+    private filterService: FilterService,
   ) {}
-
-  elements: string[] = [
-    'Anemo',
-    'Geo',
-    'Electro',
-    'Dendro',
-    'Hydro',
-    'Pyro',
-    'Cryo',
-  ];
-  weaponTypes: string[] = ['Sword', 'Claymore', 'Polearm', 'Bow', 'Catalyst'];
 
   characterData: CharacterProfile[] = [];
   filteredCharacters: CharacterProfile[] = [];
 
-  elementFilters: string[] = [];
-  weaponFilters: string[] = [];
-  rarityFilters: string[] = [];
-  searchTerm: string = '';
-  showFiltersDropdown: boolean = false;
+  searchTerm = '';
+  filters: PageFilters = {};
+
+  filterGroups = [
+    {
+      label: 'Elemek',
+      key: 'elements',
+      options: ['Anemo', 'Geo', 'Electro', 'Dendro', 'Hydro', 'Pyro', 'Cryo'],
+    },
+    {
+      label: 'Fegyverek',
+      key: 'weapons',
+      options: ['Sword', 'Claymore', 'Polearm', 'Bow', 'Catalyst'],
+    },
+    {
+      label: 'Ritkaság',
+      key: 'rarity',
+      options: ['5', '4'],
+    },
+  ];
+
+  filterFns = {
+    elements: (c: CharacterProfile, values: string[]) =>
+      values.includes(c.elementText),
+
+    weapons: (c: CharacterProfile, values: string[]) =>
+      values.includes(c.weaponText),
+
+    rarity: (c: CharacterProfile, values: string[]) =>
+      values.includes(c.rarity.toString()),
+  };
 
   ngOnInit(): void {
-    this.loadFilters();
+    const state = this.filterService.loadState(this.STORAGE_KEY);
+    this.filters = state.filters ?? {};
+    this.searchTerm = state.searchTerm;
+
     this.characterService.getCharacters().subscribe((data) => {
-      data = data.filter(
-        (char) =>
-          char.name !== 'Aether' &&
-          char.name !== 'Lumine' &&
-          char.name !== 'Manekin' &&
-          char.name !== 'Manekina',
-      );
-      data.sort((a: CharacterProfile, b: CharacterProfile) =>
-        b.version.localeCompare(a.version),
-      );
-      this.characterData = data;
-      this.onSearchTermChange();
+      const filtered = data
+        .filter(
+          (char) =>
+            char.name !== 'Aether' &&
+            char.name !== 'Lumine' &&
+            char.name !== 'Manekin' &&
+            char.name !== 'Manekina',
+        )
+        .sort((a, b) => b.version.localeCompare(a.version));
+
+      this.characterData = filtered;
+
+      this.applyFilters();
     });
   }
 
-  toggleFiltersDropdown(): void {
-    this.showFiltersDropdown = !this.showFiltersDropdown;
-  }
-
-  toggleFilter(filterArray: string[], value: string): void {
-    const index = filterArray.indexOf(value);
-    if (index > -1) {
-      filterArray.splice(index, 1);
-    } else {
-      filterArray.push(value);
-    }
-    this.onSearchTermChange();
-    this.saveFilters();
-  }
-  onSearchTermChange(): void {
-    let results = this.characterData.filter((char) =>
-      char.name.toLowerCase().includes(this.searchTerm.toLowerCase()),
+  applyFilters() {
+    this.filteredCharacters = this.filterService.filter(
+      this.characterData,
+      this.searchTerm,
+      (c) => c.name,
+      this.filters,
+      this.filterFns,
     );
 
-    if (this.elementFilters.length > 0) {
-      results = results.filter((char) =>
-        this.elementFilters.includes(char.elementText),
-      );
-    }
-
-    if (this.weaponFilters.length > 0) {
-      results = results.filter((char) =>
-        this.weaponFilters.includes(char.weaponText),
-      );
-    }
-
-    if (this.rarityFilters.length > 0) {
-      results = results.filter((char) =>
-        this.rarityFilters.includes(char.rarity.toString()),
-      );
-    }
-
-    this.filteredCharacters = results;
-    this.saveFilters();
-  }
-  private saveFilters(): void {
-    this.storageService.saveData<CharacterFilters>(this.FILTERS_KEY, {
-      elementFilters: this.elementFilters,
-      weaponFilters: this.weaponFilters,
-      rarityFilters: this.rarityFilters,
+    this.filterService.saveState(this.STORAGE_KEY, {
+      filters: this.filters,
       searchTerm: this.searchTerm,
     });
   }
 
-  private loadFilters(): void {
-    const saved = this.storageService.getData<CharacterFilters>(
-      this.FILTERS_KEY,
-    );
-    if (!saved) return;
-
-    this.elementFilters = saved.elementFilters ?? [];
-    this.weaponFilters = saved.weaponFilters ?? [];
-    this.rarityFilters = saved.rarityFilters ?? [];
-    this.searchTerm = saved.searchTerm ?? '';
+  onFiltersChange(filters: PageFilters) {
+    this.filters = filters;
+    this.applyFilters();
   }
-}
 
-interface CharacterFilters {
-  elementFilters: string[];
-  weaponFilters: string[];
-  rarityFilters: string[];
-  searchTerm: string;
+  getIcons(char: CharacterProfile) {
+    return {
+      iconUrl: `assets/images/characters/${char.normalizedName}/icon.webp`,
+      elementUrl: `assets/images/${char.elementText}.webp`,
+      weaponUrl: `assets/images/${char.weaponText}.webp`,
+    };
+  }
+  getElementStyle(char: CharacterProfile): Record<string, string> {
+    if (char?.elementText === 'None') {
+      return {};
+    }
+
+    const elementColors: Record<string, string> = {
+      Pyro: 'var(--pyro)',
+      Hydro: 'var(--hydro)',
+      Anemo: 'var(--anemo)',
+      Electro: 'var(--electro)',
+      Dendro: 'var(--dendro)',
+      Cryo: 'var(--cryo)',
+      Geo: 'var(--geo)',
+    };
+
+    const color = char?.elementText
+      ? (elementColors[char.elementText] ?? 'transparent')
+      : 'transparent';
+
+    return {
+      'background-color': color,
+      'mask-image': `url(${this.getIcons(char).elementUrl})`,
+      '-webkit-mask-image': `url(${this.getIcons(char).elementUrl})`,
+      'mask-size': 'cover',
+      '-webkit-mask-size': 'cover',
+      'mask-repeat': 'no-repeat',
+      '-webkit-mask-repeat': 'no-repeat',
+    };
+  }
 }

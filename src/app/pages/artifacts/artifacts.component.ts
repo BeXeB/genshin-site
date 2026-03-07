@@ -4,79 +4,83 @@ import { ArtifactSet } from '../../_models/artifacts';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
-import { StorageService } from '../../_services/storage.service';
+import { FilterService } from '../../_services/filter.service';
+import { FiltersComponent } from '../../_components/filters/filters.component';
+import { PageFilters } from '../../_models/filters';
+import { ItemCardComponent } from '../../_components/item-card/item-card.component';
 
 @Component({
   selector: 'app-artifacts',
   standalone: true,
-  imports: [PageTitleComponent, FormsModule, RouterLink],
+  imports: [
+    PageTitleComponent,
+    FormsModule,
+    RouterLink,
+    FiltersComponent,
+    ItemCardComponent,
+  ],
   templateUrl: './artifacts.component.html',
   styleUrl: './artifacts.component.css',
 })
 export class ArtifactsComponent implements OnInit {
-  private readonly FILTERS_KEY = 'artifactFilters';
+  private readonly STORAGE_KEY = 'artifactFilters';
   constructor(
     private artifactService: ArtifactService,
-    private storageService: StorageService,
+    private filterService: FilterService,
   ) {}
 
   artifacts: ArtifactSet[] = [];
   filteredArtifacts: ArtifactSet[] = [];
 
-  rarityFilters: string[] = [];
   searchTerm: string = '';
-  showFiltersDropdown: boolean = false;
+  filters: PageFilters = {};
 
-  rarityColor: Record<number, string> = {
-    1: 'var(--rar-1)',
-    2: 'var(--rar-2)',
-    3: 'var(--rar-3)',
-    4: 'var(--rar-4)',
-    5: 'var(--rar-5)',
+  filterGroups = [
+    {
+      label: 'Ritkaság',
+      key: 'rarity',
+      options: ['5', '4', '3', '2', '1'],
+    },
+  ];
+
+  filterFns = {
+    rarity: (artifact: ArtifactSet, values: string[]) =>
+      values.some((f) => artifact.rarityList.some((r) => r.toString() === f)),
   };
 
   ngOnInit(): void {
-    this.loadFilters();
+    const state = this.filterService.loadState(this.STORAGE_KEY);
+    this.filters = state.filters ?? {};
+    this.searchTerm = state.searchTerm;
+
     this.artifactService.getArtifacts().subscribe((data) => {
       this.artifacts = data.sort((a, b) => {
         let maxA = this.getMaxRarity(a);
         let maxB = this.getMaxRarity(b);
         return maxA < maxB ? 1 : -1;
       });
-      this.onSearchTermChange();
+      this.applyFilters();
     });
   }
 
-  toggleFiltersDropdown(): void {
-    this.showFiltersDropdown = !this.showFiltersDropdown;
-  }
-
-  toggleFilter(filterArray: string[], value: string): void {
-    const index = filterArray.indexOf(value);
-    if (index > -1) {
-      filterArray.splice(index, 1);
-    } else {
-      filterArray.push(value);
-    }
-    this.onSearchTermChange();
-    this.saveFilters();
-  }
-
-  onSearchTermChange(): void {
-    let results = this.artifacts.filter((artifact) =>
-      artifact.name.toLowerCase().includes(this.searchTerm.toLowerCase()),
+  applyFilters() {
+    this.filteredArtifacts = this.filterService.filter(
+      this.artifacts,
+      this.searchTerm,
+      (c) => c.name,
+      this.filters,
+      this.filterFns,
     );
 
-    if (this.rarityFilters.length > 0) {
-      results = results.filter((artifact) =>
-        this.rarityFilters.some((f) =>
-          artifact.rarityList.some((r) => r.toString() === f),
-        ),
-      );
-    }
+    this.filterService.saveState(this.STORAGE_KEY, {
+      filters: this.filters,
+      searchTerm: this.searchTerm,
+    });
+  }
 
-    this.filteredArtifacts = results;
-    this.saveFilters();
+  onFiltersChange(filters: PageFilters) {
+    this.filters = filters;
+    this.applyFilters();
   }
 
   getImage(artifact: ArtifactSet): string {
@@ -93,27 +97,4 @@ export class ArtifactsComponent implements OnInit {
 
     return max;
   }
-
-  private saveFilters(): void {
-    this.storageService.saveData<ArtifactFilters>(this.FILTERS_KEY, {
-      rarityFilters: this.rarityFilters,
-      searchTerm: this.searchTerm,
-    });
-  }
-
-  private loadFilters(): void {
-    const saved = this.storageService.getData<ArtifactFilters>(
-      this.FILTERS_KEY,
-    );
-
-    if (!saved) return;
-
-    this.rarityFilters = saved.rarityFilters ?? [];
-    this.searchTerm = saved.searchTerm ?? '';
-  }
-}
-
-interface ArtifactFilters {
-  rarityFilters: string[];
-  searchTerm: string;
 }

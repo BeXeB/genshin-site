@@ -7,28 +7,21 @@ import { ResolverService } from '../../_services/resolver.service';
 import { RouterLink } from '@angular/router';
 import { map, switchMap } from 'rxjs';
 import { StorageService } from '../../_services/storage.service';
+import { ItemCardComponent } from '../../_components/item-card/item-card.component';
 
 @Component({
   selector: 'app-materials',
-  imports: [PageTitleComponent, FormsModule, RouterLink],
+  imports: [PageTitleComponent, FormsModule, RouterLink, ItemCardComponent],
   templateUrl: './materials.component.html',
   styleUrl: './materials.component.css',
 })
 export class MaterialsComponent implements OnInit {
-  private readonly FILTERS_KEY = 'materialFilter';
+  private readonly STORAGE_KEY = 'materialFilter';
   constructor(
     private materialService: MaterialService,
     private resolver: ResolverService,
     private storageService: StorageService,
   ) {}
-
-  rarityColor: Record<number, string> = {
-    1: 'var(--rar-1)',
-    2: 'var(--rar-2)',
-    3: 'var(--rar-3)',
-    4: 'var(--rar-4)',
-    5: 'var(--rar-5)',
-  };
 
   ngOnInit(): void {
     this.loadFilters();
@@ -71,13 +64,13 @@ export class MaterialsComponent implements OnInit {
   }
 
   private saveFilters(): void {
-    this.storageService.saveData<MaterialFilter>(this.FILTERS_KEY, {
+    this.storageService.saveData<MaterialFilter>(this.STORAGE_KEY, {
       searchTerm: this.searchTerm,
     });
   }
 
   private loadFilters(): void {
-    const saved = this.storageService.getData<MaterialFilter>(this.FILTERS_KEY);
+    const saved = this.storageService.getData<MaterialFilter>(this.STORAGE_KEY);
 
     if (!saved) return;
 
