@@ -1,0 +1,17 @@
+{
+  "combat1": "<color=#FFD780FF>Normal Attack</color>\nLegfeljebb 4 egymást követő claymore csapás.\n\n<color=#FFD780FF>Charged Attack</color>\nStamina felhasználásával erős támadást hajt végre.\n\n<color=#FFD780FF>Plunging Attack</color>\nA levegőből lecsapva AoE sebzést okoz becsapódáskor.",
+  "combat2": "<color=#FF9999FF>Pyro DMG</color>-et okoz és aktiválja a Nightsoul's Blessing állapotot.\n\n<color=#FFD780FF>Tap</color>\nMegidézi a Ring of Searing Radiance gyűrűt, amely követi az aktív karaktert és időközönként támad.\n\n<color=#FFD780FF>Hold</color>\nMegidézi a Flamestrider-t, amely gyors mozgást biztosít és a támadásokat <color=#FF9999FF>Pyro DMG</color>-gé alakítja.",
+  "combat3": "Fighting Spirit felhasználásával aktiválható.\n\nSunfell Slice AoE <color=#FF9999FF>Pyro DMG</color>-et okoz és aktiválja a <color=#FFD780FF>Crucible of Death and Life</color> állapotot.\nEz növeli Mavuika támadásainak sebzését.",
+
+  "passive1": "Ha egy közeli csapattag Nightsoul Burst-öt aktivál, Mavuika ATK-ja 30%-kal nő 10 másodpercre.",
+  "passive2": "Hour of Burning Skies használatakor a felhasznált Fighting Spirit növeli az aktív karakter sebzését.\nA bónusz legfeljebb 40%, és 20 másodperc alatt fokozatosan csökken.",
+  "passive3": "Ha a Nightsoul pontok elfogynak, Mavuika Phlogiston segítségével fenntarthatja a Flamestrider formát.\nNatlan területén Nightsoul Transmission aktiválható, amely Nightsoul's Blessing állapotot ad és Nightsoul pontokat tölt vissza.",
+  "passive4": "A csapat Nightsoul Transmission újratöltési ideje 20%-kal csökken.",
+
+  "c1": "Növeli Mavuika maximális Nightsoul pontjait és gyorsabban szerez Fighting Spirit-et.\nFighting Spirit szerzése után ATK bónuszt kap rövid időre.",
+  "c2": "Nightsoul's Blessing alatt nő Mavuika Base ATK-ja.\n\nRing of Searing Radiance csökkenti a közeli ellenfelek DEF-jét.\nFlamestrider támadásai jelentősen megnövelt sebzést okoznak.",
+  "c3": "Növeli a Hour of Burning Skies szintjét 3-mal.",
+  "c4": "A \"Kiongozi\" talent erősítése.\nA Burst utáni sebzésbónusz nem csökken idővel, és további DMG Bonus jár.",
+  "c5": "Növeli a The Named Moment szintjét 3-mal.",
+  "c6": "The Named Moment jelentősen erősödik.\n\nRing of Searing Radiance további támadásokat idéz.\nFlamestrider erős AoE <color=#FF9999FF>Pyro DMG</color>-et okoz és csökkenti az ellenfelek DEF-jét.\nHarcon kívül Nightsoul pontok visszatölthetők."
+}
