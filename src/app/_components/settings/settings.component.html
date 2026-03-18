@@ -1,0 +1,35 @@
+@if (settings) {
+  <div class="settings">
+    <div class="setting">
+      <div class="setting-name">Részletes talentleírások</div>
+      <div class="setting-input">
+        <label class="switch">
+          <input
+            type="checkbox"
+            [checked]="settings.detailed"
+            (change)="toggleDetailed($event)"
+          />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="setting">
+      <div class="setting-name">Alapértelmezett talent szint</div>
+      <div class="setting-input">
+        <div class="number-wrapper">
+          <button class="decrement" (click)="decrementLevel()">-</button>
+          <input
+            id="talent-level"
+            type="number"
+            min="1"
+            max="15"
+            [value]="settings.talentlevel"
+            (change)="onLevelChange($event)"
+          />
+          <button class="increment" (click)="incrementLevel()">+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+}

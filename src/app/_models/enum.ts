@@ -6,6 +6,14 @@ export enum WeaponType {
   SWORD_ONE_HAND = 'WEAPON_SWORD_ONE_HAND',
 }
 
+export const WeaponTypeLabel: Record<WeaponType, string> = {
+  [WeaponType.BOW]: 'Bow',
+  [WeaponType.CATALYST]: 'Catalyst',
+  [WeaponType.CLAYMORE]: 'Claymore',
+  [WeaponType.POLE]: 'Polearm',
+  [WeaponType.SWORD_ONE_HAND]: 'Sword',
+};
+
 export enum QualityType {
   QUALITY_ORANGE = 'QUALITY_ORANGE',
   QUALITY_PURPLE = 'QUALITY_PURPLE',
@@ -13,6 +21,14 @@ export enum QualityType {
   QUALITY_GREEN = 'QUALITY_GREEN',
   QUALITY_GREY = 'QUALITY_GREY',
 }
+
+export const QualityTypeLabel: Record<QualityType, string> = {
+  [QualityType.QUALITY_ORANGE]: '5★',
+  [QualityType.QUALITY_PURPLE]: '4★',
+  [QualityType.QUALITY_BLUE]: '3★',
+  [QualityType.QUALITY_GREEN]: '2★',
+  [QualityType.QUALITY_GREY]: '1★',
+};
 
 export enum ElementType {
   ANEMO = 'ELEMENT_ANEMO',
@@ -24,6 +40,17 @@ export enum ElementType {
   NONE = 'ELEMENT_NONE',
   PYRO = 'ELEMENT_PYRO',
 }
+
+export const ElementTypeLabel: Record<ElementType, string> = {
+  [ElementType.ANEMO]: 'Anemo',
+  [ElementType.CRYO]: 'Cryo',
+  [ElementType.DENDRO]: 'Dendro',
+  [ElementType.ELECTRO]: 'Electro',
+  [ElementType.GEO]: 'Geo',
+  [ElementType.HYDRO]: 'Hydro',
+  [ElementType.NONE]: 'None',
+  [ElementType.PYRO]: 'Pyro',
+};
 
 export enum StatType {
   HP = 'FIGHT_PROP_HP',
@@ -48,6 +75,29 @@ export enum StatType {
   ANEMO_P = 'FIGHT_PROP_WIND_ADD_HURT',
 }
 
+export const StatTypeLabel: Record<StatType, string> = {
+  [StatType.HP]: 'HP',
+  [StatType.HP_P]: 'HP%',
+  [StatType.ATK]: 'ATK',
+  [StatType.ATK_P]: 'ATK%',
+  [StatType.DEF]: 'DEF',
+  [StatType.DEF_P]: 'DEF%',
+  [StatType.ER]: 'Energy Recharge',
+  [StatType.EM]: 'Elemental Mastery',
+  [StatType.CR]: 'Crit Rate',
+  [StatType.CD]: 'Crit Damage',
+  [StatType.HB]: 'Healing Bonus',
+
+  [StatType.ELECTRO_P]: 'Electro DMG Bonus',
+  [StatType.PYRO_P]: 'Pyro DMG Bonus',
+  [StatType.DENDRO_P]: 'Dendro DMG Bonus',
+  [StatType.CRYO_P]: 'Cryo DMG Bonus',
+  [StatType.PHYS_P]: 'Physical DMG Bonus',
+  [StatType.GEO_P]: 'Geo DMG Bonus',
+  [StatType.HYDRO_P]: 'Hydro DMG Bonus',
+  [StatType.ANEMO_P]: 'Anemo DMG Bonus',
+};
+
 export enum ArtifactType {
   FLOWER = 'EQUIP_BRACER',
   PLUME = 'EQUIP_NECKLACE',
@@ -55,6 +105,14 @@ export enum ArtifactType {
   RING = 'EQUIP_RING',
   CIRCLET = 'EQUIP_DRESS',
 }
+
+export const ArtifactTypeLabel: Record<ArtifactType, string> = {
+  [ArtifactType.FLOWER]: 'Flower',
+  [ArtifactType.PLUME]: 'Plume',
+  [ArtifactType.SANDS]: 'Sands',
+  [ArtifactType.RING]: 'Goblet',
+  [ArtifactType.CIRCLET]: 'Circlet',
+};
 
 export enum MaterialType {
   TALENT_MATERIAL = 'talent',
@@ -65,3 +123,13 @@ export enum MaterialType {
   GENERIC_MATERIAL = 'generic',
   XP_AND_MORA = 'xp-and-mora',
 }
+
+export const MaterialTypeLabel: Record<MaterialType, string> = {
+  [MaterialType.TALENT_MATERIAL]: 'Talent Material',
+  [MaterialType.BOSS_MATERIAL]: 'Boss Material',
+  [MaterialType.GEMSTONE]: 'Gemstone',
+  [MaterialType.LOCAL_SPECIALTY]: 'Local Specialty',
+  [MaterialType.WEAPON_MATERIAL]: 'Weapon Material',
+  [MaterialType.GENERIC_MATERIAL]: 'Material',
+  [MaterialType.XP_AND_MORA]: 'XP & Mora',
+};

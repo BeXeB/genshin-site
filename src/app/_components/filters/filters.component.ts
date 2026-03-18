@@ -1,11 +1,17 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  Output,
+  ElementRef,
+  HostListener,
+} from '@angular/core';
 import { FilterGroup, PageFilters } from '../../_models/filters';
 
 @Component({
   selector: 'app-filters',
-  imports: [],
   templateUrl: './filters.component.html',
-  styleUrl: './filters.component.css',
+  styleUrls: ['./filters.component.css'],
 })
 export class FiltersComponent {
   @Input() groups: FilterGroup[] = [];
@@ -14,6 +20,8 @@ export class FiltersComponent {
   @Output() filtersChange = new EventEmitter<PageFilters>();
 
   showDropdown = false;
+
+  constructor(private elRef: ElementRef) {}
 
   toggleDropdown() {
     this.showDropdown = !this.showDropdown;
@@ -29,5 +37,12 @@ export class FiltersComponent {
     else arr.push(value);
 
     this.filtersChange.emit(this.filters);
+  }
+
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent) {
+    if (!this.elRef.nativeElement.contains(event.target)) {
+      this.showDropdown = false;
+    }
   }
 }

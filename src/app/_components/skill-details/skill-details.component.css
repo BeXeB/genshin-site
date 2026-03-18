@@ -1,0 +1,127 @@
+.skill {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.skill-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 2;
+}
+
+.skill-info img {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.skill-name {
+  display: flex;
+  flex-direction: row;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.skill-name > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.talent-details {
+  flex: 3;
+}
+
+.talent-level {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.number-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.talent-level input {
+  width: 30px;
+  padding: 4px;
+  border-radius: 0px;
+  height: 30px;
+}
+
+.talent-level button {
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+}
+
+.talent-level .increment {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.talent-level .decrement {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.talent-level input::-webkit-outer-spin-button,
+.talent-level input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.talent-level input {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.talent-stats {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.talent-stats hr {
+  margin: 0px;
+  width: 100%;
+  color: var(--dark-gray);
+}
+
+.talent-stat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.talent-stat-name {
+  max-width: 250px;
+}
+
+.talent-stat-value {
+  max-width: 250px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .skill {
+    flex-direction: column;
+  }
+
+  .skill-info {
+    flex: none;
+  }
+
+  .talent-details {
+    flex: none;
+  }
+}

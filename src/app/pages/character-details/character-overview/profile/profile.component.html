@@ -51,10 +51,12 @@
         >
       </div>
       <hr style="width: 100%" [style]="`color: ${elementColor};`" />
-      <div class="stat-row">
-        <span class="label">Elem</span>
-        <span class="value">{{ char.profile.elementText }}</span>
-      </div>
+      @if (char.profile.elementText != "None") {
+        <div class="stat-row">
+          <span class="label">Elem</span>
+          <span class="value">{{ char.profile.elementText }}</span>
+        </div>
+      }
       <div class="stat-row">
         <span class="label">Fegyver</span>
         <span class="value">{{ char.profile.weaponText }}</span>
@@ -63,14 +65,18 @@
         <span class="label">Constelláció</span>
         <span class="value">{{ char.profile.constellation }}</span>
       </div>
-      <div class="stat-row">
-        <span class="label">Tagság</span>
-        <span class="value">{{ char.profile.affiliation }}</span>
-      </div>
-      <div class="stat-row">
-        <span class="label">Születésnap</span>
-        <span class="value">{{ char.profile.birthday }}</span>
-      </div>
+      @if (char.profile.affiliation) {
+        <div class="stat-row">
+          <span class="label">Tagság</span>
+          <span class="value">{{ char.profile.affiliation }}</span>
+        </div>
+      }
+      @if (char.profile.birthday) {
+        <div class="stat-row">
+          <span class="label">Születésnap</span>
+          <span class="value">{{ char.profile.birthday }}</span>
+        </div>
+      }
       <span class="desc">{{ char.profile.description }}</span>
     </div>
     <hr

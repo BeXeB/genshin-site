@@ -39,6 +39,8 @@ export type CharacterProfile = {
     filename_gachaSlice?: string;
   };
   version: string;
+
+  isTraveler?: boolean;
 };
 
 export type CharacterTalents = {
@@ -131,6 +133,31 @@ export type Character = {
   skills?: CharacterTalents;
   stats: CharacterStats;
   constellation?: CharacterConstellation;
+
+  variants?: Partial<Record<ElementType, CharacterVariant>>;
+};
+
+export type CharacterVariant = {
+  skills: CharacterTalents;
+  constellation: CharacterConstellation;
+};
+
+export type CharacterBriefDescriptions = {
+  combat1: string;
+  combat2: string;
+  combat3: string;
+
+  passive1: string;
+  passive2: string;
+  passive3?: string;
+  passive4?: string;
+
+  c1: string;
+  c2: string;
+  c3: string;
+  c4: string;
+  c5: string;
+  c6: string;
 };
 
 export type CharacterProfileResolved = Omit<CharacterProfile, 'costs'> & {
@@ -141,7 +168,19 @@ export type CharacterTalentsResolved = Omit<CharacterTalents, 'costs'> & {
   costs: Record<`lvl${2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10}`, ResolvedItem[]>;
 };
 
-export type CharacterResolved = Omit<Character, 'profile' | 'skills'> & {
+export type CharacterResolved = Omit<
+  Character,
+  'profile' | 'skills' | 'variants'
+> & {
   profile: CharacterProfileResolved;
   skills?: CharacterTalentsResolved;
+  brief?: CharacterBriefDescriptions;
+
+  variants?: Partial<Record<ElementType, CharacterVariantResolved>>;
+};
+
+export type CharacterVariantResolved = {
+  skills: CharacterTalentsResolved;
+  constellation: CharacterConstellation;
+  brief?: CharacterBriefDescriptions;
 };

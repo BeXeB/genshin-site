@@ -36,7 +36,10 @@
           <div class="name">Craftolható:</div>
           <div class="material-craft">
             @for (cMat of material.craft?.recipe; track $index) {
-              <div class="craft-mat">
+              <div
+                class="craft-mat"
+                [routerLink]="`/materials/${cMat.material.normalizedName}`"
+              >
                 <img
                   [title]="cMat.material.name"
                   [src]="

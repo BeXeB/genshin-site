@@ -6,7 +6,8 @@ import { CharacterOverviewComponent } from './character-overview/character-overv
 import { CharacterResolved } from '../../_models/character';
 import { CharacterGuideComponent } from './character-guide/character-guide.component';
 import { ResolverService } from '../../_services/resolver.service';
-import { map, switchMap } from 'rxjs';
+import { switchMap } from 'rxjs';
+import { ElementType } from '../../_models/enum';
 
 @Component({
   selector: 'app-character-details',
@@ -23,6 +24,40 @@ export class CharacterDetailsComponent implements OnInit {
   char: CharacterResolved | null = null;
   apikey: string | null = null;
 
+  selectedElement: ElementType = ElementType.ANEMO;
+
+  elementColors: Record<ElementType, string> = {
+    ELEMENT_PYRO: 'var(--pyro)',
+    ELEMENT_HYDRO: 'var(--hydro)',
+    ELEMENT_ANEMO: 'var(--anemo)',
+    ELEMENT_ELECTRO: 'var(--electro)',
+    ELEMENT_DENDRO: 'var(--dendro)',
+    ELEMENT_CRYO: 'var(--cryo)',
+    ELEMENT_GEO: 'var(--geo)',
+    ELEMENT_NONE: 'var(--black)',
+  };
+
+  getElementColor(): string {
+    if (!this.char) return '';
+
+    if (this.isTraveller()) {
+      return this.elementColors[this.selectedElement];
+    }
+
+    return `var(--${this.char.profile.elementText.toLowerCase()})`;
+  }
+
+  isTraveller(): boolean {
+    return (
+      this.char?.profile.normalizedName === 'aether' ||
+      this.char?.profile.normalizedName === 'lumine'
+    );
+  }
+
+  onElementChange(element: ElementType) {
+    this.selectedElement = element;
+  }
+
   constructor(
     private characterService: CharacterService,
     private resolverService: ResolverService,
@@ -38,15 +73,10 @@ export class CharacterDetailsComponent implements OnInit {
       .initialize()
       .pipe(
         switchMap(() => this.characterService.getCharacterDetails(name)),
-        map((data) => this.resolverService.resolveCharacter(data)),
+        switchMap((data) => this.resolverService.resolveCharacter(data)),
       )
       .subscribe((resolvedChar) => {
         this.char = resolvedChar;
       });
-  }
-
-  getElementColor(): string {
-    if (!this.char) return '';
-    return `var(--${this.char?.profile.elementText.toLowerCase()})`;
   }
 }

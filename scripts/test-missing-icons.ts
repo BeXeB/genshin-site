@@ -1,5 +1,9 @@
 import fs from 'fs';
 import path from 'path';
+import {
+  Character,
+  CharacterConstellation,
+} from '../src/app/_models/character';
 
 const CHARACTER_JSON_DIR = path.join(
   __dirname,
@@ -85,7 +89,9 @@ function check() {
     const characterName = path.parse(file).name;
 
     const jsonPath = path.join(CHARACTER_JSON_DIR, file);
-    const characterData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+    const characterData: Character = JSON.parse(
+      fs.readFileSync(jsonPath, 'utf-8'),
+    );
 
     const skillDir = path.join(ASSET_DIR_CHAR, characterName, 'skills');
     const constellationDir = path.join(
@@ -111,9 +117,7 @@ function check() {
           const key = `${characterName}/${outputFile}`;
 
           if (!IGNORE_MISSING.has(key)) {
-            console.log(
-              `❌ ${characterName}/${outputFile}  (JSON: ${originalName}.webp)`,
-            );
+            console.log(`❌ ${characterName}/${outputFile}  (${originalName})`);
             missingCount++;
           }
         }
@@ -121,16 +125,21 @@ function check() {
     }
 
     // --- SKILLS ---
-    if (characterData.skills?.images) {
+
+    function checkSkills(skills: any, baseDir: string) {
+      if (!skills?.images) return;
+
+      const skillDir = path.join(baseDir, 'skills');
+
       for (const [jsonKey, outputFile] of Object.entries(SKILL_IMAGE_MAP)) {
-        const originalName = characterData.skills.images[jsonKey];
+        const originalName = skills.images[jsonKey];
         if (!originalName) continue;
 
         const expectedPath = path.join(skillDir, outputFile);
 
         if (!fs.existsSync(expectedPath)) {
           console.log(
-            `❌ ${characterName}/skills/${outputFile}  (JSON: ${originalName}.webp)`,
+            `❌ ${characterName}/skills/${outputFile}  (${originalName})`,
           );
           missingCount++;
         }
@@ -138,26 +147,53 @@ function check() {
     }
 
     // --- CONSTELLATIONS ---
-    if (characterData.constellation?.images) {
+
+    function checkConstellations(constellation: any, baseDir: string) {
+      if (!constellation?.images) return;
+
+      const constellationDir = path.join(baseDir, 'constellation');
+
       for (const [jsonKey, outputFile] of Object.entries(
         CONSTELLATION_IMAGE_MAP,
       )) {
-        const originalName = characterData.constellation.images[jsonKey];
+        const originalName = constellation.images[jsonKey];
         if (!originalName) continue;
 
         const expectedPath = path.join(constellationDir, outputFile);
 
         if (!fs.existsSync(expectedPath)) {
           console.log(
-            `❌ ${characterName}/constellation/${outputFile}  (JSON: ${originalName}.webp)`,
+            `❌ ${characterName}/constellation/${outputFile}  (${originalName})`,
           );
           missingCount++;
         }
       }
     }
-  });
+    const isTraveler = characterData.profile.isTraveler === true;
+    if (!isTraveler) {
+      // --- NORMAL CHARACTER ---
+      const baseDir = path.join(ASSET_DIR_CHAR, characterName);
 
-  // --- WEAPONS ---
+      checkSkills(characterData.skills, baseDir);
+      checkConstellations(characterData.constellation, baseDir);
+    } else {
+      // --- TRAVELER VARIANTS ---
+      if (characterData.variants) {
+        for (const [elementKey, variant] of Object.entries(
+          characterData.variants,
+        )) {
+          const element = elementKey.replace('ELEMENT_', '').toLowerCase();
+
+          const baseDir = path.join(ASSET_DIR_CHAR, characterName, element);
+
+          checkSkills((variant as any).skills, baseDir);
+          checkConstellations((variant as any).constellation, baseDir);
+        }
+      }
+    }
+
+    // --- WEAPONS ---
+  });
 
   const weaponFiles = fs.readdirSync(WEAPON_JSON_DIR);
 
@@ -183,7 +219,7 @@ function check() {
 
         if (!fs.existsSync(expectedPath)) {
           console.log(
-            `❌ weapons/${weaponName}/${outputFile}  (JSON: ${originalName}.webp)`,
+            `❌ weapons/${weaponName}/${outputFile}  (${originalName})`,
           );
           missingCount++;
         }
@@ -217,7 +253,7 @@ function check() {
 
         if (!fs.existsSync(expectedPath)) {
           console.log(
-            `❌ artifacts/${artifactName}/${outputFile}  (JSON: ${originalName}.webp)`,
+            `❌ artifacts/${artifactName}/${outputFile}  (${originalName})`,
           );
           missingCount++;
         }
@@ -227,41 +263,41 @@ function check() {
 
   // materials
 
-materialFolders.forEach((folder) => {
-  // skip crafts folder
-  if (folder === 'crafts') return;
+  materialFolders.forEach((folder) => {
+    // skip crafts folder
+    if (folder === 'crafts') return;
 
-  const folderPath = path.join(MATERIAL_JSON_DIR, folder);
-  const materialsJsonPath = path.join(folderPath, 'materials.json');
+    const folderPath = path.join(MATERIAL_JSON_DIR, folder);
+    const materialsJsonPath = path.join(folderPath, 'materials.json');
 
-  if (!fs.existsSync(materialsJsonPath)) return;
+    if (!fs.existsSync(materialsJsonPath)) return;
 
-  const materialsData = JSON.parse(
-    fs.readFileSync(materialsJsonPath, 'utf-8'),
-  );
-
-  // materials.json is an array
-  materialsData.forEach((materialData: any) => {
-    const normalizedName = materialData.normalizedName;
-    if (!normalizedName) return;
-
-    const originalName = materialData.images?.filename_icon;
-    if (!originalName) return;
-
-    const expectedPath = path.join(
-      ASSET_DIR_MATERIALS,
-      folder,
-      `${normalizedName}.webp`,
+    const materialsData = JSON.parse(
+      fs.readFileSync(materialsJsonPath, 'utf-8'),
     );
 
-    if (!fs.existsSync(expectedPath)) {
-      console.log(
-        `❌ materials/${folder}/${normalizedName}.webp  (JSON: ${originalName}.webp)`,
+    // materials.json is an array
+    materialsData.forEach((materialData: any) => {
+      const normalizedName = materialData.normalizedName;
+      if (!normalizedName) return;
+
+      const originalName = materialData.images?.filename_icon;
+      if (!originalName) return;
+
+      const expectedPath = path.join(
+        ASSET_DIR_MATERIALS,
+        folder,
+        `${normalizedName}.webp`,
       );
-      missingCount++;
-    }
+
+      if (!fs.existsSync(expectedPath)) {
+        console.log(
+          `❌ materials/${folder}/${normalizedName}.webp  (${originalName})`,
+        );
+        missingCount++;
+      }
+    });
   });
-});
 
   if (missingCount === 0) {
     console.log('✅ No missing images found.');

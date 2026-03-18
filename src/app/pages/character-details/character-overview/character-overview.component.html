@@ -29,16 +29,48 @@
             [class.active]="selectedMenu === 'constellations'"
             (click)="selectedMenu = 'constellations'"
             [style.border-color]="
-              selectedMenu === 'constellations'
-                ? elementColor
-                : 'transparent'
+              selectedMenu === 'constellations' ? elementColor : 'transparent'
             "
           >
-            Constelláció
+            Konstelláció
           </button>
+          @if (isTraveller()) {
+            <div class="element-selector">
+              @for (element of elements; track element) {
+                <div
+                  class="element-container"
+                  [class.selected]="selectedElement === element"
+                  [style.outline-color]="elementColors[element]"
+                >
+                  <div
+                    class="element"
+                    (click)="selectElement(element)"
+                    [style]="
+                      getElementStyle(
+                        element,
+                        'assets/images/' + elementTypeLabel[element] + '.webp'
+                      )
+                    "
+                  >
+                    <img
+                      [src]="
+                        'assets/images/' + elementTypeLabel[element] + '.webp'
+                      "
+                    />
+                  </div>
+                </div>
+              }
+            </div>
+          }
         </div>
       </div>
-      <div class="right" [style]="`border-color: ${elementColor};`">
+      <div
+        class="right"
+        [class.full-width]="
+          selectedMenu === 'talents' || selectedMenu === 'constellations'
+        "
+        [style]="`border-color: ${elementColor};`"
+      >
         @if (selectedMenu === "profile") {
           <app-overview-profile
             [elementColor]="elementColor"
@@ -50,13 +82,16 @@
             [elementColor]="elementColor"
             [apiKey]="apikey"
             [char]="char"
+            [element]="selectedElement"
           ></app-overview-talents>
         }
         @if (selectedMenu === "constellations") {
           <app-overview-constellations
+            class="test"
             [elementColor]="elementColor"
             [apiKey]="apikey"
             [char]="char"
+            [element]="selectedElement"
           >
           </app-overview-constellations>
         }

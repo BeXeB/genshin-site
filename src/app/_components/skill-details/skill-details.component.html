@@ -1,0 +1,38 @@
+<div class="skill">
+  <div class="skill-info">
+    <div class="skill-name">
+      <img [src]="imageUrl" />
+      <div>{{ skill?.name }}</div>
+    </div>
+    <div class="skill-description" [innerHTML]="talentDesc"></div>
+  </div>
+
+  @if (isCombatSkill && skill && settings?.detailed) {
+    <div class="talent-details">
+      <div class="talent-level">
+        <label for="combat-level">Level:</label>
+        <div class="number-wrapper">
+          <button class="decrement" (click)="decrementLevel()">-</button>
+          <input
+            id="combat-level"
+            type="number"
+            min="1"
+            max="15"
+            [(ngModel)]="talentLevel"
+          />
+          <button class="increment" (click)="incrementLevel()">+</button>
+        </div>
+      </div>
+
+      <div class="talent-stats">
+        @for (attribute of getTalentStats(skill, talentLevel); track $index) {
+          <hr />
+          <div class="talent-stat">
+            <div class="talent-stat-name">{{ attribute.name }}</div>
+            <div class="talent-stat-value">{{ attribute.value }}</div>
+          </div>
+        }
+      </div>
+    </div>
+  }
+</div>

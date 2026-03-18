@@ -3,17 +3,74 @@
     <div class="logo">
       <a routerLink="/" routerLinkActive="active">GI</a>
     </div>
-    <button class="hamburger-menu" (click)="toggleMobileMenu()" [class.active]="mobileMenuOpen">
+    <button
+      class="hamburger-menu"
+      (click)="toggleMobileMenu()"
+      [class.active]="mobileMenuOpen"
+    >
       <i class="fa-solid fa-bars"></i>
     </button>
-    <div class="nav-links navbar-center" [class.mobile-menu-open]="mobileMenuOpen">
-        <a class="nav-button" routerLink="/tierlist" routerLinkActive="active" (click)="closeMobileMenu()">Tier List</a>
-        <a class="nav-button" [routerLink]="['/guides']" routerLinkActive="active" (click)="closeMobileMenu()">Útmutatók</a>
-        <a class="nav-button" [routerLink]="['/characters']" routerLinkActive="active" (click)="closeMobileMenu()">Karakterek</a>
-        <a class="nav-button" [routerLink]="['/weapons']" routerLinkActive="active" (click)="closeMobileMenu()">Fegyverek</a>
-        <a class="nav-button" [routerLink]="['/artifacts']" routerLinkActive="active" (click)="closeMobileMenu()">Artifaktok</a>
-        <a class="nav-button" [routerLink]="['/materials']" routerLinkActive="active" (click)="closeMobileMenu()">Materialok</a>
-        <a class="nav-button" [routerLink]="['/tools']" routerLinkActive="active" (click)="closeMobileMenu()">Eszközök</a>
+    <div
+      class="nav-links navbar-center"
+      [class.mobile-menu-open]="mobileMenuOpen"
+    >
+      <a
+        class="nav-button"
+        routerLink="/tierlist"
+        routerLinkActive="active"
+        (click)="closeMobileMenu()"
+        >Tier List</a
+      >
+      <a
+        class="nav-button"
+        [routerLink]="['/guides']"
+        routerLinkActive="active"
+        (click)="closeMobileMenu()"
+        >Útmutatók</a
+      >
+      <a
+        class="nav-button"
+        [routerLink]="['/characters']"
+        routerLinkActive="active"
+        (click)="closeMobileMenu()"
+        >Karakterek</a
+      >
+      <a
+        class="nav-button"
+        [routerLink]="['/weapons']"
+        routerLinkActive="active"
+        (click)="closeMobileMenu()"
+        >Fegyverek</a
+      >
+      <a
+        class="nav-button"
+        [routerLink]="['/artifacts']"
+        routerLinkActive="active"
+        (click)="closeMobileMenu()"
+        >Artifaktok</a
+      >
+      <a
+        class="nav-button"
+        [routerLink]="['/materials']"
+        routerLinkActive="active"
+        (click)="closeMobileMenu()"
+        >Materialok</a
+      >
+      <a
+        class="nav-button"
+        [routerLink]="['/tools']"
+        routerLinkActive="active"
+        (click)="closeMobileMenu()"
+        >Eszközök</a
+      >
+      <a
+        class="nav-button settings-nav"
+        (click)="closeMobileMenu(); openSettings()"
+        >Beállítások</a
+      >
+    </div>
+    <div class="settings" (click)="openSettings()">
+      <i class="fa-solid fa-gear"></i>
     </div>
   </nav>
 </div>

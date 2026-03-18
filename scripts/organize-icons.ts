@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { Character } from '../src/app/_models/character';
 
 const SOURCE_DIR = path.join(__dirname, '../raw_icons');
 const CHAR_TARGET_DIR = path.join(__dirname, '../src/assets/images/characters');
@@ -85,6 +86,58 @@ function normalizeName(name: string): string {
   return name.toLowerCase().replace(/[\s'"`:\-—]+/g, '');
 }
 
+function addLookup(
+  lookup: Record<string, string[]>,
+  imageName: string,
+  target: string,
+) {
+  if (!lookup[imageName]) {
+    lookup[imageName] = [];
+  }
+
+  lookup[imageName].push(target);
+}
+
+function handleSkills(
+  skills: any,
+  skillFolder: string,
+  lookup: Record<string, string[]>,
+) {
+  if (!skills?.images) return;
+
+  for (const [jsonKey, filename] of Object.entries(skills.images)) {
+    if (SKILL_IMAGE_MAP[jsonKey] && filename) {
+      addLookup(
+        lookup,
+        filename as string,
+        path.join(skillFolder, SKILL_IMAGE_MAP[jsonKey]),
+      );
+    }
+  }
+}
+
+function handleConstellations(
+  constellation: any,
+  constellationFolder: string,
+  lookup: Record<string, string[]>,
+) {
+  if (!constellation?.images) return;
+
+  for (const [jsonKey, filename] of Object.entries(constellation.images)) {
+    if (CONSTELLATION_IMAGE_MAP[jsonKey] && filename) {
+      addLookup(
+        lookup,
+        filename as string,
+        path.join(constellationFolder, CONSTELLATION_IMAGE_MAP[jsonKey]),
+      );
+    }
+  }
+}
+
+function normalizeElement(elementKey: string): string {
+  return elementKey.replace('ELEMENT_', '').toLowerCase();
+}
+
 function organize() {
   const profiles = JSON.parse(fs.readFileSync(PROFILES_FILE, 'utf-8'));
 
@@ -123,48 +176,51 @@ function organize() {
       continue;
     }
 
-    const characterData = JSON.parse(
+    const characterData: Character = JSON.parse(
       fs.readFileSync(characterJsonPath, 'utf-8'),
     );
 
-    // --- SKILLS ---
-    if (characterData.skills?.images) {
-      const skillFolder = path.join(charFolder, 'skills');
-      ensureDir(skillFolder);
+    const skillFolder = path.join(charFolder, 'skills');
+    const constellationFolder = path.join(charFolder, 'constellation');
 
-      for (const [jsonKey, filename] of Object.entries(
-        characterData.skills.images,
-      )) {
-        if (SKILL_IMAGE_MAP[jsonKey] && filename) {
-          const imageName = filename as string;
+    ensureDir(skillFolder);
+    ensureDir(constellationFolder);
 
-          if (!lookup[imageName]) {
-            lookup[imageName] = [];
-          }
+    const isTraveler = characterData.profile.isTraveler === true;
 
-          lookup[imageName].push(
-            path.join(skillFolder, SKILL_IMAGE_MAP[jsonKey]),
-          );
-        }
+    if (!isTraveler) {
+      // --- NORMAL CHARACTER ---
+      if (characterData.skills) {
+        handleSkills(characterData.skills, skillFolder, lookup);
       }
-    }
 
-    // --- CONSTELLATIONS ---
-    if (characterData.constellation?.images) {
-      const constellationFolder = path.join(charFolder, 'constellation');
-      ensureDir(constellationFolder);
-      for (const [jsonKey, filename] of Object.entries(
-        characterData.constellation.images,
-      )) {
-        if (CONSTELLATION_IMAGE_MAP[jsonKey] && filename) {
-          const imageName = filename as string;
+      if (characterData.constellation) {
+        handleConstellations(
+          characterData.constellation,
+          constellationFolder,
+          lookup,
+        );
+      }
+    } else {
+      // --- TRAVELER VARIANTS ---
+      if (characterData.variants) {
+        for (const [elementKey, variant] of Object.entries(
+          characterData.variants,
+        )) {
+          const element = normalizeElement(elementKey);
 
-          if (!lookup[imageName]) {
-            lookup[imageName] = [];
-          }
+          const elementFolder = path.join(charFolder, element);
+          const skillFolder = path.join(elementFolder, 'skills');
+          const constellationFolder = path.join(elementFolder, 'constellation');
 
-          lookup[imageName].push(
-            path.join(constellationFolder, CONSTELLATION_IMAGE_MAP[jsonKey]),
+          ensureDir(skillFolder);
+          ensureDir(constellationFolder);
+
+          handleSkills((variant as any).skills, skillFolder, lookup);
+          handleConstellations(
+            (variant as any).constellation,
+            constellationFolder,
+            lookup,
           );
         }
       }

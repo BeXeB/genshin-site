@@ -1,60 +1,67 @@
-<div class="talents-container">
-  @if (char && char.skills) {
-    @if (char.skills.combat1) {
-      <app-talent-details
-        [talent]="char.skills.combat1"
+<div class="skills-container">
+  @if (char && skills) {
+    @if (skills.combat1) {
+      <app-skill-details
+        [skill]="skills.combat1"
         [elementColor]="elementColor"
-        [imageUrl]="talentImageUrls.combat1"
-      ></app-talent-details>
+        [imageUrl]="skillImageUrls.combat1"
+        [briefDescription]="getDescription(skills.combat1, 'combat1')"
+      ></app-skill-details>
     }
-    @if (char.skills.combat2) {
+    @if (skills.combat2) {
       <hr [style.color]="elementColor" />
-      <app-talent-details
-        [talent]="char.skills.combat2"
+      <app-skill-details
+        [skill]="skills.combat2"
         [elementColor]="elementColor"
-        [imageUrl]="talentImageUrls.combat2"
-      ></app-talent-details>
+        [imageUrl]="skillImageUrls.combat2"
+        [briefDescription]="getDescription(skills.combat2, 'combat2')"
+      ></app-skill-details>
     }
 
-    @if (char.skills.combat3) {
+    @if (skills.combat3) {
       <hr [style.color]="elementColor" />
-      <app-talent-details
-        [talent]="char.skills.combat3"
+      <app-skill-details
+        [skill]="skills.combat3"
         [elementColor]="elementColor"
-        [imageUrl]="talentImageUrls.combat3"
-      ></app-talent-details>
+        [imageUrl]="skillImageUrls.combat3"
+        [briefDescription]="getDescription(skills.combat3, 'combat3')"
+      ></app-skill-details>
     }
-    @if (char.skills.passive1) {
+    @if (skills.passive1) {
       <hr [style.color]="elementColor" />
-      <app-talent-details
-        [talent]="char.skills.passive1"
+      <app-skill-details
+        [skill]="skills.passive1"
         [elementColor]="elementColor"
-        [imageUrl]="talentImageUrls.passive1"
-      ></app-talent-details>
+        [imageUrl]="skillImageUrls.passive1"
+        [briefDescription]="getDescription(skills.passive1, 'passive1')"
+      ></app-skill-details>
     }
-    @if (char.skills.passive2) {
+    @if (skills.passive2) {
       <hr [style.color]="elementColor" />
-      <app-talent-details
-        [talent]="char.skills.passive2"
+      <app-skill-details
+        [skill]="skills.passive2"
         [elementColor]="elementColor"
-        [imageUrl]="talentImageUrls.passive2"
-      ></app-talent-details>
+        [imageUrl]="skillImageUrls.passive2"
+        [briefDescription]="getDescription(skills.passive2, 'passive2')"
+      ></app-skill-details>
     }
-    @if (char.skills.passive3) {
+    @if (skills.passive3) {
       <hr [style.color]="elementColor" />
-      <app-talent-details
-        [talent]="char.skills.passive3"
+      <app-skill-details
+        [skill]="skills.passive3"
         [elementColor]="elementColor"
-        [imageUrl]="talentImageUrls.passive3"
-      ></app-talent-details>
+        [imageUrl]="skillImageUrls.passive3"
+        [briefDescription]="getDescription(skills.passive3, 'passive3')"
+      ></app-skill-details>
     }
-    @if (char.skills.passive4) {
+    @if (skills.passive4) {
       <hr [style.color]="elementColor" />
-      <app-talent-details
-        [talent]="char.skills.passive4"
+      <app-skill-details
+        [skill]="skills.passive4"
         [elementColor]="elementColor"
-        [imageUrl]="talentImageUrls.passive4"
-      ></app-talent-details>
+        [imageUrl]="skillImageUrls.passive4"
+        [briefDescription]="getDescription(skills.passive4, 'passive4')"
+      ></app-skill-details>
     }
   }
 </div>

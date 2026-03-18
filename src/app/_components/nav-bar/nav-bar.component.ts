@@ -1,5 +1,6 @@
 import { Component, HostListener } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { ModalService } from '../../_services/modal.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -11,12 +12,18 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class NavBarComponent {
   mobileMenuOpen = false;
 
+  constructor(private modalService: ModalService) {}
+
   toggleMobileMenu(): void {
     this.mobileMenuOpen = !this.mobileMenuOpen;
   }
 
   closeMobileMenu(): void {
     this.mobileMenuOpen = false;
+  }
+
+  openSettings() {
+    this.modalService.open('settings');
   }
 
   @HostListener('document:click', ['$event'])

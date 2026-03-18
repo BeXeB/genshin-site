@@ -72,15 +72,10 @@ export class CharactersComponent implements OnInit {
 
     this.characterService.getCharacters().subscribe((data) => {
       const filtered = data
-        .filter(
-          (char) =>
-            char.name !== 'Aether' &&
-            char.name !== 'Lumine' &&
-            char.name !== 'Manekin' &&
-            char.name !== 'Manekina',
-        )
+        .filter((char) => char.name !== 'Manekin' && char.name !== 'Manekina')
+        .sort((a, b) => a.elementText.localeCompare(b.elementText))
+        .sort((a, b) => b.rarity - a.rarity)
         .sort((a, b) => b.version.localeCompare(a.version));
-
       this.characterData = filtered;
 
       this.applyFilters();

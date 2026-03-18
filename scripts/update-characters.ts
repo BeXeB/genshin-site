@@ -11,7 +11,12 @@ import {
   PassiveTalent,
   ConstellationDetail,
 } from '../src/app/_models/character';
-import { ElementType, QualityType, StatType, WeaponType } from '../src/app/_models/enum';
+import {
+  ElementType,
+  QualityType,
+  StatType,
+  WeaponType,
+} from '../src/app/_models/enum';
 import { Item } from '../src/app/_models/items';
 
 const OUTPUT_PATH = path.join(__dirname, '../src/assets/json/characters');
@@ -86,16 +91,18 @@ function mapProfile(profile: genshindb.Character): CharacterProfile {
       filename_gachaSlice: profile.images.filename_gachaSlice,
     },
     version: profile.version,
+
+    isTraveler: isTravelerTwin(normalize(profile.name)),
   };
 }
 
 function mapItems(item: Items[]): Item[] {
-  return item.map(i => ({id: +i.id, name: i.name, count: i.count}));
+  return item.map((i) => ({ id: +i.id, name: i.name, count: i.count }));
 }
 
 function mapTalents(skills: genshindb.Talent): CharacterTalents {
   let mappedCombatTalents: Record<string, CombatTalent> = {
-    combat1: mapCombatTalent(skills.combat1)
+    combat1: mapCombatTalent(skills.combat1),
   };
 
   if (skills.combat2) {
@@ -169,7 +176,9 @@ function mapCombatTalent(talent: genshindb.CombatTalentDetail): CombatTalent {
   };
 }
 
-function mapPassiveTalent(talent: genshindb.PassiveTalentDetail): PassiveTalent {
+function mapPassiveTalent(
+  talent: genshindb.PassiveTalentDetail,
+): PassiveTalent {
   return {
     name: talent.name,
     descriptionRaw: talent.descriptionRaw,
@@ -214,6 +223,15 @@ function mapConstellationDetail(
   };
 }
 
+function getTravelerElement(name: string): ElementType | null {
+  const match = name.match(/Traveler \((.*?)\)/);
+  return match ? (match[1] as ElementType) : null;
+}
+
+function isTravelerTwin(name: string): boolean {
+  return name === 'aether' || name === 'lumine';
+}
+
 async function run(): Promise<void> {
   if (!characters) {
     console.error('No characters found');
@@ -222,6 +240,48 @@ async function run(): Promise<void> {
 
   await fs.ensureDir(OUTPUT_PATH);
 
+  const travelerElements: Record<ElementType, string> = {
+    [ElementType.ANEMO]: 'Anemo',
+    [ElementType.GEO]: 'Geo',
+    [ElementType.ELECTRO]: 'Electro',
+    [ElementType.DENDRO]: 'Dendro',
+    [ElementType.HYDRO]: 'Hydro',
+    [ElementType.PYRO]: 'Pyro',
+    [ElementType.CRYO]: 'Cryo',
+    [ElementType.NONE]: 'None',
+  };
+
+  const travelerVariants: Partial<
+    Record<
+      ElementType,
+      { skills: CharacterTalents; constellation: CharacterConstellation }
+    >
+  > = {};
+
+  for (const element of Object.keys(travelerElements) as ElementType[]) {
+    const name = `Traveler (${travelerElements[element]})`;
+
+    console.log(`Downloading ${name}`);
+
+    const [skillsRes, constellationRes] = await Promise.all([
+      Promise.resolve(
+        genshindb.talents(name, { queryLanguages: [queryLanguage] }),
+      ),
+      Promise.resolve(
+        genshindb.constellations(name, {
+          queryLanguages: [queryLanguage],
+        }),
+      ),
+    ]);
+
+    if (!skillsRes || !constellationRes) continue;
+
+    travelerVariants[element] = {
+      skills: mapTalents(skillsRes),
+      constellation: mapConstellation(constellationRes),
+    };
+  }
+
   const existingFiles = await fs.readdir(OUTPUT_PATH);
 
   const existingCharacters = existingFiles
@@ -229,7 +289,6 @@ async function run(): Promise<void> {
       (f) => f.endsWith('.json') && f !== 'index.json' && f !== 'profiles.json',
     )
     .map((f) => f.replace('.json', ''));
-
 
   const normalizedNames = characters.map(normalize);
 
@@ -283,8 +342,8 @@ async function run(): Promise<void> {
       }
 
       for (const ascensionLevel of ascensionLevels) {
-        const stats = profileRes.stats(ascensionLevel, "+");
-        characterStats[ascensionLevel + "+"] = {
+        const stats = profileRes.stats(ascensionLevel, '+');
+        characterStats[ascensionLevel + '+'] = {
           level: ascensionLevel,
           ascension: stats.ascension,
           hp: stats.hp,
@@ -311,6 +370,15 @@ async function run(): Promise<void> {
         constellation: constellations,
         stats: characterStats,
       };
+
+      if (isTravelerTwin(normalize(profileRes.name))) {
+        character.profile.isTraveler = true;
+
+        character.variants = travelerVariants;
+
+        character.skills = undefined;
+        character.constellation = undefined;
+      }
 
       await fs.writeJson(path.join(OUTPUT_PATH, `${name}.json`), character, {
         spaces: 2,

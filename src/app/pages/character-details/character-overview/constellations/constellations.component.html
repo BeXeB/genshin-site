@@ -1,37 +1,45 @@
-<div class="constellations-container">
-  <app-constellation-details
-    [constellation]="char?.constellation?.c1"
-    [elementColor]="elementColor"
-    [imageUrl]="constellationImageUrls.c1"
-  ></app-constellation-details>
-  <hr [style.color]="elementColor">
-  <app-constellation-details
-    [constellation]="char?.constellation?.c2"
-    [elementColor]="elementColor"
-    [imageUrl]="constellationImageUrls.c2"
-  ></app-constellation-details>
-  <hr [style.color]="elementColor">
-  <app-constellation-details
-    [constellation]="char?.constellation?.c3"
-    [elementColor]="elementColor"
-    [imageUrl]="constellationImageUrls.c3"
-  ></app-constellation-details>
-  <hr [style.color]="elementColor">
-  <app-constellation-details
-    [constellation]="char?.constellation?.c4"
-    [elementColor]="elementColor"
-    [imageUrl]="constellationImageUrls.c4"
-  ></app-constellation-details>
-  <hr [style.color]="elementColor">
-  <app-constellation-details
-    [constellation]="char?.constellation?.c5"
-    [elementColor]="elementColor"
-    [imageUrl]="constellationImageUrls.c5"
-  ></app-constellation-details>
-  <hr [style.color]="elementColor">
-  <app-constellation-details
-    [constellation]="char?.constellation?.c6"
-    [elementColor]="elementColor"
-    [imageUrl]="constellationImageUrls.c6"
-  ></app-constellation-details>
+<div class="constellation-container">
+  @if (char && constellation) {
+    <app-skill-details
+      [skill]="constellation.c1"
+      [elementColor]="elementColor"
+      [imageUrl]="skillImageUrls.c1"
+      [briefDescription]="getDescription(constellation.c1, 'c1')"
+    ></app-skill-details>
+    <hr [style.color]="elementColor" />
+    <app-skill-details
+      [skill]="constellation.c2"
+      [elementColor]="elementColor"
+      [imageUrl]="skillImageUrls.c2"
+      [briefDescription]="getDescription(constellation.c2, 'c2')"
+    ></app-skill-details>
+    <hr [style.color]="elementColor" />
+    <app-skill-details
+      [skill]="constellation.c3"
+      [elementColor]="elementColor"
+      [imageUrl]="skillImageUrls.c3"
+      [briefDescription]="getDescription(constellation.c3, 'c3')"
+    ></app-skill-details>
+    <hr [style.color]="elementColor" />
+    <app-skill-details
+      [skill]="constellation.c4"
+      [elementColor]="elementColor"
+      [imageUrl]="skillImageUrls.c4"
+      [briefDescription]="getDescription(constellation.c4, 'c4')"
+    ></app-skill-details>
+    <hr [style.color]="elementColor" />
+    <app-skill-details
+      [skill]="constellation.c5"
+      [elementColor]="elementColor"
+      [imageUrl]="skillImageUrls.c5"
+      [briefDescription]="getDescription(constellation.c5, 'c5')"
+    ></app-skill-details>
+    <hr [style.color]="elementColor" />
+    <app-skill-details
+      [skill]="constellation.c6"
+      [elementColor]="elementColor"
+      [imageUrl]="skillImageUrls.c6"
+      [briefDescription]="getDescription(constellation.c6, 'c6')"
+    ></app-skill-details>
+  }
 </div>
