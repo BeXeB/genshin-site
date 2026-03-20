@@ -12,12 +12,6 @@
   flex-direction: column;
 }
 
-.stat-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-
 .weapon-stats {
   flex: 2;
   display: flex;
@@ -87,75 +81,14 @@
   margin-bottom: 15px;
 }
 
-.level-controls {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex: 1;
-}
-
-.level-slider {
-  flex: 1;
-  cursor: pointer;
-  padding: 0 5px;
-  margin: 0;
-
-  -webkit-appearance: none;
-  appearance: none;
-  background: transparent;
-  border: none;
-}
-
-.level-slider {
-  box-shadow: none;
-}
-
 .level-input {
   width: 50px;
   text-align: right;
   padding: 0px 5px;
 }
 
-.level-slider::-webkit-slider-runnable-track {
-  height: 4px;
-  background: var(--dark-gray);
-  border-radius: 5px;
-}
-.level-slider::-moz-range-track {
-  height: 4px;
-  background: var(--dark-gray);
-  border-radius: 5px;
-}
-
-.level-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  height: 20px;
-  width: 20px;
-  background: var(--gray);
-  border-radius: 50%;
-  cursor: pointer;
-  margin-top: -6px;
-}
-
-.level-slider::-moz-range-thumb {
-  height: 20px;
-  width: 20px;
-  background: var(--gray);
-  border-radius: 50%;
-  cursor: pointer;
-  border: none;
-}
-
-.level-slider::-moz-range-progress {
-  background: var(--gray);
-  height: 4px;
-  border-radius: 5px;
-}
-
-.level-slider::-webkit-progress-value {
-  background: var(--gray);
-  height: 4px;
-  border-radius: 5px;
+.level-slider {
+  --slider-color: var(--gray);
 }
 
 .weapon-story {

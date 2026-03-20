@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormsModule } from '@angular/forms';
 import { MaterialService } from '../../_services/material.service';
+import { ImageService } from '../../_services/image.service';
 import { MaterialResolved } from '../../_models/materials';
 import { ResolverService } from '../../_services/resolver.service';
 import { RouterLink } from '@angular/router';
@@ -39,6 +40,7 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
     private resolver: ResolverService,
     private storageService: StorageService,
     protected override filterService: FilterService,
+    private imageService: ImageService,
   ) {
     super(filterService);
   }
@@ -65,7 +67,7 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
   }
 
   getImage(material: MaterialResolved): string {
-    return `assets/images/materials/${material.type}/${material.normalizedName}.webp`;
+    return this.imageService.getMaterialImage(material.normalizedName, material.type);
   }
 
   private saveFilters(): void {

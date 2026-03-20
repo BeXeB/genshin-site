@@ -14,7 +14,7 @@
 
 .toc-content {
   overflow: hidden;
-  
+
   padding: 0;
 }
 
@@ -25,7 +25,7 @@
 .guide-container {
   flex: 1;
   background-color: var(--black);
-  
+
 }
 
 .guide-container h2 {
@@ -41,10 +41,6 @@
 .guide-title {
   font-size: 1.5em;
   margin-bottom: 10px;
-}
-
-.guide {
-  margin-bottom: 40px;
 }
 
 .guide ::ng-deep img {

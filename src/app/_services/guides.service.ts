@@ -21,4 +21,21 @@ export class GuidesService {
       responseType: 'text',
     });
   }
+
+  /**
+   * Fetch markdown content from a fileUrl
+   * Useful for guides that have a fullpath in their fileUrl field
+   */
+  getGuideMarkdownByUrl(fileUrl: string): Observable<string> {
+    return this.http.get(fileUrl, {
+      responseType: 'text',
+    });
+  }
+
+  /**
+   * Fetch character guide markdown by character apikey
+   */
+  getCharacterGuideMarkdown(apiKey: string): Observable<string> {
+    return this.getGuideMarkdown(`characters/${apiKey}`);
+  }
 }

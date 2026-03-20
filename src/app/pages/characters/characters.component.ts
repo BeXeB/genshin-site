@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
+import { ImageService } from '../../_services/image.service';
 import { CharacterProfile } from '../../_models/character';
 import { FormsModule } from '@angular/forms';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
@@ -69,6 +70,7 @@ export class CharactersComponent extends BaseListComponent<CharacterProfile> {
   constructor(
     private characterService: CharacterService,
     protected override filterService: FilterService,
+    private imageService: ImageService,
   ) {
     super(filterService);
   }
@@ -87,9 +89,9 @@ export class CharactersComponent extends BaseListComponent<CharacterProfile> {
 
   getIcons(char: CharacterProfile) {
     return {
-      iconUrl: `assets/images/characters/${char.normalizedName}/icon.webp`,
-      elementUrl: `assets/images/${char.elementText}.webp`,
-      weaponUrl: `assets/images/${char.weaponText}.webp`,
+      iconUrl: this.imageService.getCharacterIcon(char.normalizedName),
+      elementUrl: this.imageService.getElementIcon(char.elementText),
+      weaponUrl: this.imageService.getWeaponTypeIcon(char.weaponText),
     };
   }
 

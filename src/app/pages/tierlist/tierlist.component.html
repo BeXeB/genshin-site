@@ -14,11 +14,7 @@
             <div class="character">
               <img
                 class="character-icon"
-                [src]="
-                  'assets/images/characters/' +
-                  char.character.apiKey +
-                  '/icon.webp'
-                "
+                [src]="getCharacterIcon(char.character.apiKey)"
                 [alt]="char?.profile?.name"
               />
               <div class="tags">

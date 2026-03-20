@@ -18,6 +18,7 @@ import { BaseDetailComponent } from '../../_components/base-detail.component';
 export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolved> {
   material: MaterialResolved | null = null;
   mora: Material | null = null;
+  errorMessage: string | null = null;
 
   constructor(
     protected override route: ActivatedRoute,
@@ -39,16 +40,29 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
         ),
         takeUntil(this.destroy$),
       )
-      .subscribe((resolvedMaterial) => {
-        this.material = resolvedMaterial;
-        this.cdr.markForCheck();
+      .subscribe({
+        next: (resolvedMaterial) => {
+          this.material = resolvedMaterial;
+          this.errorMessage = null;
+          this.cdr.markForCheck();
+        },
+        error: () => {
+          this.errorMessage = `Material "${slug}" not found`;
+          this.cdr.markForCheck();
+        },
       });
 
     this.materialService.getMaterial('mora')
       .pipe(takeUntil(this.destroy$))
-      .subscribe((data) => {
-        this.mora = data ?? null;
-        this.cdr.markForCheck();
+      .subscribe({
+        next: (data) => {
+          this.mora = data ?? null;
+          this.cdr.markForCheck();
+        },
+        error: () => {
+          this.mora = null;
+          this.cdr.markForCheck();
+        },
       });
   }
 }

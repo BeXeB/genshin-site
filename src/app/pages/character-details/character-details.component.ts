@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
 import { ActivatedRoute } from '@angular/router';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
@@ -13,6 +13,7 @@ import { ElementType } from '../../_models/enum';
 @Component({
   selector: 'app-character-details',
   standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     PageTitleComponent,
     CharacterOverviewComponent,
@@ -24,6 +25,7 @@ import { ElementType } from '../../_models/enum';
 export class CharacterDetailsComponent implements OnInit, OnDestroy {
   char: CharacterResolved | null = null;
   apikey: string | null = null;
+  errorMessage: string | null = null;
   private destroy$ = new Subject<void>();
 
   selectedElement: ElementType = ElementType.ANEMO;
@@ -64,6 +66,7 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
     private characterService: CharacterService,
     private resolverService: ResolverService,
     private route: ActivatedRoute,
+    private cdr: ChangeDetectorRef,
   ) {}
 
   ngOnInit(): void {
@@ -78,8 +81,16 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
         switchMap((data) => this.resolverService.resolveCharacter(data)),
         takeUntil(this.destroy$),
       )
-      .subscribe((resolvedChar) => {
-        this.char = resolvedChar;
+      .subscribe({
+        next: (resolvedChar) => {
+          this.char = resolvedChar;
+          this.errorMessage = null;
+          this.cdr.markForCheck();
+        },
+        error: () => {
+          this.errorMessage = `Character "${name}" not found`;
+          this.cdr.markForCheck();
+        },
       });
   }
 

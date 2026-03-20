@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ArtifactService } from '../../_services/artifact.service';
+import { ImageService } from '../../_services/image.service';
 import { ArtifactSet } from '../../_models/artifacts';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormsModule } from '@angular/forms';
@@ -53,6 +54,7 @@ export class ArtifactsComponent extends BaseListComponent<ArtifactSet> {
   constructor(
     private artifactService: ArtifactService,
     protected override filterService: FilterService,
+    private imageService: ImageService,
   ) {
     super(filterService);
   }
@@ -74,8 +76,7 @@ export class ArtifactsComponent extends BaseListComponent<ArtifactSet> {
   }
 
   getImage(artifact: ArtifactSet): string {
-    let result = `assets/images/artifacts/${artifact.normalizedName}/`;
-    result += artifact.effect1Pc ? 'circlet.webp' : 'flower.webp';
-    return result;
+    const piece = artifact.effect1Pc ? 'circlet' : 'flower';
+    return this.imageService.getArtifactImage(artifact.normalizedName, piece);
   }
 }

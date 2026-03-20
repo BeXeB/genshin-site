@@ -6,6 +6,7 @@ import {
   moveItemInArray,
 } from '@angular/cdk/drag-drop';
 import { CharacterService } from '../../_services/character.service';
+import { ImageService } from '../../_services/image.service';
 import { FormsModule } from '@angular/forms';
 import {
   CharacterTag,
@@ -28,6 +29,7 @@ export class TierlistMakerComponent implements OnInit {
   constructor(
     private characterSerivce: CharacterService,
     private storageService: StorageService,
+    private imageService: ImageService,
   ) {}
 
   get allDropLists() {
@@ -218,5 +220,9 @@ export class TierlistMakerComponent implements OnInit {
     a.click();
     document.body.removeChild(a);
     window.URL.revokeObjectURL(url);
+  }
+
+  getCharacterIcon(apiKey: string): string {
+    return this.imageService.getCharacterIcon(apiKey);
   }
 }

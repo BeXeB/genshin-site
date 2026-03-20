@@ -22,51 +22,64 @@ export class MarkdownService {
 
   constructor() {
     // Use GFM-style heading IDs
-    marked.use(gfmHeadingId(), {
-      walkTokens: (token) => {
-        if (token.type === 'heading') {
-          const id = this.generateUniqueSlug(token.text);
-          this.headings.push({
-            text: token.text,
-            level: token.depth,
-            id,
-          });
-        }
-      },
-    });
+    marked.use(gfmHeadingId());
   }
 
-  private generateUniqueSlug(text: string): string {
+  private generateUniqueSlug(text: string, slugCounts: Record<string, number>): string {
     let slug = text
       .toLowerCase()
       .trim()
       .replace(/[^\w]+/g, '-')
       .replace(/^-+|-+$/g, '');
 
-    if (this.slugCounts[slug] === undefined) {
-      this.slugCounts[slug] = 0;
+    if (slugCounts[slug] === undefined) {
+      slugCounts[slug] = 0;
     } else {
-      this.slugCounts[slug]++;
-      slug = `${slug}-${this.slugCounts[slug]}`;
+      slugCounts[slug]++;
+      slug = `${slug}-${slugCounts[slug]}`;
     }
 
     return slug;
   }
 
   async parse(markdown: string, currentPath: string) {
-    this.headings = [];
-    this.slugCounts = {};
+    // Local state for this parse operation to prevent race conditions
+    const headings: Heading[] = [];
+    const slugCounts: Record<string, number> = {};
 
-    const content = await marked(markdown);
-    const toc = this.buildTOC(currentPath);
+    // Create a custom walker that collects headings for this specific parse
+    const walkTokens = (tokens: any[]) => {
+      tokens.forEach((token) => {
+        if (token.type === 'heading') {
+          const slug = this.generateUniqueSlug(token.text, slugCounts);
+          headings.push({
+            text: token.text,
+            level: token.depth,
+            id: slug,
+          });
+        }
+        if (token.tokens) {
+          walkTokens(token.tokens);
+        }
+      });
+    };
+
+    // Use marked with custom extension
+    const parser = new marked.Parser();
+    const lexer = new marked.Lexer();
+    const tokens = lexer.lex(markdown);
+    walkTokens(tokens);
+
+    const content = parser.parse(tokens);
+    const toc = this.buildTOC(headings, currentPath);
 
     return { content, toc };
   }
 
-  private buildTOC(currentPath: string): string {
-    if (!this.headings.length) return '';
+  private buildTOC(headings: Heading[], currentPath: string): string {
+    if (!headings.length) return '';
 
-    const tree = this.buildTOCTree(this.headings);
+    const tree = this.buildTOCTree(headings);
     const html = this.renderTOCTree(tree, currentPath);
     return `<nav class="toc">${html}</nav>`;
   }

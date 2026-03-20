@@ -30,9 +30,7 @@
                 >
                   <img
                     class="character-icon"
-                    [src]="
-                      'assets/images/characters/' + char.apiKey + '/icon.webp'
-                    "
+                    [src]="getCharacterIcon(char.apiKey)"
                     [alt]="char?.profile?.name"
                   />
                   @if (char.tags.length) {
@@ -73,7 +71,7 @@
           >
             <img
               class="character-icon"
-              [src]="'assets/images/characters/' + char.apiKey + '/icon.webp'"
+              [src]="getCharacterIcon(char.apiKey)"
               [alt]="char?.profile?.name"
             />
           </div>

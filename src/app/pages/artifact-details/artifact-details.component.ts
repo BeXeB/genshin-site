@@ -16,6 +16,7 @@ import { BaseDetailComponent } from '../../_components/base-detail.component';
 })
 export class ArtifactDetailsComponent extends BaseDetailComponent<ArtifactSet> {
   artifact: ArtifactSet | null = null;
+  errorMessage: string | null = null;
 
   constructor(
     protected override route: ActivatedRoute,
@@ -29,9 +30,16 @@ export class ArtifactDetailsComponent extends BaseDetailComponent<ArtifactSet> {
   override loadDetail(slug: string): void {
     this.artifactService.getArtifact(slug)
       .pipe(takeUntil(this.destroy$))
-      .subscribe((data) => {
-        this.artifact = data;
-        this.cdr.markForCheck();
+      .subscribe({
+        next: (data) => {
+          this.artifact = data;
+          this.errorMessage = null;
+          this.cdr.markForCheck();
+        },
+        error: () => {
+          this.errorMessage = `Artifact "${slug}" not found`;
+          this.cdr.markForCheck();
+        },
       });
   }
 }

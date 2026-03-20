@@ -2,6 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 import { CharacterService } from './character.service';
 import { Character, CharacterProfile } from '../_models/character';
+import { ElementType, WeaponType, QualityType, StatType } from '../_models/enum';
 
 describe('CharacterService', () => {
   let service: CharacterService;
@@ -12,14 +13,14 @@ describe('CharacterService', () => {
       id: 1,
       name: 'Fischl',
       rarity: 4,
-      elementType: 'electro' as any,
+      elementType: ElementType.ELECTRO,
       elementText: 'Electro',
       region: 'mondstadt',
       normalizedName: 'fischl',
-      weaponType: 'bow' as any,
+      weaponType: WeaponType.BOW,
       weaponText: 'Bow',
-      qualityType: 'rarity4' as any,
-      substatType: 'atk' as any,
+      qualityType: QualityType.QUALITY_PURPLE,
+      substatType: StatType.ATK,
       substatText: 'ATK',
       title: 'Investigator',
       description: 'A test character',
@@ -37,19 +38,19 @@ describe('CharacterService', () => {
       },
       images: { filename_icon: 'fischl.png' },
       version: '1.0',
-    } as any,
+    },
     {
       id: 2,
       name: 'Raiden Shogun',
       rarity: 5,
-      elementType: 'electro' as any,
+      elementType: ElementType.ELECTRO,
       elementText: 'Electro',
       region: 'inazuma',
       normalizedName: 'raidenshogun',
-      weaponType: 'polearm' as any,
+      weaponType: WeaponType.POLE,
       weaponText: 'Polearm',
-      qualityType: 'rarity5' as any,
-      substatType: 'atk' as any,
+      qualityType: QualityType.QUALITY_ORANGE,
+      substatType: StatType.ATK,
       substatText: 'ATK',
       title: 'Raiden Shogun',
       description: 'A test character',
@@ -67,7 +68,7 @@ describe('CharacterService', () => {
       },
       images: { filename_icon: 'raiden.png' },
       version: '2.0',
-    } as any,
+    },
   ];
 
   const mockCharacterNames = [
@@ -80,46 +81,61 @@ describe('CharacterService', () => {
 
   const mockCharacterDetails: Character = {
     profile: mockCharacterProfiles[0],
-    stats: {} as any,
+    stats: {},
     skills: {
-      normal: {
-        label: 'Normal Attack',
+      id: 1,
+      name: 'Fischl',
+      combat1: {
+        name: 'Normal Attack',
         description: 'Perform up to 5 shots with a bow.',
-        costs: {
-          ascend1: [],
-          ascend2: [],
-          ascend3: [],
-          ascend4: [],
-          ascend5: [],
-          ascend6: [],
+        descriptionRaw: 'Perform up to 5 shots with a bow.',
+        attributes: {
+          labels: [],
+          parameters: {},
         },
       },
-      charges: {
-        label: 'Aimed Shot',
+      combat2: {
+        name: 'Aimed Shot',
         description: 'Aim before loosing the arrow.',
-        costs: {
-          ascend1: [],
-          ascend2: [],
-          ascend3: [],
-          ascend4: [],
-          ascend5: [],
-          ascend6: [],
+        descriptionRaw: 'Aim before loosing the arrow.',
+        attributes: {
+          labels: [],
+          parameters: {},
         },
       },
-      burst: {
-        label: 'Elemental Burst',
+      combat3: {
+        name: 'Elemental Burst',
         description: 'Summon Oz.',
-        costs: {
-          ascend1: [],
-          ascend2: [],
-          ascend3: [],
-          ascend4: [],
-          ascend5: [],
-          ascend6: [],
+        descriptionRaw: 'Summon Oz.',
+        attributes: {
+          labels: [],
+          parameters: {},
         },
       },
+      passive1: {
+        name: 'Passive 1',
+        description: 'Passive 1 description',
+        descriptionRaw: 'Passive 1 description',
+      },
+      passive2: {
+        name: 'Passive 2',
+        description: 'Passive 2 description',
+        descriptionRaw: 'Passive 2 description',
+      },
+      costs: {
+        lvl2: [],
+        lvl3: [],
+        lvl4: [],
+        lvl5: [],
+        lvl6: [],
+        lvl7: [],
+        lvl8: [],
+        lvl9: [],
+        lvl10: [],
+      },
+      version: '1.0',
     },
-  } as any;
+  };
 
   beforeEach(() => {
     TestBed.configureTestingModule({

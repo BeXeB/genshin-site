@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { ImageService } from '../../_services/image.service';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +10,8 @@ import { RouterLink } from '@angular/router';
   styleUrl: './home.component.css',
 })
 export class HomeComponent {
+  constructor(private imageService: ImageService) {}
+
   quickAccesses = [
     {
       title: 'Tier List',
@@ -31,4 +34,8 @@ export class HomeComponent {
       link: '/tools',
     },
   ];
+
+  getGeoIcon(): string {
+    return this.imageService.getElementIcon('Geo');
+  }
 }

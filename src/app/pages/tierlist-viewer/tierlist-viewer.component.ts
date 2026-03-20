@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
+import { ImageService } from '../../_services/image.service';
 import { Tier, TierCharacter, Tierlist } from '../../_models/tierlist';
 import { CharacterProfile } from '../../_models/character';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
@@ -15,6 +16,7 @@ export class TierlistViewerComponent {
   constructor(
     private characterService: CharacterService,
     private tierlistService: TierlistService,
+    private imageService: ImageService,
   ) {}
 
   tierlist: Tierlist | null = null;
@@ -90,5 +92,9 @@ export class TierlistViewerComponent {
 
   private processUploadedFile(fileContent: string) {
     this.tierlist = this.tierlistService.getTierlistFromJson(fileContent);
+  }
+
+  getCharacterIcon(apiKey: string): string {
+    return this.imageService.getCharacterIcon(apiKey);
   }
 }

@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Guide } from '../../_models/guides';
 import { GuidesService } from '../../_services/guides.service';
+import { ImageService } from '../../_services/image.service';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { RouterLink } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
@@ -15,7 +16,7 @@ export class GuidesComponent implements OnInit, OnDestroy {
   private destroy$ = new Subject<void>();
   guides: Guide[] = [];
 
-  constructor(private guidesService: GuidesService) {}
+  constructor(private guidesService: GuidesService, private imageService: ImageService) {}
 
   ngOnInit(): void {
     this.guidesService.getGuides()
@@ -28,5 +29,9 @@ export class GuidesComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.destroy$.next();
     this.destroy$.complete();
+  }
+
+  getAvatarListIcon(): string {
+    return this.imageService.getSkillIcon('UI_BtnIcon_AvatarList');
   }
 }

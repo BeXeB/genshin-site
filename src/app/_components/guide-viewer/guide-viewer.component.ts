@@ -5,11 +5,14 @@ import {
   OnChanges,
   OnDestroy,
   SimpleChanges,
+  ChangeDetectorRef,
 } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { MarkdownService } from '../../_services/markdown.service';
+import { GuidesService } from '../../_services/guides.service';
 import { Router } from '@angular/router';
 import { marked } from 'marked';
+import { Subject, takeUntil } from 'rxjs';
 
 export type GuideSourceType =
   | 'markdown-content'
@@ -55,6 +58,8 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
   toc: SafeHtml | string = '';
 
   private tocEventListeners: Array<{el: Element, listener: EventListener}> = [];
+  private pendingTimeouts: number[] = [];
+  private destroy$ = new Subject<void>();
 
   // Helper to clean up event listeners from previous TOC
   private cleanupTOCListeners() {
@@ -62,6 +67,23 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
       el.removeEventListener('click', listener);
     });
     this.tocEventListeners = [];
+  }
+
+  // Helper to cancel all pending operations
+  private cancelPendingOperations() {
+    // Signal to cancel any ongoing subscriptions
+    this.destroy$.next();
+
+    // Clear any pending timeouts
+    this.pendingTimeouts.forEach((timeoutId) => clearTimeout(timeoutId));
+    this.pendingTimeouts = [];
+  }
+
+  // Helper to schedule a timeout and track it
+  private scheduleTimeout(callback: () => void, delay: number): number {
+    const timeoutId = window.setTimeout(callback, delay);
+    this.pendingTimeouts.push(timeoutId);
+    return timeoutId;
   }
 
   // Helper to set content and optional TOC, attach scroll handlers
@@ -72,19 +94,24 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
     // Only set TOC when parser returned non-empty content and TOC is enabled
     if (this.showToc && tocHtml && tocHtml.toString().trim().length > 0) {
       this.toc = this.sanitizer.bypassSecurityTrustHtml(tocHtml);
-      setTimeout(() => this.addTOCScroll(), 0);
+      this.scheduleTimeout(() => this.addTOCScroll(), 0);
     } else {
       this.toc = '';
     }
 
     // Always attempt to scroll to hash if present
-    setTimeout(() => this.scrollToHash(window.location.hash), 0);
+    this.scheduleTimeout(() => this.scrollToHash(window.location.hash), 0);
+
+    // Trigger change detection for components using OnPush
+    this.cdr.markForCheck();
   }
 
   constructor(
     private sanitizer: DomSanitizer,
     private markdownService: MarkdownService,
+    private guidesService: GuidesService,
     private router: Router,
+    private cdr: ChangeDetectorRef,
   ) {}
 
   ngOnInit(): void {
@@ -93,6 +120,8 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['source'] || changes['sourceType']) {
+      // Cancel any ongoing operations before loading new guide
+      this.cancelPendingOperations();
       this.loadGuide();
     }
   }
@@ -125,51 +154,61 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
         // Use basic marked for plain markdown
         const parsed = await marked(this.source);
         this.html = this.sanitizer.bypassSecurityTrustHtml(parsed);
+        this.cdr.markForCheck();
       }
     } catch (error) {
       this.html = '<p>Hamarosan</p>';
+      this.cdr.markForCheck();
     }
   }
 
   private loadCharacterGuide() {
-    fetch(`assets/guides/characters/${this.source}.md`)
-      .then((response) => {
-        if (!response.ok) {
+    this.guidesService
+      .getCharacterGuideMarkdown(this.source)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: async (markdown) => {
+          try {
+            const path = this.router.url.split('#')[0];
+            const { content, toc } = await this.markdownService.parse(
+              markdown,
+              path,
+            );
+            this.applyContent(content, toc);
+          } catch (error) {
+            this.html = '<p>Hamarosan</p>';
+            this.toc = '';
+            this.cdr.markForCheck();
+          }
+        },
+        error: () => {
           this.html = '<p>Hamarosan</p>';
-          throw new Error('Guide not found');
-        }
-        return response.text();
-      })
-      .then(async (markdown) => {
-        const path = this.router.url.split('#')[0];
-        const { content, toc } = await this.markdownService.parse(
-          markdown,
-          path,
-        );
-
-        this.applyContent(content, toc);
-      })
-      .catch(() => {
-        this.html = '<p>Hamarosan</p>';
-        this.toc = '';
+          this.toc = '';
+          this.cdr.markForCheck();
+        },
       });
   }
 
   private loadGuideFile() {
-    fetch(`assets/guides/${this.source}.md`)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Guide not found');
-        }
-        return response.text();
-      })
-      .then(async (markdown) => {
-        const parsed = await marked(markdown);
-        this.applyContent(parsed, null);
-      })
-      .catch(() => {
-        this.html = '<p>Hamarosan</p>';
-        this.toc = '';
+    this.guidesService
+      .getGuideMarkdown(this.source)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: async (markdown) => {
+          try {
+            const parsed = await marked(markdown);
+            this.applyContent(parsed, null);
+          } catch (error) {
+            this.html = '<p>Hamarosan</p>';
+            this.toc = '';
+            this.cdr.markForCheck();
+          }
+        },
+        error: () => {
+          this.html = '<p>Hamarosan</p>';
+          this.toc = '';
+          this.cdr.markForCheck();
+        },
       });
   }
 
@@ -207,5 +246,8 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
 
   ngOnDestroy(): void {
     this.cleanupTOCListeners();
+    this.pendingTimeouts.forEach((timeoutId) => clearTimeout(timeoutId));
+    this.destroy$.next();
+    this.destroy$.complete();
   }
 }

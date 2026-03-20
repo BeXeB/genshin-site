@@ -26,6 +26,7 @@ import { BaseDetailComponent } from '../../_components/base-detail.component';
 export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> {
   weapon: WeaponResolved | null = null;
   mora: Material | null = null;
+  errorMessage: string | null = null;
 
   constructor(
     protected override route: ActivatedRoute,
@@ -84,12 +85,22 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
         }),
         takeUntil(this.destroy$),
       )
-      .subscribe((resolvedWeapon) => {
-        if (resolvedWeapon) {
-          this.weapon = resolvedWeapon;
-          this.setLevel(this.weapon?.rarity > 2 ? '90' : '70');
+      .subscribe({
+        next: (resolvedWeapon) => {
+          if (resolvedWeapon) {
+            this.weapon = resolvedWeapon;
+            this.setLevel(this.weapon?.rarity > 2 ? '90' : '70');
+            this.errorMessage = null;
+            this.cdr.markForCheck();
+          } else {
+            this.errorMessage = `Weapon "${slug}" not found`;
+            this.cdr.markForCheck();
+          }
+        },
+        error: () => {
+          this.errorMessage = `Weapon "${slug}" not found`;
           this.cdr.markForCheck();
-        }
+        },
       });
   }
 

@@ -20,21 +20,24 @@ describe('ArtifactService', () => {
       normalizedName: 'gladiators-finale',
       rarityList: [4, 5],
       images: { filename_flower: 'flower.png' },
-    } as any,
+      version: '1.0',
+    },
     {
       id: 2,
       name: 'Wanderer\'s Troupe',
       normalizedName: 'wanderers-troupe',
       rarityList: [4, 5],
       images: { filename_flower: 'flower.png' },
-    } as any,
+      version: '1.0',
+    },
     {
       id: 3,
       name: 'Noblesse Oblige',
       normalizedName: 'noblesse-oblige',
       rarityList: [4, 5],
       images: { filename_flower: 'flower.png' },
-    } as any,
+      version: '1.0',
+    },
   ];
 
   beforeEach(() => {

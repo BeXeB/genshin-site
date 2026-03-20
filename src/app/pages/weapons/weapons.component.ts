@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { WeaponService } from '../../_services/weapon.service';
+import { ImageService } from '../../_services/image.service';
 import { WeaponResolved } from '../../_models/weapons';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
@@ -63,6 +64,7 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
     private weaponsService: WeaponService,
     private resolver: ResolverService,
     protected override filterService: FilterService,
+    private imageService: ImageService,
   ) {
     super(filterService);
   }
@@ -84,8 +86,8 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
 
   getIconUrls(weapon: WeaponResolved) {
     return {
-      iconUrl: `assets/images/weapons/${weapon.normalizedName}/icon.webp`,
-      typeUrl: `assets/images/${weapon.weaponText}.webp`,
+      iconUrl: this.imageService.getWeaponIcon(weapon.normalizedName),
+      typeUrl: this.imageService.getWeaponTypeIcon(weapon.weaponText),
     };
   }
 }

@@ -28,21 +28,8 @@
   width: max-content;
 }
 
-.filter-group {
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-}
-
 .filter-group p {
   margin: 0 0 10px 0;
-}
-
-.filter-group > div {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 8px;
 }
 
 .filter-btn {
@@ -52,11 +39,6 @@
   font-size: 14px;
   font-family: inherit;
   transition: all 0.2s;
-}
-
-.search-bar input {
-  padding: 10px 15px;
-  flex: 1;
 }
 
 .artifact-card {

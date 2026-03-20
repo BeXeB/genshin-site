@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { TodoComponent } from './pages/todo/todo.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CharactersComponent } from './pages/characters/characters.component';
 import { TierlistComponent } from './pages/tierlist/tierlist.component';
@@ -32,6 +31,4 @@ export const routes: Routes = [
   { path: 'tools', component: ToolsComponent },
   { path: 'tierlist-maker', component: TierlistMakerComponent },
   { path: 'tierlist-viewer', component: TierlistViewerComponent },
-  { path: 'tierlist-maker', component: TierlistMakerComponent },
-  // { path: 'todo', component: TodoComponent },
 ];

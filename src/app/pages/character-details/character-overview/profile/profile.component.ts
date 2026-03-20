@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CharacterResolved } from '../../../../_models/character';
+import { ImageService } from '../../../../_services/image.service';
 import { DecimalPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Material } from '../../../../_models/materials';
@@ -14,6 +15,8 @@ import { RouterLink } from '@angular/router';
 export class OverviewProfileComponent implements OnInit {
   @Input() char: CharacterResolved | null = null;
   @Input() elementColor: string | null = null;
+
+  constructor(private imageService: ImageService) {}
 
   quickLevels = [
     '1',
@@ -103,6 +106,6 @@ export class OverviewProfileComponent implements OnInit {
   }
 
   getMaterialImageUrl(material: Material): string {
-    return `assets/images/materials/${material.type}/${material.normalizedName}.webp`;
+    return this.imageService.getMaterialImage(material.normalizedName, material.type);
   }
 }

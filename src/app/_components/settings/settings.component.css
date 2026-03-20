@@ -56,42 +56,5 @@
 }
 
 .number-wrapper {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
   justify-content: space-between;
-}
-
-.number-wrapper input {
-  width: 30px;
-  padding: 4px;
-  border-radius: 0px;
-  height: 30px;
-}
-
-.number-wrapper button {
-  padding: 4px;
-  width: 30px;
-  height: 30px;
-}
-
-.number-wrapper input::-webkit-outer-spin-button,
-.number-wrapper input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.number-wrapper input {
-  appearance: textfield;
-  -moz-appearance: textfield;
-}
-
-.increment {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
-
-.decrement {
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
 }
