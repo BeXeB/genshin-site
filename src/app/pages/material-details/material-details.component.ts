@@ -1,12 +1,12 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { Material, MaterialResolved } from '../../_models/materials';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
 import { MaterialService } from '../../_services/material.service';
-import { map, switchMap } from 'rxjs';
+import { map, switchMap, takeUntil } from 'rxjs';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
-import { SafeHtml } from '@angular/platform-browser';
 import { FormatterService } from '../../_services/formatter.service';
+import { BaseDetailComponent } from '../../_components/base-detail.component';
 
 @Component({
   selector: 'app-material-details',
@@ -15,48 +15,40 @@ import { FormatterService } from '../../_services/formatter.service';
   templateUrl: './material-details.component.html',
   styleUrl: './material-details.component.css',
 })
-export class MaterialDetailsComponent implements OnInit {
+export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolved> {
   material: MaterialResolved | null = null;
   mora: Material | null = null;
 
   constructor(
-    private route: ActivatedRoute,
+    protected override route: ActivatedRoute,
     private resolver: ResolverService,
     private materialService: MaterialService,
-    private formatterService: FormatterService,
-  ) {}
-
-  ngOnInit(): void {
-    this.route.paramMap
-      .pipe(
-        switchMap((params) => {
-          const name = params.get('slug');
-          if (!name) return [null];
-          return this.resolver
-            .initialize()
-            .pipe(switchMap(() => this.materialService.getMaterial(name)))
-            .pipe(
-              map((data) =>
-                data ? this.resolver.resolveMaterial(data) : null,
-              ),
-            );
-        }),
-      )
-      .subscribe((resolvedMaterial) => {
-        if (resolvedMaterial) {
-          this.material = resolvedMaterial;
-        } else {
-          console.warn(`Material not found`);
-          this.material = null;
-        }
-      });
-
-    this.materialService.getMaterial('mora').subscribe((data) => {
-      this.mora = data ?? null;
-    });
+    protected override formatterService: FormatterService,
+    private cdr: ChangeDetectorRef,
+  ) {
+    super(route, formatterService);
   }
 
-  toHtml(desc: string): SafeHtml {
-    return this.formatterService.simpleHtmlConvert(desc);
+  override loadDetail(slug: string): void {
+    this.resolver
+      .initialize()
+      .pipe(
+        switchMap(() => this.materialService.getMaterial(slug)),
+        map((data) =>
+          data ? this.resolver.resolveMaterial(data) : null,
+        ),
+        takeUntil(this.destroy$),
+      )
+      .subscribe((resolvedMaterial) => {
+        this.material = resolvedMaterial;
+        this.cdr.markForCheck();
+      });
+
+    this.materialService.getMaterial('mora')
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((data) => {
+        this.mora = data ?? null;
+        this.cdr.markForCheck();
+      });
   }
 }

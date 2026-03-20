@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ArtifactService } from '../../_services/artifact.service';
 import { ArtifactSet } from '../../_models/artifacts';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
@@ -6,8 +6,10 @@ import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { FilterService } from '../../_services/filter.service';
 import { FiltersComponent } from '../../_components/filters/filters.component';
-import { PageFilters } from '../../_models/filters';
+import { PageFilters, FilterGroup } from '../../_models/filters';
 import { ItemCardComponent } from '../../_components/item-card/item-card.component';
+import { BaseListComponent } from '../../_components/base-list.component';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-artifacts',
@@ -22,20 +24,16 @@ import { ItemCardComponent } from '../../_components/item-card/item-card.compone
   templateUrl: './artifacts.component.html',
   styleUrl: './artifacts.component.css',
 })
-export class ArtifactsComponent implements OnInit {
-  private readonly STORAGE_KEY = 'artifactFilters';
-  constructor(
-    private artifactService: ArtifactService,
-    private filterService: FilterService,
-  ) {}
+export class ArtifactsComponent extends BaseListComponent<ArtifactSet> {
+  private readonly _storageKey = 'artifactFilters';
 
-  artifacts: ArtifactSet[] = [];
-  filteredArtifacts: ArtifactSet[] = [];
+  data: ArtifactSet[] = [];
+  filtered: ArtifactSet[] = [];
 
   searchTerm: string = '';
   filters: PageFilters = {};
 
-  filterGroups = [
+  filterGroups: FilterGroup[] = [
     {
       label: 'Ritkaság',
       key: 'rarity',
@@ -48,53 +46,36 @@ export class ArtifactsComponent implements OnInit {
       values.some((f) => artifact.rarityList.some((r) => r.toString() === f)),
   };
 
-  ngOnInit(): void {
-    const state = this.filterService.loadState(this.STORAGE_KEY);
-    this.filters = state.filters ?? {};
-    this.searchTerm = state.searchTerm;
+  get storageKey(): string {
+    return this._storageKey;
+  }
 
-    this.artifactService.getArtifacts().subscribe((data) => {
-      this.artifacts = data.sort((a, b) => {
-        let maxA = this.getMaxRarity(a);
-        let maxB = this.getMaxRarity(b);
-        return maxA < maxB ? 1 : -1;
-      });
-      this.applyFilters();
+  constructor(
+    private artifactService: ArtifactService,
+    protected override filterService: FilterService,
+  ) {
+    super(filterService);
+  }
+
+  loadData(): Observable<ArtifactSet[]> {
+    return this.artifactService.getArtifacts();
+  }
+
+  transformData(data: ArtifactSet[]): ArtifactSet[] {
+    return data.sort((a, b) => {
+      const maxA = this.getMaxRarity(a);
+      const maxB = this.getMaxRarity(b);
+      return maxA < maxB ? 1 : -1;
     });
   }
 
-  applyFilters() {
-    this.filteredArtifacts = this.filterService.filter(
-      this.artifacts,
-      this.searchTerm,
-      (c) => c.name,
-      this.filters,
-      this.filterFns,
-    );
-
-    this.filterService.saveState(this.STORAGE_KEY, {
-      filters: this.filters,
-      searchTerm: this.searchTerm,
-    });
-  }
-
-  onFiltersChange(filters: PageFilters) {
-    this.filters = filters;
-    this.applyFilters();
+  getMaxRarity(artifact: ArtifactSet): number {
+    return artifact.rarityList.length > 0 ? artifact.rarityList[0] : 0;
   }
 
   getImage(artifact: ArtifactSet): string {
     let result = `assets/images/artifacts/${artifact.normalizedName}/`;
     result += artifact.effect1Pc ? 'circlet.webp' : 'flower.webp';
     return result;
-  }
-
-  getMaxRarity(artifact: ArtifactSet): number {
-    let max = 0;
-    artifact.rarityList.forEach((r) => {
-      if (r > max) max = r;
-    });
-
-    return max;
   }
 }

@@ -1,10 +1,11 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { ArtifactSet } from '../../_models/artifacts';
 import { ActivatedRoute } from '@angular/router';
 import { ArtifactService } from '../../_services/artifact.service';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
-import { SafeHtml } from '@angular/platform-browser';
 import { FormatterService } from '../../_services/formatter.service';
+import { takeUntil } from 'rxjs';
+import { BaseDetailComponent } from '../../_components/base-detail.component';
 
 @Component({
   selector: 'app-artifact-details',
@@ -13,25 +14,24 @@ import { FormatterService } from '../../_services/formatter.service';
   templateUrl: './artifact-details.component.html',
   styleUrl: './artifact-details.component.css',
 })
-export class ArtifactDetailsComponent implements OnInit {
+export class ArtifactDetailsComponent extends BaseDetailComponent<ArtifactSet> {
   artifact: ArtifactSet | null = null;
 
   constructor(
-    private route: ActivatedRoute,
+    protected override route: ActivatedRoute,
     private artifactService: ArtifactService,
-    private formatterService: FormatterService,
-  ) {}
-
-  ngOnInit(): void {
-    const name = this.route.snapshot.paramMap.get('slug');
-    if (!name) return;
-    this.artifactService.getArtifact(name).subscribe((data) => {
-      this.artifact = data;
-      console.log('Fetched artifact:', this.artifact);
-    });
+    protected override formatterService: FormatterService,
+    private cdr: ChangeDetectorRef,
+  ) {
+    super(route, formatterService);
   }
 
-  toHtml(desc: string | undefined): SafeHtml {
-    return this.formatterService.simpleHtmlConvert(desc);
+  override loadDetail(slug: string): void {
+    this.artifactService.getArtifact(slug)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((data) => {
+        this.artifact = data;
+        this.cdr.markForCheck();
+      });
   }
 }

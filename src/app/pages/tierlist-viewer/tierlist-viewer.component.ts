@@ -77,7 +77,6 @@ export class TierlistViewerComponent {
 
   private handleFile(file: File) {
     if (file.type !== 'application/json' && !file.name.endsWith('.json')) {
-      console.error('Nem JSON fájl!');
       return;
     }
     const reader = new FileReader();

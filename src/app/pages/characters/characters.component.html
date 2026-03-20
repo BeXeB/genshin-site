@@ -15,10 +15,10 @@
   </div>
 
   <div class="flex-wrap-center">
-    @for (char of characterData; track $index) {
+    @for (char of data; track $index) {
       <app-item-card
         [routerLink]="`/characters/${char.normalizedName}`"
-        [style.display]="filteredCharacters.includes(char) ? 'block' : 'none'"
+        [style.display]="filtered.includes(char) ? 'block' : 'none'"
         [imageUrl]="getIcons(char).iconUrl"
         [itemName]="char.name"
         [rarity]="char.rarity"

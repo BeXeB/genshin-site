@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Guide } from '../../_models/guides';
 import { GuidesService } from '../../_services/guides.service';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { RouterLink } from '@angular/router';
+import { Subject, takeUntil } from 'rxjs';
 
 @Component({
   selector: 'app-guides',
@@ -10,14 +11,22 @@ import { RouterLink } from '@angular/router';
   templateUrl: './guides.component.html',
   styleUrl: './guides.component.css',
 })
-export class GuidesComponent implements OnInit {
+export class GuidesComponent implements OnInit, OnDestroy {
+  private destroy$ = new Subject<void>();
+  guides: Guide[] = [];
+
   constructor(private guidesService: GuidesService) {}
 
   ngOnInit(): void {
-    this.guidesService.getGuides().subscribe((data) => {
-      this.guides = data;
-    });
+    this.guidesService.getGuides()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((data) => {
+        this.guides = data;
+      });
   }
 
-  guides: Guide[] = [];
+  ngOnDestroy(): void {
+    this.destroy$.next();
+    this.destroy$.complete();
+  }
 }

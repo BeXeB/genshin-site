@@ -3,6 +3,7 @@ import {
   Input,
   OnInit,
   OnChanges,
+  OnDestroy,
   SimpleChanges,
 } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
@@ -21,7 +22,7 @@ export type GuideSourceType =
   templateUrl: './guide-viewer.component.html',
   styleUrl: './guide-viewer.component.css',
 })
-export class GuideViewerComponent implements OnInit, OnChanges {
+export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
   /**
    * Type of guide source
    * - 'markdown-content': raw markdown passed directly
@@ -53,8 +54,19 @@ export class GuideViewerComponent implements OnInit, OnChanges {
   html: SafeHtml = '';
   toc: SafeHtml | string = '';
 
+  private tocEventListeners: Array<{el: Element, listener: EventListener}> = [];
+
+  // Helper to clean up event listeners from previous TOC
+  private cleanupTOCListeners() {
+    this.tocEventListeners.forEach(({el, listener}) => {
+      el.removeEventListener('click', listener);
+    });
+    this.tocEventListeners = [];
+  }
+
   // Helper to set content and optional TOC, attach scroll handlers
   private applyContent(content: string, tocHtml?: string | null) {
+    this.cleanupTOCListeners();
     this.html = this.sanitizer.bypassSecurityTrustHtml(content);
 
     // Only set TOC when parser returned non-empty content and TOC is enabled
@@ -163,7 +175,7 @@ export class GuideViewerComponent implements OnInit, OnChanges {
 
   private addTOCScroll() {
     document.querySelectorAll('.toc-link').forEach((link) => {
-      link.addEventListener('click', (e) => {
+      const listener = (e: Event) => {
         e.preventDefault();
 
         const href = (link as HTMLAnchorElement).getAttribute('href')!;
@@ -174,7 +186,9 @@ export class GuideViewerComponent implements OnInit, OnChanges {
         this.scrollToHash(`#${id}`);
 
         history.replaceState(null, '', `${window.location.pathname}#${id}`);
-      });
+      };
+      link.addEventListener('click', listener);
+      this.tocEventListeners.push({el: link, listener});
     });
   }
 
@@ -189,5 +203,9 @@ export class GuideViewerComponent implements OnInit, OnChanges {
 
       window.scrollTo({ top: scrollPos, behavior: 'smooth' });
     }
+  }
+
+  ngOnDestroy(): void {
+    this.cleanupTOCListeners();
   }
 }

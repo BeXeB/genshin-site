@@ -1,13 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
 import { CharacterProfile } from '../../_models/character';
 import { FormsModule } from '@angular/forms';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
-import { PageFilters } from '../../_models/filters';
+import { PageFilters, FilterGroup } from '../../_models/filters';
 import { FilterService } from '../../_services/filter.service';
 import { FiltersComponent } from '../../_components/filters/filters.component';
 import { ItemCardComponent } from '../../_components/item-card/item-card.component';
 import { RouterLink } from '@angular/router';
+import { BaseListComponent } from '../../_components/base-list.component';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-characters',
@@ -22,21 +24,16 @@ import { RouterLink } from '@angular/router';
   templateUrl: './characters.component.html',
   styleUrl: './characters.component.css',
 })
-export class CharactersComponent implements OnInit {
-  private readonly STORAGE_KEY = 'characterFilters';
+export class CharactersComponent extends BaseListComponent<CharacterProfile> {
+  private readonly _storageKey = 'characterFilters';
 
-  constructor(
-    private characterService: CharacterService,
-    private filterService: FilterService,
-  ) {}
-
-  characterData: CharacterProfile[] = [];
-  filteredCharacters: CharacterProfile[] = [];
+  data: CharacterProfile[] = [];
+  filtered: CharacterProfile[] = [];
 
   searchTerm = '';
   filters: PageFilters = {};
 
-  filterGroups = [
+  filterGroups: FilterGroup[] = [
     {
       label: 'Elemek',
       key: 'elements',
@@ -65,41 +62,27 @@ export class CharactersComponent implements OnInit {
       values.includes(c.rarity.toString()),
   };
 
-  ngOnInit(): void {
-    const state = this.filterService.loadState(this.STORAGE_KEY);
-    this.filters = state.filters ?? {};
-    this.searchTerm = state.searchTerm;
-
-    this.characterService.getCharacters().subscribe((data) => {
-      const filtered = data
-        .filter((char) => char.name !== 'Manekin' && char.name !== 'Manekina')
-        .sort((a, b) => a.elementText.localeCompare(b.elementText))
-        .sort((a, b) => b.rarity - a.rarity)
-        .sort((a, b) => b.version.localeCompare(a.version));
-      this.characterData = filtered;
-
-      this.applyFilters();
-    });
+  get storageKey(): string {
+    return this._storageKey;
   }
 
-  applyFilters() {
-    this.filteredCharacters = this.filterService.filter(
-      this.characterData,
-      this.searchTerm,
-      (c) => c.name,
-      this.filters,
-      this.filterFns,
-    );
-
-    this.filterService.saveState(this.STORAGE_KEY, {
-      filters: this.filters,
-      searchTerm: this.searchTerm,
-    });
+  constructor(
+    private characterService: CharacterService,
+    protected override filterService: FilterService,
+  ) {
+    super(filterService);
   }
 
-  onFiltersChange(filters: PageFilters) {
-    this.filters = filters;
-    this.applyFilters();
+  loadData(): Observable<CharacterProfile[]> {
+    return this.characterService.getCharacters();
+  }
+
+  transformData(data: CharacterProfile[]): CharacterProfile[] {
+    return data
+      .filter((char) => char.name !== 'Manekin' && char.name !== 'Manekina')
+      .sort((a, b) => a.elementText.localeCompare(b.elementText))
+      .sort((a, b) => b.rarity - a.rarity)
+      .sort((a, b) => b.version.localeCompare(a.version));
   }
 
   getIcons(char: CharacterProfile) {
@@ -109,6 +92,7 @@ export class CharactersComponent implements OnInit {
       weaponUrl: `assets/images/${char.weaponText}.webp`,
     };
   }
+
   getElementStyle(char: CharacterProfile): Record<string, string> {
     if (char?.elementText === 'None') {
       return {};

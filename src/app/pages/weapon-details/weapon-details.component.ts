@@ -1,15 +1,20 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import {
+  Component,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+} from '@angular/core';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { WeaponRefine, WeaponResolved } from '../../_models/weapons';
 import { Material } from '../../_models/materials';
 import { ActivatedRoute } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
 import { WeaponService } from '../../_services/weapon.service';
-import { map, switchMap } from 'rxjs';
+import { map, switchMap, takeUntil } from 'rxjs';
 import { SafeHtml } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { DecimalPipe } from '@angular/common';
 import { FormatterService } from '../../_services/formatter.service';
+import { BaseDetailComponent } from '../../_components/base-detail.component';
 
 @Component({
   selector: 'app-weapon-details',
@@ -18,16 +23,19 @@ import { FormatterService } from '../../_services/formatter.service';
   templateUrl: './weapon-details.component.html',
   styleUrl: './weapon-details.component.css',
 })
-export class WeaponDetailsComponent implements OnInit {
+export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> {
   weapon: WeaponResolved | null = null;
   mora: Material | null = null;
 
   constructor(
-    private route: ActivatedRoute,
+    protected override route: ActivatedRoute,
     private resolver: ResolverService,
     private weaponService: WeaponService,
-    private formatterService: FormatterService,
-  ) {}
+    protected override formatterService: FormatterService,
+    private cdr: ChangeDetectorRef,
+  ) {
+    super(route, formatterService);
+  }
 
   quickLevels = [
     '1',
@@ -65,25 +73,22 @@ export class WeaponDetailsComponent implements OnInit {
   level: string = '1';
   levelIndex: number = this.quickLevels.indexOf(this.level);
 
-  ngOnInit(): void {
-    const name = this.route.snapshot.paramMap.get('slug');
-    if (!name) return;
-
+  override loadDetail(slug: string): void {
     this.resolver
       .initialize()
       .pipe(
-        switchMap(() => this.weaponService.getWeapon(name)),
+        switchMap(() => this.weaponService.getWeapon(slug)),
         map((data) => {
           if (!data) return null;
           return this.resolver.resolveWeapon(data);
         }),
+        takeUntil(this.destroy$),
       )
       .subscribe((resolvedWeapon) => {
         if (resolvedWeapon) {
           this.weapon = resolvedWeapon;
           this.setLevel(this.weapon?.rarity > 2 ? '90' : '70');
-        } else {
-          console.warn(`Weapon with slug "${name}" not found`);
+          this.cdr.markForCheck();
         }
       });
   }
@@ -118,10 +123,6 @@ export class WeaponDetailsComponent implements OnInit {
       const i = Number(index);
       return values[i] !== undefined ? String(values[i]) : `{${index}}`;
     });
-  }
-
-  toHtml(desc: string): SafeHtml {
-    return this.formatterService.simpleHtmlConvert(desc);
   }
 
   hasRefine(ref: number): boolean {

@@ -5,15 +5,15 @@
       type="text"
       placeholder="Materialok keresése..."
       [(ngModel)]="searchTerm"
-      (ngModelChange)="onSearchTermChange()"
+      (ngModelChange)="applyFilters()"
     />
   </div>
   <div class="flex-wrap-center">
-    @for (material of materials; track $index) {
+    @for (material of data; track $index) {
       <app-item-card
         [routerLink]="`/materials/${material.normalizedName}`"
         [style.display]="
-          filteredMaterials.includes(material) ? 'block' : 'none'
+          filtered.includes(material) ? 'block' : 'none'
         "
         [imageUrl]="getImage(material)"
         [itemName]="material.name"

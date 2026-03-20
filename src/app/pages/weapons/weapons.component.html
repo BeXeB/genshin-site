@@ -14,10 +14,10 @@
     />
   </div>
   <div class="flex-wrap-center">
-    @for (weapon of weapons; track $index) {
+    @for (weapon of data; track $index) {
       <app-item-card
         [routerLink]="`/weapons/${weapon.normalizedName}`"
-        [style.display]="filteredWeapons.includes(weapon) ? 'block' : 'none'"
+        [style.display]="filtered.includes(weapon) ? 'block' : 'none'"
         [imageUrl]="getIconUrls(weapon).iconUrl"
         [itemName]="weapon.name"
         [rarity]="weapon.rarity"

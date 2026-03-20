@@ -14,11 +14,11 @@
     />
   </div>
   <div class="flex-wrap-center">
-    @for (artifact of artifacts; track $index) {
+    @for (artifact of data; track $index) {
       <app-item-card
         [routerLink]="`/artifacts/${artifact.normalizedName}`"
         [style.display]="
-          filteredArtifacts.includes(artifact) ? 'block' : 'none'
+          filtered.includes(artifact) ? 'block' : 'none'
         "
         [imageUrl]="getImage(artifact)"
         [itemName]="artifact.name"
