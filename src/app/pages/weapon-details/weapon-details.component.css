@@ -1,13 +1,11 @@
 .weapon-container {
-  display: flex;
-  flex-direction: row;
   gap: 20px;
+  align-items: flex-start;
 }
 
 .weapon-card {
   flex: 1;
   border-radius: 13px;
-  border: 1px solid var(--dark-gray);
   height: fit-content;
 
   display: flex;

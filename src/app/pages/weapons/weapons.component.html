@@ -13,7 +13,7 @@
       (ngModelChange)="applyFilters()"
     />
   </div>
-  <div class="weapons">
+  <div class="flex-wrap-center">
     @for (weapon of weapons; track $index) {
       <app-item-card
         [routerLink]="`/weapons/${weapon.normalizedName}`"

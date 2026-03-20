@@ -3,14 +3,12 @@
     <div class="logo">
       <img src="assets/images/Geo.webp" />
     </div>
-    <div class="introducion">
-      Udv a genshin site-on!
-    </div>
+    <div class="introducion">Udv a genshin site-on!</div>
   </div>
 
-  <div class="quick-access-container">
+  <div class="flex-wrap-center">
     @for (qa of quickAccesses; track $index) {
-      <div class="quick-access-card" [routerLink]="qa.link">
+      <div class="card quick-access-card" [routerLink]="qa.link">
         <div class="title">{{ qa.title }}</div>
         <div class="description">{{ qa.description }}</div>
       </div>

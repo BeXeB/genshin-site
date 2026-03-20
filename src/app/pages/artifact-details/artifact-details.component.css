@@ -6,12 +6,8 @@
 
 .set-card {
   flex: 1;
-  border: 1px solid var(--dark-gray);
-  border-radius: 13px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
   height: fit-content;
+  
 }
 
 .set-name {
@@ -38,15 +34,12 @@
   margin-bottom: 5px;
 }
 
+
 .pieces {
   flex: 2;
-  border: 1px solid var(--dark-gray);
-  border-radius: 13px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
   height: fit-content;
   gap: 10px;
+  
 }
 
 .artifact-piece {

@@ -3,13 +3,13 @@
     @if (toc) {
       <div class="toc-container">
         <div
-          class="toc-content"
+          class="toc-content card"
           [innerHTML]="toc"
           [style.border-color]="elementColor"
         ></div>
       </div>
     }
-    <div class="guide-container" [style.border-color]="elementColor">
+    <div class="guide-container card" [style.border-color]="elementColor">
       @if (title) {
         <h2>{{ title }}</h2>
       }

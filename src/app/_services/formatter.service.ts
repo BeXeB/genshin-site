@@ -40,4 +40,15 @@ export class FormatterService {
 
     return formattedDescription;
   }
+
+  /**
+   * Convert newlines to HTML <br> tags and sanitize
+   * Used for simple text-to-HTML conversion in detail pages
+   */
+  simpleHtmlConvert(text: string | undefined): SafeHtml {
+    if (!text) {
+      return '';
+    }
+    return this.sanitizer.bypassSecurityTrustHtml(text.replaceAll('\n', '<br>'));
+  }
 }

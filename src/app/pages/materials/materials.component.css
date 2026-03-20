@@ -1,20 +1,2 @@
-.materials {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  flex-direction: row;
-  padding-bottom: 20px;
-}
 
-.search-bar {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-  align-items: center;
-}
 
-.search-bar input {
-  padding: 10px 15px;
-  flex: 1;
-}

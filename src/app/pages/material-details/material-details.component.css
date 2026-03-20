@@ -2,9 +2,11 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
-  border: 1px solid var(--dark-gray);
-  border-radius: 13px;
-  padding: 20px;
+  
+}
+
+.material-container :hover {
+  box-shadow: none;
 }
 
 .material-card {
@@ -39,9 +41,7 @@
 
 .craft {
   flex: 1;
-  border: 1px solid var(--gray);
-  border-radius: 8px;
-  padding: 10px;
+  
 }
 
 .material-craft {
@@ -67,4 +67,5 @@
 .craft-mat {
   border: 1px solid var(--gray);
   border-radius: 8px;
+  padding: 0;
 }

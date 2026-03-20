@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { Material, MaterialResolved } from '../../_models/materials';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
@@ -6,9 +6,11 @@ import { MaterialService } from '../../_services/material.service';
 import { map, switchMap } from 'rxjs';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { SafeHtml } from '@angular/platform-browser';
+import { FormatterService } from '../../_services/formatter.service';
 
 @Component({
   selector: 'app-material-details',
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [PageTitleComponent, RouterLink],
   templateUrl: './material-details.component.html',
   styleUrl: './material-details.component.css',
@@ -21,6 +23,7 @@ export class MaterialDetailsComponent implements OnInit {
     private route: ActivatedRoute,
     private resolver: ResolverService,
     private materialService: MaterialService,
+    private formatterService: FormatterService,
   ) {}
 
   ngOnInit(): void {
@@ -54,6 +57,6 @@ export class MaterialDetailsComponent implements OnInit {
   }
 
   toHtml(desc: string): SafeHtml {
-    return desc.replaceAll('\n', '<br>');
+    return this.formatterService.simpleHtmlConvert(desc);
   }
 }

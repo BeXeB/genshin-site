@@ -1,7 +1,7 @@
 @if (apikey) {
   <app-guide-viewer
-    [sourceType]="'character-file'"
-    [source]="apikey"
+    [sourceType]="isTraveler ? 'character-file' : 'character-file'"
+    [source]="guideSource"
     [showToc]="true"
     [elementColor]="elementColor"
     title="Útmutató"

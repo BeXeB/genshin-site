@@ -13,17 +13,19 @@
 }
 
 .toc-content {
-  border: 1px solid;
-  border-radius: 13px;
   overflow: hidden;
+  
+  padding: 0;
+}
+
+.toc-content:hover {
+  box-shadow: none;
 }
 
 .guide-container {
   flex: 1;
-  padding: 10px;
   background-color: var(--black);
-  border-radius: 13px;
-  border: 1px solid;
+  
 }
 
 .guide-container h2 {

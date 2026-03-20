@@ -58,8 +58,5 @@ export type WeaponStat = {
 };
 
 export type WeaponResolved = Omit<Weapon, 'costs'> & {
-  costs: Record<
-    `ascend${1 | 2 | 3 | 4 | 5 | 6}`,
-    ResolvedItem[]
-  >;
+  costs: Partial<Record<`ascend${1 | 2 | 3 | 4 | 5 | 6}`, ResolvedItem[]>>;
 };

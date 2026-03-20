@@ -1,15 +1,11 @@
+
+
 .item-card {
   max-width: 120px;
-  border: 1px solid var(--dark-gray);
-  border-radius: 13px;
   height: 100%;
+  padding: 0px;
   position: relative;
   overflow: hidden;
-}
-
-.item-card:hover {
-  border-color: var(--gray);
-  box-shadow: 0 0 14px var(--shadow-blue);
 }
 
 .item-icon {

@@ -8,7 +8,7 @@
       (ngModelChange)="onSearchTermChange()"
     />
   </div>
-  <div class="materials">
+  <div class="flex-wrap-center">
     @for (material of materials; track $index) {
       <app-item-card
         [routerLink]="`/materials/${material.normalizedName}`"

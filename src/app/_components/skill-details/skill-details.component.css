@@ -1,13 +1,11 @@
+
 .skill {
-  display: flex;
   gap: 16px;
-  justify-content: space-between;
-  flex-direction: row;
+  flex: auto;
+  align-items: flex-start;
 }
 
 .skill-info {
-  display: flex;
-  flex-direction: column;
   gap: 8px;
   flex: 2;
 }
@@ -37,17 +35,10 @@
 }
 
 .talent-level {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
   gap: 8px;
 }
 
-.number-wrapper {
-  display: flex;
-  align-items: center;
-}
+
 
 .talent-level input {
   width: 30px;

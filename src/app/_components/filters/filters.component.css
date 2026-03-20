@@ -25,21 +25,11 @@
   width: max-content;
 }
 
-.filter-group {
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-}
+
+
 
 .filter-group p {
   margin: 0 0 10px 0;
-}
-
-.filter-group > div {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 8px;
 }
 
 .filter-btn {

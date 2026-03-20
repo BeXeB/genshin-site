@@ -1,3 +1,5 @@
+@import 'shared-utilities.css';
+
 @font-face {
   font-family: "JetBrains Mono";
   src: url("assets/fonts/JetBrainsMono/fonts/webfonts/JetBrainsMono-Regular.woff2")
@@ -147,7 +149,6 @@ select {
 .toc {
   background-color: var(--black);
   padding: 12px 16px;
-  margin-bottom: 20px;
 }
 
 .toc ul {

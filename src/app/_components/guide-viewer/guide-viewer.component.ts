@@ -1,10 +1,19 @@
-import { Component, Input, OnInit } from '@angular/core';
+import {
+  Component,
+  Input,
+  OnInit,
+  OnChanges,
+  SimpleChanges,
+} from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { MarkdownService } from '../../_services/markdown.service';
 import { Router } from '@angular/router';
 import { marked } from 'marked';
 
-export type GuideSourceType = 'markdown-content' | 'character-file' | 'guide-file';
+export type GuideSourceType =
+  | 'markdown-content'
+  | 'character-file'
+  | 'guide-file';
 
 @Component({
   selector: 'app-guide-viewer',
@@ -12,7 +21,7 @@ export type GuideSourceType = 'markdown-content' | 'character-file' | 'guide-fil
   templateUrl: './guide-viewer.component.html',
   styleUrl: './guide-viewer.component.css',
 })
-export class GuideViewerComponent implements OnInit {
+export class GuideViewerComponent implements OnInit, OnChanges {
   /**
    * Type of guide source
    * - 'markdown-content': raw markdown passed directly
@@ -42,7 +51,23 @@ export class GuideViewerComponent implements OnInit {
   @Input() title: string = 'Útmutató';
 
   html: SafeHtml = '';
-  toc: SafeHtml = '';
+  toc: SafeHtml | string = '';
+
+  // Helper to set content and optional TOC, attach scroll handlers
+  private applyContent(content: string, tocHtml?: string | null) {
+    this.html = this.sanitizer.bypassSecurityTrustHtml(content);
+
+    // Only set TOC when parser returned non-empty content and TOC is enabled
+    if (this.showToc && tocHtml && tocHtml.toString().trim().length > 0) {
+      this.toc = this.sanitizer.bypassSecurityTrustHtml(tocHtml);
+      setTimeout(() => this.addTOCScroll(), 0);
+    } else {
+      this.toc = '';
+    }
+
+    // Always attempt to scroll to hash if present
+    setTimeout(() => this.scrollToHash(window.location.hash), 0);
+  }
 
   constructor(
     private sanitizer: DomSanitizer,
@@ -51,6 +76,16 @@ export class GuideViewerComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    this.loadGuide();
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    if (changes['source'] || changes['sourceType']) {
+      this.loadGuide();
+    }
+  }
+
+  private loadGuide(): void {
     switch (this.sourceType) {
       case 'markdown-content':
         this.loadMarkdownContent();
@@ -73,10 +108,7 @@ export class GuideViewerComponent implements OnInit {
           this.source,
           path,
         );
-        this.html = this.sanitizer.bypassSecurityTrustHtml(content);
-        this.toc = this.sanitizer.bypassSecurityTrustHtml(toc);
-        setTimeout(() => this.addTOCScroll(), 0);
-        setTimeout(() => this.scrollToHash(window.location.hash), 0);
+        this.applyContent(content, toc);
       } else {
         // Use basic marked for plain markdown
         const parsed = await marked(this.source);
@@ -103,14 +135,11 @@ export class GuideViewerComponent implements OnInit {
           path,
         );
 
-        this.html = this.sanitizer.bypassSecurityTrustHtml(content);
-        this.toc = this.sanitizer.bypassSecurityTrustHtml(toc);
-
-        setTimeout(() => this.addTOCScroll(), 0);
-        setTimeout(() => this.scrollToHash(window.location.hash), 0);
+        this.applyContent(content, toc);
       })
       .catch(() => {
         this.html = '<p>Hamarosan</p>';
+        this.toc = '';
       });
   }
 
@@ -124,10 +153,11 @@ export class GuideViewerComponent implements OnInit {
       })
       .then(async (markdown) => {
         const parsed = await marked(markdown);
-        this.html = this.sanitizer.bypassSecurityTrustHtml(parsed);
+        this.applyContent(parsed, null);
       })
       .catch(() => {
         this.html = '<p>Hamarosan</p>';
+        this.toc = '';
       });
   }
 

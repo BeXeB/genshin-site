@@ -3,9 +3,9 @@
     backLink="/weapons"
     title="Fegyver Részletek"
   ></app-page-title>
-  @if (weapon) {
-    <div class="weapon-container">
-      <div class="weapon-card">
+  @if (weapon != null) {
+    <div class="weapon-container flex-row-between">
+      <div class="weapon-card card card-no-hover">
         <div class="card-header">
           <div class="weapon-stats">
             <div class="weapon-name">{{ weapon.name }}</div>

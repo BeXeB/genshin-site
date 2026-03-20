@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { WeaponRefine, WeaponResolved } from '../../_models/weapons';
 import { Material } from '../../_models/materials';
@@ -6,12 +6,14 @@ import { ActivatedRoute } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
 import { WeaponService } from '../../_services/weapon.service';
 import { map, switchMap } from 'rxjs';
-import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { SafeHtml } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { DecimalPipe } from '@angular/common';
+import { FormatterService } from '../../_services/formatter.service';
 
 @Component({
   selector: 'app-weapon-details',
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [PageTitleComponent, FormsModule, DecimalPipe],
   templateUrl: './weapon-details.component.html',
   styleUrl: './weapon-details.component.css',
@@ -24,7 +26,7 @@ export class WeaponDetailsComponent implements OnInit {
     private route: ActivatedRoute,
     private resolver: ResolverService,
     private weaponService: WeaponService,
-    private sanitizer: DomSanitizer,
+    private formatterService: FormatterService,
   ) {}
 
   quickLevels = [
@@ -105,7 +107,7 @@ export class WeaponDetailsComponent implements OnInit {
 
     template = this.replacePlaceholders(template, effectRefine.values);
 
-    return this.toHtml(template);
+    return this.formatterService.simpleHtmlConvert(template);
   }
 
   private replacePlaceholders(
@@ -119,9 +121,7 @@ export class WeaponDetailsComponent implements OnInit {
   }
 
   toHtml(desc: string): SafeHtml {
-    return this.sanitizer.bypassSecurityTrustHtml(
-      desc.replaceAll('\n', '<br>'),
-    );
+    return this.formatterService.simpleHtmlConvert(desc);
   }
 
   hasRefine(ref: number): boolean {

@@ -4,7 +4,7 @@
     title="Material Részletek"
   ></app-page-title>
   @if (material) {
-    <div class="material-container">
+    <div class="material-container card card-no-hover">
       <div class="material-card">
         <img
           [title]="material.name"
@@ -32,12 +32,12 @@
         </div>
       </div>
       @if (material.craftable) {
-        <div class="craft">
+        <div class="craft card card-no-hover">
           <div class="name">Craftolható:</div>
           <div class="material-craft">
             @for (cMat of material.craft?.recipe; track $index) {
               <div
-                class="craft-mat"
+                class="craft-mat card"
                 [routerLink]="`/materials/${cMat.material.normalizedName}`"
               >
                 <img
@@ -49,7 +49,7 @@
                 <div class="amount">{{ cMat.count }}</div>
               </div>
             }
-            <div class="craft-mat">
+            <div class="craft-mat card">
               <img
                 [title]="mora?.name"
                 [src]="

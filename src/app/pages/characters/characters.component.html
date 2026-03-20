@@ -14,7 +14,7 @@
     />
   </div>
 
-  <div class="character-container">
+  <div class="flex-wrap-center">
     @for (char of characterData; track $index) {
       <app-item-card
         [routerLink]="`/characters/${char.normalizedName}`"

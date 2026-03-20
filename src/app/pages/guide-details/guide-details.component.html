@@ -1,10 +1,11 @@
-<div class="container">
+<div class="container flex-col\">
   <app-page-title backLink="/guides" title="Útmutató"></app-page-title>
   @if (slug) {
     <app-guide-viewer
       [sourceType]="'guide-file'"
       [source]="slug"
       [showToc]="false"
+      [title]="''"
     ></app-guide-viewer>
   }
 </div>

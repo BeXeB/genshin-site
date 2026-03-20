@@ -13,10 +13,8 @@
 
 .char-info {
   background-color: var(--black);
-  border-radius: 13px;
-  padding: 10px;
-  border: 1px solid;
   margin-bottom: 20px;
+  
 }
 
 .char-info h2 {
@@ -41,9 +39,11 @@
 
 .char-container .right {
   background-color: var(--black);
-  border-radius: 13px;
-  padding: 20px;
-  border: 1px solid;
+  
+}
+
+.char-container .right:hover {
+  box-shadow: none;
 }
 
 .background {

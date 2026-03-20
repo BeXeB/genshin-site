@@ -1,5 +1,5 @@
-<div class="skill">
-  <div class="skill-info">
+<div class="skill flex-row-between">
+  <div class="skill-info flex-col">
     <div class="skill-name">
       <img [src]="imageUrl" />
       <div>{{ skill?.name }}</div>
@@ -9,7 +9,7 @@
 
   @if (isCombatSkill && skill && settings?.detailed) {
     <div class="talent-details">
-      <div class="talent-level">
+      <div class="talent-level flex-row-between">
         <label for="combat-level">Level:</label>
         <div class="number-wrapper">
           <button class="decrement" (click)="decrementLevel()">-</button>

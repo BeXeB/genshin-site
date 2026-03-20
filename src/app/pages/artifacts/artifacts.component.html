@@ -13,7 +13,7 @@
       (ngModelChange)="applyFilters()"
     />
   </div>
-  <div class="artifacts">
+  <div class="flex-wrap-center">
     @for (artifact of artifacts; track $index) {
       <app-item-card
         [routerLink]="`/artifacts/${artifact.normalizedName}`"
