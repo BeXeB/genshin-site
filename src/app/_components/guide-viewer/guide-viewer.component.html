@@ -1,0 +1,26 @@
+@if (showToc) {
+  <div class="guide-with-toc">
+    @if (toc) {
+      <div class="toc-container">
+        <div
+          class="toc-content"
+          [innerHTML]="toc"
+          [style.border-color]="elementColor"
+        ></div>
+      </div>
+    }
+    <div class="guide-container" [style.border-color]="elementColor">
+      @if (title) {
+        <h2>{{ title }}</h2>
+      }
+      <div class="guide" [innerHTML]="html"></div>
+    </div>
+  </div>
+} @else {
+  <div class="guide-simple">
+    @if (title) {
+      <div class="guide-title">{{ title }}</div>
+    }
+    <div class="guide" [innerHTML]="html"></div>
+  </div>
+}

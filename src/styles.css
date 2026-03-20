@@ -143,3 +143,40 @@ select {
   background-size: 16px 16px;
   padding-right: 36px;
 }
+
+.toc {
+  background-color: var(--black);
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+.toc ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.toc .toc-level-2 {
+  margin-left: 0;
+}
+.toc .toc-level-3 {
+  margin-left: 1rem;
+}
+.toc .toc-level-4 {
+  margin-left: 1.5rem;
+}
+.toc .toc-level-5 {
+  margin-left: 2rem;
+}
+
+.toc a:hover {
+  color: var(--blue);
+}
+
+.toc a {
+  display: block;
+  text-decoration: none;
+  color: var(--white);
+  padding: 4px 0;
+  font-size: 14px;
+}

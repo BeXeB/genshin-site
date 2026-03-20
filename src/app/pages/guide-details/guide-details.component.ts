@@ -1,33 +1,22 @@
 import { Component } from '@angular/core';
-import { GuidesService } from '../../_services/guides.service';
 import { ActivatedRoute } from '@angular/router';
-import { marked } from 'marked';
-import { SafeHtml, DomSanitizer } from '@angular/platform-browser';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
+import { GuideViewerComponent } from '../../_components/guide-viewer/guide-viewer.component';
 
 @Component({
   selector: 'app-guide-details',
-  imports: [PageTitleComponent],
+  imports: [PageTitleComponent, GuideViewerComponent],
   templateUrl: './guide-details.component.html',
   styleUrl: './guide-details.component.css',
 })
 export class GuideDetailsComponent {
-  constructor(
-    private guideService: GuidesService,
-    private route: ActivatedRoute,
-    private sanitizer: DomSanitizer,
-  ) {}
+  constructor(private route: ActivatedRoute) {}
 
   slug: string = '';
-  html: SafeHtml = '';
 
   ngOnInit(): void {
     const slug = this.route.snapshot.paramMap.get('slug');
     if (!slug) return;
     this.slug = slug;
-    this.guideService.getGuideMarkdown(slug).subscribe(async (data) => {
-      const parsed = await marked(data);
-      this.html = this.sanitizer.bypassSecurityTrustHtml(parsed);
-    });
   }
 }

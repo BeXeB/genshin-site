@@ -1,41 +1,5 @@
-.guide-container {
-  padding: 10px;
-  background-color: var(--black);
-  border-radius: 13px;
-  border: 1px solid;
-}
+/* Styling is handled by guide-viewer component */
 
-.guide-container h2 {
-  font-size: 1.5em;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-.guide {
-  margin-bottom: 40px;
-}
-
-.guide ::ng-deep img {
-  max-width: 100%;
-}
-
-.guide ::ng-deep pre {
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: pre;
-  max-width: 100%;
-  padding-bottom: 15px;
-}
-
-.guide ::ng-deep a {
-  color: var(--light-gray);
-  text-decoration: none;
-}
-
-.guide ::ng-deep a:hover {
-  color: var(--blue);
-  transition: color 0.2s;
-}
 
 .guide ::ng-deep hr {
   color: var(--white);
@@ -84,4 +48,10 @@
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+@media (max-width: 768px) {
+  .toc-container {
+    display: none;
+  }
 }

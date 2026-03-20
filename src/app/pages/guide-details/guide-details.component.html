@@ -1,4 +1,10 @@
 <div class="container">
   <app-page-title backLink="/guides" title="Útmutató"></app-page-title>
-  <div class="guide" [innerHTML]="html"></div>
+  @if (slug) {
+    <app-guide-viewer
+      [sourceType]="'guide-file'"
+      [source]="slug"
+      [showToc]="false"
+    ></app-guide-viewer>
+  }
 </div>

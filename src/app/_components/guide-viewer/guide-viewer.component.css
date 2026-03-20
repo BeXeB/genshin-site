@@ -1,0 +1,117 @@
+.guide-with-toc {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: relative;
+}
+
+.toc-container {
+  min-width: 300px;
+  height: fit-content;
+  top: 100px;
+  position: sticky;
+}
+
+.toc-content {
+  border: 1px solid;
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.guide-container {
+  flex: 1;
+  padding: 10px;
+  background-color: var(--black);
+  border-radius: 13px;
+  border: 1px solid;
+}
+
+.guide-container h2 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.guide-simple {
+  margin-bottom: 40px;
+}
+
+.guide-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.guide {
+  margin-bottom: 40px;
+}
+
+.guide ::ng-deep img {
+  max-width: 100%;
+}
+
+.guide ::ng-deep pre {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: pre;
+  max-width: 100%;
+  padding-bottom: 15px;
+}
+
+.guide ::ng-deep a {
+  color: var(--light-gray);
+  text-decoration: none;
+}
+
+.guide ::ng-deep a:hover {
+  color: var(--blue);
+  transition: color 0.2s;
+}
+
+.guide ::ng-deep hr {
+  color: var(--white);
+}
+
+.guide ::ng-deep table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.guide ::ng-deep tr {
+  display: flex;
+  width: 100%;
+}
+
+.guide ::ng-deep th,
+.guide ::ng-deep td {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--dark-gray);
+  background-color: var(--darker-gray);
+}
+
+.guide ::ng-deep th {
+  font-weight: bold;
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+
+.guide ::ng-deep .video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 13px;
+}
+
+.guide ::ng-deep iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

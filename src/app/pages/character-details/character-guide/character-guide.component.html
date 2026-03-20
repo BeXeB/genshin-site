@@ -1,4 +1,10 @@
-<div class="guide-container" [style.border-color]="elementColor">
-  <h2>Útmutató</h2>
-  <div class="guide" [innerHTML]="html"></div>
-</div>
+@if (apikey) {
+  <app-guide-viewer
+    [sourceType]="'character-file'"
+    [source]="apikey"
+    [showToc]="true"
+    [elementColor]="elementColor"
+    title="Útmutató"
+  ></app-guide-viewer>
+}
+

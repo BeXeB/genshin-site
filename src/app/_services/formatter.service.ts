@@ -12,6 +12,8 @@ export class FormatterService {
       return '';
     }
 
+    description = description.replace(/(\{LAYOUT_[^#}]+#[^}]+\})+/g, 'Press');
+
     description = description.replace(/\{LINK#[^}]+\}(.*?)\{\/LINK\}/g, '$1');
 
     description = description.replace(
