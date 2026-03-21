@@ -45,17 +45,10 @@
                   <div
                     class="element"
                     (click)="selectElement(element)"
-                    [style]="
-                      getElementStyle(
-                        element,
-                        'assets/images/' + elementTypeLabel[element] + '.webp'
-                      )
-                    "
+                    [style]="getElementStyle(element, getElementIconUrl(element))"
                   >
                     <img
-                      [src]="
-                        'assets/images/' + elementTypeLabel[element] + '.webp'
-                      "
+                      [src]="getElementIconUrl(element)"
                     />
                   </div>
                 </div>

@@ -3,6 +3,7 @@ import { Material, MaterialResolved } from '../../_models/materials';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
 import { MaterialService } from '../../_services/material.service';
+import { ImageService } from '../../_services/image.service';
 import { map, switchMap, takeUntil } from 'rxjs';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormatterService } from '../../_services/formatter.service';
@@ -26,6 +27,7 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
     private materialService: MaterialService,
     protected override formatterService: FormatterService,
     private cdr: ChangeDetectorRef,
+    private imageService: ImageService,
   ) {
     super(route, formatterService);
   }
@@ -64,5 +66,10 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
           this.cdr.markForCheck();
         },
       });
+  }
+
+  getMaterialImage(material: Material | null): string {
+    if (!material) return '';
+    return this.imageService.getMaterialImage(material.normalizedName, material.type);
   }
 }

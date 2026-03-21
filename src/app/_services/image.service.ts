@@ -17,6 +17,42 @@ export class ImageService {
   }
 
   /**
+   * Get character card image URL
+   * @param apiKey - Character's API key / normalized name
+   * @returns URL to character card image
+   */
+  getCharacterCardImage(apiKey: string): string {
+    return `${this.baseUrl}/characters/${apiKey}/card.webp`;
+  }
+
+  /**
+   * Get character side portrait URL
+   * @param apiKey - Character's API key / normalized name
+   * @returns URL to character side portrait image
+   */
+  getCharacterSideImage(apiKey: string): string {
+    return `${this.baseUrl}/characters/${apiKey}/side.webp`;
+  }
+
+  /**
+   * Get character gacha splash URL
+   * @param apiKey - Character's API key / normalized name
+   * @returns URL to character gacha splash image
+   */
+  getCharacterGachaSplash(apiKey: string): string {
+    return `${this.baseUrl}/characters/${apiKey}/gacha-splash.webp`;
+  }
+
+  /**
+   * Get character gacha icon URL
+   * @param apiKey - Character's API key / normalized name
+   * @returns URL to character gacha icon image
+   */
+  getCharacterGachaIcon(apiKey: string): string {
+    return `${this.baseUrl}/characters/${apiKey}/gacha-icon.webp`;
+  }
+
+  /**
    * Get element icon URL
    * @param element - Element name (e.g., 'Geo', 'Pyro', 'Hydro')
    * @returns URL to element icon image
@@ -70,5 +106,34 @@ export class ImageService {
    */
   getSkillIcon(skillCode: string): string {
     return `${this.baseUrl}/${skillCode}.webp`;
+  }
+
+  /**
+   * Get character skill image URL
+   * @param apiKey - Character's API key / normalized name
+   * @param skillType - Skill type (e.g., 'combat1', 'combat2', 'passive1')
+   * @param element - Optional element type for travelers (e.g., 'Anemo', 'Geo')
+   * @returns URL to character skill image
+   */
+  getCharacterSkillImage(apiKey: string, skillType: string, element?: string): string {
+    if (skillType === 'combat1') {
+      // Combat1 uses special filename from data, but fallback to generic
+      return `${this.baseUrl}/characters/${apiKey}/${skillType}.webp`;
+    }
+
+    const elementPath = element ? `/${element.toLowerCase()}` : '';
+    return `${this.baseUrl}/characters/${apiKey}${elementPath}/skills/${skillType}.webp`;
+  }
+
+  /**
+   * Get character constellation image URL
+   * @param apiKey - Character's API key / normalized name
+   * @param constellationLevel - Constellation level (e.g., 'c1', 'c2')
+   * @param element - Optional element type for travelers (e.g., 'Anemo', 'Geo')
+   * @returns URL to character constellation image
+   */
+  getCharacterConstellationImage(apiKey: string, constellationLevel: string, element?: string): string {
+    const elementPath = element ? `/${element.toLowerCase()}` : '';
+    return `${this.baseUrl}/characters/${apiKey}${elementPath}/constellation/${constellationLevel}.webp`;
   }
 }

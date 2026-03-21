@@ -6,6 +6,7 @@ import {
 } from '../../../../_models/character';
 import { SkillDetailsComponent } from '../../../../_components/skill-details/skill-details.component';
 import { ElementType, ElementTypeLabel } from '../../../../_models/enum';
+import { ImageService } from '../../../../_services/image.service';
 
 @Component({
   selector: 'app-overview-constellations',
@@ -18,6 +19,8 @@ export class OverviewConstellationsComponent {
   @Input() apiKey: string | null = null;
   @Input() elementColor: string | null = null;
   @Input() element: ElementType = ElementType.ANEMO;
+
+  constructor(private imageService: ImageService) {}
 
   private getBriefKey(skillName: string): string {
     const map: Record<string, string> = {
@@ -48,16 +51,6 @@ export class OverviewConstellationsComponent {
     return variantBrief ?? mainBrief ?? skill.descriptionRaw;
   }
 
-  get basePath(): string {
-    if (!this.apiKey) return '';
-
-    if (this.char?.profile.isTraveler) {
-      return `assets/images/characters/${this.apiKey}/${ElementTypeLabel[this.element].toLocaleLowerCase()}`;
-    }
-
-    return `assets/images/characters/${this.apiKey}`;
-  }
-
   get constellation() {
     if (!this.char) return null;
 
@@ -69,15 +62,51 @@ export class OverviewConstellationsComponent {
   }
 
   get skillImageUrls() {
-    const base = this.basePath;
+    if (!this.apiKey) {
+      return {
+        c1: '',
+        c2: '',
+        c3: '',
+        c4: '',
+        c5: '',
+        c6: '',
+      };
+    }
+
+    const isTraveler = this.char?.profile.isTraveler;
+    const elementLabel = isTraveler ? ElementTypeLabel[this.element] : undefined;
 
     return {
-      c1: `${base}/constellation/c1.webp`,
-      c2: `${base}/constellation/c2.webp`,
-      c3: `${base}/constellation/c3.webp`,
-      c4: `${base}/constellation/c4.webp`,
-      c5: `${base}/constellation/c5.webp`,
-      c6: `${base}/constellation/c6.webp`,
+      c1: this.imageService.getCharacterConstellationImage(
+        this.apiKey,
+        'c1',
+        elementLabel,
+      ),
+      c2: this.imageService.getCharacterConstellationImage(
+        this.apiKey,
+        'c2',
+        elementLabel,
+      ),
+      c3: this.imageService.getCharacterConstellationImage(
+        this.apiKey,
+        'c3',
+        elementLabel,
+      ),
+      c4: this.imageService.getCharacterConstellationImage(
+        this.apiKey,
+        'c4',
+        elementLabel,
+      ),
+      c5: this.imageService.getCharacterConstellationImage(
+        this.apiKey,
+        'c5',
+        elementLabel,
+      ),
+      c6: this.imageService.getCharacterConstellationImage(
+        this.apiKey,
+        'c6',
+        elementLabel,
+      ),
     };
   }
 }

@@ -34,4 +34,16 @@ export class GuidesComponent implements OnInit, OnDestroy {
   getAvatarListIcon(): string {
     return this.imageService.getSkillIcon('UI_BtnIcon_AvatarList');
   }
+
+  getGuideImageUrl(imageUrl: string | undefined): string {
+    if (!imageUrl) return '';
+
+    // If imageUrl is already a full path (contains '/' or 'assets/'), use it as-is
+    if (imageUrl.includes('/') || imageUrl.includes('assets')) {
+      return imageUrl;
+    }
+
+    // Treat it as an element name and generate the URL via the service
+    return this.imageService.getElementIcon(imageUrl);
+  }
 }

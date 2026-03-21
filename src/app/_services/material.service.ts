@@ -1,14 +1,15 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { forkJoin, map, Observable, shareReplay, switchMap } from 'rxjs';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { map, Observable, of, shareReplay, catchError } from 'rxjs';
 import { Material, MaterialCraft } from '../_models/materials';
 import { MaterialType } from '../_models/enum';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class MaterialService {
-  private basePath = 'assets/json/materials/';
+  private apiBaseUrl = `${environment.apiBaseUrl}/api/materials`;
 
   constructor(private http: HttpClient) {}
 
@@ -16,22 +17,7 @@ export class MaterialService {
 
   getMaterials(): Observable<Material[]> {
     if (!this.materials$) {
-      const folders: MaterialType[] = [
-        MaterialType.TALENT_MATERIAL,
-        MaterialType.BOSS_MATERIAL,
-        MaterialType.GEMSTONE,
-        MaterialType.LOCAL_SPECIALTY,
-        MaterialType.WEAPON_MATERIAL,
-        MaterialType.GENERIC_MATERIAL,
-        MaterialType.XP_AND_MORA,
-      ];
-
-      const observables = folders.map((folder) =>
-        this.http.get<Material[]>(`${this.basePath}${folder}/materials.json`),
-      );
-
-      this.materials$ = forkJoin(observables).pipe(
-        map((arrays) => arrays.flat()),
+      this.materials$ = this.http.get<Material[]>(this.apiBaseUrl).pipe(
         shareReplay(1), // cache result
       );
     }
@@ -39,7 +25,11 @@ export class MaterialService {
   }
 
   getMaterialCrafts(): Observable<MaterialCraft[]> {
-    return this.http.get<MaterialCraft[]>(`${this.basePath}crafts.json`);
+    // The backend doesn't have a separate crafts endpoint.
+    // Crafts are embedded in the material data.
+    // Return an empty array for now to maintain backward compatibility.
+    // The resolver service can extract crafts from individual materials if needed.
+    return of([]);
   }
 
   getMaterial(slug: string): Observable<Material | undefined> {

@@ -5,6 +5,7 @@ import { OverviewProfileComponent } from './profile/profile.component';
 import { OverviewConstellationsComponent } from './constellations/constellations.component';
 import { OverviewTalentsComponent } from './talents/talents.component';
 import { ElementType, ElementTypeLabel } from '../../../_models/enum';
+import { ImageService } from '../../../_services/image.service';
 
 @Component({
   selector: 'app-character-overview',
@@ -26,13 +27,25 @@ export class CharacterOverviewComponent {
 
   selectedMenu: 'profile' | 'talents' | 'constellations' = 'profile';
 
+  constructor(private imageService: ImageService) {}
+
   get imageUrls() {
+    if (!this.apikey) {
+      return {
+        icon: '',
+        iconCard: '',
+        sideIcon: '',
+        gachaSplash: '',
+        gachaSlice: '',
+      };
+    }
+
     return {
-      icon: `assets/images/characters/${this.apikey}/icon.webp`,
-      iconCard: `assets/images/characters/${this.apikey}/card.webp`,
-      sideIcon: `assets/images/characters/${this.apikey}/side.webp`,
-      gachaSplash: `assets/images/characters/${this.apikey}/gacha-splash.webp`,
-      gachaSlice: `assets/images/characters/${this.apikey}/gacha-icon.webp`,
+      icon: this.imageService.getCharacterIcon(this.apikey),
+      iconCard: this.imageService.getCharacterCardImage(this.apikey),
+      sideIcon: this.imageService.getCharacterSideImage(this.apikey),
+      gachaSplash: this.imageService.getCharacterGachaSplash(this.apikey),
+      gachaSlice: this.imageService.getCharacterGachaIcon(this.apikey),
     };
   }
 
@@ -67,6 +80,11 @@ export class CharacterOverviewComponent {
   };
 
   elementTypeLabel = ElementTypeLabel;
+
+  getElementIconUrl(element: ElementType): string {
+    const elementLabel = ElementTypeLabel[element];
+    return this.imageService.getElementIcon(elementLabel);
+  }
 
   getElementStyle(
     element: ElementType,

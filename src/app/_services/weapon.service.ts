@@ -1,33 +1,22 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { forkJoin, Observable, of, switchMap } from 'rxjs';
+import { Observable } from 'rxjs';
 import { Weapon } from '../_models/weapons';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class WeaponService {
-  private basePath = 'assets/json/weapons';
+  private apiBaseUrl = `${environment.apiBaseUrl}/api/weapons`;
 
   constructor(private http: HttpClient) {}
 
   getWeapons(): Observable<Weapon[]> {
-    return this.http.get<string[]>(`${this.basePath}/index.json`).pipe(
-      switchMap((names) => {
-        if (!names || names.length === 0) {
-          return of([] as Weapon[]);
-        }
-
-        const requests = names.map((name) =>
-          this.http.get<Weapon>(`${this.basePath}/${name}.json`),
-        );
-
-        return forkJoin(requests);
-      }),
-    );
+    return this.http.get<Weapon[]>(this.apiBaseUrl);
   }
 
   getWeapon(slug: string): Observable<Weapon> {
-    return this.http.get<Weapon>(`${this.basePath}/${slug}.json`);
+    return this.http.get<Weapon>(`${this.apiBaseUrl}/${encodeURIComponent(slug)}`);
   }
 }

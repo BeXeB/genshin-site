@@ -9,6 +9,7 @@ import { Material } from '../../_models/materials';
 import { ActivatedRoute } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
 import { WeaponService } from '../../_services/weapon.service';
+import { ImageService } from '../../_services/image.service';
 import { map, switchMap, takeUntil } from 'rxjs';
 import { SafeHtml } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
@@ -34,6 +35,7 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
     private weaponService: WeaponService,
     protected override formatterService: FormatterService,
     private cdr: ChangeDetectorRef,
+    private imageService: ImageService,
   ) {
     super(route, formatterService);
   }
@@ -139,6 +141,12 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
   hasRefine(ref: number): boolean {
     const key = `r${ref}` as keyof typeof this.weapon;
     return !!this.weapon?.[key];
+  }
+
+  getWeaponIconUrl(): string {
+    return this.weapon?.normalizedName
+      ? this.imageService.getWeaponIcon(this.weapon.normalizedName)
+      : '';
   }
 
   updateLevelFromIndex() {
