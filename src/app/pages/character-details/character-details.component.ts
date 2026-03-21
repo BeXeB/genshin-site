@@ -1,11 +1,10 @@
 import { Component, OnInit, OnDestroy, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
-import { CharacterService } from '../../_services/character.service';
+import { CharacterService } from '../../_services/http/character.service';
 import { ActivatedRoute } from '@angular/router';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { CharacterOverviewComponent } from './character-overview/character-overview.component';
 import { CharacterResolved } from '../../_models/character';
 import { CharacterGuideComponent } from './character-guide/character-guide.component';
-import { ResolverService } from '../../_services/resolver.service';
 import { switchMap, takeUntil } from 'rxjs';
 import { Subject } from 'rxjs';
 import { ElementType } from '../../_models/enum';
@@ -64,7 +63,6 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
 
   constructor(
     private characterService: CharacterService,
-    private resolverService: ResolverService,
     private route: ActivatedRoute,
     private cdr: ChangeDetectorRef,
   ) {}
@@ -74,13 +72,9 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
     if (!name) return;
     this.apikey = name;
 
-    this.resolverService
-      .initialize()
-      .pipe(
-        switchMap(() => this.characterService.getCharacterDetails(name)),
-        switchMap((data) => this.resolverService.resolveCharacter(data)),
-        takeUntil(this.destroy$),
-      )
+    this.characterService
+      .getCharacterDetails(name)
+      .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: (resolvedChar) => {
           this.char = resolvedChar;

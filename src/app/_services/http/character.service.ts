@@ -2,8 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { Character, CharacterProfile } from '../_models/character';
-import { environment } from '../../environments/environment';
+import { Character, CharacterProfile, CharacterResolved } from '../../_models/character';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
@@ -23,8 +23,8 @@ export class CharacterService {
     );
   }
 
-  getCharacterDetails(name: string): Observable<Character> {
+  getCharacterDetails(name: string): Observable<CharacterResolved> {
     // Normalize the name to match what the backend expects
-    return this.http.get<Character>(`${this.apiBaseUrl}/${encodeURIComponent(name)}`);
+    return this.http.get<CharacterResolved>(`${this.apiBaseUrl}/${encodeURIComponent(name)}`);
   }
 }

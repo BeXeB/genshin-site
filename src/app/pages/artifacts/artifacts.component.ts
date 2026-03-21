@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArtifactService } from '../../_services/artifact.service';
+import { ArtifactService } from '../../_services/http/artifact.service';
 import { ImageService } from '../../_services/image.service';
 import { ArtifactSet } from '../../_models/artifacts';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';

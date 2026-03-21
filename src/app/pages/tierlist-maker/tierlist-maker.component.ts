@@ -5,7 +5,7 @@ import {
   transferArrayItem,
   moveItemInArray,
 } from '@angular/cdk/drag-drop';
-import { CharacterService } from '../../_services/character.service';
+import { CharacterService } from '../../_services/http/character.service';
 import { ImageService } from '../../_services/image.service';
 import { FormsModule } from '@angular/forms';
 import {

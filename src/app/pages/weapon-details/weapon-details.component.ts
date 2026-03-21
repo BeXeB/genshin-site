@@ -7,10 +7,9 @@ import { PageTitleComponent } from '../../_components/page-title/page-title.comp
 import { WeaponRefine, WeaponResolved } from '../../_models/weapons';
 import { Material } from '../../_models/materials';
 import { ActivatedRoute } from '@angular/router';
-import { ResolverService } from '../../_services/resolver.service';
-import { WeaponService } from '../../_services/weapon.service';
+import { WeaponService } from '../../_services/http/weapon.service';
 import { ImageService } from '../../_services/image.service';
-import { map, switchMap, takeUntil } from 'rxjs';
+import { takeUntil } from 'rxjs';
 import { SafeHtml } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { DecimalPipe } from '@angular/common';
@@ -31,7 +30,6 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
 
   constructor(
     protected override route: ActivatedRoute,
-    private resolver: ResolverService,
     private weaponService: WeaponService,
     protected override formatterService: FormatterService,
     private cdr: ChangeDetectorRef,
@@ -77,16 +75,9 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
   levelIndex: number = this.quickLevels.indexOf(this.level);
 
   override loadDetail(slug: string): void {
-    this.resolver
-      .initialize()
-      .pipe(
-        switchMap(() => this.weaponService.getWeapon(slug)),
-        map((data) => {
-          if (!data) return null;
-          return this.resolver.resolveWeapon(data);
-        }),
-        takeUntil(this.destroy$),
-      )
+    this.weaponService
+      .getWeapon(slug)
+      .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: (resolvedWeapon) => {
           if (resolvedWeapon) {

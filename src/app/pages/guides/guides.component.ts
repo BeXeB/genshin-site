@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Guide } from '../../_models/guides';
-import { GuidesService } from '../../_services/guides.service';
+import { GuidesService } from '../../_services/http/guides.service';
 import { ImageService } from '../../_services/image.service';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { RouterLink } from '@angular/router';

@@ -3,7 +3,7 @@ import { Tier, TierCharacter, Tierlist } from '../../_models/tierlist';
 import { TierlistService } from '../../_services/tierlist.service';
 import { ImageService } from '../../_services/image.service';
 import { CharacterProfile } from '../../_models/character';
-import { CharacterService } from '../../_services/character.service';
+import { CharacterService } from '../../_services/http/character.service';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 
 @Component({
