@@ -2,7 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Guide } from '../../_models/guides';
 import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { switchMap } from 'rxjs/operators';
+import { of } from 'rxjs';
 import { environment } from '../../../environments/environment';
 
 @Injectable({
@@ -10,6 +11,7 @@ import { environment } from '../../../environments/environment';
 })
 export class GuidesService {
   private apiBaseUrl = `${environment.apiBaseUrl}/api/guides`;
+  private guidesPublicPath = `${environment.apiBaseUrl}/guides`;
 
   constructor(private http: HttpClient) {}
 
@@ -19,7 +21,7 @@ export class GuidesService {
 
   /**
    * Fetch guide by slug
-   * Returns the full guide object including markdown content
+   * Returns the full guide object including contentPath
    */
   getGuide(slug: string): Observable<Guide> {
     return this.http.get<Guide>(`${this.apiBaseUrl}/${encodeURIComponent(slug)}`);
@@ -27,19 +29,27 @@ export class GuidesService {
 
   /**
    * Fetch guide markdown content by slug
-   * Extracts the content field from the guide response
+   * Reads the file from public/guides/{contentPath}
    */
   getGuideMarkdown(slug: string): Observable<string> {
     return this.getGuide(slug).pipe(
-      map(guide => guide.content || '')
+      switchMap(guide => {
+        if (!guide.contentPath) {
+          return of('');
+        }
+        const fileUrl = `${this.guidesPublicPath}/${guide.contentPath}`;
+        return this.http.get(fileUrl, { responseType: 'text' });
+      })
     );
   }
 
   /**
    * Fetch character guide markdown by character apikey
-   * Uses the pattern: characters/{apiKey} or characters/traveler-{element}
+   * Fetches directly from public/guides/characters/{apiKey}.md
+   * Does NOT require a database entry
    */
   getCharacterGuideMarkdown(apiKey: string): Observable<string> {
-    return this.getGuideMarkdown(`characters/${apiKey}`);
+    const fileUrl = `${this.guidesPublicPath}/characters/${apiKey}.md`;
+    return this.http.get(fileUrl, { responseType: 'text' });
   }
 }
