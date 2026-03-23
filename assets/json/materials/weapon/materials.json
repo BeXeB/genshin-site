@@ -1,0 +1,1598 @@
+[
+  {
+    "id": 114078,
+    "name": "Afterglow of Long Night Flint",
+    "normalizedName": "afterglowoflongnightflint",
+    "rarity": 3,
+    "sortRank": 15120,
+    "description": "Weapon Ascension Material.\nLighting a lamp can dispel darkness, and so the people of the borderlands believed that as long as the lamps of the Lightkeepers were lit, the home of the living would be free of evil spirits.\nThe warriors who had sworn to watch over the night believed the same. That is why, like moths to a flame, man faced a mountain of evil clad in armor to protect his fragile flesh.\nUntil the black tide consumes his flesh, or his flesh devours the black tide, the two cannot be told apart.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Prayers Sung",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114078"
+    }
+  },
+  {
+    "id": 114073,
+    "name": "Artful Device Fragment",
+    "normalizedName": "artfuldevicefragment",
+    "rarity": 2,
+    "sortRank": 15119,
+    "description": "Weapon Ascension Material.\nAn intricate device once known as the \"Seven Tools of the Great Thief.\" Rumors claim it was created by the legendary thief, Reed Miller.\nJust as the first Treasure Hoarders came from all walks of life, this combination of tools meant for different purposes was designed to break down artificial boundaries, regardless of whether they were chains or borders.\nIt should be noted that there are more than seven tools, its just that people are accustomed to using seven to describe anything numerous. Perhaps it is for the same reason that the world is believed to have only seven forms of order.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Radiant Splendor",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114073"
+    }
+  },
+  {
+    "id": 114075,
+    "name": "Artful Device Inheritance",
+    "normalizedName": "artfuldeviceinheritance",
+    "rarity": 4,
+    "sortRank": 15119,
+    "description": "Weapon Ascension Material.\nWord on the street is that the legendary thief, Reed Miller, has been sentenced to death several times, yet he's always managed to escape at the last minute with the help of his friends — and his tools.\nIn some versions of these stories, several of his followers willingly died in his place for their revered King of Elysium. Naturally, these versions can't compete with the more popular drunken stories full of romance and bliss. Since there has never been a shackle that could restrain the legendary thief, it is only natural to assume that no ending could do the same.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Radiant Splendor",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114075"
+    }
+  },
+  {
+    "id": 114074,
+    "name": "Artful Device Replica",
+    "normalizedName": "artfuldevicereplica",
+    "rarity": 3,
+    "sortRank": 15119,
+    "description": "Weapon Ascension Material.\nJust as the legendary thief's tools have been imitated by countless others, so has his name.\nIn a sense, it was not the people who thirsted for something more who stole Reed Miller's name, but rather Reed Miller who stole the identity that was originally theirs alone. These viewpoints are just two sides of the same coin.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Radiant Splendor",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114074"
+    }
+  },
+  {
+    "id": 114076,
+    "name": "Artful Device Wish",
+    "normalizedName": "artfuldevicewish",
+    "rarity": 5,
+    "sortRank": 15119,
+    "description": "Weapon Ascension Material.\n\"The poor, the starving, the wretched, the oppressed! My exiled brothers and sisters!\"\n\"If you, too, have tasted indignities at the cruel hands of fate! If you, too, have wept in the night at the plight of your neighbors!\"\n\"If you, too, have longed for a shelter from fear! If you, too, have dreamed of a world where no tears are shed!\"\n\"Then join us, your brothers and sisters, in breaking the chains of slavery!\"\n\"Let the dead bury the dead, for you will rise up, and with the treasures of the haughty, we will build an Elysium without boundaries!\"",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Radiant Splendor",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114076"
+    }
+  },
+  {
+    "id": 114084,
+    "name": "Aureate Radiance of the Far-North Scions",
+    "normalizedName": "aureateradianceofthefarnorthscions",
+    "rarity": 5,
+    "sortRank": 15121,
+    "description": "Weapon Ascension Material.\nWith the unblessed birth of the prophesied son, a millennia-long plan ushered in a bleak twilight.\nA scheme born of cunning was shattered by foolish betrayal. The youth who was supposed to be king took the maid who was supposed to serve him and stole the secret treasure that was supposed to be his, only to reject the crowns that fate had ordained for him.\nIn time, the king who was destined to rule Elysium went down in history as an unpardonable thief, and by the time the true new moon shone upon the land, the far north's final wish of golden grandeur had already been buried by a priestess, who had never believed in any god, in the empty grave of her king.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Lunar Oblation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114084"
+    }
+  },
+  {
+    "id": 114023,
+    "name": "Bit of Aerosiderite",
+    "normalizedName": "bitofaerosiderite",
+    "rarity": 4,
+    "sortRank": 15106,
+    "description": "Weapon Ascension Material.\nThe coastal nations of Teyvat refer to the region beyond the protection of The Seven as the Dark Sea. It is said that many defeated gods refused to live under the new order of The Seven, so they fled to remote islands and became evil gods. However, their powers came from the same source as Rex Lapis, separate from this all-devouring darkness.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Trial Grounds of Thunder",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114023"
+    }
+  },
+  {
+    "id": 114080,
+    "name": "Blaze of Long Night Flint",
+    "normalizedName": "blazeoflongnightflint",
+    "rarity": 5,
+    "sortRank": 15120,
+    "description": "Weapon Ascension Material.\nIn the long years when the night grasped the land, the first Torchforger lit the flames that dispelled the darkness and swore vigilance against the black tide, so earning the royal edict that established the Lightkeepers.\nUnlike the Marechaussee Hunters of the high seas, the Lightkeepers who patrolled the night did not possess any ancient techniques from a lost empire, or prestigious titles and ranks. All they could rely on was weak flesh clad in silver armor, the swords and lamps in their hands, and an ancient oath passed down through generations.\nNo matter how many souls perish beneath the dim light, the dark disaster cannot overturn mortal resolve — for the long night can only steal life, and not the dawn that will eventually rise.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Prayers Sung",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114080"
+    }
+  },
+  {
+    "id": 114062,
+    "name": "Blazing Sacrificial Heart's Hesitance",
+    "normalizedName": "blazingsacrificialheartshesitance",
+    "rarity": 3,
+    "sortRank": 15116,
+    "description": "Weapon Ascension Material.\nAfter the original civilizations crumbled like shattered jade — and those envoys from the skies above, under whose guidance the earthly civilizations had thrived, were devoured by the awakened dragons — humanity plunged into savagery, losing the ability to perceive the world anew.\nThus did they revert to their most primal beliefs, convinced of the inherent mystery of the earth that nurtured all things. This marked the dawn of the era where hunted prey began to be offered as sacrifices.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Scrying Shadows",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114062"
+    }
+  },
+  {
+    "id": 114063,
+    "name": "Blazing Sacrificial Heart's Resolve",
+    "normalizedName": "blazingsacrificialheartsresolve",
+    "rarity": 4,
+    "sortRank": 15116,
+    "description": "Weapon Ascension Material.\nIt is said that the Sage of the Stolen Flame, after imparting the secret knowledge of the mastery of flames in all their many forms to the tribespeople, hoped that they would climb the ladder of civilization and abandon the wrongful practices of their forebears.\nYet dogma deeply entrenched is difficult indeed to shake, and the now empowered youngsters instead ignited conflicts within their own tribes merely for the sake of more offerings. This may explain the sage's eventual disillusionment and withdrawal from history.\nNotably, it was precisely during the reign of the Sacred Lord of the ineffable city that the practice of offering live sacrifices was banned outright. Though the Sacred Lord's true motivation for abolishing many of their customs was the consolidation of authority, this particular act might also be seen as the start of a new kind of civilization.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Scrying Shadows",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114063"
+    }
+  },
+  {
+    "id": 114064,
+    "name": "Blazing Sacrificial Heart's Splendor",
+    "normalizedName": "blazingsacrificialheartssplendor",
+    "rarity": 5,
+    "sortRank": 15116,
+    "description": "Weapon Ascension Material.\n\"If you wish to possess all that the world has to offer, you must first offer all you have to the world.\"\nAfter the Sacred Lord of the ineffable city forbade the people from praying to the Night Kingdom, the spiritual bonds that had once been established fell into ruin.\nThe scarlet-eyed youth, guided through numerous trials, now faced his final test: to emulate the first human to ascend and confront his own demise by offering up his heart with a golden dagger.\nSelf-sacrifice was seen as an honor reserved for the victor — and thus, without even a moment's hesitation, he sliced open his chest with the gleaming blade.\nIn the end, his sacrifice received the response it deserved, and he was able to return from the kingdom where water flows as rays of light to set out upon a grand new endeavor.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Scrying Shadows",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114064"
+    }
+  },
+  {
+    "id": 114061,
+    "name": "Blazing Sacrificial Heart's Terror",
+    "normalizedName": "blazingsacrificialheartsterror",
+    "rarity": 2,
+    "sortRank": 15116,
+    "description": "Weapon Ascension Material.\nAccording to ancient tribal tradition, all that a person takes comes from this world — so naturally, all that they gain shall also be given back to it.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Scrying Shadows",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114061"
+    }
+  },
+  {
+    "id": 114007,
+    "name": "Boreal Wolf's Broken Fang",
+    "normalizedName": "borealwolfsbrokenfang",
+    "rarity": 4,
+    "sortRank": 15102,
+    "description": "Weapon Ascension Material.\nThe wolf pack also understands that humans are not solitary creatures. The honorary broken tooth is a parting gift said to bring protection and luck.\nIn the legends of a far-off world, a female wolf once adopted two great humans. Their home was known as the Cave of Wolves, or Lupercal - that word meaning the same thing as Lupical does in this world.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Submerged Valley",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114007"
+    }
+  },
+  {
+    "id": 114006,
+    "name": "Boreal Wolf's Cracked Tooth",
+    "normalizedName": "borealwolfscrackedtooth",
+    "rarity": 3,
+    "sortRank": 15102,
+    "description": "Weapon Ascension Material.\nThe life of a wolf is not without violence; broken bones or cracked teeth are nothing special.\nAndrius found humans to be a disappointment, but believed babies to be innocent. If both the wolf pack and the adopted children chose each other, then they become a Lupical, a fated family.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Submerged Valley",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114006"
+    }
+  },
+  {
+    "id": 114005,
+    "name": "Boreal Wolf's Milk Tooth",
+    "normalizedName": "borealwolfsmilktooth",
+    "rarity": 2,
+    "sortRank": 15102,
+    "description": "Weapon Ascension Material.\nAndrius' wolf pack is its blessed honor guard, and even the milk teeth of a wolf cub possess great potential.\nIn the past, the gods had the responsibility to love all people. Andrius was therefore quite unusual in that he became leader of the wolves, while only welcoming abandoned babies and wanderers when it came to humans.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Submerged Valley",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114005"
+    }
+  },
+  {
+    "id": 114008,
+    "name": "Boreal Wolf's Nostalgia",
+    "normalizedName": "borealwolfsnostalgia",
+    "rarity": 5,
+    "sortRank": 15102,
+    "description": "Weapon Ascension Material.\nThe Wolf King, believing himself to despise humans, thought himself unable to envision a happy life for humanity, making him unworthy of becoming the Lord of the Winds of the world. Therefore, he chose to disappear. Yet, in truth, he gazes on the ones abandoned by the world ever so gently.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Submerged Valley",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114008"
+    }
+  },
+  {
+    "id": 114057,
+    "name": "Broken Goblet of the Pristine Sea",
+    "normalizedName": "brokengobletofthepristinesea",
+    "rarity": 2,
+    "sortRank": 15115,
+    "description": "Weapon Ascension Material.\nLegend says that when the first usurper came to the primordial sea, the first sovereign gave him a goblet of water.\nLater, he became the unquestioned god-king, and used this goblet of water to refine the mysterious drops of dew, establishing a splendid and powerful empire.\nBut that is now an ancient story, whose main characters now sleep in the phosphorescence of the schools of the deepwater fish.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Curious Contraptions",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114057"
+    }
+  },
+  {
+    "id": 114010,
+    "name": "Chains of the Dandelion Gladiator",
+    "normalizedName": "chainsofthedandeliongladiator",
+    "rarity": 3,
+    "sortRank": 15103,
+    "description": "Weapon Ascension Material.\nThe chains that once bound the great hero Vennessa. In truth, all gladiators would have worn chains in that era, and Vennessa was but one of many.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Ruins of Thirsting Capital",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114010"
+    }
+  },
+  {
+    "id": 114050,
+    "name": "Chapter of an Ancient Chord",
+    "normalizedName": "chapterofanancientchord",
+    "rarity": 3,
+    "sortRank": 15113,
+    "description": "Weapon Ascension Material.\nLegends say that the survivors of that ancient dynasty once cast a harp out of black iron to commemorate and mourn.\nA harp cast of black iron cannot be played. To mourn that ancient dynasty that was once so proud of its golden music, those remaining forged this heavy instrument and its yet weightier silence.\nBut no matter what, the black iron harp remained as silent as that lost era.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Robotic Ruse",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114050"
+    }
+  },
+  {
+    "id": 114024,
+    "name": "Chunk of Aerosiderite",
+    "normalizedName": "chunkofaerosiderite",
+    "rarity": 5,
+    "sortRank": 15106,
+    "description": "Weapon Ascension Material.\nWhen Khaenri'ah was destroyed, a great sinner created endless monsters with dark, alien blood flowing through their veins. They rampaged across the land, destroying all in their paths. They were mutated lifeforms, and the mutations were caused by powers from beyond this world. The black serpentine dragon Durin that attacked Mondstadt was one such mutated being.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Trial Grounds of Thunder",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114024"
+    }
+  },
+  {
+    "id": 114037,
+    "name": "Copper Talisman of the Forest Dew",
+    "normalizedName": "coppertalismanoftheforestdew",
+    "rarity": 2,
+    "sortRank": 15110,
+    "description": "Weapon Ascension Material.\nUnder the instructions of the First Sage, the ancestors of the forest people made these talismans using withered trees to commemorate the Lord of Verdure.\nThe talisman's shape was inspired by the forest dew. It symbolizes the permeation of wisdom into mortal minds.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Tainted Clouds",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114037"
+    }
+  },
+  {
+    "id": 114025,
+    "name": "Coral Branch of a Distant Sea",
+    "normalizedName": "coralbranchofadistantsea",
+    "rarity": 2,
+    "sortRank": 15107,
+    "description": "Weapon Ascension Material.\nWatatsumi Island is the furthest from Narukami Island in the Inazuman island chain, and its name means \"the god of the oceans\" in the island's ancient tongue. Legend has it that when the great serpent first arose within the abyssal nation of ever-night, its fluorescent body was covered in myriad-colored coral.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Sunken Sands",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114025"
+    }
+  },
+  {
+    "id": 114002,
+    "name": "Debris of Decarabian's City",
+    "normalizedName": "debrisofdecarabianscity",
+    "rarity": 3,
+    "sortRank": 15101,
+    "description": "Weapon Ascension Material.\nDecarabian, the God of Storms, was content with the capital city he had raised, and accepted the worship of the people from atop his tower. But he knew not that the people did not bow to him out of respect or adoration.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: City of Reflections",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114002"
+    }
+  },
+  {
+    "id": 114065,
+    "name": "Delirious Decadence of the Sacred Lord",
+    "normalizedName": "deliriousdecadenceofthesacredlord",
+    "rarity": 2,
+    "sortRank": 15117,
+    "description": "Weapon Ascension Material.\nIt is said that the controversial mastermind who later came to be known as the Sacred Lord of the ineffable city was once imprisoned. The first human to ascend, who at the time had not yet attained divine form, showed him great compassion.\nThus, after emerging from the mighty wing-shadows of a once-great race, he was accepted by the tribe who had once been his.\nSince then, he has concealed his true visage beneath a mask, hiding the golden patterns that mark it, and resolved to offer up everything to the master who holds his vow.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Attentive Observation",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114065"
+    }
+  },
+  {
+    "id": 114067,
+    "name": "Delirious Demeanor of the Sacred Lord",
+    "normalizedName": "deliriousdemeanorofthesacredlord",
+    "rarity": 4,
+    "sortRank": 15117,
+    "description": "Weapon Ascension Material.\nIt was in that era that the first human to ascend arose from the throne to enter the Sacred Flame, while the mortal world awaited the arrival of their successor.\nIt was also the era that the mastermind took up the reins of all authority in their stead.\nUnfortunately, this self-proclaimed Sacred Lord, this usurper who believed that the god he had loved and shed golden tears for should forever remain the one and only — overstepped his authority. Placing selfish desire above the commandments left by that revered god, he established a city in which the heavens and the earth were separated from one another.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Attentive Observation",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114067"
+    }
+  },
+  {
+    "id": 114066,
+    "name": "Delirious Desolation of the Sacred Lord",
+    "normalizedName": "deliriousdesolationofthesacredlord",
+    "rarity": 3,
+    "sortRank": 15117,
+    "description": "Weapon Ascension Material.\nDuring the war with the dragons, that mastermind of all the tribes — the same one who had hidden his face behind a mask — deciphered the golden patterns on the non-human ruins for the warriors. The knowledge with which he did so is now long lost.\nIt was from their enemies that he learned the language and thought patterns required to do this. For him, wielding these skills against them was perhaps a deeply satisfying act of revenge.\nYet his unconcealed hatred for them was a recurring cause of great concern among his fellow heroes.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Attentive Observation",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114066"
+    }
+  },
+  {
+    "id": 114068,
+    "name": "Delirious Divinity of the Sacred Lord",
+    "normalizedName": "deliriousdivinityofthesacredlord",
+    "rarity": 5,
+    "sortRank": 15117,
+    "description": "Weapon Ascension Material.\nThe Sacred Lord of the ineffable city often murmured non-human languages in his dreams, and when he beheld himself in the mirror, he saw how the single pupil that was visible through his mask was gradually becoming vertical. This only served to further fuel his growing hatred for the dragons.\nIt is said that when the scarlet-eyed youth burned down that city above a city, submerged in shadow as it was, he witnessed a half-human figure before the royal hall who had been driven mad. As if tearing off its very face, it ripped away at its indelible divine visage, revealing gaping holes that were fearsomely draconic.\nConsumed by the golden flames it spewed, the disfigured form of that deranged soul fell from a great height into the pitch-black mire below. Forsaken by all, thus was the tragic end that this delusional outcast is said to have met.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Attentive Observation",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114068"
+    }
+  },
+  {
+    "id": 114016,
+    "name": "Divine Body from Guyun",
+    "normalizedName": "divinebodyfromguyun",
+    "rarity": 5,
+    "sortRank": 15104,
+    "description": "Weapon Ascension Material.\nThat which lurks within and animates this relic are the divine remains of lamenting gods. They are unrealized ideals, designs for a prosperous humanity that could never be. They may now lie deep within stone and sea, but they will not go quietly into the night.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Thundercloud Altar",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114016"
+    }
+  },
+  {
+    "id": 114047,
+    "name": "Dream of Scorching Might",
+    "normalizedName": "dreamofscorchingmight",
+    "rarity": 4,
+    "sortRank": 15112,
+    "description": "Weapon Ascension Material.\nSilver moonlight and clear springs once completed the scenery of the oases. But as the Lord of Flowers faded in the darkening sandstorm, so was the worriless golden paradise submerged by death.\nIn the poetry of the Eremite Tribe, the moon cast its silver light on the crimson mantle, causing Al-Ahmar, the Mourning King, to be driven to madness.\nIn a melancholic desert ballad, driven by the haunting nostalgia, the lonely king created an ever-youthful dreamland in the center of the desert, where undisturbed water sprang up and perpetual dusk remained.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Leading Karma",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114047"
+    }
+  },
+  {
+    "id": 114012,
+    "name": "Dream of the Dandelion Gladiator",
+    "normalizedName": "dreamofthedandeliongladiator",
+    "rarity": 5,
+    "sortRank": 15103,
+    "description": "Weapon Ascension Material.\nVennessa may have been freed from slavery, but she then found herself subject to many other, even greater forms of bondage. What began as a duty to her tribespeople extended to all of Mondstadt, then to the concept of freedom itself, and beyond a point even to the whole world.\nWhat she really hoped for, in truth, was that the world might grow stronger.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Ruins of Thirsting Capital",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114012"
+    }
+  },
+  {
+    "id": 114053,
+    "name": "Dross of Pure Sacred Dewdrop",
+    "normalizedName": "drossofpuresacreddewdrop",
+    "rarity": 2,
+    "sortRank": 15114,
+    "description": "Weapon Ascension Material.\nLegends say that before the birth of life, there was a dense primordial sea. It is the purest origin of all things, and one day, it will also swallow all life... and those things which did not arise from it will be filtered out, becoming naught but floating detritus.\n\"The existence of detritus also has meaning — What kind of thing would be rejected by the source of all things that swallows all life?\" the young Harmost asked the great usurper, pondering this conundrum.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Artisanship",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114053"
+    }
+  },
+  {
+    "id": 114052,
+    "name": "Echo of an Ancient Chord",
+    "normalizedName": "echoofanancientchord",
+    "rarity": 5,
+    "sortRank": 15113,
+    "description": "Weapon Ascension Material.\nThe God King's Grand Symphony is composed of countless melodies linked together, but its main thesis is submerged under the common destiny of the Water Nation.\nThe harmonies of those carefree years and sonatas were once the greatest representation of civilization and order, but when the prosperous empire descended into a playground for tyrants, the brutal despots tore the connection with the source asunder under the cover of golden cloaks, and discord finally swarmed through the empire—\nThe original song of fate continued to ring out on a score of fading gold, unperturbed by all... until all was dissolved, and all returned to chaos.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Robotic Ruse",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114052"
+    }
+  },
+  {
+    "id": 114045,
+    "name": "Echo of Scorching Might",
+    "normalizedName": "echoofscorchingmight",
+    "rarity": 2,
+    "sortRank": 15112,
+    "description": "Weapon Ascension Material.\nA long time ago, the people of the Lord of Deserts carved these imperial insignias based on robust beetles to memorialize the bright sun that marked the shifting of day and night, as well as the infinity of such times.\nThough the name of that Lord is no longer mentioned, these imperial insignias have been preserved through time, each bearing a faint ambiance of those past glories.\nThese insignias travel with the descendants of the Eremite Tribe, silently telling the tales of their then-Lord.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Leading Karma",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114045"
+    }
+  },
+  {
+    "id": 114077,
+    "name": "Ember of Long Night Flint",
+    "normalizedName": "emberoflongnightflint",
+    "rarity": 2,
+    "sortRank": 15120,
+    "description": "Weapon Ascension Material.\nIn earthly poetry, light is often a metaphor of hope. The fires burn out in silence, only to reveal the onward path in the darkness before dawn.\nRegardless, neither the first Torchforger nor the friend with whom he painted Elysium as a child ever knew where the illuminated path would lead until the moment the lights were extinguished.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Prayers Sung",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114077"
+    }
+  },
+  {
+    "id": 114056,
+    "name": "Essence of Pure Sacred Dewdrop",
+    "normalizedName": "essenceofpuresacreddewdrop",
+    "rarity": 5,
+    "sortRank": 15114,
+    "description": "Weapon Ascension Material.\nA dense and pure solution, derived and refined from drops of the vast primordial sea. The ancient God King once believed it would bring eternal life and infinite wisdom, but listening carefully— it was quietly, faintly prophesizing the final end of all dissolving into one.\nThis was once the God King's unfinished Grand Symphony — a boundless, sourceless golden Ichor replacing the wild primeval waters, and the glorious immortal sages bringing nectar-like enlightenment to the ignorant corners of the world.\nBut the God King's delusions ultimately sank into the depths of the black abyss, and with the ravages of time, the golden Ichor was eventually corroded by the primordial soup...\nThe tuner turned a blind eye to the evil omens, and supporting his broken body, continued to give life to his compatriots according to the plans once laid, so that the old order might one day return...\nEven today, many mad poets and painters of Fontaine see the apocalypse experienced by Boethius, a reminder of the inescapable cycle of the world.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Artisanship",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114056"
+    }
+  },
+  {
+    "id": 114009,
+    "name": "Fetters of the Dandelion Gladiator",
+    "normalizedName": "fettersofthedandeliongladiator",
+    "rarity": 2,
+    "sortRank": 15103,
+    "description": "Weapon Ascension Material.\nIt's a human thing to exaggerate a hero's story, even to the point of elevating the fetters that once bound the hero to the level of an enemy of true freedom.\nAs a result, these fetters were granted extraordinary powers.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Ruins of Thirsting Capital",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114009"
+    }
+  },
+  {
+    "id": 114079,
+    "name": "Flare of Long Night Flint",
+    "normalizedName": "flareoflongnightflint",
+    "rarity": 4,
+    "sortRank": 15120,
+    "description": "Weapon Ascension Material.\nThe insignia of the Lightkeepers is a nightingale holding a burning wick in its beak.\nIt is said that in the past, the nightingale insignia belonged to a renowned noble house in the northern kingdom. In the shadow untouched by light, a boy, who would become a legendary thief, carved his first raven insignia with his friend in imitation of the nightingale.\nBut that was many years ago. Nowadays, the raven insignia can be seen everywhere, but the nightingale that the raven once looked up to still dwells on its tower, lamenting the winter city to the light.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Prayers Sung",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114079"
+    }
+  },
+  {
+    "id": 114049,
+    "name": "Fragment of an Ancient Chord",
+    "normalizedName": "fragmentofanancientchord",
+    "rarity": 2,
+    "sortRank": 15113,
+    "description": "Weapon Ascension Material.\nA harp with rotten keys. Its voice blocked, it cannot be played nor its sound heard.\nIt is said the descendants of the forgotten music once lacquered mechanical wooden harps with gold in order to revive the magnificent remnants of the ancient dynasty, futilely attempting to match them to the silent golems...\nA long time passed, and then more, and the rotten, off-key harps remained in the grasp of those silent giants, caressed by the waves, playing only sorrowful strains.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Robotic Ruse",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114049"
+    }
+  },
+  {
+    "id": 114003,
+    "name": "Fragment of Decarabian's Epic",
+    "normalizedName": "fragmentofdecarabiansepic",
+    "rarity": 4,
+    "sortRank": 15101,
+    "description": "Weapon Ascension Material.\nAndrius once declared war upon Decarabian, but failed to even scratch the capital of the Lord of the Tower. If it were not for the song of freedom that shattered the city in an instant, Decarabian's dream would have gone on forever.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: City of Reflections",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114003"
+    }
+  },
+  {
+    "id": 114028,
+    "name": "Golden Branch of a Distant Sea",
+    "normalizedName": "goldenbranchofadistantsea",
+    "rarity": 5,
+    "sortRank": 15107,
+    "description": "Weapon Ascension Material.\nThe meaning that lies behind the name \"Watatsumi\" is simply the unrequited hopes that the abandoned people who dwelt in the deep sea pinned upon the serpent god that led them.\nAnd it was also because the serpent god now had people who worshiped it that it stayed in the world it should have long fled, breaking off the coral branches that adorned its body, treading upon land where it should not have, and facing a foe it could never hope to match — till at last, its divine form was sundered along with the mountains, its ichor turned into plasma, and its will and power became a curse that could never be extinguished: Tatarigami.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Sunken Sands",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114028"
+    }
+  },
+  {
+    "id": 114060,
+    "name": "Golden Goblet of the Pristine Sea",
+    "normalizedName": "goldengobletofthepristinesea",
+    "rarity": 5,
+    "sortRank": 15115,
+    "description": "Weapon Ascension Material.\nWhen the Usurper of the sunken city played the last movement of the golden symphony, the favored musician stole the golden goblet brimming with Ichor.\nShocked by the foolhardy betrayal of the God King, the musician summoned the last guards, and used the insoluble Ichor to seal the dragon beneath the tall tower, and sank into the abyss with the capital.\nAfterwards, this noble thief vanished silently from history, and only the \"Golden Troupe\" faithfully remembers his prophecy.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Curious Contraptions",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114060"
+    }
+  },
+  {
+    "id": 114040,
+    "name": "Golden Talisman of the Forest Dew",
+    "normalizedName": "goldentalismanoftheforestdew",
+    "rarity": 5,
+    "sortRank": 15110,
+    "description": "Weapon Ascension Material.\n\"Mortals hold dear three things only: the spring water that embraces the moonlight, verdant life, and ageless youth...\"\nThe nature of \"wisdom\" is not domination over all minds or scheming to gain all the benefit. Instead, it is about empowering even ordinary beings to one day overcome their imposed constraints.\nThough the roar of the tiger is no longer heard in the forest and the resilient guardians would seclude themselves within the dreams of children... On the night when every secret golden seal is lifted and all dreams glow like amber in the moonlight, perhaps she and her beloved people will eventually win genuine freedom.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Tainted Clouds",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114040"
+    }
+  },
+  {
+    "id": 114021,
+    "name": "Grain of Aerosiderite",
+    "normalizedName": "grainofaerosiderite",
+    "rarity": 2,
+    "sortRank": 15106,
+    "description": "Weapon Ascension Material.\nA black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Trial Grounds of Thunder",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114021"
+    }
+  },
+  {
+    "id": 114038,
+    "name": "Iron Talisman of the Forest Dew",
+    "normalizedName": "irontalismanoftheforestdew",
+    "rarity": 3,
+    "sortRank": 15110,
+    "description": "Weapon Ascension Material.\nLater, the Lord of Verdure taught people the mystery of the forging of black iron. The innocent mortals thus grasped the knowledge of using fire to forge blades.\nThe Lord of Verdure took pleasure in their knowledge — Lethal as fire and blades were to her, they made ordinary people powerful.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Tainted Clouds",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114038"
+    }
+  },
+  {
+    "id": 114027,
+    "name": "Jade Branch of a Distant Sea",
+    "normalizedName": "jadebranchofadistantsea",
+    "rarity": 4,
+    "sortRank": 15107,
+    "description": "Weapon Ascension Material.\nFleeing into the Dark Sea, the god that had lost everything met the abandoned people who had nothing within the ocean depths. Thus it elected to remain and become their \"Orobashi no Mikoto,\" their \"Watatsumi Omikami.\"\nIt is said that the great snake god once broke off all the coral branches on its body to give light to the children who were curled up in the darkness. They also say that it used these coral branches to create a huge ladder to allow those children to once again reach the surface and see the light of day.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Sunken Sands",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114027"
+    }
+  },
+  {
+    "id": 114026,
+    "name": "Jeweled Branch of a Distant Sea",
+    "normalizedName": "jeweledbranchofadistantsea",
+    "rarity": 3,
+    "sortRank": 15107,
+    "description": "Weapon Ascension Material.\nThis coral cannot be found anywhere in Teyvat, but was a gift that the great serpent obtained when it broke into the Dark Sea. For that abyssal snake, to be filled with coral was to be mighty, and its power would be shaved away as those corals were lost. In other words, those corals contain power far beyond the norm.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Sunken Sands",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114026"
+    }
+  },
+  {
+    "id": 114013,
+    "name": "Luminous Sands from Guyun",
+    "normalizedName": "luminoussandsfromguyun",
+    "rarity": 2,
+    "sortRank": 15104,
+    "description": "Weapon Ascension Material.\nThe stone pillars that tower amid Guyun Stone Forest were once the stone spears Morax used to defeat his enemies. Over time, the gods' substance has seeped into the pillars that pin them down, lending them divine power. The pillars sometimes shed fragments of hatred and curses.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Thundercloud Altar",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114013"
+    }
+  },
+  {
+    "id": 114014,
+    "name": "Lustrous Stone from Guyun",
+    "normalizedName": "lustrousstonefromguyun",
+    "rarity": 3,
+    "sortRank": 15104,
+    "description": "Weapon Ascension Material.\nThe learned know that Guyun Stone Forest is far more than simply a miraculous sight on the sea to behold: It is the cemetery of the former gods of Liyue. Hatred and filth have periodically risen up from it, but all have been subdued by a demon-conquering young man.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Thundercloud Altar",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114014"
+    }
+  },
+  {
+    "id": 114036,
+    "name": "Mask of the Kijin",
+    "normalizedName": "maskofthekijin",
+    "rarity": 5,
+    "sortRank": 15109,
+    "description": "Weapon Ascension Material.\nChiyo, a warrior of the oni tribe with the Electro Mitsudomoe emblem emblazoned on her back, was once swallowed whole by a beast from beyond this world that had a tiger's body and a serpent's tail while holding back the forces of darkness. At last, she tore the creature's innards apart from within, breaking free.\nThis is the origin of the phrase \"Chiyo the Tiger-Bite,\" and would be changed over many years to \"Torachiyo.\"\nBut within the belly of the beast, she was stained by a deep sin and saw her comrades ripped to shreds by those blood-red teeth. Steeped in darkness as far as the eye could see, she would eventually draw her sword upon the Almighty Narukami Ogosho. Her sword-arm and one horn would be cloven, and she would flee from the city into the forest like a wounded beast. There, they say that she was taken for some unknown monster and slain by the tengu, or perhaps by the Shuumatsuban — or perhaps by a scion of the Iwakura Clan training deep in the mountains, for her features had been twisted by hatred and the agony of her wounds. Or perhaps she even met the oni-masked, sword-bearing doll near the corpse of the giant serpent, and there ended her life's journey.\nFew among those who fought against the abyss in those days were spared pitch-dark dreams. Those who slew monsters and then became them were hardly the minority. The border between worlds grows fragile, and corruption of this kind is perhaps not merely monodirectional.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Sand Burial",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114036"
+    }
+  },
+  {
+    "id": 114035,
+    "name": "Mask of the One-Horned",
+    "normalizedName": "maskoftheonehorned",
+    "rarity": 4,
+    "sortRank": 15109,
+    "description": "Weapon Ascension Material.\nIn the lost songs of the oni nursemaids, Torachiyo was an elegant young man, strong of body and fair of face. He was once a beloved lieutenant of the Shogun, and he followed her into the dark abyssal realms to repel the defiled ones, winning renown for the oni, whose blood thinned with each passing day.\nNone now sing these songs, but the mask of a horned oni, even in a different form, still possesses power beyond the norm.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Sand Burial",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114035"
+    }
+  },
+  {
+    "id": 114034,
+    "name": "Mask of the Tiger's Bite",
+    "normalizedName": "maskofthetigersbite",
+    "rarity": 3,
+    "sortRank": 15109,
+    "description": "Weapon Ascension Material.\n\"Sumirezome Sangetsu Kogetsukan\" depicts the fierce oni Torachiyo shattering the Shogun's naginata with a single bite, thus gaining the upper hand for a time. As such, masks that are based on him have finely crafted fangs.\nIn the denouement of this tale, the wounded oni fled into the forest, deathly afraid of showing himself even to the cold moonlight. The wind that whispers through the alleys and valleys can be said to resemble his quiet cries of agony, and so there is a poetic seasonal expression for this in Inazuma: \"Torachiyo's Wind.\"",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Sand Burial",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114034"
+    }
+  },
+  {
+    "id": 114033,
+    "name": "Mask of the Wicked Lieutenant",
+    "normalizedName": "maskofthewickedlieutenant",
+    "rarity": 2,
+    "sortRank": 15109,
+    "description": "Weapon Ascension Material.\nFolktales tell that once upon a time, there lived an oni named Torachiyo. Torachiyo was a highly skilled warrior, such that it was once said the Torachiyo might dance amid a thousand blades, juunihitoe robes becoming shredded like falling violet petals, and yet not receive a single wound. Yet this oni would eventually betray the Shogun and revolt, becoming shorn of an arm and a horn in the battle before fleeing and slaying itself in a fit of furious madness.\nHearsay holds that the stubborn oni often hold fear and distress in their hearts. That they should fantasize about eternity yet fear the moment, and are apt to become swallowed by terror or anger is their just reward. This mask depicts Torachiyo, fangs bared.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Sand Burial",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114033"
+    }
+  },
+  {
+    "id": 114019,
+    "name": "Mist Veiled Gold Elixir",
+    "normalizedName": "mistveiledgoldelixir",
+    "rarity": 4,
+    "sortRank": 15105,
+    "description": "Weapon Ascension Material.\nElixirs are in fact pills made from metal alloys. They were created by the adepti, and are able to grant weapons transcendent powers. However, they are rarely seen in the world due to the hubris of the practitioners of martial arts, who prized the ways of combat over the paths of the adepti.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Thundering Ruins",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114019"
+    }
+  },
+  {
+    "id": 114017,
+    "name": "Mist Veiled Lead Elixir",
+    "normalizedName": "mistveiledleadelixir",
+    "rarity": 2,
+    "sortRank": 15105,
+    "description": "Weapon Ascension Material.\nJueyun Karst is the realm of the mighty and illuminated adepti. But other than the ability to control the elements of the world, Jueyun Karst is also home to three other untold secrets: Alchemy, Sigils, and Sub-Space Creation.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Thundering Ruins",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114017"
+    }
+  },
+  {
+    "id": 114018,
+    "name": "Mist Veiled Mercury Elixir",
+    "normalizedName": "mistveiledmercuryelixir",
+    "rarity": 3,
+    "sortRank": 15105,
+    "description": "Weapon Ascension Material.\nWith Fulu (Sigils), the adepti can store their power in the form of symbols, and with Waijing (Sub-Space Creation) they can fashion a cosmic paradise with the power of their minds. The manufacture of elixirs, however, has always been shrouded in mystery, for certain death follows for any who swallow them.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Thundering Ruins",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114018"
+    }
+  },
+  {
+    "id": 114020,
+    "name": "Mist Veiled Primo Elixir",
+    "normalizedName": "mistveiledprimoelixir",
+    "rarity": 5,
+    "sortRank": 15105,
+    "description": "Weapon Ascension Material.\nAn elixir of the highest quality. It embodies a state of intertwining order and chaos, and is said to mirror how the world was when it was first created. Of course, a certain someone knows that this was not the case.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Thundering Ruins",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114020"
+    }
+  },
+  {
+    "id": 114051,
+    "name": "Movement of an Ancient Chord",
+    "normalizedName": "movementofanancientchord",
+    "rarity": 4,
+    "sortRank": 15113,
+    "description": "Weapon Ascension Material.\nIn that great disaster, the golden palace sank with its throne, the music was shattered, the notes turned to silence...\nBut the remnants of that empire never gave up their desire for salvation and to surpass fate.\nTo save their waning civilization and their desire to transcend, the Golden Troupe played melodies most wondrous, enticing children to offer their precious souls to the sleeping golems.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Robotic Ruse",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114051"
+    }
+  },
+  {
+    "id": 114031,
+    "name": "Narukami's Affection",
+    "normalizedName": "narukamisaffection",
+    "rarity": 4,
+    "sortRank": 15108,
+    "description": "Weapon Ascension Material.\nAll demons who wander in the wilderness or live amongst mortals will be attracted by the sight of the Almighty Narukami Ogosho, represented by the Electro Mitsudomoe. Though their lives may be longer than any creature, they will at last come to their end. If those with limited lifespans hanker after eternity, then they can only pray that \"Eternity\" remembers them. And she did indeed answer their prayers, remembering them all, friend and foe alike, in her heart. No matter whether it was the demon owls who resided amidst the fog and ripped through the skies, the bake-danuki who dared to trespass her imperial gardens, or that female oni, lovely as the moon and mighty in battle, yet who would eventually come to blows with her... Whether it was the tengu who soared on dark wings or the Kitsune Saiguu who once walked by her side, but who eventually disappeared forever...\nThese countless tales have come to rest within her heart, and someday, they will surely shine again in the eternal paradise of her dreams.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Altar of Sands",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114031"
+    }
+  },
+  {
+    "id": 114030,
+    "name": "Narukami's Joy",
+    "normalizedName": "narukamisjoy",
+    "rarity": 3,
+    "sortRank": 15108,
+    "description": "Weapon Ascension Material.\nThose who belong to the Shogunate Commissions are those who administer and exercise power. In the monster-filled tales of the ancient past, those who were deeply trusted by the Shogun would bear talismans with this hooked design on their person, and just as the word \"commission\" means to \"joyfully serve\" in the old tongue, those who received her favor would return it with love and loyalty. Yet, after a certain point in time, nothing would be as it was before.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Altar of Sands",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114030"
+    }
+  },
+  {
+    "id": 114032,
+    "name": "Narukami's Valor",
+    "normalizedName": "narukamisvalor",
+    "rarity": 5,
+    "sortRank": 15108,
+    "description": "Weapon Ascension Material.\nThe treasure of the lord of thunder is her majesty, and that majesty is embodied in her valor and wrath. Her wrath comes from the love that persists in her heart, and her valor supports that anger. Thus, whomsoever should block the path towards eternity or lay a finger on Inazuma's people shall become her foe.\nThey say that there were four great spirits, three divine foxes, and two great swords — but that the symbol of Her Excellency, the Almighty Narukami Ogosho, could only be a single strike, unsurpassed and brilliant as a meteor.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Altar of Sands",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114032"
+    }
+  },
+  {
+    "id": 114029,
+    "name": "Narukami's Wisdom",
+    "normalizedName": "narukamiswisdom",
+    "rarity": 2,
+    "sortRank": 15108,
+    "description": "Weapon Ascension Material.\nIn the past, the ancients would climb the peak now known as Mt. Yougou and bend wood that had been charred by lightning into a hook to offer as an effigy unto the thundering force that lit up the skies and shook the earth. This shape would eventually become the \"Electro Mitsudomoe\" symbol, symbolizing the favor, wisdom, and might of Electro, and also the people who represent these values.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Altar of Sands",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114029"
+    }
+  },
+  {
+    "id": 114071,
+    "name": "Night-Wind's Mystic Augury",
+    "normalizedName": "nightwindsmysticaugury",
+    "rarity": 4,
+    "sortRank": 15118,
+    "description": "Weapon Ascension Material.\nWhen intangible spirits attach themselves to objects, they merge and transform into various forms through a process known as spiritual fusion. Once this has taken place, these spirits are capable of conveying dreamlike visions to humans in a state of trance.\nIt fell upon those who frequently engaged in such dialogues with the spirits to interpret these vision-like dreams, translating omens from beneath the earth into language that could be understood by the tribe, or transforming their warnings into stories. It is said that this is the origin of the tribal storytellers, and also why most outstanding storytellers hail from the Night-Wind.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Estimation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114071"
+    }
+  },
+  {
+    "id": 114069,
+    "name": "Night-Wind's Mystic Consideration",
+    "normalizedName": "nightwindsmysticconsideration",
+    "rarity": 2,
+    "sortRank": 15118,
+    "description": "Weapon Ascension Material.\nIn ancient times, shamans, priests, or those known as mystics were always on the hunt for methods by which they could communicate with the silent underground realm. Ever since the Wayob gradually began to manifest, reacting to the resonance between the lone hero and the Nightsouls, this had been so.\nEntrancement, disembodiment, and theurgy were the main methods they chose, each accomplished through the aid of meticulously polished ritual tools.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Estimation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114069"
+    }
+  },
+  {
+    "id": 114070,
+    "name": "Night-Wind's Mystic Premonition",
+    "normalizedName": "nightwindsmysticpremonition",
+    "rarity": 3,
+    "sortRank": 15118,
+    "description": "Weapon Ascension Material.\nAncient psychics believed that the Wayob, as formless entities of consciousness, were beings stripped of externality and thus the closest thing to the essence of the spirit.\nThe process of polishing rough stones until all texture had been removed, turning them into mirrors of pure light, was also seen as a ritual for removing the surface representations of worldly phenomena. Perhaps the reflections that these psychics saw upon the smooth surface of the mirrors were projections of their own spirits...",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Estimation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114070"
+    }
+  },
+  {
+    "id": 114072,
+    "name": "Night-Wind's Mystic Revelation",
+    "normalizedName": "nightwindsmysticrevelation",
+    "rarity": 5,
+    "sortRank": 15118,
+    "description": "Weapon Ascension Material.\nRegardless of how they are polished, representations of worldly matter cannot be made to transcend their physical nature — they will always remain material in essence. Similarly, pure human spirit can neither be expressed solely through the \"tree\" of intention, nor embodied through obsidian mirrors that need constant polishing. As the power of the Night Kingdom and the Nightsouls grew, so too did the types of objects that could be used for spiritual fusion. Eventually, the Wayob came to be capable of conveying revelations of the Night Kingdom through various thoughts alone, dispensing of the need for devotees to perform the ritual of polishing stones into mirrors. Thus were such ritual tools rendered obsolete.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Estimation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114072"
+    }
+  },
+  {
+    "id": 114042,
+    "name": "Oasis Garden's Kindness",
+    "normalizedName": "oasisgardenskindness",
+    "rarity": 3,
+    "sortRank": 15111,
+    "description": "Weapon Ascension Material.\nIn the literature buried deep beneath the yellow sands, the Lord of Flowers was the Mistress of Dreams.\nShe bestowed dreams upon the exiled, the manic, and the foolish. In those dreams, they were presented with their dearest delights. Burdened by the brutality of reality, they were fascinated by the charm of the Lord of Flowers and captivated by her beauty and care.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Obsession",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114042"
+    }
+  },
+  {
+    "id": 114043,
+    "name": "Oasis Garden's Mourning",
+    "normalizedName": "oasisgardensmourning",
+    "rarity": 4,
+    "sortRank": 15111,
+    "description": "Weapon Ascension Material.\nThe Lord of Flowers was in an amicable relationship with the Jinn.\nThe Mistress of Flowers and Oases joined hands with the Lord of Deserts and built Ay-Khanoum, the \"City of Amphitheaters,\" which carried the meaning of \"City of the Moon Maiden\" in the ancient language of the Jinn.\nLater, however, it was said that the Lord of Flowers died due to the malice of the burning sun and yellow sand, after which the blossoms of purple Padisarahs were never seen again in the oases.\nAfter the departure of the Lord of Flowers, the sandstorms keened, the Jinn sobbed, and the moonlight-silver gem disc lost its original, glad purpose, giving off a mournful glimmer.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Obsession",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114043"
+    }
+  },
+  {
+    "id": 114041,
+    "name": "Oasis Garden's Reminiscence",
+    "normalizedName": "oasisgardensreminiscence",
+    "rarity": 2,
+    "sortRank": 15111,
+    "description": "Weapon Ascension Material.\nPeople used to say that the Lord of Flowers was the Lord of Joy and Happiness. Freshwater sprang from her sleeves, and thus was the oasis of blossoming flowers born in the desert. Flowers and grasses followed in her footsteps, and gleaming moonlight cleared the way for her.\nIn the bitter days when the sky turned its back on the ground, the Lord of Flowers extended her mercy to each and every one of the mortals, letting them regain their happiness and egos, allowing leisure and luxury to resume.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Obsession",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114041"
+    }
+  },
+  {
+    "id": 114044,
+    "name": "Oasis Garden's Truth",
+    "normalizedName": "oasisgardenstruth",
+    "rarity": 5,
+    "sortRank": 15111,
+    "description": "Weapon Ascension Material.\n\"Who would worship a departed god?\"\nThe Lord of Flowers was once in alliance with two other gods. Apart from wisdom and power, she also brought mercy and joy to her people.\nJust as the earth needs more than the burning sunshine and pouring rain, to the people of the Lord of Flowers, joy and love, singing and music, and wine and extravagance were just as vital as strength and sensibility.\nIt is said that flowers blossom so that they may enjoy a spectacular death, and that death was precisely the wholehearted pursuit of the Lord of Flowers — for death adds bitterness to lost joy, and intensifies with time across endless memories.\nThe ignorant Lord of Deserts was never aware of her reasoning. He only reveled in her immense charm and grace — and as misguided as such fervent affections might be, they were well within the calculations of the Lord of Flowers.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Obsession",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114044"
+    }
+  },
+  {
+    "id": 114083,
+    "name": "Oblation of the Far-North Scions",
+    "normalizedName": "oblationofthefarnorthscions",
+    "rarity": 4,
+    "sortRank": 15121,
+    "description": "Weapon Ascension Material.\nA blade as pure as moonlight is the compassion of a benevolent hand.\nIn the name of mercy, all beings offer hope for tomorrow. Even those looking to be made whole can feel the moonlight's pristine blessing flowing beneath their skin. Even the smallest blessings, accumulated, can guide the pious scions immersed in them closer to the coming Elysium.\nAll sins and wicked thoughts are cleansed by the pristine moonlight, all tears and suffering are necessary sacrifices — at least that is what the people who worship the moon once firmly believed.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Lunar Oblation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114083"
+    }
+  },
+  {
+    "id": 114048,
+    "name": "Olden Days of Scorching Might",
+    "normalizedName": "oldendaysofscorchingmight",
+    "rarity": 5,
+    "sortRank": 15112,
+    "description": "Weapon Ascension Material.\nIn the era when the ignorant Lord of Deserts ruled, his power descended upon every inch of the land like the scorching sun.\nAncient stone tablets record that he turned his power into seven rays of blinding light or seven pillars, which he granted equally and mercifully to everyone. No one was neglected, nor was anyone discontented.\nThat was a forgotten golden era, an era when the Lord of Flowers had faded into the sands and the Lord of Verdure was determined to leave. Only the descendants in the yellow sand chose to follow their god. Even as the grim shadow of calamity loomed, the power in which they had faith shone brightly like amber and gold.\nYet calamity befell nonetheless, and the golden insectoid insignias were buried beneath the depths of shrine and palace, under collapsed pillars engraved with images of eagles and bulls.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Leading Karma",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114048"
+    }
+  },
+  {
+    "id": 114022,
+    "name": "Piece of Aerosiderite",
+    "normalizedName": "pieceofaerosiderite",
+    "rarity": 3,
+    "sortRank": 15106,
+    "description": "Weapon Ascension Material.\nRumors of sea monsters are commonplace in Liyue, since the other shore is an unknown region that lies outside of Teyvat. Without the protection of The Seven, all that lies beyond is unknown chaos. Only power beyond the order of Teyvat is able to stain the power of Rex Lapis black.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Trial Grounds of Thunder",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114022"
+    }
+  },
+  {
+    "id": 114015,
+    "name": "Relic from Guyun",
+    "normalizedName": "relicfromguyun",
+    "rarity": 4,
+    "sortRank": 15104,
+    "description": "Weapon Ascension Material.\nThe stone spear has a glimmering core formed by the power of the defeated gods. Their hatred is not directed at Morax, however, for they have lost themselves a long time ago and are incapable of holding personal grudges.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Thundercloud Altar",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114015"
+    }
+  },
+  {
+    "id": 114046,
+    "name": "Remnant Glow of Scorching Might",
+    "normalizedName": "remnantglowofscorchingmight",
+    "rarity": 3,
+    "sortRank": 15112,
+    "description": "Weapon Ascension Material.\nTo weave together myriad thoughts and reign over countless souls — this is the essence of power.\nHowever, power is not cold-blooded tyranny. Its true ideal, at its heart, is to create a utopia free of worry, schemes, and slavery.\nIt was just as the silent lord saw in the crystal's secrets, and just as the lost companion had once taught.\nThe dark insect insignia and the steel judgment thus laid the foundations of the kingdom's rules.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Leading Karma",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114046"
+    }
+  },
+  {
+    "id": 114004,
+    "name": "Scattered Piece of Decarabian's Dream",
+    "normalizedName": "scatteredpieceofdecarabiansdream",
+    "rarity": 5,
+    "sortRank": 15101,
+    "description": "Weapon Ascension Material.\nThe people did not bow to Decarabian out of respect or adoration, but because the harsh winds had laid them low. This was the shattered dream and ambition of the Anemo Archon before the rise of Barbatos.\nHe tried so hard to make his dream come true, and so the fragments of that dream are still mighty.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: City of Reflections",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114004"
+    }
+  },
+  {
+    "id": 114011,
+    "name": "Shackles of the Dandelion Gladiator",
+    "normalizedName": "shacklesofthedandeliongladiator",
+    "rarity": 4,
+    "sortRank": 15103,
+    "description": "Weapon Ascension Material.\nVennessa was not truly bound by her chains. If she had so wished, no ordinary physical constraints forged in Mondstadt could have held her, for the land there yielded no ore of exceptional quality, nor did it possess the divine flame of her ancestral home.\nShe was only bound by her responsibility to take care of her tribespeople.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Ruins of Thirsting Capital",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114011"
+    }
+  },
+  {
+    "id": 114059,
+    "name": "Silver Goblet of the Pristine Sea",
+    "normalizedName": "silvergobletofthepristinesea",
+    "rarity": 4,
+    "sortRank": 15115,
+    "description": "Weapon Ascension Material.\nIn the years when the golden shroud covered the land, pure spring water had to be hidden away in concealed mountain streams, and the Lochknights were born in these sanctuaries.\nThe knights swear by armor of silver, to protect the spirits born from pure water, to protect their fellows who also keep faith in the one true font, resisting the omnipresent golden power that blotted out the sky and outshone the sun.\nBut that is an ancient legend... Not long after the empire collapsed and sank, the knights who resisted the usurper shed their armor, and their stories were hidden in a tangled web of stories and ballads.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Curious Contraptions",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114059"
+    }
+  },
+  {
+    "id": 114039,
+    "name": "Silver Talisman of the Forest Dew",
+    "normalizedName": "silvertalismanoftheforestdew",
+    "rarity": 4,
+    "sortRank": 15110,
+    "description": "Weapon Ascension Material.\nIn the myriad lore of the forest, the one in the striped cape that resembled blazing flames was the Greater Lord of the Labyrinths and the Owner of the Moon-Mirrored Spring.\nWhen he bowed his head and struck up a friendship with the Lord of Verdure, the tokens of their friendship were the gems that glimmered like water and silver that gleamed like the moonlight.\nTo repay such a gesture, the Lord of Verdure promised to keep secrets for the Greater Lord of the Labyrinths and safeguard the intricate and beautiful dreams of the rainforest.\nNo one could have foretold that the magnificent mansion of secrets and dreams would later fade away amidst the shroud of the dark flame of oblivion, after which its ash returned to the soil and became nutrients for the virgin rainforests.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Tainted Clouds",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114039"
+    }
+  },
+  {
+    "id": 114055,
+    "name": "Spring of Pure Sacred Dewdrop",
+    "normalizedName": "springofpuresacreddewdrop",
+    "rarity": 4,
+    "sortRank": 15114,
+    "description": "Weapon Ascension Material.\nThis is a relic from a time when the Lochknights still roamed — the knights said, there were still loyal spirits in the mountain springs and valleys where none tread, guarding those pure, unpolluted springs...\nHowever, the creator of artificial Ichor couldn't tolerate any discord in his great symphony. It is said that wherever the Harmost Boethius went, the natural nectar was buried, the aqueducts of the empire were built, and the spirits born of pure water vanished without a trace...",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Artisanship",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114055"
+    }
+  },
+  {
+    "id": 114054,
+    "name": "Sublimation of Pure Sacred Dewdrop",
+    "normalizedName": "sublimationofpuresacreddewdrop",
+    "rarity": 3,
+    "sortRank": 15114,
+    "description": "Weapon Ascension Material.\n\"Life that came from the primordial sea is inevitably fated to return to it.\" Thus spoke the Harmost Boethius. \"But there are infinite possibilities for humans to transcend, and even the waters of the primordial sea cannot completely dissolve them...\"\nThe arrogant usurper once attempted to mix insoluble Ichor with pure water, to contain wisdom and memories, allowing his subjects and servants to discard their physical bodies, and obtain independent, eternal lives.\nBut the pain of severing soul and body cannot be endured by any ordinary life, and the usurper's order tore apart and shattered souls...\nThe Ichor was dyed black by the crying and howling of so many souls, and it lost its harmony and wisdom, leaving only chaos and madness.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Artisanship",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114054"
+    }
+  },
+  {
+    "id": 114081,
+    "name": "Sundered Glory of the Far-North Scions",
+    "normalizedName": "sunderedgloryofthefarnorthscions",
+    "rarity": 2,
+    "sortRank": 15121,
+    "description": "Weapon Ascension Material.\nIt is told that in the years before the country of gold and white stone sank, the moon-worshipping ancestors were guided by the star of dawn to build a tower reaching to the heavens.\nLater on, the most transgressive of wild fantasies, one to unify life and the world into one, one that even the monarch who ruled all nations on earth failed to achieve, was toppled along with the city in the wrath of the high heavens.\nThe homeless survivors fled to the south by the waning light of the Frostmoon, chanting in tears of a glory that belonged to them millennia ago.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Lunar Oblation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114081"
+    }
+  },
+  {
+    "id": 114001,
+    "name": "Tile of Decarabian's Tower",
+    "normalizedName": "tileofdecarabianstower",
+    "rarity": 2,
+    "sortRank": 15101,
+    "description": "Weapon Ascension Material.\nThe place now known as Stormterror's Lair was once the capital city of Decarabian, the God of Storms. Since this dream of prosperity was created entirely by his divine might, the broken pieces left behind by the shattering of that dream still possess great power.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: City of Reflections",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114001"
+    }
+  },
+  {
+    "id": 114082,
+    "name": "Unyielding Delusion of the Far-North Scions",
+    "normalizedName": "unyieldingdelusionofthefarnorthscions",
+    "rarity": 3,
+    "sortRank": 15121,
+    "description": "Weapon Ascension Material.\nThe grand city of gold and white stone was no more. Following the moonlight's pale guidance, its exiled inhabitants wandered to a desolate foreign land.\nThe glory and prowess of the past had dried up like morning dew, yet the earliest delusion still flowed beneath the skin of the proud, unlike the graves now lost to time.\nLike farmers breeding their crops, the Archpriestesses who served the moonlight, for generation after generation, selected the purest bloodlines closest to their progenitors, no matter the cost...",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Lunar Oblation",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114082"
+    }
+  },
+  {
+    "id": 114058,
+    "name": "Wine Goblet of the Pristine Sea",
+    "normalizedName": "winegobletofthepristinesea",
+    "rarity": 3,
+    "sortRank": 15115,
+    "description": "Weapon Ascension Material.\nWhat kind of empire can last for a thousand years? After returning from the kingdom of dragons, the usurper once pondered this question.\nCombining the immortal stone with the Ichor essence extracted from primordial water, and carved into a race as black as iron — with arcane lithos for skin and Ichor for blood, never again fearing the curse of returning to the primeval past...\nThe silent golem still dreams the dream of the empire — not knowing it has been over a thousand years since the empire's obliteration.",
+    "type": "weapon",
+    "typeText": "Weapon Ascension Material",
+    "dropDomainName": "Domain of Forgery: Curious Contraptions",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "images": {
+      "filename_icon": "UI_ItemIcon_114058"
+    }
+  }
+]

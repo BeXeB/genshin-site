@@ -1,0 +1,674 @@
+[
+  {
+    "id": 100056,
+    "name": "Calla Lily",
+    "normalizedName": "callalily",
+    "sortRank": 311,
+    "description": "A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Mondstadt)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100056"
+    }
+  },
+  {
+    "id": 100023,
+    "name": "Cecilia",
+    "normalizedName": "cecilia",
+    "sortRank": 311,
+    "description": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Mondstadt)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100023"
+    }
+  },
+  {
+    "id": 100057,
+    "name": "Dandelion Seed",
+    "normalizedName": "dandelionseed",
+    "sortRank": 311,
+    "description": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Mondstadt)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100057"
+    }
+  },
+  {
+    "id": 100025,
+    "name": "Philanemo Mushroom",
+    "normalizedName": "philanemomushroom",
+    "sortRank": 311,
+    "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Mondstadt)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100025"
+    }
+  },
+  {
+    "id": 100055,
+    "name": "Small Lamp Grass",
+    "normalizedName": "smalllampgrass",
+    "sortRank": 311,
+    "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Mondstadt)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100055"
+    }
+  },
+  {
+    "id": 100022,
+    "name": "Valberry",
+    "normalizedName": "valberry",
+    "sortRank": 311,
+    "description": "A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Mondstadt)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100022"
+    }
+  },
+  {
+    "id": 100024,
+    "name": "Windwheel Aster",
+    "normalizedName": "windwheelaster",
+    "sortRank": 311,
+    "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Mondstadt)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100024"
+    }
+  },
+  {
+    "id": 100021,
+    "name": "Wolfhook",
+    "normalizedName": "wolfhook",
+    "sortRank": 311,
+    "description": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Mondstadt)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100021"
+    }
+  },
+  {
+    "id": 101241,
+    "name": "Clearwater Jade",
+    "normalizedName": "clearwaterjade",
+    "sortRank": 312,
+    "description": "Jade from Chenyu Vale. Named for its cool, refreshing touch, that is much like clear water.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Liyue)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101241"
+    }
+  },
+  {
+    "id": 100058,
+    "name": "Cor Lapis",
+    "normalizedName": "corlapis",
+    "sortRank": 312,
+    "description": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Liyue)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100058"
+    }
+  },
+  {
+    "id": 100030,
+    "name": "Glaze Lily",
+    "normalizedName": "glazelily",
+    "sortRank": 312,
+    "description": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Liyue)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100030"
+    }
+  },
+  {
+    "id": 100027,
+    "name": "Jueyun Chili",
+    "normalizedName": "jueyunchili",
+    "sortRank": 312,
+    "description": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Liyue)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100027"
+    }
+  },
+  {
+    "id": 100028,
+    "name": "Noctilucous Jade",
+    "normalizedName": "noctilucousjade",
+    "sortRank": 312,
+    "description": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Liyue)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100028"
+    }
+  },
+  {
+    "id": 100031,
+    "name": "Qingxin",
+    "normalizedName": "qingxin",
+    "sortRank": 312,
+    "description": "A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Liyue)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100031"
+    }
+  },
+  {
+    "id": 100029,
+    "name": "Silk Flower",
+    "normalizedName": "silkflower",
+    "sortRank": 312,
+    "description": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Liyue)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100029"
+    }
+  },
+  {
+    "id": 100033,
+    "name": "Starconch",
+    "normalizedName": "starconch",
+    "sortRank": 312,
+    "description": "Empty seashells brought ashore by the tides. Hold one close to your ear, and hear the longing calls of the sea.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Liyue)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100033"
+    }
+  },
+  {
+    "id": 100034,
+    "name": "Violetgrass",
+    "normalizedName": "violetgrass",
+    "sortRank": 312,
+    "description": "A small flower with strong vitality. It is said that its downward-blooming flower keeps its fragrance from dissipating.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Liyue)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_100034"
+    }
+  },
+  {
+    "id": 101208,
+    "name": "Amakumo Fruit",
+    "normalizedName": "amakumofruit",
+    "sortRank": 313,
+    "description": "The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Inazuma)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101208"
+    }
+  },
+  {
+    "id": 101203,
+    "name": "Crystal Marrow",
+    "normalizedName": "crystalmarrow",
+    "sortRank": 313,
+    "description": "A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Inazuma)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101203"
+    }
+  },
+  {
+    "id": 101204,
+    "name": "Dendrobium",
+    "normalizedName": "dendrobium",
+    "sortRank": 313,
+    "description": "A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Inazuma)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101204"
+    }
+  },
+  {
+    "id": 101209,
+    "name": "Fluorescent Fungus",
+    "normalizedName": "fluorescentfungus",
+    "sortRank": 313,
+    "description": "A mushroom that glows like a night-light. Some curious power lies hidden within it.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Inazuma)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101209"
+    }
+  },
+  {
+    "id": 101205,
+    "name": "Naku Weed",
+    "normalizedName": "nakuweed",
+    "sortRank": 313,
+    "description": "Even on windless days, this plant will tremble lightly amid the cries of thunder. The parts of it that resemble petals are in fact extensions of the leaves meant to protect the fragile flower.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Inazuma)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101205"
+    }
+  },
+  {
+    "id": 101201,
+    "name": "Onikabuto",
+    "normalizedName": "onikabuto",
+    "sortRank": 313,
+    "description": "A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Inazuma)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101201"
+    }
+  },
+  {
+    "id": 101202,
+    "name": "Sakura Bloom",
+    "normalizedName": "sakurabloom",
+    "sortRank": 313,
+    "description": "Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Inazuma)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101202"
+    }
+  },
+  {
+    "id": 101207,
+    "name": "Sango Pearl",
+    "normalizedName": "sangopearl",
+    "sortRank": 313,
+    "description": "A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of the moonlight.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Inazuma)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101207"
+    }
+  },
+  {
+    "id": 101206,
+    "name": "Sea Ganoderma",
+    "normalizedName": "seaganoderma",
+    "sortRank": 313,
+    "description": "A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Inazuma)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101206"
+    }
+  },
+  {
+    "id": 101220,
+    "name": "Henna Berry",
+    "normalizedName": "hennaberry",
+    "sortRank": 314,
+    "description": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Sumeru)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101220"
+    }
+  },
+  {
+    "id": 101217,
+    "name": "Kalpalata Lotus",
+    "normalizedName": "kalpalatalotus",
+    "sortRank": 314,
+    "description": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Sumeru)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101217"
+    }
+  },
+  {
+    "id": 101223,
+    "name": "Mourning Flower",
+    "normalizedName": "mourningflower",
+    "sortRank": 314,
+    "description": "Crimson flowers that bloom on ancient battlefields. They can even flourish in the depths of the desert. Their drooping flowers seem to be in mourning for heroes long past.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Sumeru)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101223"
+    }
+  },
+  {
+    "id": 101215,
+    "name": "Nilotpala Lotus",
+    "normalizedName": "nilotpalalotus",
+    "sortRank": 314,
+    "description": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Sumeru)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101215"
+    }
+  },
+  {
+    "id": 101214,
+    "name": "Padisarah",
+    "normalizedName": "padisarah",
+    "sortRank": 314,
+    "description": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Sumeru)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101214"
+    }
+  },
+  {
+    "id": 101213,
+    "name": "Rukkhashava Mushrooms",
+    "normalizedName": "rukkhashavamushrooms",
+    "sortRank": 314,
+    "description": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Sumeru)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101213"
+    }
+  },
+  {
+    "id": 101222,
+    "name": "Sand Grease Pupa",
+    "normalizedName": "sandgreasepupa",
+    "sortRank": 314,
+    "description": "You can only find such husks deep in the desert where the Quicksand Eels breed. The hardened shell is meant to protect the Quicksand Eels' larval bodies until they finally acclimate to the conditions of the dry desert.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Sumeru)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101222"
+    }
+  },
+  {
+    "id": 101225,
+    "name": "Scarab",
+    "normalizedName": "scarab",
+    "sortRank": 314,
+    "description": "A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Sumeru)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101225"
+    }
+  },
+  {
+    "id": 101224,
+    "name": "Trishiraite",
+    "normalizedName": "trishiraite",
+    "sortRank": 314,
+    "description": "A splendorous stone that can be found in the depths of desolate mountains, seemingly formed from congealed elemental energy.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Sumeru)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101224"
+    }
+  },
+  {
+    "id": 101232,
+    "name": "Beryl Conch",
+    "normalizedName": "berylconch",
+    "sortRank": 315,
+    "description": "A conch-like structure that gives off a faint glow. Despite the name, it is not a shell but something condensed from pure elemental energy.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Fontaine)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101232"
+    }
+  },
+  {
+    "id": 101238,
+    "name": "Lakelight Lily",
+    "normalizedName": "lakelightlily",
+    "sortRank": 315,
+    "description": "A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Fontaine)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101238"
+    }
+  },
+  {
+    "id": 101235,
+    "name": "Lumidouce Bell",
+    "normalizedName": "lumidoucebell",
+    "sortRank": 315,
+    "description": "A serene and tranquil violet flower. It has a light, soft, and lasting scent and is often used for making luxurious perfumes.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Fontaine)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101235"
+    }
+  },
+  {
+    "id": 101237,
+    "name": "Lumitoile",
+    "normalizedName": "lumitoile",
+    "sortRank": 315,
+    "description": "A soft-bodied animal that emits a gentle light. Often found climbing the walls of buildings near the water or underwater.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Fontaine)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101237"
+    }
+  },
+  {
+    "id": 101236,
+    "name": "Rainbow Rose",
+    "normalizedName": "rainbowrose",
+    "sortRank": 315,
+    "description": "A delicate and tender pink flower. Despite their name, Rainbow Roses are essentially more akin to Lilies.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Fontaine)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101236"
+    }
+  },
+  {
+    "id": 101233,
+    "name": "Romaritime Flower",
+    "normalizedName": "romaritimeflower",
+    "sortRank": 315,
+    "description": "An ethereal and elegant blue flower. Its tender petals are elastic and water-absorbent, making it the ideal raw material for various daily necessities.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Fontaine)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101233"
+    }
+  },
+  {
+    "id": 101240,
+    "name": "Spring of the First Dewdrop",
+    "normalizedName": "springofthefirstdewdrop",
+    "sortRank": 315,
+    "description": "A limpid drop of dew floating amidst the waters of Morte Region. It is different from other pure water bodies, as though it is a conglomeration of even more pure and primordial Elemental Energy.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Fontaine)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101240"
+    }
+  },
+  {
+    "id": 101239,
+    "name": "Subdetection Unit",
+    "normalizedName": "subdetectionunit",
+    "sortRank": 315,
+    "description": "Detection units produced by Fontaine Research Institute using new models of artificed components. Its original purpose was monitoring all kinds of environmental data.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Fontaine)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101239"
+    }
+  },
+  {
+    "id": 101248,
+    "name": "Brilliant Chrysanthemum",
+    "normalizedName": "brilliantchrysanthemum",
+    "sortRank": 316,
+    "description": "A flower with a shape like floating wings. Its petals sway in an unbelievably relaxed, serene manner as they are caressed by the wind.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Natlan)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101248"
+    }
+  },
+  {
+    "id": 101255,
+    "name": "Dracolite",
+    "normalizedName": "dracolite",
+    "sortRank": 316,
+    "description": "Formed gradually in areas rich in Phlogiston, these red, scale-like crystals are blazing-hot to the touch.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Natlan)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101255"
+    }
+  },
+  {
+    "id": 101252,
+    "name": "Glowing Hornshroom",
+    "normalizedName": "glowinghornshroom",
+    "sortRank": 316,
+    "description": "A fungus that emits a faint light in the darkness. It is so named because its shape resembles the horny crest of an Iktomisaurus.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Natlan)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101252"
+    }
+  },
+  {
+    "id": 101249,
+    "name": "Quenepa Berry",
+    "normalizedName": "quenepaberry",
+    "sortRank": 316,
+    "description": "Bluish, juicy berries that grow in large amounts near the Scions of the Canopy. Their shape is similar to that of Flamegranates.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Natlan)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101249"
+    }
+  },
+  {
+    "id": 101250,
+    "name": "Saurian Claw Succulent",
+    "normalizedName": "saurianclawsucculent",
+    "sortRank": 316,
+    "description": "A succulent shaped like the paw of a great animal.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Natlan)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101250"
+    }
+  },
+  {
+    "id": 101254,
+    "name": "Skysplit Gembloom",
+    "normalizedName": "skysplitgembloom",
+    "sortRank": 316,
+    "description": "A strange plant whose flower's exterior resembles stone. Only in bloom does it reveal a resplendent, crystal-like core.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Natlan)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101254"
+    }
+  },
+  {
+    "id": 101247,
+    "name": "Sprayfeather Gill",
+    "normalizedName": "sprayfeathergill",
+    "sortRank": 316,
+    "description": "A special feather-shaped species that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Natlan)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101247"
+    }
+  },
+  {
+    "id": 101253,
+    "name": "Withering Purpurbloom",
+    "normalizedName": "witheringpurpurbloom",
+    "sortRank": 316,
+    "description": "A flower, the leaves and petals of which look scorched and withered, that can often be seen in places where ash abounds.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Natlan)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101253"
+    }
+  },
+  {
+    "id": 101261,
+    "name": "Frostlamp Flower",
+    "normalizedName": "frostlampflower",
+    "sortRank": 317,
+    "description": "A flower that resembles a candle lamp, commonly found near water. It emits a cold, simple aroma that has a calming effect.\nThe contrasting colors of its stamen and stem are thought to symbolize the two different types of kuuvahki, yet despite this symbolism, it is one of the few rare plants that are immune to kuuvahki's influence. As a result, the Frostmoon Scions sometimes regard it as a symbol of faithlessness and apostasy.\nIt is said that this strangely shaped flower first appeared at the end of the dark calamity five hundred years ago, but this claim has never been rigorously verified.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Nod-Krai)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101261"
+    }
+  },
+  {
+    "id": 101263,
+    "name": "Moonfall Silver",
+    "normalizedName": "moonfallsilver",
+    "sortRank": 317,
+    "description": "A silver crystal as pure and pristine as moonlight. It possesses almost perfect elemental affinity.\nIn the legacy of the Frostmoon Scions, these crystals were born five hundred years ago alongside the Moon Maiden, and were believed by the Moonchanter at the time to be a gift from the moon, hence the name \"Moonfall Silver\". However, in older documents written by Snezhnayan chroniclers, the descendants of the golden realm were already using secret silver woven by the Frostmoon thousands of years in the past. The threads that connect these two tales are unclear — the only certain thing is that these crystals make excellent elemental conductors in the eyes of Nod-Krai's craftspeople.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Nod-Krai)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101263"
+    }
+  },
+  {
+    "id": 101269,
+    "name": "Pine Amber",
+    "normalizedName": "pineamber",
+    "sortRank": 317,
+    "description": "A gem formed from the resin of the towering ancient trees that once blanketed Nod-Krai. Over ages, the resin hardened into crystalline amber, now shining with vivid, radiant hues.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Nod-Krai)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101269"
+    }
+  },
+  {
+    "id": 101257,
+    "name": "Portable Bearing",
+    "normalizedName": "portablebearing",
+    "sortRank": 317,
+    "description": "A portable bearing of a type that was mass-produced after the Fatui moved into Nod-Krai. Excessively worn units are discarded like obsolete personnel.\nA few of them have a vestige of kuuvahki left inside. As they are difficult to imitate, they are occasionally used as currency by merchants in Nasha Town.\nIt's said that people tried to forge these bearings for that reason, but went bankrupt in the end because the cost of forging them was higher than their market value.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Nod-Krai)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101257"
+    }
+  },
+  {
+    "id": 101268,
+    "name": "Winter Icelea",
+    "normalizedName": "wintericelea",
+    "sortRank": 317,
+    "description": "A hardy plant known for withstanding relentless wind and frost, it survives even in the coldest depths of winter.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Nod-Krai)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101266"
+    }
+  }
+]
