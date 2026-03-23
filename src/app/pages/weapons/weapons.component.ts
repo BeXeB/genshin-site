@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
-import { WeaponService } from '../../_services/weapon.service';
+import { WeaponService } from '../../_services/http/weapon.service';
 import { ImageService } from '../../_services/image.service';
 import { WeaponResolved } from '../../_models/weapons';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
-import { ResolverService } from '../../_services/resolver.service';
-import { map, switchMap, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { FiltersComponent } from '../../_components/filters/filters.component';
 import { PageFilters, FilterGroup } from '../../_models/filters';
 import { FilterService } from '../../_services/filter.service';
@@ -62,7 +61,6 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
 
   constructor(
     private weaponsService: WeaponService,
-    private resolver: ResolverService,
     protected override filterService: FilterService,
     private imageService: ImageService,
   ) {
@@ -70,10 +68,7 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
   }
 
   loadData(): Observable<WeaponResolved[]> {
-    return this.resolver.initialize().pipe(
-      switchMap(() => this.weaponsService.getWeapons()),
-      map((data) => this.resolver.resolveWeapons(data)),
-    );
+    return this.weaponsService.getWeapons();
   }
 
   transformData(data: WeaponResolved[]): WeaponResolved[] {

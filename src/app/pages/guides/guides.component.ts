@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Guide } from '../../_models/guides';
-import { GuidesService } from '../../_services/guides.service';
+import { GuidesService } from '../../_services/http/guides.service';
 import { ImageService } from '../../_services/image.service';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { RouterLink } from '@angular/router';
@@ -33,5 +33,17 @@ export class GuidesComponent implements OnInit, OnDestroy {
 
   getAvatarListIcon(): string {
     return this.imageService.getSkillIcon('UI_BtnIcon_AvatarList');
+  }
+
+  getGuideImageUrl(imageUrl: string | undefined): string {
+    if (!imageUrl) return '';
+
+    // If imageUrl is already a full path (contains '/' or 'assets/'), use it as-is
+    if (imageUrl.includes('/') || imageUrl.includes('assets')) {
+      return imageUrl;
+    }
+
+    // Treat it as an element name and generate the URL via the service
+    return this.imageService.getElementIcon(imageUrl);
   }
 }

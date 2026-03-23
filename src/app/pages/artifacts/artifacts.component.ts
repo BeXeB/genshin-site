@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArtifactService } from '../../_services/artifact.service';
+import { ArtifactService } from '../../_services/http/artifact.service';
 import { ImageService } from '../../_services/image.service';
 import { ArtifactSet } from '../../_models/artifacts';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
@@ -64,15 +64,19 @@ export class ArtifactsComponent extends BaseListComponent<ArtifactSet> {
   }
 
   transformData(data: ArtifactSet[]): ArtifactSet[] {
-    return data.sort((a, b) => {
-      const maxA = this.getMaxRarity(a);
-      const maxB = this.getMaxRarity(b);
-      return maxA < maxB ? 1 : -1;
-    });
+    return data
+      .sort((a, b) => b.version.localeCompare(a.version))
+      .sort((a, b) => {
+        const maxA = this.getMaxRarity(a);
+        const maxB = this.getMaxRarity(b);
+        return maxA < maxB ? 1 : -1;
+      });
   }
 
   getMaxRarity(artifact: ArtifactSet): number {
-    return artifact.rarityList.length > 0 ? artifact.rarityList[0] : 0;
+    return artifact.rarityList.length > 0
+      ? Math.max(...artifact.rarityList)
+      : 0;
   }
 
   getImage(artifact: ArtifactSet): string {

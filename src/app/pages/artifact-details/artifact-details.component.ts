@@ -1,7 +1,8 @@
 import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { ArtifactSet } from '../../_models/artifacts';
 import { ActivatedRoute } from '@angular/router';
-import { ArtifactService } from '../../_services/artifact.service';
+import { ArtifactService } from '../../_services/http/artifact.service';
+import { ImageService } from '../../_services/image.service';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormatterService } from '../../_services/formatter.service';
 import { takeUntil } from 'rxjs';
@@ -23,6 +24,7 @@ export class ArtifactDetailsComponent extends BaseDetailComponent<ArtifactSet> {
     private artifactService: ArtifactService,
     protected override formatterService: FormatterService,
     private cdr: ChangeDetectorRef,
+    private imageService: ImageService,
   ) {
     super(route, formatterService);
   }
@@ -41,5 +43,11 @@ export class ArtifactDetailsComponent extends BaseDetailComponent<ArtifactSet> {
           this.cdr.markForCheck();
         },
       });
+  }
+
+  getArtifactPieceImage(piece: string): string {
+    return this.artifact?.normalizedName
+      ? this.imageService.getArtifactImage(this.artifact.normalizedName, piece)
+      : '';
   }
 }

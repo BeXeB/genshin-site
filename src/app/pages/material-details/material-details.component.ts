@@ -1,9 +1,9 @@
 import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { Material, MaterialResolved } from '../../_models/materials';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { ResolverService } from '../../_services/resolver.service';
-import { MaterialService } from '../../_services/material.service';
-import { map, switchMap, takeUntil } from 'rxjs';
+import { MaterialService } from '../../_services/http/material.service';
+import { ImageService } from '../../_services/image.service';
+import { takeUntil } from 'rxjs';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormatterService } from '../../_services/formatter.service';
 import { BaseDetailComponent } from '../../_components/base-detail.component';
@@ -22,24 +22,18 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
 
   constructor(
     protected override route: ActivatedRoute,
-    private resolver: ResolverService,
     private materialService: MaterialService,
     protected override formatterService: FormatterService,
     private cdr: ChangeDetectorRef,
+    private imageService: ImageService,
   ) {
     super(route, formatterService);
   }
 
   override loadDetail(slug: string): void {
-    this.resolver
-      .initialize()
-      .pipe(
-        switchMap(() => this.materialService.getMaterial(slug)),
-        map((data) =>
-          data ? this.resolver.resolveMaterial(data) : null,
-        ),
-        takeUntil(this.destroy$),
-      )
+    // Fetch material with resolved craft data directly from backend
+    this.materialService.getMaterialBySlugResolved(slug)
+      .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: (resolvedMaterial) => {
           this.material = resolvedMaterial;
@@ -52,6 +46,7 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
         },
       });
 
+    // Fetch mora separately for cost display
     this.materialService.getMaterial('mora')
       .pipe(takeUntil(this.destroy$))
       .subscribe({
@@ -64,5 +59,10 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
           this.cdr.markForCheck();
         },
       });
+  }
+
+  getMaterialImage(material: Material | null): string {
+    if (!material) return '';
+    return this.imageService.getMaterialImage(material.normalizedName, material.type);
   }
 }

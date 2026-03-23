@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CharacterService } from '../../_services/character.service';
+import { CharacterService } from '../../_services/http/character.service';
 import { ImageService } from '../../_services/image.service';
 import { Tier, TierCharacter, Tierlist } from '../../_models/tierlist';
 import { CharacterProfile } from '../../_models/character';

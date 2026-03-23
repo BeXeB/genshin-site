@@ -9,7 +9,7 @@ import {
 } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { MarkdownService } from '../../_services/markdown.service';
-import { GuidesService } from '../../_services/guides.service';
+import { GuidesService } from '../../_services/http/guides.service';
 import { Router } from '@angular/router';
 import { marked } from 'marked';
 import { Subject, takeUntil } from 'rxjs';

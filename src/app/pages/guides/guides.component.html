@@ -13,7 +13,7 @@
     @for (guide of guides; track $index) {
       <div [routerLink]="`/guides/${guide.slug}`" class="guide-card card">
         @if (guide.imageUrl) {
-          <img [src]="guide.imageUrl" />
+          <img [src]="getGuideImageUrl(guide.imageUrl)" />
         }
         <div>
           <div class="guide-name">{{ guide.name }}</div>

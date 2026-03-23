@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CharacterService } from '../../_services/character.service';
+import { CharacterService } from '../../_services/http/character.service';
 
 @Component({
   selector: 'app-todo',

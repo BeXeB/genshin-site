@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormsModule } from '@angular/forms';
-import { MaterialService } from '../../_services/material.service';
+import { MaterialService } from '../../_services/http/material.service';
 import { ImageService } from '../../_services/image.service';
 import { MaterialResolved } from '../../_models/materials';
-import { ResolverService } from '../../_services/resolver.service';
 import { RouterLink } from '@angular/router';
-import { map, switchMap, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { StorageService } from '../../_services/storage.service';
 import { ItemCardComponent } from '../../_components/item-card/item-card.component';
 import { BaseListComponent } from '../../_components/base-list.component';
@@ -37,7 +36,6 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
 
   constructor(
     private materialService: MaterialService,
-    private resolver: ResolverService,
     private storageService: StorageService,
     protected override filterService: FilterService,
     private imageService: ImageService,
@@ -47,12 +45,7 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
 
   loadData(): Observable<MaterialResolved[]> {
     this.loadFilters();
-    return this.resolver
-      .initialize()
-      .pipe(
-        switchMap(() => this.materialService.getMaterials()),
-        map((data) => this.resolver.resolveMaterials(data)),
-      );
+    return this.materialService.getMaterials();
   }
 
   transformData(data: MaterialResolved[]): MaterialResolved[] {

@@ -4,6 +4,8 @@ import {
   OnInit,
   OnChanges,
   SimpleChanges,
+  DestroyRef,
+  ChangeDetectorRef,
 } from '@angular/core';
 import {
   CombatTalent,
@@ -14,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { SafeHtml } from '@angular/platform-browser';
 import { FormatterService } from '../../_services/formatter.service';
 import { Settings, SettingsService } from '../../_services/settings.service';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-skill-details',
@@ -38,6 +41,8 @@ export class SkillDetailsComponent implements OnInit, OnChanges {
   constructor(
     private formatter: FormatterService,
     private settingsService: SettingsService,
+    private destroyRef: DestroyRef,
+    private cdr: ChangeDetectorRef,
   ) {}
 
   ngOnInit() {
@@ -45,11 +50,13 @@ export class SkillDetailsComponent implements OnInit, OnChanges {
       this.isCombatSkill =
         (this.skill as CombatTalent).attributes !== undefined;
     }
-    this.settingsService.settings.subscribe((settings) => {
-      this.settings = settings;
-      this.updateDescription();
-      this.talentLevel = settings.talentlevel;
-    });
+    this.settingsService.settings
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe((settings) => {
+        this.settings = settings;
+        this.talentLevel = settings.talentlevel;
+        this.updateDescription();
+      });
 
     this.updateDescription();
   }
@@ -125,5 +132,6 @@ export class SkillDetailsComponent implements OnInit, OnChanges {
       ? this.skill?.descriptionRaw
       : this.briefDescription;
     this.talentDesc = this.formatter.getFormattedText(finalDesc ?? '');
+    this.cdr.markForCheck();
   }
 }
