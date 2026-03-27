@@ -7,7 +7,7 @@
 
 .skill-info {
   gap: 8px;
-  flex: 2;
+  flex: 3;
 }
 
 .skill-info img {
@@ -31,7 +31,7 @@
 }
 
 .talent-details {
-  flex: 3;
+  flex: 2;
 }
 
 .talent-level {
