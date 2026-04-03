@@ -21,15 +21,15 @@ export class MarkdownService {
   private slugCounts: Record<string, number> = {};
 
   constructor() {
-    // Use GFM-style heading IDs
-    marked.use(gfmHeadingId());
+    // Plugin will be instantiated per-parse to reset state
   }
 
   private generateUniqueSlug(text: string, slugCounts: Record<string, number>): string {
+    // Allow Unicode letters/numbers so accents (e.g. ó) are preserved in slugs
     let slug = text
       .toLowerCase()
       .trim()
-      .replace(/[^\w]+/g, '-')
+      .replace(/[^\p{L}\p{N}_]+/gu, '-')
       .replace(/^-+|-+$/g, '');
 
     if (slugCounts[slug] === undefined) {
@@ -46,12 +46,15 @@ export class MarkdownService {
     // Local state for this parse operation to prevent race conditions
     const headings: Heading[] = [];
     const slugCounts: Record<string, number> = {};
+    const generatedIds: string[] = [];
+    let rendererIdIndex = 0;
 
-    // Create a custom walker that collects headings for this specific parse
+    // Create a custom walker that collects headings and generates ids once
     const walkTokens = (tokens: any[]) => {
       tokens.forEach((token) => {
         if (token.type === 'heading') {
           const slug = this.generateUniqueSlug(token.text, slugCounts);
+          generatedIds.push(slug);
           headings.push({
             text: token.text,
             level: token.depth,
@@ -64,13 +67,49 @@ export class MarkdownService {
       });
     };
 
-    // Use marked with custom extension
-    const parser = new marked.Parser();
-    const lexer = new marked.Lexer();
-    const tokens = lexer.lex(markdown);
-    walkTokens(tokens);
+    // Use marked with a per-parse renderer that consumes pre-generated ids in order
+    const renderer = new marked.Renderer();
+    renderer.heading = (args: any) => {
+      const text = args.text || args;
+      const level = args.depth || args;
+      const slug = generatedIds[rendererIdIndex++] || this.generateUniqueSlug(text, slugCounts);
+      return `<h${level} id="${slug}">${text}</h${level}>\n`;
+    };
 
-    const content = parser.parse(tokens);
+    renderer.image = (args: any) => {
+      const href = args.href || args;
+      const text = args.text || args;
+
+      // Check if text ends with a star rating (1-5) or element name
+      const starMatch = text.match(/-(1|2|3|4|5)$/);
+      const elementMatch = text.match(/-(pyro|hydro|anemo|electro|dendro|cryo|geo)$/);
+
+      if (starMatch) {
+        const stars = starMatch[1];
+        const starClassMap: Record<string, string> = {
+          '5': 'five-star',
+          '4': 'four-star',
+          '3': 'three-star',
+          '2': 'two-star',
+          '1': 'one-star'
+        };
+        const starClass = starClassMap[stars];
+        const altText = text.replace(/-(1|2|3|4|5)$/, '');
+        return `<div class="icon ${starClass}"><img src="${href}" alt="${altText}" /></div>`;
+      } else if (elementMatch) {
+        const element = elementMatch[1];
+        const altText = text.replace(/-(pyro|hydro|anemo|electro|dendro|cryo|geo)$/, '');
+        return `<div class="icon ${element}"><img src="${href}" alt="${altText}" /></div>`;
+      }
+
+      return `<img src="${href}" alt="${text}" />`;
+    };
+
+    // Parse with fresh renderer context
+    const tokens = marked.lexer(markdown);
+    walkTokens(tokens);
+    const content = marked.parser(tokens, { renderer });
+
     const toc = this.buildTOC(headings, currentPath);
 
     return { content, toc };

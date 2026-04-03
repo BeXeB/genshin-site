@@ -209,3 +209,433 @@
   justify-content: space-between;
   gap: 10px;
 }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px 10px;
+  margin-bottom: 30px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--dark-gray);
+  text-decoration: none;
+  cursor: pointer;
+  background-color: var(--black);
+  color: var(--white);
+  width: 120px;
+  height: 40px;
+}
+
+button:hover,
+button.active {
+  border-color: var(--blue);
+  box-shadow: 0 0 8px var(--shadow-blue);
+  background-color: var(--darker-gray);
+  transition:
+    border-color 0.2s,
+    background-color 0.2s,
+    box-shadow 0.2s;
+}
+
+input,
+textarea,
+select {
+  background-color: var(--darker-gray);
+  color: var(--white);
+  border: 1px solid var(--dark-gray);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:hover,
+textarea:hover,
+select:hover,
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 8px var(--shadow-blue);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--light-gray);
+  opacity: 0.7;
+}
+
+input:disabled,
+textarea:disabled,
+select:disabled {
+  background-color: var(--gray);
+  color: var(--light-gray);
+  cursor: not-allowed;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+input.error,
+textarea.error,
+select.error {
+  border-color: #ff4c4c;
+  box-shadow: 0 0 6px rgba(255, 76, 76, 0.5);
+}
+
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px 16px;
+  padding-right: 36px;
+}
+
+.toc {
+  background-color: var(--black);
+  padding: 12px 16px;
+}
+
+.toc ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.toc .toc-level-2 {
+  margin-left: 0;
+}
+.toc .toc-level-3 {
+  margin-left: 1rem;
+}
+.toc .toc-level-4 {
+  margin-left: 1.5rem;
+}
+.toc .toc-level-5 {
+  margin-left: 2rem;
+}
+
+.toc a:hover {
+  color: var(--blue);
+}
+
+.toc a {
+  display: block;
+  text-decoration: none;
+  color: var(--white);
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.guide img {
+  max-width: 100%;
+}
+
+.guide pre {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: pre;
+  max-width: 100%;
+  padding-bottom: 15px;
+}
+
+.guide a {
+  color: var(--light-gray);
+  text-decoration: none;
+}
+
+.guide a:hover {
+  color: var(--blue);
+  transition: color 0.2s;
+}
+
+.guide hr {
+  color: var(--white);
+}
+
+.guide table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 13px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.guide tr {
+  display: flex;
+  width: 100%;
+}
+
+.guide th,
+.guide td {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--dark-gray);
+  background-color: var(--darker-gray);
+}
+
+.guide th {
+  font-weight: bold;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  text-align: left;
+}
+
+.guide .video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 13px;
+}
+
+.guide iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.guide .icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.guide .mix {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.guide .mix-2 > div:nth-child(1) {
+  position: absolute;
+  clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 0% 100%);
+  z-index: 2;
+  overflow: hidden;
+}
+
+.guide .mix-2 > div:nth-child(2) {
+  position: absolute;
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.guide .mix-3 img {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+}
+
+.guide .mix-3 > div:nth-child(1) {
+  position: absolute;
+  clip-path: polygon(0% 0%, 50% 0%, 50% 50%, 0% 80%);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.guide .mix-3 > div:nth-child(1) img {
+  transform: translate(-70%, -65%);
+}
+
+.guide .mix-3 > div:nth-child(2) {
+  position: absolute;
+  clip-path: polygon(50% 0%, 100% 0%, 100% 80%, 50% 50%);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.guide .mix-3 > div:nth-child(2) img {
+  transform: translate(-30%, -65%);
+}
+
+.guide .mix-3 > div:nth-child(3) {
+  position: absolute;
+  clip-path: polygon(0% 100%, 0% 80%, 50% 50%, 100% 80%, 100% 100%);
+  z-index: 2;
+  overflow: hidden;
+}
+
+.guide .mix-3 > div:nth-child(3) img {
+  transform: translate(-50%, -30%);
+}
+
+.guide .mix-4 img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+}
+
+.guide .mix-4 > div:nth-child(1) {
+  position: absolute;
+  clip-path: polygon(50% 50%, 0% 0%, 100% 0%);
+  z-index: 2;
+  overflow: hidden;
+}
+
+.guide .mix-4 > div:nth-child(1) img {
+  transform: translate(-50%, -100%);
+}
+
+.guide .mix-4 > div:nth-child(2) {
+  position: absolute;
+  clip-path: polygon(50% 50%, 100% 0%, 100% 100%);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.guide .mix-4 > div:nth-child(2) img {
+  transform: translate(-0%, -50%);
+}
+
+.guide .mix-4 > div:nth-child(3) {
+  position: absolute;
+  clip-path: polygon(50% 50%, 100% 100%, 0% 100%);
+  z-index: 2;
+  overflow: hidden;
+}
+
+.guide .mix-4 > div:nth-child(3) img {
+  transform: translate(-50%, -0%);
+}
+
+.guide .mix-4 > div:nth-child(4) {
+  position: absolute;
+  clip-path: polygon(50% 50%, 0% 100%, 0% 0%);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.guide .mix-4 > div:nth-child(4) img {
+  transform: translate(-100%, -50%);
+}
+
+.guide .five-star {
+  background-color: var(--rar-5);
+  border-radius: 8px;
+}
+
+.guide .four-star {
+  background-color: var(--rar-4);
+  border-radius: 8px;
+}
+
+.guide .three-star {
+  background-color: var(--rar-3);
+  border-radius: 8px;
+}
+
+.guide .two-star {
+  background-color: var(--rar-2);
+  border-radius: 8px;
+}
+
+.guide .one-star {
+  background-color: var(--rar-1);
+  border-radius: 8px;
+}
+
+.guide .pyro {
+  background-color: var(--pyro-dark);
+  border-radius: 8px;
+}
+
+.guide .hydro {
+  background-color: var(--hydro-dark);
+  border-radius: 8px;
+}
+
+.guide .anemo {
+  background-color: var(--anemo-dark);
+  border-radius: 8px;
+}
+
+.guide .electro {
+  background-color: var(--electro-dark);
+  border-radius: 8px;
+}
+
+.guide .dendro {
+  background-color: var(--dendro-dark);
+  border-radius: 8px;
+}
+
+.guide .cryo {
+  background-color: var(--cryo-dark);
+  border-radius: 8px;
+}
+
+.guide .geo {
+  background-color: var(--geo-dark);
+  border-radius: 8px;
+}
+
+.guide .flex {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  align-items: stretch;
+}
+
+.guide .flex-1 {
+  flex: 1;
+}
+
+.guide .flex-2 {
+  flex: 2;
+}
+
+.guide .flex-3 {
+  flex: 3;
+}
+
+.guide .flex-1 table,
+.guide .flex-2 table,
+.guide .flex-3 table {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.guide .flex-1 tbody,
+.guide .flex-2 tbody,
+.guide .flex-3 tbody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.guide .flex-1 tbody tr,
+.guide .flex-2 tbody tr,
+.guide .flex-3 tbody tr {
+  flex: 1;
+}

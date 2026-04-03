@@ -13,6 +13,7 @@ export class CharacterGuideComponent implements OnInit {
   @Input() elementColor?: string | null;
   @Input() selectedElement: ElementType = ElementType.ANEMO;
   @Input() isTraveler: boolean = false;
+  @Input() title: string = '';
 
   guideSource: string = '';
 
