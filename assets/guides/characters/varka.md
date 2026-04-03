@@ -1,16 +1,18 @@
 <!-- Weapon Images -->
 
-[sig-img-5]: assets/images/weapons/gestofthemightywolf/awaken.webp
-[5star-img-5]: assets/images/Claymore.webp
-[ss-img-4]: assets/images/weapons/serpentspine/awaken.webp
-[tidal-img-4]: assets/images/weapons/tidalshadow/awaken.webp
-[blackcliff-img-4]: assets/images/weapons/blackcliffslasher/awaken.webp
+[sig-5]: assets/images/weapons/gestofthemightywolf/awaken.webp
+[5star-5]: assets/images/Claymore.webp
+[ss-4]: assets/images/weapons/serpentspine/awaken.webp
+[tidal-4]: assets/images/weapons/tidalshadow/awaken.webp
+[blackcliff-4]: assets/images/weapons/blackcliffslasher/awaken.webp
+[wolfsgravestone-5]: assets/images/weapons/wolfsgravestone/awaken.webp
 
 <!-- Artifact Images -->
 
 [winds-5]: assets/images/artifacts/adaycarvedfromrisingwinds/flower.webp
 [shimenawas-5]: assets/images/artifacts/shimenawasreminiscence/flower.webp
 [dpc-5]: assets/images/artifacts/desertpavilionchronicle/flower.webp
+[glad-5]: assets/images/artifacts/gladiatorsfinale/flower.webp
 
 <!-- Character Images -->
 
@@ -29,15 +31,15 @@
 
 ## Gyorstalpaló
 
-|        Fegyverek        |                              |               |                |                     |
-| :---------------------: | :--------------------------: | :-----------: | :------------: | :-----------------: |
-|      ![sig-img-5]       |        ![5star-img-5]        |  ![ss-img-4]  | ![tidal-img-4] | ![blackcliff-img-4] |
-| Gest of the Mighty Wolf | 5 Csillagos Crit Claymore-ok | Serpent Spine |  Tidal Shadow  | Blackcliff Slasher  |
+|        Fegyverek        |                           |               |                      |              |                    |
+| :---------------------: | :-----------------------: | :-----------: | :------------------: | :----------: | :----------------: |
+|        ![sig-5]         |        ![5star-5]         |    ![ss-4]    | ![wolfsgravestone-5] |  ![tidal-4]  |  ![blackcliff-4]   |
+| Gest of the Mighty Wolf | 5 Csillagos Crit Claymore | Serpent Spine |   Wolfs Gravestone   | Tidal Shadow | Blackcliff Slasher |
 
-|         Artifakt Setek         |                         |                           |
-| :----------------------------: | :---------------------: | :-----------------------: |
-|           ![winds-5]           |     ![shimenawas-5]     |         ![dpc-5]          |
-| A Day Carved from Rising Winds | Shimenawa's Remembrance | Desert Pavilion Chronicle |
+|         Artifakt Setek         |                         |                           |                    |
+| :----------------------------: | :---------------------: | :-----------------------: | :----------------: |
+|           ![winds-5]           |     ![shimenawas-5]     |         ![dpc-5]          |     ![glad-5]      |
+| A Day Carved from Rising Winds | Shimenawa's Remembrance | Desert Pavilion Chronicle | Gladiator's Finale |
 
 <div class="flex">
   <div class="flex-2">
@@ -51,9 +53,9 @@
   </div>
   <div class="flex-2">
 
-| Substatok            |                                                                        |
-| -------------------- | ---------------------------------------------------------------------- |
-| 1. Crit <br> 2. ATK% | ER követelmény:<br> Varkára nem kell ER, mert nem használja a burstjet |
+| Substatok                                                |                                                                        |
+| -------------------------------------------------------- | ---------------------------------------------------------------------- |
+| 1. Crit DMG% <br> 1. Crit Rate% <br> 2. ATK% <br> 3. ATK | ER követelmény:<br> Varkára nem kell ER, mert nem használja a burstjet |
 
   </div>
   <div class="flex-1">
