@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - main
-      
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.json'
+      - '**/*.webp'
+
 permissions:
   contents: write
 

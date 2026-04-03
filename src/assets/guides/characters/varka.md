@@ -34,7 +34,7 @@
 |        Fegyverek        |                           |               |                      |              |                    |
 | :---------------------: | :-----------------------: | :-----------: | :------------------: | :----------: | :----------------: |
 |        ![sig-5]         |        ![5star-5]         |    ![ss-4]    | ![wolfsgravestone-5] |  ![tidal-4]  |  ![blackcliff-4]   |
-| Gest of the Mighty Wolf | 5 Csillagos Crit Claymore | Serpent Spine |   Wolfs Gravestone   | Tidal Shadow | Blackcliff Slasher |
+| Gest of the Mighty Wolf | 5 Csillagos Crit Claymore | Serpent Spine |  Wolf's Gravestone   | Tidal Shadow | Blackcliff Slasher |
 
 |         Artifakt Setek         |                         |                           |                    |
 | :----------------------------: | :---------------------: | :-----------------------: | :----------------: |
