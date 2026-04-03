@@ -1,4 +1,10 @@
-## Video
+## Gyorstalpaló
+
+### On-Field
+
+### Off-Field
+
+## Videó
 
 <div class="video">
   <iframe
@@ -7,13 +13,7 @@
   ></iframe>
 </div>
 
-## Gyorstalpalo
-
-### On-Field
-
-### Off-Field
-
-## Karakterrol
+## Karakterről
 
 ## On-Field
 
@@ -23,7 +23,7 @@
 
 ### Csapatok
 
-### Combok
+### Kombók
 
 ## Off-Field
 
