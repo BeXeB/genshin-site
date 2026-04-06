@@ -14,12 +14,15 @@
 .char-info {
   background-color: var(--black);
   margin-bottom: 20px;
-  
 }
 
 .char-info h2 {
   margin: 0;
   font-size: 1.5em;
+}
+
+.char-info p {
+  margin: 0;
 }
 
 .menus {
@@ -39,7 +42,6 @@
 
 .char-container .right {
   background-color: var(--black);
-  
 }
 
 .char-container .right:hover {
