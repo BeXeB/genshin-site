@@ -31,15 +31,13 @@
 
 ## Gyorstalpaló
 
-|        Fegyverek        |                           |               |                      |              |                    |
-| :---------------------: | :-----------------------: | :-----------: | :------------------: | :----------: | :----------------: |
-|        ![sig-5]         |        ![5star-5]         |    ![ss-4]    | ![wolfsgravestone-5] |  ![tidal-4]  |  ![blackcliff-4]   |
-| Gest of the Mighty Wolf | 5 Csillagos Crit Claymore | Serpent Spine |  Wolf's Gravestone   | Tidal Shadow | Blackcliff Slasher |
+|             Fegyverek             |                                       |                       |                                        |                         |                                    |
+| :-------------------------------: | :-----------------------------------: | :-------------------: | :------------------------------------: | :---------------------: | :--------------------------------: |
+| ![sig-5]  Gest of the Mighty Wolf | ![5star-5]  5 Csillagos Crit Claymore | ![ss-4] Serpent Spine | ![wolfsgravestone-5] Wolf's Gravestone | ![tidal-4] Tidal Shadow | ![blackcliff-4] Blackcliff Slasher |
 
-|         Artifakt Setek         |                         |                           |                    |
-| :----------------------------: | :---------------------: | :-----------------------: | :----------------: |
-|           ![winds-5]           |     ![shimenawas-5]     |         ![dpc-5]          |     ![glad-5]      |
-| A Day Carved from Rising Winds | Shimenawa's Remembrance | Desert Pavilion Chronicle | Gladiator's Finale |
+|              Artifakt Setek               |                                         |                                    |                              |
+| :---------------------------------------: | :-------------------------------------: | :--------------------------------: | :--------------------------: |
+| ![winds-5] A Day Carved from Rising Winds | ![shimenawas-5] Shimenawa's Remembrance | ![dpc-5] Desert Pavilion Chronicle | ![glad-5] Gladiator's Finale |
 
 <div class="flex">
   <div class="flex-2">
@@ -67,12 +65,10 @@
   </div>
 </div>
 
-|    Csapatok    |                                                          |                                                                            |                                                                            |
-| :------------: | :------------------------------------------------------: | :------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
-| ![varka-anemo] |                        ![a-anemo]                        | <div class="mix mix-4"> ![p-pyro] ![h-hydro] ![e-electro] ![c-cryo] </div> | <div class="mix mix-4"> ![p-pyro] ![h-hydro] ![e-electro] ![c-cryo] </div> |
-|     Varka      |                          Anemo                           |                                    PHEC                                    |                                    PHEC                                    |
-| ![varka-anemo] | <div class="mix mix-2"> ![venti-anemo] ![a-anemo] </div> |                               ![durin-pyro]                                |                              ![bennett-pyro]                               |
-|     Varka      |                       Venti/Anemo                        |                                   Durin                                    |                                  Bennett                                   |
+|       Csapatok       |                                                                      |                                                                                 |                                                                                 |
+| :------------------: | :------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+| ![varka-anemo] Varka |                           ![a-anemo] Anemo                           | <div class="mix mix-4"> ![p-pyro] ![h-hydro] ![e-electro] ![c-cryo] </div> PHEC | <div class="mix mix-4"> ![p-pyro] ![h-hydro] ![e-electro] ![c-cryo] </div> PHEC |
+| ![varka-anemo] Varka | <div class="mix mix-2"> ![venti-anemo] ![a-anemo] </div> Venti/Anemo |                               ![durin-pyro] Durin                               |                             ![bennett-pyro] Bennett                             |
 
 ## Videó
 

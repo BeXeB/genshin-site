@@ -9,7 +9,7 @@ export class SettingsService {
   private readonly STORAGE_KEY = 'settings';
 
   private settings$ = new BehaviorSubject<Settings>({
-    detailed: true,
+    detailed: false,
     talentlevel: 9,
   });
 

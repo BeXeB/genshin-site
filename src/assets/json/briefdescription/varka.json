@@ -1,0 +1,20 @@
+{
+  "combat1": "Standard Claymore <color=#FFD780FF>Normal Attack</color> és <color=#FFD780FF>Charged Attack</color>.",
+
+  "combat2": "<color=#80FFD7FF>AoE Anemo DMG</color>-et okoz és Varka belep a <color=#FFD780FF>Sturm und Drang</color> állapotba. Ebben az allapotban Varka <color=#FFD780FF>Normal Attack</color> es <color=#FFD780FF>Charged Attack</color>-jai megnovelt sebzest okoznak es azok a csapatban levo karakterek elemeinek megfelelo elemu extra sebzest okoznak. Ezen felul Varka <color=#FFD780FF>Elemental Skill</color>-je atalakul, ezt a skillt ket modon lehet hasznalni: vagy egy specialis <color=#FFD780FF>Elemental Skill</color>-kent, vagy egy specialis <color=#FFD780FF>Charged Attack</color>-kent.",
+
+  "combat3": "2 hit, amik <color=#80FFD7FF>Anemo DMG</color>-et okoznak. Ha a csapatban vannak <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> vagy <color=#99FFFF>Cryo</color> karakterek, az első hit a csapat elemeinek megfelelő elemu sebzest okoz.",
+
+  "passive1": "",
+
+  "passive2": "",
+  "passive3": "",
+  "passive4": "",
+
+  "c1": "",
+  "c2": "",
+  "c3": "",
+  "c4": "",
+  "c5": "",
+  "c6": ""
+}
