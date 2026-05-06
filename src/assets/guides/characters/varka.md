@@ -4,8 +4,8 @@
 [5star-5]: assets/images/Claymore.webp
 [ss-4]: assets/images/weapons/serpentspine/awaken.webp
 [tidal-4]: assets/images/weapons/tidalshadow/awaken.webp
-[blackcliff-4]: assets/images/weapons/blackcliffslasher/awaken.webp
-[wolfsgravestone-5]: assets/images/weapons/wolfsgravestone/awaken.webp
+[bc-4]: assets/images/weapons/blackcliffslasher/awaken.webp
+[wgs-5]: assets/images/weapons/wolfsgravestone/awaken.webp
 
 <!-- Artifact Images -->
 
@@ -16,24 +16,24 @@
 
 <!-- Character Images -->
 
-[varka-anemo]: assets/images/characters/varka/icon.webp
-[venti-anemo]: assets/images/characters/venti/icon.webp
-[durin-pyro]: assets/images/characters/durin/icon.webp
-[bennett-pyro]: assets/images/characters/bennett/icon.webp
+[varka-a]: assets/images/characters/varka/icon.webp
+[venti-a]: assets/images/characters/venti/icon.webp
+[durin-p]: assets/images/characters/durin/icon.webp
+[bennett-p]: assets/images/characters/bennett/icon.webp
 
 <!-- Element Images -->
 
-[p-pyro]: assets/images/Pyro.webp
-[h-hydro]: assets/images/Hydro.webp
-[e-electro]: assets/images/Electro.webp
-[c-cryo]: assets/images/Cryo.webp
-[a-anemo]: assets/images/Anemo.webp
+[p-p]: assets/images/Pyro.webp
+[h-h]: assets/images/Hydro.webp
+[e-e]: assets/images/Electro.webp
+[c-c]: assets/images/Cryo.webp
+[a-a]: assets/images/Anemo.webp
 
 ## Gyorstalpaló
 
-|             Fegyverek             |                                       |                       |                                        |                         |                                    |
-| :-------------------------------: | :-----------------------------------: | :-------------------: | :------------------------------------: | :---------------------: | :--------------------------------: |
-| ![sig-5]  Gest of the Mighty Wolf | ![5star-5]  5 Csillagos Crit Claymore | ![ss-4] Serpent Spine | ![wolfsgravestone-5] Wolf's Gravestone | ![tidal-4] Tidal Shadow | ![blackcliff-4] Blackcliff Slasher |
+|            Fegyverek             |                                      |                       |                            |                         |                            |
+| :------------------------------: | :----------------------------------: | :-------------------: | :------------------------: | :---------------------: | :------------------------: |
+| ![sig-5] Gest of the Mighty Wolf | ![5star-5] 5 Csillagos Crit Claymore | ![ss-4] Serpent Spine | ![wgs-5] Wolf's Gravestone | ![tidal-4] Tidal Shadow | ![bc-4] Blackcliff Slasher |
 
 |              Artifakt Setek               |                                         |                                    |                              |
 | :---------------------------------------: | :-------------------------------------: | :--------------------------------: | :--------------------------: |
@@ -65,10 +65,10 @@
   </div>
 </div>
 
-|       Csapatok       |                                                                      |                                                                                 |                                                                                 |
-| :------------------: | :------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
-| ![varka-anemo] Varka |                           ![a-anemo] Anemo                           | <div class="mix mix-4"> ![p-pyro] ![h-hydro] ![e-electro] ![c-cryo] </div> PHEC | <div class="mix mix-4"> ![p-pyro] ![h-hydro] ![e-electro] ![c-cryo] </div> PHEC |
-| ![varka-anemo] Varka | <div class="mix mix-2"> ![venti-anemo] ![a-anemo] </div> Venti/Anemo |                               ![durin-pyro] Durin                               |                             ![bennett-pyro] Bennett                             |
+|     Csapatok     |                                    |                                     |                                     |
+| :--------------: | :--------------------------------: | :---------------------------------: | :---------------------------------: |
+| ![varka-a] Varka |            ![a-a] Anemo            | [mix:![p-p]![h-h]![e-e]![c-c]] PHEC | [mix:![p-p]![h-h]![e-e]![c-c]] PHEC |
+| ![varka-a] Varka | [mix:![venti-a]![a-a]] Venti/Anemo |          ![durin-p] Durin           |        ![bennett-p] Bennett         |
 
 ## Videó
 

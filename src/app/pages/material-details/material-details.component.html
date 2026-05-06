@@ -49,7 +49,8 @@
                 <div class="amount">{{ cMat.count }}</div>
               </div>
             }
-            <div class="craft-mat card">
+            <div class="craft-mat card"
+              [routerLink]="`/materials/${mora?.normalizedName}`">
               <img
                 [title]="mora?.name"
                 [src]="

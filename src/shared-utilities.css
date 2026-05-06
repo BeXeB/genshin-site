@@ -31,13 +31,13 @@
 }
 
 .card {
-  border: 1px solid var(--dark-gray);
+  border: 1px solid var(--gray);
+  background-color: var(--darker-gray);
   border-radius: 13px;
   padding: 15px;
   display: flex;
   flex-direction: column;
   transition: all 0.2s;
-
   cursor: pointer;
 }
 
@@ -48,9 +48,9 @@
 }
 
 .card-no-hover:hover {
-  border-color: var(--dark-gray);
+  border-color: var(--gray);
   box-shadow: none;
-  background-color: transparent;
+  background-color: var(--darker-gray);
 }
 
 .search-bar {
@@ -217,10 +217,10 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  border: 1px solid var(--dark-gray);
+  border: 1px solid var(--gray);
   text-decoration: none;
   cursor: pointer;
-  background-color: var(--black);
+  background-color: var(--darker-gray);
   color: var(--white);
   width: 120px;
   height: 40px;
@@ -230,7 +230,7 @@ button:hover,
 button.active {
   border-color: var(--blue);
   box-shadow: 0 0 8px var(--shadow-blue);
-  background-color: var(--darker-gray);
+  background-color: var(--dark-gray);
   transition:
     border-color 0.2s,
     background-color 0.2s,
@@ -242,9 +242,9 @@ textarea,
 select {
   background-color: var(--darker-gray);
   color: var(--white);
-  border: 1px solid var(--dark-gray);
+  border: 1px solid var(--gray);
   border-radius: 6px;
-  padding: 8px 12px;
+  padding: 10px 12px;
   font-family: "JetBrains Mono", monospace;
   font-size: 14px;
   outline: none;
@@ -299,7 +299,7 @@ select {
 }
 
 .toc {
-  background-color: var(--black);
+  background-color: var(--darker-gray);
   padding: 12px 16px;
 }
 
@@ -377,13 +377,13 @@ select {
 .guide td {
   flex: 1;
   padding: 10px;
-  border: 1px solid var(--dark-gray);
-  background-color: var(--darker-gray);
+  border: 1px solid var(--gray);
+  background-color: var(--dark-gray);
 }
 
 .guide th {
   font-weight: bold;
-  background-color: var(--dark-gray);
+  background-color: var(--gray);
   color: var(--white);
   text-align: left;
 }

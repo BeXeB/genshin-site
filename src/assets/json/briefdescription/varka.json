@@ -1,20 +1,27 @@
 {
   "combat1": "Standard Claymore <color=#FFD780FF>Normal Attack</color> és <color=#FFD780FF>Charged Attack</color>.",
 
-  "combat2": "<color=#80FFD7FF>AoE Anemo DMG</color>-et okoz és Varka belep a <color=#FFD780FF>Sturm und Drang</color> állapotba. Ebben az allapotban Varka <color=#FFD780FF>Normal Attack</color> es <color=#FFD780FF>Charged Attack</color>-jai megnovelt sebzest okoznak es azok a csapatban levo karakterek elemeinek megfelelo elemu extra sebzest okoznak. Ezen felul Varka <color=#FFD780FF>Elemental Skill</color>-je atalakul, ezt a skillt ket modon lehet hasznalni: vagy egy specialis <color=#FFD780FF>Elemental Skill</color>-kent, vagy egy specialis <color=#FFD780FF>Charged Attack</color>-kent.",
+  "combat2": "<color=#80FFD7FF>AoE Anemo DMG</color>-et okoz, és Varka belép a <color=#FFD780FF>Sturm und Drang</color> állapotba. Ebben az állapotban Varka <color=#FFD780FF>Normal Attack</color> és <color=#FFD780FF>Charged Attack</color>-jai megnövelt sebzést okoznak, és azok a csapatban lévő karakterek elemeinek megfelelő elemű extra sebzést okoznak. Ezen felül Varka <color=#FFD780FF>Elemental Skill</color>-je átalakul; ezt a skillt két módon lehet használni: vagy egy speciális <color=#FFD780FF>Elemental Skill</color>-ként, vagy egy speciális <color=#FFD780FF>Charged Attack</color>-ként.",
 
-  "combat3": "2 hit, amik <color=#80FFD7FF>Anemo DMG</color>-et okoznak. Ha a csapatban vannak <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> vagy <color=#99FFFF>Cryo</color> karakterek, az első hit a csapat elemeinek megfelelő elemu sebzest okoz.",
+  "combat3": "2 hit, amelyek <color=#80FFD7FF>Anemo DMG</color>-et okoznak. Ha a csapatban vannak <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> vagy <color=#99FFFF>Cryo</color> karakterek, az első hit a csapat elemeinek megfelelő elemű sebzést okoz.",
 
-  "passive1": "",
+  "passive1": "Ha a csapatban vannak <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> vagy <color=#99FFFF>Cryo</color> karakterek, az említett elemtípusok prioritási sorrendjének megfelelően Varka minden 1000 ATK-ja után 10% <color=#80FFD7FF>Anemo DMG Bonus</color>-t és az adott elemnek megfelelő <color=#FFD780FF>Elemental DMG Bonus</color>-t kap (az említett elemtípusok közül egyszerre csak egy elem kaphat ilyen módon bónusz sebzést). Az így szerezhető bónusz sebzés legfeljebb 25% lehet.\n\nTovábbá, ha a csapatban legalább 2 <color=#80FFD7FF>Anemo</color> karakter, vagy legalább 2 azonos elemű <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> vagy <color=#99FFFF>Cryo</color> karakter van, akkor a <color=#FFD780FF>Sturm und Drang</color> állapotban Varka által okozott <color=#FFD780FF>Normal Attack</color>, <color=#FFD780FF>Charged Attack</color>, speciális <color=#FFD780FF>Charged Attack</color>  és speciális <color=#FFD780FF>Elemental Skill</color> az eredeti sebzésük 140%-át okozzák. Ha a csapatban egyszerre van legalább 2 <color=#80FFD7FF>Anemo</color> karakter és legalább 2 másik azonos elemű <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color> vagy <color=#99FFFF>Cryo</color> karakter, akkor az említett effekt 220%-ra nő.",
 
-  "passive2": "",
-  "passive3": "",
-  "passive4": "",
+  "passive2": "Amikor a közelben lévő csapattagok <color=#80FFD7FF>Swirl</color> reakció(ka)t váltanak ki, Varka 1 <color=#FFD780FF>Azure Fang's Oath</color> stacket szerez, amely 8 másodpercre 7,5%-kal növeli a <color=#FFD780FF>Normal Attack</color>, <color=#FFD780FF>Charged Attack</color>, speciális <color=#FFD780FF>Charged Attack</color> és speciális <color=#FFD780FF>Elemental Skill</color> által okozott sebzést. Maximum 4 stack szerezhető. Minden karakter másodpercenként legfeljebb 1 <color=#FFD780FF>Azure Fang's Oath</color> stacket adhat Varkának ilyen módon.",
 
-  "c1": "",
-  "c2": "",
-  "c3": "",
-  "c4": "",
-  "c5": "",
-  "c6": ""
+  "passive3": "Minden <color=#FFD780FF>Mondstadt</color>-ból származó csapattag után Varka <color=#FFD780FF>Elemental Skill</color>-je 5%-kal csökkenti a CD-jét. Ez az effekt nem aktiválódik domainekben.",
+
+  "passive4": "Miután Varka teljesíti a <color=#FFD780FF>Witch's Homework: The Untitled Question</color> küldetést, <color=#FFD780FF>Hexerei</color> karakterré válik. Ha a csapatban legalább 2 <color=#FFD780FF>Hexerei</color> karakter van, a <color=#FFD780FF>Hexerei: Secret Rite</color> effektet kapják, amely fejleszti a <color=#FFD780FF>Hexerei</color> karaktereket.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nA speciális <color=#FFD780FF>Elemental Skill</color> fejlesztése: amikor Varka <color=#FFD780FF>Normal Attack</color>-kal eltalál egy ellenfelet a <color=#FFD780FF>Sturm und Drang</color> állapotban, a speciális <color=#FFD780FF>Elemental Skill</color> CD-je 1 másodperccel csökken.",
+
+  "c1": "Amikor Varka a <color=#FFD780FF>Sturm und Drang</color> állapotba vált, egy további használatot kap a speciális <color=#FFD780FF>Elemental Skill</color>-hez.\n\nEzen felül, a <color=#FFD780FF>Sturm und Drang</color> állapotba való átváltás után a következő alkalommal, amikor Varka a speciális <color=#FFD780FF>Elemental Skill</color>-t vagy a speciális <color=#FFD780FF>Charged Attack</color>-t használja, az adott támadás 200%-kal megnövelt sebzést okoz.",
+
+  "c2": "Amikor a speciális <color=#FFD780FF>Elemental Skill</color>-t vagy a speciális <color=#FFD780FF>Charged Attack</color>-t használja, Varka egy további csapást hajt végre, amely <color=#80FFD7FF>AoE Anemo DMG</color>-t okoz, Varka ATK-jának 800%-ával megegyező sebzéssel.",
+
+  "c3": "Növeli az <color=#FFD780FF>Elemental Skill</color> szintjét 3-mal.",
+
+  "c4": "Amikor Varka <color=#80FFD7FF>Swirl</color> reakciót okoz, a reakcióban érintett elemtípusok alapján a közelben lévő összes csapattag 10 másodpercre 20% <color=#80FFD7FF>Anemo DMG Bonus</color>-t és az adott elemnek megfelelő <color=#FFD780FF>Elemental DMG Bonus</color>-t kap.",
+
+  "c5": "Növeli az <color=#FFD780FF>Elemental Burst</color> szintjét 3-mal.",
+
+  "c6": "<color=#FFD780FF>Sturm und Drang</color> erősödik:\n· Rövid ideig a speciális <color=#FFD780FF>Elemental Skill</color> használata után Varka speciális <color=#FFD780FF>Charged Attack</color>-ot használhat anélkül, hogy az használatot fogyasztana.\n· Rövid ideig a speciális <color=#FFD780FF>Charged Attack</color> használata után Varka újra használhatja a speciális <color=#FFD780FF>Elemental Skill</color>-t anélkül, hogy az használatot fogyasztana.\nTovábbi speciális <color=#FFD780FF>Charged Attack</color> vagy speciális <color=#FFD780FF>Elemental Skill</color> aktiválása nem aktiválja újra az effektet.\n\nEzen felül a <color=#FFD780FF>Wind's Vanguard</color> passzív <color=#FFD780FF>Azure Fang's Oath</color> effektje erősödik: minden <color=#FFD780FF>Azure Fang's Oath</color> stack 20%-kal növeli Varka <color=#FFD780FF>CRIT DMG</color>-jét."
 }

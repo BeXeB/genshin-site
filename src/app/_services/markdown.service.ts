@@ -24,7 +24,10 @@ export class MarkdownService {
     // Plugin will be instantiated per-parse to reset state
   }
 
-  private generateUniqueSlug(text: string, slugCounts: Record<string, number>): string {
+  private generateUniqueSlug(
+    text: string,
+    slugCounts: Record<string, number>,
+  ): string {
     // Allow Unicode letters/numbers so accents (e.g. ó) are preserved in slugs
     let slug = text
       .toLowerCase()
@@ -43,6 +46,17 @@ export class MarkdownService {
   }
 
   async parse(markdown: string, currentPath: string) {
+    // Preprocess [mix: ...] blocks before passing to marked
+    const processedMarkdown = markdown.replace(
+      /\[mix:\s*((?:!\[[^\]]*\]\s*)+)\]/g,
+      (match, content) => {
+        const imageCount = (content.match(/!\[[^\]]*\]/g) || []).length;
+        return `<div class="mix mix-${imageCount}">${content}</div>`;
+      },
+    );
+
+    console.log('Processed Markdown:', processedMarkdown); // Debug log to verify preprocessing
+
     // Local state for this parse operation to prevent race conditions
     const headings: Heading[] = [];
     const slugCounts: Record<string, number> = {};
@@ -72,7 +86,9 @@ export class MarkdownService {
     renderer.heading = (args: any) => {
       const text = args.text || args;
       const level = args.depth || args;
-      const slug = generatedIds[rendererIdIndex++] || this.generateUniqueSlug(text, slugCounts);
+      const slug =
+        generatedIds[rendererIdIndex++] ||
+        this.generateUniqueSlug(text, slugCounts);
       return `<h${level} id="${slug}">${text}</h${level}>\n`;
     };
 
@@ -82,7 +98,7 @@ export class MarkdownService {
 
       // Check if text ends with a star rating (1-5) or element name
       const starMatch = text.match(/-(1|2|3|4|5)$/);
-      const elementMatch = text.match(/-(pyro|hydro|anemo|electro|dendro|cryo|geo)$/);
+      const elementMatch = text.match(/-(p|h|a|e|d|c|g)$/);
 
       if (starMatch) {
         const stars = starMatch[1];
@@ -91,22 +107,32 @@ export class MarkdownService {
           '4': 'four-star',
           '3': 'three-star',
           '2': 'two-star',
-          '1': 'one-star'
+          '1': 'one-star',
         };
         const starClass = starClassMap[stars];
         const altText = text.replace(/-(1|2|3|4|5)$/, '');
         return `<div class="icon ${starClass}"><img src="${href}" alt="${altText}" /></div>`;
       } else if (elementMatch) {
         const element = elementMatch[1];
-        const altText = text.replace(/-(pyro|hydro|anemo|electro|dendro|cryo|geo)$/, '');
-        return `<div class="icon ${element}"><img src="${href}" alt="${altText}" /></div>`;
+        const elementClassMap: Record<string, string> = {
+          p: 'pyro',
+          h: 'hydro',
+          a: 'anemo',
+          e: 'electro',
+          d: 'dendro',
+          c: 'cryo',
+          g: 'geo',
+        };
+        const elementClass = elementClassMap[element];
+        const altText = text.replace(/-(p|h|a|e|d|c|g)$/, '');
+        return `<div class="icon ${elementClass}"><img src="${href}" alt="${altText}" /></div>`;
       }
 
       return `<img src="${href}" alt="${text}" />`;
     };
 
     // Parse with fresh renderer context
-    const tokens = marked.lexer(markdown);
+    const tokens = marked.lexer(processedMarkdown);
     walkTokens(tokens);
     const content = marked.parser(tokens, { renderer });
 

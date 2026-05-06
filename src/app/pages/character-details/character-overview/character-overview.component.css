@@ -12,8 +12,8 @@
 }
 
 .char-info {
-  background-color: var(--black);
   margin-bottom: 20px;
+  background-color: var(--darker-gray) !important;
 }
 
 .char-info h2 {
@@ -41,7 +41,7 @@
 }
 
 .char-container .right {
-  background-color: var(--black);
+  background-color: var(--darker-gray);
 }
 
 .char-container .right:hover {
