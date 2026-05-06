@@ -127,8 +127,8 @@
 .tag button {
   margin-left: 2px;
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
 }
 
 .add-tag-options {
@@ -153,8 +153,8 @@
 }
 
 .new-tag-inputs .color {
-  height: 36px;
-  flex: 0 0 36px;
+  height: 40px;
+  flex: 0 0 40px;
   padding: 8px;
 }
 
@@ -165,5 +165,4 @@
 
 .download-button {
   width: 100%;
-  margin-top: 10px;
 }

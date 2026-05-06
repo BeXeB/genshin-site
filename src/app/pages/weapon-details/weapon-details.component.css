@@ -7,7 +7,6 @@
   flex: 1;
   border-radius: 13px;
   height: fit-content;
-
   display: flex;
   flex-direction: column;
 }
@@ -20,12 +19,16 @@
   gap: 10px;
 }
 
+.card {
+  background-color: var(--darker-gray);
+}
+
 .card-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 0px 0px 10px;
-  border-bottom: 1px solid var(--dark-gray);
+  border-bottom: 1px solid var(--gray);
 }
 
 .weapon-card img {
@@ -83,18 +86,20 @@
 
 .level-input {
   width: 50px;
+  height: 21px;
   text-align: right;
   padding: 0px 5px;
 }
 
 .level-slider {
-  --slider-color: var(--gray);
+  --slider-color: var(--light-gray);
 }
 
 .weapon-story {
   flex: 1;
   border-radius: 13px;
-  border: 1px solid var(--dark-gray);
+  border: 1px solid var(--gray);
+  background-color: var(--darker-gray);
   padding: 10px;
 }
 

@@ -35,7 +35,7 @@ export class HomeComponent {
     },
   ];
 
-  getGeoIcon(): string {
-    return this.imageService.getElementIcon('Geo');
+  getIcon(): string {
+    return 'assets/images/UI_BtnIcon_Handbook.webp';
   }
 }

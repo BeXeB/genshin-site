@@ -1,5 +1,5 @@
 .nav-container {
-  background-color: var(--black);
+  background-color: var(--darker-gray);
   position: sticky;
   top: 0;
   height: 65px;
@@ -23,6 +23,17 @@
   transform: translateX(-50%);
 }
 
+.logo img {
+  width: 40px;
+  height: auto;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 5px var(--blue));
+  scale: 1.05;
+  transition: all 0.2s;
+}
+
 .nav-links {
   display: flex;
   gap: 8px;
@@ -38,33 +49,24 @@
   width: 120px;
   height: 40px;
   color: var(--light-gray);
+  border: 1px solid var(--gray);
+  background-color: var(--dark-gray);
 }
 
 .nav-button:hover {
-  background-color: var(--darker-gray);
+  background-color: var(--gray) !important;
   color: var(--white);
+  border: 1px solid var(--blue);
   transition:
     background-color 0.2s,
-    color 0.2s;
+    color 0.2s,
+    border 0.2s;
 }
 
 .nav-button.active {
   background-color: var(--dark-gray);
   color: var(--white);
-}
-
-.logo a {
-  font-weight: bold;
-  font-size: 2em;
-  color: var(--white);
-  text-decoration: none;
-  letter-spacing: -4px;
-  user-select: none;
-}
-
-.logo:hover a {
-  color: var(--blue);
-  transition: color 0.2s;
+  border: 1px solid var(--blue);
 }
 
 .settings {

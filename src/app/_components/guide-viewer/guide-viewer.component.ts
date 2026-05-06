@@ -57,13 +57,14 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
   html: SafeHtml = '';
   toc: SafeHtml | string = '';
 
-  private tocEventListeners: Array<{el: Element, listener: EventListener}> = [];
+  private tocEventListeners: Array<{ el: Element; listener: EventListener }> =
+    [];
   private pendingTimeouts: number[] = [];
   private destroy$ = new Subject<void>();
 
   // Helper to clean up event listeners from previous TOC
   private cleanupTOCListeners() {
-    this.tocEventListeners.forEach(({el, listener}) => {
+    this.tocEventListeners.forEach(({ el, listener }) => {
       el.removeEventListener('click', listener);
     });
     this.tocEventListeners = [];
@@ -227,7 +228,7 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
         history.replaceState(null, '', `${window.location.pathname}#${id}`);
       };
       link.addEventListener('click', listener);
-      this.tocEventListeners.push({el: link, listener});
+      this.tocEventListeners.push({ el: link, listener });
     });
   }
 
