@@ -1,6 +1,1 @@
 # genshin-site
-Get-ChildItem -Path "raw_icons/" -Recurse -Filter *.png | ForEach-Object {                                                 
-     $inputFile = $_.FullName
-     $outputFile = [System.IO.Path]::ChangeExtension($inputFile, ".webp")
-     & cwebp -lossless $inputFile -o $outputFile
-}
