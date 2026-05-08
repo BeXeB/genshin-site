@@ -670,5 +670,17 @@
     "images": {
       "filename_icon": "UI_ItemIcon_101266"
     }
+  },
+  {
+    "id": 101272,
+    "name": "Etherwing Moth",
+    "normalizedName": "etherwingmoth",
+    "sortRank": 311,
+    "description": "A singular entity bathed in a divine, golden radiance, drifting through uncanny interstices as if a moth in flight.",
+    "type": "local-specialty",
+    "typeText": "Local Specialty (Mondstadt)",
+    "images": {
+      "filename_icon": "UI_ItemIcon_101272"
+    }
   }
 ]
