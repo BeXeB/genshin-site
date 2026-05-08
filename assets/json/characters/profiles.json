@@ -11568,6 +11568,194 @@
     "normalizedName": "layla"
   },
   {
+    "id": 10000130,
+    "name": "Linnea",
+    "normalizedName": "linnea",
+    "title": "Augur of Wonders",
+    "description": "Naturalist and Advisor to the Nod-Krai Branch of the Adventurers' Guild.",
+    "weaponType": "WEAPON_BOW",
+    "weaponText": "Bow",
+    "qualityType": "QUALITY_ORANGE",
+    "rarity": 5,
+    "birthday": "May 23",
+    "birthdaymmdd": "5/23",
+    "elementType": "ELEMENT_GEO",
+    "elementText": "Geo",
+    "affiliation": "Adventurers' Guild",
+    "region": "Nod-Krai",
+    "substatType": "FIGHT_PROP_CRITICAL",
+    "substatText": "CRIT Rate",
+    "constellation": "Alcyon",
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104171,
+          "name": "Prithiva Topaz Sliver",
+          "count": 1
+        },
+        {
+          "id": 101272,
+          "name": "Etherwing Moth",
+          "count": 3
+        },
+        {
+          "id": 112125,
+          "name": "Tattered Warrant",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 3
+        },
+        {
+          "id": 113086,
+          "name": "Plume of the Fallen Watcher",
+          "count": 2
+        },
+        {
+          "id": 101272,
+          "name": "Etherwing Moth",
+          "count": 10
+        },
+        {
+          "id": 112125,
+          "name": "Tattered Warrant",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104172,
+          "name": "Prithiva Topaz Fragment",
+          "count": 6
+        },
+        {
+          "id": 113086,
+          "name": "Plume of the Fallen Watcher",
+          "count": 4
+        },
+        {
+          "id": 101272,
+          "name": "Etherwing Moth",
+          "count": 20
+        },
+        {
+          "id": 112126,
+          "name": "Immaculate Warrant",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 3
+        },
+        {
+          "id": 113086,
+          "name": "Plume of the Fallen Watcher",
+          "count": 8
+        },
+        {
+          "id": 101272,
+          "name": "Etherwing Moth",
+          "count": 30
+        },
+        {
+          "id": 112126,
+          "name": "Immaculate Warrant",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104173,
+          "name": "Prithiva Topaz Chunk",
+          "count": 6
+        },
+        {
+          "id": 113086,
+          "name": "Plume of the Fallen Watcher",
+          "count": 12
+        },
+        {
+          "id": 101272,
+          "name": "Etherwing Moth",
+          "count": 45
+        },
+        {
+          "id": 112127,
+          "name": "Frost-Etched Warrant",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104174,
+          "name": "Prithiva Topaz Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113086,
+          "name": "Plume of the Fallen Watcher",
+          "count": 20
+        },
+        {
+          "id": 101272,
+          "name": "Etherwing Moth",
+          "count": 60
+        },
+        {
+          "id": 112127,
+          "name": "Frost-Etched Warrant",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Linnea",
+      "filename_iconCard": "UI_AvatarIcon_Linnea_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Linnea",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Linnea",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Linnea"
+    },
+    "version": "6.5",
+    "isTraveler": false
+  },
+  {
     "id": 10000006,
     "name": "Lisa",
     "title": "Witch of Purple Rose",
