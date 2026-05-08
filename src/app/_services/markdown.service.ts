@@ -55,8 +55,6 @@ export class MarkdownService {
       },
     );
 
-    console.log('Processed Markdown:', processedMarkdown); // Debug log to verify preprocessing
-
     // Local state for this parse operation to prevent race conditions
     const headings: Heading[] = [];
     const slugCounts: Record<string, number> = {};
