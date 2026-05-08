@@ -1792,5 +1792,44 @@
     "images": {
       "filename_icon": "UI_ItemIcon_112082"
     }
+  },
+  {
+    "id": 112140,
+    "name": "Faded Flaming Hilt",
+    "normalizedName": "fadedflaminghilt",
+    "rarity": 2,
+    "sortRank": 10146,
+    "description": "The hilt remains of a flaming sword once wielded by a Domain Keeper.\nA sword of blazing fire was once the symbol of protection. Empowered by the authority of \"Space,\" it sealed the boundary between eternity and ephemera.",
+    "type": "generic",
+    "typeText": "Character and Weapon Enhancement Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_112140"
+    }
+  },
+  {
+    "id": 112141,
+    "name": "Fractured Flaming Hilt",
+    "normalizedName": "fracturedflaminghilt",
+    "rarity": 3,
+    "sortRank": 10146,
+    "description": "The hilt remains of a flaming sword once wielded by a Domain Keeper.\n A sword of blazing fire was once the symbol of judgment. Empowered by the authority of \"Space,\" it barred the path against trespass and profanity.",
+    "type": "generic",
+    "typeText": "Character and Weapon Enhancement Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_112141"
+    }
+  },
+  {
+    "id": 112142,
+    "name": "Jeweled Flaming Hilt",
+    "normalizedName": "jeweledflaminghilt",
+    "rarity": 4,
+    "sortRank": 10146,
+    "description": "The hilt remains of a flaming sword once wielded by a Domain Keeper.\n A sword of blazing fire was once the symbol of admonition. Empowered by the authority of \"Space,\" it proclaimed the absolute and infallible will of the divine.",
+    "type": "generic",
+    "typeText": "Character and Weapon Enhancement Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_112142"
+    }
   }
 ]

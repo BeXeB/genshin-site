@@ -54,7 +54,10 @@ function mapMaterial(mat: genshindb.Material, type: MaterialType): Material {
   };
 }
 
-function mapCraft(craft: genshindb.Craft, materialToCraft: genshindb.Material): MaterialCraft {
+function mapCraft(
+  craft: genshindb.Craft,
+  materialToCraft: genshindb.Material,
+): MaterialCraft {
   return {
     id: materialToCraft.id,
 
@@ -174,10 +177,16 @@ async function processMaterialGroup(
     return;
   }
 
-  const materials: Material[] = [];
+  let materials: Material[] = [];
 
   const outputPath = path.join(BASE_OUTPUT_PATH, folderName);
   await fs.ensureDir(outputPath);
+
+  const materialsFilePath = path.join(outputPath, 'materials.json');
+
+  if (await fs.pathExists(materialsFilePath)) {
+    materials = (await fs.readJson(materialsFilePath)) as Material[];
+  }
 
   let existingMaterials: string[] = [];
   const indexFilePath = path.join(outputPath, 'index.json');
@@ -222,7 +231,7 @@ async function processMaterialGroup(
     }
   }
 
-  await fs.writeJson(path.join(outputPath, `materials.json`), materials, {
+  await fs.writeJson(materialsFilePath, materials, {
     spaces: 2,
   });
 

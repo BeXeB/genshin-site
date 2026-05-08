@@ -28,7 +28,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 0px 0px 10px;
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid var(--light-gray);
 }
 
 .weapon-card img {
@@ -44,11 +44,13 @@
 }
 
 .card-bottom {
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 .weapon-desc {
   font-style: italic;
+  border-bottom: 1px solid var(--light-gray);
+  padding-bottom: 10px;
 }
 
 .weapon-name {
@@ -107,4 +109,23 @@
   color: var(--light-gray);
   font-size: 1.2em;
   margin-bottom: 10px;
+}
+
+.materials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.materials img {
+  max-width: 64px;
+  height: auto;
+}
+
+.materials img:hover {
+  outline: 1px solid;
+  border-radius: 8px;
+  outline-color: var(--blue);
 }

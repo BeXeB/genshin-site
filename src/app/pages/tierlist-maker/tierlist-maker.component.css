@@ -8,12 +8,16 @@
   gap: 15px;
 }
 
+.first-col {
+  flex: auto;
+}
+
 .tierlist {
   display: flex;
   flex-direction: column;
   border-radius: 13px;
   border: solid 1px var(--dark-gray);
-  overflow: hidden;
+  overflow: clip;
 }
 
 .tier {
@@ -24,9 +28,12 @@
 
 .tier .tier-name {
   border-radius: 0;
-  border-left: none;
-  border-top: none;
-  border-bottom: none;
+  border: none;
+}
+
+.tier .tier-name:focus,
+.tier .tier-name:hover {
+  background-color: var(--dark-gray);
 }
 
 .tier button {
@@ -94,7 +101,7 @@
   margin-top: 5px;
   display: flex;
   flex-direction: column;
-  gap:5px;
+  gap: 5px;
 }
 
 .item-pool {
@@ -122,6 +129,7 @@
   display: inline-block;
   color: var(--white);
   text-align: center;
+  position: relative;
 }
 
 .tag button {
@@ -129,6 +137,30 @@
   display: inline-block;
   width: 36px;
   height: 36px;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: var(--darker-gray);
+  border: solid 1px var(--blue);
+  color: var(--white);
+
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.tag:hover .tooltip {
+  display: block;
 }
 
 .add-tag-options {
