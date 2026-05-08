@@ -80,7 +80,10 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
     const filtered = data.filter((w) => w.id !== 11419);
     return filtered.sort((a, b) => {
       if (a.rarity !== b.rarity) return b.rarity - a.rarity;
-      return a.weaponType.localeCompare(b.weaponType);
+      if (a.weaponType !== b.weaponType) {
+        return a.weaponType.localeCompare(b.weaponType);
+      }
+      return b.version.localeCompare(a.version);
     });
   }
 

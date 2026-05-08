@@ -84,6 +84,16 @@
             </div>
           }
           <div class="weapon-desc">{{ weapon.description }}</div>
+          <div class="materials">
+            @for (material of materials; track $index) {
+              <img
+                [src]="getMaterialImageUrl(material)"
+                [alt]="material.name"
+                [title]="material.name"
+                [routerLink]="`/materials/${material.normalizedName}`"
+              />
+            }
+          </div>
         </div>
       </div>
       <div class="weapon-story">

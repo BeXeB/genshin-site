@@ -27,12 +27,7 @@ export class StorageService {
 
   saveTierlist(tierlist: Tierlist): void {
     try {
-      const tiersWithoutProfile = tierlist.tiers.map((tier) => ({
-        ...tier,
-        characters: tier.characters.map(({ profile, ...rest }) => rest),
-      }));
-      const dataToSave = { ...tierlist, tiers: tiersWithoutProfile };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(dataToSave));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(tierlist));
     } catch (err) {
       console.error('Failed to save tierlist:', err);
     }

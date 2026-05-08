@@ -17,7 +17,6 @@ export type TierCharacter = {
   id: number;
   apiKey: string;
   tags: CharacterTag[];
-  profile?: CharacterProfile;
 }
 
 export type Tier = {

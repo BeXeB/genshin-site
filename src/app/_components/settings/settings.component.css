@@ -6,6 +6,19 @@
   gap: 10px;
 }
 
+.settings h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: var(--white);
+  padding-bottom: 10px;
+}
+
+.settings hr {
+  border: none;
+  border-top: 1px solid var(--light-gray);
+  margin: 0;
+}
+
 .setting {
   display: flex;
   justify-content: space-between;
@@ -30,7 +43,7 @@
   position: absolute;
   cursor: pointer;
   inset: 0;
-  background-color: var(--black);
+  background-color: var(--gray);
   transition: 0.25s;
   border-radius: 34px;
 }

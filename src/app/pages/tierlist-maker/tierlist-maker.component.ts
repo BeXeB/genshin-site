@@ -17,6 +17,7 @@ import {
 } from '../../_models/tierlist';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { StorageService } from '../../_services/storage.service';
+import { CharacterProfile } from '../../_models/character';
 
 @Component({
   selector: 'app-tierlist-maker',
@@ -51,28 +52,33 @@ export class TierlistMakerComponent implements OnInit {
 
   selectedCharacter: TierCharacter | null = null;
 
+  characterMap: Map<string, CharacterProfile> = new Map();
+
   ngOnInit(): void {
     const saved = this.storageService.loadTierlist();
     if (saved) {
       this.tierlist = saved;
     }
 
-    this.characterSerivce.getCharacters().subscribe((data) => {
-      this.characters = data
-        .filter((c) => c.name !== 'Manekina' && c.name !== 'Manekin')
-        .map((c) => ({
-          id: c.id,
-          apiKey: c.normalizedName,
-          tags: [],
-          profile: c,
-        }));
-      this.characters = this.characters.filter(
-        (c) =>
-          !this.tierlist.tiers.some((t) =>
-            t.characters.some((c2) => c2.apiKey == c.apiKey),
-          ),
-      );
-    });
+    this.characterSerivce
+      .getCharacters()
+      .subscribe((data: CharacterProfile[]) => {
+        this.characterMap = new Map(data.map((c) => [c.normalizedName, c]));
+        this.characters = data
+          .filter((c) => c.name !== 'Manekina' && c.name !== 'Manekin')
+          .map((c) => ({
+            id: c.id,
+            apiKey: c.normalizedName,
+            tags: [],
+            profile: c,
+          }));
+        this.characters = this.characters.filter(
+          (c) =>
+            !this.tierlist.tiers.some((t) =>
+              t.characters.some((c2) => c2.apiKey == c.apiKey),
+            ),
+        );
+      });
   }
 
   addTier() {
@@ -95,6 +101,12 @@ export class TierlistMakerComponent implements OnInit {
 
   normalize(tag: string): string {
     return tag.toLowerCase().replace(/[\s'"`:\-—]+/g, '');
+  }
+
+  getExtraNames(extra: string[]): string {
+    return extra
+      .map((key) => this.characterMap.get(key)?.name ?? key)
+      .join(', ');
   }
 
   addTag() {
@@ -199,17 +211,7 @@ export class TierlistMakerComponent implements OnInit {
   getJsonFile() {
     if (!this.tierlist) return;
 
-    const tiersWithoutProfile = this.tierlist.tiers.map((tier) => ({
-      ...tier,
-      characters: tier.characters.map(({ profile, ...rest }) => rest),
-    }));
-
-    const tierlistToExport = {
-      ...this.tierlist,
-      tiers: tiersWithoutProfile,
-    };
-
-    const tierlistJson = JSON.stringify(tierlistToExport, null, 2);
+    const tierlistJson = JSON.stringify(this.tierlist, null, 2);
     const blob = new Blob([tierlistJson], { type: 'application/json' });
     const url = window.URL.createObjectURL(blob);
 
@@ -224,5 +226,9 @@ export class TierlistMakerComponent implements OnInit {
 
   getCharacterIcon(apiKey: string): string {
     return this.imageService.getCharacterIcon(apiKey);
+  }
+
+  getCharacterProfile(apiKey: string): CharacterProfile | undefined {
+    return this.characterMap.get(apiKey);
   }
 }

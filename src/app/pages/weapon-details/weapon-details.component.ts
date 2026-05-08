@@ -2,11 +2,12 @@ import {
   Component,
   ChangeDetectionStrategy,
   ChangeDetectorRef,
+  OnInit,
 } from '@angular/core';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { WeaponRefine, WeaponResolved } from '../../_models/weapons';
 import { Material } from '../../_models/materials';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
 import { WeaponService } from '../../_services/weapon.service';
 import { map, switchMap, takeUntil } from 'rxjs';
@@ -15,11 +16,12 @@ import { FormsModule } from '@angular/forms';
 import { DecimalPipe } from '@angular/common';
 import { FormatterService } from '../../_services/formatter.service';
 import { BaseDetailComponent } from '../../_components/base-detail.component';
+import { ImageService } from '../../_services/image.service';
 
 @Component({
   selector: 'app-weapon-details',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [PageTitleComponent, FormsModule, DecimalPipe],
+  imports: [PageTitleComponent, FormsModule, DecimalPipe, RouterLink],
   templateUrl: './weapon-details.component.html',
   styleUrl: './weapon-details.component.css',
 })
@@ -34,6 +36,7 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
     private weaponService: WeaponService,
     protected override formatterService: FormatterService,
     private cdr: ChangeDetectorRef,
+    private imageService: ImageService,
   ) {
     super(route, formatterService);
   }
@@ -74,6 +77,8 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
   level: string = '1';
   levelIndex: number = this.quickLevels.indexOf(this.level);
 
+  materials: Material[] = [];
+
   override loadDetail(slug: string): void {
     this.resolver
       .initialize()
@@ -90,6 +95,23 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
           if (resolvedWeapon) {
             this.weapon = resolvedWeapon;
             this.setLevel(this.weapon?.rarity > 2 ? '90' : '70');
+
+            if (resolvedWeapon.rarity > 2) {
+              resolvedWeapon.costs.ascend6?.map((i) => {
+                if (i.material.id === 202) {
+                  return;
+                }
+                this.materials.push(i.material);
+              });
+            } else {
+              resolvedWeapon.costs.ascend4?.map((i) => {
+                if (i.material.id === 202) {
+                  return;
+                }
+                this.materials.push(i.material);
+              });
+            }
+
             this.errorMessage = null;
             this.cdr.markForCheck();
           } else {
@@ -189,5 +211,12 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
     }, 0);
 
     this.levelIndex = index !== -1 ? index : closestIndex;
+  }
+
+  getMaterialImageUrl(material: Material): string {
+    return this.imageService.getMaterialImage(
+      material.normalizedName,
+      material.type,
+    );
   }
 }
