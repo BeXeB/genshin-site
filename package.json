@@ -12,7 +12,8 @@
     "update:artifacts": "ts-node -P tsconfig.scripts.json scripts/update-artifacts.ts",
     "update:materials": "ts-node -P tsconfig.scripts.json scripts/update-materials.ts",
     "organize:icons": "ts-node -P tsconfig.scripts.json scripts/organize-icons.ts",
-    "test:icons": "ts-node -P tsconfig.scripts.json scripts/test-missing-icons.ts"
+    "test:icons": "ts-node -P tsconfig.scripts.json scripts/test-missing-icons.ts",
+    "extract:talent-descriptions": "ts-node -P tsconfig.scripts.json scripts/extract-talent-descriptions.ts"
   },
   "private": true,
   "dependencies": {
