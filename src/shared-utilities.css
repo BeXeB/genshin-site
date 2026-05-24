@@ -2,6 +2,20 @@
   width: 100%;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
 .flex-row-between {
   display: flex;
   flex-direction: row;
@@ -28,6 +42,26 @@
   gap: 20px;
   justify-content: center;
   padding-bottom: 20px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-5 {
+  flex: 5;
 }
 
 .card {

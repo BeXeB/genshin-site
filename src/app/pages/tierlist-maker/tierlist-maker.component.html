@@ -21,7 +21,7 @@
               (cdkDropListDropped)="drop($event)"
               class="tier-dropzone tier-zone"
             >
-              @for (char of tier.characters; track char.id) {
+              @for (char of tier.characters; track char.instanceId) {
                 <div
                   cdkDrag
                   class="draggable-item"
@@ -56,7 +56,15 @@
         }
       </div>
       <button class="add-button" (click)="addTier()">Tier Hozzáadása</button>
-      <h3>Elérhető Karakterek</h3>
+      <div class="flex-row align-center justify-space-between">
+        <h3 class="characters-header">Elérhető Karakterek</h3>
+        <input
+          class="search-input"
+          type="text"
+          placeholder="Karakter keresése..."
+          [(ngModel)]="poolSearch"
+        />
+      </div>
       <div
         cdkDropList
         #charactersList="cdkDropList"
@@ -64,10 +72,12 @@
         [cdkDropListData]="characters"
         [cdkDropListConnectedTo]="allDropLists"
         cdkDropListOrientation="mixed"
+        cdkDropListHasAnchor
+        cdkDropListSortingDisabled="true"
         (cdkDropListDropped)="drop($event)"
         class="item-pool"
       >
-        @for (char of characters; track char.id) {
+        @for (char of filteredCharacters; track char.apiKey) {
           <div
             cdkDrag
             class="draggable-item"
@@ -86,7 +96,11 @@
     <div class="tagside">
       @if (selectedCharacter != null) {
         <div class="character-sidebar">
-          <h3>{{ getCharacterProfile(selectedCharacter.apiKey)?.name || "Karakter" }}</h3>
+          <h3>
+            {{
+              getCharacterProfile(selectedCharacter.apiKey)?.name || "Karakter"
+            }}
+          </h3>
 
           <h4>Tag-ek</h4>
           <div class="tag-list">

@@ -110,6 +110,17 @@
   flex-wrap: wrap;
 }
 
+.characters-header {
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.search-input {
+  height: auto;
+  flex: 1;
+  min-width: 150px;
+}
+
 .tagside {
   flex: 0 0 300px;
 }

@@ -54,16 +54,41 @@ export class TierlistMakerComponent implements OnInit {
 
   characterMap: Map<string, CharacterProfile> = new Map();
 
+  poolSearch: string = '';
+
+  get filteredCharacters(): TierCharacter[] {
+    const search = this.poolSearch.trim().toLowerCase();
+
+    if (!search) return this.characters;
+
+    return this.characters.filter((char) => {
+      const profile = this.getCharacterProfile(char.apiKey);
+      const name = profile?.name?.toLowerCase() ?? '';
+      const apiKey = char.apiKey.toLowerCase();
+
+      return name.includes(search) || apiKey.includes(search);
+    });
+  }
+
   ngOnInit(): void {
     const saved = this.storageService.loadTierlist();
     if (saved) {
       this.tierlist = saved;
+
+      this.tierlist.tiers.forEach((tier) => {
+        tier.characters.forEach((char) => {
+          if (!char.instanceId) {
+            char.instanceId = crypto.randomUUID();
+          }
+        });
+      });
     }
 
     this.characterSerivce
       .getCharacters()
       .subscribe((data: CharacterProfile[]) => {
         this.characterMap = new Map(data.map((c) => [c.normalizedName, c]));
+
         this.characters = data
           .filter((c) => c.name !== 'Manekina' && c.name !== 'Manekin')
           .map((c) => ({
@@ -71,13 +96,8 @@ export class TierlistMakerComponent implements OnInit {
             apiKey: c.normalizedName,
             tags: [],
             profile: c,
-          }));
-        this.characters = this.characters.filter(
-          (c) =>
-            !this.tierlist.tiers.some((t) =>
-              t.characters.some((c2) => c2.apiKey == c.apiKey),
-            ),
-        );
+          }))
+          .sort((b, a) => a.profile.version.localeCompare(b.profile.version));
       });
   }
 
@@ -87,15 +107,8 @@ export class TierlistMakerComponent implements OnInit {
   }
 
   removeTier(tierToRemove: Tier) {
-    for (let i = tierToRemove.characters.length - 1; i >= 0; i--) {
-      transferArrayItem(
-        tierToRemove.characters,
-        this.characters,
-        i,
-        this.characters.length,
-      );
-    }
     this.tierlist.tiers = this.tierlist.tiers.filter((t) => t !== tierToRemove);
+
     this.storageService.saveTierlist(this.tierlist);
   }
 
@@ -133,6 +146,8 @@ export class TierlistMakerComponent implements OnInit {
         char.tags = char.tags.filter((ct) => ct.id !== tagId);
       });
     });
+
+    this.storageService.saveTierlist(this.tierlist);
   }
 
   selectCharacter(char: TierCharacter) {
@@ -193,20 +208,47 @@ export class TierlistMakerComponent implements OnInit {
         event.previousIndex,
         event.currentIndex,
       );
-    } else {
-      const item = event.previousContainer.data[event.previousIndex];
-      if (!item) return;
-
-      transferArrayItem(
-        event.previousContainer.data,
-        event.container.data,
-        event.previousIndex,
-        event.currentIndex,
-      );
+      return;
     }
+
+    const item = event.previousContainer.data[event.previousIndex];
+    if (!item) return;
+
+    const fromPool = event.previousContainer.id === 'charactersList';
+
+    if (fromPool) {
+      const cloned: TierCharacter = {
+        ...item,
+        instanceId: crypto.randomUUID(),
+        tags: [],
+      };
+
+      event.container.data.splice(event.currentIndex, 0, cloned);
+      this.storageService.saveTierlist(this.tierlist);
+      return;
+    }
+
+    const toPool = event.container.id === 'charactersList';
+
+    if (toPool) {
+      event.previousContainer.data.splice(event.previousIndex, 1);
+      this.storageService.saveTierlist(this.tierlist);
+      return;
+    }
+
+    transferArrayItem(
+      event.previousContainer.data,
+      event.container.data,
+      event.previousIndex,
+      event.currentIndex,
+    );
 
     this.storageService.saveTierlist(this.tierlist);
   }
+
+  allowDropFromPool = (drag: any, drop: any) => {
+    return true; // allow visuals
+  };
 
   getJsonFile() {
     if (!this.tierlist) return;
