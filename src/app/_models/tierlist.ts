@@ -3,13 +3,15 @@ import { CharacterProfile } from './character';
 export type TagDefinition = {
   id: string;
   label: string;
-  color: string;
+  backgroundcolor: string;
+  color?: string;
 };
 
 export type CharacterTag = {
   id: string;
   label: string;
-  color: string;
+  backgroundcolor: string;
+  color?: string;
   extra?: string[];
 };
 

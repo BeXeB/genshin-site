@@ -7,6 +7,7 @@ import {
 } from '@angular/cdk/drag-drop';
 import { CharacterService } from '../../_services/character.service';
 import { ImageService } from '../../_services/image.service';
+import { TierlistService } from '../../_services/tierlist.service';
 import { FormsModule } from '@angular/forms';
 import {
   CharacterTag,
@@ -31,6 +32,7 @@ export class TierlistMakerComponent implements OnInit {
     private characterSerivce: CharacterService,
     private storageService: StorageService,
     private imageService: ImageService,
+    private tierlistService: TierlistService,
   ) {}
 
   get allDropLists() {
@@ -49,11 +51,15 @@ export class TierlistMakerComponent implements OnInit {
 
   newTagLabel: string = '';
   newTagColor: string = '#555555';
+  newTagTextColor: string = '#dbdbdb';
 
   selectedCharacter: TierCharacter | null = null;
 
   characterMap: Map<string, CharacterProfile> = new Map();
 
+
+  importError: string = '';
+  importMessage: string = '';
   poolSearch: string = '';
 
   get filteredCharacters(): TierCharacter[] {
@@ -131,11 +137,13 @@ export class TierlistMakerComponent implements OnInit {
     const newTag: TagDefinition = {
       id: this.normalize(this.newTagLabel),
       label: this.newTagLabel,
-      color: this.newTagColor,
+      backgroundcolor: this.newTagColor,
+      color: this.newTagTextColor,
     };
     this.tierlist.tags.push(newTag);
     this.newTagLabel = '';
     this.newTagColor = '#555555';
+    this.newTagTextColor = '#dbdbdb';
     this.storageService.saveTierlist(this.tierlist);
   }
 
@@ -165,6 +173,7 @@ export class TierlistMakerComponent implements OnInit {
       if (!tagDef) return;
       const newTag: CharacterTag = {
         id: tagId,
+        backgroundcolor: tagDef.backgroundcolor,
         color: tagDef.color,
         label: tagDef.label,
       };
@@ -246,6 +255,17 @@ export class TierlistMakerComponent implements OnInit {
     this.storageService.saveTierlist(this.tierlist);
   }
 
+  dropTag(event: CdkDragDrop<TagDefinition[]>) {
+    if (event.previousContainer === event.container) {
+      moveItemInArray(
+        event.container.data,
+        event.previousIndex,
+        event.currentIndex,
+      );
+      this.storageService.saveTierlist(this.tierlist);
+    }
+  }
+
   allowDropFromPool = (drag: any, drop: any) => {
     return true; // allow visuals
   };
@@ -253,7 +273,22 @@ export class TierlistMakerComponent implements OnInit {
   getJsonFile() {
     if (!this.tierlist) return;
 
-    const tierlistJson = JSON.stringify(this.tierlist, null, 2);
+    const cleanedTierlist = {
+      tiers: this.tierlist.tiers.map((tier) => ({
+        tier: tier.tier,
+        characters: tier.characters.map((char) => ({
+          id: char.id,
+          apiKey: char.apiKey,
+          tags: char.tags.map((tag) => ({
+            id: tag.id,
+            ...(tag.extra && { extra: tag.extra }),
+          })),
+        })),
+      })),
+      tags: this.tierlist.tags,
+    };
+
+    const tierlistJson = JSON.stringify(cleanedTierlist, null, 2);
     const blob = new Blob([tierlistJson], { type: 'application/json' });
     const url = window.URL.createObjectURL(blob);
 
@@ -270,6 +305,87 @@ export class TierlistMakerComponent implements OnInit {
     return this.imageService.getCharacterIcon(apiKey);
   }
 
+
+  onFileSelected(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    const file = input.files?.[0];
+    if (file) {
+      this.importJsonFile(file);
+      input.value = '';
+    }
+  }
+
+  importJsonFile(file: File): void {
+    if (!file.name.endsWith('.json')) {
+      this.importError = 'Csak JSON fájlok importálhatók';
+      this.importMessage = '';
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = (e: ProgressEvent<FileReader>) => {
+      try {
+        const content = e.target?.result as string;
+        const importedTierlist = this.tierlistService.getTierlistFromJson(content);
+        
+        if (!this.validateTierlist(importedTierlist)) {
+          return;
+        }
+
+        this.assignInstanceIds(importedTierlist);
+        this.tierlist = importedTierlist;
+        this.storageService.saveTierlist(this.tierlist);
+        this.importMessage = 'Tierlist sikeresen importálva!';
+        this.importError = '';
+        
+        setTimeout(() => {
+          this.importMessage = '';
+        }, 3000);
+      } catch (error) {
+        this.importError = 'Hiba a JSON fájl feldolgozásakor: ' + (error instanceof Error ? error.message : 'Ismeretlen hiba');
+        this.importMessage = '';
+      }
+    };
+
+    reader.onerror = () => {
+      this.importError = 'Hiba a fájl olvasásakor';
+      this.importMessage = '';
+    };
+
+    reader.readAsText(file);
+  }
+
+  private validateTierlist(tierlist: any): boolean {
+    if (!tierlist || typeof tierlist !== 'object') {
+      this.importError = 'Érvénytelen tierlist formátum';
+      this.importMessage = '';
+      return false;
+    }
+
+    if (!Array.isArray(tierlist.tiers)) {
+      this.importError = 'Hiányzik a "tiers" tömb';
+      this.importMessage = '';
+      return false;
+    }
+
+    if (!Array.isArray(tierlist.tags)) {
+      this.importError = 'Hiányzik a "tags" tömb';
+      this.importMessage = '';
+      return false;
+    }
+
+    return true;
+  }
+
+  private assignInstanceIds(tierlist: Tierlist): void {
+    tierlist.tiers.forEach((tier) => {
+      tier.characters.forEach((char) => {
+        if (!char.instanceId) {
+          char.instanceId = crypto.randomUUID();
+        }
+      });
+    });
+  }
   getCharacterProfile(apiKey: string): CharacterProfile | undefined {
     return this.characterMap.get(apiKey);
   }

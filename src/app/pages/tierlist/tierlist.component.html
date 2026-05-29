@@ -19,7 +19,7 @@
               />
               <div class="tags">
                 @for (tag of char.character.tags; track $index) {
-                  <span class="tag" [style.background]="tag.color">
+                  <span class="tag" [style.background]="tag.backgroundcolor" [style.color]="tag.color">
                     {{ tag.label }}
 
                     @if (tag.extra?.length) {

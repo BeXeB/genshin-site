@@ -36,7 +36,7 @@
                   @if (char.tags.length) {
                     <div class="char-tags">
                       @for (tag of char.tags; track tag.id) {
-                        <span class="tag" [style.background]="tag.color">
+                        <span class="tag" [style.background]="tag.backgroundcolor" [style.color]="tag.color">
                           {{ tag.label }}
                           @if (tag.extra?.length) {
                             <span class="tooltip">
@@ -105,7 +105,7 @@
           <h4>Tag-ek</h4>
           <div class="tag-list">
             @for (tag of selectedCharacter.tags; track tag.id) {
-              <div class="tag" [style.background]="tag.color">
+              <div class="tag" [style.background]="tag.backgroundcolor" [style.color]="tag.color">
                 {{ tag.id }}
 
                 @if (tag.extra && tag.extra.length) {
@@ -120,12 +120,18 @@
 
           <h4>Tag Hozzáadása</h4>
           <div class="add-tag-options">
-            <select [(ngModel)]="selectedTagId">
-              <option value="" disabled>Válassz egy tag-et</option>
+            <input
+              type="text"
+              placeholder="Tag keresése..."
+              [(ngModel)]="selectedTagId"
+              list="tagsList"
+              class="tag-search-input"
+            />
+            <datalist id="tagsList">
               @for (tag of tierlist.tags; track tag.id) {
                 <option [value]="tag.id">{{ tag.label }}</option>
               }
-            </select>
+            </datalist>
             <input
               type="text"
               placeholder="Extra infó (Pl. 'DPS, Support')"
@@ -138,9 +144,21 @@
       }
       <div class="tag-editor">
         <h3>Tag-ek</h3>
-        <div class="tag-list">
+        <div
+          cdkDropList
+          id="tagsList"
+          [cdkDropListData]="tierlist.tags"
+          (cdkDropListDropped)="dropTag($event)"
+          cdkDropListOrientation="mixed"
+          class="tag-list"
+        >
           @for (tag of tierlist.tags; track tag.id) {
-            <span class="tag" [style.background]="tag.color">
+            <span
+              cdkDrag
+              class="tag"
+              [style.background]="tag.backgroundcolor"
+              [style.color]="tag.color"
+            >
               {{ tag.label }}
               <button type="button" (click)="removeTag(tag.id)">X</button>
             </span>
@@ -149,13 +167,37 @@
         <div class="new-tag-inputs">
           <input type="text" [(ngModel)]="newTagLabel" placeholder="Tag neve" />
           <input class="color" type="color" [(ngModel)]="newTagColor" />
+          <input class="color" type="color" [(ngModel)]="newTagTextColor" title="Text color" />
         </div>
         <button class="add-button" (click)="addTag()">Tag Hozzáadása</button>
       </div>
       <hr />
-      <button class="download-button" (click)="getJsonFile()">
-        Json file letöltése
-      </button>
+      <div class="button-group">
+        <button class="download-button" (click)="getJsonFile()">
+          Json file letöltése
+        </button>
+        <button class="download-button" (click)="fileInput.click()">
+          Json file importálása
+        </button>
+        <input
+          #fileInput
+          type="file"
+          accept=".json"
+          style="display: none"
+          (change)="onFileSelected($event)"
+        />
+      </div>
+      
+      @if (importError) {
+        <div class="import-message error">
+          {{ importError }}
+        </div>
+      }
+      @if (importMessage) {
+        <div class="import-message success">
+          {{ importMessage }}
+        </div>
+      }
     </div>
   </div>
 </div>
