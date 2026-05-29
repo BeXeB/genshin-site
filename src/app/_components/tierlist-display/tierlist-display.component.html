@@ -1,0 +1,31 @@
+<div class="tierlist" #tierlistContainer>
+    @for (tier of tierlist.tiers; track $index) {
+    <div class="tier">
+        <h2 class="tier-title">
+            {{ tier.tier }}
+        </h2>
+        <div class="characters">
+            @for (char of getCharsWithProfile(tier); track $index) {
+            <div class="character">
+                <img class="character-icon" [src]="getCharacterIcon(char.character.apiKey)"
+                    [alt]="char?.profile?.name" />
+                <div class="tags">
+                    @for (tag of char.character.tags; track $index) {
+                    <span class="tag" [style.background]="getTagDefinition(tag.id)?.backgroundcolor"
+                        [style.color]="getTagDefinition(tag.id)?.color">
+                        {{ getTagDefinition(tag.id)?.label }}
+
+                        @if (tag.extra?.length) {
+                        <span class="tooltip">
+                            {{ getExtraNames(tag.extra || []) }}
+                        </span>
+                        }
+                    </span>
+                    }
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+    }
+</div>

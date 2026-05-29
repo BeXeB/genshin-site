@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import {
   DragDropModule,
   CdkDragDrop,
@@ -19,15 +19,18 @@ import {
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { StorageService } from '../../_services/storage.service';
 import { CharacterProfile } from '../../_models/character';
+import { TierlistDisplayComponent } from '../../_components/tierlist-display/tierlist-display.component';
 
 @Component({
   selector: 'app-tierlist-maker',
   standalone: true,
-  imports: [FormsModule, DragDropModule, PageTitleComponent],
+  imports: [FormsModule, DragDropModule, PageTitleComponent, TierlistDisplayComponent],
   templateUrl: './tierlist-maker.component.html',
   styleUrl: './tierlist-maker.component.css',
 })
 export class TierlistMakerComponent implements OnInit {
+  @ViewChild(TierlistDisplayComponent) displayComponent!: TierlistDisplayComponent;
+
   constructor(
     private characterSerivce: CharacterService,
     private storageService: StorageService,
@@ -273,6 +276,10 @@ export class TierlistMakerComponent implements OnInit {
     return true; // allow visuals
   };
 
+  getCharacterIcon(apiKey: string): string {
+    return this.imageService.getCharacterIcon(apiKey);
+  }
+
   getJsonFile() {
     if (!this.tierlist) return;
 
@@ -304,8 +311,14 @@ export class TierlistMakerComponent implements OnInit {
     window.URL.revokeObjectURL(url);
   }
 
-  getCharacterIcon(apiKey: string): string {
-    return this.imageService.getCharacterIcon(apiKey);
+  getTagDefinition(tagId: string): TagDefinition {
+    const tag = this.tierlist.tags.find(t => t.id === tagId);
+    if (!tag) return { id: tagId, label: 'Unknown', backgroundcolor: '#000000', color: '#ffffff' };
+    return tag;
+  }
+
+  exportAsImage(format: 'png' | 'jpg' = 'png'): void {
+    this.displayComponent?.exportAsImage(format);
   }
 
 
@@ -414,12 +427,6 @@ export class TierlistMakerComponent implements OnInit {
     setTimeout(() => {
       this.showTagDropdown = false;
     }, 150);
-  }
-
-  getTagDefinition(tagId: string): TagDefinition {
-    const tag = this.tierlist.tags.find(t => t.id === tagId);
-    if (!tag) return { id: tagId, label: 'Unknown', backgroundcolor: '#000000', color: '#ffffff' };
-    return tag;
   }
 
   dropTier(event: CdkDragDrop<Tier[]>) {

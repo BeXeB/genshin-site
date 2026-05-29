@@ -1,23 +1,24 @@
-import { Component } from '@angular/core';
-import { TagDefinition, Tier, TierCharacter, Tierlist } from '../../_models/tierlist';
+import { Component, ViewChild } from '@angular/core';
+import { Tierlist } from '../../_models/tierlist';
 import { TierlistService } from '../../_services/tierlist.service';
-import { ImageService } from '../../_services/image.service';
 import { CharacterProfile } from '../../_models/character';
 import { CharacterService } from '../../_services/character.service';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
+import { TierlistDisplayComponent } from '../../_components/tierlist-display/tierlist-display.component';
 
 @Component({
   selector: 'app-tierlist',
   standalone: true,
-  imports: [PageTitleComponent],
+  imports: [PageTitleComponent, TierlistDisplayComponent],
   templateUrl: './tierlist.component.html',
   styleUrl: './tierlist.component.css',
 })
 export class TierlistComponent {
+  @ViewChild(TierlistDisplayComponent) displayComponent!: TierlistDisplayComponent;
+
   constructor(
     private tierlistService: TierlistService,
     private characterService: CharacterService,
-    private imageService: ImageService,
   ) { }
 
   tierlist: Tierlist = { tiers: [], tags: [] };
@@ -36,26 +37,7 @@ export class TierlistComponent {
       });
   }
 
-  getCharsWithProfile(
-    tier: Tier,
-  ): { character: TierCharacter; profile: CharacterProfile | undefined }[] {
-    return tier.characters.map((c: TierCharacter) => ({
-      character: c,
-      profile: this.characterMap.get(c.apiKey),
-    }));
-  }
-
-  getExtraNames(extra: string[]): string {
-    return extra
-      .map((key) => this.characterMap.get(key)?.name ?? key)
-      .join(', ');
-  }
-
-  getCharacterIcon(apiKey: string): string {
-    return this.imageService.getCharacterIcon(apiKey);
-  }
-
-  getTagDefinition(tagId: string): TagDefinition | undefined {
-    return this.tierlist.tags.find(t => t.id === tagId);
+  exportAsImage(format: 'png' | 'jpg' = 'png'): void {
+    this.displayComponent?.exportAsImage(format);
   }
 }

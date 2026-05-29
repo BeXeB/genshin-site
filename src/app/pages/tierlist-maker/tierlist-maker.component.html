@@ -153,12 +153,17 @@
       </div>
       <hr />
       <div class="button-group">
-        <button class="download-button" (click)="getJsonFile()">
-          Json file letöltése
-        </button>
         <button class="download-button" (click)="fileInput.click()">
           Json file importálása
         </button>
+        <div class="flex-row">
+          <button class="download-button" (click)="getJsonFile()">
+            Json file letöltése
+          </button>
+          <button class="download-button" (click)="exportAsImage('png')">
+            Kép exportálása
+          </button>
+        </div>
         <input #fileInput type="file" accept=".json" style="display: none" (change)="onFileSelected($event)" />
       </div>
 
@@ -172,6 +177,9 @@
         {{ importMessage }}
       </div>
       }
+    </div>
+    <div style="position: absolute; left: -9999px;">
+      <app-tierlist-display [tierlist]="tierlist" [characterMap]="characterMap"></app-tierlist-display>
     </div>
   </div>
 </div>
