@@ -418,9 +418,7 @@ export class TierlistMakerComponent implements OnInit {
 
   getTagDefinition(tagId: string): TagDefinition {
     const tag = this.tierlist.tags.find(t => t.id === tagId);
-    if (!tag) {
-      throw new Error(`Tag not found: ${tagId}`);
-    }
+    if (!tag) return { id: tagId, label: 'Unknown', backgroundcolor: '#000000', color: '#ffffff' };
     return tag;
   }
 
