@@ -130,17 +130,17 @@
 
           <label>
             Név
-            <input type="text" [(ngModel)]="editingTag.label" />
+            <input type="text" [(ngModel)]="editingTag.label" (ngModelChange)="onTagChanged()" />
           </label>
 
           <label>
             Háttérszín
-            <input type="color" [(ngModel)]="editingTag.backgroundcolor" />
+            <input type="color" [(ngModel)]="editingTag.backgroundcolor" (ngModelChange)="onTagChanged()" />
           </label>
 
           <label>
             Szövegszín
-            <input type="color" [(ngModel)]="editingTag.color" />
+            <input type="color" [(ngModel)]="editingTag.color" (ngModelChange)="onTagChanged()" />
           </label>
         </div>
         }
