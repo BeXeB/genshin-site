@@ -33,7 +33,7 @@ export class TierlistMakerComponent implements OnInit {
     private storageService: StorageService,
     private imageService: ImageService,
     private tierlistService: TierlistService,
-  ) {}
+  ) { }
 
   get allDropLists() {
     return [
@@ -61,6 +61,12 @@ export class TierlistMakerComponent implements OnInit {
   importError: string = '';
   importMessage: string = '';
   poolSearch: string = '';
+
+  editingTag: TagDefinition | null = null;
+
+  selectTagForEditing(tag: TagDefinition) {
+    this.editingTag = tag;
+  }
 
   get filteredCharacters(): TierCharacter[] {
     const search = this.poolSearch.trim().toLowerCase();
@@ -173,9 +179,6 @@ export class TierlistMakerComponent implements OnInit {
       if (!tagDef) return;
       const newTag: CharacterTag = {
         id: tagId,
-        backgroundcolor: tagDef.backgroundcolor,
-        color: tagDef.color,
-        label: tagDef.label,
       };
       if (extras.length) newTag.extra = extras;
       this.selectedCharacter.tags.push(newTag);
@@ -327,7 +330,7 @@ export class TierlistMakerComponent implements OnInit {
       try {
         const content = e.target?.result as string;
         const importedTierlist = this.tierlistService.getTierlistFromJson(content);
-        
+
         if (!this.validateTierlist(importedTierlist)) {
           return;
         }
@@ -337,7 +340,7 @@ export class TierlistMakerComponent implements OnInit {
         this.storageService.saveTierlist(this.tierlist);
         this.importMessage = 'Tierlist sikeresen importálva!';
         this.importError = '';
-        
+
         setTimeout(() => {
           this.importMessage = '';
         }, 3000);
@@ -388,5 +391,46 @@ export class TierlistMakerComponent implements OnInit {
   }
   getCharacterProfile(apiKey: string): CharacterProfile | undefined {
     return this.characterMap.get(apiKey);
+  }
+
+  showTagDropdown = false;
+
+  get filteredTags(): TagDefinition[] {
+    const search = this.selectedTagId.toLowerCase().trim();
+
+    return this.tierlist.tags.filter(
+      tag =>
+        tag.label.toLowerCase().includes(search) ||
+        tag.id.toLowerCase().includes(search)
+    );
+  }
+
+  selectTag(tag: TagDefinition) {
+    this.selectedTagId = tag.id;
+    this.showTagDropdown = false;
+  }
+
+  hideDropdown() {
+    setTimeout(() => {
+      this.showTagDropdown = false;
+    }, 150);
+  }
+
+  getTagDefinition(tagId: string): TagDefinition {
+    const tag = this.tierlist.tags.find(t => t.id === tagId);
+    if (!tag) {
+      throw new Error(`Tag not found: ${tagId}`);
+    }
+    return tag;
+  }
+
+  dropTier(event: CdkDragDrop<Tier[]>) {
+    moveItemInArray(
+      this.tierlist.tiers,
+      event.previousIndex,
+      event.currentIndex
+    );
+
+    this.storageService.saveTierlist(this.tierlist);
   }
 }

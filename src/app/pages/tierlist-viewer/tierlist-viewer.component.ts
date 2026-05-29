@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
 import { ImageService } from '../../_services/image.service';
-import { Tier, TierCharacter, Tierlist } from '../../_models/tierlist';
+import { TagDefinition, Tier, TierCharacter, Tierlist } from '../../_models/tierlist';
 import { CharacterProfile } from '../../_models/character';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { TierlistService } from '../../_services/tierlist.service';
@@ -17,7 +17,7 @@ export class TierlistViewerComponent {
     private characterService: CharacterService,
     private tierlistService: TierlistService,
     private imageService: ImageService,
-  ) {}
+  ) { }
 
   tierlist: Tierlist | null = null;
   characterMap: Map<string, CharacterProfile> = new Map();
@@ -96,5 +96,9 @@ export class TierlistViewerComponent {
 
   getCharacterIcon(apiKey: string): string {
     return this.imageService.getCharacterIcon(apiKey);
+  }
+
+  getTagDefinition(tagId: string): TagDefinition | undefined {
+    return this.tierlist?.tags.find(t => t.id === tagId);
   }
 }

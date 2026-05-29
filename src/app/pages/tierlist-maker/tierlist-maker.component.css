@@ -224,6 +224,13 @@
   width: 100%;
 }
 
+.close-button {
+  margin-left: 2px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+}
+
 .import-message {
   margin-top: 10px;
   padding: 12px 16px;
@@ -244,7 +251,6 @@
   border: 1px solid var(--blue);
 }
 
-/* Tag drag-drop styles */
 #tagsList.cdk-drop-list-dragging .tag:not(.cdk-drag-placeholder) {
   opacity: 0.7;
 }
@@ -258,19 +264,35 @@
   transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
 }
 
-/* Tag search input styles */
-.tag-search-input {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid var(--dark-gray);
-  border-radius: 4px;
-  background-color: var(--darker-gray);
-  color: var(--white);
-  font-size: 14px;
+
+.tag-autocomplete {
+  position: relative;
 }
 
-.tag-search-input:focus {
-  outline: none;
-  border-color: var(--blue);
-  box-shadow: 0 0 0 2px var(--dark-gray);
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 250px;
+  overflow-y: auto;
+  border: 1px solid #444;
+  background: #222;
+  z-index: 1000;
+}
+
+.option {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: #333;
+}
+
+.tag-editor-panel {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 8px;
 }

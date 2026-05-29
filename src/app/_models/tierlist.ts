@@ -9,9 +9,6 @@ export type TagDefinition = {
 
 export type CharacterTag = {
   id: string;
-  label: string;
-  backgroundcolor: string;
-  color?: string;
   extra?: string[];
 };
 
