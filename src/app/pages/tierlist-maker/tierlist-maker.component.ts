@@ -71,6 +71,12 @@ export class TierlistMakerComponent implements OnInit {
     this.editingTag = tag;
   }
 
+  onTagChanged() {
+    if (!this.editingTag) return;
+
+    this.storageService.saveTierlist(this.tierlist);
+  }
+
   get filteredCharacters(): TierCharacter[] {
     const search = this.poolSearch.trim().toLowerCase();
 
