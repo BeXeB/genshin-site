@@ -34,13 +34,14 @@ export class TierlistService {
               if (!def) {
                 return {
                   ...tag,
-                  color: '#999',
+                  backgroundcolor: '#999',
                   label: tag.id,
                 };
               }
 
               return {
                 ...tag,
+                backgroundcolor: def.backgroundcolor,
                 color: def.color,
                 label: def.label,
               };
@@ -73,13 +74,15 @@ export class TierlistService {
           if (!def) {
             return {
               ...tag,
-              color: '#999',
+              backgroundcolor: '#555555',
+              color: '#dbdbdb',
               label: tag.id,
             };
           }
 
           return {
             ...tag,
+            backgroundcolor: def.backgroundcolor,
             color: def.color,
             label: def.label,
           };

@@ -9,7 +9,6 @@ import { CharacterDetailsComponent } from './pages/character-details/character-d
 import { TierlistMakerComponent } from './pages/tierlist-maker/tierlist-maker.component';
 import { GuidesComponent } from './pages/guides/guides.component';
 import { GuideDetailsComponent } from './pages/guide-details/guide-details.component';
-import { TierlistViewerComponent } from './pages/tierlist-viewer/tierlist-viewer.component';
 import { WeaponDetailsComponent } from './pages/weapon-details/weapon-details.component';
 import { ArtifactDetailsComponent } from './pages/artifact-details/artifact-details.component';
 import { MaterialsComponent } from './pages/materials/materials.component';
@@ -30,5 +29,4 @@ export const routes: Routes = [
   { path: 'materials/:slug', component: MaterialDetailsComponent },
   { path: 'tools', component: ToolsComponent },
   { path: 'tierlist-maker', component: TierlistMakerComponent },
-  { path: 'tierlist-viewer', component: TierlistViewerComponent },
 ];
