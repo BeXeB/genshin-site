@@ -1,17 +1,15 @@
 {
-  "combat1": "<color=#FFD780FF>Normal Attack</color>\nLegfeljebb 4 egymást követő claymore csapás.\n\n<color=#FFD780FF>Charged Attack</color>\nStamina felhasználásával erős támadást hajt végre.\n\n<color=#FFD780FF>Plunging Attack</color>\nA levegőből lecsapva AoE sebzést okoz becsapódáskor.",
-  "combat2": "<color=#FF9999FF>Pyro DMG</color>-et okoz és aktiválja a Nightsoul's Blessing állapotot.\n\n<color=#FFD780FF>Tap</color>\nMegidézi a Ring of Searing Radiance gyűrűt, amely követi az aktív karaktert és időközönként támad.\n\n<color=#FFD780FF>Hold</color>\nMegidézi a Flamestrider-t, amely gyors mozgást biztosít és a támadásokat <color=#FF9999FF>Pyro DMG</color>-gé alakítja.",
-  "combat3": "Fighting Spirit felhasználásával aktiválható.\n\nSunfell Slice AoE <color=#FF9999FF>Pyro DMG</color>-et okoz és aktiválja a <color=#FFD780FF>Crucible of Death and Life</color> állapotot.\nEz növeli Mavuika támadásainak sebzését.",
-
-  "passive1": "Ha egy közeli csapattag Nightsoul Burst-öt aktivál, Mavuika ATK-ja 30%-kal nő 10 másodpercre.",
-  "passive2": "Hour of Burning Skies használatakor a felhasznált Fighting Spirit növeli az aktív karakter sebzését.\nA bónusz legfeljebb 40%, és 20 másodperc alatt fokozatosan csökken.",
-  "passive3": "Ha a Nightsoul pontok elfogynak, Mavuika Phlogiston segítségével fenntarthatja a Flamestrider formát.\nNatlan területén Nightsoul Transmission aktiválható, amely Nightsoul's Blessing állapotot ad és Nightsoul pontokat tölt vissza.",
-  "passive4": "A csapat Nightsoul Transmission újratöltési ideje 20%-kal csökken.",
-
-  "c1": "Növeli Mavuika maximális Nightsoul pontjait és gyorsabban szerez Fighting Spirit-et.\nFighting Spirit szerzése után ATK bónuszt kap rövid időre.",
-  "c2": "Nightsoul's Blessing alatt nő Mavuika Base ATK-ja.\n\nRing of Searing Radiance csökkenti a közeli ellenfelek DEF-jét.\nFlamestrider támadásai jelentősen megnövelt sebzést okoznak.",
-  "c3": "Növeli a Hour of Burning Skies szintjét 3-mal.",
-  "c4": "A \"Kiongozi\" talent erősítése.\nA Burst utáni sebzésbónusz nem csökken idővel, és további DMG Bonus jár.",
-  "c5": "Növeli a The Named Moment szintjét 3-mal.",
-  "c6": "The Named Moment jelentősen erősödik.\n\nRing of Searing Radiance további támadásokat idéz.\nFlamestrider erős AoE <color=#FF9999FF>Pyro DMG</color>-et okoz és csökkenti az ellenfelek DEF-jét.\nHarcon kívül Nightsoul pontok visszatölthetők."
+  "combat1": "Standard Claymore <color=#FFD780FF>Normal Attack</color> és <color=#FFD780FF>Charged Attack</color>.",
+  "combat2": "<color=#FF9999FF>Pyro DMG</color>-et okoz, Mavuika <color=#FFD780FF>Nightsoul</color> pontjai visszaállnak a maximális értékre és aktiválja a <color=#FFD780FF>Nightsoul's Blessing</color> állapotot.\n\n<color=#FFD780FF>Tap</color>\nMegidézi a <color=#FFD780FF>Ring of Searing Radiance</color> gyűrűt, amely követi az aktív karaktert és időközönként támad.\n\n<color=#FFD780FF>Hold</color>\nMegidézi a <color=#FFD780FF>Flamestrider</color>-t, amely Mavuika támadásait <color=#FF9999FF>Pyro DMG</color>-gé alakítja.\n\nA skill újbóli <color=#FFD780FF>Tap</color>-ként használata után megváltozik, melyik verziója aktív a skillnek.",
+  "combat3": "<color=#FFD780FF>Fighting Spirit</color> felhasználásával aktiválható.\n\n <color=#FF9999FF>AoE Pyro DMG</color>-et okoz és aktiválja a <color=#FFD780FF>Crucible of Death and Life</color> állapotot.\nEz növeli Mavuika támadásainak sebzését.",
+  "passive1": "Ha egy közeli csapattag <color=#FFD780FF>Nightsoul Burst</color>-öt aktivál, Mavuika ATK-ja 30%-kal nő 10 másodpercre.",
+  "passive2": "<color=#FFD780FF>Hour of Burning Skies</color> használatakor a felhasznált <color=#FFD780FF>Fighting Spirit</color> növeli az aktív karakter sebzését.\nA bónusz legfeljebb 40%, és 20 másodperc alatt fokozatosan csökken.",
+  "passive3": "Ha a Nightsoul pontok elfogynak, Mavuika <color=#FFD780FF>Phlogiston</color> segítségével fenntarthatja a <color=#FFD780FF>Flamestrider</color> formát.\nNatlan területén <color=#FFD780FF>Nightsoul Transmission</color> aktiválható, amely <color=#FFD780FF>Nightsoul's Blessing</color> állapotot ad és <color=#FFD780FF>Nightsoul</color> pontokat tölt vissza.",
+  "passive4": "A csapat <color=#FFD780FF>Nightsoul Transmission</color> újratöltési ideje 20%-kal csökken.",
+  "c1": "Növeli Mavuika maximális Nightsoul pontjait és gyorsabban szerez <color=#FFD780FF>Fighting Spirit</color>-et.\n<color=#FFD780FF>Fighting Spirit</color> szerzése után 40% <color=#FFD780FF>ATK</color> bónuszt kap rövid időre.",
+  "c2": "<color=#FFD780FF>Nightsoul's Blessing</color> alatt nő Mavuika <color=#FFD780FF>Base ATK</color>-ja 200-al.\n\n<color=#FFD780FF>Ring of Searing Radiance</color> csökkenti a közeli ellenfelek <color=#FFD780FF>DEF</color>-jét.\n<color=#FFD780FF>Flamestrider</color> támadásai jelentősen megnövelt <color=#FF9999FF>Pyro DMG</color>-et okoznak.",
+  "c3": "Növeli a <color=#FFD780FF>Hour of Burning Skies</color> szintjét 3-mal.\n\nA maximális szint 15.",
+  "c4": "A <color=#FFD780FF>\"Kiongozi\"</color> talent erősítése.\nA <color=#FFD780FF>Burst</color> utáni sebzésbónusz nem csökken idővel, és további 10% <color=#FFD780FF>DMG Bonus</color> jár.",
+  "c5": "Növeli a <color=#FFD780FF>The Named Moment</color> szintjét 3-mal.\n\nA maximális szint 15.",
+  "c6": "<color=#FFD780FF>The Named Moment</color> jelentősen erősödik.\n\n<color=#FFD780FF>Ring of Searing Radiance</color> további támadásokat idéz.\n<color=#FFD780FF>Flamestrider</color> erős <color=#FF9999FF>AoE Pyro DMG</color>-et okoz és csökkenti az ellenfelek DEF-jét 20%-kal."
 }
