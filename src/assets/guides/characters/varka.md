@@ -53,7 +53,7 @@
 
 | Substatok                                                |                                                                        |
 | -------------------------------------------------------- | ---------------------------------------------------------------------- |
-| 1. Crit DMG% <br> 1. Crit Rate% <br> 2. ATK% <br> 3. ATK | ER követelmény:<br> Varkára nem kell ER, mert nem használja a burstjet |
+| 1. Crit DMG% <br> 1. Crit Rate% <br> 2. ATK% <br> 3. ATK | ER követelmény:<br> Varkára nem kell ER, mert nem használja a burstjét |
 
   </div>
   <div class="flex-1">
