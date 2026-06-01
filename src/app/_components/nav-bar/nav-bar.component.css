@@ -102,7 +102,7 @@
   transition: color 0.2s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hamburger-menu {
     display: block;
     min-height: 65px;
