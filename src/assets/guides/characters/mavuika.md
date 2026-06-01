@@ -1,4 +1,4 @@
-*<!-- Weapon Images -->
+<!-- Weapon Images -->
 
 [sig-5]: assets/images/weapons/athousandblazingsuns/awaken.webp
 [5star-5]: assets/images/Claymore.webp
