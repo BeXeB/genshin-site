@@ -31,7 +31,7 @@ jobs:
 
       # Build Angular app
       - name: Build project
-        run: npx ng build --configuration production --base-href /genshin-site/
+        run: npx ng build --configuration production --base-href /
 
       - name: Configure Git user
         run: |
