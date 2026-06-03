@@ -27,6 +27,7 @@
 [xilonen-g]: assets/images/characters/xilonen/icon.webp
 [escoffier-c]: assets/images/characters/escoffier/icon.webp
 [kazuha-a]: assets/images/characters/kaedeharakazuha/icon.webp
+[sucrose-a]: assets/images/characters/sucrose/icon.webp
 
 [clorinde-e]: assets/images/characters/clorinde/icon.webp
 [varesa-e]: assets/images/characters/varesa/icon.webp
@@ -34,7 +35,6 @@
 [emilie-d]: assets/images/characters/emilie/icon.webp
 [mualani-h]: assets/images/characters/mualani/icon.webp
 [mona-h]: assets/images/characters/mona/icon.webp
-[sucrose-a]: assets/images/characters/sucrose/icon.webp
 [navia-g]: assets/images/characters/navia/icon.webp
 [chasca-a]: assets/images/characters/chasca/icon.webp
 
@@ -90,6 +90,7 @@
 | ![mavuika-p] Mavuika | [mix:![citlali-c]![c-c]![furina-h]![h-h]] Element Applikátorok | [mix:![iansan-e]![xilonen-g]![escoffier-c]![a-a]] Bufferek / Extra Cryo | ![bennett-p] Bennett |
 | ![mavuika-p] Mavuika |      [mix:![iansan-e]![bennett-p]] Pyro/Electro Bufferek       |                        ![chevreuse-p] Chevreuse                         |  ![ororon-e] Ororon  |
 | ![mavuika-p] Mavuika |           [mix:![kazuha-a]![iansan-e]] Kazuha/Iansan           |                          ![xilonen-g] Xilonen                           | ![bennett-p] Bennett |
+| ![mavuika-p] Mavuika |                       ![iansan-e] Iansan                       |                             ![mona-h] Mona                              | ![sucrose-a] Sucrose |
 
 ### Off-Field
 
