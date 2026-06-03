@@ -1,5 +1,3 @@
-## Gyorstalpaló
-
 <!-- Weapon Images -->
 
 [sig-5]: assets/images/weapons/goldenfrostboundoath/awaken.webp

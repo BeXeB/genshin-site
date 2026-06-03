@@ -137,8 +137,13 @@
     width: 100vw;
     height: 50px;
     border-radius: 0;
-    border: none;
+    border: 1px solid transparent;
     border-top: 1px solid var(--gray);
+  }
+
+  .nav-button:hover {
+    border: 1px solid var(--blue);
+    border-top: 1px solid var(--blue);
   }
 
   .settings {
