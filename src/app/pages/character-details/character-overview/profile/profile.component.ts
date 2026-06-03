@@ -16,7 +16,7 @@ export class OverviewProfileComponent implements OnInit {
   @Input() char: CharacterResolved | null = null;
   @Input() elementColor: string | null = null;
 
-  constructor(private imageService: ImageService) {}
+  constructor(private imageService: ImageService) { }
 
   quickLevels = [
     '1',
@@ -107,5 +107,16 @@ export class OverviewProfileComponent implements OnInit {
 
   getMaterialImageUrl(material: Material): string {
     return this.imageService.getMaterialImage(material.normalizedName, material.type);
+  }
+
+  getHungarianWeaponName(weaponType: string): string {
+    const weaponNames: { [key: string]: string } = {
+      'Sword': 'Kard',
+      'Claymore': 'Kétkezes kard',
+      'Polearm': 'Lándzsa',
+      'Bow': 'Íj',
+      'Catalyst': 'Catalyst',
+    };
+    return weaponNames[weaponType] || weaponType;
   }
 }
