@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
@@ -23,7 +23,7 @@ import { ElementType } from '../../_models/enum';
   templateUrl: './character-details.component.html',
   styleUrl: './character-details.component.css',
 })
-export class CharacterDetailsComponent implements OnInit, OnDestroy {
+export class CharacterDetailsComponent implements OnInit {
   char: CharacterResolved | null = null;
   apikey: string | null = null;
   errorMessage: string | null = null;
@@ -70,7 +70,7 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
     private router: Router,
     private storageService: StorageService,
     private cdr: ChangeDetectorRef,
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.route.paramMap
@@ -93,8 +93,6 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
           this.char = resolvedChar;
           this.errorMessage = null;
           this.cdr.markForCheck();
-          // Restore scroll position after character data loads
-          setTimeout(() => this.restoreScrollPosition(), 0);
         },
         error: () => {
           const name = this.apikey || 'unknown';
@@ -103,40 +101,4 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
         },
       });
   }
-
-  ngOnDestroy(): void {
-    // Save scroll position before component is destroyed
-    this.saveScrollPosition();
-    this.destroy$.next();
-    this.destroy$.complete();
-  }
-
-  /**
-   * Save current scroll position to storage with current URL as key
-   */
-  private saveScrollPosition(): void {
-    const scrollPos = window.scrollY || window.pageYOffset;
-    const key = this.getScrollPositionKey();
-    this.storageService.saveData(key, scrollPos);
-  }
-
-  /**
-   * Restore scroll position from storage if available
-   */
-  private restoreScrollPosition(): void {
-    const key = this.getScrollPositionKey();
-    const scrollPos = this.storageService.getData<number>(key);
-    if (scrollPos !== null && scrollPos > 0) {
-      window.scrollTo({ top: scrollPos, behavior: 'auto' });
-      // Clear the saved position after restoring
-      this.storageService.saveData(key, 0);
-    }
-  }
-
-  /**
-   * Generate a unique key for storing scroll position based on current URL
-   */
-  private getScrollPositionKey(): string {
-    const url = this.router.url.split('#')[0];
-    return `scroll_position_${url}`;
-  }
+}
