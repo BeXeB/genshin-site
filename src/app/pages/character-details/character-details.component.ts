@@ -1,11 +1,12 @@
 import { Component, OnInit, OnDestroy, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { CharacterOverviewComponent } from './character-overview/character-overview.component';
 import { CharacterResolved } from '../../_models/character';
 import { CharacterGuideComponent } from './character-guide/character-guide.component';
 import { ResolverService } from '../../_services/resolver.service';
+import { StorageService } from '../../_services/storage.service';
 import { switchMap, takeUntil } from 'rxjs';
 import { Subject } from 'rxjs';
 import { ElementType } from '../../_models/enum';
@@ -66,19 +67,25 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
     private characterService: CharacterService,
     private resolverService: ResolverService,
     private route: ActivatedRoute,
+    private router: Router,
+    private storageService: StorageService,
     private cdr: ChangeDetectorRef,
   ) {}
 
   ngOnInit(): void {
-    const name = this.route.snapshot.paramMap.get('slug');
-    if (!name) return;
-    this.apikey = name;
-
-    this.resolverService
-      .initialize()
+    this.route.paramMap
       .pipe(
-        switchMap(() => this.characterService.getCharacterDetails(name)),
-        switchMap((data) => this.resolverService.resolveCharacter(data)),
+        switchMap((params) => {
+          const name = params.get('slug');
+          if (!name) {
+            throw new Error('No character slug provided');
+          }
+          this.apikey = name;
+          return this.resolverService.initialize().pipe(
+            switchMap(() => this.characterService.getCharacterDetails(name)),
+            switchMap((data) => this.resolverService.resolveCharacter(data)),
+          );
+        }),
         takeUntil(this.destroy$),
       )
       .subscribe({
@@ -86,8 +93,11 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
           this.char = resolvedChar;
           this.errorMessage = null;
           this.cdr.markForCheck();
+          // Restore scroll position after character data loads
+          setTimeout(() => this.restoreScrollPosition(), 0);
         },
         error: () => {
+          const name = this.apikey || 'unknown';
           this.errorMessage = `Character "${name}" not found`;
           this.cdr.markForCheck();
         },
@@ -95,7 +105,38 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
+    // Save scroll position before component is destroyed
+    this.saveScrollPosition();
     this.destroy$.next();
     this.destroy$.complete();
   }
-}
+
+  /**
+   * Save current scroll position to storage with current URL as key
+   */
+  private saveScrollPosition(): void {
+    const scrollPos = window.scrollY || window.pageYOffset;
+    const key = this.getScrollPositionKey();
+    this.storageService.saveData(key, scrollPos);
+  }
+
+  /**
+   * Restore scroll position from storage if available
+   */
+  private restoreScrollPosition(): void {
+    const key = this.getScrollPositionKey();
+    const scrollPos = this.storageService.getData<number>(key);
+    if (scrollPos !== null && scrollPos > 0) {
+      window.scrollTo({ top: scrollPos, behavior: 'auto' });
+      // Clear the saved position after restoring
+      this.storageService.saveData(key, 0);
+    }
+  }
+
+  /**
+   * Generate a unique key for storing scroll position based on current URL
+   */
+  private getScrollPositionKey(): string {
+    const url = this.router.url.split('#')[0];
+    return `scroll_position_${url}`;
+  }

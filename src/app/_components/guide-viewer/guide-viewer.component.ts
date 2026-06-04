@@ -10,6 +10,7 @@ import {
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { MarkdownService } from '../../_services/markdown.service';
 import { GuidesService } from '../../_services/guides.service';
+import { StorageService } from '../../_services/storage.service';
 import { Router } from '@angular/router';
 import { marked } from 'marked';
 import { Subject, takeUntil } from 'rxjs';
@@ -100,6 +101,12 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
       this.toc = '';
     }
 
+    // Attach entity link handlers
+    this.scheduleTimeout(() => this.attachEntityLinkHandlers(), 0);
+
+    // Restore scroll position if previously saved
+    this.scheduleTimeout(() => this.restoreScrollPosition(), 0);
+
     // Always attempt to scroll to hash if present
     this.scheduleTimeout(() => this.scrollToHash(window.location.hash), 0);
 
@@ -111,6 +118,7 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
     private sanitizer: DomSanitizer,
     private markdownService: MarkdownService,
     private guidesService: GuidesService,
+    private storageService: StorageService,
     private router: Router,
     private cdr: ChangeDetectorRef,
   ) {}
@@ -152,8 +160,11 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
         );
         this.applyContent(content, toc);
       } else {
-        // Use basic marked for plain markdown
-        const parsed = await marked(this.source);
+        // Use basic marked for plain markdown, but preprocess custom syntax
+        const preprocessed = this.markdownService.preprocessMarkdown(
+          this.source,
+        );
+        const parsed = await marked(preprocessed);
         this.html = this.sanitizer.bypassSecurityTrustHtml(parsed);
         this.cdr.markForCheck();
       }
@@ -197,7 +208,10 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
       .subscribe({
         next: async (markdown) => {
           try {
-            const parsed = await marked(markdown);
+            const preprocessed = this.markdownService.preprocessMarkdown(
+              markdown,
+            );
+            const parsed = await marked(preprocessed);
             this.applyContent(parsed, null);
           } catch (error) {
             this.html = '<p>Hamarosan</p>';
@@ -232,6 +246,57 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
     });
   }
 
+  /**
+   * Attach click handlers to entity links to use Angular Router for navigation
+   */
+  private attachEntityLinkHandlers() {
+    document.querySelectorAll('.entity-link').forEach((link) => {
+      const listener = (e: Event) => {
+        e.preventDefault();
+        const route = (link as HTMLAnchorElement).getAttribute(
+          'data-entity-route',
+        );
+        if (route) {
+          // Save scroll position before navigating away
+          this.saveScrollPosition();
+          this.router.navigateByUrl(route);
+        }
+      };
+      link.addEventListener('click', listener);
+      this.tocEventListeners.push({ el: link, listener });
+    });
+  }
+
+  /**
+   * Save current scroll position to storage with current URL as key
+   */
+  private saveScrollPosition(): void {
+    const scrollPos = window.scrollY || window.pageYOffset;
+    const key = this.getScrollPositionKey();
+    this.storageService.saveData(key, scrollPos);
+  }
+
+  /**
+   * Restore scroll position from storage if available
+   */
+  private restoreScrollPosition(): void {
+    const key = this.getScrollPositionKey();
+    const scrollPos = this.storageService.getData<number>(key);
+    if (scrollPos !== null && scrollPos > 0) {
+      window.scrollTo({ top: scrollPos, behavior: 'auto' });
+      // Clear the saved position after restoring
+      this.storageService.saveData(key, 0);
+    }
+  }
+
+  /**
+   * Generate a unique key for storing scroll position based on current URL
+   */
+  private getScrollPositionKey(): string {
+    const url = this.router.url.split('#')[0];
+    return `scroll_position_${url}`;
+  }
+
   private scrollToHash(hash: string) {
     if (!hash) return;
     const target = document.querySelector(hash);
@@ -246,6 +311,8 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
   }
 
   ngOnDestroy(): void {
+    // Save current scroll position before component is destroyed
+    this.saveScrollPosition();
     this.cleanupTOCListeners();
     this.pendingTimeouts.forEach((timeoutId) => clearTimeout(timeoutId));
     this.destroy$.next();
