@@ -1103,5 +1103,44 @@
     "images": {
       "filename_icon": "UI_ItemIcon_113086"
     }
+  },
+  {
+    "id": 113087,
+    "name": "Counterfeit Resin",
+    "normalizedName": "counterfeitresin",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A resin recovered from the shattered depths of the Ley Lines after the defeat of the heretic hidden within Irminsul.\nOnce a crystal meant to bear the many beautiful memories that make up this world, it is now filled instead with delusions and malice that do not belong here.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113087"
+    }
+  },
+  {
+    "id": 113089,
+    "name": "Profaned Sprout",
+    "normalizedName": "profanedsprout",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A sprig recovered from the shattered depths of the Ley Lines after the defeat of the heretic hidden within Irminsul.\nWhat should have been a bud of hope has now become a beacon of profanation. Through its spreading veins, the sinful tree continues to climb toward the sky.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113089"
+    }
+  },
+  {
+    "id": 113088,
+    "name": "Twisted Withered Branch",
+    "normalizedName": "twistedwitheredbranch",
+    "rarity": 5,
+    "sortRank": 11101,
+    "description": "A withered branch recovered from the shattered depths of the Ley Lines after the defeat of the heretic hidden within Irminsul.\nA twisted bough grown from a giant tree meant to remain buried deep beneath the earth. Even cut off from its source, it still holds a strange and malevolent power.",
+    "type": "boss",
+    "typeText": "Character Level-Up Material",
+    "images": {
+      "filename_icon": "UI_ItemIcon_113088"
+    }
   }
 ]
