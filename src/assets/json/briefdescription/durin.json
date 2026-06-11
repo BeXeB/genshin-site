@@ -1,0 +1,15 @@
+{
+    "combat1": "Standard Sword <color=#FFD780FF>Normal Attack</color> és <color=#FFD780FF>Charged Attack</color>.",
+    "combat2": "Hasznalata utan 2 opcio van:\n· Ujra <color=#FFD780FF>Elemental Skill</color>-t hasznalva, Durin <color=#FF9999FF>AoE Pyro DMG</color>-et okoz es belep a <color=#FFD780FF>Confirmation of Purity</color> allapotba 30 masodpercig.\n· <color=#FFD780FF>Normal Attack</color>-ot hasznalva, Durin 3 tamadast hajt vegre amelyek <color=#FF9999FF>Pyro DMG</color>-et okoznak es belep a <color=#FFD780FF>Denial of Darkness</color> allapotba 30 masodpercig. Amikor Durin belep vagy a <color=#FFD780FF>Confirmation of Purity</color> vagy a <color=#FFD780FF>Denial of Darkness</color> allapotba, <color=#FFD780FF>Elemental Energy</color>-t regeneral maganak.",
+    "combat3": "",
+    "passive1": "",
+    "passive2": "",
+    "passive3": "25%-al tobb jutalom 20 oras <color=#FFD780FF>Mondstadt</color> expediciokbol",
+    "passive4": "",
+    "c1": "",
+    "c2": "",
+    "c3": "Növeli az <color=#FFD780FF>Elemental Burst</color> szintjét 3-mal.\n\nA maximális szint 15.",
+    "c4": "",
+    "c5": "Növeli az <color=#FFD780FF>Elemental Skill</color> szintjét 3-mal.\n\nA maximális szint 15.",
+    "c6": ""
+}

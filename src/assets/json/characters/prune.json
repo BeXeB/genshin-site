@@ -1,0 +1,1554 @@
+{
+  "profile": {
+    "id": 10000132,
+    "name": "Prune",
+    "normalizedName": "prune",
+    "title": "Childlike Dreams Cherished",
+    "description": "A diminutive Witch Hunter who has journeyed all the way from Nod-Krai with the singular purpose of rooting out a witch who, to hear her tell it, has committed every sin imaginable — including bullying little kids!",
+    "weaponType": "WEAPON_CATALYST",
+    "weaponText": "Catalyst",
+    "qualityType": "QUALITY_PURPLE",
+    "rarity": 4,
+    "birthday": "November 20",
+    "birthdaymmdd": "11/20",
+    "elementType": "ELEMENT_ANEMO",
+    "elementText": "Anemo",
+    "affiliation": "Mondstadt",
+    "region": "Mondstadt",
+    "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+    "substatText": "ATK",
+    "constellation": "Turris Venefica",
+    "costs": {
+      "ascend1": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 20000
+        },
+        {
+          "id": 104151,
+          "name": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": 101268,
+          "name": "Winter Icelea",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 3
+        }
+      ],
+      "ascend2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 40000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": 113079,
+          "name": "Radiant Antler",
+          "count": 2
+        },
+        {
+          "id": 101268,
+          "name": "Winter Icelea",
+          "count": 10
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 15
+        }
+      ],
+      "ascend3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 60000
+        },
+        {
+          "id": 104152,
+          "name": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": 113079,
+          "name": "Radiant Antler",
+          "count": 4
+        },
+        {
+          "id": 101268,
+          "name": "Winter Icelea",
+          "count": 20
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 80000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": 113079,
+          "name": "Radiant Antler",
+          "count": 8
+        },
+        {
+          "id": 101268,
+          "name": "Winter Icelea",
+          "count": 30
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 18
+        }
+      ],
+      "ascend5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 100000
+        },
+        {
+          "id": 104153,
+          "name": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": 113079,
+          "name": "Radiant Antler",
+          "count": 12
+        },
+        {
+          "id": 101268,
+          "name": "Winter Icelea",
+          "count": 45
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        }
+      ],
+      "ascend6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104154,
+          "name": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": 113079,
+          "name": "Radiant Antler",
+          "count": 20
+        },
+        {
+          "id": 101268,
+          "name": "Winter Icelea",
+          "count": 60
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 24
+        }
+      ]
+    },
+    "images": {
+      "filename_icon": "UI_AvatarIcon_Prune",
+      "filename_iconCard": "UI_AvatarIcon_Prune_Card",
+      "filename_sideIcon": "UI_AvatarIcon_Side_Prune",
+      "filename_gachaSplash": "UI_Gacha_AvatarImg_Prune",
+      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Prune"
+    },
+    "version": "6.6",
+    "isTraveler": false
+  },
+  "skills": {
+    "id": 13201,
+    "name": "Prune",
+    "combat1": {
+      "name": "Badaboom! Hexbuster Hammer",
+      "description": "Normal Attack\nPerforms up to 3 attacks by swinging the Banehunter Oathhammer, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina and performs an upward hammer swing, dealing Anemo DMG to opponents in front.\n\nPlunging Attack\nCalling upon the power of Anemo, she plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 attacks by swinging the Banehunter Oathhammer, dealing <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina and performs an upward hammer swing, dealing <color=#80FFD7FF>Anemo DMG</color> to opponents in front.\n\n<color=#FFD780FF>Plunging Attack</color>\nCalling upon the power of Anemo, she plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "Charged Attack DMG|{param4:F1P}",
+          "Charged Attack Stamina Cost|{param5:F1}",
+          "Plunge DMG|{param6:F1P}",
+          "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.486208,
+            0.522674,
+            0.559139,
+            0.60776,
+            0.644226,
+            0.680691,
+            0.729312,
+            0.777933,
+            0.826554,
+            0.875174,
+            0.923795,
+            0.972416,
+            1.033192,
+            1.093968,
+            1.154744
+          ],
+          "param2": [
+            0.482808,
+            0.519019,
+            0.555229,
+            0.60351,
+            0.639721,
+            0.675931,
+            0.724212,
+            0.772493,
+            0.820774,
+            0.869054,
+            0.917335,
+            0.965616,
+            1.025967,
+            1.086318,
+            1.146669
+          ],
+          "param3": [
+            0.679768,
+            0.730751,
+            0.781733,
+            0.84971,
+            0.900693,
+            0.951675,
+            1.019652,
+            1.087629,
+            1.155606,
+            1.223582,
+            1.291559,
+            1.359536,
+            1.444507,
+            1.529478,
+            1.614449
+          ],
+          "param4": [
+            1.3352,
+            1.43534,
+            1.53548,
+            1.669,
+            1.76914,
+            1.86928,
+            2.0028,
+            2.13632,
+            2.26984,
+            2.40336,
+            2.53688,
+            2.6704,
+            2.8373,
+            3.0042,
+            3.1711
+          ],
+          "param5": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param6": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param7": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param8": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Ring-A-Ding-Ding! Hexhunter Chime",
+      "description": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing Anemo DMG.\nIf Prune triggers Swirl on an opponent using this attack, Ring-A-Ding-Ding! Hexhunter Chime will be changed to Clang Clang! Witch-tribution Comes! for the next 6s.\n\nClang Clang! Witch-tribution Comes!\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing **Banehunter Oathhammer** to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.",
+      "descriptionRaw": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing <color=#80FFD7FF>Anemo DMG</color>.\nIf Prune triggers Swirl on an opponent using this attack, <color=#FFD780FF>Ring-A-Ding-Ding! Hexhunter Chime</color> will be changed to <color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color> for the next 6s.\n\n<color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color>\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.",
+      "attributes": {
+        "labels": [
+          "Ring-A-Ding-Ding! Hexhunter Chime DMG|{param1:F1P}",
+          "Clang Clang! Witch-tribution Comes! DMG|{param2:F1P}",
+          "CD|{param3:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            1.6744,
+            1.79998,
+            1.92556,
+            2.093,
+            2.21858,
+            2.34416,
+            2.5116,
+            2.67904,
+            2.84648,
+            3.01392,
+            3.18136,
+            3.3488,
+            3.5581,
+            3.7674,
+            3.9767
+          ],
+          "param2": [
+            2.0456,
+            2.19902,
+            2.35244,
+            2.557,
+            2.71042,
+            2.86384,
+            3.0684,
+            3.27296,
+            3.47752,
+            3.68208,
+            3.88664,
+            4.0912,
+            4.3469,
+            4.6026,
+            4.8583
+          ],
+          "param3": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "The Bell Tolls! The Hunt Is On!",
+      "description": "Prune gently swings the Witchlure Bell, dealing Anemo DMG to nearby opponents. After this, the Bell will enter the Hunter-Seeker mode.\n\nWitchlure Bell: Hunter-Seeker\nIn this mode, the Witchlure Bell will follow the current active character, attacking surrounding opponents at intervals and dealing AoE Anemo DMG. This DMG is considered Elemental Burst DMG.",
+      "descriptionRaw": "Prune gently swings the Witchlure Bell, dealing <color=#80FFD7FF>Anemo DMG</color> to nearby opponents. After this, the Bell will enter the Hunter-Seeker mode.\n\n<color=#FFD780FF>Witchlure Bell: Hunter-Seeker</color>\nIn this mode, the Witchlure Bell will follow the current active character, attacking surrounding opponents at intervals and dealing <color=#80FFD7FF>AoE Anemo DMG</color>. This DMG is considered Elemental Burst DMG.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P}",
+          "Witchlure Bell DMG|{param2:F1P}",
+          "Hunter-Seeker Mode Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.9696,
+            1.04232,
+            1.11504,
+            1.212,
+            1.28472,
+            1.35744,
+            1.4544,
+            1.55136,
+            1.64832,
+            1.74528,
+            1.84224,
+            1.9392,
+            2.0604,
+            2.1816,
+            2.3028
+          ],
+          "param2": [
+            0.7044,
+            0.75723,
+            0.81006,
+            0.8805,
+            0.93333,
+            0.98616,
+            1.0566,
+            1.12704,
+            1.19748,
+            1.26792,
+            1.33836,
+            1.4088,
+            1.49685,
+            1.5849,
+            1.67295
+          ],
+          "param3": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "param4": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param5": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Verdict and Punishment",
+      "descriptionRaw": "During the Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}</color>, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl on an opponent, it will also summon a {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG.",
+      "description": "During the Elemental Burst **The Bell Tolls! The Hunt Is On!**, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl on an opponent, it will also summon a **Banehunter Oathhammer** that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG."
+    },
+    "passive2": {
+      "name": "Tolling Synchronicity",
+      "descriptionRaw": "After Prune hits an opponent with the {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max.",
+      "description": "After Prune hits an opponent with the **Banehunter Oathhammer** that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max."
+    },
+    "passive3": {
+      "name": "Tinker-Tink, Clank, and Bang!",
+      "descriptionRaw": "Has a 10% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is the same as the resulting material.",
+      "description": "Has a 10% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is the same as the resulting material."
+    },
+    "passive4": {
+      "name":"Witch's Eve Rite: Witchseeker's Vow",
+      "descriptionRaw":"After completing <color=#FFD780FF>Witch's Homework: Of What Is Contested</color>, Prune becomes a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nAfter a Hexerei character in the party affected by the Tolling Rally effect triggers an Elemental Reaction on an opponent, Prune's ATK is increased by 60% for 5s. If the Elemental Reaction triggered is a Swirl Reaction, the triggering character's ATK will additionally be increased by 30% for 5s.",
+      "description":"After completing Witch's Homework: Of What Is Contested, Prune becomes a Hexerei character. When the party includes at least 2 Hexerei characters, you gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nAfter a Hexerei character in the party affected by the Tolling Rally effect triggers an Elemental Reaction on an opponent, Prune's ATK is increased by 60% for 5s. If the Elemental Reaction triggered is a Swirl Reaction, the triggering character's ATK will additionally be increased by 30% for 5s."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104304,
+          "name": "Teachings of Resistance",
+          "count": 3
+        },
+        {
+          "id": 112035,
+          "name": "Treasure Hoarder Insignia",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 2
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 4
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 6
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104305,
+          "name": "Guide to Resistance",
+          "count": 9
+        },
+        {
+          "id": 112036,
+          "name": "Silver Raven Insignia",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 4
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 4
+        },
+        {
+          "id": 113081,
+          "name": "Mask of the Virtuous Doctor",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 6
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 6
+        },
+        {
+          "id": 113081,
+          "name": "Mask of the Virtuous Doctor",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 12
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 9
+        },
+        {
+          "id": 113081,
+          "name": "Mask of the Virtuous Doctor",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104306,
+          "name": "Philosophies of Resistance",
+          "count": 16
+        },
+        {
+          "id": 112037,
+          "name": "Golden Raven Insignia",
+          "count": 12
+        },
+        {
+          "id": 113081,
+          "name": "Mask of the Virtuous Doctor",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Prune_01",
+      "filename_combat3": "Skill_E_Prune_01_HD",
+      "filename_passive1": "UI_Talent_S_Prune_05",
+      "filename_passive2": "UI_Talent_S_Prune_06",
+      "filename_passive3": "UI_Talent_S_Prune_08",
+      "filename_passive4": "UI_Talent_S_Prune_07"
+    },
+    "version": "6.6"
+  },
+  "constellation": {
+    "id": 13201,
+    "name": "Prune",
+    "c1": {
+      "name": "With a Vow to Rescue, the Journey Begins",
+      "descriptionRaw": "After the {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} that has undergone Elemental Conversion hits an opponent, Prune will regain 2 Energy. This effect can occur once every 1.8s.",
+      "description": "After the **Banehunter Oathhammer** that has undergone Elemental Conversion hits an opponent, Prune will regain 2 Energy. This effect can occur once every 1.8s."
+    },
+    "c2": {
+      "name": "Useful for Cleaning Messy Baggage, Elemental Powers Are Indeed",
+      "descriptionRaw": "During the Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}</color>, when the Witchlure Bell is in Hunter-Seeker mode, Prune gains the Hunt the Witch effect: Prune's ATK increases by 10%, and when the Witchlure Bell and the {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} that has undergone Elemental Conversion hits an opponent, it further increases her ATK by 5%. Prune's ATK can be increased by up to 40% in this way.\nThe original instance of the above effect will be removed if \"The Bell Tolls! The Hunt Is On!\" is used again during this time.",
+      "description": "During the Elemental Burst **The Bell Tolls! The Hunt Is On!**, when the Witchlure Bell is in Hunter-Seeker mode, Prune gains the Hunt the Witch effect: Prune's ATK increases by 10%, and when the Witchlure Bell and the **Banehunter Oathhammer** that has undergone Elemental Conversion hits an opponent, it further increases her ATK by 5%. Prune's ATK can be increased by up to 40% in this way.\nThe original instance of the above effect will be removed if \"The Bell Tolls! The Hunt Is On!\" is used again during this time."
+    },
+    "c3": {
+      "name": "The Caravan Exits the Mountain Pass, the Scenery Once More Changed",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of **The Bell Tolls! The Hunt Is On!** by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Looking Back Following the Wind, One's Shadow Still Halved",
+      "descriptionRaw": "After the {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} that has undergone Elemental Conversion hits an opponent, it will ricochet and land on a nearby opponent, dealing 80% ATK as DMG of the corresponding Elemental Type.",
+      "description": "After the **Banehunter Oathhammer** that has undergone Elemental Conversion hits an opponent, it will ricochet and land on a nearby opponent, dealing 80% ATK as DMG of the corresponding Elemental Type."
+    },
+    "c5": {
+      "name": "100 Defeats? No Problem, Tomorrow, We Go Again",
+      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11322}Ring-A-Ding-Ding! Hexhunter Chime{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of **Ring-A-Ding-Ding! Hexhunter Chime** by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "And That's the Story! Share It With Your Friends!",
+      "descriptionRaw": "The duration of the Witchlure Bell's Hunter-Seeker mode from the Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}</color> is extended by 4s.\nAdditionally, after party members affected by Tolling Rally trigger any Elemental Reaction, they will cause Prune and the other current active character(s) affected by Tolling Rally to gain 350 ATK for 5s.",
+      "description": "The duration of the Witchlure Bell's Hunter-Seeker mode from the Elemental Burst **The Bell Tolls! The Hunt Is On!** is extended by 4s.\nAdditionally, after party members affected by Tolling Rally trigger any Elemental Reaction, they will cause Prune and the other current active character(s) affected by Tolling Rally to gain 350 ATK for 5s."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Prune_01",
+      "filename_c2": "UI_Talent_S_Prune_02",
+      "filename_c3": "UI_Talent_U_Prune_01",
+      "filename_c4": "UI_Talent_S_Prune_03",
+      "filename_c5": "UI_Talent_U_Prune_02",
+      "filename_c6": "UI_Talent_S_Prune_04",
+      "filename_constellation": "Eff_UI_Talent_Prune"
+    },
+    "version": "6.6"
+  },
+  "stats": {
+    "1": {
+      "level": 1,
+      "ascension": 0,
+      "hp": 811.494,
+      "attack": 18.52032,
+      "defense": 48.64125,
+      "specialized": 0
+    },
+    "2": {
+      "level": 2,
+      "ascension": 0,
+      "hp": 878.848002,
+      "attack": 20.05750656,
+      "defense": 52.678473749999995,
+      "specialized": 0
+    },
+    "3": {
+      "level": 3,
+      "ascension": 0,
+      "hp": 945.3905100000001,
+      "attack": 21.576172800000002,
+      "defense": 56.66705625,
+      "specialized": 0
+    },
+    "4": {
+      "level": 4,
+      "ascension": 0,
+      "hp": 1012.744512,
+      "attack": 23.11335936,
+      "defense": 60.70428,
+      "specialized": 0
+    },
+    "5": {
+      "level": 5,
+      "ascension": 0,
+      "hp": 1079.28702,
+      "attack": 24.632025600000002,
+      "defense": 64.6928625,
+      "specialized": 0
+    },
+    "6": {
+      "level": 6,
+      "ascension": 0,
+      "hp": 1146.641022,
+      "attack": 26.169212160000004,
+      "defense": 68.73008625,
+      "specialized": 0
+    },
+    "7": {
+      "level": 7,
+      "ascension": 0,
+      "hp": 1213.18353,
+      "attack": 27.687878400000006,
+      "defense": 72.71866875,
+      "specialized": 0
+    },
+    "8": {
+      "level": 8,
+      "ascension": 0,
+      "hp": 1280.537532,
+      "attack": 29.225064960000005,
+      "defense": 76.7558925,
+      "specialized": 0
+    },
+    "9": {
+      "level": 9,
+      "ascension": 0,
+      "hp": 1347.891534,
+      "attack": 30.762251520000003,
+      "defense": 80.79311625,
+      "specialized": 0
+    },
+    "10": {
+      "level": 10,
+      "ascension": 0,
+      "hp": 1414.434042,
+      "attack": 32.28091776000001,
+      "defense": 84.78169875,
+      "specialized": 0
+    },
+    "11": {
+      "level": 11,
+      "ascension": 0,
+      "hp": 1481.7880440000001,
+      "attack": 33.81810432,
+      "defense": 88.8189225,
+      "specialized": 0
+    },
+    "12": {
+      "level": 12,
+      "ascension": 0,
+      "hp": 1548.330552,
+      "attack": 35.336770560000005,
+      "defense": 92.80750499999999,
+      "specialized": 0
+    },
+    "13": {
+      "level": 13,
+      "ascension": 0,
+      "hp": 1615.6845540000002,
+      "attack": 36.87395712000001,
+      "defense": 96.84472875,
+      "specialized": 0
+    },
+    "14": {
+      "level": 14,
+      "ascension": 0,
+      "hp": 1682.227062,
+      "attack": 38.39262336,
+      "defense": 100.83331125,
+      "specialized": 0
+    },
+    "15": {
+      "level": 15,
+      "ascension": 0,
+      "hp": 1749.5810640000002,
+      "attack": 39.929809920000004,
+      "defense": 104.870535,
+      "specialized": 0
+    },
+    "16": {
+      "level": 16,
+      "ascension": 0,
+      "hp": 1816.935066,
+      "attack": 41.46699648,
+      "defense": 108.90775875,
+      "specialized": 0
+    },
+    "17": {
+      "level": 17,
+      "ascension": 0,
+      "hp": 1883.4775740000002,
+      "attack": 42.98566272000001,
+      "defense": 112.89634125,
+      "specialized": 0
+    },
+    "18": {
+      "level": 18,
+      "ascension": 0,
+      "hp": 1950.831576,
+      "attack": 44.52284928,
+      "defense": 116.933565,
+      "specialized": 0
+    },
+    "19": {
+      "level": 19,
+      "ascension": 0,
+      "hp": 2017.3740840000003,
+      "attack": 46.04151552000001,
+      "defense": 120.92214750000001,
+      "specialized": 0
+    },
+    "20": {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2084.728086,
+      "attack": 47.578702080000006,
+      "defense": 124.95937124999999,
+      "specialized": 0
+    },
+    "21": {
+      "level": 21,
+      "ascension": 1,
+      "hp": 2757.498134,
+      "attack": 62.93332032,
+      "defense": 165.28545375,
+      "specialized": 0
+    },
+    "22": {
+      "level": 22,
+      "ascension": 1,
+      "hp": 2824.852136,
+      "attack": 64.47050688,
+      "defense": 169.3226775,
+      "specialized": 0
+    },
+    "23": {
+      "level": 23,
+      "ascension": 1,
+      "hp": 2892.206138,
+      "attack": 66.00769344000001,
+      "defense": 173.35990125,
+      "specialized": 0
+    },
+    "24": {
+      "level": 24,
+      "ascension": 1,
+      "hp": 2958.748646,
+      "attack": 67.52635968000001,
+      "defense": 177.34848375,
+      "specialized": 0
+    },
+    "25": {
+      "level": 25,
+      "ascension": 1,
+      "hp": 3026.102648,
+      "attack": 69.06354624000001,
+      "defense": 181.38570750000002,
+      "specialized": 0
+    },
+    "26": {
+      "level": 26,
+      "ascension": 1,
+      "hp": 3092.645156,
+      "attack": 70.58221248000001,
+      "defense": 185.37429,
+      "specialized": 0
+    },
+    "27": {
+      "level": 27,
+      "ascension": 1,
+      "hp": 3159.9991579999996,
+      "attack": 72.11939904,
+      "defense": 189.41151374999998,
+      "specialized": 0
+    },
+    "28": {
+      "level": 28,
+      "ascension": 1,
+      "hp": 3226.541666,
+      "attack": 73.63806528,
+      "defense": 193.40009625000002,
+      "specialized": 0
+    },
+    "29": {
+      "level": 29,
+      "ascension": 1,
+      "hp": 3293.8956679999997,
+      "attack": 75.17525184,
+      "defense": 197.43732,
+      "specialized": 0
+    },
+    "30": {
+      "level": 30,
+      "ascension": 1,
+      "hp": 3360.438176,
+      "attack": 76.69391808000002,
+      "defense": 201.4259025,
+      "specialized": 0
+    },
+    "31": {
+      "level": 31,
+      "ascension": 1,
+      "hp": 3427.7921779999997,
+      "attack": 78.23110464000001,
+      "defense": 205.46312625,
+      "specialized": 0
+    },
+    "32": {
+      "level": 32,
+      "ascension": 1,
+      "hp": 3495.14618,
+      "attack": 79.76829120000001,
+      "defense": 209.50035,
+      "specialized": 0
+    },
+    "33": {
+      "level": 33,
+      "ascension": 1,
+      "hp": 3561.6886879999997,
+      "attack": 81.28695744000001,
+      "defense": 213.4889325,
+      "specialized": 0
+    },
+    "34": {
+      "level": 34,
+      "ascension": 1,
+      "hp": 3629.04269,
+      "attack": 82.82414400000002,
+      "defense": 217.52615625,
+      "specialized": 0
+    },
+    "35": {
+      "level": 35,
+      "ascension": 1,
+      "hp": 3695.5851979999998,
+      "attack": 84.34281024,
+      "defense": 221.51473875,
+      "specialized": 0
+    },
+    "36": {
+      "level": 36,
+      "ascension": 1,
+      "hp": 3762.9392000000003,
+      "attack": 85.87999680000001,
+      "defense": 225.5519625,
+      "specialized": 0
+    },
+    "37": {
+      "level": 37,
+      "ascension": 1,
+      "hp": 3829.481708,
+      "attack": 87.39866304000002,
+      "defense": 229.540545,
+      "specialized": 0
+    },
+    "38": {
+      "level": 38,
+      "ascension": 1,
+      "hp": 3896.83571,
+      "attack": 88.93584960000001,
+      "defense": 233.57776875,
+      "specialized": 0
+    },
+    "39": {
+      "level": 39,
+      "ascension": 1,
+      "hp": 3964.189712,
+      "attack": 90.47303616,
+      "defense": 237.6149925,
+      "specialized": 0
+    },
+    "40": {
+      "level": 40,
+      "ascension": 1,
+      "hp": 4030.73222,
+      "attack": 91.99170240000001,
+      "defense": 241.60357499999998,
+      "specialized": 0
+    },
+    "41": {
+      "level": 41,
+      "ascension": 2,
+      "hp": 4528.826782,
+      "attack": 103.35969696000001,
+      "defense": 271.45954874999995,
+      "specialized": 0.06
+    },
+    "42": {
+      "level": 42,
+      "ascension": 2,
+      "hp": 4595.369290000001,
+      "attack": 104.8783632,
+      "defense": 275.44813124999996,
+      "specialized": 0.06
+    },
+    "43": {
+      "level": 43,
+      "ascension": 2,
+      "hp": 4662.723292000001,
+      "attack": 106.41554976,
+      "defense": 279.485355,
+      "specialized": 0.06
+    },
+    "44": {
+      "level": 44,
+      "ascension": 2,
+      "hp": 4729.2658,
+      "attack": 107.934216,
+      "defense": 283.4739375,
+      "specialized": 0.06
+    },
+    "45": {
+      "level": 45,
+      "ascension": 2,
+      "hp": 4796.619802,
+      "attack": 109.47140256,
+      "defense": 287.51116125,
+      "specialized": 0.06
+    },
+    "46": {
+      "level": 46,
+      "ascension": 2,
+      "hp": 4863.973804,
+      "attack": 111.00858912000001,
+      "defense": 291.548385,
+      "specialized": 0.06
+    },
+    "47": {
+      "level": 47,
+      "ascension": 2,
+      "hp": 4930.516312,
+      "attack": 112.52725536000001,
+      "defense": 295.5369675,
+      "specialized": 0.06
+    },
+    "48": {
+      "level": 48,
+      "ascension": 2,
+      "hp": 4997.870314,
+      "attack": 114.06444192000001,
+      "defense": 299.57419125,
+      "specialized": 0.06
+    },
+    "49": {
+      "level": 49,
+      "ascension": 2,
+      "hp": 5064.412822,
+      "attack": 115.58310816000001,
+      "defense": 303.56277375,
+      "specialized": 0.06
+    },
+    "50": {
+      "level": 50,
+      "ascension": 2,
+      "hp": 5131.766824,
+      "attack": 117.12029472,
+      "defense": 307.5999975,
+      "specialized": 0.06
+    },
+    "51": {
+      "level": 51,
+      "ascension": 3,
+      "hp": 5772.630332000001,
+      "attack": 131.74670696,
+      "defense": 346.01358,
+      "specialized": 0.12
+    },
+    "52": {
+      "level": 52,
+      "ascension": 3,
+      "hp": 5839.984334000001,
+      "attack": 133.28389352000002,
+      "defense": 350.05080375,
+      "specialized": 0.12
+    },
+    "53": {
+      "level": 53,
+      "ascension": 3,
+      "hp": 5907.338336,
+      "attack": 134.82108008,
+      "defense": 354.0880275,
+      "specialized": 0.12
+    },
+    "54": {
+      "level": 54,
+      "ascension": 3,
+      "hp": 5973.880844,
+      "attack": 136.33974632000002,
+      "defense": 358.07661,
+      "specialized": 0.12
+    },
+    "55": {
+      "level": 55,
+      "ascension": 3,
+      "hp": 6041.234845999999,
+      "attack": 137.87693288,
+      "defense": 362.11383374999997,
+      "specialized": 0.12
+    },
+    "56": {
+      "level": 56,
+      "ascension": 3,
+      "hp": 6107.777354000001,
+      "attack": 139.39559912,
+      "defense": 366.10241625000003,
+      "specialized": 0.12
+    },
+    "57": {
+      "level": 57,
+      "ascension": 3,
+      "hp": 6175.131356,
+      "attack": 140.93278568,
+      "defense": 370.13964,
+      "specialized": 0.12
+    },
+    "58": {
+      "level": 58,
+      "ascension": 3,
+      "hp": 6241.673864,
+      "attack": 142.45145192,
+      "defense": 374.12822250000005,
+      "specialized": 0.12
+    },
+    "59": {
+      "level": 59,
+      "ascension": 3,
+      "hp": 6309.027865999999,
+      "attack": 143.98863848000002,
+      "defense": 378.16544625,
+      "specialized": 0.12
+    },
+    "60": {
+      "level": 60,
+      "ascension": 3,
+      "hp": 6376.381868,
+      "attack": 145.52582504000003,
+      "defense": 382.20267,
+      "specialized": 0.12
+    },
+    "61": {
+      "level": 61,
+      "ascension": 4,
+      "hp": 6873.664976,
+      "attack": 156.87529727999998,
+      "defense": 412.01000250000004,
+      "specialized": 0.12
+    },
+    "62": {
+      "level": 62,
+      "ascension": 4,
+      "hp": 6941.018978,
+      "attack": 158.41248384,
+      "defense": 416.04722625,
+      "specialized": 0.12
+    },
+    "63": {
+      "level": 63,
+      "ascension": 4,
+      "hp": 7007.561486,
+      "attack": 159.93115008,
+      "defense": 420.03580875,
+      "specialized": 0.12
+    },
+    "64": {
+      "level": 64,
+      "ascension": 4,
+      "hp": 7074.915488000001,
+      "attack": 161.46833664000002,
+      "defense": 424.07303249999995,
+      "specialized": 0.12
+    },
+    "65": {
+      "level": 65,
+      "ascension": 4,
+      "hp": 7141.457996,
+      "attack": 162.98700288,
+      "defense": 428.06161499999996,
+      "specialized": 0.12
+    },
+    "66": {
+      "level": 66,
+      "ascension": 4,
+      "hp": 7208.811998,
+      "attack": 164.52418944000001,
+      "defense": 432.09883875,
+      "specialized": 0.12
+    },
+    "67": {
+      "level": 67,
+      "ascension": 4,
+      "hp": 7276.166,
+      "attack": 166.061376,
+      "defense": 436.1360625,
+      "specialized": 0.12
+    },
+    "68": {
+      "level": 68,
+      "ascension": 4,
+      "hp": 7342.708508000001,
+      "attack": 167.58004224,
+      "defense": 440.124645,
+      "specialized": 0.12
+    },
+    "69": {
+      "level": 69,
+      "ascension": 4,
+      "hp": 7410.062510000001,
+      "attack": 169.11722880000002,
+      "defense": 444.16186875000005,
+      "specialized": 0.12
+    },
+    "70": {
+      "level": 70,
+      "ascension": 4,
+      "hp": 7476.605018,
+      "attack": 170.63589504,
+      "defense": 448.15045125000006,
+      "specialized": 0.12
+    },
+    "71": {
+      "level": 71,
+      "ascension": 5,
+      "hp": 7974.69962,
+      "attack": 182.00388960000004,
+      "defense": 478.00642500000004,
+      "specialized": 0.18
+    },
+    "72": {
+      "level": 72,
+      "ascension": 5,
+      "hp": 8041.242128000001,
+      "attack": 183.52255584,
+      "defense": 481.9950075,
+      "specialized": 0.18
+    },
+    "73": {
+      "level": 73,
+      "ascension": 5,
+      "hp": 8108.596130000001,
+      "attack": 185.0597424,
+      "defense": 486.03223125,
+      "specialized": 0.18
+    },
+    "74": {
+      "level": 74,
+      "ascension": 5,
+      "hp": 8175.950132,
+      "attack": 186.59692896,
+      "defense": 490.06945499999995,
+      "specialized": 0.18
+    },
+    "75": {
+      "level": 75,
+      "ascension": 5,
+      "hp": 8242.49264,
+      "attack": 188.11559520000003,
+      "defense": 494.0580375,
+      "specialized": 0.18
+    },
+    "76": {
+      "level": 76,
+      "ascension": 5,
+      "hp": 8309.846642,
+      "attack": 189.65278175999998,
+      "defense": 498.09526124999996,
+      "specialized": 0.18
+    },
+    "77": {
+      "level": 77,
+      "ascension": 5,
+      "hp": 8376.38915,
+      "attack": 191.171448,
+      "defense": 502.08384375,
+      "specialized": 0.18
+    },
+    "78": {
+      "level": 78,
+      "ascension": 5,
+      "hp": 8443.743152,
+      "attack": 192.70863456,
+      "defense": 506.1210675,
+      "specialized": 0.18
+    },
+    "79": {
+      "level": 79,
+      "ascension": 5,
+      "hp": 8510.285660000001,
+      "attack": 194.22730080000002,
+      "defense": 510.10965,
+      "specialized": 0.18
+    },
+    "80": {
+      "level": 80,
+      "ascension": 5,
+      "hp": 8577.639662000001,
+      "attack": 195.76448736000003,
+      "defense": 514.1468737499999,
+      "specialized": 0.18
+    },
+    "81": {
+      "level": 81,
+      "ascension": 6,
+      "hp": 9075.734364,
+      "attack": 207.13248392,
+      "defense": 544.0028475,
+      "specialized": 0.24
+    },
+    "82": {
+      "level": 82,
+      "ascension": 6,
+      "hp": 9142.276872,
+      "attack": 208.65115016000001,
+      "defense": 547.9914299999999,
+      "specialized": 0.24
+    },
+    "83": {
+      "level": 83,
+      "ascension": 6,
+      "hp": 9209.630874,
+      "attack": 210.18833672000002,
+      "defense": 552.02865375,
+      "specialized": 0.24
+    },
+    "84": {
+      "level": 84,
+      "ascension": 6,
+      "hp": 9276.173382,
+      "attack": 211.70700296,
+      "defense": 556.01723625,
+      "specialized": 0.24
+    },
+    "85": {
+      "level": 85,
+      "ascension": 6,
+      "hp": 9343.527384,
+      "attack": 213.24418952000002,
+      "defense": 560.05446,
+      "specialized": 0.24
+    },
+    "86": {
+      "level": 86,
+      "ascension": 6,
+      "hp": 9410.069892000001,
+      "attack": 214.76285576000004,
+      "defense": 564.0430425000001,
+      "specialized": 0.24
+    },
+    "87": {
+      "level": 87,
+      "ascension": 6,
+      "hp": 9477.423894000001,
+      "attack": 216.30004232000005,
+      "defense": 568.08026625,
+      "specialized": 0.24
+    },
+    "88": {
+      "level": 88,
+      "ascension": 6,
+      "hp": 9543.966402,
+      "attack": 217.81870856,
+      "defense": 572.06884875,
+      "specialized": 0.24
+    },
+    "89": {
+      "level": 89,
+      "ascension": 6,
+      "hp": 9611.320404,
+      "attack": 219.35589512,
+      "defense": 576.1060725,
+      "specialized": 0.24
+    },
+    "90": {
+      "level": 90,
+      "ascension": 6,
+      "hp": 9678.674406,
+      "attack": 220.89308168000002,
+      "defense": 580.14329625,
+      "specialized": 0.24
+    },
+    "95": {
+      "level": 95,
+      "ascension": 6,
+      "hp": 10013.009934,
+      "attack": 249.0624884,
+      "defense": 600.18349125,
+      "specialized": 0.24
+    },
+    "100": {
+      "level": 100,
+      "ascension": 6,
+      "hp": 10348.156956,
+      "attack": 277.25041544,
+      "defense": 620.2723275,
+      "specialized": 0.24
+    },
+    "20+": {
+      "level": 20,
+      "ascension": 1,
+      "hp": 2690.955626,
+      "attack": 61.414654080000005,
+      "defense": 161.29687124999998,
+      "specialized": 0
+    },
+    "40+": {
+      "level": 40,
+      "ascension": 2,
+      "hp": 4461.47278,
+      "attack": 101.8225104,
+      "defense": 267.422325,
+      "specialized": 0.06
+    },
+    "50+": {
+      "level": 50,
+      "ascension": 3,
+      "hp": 5706.087824,
+      "attack": 130.22804072000002,
+      "defense": 342.0249975,
+      "specialized": 0.12
+    },
+    "60+": {
+      "level": 60,
+      "ascension": 4,
+      "hp": 6807.1224680000005,
+      "attack": 155.35663104000002,
+      "defense": 408.02142000000003,
+      "specialized": 0.12
+    },
+    "70+": {
+      "level": 70,
+      "ascension": 5,
+      "hp": 7907.345618,
+      "attack": 180.46670304000003,
+      "defense": 473.96920125,
+      "specialized": 0.18
+    },
+    "80+": {
+      "level": 80,
+      "ascension": 6,
+      "hp": 9008.380362,
+      "attack": 205.59529736000002,
+      "defense": 539.96562375,
+      "specialized": 0.24
+    }
+  }
+}

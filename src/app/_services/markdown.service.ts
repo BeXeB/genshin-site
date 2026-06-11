@@ -15,6 +15,12 @@ interface TOCNode {
   children: TOCNode[];
 }
 
+interface EntityReference {
+  type: 'character' | 'weapon' | 'artifact';
+  slug: string;
+  href: string;
+}
+
 @Injectable({ providedIn: 'root' })
 export class MarkdownService {
   private headings: Heading[] = [];
@@ -22,6 +28,64 @@ export class MarkdownService {
 
   constructor() {
     // Plugin will be instantiated per-parse to reset state
+  }
+
+  /**
+   * Extract entity information from image href
+   * Returns entity reference if href points to a character/weapon/artifact image
+   * Examples:
+   * - assets/images/characters/linnea/icon.webp -> { type: 'character', slug: 'linnea' }
+   * - assets/images/weapons/goldenfrostboundoath/awaken.webp -> { type: 'weapon', slug: 'goldenfrostboundoath' }
+   * - assets/images/artifacts/aubadeofmorningstarandmoon/flower.webp -> { type: 'artifact', slug: 'aubadeofmorningstarandmoon' }
+   */
+  private extractEntityReference(href: string): EntityReference | null {
+    const characterMatch = href.match(
+      /assets\/images\/characters\/([^/]+)\//,
+    );
+    if (characterMatch) {
+      const slug = characterMatch[1];
+      return {
+        type: 'character',
+        slug,
+        href: `/characters/${slug}`,
+      };
+    }
+
+    const weaponMatch = href.match(/assets\/images\/weapons\/([^/]+)\//);
+    if (weaponMatch) {
+      const slug = weaponMatch[1];
+      return {
+        type: 'weapon',
+        slug,
+        href: `/weapons/${slug}`,
+      };
+    }
+
+    const artifactMatch = href.match(/assets\/images\/artifacts\/([^/]+)\//);
+    if (artifactMatch) {
+      const slug = artifactMatch[1];
+      return {
+        type: 'artifact',
+        slug,
+        href: `/artifacts/${slug}`,
+      };
+    }
+
+    return null;
+  }
+
+  /**
+   * Preprocess markdown to handle custom [mix: ...] syntax
+   * Converts [mix: ![ref1] ![ref2] ...] blocks to <div class="mix"> containers
+   */
+  public preprocessMarkdown(markdown: string): string {
+    return markdown.replace(
+      /\[mix:\s*((?:!\[[^\]]*\]\s*)+)\]/g,
+      (match, content) => {
+        const imageCount = (content.match(/!\[[^\]]*\]/g) || []).length;
+        return `<div class="mix mix-${imageCount}">${content}</div>`;
+      },
+    );
   }
 
   private generateUniqueSlug(
@@ -47,13 +111,7 @@ export class MarkdownService {
 
   async parse(markdown: string, currentPath: string) {
     // Preprocess [mix: ...] blocks before passing to marked
-    const processedMarkdown = markdown.replace(
-      /\[mix:\s*((?:!\[[^\]]*\]\s*)+)\]/g,
-      (match, content) => {
-        const imageCount = (content.match(/!\[[^\]]*\]/g) || []).length;
-        return `<div class="mix mix-${imageCount}">${content}</div>`;
-      },
-    );
+    const processedMarkdown = this.preprocessMarkdown(markdown);
 
     // Local state for this parse operation to prevent race conditions
     const headings: Heading[] = [];
@@ -94,9 +152,14 @@ export class MarkdownService {
       const href = args.href || args;
       const text = args.text || args;
 
+      // Check if this image is a reference to an entity (character/weapon/artifact)
+      const entityRef = this.extractEntityReference(href);
+
       // Check if text ends with a star rating (1-5) or element name
       const starMatch = text.match(/-(1|2|3|4|5)$/);
       const elementMatch = text.match(/-(p|h|a|e|d|c|g)$/);
+
+      let imageHtml = '';
 
       if (starMatch) {
         const stars = starMatch[1];
@@ -109,7 +172,7 @@ export class MarkdownService {
         };
         const starClass = starClassMap[stars];
         const altText = text.replace(/-(1|2|3|4|5)$/, '');
-        return `<div class="icon ${starClass}"><img src="${href}" alt="${altText}" /></div>`;
+        imageHtml = `<div class="icon ${starClass}"><img src="${href}" alt="${altText}" /></div>`;
       } else if (elementMatch) {
         const element = elementMatch[1];
         const elementClassMap: Record<string, string> = {
@@ -123,10 +186,17 @@ export class MarkdownService {
         };
         const elementClass = elementClassMap[element];
         const altText = text.replace(/-(p|h|a|e|d|c|g)$/, '');
-        return `<div class="icon ${elementClass}"><img src="${href}" alt="${altText}" /></div>`;
+        imageHtml = `<div class="icon ${elementClass}"><img src="${href}" alt="${altText}" /></div>`;
+      } else {
+        imageHtml = `<img src="${href}" alt="${text}" />`;
       }
 
-      return `<img src="${href}" alt="${text}" />`;
+      // Wrap in link if this is an entity reference
+      if (entityRef) {
+        return `<a class="entity-link" data-entity-type="${entityRef.type}" data-entity-route="${entityRef.href}">${imageHtml}</a>`;
+      }
+
+      return imageHtml;
     };
 
     // Parse with fresh renderer context

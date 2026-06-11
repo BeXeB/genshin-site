@@ -1,11 +1,12 @@
-import { Component, OnInit, OnDestroy, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { CharacterOverviewComponent } from './character-overview/character-overview.component';
 import { CharacterResolved } from '../../_models/character';
 import { CharacterGuideComponent } from './character-guide/character-guide.component';
 import { ResolverService } from '../../_services/resolver.service';
+import { StorageService } from '../../_services/storage.service';
 import { switchMap, takeUntil } from 'rxjs';
 import { Subject } from 'rxjs';
 import { ElementType } from '../../_models/enum';
@@ -22,7 +23,7 @@ import { ElementType } from '../../_models/enum';
   templateUrl: './character-details.component.html',
   styleUrl: './character-details.component.css',
 })
-export class CharacterDetailsComponent implements OnInit, OnDestroy {
+export class CharacterDetailsComponent implements OnInit {
   char: CharacterResolved | null = null;
   apikey: string | null = null;
   errorMessage: string | null = null;
@@ -66,19 +67,25 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
     private characterService: CharacterService,
     private resolverService: ResolverService,
     private route: ActivatedRoute,
+    private router: Router,
+    private storageService: StorageService,
     private cdr: ChangeDetectorRef,
-  ) {}
+  ) { }
 
   ngOnInit(): void {
-    const name = this.route.snapshot.paramMap.get('slug');
-    if (!name) return;
-    this.apikey = name;
-
-    this.resolverService
-      .initialize()
+    this.route.paramMap
       .pipe(
-        switchMap(() => this.characterService.getCharacterDetails(name)),
-        switchMap((data) => this.resolverService.resolveCharacter(data)),
+        switchMap((params) => {
+          const name = params.get('slug');
+          if (!name) {
+            throw new Error('No character slug provided');
+          }
+          this.apikey = name;
+          return this.resolverService.initialize().pipe(
+            switchMap(() => this.characterService.getCharacterDetails(name)),
+            switchMap((data) => this.resolverService.resolveCharacter(data)),
+          );
+        }),
         takeUntil(this.destroy$),
       )
       .subscribe({
@@ -88,14 +95,10 @@ export class CharacterDetailsComponent implements OnInit, OnDestroy {
           this.cdr.markForCheck();
         },
         error: () => {
+          const name = this.apikey || 'unknown';
           this.errorMessage = `Character "${name}" not found`;
           this.cdr.markForCheck();
         },
       });
-  }
-
-  ngOnDestroy(): void {
-    this.destroy$.next();
-    this.destroy$.complete();
   }
 }
