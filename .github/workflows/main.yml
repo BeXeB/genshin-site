@@ -39,6 +39,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --dir=dist/genshin-site/browser --cname=kalandorokkezikonyve.bexe.dev
+        run: npx angular-cli-ghpages --dir=dist/genshin-site/browser --cname=kk.bexe.dev
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
