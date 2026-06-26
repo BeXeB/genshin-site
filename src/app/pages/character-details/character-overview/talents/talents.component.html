@@ -1,4 +1,4 @@
-<div>
+<div class="card card-no-hover margin-bottom" [style]="`border-color: ${elementColor};`">
   @if (char && skills) {
     @if (skills.combat1) {
       <app-skill-details
@@ -27,8 +27,11 @@
         [briefDescription]="getDescription(skills.combat3, 'combat3')"
       ></app-skill-details>
     }
+  }
+</div>
+<div class="card card-no-hover" [style]="`border-color: ${elementColor};`">
+  @if (char && skills) {
     @if (skills.passive1) {
-      <hr [style.color]="elementColor" />
       <app-skill-details
         [skill]="skills.passive1"
         [elementColor]="elementColor"
