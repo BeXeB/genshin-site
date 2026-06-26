@@ -65,11 +65,10 @@
         </div>
       </div>
       <div
-        class="right card"
+        class="right"
         [class.full-width]="
           selectedMenu === 'talents' || selectedMenu === 'constellations'
         "
-        [style]="`border-color: ${elementColor};`"
       >
         @if (selectedMenu === "profile") {
           <app-overview-profile
