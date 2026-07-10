@@ -10,22 +10,17 @@ export type CharacterProfile = {
   description: string;
 
   weaponType: WeaponType;
-  weaponText: string;
 
   qualityType: QualityType;
-  rarity: number;
+  rarity: 1 | 2 | 3 | 4 | 5;
 
   birthdaymmdd: string;
-  birthday: string;
 
   elementType: ElementType;
-  elementText: string;
 
   affiliation: string;
-  region: string;
 
   substatType: StatType;
-  substatText: string;
 
   constellation: string;
 
@@ -38,6 +33,7 @@ export type CharacterProfile = {
     filename_gachaSplash?: string;
     filename_gachaSlice?: string;
   };
+
   version: string;
 
   isTraveler?: boolean;

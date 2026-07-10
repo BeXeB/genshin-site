@@ -23,8 +23,6 @@ export type ArtifactSet = {
     filename_goblet?: string;
     filename_circlet?: string;
   };
-
-  version: string;
 };
 
 export type ArtifactPiece = {

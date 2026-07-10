@@ -85,6 +85,7 @@
   border-color: var(--gray);
   box-shadow: none;
   background-color: var(--darker-gray);
+  overflow: none;
 }
 
 .search-bar {

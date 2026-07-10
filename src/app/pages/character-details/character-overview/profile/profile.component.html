@@ -31,23 +31,23 @@
         }}</span>
     </div>
     <div class="stat-row">
-      <span class="label">{{ char.profile.substatText }}</span>
+      <span class="label">{{ StatTypeLabel[char.profile.substatType] }}</span>
       <span class="value">
         {{
         (char.stats[level].specialized ?? 0) * 100 | number: "1.2-2"
         }}%</span>
     </div>
     <hr style="width: 100%" [style]="`color: ${elementColor};`" />
-    @if (char.profile.elementText != "None") {
+    @if (char.profile.elementType !== ElementType.NONE) {
     <div class="stat-row">
       <span class="label">Elem</span>
-      <span class="value">{{ char.profile.elementText }}</span>
+      <span class="value">{{ ElementTypeLabel[char.profile.elementType] }}</span>
     </div>
     }
     <div class="stat-row">
       <span class="label">Fegyver</span>
       <!-- <span class="value">{{ getHungarianWeaponName(char.profile.weaponText) }}</span> -->
-      <span class="value">{{ char.profile.weaponText }}</span>
+      <span class="value">{{ WeaponTypeLabel[char.profile.weaponType] }}</span>
     </div>
     <div class="stat-row">
       <span class="label">Konstelláció</span>
@@ -59,7 +59,7 @@
       <span class="value">{{ char.profile.affiliation }}</span>
     </div>
     }
-    @if (char.profile.birthday) {
+    @if (char.profile.birthdaymmdd) {
     <div class="stat-row">
       <span class="label">Születésnap</span>
       <span class="value">{{ char.profile.birthdaymmdd }}</span>

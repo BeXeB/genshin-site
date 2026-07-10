@@ -9,7 +9,7 @@ import { ResolverService } from '../../_services/resolver.service';
 import { StorageService } from '../../_services/storage.service';
 import { switchMap, takeUntil } from 'rxjs';
 import { Subject } from 'rxjs';
-import { ElementType } from '../../_models/enum';
+import { ElementType, ElementTypeLabel } from '../../_models/enum';
 
 @Component({
   selector: 'app-character-details',
@@ -49,7 +49,7 @@ export class CharacterDetailsComponent implements OnInit {
       return this.elementColors[this.selectedElement];
     }
 
-    return `var(--${this.char.profile.elementText.toLowerCase()})`;
+    return `var(--${ElementTypeLabel[this.char.profile.elementType].toLowerCase()})`;
   }
 
   isTraveller(): boolean {

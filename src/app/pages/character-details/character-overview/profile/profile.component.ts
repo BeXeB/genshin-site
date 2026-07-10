@@ -5,6 +5,7 @@ import { DecimalPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Material } from '../../../../_models/materials';
 import { RouterLink } from '@angular/router';
+import { ElementType, WeaponTypeLabel, ElementTypeLabel, StatTypeLabel } from '../../../../_models/enum';
 
 @Component({
   selector: 'app-overview-profile',
@@ -13,6 +14,11 @@ import { RouterLink } from '@angular/router';
   styleUrl: './profile.component.css',
 })
 export class OverviewProfileComponent implements OnInit {
+  readonly WeaponTypeLabel = WeaponTypeLabel;
+  readonly ElementTypeLabel = ElementTypeLabel;
+  readonly StatTypeLabel = StatTypeLabel;
+  readonly ElementType = ElementType;
+
   @Input() char: CharacterResolved | null = null;
   @Input() elementColor: string | null = null;
 
