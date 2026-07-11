@@ -63,8 +63,6 @@ export type CharacterTalents = {
     filename_passive3?: string;
     filename_passive4?: string;
   };
-
-  version: string;
 };
 
 export type CombatTalent = {
@@ -114,8 +112,6 @@ export type CharacterConstellation = {
     filename_c6: string;
     filename_constellation: string;
   };
-
-  version: string;
 };
 
 export type ConstellationDetail = {
