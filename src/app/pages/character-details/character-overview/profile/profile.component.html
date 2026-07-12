@@ -33,9 +33,12 @@
     <div class="stat-row">
       <span class="label">{{ StatTypeLabel[char.profile.substatType] }}</span>
       <span class="value">
-        {{
-        (char.stats[level].specialized ?? 0) * 100 | number: "1.2-2"
-        }}%</span>
+        @if (isPercentageSubstat(char.profile.substatType)) {
+        {{ ((char.stats[level].specialized ?? 0) * 100) | number: "1.2-2" }}%
+        } @else {
+        {{ (char.stats[level].specialized ?? 0) | number: "1.0-0" }}
+        }
+      </span>
     </div>
     <hr style="width: 100%" [style]="`color: ${elementColor};`" />
     @if (char.profile.elementType !== ElementType.NONE) {
