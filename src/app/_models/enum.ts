@@ -15,19 +15,19 @@ export const WeaponTypeLabel: Record<WeaponType, string> = {
 };
 
 export enum QualityType {
-  QUALITY_ORANGE = 'QUALITY_ORANGE',
-  QUALITY_PURPLE = 'QUALITY_PURPLE',
-  QUALITY_BLUE = 'QUALITY_BLUE',
-  QUALITY_GREEN = 'QUALITY_GREEN',
-  QUALITY_GREY = 'QUALITY_GREY',
+  ORANGE = 'QUALITY_ORANGE',
+  PURPLE = 'QUALITY_PURPLE',
+  BLUE = 'QUALITY_BLUE',
+  GREEN = 'QUALITY_GREEN',
+  GREY = 'QUALITY_GREY',
 }
 
-export const QualityTypeLabel: Record<QualityType, string> = {
-  [QualityType.QUALITY_ORANGE]: '5★',
-  [QualityType.QUALITY_PURPLE]: '4★',
-  [QualityType.QUALITY_BLUE]: '3★',
-  [QualityType.QUALITY_GREEN]: '2★',
-  [QualityType.QUALITY_GREY]: '1★',
+export const QualityTypeLabel: Record<QualityType, number> = {
+  [QualityType.ORANGE]: 5,
+  [QualityType.PURPLE]: 4,
+  [QualityType.BLUE]: 3,
+  [QualityType.GREEN]: 2,
+  [QualityType.GREY]: 1,
 };
 
 export enum ElementType {

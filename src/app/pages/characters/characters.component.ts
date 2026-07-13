@@ -11,6 +11,7 @@ import { ItemCardComponent } from '../../_components/item-card/item-card.compone
 import { RouterLink } from '@angular/router';
 import { BaseListComponent } from '../../_components/base-list.component';
 import { Observable } from 'rxjs';
+import { ElementType, ElementTypeLabel, WeaponTypeLabel } from '../../_models/enum';
 
 @Component({
   selector: 'app-characters',
@@ -27,6 +28,7 @@ import { Observable } from 'rxjs';
 })
 export class CharactersComponent extends BaseListComponent<CharacterProfile> {
   private readonly _storageKey = 'characterFilters';
+  readonly ElementType = ElementType;
 
   data: CharacterProfile[] = [];
   filtered: CharacterProfile[] = [];
@@ -54,10 +56,10 @@ export class CharactersComponent extends BaseListComponent<CharacterProfile> {
 
   filterFns = {
     elements: (c: CharacterProfile, values: string[]) =>
-      values.includes(c.elementText),
+      values.includes(ElementTypeLabel[c.elementType]),
 
     weapons: (c: CharacterProfile, values: string[]) =>
-      values.includes(c.weaponText),
+      values.includes(WeaponTypeLabel[c.weaponType]),
 
     rarity: (c: CharacterProfile, values: string[]) =>
       values.includes(c.rarity.toString()),
@@ -82,7 +84,7 @@ export class CharactersComponent extends BaseListComponent<CharacterProfile> {
   transformData(data: CharacterProfile[]): CharacterProfile[] {
     return data
       .filter((char) => char.name !== 'Manekin' && char.name !== 'Manekina')
-      .sort((a, b) => a.elementText.localeCompare(b.elementText))
+      .sort((a, b) => a.elementType.localeCompare(b.elementType))
       .sort((a, b) => b.rarity - a.rarity)
       .sort((a, b) => b.version.localeCompare(a.version));
   }
@@ -90,28 +92,29 @@ export class CharactersComponent extends BaseListComponent<CharacterProfile> {
   getIcons(char: CharacterProfile) {
     return {
       iconUrl: this.imageService.getCharacterIcon(char.normalizedName),
-      elementUrl: this.imageService.getElementIcon(char.elementText),
-      weaponUrl: this.imageService.getWeaponTypeIcon(char.weaponText),
+      elementUrl: this.imageService.getElementIcon(char.elementType),
+      weaponUrl: this.imageService.getWeaponTypeIcon(char.weaponType),
     };
   }
 
   getElementStyle(char: CharacterProfile): Record<string, string> {
-    if (char?.elementText === 'None') {
+    if (char?.elementType === ElementType.NONE) {
       return {};
     }
 
-    const elementColors: Record<string, string> = {
-      Pyro: 'var(--pyro)',
-      Hydro: 'var(--hydro)',
-      Anemo: 'var(--anemo)',
-      Electro: 'var(--electro)',
-      Dendro: 'var(--dendro)',
-      Cryo: 'var(--cryo)',
-      Geo: 'var(--geo)',
+    const elementColors: Record<ElementType, string> = {
+      [ElementType.PYRO]: 'var(--pyro)',
+      [ElementType.HYDRO]: 'var(--hydro)',
+      [ElementType.ANEMO]: 'var(--anemo)',
+      [ElementType.ELECTRO]: 'var(--electro)',
+      [ElementType.DENDRO]: 'var(--dendro)',
+      [ElementType.CRYO]: 'var(--cryo)',
+      [ElementType.GEO]: 'var(--geo)',
+      [ElementType.NONE]: 'transparent',
     };
 
-    const color = char?.elementText
-      ? (elementColors[char.elementText] ?? 'transparent')
+    const color = char?.elementType
+      ? (elementColors[char.elementType] ?? 'transparent')
       : 'transparent';
 
     return {

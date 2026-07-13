@@ -1,4 +1,4 @@
-import { StatType, WeaponType } from './enum';
+import { QualityType, StatType, WeaponType } from './enum';
 import { Item, ResolvedItem } from './items';
 
 export type Weapon = {
@@ -7,12 +7,11 @@ export type Weapon = {
   normalizedName: string;
 
   description: string;
-  descriptionRaw: string;
-
   weaponType: WeaponType;
-  weaponText: string;
 
+  qualityType: QualityType;
   rarity: 1 | 2 | 3 | 4 | 5;
+
   story: string;
 
   baseAtkValue: number;

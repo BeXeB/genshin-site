@@ -12,6 +12,7 @@ import { PageFilters, FilterGroup } from '../../_models/filters';
 import { FilterService } from '../../_services/filter.service';
 import { ItemCardComponent } from '../../_components/item-card/item-card.component';
 import { BaseListComponent } from '../../_components/base-list.component';
+import { QualityTypeLabel, WeaponTypeLabel } from '../../_models/enum';
 
 @Component({
   selector: 'app-weapons',
@@ -39,18 +40,18 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
     {
       label: 'Tipus',
       key: 'weapons',
-      options: ['Sword', 'Claymore', 'Polearm', 'Bow', 'Catalyst'],
+      options: Object.values(WeaponTypeLabel),
     },
     {
       label: 'Ritkaság',
       key: 'rarity',
-      options: ['5', '4', '3', '2', '1'],
+      options: Object.values(QualityTypeLabel).map(String),
     },
   ];
 
   filterFns = {
     weapons: (c: WeaponResolved, values: string[]) =>
-      values.includes(c.weaponText),
+      values.includes(WeaponTypeLabel[c.weaponType]),
 
     rarity: (c: WeaponResolved, values: string[]) =>
       values.includes(c.rarity.toString()),
@@ -90,7 +91,7 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
   getIconUrls(weapon: WeaponResolved) {
     return {
       iconUrl: this.imageService.getWeaponIcon(weapon.normalizedName),
-      typeUrl: this.imageService.getWeaponTypeIcon(weapon.weaponText),
+      typeUrl: this.imageService.getWeaponTypeIcon(weapon.weaponType),
     };
   }
 }

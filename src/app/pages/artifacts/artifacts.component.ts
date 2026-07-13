@@ -65,7 +65,7 @@ export class ArtifactsComponent extends BaseListComponent<ArtifactSet> {
 
   transformData(data: ArtifactSet[]): ArtifactSet[] {
     return data
-      .sort((a, b) => b.version.localeCompare(a.version))
+      .sort((a, b) => b.id - a.id)
       .sort((a, b) => {
         const maxA = this.getMaxRarity(a);
         const maxB = this.getMaxRarity(b);

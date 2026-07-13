@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { ElementType, ElementTypeLabel, WeaponType, WeaponTypeLabel } from '../_models/enum';
 
 @Injectable({
   providedIn: 'root',
@@ -20,8 +21,8 @@ export class ImageService {
    * @param element - Element name (e.g., 'Geo', 'Pyro', 'Hydro')
    * @returns URL to element icon image
    */
-  getElementIcon(element: string): string {
-    return `${this.baseUrl}/${element}.webp`;
+  getElementIcon(element: ElementType): string {
+    return `${this.baseUrl}/${ElementTypeLabel[element]}.webp`;
   }
 
   /**
@@ -35,11 +36,11 @@ export class ImageService {
 
   /**
    * Get weapon type icon URL
-   * @param type - Weapon type (e.g., 'Sword', 'Claymore', 'Bow')
+   * @param type - Weapon type
    * @returns URL to weapon type icon image
    */
-  getWeaponTypeIcon(type: string): string {
-    return `${this.baseUrl}/${type}.webp`;
+  getWeaponTypeIcon(type: WeaponType): string {
+    return `${this.baseUrl}/${WeaponTypeLabel[type]}.webp`;
   }
 
   /**

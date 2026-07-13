@@ -40,15 +40,6 @@
   box-shadow: none;
 }
 
-.char-container .right {
-  background-color: var(--darker-gray);
-  box-sizing: border-box;
-}
-
-.char-container .right:hover {
-  box-shadow: none;
-}
-
 .background {
   position: fixed;
   top: 0;

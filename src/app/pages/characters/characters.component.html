@@ -28,7 +28,7 @@
             <img [src]="getIcons(char).weaponUrl" alt="" />
           </div>
           <div class="icon element" [style]="getElementStyle(char)">
-            @if (char?.elementText != "None") {
+            @if (char?.elementType !== ElementType.NONE) {
               <img [src]="getIcons(char).elementUrl" alt="" />
             }
           </div>

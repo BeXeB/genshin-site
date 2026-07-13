@@ -5,6 +5,7 @@ import { DecimalPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Material } from '../../../../_models/materials';
 import { RouterLink } from '@angular/router';
+import { ElementType, WeaponTypeLabel, ElementTypeLabel, StatType, StatTypeLabel } from '../../../../_models/enum';
 
 @Component({
   selector: 'app-overview-profile',
@@ -13,6 +14,11 @@ import { RouterLink } from '@angular/router';
   styleUrl: './profile.component.css',
 })
 export class OverviewProfileComponent implements OnInit {
+  readonly WeaponTypeLabel = WeaponTypeLabel;
+  readonly ElementTypeLabel = ElementTypeLabel;
+  readonly StatTypeLabel = StatTypeLabel;
+  readonly ElementType = ElementType;
+
   @Input() char: CharacterResolved | null = null;
   @Input() elementColor: string | null = null;
 
@@ -107,6 +113,15 @@ export class OverviewProfileComponent implements OnInit {
 
   getMaterialImageUrl(material: Material): string {
     return this.imageService.getMaterialImage(material.normalizedName, material.type);
+  }
+
+  isPercentageSubstat(statType?: StatType | null): boolean {
+    if (!statType) {
+      return true;
+    }
+
+    const flatSubstats = [StatType.HP, StatType.ATK, StatType.DEF, StatType.EM];
+    return !flatSubstats.includes(statType);
   }
 
   getHungarianWeaponName(weaponType: string): string {

@@ -11,7 +11,6 @@ export type Material = {
   description: string;
 
   type: MaterialType;
-  typeText: string;
 
   dropDomainName?: string;
   daysOfWeek?: string[];
