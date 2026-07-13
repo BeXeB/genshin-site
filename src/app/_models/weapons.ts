@@ -43,7 +43,6 @@ export type Weapon = {
 };
 
 export type WeaponRefine = {
-  description: string;
   values: string[];
 };
 
