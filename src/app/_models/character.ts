@@ -41,7 +41,6 @@ export type CharacterProfile = {
 
 export type CharacterTalents = {
   id: number;
-  name: string;
 
   combat1: CombatTalent;
   combat2: CombatTalent;
