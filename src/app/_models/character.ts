@@ -40,8 +40,6 @@ export type CharacterProfile = {
 };
 
 export type CharacterTalents = {
-  id: number;
-
   combat1: CombatTalent;
   combat2: CombatTalent;
   combat3: CombatTalent;
@@ -90,9 +88,6 @@ export type CharacterStat = {
 export type CharacterStats = Record<string, CharacterStat>;
 
 export type CharacterConstellation = {
-  id: number;
-  name: string;
-
   c1: ConstellationDetail;
   c2: ConstellationDetail;
   c3: ConstellationDetail;
@@ -107,7 +102,6 @@ export type CharacterConstellation = {
     filename_c4: string;
     filename_c5: string;
     filename_c6: string;
-    filename_constellation: string;
   };
 };
 
