@@ -61,6 +61,7 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
+  background-color: var(--darker-gray);
   border: 1px solid var(--dark-gray);
   height: 42px;
   padding: 0px 5px;
@@ -71,15 +72,18 @@
   justify-content: center;
   align-items: center;
   height: fit-content;
+  background-color: var(--darker-gray);
   border-radius: 5px;
 }
 
 .element-container.selected {
   outline: 1px solid;
+  background-color: var(--dark-gray);
 }
 
 .element-container:hover {
   outline: 1px solid;
+  background-color: var(--dark-gray);
 }
 
 .element {
