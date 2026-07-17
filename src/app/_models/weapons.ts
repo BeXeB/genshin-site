@@ -14,13 +14,9 @@ export type Weapon = {
 
   story: string;
 
-  baseAtkValue: number;
-  mainStatType: StatType;
-  mainStatText?: string;
-  baseStatText?: string;
+  mainStatType?: StatType;
 
   effectName?: string;
-  effectTemplateRaw?: string;
 
   r1?: WeaponRefine;
   r2?: WeaponRefine;
@@ -44,7 +40,6 @@ export type Weapon = {
 
 export type WeaponRefine = {
   description: string;
-  values: string[];
 };
 
 export type WeaponStats = Record<string, WeaponStat>;
