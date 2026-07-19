@@ -33,7 +33,7 @@ export type Weapon = {
     filename_gacha: string;
   };
 
-  version: string;
+  sortOrder: number;
 
   stats: WeaponStats;
 };

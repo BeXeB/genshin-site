@@ -86,7 +86,7 @@ export class CharactersComponent extends BaseListComponent<CharacterProfile> {
       .filter((char) => char.name !== 'Manekin' && char.name !== 'Manekina')
       .sort((a, b) => a.elementType.localeCompare(b.elementType))
       .sort((a, b) => b.rarity - a.rarity)
-      .sort((a, b) => b.version.localeCompare(a.version));
+      .sort((a, b) => b.sortId - a.sortId);
   }
 
   getIcons(char: CharacterProfile) {

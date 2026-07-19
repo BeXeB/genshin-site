@@ -34,7 +34,7 @@ export type CharacterProfile = {
     filename_gachaSlice?: string;
   };
 
-  version: string;
+  sortId: number;
 
   isTraveler?: boolean;
 };
