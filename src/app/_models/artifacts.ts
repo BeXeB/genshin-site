@@ -28,7 +28,6 @@ export type ArtifactSet = {
 export type ArtifactPiece = {
   name: string;
   relicType: ArtifactType;
-  relicText: string;
   description: string;
   story: string;
 };

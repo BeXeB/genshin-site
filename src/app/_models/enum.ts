@@ -102,7 +102,7 @@ export enum ArtifactType {
   FLOWER = 'EQUIP_BRACER',
   PLUME = 'EQUIP_NECKLACE',
   SANDS = 'EQUIP_SHOES',
-  RING = 'EQUIP_RING',
+  GOBLET = 'EQUIP_RING',
   CIRCLET = 'EQUIP_DRESS',
 }
 
@@ -110,7 +110,7 @@ export const ArtifactTypeLabel: Record<ArtifactType, string> = {
   [ArtifactType.FLOWER]: 'Flower',
   [ArtifactType.PLUME]: 'Plume',
   [ArtifactType.SANDS]: 'Sands',
-  [ArtifactType.RING]: 'Goblet',
+  [ArtifactType.GOBLET]: 'Goblet',
   [ArtifactType.CIRCLET]: 'Circlet',
 };
 
