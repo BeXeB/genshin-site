@@ -133,7 +133,7 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
       return '';
     }
 
-    return this.formatterService.simpleHtmlConvert(effectRefine.description);
+    return this.formatterService.getFormattedText(effectRefine.description);
   }
 
   hasRefine(ref: number): boolean {

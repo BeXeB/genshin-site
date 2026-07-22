@@ -1,1624 +1,1598 @@
 {
-  "profile": {
-    "id": 10000130,
-    "name": "Linnea",
-    "normalizedName": "linnea",
-    "title": "Augur of Wonders",
-    "description": "Naturalist and Advisor to the Nod-Krai Branch of the Adventurers' Guild.",
-    "weaponType": "WEAPON_BOW",
-    "weaponText": "Bow",
-    "qualityType": "QUALITY_ORANGE",
-    "rarity": 5,
-    "birthday": "May 23",
-    "birthdaymmdd": "5/23",
-    "elementType": "ELEMENT_GEO",
-    "elementText": "Geo",
-    "affiliation": "Adventurers' Guild",
-    "region": "Nod-Krai",
-    "substatType": "FIGHT_PROP_CRITICAL",
-    "substatText": "CRIT Rate",
-    "constellation": "Alcyon",
-    "costs": {
-      "ascend1": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 20000
+    "constellation": {
+        "c1": {
+            "descriptionRaw": "When unleashing Elemental Skill <color=#FFD780FF>{LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}</color>, or when triggering Moondrift Harmony, Linnea gains 6 stacks of the <color=#FFD780FF>Field Catalog</color> effect for 10s. Max 18 stacks. When nearby party members deal Lunar-Crystallize Reaction DMG, consume 1 stack of Field Catalog to increase the DMG dealt. The increase in DMG is equal to 75% of Linnea's DEF.\nAdditionally, when Lumi uses <color=#FFD780FF>Million Ton Crush</color> in her <color=#FFD780FF>{LINK#N11300001}Ultimate Power Form{/LINK}</color>, Linnea can consume up to 5 stacks of Field Catalog. Each stack will increase the DMG dealt by 150% of Linnea's DEF.",
+            "name": "Provisional Classification"
         },
-        {
-          "id": 104171,
-          "name": "Prithiva Topaz Sliver",
-          "count": 1
+        "c2": {
+            "descriptionRaw": "Within 8s after triggering Moondrift Harmony, all <color=#80C0FFFF>Hydro</color> and <color=#FFE699FF>Geo</color> party members have their CRIT DMG increased by 40%. Additionally, when Lumi uses <color=#FFD780FF>Million Ton Crush</color> in her <color=#FFD780FF>{LINK#N11300001}Ultimate Power Form{/LINK}</color>, the CRIT DMG of that attack increases by an additional 150%. \n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: When Lumi uses <color=#FFD780FF>Heavy Overdrive Hammer</color> in her <color=#FFD780FF>{LINK#N11300001}Super Power Form{/LINK}</color>, or when she uses <color=#FFD780FF>Million Ton Crush</color> in her Ultimate Power Form, an instance of Moondrift Harmony will be triggered. For this instance of Moondrift Harmony, all <color=#80C0FFFF>Hydro</color> and <color=#FFE699FF>Geo</color> characters in the party will be considered to have applied their Elements in the reaction.",
+            "name": "Tidings of Joy and Sorrow"
         },
-        {
-          "id": 101272,
-          "name": "Etherwing Moth",
-          "count": 3
+        "c3": {
+            "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+            "name": "Eventful Log Page"
         },
-        {
-          "id": 112125,
-          "name": "Tattered Warrant",
-          "count": 3
+        "c4": {
+            "descriptionRaw": "Within 5s after Moondrift Harmony is triggered, increase the DEF of Linnea and your current active character by 25% respectively. When Linnea is on field, the DEF-increasing effect can be stacked.",
+            "name": "Expert Instinct"
+        },
+        "c5": {
+            "descriptionRaw": "Elemental Burst <color=#FFD780FF>{LINK#S11305}Memo: Survival Guide in Extreme Conditions{/LINK}</color> increases by 3 Levels.\nMaximum upgrade level is 15.",
+            "name": "Fairyland's Farewell Gift"
+        },
+        "c6": {
+            "descriptionRaw": "The effects of the Constellation, <color=#FFD780FF>Provisional Classification</color>, are enhanced: When unleashing Elemental Skill <color=#FFD780FF>{LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}</color>, or when triggering Moondrift Harmony, Linnea will directly gain the maximum number of <color=#FFD780FF>Field Catalog</color> stacks. When consuming <color=#FFD780FF>Field Catalog</color>, consume twice the original number of stacks, such that the increase in DMG will be boosted to 150% of the original value.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Lunar-Crystallize Reaction DMG dealt by nearby party members is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 25%.",
+            "name": "Golden Beagle's Dream"
+        },
+        "images": {
+            "filename_c1": "UI_Talent_S_Linnea_01",
+            "filename_c2": "UI_Talent_S_Linnea_02",
+            "filename_c3": "UI_Talent_U_Linnea_01",
+            "filename_c4": "UI_Talent_S_Linnea_03",
+            "filename_c5": "UI_Talent_U_Linnea_02",
+            "filename_c6": "UI_Talent_S_Linnea_04"
         }
-      ],
-      "ascend2": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 40000
+    },
+    "profile": {
+        "affiliation": "Adventurers' Guild",
+        "birthdaymmdd": "5/23",
+        "constellation": "Alcyon",
+        "costs": {
+            "ascend1": [
+                {
+                    "count": 20000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 1,
+                    "id": 104171,
+                    "name": "Prithiva Topaz Sliver"
+                },
+                {
+                    "count": 3,
+                    "id": 101272,
+                    "name": "Etherwing Moth"
+                },
+                {
+                    "count": 3,
+                    "id": 112125,
+                    "name": "Tattered Warrant"
+                }
+            ],
+            "ascend2": [
+                {
+                    "count": 40000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104172,
+                    "name": "Prithiva Topaz Fragment"
+                },
+                {
+                    "count": 2,
+                    "id": 113086,
+                    "name": "Plume of the Fallen Watcher"
+                },
+                {
+                    "count": 10,
+                    "id": 101272,
+                    "name": "Etherwing Moth"
+                },
+                {
+                    "count": 15,
+                    "id": 112125,
+                    "name": "Tattered Warrant"
+                }
+            ],
+            "ascend3": [
+                {
+                    "count": 60000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104172,
+                    "name": "Prithiva Topaz Fragment"
+                },
+                {
+                    "count": 4,
+                    "id": 113086,
+                    "name": "Plume of the Fallen Watcher"
+                },
+                {
+                    "count": 20,
+                    "id": 101272,
+                    "name": "Etherwing Moth"
+                },
+                {
+                    "count": 12,
+                    "id": 112126,
+                    "name": "Immaculate Warrant"
+                }
+            ],
+            "ascend4": [
+                {
+                    "count": 80000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104173,
+                    "name": "Prithiva Topaz Chunk"
+                },
+                {
+                    "count": 8,
+                    "id": 113086,
+                    "name": "Plume of the Fallen Watcher"
+                },
+                {
+                    "count": 30,
+                    "id": 101272,
+                    "name": "Etherwing Moth"
+                },
+                {
+                    "count": 18,
+                    "id": 112126,
+                    "name": "Immaculate Warrant"
+                }
+            ],
+            "ascend5": [
+                {
+                    "count": 100000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104173,
+                    "name": "Prithiva Topaz Chunk"
+                },
+                {
+                    "count": 12,
+                    "id": 113086,
+                    "name": "Plume of the Fallen Watcher"
+                },
+                {
+                    "count": 45,
+                    "id": 101272,
+                    "name": "Etherwing Moth"
+                },
+                {
+                    "count": 12,
+                    "id": 112127,
+                    "name": "Frost-Etched Warrant"
+                }
+            ],
+            "ascend6": [
+                {
+                    "count": 120000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104174,
+                    "name": "Prithiva Topaz Gemstone"
+                },
+                {
+                    "count": 20,
+                    "id": 113086,
+                    "name": "Plume of the Fallen Watcher"
+                },
+                {
+                    "count": 60,
+                    "id": 101272,
+                    "name": "Etherwing Moth"
+                },
+                {
+                    "count": 24,
+                    "id": 112127,
+                    "name": "Frost-Etched Warrant"
+                }
+            ]
         },
-        {
-          "id": 104172,
-          "name": "Prithiva Topaz Fragment",
-          "count": 3
+        "description": "Naturalist and Advisor to the Nod-Krai Branch of the Adventurers' Guild.",
+        "elementType": "ELEMENT_GEO",
+        "id": 10000130,
+        "images": {
+            "filename_gachaSlice": "UI_Gacha_AvatarIcon_Linnea",
+            "filename_gachaSplash": "UI_Gacha_AvatarImg_Linnea",
+            "filename_icon": "UI_AvatarIcon_Linnea",
+            "filename_iconCard": "UI_AvatarIcon_Linnea_Card",
+            "filename_sideIcon": "UI_AvatarIcon_Side_Linnea"
         },
-        {
-          "id": 113086,
-          "name": "Plume of the Fallen Watcher",
-          "count": 2
+        "name": "Linnea",
+        "normalizedName": "linnea",
+        "qualityType": "QUALITY_ORANGE",
+        "rarity": 5,
+        "sortId": 114,
+        "substatType": "FIGHT_PROP_CRITICAL",
+        "title": "Augur of Wonders",
+        "weaponType": "WEAPON_BOW"
+    },
+    "skills": {
+        "combat1": {
+            "attributes": {
+                "labels": [
+                    "1-Hit DMG|{param1:F1P}",
+                    "2-Hit DMG|{param2:F1P}",
+                    "3-Hit DMG|{param3:F1P}",
+                    "Aimed Shot|{param4:F1P}",
+                    "Fully-Charged Aimed Shot|{param5:P}",
+                    "Plunge DMG|{param6:F1P}",
+                    "Low/High Plunge DMG|{param7:P}/{param8:P}"
+                ],
+                "parameters": {
+                    "param1": [
+                        0.589969,
+                        0.637989,
+                        0.68601,
+                        0.754611,
+                        0.802632,
+                        0.857513,
+                        0.932974,
+                        1.008435,
+                        1.083896,
+                        1.166217,
+                        1.248538,
+                        1.330859,
+                        1.413181,
+                        1.495502,
+                        1.577823
+                    ],
+                    "param2": [
+                        0.511519,
+                        0.553155,
+                        0.59479,
+                        0.654269,
+                        0.695904,
+                        0.743488,
+                        0.808914,
+                        0.874341,
+                        0.939768,
+                        1.011143,
+                        1.082518,
+                        1.153893,
+                        1.225267,
+                        1.296642,
+                        1.368017
+                    ],
+                    "param3": [
+                        0.816312,
+                        0.882756,
+                        0.9492,
+                        1.04412,
+                        1.110564,
+                        1.1865,
+                        1.290912,
+                        1.395324,
+                        1.499736,
+                        1.61364,
+                        1.727544,
+                        1.841448,
+                        1.955352,
+                        2.069256,
+                        2.18316
+                    ],
+                    "param4": [
+                        0.4386,
+                        0.4743,
+                        0.51,
+                        0.561,
+                        0.5967,
+                        0.6375,
+                        0.6936,
+                        0.7497,
+                        0.8058,
+                        0.867,
+                        0.9282,
+                        0.9894,
+                        1.0506,
+                        1.1118,
+                        1.173
+                    ],
+                    "param5": [
+                        1.24,
+                        1.333,
+                        1.426,
+                        1.55,
+                        1.643,
+                        1.736,
+                        1.86,
+                        1.984,
+                        2.108,
+                        2.232,
+                        2.356,
+                        2.48,
+                        2.635,
+                        2.79,
+                        2.945
+                    ],
+                    "param6": [
+                        0.568288,
+                        0.614544,
+                        0.6608,
+                        0.72688,
+                        0.773136,
+                        0.826,
+                        0.898688,
+                        0.971376,
+                        1.044064,
+                        1.12336,
+                        1.202656,
+                        1.281952,
+                        1.361248,
+                        1.440544,
+                        1.51984
+                    ],
+                    "param7": [
+                        1.136335,
+                        1.228828,
+                        1.32132,
+                        1.453452,
+                        1.545944,
+                        1.65165,
+                        1.796995,
+                        1.94234,
+                        2.087686,
+                        2.246244,
+                        2.404802,
+                        2.563361,
+                        2.721919,
+                        2.880478,
+                        3.039036
+                    ],
+                    "param8": [
+                        1.419344,
+                        1.534872,
+                        1.6504,
+                        1.81544,
+                        1.930968,
+                        2.063,
+                        2.244544,
+                        2.426088,
+                        2.607632,
+                        2.80568,
+                        3.003728,
+                        3.201776,
+                        3.399824,
+                        3.597872,
+                        3.79592
+                    ]
+                }
+            },
+            "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <color=#FFE699FF>Geo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "name": "Capture Protocol"
         },
-        {
-          "id": 101272,
-          "name": "Etherwing Moth",
-          "count": 10
+        "combat2": {
+            "attributes": {
+                "labels": [
+                    "Lumi Pound-Pound Pummeler DMG|{param1:F1P} DEF ×2",
+                    "Lumi Heavy Overdrive Hammer DMG|{param2:F1P} DEF",
+                    "Lumi Million Ton Crush DMG|{param3:F1P} DEF",
+                    "Lumi Duration|{param4:F1}s",
+                    "CD|{param5:F1}s"
+                ],
+                "parameters": {
+                    "param1": [
+                        0.96,
+                        1.032,
+                        1.104,
+                        1.2,
+                        1.272,
+                        1.344,
+                        1.44,
+                        1.536,
+                        1.632,
+                        1.728,
+                        1.824,
+                        1.92,
+                        2.04,
+                        2.16,
+                        2.28
+                    ],
+                    "param2": [
+                        1.0,
+                        1.075,
+                        1.15,
+                        1.25,
+                        1.325,
+                        1.4,
+                        1.5,
+                        1.6,
+                        1.7,
+                        1.8,
+                        1.9,
+                        2.0,
+                        2.125,
+                        2.25,
+                        2.375
+                    ],
+                    "param3": [
+                        4.0,
+                        4.3,
+                        4.6,
+                        5.0,
+                        5.3,
+                        5.6,
+                        6.0,
+                        6.4,
+                        6.8,
+                        7.2,
+                        7.6,
+                        8.0,
+                        8.5,
+                        9.0,
+                        9.5
+                    ],
+                    "param4": [
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0
+                    ],
+                    "param5": [
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0
+                    ]
+                }
+            },
+            "descriptionRaw": "Adventure with Lumi! Depending on how you Tap, Lumi attacks in different forms.\n\n<color=#FFD780FF>Tap</color>\nLumi strikes in a <color=#FFD780FF>{LINK#N11300001}Super Power Form{/LINK}</color>, attacking nearby enemies continuously, dealing <color=#FFE699FF>AoE Geo DMG</color>. If there are Moondrifts nearby, Lumi will also deal <color=#FFE699FF>AoE Geo DMG</color> to nearby enemies, which will be considered Lunar-Crystallize Reaction DMG.\n\n<color=#FFD780FF>Continuous Tapping</color>\nTime to show what we're really capable of! After using her Elemental Skill, Linnea will feed Lumi sparkling gemstones when her Elemental Skill or Normal Attack is Tapped repeatedly. A full-bellied Lumi will strike in her <color=#FFD780FF>{LINK#N11300001}Ultimate Power Form{/LINK}</color>, dealing an especially powerful instance of <color=#FFE699FF>AoE Geo DMG</color> that is considered Lunar-Crystallize Reaction DMG, switching to <color=#FFD780FF>{LINK#N11300001}Standard Power Form{/LINK}</color>.\nAdditionally, tapping the Elemental Skill increases Linnea's interruption resistance.\n\n<i>\"You're up, Lumi!\"</i>",
+            "name": "Countermeasure: Lumi's Battle Cry!"
         },
-        {
-          "id": 112125,
-          "name": "Tattered Warrant",
-          "count": 15
+        "combat3": {
+            "attributes": {
+                "labels": [
+                    "Initial Healing Amount|{param2:F1P} DEF+{param1:I}",
+                    "Continuous Healing|{param4:F1P} DEF+{param3:I}",
+                    "Healing Duration|{param5:F1}s",
+                    "CD|{param6:F1}s",
+                    "Energy Cost|{param7:I}"
+                ],
+                "parameters": {
+                    "param1": [
+                        770.3755,
+                        847.42377,
+                        930.8927,
+                        1020.78235,
+                        1117.0927,
+                        1219.8236,
+                        1328.9753,
+                        1444.5477,
+                        1566.5408,
+                        1694.9546,
+                        1829.7891,
+                        1971.0442,
+                        2118.72,
+                        2272.8164,
+                        2433.3337
+                    ],
+                    "param2": [
+                        1.6,
+                        1.72,
+                        1.84,
+                        2.0,
+                        2.12,
+                        2.24,
+                        2.4,
+                        2.56,
+                        2.72,
+                        2.88,
+                        3.04,
+                        3.2,
+                        3.4,
+                        3.6,
+                        3.8
+                    ],
+                    "param3": [
+                        154.0751,
+                        169.48476,
+                        186.17854,
+                        204.15646,
+                        223.41853,
+                        243.96474,
+                        265.79507,
+                        288.90955,
+                        313.30817,
+                        338.9909,
+                        365.9578,
+                        394.20883,
+                        423.744,
+                        454.5633,
+                        486.66675
+                    ],
+                    "param4": [
+                        0.32,
+                        0.344,
+                        0.368,
+                        0.4,
+                        0.424,
+                        0.448,
+                        0.48,
+                        0.512,
+                        0.544,
+                        0.576,
+                        0.608,
+                        0.64,
+                        0.68,
+                        0.72,
+                        0.76
+                    ],
+                    "param5": [
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0,
+                        12.0
+                    ],
+                    "param6": [
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0
+                    ],
+                    "param7": [
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0
+                    ]
+                }
+            },
+            "descriptionRaw": "Even master adventurers need proper rest! Linnea summons Lumi to strike in <color=#FFD780FF>{LINK#N11300001}Super Power Form{/LINK}</color>, healing nearby party members. For a short duration, she will continuously heal nearby active party members based on Linnea's DEF.\nIf Lumi is already on the field when Linnea unleashes Elemental Burst, Lumi's active duration will be reset instead and her Strike Form will not change.\n\n<i>\"Any professional adventurer worth their salt prizes making it out of a serious jam over making discoveries, however unprecedented!\"</i>",
+            "name": "Memo: Survival Guide in Extreme Conditions"
+        },
+        "costs": {
+            "lvl10": [
+                {
+                    "count": 700000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 16,
+                    "id": 104364,
+                    "name": "Philosophies of Vagrancy"
+                },
+                {
+                    "count": 12,
+                    "id": 112127,
+                    "name": "Frost-Etched Warrant"
+                },
+                {
+                    "count": 2,
+                    "id": 113083,
+                    "name": "Elixir of the Heretic"
+                },
+                {
+                    "count": 1,
+                    "id": 104319,
+                    "name": "Crown of Insight"
+                }
+            ],
+            "lvl2": [
+                {
+                    "count": 12500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104362,
+                    "name": "Teachings of Vagrancy"
+                },
+                {
+                    "count": 6,
+                    "id": 112125,
+                    "name": "Tattered Warrant"
+                }
+            ],
+            "lvl3": [
+                {
+                    "count": 17500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 2,
+                    "id": 104363,
+                    "name": "Guide to Vagrancy"
+                },
+                {
+                    "count": 3,
+                    "id": 112126,
+                    "name": "Immaculate Warrant"
+                }
+            ],
+            "lvl4": [
+                {
+                    "count": 25000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 4,
+                    "id": 104363,
+                    "name": "Guide to Vagrancy"
+                },
+                {
+                    "count": 4,
+                    "id": 112126,
+                    "name": "Immaculate Warrant"
+                }
+            ],
+            "lvl5": [
+                {
+                    "count": 30000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104363,
+                    "name": "Guide to Vagrancy"
+                },
+                {
+                    "count": 6,
+                    "id": 112126,
+                    "name": "Immaculate Warrant"
+                }
+            ],
+            "lvl6": [
+                {
+                    "count": 37500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 9,
+                    "id": 104363,
+                    "name": "Guide to Vagrancy"
+                },
+                {
+                    "count": 9,
+                    "id": 112126,
+                    "name": "Immaculate Warrant"
+                }
+            ],
+            "lvl7": [
+                {
+                    "count": 120000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 4,
+                    "id": 104364,
+                    "name": "Philosophies of Vagrancy"
+                },
+                {
+                    "count": 4,
+                    "id": 112127,
+                    "name": "Frost-Etched Warrant"
+                },
+                {
+                    "count": 1,
+                    "id": 113083,
+                    "name": "Elixir of the Heretic"
+                }
+            ],
+            "lvl8": [
+                {
+                    "count": 260000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104364,
+                    "name": "Philosophies of Vagrancy"
+                },
+                {
+                    "count": 6,
+                    "id": 112127,
+                    "name": "Frost-Etched Warrant"
+                },
+                {
+                    "count": 1,
+                    "id": 113083,
+                    "name": "Elixir of the Heretic"
+                }
+            ],
+            "lvl9": [
+                {
+                    "count": 450000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 12,
+                    "id": 104364,
+                    "name": "Philosophies of Vagrancy"
+                },
+                {
+                    "count": 9,
+                    "id": 112127,
+                    "name": "Frost-Etched Warrant"
+                },
+                {
+                    "count": 2,
+                    "id": 113083,
+                    "name": "Elixir of the Heretic"
+                }
+            ]
+        },
+        "images": {
+            "filename_combat1": "Skill_A_02",
+            "filename_combat2": "Skill_S_Linnea_01",
+            "filename_combat3": "Skill_E_Linnea_01",
+            "filename_passive1": "UI_Talent_S_Linnea_05",
+            "filename_passive2": "UI_Talent_S_Linnea_06",
+            "filename_passive3": "UI_Talent_S_Linnea_07",
+            "filename_passive4": "UI_Talent_S_Linnea_08"
+        },
+        "passive1": {
+            "descriptionRaw": "When Lumi is present on the field, the <color=#FFE699FF>Geo RES</color> of opponents near Lumi will decrease by 15%.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Linnea's Elemental Skill <color=#FFD780FF>{LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}</color> and Elemental Burst <color=#FFD780FF>{LINK#S11305}Memo: Survival Guide in Extreme Conditions{/LINK}</color> are enhanced. After summoning Lumi, the <color=#FFE699FF>Geo RES</color> of opponents near Lumi will be further decreased by 15%.",
+            "name": "Field Observation Notes"
+        },
+        "passive2": {
+            "descriptionRaw": "Linnea will increase the Elemental Mastery of certain characters in your party according to your current active character. Increase in Elemental Mastery is based on 5% of Linnea's DEF. If your current active character:\n· Is a Moonsign character: Increase this character's Elemental Mastery.\n· Is not a Moonsign character: Increase Linnea's own Elemental Mastery.",
+            "name": "Universal Naturalist Archive"
+        },
+        "passive3": {
+            "descriptionRaw": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Linnea has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Linnea is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
+            "name": "Moonsign Benediction: Habitat Survey"
+        },
+        "passive4": {
+            "descriptionRaw": "When Linnea is not in combat, the charge time of her <color=#FFD780FF>Aimed Shot</color> is greatly decreased, and she will shoot an <color=#FFD780FF>Ultra Convenient Quick Arrow</color> instead. Different effects will occur depending on the targets hit:\n· Specific animals: <color=#FFD780FF>Ultra Convenient Quick Arrow</color> will be transformed into a special \"Net\" that can capture the essence and form of these animals, using them as a medium to manifest the animal's physical form again. The \"Net\" can only be used for a limited number of times each week. \n· Ore veins used in forging: Linnea will dispatch Lumi, who will quickly strike at the ore marked by the <color=#FFD780FF>Ultra Convenient Quick Arrow</color>, then collect the dislodged ore. If Lumi is not on the field, Linnea will summon her for a short duration to help obtain the ore.\n\nThe DMG dealt to opponents by Linnea's <color=#FFD780FF>Ultra Convenient Quick Arrow</color> is reduced to 20% of her original Charged Arrow. Additionally, after firing a certain number of <color=#FFD780FF>Ultra Convenient Quick Arrows</color> within a short period of time, Linnea needs to take a temporary break before she can continue using them.",
+            "name": "Master Adventurer"
         }
-      ],
-      "ascend3": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 60000
+    },
+    "stats": {
+        "1": {
+            "ascension": 0,
+            "attack": 11.172,
+            "defense": 70.5994,
+            "hp": 770.28253,
+            "level": 1,
+            "specialized": 0.05
         },
-        {
-          "id": 104172,
-          "name": "Prithiva Topaz Fragment",
-          "count": 6
+        "10": {
+            "ascension": 0,
+            "attack": 19.562172,
+            "defense": 123.6195494,
+            "hp": 1348.7647100299998,
+            "level": 10,
+            "specialized": 0.05
         },
-        {
-          "id": 113086,
-          "name": "Plume of the Fallen Watcher",
-          "count": 4
+        "100": {
+            "ascension": 6,
+            "attack": 175.794108,
+            "defense": 971.3514088,
+            "hp": 10597.96347956,
+            "level": 100,
+            "specialized": 0.242
         },
-        {
-          "id": 101272,
-          "name": "Etherwing Moth",
-          "count": 20
+        "11": {
+            "ascension": 0,
+            "attack": 20.50062,
+            "defense": 129.549899,
+            "hp": 1413.46844255,
+            "level": 11,
+            "specialized": 0.05
         },
-        {
-          "id": 112126,
-          "name": "Immaculate Warrant",
-          "count": 12
+        "12": {
+            "ascension": 0,
+            "attack": 21.439068000000002,
+            "defense": 135.4802486,
+            "hp": 1478.1721750699999,
+            "level": 12,
+            "specialized": 0.05
+        },
+        "13": {
+            "ascension": 0,
+            "attack": 22.377516000000004,
+            "defense": 141.4105982,
+            "hp": 1542.87590759,
+            "level": 13,
+            "specialized": 0.05
+        },
+        "14": {
+            "ascension": 0,
+            "attack": 23.327136000000003,
+            "defense": 147.4115472,
+            "hp": 1608.34992264,
+            "level": 14,
+            "specialized": 0.05
+        },
+        "15": {
+            "ascension": 0,
+            "attack": 24.265584000000004,
+            "defense": 153.34189680000003,
+            "hp": 1673.05365516,
+            "level": 15,
+            "specialized": 0.05
+        },
+        "16": {
+            "ascension": 0,
+            "attack": 25.204031999999998,
+            "defense": 159.2722464,
+            "hp": 1737.7573876799997,
+            "level": 16,
+            "specialized": 0.05
+        },
+        "17": {
+            "ascension": 0,
+            "attack": 26.153652000000005,
+            "defense": 165.27319540000002,
+            "hp": 1803.2314027300001,
+            "level": 17,
+            "specialized": 0.05
+        },
+        "18": {
+            "ascension": 0,
+            "attack": 27.0921,
+            "defense": 171.203545,
+            "hp": 1867.9351352499998,
+            "level": 18,
+            "specialized": 0.05
+        },
+        "19": {
+            "ascension": 0,
+            "attack": 28.041719999999998,
+            "defense": 177.20449399999998,
+            "hp": 1933.4091502999997,
+            "level": 19,
+            "specialized": 0.05
+        },
+        "2": {
+            "ascension": 0,
+            "attack": 12.099276,
+            "defense": 76.4591502,
+            "hp": 834.2159799899999,
+            "level": 2,
+            "specialized": 0.05
+        },
+        "20": {
+            "ascension": 0,
+            "attack": 28.980168,
+            "defense": 183.1348436,
+            "hp": 1998.1128828199999,
+            "level": 20,
+            "specialized": 0.05
+        },
+        "20+": {
+            "ascension": 1,
+            "attack": 38.558448,
+            "defense": 243.6688436,
+            "hp": 2658.56051282,
+            "level": 20,
+            "specialized": 0.05
+        },
+        "21": {
+            "ascension": 1,
+            "attack": 39.508067999999994,
+            "defense": 249.6697926,
+            "hp": 2724.0345278699997,
+            "level": 21,
+            "specialized": 0.05
+        },
+        "22": {
+            "ascension": 1,
+            "attack": 40.457688,
+            "defense": 255.67074159999999,
+            "hp": 2789.50854292,
+            "level": 22,
+            "specialized": 0.05
+        },
+        "23": {
+            "ascension": 1,
+            "attack": 41.407308,
+            "defense": 261.67169060000003,
+            "hp": 2854.98255797,
+            "level": 23,
+            "specialized": 0.05
+        },
+        "24": {
+            "ascension": 1,
+            "attack": 42.356928,
+            "defense": 267.6726396,
+            "hp": 2920.45657302,
+            "level": 24,
+            "specialized": 0.05
+        },
+        "25": {
+            "ascension": 1,
+            "attack": 43.306548,
+            "defense": 273.6735886,
+            "hp": 2985.93058807,
+            "level": 25,
+            "specialized": 0.05
+        },
+        "26": {
+            "ascension": 1,
+            "attack": 44.267340000000004,
+            "defense": 279.745137,
+            "hp": 3052.17488565,
+            "level": 26,
+            "specialized": 0.05
+        },
+        "27": {
+            "ascension": 1,
+            "attack": 45.21696,
+            "defense": 285.746086,
+            "hp": 3117.6489007,
+            "level": 27,
+            "specialized": 0.05
+        },
+        "28": {
+            "ascension": 1,
+            "attack": 46.16658,
+            "defense": 291.747035,
+            "hp": 3183.1229157499997,
+            "level": 28,
+            "specialized": 0.05
+        },
+        "29": {
+            "ascension": 1,
+            "attack": 47.127372,
+            "defense": 297.8185834,
+            "hp": 3249.36721333,
+            "level": 29,
+            "specialized": 0.05
+        },
+        "3": {
+            "ascension": 0,
+            "attack": 13.026552,
+            "defense": 82.3189004,
+            "hp": 898.1494299799999,
+            "level": 3,
+            "specialized": 0.05
+        },
+        "30": {
+            "ascension": 1,
+            "attack": 48.076992000000004,
+            "defense": 303.8195324,
+            "hp": 3314.8412283800003,
+            "level": 30,
+            "specialized": 0.05
+        },
+        "31": {
+            "ascension": 1,
+            "attack": 49.037784,
+            "defense": 309.8910808,
+            "hp": 3381.08552596,
+            "level": 31,
+            "specialized": 0.05
+        },
+        "32": {
+            "ascension": 1,
+            "attack": 49.998576,
+            "defense": 315.9626292,
+            "hp": 3447.32982354,
+            "level": 32,
+            "specialized": 0.05
+        },
+        "33": {
+            "ascension": 1,
+            "attack": 50.959368000000005,
+            "defense": 322.0341776,
+            "hp": 3513.57412112,
+            "level": 33,
+            "specialized": 0.05
+        },
+        "34": {
+            "ascension": 1,
+            "attack": 51.908988,
+            "defense": 328.0351266,
+            "hp": 3579.04813617,
+            "level": 34,
+            "specialized": 0.05
+        },
+        "35": {
+            "ascension": 1,
+            "attack": 52.86978,
+            "defense": 334.106675,
+            "hp": 3645.29243375,
+            "level": 35,
+            "specialized": 0.05
+        },
+        "36": {
+            "ascension": 1,
+            "attack": 53.841744000000006,
+            "defense": 340.2488228,
+            "hp": 3712.30701386,
+            "level": 36,
+            "specialized": 0.05
+        },
+        "37": {
+            "ascension": 1,
+            "attack": 54.802536,
+            "defense": 346.3203712,
+            "hp": 3778.55131144,
+            "level": 37,
+            "specialized": 0.05
+        },
+        "38": {
+            "ascension": 1,
+            "attack": 55.76332800000001,
+            "defense": 352.39191960000005,
+            "hp": 3844.79560902,
+            "level": 38,
+            "specialized": 0.05
+        },
+        "39": {
+            "ascension": 1,
+            "attack": 56.72412,
+            "defense": 358.463468,
+            "hp": 3911.0399065999995,
+            "level": 39,
+            "specialized": 0.05
+        },
+        "4": {
+            "ascension": 0,
+            "attack": 13.965,
+            "defense": 88.24925,
+            "hp": 962.8531624999999,
+            "level": 4,
+            "specialized": 0.05
+        },
+        "40": {
+            "ascension": 1,
+            "attack": 57.696084000000006,
+            "defense": 364.6056158,
+            "hp": 3978.05448671,
+            "level": 40,
+            "specialized": 0.05
+        },
+        "40+": {
+            "ascension": 2,
+            "attack": 64.501704,
+            "defense": 407.61661580000003,
+            "hp": 4447.31995671,
+            "level": 40,
+            "specialized": 0.098
+        },
+        "41": {
+            "ascension": 2,
+            "attack": 65.462496,
+            "defense": 413.6881642,
+            "hp": 4513.56425429,
+            "level": 41,
+            "specialized": 0.098
+        },
+        "42": {
+            "ascension": 2,
+            "attack": 66.43446,
+            "defense": 419.83031200000005,
+            "hp": 4580.5788344,
+            "level": 42,
+            "specialized": 0.098
+        },
+        "43": {
+            "ascension": 2,
+            "attack": 67.406424,
+            "defense": 425.9724598,
+            "hp": 4647.59341451,
+            "level": 43,
+            "specialized": 0.098
+        },
+        "44": {
+            "ascension": 2,
+            "attack": 68.367216,
+            "defense": 432.0440082,
+            "hp": 4713.8377120899995,
+            "level": 44,
+            "specialized": 0.098
+        },
+        "45": {
+            "ascension": 2,
+            "attack": 69.33918,
+            "defense": 438.18615600000004,
+            "hp": 4780.852292199999,
+            "level": 45,
+            "specialized": 0.098
+        },
+        "46": {
+            "ascension": 2,
+            "attack": 70.311144,
+            "defense": 444.3283038,
+            "hp": 4847.86687231,
+            "level": 46,
+            "specialized": 0.098
+        },
+        "47": {
+            "ascension": 2,
+            "attack": 71.283108,
+            "defense": 450.4704516,
+            "hp": 4914.881452419999,
+            "level": 47,
+            "specialized": 0.098
+        },
+        "48": {
+            "ascension": 2,
+            "attack": 72.25507200000001,
+            "defense": 456.6125994000001,
+            "hp": 4981.8960325299995,
+            "level": 48,
+            "specialized": 0.098
+        },
+        "49": {
+            "ascension": 2,
+            "attack": 73.23820800000001,
+            "defense": 462.82534660000005,
+            "hp": 5049.68089517,
+            "level": 49,
+            "specialized": 0.098
+        },
+        "5": {
+            "ascension": 0,
+            "attack": 14.892276,
+            "defense": 94.1090002,
+            "hp": 1026.78661249,
+            "level": 5,
+            "specialized": 0.05
+        },
+        "50": {
+            "ascension": 2,
+            "attack": 74.210172,
+            "defense": 468.9674944,
+            "hp": 5116.695475279999,
+            "level": 50,
+            "specialized": 0.098
+        },
+        "50+": {
+            "ascension": 3,
+            "attack": 83.284332,
+            "defense": 526.3154944,
+            "hp": 5742.38267528,
+            "level": 50,
+            "specialized": 0.14600000000000002
+        },
+        "51": {
+            "ascension": 3,
+            "attack": 84.256296,
+            "defense": 532.4576422,
+            "hp": 5809.397255389999,
+            "level": 51,
+            "specialized": 0.14600000000000002
+        },
+        "52": {
+            "ascension": 3,
+            "attack": 85.23943200000001,
+            "defense": 538.6703894,
+            "hp": 5877.18211803,
+            "level": 52,
+            "specialized": 0.14600000000000002
+        },
+        "53": {
+            "ascension": 3,
+            "attack": 86.211396,
+            "defense": 544.8125372,
+            "hp": 5944.19669814,
+            "level": 53,
+            "specialized": 0.14600000000000002
+        },
+        "54": {
+            "ascension": 3,
+            "attack": 87.194532,
+            "defense": 551.0252844,
+            "hp": 6011.98156078,
+            "level": 54,
+            "specialized": 0.14600000000000002
+        },
+        "55": {
+            "ascension": 3,
+            "attack": 88.177668,
+            "defense": 557.2380316,
+            "hp": 6079.76642342,
+            "level": 55,
+            "specialized": 0.14600000000000002
+        },
+        "56": {
+            "ascension": 3,
+            "attack": 89.160804,
+            "defense": 563.4507788,
+            "hp": 6147.55128606,
+            "level": 56,
+            "specialized": 0.14600000000000002
+        },
+        "57": {
+            "ascension": 3,
+            "attack": 90.14394,
+            "defense": 569.663526,
+            "hp": 6215.3361487,
+            "level": 57,
+            "specialized": 0.14600000000000002
+        },
+        "58": {
+            "ascension": 3,
+            "attack": 91.127076,
+            "defense": 575.8762732,
+            "hp": 6283.12101134,
+            "level": 58,
+            "specialized": 0.14600000000000002
+        },
+        "59": {
+            "ascension": 3,
+            "attack": 92.110212,
+            "defense": 582.0890204,
+            "hp": 6350.90587398,
+            "level": 59,
+            "specialized": 0.14600000000000002
+        },
+        "6": {
+            "ascension": 0,
+            "attack": 15.830724000000002,
+            "defense": 100.03934980000001,
+            "hp": 1091.49034501,
+            "level": 6,
+            "specialized": 0.05
+        },
+        "60": {
+            "ascension": 3,
+            "attack": 93.093348,
+            "defense": 588.3017676000001,
+            "hp": 6418.69073662,
+            "level": 60,
+            "specialized": 0.14600000000000002
+        },
+        "60+": {
+            "ascension": 4,
+            "attack": 99.898968,
+            "defense": 631.3127676,
+            "hp": 6887.956236620001,
+            "level": 60,
+            "specialized": 0.14600000000000002
+        },
+        "61": {
+            "ascension": 4,
+            "attack": 100.882104,
+            "defense": 637.5255148000001,
+            "hp": 6955.74109926,
+            "level": 61,
+            "specialized": 0.14600000000000002
+        },
+        "62": {
+            "ascension": 4,
+            "attack": 101.86524,
+            "defense": 643.7382620000001,
+            "hp": 7023.525961900001,
+            "level": 62,
+            "specialized": 0.14600000000000002
+        },
+        "63": {
+            "ascension": 4,
+            "attack": 102.85954800000002,
+            "defense": 650.0216086,
+            "hp": 7092.08110707,
+            "level": 63,
+            "specialized": 0.14600000000000002
+        },
+        "64": {
+            "ascension": 4,
+            "attack": 103.84268399999999,
+            "defense": 656.2343558,
+            "hp": 7159.865969709999,
+            "level": 64,
+            "specialized": 0.14600000000000002
+        },
+        "65": {
+            "ascension": 4,
+            "attack": 104.83699200000001,
+            "defense": 662.5177024,
+            "hp": 7228.4211148800005,
+            "level": 65,
+            "specialized": 0.14600000000000002
+        },
+        "66": {
+            "ascension": 4,
+            "attack": 105.8313,
+            "defense": 668.801049,
+            "hp": 7296.97626005,
+            "level": 66,
+            "specialized": 0.14600000000000002
+        },
+        "67": {
+            "ascension": 4,
+            "attack": 106.814436,
+            "defense": 675.0137962,
+            "hp": 7364.761122690001,
+            "level": 67,
+            "specialized": 0.14600000000000002
+        },
+        "68": {
+            "ascension": 4,
+            "attack": 107.80874399999999,
+            "defense": 681.2971428,
+            "hp": 7433.31626786,
+            "level": 68,
+            "specialized": 0.14600000000000002
+        },
+        "69": {
+            "ascension": 4,
+            "attack": 108.80305200000001,
+            "defense": 687.5804894,
+            "hp": 7501.8714130299995,
+            "level": 69,
+            "specialized": 0.14600000000000002
+        },
+        "7": {
+            "ascension": 0,
+            "attack": 16.758000000000003,
+            "defense": 105.8991,
+            "hp": 1155.423795,
+            "level": 7,
+            "specialized": 0.05
+        },
+        "70": {
+            "ascension": 4,
+            "attack": 109.79736,
+            "defense": 693.863836,
+            "hp": 7570.426558200001,
+            "level": 70,
+            "specialized": 0.14600000000000002
+        },
+        "70+": {
+            "ascension": 5,
+            "attack": 116.60298,
+            "defense": 736.8748360000001,
+            "hp": 8039.6919582,
+            "level": 70,
+            "specialized": 0.194
+        },
+        "71": {
+            "ascension": 5,
+            "attack": 117.597288,
+            "defense": 743.1581826,
+            "hp": 8108.247103369999,
+            "level": 71,
+            "specialized": 0.194
+        },
+        "72": {
+            "ascension": 5,
+            "attack": 118.602768,
+            "defense": 749.5121286,
+            "hp": 8177.572531069999,
+            "level": 72,
+            "specialized": 0.194
+        },
+        "73": {
+            "ascension": 5,
+            "attack": 119.597076,
+            "defense": 755.7954752,
+            "hp": 8246.12767624,
+            "level": 73,
+            "specialized": 0.194
+        },
+        "74": {
+            "ascension": 5,
+            "attack": 120.591384,
+            "defense": 762.0788218,
+            "hp": 8314.682821409999,
+            "level": 74,
+            "specialized": 0.194
+        },
+        "75": {
+            "ascension": 5,
+            "attack": 121.596864,
+            "defense": 768.4327678,
+            "hp": 8384.00824911,
+            "level": 75,
+            "specialized": 0.194
+        },
+        "76": {
+            "ascension": 5,
+            "attack": 122.591172,
+            "defense": 774.7161144,
+            "hp": 8452.56339428,
+            "level": 76,
+            "specialized": 0.194
+        },
+        "77": {
+            "ascension": 5,
+            "attack": 123.596652,
+            "defense": 781.0700604,
+            "hp": 8521.88882198,
+            "level": 77,
+            "specialized": 0.194
+        },
+        "78": {
+            "ascension": 5,
+            "attack": 124.602132,
+            "defense": 787.4240063999999,
+            "hp": 8591.21424968,
+            "level": 78,
+            "specialized": 0.194
+        },
+        "79": {
+            "ascension": 5,
+            "attack": 125.607612,
+            "defense": 793.7779524,
+            "hp": 8660.53967738,
+            "level": 79,
+            "specialized": 0.194
+        },
+        "8": {
+            "ascension": 0,
+            "attack": 17.696448,
+            "defense": 111.8294496,
+            "hp": 1220.12752752,
+            "level": 8,
+            "specialized": 0.05
+        },
+        "80": {
+            "ascension": 5,
+            "attack": 126.61309200000001,
+            "defense": 800.1318984,
+            "hp": 8729.86510508,
+            "level": 80,
+            "specialized": 0.194
+        },
+        "80+": {
+            "ascension": 6,
+            "attack": 133.41871200000003,
+            "defense": 843.1428983999999,
+            "hp": 9199.130405079999,
+            "level": 80,
+            "specialized": 0.242
+        },
+        "81": {
+            "ascension": 6,
+            "attack": 134.424192,
+            "defense": 849.4968444000001,
+            "hp": 9268.45583278,
+            "level": 81,
+            "specialized": 0.242
+        },
+        "82": {
+            "ascension": 6,
+            "attack": 135.429672,
+            "defense": 855.8507904,
+            "hp": 9337.781260479998,
+            "level": 82,
+            "specialized": 0.242
+        },
+        "83": {
+            "ascension": 6,
+            "attack": 136.43515200000002,
+            "defense": 862.2047364,
+            "hp": 9407.10668818,
+            "level": 83,
+            "specialized": 0.242
+        },
+        "84": {
+            "ascension": 6,
+            "attack": 137.440632,
+            "defense": 868.5586824,
+            "hp": 9476.43211588,
+            "level": 84,
+            "specialized": 0.242
+        },
+        "85": {
+            "ascension": 6,
+            "attack": 138.446112,
+            "defense": 874.9126283999999,
+            "hp": 9545.757543579999,
+            "level": 85,
+            "specialized": 0.242
+        },
+        "86": {
+            "ascension": 6,
+            "attack": 139.46276400000002,
+            "defense": 881.3371738000001,
+            "hp": 9615.85325381,
+            "level": 86,
+            "specialized": 0.242
+        },
+        "87": {
+            "ascension": 6,
+            "attack": 140.46824400000003,
+            "defense": 887.6911198,
+            "hp": 9685.17868151,
+            "level": 87,
+            "specialized": 0.242
+        },
+        "88": {
+            "ascension": 6,
+            "attack": 141.484896,
+            "defense": 894.1156652,
+            "hp": 9755.27439174,
+            "level": 88,
+            "specialized": 0.242
+        },
+        "89": {
+            "ascension": 6,
+            "attack": 142.501548,
+            "defense": 900.5402105999999,
+            "hp": 9825.370101969998,
+            "level": 89,
+            "specialized": 0.242
+        },
+        "9": {
+            "ascension": 0,
+            "attack": 18.634896,
+            "defense": 117.7597992,
+            "hp": 1284.83126004,
+            "level": 9,
+            "specialized": 0.05
+        },
+        "90": {
+            "ascension": 6,
+            "attack": 143.50702800000002,
+            "defense": 906.8941566000001,
+            "hp": 9894.69552967,
+            "level": 90,
+            "specialized": 0.242
+        },
+        "95": {
+            "ascension": 6,
+            "attack": 159.65056800000002,
+            "defense": 939.087483,
+            "hp": 10245.94436335,
+            "level": 95,
+            "specialized": 0.242
         }
-      ],
-      "ascend4": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 80000
-        },
-        {
-          "id": 104173,
-          "name": "Prithiva Topaz Chunk",
-          "count": 3
-        },
-        {
-          "id": 113086,
-          "name": "Plume of the Fallen Watcher",
-          "count": 8
-        },
-        {
-          "id": 101272,
-          "name": "Etherwing Moth",
-          "count": 30
-        },
-        {
-          "id": 112126,
-          "name": "Immaculate Warrant",
-          "count": 18
-        }
-      ],
-      "ascend5": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 100000
-        },
-        {
-          "id": 104173,
-          "name": "Prithiva Topaz Chunk",
-          "count": 6
-        },
-        {
-          "id": 113086,
-          "name": "Plume of the Fallen Watcher",
-          "count": 12
-        },
-        {
-          "id": 101272,
-          "name": "Etherwing Moth",
-          "count": 45
-        },
-        {
-          "id": 112127,
-          "name": "Frost-Etched Warrant",
-          "count": 12
-        }
-      ],
-      "ascend6": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 120000
-        },
-        {
-          "id": 104174,
-          "name": "Prithiva Topaz Gemstone",
-          "count": 6
-        },
-        {
-          "id": 113086,
-          "name": "Plume of the Fallen Watcher",
-          "count": 20
-        },
-        {
-          "id": 101272,
-          "name": "Etherwing Moth",
-          "count": 60
-        },
-        {
-          "id": 112127,
-          "name": "Frost-Etched Warrant",
-          "count": 24
-        }
-      ]
-    },
-    "images": {
-      "filename_icon": "UI_AvatarIcon_Linnea",
-      "filename_iconCard": "UI_AvatarIcon_Linnea_Card",
-      "filename_sideIcon": "UI_AvatarIcon_Side_Linnea",
-      "filename_gachaSplash": "UI_Gacha_AvatarImg_Linnea",
-      "filename_gachaSlice": "UI_Gacha_AvatarIcon_Linnea"
-    },
-    "version": "6.5",
-    "isTraveler": false
-  },
-  "skills": {
-    "id": 13001,
-    "name": "Linnea",
-    "combat1": {
-      "name": "Capture Protocol",
-      "description": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal Geo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 3 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <color=#FFE699FF>Geo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-      "attributes": {
-        "labels": [
-          "1-Hit DMG|{param1:F1P}",
-          "2-Hit DMG|{param2:F1P}",
-          "3-Hit DMG|{param3:F1P}",
-          "Aimed Shot|{param4:F1P}",
-          "Fully-Charged Aimed Shot|{param5:P}",
-          "Plunge DMG|{param6:F1P}",
-          "Low/High Plunge DMG|{param7:P}/{param8:P}"
-        ],
-        "parameters": {
-          "param1": [
-            0.589969,
-            0.637989,
-            0.68601,
-            0.754611,
-            0.802632,
-            0.857513,
-            0.932974,
-            1.008435,
-            1.083896,
-            1.166217,
-            1.248538,
-            1.330859,
-            1.413181,
-            1.495502,
-            1.577823
-          ],
-          "param2": [
-            0.511519,
-            0.553155,
-            0.59479,
-            0.654269,
-            0.695904,
-            0.743488,
-            0.808914,
-            0.874341,
-            0.939768,
-            1.011143,
-            1.082518,
-            1.153893,
-            1.225267,
-            1.296642,
-            1.368017
-          ],
-          "param3": [
-            0.816312,
-            0.882756,
-            0.9492,
-            1.04412,
-            1.110564,
-            1.1865,
-            1.290912,
-            1.395324,
-            1.499736,
-            1.61364,
-            1.727544,
-            1.841448,
-            1.955352,
-            2.069256,
-            2.18316
-          ],
-          "param4": [
-            0.4386,
-            0.4743,
-            0.51,
-            0.561,
-            0.5967,
-            0.6375,
-            0.6936,
-            0.7497,
-            0.8058,
-            0.867,
-            0.9282,
-            0.9894,
-            1.0506,
-            1.1118,
-            1.173
-          ],
-          "param5": [
-            1.24,
-            1.333,
-            1.426,
-            1.55,
-            1.643,
-            1.736,
-            1.86,
-            1.984,
-            2.108,
-            2.232,
-            2.356,
-            2.48,
-            2.635,
-            2.79,
-            2.945
-          ],
-          "param6": [
-            0.568288,
-            0.614544,
-            0.6608,
-            0.72688,
-            0.773136,
-            0.826,
-            0.898688,
-            0.971376,
-            1.044064,
-            1.12336,
-            1.202656,
-            1.281952,
-            1.361248,
-            1.440544,
-            1.51984
-          ],
-          "param7": [
-            1.136335,
-            1.228828,
-            1.32132,
-            1.453452,
-            1.545944,
-            1.65165,
-            1.796995,
-            1.94234,
-            2.087686,
-            2.246244,
-            2.404802,
-            2.563361,
-            2.721919,
-            2.880478,
-            3.039036
-          ],
-          "param8": [
-            1.419344,
-            1.534872,
-            1.6504,
-            1.81544,
-            1.930968,
-            2.063,
-            2.244544,
-            2.426088,
-            2.607632,
-            2.80568,
-            3.003728,
-            3.201776,
-            3.399824,
-            3.597872,
-            3.79592
-          ]
-        }
-      }
-    },
-    "combat2": {
-      "name": "Countermeasure: Lumi's Battle Cry!",
-      "description": "Adventure with Lumi! Depending on how you Tap, Lumi attacks in different forms.\n\nTap\nLumi strikes in a **Super Power Form**, attacking nearby enemies continuously, dealing AoE Geo DMG. If there are Moondrifts nearby, Lumi will also deal AoE Geo DMG to nearby enemies, which will be considered Lunar-Crystallize Reaction DMG.\n\nContinuous Tapping\nTime to show what we're really capable of! After using her Elemental Skill, Linnea will feed Lumi sparkling gemstones when her Elemental Skill or Normal Attack is Tapped repeatedly. A full-bellied Lumi will strike in her **Ultimate Power Form**, dealing an especially powerful instance of AoE Geo DMG that is considered Lunar-Crystallize Reaction DMG, switching to **Standard Power Form**.\nAdditionally, tapping the Elemental Skill increases Linnea's interruption resistance.",
-      "descriptionRaw": "Adventure with Lumi! Depending on how you Tap, Lumi attacks in different forms.\n\n<color=#FFD780FF>Tap</color>\nLumi strikes in a <color=#FFD780FF>{LINK#N11300001}Super Power Form{/LINK}</color>, attacking nearby enemies continuously, dealing <color=#FFE699FF>AoE Geo DMG</color>. If there are Moondrifts nearby, Lumi will also deal <color=#FFE699FF>AoE Geo DMG</color> to nearby enemies, which will be considered Lunar-Crystallize Reaction DMG.\n\n<color=#FFD780FF>Continuous Tapping</color>\nTime to show what we're really capable of! After using her Elemental Skill, Linnea will feed Lumi sparkling gemstones when her Elemental Skill or Normal Attack is Tapped repeatedly. A full-bellied Lumi will strike in her <color=#FFD780FF>{LINK#N11300001}Ultimate Power Form{/LINK}</color>, dealing an especially powerful instance of <color=#FFE699FF>AoE Geo DMG</color> that is considered Lunar-Crystallize Reaction DMG, switching to <color=#FFD780FF>{LINK#N11300001}Standard Power Form{/LINK}</color>.\nAdditionally, tapping the Elemental Skill increases Linnea's interruption resistance.\n\n<i>\"You're up, Lumi!\"</i>",
-      "attributes": {
-        "labels": [
-          "Lumi Pound-Pound Pummeler DMG|{param1:F1P} DEF ×2",
-          "Lumi Heavy Overdrive Hammer DMG|{param2:F1P} DEF",
-          "Lumi Million Ton Crush DMG|{param3:F1P} DEF",
-          "Lumi Duration|{param4:F1}s",
-          "CD|{param5:F1}s"
-        ],
-        "parameters": {
-          "param1": [
-            0.96,
-            1.032,
-            1.104,
-            1.2,
-            1.272,
-            1.344,
-            1.44,
-            1.536,
-            1.632,
-            1.728,
-            1.824,
-            1.92,
-            2.04,
-            2.16,
-            2.28
-          ],
-          "param2": [
-            1,
-            1.075,
-            1.15,
-            1.25,
-            1.325,
-            1.4,
-            1.5,
-            1.6,
-            1.7,
-            1.8,
-            1.9,
-            2,
-            2.125,
-            2.25,
-            2.375
-          ],
-          "param3": [
-            4,
-            4.3,
-            4.6,
-            5,
-            5.3,
-            5.6,
-            6,
-            6.4,
-            6.8,
-            7.2,
-            7.6,
-            8,
-            8.5,
-            9,
-            9.5
-          ],
-          "param4": [
-            25,
-            25,
-            25,
-            25,
-            25,
-            25,
-            25,
-            25,
-            25,
-            25,
-            25,
-            25,
-            25,
-            25,
-            25
-          ],
-          "param5": [
-            18,
-            18,
-            18,
-            18,
-            18,
-            18,
-            18,
-            18,
-            18,
-            18,
-            18,
-            18,
-            18,
-            18,
-            18
-          ]
-        }
-      }
-    },
-    "combat3": {
-      "name": "Memo: Survival Guide in Extreme Conditions",
-      "description": "Even master adventurers need proper rest! Linnea summons Lumi to strike in **Super Power Form**, healing nearby party members. For a short duration, she will continuously heal nearby active party members based on Linnea's DEF.\nIf Lumi is already on the field when Linnea unleashes Elemental Burst, Lumi's active duration will be reset instead and her Strike Form will not change.",
-      "descriptionRaw": "Even master adventurers need proper rest! Linnea summons Lumi to strike in <color=#FFD780FF>{LINK#N11300001}Super Power Form{/LINK}</color>, healing nearby party members. For a short duration, she will continuously heal nearby active party members based on Linnea's DEF.\nIf Lumi is already on the field when Linnea unleashes Elemental Burst, Lumi's active duration will be reset instead and her Strike Form will not change.\n\n<i>\"Any professional adventurer worth their salt prizes making it out of a serious jam over making discoveries, however unprecedented!\"</i>",
-      "attributes": {
-        "labels": [
-          "Initial Healing Amount|{param2:F1P} DEF+{param1:I}",
-          "Continuous Healing|{param4:F1P} DEF+{param3:I}",
-          "Healing Duration|{param5:F1}s",
-          "CD|{param6:F1}s",
-          "Energy Cost|{param7:I}"
-        ],
-        "parameters": {
-          "param1": [
-            770.3755,
-            847.42377,
-            930.8927,
-            1020.78235,
-            1117.0927,
-            1219.8236,
-            1328.9753,
-            1444.5477,
-            1566.5408,
-            1694.9546,
-            1829.7891,
-            1971.0442,
-            2118.72,
-            2272.8164,
-            2433.3337
-          ],
-          "param2": [
-            1.6,
-            1.72,
-            1.84,
-            2,
-            2.12,
-            2.24,
-            2.4,
-            2.56,
-            2.72,
-            2.88,
-            3.04,
-            3.2,
-            3.4,
-            3.6,
-            3.8
-          ],
-          "param3": [
-            154.0751,
-            169.48476,
-            186.17854,
-            204.15646,
-            223.41853,
-            243.96474,
-            265.79507,
-            288.90955,
-            313.30817,
-            338.9909,
-            365.9578,
-            394.20883,
-            423.744,
-            454.5633,
-            486.66675
-          ],
-          "param4": [
-            0.32,
-            0.344,
-            0.368,
-            0.4,
-            0.424,
-            0.448,
-            0.48,
-            0.512,
-            0.544,
-            0.576,
-            0.608,
-            0.64,
-            0.68,
-            0.72,
-            0.76
-          ],
-          "param5": [
-            12,
-            12,
-            12,
-            12,
-            12,
-            12,
-            12,
-            12,
-            12,
-            12,
-            12,
-            12,
-            12,
-            12,
-            12
-          ],
-          "param6": [
-            15,
-            15,
-            15,
-            15,
-            15,
-            15,
-            15,
-            15,
-            15,
-            15,
-            15,
-            15,
-            15,
-            15,
-            15
-          ],
-          "param7": [
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60
-          ]
-        }
-      }
-    },
-    "passive1": {
-      "name": "Field Observation Notes",
-      "descriptionRaw": "When Lumi is present on the field, the <color=#FFE699FF>Geo RES</color> of opponents near Lumi will decrease by 15%.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Linnea's Elemental Skill <color=#FFD780FF>{LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}</color> and Elemental Burst <color=#FFD780FF>{LINK#S11305}Memo: Survival Guide in Extreme Conditions{/LINK}</color> are enhanced. After summoning Lumi, the <color=#FFE699FF>Geo RES</color> of opponents near Lumi will be further decreased by 15%.",
-      "description": "When Lumi is present on the field, the Geo RES of opponents near Lumi will decrease by 15%.\n\nMoonsign: Ascendant Gleam: Linnea's Elemental Skill **Countermeasure: Lumi's Battle Cry!** and Elemental Burst **Memo: Survival Guide in Extreme Conditions** are enhanced. After summoning Lumi, the Geo RES of opponents near Lumi will be further decreased by 15%."
-    },
-    "passive2": {
-      "name": "Universal Naturalist Archive",
-      "descriptionRaw": "Linnea will increase the Elemental Mastery of certain characters in your party according to your current active character. Increase in Elemental Mastery is based on 5% of Linnea's DEF. If your current active character:\n· Is a Moonsign character: Increase this character's Elemental Mastery.\n· Is not a Moonsign character: Increase Linnea's own Elemental Mastery.",
-      "description": "Linnea will increase the Elemental Mastery of certain characters in your party according to your current active character. Increase in Elemental Mastery is based on 5% of Linnea's DEF. If your current active character:\n· Is a Moonsign character: Increase this character's Elemental Mastery.\n· Is not a Moonsign character: Increase Linnea's own Elemental Mastery."
-    },
-    "passive3": {
-      "name": "Moonsign Benediction: Habitat Survey",
-      "descriptionRaw": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Linnea has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Linnea is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
-      "description": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Linnea has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Linnea is in the party, the party's Moonsign will increase by 1 level."
-    },
-    "passive4": {
-      "name": "Master Adventurer",
-      "descriptionRaw": "When Linnea is not in combat, the charge time of her <color=#FFD780FF>Aimed Shot</color> is greatly decreased, and she will shoot an <color=#FFD780FF>Ultra Convenient Quick Arrow</color> instead. Different effects will occur depending on the targets hit:\n· Specific animals: <color=#FFD780FF>Ultra Convenient Quick Arrow</color> will be transformed into a special \"Net\" that can capture the essence and form of these animals, using them as a medium to manifest the animal's physical form again. The \"Net\" can only be used for a limited number of times each week. \n· Ore veins used in forging: Linnea will dispatch Lumi, who will quickly strike at the ore marked by the <color=#FFD780FF>Ultra Convenient Quick Arrow</color>, then collect the dislodged ore. If Lumi is not on the field, Linnea will summon her for a short duration to help obtain the ore.\n\nThe DMG dealt to opponents by Linnea's <color=#FFD780FF>Ultra Convenient Quick Arrow</color> is reduced to 20% of her original Charged Arrow. Additionally, after firing a certain number of <color=#FFD780FF>Ultra Convenient Quick Arrows</color> within a short period of time, Linnea needs to take a temporary break before she can continue using them.",
-      "description": "When Linnea is not in combat, the charge time of her Aimed Shot is greatly decreased, and she will shoot an Ultra Convenient Quick Arrow instead. Different effects will occur depending on the targets hit:\n· Specific animals: Ultra Convenient Quick Arrow will be transformed into a special \"Net\" that can capture the essence and form of these animals, using them as a medium to manifest the animal's physical form again. The \"Net\" can only be used for a limited number of times each week. \n· Ore veins used in forging: Linnea will dispatch Lumi, who will quickly strike at the ore marked by the Ultra Convenient Quick Arrow, then collect the dislodged ore. If Lumi is not on the field, Linnea will summon her for a short duration to help obtain the ore.\n\nThe DMG dealt to opponents by Linnea's Ultra Convenient Quick Arrow is reduced to 20% of her original Charged Arrow. Additionally, after firing a certain number of Ultra Convenient Quick Arrows within a short period of time, Linnea needs to take a temporary break before she can continue using them."
-    },
-    "costs": {
-      "lvl2": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 12500
-        },
-        {
-          "id": 104362,
-          "name": "Teachings of Vagrancy",
-          "count": 3
-        },
-        {
-          "id": 112125,
-          "name": "Tattered Warrant",
-          "count": 6
-        }
-      ],
-      "lvl3": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 17500
-        },
-        {
-          "id": 104363,
-          "name": "Guide to Vagrancy",
-          "count": 2
-        },
-        {
-          "id": 112126,
-          "name": "Immaculate Warrant",
-          "count": 3
-        }
-      ],
-      "lvl4": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 25000
-        },
-        {
-          "id": 104363,
-          "name": "Guide to Vagrancy",
-          "count": 4
-        },
-        {
-          "id": 112126,
-          "name": "Immaculate Warrant",
-          "count": 4
-        }
-      ],
-      "lvl5": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 30000
-        },
-        {
-          "id": 104363,
-          "name": "Guide to Vagrancy",
-          "count": 6
-        },
-        {
-          "id": 112126,
-          "name": "Immaculate Warrant",
-          "count": 6
-        }
-      ],
-      "lvl6": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 37500
-        },
-        {
-          "id": 104363,
-          "name": "Guide to Vagrancy",
-          "count": 9
-        },
-        {
-          "id": 112126,
-          "name": "Immaculate Warrant",
-          "count": 9
-        }
-      ],
-      "lvl7": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 120000
-        },
-        {
-          "id": 104364,
-          "name": "Philosophies of Vagrancy",
-          "count": 4
-        },
-        {
-          "id": 112127,
-          "name": "Frost-Etched Warrant",
-          "count": 4
-        },
-        {
-          "id": 113083,
-          "name": "Elixir of the Heretic",
-          "count": 1
-        }
-      ],
-      "lvl8": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 260000
-        },
-        {
-          "id": 104364,
-          "name": "Philosophies of Vagrancy",
-          "count": 6
-        },
-        {
-          "id": 112127,
-          "name": "Frost-Etched Warrant",
-          "count": 6
-        },
-        {
-          "id": 113083,
-          "name": "Elixir of the Heretic",
-          "count": 1
-        }
-      ],
-      "lvl9": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 450000
-        },
-        {
-          "id": 104364,
-          "name": "Philosophies of Vagrancy",
-          "count": 12
-        },
-        {
-          "id": 112127,
-          "name": "Frost-Etched Warrant",
-          "count": 9
-        },
-        {
-          "id": 113083,
-          "name": "Elixir of the Heretic",
-          "count": 2
-        }
-      ],
-      "lvl10": [
-        {
-          "id": 202,
-          "name": "Mora",
-          "count": 700000
-        },
-        {
-          "id": 104364,
-          "name": "Philosophies of Vagrancy",
-          "count": 16
-        },
-        {
-          "id": 112127,
-          "name": "Frost-Etched Warrant",
-          "count": 12
-        },
-        {
-          "id": 113083,
-          "name": "Elixir of the Heretic",
-          "count": 2
-        },
-        {
-          "id": 104319,
-          "name": "Crown of Insight",
-          "count": 1
-        }
-      ]
-    },
-    "images": {
-      "filename_combat1": "Skill_A_02",
-      "filename_combat2": "Skill_S_Linnea_01",
-      "filename_combat3": "Skill_E_Linnea_01_HD",
-      "filename_passive1": "UI_Talent_S_Linnea_05",
-      "filename_passive2": "UI_Talent_S_Linnea_06",
-      "filename_passive3": "UI_Talent_S_Linnea_07",
-      "filename_passive4": "UI_Talent_S_Linnea_08"
-    },
-    "version": "6.5"
-  },
-  "constellation": {
-    "id": 13001,
-    "name": "Linnea",
-    "c1": {
-      "name": "Provisional Classification",
-      "descriptionRaw": "When unleashing Elemental Skill <color=#FFD780FF>{LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}</color>, or when triggering Moondrift Harmony, Linnea gains 6 stacks of the <color=#FFD780FF>Field Catalog</color> effect for 10s. Max 18 stacks. When nearby party members deal Lunar-Crystallize Reaction DMG, consume 1 stack of Field Catalog to increase the DMG dealt. The increase in DMG is equal to 75% of Linnea's DEF.\nAdditionally, when Lumi uses <color=#FFD780FF>Million Ton Crush</color> in her <color=#FFD780FF>{LINK#N11300001}Ultimate Power Form{/LINK}</color>, Linnea can consume up to 5 stacks of Field Catalog. Each stack will increase the DMG dealt by 150% of Linnea's DEF.",
-      "description": "When unleashing Elemental Skill **Countermeasure: Lumi's Battle Cry!**, or when triggering Moondrift Harmony, Linnea gains 6 stacks of the Field Catalog effect for 10s. Max 18 stacks. When nearby party members deal Lunar-Crystallize Reaction DMG, consume 1 stack of Field Catalog to increase the DMG dealt. The increase in DMG is equal to 75% of Linnea's DEF.\nAdditionally, when Lumi uses Million Ton Crush in her **Ultimate Power Form**, Linnea can consume up to 5 stacks of Field Catalog. Each stack will increase the DMG dealt by 150% of Linnea's DEF."
-    },
-    "c2": {
-      "name": "Tidings of Joy and Sorrow",
-      "descriptionRaw": "Within 8s after triggering Moondrift Harmony, all <color=#80C0FFFF>Hydro</color> and <color=#FFE699FF>Geo</color> party members have their CRIT DMG increased by 40%. Additionally, when Lumi uses <color=#FFD780FF>Million Ton Crush</color> in her <color=#FFD780FF>{LINK#N11300001}Ultimate Power Form{/LINK}</color>, the CRIT DMG of that attack increases by an additional 150%. \n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: When Lumi uses <color=#FFD780FF>Heavy Overdrive Hammer</color> in her <color=#FFD780FF>{LINK#N11300001}Super Power Form{/LINK}</color>, or when she uses <color=#FFD780FF>Million Ton Crush</color> in her Ultimate Power Form, an instance of Moondrift Harmony will be triggered. For this instance of Moondrift Harmony, all <color=#80C0FFFF>Hydro</color> and <color=#FFE699FF>Geo</color> characters in the party will be considered to have applied their Elements in the reaction.",
-      "description": "Within 8s after triggering Moondrift Harmony, all Hydro and Geo party members have their CRIT DMG increased by 40%. Additionally, when Lumi uses Million Ton Crush in her **Ultimate Power Form**, the CRIT DMG of that attack increases by an additional 150%. \n\nMoonsign: Ascendant Gleam: When Lumi uses Heavy Overdrive Hammer in her **Super Power Form**, or when she uses Million Ton Crush in her Ultimate Power Form, an instance of Moondrift Harmony will be triggered. For this instance of Moondrift Harmony, all Hydro and Geo characters in the party will be considered to have applied their Elements in the reaction."
-    },
-    "c3": {
-      "name": "Eventful Log Page",
-      "descriptionRaw": "Increases the Level of <color=#FFD780FF>{LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
-      "description": "Increases the Level of **Countermeasure: Lumi's Battle Cry!** by 3.\nMaximum upgrade level is 15."
-    },
-    "c4": {
-      "name": "Expert Instinct",
-      "descriptionRaw": "Within 5s after Moondrift Harmony is triggered, increase the DEF of Linnea and your current active character by 25% respectively. When Linnea is on field, the DEF-increasing effect can be stacked.",
-      "description": "Within 5s after Moondrift Harmony is triggered, increase the DEF of Linnea and your current active character by 25% respectively. When Linnea is on field, the DEF-increasing effect can be stacked."
-    },
-    "c5": {
-      "name": "Fairyland's Farewell Gift",
-      "descriptionRaw": "Elemental Burst <color=#FFD780FF>{LINK#S11305}Memo: Survival Guide in Extreme Conditions{/LINK}</color> increases by 3 Levels.\nMaximum upgrade level is 15.",
-      "description": "Elemental Burst **Memo: Survival Guide in Extreme Conditions** increases by 3 Levels.\nMaximum upgrade level is 15."
-    },
-    "c6": {
-      "name": "Golden Beagle's Dream",
-      "descriptionRaw": "The effects of the Constellation, <color=#FFD780FF>Provisional Classification</color>, are enhanced: When unleashing Elemental Skill <color=#FFD780FF>{LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}</color>, or when triggering Moondrift Harmony, Linnea will directly gain the maximum number of <color=#FFD780FF>Field Catalog</color> stacks. When consuming <color=#FFD780FF>Field Catalog</color>, consume twice the original number of stacks, such that the increase in DMG will be boosted to 150% of the original value.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Lunar-Crystallize Reaction DMG dealt by nearby party members is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 25%.",
-      "description": "The effects of the Constellation, Provisional Classification, are enhanced: When unleashing Elemental Skill **Countermeasure: Lumi's Battle Cry!**, or when triggering Moondrift Harmony, Linnea will directly gain the maximum number of Field Catalog stacks. When consuming Field Catalog, consume twice the original number of stacks, such that the increase in DMG will be boosted to 150% of the original value.\n\nMoonsign: Ascendant Gleam: Lunar-Crystallize Reaction DMG dealt by nearby party members is **elevated** by 25%."
-    },
-    "images": {
-      "filename_c1": "UI_Talent_S_Linnea_01",
-      "filename_c2": "UI_Talent_S_Linnea_02",
-      "filename_c3": "UI_Talent_U_Linnea_01",
-      "filename_c4": "UI_Talent_S_Linnea_03",
-      "filename_c5": "UI_Talent_U_Linnea_02",
-      "filename_c6": "UI_Talent_S_Linnea_04",
-      "filename_constellation": "Eff_UI_Talent_Linnea"
-    },
-    "version": "6.5"
-  },
-  "stats": {
-    "1": {
-      "level": 1,
-      "ascension": 0,
-      "hp": 770.28253,
-      "attack": 11.172,
-      "defense": 70.5994,
-      "specialized": 0.05
-    },
-    "2": {
-      "level": 2,
-      "ascension": 0,
-      "hp": 834.2159799899999,
-      "attack": 12.099276,
-      "defense": 76.4591502,
-      "specialized": 0.05
-    },
-    "3": {
-      "level": 3,
-      "ascension": 0,
-      "hp": 898.1494299799999,
-      "attack": 13.026552,
-      "defense": 82.3189004,
-      "specialized": 0.05
-    },
-    "4": {
-      "level": 4,
-      "ascension": 0,
-      "hp": 962.8531624999999,
-      "attack": 13.965,
-      "defense": 88.24925,
-      "specialized": 0.05
-    },
-    "5": {
-      "level": 5,
-      "ascension": 0,
-      "hp": 1026.78661249,
-      "attack": 14.892276,
-      "defense": 94.1090002,
-      "specialized": 0.05
-    },
-    "6": {
-      "level": 6,
-      "ascension": 0,
-      "hp": 1091.49034501,
-      "attack": 15.830724000000002,
-      "defense": 100.03934980000001,
-      "specialized": 0.05
-    },
-    "7": {
-      "level": 7,
-      "ascension": 0,
-      "hp": 1155.423795,
-      "attack": 16.758000000000003,
-      "defense": 105.8991,
-      "specialized": 0.05
-    },
-    "8": {
-      "level": 8,
-      "ascension": 0,
-      "hp": 1220.12752752,
-      "attack": 17.696448,
-      "defense": 111.8294496,
-      "specialized": 0.05
-    },
-    "9": {
-      "level": 9,
-      "ascension": 0,
-      "hp": 1284.83126004,
-      "attack": 18.634896,
-      "defense": 117.7597992,
-      "specialized": 0.05
-    },
-    "10": {
-      "level": 10,
-      "ascension": 0,
-      "hp": 1348.7647100299998,
-      "attack": 19.562172,
-      "defense": 123.6195494,
-      "specialized": 0.05
-    },
-    "11": {
-      "level": 11,
-      "ascension": 0,
-      "hp": 1413.46844255,
-      "attack": 20.50062,
-      "defense": 129.549899,
-      "specialized": 0.05
-    },
-    "12": {
-      "level": 12,
-      "ascension": 0,
-      "hp": 1478.1721750699999,
-      "attack": 21.439068000000002,
-      "defense": 135.4802486,
-      "specialized": 0.05
-    },
-    "13": {
-      "level": 13,
-      "ascension": 0,
-      "hp": 1542.87590759,
-      "attack": 22.377516000000004,
-      "defense": 141.4105982,
-      "specialized": 0.05
-    },
-    "14": {
-      "level": 14,
-      "ascension": 0,
-      "hp": 1608.34992264,
-      "attack": 23.327136000000003,
-      "defense": 147.4115472,
-      "specialized": 0.05
-    },
-    "15": {
-      "level": 15,
-      "ascension": 0,
-      "hp": 1673.05365516,
-      "attack": 24.265584000000004,
-      "defense": 153.34189680000003,
-      "specialized": 0.05
-    },
-    "16": {
-      "level": 16,
-      "ascension": 0,
-      "hp": 1737.7573876799997,
-      "attack": 25.204031999999998,
-      "defense": 159.2722464,
-      "specialized": 0.05
-    },
-    "17": {
-      "level": 17,
-      "ascension": 0,
-      "hp": 1803.2314027300001,
-      "attack": 26.153652000000005,
-      "defense": 165.27319540000002,
-      "specialized": 0.05
-    },
-    "18": {
-      "level": 18,
-      "ascension": 0,
-      "hp": 1867.9351352499998,
-      "attack": 27.0921,
-      "defense": 171.203545,
-      "specialized": 0.05
-    },
-    "19": {
-      "level": 19,
-      "ascension": 0,
-      "hp": 1933.4091502999997,
-      "attack": 28.041719999999998,
-      "defense": 177.20449399999998,
-      "specialized": 0.05
-    },
-    "20": {
-      "level": 20,
-      "ascension": 0,
-      "hp": 1998.1128828199999,
-      "attack": 28.980168,
-      "defense": 183.1348436,
-      "specialized": 0.05
-    },
-    "21": {
-      "level": 21,
-      "ascension": 1,
-      "hp": 2724.0345278699997,
-      "attack": 39.508067999999994,
-      "defense": 249.6697926,
-      "specialized": 0.05
-    },
-    "22": {
-      "level": 22,
-      "ascension": 1,
-      "hp": 2789.50854292,
-      "attack": 40.457688,
-      "defense": 255.67074159999999,
-      "specialized": 0.05
-    },
-    "23": {
-      "level": 23,
-      "ascension": 1,
-      "hp": 2854.98255797,
-      "attack": 41.407308,
-      "defense": 261.67169060000003,
-      "specialized": 0.05
-    },
-    "24": {
-      "level": 24,
-      "ascension": 1,
-      "hp": 2920.45657302,
-      "attack": 42.356928,
-      "defense": 267.6726396,
-      "specialized": 0.05
-    },
-    "25": {
-      "level": 25,
-      "ascension": 1,
-      "hp": 2985.93058807,
-      "attack": 43.306548,
-      "defense": 273.6735886,
-      "specialized": 0.05
-    },
-    "26": {
-      "level": 26,
-      "ascension": 1,
-      "hp": 3052.17488565,
-      "attack": 44.267340000000004,
-      "defense": 279.745137,
-      "specialized": 0.05
-    },
-    "27": {
-      "level": 27,
-      "ascension": 1,
-      "hp": 3117.6489007,
-      "attack": 45.21696,
-      "defense": 285.746086,
-      "specialized": 0.05
-    },
-    "28": {
-      "level": 28,
-      "ascension": 1,
-      "hp": 3183.1229157499997,
-      "attack": 46.16658,
-      "defense": 291.747035,
-      "specialized": 0.05
-    },
-    "29": {
-      "level": 29,
-      "ascension": 1,
-      "hp": 3249.36721333,
-      "attack": 47.127372,
-      "defense": 297.8185834,
-      "specialized": 0.05
-    },
-    "30": {
-      "level": 30,
-      "ascension": 1,
-      "hp": 3314.8412283800003,
-      "attack": 48.076992000000004,
-      "defense": 303.8195324,
-      "specialized": 0.05
-    },
-    "31": {
-      "level": 31,
-      "ascension": 1,
-      "hp": 3381.08552596,
-      "attack": 49.037784,
-      "defense": 309.8910808,
-      "specialized": 0.05
-    },
-    "32": {
-      "level": 32,
-      "ascension": 1,
-      "hp": 3447.32982354,
-      "attack": 49.998576,
-      "defense": 315.9626292,
-      "specialized": 0.05
-    },
-    "33": {
-      "level": 33,
-      "ascension": 1,
-      "hp": 3513.57412112,
-      "attack": 50.959368000000005,
-      "defense": 322.0341776,
-      "specialized": 0.05
-    },
-    "34": {
-      "level": 34,
-      "ascension": 1,
-      "hp": 3579.04813617,
-      "attack": 51.908988,
-      "defense": 328.0351266,
-      "specialized": 0.05
-    },
-    "35": {
-      "level": 35,
-      "ascension": 1,
-      "hp": 3645.29243375,
-      "attack": 52.86978,
-      "defense": 334.106675,
-      "specialized": 0.05
-    },
-    "36": {
-      "level": 36,
-      "ascension": 1,
-      "hp": 3712.30701386,
-      "attack": 53.841744000000006,
-      "defense": 340.2488228,
-      "specialized": 0.05
-    },
-    "37": {
-      "level": 37,
-      "ascension": 1,
-      "hp": 3778.55131144,
-      "attack": 54.802536,
-      "defense": 346.3203712,
-      "specialized": 0.05
-    },
-    "38": {
-      "level": 38,
-      "ascension": 1,
-      "hp": 3844.79560902,
-      "attack": 55.76332800000001,
-      "defense": 352.39191960000005,
-      "specialized": 0.05
-    },
-    "39": {
-      "level": 39,
-      "ascension": 1,
-      "hp": 3911.0399065999995,
-      "attack": 56.72412,
-      "defense": 358.463468,
-      "specialized": 0.05
-    },
-    "40": {
-      "level": 40,
-      "ascension": 1,
-      "hp": 3978.05448671,
-      "attack": 57.696084000000006,
-      "defense": 364.6056158,
-      "specialized": 0.05
-    },
-    "41": {
-      "level": 41,
-      "ascension": 2,
-      "hp": 4513.56425429,
-      "attack": 65.462496,
-      "defense": 413.6881642,
-      "specialized": 0.098
-    },
-    "42": {
-      "level": 42,
-      "ascension": 2,
-      "hp": 4580.5788344,
-      "attack": 66.43446,
-      "defense": 419.83031200000005,
-      "specialized": 0.098
-    },
-    "43": {
-      "level": 43,
-      "ascension": 2,
-      "hp": 4647.59341451,
-      "attack": 67.406424,
-      "defense": 425.9724598,
-      "specialized": 0.098
-    },
-    "44": {
-      "level": 44,
-      "ascension": 2,
-      "hp": 4713.8377120899995,
-      "attack": 68.367216,
-      "defense": 432.0440082,
-      "specialized": 0.098
-    },
-    "45": {
-      "level": 45,
-      "ascension": 2,
-      "hp": 4780.852292199999,
-      "attack": 69.33918,
-      "defense": 438.18615600000004,
-      "specialized": 0.098
-    },
-    "46": {
-      "level": 46,
-      "ascension": 2,
-      "hp": 4847.86687231,
-      "attack": 70.311144,
-      "defense": 444.3283038,
-      "specialized": 0.098
-    },
-    "47": {
-      "level": 47,
-      "ascension": 2,
-      "hp": 4914.881452419999,
-      "attack": 71.283108,
-      "defense": 450.4704516,
-      "specialized": 0.098
-    },
-    "48": {
-      "level": 48,
-      "ascension": 2,
-      "hp": 4981.8960325299995,
-      "attack": 72.25507200000001,
-      "defense": 456.6125994000001,
-      "specialized": 0.098
-    },
-    "49": {
-      "level": 49,
-      "ascension": 2,
-      "hp": 5049.68089517,
-      "attack": 73.23820800000001,
-      "defense": 462.82534660000005,
-      "specialized": 0.098
-    },
-    "50": {
-      "level": 50,
-      "ascension": 2,
-      "hp": 5116.695475279999,
-      "attack": 74.210172,
-      "defense": 468.9674944,
-      "specialized": 0.098
-    },
-    "51": {
-      "level": 51,
-      "ascension": 3,
-      "hp": 5809.397255389999,
-      "attack": 84.256296,
-      "defense": 532.4576422,
-      "specialized": 0.14600000000000002
-    },
-    "52": {
-      "level": 52,
-      "ascension": 3,
-      "hp": 5877.18211803,
-      "attack": 85.23943200000001,
-      "defense": 538.6703894,
-      "specialized": 0.14600000000000002
-    },
-    "53": {
-      "level": 53,
-      "ascension": 3,
-      "hp": 5944.19669814,
-      "attack": 86.211396,
-      "defense": 544.8125372,
-      "specialized": 0.14600000000000002
-    },
-    "54": {
-      "level": 54,
-      "ascension": 3,
-      "hp": 6011.98156078,
-      "attack": 87.194532,
-      "defense": 551.0252844,
-      "specialized": 0.14600000000000002
-    },
-    "55": {
-      "level": 55,
-      "ascension": 3,
-      "hp": 6079.76642342,
-      "attack": 88.177668,
-      "defense": 557.2380316,
-      "specialized": 0.14600000000000002
-    },
-    "56": {
-      "level": 56,
-      "ascension": 3,
-      "hp": 6147.55128606,
-      "attack": 89.160804,
-      "defense": 563.4507788,
-      "specialized": 0.14600000000000002
-    },
-    "57": {
-      "level": 57,
-      "ascension": 3,
-      "hp": 6215.3361487,
-      "attack": 90.14394,
-      "defense": 569.663526,
-      "specialized": 0.14600000000000002
-    },
-    "58": {
-      "level": 58,
-      "ascension": 3,
-      "hp": 6283.12101134,
-      "attack": 91.127076,
-      "defense": 575.8762732,
-      "specialized": 0.14600000000000002
-    },
-    "59": {
-      "level": 59,
-      "ascension": 3,
-      "hp": 6350.90587398,
-      "attack": 92.110212,
-      "defense": 582.0890204,
-      "specialized": 0.14600000000000002
-    },
-    "60": {
-      "level": 60,
-      "ascension": 3,
-      "hp": 6418.69073662,
-      "attack": 93.093348,
-      "defense": 588.3017676000001,
-      "specialized": 0.14600000000000002
-    },
-    "61": {
-      "level": 61,
-      "ascension": 4,
-      "hp": 6955.74109926,
-      "attack": 100.882104,
-      "defense": 637.5255148000001,
-      "specialized": 0.14600000000000002
-    },
-    "62": {
-      "level": 62,
-      "ascension": 4,
-      "hp": 7023.525961900001,
-      "attack": 101.86524,
-      "defense": 643.7382620000001,
-      "specialized": 0.14600000000000002
-    },
-    "63": {
-      "level": 63,
-      "ascension": 4,
-      "hp": 7092.08110707,
-      "attack": 102.85954800000002,
-      "defense": 650.0216086,
-      "specialized": 0.14600000000000002
-    },
-    "64": {
-      "level": 64,
-      "ascension": 4,
-      "hp": 7159.865969709999,
-      "attack": 103.84268399999999,
-      "defense": 656.2343558,
-      "specialized": 0.14600000000000002
-    },
-    "65": {
-      "level": 65,
-      "ascension": 4,
-      "hp": 7228.4211148800005,
-      "attack": 104.83699200000001,
-      "defense": 662.5177024,
-      "specialized": 0.14600000000000002
-    },
-    "66": {
-      "level": 66,
-      "ascension": 4,
-      "hp": 7296.97626005,
-      "attack": 105.8313,
-      "defense": 668.801049,
-      "specialized": 0.14600000000000002
-    },
-    "67": {
-      "level": 67,
-      "ascension": 4,
-      "hp": 7364.761122690001,
-      "attack": 106.814436,
-      "defense": 675.0137962,
-      "specialized": 0.14600000000000002
-    },
-    "68": {
-      "level": 68,
-      "ascension": 4,
-      "hp": 7433.31626786,
-      "attack": 107.80874399999999,
-      "defense": 681.2971428,
-      "specialized": 0.14600000000000002
-    },
-    "69": {
-      "level": 69,
-      "ascension": 4,
-      "hp": 7501.8714130299995,
-      "attack": 108.80305200000001,
-      "defense": 687.5804894,
-      "specialized": 0.14600000000000002
-    },
-    "70": {
-      "level": 70,
-      "ascension": 4,
-      "hp": 7570.426558200001,
-      "attack": 109.79736,
-      "defense": 693.863836,
-      "specialized": 0.14600000000000002
-    },
-    "71": {
-      "level": 71,
-      "ascension": 5,
-      "hp": 8108.247103369999,
-      "attack": 117.597288,
-      "defense": 743.1581826,
-      "specialized": 0.194
-    },
-    "72": {
-      "level": 72,
-      "ascension": 5,
-      "hp": 8177.572531069999,
-      "attack": 118.602768,
-      "defense": 749.5121286,
-      "specialized": 0.194
-    },
-    "73": {
-      "level": 73,
-      "ascension": 5,
-      "hp": 8246.12767624,
-      "attack": 119.597076,
-      "defense": 755.7954752,
-      "specialized": 0.194
-    },
-    "74": {
-      "level": 74,
-      "ascension": 5,
-      "hp": 8314.682821409999,
-      "attack": 120.591384,
-      "defense": 762.0788218,
-      "specialized": 0.194
-    },
-    "75": {
-      "level": 75,
-      "ascension": 5,
-      "hp": 8384.00824911,
-      "attack": 121.596864,
-      "defense": 768.4327678,
-      "specialized": 0.194
-    },
-    "76": {
-      "level": 76,
-      "ascension": 5,
-      "hp": 8452.56339428,
-      "attack": 122.591172,
-      "defense": 774.7161144,
-      "specialized": 0.194
-    },
-    "77": {
-      "level": 77,
-      "ascension": 5,
-      "hp": 8521.88882198,
-      "attack": 123.596652,
-      "defense": 781.0700604,
-      "specialized": 0.194
-    },
-    "78": {
-      "level": 78,
-      "ascension": 5,
-      "hp": 8591.21424968,
-      "attack": 124.602132,
-      "defense": 787.4240063999999,
-      "specialized": 0.194
-    },
-    "79": {
-      "level": 79,
-      "ascension": 5,
-      "hp": 8660.53967738,
-      "attack": 125.607612,
-      "defense": 793.7779524,
-      "specialized": 0.194
-    },
-    "80": {
-      "level": 80,
-      "ascension": 5,
-      "hp": 8729.86510508,
-      "attack": 126.61309200000001,
-      "defense": 800.1318984,
-      "specialized": 0.194
-    },
-    "81": {
-      "level": 81,
-      "ascension": 6,
-      "hp": 9268.45583278,
-      "attack": 134.424192,
-      "defense": 849.4968444000001,
-      "specialized": 0.242
-    },
-    "82": {
-      "level": 82,
-      "ascension": 6,
-      "hp": 9337.781260479998,
-      "attack": 135.429672,
-      "defense": 855.8507904,
-      "specialized": 0.242
-    },
-    "83": {
-      "level": 83,
-      "ascension": 6,
-      "hp": 9407.10668818,
-      "attack": 136.43515200000002,
-      "defense": 862.2047364,
-      "specialized": 0.242
-    },
-    "84": {
-      "level": 84,
-      "ascension": 6,
-      "hp": 9476.43211588,
-      "attack": 137.440632,
-      "defense": 868.5586824,
-      "specialized": 0.242
-    },
-    "85": {
-      "level": 85,
-      "ascension": 6,
-      "hp": 9545.757543579999,
-      "attack": 138.446112,
-      "defense": 874.9126283999999,
-      "specialized": 0.242
-    },
-    "86": {
-      "level": 86,
-      "ascension": 6,
-      "hp": 9615.85325381,
-      "attack": 139.46276400000002,
-      "defense": 881.3371738000001,
-      "specialized": 0.242
-    },
-    "87": {
-      "level": 87,
-      "ascension": 6,
-      "hp": 9685.17868151,
-      "attack": 140.46824400000003,
-      "defense": 887.6911198,
-      "specialized": 0.242
-    },
-    "88": {
-      "level": 88,
-      "ascension": 6,
-      "hp": 9755.27439174,
-      "attack": 141.484896,
-      "defense": 894.1156652,
-      "specialized": 0.242
-    },
-    "89": {
-      "level": 89,
-      "ascension": 6,
-      "hp": 9825.370101969998,
-      "attack": 142.501548,
-      "defense": 900.5402105999999,
-      "specialized": 0.242
-    },
-    "90": {
-      "level": 90,
-      "ascension": 6,
-      "hp": 9894.69552967,
-      "attack": 143.50702800000002,
-      "defense": 906.8941566000001,
-      "specialized": 0.242
-    },
-    "95": {
-      "level": 95,
-      "ascension": 6,
-      "hp": 10245.94436335,
-      "attack": 159.65056800000002,
-      "defense": 939.087483,
-      "specialized": 0.242
-    },
-    "100": {
-      "level": 100,
-      "ascension": 6,
-      "hp": 10597.96347956,
-      "attack": 175.794108,
-      "defense": 971.3514088,
-      "specialized": 0.242
-    },
-    "20+": {
-      "level": 20,
-      "ascension": 1,
-      "hp": 2658.56051282,
-      "attack": 38.558448,
-      "defense": 243.6688436,
-      "specialized": 0.05
-    },
-    "40+": {
-      "level": 40,
-      "ascension": 2,
-      "hp": 4447.31995671,
-      "attack": 64.501704,
-      "defense": 407.61661580000003,
-      "specialized": 0.098
-    },
-    "50+": {
-      "level": 50,
-      "ascension": 3,
-      "hp": 5742.38267528,
-      "attack": 83.284332,
-      "defense": 526.3154944,
-      "specialized": 0.14600000000000002
-    },
-    "60+": {
-      "level": 60,
-      "ascension": 4,
-      "hp": 6887.956236620001,
-      "attack": 99.898968,
-      "defense": 631.3127676,
-      "specialized": 0.14600000000000002
-    },
-    "70+": {
-      "level": 70,
-      "ascension": 5,
-      "hp": 8039.6919582,
-      "attack": 116.60298,
-      "defense": 736.8748360000001,
-      "specialized": 0.194
-    },
-    "80+": {
-      "level": 80,
-      "ascension": 6,
-      "hp": 9199.130405079999,
-      "attack": 133.41871200000003,
-      "defense": 843.1428983999999,
-      "specialized": 0.242
     }
-  }
 }
