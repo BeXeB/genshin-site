@@ -84,7 +84,7 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
       if (a.weaponType !== b.weaponType) {
         return a.weaponType.localeCompare(b.weaponType);
       }
-      return b.version.localeCompare(a.version);
+      return b.sortOrder - a.sortOrder;
     });
   }
 

@@ -39,9 +39,9 @@
                 weapon.stats[level].attack | number: "1.0-0"
               }}</span>
             </div>
-            @if (weapon.mainStatText) {
+            @if (weapon.mainStatType) {
               <div class="stat-row">
-                <span class="label">{{ weapon.mainStatText }}</span>
+                <span class="label">{{ StatTypeLabel[weapon.mainStatType] }}</span>
                 <span class="value"
                   >{{
                     (weapon.stats[level].specialized ?? 0) * 100

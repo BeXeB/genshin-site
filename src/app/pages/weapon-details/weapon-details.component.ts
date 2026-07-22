@@ -2,7 +2,6 @@ import {
   Component,
   ChangeDetectionStrategy,
   ChangeDetectorRef,
-  OnInit,
 } from '@angular/core';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { WeaponRefine, WeaponResolved } from '../../_models/weapons';
@@ -17,6 +16,7 @@ import { DecimalPipe } from '@angular/common';
 import { FormatterService } from '../../_services/formatter.service';
 import { BaseDetailComponent } from '../../_components/base-detail.component';
 import { ImageService } from '../../_services/image.service';
+import { StatTypeLabel } from '../../_models/enum';
 
 @Component({
   selector: 'app-weapon-details',
@@ -29,6 +29,8 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
   weapon: WeaponResolved | null = null;
   mora: Material | null = null;
   errorMessage: string | null = null;
+
+  readonly StatTypeLabel = StatTypeLabel;
 
   constructor(
     protected override route: ActivatedRoute,
@@ -130,32 +132,8 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
     if (!effectRefine) {
       return '';
     }
-    let template = this.weapon?.effectTemplateRaw;
-    if (!template) {
-      return effectRefine.description;
-    }
 
-    template = template.replace(
-      /<color="?(#?[0-9A-Fa-f]{3,8})"?>(.*?)<\/color>/g,
-      (_, color, text) => {
-        const normalizedColor = color.startsWith('#') ? color : `#${color}`;
-        return `<span style="color:${normalizedColor}">${text}</span>`;
-      },
-    );
-
-    template = this.replacePlaceholders(template, effectRefine.values);
-
-    return this.formatterService.simpleHtmlConvert(template);
-  }
-
-  private replacePlaceholders(
-    text: string,
-    values: (string | number)[],
-  ): string {
-    return text.replace(/\{(\d+)\}/g, (_, index) => {
-      const i = Number(index);
-      return values[i] !== undefined ? String(values[i]) : `{${index}}`;
-    });
+    return this.formatterService.getFormattedText(effectRefine.description);
   }
 
   hasRefine(ref: number): boolean {

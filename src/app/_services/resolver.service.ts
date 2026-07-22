@@ -82,18 +82,35 @@ export class ResolverService {
     return items.map((i) => this.resolveItem(i));
   }
 
-  resolveItem(item: Item): ResolvedItem {
+  resolveItem(item: Item, visited = new Set<number>()): ResolvedItem {
     const material = this.materialMap.get(item.id)!;
+
+    // Already resolving this material -> stop recursion
+    if (visited.has(item.id)) {
+      return {
+        material,
+        count: item.count,
+        craftable: false,
+        craft: undefined,
+      };
+    }
+
     const craftData = this.craftMap.get(item.id);
 
-    let craft: ResolvedItem['craft'] | undefined = undefined;
+    let craft: ResolvedItem['craft'] | undefined;
 
     if (craftData) {
+      const nextVisited = new Set(visited);
+      nextVisited.add(item.id);
+
       craft = {
         moraCost: craftData.moraCost,
         resultCount: craftData.resultCount,
         recipe: craftData.recipe.map((r) =>
-          this.resolveItem({ id: r.id, name: r.name, count: r.count }),
+          this.resolveItem(
+            { id: r.id, name: r.name, count: r.count },
+            nextVisited,
+          ),
         ),
       };
     }
@@ -114,7 +131,10 @@ export class ResolverService {
     const craft = craftData
       ? {
           recipe: craftData.recipe.map((r) =>
-            this.resolveItem({ id: r.id, name: r.name, count: r.count }),
+            this.resolveItem(
+              { id: r.id, name: r.name, count: r.count },
+              new Set([material.id]),
+            ),
           ),
           moraCost: craftData?.moraCost,
           resultCount: craftData?.resultCount,

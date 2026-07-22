@@ -34,15 +34,12 @@ export type CharacterProfile = {
     filename_gachaSlice?: string;
   };
 
-  version: string;
+  sortId: number;
 
   isTraveler?: boolean;
 };
 
 export type CharacterTalents = {
-  id: number;
-  name: string;
-
   combat1: CombatTalent;
   combat2: CombatTalent;
   combat3: CombatTalent;
@@ -67,7 +64,6 @@ export type CharacterTalents = {
 
 export type CombatTalent = {
   name: string;
-  description: string;
   descriptionRaw: string;
   attributes: {
     labels: string[];
@@ -78,7 +74,6 @@ export type CombatTalent = {
 export type PassiveTalent = {
   name: string;
   descriptionRaw: string;
-  description: string;
 };
 
 export type CharacterStat = {
@@ -93,9 +88,6 @@ export type CharacterStat = {
 export type CharacterStats = Record<string, CharacterStat>;
 
 export type CharacterConstellation = {
-  id: number;
-  name: string;
-
   c1: ConstellationDetail;
   c2: ConstellationDetail;
   c3: ConstellationDetail;
@@ -110,14 +102,12 @@ export type CharacterConstellation = {
     filename_c4: string;
     filename_c5: string;
     filename_c6: string;
-    filename_constellation: string;
   };
 };
 
 export type ConstellationDetail = {
   name: string;
   descriptionRaw: string;
-  description: string;
 };
 
 export type Character = {

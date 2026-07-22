@@ -118,7 +118,7 @@ export class TierlistMakerComponent implements OnInit {
             tags: [],
             profile: c,
           }))
-          .sort((b, a) => a.profile.version.localeCompare(b.profile.version));
+          .sort((b, a) => a.profile.sortId - b.profile.sortId);
       });
   }
 

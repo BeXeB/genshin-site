@@ -1,0 +1,1564 @@
+{
+    "constellation": {
+        "c1": {
+            "descriptionRaw": "When in <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> mode, Fagio's <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> increases at a 50% lower rate, and all party members deal 30% increased Stellar-Conduct DMG.",
+            "name": "Morrow After the Golden Dusk"
+        },
+        "c2": {
+            "descriptionRaw": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> mode period will be further increased by 20%. Max 3 stacks.",
+            "name": "An Heiress Gazed Into the Looking-Glass"
+        },
+        "c3": {
+            "descriptionRaw": "Increases the Level of {LINK#S11331}<color=#FFD780FF>Formule Phenomenale: Self-Evident Proposition</color>{/LINK} by 3.\nMaximum upgrade level is 15.",
+            "name": "Refuse the Wake of Dusk, the Moonlit Yoke"
+        },
+        "c4": {
+            "descriptionRaw": "When Sandrone deals Stellar-Conduct DMG to an opponent, she will also summon an extra Prismatic Resonance Cannon to fire off a coordinated attack which deals <color=#99FFFFFF>Cryo DMG</color> at 125% of her ATK. This DMG is considered Stellar-Conduct DMG, and the effect can occur once every 4s.",
+            "name": "In Knowledge Lies the World's True Ground"
+        },
+        "c5": {
+            "descriptionRaw": "Increases the Level of {LINK#S11335}<color=#FFD780FF>Formule Phenomenale: Q.E.D.</color>{/LINK} by 3.\nMaximum upgrade level is 15.",
+            "name": "Of All Beside, She Takes No Part"
+        },
+        "c6": {
+            "descriptionRaw": "When Fagio fires a condensed beam for the third time while in <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> mode, the beam becomes a more powerful <color=#FFD780FF>Condensed Cluster Beam</color> that fires continuously. This beam will deal up to 4 additional instances of <color=#99FFFFFF>AoE Cryo DMG</color> at 100% of Sandrone's ATK on top of any subsequent original beam fired.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The <color=#FFD780FF>Condensed Cluster Beam</color> will instead deal 4 additional instances of <color=#99FFFFFF>AoE Cryo DMG</color> at 80% of Sandrone's ATK. This DMG is considered Stellar-Conduct DMG.\nAdditionally, all Stellar-Conduct DMG dealt by Sandrone is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 20%.",
+            "name": "Narcissus Wakes, Her Eyes Upon the Dawn"
+        },
+        "images": {
+            "filename_c1": "UI_Talent_S_MarionetteNew_01",
+            "filename_c2": "UI_Talent_S_MarionetteNew_02",
+            "filename_c3": "UI_Talent_U_MarionetteNew_01",
+            "filename_c4": "UI_Talent_S_MarionetteNew_03",
+            "filename_c5": "UI_Talent_U_MarionetteNew_02",
+            "filename_c6": "UI_Talent_S_MarionetteNew_04"
+        }
+    },
+    "profile": {
+        "affiliation": "Fatui",
+        "birthdaymmdd": "1/13",
+        "constellation": "Narcissorolegium",
+        "costs": {
+            "ascend1": [
+                {
+                    "count": 20000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 1,
+                    "id": 104161,
+                    "name": "Shivada Jade Sliver"
+                },
+                {
+                    "count": 3,
+                    "id": 101239,
+                    "name": "Subdetection Unit"
+                },
+                {
+                    "count": 3,
+                    "id": 112122,
+                    "name": "Broken Drive Shaft"
+                }
+            ],
+            "ascend2": [
+                {
+                    "count": 40000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104162,
+                    "name": "Shivada Jade Fragment"
+                },
+                {
+                    "count": 2,
+                    "id": 113086,
+                    "name": "Plume of the Fallen Watcher"
+                },
+                {
+                    "count": 10,
+                    "id": 101239,
+                    "name": "Subdetection Unit"
+                },
+                {
+                    "count": 15,
+                    "id": 112122,
+                    "name": "Broken Drive Shaft"
+                }
+            ],
+            "ascend3": [
+                {
+                    "count": 60000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104162,
+                    "name": "Shivada Jade Fragment"
+                },
+                {
+                    "count": 4,
+                    "id": 113086,
+                    "name": "Plume of the Fallen Watcher"
+                },
+                {
+                    "count": 20,
+                    "id": 101239,
+                    "name": "Subdetection Unit"
+                },
+                {
+                    "count": 12,
+                    "id": 112123,
+                    "name": "Reinforced Drive Shaft"
+                }
+            ],
+            "ascend4": [
+                {
+                    "count": 80000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104163,
+                    "name": "Shivada Jade Chunk"
+                },
+                {
+                    "count": 8,
+                    "id": 113086,
+                    "name": "Plume of the Fallen Watcher"
+                },
+                {
+                    "count": 30,
+                    "id": 101239,
+                    "name": "Subdetection Unit"
+                },
+                {
+                    "count": 18,
+                    "id": 112123,
+                    "name": "Reinforced Drive Shaft"
+                }
+            ],
+            "ascend5": [
+                {
+                    "count": 100000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104163,
+                    "name": "Shivada Jade Chunk"
+                },
+                {
+                    "count": 12,
+                    "id": 113086,
+                    "name": "Plume of the Fallen Watcher"
+                },
+                {
+                    "count": 45,
+                    "id": 101239,
+                    "name": "Subdetection Unit"
+                },
+                {
+                    "count": 12,
+                    "id": 112124,
+                    "name": "Precision Drive Shaft"
+                }
+            ],
+            "ascend6": [
+                {
+                    "count": 120000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104164,
+                    "name": "Shivada Jade Gemstone"
+                },
+                {
+                    "count": 20,
+                    "id": 113086,
+                    "name": "Plume of the Fallen Watcher"
+                },
+                {
+                    "count": 60,
+                    "id": 101239,
+                    "name": "Subdetection Unit"
+                },
+                {
+                    "count": 24,
+                    "id": 112124,
+                    "name": "Precision Drive Shaft"
+                }
+            ]
+        },
+        "description": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
+        "elementType": "ELEMENT_CRYO",
+        "id": 10000133,
+        "images": {
+            "filename_gachaSlice": "UI_Gacha_AvatarIcon_MarionetteNew",
+            "filename_gachaSplash": "UI_Gacha_AvatarImg_MarionetteNew",
+            "filename_icon": "UI_AvatarIcon_MarionetteNew",
+            "filename_iconCard": "UI_AvatarIcon_MarionetteNew_Card",
+            "filename_sideIcon": "UI_AvatarIcon_Side_MarionetteNew"
+        },
+        "name": "Sandrone",
+        "normalizedName": "sandrone",
+        "qualityType": "QUALITY_ORANGE",
+        "rarity": 5,
+        "sortId": 118,
+        "substatType": "FIGHT_PROP_CRITICAL",
+        "title": "Mirrored Analysis",
+        "weaponType": "WEAPON_CLAYMORE"
+    },
+    "skills": {
+        "combat1": {
+            "attributes": {
+                "labels": [
+                    "1-Hit DMG|{param1:F1P}",
+                    "2-Hit DMG|{param2:F1P}",
+                    "3-Hit DMG|{param3:F1P}",
+                    "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+                    "Charged Attack Condensed Beam DMG|{param5:F1P}",
+                    "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+                    "DMG When in Power Overdrive|{param7:F1P}",
+                    "Plunge DMG|{param8:F1P}",
+                    "Low/High Plunge DMG|{param9:P}/{param10:P}"
+                ],
+                "parameters": {
+                    "param1": [
+                        0.762863,
+                        0.824957,
+                        0.88705,
+                        0.975755,
+                        1.037848,
+                        1.108812,
+                        1.206388,
+                        1.303964,
+                        1.401539,
+                        1.507985,
+                        1.614431,
+                        1.720877,
+                        1.827323,
+                        1.933769,
+                        2.040215
+                    ],
+                    "param10": [
+                        1.862889,
+                        2.01452,
+                        2.16615,
+                        2.382765,
+                        2.534396,
+                        2.707688,
+                        2.945964,
+                        3.184241,
+                        3.422517,
+                        3.682455,
+                        3.942393,
+                        4.202331,
+                        4.462269,
+                        4.722207,
+                        4.982145
+                    ],
+                    "param2": [
+                        0.67197,
+                        0.726665,
+                        0.78136,
+                        0.859496,
+                        0.914191,
+                        0.9767,
+                        1.06265,
+                        1.148599,
+                        1.234549,
+                        1.328312,
+                        1.422075,
+                        1.515838,
+                        1.609602,
+                        1.703365,
+                        1.797128
+                    ],
+                    "param3": [
+                        1.028035,
+                        1.111713,
+                        1.19539,
+                        1.314929,
+                        1.398606,
+                        1.494237,
+                        1.62573,
+                        1.757223,
+                        1.888716,
+                        2.032163,
+                        2.17561,
+                        2.319057,
+                        2.462503,
+                        2.60595,
+                        2.749397
+                    ],
+                    "param4": [
+                        0.43,
+                        0.465,
+                        0.5,
+                        0.55,
+                        0.585,
+                        0.625,
+                        0.68,
+                        0.735,
+                        0.79,
+                        0.85,
+                        0.91,
+                        0.97,
+                        1.03,
+                        1.09,
+                        1.15
+                    ],
+                    "param5": [
+                        1.2255,
+                        1.32525,
+                        1.425,
+                        1.5675,
+                        1.66725,
+                        1.78125,
+                        1.938,
+                        2.09475,
+                        2.2515,
+                        2.4225,
+                        2.5935,
+                        2.7645,
+                        2.9355,
+                        3.1065,
+                        3.2775
+                    ],
+                    "param6": [
+                        0.817,
+                        0.8835,
+                        0.95,
+                        1.045,
+                        1.1115,
+                        1.1875,
+                        1.292,
+                        1.3965,
+                        1.501,
+                        1.615,
+                        1.729,
+                        1.843,
+                        1.957,
+                        2.071,
+                        2.185
+                    ],
+                    "param7": [
+                        0.43,
+                        0.465,
+                        0.5,
+                        0.55,
+                        0.585,
+                        0.625,
+                        0.68,
+                        0.735,
+                        0.79,
+                        0.85,
+                        0.91,
+                        0.97,
+                        1.03,
+                        1.09,
+                        1.15
+                    ],
+                    "param8": [
+                        0.745878,
+                        0.806589,
+                        0.8673,
+                        0.95403,
+                        1.014741,
+                        1.084125,
+                        1.179528,
+                        1.274931,
+                        1.370334,
+                        1.47441,
+                        1.578486,
+                        1.682562,
+                        1.786638,
+                        1.890714,
+                        1.99479
+                    ],
+                    "param9": [
+                        1.49144,
+                        1.612836,
+                        1.734233,
+                        1.907656,
+                        2.029052,
+                        2.167791,
+                        2.358556,
+                        2.549322,
+                        2.740087,
+                        2.948195,
+                        3.156303,
+                        3.364411,
+                        3.5725189999999998,
+                        3.780627,
+                        3.988735
+                    ]
+                }
+            },
+            "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"<color=#FFD780FF>Fagio</color>,\" and switches it to <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The condensed beams will instead deal <color=#99FFFFFF>AoE Cryo DMG</color> that is considered Stellar-Conduct DMG.\nWhile in <color=#FFD780FF>Decoding</color> mode, Fagio's <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> will continuously increase. Firing condensed beams will also further increase its Decoding Power.\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to <color=#FFD780FF>Power Overdrive</color> mode, in which it fires at opponents with longer intervals, dealing <color=#99FFFFFF>Cryo DMG</color>. It will be unable to switch to Decoding mode at this time.\nWhen not in <color=#FFD780FF>Decoding</color> mode, Fagio's <color=#FFD780FF>Decoding Power</color> gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\nFagio exits <color=#FFD780FF>Power Overdrive</color> mode when its <color=#FFD780FF>Decoding Power</color> has decreased to under 50.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
+            "name": "Formule Phenomenale: Self-Evident Proposition"
+        },
+        "combat2": {
+            "attributes": {
+                "labels": [
+                    "Prism Shot DMG|{param1:F1P}",
+                    "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+                    "CD|{param3:F1}s"
+                ],
+                "parameters": {
+                    "param1": [
+                        0.324,
+                        0.3483,
+                        0.3726,
+                        0.405,
+                        0.4293,
+                        0.4536,
+                        0.486,
+                        0.5184,
+                        0.5508,
+                        0.5832,
+                        0.6156,
+                        0.648,
+                        0.6885,
+                        0.729,
+                        0.7695
+                    ],
+                    "param2": [
+                        0.216,
+                        0.2322,
+                        0.2484,
+                        0.27,
+                        0.2862,
+                        0.3024,
+                        0.324,
+                        0.3456,
+                        0.3672,
+                        0.3888,
+                        0.4104,
+                        0.432,
+                        0.459,
+                        0.486,
+                        0.513
+                    ],
+                    "param3": [
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0,
+                        4.0
+                    ]
+                }
+            },
+            "descriptionRaw": "With her impeccable, ladylike poise, Sandrone boards the <color=#FFD780FF>Tea Party Tactical Assault Hovermech</color> and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\n\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing <color=#99FFFFFF>Cryo DMG</color>.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The second Prism Shot will instead deal <color=#99FFFFFF>Cryo DMG</color> that is considered Stellar-Conduct DMG.\n\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> to swiftly decrease.",
+            "name": "Formule Phenomenale: Differential Analysis"
+        },
+        "combat3": {
+            "attributes": {
+                "labels": [
+                    "Bombardment DMG|{param1:F1P} ×3",
+                    "Convective Inhibition Ray DMG|{param2:F1P}",
+                    "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+                    "CD|{param4:F1}s",
+                    "Energy Cost|{param5:I}"
+                ],
+                "parameters": {
+                    "param1": [
+                        0.88216,
+                        0.948322,
+                        1.014484,
+                        1.1027,
+                        1.168862,
+                        1.235024,
+                        1.32324,
+                        1.411456,
+                        1.499672,
+                        1.587888,
+                        1.676104,
+                        1.76432,
+                        1.87459,
+                        1.98486,
+                        2.09513
+                    ],
+                    "param2": [
+                        3.308,
+                        3.5561,
+                        3.8042,
+                        4.135,
+                        4.3831,
+                        4.6312,
+                        4.962,
+                        5.2928,
+                        5.6236,
+                        5.9544,
+                        6.2852,
+                        6.616,
+                        7.0295,
+                        7.443,
+                        7.8565
+                    ],
+                    "param3": [
+                        2.205333,
+                        2.370733,
+                        2.536133,
+                        2.756667,
+                        2.922067,
+                        3.087467,
+                        3.308,
+                        3.528533,
+                        3.749067,
+                        3.9696,
+                        4.190133,
+                        4.410667,
+                        4.686333,
+                        4.962,
+                        5.237667
+                    ],
+                    "param4": [
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0
+                    ],
+                    "param5": [
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0
+                    ]
+                }
+            },
+            "descriptionRaw": "In line with established ladylike behavior, Sandrone summons a large number of Prismatic Resonance Cannons for a frontal bombardment before firing on her foes with a Convective Inhibition Ray, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The Convective Inhibition Ray instead deals <color=#99FFFFFF>AoE Cryo DMG</color> that is considered Stellar-Conduct DMG.",
+            "name": "Formule Phenomenale: Q.E.D."
+        },
+        "costs": {
+            "lvl10": [
+                {
+                    "count": 700000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 16,
+                    "id": 104364,
+                    "name": "Philosophies of Vagrancy"
+                },
+                {
+                    "count": 12,
+                    "id": 112124,
+                    "name": "Precision Drive Shaft"
+                },
+                {
+                    "count": 2,
+                    "id": 113082,
+                    "name": "Madman's Restraint"
+                },
+                {
+                    "count": 1,
+                    "id": 104319,
+                    "name": "Crown of Insight"
+                }
+            ],
+            "lvl2": [
+                {
+                    "count": 12500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104362,
+                    "name": "Teachings of Vagrancy"
+                },
+                {
+                    "count": 6,
+                    "id": 112122,
+                    "name": "Broken Drive Shaft"
+                }
+            ],
+            "lvl3": [
+                {
+                    "count": 17500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 2,
+                    "id": 104363,
+                    "name": "Guide to Vagrancy"
+                },
+                {
+                    "count": 3,
+                    "id": 112123,
+                    "name": "Reinforced Drive Shaft"
+                }
+            ],
+            "lvl4": [
+                {
+                    "count": 25000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 4,
+                    "id": 104363,
+                    "name": "Guide to Vagrancy"
+                },
+                {
+                    "count": 4,
+                    "id": 112123,
+                    "name": "Reinforced Drive Shaft"
+                }
+            ],
+            "lvl5": [
+                {
+                    "count": 30000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104363,
+                    "name": "Guide to Vagrancy"
+                },
+                {
+                    "count": 6,
+                    "id": 112123,
+                    "name": "Reinforced Drive Shaft"
+                }
+            ],
+            "lvl6": [
+                {
+                    "count": 37500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 9,
+                    "id": 104363,
+                    "name": "Guide to Vagrancy"
+                },
+                {
+                    "count": 9,
+                    "id": 112123,
+                    "name": "Reinforced Drive Shaft"
+                }
+            ],
+            "lvl7": [
+                {
+                    "count": 120000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 4,
+                    "id": 104364,
+                    "name": "Philosophies of Vagrancy"
+                },
+                {
+                    "count": 4,
+                    "id": 112124,
+                    "name": "Precision Drive Shaft"
+                },
+                {
+                    "count": 1,
+                    "id": 113082,
+                    "name": "Madman's Restraint"
+                }
+            ],
+            "lvl8": [
+                {
+                    "count": 260000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104364,
+                    "name": "Philosophies of Vagrancy"
+                },
+                {
+                    "count": 6,
+                    "id": 112124,
+                    "name": "Precision Drive Shaft"
+                },
+                {
+                    "count": 1,
+                    "id": 113082,
+                    "name": "Madman's Restraint"
+                }
+            ],
+            "lvl9": [
+                {
+                    "count": 450000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 12,
+                    "id": 104364,
+                    "name": "Philosophies of Vagrancy"
+                },
+                {
+                    "count": 9,
+                    "id": 112124,
+                    "name": "Precision Drive Shaft"
+                },
+                {
+                    "count": 2,
+                    "id": 113082,
+                    "name": "Madman's Restraint"
+                }
+            ]
+        },
+        "images": {
+            "filename_combat1": "Skill_A_04",
+            "filename_combat2": "Skill_S_MarionetteNew_01",
+            "filename_combat3": "Skill_E_MarionetteNew_01",
+            "filename_passive1": "UI_Talent_S_MarionetteNew_05",
+            "filename_passive2": "UI_Talent_S_MarionetteNew_06",
+            "filename_passive3": "UI_Talent_S_MarionetteNew_07",
+            "filename_passive4": "UI_Talent_S_MarionetteNew_08"
+        },
+        "passive1": {
+            "descriptionRaw": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: When using the Elemental Skill {LINK#S11332}<color=#FFD780FF>Formule Phenomenale: Differential Analysis</color>{/LINK}, if Fagio's <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> is greater than 50, the second Prism Shot fired by Fagio at nearby opponents will deal 400% of its original DMG as Fagio's Decoding Power is decreased.\nAdditionally, for every 10 points of <color=#FFD780FF>Decoding Power</color> Fagio loses, it gains 1 stack of <color=#FFD780FF>Refined Tactics</color> for 60s (max 10 stacks). When Sandrone uses the Elemental Burst {LINK#S11335}<color=#FFD780FF>Formule Phenomenale: Q.E.D.</color>{/LINK} while in the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state, all stacks of Refined Tactics are cleared, causing the Convective Inhibition Ray to deal 100% + (number of stacks cleared) × 10% of its original DMG.",
+            "name": "Eternal Speculation Engine"
+        },
+        "passive2": {
+            "descriptionRaw": "Increases Sandrone's Elemental Mastery based on her ATK. Every 100 ATK will increase her Elemental Mastery by 8. The maximum increase she can gain this way is 160.",
+            "name": "A Lady's Code of Conduct"
+        },
+        "passive3": {
+            "descriptionRaw": "When party members trigger Superconduct, it will be changed to Stellar-Conduct, and party members' Base Stellar-Conduct DMG will be increased based on Sandrone's ATK: Every 100 ATK she has increases the Base Stellar-Conduct DMG by 0.7%. The maximum increase that can be gained this way is 14%.\nAdditionally, when Sandrone is within a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, she will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state.",
+            "name": "Light of Rationalisme"
+        },
+        "passive4": {
+            "descriptionRaw": "When Sandrone is in the party, you will gain additional snack rewards after turning in your Daily Commissions with Katheryne.",
+            "name": "A Caucus Prelude and a Long Tale"
+        }
+    },
+    "stats": {
+        "1": {
+            "ascension": 0,
+            "attack": 26.6266,
+            "defense": 58.57357,
+            "hp": 1029.5856,
+            "level": 1,
+            "specialized": 0.05
+        },
+        "10": {
+            "ascension": 0,
+            "attack": 46.623176599999994,
+            "defense": 102.56232106999998,
+            "hp": 1802.8043856000002,
+            "level": 10,
+            "specialized": 0.05
+        },
+        "100": {
+            "ascension": 6,
+            "attack": 418.97596139999996,
+            "defense": 805.8923976399999,
+            "hp": 14165.5952112,
+            "level": 100,
+            "specialized": 0.242
+        },
+        "11": {
+            "ascension": 0,
+            "attack": 48.859811,
+            "defense": 107.48250094999999,
+            "hp": 1889.2895760000001,
+            "level": 11,
+            "specialized": 0.05
+        },
+        "12": {
+            "ascension": 0,
+            "attack": 51.0964454,
+            "defense": 112.40268083,
+            "hp": 1975.7747664000003,
+            "level": 12,
+            "specialized": 0.05
+        },
+        "13": {
+            "ascension": 0,
+            "attack": 53.3330798,
+            "defense": 117.32286071,
+            "hp": 2062.2599568000005,
+            "level": 13,
+            "specialized": 0.05
+        },
+        "14": {
+            "ascension": 0,
+            "attack": 55.5963408,
+            "defense": 122.30161416,
+            "hp": 2149.7747328000005,
+            "level": 14,
+            "specialized": 0.05
+        },
+        "15": {
+            "ascension": 0,
+            "attack": 57.83297520000001,
+            "defense": 127.22179404,
+            "hp": 2236.2599232000002,
+            "level": 15,
+            "specialized": 0.05
+        },
+        "16": {
+            "ascension": 0,
+            "attack": 60.06960959999999,
+            "defense": 132.14197391999997,
+            "hp": 2322.7451136,
+            "level": 16,
+            "specialized": 0.05
+        },
+        "17": {
+            "ascension": 0,
+            "attack": 62.33287060000001,
+            "defense": 137.12072737,
+            "hp": 2410.2598896000004,
+            "level": 17,
+            "specialized": 0.05
+        },
+        "18": {
+            "ascension": 0,
+            "attack": 64.56950499999999,
+            "defense": 142.04090724999998,
+            "hp": 2496.74508,
+            "level": 18,
+            "specialized": 0.05
+        },
+        "19": {
+            "ascension": 0,
+            "attack": 66.83276599999999,
+            "defense": 147.01966069999997,
+            "hp": 2584.259856,
+            "level": 19,
+            "specialized": 0.05
+        },
+        "2": {
+            "ascension": 0,
+            "attack": 28.8366078,
+            "defense": 63.435176309999996,
+            "hp": 1115.0412048,
+            "level": 2,
+            "specialized": 0.05
+        },
+        "20": {
+            "ascension": 0,
+            "attack": 69.06940039999999,
+            "defense": 151.93984057999998,
+            "hp": 2670.7450464000003,
+            "level": 20,
+            "specialized": 0.05
+        },
+        "20+": {
+            "ascension": 1,
+            "attack": 91.89763439999999,
+            "defense": 202.16254057999998,
+            "hp": 3553.5215964000004,
+            "level": 20,
+            "specialized": 0.05
+        },
+        "21": {
+            "ascension": 1,
+            "attack": 94.16089539999999,
+            "defense": 207.14129402999998,
+            "hp": 3641.0363724000003,
+            "level": 21,
+            "specialized": 0.05
+        },
+        "22": {
+            "ascension": 1,
+            "attack": 96.42415639999999,
+            "defense": 212.12004747999998,
+            "hp": 3728.5511484000003,
+            "level": 22,
+            "specialized": 0.05
+        },
+        "23": {
+            "ascension": 1,
+            "attack": 98.6874174,
+            "defense": 217.09880093,
+            "hp": 3816.0659244000008,
+            "level": 23,
+            "specialized": 0.05
+        },
+        "24": {
+            "ascension": 1,
+            "attack": 100.9506784,
+            "defense": 222.07755438,
+            "hp": 3903.5807004000008,
+            "level": 24,
+            "specialized": 0.05
+        },
+        "25": {
+            "ascension": 1,
+            "attack": 103.2139394,
+            "defense": 227.05630783,
+            "hp": 3991.0954764000007,
+            "level": 25,
+            "specialized": 0.05
+        },
+        "26": {
+            "ascension": 1,
+            "attack": 105.50382699999999,
+            "defense": 232.09363485,
+            "hp": 4079.6398380000005,
+            "level": 26,
+            "specialized": 0.05
+        },
+        "27": {
+            "ascension": 1,
+            "attack": 107.76708799999999,
+            "defense": 237.0723883,
+            "hp": 4167.154614000001,
+            "level": 27,
+            "specialized": 0.05
+        },
+        "28": {
+            "ascension": 1,
+            "attack": 110.03034899999999,
+            "defense": 242.05114175,
+            "hp": 4254.669390000001,
+            "level": 28,
+            "specialized": 0.05
+        },
+        "29": {
+            "ascension": 1,
+            "attack": 112.3202366,
+            "defense": 247.08846877,
+            "hp": 4343.2137516,
+            "level": 29,
+            "specialized": 0.05
+        },
+        "3": {
+            "ascension": 0,
+            "attack": 31.0466156,
+            "defense": 68.29678261999999,
+            "hp": 1200.4968096,
+            "level": 3,
+            "specialized": 0.05
+        },
+        "30": {
+            "ascension": 1,
+            "attack": 114.5834976,
+            "defense": 252.06722222,
+            "hp": 4430.7285276,
+            "level": 30,
+            "specialized": 0.05
+        },
+        "31": {
+            "ascension": 1,
+            "attack": 116.8733852,
+            "defense": 257.10454924,
+            "hp": 4519.2728892000005,
+            "level": 31,
+            "specialized": 0.05
+        },
+        "32": {
+            "ascension": 1,
+            "attack": 119.16327279999999,
+            "defense": 262.14187626,
+            "hp": 4607.817250800001,
+            "level": 32,
+            "specialized": 0.05
+        },
+        "33": {
+            "ascension": 1,
+            "attack": 121.4531604,
+            "defense": 267.17920328,
+            "hp": 4696.3616124,
+            "level": 33,
+            "specialized": 0.05
+        },
+        "34": {
+            "ascension": 1,
+            "attack": 123.7164214,
+            "defense": 272.15795673,
+            "hp": 4783.8763884,
+            "level": 34,
+            "specialized": 0.05
+        },
+        "35": {
+            "ascension": 1,
+            "attack": 126.00630899999999,
+            "defense": 277.19528375,
+            "hp": 4872.420750000001,
+            "level": 35,
+            "specialized": 0.05
+        },
+        "36": {
+            "ascension": 1,
+            "attack": 128.32282320000002,
+            "defense": 282.29118434,
+            "hp": 4961.994697200001,
+            "level": 36,
+            "specialized": 0.05
+        },
+        "37": {
+            "ascension": 1,
+            "attack": 130.6127108,
+            "defense": 287.32851136,
+            "hp": 5050.539058800001,
+            "level": 37,
+            "specialized": 0.05
+        },
+        "38": {
+            "ascension": 1,
+            "attack": 132.90259840000002,
+            "defense": 292.36583838,
+            "hp": 5139.0834204,
+            "level": 38,
+            "specialized": 0.05
+        },
+        "39": {
+            "ascension": 1,
+            "attack": 135.192486,
+            "defense": 297.4031654,
+            "hp": 5227.627782,
+            "level": 39,
+            "specialized": 0.05
+        },
+        "4": {
+            "ascension": 0,
+            "attack": 33.28325,
+            "defense": 73.2169625,
+            "hp": 1286.9820000000002,
+            "level": 4,
+            "specialized": 0.05
+        },
+        "40": {
+            "ascension": 1,
+            "attack": 137.5090002,
+            "defense": 302.49906599,
+            "hp": 5317.2017292,
+            "level": 40,
+            "specialized": 0.05
+        },
+        "40+": {
+            "ascension": 2,
+            "attack": 153.7290602,
+            "defense": 338.18361599,
+            "hp": 5944.4377792000005,
+            "level": 40,
+            "specialized": 0.098
+        },
+        "41": {
+            "ascension": 2,
+            "attack": 156.01894779999998,
+            "defense": 343.2209430099999,
+            "hp": 6032.982140800001,
+            "level": 41,
+            "specialized": 0.098
+        },
+        "42": {
+            "ascension": 2,
+            "attack": 158.335462,
+            "defense": 348.31684359999997,
+            "hp": 6122.556088000001,
+            "level": 42,
+            "specialized": 0.098
+        },
+        "43": {
+            "ascension": 2,
+            "attack": 160.6519762,
+            "defense": 353.41274419,
+            "hp": 6212.130035200001,
+            "level": 43,
+            "specialized": 0.098
+        },
+        "44": {
+            "ascension": 2,
+            "attack": 162.9418638,
+            "defense": 358.4500712099999,
+            "hp": 6300.6743968,
+            "level": 44,
+            "specialized": 0.098
+        },
+        "45": {
+            "ascension": 2,
+            "attack": 165.258378,
+            "defense": 363.54597179999996,
+            "hp": 6390.2483440000005,
+            "level": 45,
+            "specialized": 0.098
+        },
+        "46": {
+            "ascension": 2,
+            "attack": 167.5748922,
+            "defense": 368.64187239,
+            "hp": 6479.8222912,
+            "level": 46,
+            "specialized": 0.098
+        },
+        "47": {
+            "ascension": 2,
+            "attack": 169.8914064,
+            "defense": 373.73777297999993,
+            "hp": 6569.396238400001,
+            "level": 47,
+            "specialized": 0.098
+        },
+        "48": {
+            "ascension": 2,
+            "attack": 172.2079206,
+            "defense": 378.83367357,
+            "hp": 6658.970185600001,
+            "level": 48,
+            "specialized": 0.098
+        },
+        "49": {
+            "ascension": 2,
+            "attack": 174.5510614,
+            "defense": 383.98814773000004,
+            "hp": 6749.573718400001,
+            "level": 49,
+            "specialized": 0.098
+        },
+        "5": {
+            "ascension": 0,
+            "attack": 35.4932578,
+            "defense": 78.07856881,
+            "hp": 1372.4376048000001,
+            "level": 5,
+            "specialized": 0.05
+        },
+        "50": {
+            "ascension": 2,
+            "attack": 176.8675756,
+            "defense": 389.08404831999997,
+            "hp": 6839.1476656,
+            "level": 50,
+            "specialized": 0.098
+        },
+        "50+": {
+            "ascension": 3,
+            "attack": 198.4943216,
+            "defense": 436.66344832,
+            "hp": 7675.4621656,
+            "level": 50,
+            "specialized": 0.14600000000000002
+        },
+        "51": {
+            "ascension": 3,
+            "attack": 200.81083579999998,
+            "defense": 441.75934890999997,
+            "hp": 7765.0361128,
+            "level": 51,
+            "specialized": 0.14600000000000002
+        },
+        "52": {
+            "ascension": 3,
+            "attack": 203.1539766,
+            "defense": 446.91382307,
+            "hp": 7855.6396456,
+            "level": 52,
+            "specialized": 0.14600000000000002
+        },
+        "53": {
+            "ascension": 3,
+            "attack": 205.4704908,
+            "defense": 452.00972365999996,
+            "hp": 7945.213592800001,
+            "level": 53,
+            "specialized": 0.14600000000000002
+        },
+        "54": {
+            "ascension": 3,
+            "attack": 207.81363159999998,
+            "defense": 457.16419781999997,
+            "hp": 8035.8171256000005,
+            "level": 54,
+            "specialized": 0.14600000000000002
+        },
+        "55": {
+            "ascension": 3,
+            "attack": 210.1567724,
+            "defense": 462.31867198,
+            "hp": 8126.4206584,
+            "level": 55,
+            "specialized": 0.14600000000000002
+        },
+        "56": {
+            "ascension": 3,
+            "attack": 212.49991319999998,
+            "defense": 467.47314614,
+            "hp": 8217.0241912,
+            "level": 56,
+            "specialized": 0.14600000000000002
+        },
+        "57": {
+            "ascension": 3,
+            "attack": 214.843054,
+            "defense": 472.6276203,
+            "hp": 8307.627724,
+            "level": 57,
+            "specialized": 0.14600000000000002
+        },
+        "58": {
+            "ascension": 3,
+            "attack": 217.1861948,
+            "defense": 477.78209446,
+            "hp": 8398.231256800002,
+            "level": 58,
+            "specialized": 0.14600000000000002
+        },
+        "59": {
+            "ascension": 3,
+            "attack": 219.5293356,
+            "defense": 482.93656862,
+            "hp": 8488.834789600001,
+            "level": 59,
+            "specialized": 0.14600000000000002
+        },
+        "6": {
+            "ascension": 0,
+            "attack": 37.7298922,
+            "defense": 82.99874869,
+            "hp": 1458.9227952,
+            "level": 6,
+            "specialized": 0.05
+        },
+        "60": {
+            "ascension": 3,
+            "attack": 221.8724764,
+            "defense": 488.09104278,
+            "hp": 8579.438322400001,
+            "level": 60,
+            "specialized": 0.14600000000000002
+        },
+        "60+": {
+            "ascension": 4,
+            "attack": 238.09253640000003,
+            "defense": 523.77559278,
+            "hp": 9206.674422400001,
+            "level": 60,
+            "specialized": 0.14600000000000002
+        },
+        "61": {
+            "ascension": 4,
+            "attack": 240.4356772,
+            "defense": 528.93006694,
+            "hp": 9297.277955200001,
+            "level": 61,
+            "specialized": 0.14600000000000002
+        },
+        "62": {
+            "ascension": 4,
+            "attack": 242.778818,
+            "defense": 534.0845411,
+            "hp": 9387.881488,
+            "level": 62,
+            "specialized": 0.14600000000000002
+        },
+        "63": {
+            "ascension": 4,
+            "attack": 245.1485854,
+            "defense": 539.29758883,
+            "hp": 9479.5146064,
+            "level": 63,
+            "specialized": 0.14600000000000002
+        },
+        "64": {
+            "ascension": 4,
+            "attack": 247.49172620000002,
+            "defense": 544.4520629900001,
+            "hp": 9570.118139200002,
+            "level": 64,
+            "specialized": 0.14600000000000002
+        },
+        "65": {
+            "ascension": 4,
+            "attack": 249.86149360000002,
+            "defense": 549.66511072,
+            "hp": 9661.7512576,
+            "level": 65,
+            "specialized": 0.14600000000000002
+        },
+        "66": {
+            "ascension": 4,
+            "attack": 252.23126100000002,
+            "defense": 554.87815845,
+            "hp": 9753.384376,
+            "level": 66,
+            "specialized": 0.14600000000000002
+        },
+        "67": {
+            "ascension": 4,
+            "attack": 254.57440179999998,
+            "defense": 560.03263261,
+            "hp": 9843.987908800002,
+            "level": 67,
+            "specialized": 0.14600000000000002
+        },
+        "68": {
+            "ascension": 4,
+            "attack": 256.9441692,
+            "defense": 565.24568034,
+            "hp": 9935.6210272,
+            "level": 68,
+            "specialized": 0.14600000000000002
+        },
+        "69": {
+            "ascension": 4,
+            "attack": 259.3139366,
+            "defense": 570.45872807,
+            "hp": 10027.2541456,
+            "level": 69,
+            "specialized": 0.14600000000000002
+        },
+        "7": {
+            "ascension": 0,
+            "attack": 39.9399,
+            "defense": 87.860355,
+            "hp": 1544.3784,
+            "level": 7,
+            "specialized": 0.05
+        },
+        "70": {
+            "ascension": 4,
+            "attack": 261.68370400000003,
+            "defense": 575.6717758,
+            "hp": 10118.887264,
+            "level": 70,
+            "specialized": 0.14600000000000002
+        },
+        "70+": {
+            "ascension": 5,
+            "attack": 277.90377,
+            "defense": 611.3563158,
+            "hp": 10746.123064000001,
+            "level": 70,
+            "specialized": 0.194
+        },
+        "71": {
+            "ascension": 5,
+            "attack": 280.2735374,
+            "defense": 616.5693635299999,
+            "hp": 10837.7561824,
+            "level": 71,
+            "specialized": 0.194
+        },
+        "72": {
+            "ascension": 5,
+            "attack": 282.6699314,
+            "defense": 621.8409848299999,
+            "hp": 10930.4188864,
+            "level": 72,
+            "specialized": 0.194
+        },
+        "73": {
+            "ascension": 5,
+            "attack": 285.0396988,
+            "defense": 627.05403256,
+            "hp": 11022.0520048,
+            "level": 73,
+            "specialized": 0.194
+        },
+        "74": {
+            "ascension": 5,
+            "attack": 287.4094662,
+            "defense": 632.26708029,
+            "hp": 11113.6851232,
+            "level": 74,
+            "specialized": 0.194
+        },
+        "75": {
+            "ascension": 5,
+            "attack": 289.8058602,
+            "defense": 637.53870159,
+            "hp": 11206.3478272,
+            "level": 75,
+            "specialized": 0.194
+        },
+        "76": {
+            "ascension": 5,
+            "attack": 292.1756276,
+            "defense": 642.7517493199999,
+            "hp": 11297.9809456,
+            "level": 76,
+            "specialized": 0.194
+        },
+        "77": {
+            "ascension": 5,
+            "attack": 294.57202159999997,
+            "defense": 648.0233706199999,
+            "hp": 11390.6436496,
+            "level": 77,
+            "specialized": 0.194
+        },
+        "78": {
+            "ascension": 5,
+            "attack": 296.9684156,
+            "defense": 653.2949919199999,
+            "hp": 11483.3063536,
+            "level": 78,
+            "specialized": 0.194
+        },
+        "79": {
+            "ascension": 5,
+            "attack": 299.3648096,
+            "defense": 658.56661322,
+            "hp": 11575.969057600001,
+            "level": 79,
+            "specialized": 0.194
+        },
+        "8": {
+            "ascension": 0,
+            "attack": 42.1765344,
+            "defense": 92.78053488,
+            "hp": 1630.8635904000002,
+            "level": 8,
+            "specialized": 0.05
+        },
+        "80": {
+            "ascension": 5,
+            "attack": 301.7612036,
+            "defense": 663.83823452,
+            "hp": 11668.631761600001,
+            "level": 80,
+            "specialized": 0.194
+        },
+        "80+": {
+            "ascension": 6,
+            "attack": 317.9812676,
+            "defense": 699.5227945199999,
+            "hp": 12295.867761600002,
+            "level": 80,
+            "specialized": 0.242
+        },
+        "81": {
+            "ascension": 6,
+            "attack": 320.3776616,
+            "defense": 704.79441582,
+            "hp": 12388.5304656,
+            "level": 81,
+            "specialized": 0.242
+        },
+        "82": {
+            "ascension": 6,
+            "attack": 322.7740556,
+            "defense": 710.0660371199999,
+            "hp": 12481.193169600001,
+            "level": 82,
+            "specialized": 0.242
+        },
+        "83": {
+            "ascension": 6,
+            "attack": 325.1704496,
+            "defense": 715.33765842,
+            "hp": 12573.855873600001,
+            "level": 83,
+            "specialized": 0.242
+        },
+        "84": {
+            "ascension": 6,
+            "attack": 327.56684359999997,
+            "defense": 720.6092797199999,
+            "hp": 12666.5185776,
+            "level": 84,
+            "specialized": 0.242
+        },
+        "85": {
+            "ascension": 6,
+            "attack": 329.96323759999996,
+            "defense": 725.88090102,
+            "hp": 12759.1812816,
+            "level": 85,
+            "specialized": 0.242
+        },
+        "86": {
+            "ascension": 6,
+            "attack": 332.38625820000004,
+            "defense": 731.21109589,
+            "hp": 12852.873571200002,
+            "level": 86,
+            "specialized": 0.242
+        },
+        "87": {
+            "ascension": 6,
+            "attack": 334.78265220000003,
+            "defense": 736.48271719,
+            "hp": 12945.536275200002,
+            "level": 87,
+            "specialized": 0.242
+        },
+        "88": {
+            "ascension": 6,
+            "attack": 337.2056728,
+            "defense": 741.8129120599999,
+            "hp": 13039.228564800002,
+            "level": 88,
+            "specialized": 0.242
+        },
+        "89": {
+            "ascension": 6,
+            "attack": 339.6286934,
+            "defense": 747.1431069299999,
+            "hp": 13132.9208544,
+            "level": 89,
+            "specialized": 0.242
+        },
+        "9": {
+            "ascension": 0,
+            "attack": 44.4131688,
+            "defense": 97.70071476,
+            "hp": 1717.3487808000002,
+            "level": 9,
+            "specialized": 0.05
+        },
+        "90": {
+            "ascension": 6,
+            "attack": 342.0250874,
+            "defense": 752.41472823,
+            "hp": 13225.583558400001,
+            "level": 90,
+            "specialized": 0.242
+        },
+        "95": {
+            "ascension": 6,
+            "attack": 380.5005244,
+            "defense": 779.12427615,
+            "hp": 13695.074592,
+            "level": 95,
+            "specialized": 0.242
+        }
+    }
+}

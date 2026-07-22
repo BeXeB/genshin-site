@@ -14,13 +14,9 @@ export type Weapon = {
 
   story: string;
 
-  baseAtkValue: number;
-  mainStatType: StatType;
-  mainStatText?: string;
-  baseStatText?: string;
+  mainStatType?: StatType;
 
   effectName?: string;
-  effectTemplateRaw?: string;
 
   r1?: WeaponRefine;
   r2?: WeaponRefine;
@@ -37,14 +33,13 @@ export type Weapon = {
     filename_gacha: string;
   };
 
-  version: string;
+  sortOrder: number;
 
   stats: WeaponStats;
 };
 
 export type WeaponRefine = {
   description: string;
-  values: string[];
 };
 
 export type WeaponStats = Record<string, WeaponStat>;
