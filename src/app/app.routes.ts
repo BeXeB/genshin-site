@@ -17,6 +17,7 @@ import { TalentEditorComponent } from './pages/talent-editor/talent-editor.compo
 import { HyperlinkEditorComponent } from './pages/hyperlink-editor/hyperlink-editor.component';
 import { EditorsComponent } from './pages/editors/editors.component';
 import { EletreEjszakaraKukaComponent } from './pages/eletre-ejszakara-kuka/eletre-ejszakara-kuka.component';
+import { MaterialCalculatorComponent } from './pages/material-calculator/material-calculator.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -43,4 +44,5 @@ export const routes: Routes = [
       { path: 'hyperlink', component: HyperlinkEditorComponent },
     ],
   },
+  { path: 'material-calculator', component: MaterialCalculatorComponent },
 ];
