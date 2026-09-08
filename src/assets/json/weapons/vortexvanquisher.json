@@ -138,7 +138,7 @@
     "id": 13504,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Kunwu_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Kunwu",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Kunwu",
         "filename_icon": "UI_EquipIcon_Pole_Kunwu"
     },
     "mainStatType": "FIGHT_PROP_ATTACK_PERCENT",

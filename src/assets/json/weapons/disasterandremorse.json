@@ -138,7 +138,7 @@
     "id": 13517,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Carbine_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Carbine",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Carbine",
         "filename_icon": "UI_EquipIcon_Pole_Carbine"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL",

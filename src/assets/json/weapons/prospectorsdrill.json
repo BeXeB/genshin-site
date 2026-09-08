@@ -138,7 +138,7 @@
     "id": 13427,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Mechanic_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Mechanic",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Mechanic",
         "filename_icon": "UI_EquipIcon_Pole_Mechanic"
     },
     "mainStatType": "FIGHT_PROP_ATTACK_PERCENT",

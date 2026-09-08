@@ -138,7 +138,7 @@
     "id": 13435,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_FaesCrystalle_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_FaesCrystalle",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_FaesCrystalle",
         "filename_icon": "UI_EquipIcon_Pole_FaesCrystalle"
     },
     "mainStatType": "FIGHT_PROP_CHARGE_EFFICIENCY",

@@ -138,7 +138,7 @@
     "id": 13512,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_BloodMoon_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_BloodMoon",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_BloodMoon",
         "filename_icon": "UI_EquipIcon_Pole_BloodMoon"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL",
