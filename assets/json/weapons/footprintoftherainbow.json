@@ -138,7 +138,7 @@
     "id": 13431,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Isikhulu_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Isikhulu",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Isikhulu",
         "filename_icon": "UI_EquipIcon_Pole_Isikhulu"
     },
     "mainStatType": "FIGHT_PROP_DEFENSE_PERCENT",

@@ -138,7 +138,7 @@
     "id": 13426,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Caduceus_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Caduceus",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Caduceus",
         "filename_icon": "UI_EquipIcon_Pole_Caduceus"
     },
     "mainStatType": "FIGHT_PROP_HP_PERCENT",

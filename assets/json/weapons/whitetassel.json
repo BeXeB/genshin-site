@@ -138,7 +138,7 @@
     "id": 13301,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Ruby_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Ruby",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Ruby",
         "filename_icon": "UI_EquipIcon_Pole_Ruby"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL",

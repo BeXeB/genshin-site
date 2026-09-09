@@ -138,7 +138,7 @@
     "id": 13405,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Gladiator_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Gladiator",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Gladiator",
         "filename_icon": "UI_EquipIcon_Pole_Gladiator"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL",

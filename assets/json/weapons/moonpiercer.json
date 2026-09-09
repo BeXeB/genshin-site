@@ -138,7 +138,7 @@
     "id": 13417,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Arakalari_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Arakalari",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Arakalari",
         "filename_icon": "UI_EquipIcon_Pole_Arakalari"
     },
     "mainStatType": "FIGHT_PROP_ELEMENT_MASTERY",

@@ -138,7 +138,7 @@
     "id": 13509,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Narukami_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Narukami",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Narukami",
         "filename_icon": "UI_EquipIcon_Pole_Narukami"
     },
     "mainStatType": "FIGHT_PROP_CHARGE_EFFICIENCY",

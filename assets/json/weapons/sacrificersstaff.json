@@ -138,7 +138,7 @@
     "id": 13434,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Krivule_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Krivule",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Krivule",
         "filename_icon": "UI_EquipIcon_Pole_Krivule"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL",

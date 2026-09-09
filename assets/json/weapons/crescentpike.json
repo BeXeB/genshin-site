@@ -138,7 +138,7 @@
     "id": 13403,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Exotic_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Exotic",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Exotic",
         "filename_icon": "UI_EquipIcon_Pole_Exotic"
     },
     "mainStatType": "FIGHT_PROP_PHYSICAL_ADD_HURT",

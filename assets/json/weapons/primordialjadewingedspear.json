@@ -138,7 +138,7 @@
     "id": 13505,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Morax_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Morax",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Morax",
         "filename_icon": "UI_EquipIcon_Pole_Morax"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL",

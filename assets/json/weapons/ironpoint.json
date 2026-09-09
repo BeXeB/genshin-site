@@ -93,7 +93,7 @@
     "id": 13201,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Rod_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Rod",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Rod",
         "filename_icon": "UI_EquipIcon_Pole_Rod"
     },
     "name": "Iron Point",

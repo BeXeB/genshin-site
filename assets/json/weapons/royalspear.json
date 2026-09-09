@@ -138,7 +138,7 @@
     "id": 13408,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Theocrat_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Theocrat",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Theocrat",
         "filename_icon": "UI_EquipIcon_Pole_Theocrat"
     },
     "mainStatType": "FIGHT_PROP_ATTACK_PERCENT",

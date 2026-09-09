@@ -146,19 +146,19 @@
     "normalizedName": "ateaspoonoftranscendence",
     "qualityType": "QUALITY_ORANGE",
     "r1": {
-        "description": "ATK is increased by <color=#99FFFFFF>28%</color>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by <color=#99FFFFFF>16%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks."
+        "description": "ATK is increased by <color=#99FFFFFF>28%</color>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>16%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks."
     },
     "r2": {
-        "description": "ATK is increased by <color=#99FFFFFF>35%</color>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by <color=#99FFFFFF>20%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks."
+        "description": "ATK is increased by <color=#99FFFFFF>35%</color>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>20%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks."
     },
     "r3": {
-        "description": "ATK is increased by <color=#99FFFFFF>42%</color>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by <color=#99FFFFFF>24%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks."
+        "description": "ATK is increased by <color=#99FFFFFF>42%</color>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>24%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks."
     },
     "r4": {
-        "description": "ATK is increased by <color=#99FFFFFF>49%</color>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by <color=#99FFFFFF>28%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks."
+        "description": "ATK is increased by <color=#99FFFFFF>49%</color>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>28%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks."
     },
     "r5": {
-        "description": "ATK is increased by <color=#99FFFFFF>56%</color>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by <color=#99FFFFFF>32%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks."
+        "description": "ATK is increased by <color=#99FFFFFF>56%</color>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>32%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks."
     },
     "rarity": 5,
     "sortOrder": 5212,
