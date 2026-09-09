@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { combineLatest, map, Observable, shareReplay, Subject } from 'rxjs';
+import { combineLatest, map, Observable, shareReplay, startWith, Subject } from 'rxjs';
 import { Hyperlink } from '../_models/hyperlinks';
 
 @Injectable({
@@ -25,7 +25,10 @@ export class HyperlinkService {
       this.hyperlinks$ = combineLatest([
         this.http.get<Hyperlink[]>(this.gameHyperlinksPath),
         this.http.get<Hyperlink[]>(this.customHyperlinksPath),
-        this.sessionUpdated$.pipe(map(() => this.sessionHyperlinks)),
+        this.sessionUpdated$.pipe(
+          startWith(undefined),
+          map(() => this.sessionHyperlinks),
+        ),
       ]).pipe(
         map(([gameLinks, customLinks]) => {
           const map = new Map<string | number, Hyperlink>();

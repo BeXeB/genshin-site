@@ -58,7 +58,10 @@ export class FormatterService {
       }
 
       if (text.startsWith('{LINK#', state.index)) {
-        nodes.push(this.parseLink(text, state));
+        const link = this.parseLink(text, state);
+        if (link) {
+          nodes.push(link);
+        }
         continue;
       }
 
@@ -127,7 +130,7 @@ export class FormatterService {
     };
   }
 
-  private parseLink(text: string, state: { index: number }): LinkNode {
+  private parseLink(text: string, state: { index: number }): LinkNode | null {
     const end = text.indexOf('}', state.index);
 
     const tag = text.substring(state.index, end + 1);
@@ -160,6 +163,10 @@ export class FormatterService {
     state.index = end + 1;
 
     const children = this.parseNodes(text, state, '{/LINK}');
+
+    if (children.length === 0) {
+      return null;
+    }
 
     return {
       type: 'link',
