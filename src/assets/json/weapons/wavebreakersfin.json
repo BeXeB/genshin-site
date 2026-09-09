@@ -138,7 +138,7 @@
     "id": 13416,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Maria_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Maria",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Maria",
         "filename_icon": "UI_EquipIcon_Pole_Maria"
     },
     "mainStatType": "FIGHT_PROP_ATTACK_PERCENT",

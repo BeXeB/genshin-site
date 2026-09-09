@@ -88,7 +88,7 @@
     "id": 13101,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Gewalt_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Gewalt",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Gewalt",
         "filename_icon": "UI_EquipIcon_Pole_Gewalt"
     },
     "name": "Beginner's Protector",

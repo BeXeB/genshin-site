@@ -138,7 +138,7 @@
     "id": 13515,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Perdix_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Perdix",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Perdix",
         "filename_icon": "UI_EquipIcon_Pole_Perdix"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL_HURT",

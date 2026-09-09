@@ -138,7 +138,7 @@
     "id": 13401,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Stardust_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Stardust",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Stardust",
         "filename_icon": "UI_EquipIcon_Pole_Stardust"
     },
     "mainStatType": "FIGHT_PROP_ELEMENT_MASTERY",

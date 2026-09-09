@@ -138,7 +138,7 @@
     "id": 13432,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Aoandon_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Aoandon",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Aoandon",
         "filename_icon": "UI_EquipIcon_Pole_Aoandon"
     },
     "mainStatType": "FIGHT_PROP_CHARGE_EFFICIENCY",

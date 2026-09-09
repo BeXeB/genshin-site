@@ -138,7 +138,7 @@
     "id": 13424,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Shanty_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Shanty",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Shanty",
         "filename_icon": "UI_EquipIcon_Pole_Shanty"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL",

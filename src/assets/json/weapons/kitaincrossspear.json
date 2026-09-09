@@ -138,7 +138,7 @@
     "id": 13414,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Bakufu_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Bakufu",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Bakufu",
         "filename_icon": "UI_EquipIcon_Pole_Bakufu"
     },
     "mainStatType": "FIGHT_PROP_ELEMENT_MASTERY",

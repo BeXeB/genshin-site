@@ -138,7 +138,7 @@
     "id": 13404,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Blackrock_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Blackrock",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Blackrock",
         "filename_icon": "UI_EquipIcon_Pole_Blackrock"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL_HURT",

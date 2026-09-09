@@ -138,7 +138,7 @@
     "id": 13302,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Halberd_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Halberd",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Halberd",
         "filename_icon": "UI_EquipIcon_Pole_Halberd"
     },
     "mainStatType": "FIGHT_PROP_ATTACK_PERCENT",

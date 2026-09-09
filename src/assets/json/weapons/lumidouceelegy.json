@@ -138,7 +138,7 @@
     "id": 13513,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Muguet_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Muguet",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Muguet",
         "filename_icon": "UI_EquipIcon_Pole_Muguet"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL",

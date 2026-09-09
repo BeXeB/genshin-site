@@ -138,7 +138,7 @@
     "id": 13514,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Trident_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Trident",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Trident",
         "filename_icon": "UI_EquipIcon_Pole_Trident"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL_HURT",

@@ -138,7 +138,7 @@
     "id": 13516,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_TummaLyhty_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_TummaLyhty",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_TummaLyhty",
         "filename_icon": "UI_EquipIcon_Pole_TummaLyhty"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL",

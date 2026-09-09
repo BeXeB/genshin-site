@@ -138,7 +138,7 @@
     "id": 13425,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Vorpal_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Vorpal",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Vorpal",
         "filename_icon": "UI_EquipIcon_Pole_Vorpal"
     },
     "mainStatType": "FIGHT_PROP_HP_PERCENT",

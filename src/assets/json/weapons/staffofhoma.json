@@ -138,7 +138,7 @@
     "id": 13501,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Homa_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Homa",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Homa",
         "filename_icon": "UI_EquipIcon_Pole_Homa"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL_HURT",

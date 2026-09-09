@@ -138,7 +138,7 @@
     "id": 13430,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Umpakati_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Umpakati",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Umpakati",
         "filename_icon": "UI_EquipIcon_Pole_Umpakati"
     },
     "mainStatType": "FIGHT_PROP_CHARGE_EFFICIENCY",

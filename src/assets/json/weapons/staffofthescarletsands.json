@@ -138,7 +138,7 @@
     "id": 13511,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Deshret_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Deshret",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Deshret",
         "filename_icon": "UI_EquipIcon_Pole_Deshret"
     },
     "mainStatType": "FIGHT_PROP_CRITICAL",

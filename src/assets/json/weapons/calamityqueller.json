@@ -138,7 +138,7 @@
     "id": 13507,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Santika_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Santika",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Santika",
         "filename_icon": "UI_EquipIcon_Pole_Santika"
     },
     "mainStatType": "FIGHT_PROP_ATTACK_PERCENT",

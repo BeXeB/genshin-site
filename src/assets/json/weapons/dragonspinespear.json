@@ -138,7 +138,7 @@
     "id": 13409,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Everfrost_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Everfrost",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Everfrost",
         "filename_icon": "UI_EquipIcon_Pole_Everfrost"
     },
     "mainStatType": "FIGHT_PROP_PHYSICAL_ADD_HURT",

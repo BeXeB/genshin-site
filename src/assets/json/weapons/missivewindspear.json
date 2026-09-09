@@ -138,7 +138,7 @@
     "id": 13419,
     "images": {
         "filename_awakenIcon": "UI_EquipIcon_Pole_Windvane_Awaken",
-        "filename_gacha": "UI_Gacha_EquipIcon_Polearm_Windvane",
+        "filename_gacha": "UI_Gacha_EquipIcon_Pole_Windvane",
         "filename_icon": "UI_EquipIcon_Pole_Windvane"
     },
     "mainStatType": "FIGHT_PROP_ATTACK_PERCENT",
