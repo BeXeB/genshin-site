@@ -36,11 +36,8 @@
         "story": "\nPlucked from a falcon that was as fast as the wind. The mere existence of such a bird is a miracle.\nIt was gifted with clear vision and sharp claws.\nWith its broad wings, its gliding speed was unparalleled.\n"
     },
     "rarityList": [
-        1,
-        2,
         3,
-        4,
-        5
+        4
     ],
     "sands": {
         "description": "Just an ordinary, everyday hourglass. Turn it upside down and sure enough, the dry sand starts trickling down like water.",

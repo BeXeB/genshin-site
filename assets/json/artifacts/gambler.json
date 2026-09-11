@@ -36,10 +36,8 @@
         "story": "\nThis colorful feather served to decorate a gambler's hat. Its flamboyance disgusts true aristocrats.\nBut what the aristocrats do not see is the delicate mechanism hidden beneath the surface.\nWhen the time comes, the gambler subtly swaps in a hidden, game-changing card.\nUpon seeing this card, the disdain and condescension on the aristocrats' faces would instantly give way to sheer shock.\n"
     },
     "rarityList": [
-        2,
         3,
-        4,
-        5
+        4
     ],
     "sands": {
         "description": "A shattered pocket watch that once took a lethal hit for its owner.",

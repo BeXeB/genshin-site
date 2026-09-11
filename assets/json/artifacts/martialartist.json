@@ -36,11 +36,8 @@
         "story": "\nA feather plucked from a bird soaring in the sky by a skillful martial artist.\nThe essence of martial arts is not necessarily about the power of attacks.\nAgility and nimbleness honed over years of training are just as prideworthy for a martial artist.\nThe martial artist will wear the feather on his chest as proof of his unparalleled skills.\n"
     },
     "rarityList": [
-        1,
-        2,
         3,
-        4,
-        5
+        4
     ],
     "sands": {
         "description": "A tool to keep track of time in endurance training. It is more accurate and reliable than a regular hourglass.",
