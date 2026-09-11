@@ -70,6 +70,14 @@ export class FormatterService {
         continue;
       }
 
+      if (text.startsWith('{LAYOUT_', state.index)) {
+        const layoutNode = this.parseLayout(text, state);
+        if (layoutNode) {
+          nodes.push(layoutNode);
+        }
+        continue;
+      }
+
       if (text[state.index] === '\n') {
         nodes.push({
           type: 'lineBreak',
@@ -93,6 +101,7 @@ export class FormatterService {
       !text.startsWith('<color=', state.index) &&
       !text.startsWith('{LINK#', state.index) &&
       !text.startsWith('{PARAM#', state.index) &&
+      !text.startsWith('{LAYOUT_', state.index) &&
       !text.startsWith('<i>', state.index) &&
       !text.startsWith('<b>', state.index) &&
       text[state.index] !== '\n' &&
@@ -201,6 +210,31 @@ export class FormatterService {
       level,
       paramIndex,
       multiplier,
+    };
+  }
+
+  private parseLayout(text: string, state: { index: number }): TextNode | null {
+    // Match pattern: {LAYOUT_MOBILE#...}{LAYOUT_PC#...}{LAYOUT_PS#...}
+    // Extract the MOBILE variant and lowercase first letter
+
+    const remainingText = text.substring(state.index);
+
+    // Match the full sequence of all three LAYOUT tags
+    const layoutPattern = /\{LAYOUT_MOBILE#([^}]*)\}\{LAYOUT_PC#([^}]*)\}\{LAYOUT_PS#([^}]*)\}/;
+    const match = remainingText.match(layoutPattern);
+
+    if (!match) {
+      return null;
+    }
+
+    let mobileText = match[1]; // Extract MOBILE variant
+
+    // Move index past all three LAYOUT tags
+    state.index += match[0].length;
+
+    return {
+      type: 'text',
+      text: mobileText,
     };
   }
 

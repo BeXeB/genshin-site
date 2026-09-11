@@ -68,7 +68,7 @@ export class CharacterOverviewComponent implements OnInit, OnChanges {
   // --------------------------
 
   elements = Object.values(ElementType).filter(
-    (e) => e != ElementType.NONE && e != ElementType.CRYO,
+    (e) => e != ElementType.NONE,
   );
 
   selectElement(element: ElementType) {
