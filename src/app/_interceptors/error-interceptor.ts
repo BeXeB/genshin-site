@@ -8,7 +8,7 @@ export const errorInterceptor: HttpInterceptorFn = (req, next) => {
         if (err.status === 404) {
           console.error('404 request:', req.urlWithParams);
         }
-      }
-    })
+      },
+    }),
   );
 };

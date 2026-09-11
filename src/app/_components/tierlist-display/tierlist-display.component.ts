@@ -1,127 +1,123 @@
 import { Component, Input, ViewChild, ElementRef } from '@angular/core';
 import {
-    Tier,
-    TierCharacter,
-    Tierlist,
-    TagDefinition
+  Tier,
+  TierCharacter,
+  Tierlist,
+  TagDefinition,
 } from '../../_models/tierlist';
 import { CharacterProfile } from '../../_models/character';
 import { ImageService } from '../../_services/image.service';
 import html2canvas from 'html2canvas';
 
 @Component({
-    selector: 'app-tierlist-display',
-    standalone: true,
-    templateUrl: './tierlist-display.component.html',
-    styleUrl: './tierlist-display.component.css',
+  selector: 'app-tierlist-display',
+  standalone: true,
+  templateUrl: './tierlist-display.component.html',
+  styleUrl: './tierlist-display.component.css',
 })
 export class TierlistDisplayComponent {
-    @Input() tierlist!: Tierlist;
-    @Input() characterMap: Map<string, CharacterProfile> = new Map();
+  @Input() tierlist!: Tierlist;
+  @Input() characterMap: Map<string, CharacterProfile> = new Map();
 
-    @ViewChild('tierlistContainer')
-    tierlistContainer!: ElementRef;
+  @ViewChild('tierlistContainer')
+  tierlistContainer!: ElementRef;
 
-    constructor(private imageService: ImageService) {}
+  constructor(private imageService: ImageService) {}
 
-    getCharsWithProfile(
-        tier: Tier,
-    ): {
-        character: TierCharacter;
-        profile: CharacterProfile | undefined;
-    }[] {
-        return tier.characters.map((c: TierCharacter) => ({
-            character: c,
-            profile: this.characterMap.get(c.apiKey),
-        }));
+  getCharsWithProfile(tier: Tier): {
+    character: TierCharacter;
+    profile: CharacterProfile | undefined;
+  }[] {
+    return tier.characters.map((c: TierCharacter) => ({
+      character: c,
+      profile: this.characterMap.get(c.apiKey),
+    }));
+  }
+
+  getExtraNames(extra: string[]): string {
+    return extra
+      .map((key) => this.characterMap.get(key)?.name ?? key)
+      .join(', ');
+  }
+
+  getCharacterIcon(apiKey: string): string {
+    return this.imageService.getCharacterIcon(apiKey);
+  }
+
+  getTagDefinition(tagId: string): TagDefinition | undefined {
+    return this.tierlist.tags.find((t) => t.id === tagId);
+  }
+
+  async exportAsImage(format: 'png' | 'jpg' = 'png'): Promise<void> {
+    if (!this.tierlistContainer) {
+      console.error('Container not found');
+      return;
     }
 
-    getExtraNames(extra: string[]): string {
-        return extra
-            .map((key) => this.characterMap.get(key)?.name ?? key)
-            .join(', ');
-    }
+    let container: HTMLDivElement | null = null;
 
-    getCharacterIcon(apiKey: string): string {
-        return this.imageService.getCharacterIcon(apiKey);
-    }
+    try {
+      /*
+       * Export dimensions
+       *
+       * The title is always 150px wide, including its
+       * padding and border because of box-sizing: border-box.
+       */
+      const TITLE_WIDTH = 150;
 
-    getTagDefinition(tagId: string): TagDefinition | undefined {
-        return this.tierlist.tags.find((t) => t.id === tagId);
-    }
+      const CHARACTER_WIDTH = 100;
+      const CHARACTER_GAP = 5;
+      const CHARACTER_PADDING = 10; // 5px left + 5px right
 
-    async exportAsImage(format: 'png' | 'jpg' = 'png'): Promise<void> {
-        if (!this.tierlistContainer) {
-            console.error('Container not found');
-            return;
-        }
+      const MAX_CHARACTERS_PER_ROW = 10;
 
-        let container: HTMLDivElement | null = null;
+      /*
+       * Find the widest tier.
+       *
+       * We only need the maximum number of characters in
+       * a single tier, not the total number of characters.
+       */
+      const maxCharacters = Math.min(
+        MAX_CHARACTERS_PER_ROW,
+        Math.max(
+          0,
+          ...this.tierlist.tiers.map((tier) => tier.characters.length),
+        ),
+      );
 
-        try {
-            /*
-             * Export dimensions
-             *
-             * The title is always 150px wide, including its
-             * padding and border because of box-sizing: border-box.
-             */
-            const TITLE_WIDTH = 150;
+      /*
+       * Calculate the width needed by the character area.
+       *
+       * Example:
+       * 3 chars =
+       * 3 * 100px
+       * + 2 * 5px gaps
+       * + 10px padding
+       * = 320px
+       */
+      const charactersWidth =
+        maxCharacters > 0
+          ? maxCharacters * CHARACTER_WIDTH +
+            (maxCharacters - 1) * CHARACTER_GAP +
+            CHARACTER_PADDING
+          : CHARACTER_PADDING;
 
-            const CHARACTER_WIDTH = 100;
-            const CHARACTER_GAP = 5;
-            const CHARACTER_PADDING = 10; // 5px left + 5px right
+      const exportWidth = TITLE_WIDTH + charactersWidth;
 
-            const MAX_CHARACTERS_PER_ROW = 10;
+      const element = this.tierlistContainer.nativeElement as HTMLElement;
 
-            /*
-             * Find the widest tier.
-             *
-             * We only need the maximum number of characters in
-             * a single tier, not the total number of characters.
-             */
-            const maxCharacters = Math.min(
-                MAX_CHARACTERS_PER_ROW,
-                Math.max(
-                    0,
-                    ...this.tierlist.tiers.map(
-                        (tier) => tier.characters.length
-                    )
-                )
-            );
+      // Clone the element so the normal UI is never modified.
+      const clonedElement = element.cloneNode(true) as HTMLElement;
 
-            /*
-             * Calculate the width needed by the character area.
-             *
-             * Example:
-             * 3 chars =
-             * 3 * 100px
-             * + 2 * 5px gaps
-             * + 10px padding
-             * = 320px
-             */
-            const charactersWidth =
-                maxCharacters > 0
-                    ? maxCharacters * CHARACTER_WIDTH +
-                      (maxCharacters - 1) * CHARACTER_GAP +
-                      CHARACTER_PADDING
-                    : CHARACTER_PADDING;
+      /*
+       * Explicit export styles.
+       *
+       * Firefox needs concrete widths here instead of relying
+       * on flexbox's intrinsic sizing.
+       */
+      const style = document.createElement('style');
 
-            const exportWidth = TITLE_WIDTH + charactersWidth;
-
-            const element = this.tierlistContainer.nativeElement as HTMLElement;
-
-            // Clone the element so the normal UI is never modified.
-            const clonedElement = element.cloneNode(true) as HTMLElement;
-
-            /*
-             * Explicit export styles.
-             *
-             * Firefox needs concrete widths here instead of relying
-             * on flexbox's intrinsic sizing.
-             */
-            const style = document.createElement('style');
-
-            style.textContent = `
+      style.textContent = `
                 .tierlist-export {
                     width: ${exportWidth}px !important;
                     min-width: ${exportWidth}px !important;
@@ -185,78 +181,77 @@ export class TierlistDisplayComponent {
                 }
             `;
 
-            clonedElement.appendChild(style);
-            clonedElement.classList.add('tierlist-export');
+      clonedElement.appendChild(style);
+      clonedElement.classList.add('tierlist-export');
 
-            clonedElement.appendChild(style);
-            clonedElement.classList.add('tierlist-export');
+      clonedElement.appendChild(style);
+      clonedElement.classList.add('tierlist-export');
 
-            /*
-             * Put the clone outside the visible page.
-             *
-             * Explicit width is important for Firefox.
-             */
-            container = document.createElement('div');
+      /*
+       * Put the clone outside the visible page.
+       *
+       * Explicit width is important for Firefox.
+       */
+      container = document.createElement('div');
 
-            container.style.position = 'absolute';
-            container.style.top = '-99999px';
-            container.style.left = '0';
-            container.style.width = `${exportWidth}px`;
-            container.style.minWidth = `${exportWidth}px`;
-            container.style.overflow = 'visible';
-            container.style.pointerEvents = 'none';
+      container.style.position = 'absolute';
+      container.style.top = '-99999px';
+      container.style.left = '0';
+      container.style.width = `${exportWidth}px`;
+      container.style.minWidth = `${exportWidth}px`;
+      container.style.overflow = 'visible';
+      container.style.pointerEvents = 'none';
 
-            container.appendChild(clonedElement);
-            document.body.appendChild(container);
+      container.appendChild(clonedElement);
+      document.body.appendChild(container);
 
-            /*
-             * Wait for the browser to perform layout before
-             * html2canvas measures the element.
-             */
-            await new Promise<void>((resolve) => {
-                requestAnimationFrame(() => resolve());
-            });
+      /*
+       * Wait for the browser to perform layout before
+       * html2canvas measures the element.
+       */
+      await new Promise<void>((resolve) => {
+        requestAnimationFrame(() => resolve());
+      });
 
-            const canvas = await html2canvas(clonedElement, {
-              backgroundColor: null,
-              scale: 2,
-              useCORS: true,
-              allowTaint: true,
-              logging: true,
-              width: exportWidth,
-              windowWidth: exportWidth,
-            });
+      const canvas = await html2canvas(clonedElement, {
+        backgroundColor: null,
+        scale: 2,
+        useCORS: true,
+        allowTaint: true,
+        logging: true,
+        width: exportWidth,
+        windowWidth: exportWidth,
+      });
 
-            const mimeType =
-                format === 'jpg' ? 'image/jpeg' : 'image/png';
+      const mimeType = format === 'jpg' ? 'image/jpeg' : 'image/png';
 
-            const quality = format === 'jpg' ? 0.95 : undefined;
+      const quality = format === 'jpg' ? 0.95 : undefined;
 
-            const dataUrl = quality
-                ? canvas.toDataURL(mimeType, quality)
-                : canvas.toDataURL(mimeType);
+      const dataUrl = quality
+        ? canvas.toDataURL(mimeType, quality)
+        : canvas.toDataURL(mimeType);
 
-            if (!dataUrl || dataUrl.length < 100) {
-                console.error('Invalid canvas data');
-                return;
-            }
+      if (!dataUrl || dataUrl.length < 100) {
+        console.error('Invalid canvas data');
+        return;
+      }
 
-            const link = document.createElement('a');
+      const link = document.createElement('a');
 
-            link.href = dataUrl;
-            link.download = `tierlist.${format === 'jpg' ? 'jpg' : 'png'}`;
+      link.href = dataUrl;
+      link.download = `tierlist.${format === 'jpg' ? 'jpg' : 'png'}`;
 
-            link.click();
-        } catch (error) {
-            console.error('Error exporting image:', error);
-        } finally {
-            /*
-             * Always remove the temporary export container,
-             * including when html2canvas throws an error.
-             */
-            if (container?.parentNode) {
-                container.parentNode.removeChild(container);
-            }
-        }
+      link.click();
+    } catch (error) {
+      console.error('Error exporting image:', error);
+    } finally {
+      /*
+       * Always remove the temporary export container,
+       * including when html2canvas throws an error.
+       */
+      if (container?.parentNode) {
+        container.parentNode.removeChild(container);
+      }
     }
+  }
 }

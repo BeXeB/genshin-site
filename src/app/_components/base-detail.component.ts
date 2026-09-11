@@ -6,9 +6,7 @@ import { switchMap, takeUntil } from 'rxjs';
 import { AstNode } from '../_models/ast-nodes';
 
 @Directive()
-export abstract class BaseDetailComponent<T>
-  implements OnInit, OnDestroy
-{
+export abstract class BaseDetailComponent<T> implements OnInit, OnDestroy {
   protected data: T | null = null;
   protected destroy$ = new Subject<void>();
 

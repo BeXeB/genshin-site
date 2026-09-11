@@ -5,7 +5,10 @@ import { HyperlinkService } from '../../_services/hyperlink.service';
 import { HyperlinkInsertionService } from '../../_services/hyperlink-insertion.service';
 import { ModalService } from '../../_services/modal.service';
 import { FormattedTextComponent } from '../formatted-text-component/formatted-text.component';
-import { FormattedTextEditorComponent, HyperlinkRequest } from '../formatted-text-editor/formatted-text-editor.component';
+import {
+  FormattedTextEditorComponent,
+  HyperlinkRequest,
+} from '../formatted-text-editor/formatted-text-editor.component';
 import { Hyperlink } from '../../_models/hyperlinks';
 
 interface HyperlinkWithType extends Hyperlink {
@@ -15,7 +18,12 @@ interface HyperlinkWithType extends Hyperlink {
 @Component({
   selector: 'app-hyperlink-editor',
   standalone: true,
-  imports: [CommonModule, FormsModule, FormattedTextComponent, FormattedTextEditorComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    FormattedTextComponent,
+    FormattedTextEditorComponent,
+  ],
   templateUrl: './hyperlink-editor.component.html',
   styleUrl: './hyperlink-editor.component.css',
 })
@@ -68,8 +76,7 @@ export class HyperlinkEditorComponent implements OnInit {
     const query = this.searchQuery.toLowerCase();
     this.filteredHyperlinks = this.hyperlinks.filter(
       (h) =>
-        h.name.toLowerCase().includes(query) ||
-        String(h.id).includes(query)
+        h.name.toLowerCase().includes(query) || String(h.id).includes(query),
     );
   }
 
@@ -116,7 +123,8 @@ export class HyperlinkEditorComponent implements OnInit {
     }
 
     if (!this.newHyperlinkId.match(/^[a-z0-9\-]+$/)) {
-      this.createError = 'ID must contain only lowercase letters, numbers, and hyphens';
+      this.createError =
+        'ID must contain only lowercase letters, numbers, and hyphens';
       return false;
     }
 
@@ -180,6 +188,4 @@ export class HyperlinkEditorComponent implements OnInit {
     }
     return hyperlink.id as string;
   }
-
 }
-

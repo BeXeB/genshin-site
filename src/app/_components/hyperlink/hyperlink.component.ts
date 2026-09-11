@@ -65,7 +65,13 @@ export class HyperlinkComponent implements OnInit {
         return this.characterService
           .getSkill(this.id as number)
           .pipe(
-            map((skill) => skill && { name: skill.name, description: skill.descriptionRaw }),
+            map(
+              (skill) =>
+                skill && {
+                  name: skill.name,
+                  description: skill.descriptionRaw,
+                },
+            ),
           );
       case 'P':
         return this.characterService
@@ -73,54 +79,53 @@ export class HyperlinkComponent implements OnInit {
           .pipe(
             map(
               (passive) =>
-                passive && { name: passive.name, description: passive.descriptionRaw },
-            ),
-          );
-      case 'T':
-        return this.characterService
-          .getConstellation(this.id as number)
-          .pipe(
-            map(
-              (constellation) =>
-                constellation && {
-                  name: constellation.name,
-                  description: constellation.descriptionRaw,
+                passive && {
+                  name: passive.name,
+                  description: passive.descriptionRaw,
                 },
             ),
           );
+      case 'T':
+        return this.characterService.getConstellation(this.id as number).pipe(
+          map(
+            (constellation) =>
+              constellation && {
+                name: constellation.name,
+                description: constellation.descriptionRaw,
+              },
+          ),
+        );
       case 'Z':
         // Type Z: Brief field reference (e.g., "mavuika-combat1")
         return this.resolveBriefFieldLink(this.id as string);
       case 'C':
         // Type C: Custom concept from custom-hyperlinks.json
-        return this.hyperlinkService
-          .getHyperlink(this.id)
-          .pipe(
-            map(
-              (hyperlink) =>
-                hyperlink && {
-                  name: hyperlink.name,
-                  description: hyperlink.description,
-                },
-            ),
-          );
+        return this.hyperlinkService.getHyperlink(this.id).pipe(
+          map(
+            (hyperlink) =>
+              hyperlink && {
+                name: hyperlink.name,
+                description: hyperlink.description,
+              },
+          ),
+        );
       default:
         // Default to game hyperlink lookup (N type or custom string ID)
-        return this.hyperlinkService
-          .getHyperlink(this.id)
-          .pipe(
-            map(
-              (hyperlink) =>
-                hyperlink && {
-                  name: hyperlink.name,
-                  description: hyperlink.description,
-                },
-            ),
-          );
+        return this.hyperlinkService.getHyperlink(this.id).pipe(
+          map(
+            (hyperlink) =>
+              hyperlink && {
+                name: hyperlink.name,
+                description: hyperlink.description,
+              },
+          ),
+        );
     }
   }
 
-  private resolveBriefFieldLink(id: string): Observable<LinkTarget | undefined> {
+  private resolveBriefFieldLink(
+    id: string,
+  ): Observable<LinkTarget | undefined> {
     // Parse id: "character-fieldname" (e.g., "mavuika-combat1")
     const parts = id.split('-');
     if (parts.length < 2) {
@@ -141,7 +146,9 @@ export class HyperlinkComponent implements OnInit {
         return this.characterService.getBriefDescriptions(characterName).pipe(
           map((briefs) => {
             if (!briefs || !(fieldName in briefs)) {
-              console.warn(`Brief field not found: ${fieldName} in ${characterName}`);
+              console.warn(
+                `Brief field not found: ${fieldName} in ${characterName}`,
+              );
               return undefined;
             }
 
@@ -158,7 +165,10 @@ export class HyperlinkComponent implements OnInit {
     );
   }
 
-  private getTalentNameForField(character: any, fieldName: string): string | undefined {
+  private getTalentNameForField(
+    character: any,
+    fieldName: string,
+  ): string | undefined {
     // Character.skills contains talents keyed by field name
     // character.skills.combat1, character.skills.combat2, etc.
     // character.skills.passive1, character.skills.passive2, etc.

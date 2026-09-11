@@ -9,9 +9,12 @@ const httpProviders = provideHttpClient(withInterceptors([errorInterceptor]));
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideRouter(routes, withInMemoryScrolling({
-      scrollPositionRestoration: 'enabled',
-    })),
-    httpProviders
+    provideRouter(
+      routes,
+      withInMemoryScrolling({
+        scrollPositionRestoration: 'enabled',
+      }),
+    ),
+    httpProviders,
   ],
 };

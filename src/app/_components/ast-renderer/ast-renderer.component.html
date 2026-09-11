@@ -10,14 +10,22 @@
 
     @case ("italic") {
       <i>
-        <app-ast-renderer [nodes]="node.children" [elementColor]="elementColor" [underline]="underline">
+        <app-ast-renderer
+          [nodes]="node.children"
+          [elementColor]="elementColor"
+          [underline]="underline"
+        >
         </app-ast-renderer>
       </i>
     }
 
     @case ("bold") {
       <b>
-        <app-ast-renderer [nodes]="node.children" [elementColor]="elementColor" [underline]="underline">
+        <app-ast-renderer
+          [nodes]="node.children"
+          [elementColor]="elementColor"
+          [underline]="underline"
+        >
         </app-ast-renderer>
       </b>
     }
@@ -28,14 +36,26 @@
         [style.text-decoration]="underline ? 'underline' : null"
         [style.text-decoration-color]="underline ? node.color : null"
       >
-        <app-ast-renderer [nodes]="node.children" [elementColor]="elementColor" [underline]="underline">
+        <app-ast-renderer
+          [nodes]="node.children"
+          [elementColor]="elementColor"
+          [underline]="underline"
+        >
         </app-ast-renderer>
       </div>
     }
 
     @case ("link") {
-      <app-hyperlink [id]="node.id" [linkType]="node.linkType" [elementColor]="elementColor">
-        <app-ast-renderer [nodes]="node.children" [elementColor]="elementColor" [underline]="true">
+      <app-hyperlink
+        [id]="node.id"
+        [linkType]="node.linkType"
+        [elementColor]="elementColor"
+      >
+        <app-ast-renderer
+          [nodes]="node.children"
+          [elementColor]="elementColor"
+          [underline]="true"
+        >
         </app-ast-renderer>
       </app-hyperlink>
     }

@@ -1,4 +1,12 @@
-import { Component, EventEmitter, Input, Output, OnInit, OnChanges, SimpleChanges } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  Output,
+  OnInit,
+  OnChanges,
+  SimpleChanges,
+} from '@angular/core';
 import { CharacterResolved } from '../../../_models/character';
 import { FormsModule } from '@angular/forms';
 import { OverviewProfileComponent } from './profile/profile.component';
@@ -42,14 +50,19 @@ export class CharacterOverviewComponent implements OnInit, OnChanges {
 
   private restoreTabState(): void {
     if (this.char?.profile?.id) {
-      this.selectedMenu = this.tabStateService.getTabForCharacter(String(this.char.profile.id));
+      this.selectedMenu = this.tabStateService.getTabForCharacter(
+        String(this.char.profile.id),
+      );
     }
   }
 
   selectMenu(menu: 'profile' | 'talents' | 'constellations'): void {
     this.selectedMenu = menu;
     if (this.char?.profile?.id) {
-      this.tabStateService.setTabForCharacter(String(this.char.profile.id), menu);
+      this.tabStateService.setTabForCharacter(
+        String(this.char.profile.id),
+        menu,
+      );
     }
   }
 
@@ -67,9 +80,7 @@ export class CharacterOverviewComponent implements OnInit, OnChanges {
   // |  TRAVELLER SPECIFIC    |
   // --------------------------
 
-  elements = Object.values(ElementType).filter(
-    (e) => e != ElementType.NONE,
-  );
+  elements = Object.values(ElementType).filter((e) => e != ElementType.NONE);
 
   selectElement(element: ElementType) {
     this.elementChange.emit(element);

@@ -8,10 +8,10 @@ export const StorageKeys = {
   WEAPON_FILTERS: 'weaponFilters',
   ARTIFACT_FILTERS: 'artifactFilters',
   MATERIAL_FILTERS: 'materialFilter',
-  
+
   // Tierlist data
   TIERLIST_DATA: 'tierlistData',
-  
+
   // User settings
   SETTINGS: 'settings',
 } as const;

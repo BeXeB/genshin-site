@@ -1,4 +1,8 @@
-import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import {
+  Component,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+} from '@angular/core';
 import { Material, MaterialResolved } from '../../_models/materials';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
@@ -7,7 +11,7 @@ import { map, switchMap, takeUntil } from 'rxjs';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormatterService } from '../../_services/formatter.service';
 import { BaseDetailComponent } from '../../_components/base-detail.component';
-import { FormattedTextComponent } from "../../_components/formatted-text-component/formatted-text.component";
+import { FormattedTextComponent } from '../../_components/formatted-text-component/formatted-text.component';
 
 @Component({
   selector: 'app-material-details',
@@ -36,9 +40,7 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
       .initialize()
       .pipe(
         switchMap(() => this.materialService.getMaterial(slug)),
-        map((data) =>
-          data ? this.resolver.resolveMaterial(data) : null,
-        ),
+        map((data) => (data ? this.resolver.resolveMaterial(data) : null)),
         takeUntil(this.destroy$),
       )
       .subscribe({
@@ -53,7 +55,8 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
         },
       });
 
-    this.materialService.getMaterial('mora')
+    this.materialService
+      .getMaterial('mora')
       .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: (data) => {

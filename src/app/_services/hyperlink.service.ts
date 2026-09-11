@@ -1,6 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { combineLatest, map, Observable, shareReplay, startWith, Subject } from 'rxjs';
+import {
+  combineLatest,
+  map,
+  Observable,
+  shareReplay,
+  startWith,
+  Subject,
+} from 'rxjs';
 import { Hyperlink } from '../_models/hyperlinks';
 
 @Injectable({
@@ -34,12 +41,12 @@ export class HyperlinkService {
           const map = new Map<string | number, Hyperlink>();
 
           // Add game hyperlinks (numeric IDs)
-          gameLinks.forEach(link => {
+          gameLinks.forEach((link) => {
             map.set(link.id, link);
           });
 
           // Add custom hyperlinks (string IDs)
-          customLinks.forEach(link => {
+          customLinks.forEach((link) => {
             map.set(link.id, link);
           });
 
@@ -72,4 +79,3 @@ export class HyperlinkService {
     this.sessionUpdated$.next();
   }
 }
-

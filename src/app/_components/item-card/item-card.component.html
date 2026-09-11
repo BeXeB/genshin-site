@@ -1,4 +1,7 @@
-<a [routerLink]="routeUrl" [style]="{ textDecoration: 'none', color: 'inherit', display: 'block' }">
+<a
+  [routerLink]="routeUrl"
+  [style]="{ textDecoration: 'none', color: 'inherit', display: 'block' }"
+>
   <div [style.border-color]="getColor()" class="item-card card">
     <div #iconsContainer class="icons">
       <ng-content select="[icon-slot]"></ng-content>

@@ -64,9 +64,7 @@ export class CharacterService {
   }
 
   getPassiveTalent(id: number): Observable<PassiveTalent | undefined> {
-    return this.getTalentIndex().pipe(
-      map((index) => index.passives.get(id)),
-    );
+    return this.getTalentIndex().pipe(map((index) => index.passives.get(id)));
   }
 
   getConstellation(id: number): Observable<ConstellationDetail | undefined> {

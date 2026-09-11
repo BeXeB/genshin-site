@@ -1,7 +1,7 @@
-<div style="display: flex; flex-direction: column; gap: 10px; height: 100%;">
+<div style="display: flex; flex-direction: column; gap: 10px; height: 100%">
   <!-- Toolbar (conditionally shown) -->
   @if (showToolbar) {
-    <div style="display: flex; gap: 5px; flex-wrap: wrap; align-items: center;">
+    <div style="display: flex; gap: 5px; flex-wrap: wrap; align-items: center">
       <!-- Undo -->
       <button
         class="toolbar-btn"
@@ -103,8 +103,19 @@
 
   <!-- Preview (conditionally shown) -->
   @if (showPreview && text) {
-    <div style="padding: 10px; border: 1px solid var(--gray); border-radius: 6px; background-color: var(--darker-gray);">
-      <div style="font-size: 0.9rem; color: var(--light-gray); margin-bottom: 5px;">Preview:</div>
+    <div
+      style="
+        padding: 10px;
+        border: 1px solid var(--gray);
+        border-radius: 6px;
+        background-color: var(--darker-gray);
+      "
+    >
+      <div
+        style="font-size: 0.9rem; color: var(--light-gray); margin-bottom: 5px"
+      >
+        Preview:
+      </div>
       <app-formatted-text [text]="text"></app-formatted-text>
     </div>
   }

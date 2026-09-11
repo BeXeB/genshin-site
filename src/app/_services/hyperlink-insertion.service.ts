@@ -15,7 +15,11 @@ export class HyperlinkInsertionService {
 
   currentCharacterName: string | null = null;
 
-  insertHyperlink(id: string | number, displayText?: string, type?: 'C' | 'Z'): void {
+  insertHyperlink(
+    id: string | number,
+    displayText?: string,
+    type?: 'C' | 'Z',
+  ): void {
     this.insertionSubject.next({ id, displayText, type });
   }
 

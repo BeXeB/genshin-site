@@ -46,12 +46,10 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
 
   loadData(): Observable<MaterialResolved[]> {
     this.loadFilters();
-    return this.resolver
-      .initialize()
-      .pipe(
-        switchMap(() => this.materialService.getMaterials()),
-        map((data) => this.resolver.resolveMaterials(data)),
-      );
+    return this.resolver.initialize().pipe(
+      switchMap(() => this.materialService.getMaterials()),
+      map((data) => this.resolver.resolveMaterials(data)),
+    );
   }
 
   transformData(data: MaterialResolved[]): MaterialResolved[] {
@@ -66,7 +64,10 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
   }
 
   getImage(material: MaterialResolved): string {
-    return this.imageService.getMaterialImage(material.normalizedName, material.type);
+    return this.imageService.getMaterialImage(
+      material.normalizedName,
+      material.type,
+    );
   }
 
   private saveFilters(): void {

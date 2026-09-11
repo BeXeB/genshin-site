@@ -18,9 +18,7 @@
     @for (artifact of data; track $index) {
       <app-item-card
         [routerLink]="`/artifacts/${artifact.normalizedName}`"
-        [style.display]="
-          filtered.includes(artifact) ? 'block' : 'none'
-        "
+        [style.display]="filtered.includes(artifact) ? 'block' : 'none'"
         [imageUrl]="getImage(artifact)"
         [itemName]="artifact.name"
         [rarity]="getMaxRarity(artifact)"

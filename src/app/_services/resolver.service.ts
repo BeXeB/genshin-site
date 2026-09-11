@@ -182,27 +182,27 @@ export class ResolverService {
           : undefined;
 
         const resolvedVariants:
-          | Partial<Record<ElementType, CharacterVariantResolved>>
-          | undefined = char.variants
-          ? Object.fromEntries(
-              Object.entries(char.variants).map(([element, variant]) => {
-                const resolvedVariant: CharacterVariantResolved = {
-                  ...variant,
-                  skills: resolveCosts(variant.skills),
-                  brief:
-                    (briefMap as CharacterBriefDescriptions).combat1 !==
-                    undefined
-                      ? undefined
-                      : (
-                          briefMap as Partial<
-                            Record<ElementType, CharacterBriefDescriptions>
-                          >
-                        )[element as ElementType],
-                };
-                return [element, resolvedVariant];
-              }),
-            )
-          : undefined;
+          Partial<Record<ElementType, CharacterVariantResolved>> | undefined =
+          char.variants
+            ? Object.fromEntries(
+                Object.entries(char.variants).map(([element, variant]) => {
+                  const resolvedVariant: CharacterVariantResolved = {
+                    ...variant,
+                    skills: resolveCosts(variant.skills),
+                    brief:
+                      (briefMap as CharacterBriefDescriptions).combat1 !==
+                      undefined
+                        ? undefined
+                        : (
+                            briefMap as Partial<
+                              Record<ElementType, CharacterBriefDescriptions>
+                            >
+                          )[element as ElementType],
+                  };
+                  return [element, resolvedVariant];
+                }),
+              )
+            : undefined;
 
         const resolved: CharacterResolved = {
           ...char,

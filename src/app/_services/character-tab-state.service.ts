@@ -9,13 +9,16 @@ export class CharacterTabStateService {
   /**
    * Get the saved tab for a character, or return default 'profile'
    */
-  getTabForCharacter(characterId: string): 'profile' | 'talents' | 'constellations' {
+  getTabForCharacter(
+    characterId: string,
+  ): 'profile' | 'talents' | 'constellations' {
     const stored = sessionStorage.getItem(this.STORAGE_KEY);
     if (!stored) return 'profile';
 
     try {
       const tabState = JSON.parse(stored) as Record<string, string>;
-      return (tabState[characterId] ?? 'profile') as 'profile' | 'talents' | 'constellations';
+      return (tabState[characterId] ?? 'profile') as
+        'profile' | 'talents' | 'constellations';
     } catch {
       return 'profile';
     }

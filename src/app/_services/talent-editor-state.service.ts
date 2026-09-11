@@ -72,7 +72,10 @@ export class TalentEditorStateService {
    * Save an edited description (delta approach - only store if edited)
    * Only called when user modifies content
    */
-  saveEditedDescription(talentKey: keyof CharacterBriefDescriptions, content: string): void {
+  saveEditedDescription(
+    talentKey: keyof CharacterBriefDescriptions,
+    content: string,
+  ): void {
     const state = this.getState();
     if (content && content.trim().length > 0) {
       state.editedDescriptions[String(talentKey)] = content;
@@ -87,7 +90,9 @@ export class TalentEditorStateService {
    * Get an edited description if it exists, otherwise undefined
    * Component should fall back to original JSON value if undefined
    */
-  getEditedDescription(talentKey: keyof CharacterBriefDescriptions): string | undefined {
+  getEditedDescription(
+    talentKey: keyof CharacterBriefDescriptions,
+  ): string | undefined {
     const state = this.getState();
     return state.editedDescriptions[String(talentKey)];
   }

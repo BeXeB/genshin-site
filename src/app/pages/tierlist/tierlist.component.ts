@@ -14,12 +14,13 @@ import { TierlistDisplayComponent } from '../../_components/tierlist-display/tie
   styleUrl: './tierlist.component.css',
 })
 export class TierlistComponent {
-  @ViewChild(TierlistDisplayComponent) displayComponent!: TierlistDisplayComponent;
+  @ViewChild(TierlistDisplayComponent)
+  displayComponent!: TierlistDisplayComponent;
 
   constructor(
     private tierlistService: TierlistService,
     private characterService: CharacterService,
-  ) { }
+  ) {}
 
   tierlist: Tierlist = { tiers: [], tags: [] };
   characterMap: Map<string, CharacterProfile> = new Map();

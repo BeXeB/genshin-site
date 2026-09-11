@@ -6,17 +6,15 @@ import { CharacterService } from '../../_services/character.service';
   standalone: true,
   imports: [],
   templateUrl: './todo.component.html',
-  styleUrl: './todo.component.css'
+  styleUrl: './todo.component.css',
 })
 export class TodoComponent implements OnInit {
-  constructor (
-    private characterService: CharacterService
-  ) { }
+  constructor(private characterService: CharacterService) {}
 
-  characterNames: string[] = []
+  characterNames: string[] = [];
 
   ngOnInit(): void {
-    this.characterService.getCharacterNames().subscribe(data => {
+    this.characterService.getCharacterNames().subscribe((data) => {
       this.characterNames = data;
     });
   }
