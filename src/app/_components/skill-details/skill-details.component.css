@@ -23,7 +23,7 @@
   font-weight: 600;
 }
 
-.skill-name>div {
+.skill-name > div {
   display: flex;
   align-items: center;
   justify-content: center;

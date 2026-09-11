@@ -1,4 +1,9 @@
-import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+} from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
@@ -70,7 +75,7 @@ export class CharacterDetailsComponent implements OnInit {
     private router: Router,
     private storageService: StorageService,
     private cdr: ChangeDetectorRef,
-  ) { }
+  ) {}
 
   ngOnInit(): void {
     this.route.paramMap

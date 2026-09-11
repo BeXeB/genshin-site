@@ -13,9 +13,7 @@
     @for (material of data; track $index) {
       <app-item-card
         [routeUrl]="`/materials/${material.normalizedName}`"
-        [style.display]="
-          filtered.includes(material) ? 'block' : 'none'
-        "
+        [style.display]="filtered.includes(material) ? 'block' : 'none'"
         [imageUrl]="getImage(material)"
         [itemName]="material.name"
         [rarity]="material.rarity ?? 1"

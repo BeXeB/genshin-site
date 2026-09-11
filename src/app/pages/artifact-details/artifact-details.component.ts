@@ -1,4 +1,8 @@
-import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import {
+  Component,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+} from '@angular/core';
 import { ArtifactSet } from '../../_models/artifacts';
 import { ActivatedRoute } from '@angular/router';
 import { ArtifactService } from '../../_services/artifact.service';
@@ -6,7 +10,7 @@ import { PageTitleComponent } from '../../_components/page-title/page-title.comp
 import { FormatterService } from '../../_services/formatter.service';
 import { takeUntil } from 'rxjs';
 import { BaseDetailComponent } from '../../_components/base-detail.component';
-import { FormattedTextComponent } from "../../_components/formatted-text-component/formatted-text.component";
+import { FormattedTextComponent } from '../../_components/formatted-text-component/formatted-text.component';
 
 @Component({
   selector: 'app-artifact-details',
@@ -29,7 +33,8 @@ export class ArtifactDetailsComponent extends BaseDetailComponent<ArtifactSet> {
   }
 
   override loadDetail(slug: string): void {
-    this.artifactService.getArtifact(slug)
+    this.artifactService
+      .getArtifact(slug)
       .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: (data) => {

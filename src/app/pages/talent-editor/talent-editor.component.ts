@@ -30,7 +30,10 @@ import {
 } from '../../_models/character';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormattedTextComponent } from '../../_components/formatted-text-component/formatted-text.component';
-import { FormattedTextEditorComponent, HyperlinkRequest } from '../../_components/formatted-text-editor/formatted-text-editor.component';
+import {
+  FormattedTextEditorComponent,
+  HyperlinkRequest,
+} from '../../_components/formatted-text-editor/formatted-text-editor.component';
 import { HyperlinkEditorComponent } from '../../_components/hyperlink-editor/hyperlink-editor.component';
 
 type TalentRow = {
@@ -47,7 +50,13 @@ type ColorPreset = {
 
 @Component({
   selector: 'app-talent-editor',
-  imports: [CommonModule, FormsModule, PageTitleComponent, FormattedTextComponent, FormattedTextEditorComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    PageTitleComponent,
+    FormattedTextComponent,
+    FormattedTextEditorComponent,
+  ],
   templateUrl: './talent-editor.component.html',
   styleUrl: './talent-editor.component.css',
 })
@@ -63,8 +72,12 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
     private router: Router,
   ) {}
 
-  @ViewChildren('sectionBtnEl') sectionBtnEls!: QueryList<ElementRef<HTMLButtonElement>>;
-  @ViewChildren('talentBtnEl') talentBtnEls!: QueryList<ElementRef<HTMLButtonElement>>;
+  @ViewChildren('sectionBtnEl') sectionBtnEls!: QueryList<
+    ElementRef<HTMLButtonElement>
+  >;
+  @ViewChildren('talentBtnEl') talentBtnEls!: QueryList<
+    ElementRef<HTMLButtonElement>
+  >;
   @ViewChild('hyperlink-editor') hyperlinkEditor?: HyperlinkEditorComponent;
 
   characters: CharacterProfile[] = [];
@@ -111,9 +124,11 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
         });
 
       // Subscribe to hyperlink insertions
-      this.insertionSubscription = this.insertionService.insertion$.subscribe((event) => {
-        this.insertHyperlink(event.id, event.displayText, event.type);
-      });
+      this.insertionSubscription = this.insertionService.insertion$.subscribe(
+        (event) => {
+          this.insertHyperlink(event.id, event.displayText, event.type);
+        },
+      );
     } catch (error) {
       console.error('Error in talent editor ngOnInit:', error);
       this.handleError();
@@ -124,7 +139,11 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
     const state = this.stateService.getState();
 
     // Validate the stored character still exists
-    if (!this.stateService.validateState(this.characters.map(c => c.normalizedName))) {
+    if (
+      !this.stateService.validateState(
+        this.characters.map((c) => c.normalizedName),
+      )
+    ) {
       // Invalid state, clear and proceed with defaults
       this.stateService.clearAll();
       return;
@@ -132,7 +151,9 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
 
     // Restore character selection
     if (state.selectedCharacterId) {
-      const character = this.characters.find(c => c.normalizedName === state.selectedCharacterId);
+      const character = this.characters.find(
+        (c) => c.normalizedName === state.selectedCharacterId,
+      );
       if (character) {
         // Load character details
         this.selectedCharacter = character;
@@ -166,9 +187,19 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
             // Overlay edited descriptions from storage
             if (state.selectedCharacterId) {
               const allKeys: (keyof CharacterBriefDescriptions)[] = [
-                'combat1', 'combat2', 'combat3',
-                'passive1', 'passive2', 'passive3', 'passive4',
-                'c1', 'c2', 'c3', 'c4', 'c5', 'c6'
+                'combat1',
+                'combat2',
+                'combat3',
+                'passive1',
+                'passive2',
+                'passive3',
+                'passive4',
+                'c1',
+                'c2',
+                'c3',
+                'c4',
+                'c5',
+                'c6',
               ];
               for (const key of allKeys) {
                 const edited = this.stateService.getEditedDescription(key);
@@ -203,14 +234,20 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   private handleError(): void {
-    console.error('Talent editor encountered an error, clearing state and redirecting');
+    console.error(
+      'Talent editor encountered an error, clearing state and redirecting',
+    );
     this.stateService.clearAll();
     this.router.navigate(['/']);
   }
 
   ngAfterViewInit(): void {
-    this.sectionBtnEls.changes.subscribe(() => this.equalizeButtonWidths(this.sectionBtnEls));
-    this.talentBtnEls.changes.subscribe(() => this.equalizeButtonWidths(this.talentBtnEls));
+    this.sectionBtnEls.changes.subscribe(() =>
+      this.equalizeButtonWidths(this.sectionBtnEls),
+    );
+    this.talentBtnEls.changes.subscribe(() =>
+      this.equalizeButtonWidths(this.talentBtnEls),
+    );
   }
 
   ngOnDestroy(): void {
@@ -220,7 +257,9 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
   // Makes every button in the given group as wide as the widest one, so the
   // buttons stay compact when short (e.g. "C1") but grow when needed (e.g.
   // "Elemental Skill"), while remaining uniform within their own group.
-  private equalizeButtonWidths(list: QueryList<ElementRef<HTMLButtonElement>>): void {
+  private equalizeButtonWidths(
+    list: QueryList<ElementRef<HTMLButtonElement>>,
+  ): void {
     const buttons = list.map((ref) => ref.nativeElement);
     if (buttons.length === 0) return;
 
@@ -380,7 +419,8 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
     let constellation = this.selectedCharacterDetails?.constellation;
 
     if (this.selectedElement && this.selectedCharacterDetails?.variants) {
-      const variant = this.selectedCharacterDetails.variants[this.selectedElement];
+      const variant =
+        this.selectedCharacterDetails.variants[this.selectedElement];
       if (variant) {
         skills = variant.skills;
         constellation = variant.constellation;
@@ -402,9 +442,17 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
         { key: 'passive2', talent: skills.passive2, section: 'Passzívok' },
       ];
       if (skills.passive3)
-        passiveRows.push({ key: 'passive3', talent: skills.passive3, section: 'Passzívok' });
+        passiveRows.push({
+          key: 'passive3',
+          talent: skills.passive3,
+          section: 'Passzívok',
+        });
       if (skills.passive4)
-        passiveRows.push({ key: 'passive4', talent: skills.passive4, section: 'Passzívok' });
+        passiveRows.push({
+          key: 'passive4',
+          talent: skills.passive4,
+          section: 'Passzívok',
+        });
 
       sections.push({ label: 'Passzívok', rows: passiveRows });
     }
@@ -455,14 +503,18 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
 
   getSelectedTalent(): TalentRow | null {
     if (!this.selectedTalentKey) return null;
-    return this.getAllTalentRows().find(row => row.key === this.selectedTalentKey) || null;
+    return (
+      this.getAllTalentRows().find(
+        (row) => row.key === this.selectedTalentKey,
+      ) || null
+    );
   }
 
   selectTalent(key: keyof CharacterBriefDescriptions) {
     this.selectedTalentKey = key;
     // Update selected section based on talent
     for (const section of this.talentSections) {
-      if (section.rows.some(row => row.key === key)) {
+      if (section.rows.some((row) => row.key === key)) {
         this.selectedSection = section.label;
         break;
       }
@@ -474,7 +526,7 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
   selectSection(sectionLabel: string) {
     this.selectedSection = sectionLabel;
     // Select first talent in the section
-    const section = this.talentSections.find(s => s.label === sectionLabel);
+    const section = this.talentSections.find((s) => s.label === sectionLabel);
     if (section && section.rows.length > 0) {
       this.selectedTalentKey = section.rows[0].key;
     }
@@ -483,7 +535,9 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   getCurrentSection(): { label: string; rows: TalentRow[] } | null {
-    return this.talentSections.find(s => s.label === this.selectedSection) || null;
+    return (
+      this.talentSections.find((s) => s.label === this.selectedSection) || null
+    );
   }
 
   exportBriefDescriptionJson() {
@@ -564,14 +618,15 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
     };
   }
 
-  openHyperlinkModal(
-    key: keyof CharacterBriefDescriptions,
-  ) {
+  openHyperlinkModal(key: keyof CharacterBriefDescriptions) {
     this.currentTalentKey = key;
     this.modalService.open('hyperlink-editor');
   }
 
-  onEditorTextChange(key: keyof CharacterBriefDescriptions, newText: string): void {
+  onEditorTextChange(
+    key: keyof CharacterBriefDescriptions,
+    newText: string,
+  ): void {
     this.briefDrafts[key] = newText;
 
     // Debounce saving edited description to state service (300ms)
@@ -591,17 +646,26 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
     }, 300);
   }
 
-  onEditorHyperlinkRequested(key: keyof CharacterBriefDescriptions, request: HyperlinkRequest): void {
+  onEditorHyperlinkRequested(
+    key: keyof CharacterBriefDescriptions,
+    request: HyperlinkRequest,
+  ): void {
     this.currentTalentKey = key;
     this.currentHyperlinkRequest = request;
     // Set the current character in the insertion service for quick links
     if (this.selectedCharacter) {
-      this.insertionService.setCurrentCharacter(this.selectedCharacter.normalizedName);
+      this.insertionService.setCurrentCharacter(
+        this.selectedCharacter.normalizedName,
+      );
     }
     this.modalService.open('hyperlink-editor');
   }
 
-  insertHyperlink(hyperlinkId: string | number, displayText?: string, linkType?: 'C' | 'Z') {
+  insertHyperlink(
+    hyperlinkId: string | number,
+    displayText?: string,
+    linkType?: 'C' | 'Z',
+  ) {
     if (!this.currentTalentKey || !this.currentHyperlinkRequest) return;
 
     const key = this.currentTalentKey;
@@ -625,7 +689,12 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
     this.briefDrafts[key] = newValue;
 
     // Capture the state change in history
-    this.historyService.captureSnapshot(key, newValue, start, start + linkMarkup.length);
+    this.historyService.captureSnapshot(
+      key,
+      newValue,
+      start,
+      start + linkMarkup.length,
+    );
 
     this.modalService.close();
   }

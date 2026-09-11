@@ -1,4 +1,4 @@
-import { ArtifactType } from "./enum";
+import { ArtifactType } from './enum';
 
 export type ArtifactSet = {
   id: number;

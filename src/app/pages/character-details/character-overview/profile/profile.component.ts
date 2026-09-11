@@ -5,7 +5,13 @@ import { DecimalPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Material } from '../../../../_models/materials';
 import { RouterLink } from '@angular/router';
-import { ElementType, WeaponTypeLabel, ElementTypeLabel, StatType, StatTypeLabel } from '../../../../_models/enum';
+import {
+  ElementType,
+  WeaponTypeLabel,
+  ElementTypeLabel,
+  StatType,
+  StatTypeLabel,
+} from '../../../../_models/enum';
 
 @Component({
   selector: 'app-overview-profile',
@@ -22,7 +28,7 @@ export class OverviewProfileComponent implements OnInit {
   @Input() char: CharacterResolved | null = null;
   @Input() elementColor: string | null = null;
 
-  constructor(private imageService: ImageService) { }
+  constructor(private imageService: ImageService) {}
 
   quickLevels = [
     '1',
@@ -112,7 +118,10 @@ export class OverviewProfileComponent implements OnInit {
   }
 
   getMaterialImageUrl(material: Material): string {
-    return this.imageService.getMaterialImage(material.normalizedName, material.type);
+    return this.imageService.getMaterialImage(
+      material.normalizedName,
+      material.type,
+    );
   }
 
   isPercentageSubstat(statType?: StatType | null): boolean {
@@ -126,11 +135,11 @@ export class OverviewProfileComponent implements OnInit {
 
   getHungarianWeaponName(weaponType: string): string {
     const weaponNames: { [key: string]: string } = {
-      'Sword': 'Kard',
-      'Claymore': 'Kétkezes kard',
-      'Polearm': 'Lándzsa',
-      'Bow': 'Íj',
-      'Catalyst': 'Catalyst',
+      Sword: 'Kard',
+      Claymore: 'Kétkezes kard',
+      Polearm: 'Lándzsa',
+      Bow: 'Íj',
+      Catalyst: 'Catalyst',
     };
     return weaponNames[weaponType] || weaponType;
   }

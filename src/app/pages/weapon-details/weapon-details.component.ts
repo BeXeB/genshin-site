@@ -17,12 +17,18 @@ import { BaseDetailComponent } from '../../_components/base-detail.component';
 import { ImageService } from '../../_services/image.service';
 import { StatType, StatTypeLabel } from '../../_models/enum';
 import { AstNode } from '../../_models/ast-nodes';
-import { FormattedTextComponent } from "../../_components/formatted-text-component/formatted-text.component";
+import { FormattedTextComponent } from '../../_components/formatted-text-component/formatted-text.component';
 
 @Component({
   selector: 'app-weapon-details',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [PageTitleComponent, FormsModule, DecimalPipe, RouterLink, FormattedTextComponent],
+  imports: [
+    PageTitleComponent,
+    FormsModule,
+    DecimalPipe,
+    RouterLink,
+    FormattedTextComponent,
+  ],
   templateUrl: './weapon-details.component.html',
   styleUrl: './weapon-details.component.css',
 })
@@ -199,13 +205,12 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
     );
   }
 
-    isPercentageSubstat(statType?: StatType | null): boolean {
-      if (!statType) {
-        return true;
-      }
-
-      const flatSubstats = [StatType.HP, StatType.ATK, StatType.DEF, StatType.EM];
-      return !flatSubstats.includes(statType);
+  isPercentageSubstat(statType?: StatType | null): boolean {
+    if (!statType) {
+      return true;
     }
 
+    const flatSubstats = [StatType.HP, StatType.ATK, StatType.DEF, StatType.EM];
+    return !flatSubstats.includes(statType);
+  }
 }

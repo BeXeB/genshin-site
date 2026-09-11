@@ -21,7 +21,8 @@ export class EditorHistoryService {
   // Per-field history stacks
   private history: Map<string | number, HistoryEntry[]> = new Map();
   private historyIndex: Map<string | number, number> = new Map();
-  private inputTimers: Map<string | number, ReturnType<typeof setTimeout>> = new Map();
+  private inputTimers: Map<string | number, ReturnType<typeof setTimeout>> =
+    new Map();
 
   /**
    * Initialize history for a new field with an initial value.

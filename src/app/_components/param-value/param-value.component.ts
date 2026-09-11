@@ -17,22 +17,21 @@ export class ParamValueComponent implements OnInit {
   constructor(private characterService: CharacterService) {}
 
   ngOnInit(): void {
-    this.characterService
-      .getSkillByGroupId(this.groupId)
-      .subscribe((skill) => {
-        const raw = skill?.attributes.parameters[`param${this.paramIndex}`]?.[
+    this.characterService.getSkillByGroupId(this.groupId).subscribe((skill) => {
+      const raw =
+        skill?.attributes.parameters[`param${this.paramIndex}`]?.[
           this.level - 1
         ];
 
-        if (raw === undefined) {
-          console.error(
-            `Unable to resolve PARAM tag: groupId=${this.groupId}, paramIndex=${this.paramIndex}, level=${this.level}`,
-          );
-          return;
-        }
+      if (raw === undefined) {
+        console.error(
+          `Unable to resolve PARAM tag: groupId=${this.groupId}, paramIndex=${this.paramIndex}, level=${this.level}`,
+        );
+        return;
+      }
 
-        this.displayValue = this.formatValue(raw * this.multiplier);
-      });
+      this.displayValue = this.formatValue(raw * this.multiplier);
+    });
   }
 
   private formatValue(value: number): string {

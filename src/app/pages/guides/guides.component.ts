@@ -16,10 +16,14 @@ export class GuidesComponent implements OnInit, OnDestroy {
   private destroy$ = new Subject<void>();
   guides: Guide[] = [];
 
-  constructor(private guidesService: GuidesService, private imageService: ImageService) {}
+  constructor(
+    private guidesService: GuidesService,
+    private imageService: ImageService,
+  ) {}
 
   ngOnInit(): void {
-    this.guidesService.getGuides()
+    this.guidesService
+      .getGuides()
       .pipe(takeUntil(this.destroy$))
       .subscribe((data) => {
         this.guides = data;

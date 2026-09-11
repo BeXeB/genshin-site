@@ -40,7 +40,7 @@
 .tooltip strong {
   display: block;
   margin-bottom: 5px;
-  color: var(--highlight)
+  color: var(--highlight);
 }
 
 .game-link:hover > .tooltip {

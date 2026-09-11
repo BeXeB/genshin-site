@@ -3,25 +3,103 @@
   <div class="card">
     <div class="section-title">Quick Talent Links</div>
     <div class="button-grid-container">
-        <div class="button-grid">
-          <button class="quick-link-btn" (click)="insertQuickLink('combat1')" title="Link to Combat 1">S1</button>
-          <button class="quick-link-btn" (click)="insertQuickLink('combat2')" title="Link to Combat 2">S2</button>
-          <button class="quick-link-btn" (click)="insertQuickLink('combat3')" title="Link to Combat 3">S3</button>
-        </div>
-        <div class="button-grid">
-          <button class="quick-link-btn" (click)="insertQuickLink('passive1')" title="Link to Passive 1">P1</button>
-          <button class="quick-link-btn" (click)="insertQuickLink('passive2')" title="Link to Passive 2">P2</button>
-          <button class="quick-link-btn" (click)="insertQuickLink('passive3')" title="Link to Passive 3">P3</button>
-          <button class="quick-link-btn" (click)="insertQuickLink('passive4')" title="Link to Passive 4">P4</button>
-        </div>
-        <div class="button-grid">
-          <button class="quick-link-btn" (click)="insertQuickLink('c1')" title="Link to C1">C1</button>
-          <button class="quick-link-btn" (click)="insertQuickLink('c2')" title="Link to C2">C2</button>
-          <button class="quick-link-btn" (click)="insertQuickLink('c3')" title="Link to C3">C3</button>
-          <button class="quick-link-btn" (click)="insertQuickLink('c4')" title="Link to C4">C4</button>
-          <button class="quick-link-btn" (click)="insertQuickLink('c5')" title="Link to C5">C5</button>
-          <button class="quick-link-btn" (click)="insertQuickLink('c6')" title="Link to C6">C6</button>
-        </div>
+      <div class="button-grid">
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('combat1')"
+          title="Link to Combat 1"
+        >
+          S1
+        </button>
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('combat2')"
+          title="Link to Combat 2"
+        >
+          S2
+        </button>
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('combat3')"
+          title="Link to Combat 3"
+        >
+          S3
+        </button>
+      </div>
+      <div class="button-grid">
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('passive1')"
+          title="Link to Passive 1"
+        >
+          P1
+        </button>
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('passive2')"
+          title="Link to Passive 2"
+        >
+          P2
+        </button>
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('passive3')"
+          title="Link to Passive 3"
+        >
+          P3
+        </button>
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('passive4')"
+          title="Link to Passive 4"
+        >
+          P4
+        </button>
+      </div>
+      <div class="button-grid">
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('c1')"
+          title="Link to C1"
+        >
+          C1
+        </button>
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('c2')"
+          title="Link to C2"
+        >
+          C2
+        </button>
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('c3')"
+          title="Link to C3"
+        >
+          C3
+        </button>
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('c4')"
+          title="Link to C4"
+        >
+          C4
+        </button>
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('c5')"
+          title="Link to C5"
+        >
+          C5
+        </button>
+        <button
+          class="quick-link-btn"
+          (click)="insertQuickLink('c6')"
+          title="Link to C6"
+        >
+          C6
+        </button>
+      </div>
     </div>
   </div>
 
@@ -40,10 +118,7 @@
       <div class="dropdown">
         @if (filteredHyperlinks.length > 0) {
           @for (hyperlink of filteredHyperlinks; track hyperlink.id) {
-            <div
-              class="option"
-              (mousedown)="selectHyperlink(hyperlink)"
-            >
+            <div class="option" (mousedown)="selectHyperlink(hyperlink)">
               <div class="option-name">{{ hyperlink.name }}</div>
               <div class="option-id">{{ getDisplayId(hyperlink) }}</div>
             </div>
@@ -67,24 +142,25 @@
       <div class="preview-title">{{ selectedHyperlink.name }}</div>
       <div class="preview-id">ID: {{ getDisplayId(selectedHyperlink) }}</div>
       <div class="preview-description">
-        <app-formatted-text [text]="selectedHyperlink.description"></app-formatted-text>
+        <app-formatted-text
+          [text]="selectedHyperlink.description"
+        ></app-formatted-text>
       </div>
       <button (click)="insertLink(selectedHyperlink)">Insert Link</button>
     </div>
   }
 
   <!-- Create New Section -->
-  <button
-    class="full-width-btn"
-    (click)="toggleCreateForm()"
-  >
-    {{ showCreateForm ? 'Cancel' : 'Create New Hyperlink' }}
+  <button class="full-width-btn" (click)="toggleCreateForm()">
+    {{ showCreateForm ? "Cancel" : "Create New Hyperlink" }}
   </button>
 
   @if (showCreateForm) {
     <div class="flex-col create-form">
       <div class="flex-col flex-col-tight">
-        <label class="form-label" for="newId">ID (lowercase, hyphens only)</label>
+        <label class="form-label" for="newId"
+          >ID (lowercase, hyphens only)</label
+        >
         <input
           class="form-input"
           id="newId"

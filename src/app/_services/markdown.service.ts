@@ -39,9 +39,7 @@ export class MarkdownService {
    * - assets/images/artifacts/aubadeofmorningstarandmoon/flower.webp -> { type: 'artifact', slug: 'aubadeofmorningstarandmoon' }
    */
   private extractEntityReference(href: string): EntityReference | null {
-    const characterMatch = href.match(
-      /assets\/images\/characters\/([^/]+)\//,
-    );
+    const characterMatch = href.match(/assets\/images\/characters\/([^/]+)\//);
     if (characterMatch) {
       const slug = characterMatch[1];
       return {

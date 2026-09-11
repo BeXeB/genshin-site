@@ -10,7 +10,11 @@ import { FiltersComponent } from '../../_components/filters/filters.component';
 import { ItemCardComponent } from '../../_components/item-card/item-card.component';
 import { BaseListComponent } from '../../_components/base-list.component';
 import { Observable } from 'rxjs';
-import { ElementType, ElementTypeLabel, WeaponTypeLabel } from '../../_models/enum';
+import {
+  ElementType,
+  ElementTypeLabel,
+  WeaponTypeLabel,
+} from '../../_models/enum';
 
 @Component({
   selector: 'app-characters',

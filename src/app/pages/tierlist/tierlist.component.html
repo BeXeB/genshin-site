@@ -1,9 +1,10 @@
 <div class="container">
   <div class="flex-row justify-space-between align-center">
     <app-page-title title="Tier List" backLink="/"></app-page-title>
-    <button (click)="exportAsImage('png')">
-      Mentés képként
-    </button>
+    <button (click)="exportAsImage('png')">Mentés képként</button>
   </div>
-  <app-tierlist-display [tierlist]="tierlist" [characterMap]="characterMap"></app-tierlist-display>
+  <app-tierlist-display
+    [tierlist]="tierlist"
+    [characterMap]="characterMap"
+  ></app-tierlist-display>
 </div>

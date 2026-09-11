@@ -1,4 +1,7 @@
-<div class="card card-no-hover margin-bottom" [style]="`border-color: ${elementColor};`">
+<div
+  class="card card-no-hover margin-bottom"
+  [style]="`border-color: ${elementColor};`"
+>
   @if (char && skills) {
     @if (skills.combat1) {
       <app-skill-details

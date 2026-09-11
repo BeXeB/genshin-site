@@ -16,9 +16,7 @@ import { marked } from 'marked';
 import { Subject, takeUntil } from 'rxjs';
 
 export type GuideSourceType =
-  | 'markdown-content'
-  | 'character-file'
-  | 'guide-file';
+  'markdown-content' | 'character-file' | 'guide-file';
 
 @Component({
   selector: 'app-guide-viewer',
@@ -208,9 +206,8 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
       .subscribe({
         next: async (markdown) => {
           try {
-            const preprocessed = this.markdownService.preprocessMarkdown(
-              markdown,
-            );
+            const preprocessed =
+              this.markdownService.preprocessMarkdown(markdown);
             const parsed = await marked(preprocessed);
             this.applyContent(parsed, null);
           } catch (error) {

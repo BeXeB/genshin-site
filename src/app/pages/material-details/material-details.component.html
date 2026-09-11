@@ -8,9 +8,7 @@
       <div class="material-card">
         <img
           [title]="material.name"
-          [src]="
-            `assets/images/materials/${material.type}/${material.normalizedName}.webp`
-          "
+          [src]="`assets/images/materials/${material.type}/${material.normalizedName}.webp`"
         />
         <div class="details">
           <div class="name">{{ material.name }}</div>
@@ -43,9 +41,7 @@
               >
                 <img
                   [title]="cMat.material.name"
-                  [src]="
-                    `assets/images/materials/${cMat.material.type}/${cMat.material.normalizedName}.webp`
-                  "
+                  [src]="`assets/images/materials/${cMat.material.type}/${cMat.material.normalizedName}.webp`"
                 />
                 <div class="amount">{{ cMat.count }}</div>
               </div>
@@ -56,9 +52,7 @@
             >
               <img
                 [title]="mora?.name"
-                [src]="
-                  `assets/images/materials/${mora?.type}/${mora?.normalizedName}.webp`
-                "
+                [src]="`assets/images/materials/${mora?.type}/${mora?.normalizedName}.webp`"
               />
               <div class="amount">{{ material.craft?.moraCost }}</div>
             </div>

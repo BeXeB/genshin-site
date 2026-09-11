@@ -55,7 +55,7 @@ export class OverviewTalentsComponent {
   get basePath(): string {
     if (!this.apiKey) return '';
 
-    if (this.char?.profile.isTraveler) {
+    if ([10000005, 10000007].includes(this.char?.profile.id ?? 0)) {
       return `assets/images/characters/${this.apiKey}/${ElementTypeLabel[this.element].toLocaleLowerCase()}`;
     }
 

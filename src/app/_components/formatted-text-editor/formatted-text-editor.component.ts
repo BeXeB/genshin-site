@@ -1,4 +1,14 @@
-import { Component, ElementRef, EventEmitter, Input, Output, ViewChild, OnInit, OnChanges, SimpleChanges } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  EventEmitter,
+  Input,
+  Output,
+  ViewChild,
+  OnInit,
+  OnChanges,
+  SimpleChanges,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FormattedTextComponent } from '../formatted-text-component/formatted-text.component';
@@ -177,13 +187,23 @@ export class FormattedTextEditorComponent implements OnInit, OnChanges {
         break;
     }
 
-    const newValue = this.text.slice(0, start) + openTag + selected + closeTag + this.text.slice(end);
+    const newValue =
+      this.text.slice(0, start) +
+      openTag +
+      selected +
+      closeTag +
+      this.text.slice(end);
     this.text = newValue;
     this.textChange.emit(this.text);
 
     const newStart = start + openTag.length;
     const newEnd = newStart + selected.length;
-    this.historyService.captureSnapshot(this.fieldKey, this.text, newStart, newEnd);
+    this.historyService.captureSnapshot(
+      this.fieldKey,
+      this.text,
+      newStart,
+      newEnd,
+    );
 
     setTimeout(() => {
       ta.focus();
@@ -215,7 +235,12 @@ export class FormattedTextEditorComponent implements OnInit, OnChanges {
     this.textChange.emit(this.text);
 
     const newEnd = start + cleared.length;
-    this.historyService.captureSnapshot(this.fieldKey, this.text, start, newEnd);
+    this.historyService.captureSnapshot(
+      this.fieldKey,
+      this.text,
+      start,
+      newEnd,
+    );
 
     setTimeout(() => {
       ta.focus();

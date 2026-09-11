@@ -24,19 +24,25 @@ import { TierlistDisplayComponent } from '../../_components/tierlist-display/tie
 @Component({
   selector: 'app-tierlist-maker',
   standalone: true,
-  imports: [FormsModule, DragDropModule, PageTitleComponent, TierlistDisplayComponent],
+  imports: [
+    FormsModule,
+    DragDropModule,
+    PageTitleComponent,
+    TierlistDisplayComponent,
+  ],
   templateUrl: './tierlist-maker.component.html',
   styleUrl: './tierlist-maker.component.css',
 })
 export class TierlistMakerComponent implements OnInit {
-  @ViewChild(TierlistDisplayComponent) displayComponent!: TierlistDisplayComponent;
+  @ViewChild(TierlistDisplayComponent)
+  displayComponent!: TierlistDisplayComponent;
 
   constructor(
     private characterSerivce: CharacterService,
     private storageService: StorageService,
     private imageService: ImageService,
     private tierlistService: TierlistService,
-  ) { }
+  ) {}
 
   get allDropLists() {
     return [
@@ -59,7 +65,6 @@ export class TierlistMakerComponent implements OnInit {
   selectedCharacter: TierCharacter | null = null;
 
   characterMap: Map<string, CharacterProfile> = new Map();
-
 
   importError: string = '';
   importMessage: string = '';
@@ -168,6 +173,10 @@ export class TierlistMakerComponent implements OnInit {
         char.tags = char.tags.filter((ct) => ct.id !== tagId);
       });
     });
+
+    if (this.editingTag && this.editingTag.id === tagId) {
+      this.editingTag = null;
+    }
 
     this.storageService.saveTierlist(this.tierlist);
   }
@@ -317,15 +326,20 @@ export class TierlistMakerComponent implements OnInit {
   }
 
   getTagDefinition(tagId: string): TagDefinition {
-    const tag = this.tierlist.tags.find(t => t.id === tagId);
-    if (!tag) return { id: tagId, label: 'Unknown', backgroundcolor: '#000000', color: '#ffffff' };
+    const tag = this.tierlist.tags.find((t) => t.id === tagId);
+    if (!tag)
+      return {
+        id: tagId,
+        label: 'Unknown',
+        backgroundcolor: '#000000',
+        color: '#ffffff',
+      };
     return tag;
   }
 
   exportAsImage(format: 'png' | 'jpg' = 'png'): void {
     this.displayComponent?.exportAsImage(format);
   }
-
 
   onFileSelected(event: Event): void {
     const input = event.target as HTMLInputElement;
@@ -347,7 +361,8 @@ export class TierlistMakerComponent implements OnInit {
     reader.onload = (e: ProgressEvent<FileReader>) => {
       try {
         const content = e.target?.result as string;
-        const importedTierlist = this.tierlistService.getTierlistFromJson(content);
+        const importedTierlist =
+          this.tierlistService.getTierlistFromJson(content);
 
         if (!this.validateTierlist(importedTierlist)) {
           return;
@@ -363,7 +378,9 @@ export class TierlistMakerComponent implements OnInit {
           this.importMessage = '';
         }, 3000);
       } catch (error) {
-        this.importError = 'Hiba a JSON fájl feldolgozásakor: ' + (error instanceof Error ? error.message : 'Ismeretlen hiba');
+        this.importError =
+          'Hiba a JSON fájl feldolgozásakor: ' +
+          (error instanceof Error ? error.message : 'Ismeretlen hiba');
         this.importMessage = '';
       }
     };
@@ -417,9 +434,9 @@ export class TierlistMakerComponent implements OnInit {
     const search = this.selectedTagId.toLowerCase().trim();
 
     return this.tierlist.tags.filter(
-      tag =>
+      (tag) =>
         tag.label.toLowerCase().includes(search) ||
-        tag.id.toLowerCase().includes(search)
+        tag.id.toLowerCase().includes(search),
     );
   }
 
@@ -438,7 +455,7 @@ export class TierlistMakerComponent implements OnInit {
     moveItemInArray(
       this.tierlist.tiers,
       event.previousIndex,
-      event.currentIndex
+      event.currentIndex,
     );
 
     this.storageService.saveTierlist(this.tierlist);
