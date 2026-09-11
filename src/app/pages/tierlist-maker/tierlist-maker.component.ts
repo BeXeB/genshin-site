@@ -169,6 +169,10 @@ export class TierlistMakerComponent implements OnInit {
       });
     });
 
+    if (this.editingTag && this.editingTag.id === tagId) {
+      this.editingTag = null;
+    }
+
     this.storageService.saveTierlist(this.tierlist);
   }
 
