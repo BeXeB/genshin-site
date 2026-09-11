@@ -36,11 +36,8 @@
         "story": "\nThe scholar's quill pen is made from the feather of an exotic bird.\nAfter an enormous amount of writing, the feather has been stained black.\nIn all her years, the scholar never thought of changing her stained quill pen for a new one.\nJust as an old soldier feels most at ease with his own weapon, the scholar needed her familiar quill pen.\n"
     },
     "rarityList": [
-        1,
-        2,
         3,
-        4,
-        5
+        4
     ],
     "sands": {
         "description": "A small desktop clock, whose former owner was a scholar sat in a windowless room buried in books. This was probably the only reference they had to the time of day.",
