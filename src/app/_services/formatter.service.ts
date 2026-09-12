@@ -61,6 +61,9 @@ export class FormatterService {
         const link = this.parseLink(text, state);
         if (link) {
           nodes.push(link);
+        } else {
+          // Malformed link - treat { as text and move forward to avoid infinite loop
+          state.index++;
         }
         continue;
       }
@@ -142,6 +145,11 @@ export class FormatterService {
   private parseLink(text: string, state: { index: number }): LinkNode | null {
     const end = text.indexOf('}', state.index);
 
+    // If no closing brace found, treat as text to avoid infinite loop
+    if (end === -1) {
+      return null;
+    }
+
     const tag = text.substring(state.index, end + 1);
 
     // Match patterns: {LINK#N123}, {LINK#Zcharacter-field}, {LINK#elemental-mastery}
@@ -149,8 +157,9 @@ export class FormatterService {
       /\{LINK#(?:([NSPT])(\d+)|Z([a-z0-9\-]+)|([a-z0-9\-]+))\}/,
     );
 
+    // If tag doesn't match valid link format, treat as text to avoid infinite loop
     if (!match) {
-      throw new Error(`Invalid link tag: ${tag}`);
+      return null;
     }
 
     let type: LinkType;

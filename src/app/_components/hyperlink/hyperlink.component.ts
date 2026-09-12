@@ -11,6 +11,7 @@ import { map, Observable, of, switchMap } from 'rxjs';
 import { HyperlinkService } from '../../_services/hyperlink.service';
 import { CharacterService } from '../../_services/character.service';
 import { FormatterService } from '../../_services/formatter.service';
+import { TalentEditorStateService } from '../../_services/talent-editor-state.service';
 import { AstNode, LinkType } from '../../_models/ast-nodes';
 import { AstRendererComponent } from '../ast-renderer/ast-renderer.component';
 
@@ -43,6 +44,7 @@ export class HyperlinkComponent implements OnInit {
     private hyperlinkService: HyperlinkService,
     private characterService: CharacterService,
     private formatter: FormatterService,
+    private stateService: TalentEditorStateService,
     private elementRef: ElementRef,
   ) {}
 
@@ -62,29 +64,25 @@ export class HyperlinkComponent implements OnInit {
   private resolveTarget(): Observable<LinkTarget | undefined> {
     switch (this.linkType) {
       case 'S':
-        return this.characterService
-          .getSkill(this.id as number)
-          .pipe(
-            map(
-              (skill) =>
-                skill && {
-                  name: skill.name,
-                  description: skill.descriptionRaw,
-                },
-            ),
-          );
+        return this.characterService.getSkill(this.id as number).pipe(
+          map(
+            (skill) =>
+              skill && {
+                name: skill.name,
+                description: skill.descriptionRaw,
+              },
+          ),
+        );
       case 'P':
-        return this.characterService
-          .getPassiveTalent(this.id as number)
-          .pipe(
-            map(
-              (passive) =>
-                passive && {
-                  name: passive.name,
-                  description: passive.descriptionRaw,
-                },
-            ),
-          );
+        return this.characterService.getPassiveTalent(this.id as number).pipe(
+          map(
+            (passive) =>
+              passive && {
+                name: passive.name,
+                description: passive.descriptionRaw,
+              },
+          ),
+        );
       case 'T':
         return this.characterService.getConstellation(this.id as number).pipe(
           map(
@@ -152,7 +150,15 @@ export class HyperlinkComponent implements OnInit {
               return undefined;
             }
 
-            const briefText = (briefs as Record<string, string>)[fieldName];
+            // Check if there's an edited version in state service
+            const editedBriefText = this.stateService.getEditedDescription(
+              fieldName as any,
+            );
+            const briefText =
+              editedBriefText && editedBriefText.trim()
+                ? editedBriefText
+                : (briefs as Record<string, string>)[fieldName];
+
             const talentName = this.getTalentNameForField(character, fieldName);
 
             return {
@@ -190,6 +196,15 @@ export class HyperlinkComponent implements OnInit {
 
   @HostListener('mouseenter')
   onMouseEnter(): void {
+    // Re-resolve on hover to pick up any edits made since component init
+    if (this.linkType === 'Z') {
+      this.resolveTarget().subscribe((target) => {
+        this.title = target?.name;
+        if (target) {
+          this.descriptionNodes = this.formatter.parse(target.description);
+        }
+      });
+    }
     this.updateTooltipPosition();
   }
 

@@ -18,12 +18,7 @@ interface HyperlinkWithType extends Hyperlink {
 @Component({
   selector: 'app-hyperlink-editor',
   standalone: true,
-  imports: [
-    CommonModule,
-    FormsModule,
-    FormattedTextComponent,
-    FormattedTextEditorComponent,
-  ],
+  imports: [CommonModule, FormsModule, FormattedTextEditorComponent],
   templateUrl: './hyperlink-editor.component.html',
   styleUrl: './hyperlink-editor.component.css',
 })
@@ -41,6 +36,10 @@ export class HyperlinkEditorComponent implements OnInit {
   newHyperlinkName: string = '';
   newHyperlinkDescription: string = '';
   createError: string = '';
+
+  // Edit
+  editingName: string = '';
+  editingDescription: string = '';
 
   constructor(
     private hyperlinkService: HyperlinkService,
@@ -87,6 +86,8 @@ export class HyperlinkEditorComponent implements OnInit {
 
   selectHyperlink(hyperlink: HyperlinkWithType): void {
     this.selectedHyperlink = hyperlink;
+    this.editingName = hyperlink.name;
+    this.editingDescription = hyperlink.description;
     this.showDropdown = false;
   }
 
@@ -187,5 +188,49 @@ export class HyperlinkEditorComponent implements OnInit {
       return `${hyperlink.id}`;
     }
     return hyperlink.id as string;
+  }
+
+  deselectHyperlink(): void {
+    this.selectedHyperlink = null;
+    this.editingName = '';
+    this.editingDescription = '';
+  }
+
+  saveHyperlink(): void {
+    if (!this.selectedHyperlink) return;
+
+    if (!this.editingName.trim()) {
+      alert('Name is required');
+      return;
+    }
+
+    if (!this.editingDescription.trim()) {
+      alert('Description is required');
+      return;
+    }
+
+    this.hyperlinkService.updateCustomHyperlink(
+      this.selectedHyperlink.id as string,
+      this.editingName,
+      this.editingDescription,
+    );
+
+    this.deselectHyperlink();
+    this.loadHyperlinks();
+  }
+
+  deleteHyperlink(): void {
+    if (!this.selectedHyperlink) return;
+
+    if (!confirm(`Delete hyperlink "${this.selectedHyperlink.name}"?`)) {
+      return;
+    }
+
+    this.hyperlinkService.deleteCustomHyperlink(
+      this.selectedHyperlink.id as string,
+    );
+
+    this.deselectHyperlink();
+    this.loadHyperlinks();
   }
 }

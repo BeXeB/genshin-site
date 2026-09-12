@@ -136,17 +136,42 @@
     }
   </div>
 
-  <!-- Selected Preview -->
+  <!-- Selected Hyperlink - Editor Form -->
   @if (selectedHyperlink) {
-    <div class="card preview-card">
-      <div class="preview-title">{{ selectedHyperlink.name }}</div>
-      <div class="preview-id">ID: {{ getDisplayId(selectedHyperlink) }}</div>
-      <div class="preview-description">
-        <app-formatted-text
-          [text]="selectedHyperlink.description"
-        ></app-formatted-text>
+    <div class="card hyperlink-card">
+      <div class="edit-section">
+        <div class="form-group">
+          <label>ID</label>
+          <input
+            type="text"
+            disabled
+            [value]="getDisplayId(selectedHyperlink)"
+            class="form-input readonly"
+          />
+        </div>
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" [(ngModel)]="editingName" class="form-input" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Description</label>
+          <app-formatted-text-editor
+            [text]="editingDescription"
+            fieldKey="edit-hyperlink-description"
+            [showToolbar]="true"
+            [showPreview]="true"
+            placeholder="Detailed explanation (supports formatting)..."
+            [rows]="4"
+            (textChange)="editingDescription = $event"
+          ></app-formatted-text-editor>
+        </div>
+        <div class="button-group">
+          <button (click)="saveHyperlink()">Save</button>
+          <button (click)="deleteHyperlink()">Delete</button>
+          <button (click)="deselectHyperlink()">Cancel</button>
+          <button (click)="insertLink(selectedHyperlink)">Insert Link</button>
+        </div>
       </div>
-      <button (click)="insertLink(selectedHyperlink)">Insert Link</button>
     </div>
   }
 

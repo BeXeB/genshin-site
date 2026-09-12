@@ -19,6 +19,7 @@ export class HyperlinkService {
 
   private hyperlinks$?: Observable<Map<string | number, Hyperlink>>;
   private sessionHyperlinks: Map<string | number, Hyperlink> = new Map();
+  private deletedCustomHyperlinkIds: Set<string | number> = new Set();
   private sessionUpdated$ = new Subject<void>();
 
   constructor(private http: HttpClient) {}
@@ -45,9 +46,11 @@ export class HyperlinkService {
             map.set(link.id, link);
           });
 
-          // Add custom hyperlinks (string IDs)
+          // Add custom hyperlinks (string IDs), excluding deleted ones
           customLinks.forEach((link) => {
-            map.set(link.id, link);
+            if (!this.deletedCustomHyperlinkIds.has(link.id)) {
+              map.set(link.id, link);
+            }
           });
 
           // Add session hyperlinks (newly created during this session)
@@ -76,6 +79,33 @@ export class HyperlinkService {
    */
   addCustomHyperlink(hyperlink: Hyperlink): void {
     this.sessionHyperlinks.set(hyperlink.id, hyperlink);
+    this.deletedCustomHyperlinkIds.delete(hyperlink.id);
+    this.sessionUpdated$.next();
+  }
+
+  /**
+   * Update an existing custom hyperlink
+   */
+  updateCustomHyperlink(
+    id: string | number,
+    name: string,
+    description: string,
+  ): void {
+    const existing = this.sessionHyperlinks.get(id);
+    if (existing) {
+      existing.name = name;
+      existing.description = description;
+      this.sessionUpdated$.next();
+    }
+  }
+
+  /**
+   * Delete a custom hyperlink from the session store and mark it as deleted
+   * Deleted hyperlinks will not be included in exports
+   */
+  deleteCustomHyperlink(id: string | number): void {
+    this.sessionHyperlinks.delete(id);
+    this.deletedCustomHyperlinkIds.add(id);
     this.sessionUpdated$.next();
   }
 }
