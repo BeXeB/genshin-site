@@ -85,10 +85,7 @@ export class HyperlinkService {
   addCustomHyperlink(hyperlink: Hyperlink): void {
     const customLinks = this.getCustomHyperlinksFromStorage();
     customLinks.push(hyperlink);
-    this.storageService.saveData(
-      this.customHyperlinksStorageKey,
-      customLinks,
-    );
+    this.storageService.saveData(this.customHyperlinksStorageKey, customLinks);
     this.customHyperlinksUpdated$.next();
   }
 
@@ -119,10 +116,7 @@ export class HyperlinkService {
   deleteCustomHyperlink(id: string | number): void {
     const customLinks = this.getCustomHyperlinksFromStorage();
     const filtered = customLinks.filter((h) => h.id !== id);
-    this.storageService.saveData(
-      this.customHyperlinksStorageKey,
-      filtered,
-    );
+    this.storageService.saveData(this.customHyperlinksStorageKey, filtered);
     this.customHyperlinksUpdated$.next();
   }
 

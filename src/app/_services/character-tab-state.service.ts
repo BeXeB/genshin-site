@@ -31,9 +31,9 @@ export class CharacterTabStateService {
     characterId: string,
     tab: 'profile' | 'talents' | 'constellations',
   ): void {
-    const tabState = this.storageService.getData<Record<string, string>>(
-      this.STORAGE_KEY,
-    ) ?? {};
+    const tabState =
+      this.storageService.getData<Record<string, string>>(this.STORAGE_KEY) ??
+      {};
     tabState[characterId] = tab;
     this.storageService.saveData(this.STORAGE_KEY, tabState);
   }

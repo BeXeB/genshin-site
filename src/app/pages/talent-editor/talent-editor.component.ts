@@ -28,7 +28,6 @@ import {
   PassiveTalent,
   ConstellationDetail,
 } from '../../_models/character';
-import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { FormattedTextComponent } from '../../_components/formatted-text-component/formatted-text.component';
 import {
   FormattedTextEditorComponent,
@@ -53,7 +52,6 @@ type ColorPreset = {
   imports: [
     CommonModule,
     FormsModule,
-    PageTitleComponent,
     FormattedTextComponent,
     FormattedTextEditorComponent,
   ],

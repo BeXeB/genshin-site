@@ -1,6 +1,5 @@
 <div class="container">
   <div class="editor-header">
-    <app-page-title title="Hyperlink Manager"></app-page-title>
     <button (click)="exportHyperlinks()" class="button">Export to JSON</button>
   </div>
 
@@ -13,12 +12,7 @@
         (input)="onSearchChange()"
       />
 
-      <button
-        (click)="toggleCreateForm()"
-        class="button"
-      >
-        Új Hyperlink
-      </button>
+      <button (click)="toggleCreateForm()" class="button">Új Hyperlink</button>
 
       <div class="hyperlinks-list">
         @for (link of filteredHyperlinks; track link.id) {
@@ -135,10 +129,12 @@
               Módosítások Mentése
             </button>
             <button (click)="deleteHyperlink()" class="button">Törlés</button>
-            <button (click)="deselectHyperlink()" class="button">Bezárás</button>
+            <button (click)="deselectHyperlink()" class="button">
+              Bezárás
+            </button>
           </div>
         </div>
       }
-      </div>
+    </div>
   </div>
 </div>

@@ -4,8 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { HyperlinkService } from '../../_services/hyperlink.service';
 import { HyperlinkInsertionService } from '../../_services/hyperlink-insertion.service';
 import { ModalService } from '../../_services/modal.service';
-import { PageTitleComponent } from '../../_components/page-title/page-title.component';
-import { FormattedTextEditorComponent, HyperlinkRequest } from '../../_components/formatted-text-editor/formatted-text-editor.component';
+import {
+  FormattedTextEditorComponent,
+  HyperlinkRequest,
+} from '../../_components/formatted-text-editor/formatted-text-editor.component';
 import { HyperlinkEditorComponent } from '../../_components/hyperlink-editor/hyperlink-editor.component';
 import { Hyperlink } from '../../_models/hyperlinks';
 import { Subject } from 'rxjs';
@@ -18,7 +20,7 @@ interface HyperlinkListItem extends Hyperlink {
 @Component({
   selector: 'app-hyperlink-editor-page',
   standalone: true,
-  imports: [CommonModule, FormsModule, PageTitleComponent, FormattedTextEditorComponent],
+  imports: [CommonModule, FormsModule, FormattedTextEditorComponent],
   templateUrl: './hyperlink-editor-page.component.html',
   styleUrl: './hyperlink-editor-page.component.css',
 })
@@ -110,11 +112,17 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
   /**
    * Handle hyperlink request from FormattedTextEditorComponent
    */
-  onHyperlinkRequested(field: 'create-description' | 'edit-description', request: HyperlinkRequest): void {
+  onHyperlinkRequested(
+    field: 'create-description' | 'edit-description',
+    request: HyperlinkRequest,
+  ): void {
     this.currentEditField = field;
     this.currentHyperlinkRequest = request;
     // For edit field, prevent inserting the hyperlink into itself
-    this.currentHyperlinkId = field === 'edit-description' ? (this.selectedHyperlink?.id as string) : null;
+    this.currentHyperlinkId =
+      field === 'edit-description'
+        ? (this.selectedHyperlink?.id as string)
+        : null;
     // Clear character context so quick links won't show in modal
     this.insertionService.setCurrentCharacter(null);
     // Exclude current hyperlink from being selectable to prevent infinite recursion
