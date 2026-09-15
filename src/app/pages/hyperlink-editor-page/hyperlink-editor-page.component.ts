@@ -296,9 +296,8 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
    * Export custom hyperlinks to JSON file
    */
   exportHyperlinks(): void {
-    const toExport = this.hyperlinks.filter(
-      (h) => !this.hyperlinkService.deletedCustomHyperlinkIds.has(h.id),
-    );
+    // Filter to only custom hyperlinks
+    const toExport = this.hyperlinks.filter((h) => h.isCustom);
 
     const dataStr = JSON.stringify(toExport, null, 2);
     const dataBlob = new Blob([dataStr], { type: 'application/json' });
