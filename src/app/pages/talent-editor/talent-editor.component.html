@@ -1,30 +1,32 @@
 <div class="container">
-  <div class="header-row">
-    <div class="character-search">
-      <input
-        type="text"
-        placeholder="Karakter neve..."
-        [(ngModel)]="search"
-        (focus)="showDropdown = true; $event.target.select()"
-        (blur)="hideDropdown()"
-      />
+  @if (!selectedCharacter) {
+    <div class="header-row">
+      <div class="character-search">
+        <input
+          type="text"
+          placeholder="Karakter neve..."
+          [(ngModel)]="search"
+          (focus)="showDropdown = true; $event.target.select()"
+          (blur)="hideDropdown()"
+        />
 
-      @if (showDropdown) {
-        <div class="dropdown">
-          @for (char of filteredCharacters; track char.id) {
-            <div class="option" (mousedown)="selectCharacter(char)">
-              <img
-                class="option-icon"
-                [src]="getCharacterIcon(char.normalizedName)"
-                [alt]="char.name"
-              />
-              <span>{{ char.name }}</span>
-            </div>
-          }
-        </div>
-      }
+        @if (showDropdown) {
+          <div class="dropdown">
+            @for (char of filteredCharacters; track char.id) {
+              <div class="option" (mousedown)="selectCharacter(char)">
+                <img
+                  class="option-icon"
+                  [src]="getCharacterIcon(char.normalizedName)"
+                  [alt]="char.name"
+                />
+                <span>{{ char.name }}</span>
+              </div>
+            }
+          </div>
+        }
+      </div>
     </div>
-  </div>
+  }
 
   @if (selectedCharacter) {
     <div class="selected-character card card-no-hover">
@@ -34,7 +36,31 @@
           [src]="getCharacterIcon(selectedCharacter.normalizedName)"
           [alt]="selectedCharacter.name"
         />
-        <span>{{ selectedCharacter.name }}</span>
+
+        <div class="character-search-inline">
+          <input
+            type="text"
+            placeholder="Karakter neve..."
+            [(ngModel)]="search"
+            (focus)="showDropdown = true; $event.target.select()"
+            (blur)="hideDropdown()"
+          />
+
+          @if (showDropdown) {
+            <div class="dropdown">
+              @for (char of filteredCharacters; track char.id) {
+                <div class="option" (mousedown)="selectCharacter(char)">
+                  <img
+                    class="option-icon"
+                    [src]="getCharacterIcon(char.normalizedName)"
+                    [alt]="char.name"
+                  />
+                  <span>{{ char.name }}</span>
+                </div>
+              }
+            </div>
+          }
+        </div>
       </div>
 
       @if (getVariantElements().length > 0) {
@@ -55,14 +81,6 @@
           }
         </div>
       }
-
-      <button
-        class="export-btn"
-        type="button"
-        (click)="exportBriefDescriptionJson()"
-      >
-        Letöltés JSON-ként
-      </button>
     </div>
   }
 

@@ -1,21 +1,23 @@
 <div class="container">
-  <app-page-title title="Editors" backLink="/tools" />
-
-  <div class="button-group">
-    <button
-      (click)="selectEditor('talent')"
-      [class.active]="activeEditor === 'talent'"
-      class="button"
-    >
-      Talent Editor
-    </button>
-    <button
-      (click)="selectEditor('hyperlink')"
-      [class.active]="activeEditor === 'hyperlink'"
-      class="button"
-    >
-      Hyperlink Manager
-    </button>
+  <div class="header">
+    <app-page-title title="Editors" backLink="/tools" />
+    <div class="button-group">
+      <button
+        (click)="selectEditor('talent')"
+        [class.active]="activeEditor === 'talent'"
+        class="button"
+      >
+        Talent Editor
+      </button>
+      <button
+        (click)="selectEditor('hyperlink')"
+        [class.active]="activeEditor === 'hyperlink'"
+        class="button"
+      >
+        Hyperlink Manager
+      </button>
+    </div>
+    <button (click)="export()" class="button">Letöltés JSON-ként</button>
   </div>
 
   @if (activeEditor === "talent") {

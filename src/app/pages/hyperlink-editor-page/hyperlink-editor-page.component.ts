@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HyperlinkService } from '../../_services/hyperlink.service';
 import { HyperlinkInsertionService } from '../../_services/hyperlink-insertion.service';
 import { ModalService } from '../../_services/modal.service';
+import { ExportService } from '../../_services/export.service';
 import {
   FormattedTextEditorComponent,
   HyperlinkRequest,
@@ -54,6 +55,7 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
     private hyperlinkService: HyperlinkService,
     private insertionService: HyperlinkInsertionService,
     private modalService: ModalService,
+    private exportService: ExportService,
   ) {}
 
   ngOnInit(): void {
@@ -88,6 +90,7 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
         );
 
         this.filterHyperlinks();
+        this.updateExportData();
       });
   }
 
@@ -300,21 +303,10 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
     this.deselectHyperlink();
   }
 
-  /**
-   * Export custom hyperlinks to JSON file
-   */
-  exportHyperlinks(): void {
-    // Filter to only custom hyperlinks
-    const toExport = this.hyperlinks.filter((h) => h.isCustom);
-
-    const dataStr = JSON.stringify(toExport, null, 2);
-    const dataBlob = new Blob([dataStr], { type: 'application/json' });
-    const url = URL.createObjectURL(dataBlob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'custom-hyperlinks.json';
-    link.click();
-    URL.revokeObjectURL(url);
+  private updateExportData(): void {
+    this.exportService.setHyperlinkData({
+      hyperlinks: this.hyperlinks,
+    });
   }
 
   ngOnDestroy(): void {

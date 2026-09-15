@@ -19,6 +19,7 @@ import { HyperlinkInsertionService } from '../../_services/hyperlink-insertion.s
 import { HyperlinkService } from '../../_services/hyperlink.service';
 import { EditorHistoryService } from '../../_services/editor-history.service';
 import { TalentEditorStateService } from '../../_services/talent-editor-state.service';
+import { ExportService } from '../../_services/export.service';
 import { ElementType, ElementTypeLabel } from '../../_models/enum';
 import {
   Character,
@@ -64,9 +65,9 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
     private imageService: ImageService,
     private modalService: ModalService,
     private insertionService: HyperlinkInsertionService,
-    private hyperlinkService: HyperlinkService,
     private historyService: EditorHistoryService,
     private stateService: TalentEditorStateService,
+    private exportService: ExportService,
     private router: Router,
   ) {}
 
@@ -324,8 +325,9 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
             }
           }
 
-          // Save state
+          // Save state and update export data
           this.saveState();
+          this.updateExportData();
         });
 
       this.characterSerivce
@@ -334,6 +336,8 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
           this.briefDrafts = { ...data };
           // Clear history for all fields when loading new character
           this.historyService.clearAll();
+          // Update export data
+          this.updateExportData();
         });
     } catch (error) {
       console.error('Error selecting character:', error);
@@ -349,6 +353,16 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
         this.selectedTalentKey,
         this.selectedElement,
       );
+    }
+  }
+
+  private updateExportData(): void {
+    if (this.selectedCharacter && this.selectedCharacterDetails) {
+      this.exportService.setTalentData({
+        selectedCharacter: this.selectedCharacter,
+        briefDrafts: this.briefDrafts,
+        talentSections: this.talentSections,
+      });
     }
   }
 
@@ -536,64 +550,6 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
     return (
       this.talentSections.find((s) => s.label === this.selectedSection) || null
     );
-  }
-
-  exportBriefDescriptionJson() {
-    try {
-      if (!this.selectedCharacter) return;
-
-      const result: Partial<CharacterBriefDescriptions> = {};
-
-      for (const section of this.talentSections) {
-        for (const row of section.rows) {
-          const value = this.briefDrafts[row.key]?.trim();
-          if (value) {
-            result[row.key] = value;
-          }
-        }
-      }
-
-      // Download brief descriptions
-      const json = JSON.stringify(result, null, 2);
-      const blob = new Blob([json], { type: 'application/json' });
-      const url = window.URL.createObjectURL(blob);
-
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `${this.selectedCharacter.normalizedName}.json`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      window.URL.revokeObjectURL(url);
-
-      // Download custom hyperlinks
-      this.hyperlinkService.getHyperlinksMap().subscribe((map) => {
-        const hyperlinks: any[] = [];
-        map.forEach((link) => {
-          if (link.isCustom) {
-            hyperlinks.push(link);
-          }
-        });
-
-        const json = JSON.stringify(hyperlinks, null, 2);
-        const blob = new Blob([json], { type: 'application/json' });
-        const url = window.URL.createObjectURL(blob);
-
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `custom-hyperlinks.json`;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        window.URL.revokeObjectURL(url);
-      });
-
-      // Clear state after successful download (signal: done with this character)
-      this.stateService.clearAll();
-    } catch (error) {
-      console.error('Error exporting brief descriptions:', error);
-      this.handleError();
-    }
   }
 
   getPresetIconStyle(preset: ColorPreset): Record<string, string> {

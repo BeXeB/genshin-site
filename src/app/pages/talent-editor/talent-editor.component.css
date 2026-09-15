@@ -17,6 +17,24 @@
   width: 100%;
 }
 
+.character-search-inline {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+}
+
+.character-search-inline input {
+  width: 100%;
+}
+
+.character-search-inline .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
 .search-and-export {
   display: flex;
   align-items: center;
@@ -92,14 +110,6 @@
 .selected-character .character-icon {
   width: 40px;
   height: 40px;
-}
-
-.export-btn {
-  width: auto;
-  height: auto;
-  padding: 10px 16px;
-  white-space: nowrap;
-  flex-shrink: 0;
 }
 
 .section-selector {

@@ -3,6 +3,14 @@
   flex-direction: column;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .button-group {
   display: flex;
   justify-content: center;

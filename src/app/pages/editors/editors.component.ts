@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Router, ActivatedRoute } from '@angular/router';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
+import { ExportService } from '../../_services/export.service';
 
 @Component({
   selector: 'app-editors',
@@ -16,6 +17,7 @@ export class EditorsComponent implements OnInit {
   constructor(
     private router: Router,
     private route: ActivatedRoute,
+    private exportService: ExportService,
   ) {}
 
   ngOnInit(): void {
@@ -33,6 +35,14 @@ export class EditorsComponent implements OnInit {
       this.router.navigate([{ outlets: { hyperlink: ['hyperlink'] } }], {
         relativeTo: this.route,
       });
+    }
+  }
+
+  export(): void {
+    if (this.activeEditor === 'talent') {
+      this.exportService.exportTalent();
+    } else {
+      this.exportService.exportHyperlinks();
     }
   }
 }
