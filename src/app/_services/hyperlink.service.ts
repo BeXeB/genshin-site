@@ -18,9 +18,9 @@ export class HyperlinkService {
   private customHyperlinksPath = 'assets/json/custom-hyperlinks.json';
 
   private hyperlinks$?: Observable<Map<string | number, Hyperlink>>;
-  private sessionHyperlinks: Map<string | number, Hyperlink> = new Map();
-  private deletedCustomHyperlinkIds: Set<string | number> = new Set();
-  private sessionUpdated$ = new Subject<void>();
+  sessionHyperlinks: Map<string | number, Hyperlink> = new Map();
+  deletedCustomHyperlinkIds: Set<string | number> = new Set();
+  sessionUpdated$ = new Subject<void>();
 
   constructor(private http: HttpClient) {}
 
@@ -106,6 +106,14 @@ export class HyperlinkService {
   deleteCustomHyperlink(id: string | number): void {
     this.sessionHyperlinks.delete(id);
     this.deletedCustomHyperlinkIds.add(id);
+    this.sessionUpdated$.next();
+  }
+
+  /**
+   * Emit a session update event to notify subscribers of changes
+   * Used by editor views to trigger list updates
+   */
+  emitSessionUpdate(): void {
     this.sessionUpdated$.next();
   }
 }

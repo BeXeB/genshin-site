@@ -14,6 +14,7 @@ export class HyperlinkInsertionService {
   public insertion$ = this.insertionSubject.asObservable();
 
   currentCharacterName: string | null = null;
+  excludeHyperlinkId: string | null = null; // ID to exclude from insertion (prevent self-insertion)
 
   insertHyperlink(
     id: string | number,
@@ -25,5 +26,9 @@ export class HyperlinkInsertionService {
 
   setCurrentCharacter(characterName: string | null): void {
     this.currentCharacterName = characterName;
+  }
+
+  setExcludedHyperlinkId(id: string | null): void {
+    this.excludeHyperlinkId = id;
   }
 }

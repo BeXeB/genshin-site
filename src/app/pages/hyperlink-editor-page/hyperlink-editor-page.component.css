@@ -1,0 +1,98 @@
+.editor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.editor-content {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.list-panel {
+  display: flex;
+  flex: 0 0 350px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list-panel > input {
+  width: 100%;
+}
+
+.list-panel > .button {
+  width: 100%;
+}
+
+.hyperlinks-list {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-top: 1px solid var(--gray);
+}
+
+.card.selected {
+  background-color: var(--dark-gray);
+  border-color: var(--blue);
+  overflow: hidden;
+}
+
+.item-name {
+  font-weight: bold;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-id {
+  font-size: 0.85em;
+  color: var(--light-gray);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.editor-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.create-form,
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.create-form h3,
+.edit-form h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.1em;
+  color: var(--white);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: var(--light-gray);
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--gray);
+  flex-wrap: wrap;
+}

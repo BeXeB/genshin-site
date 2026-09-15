@@ -1,14 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, AfterViewInit, OnDestroy, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HyperlinkService } from '../../_services/hyperlink.service';
 import { HyperlinkInsertionService } from '../../_services/hyperlink-insertion.service';
 import { ModalService } from '../../_services/modal.service';
-import { FormattedTextComponent } from '../formatted-text-component/formatted-text.component';
-import {
-  FormattedTextEditorComponent,
-  HyperlinkRequest,
-} from '../formatted-text-editor/formatted-text-editor.component';
 import { Hyperlink } from '../../_models/hyperlinks';
 
 interface HyperlinkWithType extends Hyperlink {
@@ -18,11 +13,11 @@ interface HyperlinkWithType extends Hyperlink {
 @Component({
   selector: 'app-hyperlink-editor',
   standalone: true,
-  imports: [CommonModule, FormsModule, FormattedTextEditorComponent],
+  imports: [CommonModule, FormsModule],
   templateUrl: './hyperlink-editor.component.html',
   styleUrl: './hyperlink-editor.component.css',
 })
-export class HyperlinkEditorComponent implements OnInit {
+export class HyperlinkEditorComponent implements OnInit, AfterViewInit, OnDestroy {
   // Browse
   searchQuery: string = '';
   hyperlinks: HyperlinkWithType[] = [];
@@ -30,25 +25,52 @@ export class HyperlinkEditorComponent implements OnInit {
   selectedHyperlink: HyperlinkWithType | null = null;
   showDropdown: boolean = false;
 
-  // Create
-  showCreateForm: boolean = false;
-  newHyperlinkId: string = '';
-  newHyperlinkName: string = '';
-  newHyperlinkDescription: string = '';
-  createError: string = '';
-
-  // Edit
-  editingName: string = '';
-  editingDescription: string = '';
+  // Modal state tracking
+  private modalElement: HTMLElement | null = null;
+  private observer: MutationObserver | null = null;
+  private wasOpen = false;
 
   constructor(
     private hyperlinkService: HyperlinkService,
     private insertionService: HyperlinkInsertionService,
     private modalService: ModalService,
+    private el: ElementRef,
   ) {}
+
+  get showQuickLinks(): boolean {
+    return this.insertionService.currentCharacterName !== null;
+  }
 
   ngOnInit(): void {
     this.loadHyperlinks();
+  }
+
+  ngAfterViewInit(): void {
+    // Find the parent app-modal element by traversing up the DOM
+    let element: HTMLElement | null = this.el.nativeElement as HTMLElement;
+    while (element && !element.classList.contains('app-modal')) {
+      element = element.parentElement;
+    }
+
+    if (element) {
+      this.modalElement = element;
+      this.observer = new MutationObserver(() => {
+        const isOpen = this.modalElement?.classList.contains('open');
+        if (this.wasOpen && !isOpen) {
+          this.reset();
+        }
+        this.wasOpen = isOpen || false;
+      });
+
+      this.observer.observe(this.modalElement, {
+        attributes: true,
+        attributeFilter: ['class'],
+      });
+    }
+  }
+
+  ngOnDestroy(): void {
+    this.observer?.disconnect();
   }
 
   loadHyperlinks(): void {
@@ -75,7 +97,8 @@ export class HyperlinkEditorComponent implements OnInit {
     const query = this.searchQuery.toLowerCase();
     this.filteredHyperlinks = this.hyperlinks.filter(
       (h) =>
-        h.name.toLowerCase().includes(query) || String(h.id).includes(query),
+        (h.name.toLowerCase().includes(query) || String(h.id).includes(query)) &&
+        h.id !== this.insertionService.excludeHyperlinkId,
     );
   }
 
@@ -86,8 +109,6 @@ export class HyperlinkEditorComponent implements OnInit {
 
   selectHyperlink(hyperlink: HyperlinkWithType): void {
     this.selectedHyperlink = hyperlink;
-    this.editingName = hyperlink.name;
-    this.editingDescription = hyperlink.description;
     this.showDropdown = false;
   }
 
@@ -99,74 +120,6 @@ export class HyperlinkEditorComponent implements OnInit {
     setTimeout(() => {
       this.showDropdown = false;
     }, 200);
-  }
-
-  toggleCreateForm(): void {
-    this.showCreateForm = !this.showCreateForm;
-    if (!this.showCreateForm) {
-      this.resetForm();
-    }
-  }
-
-  resetForm(): void {
-    this.newHyperlinkId = '';
-    this.newHyperlinkName = '';
-    this.newHyperlinkDescription = '';
-    this.createError = '';
-  }
-
-  validateNewHyperlink(): boolean {
-    this.createError = '';
-
-    if (!this.newHyperlinkId.trim()) {
-      this.createError = 'ID is required';
-      return false;
-    }
-
-    if (!this.newHyperlinkId.match(/^[a-z0-9\-]+$/)) {
-      this.createError =
-        'ID must contain only lowercase letters, numbers, and hyphens';
-      return false;
-    }
-
-    if (!this.newHyperlinkName.trim()) {
-      this.createError = 'Name is required';
-      return false;
-    }
-
-    if (!this.newHyperlinkDescription.trim()) {
-      this.createError = 'Description is required';
-      return false;
-    }
-
-    if (this.hyperlinks.some((h) => h.id === this.newHyperlinkId)) {
-      this.createError = 'This ID already exists';
-      return false;
-    }
-
-    return true;
-  }
-
-  createNewHyperlink(): void {
-    if (!this.validateNewHyperlink()) {
-      return;
-    }
-
-    const newHyperlink: HyperlinkWithType = {
-      id: this.newHyperlinkId,
-      name: this.newHyperlinkName,
-      description: this.newHyperlinkDescription,
-      isCustom: true,
-      type: 'custom',
-    };
-
-    this.hyperlinkService.addCustomHyperlink(newHyperlink);
-    this.loadHyperlinks();
-
-    this.insertionService.insertHyperlink(newHyperlink.id, undefined, 'C');
-
-    this.resetForm();
-    this.showCreateForm = false;
   }
 
   insertLink(hyperlink: HyperlinkWithType): void {
@@ -192,45 +145,12 @@ export class HyperlinkEditorComponent implements OnInit {
 
   deselectHyperlink(): void {
     this.selectedHyperlink = null;
-    this.editingName = '';
-    this.editingDescription = '';
   }
 
-  saveHyperlink(): void {
-    if (!this.selectedHyperlink) return;
-
-    if (!this.editingName.trim()) {
-      alert('Name is required');
-      return;
-    }
-
-    if (!this.editingDescription.trim()) {
-      alert('Description is required');
-      return;
-    }
-
-    this.hyperlinkService.updateCustomHyperlink(
-      this.selectedHyperlink.id as string,
-      this.editingName,
-      this.editingDescription,
-    );
-
-    this.deselectHyperlink();
-    this.loadHyperlinks();
-  }
-
-  deleteHyperlink(): void {
-    if (!this.selectedHyperlink) return;
-
-    if (!confirm(`Delete hyperlink "${this.selectedHyperlink.name}"?`)) {
-      return;
-    }
-
-    this.hyperlinkService.deleteCustomHyperlink(
-      this.selectedHyperlink.id as string,
-    );
-
-    this.deselectHyperlink();
-    this.loadHyperlinks();
+  private reset(): void {
+    this.searchQuery = '';
+    this.selectedHyperlink = null;
+    this.showDropdown = false;
+    this.filterHyperlinks();
   }
 }
