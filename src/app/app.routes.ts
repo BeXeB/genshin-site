@@ -36,12 +36,8 @@ export const routes: Routes = [
     path: 'editors',
     component: EditorsComponent,
     children: [
-      { path: 'talent', component: TalentEditorComponent, outlet: 'talent' },
-      {
-        path: 'hyperlink',
-        component: HyperlinkEditorPageComponent,
-        outlet: 'hyperlink',
-      },
+      { path: 'talent', component: TalentEditorComponent },
+      { path: 'hyperlink', component: HyperlinkEditorPageComponent },
     ],
   },
   // Legacy routes for backward compatibility

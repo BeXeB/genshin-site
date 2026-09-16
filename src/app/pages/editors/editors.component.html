@@ -1,7 +1,7 @@
 <div class="container">
   <div class="header">
-    <app-page-title title="Editors" backLink="/tools" />
-    <div class="button-group">
+    <app-page-title class="header-item" title="Editors" backLink="/tools" />
+    <div class="button-group header-item">
       <button
         (click)="selectEditor('talent')"
         [class.active]="activeEditor === 'talent'"
@@ -17,12 +17,10 @@
         Hyperlink Manager
       </button>
     </div>
-    <button (click)="export()" class="button">Letöltés JSON-ként</button>
+    <div class="header-item">
+      <button class="align-right" (click)="export()">Letöltés JSON-ként</button>
+    </div>
   </div>
 
-  @if (activeEditor === "talent") {
-    <router-outlet name="talent"></router-outlet>
-  } @else if (activeEditor === "hyperlink") {
-    <router-outlet name="hyperlink"></router-outlet>
-  }
+  <router-outlet></router-outlet>
 </div>

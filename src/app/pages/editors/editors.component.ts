@@ -27,15 +27,7 @@ export class EditorsComponent implements OnInit {
 
   selectEditor(editor: 'talent' | 'hyperlink'): void {
     this.activeEditor = editor;
-    if (editor === 'talent') {
-      this.router.navigate([{ outlets: { talent: ['talent'] } }], {
-        relativeTo: this.route,
-      });
-    } else {
-      this.router.navigate([{ outlets: { hyperlink: ['hyperlink'] } }], {
-        relativeTo: this.route,
-      });
-    }
+    this.router.navigate([editor], { relativeTo: this.route });
   }
 
   export(): void {

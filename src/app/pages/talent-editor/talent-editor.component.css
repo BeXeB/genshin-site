@@ -117,41 +117,21 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .section-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  width: auto;
-  height: auto;
-  min-width: 44px;
-  padding: 8px 14px;
-  background-color: var(--dark-gray);
-  border: 1px solid var(--gray);
-  border-radius: 8px;
   color: var(--light-gray);
-  cursor: pointer;
   font-size: 1em;
   white-space: nowrap;
-  transition:
-    background-color 0.2s,
-    color 0.2s,
-    border 0.2s;
+  flex: 0 0 120px;
 }
 
 .section-btn:hover {
-  background-color: var(--gray);
-  border-color: var(--blue);
   color: var(--white);
 }
 
 .section-btn.active {
-  background-color: var(--dark-gray);
-  border-color: var(--blue);
   color: var(--white);
 }
 
@@ -159,47 +139,34 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-bottom: 16px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .buttons-wrapper {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
+  max-width: 100%;
 }
 
 .talent-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  width: auto;
-  height: auto;
-  min-width: 100px;
-  padding: 8px 14px;
-  background-color: var(--dark-gray);
-  border: 1px solid var(--gray);
-  border-radius: 8px;
   color: var(--light-gray);
-  cursor: pointer;
   font-size: 0.95em;
   white-space: nowrap;
-  transition:
-    background-color 0.2s,
-    color 0.2s,
-    border 0.2s;
+  min-width: 0;
+  flex-shrink: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .talent-btn:hover {
-  background-color: var(--gray);
-  border-color: var(--blue);
   color: var(--white);
 }
 
 .talent-btn.active {
-  background-color: var(--dark-gray);
-  border-color: var(--blue);
   color: var(--white);
 }
 

@@ -11,6 +11,14 @@
   justify-content: space-between;
 }
 
+.header-item {
+  flex: 1;
+}
+
+.align-right {
+  margin-left: auto;
+}
+
 .button-group {
   display: flex;
   justify-content: center;
