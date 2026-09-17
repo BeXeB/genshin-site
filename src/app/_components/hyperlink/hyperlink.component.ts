@@ -49,16 +49,7 @@ export class HyperlinkComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.resolveTarget().subscribe((target) => {
-      this.title = target?.name;
-
-      if (!target) {
-        return;
-      }
-
-      this.descriptionNodes = this.formatter.parse(target.description);
-      this.updateTooltipPosition();
-    });
+    this.updateLinkContent();
   }
 
   private resolveTarget(): Observable<LinkTarget | undefined> {
@@ -143,21 +134,24 @@ export class HyperlinkComponent implements OnInit {
 
         return this.characterService.getBriefDescriptions(characterName).pipe(
           map((briefs) => {
-            if (!briefs || !(fieldName in briefs)) {
+            // Check if there's an edited version in state service (storage has priority)
+            const editedBriefText = this.stateService.getEditedDescription(
+              fieldName as any,
+            );
+
+            // Use storage version if available, otherwise fall back to JSON
+            const briefText =
+              editedBriefText && editedBriefText.trim()
+                ? editedBriefText
+                : (briefs as Record<string, string>)?.[fieldName];
+
+            // If neither storage nor JSON has the content, no tooltip
+            if (!briefText) {
               console.warn(
                 `Brief field not found: ${fieldName} in ${characterName}`,
               );
               return undefined;
             }
-
-            // Check if there's an edited version in state service
-            const editedBriefText = this.stateService.getEditedDescription(
-              fieldName as any,
-            );
-            const briefText =
-              editedBriefText && editedBriefText.trim()
-                ? editedBriefText
-                : (briefs as Record<string, string>)[fieldName];
 
             const talentName = this.getTalentNameForField(character, fieldName);
 
@@ -196,16 +190,21 @@ export class HyperlinkComponent implements OnInit {
 
   @HostListener('mouseenter')
   onMouseEnter(): void {
-    // Re-resolve on hover to pick up any edits made since component init
-    if (this.linkType === 'Z') {
-      this.resolveTarget().subscribe((target) => {
-        this.title = target?.name;
-        if (target) {
-          this.descriptionNodes = this.formatter.parse(target.description);
-        }
-      });
-    }
-    this.updateTooltipPosition();
+    // Always re-resolve on hover to pick up any changes
+    this.updateLinkContent();
+  }
+
+  private updateLinkContent(): void {
+    this.resolveTarget().subscribe((target) => {
+      this.title = target?.name;
+
+      if (!target) {
+        return;
+      }
+
+      this.descriptionNodes = this.formatter.parse(target.description);
+      this.updateTooltipPosition();
+    });
   }
 
   @HostListener('window:resize')

@@ -116,9 +116,36 @@ export class FormatterService {
       state.index++;
     }
 
+    const textContent = text.substring(start, state.index);
+
+    // If we parsed nothing but encountered an unexpected closing tag, treat it as text
+    // and advance past it to avoid infinite loops
+    if (textContent.length === 0 && state.index < text.length) {
+      if (
+        text.startsWith('</b>', state.index) ||
+        text.startsWith('</i>', state.index) ||
+        text.startsWith('</color>', state.index) ||
+        text.startsWith('{/LINK}', state.index)
+      ) {
+        // Consume the unexpected closing tag as text
+        let tagEnd = state.index + 1;
+        while (tagEnd < text.length && text[tagEnd] !== '>') {
+          tagEnd++;
+        }
+        if (tagEnd < text.length) {
+          tagEnd++;
+        }
+        state.index = tagEnd;
+        return {
+          type: 'text',
+          text: text.substring(start, state.index),
+        };
+      }
+    }
+
     return {
       type: 'text',
-      text: text.substring(start, state.index),
+      text: textContent,
     };
   }
 

@@ -102,14 +102,15 @@
 }
 
 .character-info .character-icon {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   flex-shrink: 0;
 }
 
-.selected-character .character-icon {
-  width: 40px;
-  height: 40px;
+.talent-navigation {
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
 }
 
 .section-selector {
@@ -124,7 +125,6 @@
   color: var(--light-gray);
   font-size: 1em;
   white-space: nowrap;
-  flex: 0 0 120px;
 }
 
 .section-btn:hover {
@@ -136,28 +136,24 @@
 }
 
 .talent-button-group {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 .buttons-wrapper {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
   gap: 8px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .talent-btn {
+  flex: 1 1 0;
+  min-width: 0;
+  width: 0;
+
   color: var(--light-gray);
   font-size: 0.95em;
   white-space: nowrap;
-  min-width: 0;
-  flex-shrink: 2;
   overflow: hidden;
   text-overflow: ellipsis;
 }

@@ -1,5 +1,4 @@
 import {
-  AfterViewInit,
   Component,
   ElementRef,
   OnInit,
@@ -16,7 +15,6 @@ import { CharacterService } from '../../_services/character.service';
 import { ImageService } from '../../_services/image.service';
 import { ModalService } from '../../_services/modal.service';
 import { HyperlinkInsertionService } from '../../_services/hyperlink-insertion.service';
-import { HyperlinkService } from '../../_services/hyperlink.service';
 import { EditorHistoryService } from '../../_services/editor-history.service';
 import { TalentEditorStateService } from '../../_services/talent-editor-state.service';
 import { ExportService } from '../../_services/export.service';
@@ -59,7 +57,7 @@ type ColorPreset = {
   templateUrl: './talent-editor.component.html',
   styleUrl: './talent-editor.component.css',
 })
-export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
+export class TalentEditorComponent implements OnInit, OnDestroy {
   constructor(
     private characterSerivce: CharacterService,
     private imageService: ImageService,
@@ -71,12 +69,6 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
     private router: Router,
   ) {}
 
-  @ViewChildren('sectionBtnEl') sectionBtnEls!: QueryList<
-    ElementRef<HTMLButtonElement>
-  >;
-  @ViewChildren('talentBtnEl') talentBtnEls!: QueryList<
-    ElementRef<HTMLButtonElement>
-  >;
   @ViewChild('hyperlink-editor') hyperlinkEditor?: HyperlinkEditorComponent;
 
   characters: CharacterProfile[] = [];
@@ -240,37 +232,8 @@ export class TalentEditorComponent implements OnInit, AfterViewInit, OnDestroy {
     this.router.navigate(['/']);
   }
 
-  ngAfterViewInit(): void {
-    this.sectionBtnEls.changes.subscribe(() =>
-      this.equalizeButtonWidths(this.sectionBtnEls),
-    );
-    this.talentBtnEls.changes.subscribe(() =>
-      this.equalizeButtonWidths(this.talentBtnEls),
-    );
-  }
-
   ngOnDestroy(): void {
     this.insertionSubscription?.unsubscribe();
-  }
-
-  // Makes every button in the given group as wide as the widest one, so the
-  // buttons stay compact when short (e.g. "C1") but grow when needed (e.g.
-  // "Elemental Skill"), while remaining uniform within their own group.
-  private equalizeButtonWidths(
-    list: QueryList<ElementRef<HTMLButtonElement>>,
-  ): void {
-    const buttons = list.map((ref) => ref.nativeElement);
-    if (buttons.length === 0) return;
-
-    for (const btn of buttons) {
-      btn.style.width = 'auto';
-    }
-
-    const maxWidth = Math.max(...buttons.map((btn) => btn.offsetWidth));
-
-    for (const btn of buttons) {
-      btn.style.width = `${maxWidth}px`;
-    }
   }
 
   get filteredCharacters(): CharacterProfile[] {

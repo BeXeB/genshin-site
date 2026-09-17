@@ -82,11 +82,10 @@
     }
 
     @if (selectedCharacterDetails && talentSections.length > 0) {
-      <div>
+      <div class="talent-navigation">
         <div class="section-selector">
           @for (section of talentSections; track section.label) {
             <button
-              #sectionBtnEl
               class="section-btn"
               [class.active]="selectedSection === section.label"
               type="button"
@@ -102,7 +101,6 @@
             <div class="buttons-wrapper">
               @for (row of currentSection.rows; track row.key) {
                 <button
-                  #talentBtnEl
                   class="talent-btn"
                   [class.active]="selectedTalentKey === row.key"
                   type="button"
