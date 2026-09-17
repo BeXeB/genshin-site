@@ -1,13 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map, Observable } from 'rxjs';
-import {
-  CharacterTag,
-  TagDefinition,
-  Tier,
-  TierCharacter,
-  Tierlist,
-} from '../_models/tierlist';
+import { CharacterTag, TagDefinition, Tier, TierCharacter, Tierlist } from '../_models/tierlist';
 
 @Injectable({
   providedIn: 'root',
@@ -21,7 +15,7 @@ export class TierlistService {
     return this.http.get<Tierlist>(this.tierlistUrl).pipe(
       map((tierlist: Tierlist) => {
         const tagMap: Map<string, TagDefinition> = new Map(
-          tierlist.tags.map((tag: TagDefinition) => [tag.id, tag]),
+          tierlist.tags.map((tag: TagDefinition) => [tag.id, tag])
         );
 
         const tiersWithTags = tierlist.tiers.map((tier: Tier) => ({
@@ -53,7 +47,7 @@ export class TierlistService {
           ...tierlist,
           tiers: tiersWithTags,
         };
-      }),
+      })
     );
   }
 
@@ -61,7 +55,7 @@ export class TierlistService {
     const tierlist: Tierlist = JSON.parse(jsonContent);
 
     const tagMap: Map<string, TagDefinition> = new Map(
-      tierlist.tags.map((tag: TagDefinition) => [tag.id, tag]),
+      tierlist.tags.map((tag: TagDefinition) => [tag.id, tag])
     );
 
     const tiersWithTags = tierlist.tiers.map((tier: Tier) => ({

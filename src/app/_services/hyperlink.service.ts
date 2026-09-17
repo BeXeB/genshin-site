@@ -1,13 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {
-  combineLatest,
-  map,
-  Observable,
-  shareReplay,
-  startWith,
-  Subject,
-} from 'rxjs';
+import { combineLatest, map, Observable, shareReplay, startWith, Subject } from 'rxjs';
 import { Hyperlink } from '../_models/hyperlinks';
 import { StorageService } from './storage.service';
 
@@ -23,7 +16,7 @@ export class HyperlinkService {
 
   constructor(
     private http: HttpClient,
-    private storageService: StorageService,
+    private storageService: StorageService
   ) {}
 
   /**
@@ -37,7 +30,7 @@ export class HyperlinkService {
         this.http.get<Hyperlink[]>(this.gameHyperlinksPath),
         this.customHyperlinksUpdated$.pipe(
           startWith(undefined),
-          map(() => this.getCustomHyperlinksFromStorage()),
+          map(() => this.getCustomHyperlinksFromStorage())
         ),
       ]).pipe(
         map(([gameLinks, customLinks]) => {
@@ -55,7 +48,7 @@ export class HyperlinkService {
 
           return map;
         }),
-        shareReplay(1),
+        shareReplay(1)
       );
     }
 
@@ -63,20 +56,14 @@ export class HyperlinkService {
   }
 
   getHyperlink(id: string | number): Observable<Hyperlink | undefined> {
-    return this.getHyperlinksMap().pipe(
-      map((hyperlinks) => hyperlinks.get(id)),
-    );
+    return this.getHyperlinksMap().pipe(map((hyperlinks) => hyperlinks.get(id)));
   }
 
   /**
    * Get custom hyperlinks from storage
    */
   private getCustomHyperlinksFromStorage(): Hyperlink[] {
-    return (
-      this.storageService.getData<Hyperlink[]>(
-        this.customHyperlinksStorageKey,
-      ) || []
-    );
+    return this.storageService.getData<Hyperlink[]>(this.customHyperlinksStorageKey) || [];
   }
 
   /**
@@ -92,20 +79,13 @@ export class HyperlinkService {
   /**
    * Update an existing custom hyperlink
    */
-  updateCustomHyperlink(
-    id: string | number,
-    name: string,
-    description: string,
-  ): void {
+  updateCustomHyperlink(id: string | number, name: string, description: string): void {
     const customLinks = this.getCustomHyperlinksFromStorage();
     const link = customLinks.find((h) => h.id === id);
     if (link) {
       link.name = name;
       link.description = description;
-      this.storageService.saveData(
-        this.customHyperlinksStorageKey,
-        customLinks,
-      );
+      this.storageService.saveData(this.customHyperlinksStorageKey, customLinks);
       this.customHyperlinksUpdated$.next();
     }
   }

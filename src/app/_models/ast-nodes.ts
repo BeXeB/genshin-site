@@ -1,11 +1,5 @@
 export type AstNode =
-  | TextNode
-  | ColorNode
-  | LinkNode
-  | ItalicNode
-  | BoldNode
-  | LineBreakNode
-  | ParamNode;
+  TextNode | ColorNode | LinkNode | ItalicNode | BoldNode | LineBreakNode | ParamNode;
 
 export type LinkType = 'N' | 'S' | 'P' | 'T' | 'Z' | 'C';
 

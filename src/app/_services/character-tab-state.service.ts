@@ -12,28 +12,18 @@ export class CharacterTabStateService {
   /**
    * Get the saved tab for a character, or return default 'profile'
    */
-  getTabForCharacter(
-    characterId: string,
-  ): 'profile' | 'talents' | 'constellations' {
-    const tabState = this.storageService.getData<Record<string, string>>(
-      this.STORAGE_KEY,
-    );
+  getTabForCharacter(characterId: string): 'profile' | 'talents' | 'constellations' {
+    const tabState = this.storageService.getData<Record<string, string>>(this.STORAGE_KEY);
     if (!tabState) return 'profile';
 
-    return (tabState[characterId] ?? 'profile') as
-      'profile' | 'talents' | 'constellations';
+    return (tabState[characterId] ?? 'profile') as 'profile' | 'talents' | 'constellations';
   }
 
   /**
    * Save the selected tab for a character
    */
-  setTabForCharacter(
-    characterId: string,
-    tab: 'profile' | 'talents' | 'constellations',
-  ): void {
-    const tabState =
-      this.storageService.getData<Record<string, string>>(this.STORAGE_KEY) ??
-      {};
+  setTabForCharacter(characterId: string, tab: 'profile' | 'talents' | 'constellations'): void {
+    const tabState = this.storageService.getData<Record<string, string>>(this.STORAGE_KEY) ?? {};
     tabState[characterId] = tab;
     this.storageService.saveData(this.STORAGE_KEY, tabState);
   }

@@ -35,15 +35,10 @@ export class OverviewTalentsComponent {
     return map[skillName] || '';
   }
 
-  getDescription(
-    skill: CombatTalent | PassiveTalent | null,
-    skillKey: string,
-  ): string | null {
+  getDescription(skill: CombatTalent | PassiveTalent | null, skillKey: string): string | null {
     if (!skill) return null;
 
-    const briefKey = this.getBriefKey(
-      skillKey,
-    ) as keyof CharacterBriefDescriptions;
+    const briefKey = this.getBriefKey(skillKey) as keyof CharacterBriefDescriptions;
 
     const variantBrief = this.char?.variants?.[this.element]?.brief?.[briefKey];
 

@@ -1,11 +1,4 @@
-import {
-  Component,
-  Input,
-  OnInit,
-  AfterViewInit,
-  OnDestroy,
-  ElementRef,
-} from '@angular/core';
+import { Component, Input, OnInit, AfterViewInit, OnDestroy, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HyperlinkService } from '../../_services/hyperlink.service';
@@ -24,9 +17,7 @@ interface HyperlinkWithType extends Hyperlink {
   templateUrl: './hyperlink-editor.component.html',
   styleUrl: './hyperlink-editor.component.css',
 })
-export class HyperlinkEditorComponent
-  implements OnInit, AfterViewInit, OnDestroy
-{
+export class HyperlinkEditorComponent implements OnInit, AfterViewInit, OnDestroy {
   // Browse
   searchQuery: string = '';
   hyperlinks: HyperlinkWithType[] = [];
@@ -43,7 +34,7 @@ export class HyperlinkEditorComponent
     private hyperlinkService: HyperlinkService,
     private insertionService: HyperlinkInsertionService,
     private modalService: ModalService,
-    private el: ElementRef,
+    private el: ElementRef
   ) {}
 
   get showQuickLinks(): boolean {
@@ -106,9 +97,8 @@ export class HyperlinkEditorComponent
     const query = this.searchQuery.toLowerCase();
     this.filteredHyperlinks = this.hyperlinks.filter(
       (h) =>
-        (h.name.toLowerCase().includes(query) ||
-          String(h.id).includes(query)) &&
-        h.id !== this.insertionService.excludeHyperlinkId,
+        (h.name.toLowerCase().includes(query) || String(h.id).includes(query)) &&
+        h.id !== this.insertionService.excludeHyperlinkId
     );
   }
 

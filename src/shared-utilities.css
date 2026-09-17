@@ -286,7 +286,7 @@ select {
   border: 1px solid var(--gray);
   border-radius: 6px;
   padding: 10px 12px;
-  font-family: "JetBrains Mono", monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 14px;
   outline: none;
   transition: all 0.2s ease-in-out;

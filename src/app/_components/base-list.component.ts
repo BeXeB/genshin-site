@@ -52,7 +52,7 @@ export abstract class BaseListComponent<T> implements OnInit, OnDestroy {
       this.searchTerm,
       (item) => this.getSearchableText(item),
       this.filters,
-      this.filterFns,
+      this.filterFns
     );
 
     this.filterService.saveState(this.storageKey, {

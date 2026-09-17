@@ -45,7 +45,7 @@ export class HyperlinkComponent implements OnInit {
     private characterService: CharacterService,
     private formatter: FormatterService,
     private stateService: TalentEditorStateService,
-    private elementRef: ElementRef,
+    private elementRef: ElementRef
   ) {}
 
   ngOnInit(): void {
@@ -61,8 +61,8 @@ export class HyperlinkComponent implements OnInit {
               skill && {
                 name: skill.name,
                 description: skill.descriptionRaw,
-              },
-          ),
+              }
+          )
         );
       case 'P':
         return this.characterService.getPassiveTalent(this.id as number).pipe(
@@ -71,8 +71,8 @@ export class HyperlinkComponent implements OnInit {
               passive && {
                 name: passive.name,
                 description: passive.descriptionRaw,
-              },
-          ),
+              }
+          )
         );
       case 'T':
         return this.characterService.getConstellation(this.id as number).pipe(
@@ -81,8 +81,8 @@ export class HyperlinkComponent implements OnInit {
               constellation && {
                 name: constellation.name,
                 description: constellation.descriptionRaw,
-              },
-          ),
+              }
+          )
         );
       case 'Z':
         // Type Z: Brief field reference (e.g., "mavuika-combat1")
@@ -95,8 +95,8 @@ export class HyperlinkComponent implements OnInit {
               hyperlink && {
                 name: hyperlink.name,
                 description: hyperlink.description,
-              },
-          ),
+              }
+          )
         );
       default:
         // Default to game hyperlink lookup (N type or custom string ID)
@@ -106,15 +106,13 @@ export class HyperlinkComponent implements OnInit {
               hyperlink && {
                 name: hyperlink.name,
                 description: hyperlink.description,
-              },
-          ),
+              }
+          )
         );
     }
   }
 
-  private resolveBriefFieldLink(
-    id: string,
-  ): Observable<LinkTarget | undefined> {
+  private resolveBriefFieldLink(id: string): Observable<LinkTarget | undefined> {
     // Parse id: "character-fieldname" (e.g., "mavuika-combat1")
     const parts = id.split('-');
     if (parts.length < 2) {
@@ -135,9 +133,7 @@ export class HyperlinkComponent implements OnInit {
         return this.characterService.getBriefDescriptions(characterName).pipe(
           map((briefs) => {
             // Check if there's an edited version in state service (storage has priority)
-            const editedBriefText = this.stateService.getEditedDescription(
-              fieldName as any,
-            );
+            const editedBriefText = this.stateService.getEditedDescription(fieldName as any);
 
             // Use storage version if available, otherwise fall back to JSON
             const briefText =
@@ -147,9 +143,7 @@ export class HyperlinkComponent implements OnInit {
 
             // If neither storage nor JSON has the content, no tooltip
             if (!briefText) {
-              console.warn(
-                `Brief field not found: ${fieldName} in ${characterName}`,
-              );
+              console.warn(`Brief field not found: ${fieldName} in ${characterName}`);
               return undefined;
             }
 
@@ -159,16 +153,13 @@ export class HyperlinkComponent implements OnInit {
               name: talentName || `${characterName} - ${fieldName}`,
               description: briefText,
             };
-          }),
+          })
         );
-      }),
+      })
     );
   }
 
-  private getTalentNameForField(
-    character: any,
-    fieldName: string,
-  ): string | undefined {
+  private getTalentNameForField(character: any, fieldName: string): string | undefined {
     // Character.skills contains talents keyed by field name
     // character.skills.combat1, character.skills.combat2, etc.
     // character.skills.passive1, character.skills.passive2, etc.
@@ -217,9 +208,7 @@ export class HyperlinkComponent implements OnInit {
       return;
     }
 
-    const link = this.elementRef.nativeElement.querySelector(
-      '.game-link',
-    ) as HTMLElement | null;
+    const link = this.elementRef.nativeElement.querySelector('.game-link') as HTMLElement | null;
 
     if (!link) {
       return;
@@ -234,9 +223,7 @@ export class HyperlinkComponent implements OnInit {
     const spaceAbove = linkRect.top;
 
     this.tooltipPosition =
-      spaceBelow < tooltipHeight && spaceAbove >= tooltipHeight
-        ? 'top'
-        : 'bottom';
+      spaceBelow < tooltipHeight && spaceAbove >= tooltipHeight ? 'top' : 'bottom';
 
     // Keep the tooltip from overflowing the left/right edges of the viewport
     // by nudging it horizontally away from its default centered position.

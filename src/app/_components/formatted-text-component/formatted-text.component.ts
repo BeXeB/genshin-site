@@ -1,11 +1,4 @@
-import {
-  Component,
-  forwardRef,
-  Input,
-  OnInit,
-  OnChanges,
-  SimpleChanges,
-} from '@angular/core';
+import { Component, forwardRef, Input, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 import { AstNode } from '../../_models/ast-nodes';
 import { FormatterService } from '../../_services/formatter.service';
 import { AstRendererComponent } from '../ast-renderer/ast-renderer.component';

@@ -15,8 +15,7 @@ import { Router } from '@angular/router';
 import { marked } from 'marked';
 import { Subject, takeUntil } from 'rxjs';
 
-export type GuideSourceType =
-  'markdown-content' | 'character-file' | 'guide-file';
+export type GuideSourceType = 'markdown-content' | 'character-file' | 'guide-file';
 
 @Component({
   selector: 'app-guide-viewer',
@@ -56,8 +55,7 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
   html: SafeHtml = '';
   toc: SafeHtml | string = '';
 
-  private tocEventListeners: Array<{ el: Element; listener: EventListener }> =
-    [];
+  private tocEventListeners: Array<{ el: Element; listener: EventListener }> = [];
   private pendingTimeouts: number[] = [];
   private destroy$ = new Subject<void>();
 
@@ -118,7 +116,7 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
     private guidesService: GuidesService,
     private storageService: StorageService,
     private router: Router,
-    private cdr: ChangeDetectorRef,
+    private cdr: ChangeDetectorRef
   ) {}
 
   ngOnInit(): void {
@@ -152,16 +150,11 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
       if (this.showToc) {
         // Use MarkdownService for TOC generation
         const path = this.router.url.split('#')[0];
-        const { content, toc } = await this.markdownService.parse(
-          this.source,
-          path,
-        );
+        const { content, toc } = await this.markdownService.parse(this.source, path);
         this.applyContent(content, toc);
       } else {
         // Use basic marked for plain markdown, but preprocess custom syntax
-        const preprocessed = this.markdownService.preprocessMarkdown(
-          this.source,
-        );
+        const preprocessed = this.markdownService.preprocessMarkdown(this.source);
         const parsed = await marked(preprocessed);
         this.html = this.sanitizer.bypassSecurityTrustHtml(parsed);
         this.cdr.markForCheck();
@@ -180,10 +173,7 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
         next: async (markdown) => {
           try {
             const path = this.router.url.split('#')[0];
-            const { content, toc } = await this.markdownService.parse(
-              markdown,
-              path,
-            );
+            const { content, toc } = await this.markdownService.parse(markdown, path);
             this.applyContent(content, toc);
           } catch (error) {
             this.html = '<p>Hamarosan</p>';
@@ -206,8 +196,7 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
       .subscribe({
         next: async (markdown) => {
           try {
-            const preprocessed =
-              this.markdownService.preprocessMarkdown(markdown);
+            const preprocessed = this.markdownService.preprocessMarkdown(markdown);
             const parsed = await marked(preprocessed);
             this.applyContent(parsed, null);
           } catch (error) {
@@ -250,9 +239,7 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
     document.querySelectorAll('.entity-link').forEach((link) => {
       const listener = (e: Event) => {
         e.preventDefault();
-        const route = (link as HTMLAnchorElement).getAttribute(
-          'data-entity-route',
-        );
+        const route = (link as HTMLAnchorElement).getAttribute('data-entity-route');
         if (route) {
           // Save scroll position before navigating away
           this.saveScrollPosition();

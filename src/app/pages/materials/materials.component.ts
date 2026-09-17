@@ -39,7 +39,7 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
     private resolver: ResolverService,
     private storageService: StorageService,
     protected override filterService: FilterService,
-    private imageService: ImageService,
+    private imageService: ImageService
   ) {
     super(filterService);
   }
@@ -48,7 +48,7 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
     this.loadFilters();
     return this.resolver.initialize().pipe(
       switchMap(() => this.materialService.getMaterials()),
-      map((data) => this.resolver.resolveMaterials(data)),
+      map((data) => this.resolver.resolveMaterials(data))
     );
   }
 
@@ -64,10 +64,7 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
   }
 
   getImage(material: MaterialResolved): string {
-    return this.imageService.getMaterialImage(
-      material.normalizedName,
-      material.type,
-    );
+    return this.imageService.getMaterialImage(material.normalizedName, material.type);
   }
 
   private saveFilters(): void {
@@ -86,7 +83,7 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
 
   override applyFilters(): void {
     this.filtered = this.data.filter((material) =>
-      material.name.toLowerCase().includes(this.searchTerm.toLowerCase()),
+      material.name.toLowerCase().includes(this.searchTerm.toLowerCase())
     );
     this.saveFilters();
   }

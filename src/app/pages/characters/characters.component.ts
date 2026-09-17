@@ -10,21 +10,12 @@ import { FiltersComponent } from '../../_components/filters/filters.component';
 import { ItemCardComponent } from '../../_components/item-card/item-card.component';
 import { BaseListComponent } from '../../_components/base-list.component';
 import { Observable } from 'rxjs';
-import {
-  ElementType,
-  ElementTypeLabel,
-  WeaponTypeLabel,
-} from '../../_models/enum';
+import { ElementType, ElementTypeLabel, WeaponTypeLabel } from '../../_models/enum';
 
 @Component({
   selector: 'app-characters',
   standalone: true,
-  imports: [
-    FormsModule,
-    PageTitleComponent,
-    FiltersComponent,
-    ItemCardComponent,
-  ],
+  imports: [FormsModule, PageTitleComponent, FiltersComponent, ItemCardComponent],
   templateUrl: './characters.component.html',
   styleUrl: './characters.component.css',
 })
@@ -63,8 +54,7 @@ export class CharactersComponent extends BaseListComponent<CharacterProfile> {
     weapons: (c: CharacterProfile, values: string[]) =>
       values.includes(WeaponTypeLabel[c.weaponType]),
 
-    rarity: (c: CharacterProfile, values: string[]) =>
-      values.includes(c.rarity.toString()),
+    rarity: (c: CharacterProfile, values: string[]) => values.includes(c.rarity.toString()),
   };
 
   get storageKey(): string {
@@ -74,7 +64,7 @@ export class CharactersComponent extends BaseListComponent<CharacterProfile> {
   constructor(
     private characterService: CharacterService,
     protected override filterService: FilterService,
-    private imageService: ImageService,
+    private imageService: ImageService
   ) {
     super(filterService);
   }

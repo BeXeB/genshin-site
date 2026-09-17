@@ -19,7 +19,7 @@ export class TierlistComponent {
 
   constructor(
     private tierlistService: TierlistService,
-    private characterService: CharacterService,
+    private characterService: CharacterService
   ) {}
 
   tierlist: Tierlist = { tiers: [], tags: [] };
@@ -29,13 +29,9 @@ export class TierlistComponent {
     this.tierlistService
       .getTierlist()
       .subscribe((tierlist: Tierlist) => (this.tierlist = tierlist));
-    this.characterService
-      .getCharacters()
-      .subscribe((characters: CharacterProfile[]) => {
-        this.characterMap = new Map(
-          characters.map((c: CharacterProfile) => [c.normalizedName, c]),
-        );
-      });
+    this.characterService.getCharacters().subscribe((characters: CharacterProfile[]) => {
+      this.characterMap = new Map(characters.map((c: CharacterProfile) => [c.normalizedName, c]));
+    });
   }
 
   exportAsImage(format: 'png' | 'jpg' = 'png'): void {

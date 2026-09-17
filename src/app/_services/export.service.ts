@@ -16,9 +16,7 @@ export interface HyperlinkExportData {
 })
 export class ExportService {
   private talentData$ = new BehaviorSubject<TalentExportData | null>(null);
-  private hyperlinkData$ = new BehaviorSubject<HyperlinkExportData | null>(
-    null,
-  );
+  private hyperlinkData$ = new BehaviorSubject<HyperlinkExportData | null>(null);
 
   setTalentData(data: TalentExportData): void {
     this.talentData$.next(data);

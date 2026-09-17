@@ -77,19 +77,13 @@ export class MarkdownService {
    * Converts [mix: ![ref1] ![ref2] ...] blocks to <div class="mix"> containers
    */
   public preprocessMarkdown(markdown: string): string {
-    return markdown.replace(
-      /\[mix:\s*((?:!\[[^\]]*\]\s*)+)\]/g,
-      (match, content) => {
-        const imageCount = (content.match(/!\[[^\]]*\]/g) || []).length;
-        return `<div class="mix mix-${imageCount}">${content}</div>`;
-      },
-    );
+    return markdown.replace(/\[mix:\s*((?:!\[[^\]]*\]\s*)+)\]/g, (match, content) => {
+      const imageCount = (content.match(/!\[[^\]]*\]/g) || []).length;
+      return `<div class="mix mix-${imageCount}">${content}</div>`;
+    });
   }
 
-  private generateUniqueSlug(
-    text: string,
-    slugCounts: Record<string, number>,
-  ): string {
+  private generateUniqueSlug(text: string, slugCounts: Record<string, number>): string {
     // Allow Unicode letters/numbers so accents (e.g. ó) are preserved in slugs
     let slug = text
       .toLowerCase()
@@ -140,9 +134,7 @@ export class MarkdownService {
     renderer.heading = (args: any) => {
       const text = args.text || args;
       const level = args.depth || args;
-      const slug =
-        generatedIds[rendererIdIndex++] ||
-        this.generateUniqueSlug(text, slugCounts);
+      const slug = generatedIds[rendererIdIndex++] || this.generateUniqueSlug(text, slugCounts);
       return `<h${level} id="${slug}">${text}</h${level}>\n`;
     };
 
@@ -247,7 +239,7 @@ export class MarkdownService {
       <li class="toc-level-${node.level}">
         <a href="${currentPath}#${node.id}" class="toc-link">${node.text}</a>
         ${this.renderTOCTree(node.children, currentPath)}
-      </li>`,
+      </li>`
       )
       .join('');
 

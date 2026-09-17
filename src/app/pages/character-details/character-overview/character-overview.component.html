@@ -2,10 +2,7 @@
   @if (char) {
     <div class="char-container">
       <div class="left">
-        <div
-          class="char-info card card-no-hover"
-          [style]="`border-color: ${elementColor};`"
-        >
+        <div class="char-info card card-no-hover" [style]="`border-color: ${elementColor};`">
           <h2>{{ char.profile.name }}</h2>
           <p>{{ char.profile.title }}</p>
         </div>
@@ -13,27 +10,21 @@
           <button
             [class.active]="selectedMenu === 'profile'"
             (click)="selectMenu('profile')"
-            [style.border-color]="
-              selectedMenu === 'profile' ? elementColor : 'transparent'
-            "
+            [style.border-color]="selectedMenu === 'profile' ? elementColor : 'transparent'"
           >
             Profil
           </button>
           <button
             [class.active]="selectedMenu === 'talents'"
             (click)="selectMenu('talents')"
-            [style.border-color]="
-              selectedMenu === 'talents' ? elementColor : 'transparent'
-            "
+            [style.border-color]="selectedMenu === 'talents' ? elementColor : 'transparent'"
           >
             Talentek
           </button>
           <button
             [class.active]="selectedMenu === 'constellations'"
             (click)="selectMenu('constellations')"
-            [style.border-color]="
-              selectedMenu === 'constellations' ? elementColor : 'transparent'
-            "
+            [style.border-color]="selectedMenu === 'constellations' ? elementColor : 'transparent'"
           >
             Konstelláció
           </button>
@@ -55,11 +46,7 @@
                       )
                     "
                   >
-                    <img
-                      [src]="
-                        'assets/images/' + elementTypeLabel[element] + '.webp'
-                      "
-                    />
+                    <img [src]="'assets/images/' + elementTypeLabel[element] + '.webp'" />
                   </div>
                 </div>
               }
@@ -69,23 +56,18 @@
       </div>
       <div
         class="right"
-        [class.full-width]="
-          selectedMenu === 'talents' || selectedMenu === 'constellations'
-        "
+        [class.full-width]="selectedMenu === 'talents' || selectedMenu === 'constellations'"
       >
-        @if (selectedMenu === "profile") {
-          <app-overview-profile
-            [elementColor]="elementColor"
-            [char]="char"
-          ></app-overview-profile>
-        } @else if (selectedMenu === "talents") {
+        @if (selectedMenu === 'profile') {
+          <app-overview-profile [elementColor]="elementColor" [char]="char"></app-overview-profile>
+        } @else if (selectedMenu === 'talents') {
           <app-overview-talents
             [elementColor]="elementColor"
             [apiKey]="apikey"
             [char]="char"
             [element]="selectedElement"
           ></app-overview-talents>
-        } @else if (selectedMenu === "constellations") {
+        } @else if (selectedMenu === 'constellations') {
           <app-overview-constellations
             [elementColor]="elementColor"
             [apiKey]="apikey"
@@ -98,9 +80,6 @@
     </div>
   }
 </div>
-@if (selectedMenu === "profile") {
-  <div
-    class="background"
-    [style]="`background-image: url(${imageUrls.gachaSplash});`"
-  ></div>
+@if (selectedMenu === 'profile') {
+  <div class="background" [style]="`background-image: url(${imageUrls.gachaSplash});`"></div>
 }

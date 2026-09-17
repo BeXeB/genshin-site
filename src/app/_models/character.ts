@@ -154,10 +154,7 @@ export type CharacterTalentsResolved = Omit<CharacterTalents, 'costs'> & {
   costs: Record<`lvl${2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10}`, ResolvedItem[]>;
 };
 
-export type CharacterResolved = Omit<
-  Character,
-  'profile' | 'skills' | 'variants'
-> & {
+export type CharacterResolved = Omit<Character, 'profile' | 'skills' | 'variants'> & {
   profile: CharacterProfileResolved;
   skills?: CharacterTalentsResolved;
   brief?: CharacterBriefDescriptions;

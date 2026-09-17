@@ -31,15 +31,10 @@ export class OverviewConstellationsComponent {
     return map[skillName] || '';
   }
 
-  getDescription(
-    skill: ConstellationDetail | null,
-    skillKey: string,
-  ): string | null {
+  getDescription(skill: ConstellationDetail | null, skillKey: string): string | null {
     if (!skill) return null;
 
-    const briefKey = this.getBriefKey(
-      skillKey,
-    ) as keyof CharacterBriefDescriptions;
+    const briefKey = this.getBriefKey(skillKey) as keyof CharacterBriefDescriptions;
 
     const variantBrief = this.char?.variants?.[this.element]?.brief?.[briefKey];
 

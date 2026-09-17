@@ -1,8 +1,4 @@
-import {
-  Component,
-  ChangeDetectionStrategy,
-  ChangeDetectorRef,
-} from '@angular/core';
+import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { Material, MaterialResolved } from '../../_models/materials';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ResolverService } from '../../_services/resolver.service';
@@ -30,7 +26,7 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
     private resolver: ResolverService,
     private materialService: MaterialService,
     protected override formatterService: FormatterService,
-    private cdr: ChangeDetectorRef,
+    private cdr: ChangeDetectorRef
   ) {
     super(route, formatterService);
   }
@@ -41,7 +37,7 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
       .pipe(
         switchMap(() => this.materialService.getMaterial(slug)),
         map((data) => (data ? this.resolver.resolveMaterial(data) : null)),
-        takeUntil(this.destroy$),
+        takeUntil(this.destroy$)
       )
       .subscribe({
         next: (resolvedMaterial) => {

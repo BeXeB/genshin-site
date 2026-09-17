@@ -13,7 +13,7 @@ export const appConfig: ApplicationConfig = {
       routes,
       withInMemoryScrolling({
         scrollPositionRestoration: 'enabled',
-      }),
+      })
     ),
     httpProviders,
   ],

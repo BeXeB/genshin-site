@@ -30,20 +30,12 @@
 
         <div class="form-group">
           <label>ID (kisbetűk, számok, kötőjelek csak)</label>
-          <input
-            type="text"
-            [(ngModel)]="newHyperlinkId"
-            placeholder="pl., my-custom-link"
-          />
+          <input type="text" [(ngModel)]="newHyperlinkId" placeholder="pl., my-custom-link" />
         </div>
 
         <div class="form-group">
           <label>Név</label>
-          <input
-            type="text"
-            [(ngModel)]="newHyperlinkName"
-            placeholder="pl., My Custom Link"
-          />
+          <input type="text" [(ngModel)]="newHyperlinkName" placeholder="pl., My Custom Link" />
         </div>
 
         <div class="form-group">
@@ -56,9 +48,7 @@
             placeholder="Részletes leírás..."
             [rows]="6"
             (textChange)="newHyperlinkDescription = $event"
-            (hyperlinkRequested)="
-              onHyperlinkRequested('create-description', $event)
-            "
+            (hyperlinkRequested)="onHyperlinkRequested('create-description', $event)"
           ></app-formatted-text-editor>
         </div>
 
@@ -72,15 +62,11 @@
           <button
             (click)="createNewHyperlink()"
             class="button button-primary"
-            [disabled]="
-              !newHyperlinkId || !newHyperlinkName || !newHyperlinkDescription
-            "
+            [disabled]="!newHyperlinkId || !newHyperlinkName || !newHyperlinkDescription"
           >
             Létrehozás
           </button>
-          <button (click)="toggleCreateForm()" class="button button-secondary">
-            Mégse
-          </button>
+          <button (click)="toggleCreateForm()" class="button button-secondary">Mégse</button>
         </div>
       </div>
     }
@@ -109,17 +95,13 @@
             placeholder="Detailed description (supports formatting)..."
             [rows]="8"
             (textChange)="editingDescription = $event"
-            (hyperlinkRequested)="
-              onHyperlinkRequested('edit-description', $event)
-            "
+            (hyperlinkRequested)="onHyperlinkRequested('edit-description', $event)"
           ></app-formatted-text-editor>
         </div>
 
         <!-- Form actions -->
         <div class="form-actions">
-          <button (click)="saveHyperlink()" class="button">
-            Módosítások Mentése
-          </button>
+          <button (click)="saveHyperlink()" class="button">Módosítások Mentése</button>
           <button (click)="deleteHyperlink()" class="button">Törlés</button>
           <button (click)="deselectHyperlink()" class="button">Bezárás</button>
         </div>

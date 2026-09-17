@@ -55,18 +55,16 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
     private hyperlinkService: HyperlinkService,
     private insertionService: HyperlinkInsertionService,
     private modalService: ModalService,
-    private exportService: ExportService,
+    private exportService: ExportService
   ) {}
 
   ngOnInit(): void {
     this.loadHyperlinks();
 
     // Subscribe to hyperlink insertions from the modal
-    this.insertionService.insertion$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe((insertion) => {
-        this.insertHyperlink(insertion.id, insertion.displayText);
-      });
+    this.insertionService.insertion$.pipe(takeUntil(this.destroy$)).subscribe((insertion) => {
+      this.insertHyperlink(insertion.id, insertion.displayText);
+    });
   }
 
   /**
@@ -85,9 +83,7 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
           }
         });
 
-        this.hyperlinks = links.sort((a, b) =>
-          (a.name || '').localeCompare(b.name || ''),
-        );
+        this.hyperlinks = links.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
 
         this.filterHyperlinks();
         this.updateExportData();
@@ -100,8 +96,7 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
   filterHyperlinks(): void {
     const query = this.searchQuery.toLowerCase();
     this.filteredHyperlinks = this.hyperlinks.filter(
-      (h) =>
-        h.name.toLowerCase().includes(query) || String(h.id).includes(query),
+      (h) => h.name.toLowerCase().includes(query) || String(h.id).includes(query)
     );
   }
 
@@ -117,15 +112,13 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
    */
   onHyperlinkRequested(
     field: 'create-description' | 'edit-description',
-    request: HyperlinkRequest,
+    request: HyperlinkRequest
   ): void {
     this.currentEditField = field;
     this.currentHyperlinkRequest = request;
     // For edit field, prevent inserting the hyperlink into itself
     this.currentHyperlinkId =
-      field === 'edit-description'
-        ? (this.selectedHyperlink?.id as string)
-        : null;
+      field === 'edit-description' ? (this.selectedHyperlink?.id as string) : null;
     // Clear character context so quick links won't show in modal
     this.insertionService.setCurrentCharacter(null);
     // Exclude current hyperlink from being selectable to prevent infinite recursion
@@ -215,8 +208,7 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
     }
 
     if (!this.newHyperlinkId.match(/^[a-z0-9\-]+$/)) {
-      this.createError =
-        'ID must contain only lowercase letters, numbers, and hyphens';
+      this.createError = 'ID must contain only lowercase letters, numbers, and hyphens';
       return false;
     }
 
@@ -278,7 +270,7 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
     this.hyperlinkService.updateCustomHyperlink(
       this.selectedHyperlink.id as string,
       this.editingName,
-      this.editingDescription,
+      this.editingDescription
     );
 
     this.loadHyperlinks();
@@ -295,9 +287,7 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
       return;
     }
 
-    this.hyperlinkService.deleteCustomHyperlink(
-      this.selectedHyperlink.id as string,
-    );
+    this.hyperlinkService.deleteCustomHyperlink(this.selectedHyperlink.id as string);
 
     this.loadHyperlinks();
     this.deselectHyperlink();

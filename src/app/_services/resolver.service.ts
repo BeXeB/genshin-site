@@ -1,11 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { MaterialService } from './material.service';
-import {
-  Material,
-  MaterialCraft,
-  MaterialResolved,
-} from '../_models/materials';
+import { Material, MaterialCraft, MaterialResolved } from '../_models/materials';
 import { forkJoin, map, Observable, tap, of, catchError } from 'rxjs';
 import { ResolvedItem, Item } from '../_models/items';
 import {
@@ -33,7 +29,7 @@ export class ResolverService {
 
   constructor(
     private materialService: MaterialService,
-    private http: HttpClient,
+    private http: HttpClient
   ) {}
 
   initialize(): Observable<void> {
@@ -51,30 +47,26 @@ export class ResolverService {
           crafts.forEach((c) => this.craftMap.set(c.id, c));
           this.initialized = true;
         }),
-        map(() => void 0),
+        map(() => void 0)
       );
     }
 
     return this.init$;
   }
 
-  private getBriefDescriptions(
-    characterName: string,
-  ): Observable<CharacterBriefMap> {
+  private getBriefDescriptions(characterName: string): Observable<CharacterBriefMap> {
     const cached = this.briefCache.get(characterName);
     if (cached) {
       return of(cached);
     }
 
     return this.http
-      .get<CharacterBriefMap>(
-        `assets/json/briefdescription/${characterName}.json`,
-      )
+      .get<CharacterBriefMap>(`assets/json/briefdescription/${characterName}.json`)
       .pipe(
         tap((briefMap) => {
           this.briefCache.set(characterName, briefMap);
         }),
-        catchError(() => of({})),
+        catchError(() => of({}))
       );
   }
 
@@ -107,10 +99,7 @@ export class ResolverService {
         moraCost: craftData.moraCost,
         resultCount: craftData.resultCount,
         recipe: craftData.recipe.map((r) =>
-          this.resolveItem(
-            { id: r.id, name: r.name, count: r.count },
-            nextVisited,
-          ),
+          this.resolveItem({ id: r.id, name: r.name, count: r.count }, nextVisited)
         ),
       };
     }
@@ -131,10 +120,7 @@ export class ResolverService {
     const craft = craftData
       ? {
           recipe: craftData.recipe.map((r) =>
-            this.resolveItem(
-              { id: r.id, name: r.name, count: r.count },
-              new Set([material.id]),
-            ),
+            this.resolveItem({ id: r.id, name: r.name, count: r.count }, new Set([material.id]))
           ),
           moraCost: craftData?.moraCost,
           resultCount: craftData?.resultCount,
@@ -156,24 +142,18 @@ export class ResolverService {
     return this.getBriefDescriptions(char.profile.normalizedName).pipe(
       map((briefMap) => {
         const resolveCosts = <T extends { costs: Record<string, Item[]> }>(
-          obj: T,
+          obj: T
         ): T & { costs: Record<string, ResolvedItem[]> } => ({
           ...obj,
           costs: Object.fromEntries(
-            Object.entries(obj.costs).map(([k, v]) => [
-              k,
-              this.resolveItems(v),
-            ]),
+            Object.entries(obj.costs).map(([k, v]) => [k, this.resolveItems(v)])
           ) as any,
         });
 
         const resolvedProfile: CharacterProfileResolved = {
           ...char.profile,
           costs: Object.fromEntries(
-            Object.entries(char.profile.costs).map(([k, v]) => [
-              k,
-              this.resolveItems(v),
-            ]),
+            Object.entries(char.profile.costs).map(([k, v]) => [k, this.resolveItems(v)])
           ) as CharacterProfileResolved['costs'],
         };
 
@@ -181,8 +161,7 @@ export class ResolverService {
           ? resolveCosts(char.skills)
           : undefined;
 
-        const resolvedVariants:
-          Partial<Record<ElementType, CharacterVariantResolved>> | undefined =
+        const resolvedVariants: Partial<Record<ElementType, CharacterVariantResolved>> | undefined =
           char.variants
             ? Object.fromEntries(
                 Object.entries(char.variants).map(([element, variant]) => {
@@ -190,17 +169,14 @@ export class ResolverService {
                     ...variant,
                     skills: resolveCosts(variant.skills),
                     brief:
-                      (briefMap as CharacterBriefDescriptions).combat1 !==
-                      undefined
+                      (briefMap as CharacterBriefDescriptions).combat1 !== undefined
                         ? undefined
-                        : (
-                            briefMap as Partial<
-                              Record<ElementType, CharacterBriefDescriptions>
-                            >
-                          )[element as ElementType],
+                        : (briefMap as Partial<Record<ElementType, CharacterBriefDescriptions>>)[
+                            element as ElementType
+                          ],
                   };
                   return [element, resolvedVariant];
-                }),
+                })
               )
             : undefined;
 
@@ -213,7 +189,7 @@ export class ResolverService {
         };
 
         return resolved;
-      }),
+      })
     );
   }
 
@@ -221,7 +197,7 @@ export class ResolverService {
     return {
       ...weapon,
       costs: Object.fromEntries(
-        Object.entries(weapon.costs).map(([k, v]) => [k, this.resolveItems(v)]),
+        Object.entries(weapon.costs).map(([k, v]) => [k, this.resolveItems(v)])
       ) as WeaponResolved['costs'],
     };
   }
@@ -232,5 +208,4 @@ export class ResolverService {
 }
 
 export type CharacterBriefMap =
-  | CharacterBriefDescriptions
-  | Partial<Record<ElementType, CharacterBriefDescriptions>>;
+  CharacterBriefDescriptions | Partial<Record<ElementType, CharacterBriefDescriptions>>;

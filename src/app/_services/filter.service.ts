@@ -13,14 +13,12 @@ export class FilterService {
     searchTerm: string,
     searchFn: (item: T) => string,
     filters: PageFilters = {},
-    filterFns: Record<string, (item: T, values: string[]) => boolean> = {},
+    filterFns: Record<string, (item: T, values: string[]) => boolean> = {}
   ): T[] {
     let results = data ?? [];
 
     if (searchTerm) {
-      results = results.filter((i) =>
-        searchFn(i).toLowerCase().includes(searchTerm.toLowerCase()),
-      );
+      results = results.filter((i) => searchFn(i).toLowerCase().includes(searchTerm.toLowerCase()));
     }
 
     for (const key of Object.keys(filters ?? {})) {

@@ -29,11 +29,7 @@ export class FormatterService {
     return this.parseNodes(text, state);
   }
 
-  private parseNodes(
-    text: string,
-    state: { index: number },
-    endTag?: string,
-  ): AstNode[] {
+  private parseNodes(text: string, state: { index: number }, endTag?: string): AstNode[] {
     const nodes: AstNode[] = [];
 
     while (state.index < text.length) {
@@ -180,9 +176,7 @@ export class FormatterService {
     const tag = text.substring(state.index, end + 1);
 
     // Match patterns: {LINK#N123}, {LINK#Zcharacter-field}, {LINK#elemental-mastery}
-    const match = tag.match(
-      /\{LINK#(?:([NSPT])(\d+)|Z([a-z0-9\-]+)|([a-z0-9\-]+))\}/,
-    );
+    const match = tag.match(/\{LINK#(?:([NSPT])(\d+)|Z([a-z0-9\-]+)|([a-z0-9\-]+))\}/);
 
     // If tag doesn't match valid link format, treat as text to avoid infinite loop
     if (!match) {
@@ -258,8 +252,7 @@ export class FormatterService {
     const remainingText = text.substring(state.index);
 
     // Match the full sequence of all three LAYOUT tags
-    const layoutPattern =
-      /\{LAYOUT_MOBILE#([^}]*)\}\{LAYOUT_PC#([^}]*)\}\{LAYOUT_PS#([^}]*)\}/;
+    const layoutPattern = /\{LAYOUT_MOBILE#([^}]*)\}\{LAYOUT_PC#([^}]*)\}\{LAYOUT_PS#([^}]*)\}/;
     const match = remainingText.match(layoutPattern);
 
     if (!match) {

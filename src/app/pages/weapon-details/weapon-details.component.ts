@@ -1,8 +1,4 @@
-import {
-  Component,
-  ChangeDetectionStrategy,
-  ChangeDetectorRef,
-} from '@angular/core';
+import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { WeaponRefine, WeaponResolved } from '../../_models/weapons';
 import { Material } from '../../_models/materials';
@@ -22,13 +18,7 @@ import { FormattedTextComponent } from '../../_components/formatted-text-compone
 @Component({
   selector: 'app-weapon-details',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [
-    PageTitleComponent,
-    FormsModule,
-    DecimalPipe,
-    RouterLink,
-    FormattedTextComponent,
-  ],
+  imports: [PageTitleComponent, FormsModule, DecimalPipe, RouterLink, FormattedTextComponent],
   templateUrl: './weapon-details.component.html',
   styleUrl: './weapon-details.component.css',
 })
@@ -45,7 +35,7 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
     private weaponService: WeaponService,
     protected override formatterService: FormatterService,
     private cdr: ChangeDetectorRef,
-    private imageService: ImageService,
+    private imageService: ImageService
   ) {
     super(route, formatterService);
   }
@@ -97,7 +87,7 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
           if (!data) return null;
           return this.resolver.resolveWeapon(data);
         }),
-        takeUntil(this.destroy$),
+        takeUntil(this.destroy$)
       )
       .subscribe({
         next: (resolvedWeapon) => {
@@ -190,19 +180,14 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
       if (isNaN(currentNum) || isNaN(closestNum) || isNaN(targetNum)) {
         return closest;
       }
-      return Math.abs(currentNum - targetNum) < Math.abs(closestNum - targetNum)
-        ? idx
-        : closest;
+      return Math.abs(currentNum - targetNum) < Math.abs(closestNum - targetNum) ? idx : closest;
     }, 0);
 
     this.levelIndex = index !== -1 ? index : closestIndex;
   }
 
   getMaterialImageUrl(material: Material): string {
-    return this.imageService.getMaterialImage(
-      material.normalizedName,
-      material.type,
-    );
+    return this.imageService.getMaterialImage(material.normalizedName, material.type);
   }
 
   isPercentageSubstat(statType?: StatType | null): boolean {

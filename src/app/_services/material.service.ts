@@ -27,12 +27,12 @@ export class MaterialService {
       ];
 
       const observables = folders.map((folder) =>
-        this.http.get<Material[]>(`${this.basePath}${folder}/materials.json`),
+        this.http.get<Material[]>(`${this.basePath}${folder}/materials.json`)
       );
 
       this.materials$ = forkJoin(observables).pipe(
         map((arrays) => arrays.flat()),
-        shareReplay(1), // cache result
+        shareReplay(1) // cache result
       );
     }
     return this.materials$;
@@ -44,7 +44,7 @@ export class MaterialService {
 
   getMaterial(slug: string): Observable<Material | undefined> {
     return this.getMaterials().pipe(
-      map((materials) => materials.find((m) => m.normalizedName === slug)),
+      map((materials) => materials.find((m) => m.normalizedName === slug))
     );
   }
 }

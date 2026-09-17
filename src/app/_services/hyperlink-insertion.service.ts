@@ -16,11 +16,7 @@ export class HyperlinkInsertionService {
   currentCharacterName: string | null = null;
   excludeHyperlinkId: string | null = null; // ID to exclude from insertion (prevent self-insertion)
 
-  insertHyperlink(
-    id: string | number,
-    displayText?: string,
-    type?: 'C' | 'Z',
-  ): void {
+  insertHyperlink(id: string | number, displayText?: string, type?: 'C' | 'Z'): void {
     this.insertionSubject.next({ id, displayText, type });
   }
 

@@ -17,7 +17,7 @@ export class EditorsComponent implements OnInit {
   constructor(
     private router: Router,
     private route: ActivatedRoute,
-    private exportService: ExportService,
+    private exportService: ExportService
   ) {}
 
   ngOnInit(): void {

@@ -72,10 +72,7 @@
             (click)="selectElement(element)"
             [title]="element"
           >
-            <span
-              class="element-icon icon-mask"
-              [style]="getElementIconStyle(element)"
-            ></span>
+            <span class="element-icon icon-mask" [style]="getElementIconStyle(element)"></span>
           </button>
         }
       </div>
@@ -122,9 +119,7 @@
     <div class="talent-container">
       <div class="talent-cell left-cell card card-no-hover">
         <div class="talent-name">{{ selectedRow.talent.name }}</div>
-        <app-formatted-text
-          [text]="selectedRow.talent.descriptionRaw"
-        ></app-formatted-text>
+        <app-formatted-text [text]="selectedRow.talent.descriptionRaw"></app-formatted-text>
       </div>
       <div class="talent-cell right-cell card card-no-hover">
         <app-formatted-text-editor
@@ -136,9 +131,7 @@
           placeholder="Rövid leírás..."
           [rows]="4"
           (textChange)="onEditorTextChange(selectedRow.key, $event)"
-          (hyperlinkRequested)="
-            onEditorHyperlinkRequested(selectedRow.key, $event)
-          "
+          (hyperlinkRequested)="onEditorHyperlinkRequested(selectedRow.key, $event)"
         ></app-formatted-text-editor>
       </div>
     </div>
