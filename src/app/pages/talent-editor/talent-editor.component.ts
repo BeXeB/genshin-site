@@ -605,6 +605,9 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
     const newValue = value.slice(0, start) + linkMarkup + value.slice(end);
     this.briefDrafts[key] = newValue;
 
+    // Save the edited description to state
+    this.stateService.saveEditedDescription(key, newValue);
+
     // Capture the state change in history
     this.historyService.captureSnapshot(
       key,
