@@ -43,13 +43,9 @@ export class CharacterService {
     return this.http.get<Character>(`${this.basePath}${name}.json`);
   }
 
-  getBriefDescriptions(
-    name: string,
-  ): Observable<Partial<CharacterBriefDescriptions>> {
+  getBriefDescriptions(name: string): Observable<Partial<CharacterBriefDescriptions>> {
     return this.http
-      .get<Partial<CharacterBriefDescriptions>>(
-        `${this.briefDescriptionPath}${name}.json`,
-      )
+      .get<Partial<CharacterBriefDescriptions>>(`${this.briefDescriptionPath}${name}.json`)
       .pipe(catchError(() => of({})));
   }
 
@@ -58,9 +54,7 @@ export class CharacterService {
   }
 
   getSkillByGroupId(groupId: number): Observable<CombatTalent | undefined> {
-    return this.getTalentIndex().pipe(
-      map((index) => index.skillGroups.get(groupId)),
-    );
+    return this.getTalentIndex().pipe(map((index) => index.skillGroups.get(groupId)));
   }
 
   getPassiveTalent(id: number): Observable<PassiveTalent | undefined> {
@@ -68,9 +62,7 @@ export class CharacterService {
   }
 
   getConstellation(id: number): Observable<ConstellationDetail | undefined> {
-    return this.getTalentIndex().pipe(
-      map((index) => index.constellations.get(id)),
-    );
+    return this.getTalentIndex().pipe(map((index) => index.constellations.get(id)));
   }
 
   private getTalentIndex(): Observable<CharacterTalentIndex> {
@@ -79,11 +71,9 @@ export class CharacterService {
         switchMap((profiles) =>
           forkJoin(
             profiles.map((profile) =>
-              this.getCharacterDetails(profile.normalizedName).pipe(
-                catchError(() => of(undefined)),
-              ),
-            ),
-          ),
+              this.getCharacterDetails(profile.normalizedName).pipe(catchError(() => of(undefined)))
+            )
+          )
         ),
         map((characters) => {
           const index: CharacterTalentIndex = {
@@ -109,17 +99,14 @@ export class CharacterService {
 
           return index;
         }),
-        shareReplay(1),
+        shareReplay(1)
       );
     }
 
     return this.talentIndex$;
   }
 
-  private addTalents(
-    index: CharacterTalentIndex,
-    talents?: CharacterTalents,
-  ): void {
+  private addTalents(index: CharacterTalentIndex, talents?: CharacterTalents): void {
     if (!talents) {
       return;
     }
@@ -148,7 +135,7 @@ export class CharacterService {
 
   private addConstellation(
     index: CharacterTalentIndex,
-    constellation?: CharacterConstellation,
+    constellation?: CharacterConstellation
   ): void {
     if (!constellation) {
       return;

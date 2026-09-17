@@ -9,6 +9,6 @@ export const errorInterceptor: HttpInterceptorFn = (req, next) => {
           console.error('404 request:', req.urlWithParams);
         }
       },
-    }),
+    })
   );
 };

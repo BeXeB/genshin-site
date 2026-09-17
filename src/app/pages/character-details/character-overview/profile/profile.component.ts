@@ -109,19 +109,14 @@ export class OverviewProfileComponent implements OnInit {
       if (isNaN(currentNum) || isNaN(closestNum) || isNaN(targetNum)) {
         return closest;
       }
-      return Math.abs(currentNum - targetNum) < Math.abs(closestNum - targetNum)
-        ? idx
-        : closest;
+      return Math.abs(currentNum - targetNum) < Math.abs(closestNum - targetNum) ? idx : closest;
     }, 0);
 
     this.levelIndex = index !== -1 ? index : closestIndex;
   }
 
   getMaterialImageUrl(material: Material): string {
-    return this.imageService.getMaterialImage(
-      material.normalizedName,
-      material.type,
-    );
+    return this.imageService.getMaterialImage(material.normalizedName, material.type);
   }
 
   isPercentageSubstat(statType?: StatType | null): boolean {

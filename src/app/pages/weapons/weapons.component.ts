@@ -16,12 +16,7 @@ import { QualityTypeLabel, WeaponTypeLabel } from '../../_models/enum';
 @Component({
   selector: 'app-weapons',
   standalone: true,
-  imports: [
-    PageTitleComponent,
-    FormsModule,
-    FiltersComponent,
-    ItemCardComponent,
-  ],
+  imports: [PageTitleComponent, FormsModule, FiltersComponent, ItemCardComponent],
   templateUrl: './weapons.component.html',
   styleUrl: './weapons.component.css',
 })
@@ -51,8 +46,7 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
     weapons: (c: WeaponResolved, values: string[]) =>
       values.includes(WeaponTypeLabel[c.weaponType]),
 
-    rarity: (c: WeaponResolved, values: string[]) =>
-      values.includes(c.rarity.toString()),
+    rarity: (c: WeaponResolved, values: string[]) => values.includes(c.rarity.toString()),
   };
 
   get storageKey(): string {
@@ -63,7 +57,7 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
     private weaponsService: WeaponService,
     private resolver: ResolverService,
     protected override filterService: FilterService,
-    private imageService: ImageService,
+    private imageService: ImageService
   ) {
     super(filterService);
   }
@@ -71,7 +65,7 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
   loadData(): Observable<WeaponResolved[]> {
     return this.resolver.initialize().pipe(
       switchMap(() => this.weaponsService.getWeapons()),
-      map((data) => this.resolver.resolveWeapons(data)),
+      map((data) => this.resolver.resolveWeapons(data))
     );
   }
 

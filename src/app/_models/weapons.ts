@@ -24,8 +24,7 @@ export type Weapon = {
   r4?: WeaponRefine;
   r5?: WeaponRefine;
 
-  costs: Record<`ascend${1 | 2 | 3 | 4}`, Item[]> &
-    Partial<Record<`ascend${5 | 6}`, Item[]>>;
+  costs: Record<`ascend${1 | 2 | 3 | 4}`, Item[]> & Partial<Record<`ascend${5 | 6}`, Item[]>>;
 
   images: {
     filename_icon: string;

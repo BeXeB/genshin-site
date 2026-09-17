@@ -1,40 +1,36 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {
-  combineLatest,
-  map,
-  Observable,
-  shareReplay,
-  startWith,
-  Subject,
-} from 'rxjs';
+import { combineLatest, map, Observable, shareReplay, startWith, Subject } from 'rxjs';
 import { Hyperlink } from '../_models/hyperlinks';
+import { StorageService } from './storage.service';
 
 @Injectable({
   providedIn: 'root',
 })
 export class HyperlinkService {
   private gameHyperlinksPath = 'assets/json/hyperlinks.json';
-  private customHyperlinksPath = 'assets/json/custom-hyperlinks.json';
+  private customHyperlinksStorageKey = 'customHyperlinks';
 
   private hyperlinks$?: Observable<Map<string | number, Hyperlink>>;
-  private sessionHyperlinks: Map<string | number, Hyperlink> = new Map();
-  private sessionUpdated$ = new Subject<void>();
+  private customHyperlinksUpdated$ = new Subject<void>();
 
-  constructor(private http: HttpClient) {}
+  constructor(
+    private http: HttpClient,
+    private storageService: StorageService
+  ) {}
 
   /**
-   * Returns a Map of all hyperlinks (game + custom + session-added)
+   * Returns a Map of all hyperlinks (game + custom)
+   * Custom hyperlinks are persisted in localStorage
    * Keyed by: numeric ID for game hyperlinks, string ID for custom hyperlinks
    */
   getHyperlinksMap(): Observable<Map<string | number, Hyperlink>> {
     if (!this.hyperlinks$) {
       this.hyperlinks$ = combineLatest([
         this.http.get<Hyperlink[]>(this.gameHyperlinksPath),
-        this.http.get<Hyperlink[]>(this.customHyperlinksPath),
-        this.sessionUpdated$.pipe(
+        this.customHyperlinksUpdated$.pipe(
           startWith(undefined),
-          map(() => this.sessionHyperlinks),
+          map(() => this.getCustomHyperlinksFromStorage())
         ),
       ]).pipe(
         map(([gameLinks, customLinks]) => {
@@ -45,19 +41,14 @@ export class HyperlinkService {
             map.set(link.id, link);
           });
 
-          // Add custom hyperlinks (string IDs)
+          // Add custom hyperlinks (string IDs, persisted in storage)
           customLinks.forEach((link) => {
-            map.set(link.id, link);
-          });
-
-          // Add session hyperlinks (newly created during this session)
-          this.sessionHyperlinks.forEach((link) => {
             map.set(link.id, link);
           });
 
           return map;
         }),
-        shareReplay(1),
+        shareReplay(1)
       );
     }
 
@@ -65,17 +56,55 @@ export class HyperlinkService {
   }
 
   getHyperlink(id: string | number): Observable<Hyperlink | undefined> {
-    return this.getHyperlinksMap().pipe(
-      map((hyperlinks) => hyperlinks.get(id)),
-    );
+    return this.getHyperlinksMap().pipe(map((hyperlinks) => hyperlinks.get(id)));
   }
 
   /**
-   * Add a new custom hyperlink to the session store
-   * This makes it immediately available for search and export
+   * Get custom hyperlinks from storage
+   */
+  private getCustomHyperlinksFromStorage(): Hyperlink[] {
+    return this.storageService.getData<Hyperlink[]>(this.customHyperlinksStorageKey) || [];
+  }
+
+  /**
+   * Add a new custom hyperlink and persist to storage
    */
   addCustomHyperlink(hyperlink: Hyperlink): void {
-    this.sessionHyperlinks.set(hyperlink.id, hyperlink);
-    this.sessionUpdated$.next();
+    const customLinks = this.getCustomHyperlinksFromStorage();
+    customLinks.push(hyperlink);
+    this.storageService.saveData(this.customHyperlinksStorageKey, customLinks);
+    this.customHyperlinksUpdated$.next();
+  }
+
+  /**
+   * Update an existing custom hyperlink
+   */
+  updateCustomHyperlink(id: string | number, name: string, description: string): void {
+    const customLinks = this.getCustomHyperlinksFromStorage();
+    const link = customLinks.find((h) => h.id === id);
+    if (link) {
+      link.name = name;
+      link.description = description;
+      this.storageService.saveData(this.customHyperlinksStorageKey, customLinks);
+      this.customHyperlinksUpdated$.next();
+    }
+  }
+
+  /**
+   * Delete a custom hyperlink from storage
+   */
+  deleteCustomHyperlink(id: string | number): void {
+    const customLinks = this.getCustomHyperlinksFromStorage();
+    const filtered = customLinks.filter((h) => h.id !== id);
+    this.storageService.saveData(this.customHyperlinksStorageKey, filtered);
+    this.customHyperlinksUpdated$.next();
+  }
+
+  /**
+   * Emit an update event to notify subscribers of changes
+   * Used by editor views to trigger list updates
+   */
+  emitSessionUpdate(): void {
+    this.customHyperlinksUpdated$.next();
   }
 }

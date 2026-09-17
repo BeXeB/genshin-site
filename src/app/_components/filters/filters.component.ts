@@ -1,11 +1,4 @@
-import {
-  Component,
-  EventEmitter,
-  Input,
-  Output,
-  ElementRef,
-  HostListener,
-} from '@angular/core';
+import { Component, EventEmitter, Input, Output, ElementRef, HostListener } from '@angular/core';
 import { FilterGroup, PageFilters } from '../../_models/filters';
 
 @Component({

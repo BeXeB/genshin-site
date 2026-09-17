@@ -19,11 +19,11 @@ export class WeaponService {
         }
 
         const requests = names.map((name) =>
-          this.http.get<Weapon>(`${this.basePath}/${name}.json`),
+          this.http.get<Weapon>(`${this.basePath}/${name}.json`)
         );
 
         return forkJoin(requests);
-      }),
+      })
     );
   }
 

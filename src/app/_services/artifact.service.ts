@@ -19,11 +19,11 @@ export class ArtifactService {
         }
 
         const requests = names.map((name) =>
-          this.http.get<ArtifactSet>(`${this.basePath}/${name}.json`),
+          this.http.get<ArtifactSet>(`${this.basePath}/${name}.json`)
         );
 
         return forkJoin(requests);
-      }),
+      })
     );
   }
 

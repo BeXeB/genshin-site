@@ -1,10 +1,5 @@
 import { Component, Input, ViewChild, ElementRef } from '@angular/core';
-import {
-  Tier,
-  TierCharacter,
-  Tierlist,
-  TagDefinition,
-} from '../../_models/tierlist';
+import { Tier, TierCharacter, Tierlist, TagDefinition } from '../../_models/tierlist';
 import { CharacterProfile } from '../../_models/character';
 import { ImageService } from '../../_services/image.service';
 import html2canvas from 'html2canvas';
@@ -35,9 +30,7 @@ export class TierlistDisplayComponent {
   }
 
   getExtraNames(extra: string[]): string {
-    return extra
-      .map((key) => this.characterMap.get(key)?.name ?? key)
-      .join(', ');
+    return extra.map((key) => this.characterMap.get(key)?.name ?? key).join(', ');
   }
 
   getCharacterIcon(apiKey: string): string {
@@ -79,10 +72,7 @@ export class TierlistDisplayComponent {
        */
       const maxCharacters = Math.min(
         MAX_CHARACTERS_PER_ROW,
-        Math.max(
-          0,
-          ...this.tierlist.tiers.map((tier) => tier.characters.length),
-        ),
+        Math.max(0, ...this.tierlist.tiers.map((tier) => tier.characters.length))
       );
 
       /*
@@ -227,9 +217,7 @@ export class TierlistDisplayComponent {
 
       const quality = format === 'jpg' ? 0.95 : undefined;
 
-      const dataUrl = quality
-        ? canvas.toDataURL(mimeType, quality)
-        : canvas.toDataURL(mimeType);
+      const dataUrl = quality ? canvas.toDataURL(mimeType, quality) : canvas.toDataURL(mimeType);
 
       if (!dataUrl || dataUrl.length < 100) {
         console.error('Invalid canvas data');

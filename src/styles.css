@@ -1,9 +1,8 @@
-@import "shared-utilities.css";
+@import 'shared-utilities.css';
 
 @font-face {
-  font-family: "JetBrains Mono";
-  src: url("assets/fonts/JetBrainsMono/fonts/webfonts/JetBrainsMono-Regular.woff2")
-    format("woff2");
+  font-family: 'JetBrains Mono';
+  src: url('assets/fonts/JetBrainsMono/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2');
 }
 
 :root {
@@ -46,7 +45,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  font-family: "JetBrains Mono", monospace;
+  font-family: 'JetBrains Mono', monospace;
   background-color: var(--black);
   color: var(--white);
 }

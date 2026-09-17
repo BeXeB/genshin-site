@@ -1,8 +1,5 @@
 <div class="container">
-  <app-page-title
-    backLink="/materials"
-    title="Material Részletek"
-  ></app-page-title>
+  <app-page-title backLink="/materials" title="Material Részletek"></app-page-title>
   @if (material) {
     <div class="material-container card card-no-hover">
       <div class="material-card">
@@ -13,9 +10,7 @@
         <div class="details">
           <div class="name">{{ material.name }}</div>
           <div class="description">
-            <app-formatted-text
-              [nodes]="parseText(material.description)"
-            ></app-formatted-text>
+            <app-formatted-text [nodes]="parseText(material.description)"></app-formatted-text>
           </div>
           @if (material.daysOfWeek) {
             <div class="farm">
@@ -24,7 +19,7 @@
               </div>
               <div>
                 Days:
-                <span class="when">{{ material.daysOfWeek.join(", ") }}</span>
+                <span class="when">{{ material.daysOfWeek.join(', ') }}</span>
               </div>
             </div>
           }
@@ -46,10 +41,7 @@
                 <div class="amount">{{ cMat.count }}</div>
               </div>
             }
-            <div
-              class="craft-mat card"
-              [routerLink]="`/materials/${mora?.normalizedName}`"
-            >
+            <div class="craft-mat card" [routerLink]="`/materials/${mora?.normalizedName}`">
               <img
                 [title]="mora?.name"
                 [src]="`assets/images/materials/${mora?.type}/${mora?.normalizedName}.webp`"

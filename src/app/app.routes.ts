@@ -14,6 +14,8 @@ import { ArtifactDetailsComponent } from './pages/artifact-details/artifact-deta
 import { MaterialsComponent } from './pages/materials/materials.component';
 import { MaterialDetailsComponent } from './pages/material-details/material-details.component';
 import { TalentEditorComponent } from './pages/talent-editor/talent-editor.component';
+import { HyperlinkEditorPageComponent } from './pages/hyperlink-editor-page/hyperlink-editor-page.component';
+import { EditorsComponent } from './pages/editors/editors.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -30,5 +32,15 @@ export const routes: Routes = [
   { path: 'materials/:slug', component: MaterialDetailsComponent },
   { path: 'tools', component: ToolsComponent },
   { path: 'tierlist-maker', component: TierlistMakerComponent },
+  {
+    path: 'editors',
+    component: EditorsComponent,
+    children: [
+      { path: 'talent', component: TalentEditorComponent },
+      { path: 'hyperlink', component: HyperlinkEditorPageComponent },
+    ],
+  },
+  // Legacy routes for backward compatibility
   { path: 'talent-editor', component: TalentEditorComponent },
+  { path: 'hyperlink-editor', component: HyperlinkEditorPageComponent },
 ];

@@ -18,7 +18,7 @@ export class GuidesComponent implements OnInit, OnDestroy {
 
   constructor(
     private guidesService: GuidesService,
-    private imageService: ImageService,
+    private imageService: ImageService
   ) {}
 
   ngOnInit(): void {

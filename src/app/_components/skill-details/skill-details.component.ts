@@ -7,11 +7,7 @@ import {
   DestroyRef,
   ChangeDetectorRef,
 } from '@angular/core';
-import {
-  CombatTalent,
-  PassiveTalent,
-  ConstellationDetail,
-} from '../../_models/character';
+import { CombatTalent, PassiveTalent, ConstellationDetail } from '../../_models/character';
 import { FormsModule } from '@angular/forms';
 import { FormatterService } from '../../_services/formatter.service';
 import { Settings, SettingsService } from '../../_services/settings.service';
@@ -26,8 +22,7 @@ import { FormattedTextComponent } from '../formatted-text-component/formatted-te
   styleUrl: './skill-details.component.css',
 })
 export class SkillDetailsComponent implements OnInit, OnChanges {
-  @Input() skill: CombatTalent | PassiveTalent | ConstellationDetail | null =
-    null;
+  @Input() skill: CombatTalent | PassiveTalent | ConstellationDetail | null = null;
   @Input() elementColor: string | null = null;
   @Input() imageUrl: string | null = null;
   @Input() briefDescription: string | null = null;
@@ -43,13 +38,12 @@ export class SkillDetailsComponent implements OnInit, OnChanges {
     private formatter: FormatterService,
     private settingsService: SettingsService,
     private destroyRef: DestroyRef,
-    private cdr: ChangeDetectorRef,
+    private cdr: ChangeDetectorRef
   ) {}
 
   ngOnInit() {
     if (this.skill) {
-      this.isCombatSkill =
-        (this.skill as CombatTalent).attributes !== undefined;
+      this.isCombatSkill = (this.skill as CombatTalent).attributes !== undefined;
     }
     this.settingsService.settings
       .pipe(takeUntilDestroyed(this.destroyRef))
@@ -84,7 +78,7 @@ export class SkillDetailsComponent implements OnInit, OnChanges {
 
   getTalentStats(
     talent: CombatTalent | PassiveTalent,
-    level: number,
+    level: number
   ): { name: string; value: string }[] {
     if (!this.isCombatSkill) {
       return [];
@@ -102,8 +96,7 @@ export class SkillDetailsComponent implements OnInit, OnChanges {
         format = match[2];
 
         if (paramName && format) {
-          const paramValue =
-            combatSkill.attributes.parameters[paramName][level - 1];
+          const paramValue = combatSkill.attributes.parameters[paramName][level - 1];
           let formattedValue: string;
           switch (format) {
             case 'F1P':
@@ -129,9 +122,7 @@ export class SkillDetailsComponent implements OnInit, OnChanges {
   }
 
   updateDescription(): void {
-    const finalDesc = this.settings?.detailed
-      ? this.skill?.descriptionRaw
-      : this.briefDescription;
+    const finalDesc = this.settings?.detailed ? this.skill?.descriptionRaw : this.briefDescription;
 
     this.talentDesc = this.formatter.parse(finalDesc ?? '');
 

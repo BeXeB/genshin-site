@@ -1,7 +1,5 @@
-<div class="container">
+@if (!selectedCharacter) {
   <div class="header-row">
-    <app-page-title title="Talent Editor" backLink="/tools" />
-
     <div class="character-search">
       <input
         type="text"
@@ -27,104 +25,115 @@
       }
     </div>
   </div>
+}
 
-  @if (selectedCharacter) {
-    <div class="selected-character card card-no-hover">
-      <div class="character-info">
-        <img
-          class="character-icon"
-          [src]="getCharacterIcon(selectedCharacter.normalizedName)"
-          [alt]="selectedCharacter.name"
+@if (selectedCharacter) {
+  <div class="selected-character card card-no-hover">
+    <div class="character-info">
+      <img
+        class="character-icon"
+        [src]="getCharacterIcon(selectedCharacter.normalizedName)"
+        [alt]="selectedCharacter.name"
+      />
+
+      <div class="character-search-inline">
+        <input
+          type="text"
+          placeholder="Karakter neve..."
+          [(ngModel)]="search"
+          (focus)="showDropdown = true; $event.target.select()"
+          (blur)="hideDropdown()"
         />
-        <span>{{ selectedCharacter.name }}</span>
+
+        @if (showDropdown) {
+          <div class="dropdown">
+            @for (char of filteredCharacters; track char.id) {
+              <div class="option" (mousedown)="selectCharacter(char)">
+                <img
+                  class="option-icon"
+                  [src]="getCharacterIcon(char.normalizedName)"
+                  [alt]="char.name"
+                />
+                <span>{{ char.name }}</span>
+              </div>
+            }
+          </div>
+        }
       </div>
-
-      @if (getVariantElements().length > 0) {
-        <div class="element-selector">
-          @for (element of getVariantElements(); track element) {
-            <button
-              class="element-btn"
-              [class.active]="selectedElement === element"
-              type="button"
-              (click)="selectElement(element)"
-              [title]="element"
-            >
-              <span
-                class="element-icon icon-mask"
-                [style]="getElementIconStyle(element)"
-              ></span>
-            </button>
-          }
-        </div>
-      }
-
-      <button
-        class="export-btn"
-        type="button"
-        (click)="exportBriefDescriptionJson()"
-      >
-        Letöltés JSON-ként
-      </button>
-    </div>
-  }
-
-  @if (selectedCharacterDetails && talentSections.length > 0) {
-    <div class="section-selector">
-      @for (section of talentSections; track section.label) {
-        <button
-          #sectionBtnEl
-          class="section-btn"
-          [class.active]="selectedSection === section.label"
-          type="button"
-          (click)="selectSection(section.label)"
-        >
-          {{ section.label }}
-        </button>
-      }
     </div>
 
-    @if (getCurrentSection(); as currentSection) {
-      <div class="talent-button-group">
-        <div class="buttons-wrapper">
-          @for (row of currentSection.rows; track row.key) {
-            <button
-              #talentBtnEl
-              class="talent-btn"
-              [class.active]="selectedTalentKey === row.key"
-              type="button"
-              (click)="selectTalent(row.key)"
-            >
-              {{ getTalentTabLabel(row) }}
-            </button>
-          }
-        </div>
+    @if (getVariantElements().length > 0) {
+      <div class="element-selector">
+        @for (element of getVariantElements(); track element) {
+          <button
+            class="element-btn"
+            [class.active]="selectedElement === element"
+            type="button"
+            (click)="selectElement(element)"
+            [title]="element"
+          >
+            <span class="element-icon icon-mask" [style]="getElementIconStyle(element)"></span>
+          </button>
+        }
       </div>
     }
 
-    @if (getSelectedTalent(); as selectedRow) {
-      <div class="talent-container">
-        <div class="talent-cell left-cell card card-no-hover">
-          <div class="talent-name">{{ selectedRow.talent.name }}</div>
-          <app-formatted-text
-            [text]="selectedRow.talent.descriptionRaw"
-          ></app-formatted-text>
+    @if (selectedCharacterDetails && talentSections.length > 0) {
+      <div class="talent-navigation">
+        <div class="section-selector">
+          @for (section of talentSections; track section.label) {
+            <button
+              class="section-btn"
+              [class.active]="selectedSection === section.label"
+              type="button"
+              (click)="selectSection(section.label)"
+            >
+              {{ section.label }}
+            </button>
+          }
         </div>
-        <div class="talent-cell right-cell card card-no-hover">
-          <app-formatted-text-editor
-            [text]="briefDrafts[selectedRow.key] ?? ''"
-            [fieldKey]="selectedRow.key"
-            [colorPresets]="colorPresets"
-            [showToolbar]="true"
-            [showPreview]="true"
-            placeholder="Rövid leírás..."
-            [rows]="4"
-            (textChange)="onEditorTextChange(selectedRow.key, $event)"
-            (hyperlinkRequested)="
-              onEditorHyperlinkRequested(selectedRow.key, $event)
-            "
-          ></app-formatted-text-editor>
-        </div>
+
+        @if (getCurrentSection(); as currentSection) {
+          <div class="talent-button-group">
+            <div class="buttons-wrapper">
+              @for (row of currentSection.rows; track row.key) {
+                <button
+                  class="talent-btn"
+                  [class.active]="selectedTalentKey === row.key"
+                  type="button"
+                  (click)="selectTalent(row.key)"
+                >
+                  {{ getTalentTabLabel(row) }}
+                </button>
+              }
+            </div>
+          </div>
+        }
       </div>
     }
+  </div>
+}
+
+@if (selectedCharacterDetails && talentSections.length > 0) {
+  @if (getSelectedTalent(); as selectedRow) {
+    <div class="talent-container">
+      <div class="talent-cell left-cell card card-no-hover">
+        <div class="talent-name">{{ selectedRow.talent.name }}</div>
+        <app-formatted-text [text]="selectedRow.talent.descriptionRaw"></app-formatted-text>
+      </div>
+      <div class="talent-cell right-cell card card-no-hover">
+        <app-formatted-text-editor
+          [text]="briefDrafts[selectedRow.key] ?? ''"
+          [fieldKey]="selectedRow.key"
+          [colorPresets]="colorPresets"
+          [showToolbar]="true"
+          [showPreview]="true"
+          placeholder="Rövid leírás..."
+          [rows]="4"
+          (textChange)="onEditorTextChange(selectedRow.key, $event)"
+          (hyperlinkRequested)="onEditorHyperlinkRequested(selectedRow.key, $event)"
+        ></app-formatted-text-editor>
+      </div>
+    </div>
   }
-</div>
+}

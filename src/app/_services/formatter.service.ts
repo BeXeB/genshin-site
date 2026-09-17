@@ -29,11 +29,7 @@ export class FormatterService {
     return this.parseNodes(text, state);
   }
 
-  private parseNodes(
-    text: string,
-    state: { index: number },
-    endTag?: string,
-  ): AstNode[] {
+  private parseNodes(text: string, state: { index: number }, endTag?: string): AstNode[] {
     const nodes: AstNode[] = [];
 
     while (state.index < text.length) {
@@ -61,6 +57,9 @@ export class FormatterService {
         const link = this.parseLink(text, state);
         if (link) {
           nodes.push(link);
+        } else {
+          // Malformed link - treat { as text and move forward to avoid infinite loop
+          state.index++;
         }
         continue;
       }
@@ -113,9 +112,36 @@ export class FormatterService {
       state.index++;
     }
 
+    const textContent = text.substring(start, state.index);
+
+    // If we parsed nothing but encountered an unexpected closing tag, treat it as text
+    // and advance past it to avoid infinite loops
+    if (textContent.length === 0 && state.index < text.length) {
+      if (
+        text.startsWith('</b>', state.index) ||
+        text.startsWith('</i>', state.index) ||
+        text.startsWith('</color>', state.index) ||
+        text.startsWith('{/LINK}', state.index)
+      ) {
+        // Consume the unexpected closing tag as text
+        let tagEnd = state.index + 1;
+        while (tagEnd < text.length && text[tagEnd] !== '>') {
+          tagEnd++;
+        }
+        if (tagEnd < text.length) {
+          tagEnd++;
+        }
+        state.index = tagEnd;
+        return {
+          type: 'text',
+          text: text.substring(start, state.index),
+        };
+      }
+    }
+
     return {
       type: 'text',
-      text: text.substring(start, state.index),
+      text: textContent,
     };
   }
 
@@ -142,15 +168,19 @@ export class FormatterService {
   private parseLink(text: string, state: { index: number }): LinkNode | null {
     const end = text.indexOf('}', state.index);
 
+    // If no closing brace found, treat as text to avoid infinite loop
+    if (end === -1) {
+      return null;
+    }
+
     const tag = text.substring(state.index, end + 1);
 
     // Match patterns: {LINK#N123}, {LINK#Zcharacter-field}, {LINK#elemental-mastery}
-    const match = tag.match(
-      /\{LINK#(?:([NSPT])(\d+)|Z([a-z0-9\-]+)|([a-z0-9\-]+))\}/,
-    );
+    const match = tag.match(/\{LINK#(?:([NSPT])(\d+)|Z([a-z0-9\-]+)|([a-z0-9\-]+))\}/);
 
+    // If tag doesn't match valid link format, treat as text to avoid infinite loop
     if (!match) {
-      throw new Error(`Invalid link tag: ${tag}`);
+      return null;
     }
 
     let type: LinkType;
@@ -222,8 +252,7 @@ export class FormatterService {
     const remainingText = text.substring(state.index);
 
     // Match the full sequence of all three LAYOUT tags
-    const layoutPattern =
-      /\{LAYOUT_MOBILE#([^}]*)\}\{LAYOUT_PC#([^}]*)\}\{LAYOUT_PS#([^}]*)\}/;
+    const layoutPattern = /\{LAYOUT_MOBILE#([^}]*)\}\{LAYOUT_PC#([^}]*)\}\{LAYOUT_PS#([^}]*)\}/;
     const match = remainingText.match(layoutPattern);
 
     if (!match) {

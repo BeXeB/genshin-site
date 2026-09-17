@@ -14,16 +14,17 @@ export class HyperlinkInsertionService {
   public insertion$ = this.insertionSubject.asObservable();
 
   currentCharacterName: string | null = null;
+  excludeHyperlinkId: string | null = null; // ID to exclude from insertion (prevent self-insertion)
 
-  insertHyperlink(
-    id: string | number,
-    displayText?: string,
-    type?: 'C' | 'Z',
-  ): void {
+  insertHyperlink(id: string | number, displayText?: string, type?: 'C' | 'Z'): void {
     this.insertionSubject.next({ id, displayText, type });
   }
 
   setCurrentCharacter(characterName: string | null): void {
     this.currentCharacterName = characterName;
+  }
+
+  setExcludedHyperlinkId(id: string | null): void {
+    this.excludeHyperlinkId = id;
   }
 }

@@ -14,7 +14,7 @@ export abstract class BaseDetailComponent<T> implements OnInit, OnDestroy {
 
   constructor(
     protected route: ActivatedRoute,
-    protected formatterService: FormatterService,
+    protected formatterService: FormatterService
   ) {}
 
   ngOnInit(): void {
@@ -26,7 +26,7 @@ export abstract class BaseDetailComponent<T> implements OnInit, OnDestroy {
           this.loadDetail(slug);
           return [];
         }),
-        takeUntil(this.destroy$),
+        takeUntil(this.destroy$)
       )
       .subscribe();
   }

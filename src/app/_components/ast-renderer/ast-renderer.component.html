@@ -1,14 +1,14 @@
 @for (node of nodes; track $index) {
   @switch (node.type) {
-    @case ("text") {
+    @case ('text') {
       <div>{{ node.text }}</div>
     }
 
-    @case ("lineBreak") {
+    @case ('lineBreak') {
       <br />
     }
 
-    @case ("italic") {
+    @case ('italic') {
       <i>
         <app-ast-renderer
           [nodes]="node.children"
@@ -19,7 +19,7 @@
       </i>
     }
 
-    @case ("bold") {
+    @case ('bold') {
       <b>
         <app-ast-renderer
           [nodes]="node.children"
@@ -30,7 +30,7 @@
       </b>
     }
 
-    @case ("color") {
+    @case ('color') {
       <div
         [style.color]="node.color"
         [style.text-decoration]="underline ? 'underline' : null"
@@ -45,22 +45,14 @@
       </div>
     }
 
-    @case ("link") {
-      <app-hyperlink
-        [id]="node.id"
-        [linkType]="node.linkType"
-        [elementColor]="elementColor"
-      >
-        <app-ast-renderer
-          [nodes]="node.children"
-          [elementColor]="elementColor"
-          [underline]="true"
-        >
+    @case ('link') {
+      <app-hyperlink [id]="node.id" [linkType]="node.linkType" [elementColor]="elementColor">
+        <app-ast-renderer [nodes]="node.children" [elementColor]="elementColor" [underline]="true">
         </app-ast-renderer>
       </app-hyperlink>
     }
 
-    @case ("param") {
+    @case ('param') {
       <app-param-value
         [groupId]="node.groupId"
         [level]="node.level"

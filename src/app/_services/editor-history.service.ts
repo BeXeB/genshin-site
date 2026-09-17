@@ -21,8 +21,7 @@ export class EditorHistoryService {
   // Per-field history stacks
   private history: Map<string | number, HistoryEntry[]> = new Map();
   private historyIndex: Map<string | number, number> = new Map();
-  private inputTimers: Map<string | number, ReturnType<typeof setTimeout>> =
-    new Map();
+  private inputTimers: Map<string | number, ReturnType<typeof setTimeout>> = new Map();
 
   /**
    * Initialize history for a new field with an initial value.
@@ -61,7 +60,7 @@ export class EditorHistoryService {
     fieldKey: string | number,
     value: string,
     selectionStart: number,
-    selectionEnd: number,
+    selectionEnd: number
   ): void {
     // Flush any pending debounce for this field
     this.flushPending(fieldKey);
@@ -94,7 +93,7 @@ export class EditorHistoryService {
     fieldKey: string | number,
     value: string,
     selectionStart: number,
-    selectionEnd: number,
+    selectionEnd: number
   ): void {
     let stack = this.history.get(fieldKey);
     let index = this.historyIndex.get(fieldKey);

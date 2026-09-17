@@ -9,10 +9,7 @@
       [style.border-color]="elementColor"
     >
       <strong>{{ title }}</strong>
-      <app-ast-renderer
-        [nodes]="descriptionNodes"
-        [elementColor]="elementColor"
-      >
+      <app-ast-renderer [nodes]="descriptionNodes" [elementColor]="elementColor">
       </app-ast-renderer>
     </div>
   }

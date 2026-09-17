@@ -1,9 +1,4 @@
-import {
-  Component,
-  OnInit,
-  ChangeDetectionStrategy,
-  ChangeDetectorRef,
-} from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { CharacterService } from '../../_services/character.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
@@ -20,11 +15,7 @@ import { ElementType, ElementTypeLabel } from '../../_models/enum';
   selector: 'app-character-details',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [
-    PageTitleComponent,
-    CharacterOverviewComponent,
-    CharacterGuideComponent,
-  ],
+  imports: [PageTitleComponent, CharacterOverviewComponent, CharacterGuideComponent],
   templateUrl: './character-details.component.html',
   styleUrl: './character-details.component.css',
 })
@@ -74,7 +65,7 @@ export class CharacterDetailsComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private storageService: StorageService,
-    private cdr: ChangeDetectorRef,
+    private cdr: ChangeDetectorRef
   ) {}
 
   ngOnInit(): void {
@@ -88,10 +79,10 @@ export class CharacterDetailsComponent implements OnInit {
           this.apikey = name;
           return this.resolverService.initialize().pipe(
             switchMap(() => this.characterService.getCharacterDetails(name)),
-            switchMap((data) => this.resolverService.resolveCharacter(data)),
+            switchMap((data) => this.resolverService.resolveCharacter(data))
           );
         }),
-        takeUntil(this.destroy$),
+        takeUntil(this.destroy$)
       )
       .subscribe({
         next: (resolvedChar) => {

@@ -9,13 +9,7 @@ import { CharacterService } from '../../_services/character.service';
 import { ImageService } from '../../_services/image.service';
 import { TierlistService } from '../../_services/tierlist.service';
 import { FormsModule } from '@angular/forms';
-import {
-  CharacterTag,
-  TagDefinition,
-  Tier,
-  TierCharacter,
-  Tierlist,
-} from '../../_models/tierlist';
+import { CharacterTag, TagDefinition, Tier, TierCharacter, Tierlist } from '../../_models/tierlist';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { StorageService } from '../../_services/storage.service';
 import { CharacterProfile } from '../../_models/character';
@@ -24,12 +18,7 @@ import { TierlistDisplayComponent } from '../../_components/tierlist-display/tie
 @Component({
   selector: 'app-tierlist-maker',
   standalone: true,
-  imports: [
-    FormsModule,
-    DragDropModule,
-    PageTitleComponent,
-    TierlistDisplayComponent,
-  ],
+  imports: [FormsModule, DragDropModule, PageTitleComponent, TierlistDisplayComponent],
   templateUrl: './tierlist-maker.component.html',
   styleUrl: './tierlist-maker.component.css',
 })
@@ -41,14 +30,11 @@ export class TierlistMakerComponent implements OnInit {
     private characterSerivce: CharacterService,
     private storageService: StorageService,
     private imageService: ImageService,
-    private tierlistService: TierlistService,
+    private tierlistService: TierlistService
   ) {}
 
   get allDropLists() {
-    return [
-      'charactersList',
-      ...this.tierlist.tiers.map((_, i) => 'tier-' + i),
-    ];
+    return ['charactersList', ...this.tierlist.tiers.map((_, i) => 'tier-' + i)];
   }
 
   characters: TierCharacter[] = [];
@@ -110,20 +96,18 @@ export class TierlistMakerComponent implements OnInit {
       });
     }
 
-    this.characterSerivce
-      .getCharacters()
-      .subscribe((data: CharacterProfile[]) => {
-        this.characterMap = new Map(data.map((c) => [c.normalizedName, c]));
+    this.characterSerivce.getCharacters().subscribe((data: CharacterProfile[]) => {
+      this.characterMap = new Map(data.map((c) => [c.normalizedName, c]));
 
-        this.characters = data
-          .map((c) => ({
-            id: c.id,
-            apiKey: c.normalizedName,
-            tags: [],
-            profile: c,
-          }))
-          .sort((b, a) => a.profile.sortId - b.profile.sortId);
-      });
+      this.characters = data
+        .map((c) => ({
+          id: c.id,
+          apiKey: c.normalizedName,
+          tags: [],
+          profile: c,
+        }))
+        .sort((b, a) => a.profile.sortId - b.profile.sortId);
+    });
   }
 
   addTier() {
@@ -142,9 +126,7 @@ export class TierlistMakerComponent implements OnInit {
   }
 
   getExtraNames(extra: string[]): string {
-    return extra
-      .map((key) => this.characterMap.get(key)?.name ?? key)
-      .join(', ');
+    return extra.map((key) => this.characterMap.get(key)?.name ?? key).join(', ');
   }
 
   addTag() {
@@ -204,9 +186,7 @@ export class TierlistMakerComponent implements OnInit {
 
   removeTagFromCharacter(tagId: string) {
     if (!this.selectedCharacter) return;
-    this.selectedCharacter.tags = this.selectedCharacter.tags.filter(
-      (t) => t.id !== tagId,
-    );
+    this.selectedCharacter.tags = this.selectedCharacter.tags.filter((t) => t.id !== tagId);
 
     this.storageService.saveTierlist(this.tierlist);
   }
@@ -232,11 +212,7 @@ export class TierlistMakerComponent implements OnInit {
 
   drop(event: CdkDragDrop<any[]>) {
     if (event.previousContainer === event.container) {
-      moveItemInArray(
-        event.container.data,
-        event.previousIndex,
-        event.currentIndex,
-      );
+      moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
       return;
     }
 
@@ -269,7 +245,7 @@ export class TierlistMakerComponent implements OnInit {
       event.previousContainer.data,
       event.container.data,
       event.previousIndex,
-      event.currentIndex,
+      event.currentIndex
     );
 
     this.storageService.saveTierlist(this.tierlist);
@@ -277,11 +253,7 @@ export class TierlistMakerComponent implements OnInit {
 
   dropTag(event: CdkDragDrop<TagDefinition[]>) {
     if (event.previousContainer === event.container) {
-      moveItemInArray(
-        event.container.data,
-        event.previousIndex,
-        event.currentIndex,
-      );
+      moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
       this.storageService.saveTierlist(this.tierlist);
     }
   }
@@ -361,8 +333,7 @@ export class TierlistMakerComponent implements OnInit {
     reader.onload = (e: ProgressEvent<FileReader>) => {
       try {
         const content = e.target?.result as string;
-        const importedTierlist =
-          this.tierlistService.getTierlistFromJson(content);
+        const importedTierlist = this.tierlistService.getTierlistFromJson(content);
 
         if (!this.validateTierlist(importedTierlist)) {
           return;
@@ -434,9 +405,7 @@ export class TierlistMakerComponent implements OnInit {
     const search = this.selectedTagId.toLowerCase().trim();
 
     return this.tierlist.tags.filter(
-      (tag) =>
-        tag.label.toLowerCase().includes(search) ||
-        tag.id.toLowerCase().includes(search),
+      (tag) => tag.label.toLowerCase().includes(search) || tag.id.toLowerCase().includes(search)
     );
   }
 
@@ -452,11 +421,7 @@ export class TierlistMakerComponent implements OnInit {
   }
 
   dropTier(event: CdkDragDrop<Tier[]>) {
-    moveItemInArray(
-      this.tierlist.tiers,
-      event.previousIndex,
-      event.currentIndex,
-    );
+    moveItemInArray(this.tierlist.tiers, event.previousIndex, event.currentIndex);
 
     this.storageService.saveTierlist(this.tierlist);
   }

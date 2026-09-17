@@ -49,7 +49,7 @@
 }
 
 .slider::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 18px;
   width: 18px;

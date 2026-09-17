@@ -50,19 +50,14 @@ export class CharacterOverviewComponent implements OnInit, OnChanges {
 
   private restoreTabState(): void {
     if (this.char?.profile?.id) {
-      this.selectedMenu = this.tabStateService.getTabForCharacter(
-        String(this.char.profile.id),
-      );
+      this.selectedMenu = this.tabStateService.getTabForCharacter(String(this.char.profile.id));
     }
   }
 
   selectMenu(menu: 'profile' | 'talents' | 'constellations'): void {
     this.selectedMenu = menu;
     if (this.char?.profile?.id) {
-      this.tabStateService.setTabForCharacter(
-        String(this.char.profile.id),
-        menu,
-      );
+      this.tabStateService.setTabForCharacter(String(this.char.profile.id), menu);
     }
   }
 
@@ -106,10 +101,7 @@ export class CharacterOverviewComponent implements OnInit, OnChanges {
 
   elementTypeLabel = ElementTypeLabel;
 
-  getElementStyle(
-    element: ElementType,
-    imageUrl: string,
-  ): Record<string, string> {
+  getElementStyle(element: ElementType, imageUrl: string): Record<string, string> {
     const color = this.elementColors[element] ?? 'transparent';
 
     return {

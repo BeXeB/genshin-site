@@ -1,10 +1,5 @@
 import { Injectable } from '@angular/core';
-import {
-  ElementType,
-  ElementTypeLabel,
-  WeaponType,
-  WeaponTypeLabel,
-} from '../_models/enum';
+import { ElementType, ElementTypeLabel, WeaponType, WeaponTypeLabel } from '../_models/enum';
 
 @Injectable({
   providedIn: 'root',
@@ -64,10 +59,7 @@ export class ImageService {
    * @param materialType - Material type folder (e.g., 'boss', 'gemstone', 'generic'). Defaults to 'generic' if not provided
    * @returns URL to material image
    */
-  getMaterialImage(
-    materialId: string,
-    materialType: string = 'generic',
-  ): string {
+  getMaterialImage(materialId: string, materialType: string = 'generic'): string {
     return `${this.baseUrl}/materials/${materialType}/${materialId}.webp`;
   }
 

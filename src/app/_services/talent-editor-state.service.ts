@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { CharacterBriefDescriptions } from '../_models/character';
 import { ElementType } from '../_models/enum';
+import { StorageService } from './storage.service';
 
 interface TalentEditorState {
   selectedCharacterId: string | null;
@@ -16,6 +17,8 @@ interface TalentEditorState {
 export class TalentEditorStateService {
   private readonly STORAGE_KEY = 'talentEditorState';
 
+  constructor(private storageService: StorageService) {}
+
   private getEmptyState(): TalentEditorState {
     return {
       selectedCharacterId: null,
@@ -27,28 +30,18 @@ export class TalentEditorStateService {
   }
 
   /**
-   * Get the current state from sessionStorage
+   * Get the current state from storage
    */
   getState(): TalentEditorState {
-    try {
-      const stored = sessionStorage.getItem(this.STORAGE_KEY);
-      if (!stored) return this.getEmptyState();
-      return JSON.parse(stored) as TalentEditorState;
-    } catch (error) {
-      console.error('Error reading talent editor state:', error);
-      return this.getEmptyState();
-    }
+    const stored = this.storageService.getData<TalentEditorState>(this.STORAGE_KEY);
+    return stored || this.getEmptyState();
   }
 
   /**
-   * Save the current state to sessionStorage
+   * Save the current state to storage
    */
   private saveState(state: TalentEditorState): void {
-    try {
-      sessionStorage.setItem(this.STORAGE_KEY, JSON.stringify(state));
-    } catch (error) {
-      console.error('Error saving talent editor state:', error);
-    }
+    this.storageService.saveData(this.STORAGE_KEY, state);
   }
 
   /**
@@ -58,7 +51,7 @@ export class TalentEditorStateService {
     characterId: string,
     section: string | null,
     talentKey: keyof CharacterBriefDescriptions | null,
-    element: ElementType | null,
+    element: ElementType | null
   ): void {
     const state = this.getState();
     state.selectedCharacterId = characterId;
@@ -72,10 +65,7 @@ export class TalentEditorStateService {
    * Save an edited description (delta approach - only store if edited)
    * Only called when user modifies content
    */
-  saveEditedDescription(
-    talentKey: keyof CharacterBriefDescriptions,
-    content: string,
-  ): void {
+  saveEditedDescription(talentKey: keyof CharacterBriefDescriptions, content: string): void {
     const state = this.getState();
     if (content && content.trim().length > 0) {
       state.editedDescriptions[String(talentKey)] = content;
@@ -90,9 +80,7 @@ export class TalentEditorStateService {
    * Get an edited description if it exists, otherwise undefined
    * Component should fall back to original JSON value if undefined
    */
-  getEditedDescription(
-    talentKey: keyof CharacterBriefDescriptions,
-  ): string | undefined {
+  getEditedDescription(talentKey: keyof CharacterBriefDescriptions): string | undefined {
     const state = this.getState();
     return state.editedDescriptions[String(talentKey)];
   }
@@ -113,10 +101,6 @@ export class TalentEditorStateService {
    * Clear all state (called on download or error)
    */
   clearAll(): void {
-    try {
-      sessionStorage.removeItem(this.STORAGE_KEY);
-    } catch (error) {
-      console.error('Error clearing talent editor state:', error);
-    }
+    this.storageService.saveData(this.STORAGE_KEY, this.getEmptyState());
   }
 }

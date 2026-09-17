@@ -11,6 +11,7 @@ import { map, Observable, of, switchMap } from 'rxjs';
 import { HyperlinkService } from '../../_services/hyperlink.service';
 import { CharacterService } from '../../_services/character.service';
 import { FormatterService } from '../../_services/formatter.service';
+import { TalentEditorStateService } from '../../_services/talent-editor-state.service';
 import { AstNode, LinkType } from '../../_models/ast-nodes';
 import { AstRendererComponent } from '../ast-renderer/ast-renderer.component';
 
@@ -43,48 +44,36 @@ export class HyperlinkComponent implements OnInit {
     private hyperlinkService: HyperlinkService,
     private characterService: CharacterService,
     private formatter: FormatterService,
-    private elementRef: ElementRef,
+    private stateService: TalentEditorStateService,
+    private elementRef: ElementRef
   ) {}
 
   ngOnInit(): void {
-    this.resolveTarget().subscribe((target) => {
-      this.title = target?.name;
-
-      if (!target) {
-        return;
-      }
-
-      this.descriptionNodes = this.formatter.parse(target.description);
-      this.updateTooltipPosition();
-    });
+    this.updateLinkContent();
   }
 
   private resolveTarget(): Observable<LinkTarget | undefined> {
     switch (this.linkType) {
       case 'S':
-        return this.characterService
-          .getSkill(this.id as number)
-          .pipe(
-            map(
-              (skill) =>
-                skill && {
-                  name: skill.name,
-                  description: skill.descriptionRaw,
-                },
-            ),
-          );
+        return this.characterService.getSkill(this.id as number).pipe(
+          map(
+            (skill) =>
+              skill && {
+                name: skill.name,
+                description: skill.descriptionRaw,
+              }
+          )
+        );
       case 'P':
-        return this.characterService
-          .getPassiveTalent(this.id as number)
-          .pipe(
-            map(
-              (passive) =>
-                passive && {
-                  name: passive.name,
-                  description: passive.descriptionRaw,
-                },
-            ),
-          );
+        return this.characterService.getPassiveTalent(this.id as number).pipe(
+          map(
+            (passive) =>
+              passive && {
+                name: passive.name,
+                description: passive.descriptionRaw,
+              }
+          )
+        );
       case 'T':
         return this.characterService.getConstellation(this.id as number).pipe(
           map(
@@ -92,8 +81,8 @@ export class HyperlinkComponent implements OnInit {
               constellation && {
                 name: constellation.name,
                 description: constellation.descriptionRaw,
-              },
-          ),
+              }
+          )
         );
       case 'Z':
         // Type Z: Brief field reference (e.g., "mavuika-combat1")
@@ -106,8 +95,8 @@ export class HyperlinkComponent implements OnInit {
               hyperlink && {
                 name: hyperlink.name,
                 description: hyperlink.description,
-              },
-          ),
+              }
+          )
         );
       default:
         // Default to game hyperlink lookup (N type or custom string ID)
@@ -117,15 +106,13 @@ export class HyperlinkComponent implements OnInit {
               hyperlink && {
                 name: hyperlink.name,
                 description: hyperlink.description,
-              },
-          ),
+              }
+          )
         );
     }
   }
 
-  private resolveBriefFieldLink(
-    id: string,
-  ): Observable<LinkTarget | undefined> {
+  private resolveBriefFieldLink(id: string): Observable<LinkTarget | undefined> {
     // Parse id: "character-fieldname" (e.g., "mavuika-combat1")
     const parts = id.split('-');
     if (parts.length < 2) {
@@ -145,30 +132,34 @@ export class HyperlinkComponent implements OnInit {
 
         return this.characterService.getBriefDescriptions(characterName).pipe(
           map((briefs) => {
-            if (!briefs || !(fieldName in briefs)) {
-              console.warn(
-                `Brief field not found: ${fieldName} in ${characterName}`,
-              );
+            // Check if there's an edited version in state service (storage has priority)
+            const editedBriefText = this.stateService.getEditedDescription(fieldName as any);
+
+            // Use storage version if available, otherwise fall back to JSON
+            const briefText =
+              editedBriefText && editedBriefText.trim()
+                ? editedBriefText
+                : (briefs as Record<string, string>)?.[fieldName];
+
+            // If neither storage nor JSON has the content, no tooltip
+            if (!briefText) {
+              console.warn(`Brief field not found: ${fieldName} in ${characterName}`);
               return undefined;
             }
 
-            const briefText = (briefs as Record<string, string>)[fieldName];
             const talentName = this.getTalentNameForField(character, fieldName);
 
             return {
               name: talentName || `${characterName} - ${fieldName}`,
               description: briefText,
             };
-          }),
+          })
         );
-      }),
+      })
     );
   }
 
-  private getTalentNameForField(
-    character: any,
-    fieldName: string,
-  ): string | undefined {
+  private getTalentNameForField(character: any, fieldName: string): string | undefined {
     // Character.skills contains talents keyed by field name
     // character.skills.combat1, character.skills.combat2, etc.
     // character.skills.passive1, character.skills.passive2, etc.
@@ -190,7 +181,21 @@ export class HyperlinkComponent implements OnInit {
 
   @HostListener('mouseenter')
   onMouseEnter(): void {
-    this.updateTooltipPosition();
+    // Always re-resolve on hover to pick up any changes
+    this.updateLinkContent();
+  }
+
+  private updateLinkContent(): void {
+    this.resolveTarget().subscribe((target) => {
+      this.title = target?.name;
+
+      if (!target) {
+        return;
+      }
+
+      this.descriptionNodes = this.formatter.parse(target.description);
+      this.updateTooltipPosition();
+    });
   }
 
   @HostListener('window:resize')
@@ -203,9 +208,7 @@ export class HyperlinkComponent implements OnInit {
       return;
     }
 
-    const link = this.elementRef.nativeElement.querySelector(
-      '.game-link',
-    ) as HTMLElement | null;
+    const link = this.elementRef.nativeElement.querySelector('.game-link') as HTMLElement | null;
 
     if (!link) {
       return;
@@ -220,9 +223,7 @@ export class HyperlinkComponent implements OnInit {
     const spaceAbove = linkRect.top;
 
     this.tooltipPosition =
-      spaceBelow < tooltipHeight && spaceAbove >= tooltipHeight
-        ? 'top'
-        : 'bottom';
+      spaceBelow < tooltipHeight && spaceAbove >= tooltipHeight ? 'top' : 'bottom';
 
     // Keep the tooltip from overflowing the left/right edges of the viewport
     // by nudging it horizontally away from its default centered position.

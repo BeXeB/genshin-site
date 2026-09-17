@@ -1,109 +1,85 @@
 <div class="flex-col editor-container">
-  <!-- Quick Talent Links Section -->
-  <div class="card">
-    <div class="section-title">Quick Talent Links</div>
-    <div class="button-grid-container">
-      <div class="button-grid">
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('combat1')"
-          title="Link to Combat 1"
-        >
-          S1
-        </button>
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('combat2')"
-          title="Link to Combat 2"
-        >
-          S2
-        </button>
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('combat3')"
-          title="Link to Combat 3"
-        >
-          S3
-        </button>
-      </div>
-      <div class="button-grid">
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('passive1')"
-          title="Link to Passive 1"
-        >
-          P1
-        </button>
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('passive2')"
-          title="Link to Passive 2"
-        >
-          P2
-        </button>
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('passive3')"
-          title="Link to Passive 3"
-        >
-          P3
-        </button>
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('passive4')"
-          title="Link to Passive 4"
-        >
-          P4
-        </button>
-      </div>
-      <div class="button-grid">
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('c1')"
-          title="Link to C1"
-        >
-          C1
-        </button>
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('c2')"
-          title="Link to C2"
-        >
-          C2
-        </button>
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('c3')"
-          title="Link to C3"
-        >
-          C3
-        </button>
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('c4')"
-          title="Link to C4"
-        >
-          C4
-        </button>
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('c5')"
-          title="Link to C5"
-        >
-          C5
-        </button>
-        <button
-          class="quick-link-btn"
-          (click)="insertQuickLink('c6')"
-          title="Link to C6"
-        >
-          C6
-        </button>
+  @if (showQuickLinks) {
+    <div class="card">
+      <div class="section-title">Quick Talent Links</div>
+      <div class="button-grid-container">
+        <div class="button-grid">
+          <button
+            class="quick-link-btn"
+            (click)="insertQuickLink('combat1')"
+            title="Link to Combat 1"
+          >
+            S1
+          </button>
+          <button
+            class="quick-link-btn"
+            (click)="insertQuickLink('combat2')"
+            title="Link to Combat 2"
+          >
+            S2
+          </button>
+          <button
+            class="quick-link-btn"
+            (click)="insertQuickLink('combat3')"
+            title="Link to Combat 3"
+          >
+            S3
+          </button>
+        </div>
+        <div class="button-grid">
+          <button
+            class="quick-link-btn"
+            (click)="insertQuickLink('passive1')"
+            title="Link to Passive 1"
+          >
+            P1
+          </button>
+          <button
+            class="quick-link-btn"
+            (click)="insertQuickLink('passive2')"
+            title="Link to Passive 2"
+          >
+            P2
+          </button>
+          <button
+            class="quick-link-btn"
+            (click)="insertQuickLink('passive3')"
+            title="Link to Passive 3"
+          >
+            P3
+          </button>
+          <button
+            class="quick-link-btn"
+            (click)="insertQuickLink('passive4')"
+            title="Link to Passive 4"
+          >
+            P4
+          </button>
+        </div>
+        <div class="button-grid">
+          <button class="quick-link-btn" (click)="insertQuickLink('c1')" title="Link to C1">
+            C1
+          </button>
+          <button class="quick-link-btn" (click)="insertQuickLink('c2')" title="Link to C2">
+            C2
+          </button>
+          <button class="quick-link-btn" (click)="insertQuickLink('c3')" title="Link to C3">
+            C3
+          </button>
+          <button class="quick-link-btn" (click)="insertQuickLink('c4')" title="Link to C4">
+            C4
+          </button>
+          <button class="quick-link-btn" (click)="insertQuickLink('c5')" title="Link to C5">
+            C5
+          </button>
+          <button class="quick-link-btn" (click)="insertQuickLink('c6')" title="Link to C6">
+            C6
+          </button>
+        </div>
       </div>
     </div>
-  </div>
+  }
 
-  <!-- Search Section with Dropdown -->
   <div class="hyperlink-search">
     <input
       type="text"
@@ -136,69 +112,35 @@
     }
   </div>
 
-  <!-- Selected Preview -->
   @if (selectedHyperlink) {
-    <div class="card preview-card">
-      <div class="preview-title">{{ selectedHyperlink.name }}</div>
-      <div class="preview-id">ID: {{ getDisplayId(selectedHyperlink) }}</div>
-      <div class="preview-description">
-        <app-formatted-text
-          [text]="selectedHyperlink.description"
-        ></app-formatted-text>
+    <div class="card hyperlink-card card-no-hover">
+      <div class="selected-info">
+        <div class="hyperlink-detail">
+          <div class="detail-label">Name</div>
+          <div class="detail-value">{{ selectedHyperlink.name }}</div>
+        </div>
+        <div class="hyperlink-detail">
+          <div class="detail-label">ID</div>
+          <div class="detail-value">{{ getDisplayId(selectedHyperlink) }}</div>
+        </div>
+        <div class="hyperlink-detail">
+          <div class="detail-label">Description</div>
+          <div class="detail-value">{{ selectedHyperlink.description }}</div>
+        </div>
+        <div class="button-group">
+          <button (click)="insertLink(selectedHyperlink)">Insert Link</button>
+          <button (click)="deselectHyperlink()">Close</button>
+        </div>
       </div>
-      <button (click)="insertLink(selectedHyperlink)">Insert Link</button>
     </div>
   }
 
-  <!-- Create New Section -->
-  <button class="full-width-btn" (click)="toggleCreateForm()">
-    {{ showCreateForm ? "Cancel" : "Create New Hyperlink" }}
-  </button>
-
-  @if (showCreateForm) {
-    <div class="flex-col create-form">
-      <div class="flex-col flex-col-tight">
-        <label class="form-label" for="newId"
-          >ID (lowercase, hyphens only)</label
-        >
-        <input
-          class="form-input"
-          id="newId"
-          type="text"
-          [(ngModel)]="newHyperlinkId"
-          placeholder="e.g., elemental-mastery"
-        />
-      </div>
-
-      <div class="flex-col flex-col-tight">
-        <label class="form-label" for="newName">Name</label>
-        <input
-          class="form-input"
-          id="newName"
-          type="text"
-          [(ngModel)]="newHyperlinkName"
-          placeholder="e.g., Elemental Mastery"
-        />
-      </div>
-
-      <div class="flex-col flex-col-tight">
-        <label class="form-label">Description</label>
-        <app-formatted-text-editor
-          [text]="newHyperlinkDescription"
-          fieldKey="new-hyperlink-description"
-          [showToolbar]="true"
-          [showPreview]="true"
-          placeholder="Detailed explanation (supports formatting)..."
-          [rows]="4"
-          (textChange)="newHyperlinkDescription = $event"
-        ></app-formatted-text-editor>
-      </div>
-
-      @if (createError) {
-        <div class="error-message">{{ createError }}</div>
-      }
-
-      <button (click)="createNewHyperlink()">Create</button>
+  @if (showQuickLinks) {
+    <div class="hyperlink-manager-note">
+      <p>
+        To create, edit, or delete hyperlinks, visit the
+        <a href="/hyperlink-editor">Hyperlink Manager</a>
+      </p>
     </div>
   }
 </div>

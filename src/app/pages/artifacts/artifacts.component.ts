@@ -15,13 +15,7 @@ import { Observable } from 'rxjs';
 @Component({
   selector: 'app-artifacts',
   standalone: true,
-  imports: [
-    PageTitleComponent,
-    FormsModule,
-    RouterLink,
-    FiltersComponent,
-    ItemCardComponent,
-  ],
+  imports: [PageTitleComponent, FormsModule, RouterLink, FiltersComponent, ItemCardComponent],
   templateUrl: './artifacts.component.html',
   styleUrl: './artifacts.component.css',
 })
@@ -54,7 +48,7 @@ export class ArtifactsComponent extends BaseListComponent<ArtifactSet> {
   constructor(
     private artifactService: ArtifactService,
     protected override filterService: FilterService,
-    private imageService: ImageService,
+    private imageService: ImageService
   ) {
     super(filterService);
   }
@@ -74,9 +68,7 @@ export class ArtifactsComponent extends BaseListComponent<ArtifactSet> {
   }
 
   getMaxRarity(artifact: ArtifactSet): number {
-    return artifact.rarityList.length > 0
-      ? Math.max(...artifact.rarityList)
-      : 0;
+    return artifact.rarityList.length > 0 ? Math.max(...artifact.rarityList) : 0;
   }
 
   getImage(artifact: ArtifactSet): string {

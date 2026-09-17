@@ -1,8 +1,5 @@
 <div class="container">
-  <app-page-title
-    backLink="/artifacts"
-    title="Artifakt Részletek"
-  ></app-page-title>
+  <app-page-title backLink="/artifacts" title="Artifakt Részletek"></app-page-title>
   @if (artifact != null) {
     <div class="artifact-container">
       <div class="set-card card card-no-hover">
@@ -31,86 +28,66 @@
       <div class="pieces card card-no-hover">
         @if (artifact.flower) {
           <div class="artifact-piece">
-            <img
-              [src]="`assets/images/artifacts/${artifact.normalizedName}/flower.webp`"
-            />
+            <img [src]="`assets/images/artifacts/${artifact.normalizedName}/flower.webp`" />
             <div class="piece-desc">
               <div class="piece-name">{{ artifact.flower.name }}</div>
               <div class="piece-subtext">
                 {{ artifact.flower.description }}
               </div>
               <div class="piece-story">Story</div>
-              <app-formatted-text
-                [nodes]="parseText(artifact.flower.story)"
-              ></app-formatted-text>
+              <app-formatted-text [nodes]="parseText(artifact.flower.story)"></app-formatted-text>
             </div>
           </div>
         }
         @if (artifact.plume) {
           <div class="artifact-piece">
-            <img
-              [src]="`assets/images/artifacts/${artifact.normalizedName}/plume.webp`"
-            />
+            <img [src]="`assets/images/artifacts/${artifact.normalizedName}/plume.webp`" />
             <div class="piece-desc">
               <div class="piece-name">{{ artifact.plume.name }}</div>
               <div class="piece-subtext">
                 {{ artifact.plume.description }}
               </div>
               <div class="piece-story">Story</div>
-              <app-formatted-text
-                [nodes]="parseText(artifact.plume.story)"
-              ></app-formatted-text>
+              <app-formatted-text [nodes]="parseText(artifact.plume.story)"></app-formatted-text>
             </div>
           </div>
         }
         @if (artifact.sands) {
           <div class="artifact-piece">
-            <img
-              [src]="`assets/images/artifacts/${artifact.normalizedName}/sands.webp`"
-            />
+            <img [src]="`assets/images/artifacts/${artifact.normalizedName}/sands.webp`" />
             <div class="piece-desc">
               <div class="piece-name">{{ artifact.sands.name }}</div>
               <div class="piece-subtext">
                 {{ artifact.sands.description }}
               </div>
               <div class="piece-story">Story</div>
-              <app-formatted-text
-                [nodes]="parseText(artifact.sands.story)"
-              ></app-formatted-text>
+              <app-formatted-text [nodes]="parseText(artifact.sands.story)"></app-formatted-text>
             </div>
           </div>
         }
         @if (artifact.goblet) {
           <div class="artifact-piece">
-            <img
-              [src]="`assets/images/artifacts/${artifact.normalizedName}/goblet.webp`"
-            />
+            <img [src]="`assets/images/artifacts/${artifact.normalizedName}/goblet.webp`" />
             <div class="piece-desc">
               <div class="piece-name">{{ artifact.goblet.name }}</div>
               <div class="piece-subtext">
                 {{ artifact.goblet.description }}
               </div>
               <div class="piece-story">Story</div>
-              <app-formatted-text
-                [nodes]="parseText(artifact.goblet.story)"
-              ></app-formatted-text>
+              <app-formatted-text [nodes]="parseText(artifact.goblet.story)"></app-formatted-text>
             </div>
           </div>
         }
         @if (artifact.circlet) {
           <div class="artifact-piece">
-            <img
-              [src]="`assets/images/artifacts/${artifact.normalizedName}/circlet.webp`"
-            />
+            <img [src]="`assets/images/artifacts/${artifact.normalizedName}/circlet.webp`" />
             <div class="piece-desc">
               <div class="piece-name">{{ artifact.circlet.name }}</div>
               <div class="piece-subtext">
                 {{ artifact.circlet.description }}
               </div>
               <div class="piece-story">Story</div>
-              <app-formatted-text
-                [nodes]="parseText(artifact.circlet.story)"
-              ></app-formatted-text>
+              <app-formatted-text [nodes]="parseText(artifact.circlet.story)"></app-formatted-text>
             </div>
           </div>
         }

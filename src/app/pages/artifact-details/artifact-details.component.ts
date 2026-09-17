@@ -1,8 +1,4 @@
-import {
-  Component,
-  ChangeDetectionStrategy,
-  ChangeDetectorRef,
-} from '@angular/core';
+import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { ArtifactSet } from '../../_models/artifacts';
 import { ActivatedRoute } from '@angular/router';
 import { ArtifactService } from '../../_services/artifact.service';
@@ -27,7 +23,7 @@ export class ArtifactDetailsComponent extends BaseDetailComponent<ArtifactSet> {
     protected override route: ActivatedRoute,
     private artifactService: ArtifactService,
     protected override formatterService: FormatterService,
-    private cdr: ChangeDetectorRef,
+    private cdr: ChangeDetectorRef
   ) {
     super(route, formatterService);
   }

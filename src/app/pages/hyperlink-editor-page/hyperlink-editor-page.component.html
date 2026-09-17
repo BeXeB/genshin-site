@@ -1,0 +1,111 @@
+<div class="editor-content">
+  <div class="list-panel card card-no-hover">
+    <input
+      type="text"
+      placeholder="Hyperlink neve vagy ID-ja"
+      [(ngModel)]="searchQuery"
+      (input)="onSearchChange()"
+    />
+
+    <button (click)="toggleCreateForm()" class="button">Új Hyperlink</button>
+
+    <div class="hyperlinks-list">
+      @for (link of filteredHyperlinks; track link.id) {
+        <div
+          [class.selected]="selectedHyperlink?.id === link.id"
+          (click)="selectHyperlink(link)"
+          class="card"
+        >
+          <div class="item-name">{{ link.name }}</div>
+          <div class="item-id">{{ link.id }}</div>
+        </div>
+      }
+    </div>
+  </div>
+
+  <div class="editor-panel card card-no-hover">
+    @if (showCreateForm) {
+      <div class="create-form">
+        <h3>Új Hyperlink Létrehozása</h3>
+
+        <div class="form-group">
+          <label>ID (kisbetűk, számok, kötőjelek csak)</label>
+          <input type="text" [(ngModel)]="newHyperlinkId" placeholder="pl., my-custom-link" />
+        </div>
+
+        <div class="form-group">
+          <label>Név</label>
+          <input type="text" [(ngModel)]="newHyperlinkName" placeholder="pl., My Custom Link" />
+        </div>
+
+        <div class="form-group">
+          <label>Leírás</label>
+          <app-formatted-text-editor
+            [text]="newHyperlinkDescription"
+            fieldKey="new-hyperlink-description"
+            [showToolbar]="true"
+            [showPreview]="true"
+            placeholder="Részletes leírás..."
+            [rows]="6"
+            (textChange)="newHyperlinkDescription = $event"
+            (hyperlinkRequested)="onHyperlinkRequested('create-description', $event)"
+          ></app-formatted-text-editor>
+        </div>
+
+        @if (createError) {
+          <div class="error-message">
+            {{ createError }}
+          </div>
+        }
+
+        <div class="form-actions">
+          <button
+            (click)="createNewHyperlink()"
+            class="button button-primary"
+            [disabled]="!newHyperlinkId || !newHyperlinkName || !newHyperlinkDescription"
+          >
+            Létrehozás
+          </button>
+          <button (click)="toggleCreateForm()" class="button button-secondary">Mégse</button>
+        </div>
+      </div>
+    }
+
+    @if (selectedHyperlink && !showCreateForm) {
+      <div class="edit-form">
+        <h3>{{ selectedHyperlink.name }}</h3>
+
+        <div class="form-group">
+          <label>ID (read-only)</label>
+          <input type="text" [value]="selectedHyperlink.id" readonly />
+        </div>
+
+        <div class="form-group">
+          <label>Név</label>
+          <input type="text" [(ngModel)]="editingName" />
+        </div>
+
+        <div class="form-group">
+          <label>Leírás</label>
+          <app-formatted-text-editor
+            [text]="editingDescription"
+            fieldKey="edit-hyperlink-description"
+            [showToolbar]="true"
+            [showPreview]="true"
+            placeholder="Detailed description (supports formatting)..."
+            [rows]="8"
+            (textChange)="editingDescription = $event"
+            (hyperlinkRequested)="onHyperlinkRequested('edit-description', $event)"
+          ></app-formatted-text-editor>
+        </div>
+
+        <!-- Form actions -->
+        <div class="form-actions">
+          <button (click)="saveHyperlink()" class="button">Módosítások Mentése</button>
+          <button (click)="deleteHyperlink()" class="button">Törlés</button>
+          <button (click)="deselectHyperlink()" class="button">Bezárás</button>
+        </div>
+      </div>
+    }
+  </div>
+</div>

@@ -18,13 +18,7 @@
                 [(ngModel)]="tier.tier"
                 placeholder="Tier neve"
               />
-              <button
-                class="tier-remove-mobile"
-                type="button"
-                (click)="removeTier(tier)"
-              >
-                X
-              </button>
+              <button class="tier-remove-mobile" type="button" (click)="removeTier(tier)">X</button>
             </div>
 
             <div
@@ -53,9 +47,7 @@
                       @for (tag of char.tags; track tag.id) {
                         <span
                           class="tag"
-                          [style.background]="
-                            getTagDefinition(tag.id).backgroundcolor
-                          "
+                          [style.background]="getTagDefinition(tag.id).backgroundcolor"
                           [style.color]="getTagDefinition(tag.id).color"
                         >
                           {{ getTagDefinition(tag.id).label }}
@@ -72,9 +64,7 @@
               }
             </div>
 
-            <button class="tier-remove-desktop" (click)="removeTier(tier)">
-              X
-            </button>
+            <button class="tier-remove-desktop" (click)="removeTier(tier)">X</button>
           </div>
         }
       </div>
@@ -120,9 +110,7 @@
       @if (selectedCharacter != null) {
         <div class="character-sidebar">
           <h3>
-            {{
-              getCharacterProfile(selectedCharacter.apiKey)?.name || "Karakter"
-            }}
+            {{ getCharacterProfile(selectedCharacter.apiKey)?.name || 'Karakter' }}
           </h3>
 
           <h4>Tag-ek</h4>
@@ -137,11 +125,9 @@
                 {{ tag.id }}
 
                 @if (tag.extra && tag.extra.length) {
-                  <span>({{ tag.extra.join(", ") }})</span>
+                  <span>({{ tag.extra.join(', ') }})</span>
                 }
-                <button type="button" (click)="removeTagFromCharacter(tag.id)">
-                  X
-                </button>
+                <button type="button" (click)="removeTagFromCharacter(tag.id)">X</button>
               </div>
             }
           </div>
@@ -197,34 +183,20 @@
             >
               {{ tag.label }}
 
-              <button
-                type="button"
-                (click)="removeTag(tag.id); $event.stopPropagation()"
-              >
-                X
-              </button>
+              <button type="button" (click)="removeTag(tag.id); $event.stopPropagation()">X</button>
             </span>
           }
         </div>
         @if (editingTag) {
-          <div
-            class="tag-editor-panel"
-            [style.border-color]="editingTag.backgroundcolor"
-          >
+          <div class="tag-editor-panel" [style.border-color]="editingTag.backgroundcolor">
             <div class="flex-row justyfy-space-between align-center">
               <h4 class="flex-1">Tag szerkesztése</h4>
-              <button class="close-button" (click)="editingTag = null">
-                X
-              </button>
+              <button class="close-button" (click)="editingTag = null">X</button>
             </div>
 
             <label>
               Név
-              <input
-                type="text"
-                [(ngModel)]="editingTag.label"
-                (ngModelChange)="onTagChanged()"
-              />
+              <input type="text" [(ngModel)]="editingTag.label" (ngModelChange)="onTagChanged()" />
             </label>
 
             <label>
@@ -238,38 +210,23 @@
 
             <label>
               Szövegszín
-              <input
-                type="color"
-                [(ngModel)]="editingTag.color"
-                (ngModelChange)="onTagChanged()"
-              />
+              <input type="color" [(ngModel)]="editingTag.color" (ngModelChange)="onTagChanged()" />
             </label>
           </div>
         }
         <div class="new-tag-inputs">
           <input type="text" [(ngModel)]="newTagLabel" placeholder="Tag neve" />
           <input class="color" type="color" [(ngModel)]="newTagColor" />
-          <input
-            class="color"
-            type="color"
-            [(ngModel)]="newTagTextColor"
-            title="Text color"
-          />
+          <input class="color" type="color" [(ngModel)]="newTagTextColor" title="Text color" />
         </div>
         <button class="add-button" (click)="addTag()">Tag Hozzáadása</button>
       </div>
       <hr />
       <div class="button-group">
-        <button class="download-button" (click)="fileInput.click()">
-          Json file importálása
-        </button>
+        <button class="download-button" (click)="fileInput.click()">Json file importálása</button>
         <div class="flex-row">
-          <button class="download-button" (click)="getJsonFile()">
-            Json file letöltése
-          </button>
-          <button class="download-button" (click)="exportAsImage('png')">
-            Kép exportálása
-          </button>
+          <button class="download-button" (click)="getJsonFile()">Json file letöltése</button>
+          <button class="download-button" (click)="exportAsImage('png')">Kép exportálása</button>
         </div>
         <input
           #fileInput
