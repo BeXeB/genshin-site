@@ -9,6 +9,10 @@ export interface TalentEditorState {
   selectedTalentKey: keyof CharacterBriefDescriptions | null;
   selectedElement: ElementType | null;
   editedDescriptionsByCharacter: Record<string, Partial<CharacterBriefDescriptions>>;
+  editedDescriptionsByCharacterElement: Record<
+    string,
+    Partial<Record<ElementType, Partial<CharacterBriefDescriptions>>>
+  >;
 }
 
 type StoredTalentEditorState = Partial<TalentEditorState> & {
@@ -30,6 +34,7 @@ export class TalentEditorStateService {
       selectedTalentKey: null,
       selectedElement: null,
       editedDescriptionsByCharacter: {},
+      editedDescriptionsByCharacterElement: {},
     };
   }
 
@@ -41,12 +46,27 @@ export class TalentEditorStateService {
     if (!stored) return this.getEmptyState();
 
     const editedDescriptionsByCharacter = stored.editedDescriptionsByCharacter ?? {};
+    const editedDescriptionsByCharacterElement =
+      stored.editedDescriptionsByCharacterElement ?? {};
     if (
       stored.selectedCharacterId &&
       stored.editedDescriptions &&
       !editedDescriptionsByCharacter[stored.selectedCharacterId]
     ) {
       editedDescriptionsByCharacter[stored.selectedCharacterId] = stored.editedDescriptions;
+    }
+
+    if (
+      stored.selectedCharacterId &&
+      stored.selectedElement &&
+      editedDescriptionsByCharacter[stored.selectedCharacterId] &&
+      !editedDescriptionsByCharacterElement[stored.selectedCharacterId]?.[stored.selectedElement]
+    ) {
+      editedDescriptionsByCharacterElement[stored.selectedCharacterId] = {
+        ...editedDescriptionsByCharacterElement[stored.selectedCharacterId],
+        [stored.selectedElement]: editedDescriptionsByCharacter[stored.selectedCharacterId],
+      };
+      delete editedDescriptionsByCharacter[stored.selectedCharacterId];
     }
 
     const selectedCharacterId = stored.selectedCharacterId ?? null;
@@ -56,6 +76,7 @@ export class TalentEditorStateService {
       selectedTalentKey: stored.selectedTalentKey ?? null,
       selectedElement: stored.selectedElement ?? null,
       editedDescriptionsByCharacter,
+      editedDescriptionsByCharacterElement,
     };
   }
 
@@ -90,15 +111,25 @@ export class TalentEditorStateService {
   saveEditedDescription(
     talentKey: keyof CharacterBriefDescriptions,
     content: string,
-    characterId?: string
+    characterId?: string,
+    element?: ElementType
   ): void {
     const state = this.getState();
     const targetCharacterId = characterId ?? state.selectedCharacterId;
     if (!targetCharacterId) return;
 
-    const descriptions = state.editedDescriptionsByCharacter[targetCharacterId] ?? {};
+    const descriptions = element
+      ? (state.editedDescriptionsByCharacterElement[targetCharacterId]?.[element] ?? {})
+      : (state.editedDescriptionsByCharacter[targetCharacterId] ?? {});
     descriptions[talentKey] = content;
-    state.editedDescriptionsByCharacter[targetCharacterId] = descriptions;
+    if (element) {
+      state.editedDescriptionsByCharacterElement[targetCharacterId] = {
+        ...state.editedDescriptionsByCharacterElement[targetCharacterId],
+        [element]: descriptions,
+      };
+    } else {
+      state.editedDescriptionsByCharacter[targetCharacterId] = descriptions;
+    }
     this.saveState(state);
   }
 
@@ -108,17 +139,26 @@ export class TalentEditorStateService {
    */
   getEditedDescription(
     talentKey: keyof CharacterBriefDescriptions,
-    characterId?: string
+    characterId?: string,
+    element?: ElementType
   ): string | undefined {
     const state = this.getState();
     const targetCharacterId = characterId ?? state.selectedCharacterId;
-    return targetCharacterId
-      ? state.editedDescriptionsByCharacter[targetCharacterId]?.[talentKey]
-      : undefined;
+    if (!targetCharacterId) return undefined;
+
+    return element
+      ? state.editedDescriptionsByCharacterElement[targetCharacterId]?.[element]?.[talentKey]
+      : state.editedDescriptionsByCharacter[targetCharacterId]?.[talentKey];
   }
 
-  getEditedCharacters(): Record<string, Partial<CharacterBriefDescriptions>> {
-    return this.getState().editedDescriptionsByCharacter;
+  getEditedDescriptions(
+    characterId: string,
+    element?: ElementType
+  ): Partial<CharacterBriefDescriptions> {
+    const state = this.getState();
+    return element
+      ? (state.editedDescriptionsByCharacterElement[characterId]?.[element] ?? {})
+      : (state.editedDescriptionsByCharacter[characterId] ?? {});
   }
 
   /**

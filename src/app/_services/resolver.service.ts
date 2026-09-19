@@ -7,6 +7,7 @@ import { ResolvedItem, Item } from '../_models/items';
 import {
   Character,
   CharacterBriefDescriptions,
+  CharacterBriefMap,
   CharacterProfileResolved,
   CharacterResolved,
   CharacterTalentsResolved,
@@ -207,5 +208,3 @@ export class ResolverService {
   }
 }
 
-export type CharacterBriefMap =
-  CharacterBriefDescriptions | Partial<Record<ElementType, CharacterBriefDescriptions>>;

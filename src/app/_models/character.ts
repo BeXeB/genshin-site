@@ -146,6 +146,10 @@ export type CharacterBriefDescriptions = {
   c6: string;
 };
 
+export type CharacterBriefMap =
+  | Partial<CharacterBriefDescriptions>
+  | Partial<Record<ElementType, Partial<CharacterBriefDescriptions>>>;
+
 export type CharacterProfileResolved = Omit<CharacterProfile, 'costs'> & {
   costs: Record<`ascend${1 | 2 | 3 | 4 | 5 | 6}`, ResolvedItem[]>;
 };

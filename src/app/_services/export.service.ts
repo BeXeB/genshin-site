@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { CharacterService } from './character.service';
 import { HyperlinkService } from './hyperlink.service';
 import { TalentEditorStateService } from './talent-editor-state.service';
-import { CharacterBriefDescriptions } from '../_models/character';
+import { CharacterBriefDescriptions, CharacterBriefMap } from '../_models/character';
+import { ElementType } from '../_models/enum';
 import { forkJoin, map } from 'rxjs';
 
 @Injectable({
@@ -21,8 +22,12 @@ export class ExportService {
   }
 
   private exportTalentData(): void {
-    const editedCharacters = Object.entries(
-      this.talentEditorStateService.getEditedCharacters()
+    const state = this.talentEditorStateService.getState();
+    const editedCharacters = Array.from(
+      new Set([
+        ...Object.keys(state.editedDescriptionsByCharacter),
+        ...Object.keys(state.editedDescriptionsByCharacterElement),
+      ])
     );
 
     if (editedCharacters.length === 0) {
@@ -31,15 +36,19 @@ export class ExportService {
     }
 
     forkJoin(
-      editedCharacters.map(([characterName, editedDescriptions]) =>
-        this.characterService.getBriefDescriptions(characterName).pipe(
-          map((originalDescriptions) => ({
+      editedCharacters.map((characterName) =>
+        forkJoin({
+          details: this.characterService.getCharacterDetails(characterName),
+          originalDescriptions: this.characterService.getBriefDescriptions(characterName),
+        }).pipe(
+          map(({ details, originalDescriptions }) => ({
             characterName,
-            descriptions: {
-              ...this.getEmptyTalentDescriptions(),
-              ...originalDescriptions,
-              ...editedDescriptions,
-            },
+            descriptions: this.buildTalentExport(
+              originalDescriptions,
+              state.editedDescriptionsByCharacter[characterName] ?? {},
+              state.editedDescriptionsByCharacterElement[characterName] ?? {},
+              Object.keys(details.variants ?? {}) as ElementType[]
+            ),
           }))
         )
       )
@@ -53,6 +62,40 @@ export class ExportService {
         console.error('Failed to export talent descriptions:', error);
       },
     });
+  }
+
+  private buildTalentExport(
+    originalDescriptions: CharacterBriefMap,
+    editedDescriptions: Partial<CharacterBriefDescriptions>,
+    editedDescriptionsByElement: Partial<
+      Record<ElementType, Partial<CharacterBriefDescriptions>>
+    >,
+    variantElements: ElementType[]
+  ): CharacterBriefMap {
+    const editedElements = Object.keys(editedDescriptionsByElement) as ElementType[];
+    if (variantElements.length === 0 && editedElements.length === 0) {
+      return {
+        ...this.getEmptyTalentDescriptions(),
+        ...(originalDescriptions as Partial<CharacterBriefDescriptions>),
+        ...editedDescriptions,
+      };
+    }
+
+    const originalDescriptionsByElement = originalDescriptions as Partial<
+      Record<ElementType, Partial<CharacterBriefDescriptions>>
+    >;
+    const elements = new Set([...variantElements, ...editedElements]);
+
+    return Object.fromEntries(
+      Array.from(elements).map((element) => [
+        element,
+        {
+          ...this.getEmptyTalentDescriptions(),
+          ...originalDescriptionsByElement[element],
+          ...editedDescriptionsByElement[element],
+        },
+      ])
+    ) as Partial<Record<ElementType, Partial<CharacterBriefDescriptions>>>;
   }
 
   private getEmptyTalentDescriptions(): Required<CharacterBriefDescriptions> {

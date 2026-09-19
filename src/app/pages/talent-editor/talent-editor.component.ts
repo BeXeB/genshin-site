@@ -21,6 +21,7 @@ import { ExportService } from '../../_services/export.service';
 import { ElementType, ElementTypeLabel } from '../../_models/enum';
 import {
   Character,
+  CharacterBriefMap,
   CharacterBriefDescriptions,
   CharacterProfile,
   CombatTalent,
@@ -82,11 +83,13 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   selectedElement: ElementType | null = null;
 
   briefDrafts: Partial<CharacterBriefDescriptions> = {};
+  private loadedBriefDescriptions: CharacterBriefMap = {};
 
   // Debounce timer for editor changes
   private editorChangeDebounceTimer: ReturnType<typeof setTimeout> | null = null;
   private pendingEditorChange: {
     characterId: string;
+    element: ElementType | null;
     key: keyof CharacterBriefDescriptions;
     text: string;
   } | null = null;
@@ -204,6 +207,7 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
     this.search = profile.name;
     this.showDropdown = false;
     this.selectedCharacterDetails = null;
+    this.loadedBriefDescriptions = {};
     this.briefDrafts = {};
     this.selectedTalentKey = null;
     this.selectedSection = null;
@@ -215,14 +219,11 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   private applyLoadedCharacter(
     profile: CharacterProfile,
     details: Character,
-    descriptions: Partial<CharacterBriefDescriptions>,
+    descriptions: CharacterBriefMap,
     restoreSelection: boolean
   ): void {
     this.selectedCharacterDetails = details;
-    this.briefDrafts = {
-      ...descriptions,
-      ...this.stateService.getEditedCharacters()[profile.normalizedName],
-    };
+    this.loadedBriefDescriptions = descriptions;
 
     const state = this.stateService.getState();
     const variantElements = this.getVariantElements();
@@ -230,6 +231,7 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
       restoreSelection && state.selectedElement && variantElements.includes(state.selectedElement)
         ? state.selectedElement
         : (variantElements[0] ?? null);
+    this.updateBriefDrafts();
 
     const sections = this.talentSections;
     const restoredSection = restoreSelection
@@ -299,7 +301,10 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   }
 
   selectElement(element: ElementType) {
+    this.flushPendingEditorChange();
     this.selectedElement = element;
+    this.updateBriefDrafts();
+    this.historyService.clearAll();
     this.selectedTalentKey = null;
     this.selectedSection = null;
 
@@ -315,6 +320,23 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
     // Save state
     this.saveState();
+  }
+
+  private updateBriefDrafts(): void {
+    if (!this.selectedCharacter) return;
+
+    const variantDescriptions = this.loadedBriefDescriptions as Partial<
+      Record<ElementType, Partial<CharacterBriefDescriptions>>
+    >;
+    const sourceDescriptions = this.selectedElement
+      ? (variantDescriptions[this.selectedElement] ?? {})
+      : (this.loadedBriefDescriptions as Partial<CharacterBriefDescriptions>);
+    const editedDescriptions = this.stateService.getEditedDescriptions(
+      this.selectedCharacter.normalizedName,
+      this.selectedElement ?? undefined
+    );
+
+    this.briefDrafts = { ...sourceDescriptions, ...editedDescriptions };
   }
 
   get talentSections(): { label: string; rows: TalentRow[] }[] {
@@ -475,6 +497,7 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
     this.pendingEditorChange = {
       characterId: this.selectedCharacter.normalizedName,
+      element: this.selectedElement,
       key,
       text: newText,
     };
@@ -489,9 +512,9 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
     if (!this.pendingEditorChange) return;
 
-    const { characterId, key, text } = this.pendingEditorChange;
+    const { characterId, element, key, text } = this.pendingEditorChange;
     this.pendingEditorChange = null;
-    this.stateService.saveEditedDescription(key, text, characterId);
+    this.stateService.saveEditedDescription(key, text, characterId, element ?? undefined);
   }
 
   onEditorHyperlinkRequested(
@@ -511,6 +534,9 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
     if (!this.currentTalentKey || !this.currentHyperlinkRequest) return;
 
     const key = this.currentTalentKey;
+    this.flushPendingEditorChange();
+    this.historyService.flushPending(key);
+
     const selection = this.currentHyperlinkRequest;
     const value = this.briefDrafts[key] ?? '';
     const start = selection.selectionStart;
@@ -534,7 +560,8 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
     this.stateService.saveEditedDescription(
       key,
       newValue,
-      this.selectedCharacter?.normalizedName
+      this.selectedCharacter?.normalizedName,
+      this.selectedElement ?? undefined
     );
 
     // Capture the state change in history
