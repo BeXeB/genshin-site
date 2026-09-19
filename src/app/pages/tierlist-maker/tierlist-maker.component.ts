@@ -213,6 +213,7 @@ export class TierlistMakerComponent implements OnInit {
   drop(event: CdkDragDrop<any[]>) {
     if (event.previousContainer === event.container) {
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
+      this.storageService.saveTierlist(this.tierlist);
       return;
     }
 

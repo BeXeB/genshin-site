@@ -13,7 +13,7 @@ import { StorageService } from '../../_services/storage.service';
   templateUrl: './editors.component.html',
   styleUrl: './editors.component.css',
 })
-export class EditorsComponent implements OnInit {
+export class EditorsComponent {
   activeEditor: 'talent' | 'hyperlink' = 'talent';
 
   constructor(
@@ -23,11 +23,6 @@ export class EditorsComponent implements OnInit {
     private editorHistoryService: EditorHistoryService,
     private storageService: StorageService
   ) {}
-
-  ngOnInit(): void {
-    // Navigate to talent editor by default
-    this.selectEditor('talent');
-  }
 
   selectEditor(editor: 'talent' | 'hyperlink'): void {
     this.activeEditor = editor;
