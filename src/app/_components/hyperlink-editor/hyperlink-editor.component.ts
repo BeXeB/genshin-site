@@ -5,6 +5,7 @@ import { HyperlinkService } from '../../_services/hyperlink.service';
 import { HyperlinkInsertionService } from '../../_services/hyperlink-insertion.service';
 import { ModalService } from '../../_services/modal.service';
 import { Hyperlink } from '../../_models/hyperlinks';
+import { FormattedTextComponent } from '../formatted-text-component/formatted-text.component';
 
 interface HyperlinkWithType extends Hyperlink {
   type: 'game' | 'custom';
@@ -13,7 +14,7 @@ interface HyperlinkWithType extends Hyperlink {
 @Component({
   selector: 'app-hyperlink-editor',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, FormattedTextComponent],
   templateUrl: './hyperlink-editor.component.html',
   styleUrl: './hyperlink-editor.component.css',
 })
