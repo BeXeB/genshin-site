@@ -79,6 +79,9 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
   materials: Material[] = [];
 
   override loadDetail(slug: string): void {
+    this.weapon = null;
+    this.materials = [];
+    this.errorMessage = null;
     this.resolver
       .initialize()
       .pipe(
@@ -87,6 +90,7 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
           if (!data) return null;
           return this.resolver.resolveWeapon(data);
         }),
+        takeUntil(this.detailLoadCancelled$),
         takeUntil(this.destroy$)
       )
       .subscribe({

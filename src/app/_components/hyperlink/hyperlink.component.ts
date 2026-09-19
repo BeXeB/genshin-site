@@ -7,7 +7,7 @@ import {
   OnInit,
   ViewChild,
 } from '@angular/core';
-import { map, Observable, of, switchMap } from 'rxjs';
+import { map, Observable, of, switchMap, take } from 'rxjs';
 import { HyperlinkService } from '../../_services/hyperlink.service';
 import { CharacterService } from '../../_services/character.service';
 import { FormatterService } from '../../_services/formatter.service';
@@ -190,7 +190,7 @@ export class HyperlinkComponent implements OnInit {
   }
 
   private updateLinkContent(): void {
-    this.resolveTarget().subscribe((target) => {
+    this.resolveTarget().pipe(take(1)).subscribe((target) => {
       this.title = target?.name;
 
       if (!target) {

@@ -29,9 +29,11 @@ export class ArtifactDetailsComponent extends BaseDetailComponent<ArtifactSet> {
   }
 
   override loadDetail(slug: string): void {
+    this.artifact = null;
+    this.errorMessage = null;
     this.artifactService
       .getArtifact(slug)
-      .pipe(takeUntil(this.destroy$))
+      .pipe(takeUntil(this.detailLoadCancelled$), takeUntil(this.destroy$))
       .subscribe({
         next: (data) => {
           this.artifact = data;

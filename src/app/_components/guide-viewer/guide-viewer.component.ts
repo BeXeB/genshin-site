@@ -1,7 +1,6 @@
 import {
   Component,
   Input,
-  OnInit,
   OnChanges,
   OnDestroy,
   SimpleChanges,
@@ -23,7 +22,7 @@ export type GuideSourceType = 'markdown-content' | 'character-file' | 'guide-fil
   templateUrl: './guide-viewer.component.html',
   styleUrl: './guide-viewer.component.css',
 })
-export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
+export class GuideViewerComponent implements OnChanges, OnDestroy {
   /**
    * Type of guide source
    * - 'markdown-content': raw markdown passed directly
@@ -58,6 +57,7 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
   private tocEventListeners: Array<{ el: Element; listener: EventListener }> = [];
   private pendingTimeouts: number[] = [];
   private destroy$ = new Subject<void>();
+  private loadGeneration = 0;
 
   // Helper to clean up event listeners from previous TOC
   private cleanupTOCListeners() {
@@ -85,7 +85,9 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
   }
 
   // Helper to set content and optional TOC, attach scroll handlers
-  private applyContent(content: string, tocHtml?: string | null) {
+  private applyContent(content: string, tocHtml: string | null, generation: number) {
+    if (generation !== this.loadGeneration) return;
+
     this.cleanupTOCListeners();
     this.html = this.sanitizer.bypassSecurityTrustHtml(content);
 
@@ -119,53 +121,52 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
     private cdr: ChangeDetectorRef
   ) {}
 
-  ngOnInit(): void {
-    this.loadGuide();
-  }
-
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['source'] || changes['sourceType']) {
       // Cancel any ongoing operations before loading new guide
       this.cancelPendingOperations();
-      this.loadGuide();
+      const generation = ++this.loadGeneration;
+      this.loadGuide(generation);
     }
   }
 
-  private loadGuide(): void {
+  private loadGuide(generation: number): void {
     switch (this.sourceType) {
       case 'markdown-content':
-        this.loadMarkdownContent();
+        this.loadMarkdownContent(generation);
         break;
       case 'character-file':
-        this.loadCharacterGuide();
+        this.loadCharacterGuide(generation);
         break;
       case 'guide-file':
-        this.loadGuideFile();
+        this.loadGuideFile(generation);
         break;
     }
   }
 
-  private async loadMarkdownContent() {
+  private async loadMarkdownContent(generation: number) {
     try {
       if (this.showToc) {
         // Use MarkdownService for TOC generation
         const path = this.router.url.split('#')[0];
         const { content, toc } = await this.markdownService.parse(this.source, path);
-        this.applyContent(content, toc);
+        this.applyContent(content, toc, generation);
       } else {
         // Use basic marked for plain markdown, but preprocess custom syntax
         const preprocessed = this.markdownService.preprocessMarkdown(this.source);
         const parsed = await marked(preprocessed);
+        if (generation !== this.loadGeneration) return;
         this.html = this.sanitizer.bypassSecurityTrustHtml(parsed);
         this.cdr.markForCheck();
       }
     } catch (error) {
+      if (generation !== this.loadGeneration) return;
       this.html = '<p>Hamarosan</p>';
       this.cdr.markForCheck();
     }
   }
 
-  private loadCharacterGuide() {
+  private loadCharacterGuide(generation: number) {
     this.guidesService
       .getCharacterGuideMarkdown(this.source)
       .pipe(takeUntil(this.destroy$))
@@ -174,14 +175,16 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
           try {
             const path = this.router.url.split('#')[0];
             const { content, toc } = await this.markdownService.parse(markdown, path);
-            this.applyContent(content, toc);
+            this.applyContent(content, toc, generation);
           } catch (error) {
+            if (generation !== this.loadGeneration) return;
             this.html = '<p>Hamarosan</p>';
             this.toc = '';
             this.cdr.markForCheck();
           }
         },
         error: () => {
+          if (generation !== this.loadGeneration) return;
           this.html = '<p>Hamarosan</p>';
           this.toc = '';
           this.cdr.markForCheck();
@@ -189,7 +192,7 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
       });
   }
 
-  private loadGuideFile() {
+  private loadGuideFile(generation: number) {
     this.guidesService
       .getGuideMarkdown(this.source)
       .pipe(takeUntil(this.destroy$))
@@ -198,14 +201,16 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
           try {
             const preprocessed = this.markdownService.preprocessMarkdown(markdown);
             const parsed = await marked(preprocessed);
-            this.applyContent(parsed, null);
+            this.applyContent(parsed, null, generation);
           } catch (error) {
+            if (generation !== this.loadGeneration) return;
             this.html = '<p>Hamarosan</p>';
             this.toc = '';
             this.cdr.markForCheck();
           }
         },
         error: () => {
+          if (generation !== this.loadGeneration) return;
           this.html = '<p>Hamarosan</p>';
           this.toc = '';
           this.cdr.markForCheck();
@@ -295,6 +300,7 @@ export class GuideViewerComponent implements OnInit, OnChanges, OnDestroy {
   }
 
   ngOnDestroy(): void {
+    this.loadGeneration++;
     // Save current scroll position before component is destroyed
     this.saveScrollPosition();
     this.cleanupTOCListeners();

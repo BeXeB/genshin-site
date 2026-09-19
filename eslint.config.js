@@ -1,6 +1,8 @@
 import js from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import angularEslintPlugin from '@angular-eslint/eslint-plugin';
+import angularTemplateParser from '@angular-eslint/template-parser';
+import angularTemplatePlugin from '@angular-eslint/eslint-plugin-template';
 
 export default [
   {
@@ -52,6 +54,15 @@ export default [
       'no-constant-condition': 'off',
       'no-empty-pattern': 'off',
       'no-prototype-builtins': 'off',
+    },
+  },
+  {
+    files: ['**/*.html'],
+    languageOptions: {
+      parser: angularTemplateParser,
+    },
+    plugins: {
+      '@angular-eslint/template': angularTemplatePlugin,
     },
   },
 ];
