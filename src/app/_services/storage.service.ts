@@ -43,4 +43,23 @@ export class StorageService {
       return null;
     }
   }
+
+  clearAllStorage(): void {
+    try {
+      localStorage.clear();
+      console.log('All storage cleared');
+    } catch (err) {
+      console.error('Failed to clear storage:', err);
+    }
+  }
+
+  clearEditorData(): void {
+    try {
+      localStorage.removeItem('talentEditorState');
+      localStorage.removeItem('customHyperlinks');
+      console.log('Editor data cleared');
+    } catch (err) {
+      console.error('Failed to clear editor data:', err);
+    }
+  }
 }

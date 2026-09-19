@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Router, ActivatedRoute } from '@angular/router';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { ExportService } from '../../_services/export.service';
+import { EditorHistoryService } from '../../_services/editor-history.service';
+import { StorageService } from '../../_services/storage.service';
 
 @Component({
   selector: 'app-editors',
@@ -17,7 +19,9 @@ export class EditorsComponent implements OnInit {
   constructor(
     private router: Router,
     private route: ActivatedRoute,
-    private exportService: ExportService
+    private exportService: ExportService,
+    private editorHistoryService: EditorHistoryService,
+    private storageService: StorageService
   ) {}
 
   ngOnInit(): void {
@@ -35,6 +39,15 @@ export class EditorsComponent implements OnInit {
       this.exportService.exportTalent();
     } else {
       this.exportService.exportHyperlinks();
+    }
+  }
+
+  resetEditorData(): void {
+    const confirmed = confirm('Are you sure? This will clear all editor data.');
+    if (confirmed) {
+      this.editorHistoryService.clearAll();
+      this.storageService.clearEditorData();
+      location.reload();
     }
   }
 }
