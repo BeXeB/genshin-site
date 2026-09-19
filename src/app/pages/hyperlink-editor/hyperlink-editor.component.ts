@@ -55,7 +55,6 @@ export class HyperlinkEditorComponent implements OnInit, OnDestroy {
     private hyperlinkService: HyperlinkService,
     private insertionService: HyperlinkInsertionService,
     private modalService: ModalService,
-    private exportService: ExportService
   ) {}
 
   ngOnInit(): void {
@@ -86,7 +85,6 @@ export class HyperlinkEditorComponent implements OnInit, OnDestroy {
         this.hyperlinks = links.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
 
         this.filterHyperlinks();
-        this.updateExportData();
       });
   }
 
@@ -291,12 +289,6 @@ export class HyperlinkEditorComponent implements OnInit, OnDestroy {
 
     this.loadHyperlinks();
     this.deselectHyperlink();
-  }
-
-  private updateExportData(): void {
-    this.exportService.setHyperlinkData({
-      hyperlinks: this.hyperlinks,
-    });
   }
 
   ngOnDestroy(): void {

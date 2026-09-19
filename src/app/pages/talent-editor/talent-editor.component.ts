@@ -60,7 +60,6 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
     private insertionService: HyperlinkInsertionService,
     private historyService: EditorHistoryService,
     private stateService: TalentEditorStateService,
-    private exportService: ExportService,
     private router: Router
   ) {}
 
@@ -271,15 +270,12 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
           // Save state and update export data
           this.saveState();
-          this.updateExportData();
         });
 
       this.characterSerivce.getBriefDescriptions(profile.normalizedName).subscribe((data) => {
         this.briefDrafts = { ...data };
         // Clear history for all fields when loading new character
         this.historyService.clearAll();
-        // Update export data
-        this.updateExportData();
       });
     } catch (error) {
       console.error('Error selecting character:', error);
@@ -295,16 +291,6 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
         this.selectedTalentKey,
         this.selectedElement
       );
-    }
-  }
-
-  private updateExportData(): void {
-    if (this.selectedCharacter && this.selectedCharacterDetails) {
-      this.exportService.setTalentData({
-        selectedCharacter: this.selectedCharacter,
-        briefDrafts: this.briefDrafts,
-        talentSections: this.talentSections,
-      });
     }
   }
 

@@ -35,11 +35,7 @@ export class EditorsComponent implements OnInit {
   }
 
   export(): void {
-    if (this.activeEditor === 'talent') {
-      this.exportService.exportTalent();
-    } else {
-      this.exportService.exportHyperlinks();
-    }
+    this.exportService.exportEditorData();
   }
 
   resetEditorData(): void {

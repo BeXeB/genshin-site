@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "elemental-energy",
+    "name": "Elemental Energy",
+    "description": "A karakter <color=#FFD780FF>Elemental Burst</color>-jének használatához szükséges energia. <color=#FFD780FF>Elemental Energy</color>-t <color=#FFD780FF>Elemental Particle</color>-ök begyűjtésével szerezhetsz.",
+    "isCustom": true,
+    "type": "custom"
+  }
+]

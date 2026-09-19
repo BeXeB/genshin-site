@@ -1,81 +1,97 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
-
-export interface TalentExportData {
-  selectedCharacter: any;
-  briefDrafts: Record<string, string>;
-  talentSections: any[];
-}
-
-export interface HyperlinkExportData {
-  hyperlinks: any[];
-}
+import { CharacterService } from './character.service';
+import { HyperlinkService } from './hyperlink.service';
+import { StorageKeys } from '../_models/storage-keys';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ExportService {
-  private talentData$ = new BehaviorSubject<TalentExportData | null>(null);
-  private hyperlinkData$ = new BehaviorSubject<HyperlinkExportData | null>(null);
+  constructor(
+    private characterService: CharacterService,
+    private hyperlinkService: HyperlinkService
+  ) {}
 
-  setTalentData(data: TalentExportData): void {
-    this.talentData$.next(data);
+  exportEditorData(): void {
+    this.exportTalentData();
+    this.exportHyperlinkData();
   }
 
-  setHyperlinkData(data: HyperlinkExportData): void {
-    this.hyperlinkData$.next(data);
-  }
-
-  exportTalent(): void {
-    const data = this.talentData$.value;
-    if (!data || !data.selectedCharacter) return;
-
+  private exportTalentData(): void {
     try {
-      const result: Record<string, string> = {};
+      const stateJson = localStorage.getItem(StorageKeys.TALENT_EDITOR_STATE);
 
-      for (const section of data.talentSections) {
-        for (const row of section.rows) {
-          const value = data.briefDrafts[row.key]?.trim();
-          if (value) {
-            result[row.key] = value;
-          }
-        }
+      if (!stateJson) {
+        console.warn('No talent editor state found.');
+        return;
       }
 
-      // Download brief descriptions
-      const json = JSON.stringify(result, null, 2);
-      const blob = new Blob([json], { type: 'application/json' });
-      const url = window.URL.createObjectURL(blob);
+      const state = JSON.parse(stateJson);
 
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `${data.selectedCharacter.normalizedName}.json`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      window.URL.revokeObjectURL(url);
+      const characterName = state?.selectedCharacterId;
+
+      if (!characterName) {
+        console.warn('No selected character found in talent editor state.');
+        return;
+      }
+
+      // Get the original, complete descriptions.
+      this.characterService.getBriefDescriptions(characterName).subscribe({
+        next: (originalDescriptions) => {
+          // Start with ALL original descriptions.
+          const exportData = {
+            ...originalDescriptions,
+          };
+
+          // Overlay only the descriptions that were edited.
+          if (state.editedDescriptions) {
+            Object.assign(exportData, state.editedDescriptions);
+          }
+
+          this.downloadJson(exportData, `${this.sanitizeFilename(characterName)}.json`);
+        },
+
+        error: (error) => {
+          console.error('Failed to load character descriptions for export:', error);
+        },
+      });
     } catch (error) {
-      console.error('Error exporting brief descriptions:', error);
+      console.error('Error exporting talent data:', error);
     }
   }
 
-  exportHyperlinks(): void {
-    const data = this.hyperlinkData$.value;
-    if (!data) return;
+  private exportHyperlinkData(): void {
+    this.hyperlinkService.getCustomHyperlinks().subscribe({
+      next: (hyperlinks) => {
+        this.downloadJson(hyperlinks, 'custom-hyperlinks.json');
+      },
+      error: (error) => {
+        console.error('Failed to load custom hyperlinks for export:', error);
+      },
+    });
+  }
 
-    try {
-      const toExport = data.hyperlinks.filter((h) => h.isCustom);
+  private downloadJson(data: unknown, filename: string): void {
+    const json = JSON.stringify(data, null, 2);
 
-      const dataStr = JSON.stringify(toExport, null, 2);
-      const dataBlob = new Blob([dataStr], { type: 'application/json' });
-      const url = URL.createObjectURL(dataBlob);
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = 'custom-hyperlinks.json';
-      link.click();
-      URL.revokeObjectURL(url);
-    } catch (error) {
-      console.error('Error exporting hyperlinks:', error);
-    }
+    const blob = new Blob([json], {
+      type: 'application/json',
+    });
+
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    URL.revokeObjectURL(url);
+  }
+
+  private sanitizeFilename(filename: string): string {
+    return filename.replace(/[<>:"/\\|?*]/g, '_');
   }
 }
