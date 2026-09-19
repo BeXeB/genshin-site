@@ -13,7 +13,12 @@ import { CharacterService } from '../../_services/character.service';
 import { FormatterService } from '../../_services/formatter.service';
 import { TalentEditorStateService } from '../../_services/talent-editor-state.service';
 import { AstNode, LinkType } from '../../_models/ast-nodes';
-import { CharacterBriefDescriptions } from '../../_models/character';
+import {
+  Character,
+  CharacterBriefDescriptions,
+  CharacterConstellation,
+  CharacterTalents,
+} from '../../_models/character';
 import { AstRendererComponent } from '../ast-renderer/ast-renderer.component';
 
 interface LinkTarget {
@@ -163,24 +168,20 @@ export class HyperlinkComponent implements OnInit {
     );
   }
 
-  private getTalentNameForField(character: any, fieldName: string): string | undefined {
+  private getTalentNameForField(character: Character, fieldName: string): string | undefined {
     // Character.skills contains talents keyed by field name
     // character.skills.combat1, character.skills.combat2, etc.
     // character.skills.passive1, character.skills.passive2, etc.
 
     // Check if it's a constellation (c1-c6)
     if (fieldName.match(/^c[1-6]$/)) {
-      if (character.constellation && character.constellation[fieldName]) {
-        return character.constellation[fieldName].name;
-      }
+      const constellationKey = fieldName as keyof Omit<CharacterConstellation, 'images'>;
+      return character.constellation?.[constellationKey]?.name;
     }
 
     // Check if it's a talent field (combat1-3, passive1-4)
-    if (character.skills && character.skills[fieldName]) {
-      return character.skills[fieldName].name;
-    }
-
-    return undefined;
+    const talentKey = fieldName as keyof Omit<CharacterTalents, 'costs' | 'images'>;
+    return character.skills?.[talentKey]?.name;
   }
 
   @HostListener('mouseenter')

@@ -1,6 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import { Character } from '../src/app/_models/character';
+import {
+  Character,
+  CharacterConstellation,
+  CharacterTalents,
+} from '../src/app/_models/character';
 
 const SOURCE_DIR = path.join(__dirname, '../raw_icons');
 const CHAR_TARGET_DIR = path.join(__dirname, '../src/assets/images/characters');
@@ -99,7 +103,7 @@ function addLookup(
 }
 
 function handleSkills(
-  skills: any,
+  skills: CharacterTalents,
   skillFolder: string,
   lookup: Record<string, string[]>,
 ) {
@@ -117,7 +121,7 @@ function handleSkills(
 }
 
 function handleConstellations(
-  constellation: any,
+  constellation: CharacterConstellation,
   constellationFolder: string,
   lookup: Record<string, string[]>,
 ) {
@@ -216,9 +220,9 @@ function organize() {
           ensureDir(skillFolder);
           ensureDir(constellationFolder);
 
-          handleSkills((variant as any).skills, skillFolder, lookup);
+          handleSkills(variant.skills, skillFolder, lookup);
           handleConstellations(
-            (variant as any).constellation,
+            variant.constellation,
             constellationFolder,
             lookup,
           );

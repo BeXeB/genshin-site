@@ -1,4 +1,3 @@
-import js from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import angularEslintPlugin from '@angular-eslint/eslint-plugin';
 import angularTemplateParser from '@angular-eslint/template-parser';
@@ -6,7 +5,7 @@ import angularTemplatePlugin from '@angular-eslint/eslint-plugin-template';
 
 export default [
   {
-    ignores: ['node_modules/', 'dist/', '.angular/', 'build/', '**/*.spec.ts', 'src/**/*.module.ts']
+    ignores: ['node_modules/', 'dist/', '.angular/', 'build/', '**/*.spec.ts', 'src/**/*.module.ts'],
   },
   {
     files: ['**/*.ts'],
@@ -24,7 +23,6 @@ export default [
       '@angular-eslint': angularEslintPlugin,
     },
     rules: {
-      // Angular-specific rules - errors
       '@angular-eslint/directive-selector': [
         'error',
         {
@@ -41,14 +39,10 @@ export default [
           style: 'kebab-case',
         },
       ],
-
-      // TypeScript rules - warnings
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/no-unused-vars': 'off',
       '@typescript-eslint/explicit-member-accessibility': 'off',
       '@typescript-eslint/no-unnecessary-type-constraint': 'off',
-
-      // General rules - turn off problematic ones
       'no-undef': 'off',
       'no-unused-vars': 'off',
       'no-constant-condition': 'off',

@@ -148,7 +148,7 @@ export class ResolverService {
           ...obj,
           costs: Object.fromEntries(
             Object.entries(obj.costs).map(([k, v]) => [k, this.resolveItems(v)])
-          ) as any,
+          ) as Record<string, ResolvedItem[]>,
         });
 
         const resolvedProfile: CharacterProfileResolved = {

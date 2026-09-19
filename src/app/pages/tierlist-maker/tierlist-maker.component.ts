@@ -1,7 +1,9 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import {
   DragDropModule,
+  CdkDrag,
   CdkDragDrop,
+  CdkDropList,
   transferArrayItem,
   moveItemInArray,
 } from '@angular/cdk/drag-drop';
@@ -271,7 +273,7 @@ export class TierlistMakerComponent implements OnInit {
     }
   }
 
-  allowDropFromPool = (drag: any, drop: any) => {
+  allowDropFromPool = (drag: CdkDrag<TierCharacter>, drop: CdkDropList<TierCharacter[]>) => {
     return true; // allow visuals
   };
 
@@ -377,20 +379,20 @@ export class TierlistMakerComponent implements OnInit {
     reader.readAsText(file);
   }
 
-  private validateTierlist(tierlist: any): boolean {
+  private validateTierlist(tierlist: unknown): tierlist is Tierlist {
     if (!tierlist || typeof tierlist !== 'object') {
       this.importError = 'Érvénytelen tierlist formátum';
       this.importMessage = '';
       return false;
     }
 
-    if (!Array.isArray(tierlist.tiers)) {
+    if (!('tiers' in tierlist) || !Array.isArray(tierlist.tiers)) {
       this.importError = 'Hiányzik a "tiers" tömb';
       this.importMessage = '';
       return false;
     }
 
-    if (!Array.isArray(tierlist.tags)) {
+    if (!('tags' in tierlist) || !Array.isArray(tierlist.tags)) {
       this.importError = 'Hiányzik a "tags" tömb';
       this.importMessage = '';
       return false;

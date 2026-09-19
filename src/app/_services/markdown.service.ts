@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { marked } from 'marked';
+import { marked, Token, Tokens } from 'marked';
 import { gfmHeadingId } from 'marked-gfm-heading-id';
 
 interface Heading {
@@ -112,18 +112,19 @@ export class MarkdownService {
     let rendererIdIndex = 0;
 
     // Create a custom walker that collects headings and generates ids once
-    const walkTokens = (tokens: any[]) => {
+    const walkTokens = (tokens: Token[]) => {
       tokens.forEach((token) => {
         if (token.type === 'heading') {
-          const slug = this.generateUniqueSlug(token.text, slugCounts);
+          const heading = token as Tokens.Heading;
+          const slug = this.generateUniqueSlug(heading.text, slugCounts);
           generatedIds.push(slug);
           headings.push({
-            text: token.text,
-            level: token.depth,
+            text: heading.text,
+            level: heading.depth,
             id: slug,
           });
         }
-        if (token.tokens) {
+        if ('tokens' in token && Array.isArray(token.tokens)) {
           walkTokens(token.tokens);
         }
       });
@@ -131,16 +132,16 @@ export class MarkdownService {
 
     // Use marked with a per-parse renderer that consumes pre-generated ids in order
     const renderer = new marked.Renderer();
-    renderer.heading = (args: any) => {
-      const text = args.text || args;
-      const level = args.depth || args;
+    renderer.heading = (args: Tokens.Heading) => {
+      const text = args.text;
+      const level = args.depth;
       const slug = generatedIds[rendererIdIndex++] || this.generateUniqueSlug(text, slugCounts);
       return `<h${level} id="${slug}">${text}</h${level}>\n`;
     };
 
-    renderer.image = (args: any) => {
-      const href = args.href || args;
-      const text = args.text || args;
+    renderer.image = (args: Tokens.Image) => {
+      const href = args.href;
+      const text = args.text;
 
       // Check if this image is a reference to an entity (character/weapon/artifact)
       const entityRef = this.extractEntityReference(href);
