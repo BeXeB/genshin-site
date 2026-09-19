@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, Router, ActivatedRoute } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { ExportService } from '../../_services/export.service';
 import { EditorHistoryService } from '../../_services/editor-history.service';
@@ -14,20 +14,11 @@ import { StorageService } from '../../_services/storage.service';
   styleUrl: './editors.component.css',
 })
 export class EditorsComponent {
-  activeEditor: 'talent' | 'hyperlink' = 'talent';
-
   constructor(
-    private router: Router,
-    private route: ActivatedRoute,
     private exportService: ExportService,
     private editorHistoryService: EditorHistoryService,
     private storageService: StorageService
   ) {}
-
-  selectEditor(editor: 'talent' | 'hyperlink'): void {
-    this.activeEditor = editor;
-    this.router.navigate([editor], { relativeTo: this.route });
-  }
 
   export(): void {
     this.exportService.exportEditorData();

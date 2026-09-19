@@ -36,6 +36,7 @@ export const routes: Routes = [
     path: 'editors',
     component: EditorsComponent,
     children: [
+      { path: '', pathMatch: 'full', redirectTo: 'talent' },
       { path: 'talent', component: TalentEditorComponent },
       { path: 'hyperlink', component: HyperlinkEditorComponent },
     ],

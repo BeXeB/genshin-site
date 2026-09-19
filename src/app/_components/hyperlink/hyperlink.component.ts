@@ -13,6 +13,7 @@ import { CharacterService } from '../../_services/character.service';
 import { FormatterService } from '../../_services/formatter.service';
 import { TalentEditorStateService } from '../../_services/talent-editor-state.service';
 import { AstNode, LinkType } from '../../_models/ast-nodes';
+import { CharacterBriefDescriptions } from '../../_models/character';
 import { AstRendererComponent } from '../ast-renderer/ast-renderer.component';
 
 interface LinkTarget {
@@ -133,11 +134,14 @@ export class HyperlinkComponent implements OnInit {
         return this.characterService.getBriefDescriptions(characterName).pipe(
           map((briefs) => {
             // Check if there's an edited version in state service (storage has priority)
-            const editedBriefText = this.stateService.getEditedDescription(fieldName as any);
+            const editedBriefText = this.stateService.getEditedDescription(
+              fieldName as keyof CharacterBriefDescriptions,
+              characterName
+            );
 
             // Use storage version if available, otherwise fall back to JSON
             const briefText =
-              editedBriefText && editedBriefText.trim()
+              editedBriefText !== undefined
                 ? editedBriefText
                 : (briefs as Record<string, string>)?.[fieldName];
 

@@ -80,6 +80,11 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
   // Debounce timer for editor changes
   private editorChangeDebounceTimer: ReturnType<typeof setTimeout> | null = null;
+  private pendingEditorChange: {
+    characterId: string;
+    key: keyof CharacterBriefDescriptions;
+    text: string;
+  } | null = null;
 
   colorPresets: ColorPreset[] = [
     { label: 'Kiemelés', color: '#FFD780FF' },
@@ -121,8 +126,7 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
     // Validate the stored character still exists
     if (!this.stateService.validateState(this.characters.map((c) => c.normalizedName))) {
-      // Invalid state, clear and proceed with defaults
-      this.stateService.clearAll();
+      this.stateService.clearSelection();
       return;
     }
 
@@ -175,7 +179,10 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
               'c6',
             ];
             for (const key of allKeys) {
-              const edited = this.stateService.getEditedDescription(key);
+              const edited = this.stateService.getEditedDescription(
+                key,
+                character.normalizedName
+              );
               if (edited !== undefined) {
                 this.briefDrafts[key] = edited;
               }
@@ -207,12 +214,12 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   }
 
   private handleError(): void {
-    console.error('Talent editor encountered an error, clearing state and redirecting');
-    this.stateService.clearAll();
+    console.error('Talent editor encountered an error, redirecting');
     this.router.navigate(['/']);
   }
 
   ngOnDestroy(): void {
+    this.flushPendingEditorChange();
     this.insertionSubscription?.unsubscribe();
   }
 
@@ -231,6 +238,7 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
   selectCharacter(profile: CharacterProfile) {
     try {
+      this.flushPendingEditorChange();
       this.selectedCharacter = profile;
       this.search = profile.name;
       this.showDropdown = false;
@@ -238,14 +246,6 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
       this.selectedTalentKey = null;
       this.selectedSection = null;
       this.selectedElement = null;
-
-      // Clear any debounce timer
-      if (this.editorChangeDebounceTimer) {
-        clearTimeout(this.editorChangeDebounceTimer);
-      }
-
-      // Clear previous character's state and start fresh
-      this.stateService.clearAll();
 
       this.characterSerivce
         .getCharacterDetails(profile.normalizedName)
@@ -500,22 +500,32 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
   onEditorTextChange(key: keyof CharacterBriefDescriptions, newText: string): void {
     this.briefDrafts[key] = newText;
+    if (!this.selectedCharacter) return;
 
     // Debounce saving edited description to state service (300ms)
     if (this.editorChangeDebounceTimer) {
       clearTimeout(this.editorChangeDebounceTimer);
     }
 
-    this.editorChangeDebounceTimer = setTimeout(() => {
-      // Only save if this is actually edited (not using original from JSON)
-      // Delta approach: only store if edited
-      if (newText && newText.trim().length > 0) {
-        this.stateService.saveEditedDescription(key, newText);
-      } else {
-        // If empty, remove from storage (use original from JSON)
-        this.stateService.saveEditedDescription(key, '');
-      }
-    }, 300);
+    this.pendingEditorChange = {
+      characterId: this.selectedCharacter.normalizedName,
+      key,
+      text: newText,
+    };
+    this.editorChangeDebounceTimer = setTimeout(() => this.flushPendingEditorChange(), 300);
+  }
+
+  private flushPendingEditorChange(): void {
+    if (this.editorChangeDebounceTimer) {
+      clearTimeout(this.editorChangeDebounceTimer);
+      this.editorChangeDebounceTimer = null;
+    }
+
+    if (!this.pendingEditorChange) return;
+
+    const { characterId, key, text } = this.pendingEditorChange;
+    this.pendingEditorChange = null;
+    this.stateService.saveEditedDescription(key, text, characterId);
   }
 
   onEditorHyperlinkRequested(
@@ -555,7 +565,11 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
     this.briefDrafts[key] = newValue;
 
     // Save the edited description to state
-    this.stateService.saveEditedDescription(key, newValue);
+    this.stateService.saveEditedDescription(
+      key,
+      newValue,
+      this.selectedCharacter?.normalizedName
+    );
 
     // Capture the state change in history
     this.historyService.captureSnapshot(key, newValue, start, start + linkMarkup.length);

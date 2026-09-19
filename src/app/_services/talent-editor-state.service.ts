@@ -3,13 +3,17 @@ import { CharacterBriefDescriptions } from '../_models/character';
 import { ElementType } from '../_models/enum';
 import { StorageService } from './storage.service';
 
-interface TalentEditorState {
+export interface TalentEditorState {
   selectedCharacterId: string | null;
   selectedSection: string | null;
   selectedTalentKey: keyof CharacterBriefDescriptions | null;
   selectedElement: ElementType | null;
-  editedDescriptions: Record<string, string>;
+  editedDescriptionsByCharacter: Record<string, Partial<CharacterBriefDescriptions>>;
 }
+
+type StoredTalentEditorState = Partial<TalentEditorState> & {
+  editedDescriptions?: Record<string, string>;
+};
 
 @Injectable({
   providedIn: 'root',
@@ -25,7 +29,7 @@ export class TalentEditorStateService {
       selectedSection: null,
       selectedTalentKey: null,
       selectedElement: null,
-      editedDescriptions: {},
+      editedDescriptionsByCharacter: {},
     };
   }
 
@@ -33,8 +37,26 @@ export class TalentEditorStateService {
    * Get the current state from storage
    */
   getState(): TalentEditorState {
-    const stored = this.storageService.getData<TalentEditorState>(this.STORAGE_KEY);
-    return stored || this.getEmptyState();
+    const stored = this.storageService.getData<StoredTalentEditorState>(this.STORAGE_KEY);
+    if (!stored) return this.getEmptyState();
+
+    const editedDescriptionsByCharacter = stored.editedDescriptionsByCharacter ?? {};
+    if (
+      stored.selectedCharacterId &&
+      stored.editedDescriptions &&
+      !editedDescriptionsByCharacter[stored.selectedCharacterId]
+    ) {
+      editedDescriptionsByCharacter[stored.selectedCharacterId] = stored.editedDescriptions;
+    }
+
+    const selectedCharacterId = stored.selectedCharacterId ?? null;
+    return {
+      selectedCharacterId,
+      selectedSection: stored.selectedSection ?? null,
+      selectedTalentKey: stored.selectedTalentKey ?? null,
+      selectedElement: stored.selectedElement ?? null,
+      editedDescriptionsByCharacter,
+    };
   }
 
   /**
@@ -65,14 +87,18 @@ export class TalentEditorStateService {
    * Save an edited description (delta approach - only store if edited)
    * Only called when user modifies content
    */
-  saveEditedDescription(talentKey: keyof CharacterBriefDescriptions, content: string): void {
+  saveEditedDescription(
+    talentKey: keyof CharacterBriefDescriptions,
+    content: string,
+    characterId?: string
+  ): void {
     const state = this.getState();
-    if (content && content.trim().length > 0) {
-      state.editedDescriptions[String(talentKey)] = content;
-    } else {
-      // Remove if empty
-      delete state.editedDescriptions[String(talentKey)];
-    }
+    const targetCharacterId = characterId ?? state.selectedCharacterId;
+    if (!targetCharacterId) return;
+
+    const descriptions = state.editedDescriptionsByCharacter[targetCharacterId] ?? {};
+    descriptions[talentKey] = content;
+    state.editedDescriptionsByCharacter[targetCharacterId] = descriptions;
     this.saveState(state);
   }
 
@@ -80,9 +106,19 @@ export class TalentEditorStateService {
    * Get an edited description if it exists, otherwise undefined
    * Component should fall back to original JSON value if undefined
    */
-  getEditedDescription(talentKey: keyof CharacterBriefDescriptions): string | undefined {
+  getEditedDescription(
+    talentKey: keyof CharacterBriefDescriptions,
+    characterId?: string
+  ): string | undefined {
     const state = this.getState();
-    return state.editedDescriptions[String(talentKey)];
+    const targetCharacterId = characterId ?? state.selectedCharacterId;
+    return targetCharacterId
+      ? state.editedDescriptionsByCharacter[targetCharacterId]?.[talentKey]
+      : undefined;
+  }
+
+  getEditedCharacters(): Record<string, Partial<CharacterBriefDescriptions>> {
+    return this.getState().editedDescriptionsByCharacter;
   }
 
   /**
@@ -95,6 +131,15 @@ export class TalentEditorStateService {
       return false;
     }
     return availableCharacterIds.includes(state.selectedCharacterId);
+  }
+
+  clearSelection(): void {
+    const state = this.getState();
+    state.selectedCharacterId = null;
+    state.selectedSection = null;
+    state.selectedTalentKey = null;
+    state.selectedElement = null;
+    this.saveState(state);
   }
 
   /**

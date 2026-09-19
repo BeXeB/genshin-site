@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { CharacterService } from './character.service';
 import { HyperlinkService } from './hyperlink.service';
-import { StorageKeys } from '../_models/storage-keys';
+import { TalentEditorStateService } from './talent-editor-state.service';
+import { CharacterBriefDescriptions } from '../_models/character';
+import { forkJoin, map } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -9,7 +11,8 @@ import { StorageKeys } from '../_models/storage-keys';
 export class ExportService {
   constructor(
     private characterService: CharacterService,
-    private hyperlinkService: HyperlinkService
+    private hyperlinkService: HyperlinkService,
+    private talentEditorStateService: TalentEditorStateService
   ) {}
 
   exportEditorData(): void {
@@ -18,46 +21,56 @@ export class ExportService {
   }
 
   private exportTalentData(): void {
-    try {
-      const stateJson = localStorage.getItem(StorageKeys.TALENT_EDITOR_STATE);
+    const editedCharacters = Object.entries(
+      this.talentEditorStateService.getEditedCharacters()
+    );
 
-      if (!stateJson) {
-        console.warn('No talent editor state found.');
-        return;
-      }
-
-      const state = JSON.parse(stateJson);
-
-      const characterName = state?.selectedCharacterId;
-
-      if (!characterName) {
-        console.warn('No selected character found in talent editor state.');
-        return;
-      }
-
-      // Get the original, complete descriptions.
-      this.characterService.getBriefDescriptions(characterName).subscribe({
-        next: (originalDescriptions) => {
-          // Start with ALL original descriptions.
-          const exportData = {
-            ...originalDescriptions,
-          };
-
-          // Overlay only the descriptions that were edited.
-          if (state.editedDescriptions) {
-            Object.assign(exportData, state.editedDescriptions);
-          }
-
-          this.downloadJson(exportData, `${this.sanitizeFilename(characterName)}.json`);
-        },
-
-        error: (error) => {
-          console.error('Failed to load character descriptions for export:', error);
-        },
-      });
-    } catch (error) {
-      console.error('Error exporting talent data:', error);
+    if (editedCharacters.length === 0) {
+      console.warn('No edited talent descriptions found.');
+      return;
     }
+
+    forkJoin(
+      editedCharacters.map(([characterName, editedDescriptions]) =>
+        this.characterService.getBriefDescriptions(characterName).pipe(
+          map((originalDescriptions) => ({
+            characterName,
+            descriptions: {
+              ...this.getEmptyTalentDescriptions(),
+              ...originalDescriptions,
+              ...editedDescriptions,
+            },
+          }))
+        )
+      )
+    ).subscribe({
+      next: (characters) => {
+        characters.forEach(({ characterName, descriptions }) => {
+          this.downloadJson(descriptions, `${this.sanitizeFilename(characterName)}.json`);
+        });
+      },
+      error: (error) => {
+        console.error('Failed to export talent descriptions:', error);
+      },
+    });
+  }
+
+  private getEmptyTalentDescriptions(): Required<CharacterBriefDescriptions> {
+    return {
+      combat1: '',
+      combat2: '',
+      combat3: '',
+      passive1: '',
+      passive2: '',
+      passive3: '',
+      passive4: '',
+      c1: '',
+      c2: '',
+      c3: '',
+      c4: '',
+      c5: '',
+      c6: '',
+    };
   }
 
   private exportHyperlinkData(): void {
