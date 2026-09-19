@@ -68,6 +68,10 @@ export class TierlistMakerComponent implements OnInit {
     this.storageService.saveTierlist(this.tierlist);
   }
 
+  onTierChanged(): void {
+    this.storageService.saveTierlist(this.tierlist);
+  }
+
   get filteredCharacters(): TierCharacter[] {
     const search = this.poolSearch.trim().toLowerCase();
 
@@ -85,29 +89,36 @@ export class TierlistMakerComponent implements OnInit {
   ngOnInit(): void {
     const saved = this.storageService.loadTierlist();
     if (saved) {
-      this.tierlist = saved;
-
-      this.tierlist.tiers.forEach((tier) => {
-        tier.characters.forEach((char) => {
-          if (!char.instanceId) {
-            char.instanceId = crypto.randomUUID();
-          }
-        });
-      });
+      this.tierlist = this.normalizeTierlist(saved);
+      this.storageService.saveTierlist(this.tierlist);
     }
 
     this.characterSerivce.getCharacters().subscribe((data: CharacterProfile[]) => {
       this.characterMap = new Map(data.map((c) => [c.normalizedName, c]));
 
       this.characters = data
+        .sort((a, b) => b.sortId - a.sortId)
         .map((c) => ({
           id: c.id,
           apiKey: c.normalizedName,
           tags: [],
-          profile: c,
-        }))
-        .sort((b, a) => a.profile.sortId - b.profile.sortId);
+        }));
     });
+  }
+
+  private normalizeTierlist(tierlist: Tierlist): Tierlist {
+    return {
+      tags: tierlist.tags,
+      tiers: tierlist.tiers.map((tier) => ({
+        tier: tier.tier,
+        characters: tier.characters.map((character) => ({
+          id: character.id,
+          apiKey: character.apiKey,
+          tags: character.tags ?? [],
+          instanceId: character.instanceId ?? crypto.randomUUID(),
+        })),
+      })),
+    };
   }
 
   addTier() {
@@ -210,7 +221,7 @@ export class TierlistMakerComponent implements OnInit {
     this.storageService.saveTierlist(this.tierlist);
   }
 
-  drop(event: CdkDragDrop<any[]>) {
+  drop(event: CdkDragDrop<TierCharacter[]>) {
     if (event.previousContainer === event.container) {
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
       this.storageService.saveTierlist(this.tierlist);
@@ -224,7 +235,8 @@ export class TierlistMakerComponent implements OnInit {
 
     if (fromPool) {
       const cloned: TierCharacter = {
-        ...item,
+        id: item.id,
+        apiKey: item.apiKey,
         instanceId: crypto.randomUUID(),
         tags: [],
       };
