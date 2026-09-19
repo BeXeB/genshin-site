@@ -32,7 +32,7 @@ import {
   FormattedTextEditorComponent,
   HyperlinkRequest,
 } from '../../_components/formatted-text-editor/formatted-text-editor.component';
-import { HyperlinkEditorComponent } from '../../_components/hyperlink-editor/hyperlink-editor.component';
+import { HyperlinkSelectorComponent } from '../../_components/hyperlink-selector/hyperlink-selector.component';
 
 type TalentRow = {
   key: keyof CharacterBriefDescriptions;
@@ -64,7 +64,7 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
     private router: Router
   ) {}
 
-  @ViewChild('hyperlink-editor') hyperlinkEditor?: HyperlinkEditorComponent;
+  @ViewChild('hyperlink-editor') hyperlinkEditor?: HyperlinkSelectorComponent;
 
   characters: CharacterProfile[] = [];
 
@@ -80,7 +80,7 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   briefDrafts: Partial<CharacterBriefDescriptions> = {};
 
   // Debounce timer for editor changes
-  private editorChangeDebounceTimer: any = null;
+  private editorChangeDebounceTimer: ReturnType<typeof setTimeout> | null = null;
 
   colorPresets: ColorPreset[] = [
     { label: 'Kiemelés', color: '#FFD780FF' },

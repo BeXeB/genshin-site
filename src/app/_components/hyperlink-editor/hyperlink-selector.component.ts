@@ -12,13 +12,13 @@ interface HyperlinkWithType extends Hyperlink {
 }
 
 @Component({
-  selector: 'app-hyperlink-editor',
+  selector: 'app-hyperlink-selector',
   standalone: true,
   imports: [CommonModule, FormsModule, FormattedTextComponent],
-  templateUrl: './hyperlink-editor.component.html',
-  styleUrl: './hyperlink-editor.component.css',
+  templateUrl: './hyperlink-selector.component.html',
+  styleUrl: './hyperlink-selector.component.css',
 })
-export class HyperlinkEditorComponent implements OnInit, AfterViewInit, OnDestroy {
+export class HyperlinkSelectorComponent implements OnInit, AfterViewInit, OnDestroy {
   // Browse
   searchQuery: string = '';
   hyperlinks: HyperlinkWithType[] = [];

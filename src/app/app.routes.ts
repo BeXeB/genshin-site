@@ -14,7 +14,7 @@ import { ArtifactDetailsComponent } from './pages/artifact-details/artifact-deta
 import { MaterialsComponent } from './pages/materials/materials.component';
 import { MaterialDetailsComponent } from './pages/material-details/material-details.component';
 import { TalentEditorComponent } from './pages/talent-editor/talent-editor.component';
-import { HyperlinkEditorPageComponent } from './pages/hyperlink-editor-page/hyperlink-editor-page.component';
+import { HyperlinkEditorComponent } from './pages/hyperlink-editor/hyperlink-editor.component';
 import { EditorsComponent } from './pages/editors/editors.component';
 
 export const routes: Routes = [
@@ -37,10 +37,7 @@ export const routes: Routes = [
     component: EditorsComponent,
     children: [
       { path: 'talent', component: TalentEditorComponent },
-      { path: 'hyperlink', component: HyperlinkEditorPageComponent },
+      { path: 'hyperlink', component: HyperlinkEditorComponent },
     ],
   },
-  // Legacy routes for backward compatibility
-  { path: 'talent-editor', component: TalentEditorComponent },
-  { path: 'hyperlink-editor', component: HyperlinkEditorPageComponent },
 ];

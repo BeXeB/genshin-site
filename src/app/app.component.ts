@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { NavBarComponent } from './_components/nav-bar/nav-bar.component';
 import { ModalComponent } from './_components/modal/modal.component';
 import { SettingsComponent } from './_components/settings/settings.component';
-import { HyperlinkEditorComponent } from './_components/hyperlink-editor/hyperlink-editor.component';
+import { HyperlinkSelectorComponent } from './_components/hyperlink-selector/hyperlink-selector.component';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +13,7 @@ import { HyperlinkEditorComponent } from './_components/hyperlink-editor/hyperli
     NavBarComponent,
     ModalComponent,
     SettingsComponent,
-    HyperlinkEditorComponent,
+    HyperlinkSelectorComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

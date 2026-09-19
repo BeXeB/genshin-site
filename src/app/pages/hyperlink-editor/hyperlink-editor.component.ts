@@ -9,7 +9,7 @@ import {
   FormattedTextEditorComponent,
   HyperlinkRequest,
 } from '../../_components/formatted-text-editor/formatted-text-editor.component';
-import { HyperlinkSelectorComponent } from '../../_components/hyperlink-selector/hyperlink-editor.component';
+import { HyperlinkSelectorComponent } from '../../_components/hyperlink-selector/hyperlink-selector.component';
 import { Hyperlink } from '../../_models/hyperlinks';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
@@ -22,8 +22,8 @@ interface HyperlinkListItem extends Hyperlink {
   selector: 'app-hyperlink-editor',
   standalone: true,
   imports: [CommonModule, FormsModule, FormattedTextEditorComponent],
-  templateUrl: './hyperlink-editor-page.component.html',
-  styleUrl: './hyperlink-editor-page.component.css',
+  templateUrl: './hyperlink-editor.component.html',
+  styleUrl: './hyperlink-editor.component.css',
 })
 export class HyperlinkEditorComponent implements OnInit, OnDestroy {
   // List state
