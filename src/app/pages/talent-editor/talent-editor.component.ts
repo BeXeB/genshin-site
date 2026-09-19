@@ -138,18 +138,21 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
         this.applyLoadedCharacter(profile, details, descriptions, restoreSelection);
       });
 
-    this.characterSerivce.getCharacters().pipe(takeUntil(this.destroy$)).subscribe({
-      next: (data: CharacterProfile[]) => {
-        this.characters = data.sort((b, a) => a.sortId - b.sortId);
+    this.characterSerivce
+      .getCharacters()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: (data: CharacterProfile[]) => {
+          this.characters = data.sort((b, a) => a.sortId - b.sortId);
 
-        // Try to restore state after characters are loaded
-        this.restoreState();
-      },
-      error: (error) => {
-        console.error('Failed to load characters for talent editor:', error);
-        this.handleError();
-      },
-    });
+          // Try to restore state after characters are loaded
+          this.restoreState();
+        },
+        error: (error) => {
+          console.error('Failed to load characters for talent editor:', error);
+          this.handleError();
+        },
+      });
 
     this.insertionService.insertion$
       .pipe(takeUntil(this.destroy$))

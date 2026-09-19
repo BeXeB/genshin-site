@@ -54,7 +54,7 @@ export class HyperlinkEditorComponent implements OnInit, OnDestroy {
   constructor(
     private hyperlinkService: HyperlinkService,
     private insertionService: HyperlinkInsertionService,
-    private modalService: ModalService,
+    private modalService: ModalService
   ) {}
 
   ngOnInit(): void {

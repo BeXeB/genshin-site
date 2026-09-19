@@ -6,7 +6,6 @@ import { StorageKeys } from '../_models/storage-keys';
   providedIn: 'root',
 })
 export class StorageService {
-
   saveData<T>(key: string, data: T): void {
     try {
       localStorage.setItem(key, JSON.stringify(data));
@@ -27,10 +26,7 @@ export class StorageService {
 
   saveTierlist(tierlist: Tierlist): void {
     try {
-      localStorage.setItem(
-        StorageKeys.TIERLIST_DATA,
-        JSON.stringify(tierlist)
-      );
+      localStorage.setItem(StorageKeys.TIERLIST_DATA, JSON.stringify(tierlist));
     } catch (err) {
       console.error('Failed to save tierlist:', err);
     }

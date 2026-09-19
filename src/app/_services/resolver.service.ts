@@ -207,4 +207,3 @@ export class ResolverService {
     return weapons.map((w) => this.resolveWeapon(w));
   }
 }
-

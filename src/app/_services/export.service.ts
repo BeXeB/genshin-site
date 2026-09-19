@@ -67,9 +67,7 @@ export class ExportService {
   private buildTalentExport(
     originalDescriptions: CharacterBriefMap,
     editedDescriptions: Partial<CharacterBriefDescriptions>,
-    editedDescriptionsByElement: Partial<
-      Record<ElementType, Partial<CharacterBriefDescriptions>>
-    >,
+    editedDescriptionsByElement: Partial<Record<ElementType, Partial<CharacterBriefDescriptions>>>,
     variantElements: ElementType[]
   ): CharacterBriefMap {
     const editedElements = Object.keys(editedDescriptionsByElement) as ElementType[];

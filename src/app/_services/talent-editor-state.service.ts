@@ -46,8 +46,7 @@ export class TalentEditorStateService {
     if (!stored) return this.getEmptyState();
 
     const editedDescriptionsByCharacter = stored.editedDescriptionsByCharacter ?? {};
-    const editedDescriptionsByCharacterElement =
-      stored.editedDescriptionsByCharacterElement ?? {};
+    const editedDescriptionsByCharacterElement = stored.editedDescriptionsByCharacterElement ?? {};
     if (
       stored.selectedCharacterId &&
       stored.editedDescriptions &&

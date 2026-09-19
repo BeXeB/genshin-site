@@ -19,15 +19,13 @@ export abstract class BaseDetailComponent<T> implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit(): void {
-    this.route.paramMap
-      .pipe(takeUntil(this.destroy$))
-      .subscribe((params) => {
-        const slug = params.get('slug');
-        if (!slug) return;
+    this.route.paramMap.pipe(takeUntil(this.destroy$)).subscribe((params) => {
+      const slug = params.get('slug');
+      if (!slug) return;
 
-        this.detailLoadCancelled$.next();
-        this.loadDetail(slug);
-      });
+      this.detailLoadCancelled$.next();
+      this.loadDetail(slug);
+    });
   }
 
   ngOnDestroy(): void {

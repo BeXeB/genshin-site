@@ -190,16 +190,18 @@ export class HyperlinkComponent implements OnInit {
   }
 
   private updateLinkContent(): void {
-    this.resolveTarget().pipe(take(1)).subscribe((target) => {
-      this.title = target?.name;
+    this.resolveTarget()
+      .pipe(take(1))
+      .subscribe((target) => {
+        this.title = target?.name;
 
-      if (!target) {
-        return;
-      }
+        if (!target) {
+          return;
+        }
 
-      this.descriptionNodes = this.formatter.parse(target.description);
-      this.updateTooltipPosition();
-    });
+        this.descriptionNodes = this.formatter.parse(target.description);
+        this.updateTooltipPosition();
+      });
   }
 
   @HostListener('window:resize')
