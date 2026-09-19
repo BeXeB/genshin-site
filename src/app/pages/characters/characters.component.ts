@@ -11,6 +11,7 @@ import { ItemCardComponent } from '../../_components/item-card/item-card.compone
 import { BaseListComponent } from '../../_components/base-list.component';
 import { Observable } from 'rxjs';
 import { ElementType, ElementTypeLabel, WeaponTypeLabel } from '../../_models/enum';
+import { StorageKeys } from '../../_models/storage-keys';
 
 @Component({
   selector: 'app-characters',
@@ -20,7 +21,6 @@ import { ElementType, ElementTypeLabel, WeaponTypeLabel } from '../../_models/en
   styleUrl: './characters.component.css',
 })
 export class CharactersComponent extends BaseListComponent<CharacterProfile> {
-  private readonly _storageKey = 'characterFilters';
   readonly ElementType = ElementType;
 
   data: CharacterProfile[] = [];
@@ -58,7 +58,7 @@ export class CharactersComponent extends BaseListComponent<CharacterProfile> {
   };
 
   get storageKey(): string {
-    return this._storageKey;
+    return StorageKeys.CHARACTER_FILTERS;
   }
 
   constructor(

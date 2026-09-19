@@ -103,22 +103,22 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   private insertionSubscription?: Subscription;
 
   ngOnInit(): void {
-    try {
-      this.characterSerivce.getCharacters().subscribe((data: CharacterProfile[]) => {
+    this.characterSerivce.getCharacters().subscribe({
+      next: (data: CharacterProfile[]) => {
         this.characters = data.sort((b, a) => a.sortId - b.sortId);
 
         // Try to restore state after characters are loaded
         this.restoreState();
-      });
+      },
+      error: (error) => {
+        console.error('Failed to load characters for talent editor:', error);
+        this.handleError();
+      },
+    });
 
-      // Subscribe to hyperlink insertions
-      this.insertionSubscription = this.insertionService.insertion$.subscribe((event) => {
-        this.insertHyperlink(event.id, event.displayText, event.type);
-      });
-    } catch (error) {
-      console.error('Error in talent editor ngOnInit:', error);
-      this.handleError();
-    }
+    this.insertionSubscription = this.insertionService.insertion$.subscribe((event) => {
+      this.insertHyperlink(event.id, event.displayText, event.type);
+    });
   }
 
   private restoreState(): void {
@@ -140,21 +140,27 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
         this.characterSerivce
           .getCharacterDetails(character.normalizedName)
-          .subscribe((details: Character) => {
-            this.selectedCharacterDetails = details;
+          .subscribe({
+            next: (details: Character) => {
+              this.selectedCharacterDetails = details;
 
-            // Restore element selection if available
-            if (state.selectedElement) {
-              const variantElements = this.getVariantElements();
-              if (variantElements.includes(state.selectedElement)) {
-                this.selectedElement = state.selectedElement;
+              // Restore element selection if available
+              if (state.selectedElement) {
+                const variantElements = this.getVariantElements();
+                if (variantElements.includes(state.selectedElement)) {
+                  this.selectedElement = state.selectedElement;
+                }
+              } else {
+                const variantElements = this.getVariantElements();
+                if (variantElements.length > 0) {
+                  this.selectedElement = variantElements[0];
+                }
               }
-            } else {
-              const variantElements = this.getVariantElements();
-              if (variantElements.length > 0) {
-                this.selectedElement = variantElements[0];
-              }
-            }
+            },
+            error: (error) => {
+              console.error('Failed to restore character details:', error);
+              this.handleError();
+            },
           });
 
         // Restore draft descriptions
@@ -237,19 +243,17 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   }
 
   selectCharacter(profile: CharacterProfile) {
-    try {
-      this.flushPendingEditorChange();
-      this.selectedCharacter = profile;
-      this.search = profile.name;
-      this.showDropdown = false;
-      this.briefDrafts = {};
-      this.selectedTalentKey = null;
-      this.selectedSection = null;
-      this.selectedElement = null;
+    this.flushPendingEditorChange();
+    this.selectedCharacter = profile;
+    this.search = profile.name;
+    this.showDropdown = false;
+    this.briefDrafts = {};
+    this.selectedTalentKey = null;
+    this.selectedSection = null;
+    this.selectedElement = null;
 
-      this.characterSerivce
-        .getCharacterDetails(profile.normalizedName)
-        .subscribe((details: Character) => {
+    this.characterSerivce.getCharacterDetails(profile.normalizedName).subscribe({
+      next: (details: Character) => {
           this.selectedCharacterDetails = details;
 
           // Initialize element selection for characters with variants
@@ -270,17 +274,18 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
           // Save state and update export data
           this.saveState();
-        });
+      },
+      error: (error) => {
+        console.error('Failed to load selected character details:', error);
+        this.handleError();
+      },
+    });
 
-      this.characterSerivce.getBriefDescriptions(profile.normalizedName).subscribe((data) => {
-        this.briefDrafts = { ...data };
-        // Clear history for all fields when loading new character
-        this.historyService.clearAll();
-      });
-    } catch (error) {
-      console.error('Error selecting character:', error);
-      this.handleError();
-    }
+    this.characterSerivce.getBriefDescriptions(profile.normalizedName).subscribe((data) => {
+      this.briefDrafts = { ...data };
+      // Clear history for all fields when loading new character
+      this.historyService.clearAll();
+    });
   }
 
   private saveState(): void {

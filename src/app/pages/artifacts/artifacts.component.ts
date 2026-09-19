@@ -11,6 +11,7 @@ import { PageFilters, FilterGroup } from '../../_models/filters';
 import { ItemCardComponent } from '../../_components/item-card/item-card.component';
 import { BaseListComponent } from '../../_components/base-list.component';
 import { Observable } from 'rxjs';
+import { StorageKeys } from '../../_models/storage-keys';
 
 @Component({
   selector: 'app-artifacts',
@@ -20,8 +21,6 @@ import { Observable } from 'rxjs';
   styleUrl: './artifacts.component.css',
 })
 export class ArtifactsComponent extends BaseListComponent<ArtifactSet> {
-  private readonly _storageKey = 'artifactFilters';
-
   data: ArtifactSet[] = [];
   filtered: ArtifactSet[] = [];
 
@@ -42,7 +41,7 @@ export class ArtifactsComponent extends BaseListComponent<ArtifactSet> {
   };
 
   get storageKey(): string {
-    return this._storageKey;
+    return StorageKeys.ARTIFACT_FILTERS;
   }
 
   constructor(
