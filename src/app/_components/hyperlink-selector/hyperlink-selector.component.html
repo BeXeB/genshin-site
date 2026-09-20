@@ -125,7 +125,9 @@
         </div>
         <div class="hyperlink-detail">
           <div class="detail-label">Description</div>
-          <div class="detail-value">{{ selectedHyperlink.description }}</div>
+          <div class="detail-value">
+            <app-formatted-text [text]="selectedHyperlink.description"></app-formatted-text>
+          </div>
         </div>
         <div class="button-group">
           <button (click)="insertLink(selectedHyperlink)">Insert Link</button>

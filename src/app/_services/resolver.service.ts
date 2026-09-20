@@ -7,6 +7,7 @@ import { ResolvedItem, Item } from '../_models/items';
 import {
   Character,
   CharacterBriefDescriptions,
+  CharacterBriefMap,
   CharacterProfileResolved,
   CharacterResolved,
   CharacterTalentsResolved,
@@ -147,7 +148,7 @@ export class ResolverService {
           ...obj,
           costs: Object.fromEntries(
             Object.entries(obj.costs).map(([k, v]) => [k, this.resolveItems(v)])
-          ) as any,
+          ) as Record<string, ResolvedItem[]>,
         });
 
         const resolvedProfile: CharacterProfileResolved = {
@@ -206,6 +207,3 @@ export class ResolverService {
     return weapons.map((w) => this.resolveWeapon(w));
   }
 }
-
-export type CharacterBriefMap =
-  CharacterBriefDescriptions | Partial<Record<ElementType, CharacterBriefDescriptions>>;

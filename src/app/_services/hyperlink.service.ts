@@ -1,15 +1,17 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { combineLatest, map, Observable, shareReplay, startWith, Subject } from 'rxjs';
+
 import { Hyperlink } from '../_models/hyperlinks';
 import { StorageService } from './storage.service';
+import { StorageKeys } from '../_models/storage-keys';
 
 @Injectable({
   providedIn: 'root',
 })
 export class HyperlinkService {
   private gameHyperlinksPath = 'assets/json/hyperlinks.json';
-  private customHyperlinksStorageKey = 'customHyperlinks';
+  private customHyperlinksPath = 'assets/json/custom-hyperlinks.json';
 
   private hyperlinks$?: Observable<Map<string | number, Hyperlink>>;
   private customHyperlinksUpdated$ = new Subject<void>();
@@ -19,29 +21,21 @@ export class HyperlinkService {
     private storageService: StorageService
   ) {}
 
-  /**
-   * Returns a Map of all hyperlinks (game + custom)
-   * Custom hyperlinks are persisted in localStorage
-   * Keyed by: numeric ID for game hyperlinks, string ID for custom hyperlinks
-   */
   getHyperlinksMap(): Observable<Map<string | number, Hyperlink>> {
     if (!this.hyperlinks$) {
       this.hyperlinks$ = combineLatest([
         this.http.get<Hyperlink[]>(this.gameHyperlinksPath),
-        this.customHyperlinksUpdated$.pipe(
-          startWith(undefined),
-          map(() => this.getCustomHyperlinksFromStorage())
-        ),
+        this.getCustomHyperlinks(),
       ]).pipe(
         map(([gameLinks, customLinks]) => {
           const map = new Map<string | number, Hyperlink>();
 
-          // Add game hyperlinks (numeric IDs)
+          // Game hyperlinks
           gameLinks.forEach((link) => {
             map.set(link.id, link);
           });
 
-          // Add custom hyperlinks (string IDs, persisted in storage)
+          // Custom hyperlinks
           customLinks.forEach((link) => {
             map.set(link.id, link);
           });
@@ -60,51 +54,112 @@ export class HyperlinkService {
   }
 
   /**
-   * Get custom hyperlinks from storage
+   * Read custom hyperlinks directly from localStorage.
    */
   private getCustomHyperlinksFromStorage(): Hyperlink[] {
-    return this.storageService.getData<Hyperlink[]>(this.customHyperlinksStorageKey) || [];
+    return this.storageService.getData<Hyperlink[]>(StorageKeys.CUSTOM_HYPERLINKS) || [];
   }
 
-  /**
-   * Add a new custom hyperlink and persist to storage
-   */
   addCustomHyperlink(hyperlink: Hyperlink): void {
     const customLinks = this.getCustomHyperlinksFromStorage();
+
     customLinks.push(hyperlink);
-    this.storageService.saveData(this.customHyperlinksStorageKey, customLinks);
+
+    this.storageService.saveData(StorageKeys.CUSTOM_HYPERLINKS, customLinks);
+
+    const deletedIds = this.getDeletedCustomHyperlinkIds().filter((id) => id !== hyperlink.id);
+
+    this.storageService.saveData(StorageKeys.DELETED_CUSTOM_HYPERLINK_IDS, deletedIds);
+
     this.customHyperlinksUpdated$.next();
   }
 
-  /**
-   * Update an existing custom hyperlink
-   */
   updateCustomHyperlink(id: string | number, name: string, description: string): void {
     const customLinks = this.getCustomHyperlinksFromStorage();
+
     const link = customLinks.find((h) => h.id === id);
+
     if (link) {
       link.name = name;
       link.description = description;
-      this.storageService.saveData(this.customHyperlinksStorageKey, customLinks);
-      this.customHyperlinksUpdated$.next();
+    } else {
+      customLinks.push({
+        id,
+        name,
+        description,
+        isCustom: true,
+      });
     }
+
+    this.storageService.saveData(StorageKeys.CUSTOM_HYPERLINKS, customLinks);
+
+    const deletedIds = this.getDeletedCustomHyperlinkIds().filter((deletedId) => deletedId !== id);
+
+    this.storageService.saveData(StorageKeys.DELETED_CUSTOM_HYPERLINK_IDS, deletedIds);
+
+    this.customHyperlinksUpdated$.next();
   }
 
-  /**
-   * Delete a custom hyperlink from storage
-   */
   deleteCustomHyperlink(id: string | number): void {
     const customLinks = this.getCustomHyperlinksFromStorage();
+
     const filtered = customLinks.filter((h) => h.id !== id);
-    this.storageService.saveData(this.customHyperlinksStorageKey, filtered);
+
+    this.storageService.saveData(StorageKeys.CUSTOM_HYPERLINKS, filtered);
+
+    const deletedIds = this.getDeletedCustomHyperlinkIds();
+
+    if (!deletedIds.includes(id)) {
+      deletedIds.push(id);
+    }
+
+    this.storageService.saveData(StorageKeys.DELETED_CUSTOM_HYPERLINK_IDS, deletedIds);
+
     this.customHyperlinksUpdated$.next();
   }
 
-  /**
-   * Emit an update event to notify subscribers of changes
-   * Used by editor views to trigger list updates
-   */
   emitSessionUpdate(): void {
     this.customHyperlinksUpdated$.next();
+  }
+
+  getCustomHyperlinks(): Observable<Hyperlink[]> {
+    return combineLatest([
+      this.http.get<Hyperlink[]>('assets/json/custom-hyperlinks.json'),
+
+      this.customHyperlinksUpdated$.pipe(
+        startWith(undefined),
+        map(() => this.getCustomHyperlinksFromStorage())
+      ),
+    ]).pipe(
+      map(([jsonLinks, storedLinks]) => {
+        const deletedIds = new Set(this.getDeletedCustomHyperlinkIds());
+
+        const links = new Map<string | number, Hyperlink>();
+
+        // Original custom hyperlinks
+        jsonLinks.forEach((link) => {
+          if (!deletedIds.has(link.id)) {
+            links.set(link.id, link);
+          }
+        });
+
+        // New/updated custom hyperlinks
+        storedLinks.forEach((link) => {
+          if (!deletedIds.has(link.id)) {
+            links.set(link.id, link);
+          }
+        });
+
+        return Array.from(links.values());
+      }),
+      shareReplay(1)
+    );
+  }
+
+  private getDeletedCustomHyperlinkIds(): (string | number)[] {
+    return (
+      this.storageService.getData<(string | number)[]>(StorageKeys.DELETED_CUSTOM_HYPERLINK_IDS) ||
+      []
+    );
   }
 }

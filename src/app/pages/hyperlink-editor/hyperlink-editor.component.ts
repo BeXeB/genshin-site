@@ -9,7 +9,7 @@ import {
   FormattedTextEditorComponent,
   HyperlinkRequest,
 } from '../../_components/formatted-text-editor/formatted-text-editor.component';
-import { HyperlinkEditorComponent } from '../../_components/hyperlink-editor/hyperlink-editor.component';
+import { HyperlinkSelectorComponent } from '../../_components/hyperlink-selector/hyperlink-selector.component';
 import { Hyperlink } from '../../_models/hyperlinks';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
@@ -19,13 +19,13 @@ interface HyperlinkListItem extends Hyperlink {
 }
 
 @Component({
-  selector: 'app-hyperlink-editor-page',
+  selector: 'app-hyperlink-editor',
   standalone: true,
   imports: [CommonModule, FormsModule, FormattedTextEditorComponent],
-  templateUrl: './hyperlink-editor-page.component.html',
-  styleUrl: './hyperlink-editor-page.component.css',
+  templateUrl: './hyperlink-editor.component.html',
+  styleUrl: './hyperlink-editor.component.css',
 })
-export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
+export class HyperlinkEditorComponent implements OnInit, OnDestroy {
   // List state
   hyperlinks: HyperlinkListItem[] = [];
   searchQuery: string = '';
@@ -54,8 +54,7 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
   constructor(
     private hyperlinkService: HyperlinkService,
     private insertionService: HyperlinkInsertionService,
-    private modalService: ModalService,
-    private exportService: ExportService
+    private modalService: ModalService
   ) {}
 
   ngOnInit(): void {
@@ -86,7 +85,6 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
         this.hyperlinks = links.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
 
         this.filterHyperlinks();
-        this.updateExportData();
       });
   }
 
@@ -291,12 +289,6 @@ export class HyperlinkEditorPageComponent implements OnInit, OnDestroy {
 
     this.loadHyperlinks();
     this.deselectHyperlink();
-  }
-
-  private updateExportData(): void {
-    this.exportService.setHyperlinkData({
-      hyperlinks: this.hyperlinks,
-    });
   }
 
   ngOnDestroy(): void {

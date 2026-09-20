@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Tierlist } from '../_models/tierlist';
-
-const STORAGE_KEY = 'tierlistData';
+import { StorageKeys } from '../_models/storage-keys';
 
 @Injectable({
   providedIn: 'root',
@@ -27,7 +26,7 @@ export class StorageService {
 
   saveTierlist(tierlist: Tierlist): void {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(tierlist));
+      localStorage.setItem(StorageKeys.TIERLIST_DATA, JSON.stringify(tierlist));
     } catch (err) {
       console.error('Failed to save tierlist:', err);
     }
@@ -35,12 +34,36 @@ export class StorageService {
 
   loadTierlist(): Tierlist | null {
     try {
-      const json = localStorage.getItem(STORAGE_KEY);
-      if (!json) return null;
+      const json = localStorage.getItem(StorageKeys.TIERLIST_DATA);
+
+      if (!json) {
+        return null;
+      }
+
       return JSON.parse(json) as Tierlist;
     } catch (err) {
       console.error('Failed to load tierlist:', err);
       return null;
+    }
+  }
+
+  clearAllStorage(): void {
+    try {
+      localStorage.clear();
+      console.log('All storage cleared');
+    } catch (err) {
+      console.error('Failed to clear storage:', err);
+    }
+  }
+
+  clearEditorData(): void {
+    try {
+      localStorage.removeItem(StorageKeys.TALENT_EDITOR_STATE);
+      localStorage.removeItem(StorageKeys.CUSTOM_HYPERLINKS);
+
+      console.log('Editor data cleared');
+    } catch (err) {
+      console.error('Failed to clear editor data:', err);
     }
   }
 }

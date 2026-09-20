@@ -4,6 +4,7 @@ import { forkJoin, Observable, of } from 'rxjs';
 import { catchError, map, shareReplay, switchMap } from 'rxjs/operators';
 import {
   Character,
+  CharacterBriefMap,
   CharacterBriefDescriptions,
   CharacterConstellation,
   CharacterProfile,
@@ -43,9 +44,9 @@ export class CharacterService {
     return this.http.get<Character>(`${this.basePath}${name}.json`);
   }
 
-  getBriefDescriptions(name: string): Observable<Partial<CharacterBriefDescriptions>> {
+  getBriefDescriptions(name: string): Observable<CharacterBriefMap> {
     return this.http
-      .get<Partial<CharacterBriefDescriptions>>(`${this.briefDescriptionPath}${name}.json`)
+      .get<CharacterBriefMap>(`${this.briefDescriptionPath}${name}.json`)
       .pipe(catchError(() => of({})));
   }
 

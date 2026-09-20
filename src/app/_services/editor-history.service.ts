@@ -22,6 +22,7 @@ export class EditorHistoryService {
   private history: Map<string | number, HistoryEntry[]> = new Map();
   private historyIndex: Map<string | number, number> = new Map();
   private inputTimers: Map<string | number, ReturnType<typeof setTimeout>> = new Map();
+  private pendingEntries: Map<string | number, HistoryEntry> = new Map();
 
   /**
    * Initialize history for a new field with an initial value.
@@ -62,13 +63,16 @@ export class EditorHistoryService {
     selectionStart: number,
     selectionEnd: number
   ): void {
-    // Flush any pending debounce for this field
-    this.flushPending(fieldKey);
+    this.discardPendingTimer(fieldKey);
+    this.pendingEntries.set(fieldKey, { value, selectionStart, selectionEnd });
 
-    // Start debounce timer
     const timer = setTimeout(() => {
       this.inputTimers.delete(fieldKey);
-      this.doCapture(fieldKey, value, selectionStart, selectionEnd);
+      const entry = this.pendingEntries.get(fieldKey);
+      this.pendingEntries.delete(fieldKey);
+      if (entry) {
+        this.doCapture(fieldKey, entry.value, entry.selectionStart, entry.selectionEnd);
+      }
     }, this.INPUT_DEBOUNCE_MS);
 
     this.inputTimers.set(fieldKey, timer);
@@ -79,11 +83,21 @@ export class EditorHistoryService {
    * Call before undo/redo or when losing focus.
    */
   flushPending(fieldKey: string | number): void {
-    const timer = this.inputTimers.get(fieldKey);
-    if (timer) {
-      clearTimeout(timer);
-      this.inputTimers.delete(fieldKey);
+    this.discardPendingTimer(fieldKey);
+
+    const entry = this.pendingEntries.get(fieldKey);
+    this.pendingEntries.delete(fieldKey);
+    if (entry) {
+      this.doCapture(fieldKey, entry.value, entry.selectionStart, entry.selectionEnd);
     }
+  }
+
+  private discardPendingTimer(fieldKey: string | number): void {
+    const timer = this.inputTimers.get(fieldKey);
+    if (!timer) return;
+
+    clearTimeout(timer);
+    this.inputTimers.delete(fieldKey);
   }
 
   /**
@@ -199,7 +213,8 @@ export class EditorHistoryService {
    * Clear all history for a field. Call when resetting/loading new content.
    */
   clearField(fieldKey: string | number): void {
-    this.flushPending(fieldKey);
+    this.discardPendingTimer(fieldKey);
+    this.pendingEntries.delete(fieldKey);
     this.history.delete(fieldKey);
     this.historyIndex.delete(fieldKey);
   }
@@ -210,6 +225,7 @@ export class EditorHistoryService {
   clearAll(): void {
     this.inputTimers.forEach((timer) => clearTimeout(timer));
     this.inputTimers.clear();
+    this.pendingEntries.clear();
     this.history.clear();
     this.historyIndex.clear();
   }

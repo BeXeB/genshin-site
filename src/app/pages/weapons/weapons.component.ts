@@ -12,6 +12,7 @@ import { FilterService } from '../../_services/filter.service';
 import { ItemCardComponent } from '../../_components/item-card/item-card.component';
 import { BaseListComponent } from '../../_components/base-list.component';
 import { QualityTypeLabel, WeaponTypeLabel } from '../../_models/enum';
+import { StorageKeys } from '../../_models/storage-keys';
 
 @Component({
   selector: 'app-weapons',
@@ -21,8 +22,6 @@ import { QualityTypeLabel, WeaponTypeLabel } from '../../_models/enum';
   styleUrl: './weapons.component.css',
 })
 export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
-  private readonly _storageKey = 'weaponFilters';
-
   data: WeaponResolved[] = [];
   filtered: WeaponResolved[] = [];
 
@@ -50,7 +49,7 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
   };
 
   get storageKey(): string {
-    return this._storageKey;
+    return StorageKeys.WEAPON_FILTERS;
   }
 
   constructor(

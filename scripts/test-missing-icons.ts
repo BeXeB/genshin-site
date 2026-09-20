@@ -3,7 +3,15 @@ import path from 'path';
 import {
   Character,
   CharacterConstellation,
+  CharacterTalents,
 } from '../src/app/_models/character';
+
+interface MaterialIconData {
+  normalizedName?: string;
+  images?: {
+    filename_icon?: string;
+  };
+}
 
 const CHARACTER_JSON_DIR = path.join(
   __dirname,
@@ -126,13 +134,13 @@ function check() {
 
     // --- SKILLS ---
 
-    function checkSkills(skills: any, baseDir: string) {
+    function checkSkills(skills: CharacterTalents | undefined, baseDir: string) {
       if (!skills?.images) return;
 
       const skillDir = path.join(baseDir, 'skills');
 
       for (const [jsonKey, outputFile] of Object.entries(SKILL_IMAGE_MAP)) {
-        const originalName = skills.images[jsonKey];
+        const originalName = skills.images[jsonKey as keyof CharacterTalents['images']];
         if (!originalName) continue;
 
         const expectedPath = path.join(skillDir, outputFile);
@@ -148,7 +156,10 @@ function check() {
 
     // --- CONSTELLATIONS ---
 
-    function checkConstellations(constellation: any, baseDir: string) {
+    function checkConstellations(
+      constellation: CharacterConstellation | undefined,
+      baseDir: string,
+    ) {
       if (!constellation?.images) return;
 
       const constellationDir = path.join(baseDir, 'constellation');
@@ -156,7 +167,8 @@ function check() {
       for (const [jsonKey, outputFile] of Object.entries(
         CONSTELLATION_IMAGE_MAP,
       )) {
-        const originalName = constellation.images[jsonKey];
+        const originalName =
+          constellation.images[jsonKey as keyof CharacterConstellation['images']];
         if (!originalName) continue;
 
         const expectedPath = path.join(constellationDir, outputFile);
@@ -186,8 +198,8 @@ function check() {
 
           const baseDir = path.join(ASSET_DIR_CHAR, characterName, element);
 
-          checkSkills((variant as any).skills, baseDir);
-          checkConstellations((variant as any).constellation, baseDir);
+          checkSkills(variant.skills, baseDir);
+          checkConstellations(variant.constellation, baseDir);
         }
       }
     }
@@ -277,7 +289,7 @@ function check() {
     );
 
     // materials.json is an array
-    materialsData.forEach((materialData: any) => {
+    (materialsData as MaterialIconData[]).forEach((materialData) => {
       const normalizedName = materialData.normalizedName;
       if (!normalizedName) return;
 

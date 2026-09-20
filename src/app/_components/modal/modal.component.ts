@@ -12,11 +12,11 @@ export class ModalComponent implements OnInit, OnDestroy {
   @Input({ required: true }) id?: string;
   @Input() closeOnClickOutside = true;
   isOpen = false;
-  private element: any;
+  private element: HTMLElement;
 
   constructor(
     private modalService: ModalService,
-    private el: ElementRef
+    private el: ElementRef<HTMLElement>
   ) {
     this.element = el.nativeElement;
   }
@@ -25,14 +25,6 @@ export class ModalComponent implements OnInit, OnDestroy {
     this.modalService.add(this);
 
     document.body.appendChild(this.element);
-
-    if (!this.closeOnClickOutside) return;
-
-    this.element.addEventListener('click', (el: any) => {
-      if (el.target.className === 'app-modal') {
-        this.close();
-      }
-    });
   }
 
   ngOnDestroy() {

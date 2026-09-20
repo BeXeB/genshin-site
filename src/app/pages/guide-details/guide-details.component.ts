@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, DestroyRef, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { distinctUntilChanged, filter, map } from 'rxjs';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 import { GuideViewerComponent } from '../../_components/guide-viewer/guide-viewer.component';
 
@@ -9,14 +11,24 @@ import { GuideViewerComponent } from '../../_components/guide-viewer/guide-viewe
   templateUrl: './guide-details.component.html',
   styleUrl: './guide-details.component.css',
 })
-export class GuideDetailsComponent {
-  constructor(private route: ActivatedRoute) {}
+export class GuideDetailsComponent implements OnInit {
+  constructor(
+    private route: ActivatedRoute,
+    private destroyRef: DestroyRef
+  ) {}
 
   slug: string = '';
 
   ngOnInit(): void {
-    const slug = this.route.snapshot.paramMap.get('slug');
-    if (!slug) return;
-    this.slug = slug;
+    this.route.paramMap
+      .pipe(
+        map((params) => params.get('slug')),
+        filter((slug): slug is string => !!slug),
+        distinctUntilChanged(),
+        takeUntilDestroyed(this.destroyRef)
+      )
+      .subscribe((slug) => {
+        this.slug = slug;
+      });
   }
 }

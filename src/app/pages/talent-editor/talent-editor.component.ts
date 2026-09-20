@@ -10,7 +10,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
-import { Subscription } from 'rxjs';
+import { catchError, EMPTY, forkJoin, map, Subject, switchMap, takeUntil } from 'rxjs';
 import { CharacterService } from '../../_services/character.service';
 import { ImageService } from '../../_services/image.service';
 import { ModalService } from '../../_services/modal.service';
@@ -21,6 +21,7 @@ import { ExportService } from '../../_services/export.service';
 import { ElementType, ElementTypeLabel } from '../../_models/enum';
 import {
   Character,
+  CharacterBriefMap,
   CharacterBriefDescriptions,
   CharacterProfile,
   CombatTalent,
@@ -32,7 +33,7 @@ import {
   FormattedTextEditorComponent,
   HyperlinkRequest,
 } from '../../_components/formatted-text-editor/formatted-text-editor.component';
-import { HyperlinkEditorComponent } from '../../_components/hyperlink-editor/hyperlink-editor.component';
+import { HyperlinkSelectorComponent } from '../../_components/hyperlink-selector/hyperlink-selector.component';
 
 type TalentRow = {
   key: keyof CharacterBriefDescriptions;
@@ -44,6 +45,11 @@ type ColorPreset = {
   label: string;
   color: string;
   element?: ElementType;
+};
+
+type CharacterLoadRequest = {
+  profile: CharacterProfile;
+  restoreSelection: boolean;
 };
 
 @Component({
@@ -60,11 +66,10 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
     private insertionService: HyperlinkInsertionService,
     private historyService: EditorHistoryService,
     private stateService: TalentEditorStateService,
-    private exportService: ExportService,
     private router: Router
   ) {}
 
-  @ViewChild('hyperlink-editor') hyperlinkEditor?: HyperlinkEditorComponent;
+  @ViewChild('hyperlink-editor') hyperlinkEditor?: HyperlinkSelectorComponent;
 
   characters: CharacterProfile[] = [];
 
@@ -78,9 +83,16 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   selectedElement: ElementType | null = null;
 
   briefDrafts: Partial<CharacterBriefDescriptions> = {};
+  private loadedBriefDescriptions: CharacterBriefMap = {};
 
   // Debounce timer for editor changes
-  private editorChangeDebounceTimer: any = null;
+  private editorChangeDebounceTimer: ReturnType<typeof setTimeout> | null = null;
+  private pendingEditorChange: {
+    characterId: string;
+    element: ElementType | null;
+    key: keyof CharacterBriefDescriptions;
+    text: string;
+  } | null = null;
 
   colorPresets: ColorPreset[] = [
     { label: 'Kiemelés', color: '#FFD780FF' },
@@ -96,25 +108,55 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   // Hyperlink insertion tracking
   private currentTalentKey: keyof CharacterBriefDescriptions | null = null;
   private currentHyperlinkRequest: HyperlinkRequest | null = null;
-  private insertionSubscription?: Subscription;
+  private readonly characterSelection$ = new Subject<CharacterLoadRequest>();
+  private readonly destroy$ = new Subject<void>();
 
   ngOnInit(): void {
-    try {
-      this.characterSerivce.getCharacters().subscribe((data: CharacterProfile[]) => {
-        this.characters = data.sort((b, a) => a.sortId - b.sortId);
-
-        // Try to restore state after characters are loaded
-        this.restoreState();
+    this.characterSelection$
+      .pipe(
+        switchMap(({ profile, restoreSelection }) =>
+          forkJoin({
+            details: this.characterSerivce.getCharacterDetails(profile.normalizedName),
+            descriptions: this.characterSerivce.getBriefDescriptions(profile.normalizedName),
+          }).pipe(
+            map(({ details, descriptions }) => ({
+              profile,
+              restoreSelection,
+              details,
+              descriptions,
+            })),
+            catchError((error) => {
+              console.error('Failed to load character in talent editor:', error);
+              this.handleError();
+              return EMPTY;
+            })
+          )
+        ),
+        takeUntil(this.destroy$)
+      )
+      .subscribe(({ profile, restoreSelection, details, descriptions }) => {
+        this.applyLoadedCharacter(profile, details, descriptions, restoreSelection);
       });
 
-      // Subscribe to hyperlink insertions
-      this.insertionSubscription = this.insertionService.insertion$.subscribe((event) => {
-        this.insertHyperlink(event.id, event.displayText, event.type);
+    this.characterSerivce
+      .getCharacters()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: (data: CharacterProfile[]) => {
+          this.characters = data.sort((b, a) => a.sortId - b.sortId);
+
+          // Try to restore state after characters are loaded
+          this.restoreState();
+        },
+        error: (error) => {
+          console.error('Failed to load characters for talent editor:', error);
+          this.handleError();
+        },
       });
-    } catch (error) {
-      console.error('Error in talent editor ngOnInit:', error);
-      this.handleError();
-    }
+
+    this.insertionService.insertion$
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((event) => this.insertHyperlink(event.id, event.displayText, event.type));
   }
 
   private restoreState(): void {
@@ -122,99 +164,27 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
     // Validate the stored character still exists
     if (!this.stateService.validateState(this.characters.map((c) => c.normalizedName))) {
-      // Invalid state, clear and proceed with defaults
-      this.stateService.clearAll();
+      this.stateService.clearSelection();
       return;
     }
 
-    // Restore character selection
     if (state.selectedCharacterId) {
       const character = this.characters.find((c) => c.normalizedName === state.selectedCharacterId);
       if (character) {
-        // Load character details
-        this.selectedCharacter = character;
-        this.search = character.name;
-
-        this.characterSerivce
-          .getCharacterDetails(character.normalizedName)
-          .subscribe((details: Character) => {
-            this.selectedCharacterDetails = details;
-
-            // Restore element selection if available
-            if (state.selectedElement) {
-              const variantElements = this.getVariantElements();
-              if (variantElements.includes(state.selectedElement)) {
-                this.selectedElement = state.selectedElement;
-              }
-            } else {
-              const variantElements = this.getVariantElements();
-              if (variantElements.length > 0) {
-                this.selectedElement = variantElements[0];
-              }
-            }
-          });
-
-        // Restore draft descriptions
-        this.characterSerivce.getBriefDescriptions(character.normalizedName).subscribe((data) => {
-          this.briefDrafts = { ...data };
-
-          // Overlay edited descriptions from storage
-          if (state.selectedCharacterId) {
-            const allKeys: (keyof CharacterBriefDescriptions)[] = [
-              'combat1',
-              'combat2',
-              'combat3',
-              'passive1',
-              'passive2',
-              'passive3',
-              'passive4',
-              'c1',
-              'c2',
-              'c3',
-              'c4',
-              'c5',
-              'c6',
-            ];
-            for (const key of allKeys) {
-              const edited = this.stateService.getEditedDescription(key);
-              if (edited !== undefined) {
-                this.briefDrafts[key] = edited;
-              }
-            }
-          }
-
-          this.historyService.clearAll();
-        });
-
-        // Restore section and talent selection
-        if (state.selectedSection) {
-          this.selectedSection = state.selectedSection;
-          if (state.selectedTalentKey) {
-            this.selectedTalentKey = state.selectedTalentKey;
-          }
-        } else {
-          // Set defaults
-          const firstSection = this.talentSections[0];
-          if (firstSection) {
-            this.selectedSection = firstSection.label;
-            const firstRow = firstSection.rows[0];
-            if (firstRow) {
-              this.selectedTalentKey = firstRow.key;
-            }
-          }
-        }
+        this.loadCharacter(character, true);
       }
     }
   }
 
   private handleError(): void {
-    console.error('Talent editor encountered an error, clearing state and redirecting');
-    this.stateService.clearAll();
+    console.error('Talent editor encountered an error, redirecting');
     this.router.navigate(['/']);
   }
 
   ngOnDestroy(): void {
-    this.insertionSubscription?.unsubscribe();
+    this.flushPendingEditorChange();
+    this.destroy$.next();
+    this.destroy$.complete();
   }
 
   get filteredCharacters(): CharacterProfile[] {
@@ -231,60 +201,57 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   }
 
   selectCharacter(profile: CharacterProfile) {
-    try {
-      this.selectedCharacter = profile;
-      this.search = profile.name;
-      this.showDropdown = false;
-      this.briefDrafts = {};
-      this.selectedTalentKey = null;
-      this.selectedSection = null;
-      this.selectedElement = null;
+    this.flushPendingEditorChange();
+    this.loadCharacter(profile, false);
+  }
 
-      // Clear any debounce timer
-      if (this.editorChangeDebounceTimer) {
-        clearTimeout(this.editorChangeDebounceTimer);
-      }
+  private loadCharacter(profile: CharacterProfile, restoreSelection: boolean): void {
+    this.selectedCharacter = profile;
+    this.search = profile.name;
+    this.showDropdown = false;
+    this.selectedCharacterDetails = null;
+    this.loadedBriefDescriptions = {};
+    this.briefDrafts = {};
+    this.selectedTalentKey = null;
+    this.selectedSection = null;
+    this.selectedElement = null;
 
-      // Clear previous character's state and start fresh
-      this.stateService.clearAll();
+    this.characterSelection$.next({ profile, restoreSelection });
+  }
 
-      this.characterSerivce
-        .getCharacterDetails(profile.normalizedName)
-        .subscribe((details: Character) => {
-          this.selectedCharacterDetails = details;
+  private applyLoadedCharacter(
+    profile: CharacterProfile,
+    details: Character,
+    descriptions: CharacterBriefMap,
+    restoreSelection: boolean
+  ): void {
+    this.selectedCharacterDetails = details;
+    this.loadedBriefDescriptions = descriptions;
 
-          // Initialize element selection for characters with variants
-          const variantElements = this.getVariantElements();
-          if (variantElements.length > 0) {
-            this.selectedElement = variantElements[0];
-          }
+    const state = this.stateService.getState();
+    const variantElements = this.getVariantElements();
+    this.selectedElement =
+      restoreSelection && state.selectedElement && variantElements.includes(state.selectedElement)
+        ? state.selectedElement
+        : (variantElements[0] ?? null);
+    this.updateBriefDrafts();
 
-          // Set first section and talent as selected
-          const firstSection = this.talentSections[0];
-          if (firstSection) {
-            this.selectedSection = firstSection.label;
-            const firstRow = firstSection.rows[0];
-            if (firstRow) {
-              this.selectedTalentKey = firstRow.key;
-            }
-          }
+    const sections = this.talentSections;
+    const restoredSection = restoreSelection
+      ? sections.find((section) => section.label === state.selectedSection)
+      : undefined;
+    const selectedSection = restoredSection ?? sections[0];
 
-          // Save state and update export data
-          this.saveState();
-          this.updateExportData();
-        });
+    this.selectedSection = selectedSection?.label ?? null;
+    this.selectedTalentKey =
+      restoreSelection &&
+      state.selectedTalentKey &&
+      selectedSection?.rows.some((row) => row.key === state.selectedTalentKey)
+        ? state.selectedTalentKey
+        : (selectedSection?.rows[0]?.key ?? null);
 
-      this.characterSerivce.getBriefDescriptions(profile.normalizedName).subscribe((data) => {
-        this.briefDrafts = { ...data };
-        // Clear history for all fields when loading new character
-        this.historyService.clearAll();
-        // Update export data
-        this.updateExportData();
-      });
-    } catch (error) {
-      console.error('Error selecting character:', error);
-      this.handleError();
-    }
+    this.historyService.clearAll();
+    this.saveState();
   }
 
   private saveState(): void {
@@ -295,16 +262,6 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
         this.selectedTalentKey,
         this.selectedElement
       );
-    }
-  }
-
-  private updateExportData(): void {
-    if (this.selectedCharacter && this.selectedCharacterDetails) {
-      this.exportService.setTalentData({
-        selectedCharacter: this.selectedCharacter,
-        briefDrafts: this.briefDrafts,
-        talentSections: this.talentSections,
-      });
     }
   }
 
@@ -347,7 +304,10 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
   }
 
   selectElement(element: ElementType) {
+    this.flushPendingEditorChange();
     this.selectedElement = element;
+    this.updateBriefDrafts();
+    this.historyService.clearAll();
     this.selectedTalentKey = null;
     this.selectedSection = null;
 
@@ -363,6 +323,23 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
     // Save state
     this.saveState();
+  }
+
+  private updateBriefDrafts(): void {
+    if (!this.selectedCharacter) return;
+
+    const variantDescriptions = this.loadedBriefDescriptions as Partial<
+      Record<ElementType, Partial<CharacterBriefDescriptions>>
+    >;
+    const sourceDescriptions = this.selectedElement
+      ? (variantDescriptions[this.selectedElement] ?? {})
+      : (this.loadedBriefDescriptions as Partial<CharacterBriefDescriptions>);
+    const editedDescriptions = this.stateService.getEditedDescriptions(
+      this.selectedCharacter.normalizedName,
+      this.selectedElement ?? undefined
+    );
+
+    this.briefDrafts = { ...sourceDescriptions, ...editedDescriptions };
   }
 
   get talentSections(): { label: string; rows: TalentRow[] }[] {
@@ -514,22 +491,33 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
 
   onEditorTextChange(key: keyof CharacterBriefDescriptions, newText: string): void {
     this.briefDrafts[key] = newText;
+    if (!this.selectedCharacter) return;
 
     // Debounce saving edited description to state service (300ms)
     if (this.editorChangeDebounceTimer) {
       clearTimeout(this.editorChangeDebounceTimer);
     }
 
-    this.editorChangeDebounceTimer = setTimeout(() => {
-      // Only save if this is actually edited (not using original from JSON)
-      // Delta approach: only store if edited
-      if (newText && newText.trim().length > 0) {
-        this.stateService.saveEditedDescription(key, newText);
-      } else {
-        // If empty, remove from storage (use original from JSON)
-        this.stateService.saveEditedDescription(key, '');
-      }
-    }, 300);
+    this.pendingEditorChange = {
+      characterId: this.selectedCharacter.normalizedName,
+      element: this.selectedElement,
+      key,
+      text: newText,
+    };
+    this.editorChangeDebounceTimer = setTimeout(() => this.flushPendingEditorChange(), 300);
+  }
+
+  private flushPendingEditorChange(): void {
+    if (this.editorChangeDebounceTimer) {
+      clearTimeout(this.editorChangeDebounceTimer);
+      this.editorChangeDebounceTimer = null;
+    }
+
+    if (!this.pendingEditorChange) return;
+
+    const { characterId, element, key, text } = this.pendingEditorChange;
+    this.pendingEditorChange = null;
+    this.stateService.saveEditedDescription(key, text, characterId, element ?? undefined);
   }
 
   onEditorHyperlinkRequested(
@@ -549,6 +537,9 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
     if (!this.currentTalentKey || !this.currentHyperlinkRequest) return;
 
     const key = this.currentTalentKey;
+    this.flushPendingEditorChange();
+    this.historyService.flushPending(key);
+
     const selection = this.currentHyperlinkRequest;
     const value = this.briefDrafts[key] ?? '';
     const start = selection.selectionStart;
@@ -569,7 +560,12 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
     this.briefDrafts[key] = newValue;
 
     // Save the edited description to state
-    this.stateService.saveEditedDescription(key, newValue);
+    this.stateService.saveEditedDescription(
+      key,
+      newValue,
+      this.selectedCharacter?.normalizedName,
+      this.selectedElement ?? undefined
+    );
 
     // Capture the state change in history
     this.historyService.captureSnapshot(key, newValue, start, start + linkMarkup.length);

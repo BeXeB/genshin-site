@@ -5,19 +5,20 @@ import { HyperlinkService } from '../../_services/hyperlink.service';
 import { HyperlinkInsertionService } from '../../_services/hyperlink-insertion.service';
 import { ModalService } from '../../_services/modal.service';
 import { Hyperlink } from '../../_models/hyperlinks';
+import { FormattedTextComponent } from '../formatted-text-component/formatted-text.component';
 
 interface HyperlinkWithType extends Hyperlink {
   type: 'game' | 'custom';
 }
 
 @Component({
-  selector: 'app-hyperlink-editor',
+  selector: 'app-hyperlink-selector',
   standalone: true,
-  imports: [CommonModule, FormsModule],
-  templateUrl: './hyperlink-editor.component.html',
-  styleUrl: './hyperlink-editor.component.css',
+  imports: [CommonModule, FormsModule, FormattedTextComponent],
+  templateUrl: './hyperlink-selector.component.html',
+  styleUrl: './hyperlink-selector.component.css',
 })
-export class HyperlinkEditorComponent implements OnInit, AfterViewInit, OnDestroy {
+export class HyperlinkSelectorComponent implements OnInit, AfterViewInit, OnDestroy {
   // Browse
   searchQuery: string = '';
   hyperlinks: HyperlinkWithType[] = [];

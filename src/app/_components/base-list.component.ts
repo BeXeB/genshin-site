@@ -74,7 +74,8 @@ export abstract class BaseListComponent<T> implements OnInit, OnDestroy {
    * Can be overridden by subclass for custom search behavior.
    */
   protected getSearchableText(item: T): string {
-    return (item as any).name ?? '';
+    const name = (item as { name?: unknown }).name;
+    return typeof name === 'string' ? name : '';
   }
 
   /**

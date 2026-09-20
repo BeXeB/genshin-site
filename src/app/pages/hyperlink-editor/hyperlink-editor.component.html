@@ -89,7 +89,7 @@
           <label>Leírás</label>
           <app-formatted-text-editor
             [text]="editingDescription"
-            fieldKey="edit-hyperlink-description"
+            [fieldKey]="'edit-hyperlink-description-' + selectedHyperlink.id"
             [showToolbar]="true"
             [showPreview]="true"
             placeholder="Detailed description (supports formatting)..."

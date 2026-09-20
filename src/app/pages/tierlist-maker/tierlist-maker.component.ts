@@ -1,7 +1,9 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import {
   DragDropModule,
+  CdkDrag,
   CdkDragDrop,
+  CdkDropList,
   transferArrayItem,
   moveItemInArray,
 } from '@angular/cdk/drag-drop';
@@ -68,6 +70,10 @@ export class TierlistMakerComponent implements OnInit {
     this.storageService.saveTierlist(this.tierlist);
   }
 
+  onTierChanged(): void {
+    this.storageService.saveTierlist(this.tierlist);
+  }
+
   get filteredCharacters(): TierCharacter[] {
     const search = this.poolSearch.trim().toLowerCase();
 
@@ -85,29 +91,36 @@ export class TierlistMakerComponent implements OnInit {
   ngOnInit(): void {
     const saved = this.storageService.loadTierlist();
     if (saved) {
-      this.tierlist = saved;
-
-      this.tierlist.tiers.forEach((tier) => {
-        tier.characters.forEach((char) => {
-          if (!char.instanceId) {
-            char.instanceId = crypto.randomUUID();
-          }
-        });
-      });
+      this.tierlist = this.normalizeTierlist(saved);
+      this.storageService.saveTierlist(this.tierlist);
     }
 
     this.characterSerivce.getCharacters().subscribe((data: CharacterProfile[]) => {
       this.characterMap = new Map(data.map((c) => [c.normalizedName, c]));
 
       this.characters = data
+        .sort((a, b) => b.sortId - a.sortId)
         .map((c) => ({
           id: c.id,
           apiKey: c.normalizedName,
           tags: [],
-          profile: c,
-        }))
-        .sort((b, a) => a.profile.sortId - b.profile.sortId);
+        }));
     });
+  }
+
+  private normalizeTierlist(tierlist: Tierlist): Tierlist {
+    return {
+      tags: tierlist.tags,
+      tiers: tierlist.tiers.map((tier) => ({
+        tier: tier.tier,
+        characters: tier.characters.map((character) => ({
+          id: character.id,
+          apiKey: character.apiKey,
+          tags: character.tags ?? [],
+          instanceId: character.instanceId ?? crypto.randomUUID(),
+        })),
+      })),
+    };
   }
 
   addTier() {
@@ -210,9 +223,10 @@ export class TierlistMakerComponent implements OnInit {
     this.storageService.saveTierlist(this.tierlist);
   }
 
-  drop(event: CdkDragDrop<any[]>) {
+  drop(event: CdkDragDrop<TierCharacter[]>) {
     if (event.previousContainer === event.container) {
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
+      this.storageService.saveTierlist(this.tierlist);
       return;
     }
 
@@ -223,7 +237,8 @@ export class TierlistMakerComponent implements OnInit {
 
     if (fromPool) {
       const cloned: TierCharacter = {
-        ...item,
+        id: item.id,
+        apiKey: item.apiKey,
         instanceId: crypto.randomUUID(),
         tags: [],
       };
@@ -258,7 +273,7 @@ export class TierlistMakerComponent implements OnInit {
     }
   }
 
-  allowDropFromPool = (drag: any, drop: any) => {
+  allowDropFromPool = (drag: CdkDrag<TierCharacter>, drop: CdkDropList<TierCharacter[]>) => {
     return true; // allow visuals
   };
 
@@ -364,20 +379,20 @@ export class TierlistMakerComponent implements OnInit {
     reader.readAsText(file);
   }
 
-  private validateTierlist(tierlist: any): boolean {
+  private validateTierlist(tierlist: unknown): tierlist is Tierlist {
     if (!tierlist || typeof tierlist !== 'object') {
       this.importError = 'Érvénytelen tierlist formátum';
       this.importMessage = '';
       return false;
     }
 
-    if (!Array.isArray(tierlist.tiers)) {
+    if (!('tiers' in tierlist) || !Array.isArray(tierlist.tiers)) {
       this.importError = 'Hiányzik a "tiers" tömb';
       this.importMessage = '';
       return false;
     }
 
-    if (!Array.isArray(tierlist.tags)) {
+    if (!('tags' in tierlist) || !Array.isArray(tierlist.tags)) {
       this.importError = 'Hiányzik a "tags" tömb';
       this.importMessage = '';
       return false;

@@ -16,6 +16,7 @@
                 class="tier-name"
                 type="text"
                 [(ngModel)]="tier.tier"
+                (ngModelChange)="onTierChanged()"
                 placeholder="Tier neve"
               />
               <button class="tier-remove-mobile" type="button" (click)="removeTier(tier)">X</button>

@@ -32,11 +32,14 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
   }
 
   override loadDetail(slug: string): void {
+    this.material = null;
+    this.errorMessage = null;
     this.resolver
       .initialize()
       .pipe(
         switchMap(() => this.materialService.getMaterial(slug)),
         map((data) => (data ? this.resolver.resolveMaterial(data) : null)),
+        takeUntil(this.detailLoadCancelled$),
         takeUntil(this.destroy$)
       )
       .subscribe({
@@ -53,7 +56,7 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
 
     this.materialService
       .getMaterial('mora')
-      .pipe(takeUntil(this.destroy$))
+      .pipe(takeUntil(this.detailLoadCancelled$), takeUntil(this.destroy$))
       .subscribe({
         next: (data) => {
           this.mora = data ?? null;

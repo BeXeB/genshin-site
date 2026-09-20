@@ -73,7 +73,7 @@ export class FormattedTextEditorComponent implements OnInit, OnChanges {
       const newFieldKey = changes['fieldKey'].currentValue;
       if (newFieldKey !== this.lastInitializedFieldKey) {
         if (this.lastInitializedFieldKey !== null) {
-          this.historyService.clearField(this.lastInitializedFieldKey);
+          this.historyService.flushPending(this.lastInitializedFieldKey);
         }
         this.historyService.ensureInitialized(newFieldKey, this.text);
         this.lastInitializedFieldKey = newFieldKey;

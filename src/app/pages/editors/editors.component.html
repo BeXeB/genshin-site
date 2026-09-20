@@ -2,23 +2,14 @@
   <div class="header">
     <app-page-title class="header-item" title="Editors" backLink="/tools" />
     <div class="button-group header-item">
-      <button
-        (click)="selectEditor('talent')"
-        [class.active]="activeEditor === 'talent'"
-        class="button"
-      >
-        Talent Editor
-      </button>
-      <button
-        (click)="selectEditor('hyperlink')"
-        [class.active]="activeEditor === 'hyperlink'"
-        class="button"
-      >
-        Hyperlink Manager
+      <button routerLink="talent" routerLinkActive="active" class="button">Talent Editor</button>
+      <button routerLink="hyperlink" routerLinkActive="active" class="button">
+        Hyperlink Editor
       </button>
     </div>
-    <div class="header-item">
+    <div class="header-item flex-row">
       <button class="align-right" (click)="export()">Letöltés JSON-ként</button>
+      <button (click)="resetEditorData()">Reset</button>
     </div>
   </div>
 
