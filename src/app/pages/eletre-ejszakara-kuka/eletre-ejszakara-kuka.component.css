@@ -1,12 +1,194 @@
-.character-card {
+.flex-container {
+  gap: 16px;
+}
+
+.game-area {
+  margin-bottom: 5cap;
+}
+
+.card {
   user-select: none;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+#charactersList {
+  min-height: 512px;
 }
 
 .character-card {
-  width: 120px;
-  height: 100%;
-  padding: 0px;
+  width: 160px;
+  height: fit-content;
+  padding: 0;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
+}
+
+.character-icon {
+  width: 160px;
+  height: 512px;
+  z-index: 1;
+  background-color: var(--black);
+}
+
+.character-icon img {
+  width: 160px;
+  height: 512px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.cdk-drag {
+  touch-action: none;
+}
+
+.draggable-character {
+  cursor: grab;
+}
+
+.draggable-character:active {
+  cursor: grabbing;
+}
+
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.cdk-drag-placeholder {
+  opacity: 0.2;
+}
+
+.slot {
+  width: 160px;
+  min-height: 567px;
+
+  background-color: var(--dark-gray);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  user-select: none;
+}
+
+.slot .cdk-drag-placeholder {
+  display: none;
+}
+
+.empty-slot .character-icon {
+  width: 160px;
+  height: 512px;
+  background-color: var(--dark-gray);
+}
+
+.empty-slot {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-slot p {
+  text-align: center;
+}
+
+.drag-preview {
+  width: 160px;
+  height: 512px;
+  overflow: hidden;
+  border-radius: 8px;
+  pointer-events: none;
+  background-color: var(--black);
+}
+
+.drag-preview img {
+  width: 160px;
+  height: 512px;
+  display: block;
+  object-fit: cover;
+  object-position: top;
+}
+
+.slot-container {
+  background-color: var(--dark-gray);
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  user-select: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.past-container {
+  gap: 8px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.result-row {
+  gap: 8px;
+  border: 1px solid var(--gray);
+  background-color: var(--darker-gray);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.past-title {
+  font-weight: bold;
+  width: 120px;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+.past-title p {
+  height: 100%;
+  margin: 0 12px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.round-result {
+  text-align: center;
+  background-color: var(--dark-gray);
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  overflow: hidden;
+
+  width: 120px;
+  min-width: 120px;
+  max-width: 120px;
+
+  flex-shrink: 0;
+}
+
+.round-result p {
+  margin: 8px 0;
+}
+
+.round-result img {
+  width: 120px;
+  height: 240px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.download-button {
+  margin-top: 16px;
 }

@@ -1,20 +1,144 @@
 <div class="container">
   <app-page-title title="Életre Éjszakára Kuka" backLink="/tools" />
 
-  <!-- @if (!isRoundStarted) { -->
-  <div>
-    <button (click)="get3RandomCharacters()">Kör kezdése</button>
-  </div>
-  <!-- } @else { -->
-  <div class="flex flex-center">
-    @for (character of selectedCharacters; track $index) {
-      <div class="card card-no-hover character-card">
-        <div class="item-icon">
-          <img [src]="character.images.filename_gachaSlice" [title]="character.name" loading="lazy" />
+  <div class="flex flex-col game-area">
+    <div class="flex flex-row">
+      <!-- Character pool -->
+      <div class="first flex-1">
+        <div
+          cdkDropList
+          id="charactersList"
+          [cdkDropListData]="selectedCharacters"
+          [cdkDropListConnectedTo]="dropListIds"
+          cdkDropListSortingDisabled
+          cdkDropListOrientation="mixed"
+          (cdkDropListDropped)="drop($event)"
+          class="flex flex-center flex-container"
+        >
+          @for (character of selectedCharacters; track character.normalizedName) {
+            <div
+              cdkDrag
+              [cdkDragData]="character"
+              class="card character-card card-no-hover draggable-character"
+            >
+              <ng-template cdkDragPreview [matchSize]="true">
+                <div class="drag-preview">
+                  <img [src]="getIcon(character)" />
+                </div>
+                <p></p>
+              </ng-template>
+
+              <div class="character-icon">
+                <img [src]="getIcon(character)" [title]="character.name" loading="eager" />
+              </div>
+
+              <p>{{ character.name }}</p>
+            </div>
+          }
         </div>
-        <p>{{ character.name }}</p>
       </div>
-    }
+
+      <!-- Slots -->
+      <div class="second flex-1">
+        <div class="flex flex-center flex-container">
+          @for (slot of slots; track slot.type) {
+            <div class="slot-container">
+              <div
+                cdkDropList
+                [id]="slot.type"
+                [cdkDropListData]="slot.character ? [slot.character] : []"
+                [cdkDropListConnectedTo]="dropListIds"
+                cdkDropListSortingDisabled
+                (cdkDropListDropped)="drop($event, slot.type)"
+                class="slot"
+              >
+                @if (slot.character) {
+                  <div
+                    cdkDrag
+                    [cdkDragData]="slot.character"
+                    class="card character-card card-no-hover draggable-character"
+                  >
+                    <ng-template cdkDragPreview [matchSize]="true">
+                      <div class="drag-preview">
+                        <img [src]="getIcon(slot.character)" />
+                      </div>
+                      <p></p>
+                    </ng-template>
+
+                    <div class="character-icon">
+                      <img
+                        [src]="getIcon(slot.character)"
+                        [title]="slot.character.name"
+                        loading="eager"
+                      />
+                    </div>
+
+                    <p>{{ slot.character.name }}</p>
+                  </div>
+                } @else {
+                  <div class="empty-slot">
+                    <div class="character-icon"></div>
+                    <p>​</p>
+                  </div>
+                }
+              </div>
+              <p>{{ getSlotLabel(slot.type) }}</p>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-center">
+      <button [disabled]="!allSlotsFilled" (click)="submit()">Kész</button>
+    </div>
   </div>
-  <!-- } -->
+
+  @if (previousRoundsResults.length > 0) {
+    <h3>Előző körök eredményei</h3>
+    <div #pastContainer class="flex flex-col past-container">
+      <div class="flex flex-row result-row">
+        <div class="past-title">
+          <p>Életre</p>
+        </div>
+        @for (result of previousRoundsResults; track result.eletre) {
+          @if (result.eletre) {
+            <div class="round-result">
+              <img [src]="getIcon(result.eletre)" />
+              <p>{{ result.eletre.name }}</p>
+            </div>
+          }
+        }
+      </div>
+      <div class="flex flex-row result-row">
+        <div class="past-title">
+          <p>Éjszakára</p>
+        </div>
+        @for (result of previousRoundsResults; track result.ejszakara) {
+          @if (result.ejszakara) {
+            <div class="round-result">
+              <img [src]="getIcon(result.ejszakara)" />
+              <p>{{ result.ejszakara.name }}</p>
+            </div>
+          }
+        }
+      </div>
+      <div class="flex flex-row result-row">
+        <div class="past-title">
+          <p>Kuka</p>
+        </div>
+        @for (result of previousRoundsResults; track result.kuka) {
+          @if (result.kuka) {
+            <div class="round-result">
+              <img [src]="getIcon(result.kuka)" />
+              <p>{{ result.kuka.name }}</p>
+            </div>
+          }
+        }
+      </div>
+    </div>
+    <div class="flex flex-center download-button">
+      <button (click)="downloadAsImage()">Letöltés Képként</button>
+    </div>
+  }
 </div>
