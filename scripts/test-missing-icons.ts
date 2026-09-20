@@ -85,6 +85,8 @@ const IGNORE_MISSING: Set<string> = new Set([
   'manekina/gacha-icon.webp',
 ]);
 
+const TRAVELER_IDS = new Set([10000005, 10000007]);
+
 function check() {
   const characterFiles = fs.readdirSync(CHARACTER_JSON_DIR);
 
@@ -181,7 +183,7 @@ function check() {
         }
       }
     }
-    const isTraveler = characterData.profile.isTraveler === true;
+    const isTraveler = TRAVELER_IDS.has(characterData.profile.id);
     if (!isTraveler) {
       // --- NORMAL CHARACTER ---
       const baseDir = path.join(ASSET_DIR_CHAR, characterName);

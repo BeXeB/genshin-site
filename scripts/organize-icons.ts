@@ -80,6 +80,8 @@ const MATERIAL_IMAGE_MAP: Record<string, string> = {
   filename_icon: 'icon.webp',
 };
 
+const TRAVELER_IDS = new Set([10000005, 10000007]);
+
 function ensureDir(dir: string) {
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
@@ -190,7 +192,7 @@ function organize() {
     ensureDir(skillFolder);
     ensureDir(constellationFolder);
 
-    const isTraveler = characterData.profile.isTraveler === true;
+    const isTraveler = TRAVELER_IDS.has(characterData.profile.id);
 
     if (!isTraveler) {
       // --- NORMAL CHARACTER ---
