@@ -51,7 +51,7 @@ export class EletreEjszakaraKukaComponent implements OnInit {
     'aino',
     'prune',
     'iansan',
-    'sigewinne'
+    'sigewinne',
   ];
 
   slots: CharacterSlot[] = [
@@ -217,13 +217,34 @@ export class EletreEjszakaraKukaComponent implements OnInit {
       // Clone the visible container.
       const clone = element.cloneNode(true) as HTMLElement;
 
-      // Use the full content width instead of the scrollable width.
+      // Use the full horizontally scrollable width.
       const width = element.scrollWidth;
+      const height = element.scrollHeight;
 
       clone.style.width = `${width}px`;
       clone.style.minWidth = `${width}px`;
       clone.style.maxWidth = `${width}px`;
+      clone.style.height = `${height}px`;
       clone.style.overflow = 'visible';
+
+      // Make each row use the full export width.
+      clone.querySelectorAll('.result-row').forEach((row) => {
+        const el = row as HTMLElement;
+
+        el.style.width = `${width}px`;
+        el.style.minWidth = `${width}px`;
+        el.style.maxWidth = `${width}px`;
+        el.style.flexShrink = '0';
+        el.style.overflow = 'visible';
+      });
+
+      // Pre-render every character image into a 120x240 canvas.
+      // This reproduces:
+      //   object-fit: cover;
+      //   object-position: top center;
+      //
+      // without relying on html2canvas to interpret object-fit.
+      const imagePromises: Promise<void>[] = [];
 
       clone.querySelectorAll('.round-result').forEach((card) => {
         const el = card as HTMLElement;
@@ -232,32 +253,74 @@ export class EletreEjszakaraKukaComponent implements OnInit {
         el.style.minWidth = '120px';
         el.style.maxWidth = '120px';
         el.style.flex = '0 0 120px';
+        el.style.overflow = 'hidden';
 
         const img = el.querySelector('img') as HTMLImageElement | null;
 
-        if (!img) return;
+        if (!img) {
+          return;
+        }
 
-        const wrapper = document.createElement('div');
+        const promise = new Promise<void>((resolve) => {
+          const drawImage = () => {
+            const sourceWidth = img.naturalWidth;
+            const sourceHeight = img.naturalHeight;
 
-        wrapper.style.width = '120px';
-        wrapper.style.height = '240px';
-        wrapper.style.overflow = 'hidden';
-        wrapper.style.position = 'relative';
-        wrapper.style.flexShrink = '0';
+            if (!sourceWidth || !sourceHeight) {
+              resolve();
+              return;
+            }
 
-        img.parentNode?.insertBefore(wrapper, img);
-        wrapper.appendChild(img);
+            const targetWidth = 120;
+            const targetHeight = 240;
 
-        img.style.width = '120px';
-        img.style.height = 'auto';
-        img.style.minWidth = '120px';
-        img.style.maxWidth = 'none';
+            // Calculate the scale required for "cover".
+            const scale = Math.max(targetWidth / sourceWidth, targetHeight / sourceHeight);
 
-        // Same visual behavior as object-position: top
-        img.style.display = 'block';
-        img.style.objectFit = 'initial';
-        img.style.objectPosition = 'initial';
+            const drawWidth = sourceWidth * scale;
+            const drawHeight = sourceHeight * scale;
+
+            // Center horizontally, but keep the top of the image visible.
+            const x = (targetWidth - drawWidth) / 2;
+            const y = 0;
+
+            const canvas = document.createElement('canvas');
+
+            canvas.width = targetWidth;
+            canvas.height = targetHeight;
+
+            const ctx = canvas.getContext('2d');
+
+            if (!ctx) {
+              resolve();
+              return;
+            }
+
+            ctx.drawImage(img, x, y, drawWidth, drawHeight);
+
+            // Replace the original image with our already-cropped canvas.
+            canvas.style.width = `${targetWidth}px`;
+            canvas.style.height = `${targetHeight}px`;
+            canvas.style.display = 'block';
+
+            img.replaceWith(canvas);
+
+            resolve();
+          };
+
+          if (img.complete && img.naturalWidth > 0) {
+            drawImage();
+          } else {
+            img.onload = drawImage;
+            img.onerror = () => resolve();
+          }
+        });
+
+        imagePromises.push(promise);
       });
+
+      // Make sure all images have been converted before html2canvas runs.
+      await Promise.all(imagePromises);
 
       // Put the clone outside the visible page.
       container = document.createElement('div');
@@ -266,13 +329,14 @@ export class EletreEjszakaraKukaComponent implements OnInit {
       container.style.top = '-99999px';
       container.style.left = '0';
       container.style.width = `${width}px`;
+      container.style.height = `${height}px`;
       container.style.overflow = 'visible';
       container.style.pointerEvents = 'none';
 
       container.appendChild(clone);
       document.body.appendChild(container);
 
-      // Let the browser calculate the cloned layout.
+      // Allow the browser to calculate the cloned layout.
       await new Promise<void>((resolve) => {
         requestAnimationFrame(() => resolve());
       });
@@ -282,8 +346,10 @@ export class EletreEjszakaraKukaComponent implements OnInit {
         scale: 2,
         useCORS: true,
         allowTaint: true,
-        width: width,
+        width,
+        height,
         windowWidth: width,
+        windowHeight: height,
       });
 
       const link = document.createElement('a');
