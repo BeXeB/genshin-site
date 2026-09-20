@@ -1,4 +1,4 @@
-import { CharacterProfile } from "./character";
+import { CharacterProfile } from './character';
 
 export type SlotType = 'eletre' | 'ejszakara' | 'kuka';
 

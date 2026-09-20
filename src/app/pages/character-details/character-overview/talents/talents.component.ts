@@ -62,7 +62,9 @@ export class OverviewTalentsComponent {
 
   get skillImageUrls() {
     const apiKey = this.apiKey ?? '';
-    const element = [10000005, 10000007].includes(this.char?.profile.id ?? 0) ? this.element : undefined;
+    const element = [10000005, 10000007].includes(this.char?.profile.id ?? 0)
+      ? this.element
+      : undefined;
     const combat1Filename = this.skills?.images?.filename_combat1 || 'Skill_A_00';
 
     return {

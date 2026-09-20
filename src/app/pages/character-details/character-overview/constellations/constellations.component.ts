@@ -58,7 +58,9 @@ export class OverviewConstellationsComponent {
 
   get skillImageUrls() {
     const apiKey = this.apiKey ?? '';
-    const element = [10000005, 10000007].includes(this.char?.profile.id ?? 0) ? this.element : undefined;
+    const element = [10000005, 10000007].includes(this.char?.profile.id ?? 0)
+      ? this.element
+      : undefined;
 
     return {
       c1: this.imageService.getCharacterConstellationIcon(apiKey, 'c1', element),

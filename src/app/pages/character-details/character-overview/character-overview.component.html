@@ -39,12 +39,7 @@
                   <div
                     class="element"
                     (click)="selectElement(element)"
-                    [style]="
-                      getElementStyle(
-                        element,
-                        this.imageService.getElementIcon(element)
-                      )
-                    "
+                    [style]="getElementStyle(element, this.imageService.getElementIcon(element))"
                   >
                     <img [src]="this.imageService.getElementIcon(element)" />
                   </div>
@@ -81,5 +76,8 @@
   }
 </div>
 @if (selectedMenu === 'profile' && apikey) {
-  <div class="background" [style]="`background-image: url(${imageService.getCharacterGachaSplash(apikey)});`"></div>
+  <div
+    class="background"
+    [style]="`background-image: url(${imageService.getCharacterGachaSplash(apikey)});`"
+  ></div>
 }

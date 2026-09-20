@@ -27,13 +27,19 @@ export class ImageService {
     return `${this.baseUrl}/characters/${apiKey}/gacha-icon.webp`;
   }
 
-  getCharacterConstellationIcon(apiKey: string, constellation: string, element?: ElementType): string {
-    const elementPath = element === undefined ? '' : `/${ElementTypeLabel[element].toLocaleLowerCase()}`;
+  getCharacterConstellationIcon(
+    apiKey: string,
+    constellation: string,
+    element?: ElementType
+  ): string {
+    const elementPath =
+      element === undefined ? '' : `/${ElementTypeLabel[element].toLocaleLowerCase()}`;
     return `${this.baseUrl}/characters/${apiKey}${elementPath}/constellation/${constellation}.webp`;
   }
 
   getCharacterTalentIcon(apiKey: string, talent: string, element?: ElementType): string {
-    const elementPath = element === undefined ? '' : `/${ElementTypeLabel[element].toLocaleLowerCase()}`;
+    const elementPath =
+      element === undefined ? '' : `/${ElementTypeLabel[element].toLocaleLowerCase()}`;
     return `${this.baseUrl}/characters/${apiKey}${elementPath}/skills/${talent}.webp`;
   }
 
