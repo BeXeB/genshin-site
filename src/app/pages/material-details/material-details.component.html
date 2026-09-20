@@ -5,7 +5,7 @@
       <div class="material-card">
         <img
           [title]="material.name"
-          [src]="imageService.getMaterialIcon(material.type, material.normalizedName)"
+          [src]="imageService.getMaterialIcon(material.normalizedName, material.type)"
         />
         <div class="details">
           <div class="name">{{ material.name }}</div>
