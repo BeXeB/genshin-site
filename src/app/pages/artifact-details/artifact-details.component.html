@@ -28,7 +28,7 @@
       <div class="pieces card card-no-hover">
         @if (artifact.flower) {
           <div class="artifact-piece">
-            <img [src]="`assets/images/artifacts/${artifact.normalizedName}/flower.webp`" />
+            <img [src]="this.imageService.getArtifactIcon(artifact.normalizedName, 'flower')" />
             <div class="piece-desc">
               <div class="piece-name">{{ artifact.flower.name }}</div>
               <div class="piece-subtext">
@@ -41,7 +41,7 @@
         }
         @if (artifact.plume) {
           <div class="artifact-piece">
-            <img [src]="`assets/images/artifacts/${artifact.normalizedName}/plume.webp`" />
+            <img [src]="this.imageService.getArtifactIcon(artifact.normalizedName, 'plume')" />
             <div class="piece-desc">
               <div class="piece-name">{{ artifact.plume.name }}</div>
               <div class="piece-subtext">
@@ -54,7 +54,7 @@
         }
         @if (artifact.sands) {
           <div class="artifact-piece">
-            <img [src]="`assets/images/artifacts/${artifact.normalizedName}/sands.webp`" />
+            <img [src]="this.imageService.getArtifactIcon(artifact.normalizedName, 'sands')" />
             <div class="piece-desc">
               <div class="piece-name">{{ artifact.sands.name }}</div>
               <div class="piece-subtext">
@@ -67,7 +67,7 @@
         }
         @if (artifact.goblet) {
           <div class="artifact-piece">
-            <img [src]="`assets/images/artifacts/${artifact.normalizedName}/goblet.webp`" />
+            <img [src]="this.imageService.getArtifactIcon(artifact.normalizedName, 'goblet')" />
             <div class="piece-desc">
               <div class="piece-name">{{ artifact.goblet.name }}</div>
               <div class="piece-subtext">
@@ -80,7 +80,7 @@
         }
         @if (artifact.circlet) {
           <div class="artifact-piece">
-            <img [src]="`assets/images/artifacts/${artifact.normalizedName}/circlet.webp`" />
+            <img [src]="this.imageService.getArtifactIcon(artifact.normalizedName, 'circlet')" />
             <div class="piece-desc">
               <div class="piece-name">{{ artifact.circlet.name }}</div>
               <div class="piece-subtext">

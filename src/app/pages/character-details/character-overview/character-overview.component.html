@@ -39,14 +39,9 @@
                   <div
                     class="element"
                     (click)="selectElement(element)"
-                    [style]="
-                      getElementStyle(
-                        element,
-                        'assets/images/' + elementTypeLabel[element] + '.webp'
-                      )
-                    "
+                    [style]="getElementStyle(element, this.imageService.getElementIcon(element))"
                   >
-                    <img [src]="'assets/images/' + elementTypeLabel[element] + '.webp'" />
+                    <img [src]="this.imageService.getElementIcon(element)" />
                   </div>
                 </div>
               }
@@ -80,6 +75,9 @@
     </div>
   }
 </div>
-@if (selectedMenu === 'profile') {
-  <div class="background" [style]="`background-image: url(${imageUrls.gachaSplash});`"></div>
+@if (selectedMenu === 'profile' && apikey) {
+  <div
+    class="background"
+    [style]="`background-image: url(${imageService.getCharacterGachaSplash(apikey)});`"
+  ></div>
 }

@@ -9,6 +9,7 @@ import {
 } from '@angular/core';
 import { CharacterResolved } from '../../../_models/character';
 import { FormsModule } from '@angular/forms';
+import { ImageService } from '../../../_services/image.service';
 import { OverviewProfileComponent } from './profile/profile.component';
 import { OverviewConstellationsComponent } from './constellations/constellations.component';
 import { OverviewTalentsComponent } from './talents/talents.component';
@@ -35,7 +36,10 @@ export class CharacterOverviewComponent implements OnInit, OnChanges {
 
   selectedMenu: 'profile' | 'talents' | 'constellations' | null = null;
 
-  constructor(private tabStateService: CharacterTabStateService) {}
+  constructor(
+    private tabStateService: CharacterTabStateService,
+    protected imageService: ImageService
+  ) {}
 
   ngOnInit(): void {
     this.restoreTabState();
@@ -59,16 +63,6 @@ export class CharacterOverviewComponent implements OnInit, OnChanges {
     if (this.char?.profile?.id) {
       this.tabStateService.setTabForCharacter(String(this.char.profile.id), menu);
     }
-  }
-
-  get imageUrls() {
-    return {
-      icon: `assets/images/characters/${this.apikey}/icon.webp`,
-      iconCard: `assets/images/characters/${this.apikey}/card.webp`,
-      sideIcon: `assets/images/characters/${this.apikey}/side.webp`,
-      gachaSplash: `assets/images/characters/${this.apikey}/gacha-splash.webp`,
-      gachaSlice: `assets/images/characters/${this.apikey}/gacha-icon.webp`,
-    };
   }
 
   // --------------------------

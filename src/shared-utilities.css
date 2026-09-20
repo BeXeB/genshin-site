@@ -265,6 +265,7 @@ button {
   color: var(--white);
   width: 120px;
   height: 40px;
+  user-select: none;
 }
 
 button:hover,

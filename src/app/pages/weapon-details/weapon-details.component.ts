@@ -35,7 +35,7 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
     private weaponService: WeaponService,
     protected override formatterService: FormatterService,
     private cdr: ChangeDetectorRef,
-    private imageService: ImageService
+    protected imageService: ImageService
   ) {
     super(route, formatterService);
   }
@@ -191,7 +191,7 @@ export class WeaponDetailsComponent extends BaseDetailComponent<WeaponResolved> 
   }
 
   getMaterialImageUrl(material: Material): string {
-    return this.imageService.getMaterialImage(material.normalizedName, material.type);
+    return this.imageService.getMaterialIcon(material.normalizedName, material.type);
   }
 
   isPercentageSubstat(statType?: StatType | null): boolean {

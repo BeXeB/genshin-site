@@ -60,6 +60,6 @@ export class MaterialsComponent extends BaseListComponent<MaterialResolved> {
   }
 
   getImage(material: MaterialResolved): string {
-    return this.imageService.getMaterialImage(material.normalizedName, material.type);
+    return this.imageService.getMaterialIcon(material.normalizedName, material.type);
   }
 }
