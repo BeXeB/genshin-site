@@ -1,6 +1,7 @@
 import { Component, HostListener } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { ModalService } from '../../_services/modal.service';
+import { ImageService } from '../../_services/image.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -12,7 +13,10 @@ import { ModalService } from '../../_services/modal.service';
 export class NavBarComponent {
   mobileMenuOpen = false;
 
-  constructor(private modalService: ModalService) {}
+  constructor(
+    private modalService: ModalService,
+    protected imageService: ImageService
+  ) {}
 
   toggleMobileMenu(): void {
     this.mobileMenuOpen = !this.mobileMenuOpen;

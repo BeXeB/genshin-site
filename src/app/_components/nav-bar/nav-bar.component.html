@@ -1,7 +1,7 @@
 <div class="nav-container">
   <nav class="navbar">
     <div class="logo" routerLink="/">
-      <img src="assets/images/UI_BtnIcon_Handbook.webp" alt="Genshin Impact" />
+      <img src="{{ imageService.getAdventurerHandbookIcon() }}" alt="Genshin Impact" />
     </div>
     <button class="hamburger-menu" (click)="toggleMobileMenu()" [class.active]="mobileMenuOpen">
       <i class="fa-solid fa-bars"></i>

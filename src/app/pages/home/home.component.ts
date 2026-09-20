@@ -36,6 +36,6 @@ export class HomeComponent {
   ];
 
   getIcon(): string {
-    return 'assets/images/UI_BtnIcon_Handbook.webp';
+    return this.imageService.getAdventurerHandbookIcon();
   }
 }

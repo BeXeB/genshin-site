@@ -8,6 +8,7 @@ import { PageTitleComponent } from '../../_components/page-title/page-title.comp
 import { FormatterService } from '../../_services/formatter.service';
 import { BaseDetailComponent } from '../../_components/base-detail.component';
 import { FormattedTextComponent } from '../../_components/formatted-text-component/formatted-text.component';
+import { ImageService } from '../../_services/image.service';
 
 @Component({
   selector: 'app-material-details',
@@ -26,7 +27,8 @@ export class MaterialDetailsComponent extends BaseDetailComponent<MaterialResolv
     private resolver: ResolverService,
     private materialService: MaterialService,
     protected override formatterService: FormatterService,
-    private cdr: ChangeDetectorRef
+    private cdr: ChangeDetectorRef,
+    protected imageService: ImageService
   ) {
     super(route, formatterService);
   }

@@ -72,6 +72,6 @@ export class ArtifactsComponent extends BaseListComponent<ArtifactSet> {
 
   getImage(artifact: ArtifactSet): string {
     const piece = artifact.effect1Pc ? 'circlet' : 'flower';
-    return this.imageService.getArtifactImage(artifact.normalizedName, piece);
+    return this.imageService.getArtifactIcon(artifact.normalizedName, piece);
   }
 }

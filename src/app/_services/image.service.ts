@@ -7,68 +7,61 @@ import { ElementType, ElementTypeLabel, WeaponType, WeaponTypeLabel } from '../_
 export class ImageService {
   private readonly baseUrl = 'assets/images';
 
-  /**
-   * Get character icon URL
-   * @param apiKey - Character's API key / normalized name
-   * @returns URL to character icon image
-   */
   getCharacterIcon(apiKey: string): string {
     return `${this.baseUrl}/characters/${apiKey}/icon.webp`;
   }
 
-  /**
-   * Get element icon URL
-   * @param element - Element name (e.g., 'Geo', 'Pyro', 'Hydro')
-   * @returns URL to element icon image
-   */
+  getCharacterIconCard(apiKey: string): string {
+    return `${this.baseUrl}/characters/${apiKey}/card.webp`;
+  }
+
+  getCharacterSideIcon(apiKey: string): string {
+    return `${this.baseUrl}/characters/${apiKey}/side.webp`;
+  }
+
+  getCharacterGachaSplash(apiKey: string): string {
+    return `${this.baseUrl}/characters/${apiKey}/gacha-splash.webp`;
+  }
+
+  getCharacterGachaSlice(apiKey: string): string {
+    return `${this.baseUrl}/characters/${apiKey}/gacha-icon.webp`;
+  }
+
+  getCharacterConstellationIcon(apiKey: string, constellation: string, element?: ElementType): string {
+    const elementPath = element === undefined ? '' : `/${ElementTypeLabel[element].toLocaleLowerCase()}`;
+    return `${this.baseUrl}/characters/${apiKey}${elementPath}/constellation/${constellation}.webp`;
+  }
+
+  getCharacterTalentIcon(apiKey: string, talent: string, element?: ElementType): string {
+    const elementPath = element === undefined ? '' : `/${ElementTypeLabel[element].toLocaleLowerCase()}`;
+    return `${this.baseUrl}/characters/${apiKey}${elementPath}/skills/${talent}.webp`;
+  }
+
   getElementIcon(element: ElementType): string {
     return `${this.baseUrl}/${ElementTypeLabel[element]}.webp`;
   }
 
-  /**
-   * Get weapon icon URL
-   * @param weaponSlug - Weapon's normalized name / slug
-   * @returns URL to weapon icon image
-   */
   getWeaponIcon(weaponSlug: string): string {
     return `${this.baseUrl}/weapons/${weaponSlug}/icon.webp`;
   }
 
-  /**
-   * Get weapon type icon URL
-   * @param type - Weapon type
-   * @returns URL to weapon type icon image
-   */
   getWeaponTypeIcon(type: WeaponType): string {
     return `${this.baseUrl}/${WeaponTypeLabel[type]}.webp`;
   }
 
-  /**
-   * Get artifact image URL
-   * @param artifactSlug - Artifact set's normalized name
-   * @param piece - Artifact piece (e.g., 'flower', 'circlet')
-   * @returns URL to artifact image
-   */
-  getArtifactImage(artifactSlug: string, piece: string): string {
+  getArtifactIcon(artifactSlug: string, piece: string): string {
     return `${this.baseUrl}/artifacts/${artifactSlug}/${piece}.webp`;
   }
 
-  /**
-   * Get material image URL
-   * @param materialId - Material's normalized name / ID
-   * @param materialType - Material type folder (e.g., 'boss', 'gemstone', 'generic'). Defaults to 'generic' if not provided
-   * @returns URL to material image
-   */
-  getMaterialImage(materialId: string, materialType: string = 'generic'): string {
+  getMaterialIcon(materialId: string, materialType: string = 'generic'): string {
     return `${this.baseUrl}/materials/${materialType}/${materialId}.webp`;
   }
 
-  /**
-   * Get skill icon URL
-   * @param skillCode - Skill code / ID
-   * @returns URL to skill icon image
-   */
   getSkillIcon(skillCode: string): string {
     return `${this.baseUrl}/${skillCode}.webp`;
+  }
+
+  getAdventurerHandbookIcon(): string {
+    return `assets/images/UI_BtnIcon_Handbook.webp`;
   }
 }

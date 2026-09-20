@@ -1,0 +1,20 @@
+<div class="container">
+  <app-page-title title="Életre Éjszakára Kuka" backLink="/tools" />
+
+  <!-- @if (!isRoundStarted) { -->
+  <div>
+    <button (click)="get3RandomCharacters()">Kör kezdése</button>
+  </div>
+  <!-- } @else { -->
+  <div class="flex flex-center">
+    @for (character of selectedCharacters; track $index) {
+      <div class="card card-no-hover character-card">
+        <div class="item-icon">
+          <img [src]="character.images.filename_gachaSlice" [title]="character.name" loading="lazy" />
+        </div>
+        <p>{{ character.name }}</p>
+      </div>
+    }
+  </div>
+  <!-- } -->
+</div>

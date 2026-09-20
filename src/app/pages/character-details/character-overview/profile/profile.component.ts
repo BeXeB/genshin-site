@@ -116,7 +116,7 @@ export class OverviewProfileComponent implements OnInit {
   }
 
   getMaterialImageUrl(material: Material): string {
-    return this.imageService.getMaterialImage(material.normalizedName, material.type);
+    return this.imageService.getMaterialIcon(material.normalizedName, material.type);
   }
 
   isPercentageSubstat(statType?: StatType | null): boolean {

@@ -7,7 +7,8 @@ import {
 } from '../../../../_models/character';
 import { FormsModule } from '@angular/forms';
 import { SkillDetailsComponent } from '../../../../_components/skill-details/skill-details.component';
-import { ElementType, ElementTypeLabel } from '../../../../_models/enum';
+import { ElementType } from '../../../../_models/enum';
+import { ImageService } from '../../../../_services/image.service';
 
 @Component({
   selector: 'app-overview-talents',
@@ -20,6 +21,8 @@ export class OverviewTalentsComponent {
   @Input() apiKey: string | null = null;
   @Input() elementColor: string | null = null;
   @Input() element: ElementType = ElementType.ANEMO;
+
+  constructor(private imageService: ImageService) {}
 
   private getBriefKey(skillName: string): string {
     const map: Record<string, string> = {
@@ -47,16 +50,6 @@ export class OverviewTalentsComponent {
     return variantBrief ?? mainBrief ?? skill.descriptionRaw;
   }
 
-  get basePath(): string {
-    if (!this.apiKey) return '';
-
-    if ([10000005, 10000007].includes(this.char?.profile.id ?? 0)) {
-      return `assets/images/characters/${this.apiKey}/${ElementTypeLabel[this.element].toLocaleLowerCase()}`;
-    }
-
-    return `assets/images/characters/${this.apiKey}`;
-  }
-
   get skills() {
     if (!this.char) return null;
 
@@ -67,23 +60,19 @@ export class OverviewTalentsComponent {
     return this.char.skills;
   }
 
-  get combat1Url(): string {
-    const filename = this.skills?.images?.filename_combat1;
-
-    return `assets/images/${filename || 'Skill_A_00'}.webp`;
-  }
-
   get skillImageUrls() {
-    const base = this.basePath;
+    const apiKey = this.apiKey ?? '';
+    const element = [10000005, 10000007].includes(this.char?.profile.id ?? 0) ? this.element : undefined;
+    const combat1Filename = this.skills?.images?.filename_combat1 || 'Skill_A_00';
 
     return {
-      combat1: this.combat1Url,
-      combat2: `${base}/skills/combat2.webp`,
-      combat3: `${base}/skills/combat3.webp`,
-      passive1: `${base}/skills/passive1.webp`,
-      passive2: `${base}/skills/passive2.webp`,
-      passive3: `${base}/skills/passive3.webp`,
-      passive4: `${base}/skills/passive4.webp`,
+      combat1: this.imageService.getSkillIcon(combat1Filename),
+      combat2: this.imageService.getCharacterTalentIcon(apiKey, 'combat2', element),
+      combat3: this.imageService.getCharacterTalentIcon(apiKey, 'combat3', element),
+      passive1: this.imageService.getCharacterTalentIcon(apiKey, 'passive1', element),
+      passive2: this.imageService.getCharacterTalentIcon(apiKey, 'passive2', element),
+      passive3: this.imageService.getCharacterTalentIcon(apiKey, 'passive3', element),
+      passive4: this.imageService.getCharacterTalentIcon(apiKey, 'passive4', element),
     };
   }
 }

@@ -48,7 +48,7 @@
             }
           </div>
           <div class="image">
-            <img [src]="`assets/images/weapons/${weapon.normalizedName}/icon.webp`" />
+            <img [src]="imageService.getWeaponIcon(weapon.normalizedName)" />
           </div>
         </div>
         <div class="card-bottom">

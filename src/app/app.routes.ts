@@ -16,6 +16,7 @@ import { MaterialDetailsComponent } from './pages/material-details/material-deta
 import { TalentEditorComponent } from './pages/talent-editor/talent-editor.component';
 import { HyperlinkEditorComponent } from './pages/hyperlink-editor/hyperlink-editor.component';
 import { EditorsComponent } from './pages/editors/editors.component';
+import { EletreEjszakaraKukaComponent } from './pages/eletre-ejszakara-kuka/eletre-ejszakara-kuka.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -32,6 +33,7 @@ export const routes: Routes = [
   { path: 'materials/:slug', component: MaterialDetailsComponent },
   { path: 'tools', component: ToolsComponent },
   { path: 'tierlist-maker', component: TierlistMakerComponent },
+  { path: 'eek', component: EletreEjszakaraKukaComponent },
   {
     path: 'editors',
     component: EditorsComponent,

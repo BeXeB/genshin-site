@@ -1,0 +1,12 @@
+.character-card {
+  user-select: none;
+}
+
+.character-card {
+  width: 120px;
+  height: 100%;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}

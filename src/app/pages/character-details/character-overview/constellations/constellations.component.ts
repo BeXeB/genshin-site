@@ -4,8 +4,9 @@ import {
   CharacterResolved,
   ConstellationDetail,
 } from '../../../../_models/character';
+import { ImageService } from '../../../../_services/image.service';
 import { SkillDetailsComponent } from '../../../../_components/skill-details/skill-details.component';
-import { ElementType, ElementTypeLabel } from '../../../../_models/enum';
+import { ElementType } from '../../../../_models/enum';
 
 @Component({
   selector: 'app-overview-constellations',
@@ -18,6 +19,8 @@ export class OverviewConstellationsComponent {
   @Input() apiKey: string | null = null;
   @Input() elementColor: string | null = null;
   @Input() element: ElementType = ElementType.ANEMO;
+
+  constructor(private imageService: ImageService) {}
 
   private getBriefKey(skillName: string): string {
     const map: Record<string, string> = {
@@ -43,16 +46,6 @@ export class OverviewConstellationsComponent {
     return variantBrief ?? mainBrief ?? skill.descriptionRaw;
   }
 
-  get basePath(): string {
-    if (!this.apiKey) return '';
-
-    if (this.char?.profile.isTraveler) {
-      return `assets/images/characters/${this.apiKey}/${ElementTypeLabel[this.element].toLocaleLowerCase()}`;
-    }
-
-    return `assets/images/characters/${this.apiKey}`;
-  }
-
   get constellation() {
     if (!this.char) return null;
 
@@ -64,15 +57,16 @@ export class OverviewConstellationsComponent {
   }
 
   get skillImageUrls() {
-    const base = this.basePath;
+    const apiKey = this.apiKey ?? '';
+    const element = [10000005, 10000007].includes(this.char?.profile.id ?? 0) ? this.element : undefined;
 
     return {
-      c1: `${base}/constellation/c1.webp`,
-      c2: `${base}/constellation/c2.webp`,
-      c3: `${base}/constellation/c3.webp`,
-      c4: `${base}/constellation/c4.webp`,
-      c5: `${base}/constellation/c5.webp`,
-      c6: `${base}/constellation/c6.webp`,
+      c1: this.imageService.getCharacterConstellationIcon(apiKey, 'c1', element),
+      c2: this.imageService.getCharacterConstellationIcon(apiKey, 'c2', element),
+      c3: this.imageService.getCharacterConstellationIcon(apiKey, 'c3', element),
+      c4: this.imageService.getCharacterConstellationIcon(apiKey, 'c4', element),
+      c5: this.imageService.getCharacterConstellationIcon(apiKey, 'c5', element),
+      c6: this.imageService.getCharacterConstellationIcon(apiKey, 'c6', element),
     };
   }
 }
