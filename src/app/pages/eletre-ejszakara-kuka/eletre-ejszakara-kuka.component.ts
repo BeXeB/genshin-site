@@ -99,9 +99,22 @@ export class EletreEjszakaraKukaComponent implements OnInit {
         !this.usedCharacterSlugs.includes(character.normalizedName) &&
         !this.removedCharacterSlugs.includes(character.normalizedName)
     );
-    const shuffled = availableCharacters.sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, 3);
+
+    const count = Math.min(3, availableCharacters.length);
+
+    for (let i = 0; i < count; i++) {
+      const j = i + Math.floor(Math.random() * (availableCharacters.length - i));
+
+      [availableCharacters[i], availableCharacters[j]] = [
+        availableCharacters[j],
+        availableCharacters[i],
+      ];
+    }
+
+    const selected = availableCharacters.slice(0, count);
+
     this.usedCharacterSlugs.push(...selected.map((c) => c.normalizedName));
+
     this.selectedCharacters = selected;
   }
 
