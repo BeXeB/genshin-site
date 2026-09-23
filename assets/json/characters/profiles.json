@@ -2737,6 +2737,52 @@
         "weaponType": "WEAPON_CLAYMORE"
     },
     {
+        "affiliation": "Korolevskiy Troupe",
+        "birthdaymmdd": "3/29",
+        "constellation": "Piscicula Aurea",
+        "description": "Prima Donna of the Korolevskiy Troupe and a Water Imp who has parted from her kin.",
+        "elementType": "ELEMENT_HYDRO",
+        "id": 10000140,
+        "images": {
+            "filename_gachaSlice": "UI_Gacha_AvatarIcon_Vodyanitsa",
+            "filename_gachaSplash": "UI_Gacha_AvatarImg_Vodyanitsa",
+            "filename_icon": "UI_AvatarIcon_Vodyanitsa",
+            "filename_iconCard": "UI_AvatarIcon_Vodyanitsa_Card",
+            "filename_sideIcon": "UI_AvatarIcon_Side_Vodyanitsa"
+        },
+        "name": "Vodyanitsa",
+        "normalizedName": "vodyanitsa",
+        "qualityType": "QUALITY_ORANGE",
+        "rarity": 5,
+        "sortId": 122,
+        "substatType": "FIGHT_PROP_HP_PERCENT",
+        "title": "Lingering Siren-Song",
+        "weaponType": "WEAPON_CATALYST"
+    },
+    {
+        "affiliation": "Druzhna",
+        "birthdaymmdd": "2/4",
+        "constellation": "Amentum Vernum",
+        "description": "Commander of the Druzhna and the Tsaritsa's keen blade.",
+        "elementType": "ELEMENT_ANEMO",
+        "id": 10000143,
+        "images": {
+            "filename_gachaSlice": "UI_Gacha_AvatarIcon_Vesna",
+            "filename_gachaSplash": "UI_Gacha_AvatarImg_Vesna",
+            "filename_icon": "UI_AvatarIcon_Vesna",
+            "filename_iconCard": "UI_AvatarIcon_Vesna_Card",
+            "filename_sideIcon": "UI_AvatarIcon_Side_Vesna"
+        },
+        "name": "Vesna",
+        "normalizedName": "vesna",
+        "qualityType": "QUALITY_ORANGE",
+        "rarity": 5,
+        "sortId": 121,
+        "substatType": "FIGHT_PROP_CRITICAL",
+        "title": "Snowy Banquet's Sharp Blade",
+        "weaponType": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
         "affiliation": "Snezhnaya",
         "birthdaymmdd": "2/9",
         "constellation": "Canis Borzoides",
