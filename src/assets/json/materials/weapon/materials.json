@@ -84,7 +84,7 @@
         "type": "weapon"
     },
     {
-        "description": "Weapon Ascension Material.\nIn the east of the tundra, that arrogant monster born within the wing-like mountain is nothing more than a lowly peddler of malt and minerals.\nThe Vila under his command are but weaklings with insect wings, while the Domovoy cannot even lift weapons with their stunted arms.\nWho would heed the clamor of such rabble? What strength could they possibly have to stand against the onslaught of the kings of Volkodlak?",
+        "description": "Weapon Ascension Material.\n\"In the east of the tundra, that arrogant monster born within the wing-like mountain is nothing more than a lowly peddler of malt and minerals.\"\n\"The Vila under his command are but weaklings with insect wings, while the Domovoy cannot even lift weapons with their stunted arms.\"\n\"Who would heed the clamor of such rabble? What strength could they possibly have to stand against the onslaught of the kings of Volkodlak?\"",
         "id": 114085,
         "images": {
             "filename_icon": "UI_ItemIcon_114085"
@@ -165,6 +165,18 @@
         "normalizedName": "flareoflongnightflint",
         "rarity": 4,
         "sortRank": 15120,
+        "type": "weapon"
+    },
+    {
+        "description": "Weapon Ascension Material.\nWhat kind of empire can last for a thousand years? After returning from the kingdom of dragons, the usurper once pondered this question.\nCombining the immortal stone with the Ichor essence extracted from primordial water, and carved into a race as black as iron — with arcane lithos for skin and Ichor for blood, never again fearing the curse of returning to the primeval past...\nThe silent golem still dreams the dream of the empire — not knowing it has been over a thousand years since the empire's obliteration.",
+        "id": 114058,
+        "images": {
+            "filename_icon": "UI_ItemIcon_114058"
+        },
+        "name": "Wine Goblet of the Pristine Sea",
+        "normalizedName": "winegobletofthepristinesea",
+        "rarity": 3,
+        "sortRank": 15115,
         "type": "weapon"
     },
     {
@@ -776,18 +788,6 @@
         "name": "Broken Goblet of the Pristine Sea",
         "normalizedName": "brokengobletofthepristinesea",
         "rarity": 2,
-        "sortRank": 15115,
-        "type": "weapon"
-    },
-    {
-        "description": "Weapon Ascension Material.\nWhat kind of empire can last for a thousand years? After returning from the kingdom of dragons, the usurper once pondered this question.\nCombining the immortal stone with the Ichor essence extracted from primordial water, and carved into a race as black as iron — with arcane lithos for skin and Ichor for blood, never again fearing the curse of returning to the primeval past...\nThe silent golem still dreams the dream of the empire — not knowing it has been over a thousand years since the empire's obliteration.",
-        "id": 114058,
-        "images": {
-            "filename_icon": "UI_ItemIcon_114058"
-        },
-        "name": "Wine Goblet of the Pristine Sea",
-        "normalizedName": "winegobletofthepristinesea",
-        "rarity": 3,
         "sortRank": 15115,
         "type": "weapon"
     },
