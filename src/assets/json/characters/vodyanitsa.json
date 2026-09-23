@@ -1,0 +1,1669 @@
+{
+    "constellation": {
+        "c1": {
+            "descriptionRaw": "Each time Vodyanitsa triggers the healing effect of <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color>, it also increases the ATK of all nearby party members by 0.8% of her Max HP for 5s.",
+            "id": 1401,
+            "name": "Waters in Full Splendor"
+        },
+        "c2": {
+            "descriptionRaw": "When the <color=#FFD780FF>Horn of Spring's Call</color> from the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> attacks the opponent, Vodyanitsa gains the \"Two Voices in Black and White\" effect which increases the CRIT DMG from <color=#80C0FFFF>Hydro DMG</color> and <color=#99FFFFFF>Cryo DMG</color> dealt by the currently active party member by 50% for 5s.\nIf there is a Wandering Vortex present on the field or in the 5s after a Wandering Vortex explodes, the effect changes to: increases the CRIT DMG from Stellar Swirl reaction DMG caused by the currently active party member by 60% for 5s.\nAdditionally, the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is enhanced as follows: the duration of the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> effect is extended by 9s.",
+            "id": 1402,
+            "name": "Echoes That Pierce the Snow"
+        },
+        "c3": {
+            "descriptionRaw": "Increases the Level of the Elemental Skill <color=#FFD780FF>{LINK#S11402}Rechitativ: Sonorous Dawn{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+            "id": 1403,
+            "name": "Song Lingering on a Spring Morning"
+        },
+        "c4": {
+            "descriptionRaw": "When Vodyanitsa triggers the healing effect of <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color>, an additional effect will be triggered based on the healed character's HP.\n· If the character's HP is below 40%: The healing is increased by 50%; and\n· If the character's HP is 40% or above: Vodyanitsa's Max HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is counted independently.",
+            "id": 1404,
+            "name": "Melancholic Voice Upon the Gentle Waters"
+        },
+        "c5": {
+            "descriptionRaw": "Increases the Level of the Elemental Burst <color=#FFD780FF>{LINK#S11405}Koda: Sink With Thee{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+            "id": 1405,
+            "name": "Together, Down Into the Deep"
+        },
+        "c6": {
+            "descriptionRaw": "The Constellation <color=#FFD780FF>Echoes That Pierce the Snow</color> is enhanced: \"Two Voices in Black and White\" now applies to all nearby party members.\nAdditionally, while the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> effect is active, Stellar Swirl reaction DMG dealt by nearby party members is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 25% while <color=#80C0FFFF>Hydro DMG</color> and <color=#99FFFFFF>Cryo DMG</color> dealt are increased by 60%.",
+            "id": 1406,
+            "name": "Neverending Song of Revelry"
+        },
+        "images": {
+            "filename_c1": "UI_Talent_S_Vodyanitsa_01",
+            "filename_c2": "UI_Talent_S_Vodyanitsa_02",
+            "filename_c3": "UI_Talent_U_Vodyanitsa_01",
+            "filename_c4": "UI_Talent_S_Vodyanitsa_03",
+            "filename_c5": "UI_Talent_U_Vodyanitsa_02",
+            "filename_c6": "UI_Talent_S_Vodyanitsa_04"
+        }
+    },
+    "profile": {
+        "affiliation": "Korolevskiy Troupe",
+        "birthdaymmdd": "3/29",
+        "constellation": "Piscicula Aurea",
+        "costs": {
+            "ascend1": [
+                {
+                    "count": 20000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 1,
+                    "id": 104121,
+                    "name": "Varunada Lazurite Sliver"
+                },
+                {
+                    "count": 3,
+                    "id": 101275,
+                    "name": "Frostfairy Flower"
+                },
+                {
+                    "count": 3,
+                    "id": 112149,
+                    "name": "Chimeric Core"
+                }
+            ],
+            "ascend2": [
+                {
+                    "count": 40000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104122,
+                    "name": "Varunada Lazurite Fragment"
+                },
+                {
+                    "count": 2,
+                    "id": 113090,
+                    "name": "Unscorched Blossom Branch"
+                },
+                {
+                    "count": 10,
+                    "id": 101275,
+                    "name": "Frostfairy Flower"
+                },
+                {
+                    "count": 15,
+                    "id": 112149,
+                    "name": "Chimeric Core"
+                }
+            ],
+            "ascend3": [
+                {
+                    "count": 60000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104122,
+                    "name": "Varunada Lazurite Fragment"
+                },
+                {
+                    "count": 4,
+                    "id": 113090,
+                    "name": "Unscorched Blossom Branch"
+                },
+                {
+                    "count": 20,
+                    "id": 101275,
+                    "name": "Frostfairy Flower"
+                },
+                {
+                    "count": 12,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "ascend4": [
+                {
+                    "count": 80000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104123,
+                    "name": "Varunada Lazurite Chunk"
+                },
+                {
+                    "count": 8,
+                    "id": 113090,
+                    "name": "Unscorched Blossom Branch"
+                },
+                {
+                    "count": 30,
+                    "id": 101275,
+                    "name": "Frostfairy Flower"
+                },
+                {
+                    "count": 18,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "ascend5": [
+                {
+                    "count": 100000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104123,
+                    "name": "Varunada Lazurite Chunk"
+                },
+                {
+                    "count": 12,
+                    "id": 113090,
+                    "name": "Unscorched Blossom Branch"
+                },
+                {
+                    "count": 45,
+                    "id": 101275,
+                    "name": "Frostfairy Flower"
+                },
+                {
+                    "count": 12,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                }
+            ],
+            "ascend6": [
+                {
+                    "count": 120000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104124,
+                    "name": "Varunada Lazurite Gemstone"
+                },
+                {
+                    "count": 20,
+                    "id": 113090,
+                    "name": "Unscorched Blossom Branch"
+                },
+                {
+                    "count": 60,
+                    "id": 101275,
+                    "name": "Frostfairy Flower"
+                },
+                {
+                    "count": 24,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                }
+            ]
+        },
+        "description": "Prima Donna of the Korolevskiy Troupe and a Water Imp who has parted from her kin.",
+        "elementType": "ELEMENT_HYDRO",
+        "id": 10000140,
+        "images": {
+            "filename_gachaSlice": "UI_Gacha_AvatarIcon_Vodyanitsa",
+            "filename_gachaSplash": "UI_Gacha_AvatarImg_Vodyanitsa",
+            "filename_icon": "UI_AvatarIcon_Vodyanitsa",
+            "filename_iconCard": "UI_AvatarIcon_Vodyanitsa_Card",
+            "filename_sideIcon": "UI_AvatarIcon_Side_Vodyanitsa"
+        },
+        "name": "Vodyanitsa",
+        "normalizedName": "vodyanitsa",
+        "qualityType": "QUALITY_ORANGE",
+        "rarity": 5,
+        "sortId": 122,
+        "substatType": "FIGHT_PROP_HP_PERCENT",
+        "title": "Lingering Siren-Song",
+        "weaponType": "WEAPON_CATALYST"
+    },
+    "skills": {
+        "combat1": {
+            "attributes": {
+                "labels": [
+                    "1-Hit DMG|{param1:F1P}",
+                    "2-Hit DMG|{param2:F1P}",
+                    "3-Hit DMG|{param3:F1P}",
+                    "4-Hit DMG|{param4:F1P}",
+                    "Charged Attack DMG|{param5:F1P}",
+                    "Charged Attack Stamina Cost|{param6:F1}",
+                    "Plunge DMG|{param7:F1P}",
+                    "Low/High Plunge DMG|{param8:P}/{param9:P}"
+                ],
+                "parameters": {
+                    "param1": [
+                        0.433848,
+                        0.466387,
+                        0.498925,
+                        0.54231,
+                        0.574849,
+                        0.607387,
+                        0.650772,
+                        0.694157,
+                        0.737542,
+                        0.780926,
+                        0.824311,
+                        0.867696,
+                        0.921927,
+                        0.976158,
+                        1.030389
+                    ],
+                    "param2": [
+                        0.40232,
+                        0.432494,
+                        0.462668,
+                        0.5029,
+                        0.533074,
+                        0.563248,
+                        0.60348,
+                        0.643712,
+                        0.683944,
+                        0.724176,
+                        0.764408,
+                        0.80464,
+                        0.85493,
+                        0.90522,
+                        0.95551
+                    ],
+                    "param3": [
+                        0.493016,
+                        0.529992,
+                        0.566968,
+                        0.61627,
+                        0.653246,
+                        0.690222,
+                        0.739524,
+                        0.788826,
+                        0.838127,
+                        0.887429,
+                        0.93673,
+                        0.986032,
+                        1.047659,
+                        1.109286,
+                        1.170913
+                    ],
+                    "param4": [
+                        0.655632,
+                        0.704804,
+                        0.753977,
+                        0.81954,
+                        0.868712,
+                        0.917885,
+                        0.983448,
+                        1.049011,
+                        1.114574,
+                        1.180138,
+                        1.245701,
+                        1.311264,
+                        1.393218,
+                        1.475172,
+                        1.557126
+                    ],
+                    "param5": [
+                        1.2376,
+                        1.33042,
+                        1.42324,
+                        1.547,
+                        1.63982,
+                        1.73264,
+                        1.8564,
+                        1.98016,
+                        2.10392,
+                        2.22768,
+                        2.35144,
+                        2.4752,
+                        2.6299,
+                        2.7846,
+                        2.9393
+                    ],
+                    "param6": [
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0
+                    ],
+                    "param7": [
+                        0.568288,
+                        0.614544,
+                        0.6608,
+                        0.72688,
+                        0.773136,
+                        0.826,
+                        0.898688,
+                        0.971376,
+                        1.044064,
+                        1.12336,
+                        1.202656,
+                        1.281952,
+                        1.361248,
+                        1.440544,
+                        1.51984
+                    ],
+                    "param8": [
+                        1.136335,
+                        1.228828,
+                        1.32132,
+                        1.453452,
+                        1.545944,
+                        1.65165,
+                        1.796995,
+                        1.94234,
+                        2.087686,
+                        2.246244,
+                        2.404802,
+                        2.563361,
+                        2.721919,
+                        2.880478,
+                        3.039036
+                    ],
+                    "param9": [
+                        1.419344,
+                        1.534872,
+                        1.6504,
+                        1.81544,
+                        1.930968,
+                        2.063,
+                        2.244544,
+                        2.426088,
+                        2.607632,
+                        2.80568,
+                        3.003728,
+                        3.201776,
+                        3.399824,
+                        3.597872,
+                        3.79592
+                    ]
+                }
+            },
+            "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nSings an ancient song of the Water Imps, unleashing up to 4 strikes. This deals <color=#80C0FFFF>Hydro DMG</color> to the opponent.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to hurl a water ball forward, dealing <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges towards the ground from mid-air, damaging all opponents along the path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+            "id": 11401,
+            "name": "Psyshkhwe Arietta",
+            "proudSkillGroupId": 14031
+        },
+        "combat2": {
+            "attributes": {
+                "labels": [
+                    "Skill DMG|{param1:F2P} Max HP",
+                    "Duration|{param2:F1}s",
+                    "Horn of Spring's Call Attack Interval|{param3:F1}s",
+                    "Horn of Spring's Call DMG|{param4:F2P} Max HP",
+                    "Song of Ages Past Healing|{param5:I} + {param6:F2P} Max HP",
+                    "Song of Ages Past Healing Interval|{param7:F1}s",
+                    "Hydro/Cryo RES Reduction|{param8:F1P}",
+                    "RES Reduction Duration|{param9:F1}s",
+                    "Skill CD|{param10:F1}s"
+                ],
+                "parameters": {
+                    "param1": [
+                        0.03272,
+                        0.035174,
+                        0.037628,
+                        0.0409,
+                        0.043354,
+                        0.045808,
+                        0.04908,
+                        0.052352,
+                        0.055624,
+                        0.058896,
+                        0.062168,
+                        0.06544,
+                        0.06953,
+                        0.07362,
+                        0.07771
+                    ],
+                    "param10": [
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0
+                    ],
+                    "param2": [
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0
+                    ],
+                    "param3": [
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0
+                    ],
+                    "param4": [
+                        0.03272,
+                        0.035174,
+                        0.037628,
+                        0.0409,
+                        0.043354,
+                        0.045808,
+                        0.04908,
+                        0.052352,
+                        0.055624,
+                        0.058896,
+                        0.062168,
+                        0.06544,
+                        0.06953,
+                        0.07362,
+                        0.07771
+                    ],
+                    "param5": [
+                        269.62854,
+                        296.59515,
+                        325.80896,
+                        357.27,
+                        390.97824,
+                        426.93372,
+                        465.1364,
+                        505.5863,
+                        548.28345,
+                        593.2278,
+                        640.4193,
+                        689.8581,
+                        741.54407,
+                        795.4773,
+                        851.6577
+                    ],
+                    "param6": [
+                        0.028,
+                        0.0301,
+                        0.0322,
+                        0.035,
+                        0.0371,
+                        0.0392,
+                        0.042,
+                        0.0448,
+                        0.0476,
+                        0.0504,
+                        0.0532,
+                        0.056,
+                        0.0595,
+                        0.063,
+                        0.0665
+                    ],
+                    "param7": [
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5
+                    ],
+                    "param8": [
+                        0.165,
+                        0.18,
+                        0.195,
+                        0.21,
+                        0.225,
+                        0.24,
+                        0.255,
+                        0.27,
+                        0.285,
+                        0.3,
+                        0.318,
+                        0.336,
+                        0.354,
+                        0.372,
+                        0.39
+                    ],
+                    "param9": [
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0,
+                        6.0
+                    ]
+                }
+            },
+            "descriptionRaw": "Reveals her true Water Imp form, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and gaining the <color=#FFD780FF>Song of Ages Past</color> effect: While this effect is active, Vodyanitsa summons the ancient <color=#FFD780FF>Horn of Spring's Call</color>, periodically moving closer to an opponent in a swift movement to attack them, dealing <color=#80C0FFFF>Hydro DMG</color>.\nThe above two types of attacks will also decrease the <color=#80C0FFFF>Hydro RES</color> and <color=#99FFFFFF>Cryo RES</color> of opponents hit. Additionally, while the <color=#FFD780FF>Song of Ages Past</color> effect is active, the party's active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP.",
+            "id": 11402,
+            "name": "Rechitativ: Sonorous Dawn",
+            "proudSkillGroupId": 14032
+        },
+        "combat3": {
+            "attributes": {
+                "labels": [
+                    "Skill DMG|{param1:F1P} Max HP",
+                    "Song of Ages Past DMG Bonus|{param2:F1P}",
+                    "CD|{param3:F1}s",
+                    "Energy Cost|{param4:I}"
+                ],
+                "parameters": {
+                    "param1": [
+                        0.456768,
+                        0.491026,
+                        0.5252830000000001,
+                        0.57096,
+                        0.605218,
+                        0.639475,
+                        0.685152,
+                        0.730829,
+                        0.776506,
+                        0.822182,
+                        0.867859,
+                        0.913536,
+                        0.970632,
+                        1.027728,
+                        1.084824
+                    ],
+                    "param2": [
+                        0.48,
+                        0.516,
+                        0.552,
+                        0.6,
+                        0.636,
+                        0.672,
+                        0.72,
+                        0.768,
+                        0.816,
+                        0.864,
+                        0.912,
+                        0.96,
+                        1.02,
+                        1.08,
+                        1.14
+                    ],
+                    "param3": [
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0
+                    ],
+                    "param4": [
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0
+                    ]
+                }
+            },
+            "descriptionRaw": "Leads a song of the Water Imps which lures its listeners to their doom. This deals <color=#80C0FFFF>AoE Hydro DMG</color> to the opponent.\nWhen in the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> state, DMG dealt is further increased.",
+            "id": 11405,
+            "name": "Koda: Sink With Thee",
+            "proudSkillGroupId": 14039
+        },
+        "costs": {
+            "lvl10": [
+                {
+                    "count": 700000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 16,
+                    "id": 104370,
+                    "name": "Philosophies of Fortitude"
+                },
+                {
+                    "count": 12,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                },
+                {
+                    "count": 2,
+                    "id": 113082,
+                    "name": "Madman's Restraint"
+                },
+                {
+                    "count": 1,
+                    "id": 104319,
+                    "name": "Crown of Insight"
+                }
+            ],
+            "lvl2": [
+                {
+                    "count": 12500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104368,
+                    "name": "Teachings of Fortitude"
+                },
+                {
+                    "count": 6,
+                    "id": 112149,
+                    "name": "Chimeric Core"
+                }
+            ],
+            "lvl3": [
+                {
+                    "count": 17500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 2,
+                    "id": 104369,
+                    "name": "Guide to Fortitude"
+                },
+                {
+                    "count": 3,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "lvl4": [
+                {
+                    "count": 25000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 4,
+                    "id": 104369,
+                    "name": "Guide to Fortitude"
+                },
+                {
+                    "count": 4,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "lvl5": [
+                {
+                    "count": 30000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104369,
+                    "name": "Guide to Fortitude"
+                },
+                {
+                    "count": 6,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "lvl6": [
+                {
+                    "count": 37500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 9,
+                    "id": 104369,
+                    "name": "Guide to Fortitude"
+                },
+                {
+                    "count": 9,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "lvl7": [
+                {
+                    "count": 120000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 4,
+                    "id": 104370,
+                    "name": "Philosophies of Fortitude"
+                },
+                {
+                    "count": 4,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                },
+                {
+                    "count": 1,
+                    "id": 113082,
+                    "name": "Madman's Restraint"
+                }
+            ],
+            "lvl8": [
+                {
+                    "count": 260000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104370,
+                    "name": "Philosophies of Fortitude"
+                },
+                {
+                    "count": 6,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                },
+                {
+                    "count": 1,
+                    "id": 113082,
+                    "name": "Madman's Restraint"
+                }
+            ],
+            "lvl9": [
+                {
+                    "count": 450000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 12,
+                    "id": 104370,
+                    "name": "Philosophies of Fortitude"
+                },
+                {
+                    "count": 9,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                },
+                {
+                    "count": 2,
+                    "id": 113082,
+                    "name": "Madman's Restraint"
+                }
+            ]
+        },
+        "images": {
+            "filename_combat1": "Skill_A_Catalyst_MD",
+            "filename_combat2": "Skill_S_Vodyanitsa_01",
+            "filename_combat3": "Skill_E_Vodyanitsa_01",
+            "filename_passive1": "UI_Talent_S_Vodyanitsa_06",
+            "filename_passive2": "UI_Talent_S_Vodyanitsa_05",
+            "filename_passive3": "UI_Talent_S_Vodyanitsa_07",
+            "filename_passive4": "UI_Talent_S_Vodyanitsa_08"
+        },
+        "passive1": {
+            "descriptionRaw": "When the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is used, any Stellar Vortex on the field will turn into a Wandering Vortex instead. While the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> effect is active, nearby party members' Stellar Swirl reactions will generate Wandering Vortex instead.\nGenerating or detonating a Wandering Vortex will also reduce nearby opponents' <color=#80FFD7FF>Anemo RES</color> by 35% for 6s. \nAdditionally, nearby party members who enter the <color=#FFD780FF>Radiance: Stellar Swirl</color> state while <color=#FFD780FF>Song of Ages Past</color> is in effect will have the <color=#FFD780FF>Radiance: Stellar Swirl</color> state extended by 4s.",
+            "id": 1402101,
+            "name": "The Last Djeguako Songstress"
+        },
+        "passive2": {
+            "descriptionRaw": "When the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is used, Vodyanitsa will also gain 25 stacks of {LINK#N11400001}<color=#FFD780FF>Lead Vocal</color>{/LINK} as well as 10 stacks of {LINK#N11400002}<color=#FFD780FF>Chorus</color>{/LINK}.\nThe two effects above last 30s each, and the stack count is refreshed when the Elemental Skill is used.",
+            "id": 1402201,
+            "name": "Dirge of the Fandyr"
+        },
+        "passive3": {
+            "descriptionRaw": "Holding the Elemental Skill outside of combat will cause Vodyanitsa to embody her true Water Imp form and swim for up to 10s at the cost of Stamina. Naturally, as a Water Imp, she can also move across the water's surface. Vodyanitsa will exit her Water Imp form when the Elemental Skill is used again, when the duration ends, or when all Stamina is depleted.\nAdditionally, while Vodyanitsa can swim faster, her Stamina consumption rate is also increased.",
+            "id": 1402301,
+            "name": "Echoes Over the Frozen Lake"
+        },
+        "passive4": {
+            "descriptionRaw": "As the Prima Donna of the Korolevskiy Troupe, Vodyanitsa sings in person in place of playing an instrument.",
+            "id": 1402501,
+            "name": "Heartless Siren Song"
+        }
+    },
+    "stats": {
+        "1": {
+            "ascension": 0,
+            "attack": 8.379,
+            "defense": 37.6929,
+            "hp": 1153.5172,
+            "level": 1,
+            "specialized": 0.0
+        },
+        "10": {
+            "ascension": 0,
+            "attack": 14.671628999999998,
+            "defense": 66.0002679,
+            "hp": 2019.8086171999998,
+            "level": 10,
+            "specialized": 0.0
+        },
+        "100": {
+            "ascension": 6,
+            "attack": 131.84558099999998,
+            "defense": 518.6028708,
+            "hp": 15870.713314399998,
+            "level": 100,
+            "specialized": 0.288
+        },
+        "11": {
+            "ascension": 0,
+            "attack": 15.375464999999998,
+            "defense": 69.1664715,
+            "hp": 2116.704062,
+            "level": 11,
+            "specialized": 0.0
+        },
+        "12": {
+            "ascension": 0,
+            "attack": 16.079301,
+            "defense": 72.3326751,
+            "hp": 2213.5995068,
+            "level": 12,
+            "specialized": 0.0
+        },
+        "13": {
+            "ascension": 0,
+            "attack": 16.783137,
+            "defense": 75.4988787,
+            "hp": 2310.4949516,
+            "level": 13,
+            "specialized": 0.0
+        },
+        "14": {
+            "ascension": 0,
+            "attack": 17.495352,
+            "defense": 78.7027752,
+            "hp": 2408.5439136,
+            "level": 14,
+            "specialized": 0.0
+        },
+        "15": {
+            "ascension": 0,
+            "attack": 18.199188,
+            "defense": 81.86897880000001,
+            "hp": 2505.4393584000004,
+            "level": 15,
+            "specialized": 0.0
+        },
+        "16": {
+            "ascension": 0,
+            "attack": 18.903024,
+            "defense": 85.0351824,
+            "hp": 2602.3348032,
+            "level": 16,
+            "specialized": 0.0
+        },
+        "17": {
+            "ascension": 0,
+            "attack": 19.615239,
+            "defense": 88.23907890000001,
+            "hp": 2700.3837652,
+            "level": 17,
+            "specialized": 0.0
+        },
+        "18": {
+            "ascension": 0,
+            "attack": 20.319074999999998,
+            "defense": 91.4052825,
+            "hp": 2797.2792099999997,
+            "level": 18,
+            "specialized": 0.0
+        },
+        "19": {
+            "ascension": 0,
+            "attack": 21.03129,
+            "defense": 94.609179,
+            "hp": 2895.3281719999995,
+            "level": 19,
+            "specialized": 0.0
+        },
+        "2": {
+            "ascension": 0,
+            "attack": 9.074456999999999,
+            "defense": 40.8214107,
+            "hp": 1249.2591276,
+            "level": 2,
+            "specialized": 0.0
+        },
+        "20": {
+            "ascension": 0,
+            "attack": 21.735125999999998,
+            "defense": 97.7753826,
+            "hp": 2992.2236168,
+            "level": 20,
+            "specialized": 0.0
+        },
+        "20+": {
+            "ascension": 1,
+            "attack": 28.918836,
+            "defense": 130.09438260000002,
+            "hp": 3981.2603168,
+            "level": 20,
+            "specialized": 0.0
+        },
+        "21": {
+            "ascension": 1,
+            "attack": 29.631051,
+            "defense": 133.2982791,
+            "hp": 4079.3092788,
+            "level": 21,
+            "specialized": 0.0
+        },
+        "22": {
+            "ascension": 1,
+            "attack": 30.343266,
+            "defense": 136.5021756,
+            "hp": 4177.358240799999,
+            "level": 22,
+            "specialized": 0.0
+        },
+        "23": {
+            "ascension": 1,
+            "attack": 31.055481,
+            "defense": 139.70607210000003,
+            "hp": 4275.4072028,
+            "level": 23,
+            "specialized": 0.0
+        },
+        "24": {
+            "ascension": 1,
+            "attack": 31.767696,
+            "defense": 142.9099686,
+            "hp": 4373.4561648,
+            "level": 24,
+            "specialized": 0.0
+        },
+        "25": {
+            "ascension": 1,
+            "attack": 32.479911,
+            "defense": 146.1138651,
+            "hp": 4471.5051268,
+            "level": 25,
+            "specialized": 0.0
+        },
+        "26": {
+            "ascension": 1,
+            "attack": 33.200505,
+            "defense": 149.3554545,
+            "hp": 4570.707606,
+            "level": 26,
+            "specialized": 0.0
+        },
+        "27": {
+            "ascension": 1,
+            "attack": 33.91272,
+            "defense": 152.559351,
+            "hp": 4668.756568,
+            "level": 27,
+            "specialized": 0.0
+        },
+        "28": {
+            "ascension": 1,
+            "attack": 34.624935,
+            "defense": 155.7632475,
+            "hp": 4766.80553,
+            "level": 28,
+            "specialized": 0.0
+        },
+        "29": {
+            "ascension": 1,
+            "attack": 35.345529,
+            "defense": 159.00483690000002,
+            "hp": 4866.0080092,
+            "level": 29,
+            "specialized": 0.0
+        },
+        "3": {
+            "ascension": 0,
+            "attack": 9.769913999999998,
+            "defense": 43.9499214,
+            "hp": 1345.0010551999999,
+            "level": 3,
+            "specialized": 0.0
+        },
+        "30": {
+            "ascension": 1,
+            "attack": 36.057744,
+            "defense": 162.20873340000003,
+            "hp": 4964.0569712,
+            "level": 30,
+            "specialized": 0.0
+        },
+        "31": {
+            "ascension": 1,
+            "attack": 36.778338,
+            "defense": 165.45032280000004,
+            "hp": 5063.2594504,
+            "level": 31,
+            "specialized": 0.0
+        },
+        "32": {
+            "ascension": 1,
+            "attack": 37.498931999999996,
+            "defense": 168.6919122,
+            "hp": 5162.461929599999,
+            "level": 32,
+            "specialized": 0.0
+        },
+        "33": {
+            "ascension": 1,
+            "attack": 38.219526,
+            "defense": 171.9335016,
+            "hp": 5261.6644088,
+            "level": 33,
+            "specialized": 0.0
+        },
+        "34": {
+            "ascension": 1,
+            "attack": 38.931741,
+            "defense": 175.13739810000004,
+            "hp": 5359.7133708,
+            "level": 34,
+            "specialized": 0.0
+        },
+        "35": {
+            "ascension": 1,
+            "attack": 39.652334999999994,
+            "defense": 178.3789875,
+            "hp": 5458.915849999999,
+            "level": 35,
+            "specialized": 0.0
+        },
+        "36": {
+            "ascension": 1,
+            "attack": 40.381308,
+            "defense": 181.65826980000003,
+            "hp": 5559.2718464,
+            "level": 36,
+            "specialized": 0.0
+        },
+        "37": {
+            "ascension": 1,
+            "attack": 41.101901999999995,
+            "defense": 184.89985920000004,
+            "hp": 5658.4743256,
+            "level": 37,
+            "specialized": 0.0
+        },
+        "38": {
+            "ascension": 1,
+            "attack": 41.822496,
+            "defense": 188.14144860000005,
+            "hp": 5757.6768048,
+            "level": 38,
+            "specialized": 0.0
+        },
+        "39": {
+            "ascension": 1,
+            "attack": 42.54308999999999,
+            "defense": 191.383038,
+            "hp": 5856.879284,
+            "level": 39,
+            "specialized": 0.0
+        },
+        "4": {
+            "ascension": 0,
+            "attack": 10.473749999999999,
+            "defense": 47.116125000000004,
+            "hp": 1441.8965,
+            "level": 4,
+            "specialized": 0.0
+        },
+        "40": {
+            "ascension": 1,
+            "attack": 43.272062999999996,
+            "defense": 194.66232030000003,
+            "hp": 5957.2352804,
+            "level": 40,
+            "specialized": 0.0
+        },
+        "40+": {
+            "ascension": 2,
+            "attack": 48.376278,
+            "defense": 217.62582030000002,
+            "hp": 6659.9718804,
+            "level": 40,
+            "specialized": 0.072
+        },
+        "41": {
+            "ascension": 2,
+            "attack": 49.096872,
+            "defense": 220.8674097,
+            "hp": 6759.1743596,
+            "level": 41,
+            "specialized": 0.072
+        },
+        "42": {
+            "ascension": 2,
+            "attack": 49.825845,
+            "defense": 224.14669200000003,
+            "hp": 6859.530356,
+            "level": 42,
+            "specialized": 0.072
+        },
+        "43": {
+            "ascension": 2,
+            "attack": 50.554818,
+            "defense": 227.4259743,
+            "hp": 6959.8863524,
+            "level": 43,
+            "specialized": 0.072
+        },
+        "44": {
+            "ascension": 2,
+            "attack": 51.275411999999996,
+            "defense": 230.6675637,
+            "hp": 7059.088831599999,
+            "level": 44,
+            "specialized": 0.072
+        },
+        "45": {
+            "ascension": 2,
+            "attack": 52.004385,
+            "defense": 233.94684600000002,
+            "hp": 7159.444828,
+            "level": 45,
+            "specialized": 0.072
+        },
+        "46": {
+            "ascension": 2,
+            "attack": 52.733357999999996,
+            "defense": 237.2261283,
+            "hp": 7259.8008244,
+            "level": 46,
+            "specialized": 0.072
+        },
+        "47": {
+            "ascension": 2,
+            "attack": 53.462331,
+            "defense": 240.5054106,
+            "hp": 7360.1568208,
+            "level": 47,
+            "specialized": 0.072
+        },
+        "48": {
+            "ascension": 2,
+            "attack": 54.191304,
+            "defense": 243.7846929,
+            "hp": 7460.5128172,
+            "level": 48,
+            "specialized": 0.072
+        },
+        "49": {
+            "ascension": 2,
+            "attack": 54.928656000000004,
+            "defense": 247.1016681,
+            "hp": 7562.0223308,
+            "level": 49,
+            "specialized": 0.072
+        },
+        "5": {
+            "ascension": 0,
+            "attack": 11.169206999999998,
+            "defense": 50.2446357,
+            "hp": 1537.6384275999999,
+            "level": 5,
+            "specialized": 0.0
+        },
+        "50": {
+            "ascension": 2,
+            "attack": 55.657629,
+            "defense": 250.38095040000002,
+            "hp": 7662.3783272,
+            "level": 50,
+            "specialized": 0.072
+        },
+        "50+": {
+            "ascension": 3,
+            "attack": 62.46325,
+            "defense": 280.9989504,
+            "hp": 8599.360427200001,
+            "level": 50,
+            "specialized": 0.144
+        },
+        "51": {
+            "ascension": 3,
+            "attack": 63.192223,
+            "defense": 284.2782327,
+            "hp": 8699.716423599999,
+            "level": 51,
+            "specialized": 0.144
+        },
+        "52": {
+            "ascension": 3,
+            "attack": 63.929575,
+            "defense": 287.5952079,
+            "hp": 8801.2259372,
+            "level": 52,
+            "specialized": 0.144
+        },
+        "53": {
+            "ascension": 3,
+            "attack": 64.658548,
+            "defense": 290.87449019999997,
+            "hp": 8901.581933599999,
+            "level": 53,
+            "specialized": 0.144
+        },
+        "54": {
+            "ascension": 3,
+            "attack": 65.3959,
+            "defense": 294.19146539999997,
+            "hp": 9003.0914472,
+            "level": 54,
+            "specialized": 0.144
+        },
+        "55": {
+            "ascension": 3,
+            "attack": 66.133252,
+            "defense": 297.5084406,
+            "hp": 9104.600960799999,
+            "level": 55,
+            "specialized": 0.144
+        },
+        "56": {
+            "ascension": 3,
+            "attack": 66.870604,
+            "defense": 300.8254158,
+            "hp": 9206.1104744,
+            "level": 56,
+            "specialized": 0.144
+        },
+        "57": {
+            "ascension": 3,
+            "attack": 67.607956,
+            "defense": 304.142391,
+            "hp": 9307.619988,
+            "level": 57,
+            "specialized": 0.144
+        },
+        "58": {
+            "ascension": 3,
+            "attack": 68.345308,
+            "defense": 307.4593662,
+            "hp": 9409.1295016,
+            "level": 58,
+            "specialized": 0.144
+        },
+        "59": {
+            "ascension": 3,
+            "attack": 69.08266,
+            "defense": 310.7763414,
+            "hp": 9510.6390152,
+            "level": 59,
+            "specialized": 0.144
+        },
+        "6": {
+            "ascension": 0,
+            "attack": 11.873043,
+            "defense": 53.410839300000006,
+            "hp": 1634.5338724,
+            "level": 6,
+            "specialized": 0.0
+        },
+        "60": {
+            "ascension": 3,
+            "attack": 69.820012,
+            "defense": 314.0933166,
+            "hp": 9612.1485288,
+            "level": 60,
+            "specialized": 0.144
+        },
+        "60+": {
+            "ascension": 4,
+            "attack": 74.924226,
+            "defense": 337.05681660000005,
+            "hp": 10314.8851288,
+            "level": 60,
+            "specialized": 0.144
+        },
+        "61": {
+            "ascension": 4,
+            "attack": 75.661578,
+            "defense": 340.37379180000005,
+            "hp": 10416.3946424,
+            "level": 61,
+            "specialized": 0.144
+        },
+        "62": {
+            "ascension": 4,
+            "attack": 76.39892999999999,
+            "defense": 343.69076700000005,
+            "hp": 10517.904156,
+            "level": 62,
+            "specialized": 0.144
+        },
+        "63": {
+            "ascension": 4,
+            "attack": 77.144661,
+            "defense": 347.0454351,
+            "hp": 10620.567186799999,
+            "level": 63,
+            "specialized": 0.144
+        },
+        "64": {
+            "ascension": 4,
+            "attack": 77.882013,
+            "defense": 350.3624103,
+            "hp": 10722.0767004,
+            "level": 64,
+            "specialized": 0.144
+        },
+        "65": {
+            "ascension": 4,
+            "attack": 78.62774399999999,
+            "defense": 353.7170784,
+            "hp": 10824.7397312,
+            "level": 65,
+            "specialized": 0.144
+        },
+        "66": {
+            "ascension": 4,
+            "attack": 79.373475,
+            "defense": 357.0717465,
+            "hp": 10927.402762,
+            "level": 66,
+            "specialized": 0.144
+        },
+        "67": {
+            "ascension": 4,
+            "attack": 80.110827,
+            "defense": 360.3887217,
+            "hp": 11028.9122756,
+            "level": 67,
+            "specialized": 0.144
+        },
+        "68": {
+            "ascension": 4,
+            "attack": 80.85655799999999,
+            "defense": 363.7433898,
+            "hp": 11131.5753064,
+            "level": 68,
+            "specialized": 0.144
+        },
+        "69": {
+            "ascension": 4,
+            "attack": 81.602289,
+            "defense": 367.09805789999996,
+            "hp": 11234.2383372,
+            "level": 69,
+            "specialized": 0.144
+        },
+        "7": {
+            "ascension": 0,
+            "attack": 12.5685,
+            "defense": 56.53935,
+            "hp": 1730.2758,
+            "level": 7,
+            "specialized": 0.0
+        },
+        "70": {
+            "ascension": 4,
+            "attack": 82.34802,
+            "defense": 370.452726,
+            "hp": 11336.901368,
+            "level": 70,
+            "specialized": 0.144
+        },
+        "70+": {
+            "ascension": 5,
+            "attack": 87.452235,
+            "defense": 393.416226,
+            "hp": 12039.637868000002,
+            "level": 70,
+            "specialized": 0.216
+        },
+        "71": {
+            "ascension": 5,
+            "attack": 88.197966,
+            "defense": 396.7708941,
+            "hp": 12142.3008988,
+            "level": 71,
+            "specialized": 0.216
+        },
+        "72": {
+            "ascension": 5,
+            "attack": 88.95207599999999,
+            "defense": 400.1632551,
+            "hp": 12246.117446799999,
+            "level": 72,
+            "specialized": 0.216
+        },
+        "73": {
+            "ascension": 5,
+            "attack": 89.697807,
+            "defense": 403.5179232,
+            "hp": 12348.780477600001,
+            "level": 73,
+            "specialized": 0.216
+        },
+        "74": {
+            "ascension": 5,
+            "attack": 90.44353799999999,
+            "defense": 406.8725913,
+            "hp": 12451.4435084,
+            "level": 74,
+            "specialized": 0.216
+        },
+        "75": {
+            "ascension": 5,
+            "attack": 91.19764799999999,
+            "defense": 410.2649523,
+            "hp": 12555.260056399999,
+            "level": 75,
+            "specialized": 0.216
+        },
+        "76": {
+            "ascension": 5,
+            "attack": 91.943379,
+            "defense": 413.6196204,
+            "hp": 12657.9230872,
+            "level": 76,
+            "specialized": 0.216
+        },
+        "77": {
+            "ascension": 5,
+            "attack": 92.69748899999999,
+            "defense": 417.01198139999997,
+            "hp": 12761.7396352,
+            "level": 77,
+            "specialized": 0.216
+        },
+        "78": {
+            "ascension": 5,
+            "attack": 93.45159899999999,
+            "defense": 420.40434239999996,
+            "hp": 12865.556183199998,
+            "level": 78,
+            "specialized": 0.216
+        },
+        "79": {
+            "ascension": 5,
+            "attack": 94.205709,
+            "defense": 423.7967034,
+            "hp": 12969.372731200001,
+            "level": 79,
+            "specialized": 0.216
+        },
+        "8": {
+            "ascension": 0,
+            "attack": 13.272336,
+            "defense": 59.70555360000001,
+            "hp": 1827.1712448,
+            "level": 8,
+            "specialized": 0.0
+        },
+        "80": {
+            "ascension": 5,
+            "attack": 94.959819,
+            "defense": 427.1890644,
+            "hp": 13073.1892792,
+            "level": 80,
+            "specialized": 0.216
+        },
+        "80+": {
+            "ascension": 6,
+            "attack": 100.06403399999999,
+            "defense": 450.1525644,
+            "hp": 13775.9260792,
+            "level": 80,
+            "specialized": 0.288
+        },
+        "81": {
+            "ascension": 6,
+            "attack": 100.81814399999999,
+            "defense": 453.5449254,
+            "hp": 13879.7426272,
+            "level": 81,
+            "specialized": 0.288
+        },
+        "82": {
+            "ascension": 6,
+            "attack": 101.57225399999999,
+            "defense": 456.9372864,
+            "hp": 13983.5591752,
+            "level": 82,
+            "specialized": 0.288
+        },
+        "83": {
+            "ascension": 6,
+            "attack": 102.32636399999998,
+            "defense": 460.3296474,
+            "hp": 14087.375723199999,
+            "level": 83,
+            "specialized": 0.288
+        },
+        "84": {
+            "ascension": 6,
+            "attack": 103.08047400000001,
+            "defense": 463.7220084,
+            "hp": 14191.1922712,
+            "level": 84,
+            "specialized": 0.288
+        },
+        "85": {
+            "ascension": 6,
+            "attack": 103.834584,
+            "defense": 467.1143694,
+            "hp": 14295.0088192,
+            "level": 85,
+            "specialized": 0.288
+        },
+        "86": {
+            "ascension": 6,
+            "attack": 104.597073,
+            "defense": 470.54442330000006,
+            "hp": 14399.978884400001,
+            "level": 86,
+            "specialized": 0.288
+        },
+        "87": {
+            "ascension": 6,
+            "attack": 105.35118299999999,
+            "defense": 473.93678430000006,
+            "hp": 14503.7954324,
+            "level": 87,
+            "specialized": 0.288
+        },
+        "88": {
+            "ascension": 6,
+            "attack": 106.11367200000001,
+            "defense": 477.3668382,
+            "hp": 14608.7654976,
+            "level": 88,
+            "specialized": 0.288
+        },
+        "89": {
+            "ascension": 6,
+            "attack": 106.876161,
+            "defense": 480.7968921,
+            "hp": 14713.735562799999,
+            "level": 89,
+            "specialized": 0.288
+        },
+        "9": {
+            "ascension": 0,
+            "attack": 13.976171999999998,
+            "defense": 62.8717572,
+            "hp": 1924.0666896,
+            "level": 9,
+            "specialized": 0.0
+        },
+        "90": {
+            "ascension": 6,
+            "attack": 107.630271,
+            "defense": 484.18925310000003,
+            "hp": 14817.552110800001,
+            "level": 90,
+            "specialized": 0.288
+        },
+        "95": {
+            "ascension": 6,
+            "attack": 119.73792599999999,
+            "defense": 501.37721550000003,
+            "hp": 15343.555954,
+            "level": 95,
+            "specialized": 0.288
+        }
+    }
+}
