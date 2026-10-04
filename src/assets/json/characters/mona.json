@@ -1,12 +1,12 @@
 {
     "constellation": {
         "c1": {
-            "descriptionRaw": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\n· Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%.\n· Frozen duration is extended by 15%.",
+            "descriptionRaw": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\n· Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%.\n· Frozen duration is extended by 15%.\n\nAdditionally, when your off-field party members trigger the above effect, the DMG Bonus to the above Hydro-related Elemental Reactions is enhanced to 160% of its original effect.",
             "id": 411,
             "name": "Prophecy of Submersion"
         },
         "c2": {
-            "descriptionRaw": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\nThis effect can only occur once every 5s.",
+            "descriptionRaw": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. Additionally, within 5s after Mona unleashes her Elemental Burst <color=#FFD780FF>Stellaris Phantasm</color>, her next Normal Attack that hits an enemy will automatically trigger a Charged Attack.\nThe aforementioned Charged Attack effect can only occur once every 5s.\nWhen Mona's Charged Attack hits an opponent, all nearby party members will have their Elemental Mastery increased by 80 for 12s.",
             "id": 412,
             "name": "Lunar Chain"
         },
@@ -16,7 +16,7 @@
             "name": "Restless Revolution"
         },
         "c4": {
-            "descriptionRaw": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.",
+            "descriptionRaw": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.\nWhen any Hexerei party member attacks an opponent affected by an Omen, their CRIT DMG is increased by 15%.",
             "id": 414,
             "name": "Prophecy of Oblivion"
         },
@@ -26,7 +26,7 @@
             "name": "Mockery of Fortuna"
         },
         "c6": {
-            "descriptionRaw": "Upon entering <color=#FFD780FF>Illusory Torrent</color>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+            "descriptionRaw": "While Mona is the active character, while she is in the <color=#FFD780FF>Illusory Torrent</color> state or there are opponents affected by an Omen nearby, she gains a 60% increase to the DMG of her next Charged Attack per second. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.\nAdditionally, the DMG Mona's Charged Attacks deal to opponents affected by an Omen will be increased to 200% of the original DMG.",
             "id": 416,
             "name": "Rhetorics of Calamitas"
         },

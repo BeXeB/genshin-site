@@ -26,7 +26,7 @@
             "name": "Against the Fleeing Light"
         },
         "c6": {
-            "descriptionRaw": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs coordinated attacks with your active character when present, dealing 30% of Fischl's ATK as <color=#FFACFFFF>Electro DMG</color>.",
+            "descriptionRaw": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs coordinated attacks with your active character when present, dealing 30% of Fischl's ATK as <color=#FFACFFFF>Electro DMG</color>.\nAfter Oz performs a coordinated attack, the increased ATK and Elemental Mastery effects of <color=#FFD780FF>Witch's Eve Rite: Phantasmal Nocturne</color> are further increased by 100% for 10s.",
             "id": 316,
             "name": "Evernight Raven"
         },
