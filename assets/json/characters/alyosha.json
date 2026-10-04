@@ -839,7 +839,7 @@
             "name": "Into the Fray"
         },
         "passive4": {
-            "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Snezhnaya</color> on the mini-map.",
+            "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Snezhnaya</color> on the mini-map, and this effect also applies in the Shadow Realm.",
             "id": 1482501,
             "name": "Treetop Watch"
         }
