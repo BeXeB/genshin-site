@@ -1,12 +1,12 @@
 {
     "constellation": {
         "c1": {
-            "descriptionRaw": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+            "descriptionRaw": "Qiqi regenerates 2 Energy when the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman.\n{LINK#N11500004}<color=#FFD780FF>Radiance: Stellar Glimmer</color>{/LINK}: Qiqi also regenerates 6 Elemental Energy when the Herald of Frost's attacks and coordinated attacks hit opponents. This effect can trigger once every 6s.",
             "id": 351,
             "name": "Ascetics of Frost"
         },
         "c2": {
-            "descriptionRaw": "Qiqi's Normal and Charged Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.",
+            "descriptionRaw": "Qiqi's Normal and Charged Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.\n{LINK#N11500004}<color=#FFD780FF>Radiance: Stellar Glimmer</color>{/LINK}: Qiqi's ATK is increased by 50%.",
             "id": 352,
             "name": "Frozen to the Bone"
         },
@@ -16,7 +16,7 @@
             "name": "Ascendant Praise"
         },
         "c4": {
-            "descriptionRaw": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+            "descriptionRaw": "Targets marked by a Fortune-Preserving Talisman have their ATK reduced by 20%.\nAdditionally, when the healing effect of Fortune-Preserving Talisman triggers, the nearby party member with the lowest HP percentage remaining will also receive an additional instance of healing for 180% of Qiqi's ATK.",
             "id": 354,
             "name": "Divine Suppression"
         },
@@ -26,7 +26,7 @@
             "name": "Crimson Lotus Bloom"
         },
         "c6": {
-            "descriptionRaw": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins.",
+            "descriptionRaw": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins.\nAdditionally, after using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color>, Qiqi will also gain 4 stacks of <color=#FFD780FF>Glimpse of Mystery</color>, and when your current active character (other than Qiqi) deals Stellar-Conduct or Stellar Swirl reaction DMG with their Talent or skill, 1 stack of <color=#FFD780FF>Glimpse of Mystery</color> is consumed, and DMG dealt is increased by 600% of Qiqi's ATK. The <color=#FFD780FF>Glimpse of Mystery</color> effect lasts up to 12s, and unleashing <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> refreshes the stack count.",
             "id": 356,
             "name": "Rite of Resurrection"
         },
@@ -616,7 +616,7 @@
                     ]
                 }
             },
-            "descriptionRaw": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\n\n<color=#FFD780FF>Herald of Frost</color>\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\n\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
+            "descriptionRaw": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\n\n<color=#FFD780FF>Herald of Frost</color>\n· On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates, with healing scaled based on Qiqi's ATK.\n· Periodically regenerates your active character's HP.\n· Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in the character's path.\nIf your current active character hits an opponent with an attack, the Herald of Frost will perform a coordinated attack on the opponent, dealing <color=#99FFFFFF>Cryo DMG</color>.\n\n<i>\"I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.\"</i>",
             "id": 10352,
             "name": "Adeptus Art: Herald of Frost",
             "proudSkillGroupId": 3532
@@ -753,7 +753,7 @@
                     ]
                 }
             },
-            "descriptionRaw": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\n<i>— Qiqi does not remember these words.</i>",
+            "descriptionRaw": "Qiqi releases the Adeptal power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Deals an additional instance of <color=#99FFFFFF>Cryo DMG</color> that is also considered Stellar-Conduct DMG.\n\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\n<i>— Qiqi does not remember these words.</i>",
             "id": 10353,
             "name": "Adeptus Art: Preserver of Fortune",
             "proudSkillGroupId": 3539
@@ -953,7 +953,7 @@
             "name": "Life-Prolonging Methods"
         },
         "passive2": {
-            "descriptionRaw": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
+            "descriptionRaw": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.\n<color=#FFD780FF>{LINK#N11500004}Radiance: Stellar Glimmer</color>{/LINK}: The effect now has a 100% chance to trigger, and cooldown time is reduced to 15s.",
             "id": 352201,
             "name": "A Glimpse Into Arcanum"
         },

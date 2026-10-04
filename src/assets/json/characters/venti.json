@@ -1,12 +1,12 @@
 {
     "constellation": {
         "c1": {
-            "descriptionRaw": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG.",
+            "descriptionRaw": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG.\nAdditionally, 2 extra arrows that track opponents will be fired per <color=#FFD780FF>Windsunder Arrow</color>, each dealing 20% of the original arrow's DMG. This effect can be triggered once every 0.25s.",
             "id": 221,
             "name": "Splitting Gales"
         },
         "c2": {
-            "descriptionRaw": "<color=#FFD780FF>Skyward Sonnet</color> decreases opponents' <color=#80FFD7FF>Anemo RES</color> and Physical RES by 12% for 10s.\nOpponents launched by <color=#FFD780FF>Skyward Sonnet</color> suffer an additional 12% <color=#80FFD7FF>Anemo RES</color> and Physical RES decrease while airborne.",
+            "descriptionRaw": "<color=#FFD780FF>Skyward Sonnet</color> decreases opponents' <color=#80FFD7FF>Anemo RES</color> and Physical RES by 24% for 10s.\nAdditionally, after unleashing the Elemental Burst <color=#FFD780FF>Wind's Grand Ode</color>, Venti gains the <color=#FFD780FF>Wherever a Breeze Blows</color> effect, and the cooldown for his Elemental Skill <color=#FFD780FF>Skyward Sonnet</color> is reset. After a <color=#FFD780FF>Windsunder Arrow</color> hits an opponent, there is also a 25% chance for Venti to gain the <color=#FFD780FF>Wherever a Breeze Blows</color> effect.\n\n<color=#FFD780FF>Wherever a Breeze Blows</color>\nWhen pressing to unleash the Elemental Skill <color=#FFD780FF>Skyward Sonnet</color>, 300% of the original amount of DMG is dealt. This effect lasts for 15s and is removed after Venti presses to use the Elemental Skill <color=#FFD780FF>Skyward Sonnet</color>.",
             "id": 222,
             "name": "Breeze of Reminiscence"
         },
@@ -16,7 +16,7 @@
             "name": "Ode to Thousand Winds"
         },
         "c4": {
-            "descriptionRaw": "When Venti picks up an Elemental Orb or Particle, he receives a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s.",
+            "descriptionRaw": "After unleashing his Elemental Skill <color=#FFD780FF>Skyward Sonnet</color> or Elemental Burst <color=#FFD780FF>Wind's Grand Ode</color>, Venti and his own active party members gain a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s.",
             "id": 224,
             "name": "Hurricane of Freedom"
         },
@@ -26,7 +26,7 @@
             "name": "Concerto dal Cielo"
         },
         "c6": {
-            "descriptionRaw": "Targets who take DMG from <color=#FFD780FF>Wind's Grand Ode</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+            "descriptionRaw": "Targets who take DMG from <color=#FFD780FF>Wind's Grand Ode</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.\nAdditionally, the DMG Venti deals to these opponents will gain a CRIT DMG Bonus of 100%.",
             "id": 226,
             "name": "Storm of Defiance"
         },
@@ -444,7 +444,7 @@
                     ]
                 }
             },
-            "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nWhile the Stormeye created by the Elemental Burst <color=#FFD780FF>Wind's Grand Ode</color> is active, Venti will gain additional buff effects:\n· Venti's Normal Attacks will be converted into enemy-piercing <color=#FFD780FF>Windsunder Arrows</color> that deal even more <color=#80FFD7FF>Anemo DMG</color> to opponents along the path.\n· When Venti's Normal Attacks hit opponents, Stormeye's duration is increased by 1s, and its CD is increased by 0.5s. This effect can be triggered once every 0.1s and up to 2 times after each use of the Elemental Burst <color=#FFD780FF>Wind's Grand Ode</color>.",
             "id": 10221,
             "name": "Divine Marksmanship",
             "proudSkillGroupId": 2231

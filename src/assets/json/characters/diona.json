@@ -26,7 +26,7 @@
             "name": "Double Shot, on the Rocks"
         },
         "c6": {
-            "descriptionRaw": "Characters within <color=#FFD780FF>Signature Mix</color>'s radius will gain the following effects based on their HP amounts:\n·Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n·Elemental Mastery increased by 200 when HP is above 50%.",
+            "descriptionRaw": "Characters within <color=#FFD780FF>Signature Mix</color>'s radius gain the following effects based on their HP levels:\n· The Incoming Healing Bonus is increased by 30% when HP is at, or lower than, 50%.\n· Elemental Mastery is increased by 200 when HP is above 50%.\n\nAdditionally, Diona's Max HP is increased by 25%. \n<color=#FFD780FF>Radiance: Stellar Glimmer</color>: Characters within the Signature Mix field deal increased DMG for the following reactions: \n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Superconduct, Stellar-Conduct reaction DMG increased by 40%.\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: Cryo Swirl, Stellar Swirl reaction DMG increased by 40%.",
             "id": 396,
             "name": "Cat's Tail Closing Time"
         },
