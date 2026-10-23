@@ -968,24 +968,80 @@
             "filename_passive4": "UI_Talent_S_Lauma_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ],
+                    "param2": [
+                        1.0
+                    ],
+                    "param3": [
+                        0.1
+                    ],
+                    "param4": [
+                        0.2
+                    ],
+                    "param5": [
+                        20.0
+                    ]
+                }
+            },
             "descriptionRaw": "For the next 20s after Lauma uses her Elemental Skill <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color>, corresponding differing buff effects will be granted depending on the party's <color=#FFD780FF>Moonsign</color>. The buffs provided by different Moonsign levels cannot stack.\n\n<color=#FFD780FF>Moonsign: Nascent Gleam</color>\nBloom, Hyperbloom, and Burgeon DMG dealt by all nearby party members can score CRIT Hits, with CRIT Rate fixed at 15%, and CRIT DMG fixed at 100%. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>\nAll nearby party members' Lunar-Bloom DMG CRIT Rate +10%, CRIT DMG +20%.",
             "id": 1192101,
-            "name": "Light for the Frosty Night"
+            "name": "Light for the Frosty Night",
+            "proudSkillGroupId": 11921
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.0004
+                    ],
+                    "param2": [
+                        0.32
+                    ],
+                    "param3": [
+                        0.0002
+                    ],
+                    "param4": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "Each point of Elemental Mastery Lauma has will give her the following bonuses:\n· DMG dealt by her Elemental Skill is increased by 0.04%. The maximum increase obtainable this way is 32%.\n· The cooldown of her Charged Attack <color=#FFD780FF>Spirit Envoy Metamorphosis</color> is reduced by 0.02%. The maximum reduction obtainable this way is 20%.",
             "id": 1192201,
-            "name": "Cleansing for the Spring"
+            "name": "Cleansing for the Spring",
+            "proudSkillGroupId": 11922
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.000175
+                    ],
+                    "param2": [
+                        0.14
+                    ]
+                }
+            },
             "descriptionRaw": "When a Bloom reaction is triggered by a party member, it will be converted into the Lunar-Bloom reaction, with every point of Elemental Mastery that Lauma has increasing Lunar-Bloom's Base DMG by 0.0175%, up to a maximum of 14%.\n\nAdditionally, when Lauma is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
             "id": 1192301,
-            "name": "Moonsign Benediction: Nature's Chorus"
+            "name": "Moonsign Benediction: Nature's Chorus",
+            "proudSkillGroupId": 11923
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Nod-Krai</color> on the mini-map.\nAdditionally, Lauma appears to have a special affinity with some small animals affected by kuuvahki...",
             "id": 1192501,
-            "name": "Prayers for the Forest"
+            "name": "Prayers for the Forest",
+            "proudSkillGroupId": 11925
         }
     },
     "stats": {
