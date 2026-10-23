@@ -982,24 +982,86 @@
             "filename_passive4": "UI_Talent_S_Nefer_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        3.0
+                    ],
+                    "param2": [
+                        9.0
+                    ],
+                    "param3": [
+                        100.0
+                    ],
+                    "param4": [
+                        8.0
+                    ],
+                    "param5": [
+                        15.0
+                    ],
+                    "param6": [
+                        0.08
+                    ]
+                }
+            },
             "descriptionRaw": "Nefer will be granted the corresponding buff effects based on the party's <color=#FFD780FF>Moonsign</color>.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: When she unleashes her Elemental Skill <color=#FFD780FF>{LINK#S11222}Senet Strategy: Dance of a Thousand Nights{/LINK}</color>, any Dendro Cores on the field will be converted to Seeds of Deceit, and any Lunar-Bloom reactions triggered by nearby characters in the following 15s that would create Dendro Cores or Bountiful Cores will instead create Seeds of Deceit. Seeds of Deceit cannot trigger Hyperbloom or Burgeon reactions and will not burst.\nWhen Nefer unleashes a Charged Attack or {LINK#N11220002}<color=#FFD780FF>Phantasm Performance</color>{/LINK}, she can absorb Seeds of Deceit within a certain range, gaining 1 stack of {LINK#N11220003}<color=#FFD780FF>Veil of Falsehood</color>{/LINK} for every seed absorbed. When this effect reaches 3 stacks, or when the third stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 100 for 8s.",
             "id": 1222101,
-            "name": "A Wager of Moonlight"
+            "name": "A Wager of Moonlight",
+            "proudSkillGroupId": 12221
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        6.0
+                    ],
+                    "param2": [
+                        5.0
+                    ],
+                    "param3": [
+                        500.0
+                    ],
+                    "param4": [
+                        0.001
+                    ],
+                    "param5": [
+                        0.5
+                    ]
+                }
+            },
             "descriptionRaw": "When Nefer is in the {LINK#N11220001}<color=#FFD780FF>Shadow Dance</color>{/LINK} state, for 5s after a party member triggers a Lunar-Bloom reaction, Nefer's <color=#FFD780FF>{LINK#S11221}Slither{/LINK}</color> state will provide additional {LINK#N11190008}<color=#FFD780FF>Verdant Dew</color>{/LINK}. Every 100 points of Nefer's Elemental Mastery beyond 500 will strengthen this additional provision effect by 10%. The maximum increase that can be achieved this way is 50%.",
             "id": 1222201,
-            "name": "Daughter of the Dust and Sand"
+            "name": "Daughter of the Dust and Sand",
+            "proudSkillGroupId": 12222
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.000175
+                    ],
+                    "param2": [
+                        0.14
+                    ]
+                }
+            },
             "descriptionRaw": "When a party member triggers a Bloom reaction, it will be converted into the Lunar-Bloom reaction, with every point of Elemental Mastery that Nefer has increasing Lunar-Bloom's Base DMG by 0.0175%, up to a maximum of 14%.\n\nAdditionally, when Nefer is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
             "id": 1222301,
-            "name": "Moonsign Benediction: Dusklit Eaves"
+            "name": "Moonsign Benediction: Dusklit Eaves",
+            "proudSkillGroupId": 12223
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Gains 25% more rewards when dispatched on a Nod-Krai Expedition for 20 hours.\nAdditionally, as the head of the Curatorium of Secrets, Nefer seemingly has the ability to obtain intelligence from a variety of sources — intelligence that certain factions in Nasha Town might find extremely interesting...",
             "id": 1222501,
-            "name": "Conspiracy of the Golden Vault"
+            "name": "Conspiracy of the Golden Vault",
+            "proudSkillGroupId": 12225
         }
     },
     "stats": {

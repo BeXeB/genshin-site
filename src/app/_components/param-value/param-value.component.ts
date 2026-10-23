@@ -18,7 +18,7 @@ export class ParamValueComponent implements OnInit {
 
   ngOnInit(): void {
     this.characterService.getSkillByGroupId(this.groupId).subscribe((skill) => {
-      const raw = skill?.attributes.parameters[`param${this.paramIndex}`]?.[this.level - 1];
+      const raw = skill?.attributes?.parameters[`param${this.paramIndex}`]?.[this.level - 1];
 
       if (raw === undefined) {
         console.error(

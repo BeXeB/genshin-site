@@ -860,24 +860,77 @@
             "filename_passive4": "UI_Talent_S_Vodyanitsa_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.35
+                    ],
+                    "param2": [
+                        6.0
+                    ]
+                }
+            },
             "descriptionRaw": "When the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is used, any Stellar Vortex on the field will turn into a Wandering Vortex instead. While the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> effect is active, nearby party members' Stellar Swirl reactions will generate Wandering Vortex instead.\nGenerating or detonating a Wandering Vortex will also reduce nearby opponents' <color=#80FFD7FF>Anemo RES</color> by 35% for 6s. \nAdditionally, nearby party members who enter the <color=#FFD780FF>Radiance: Stellar Swirl</color> state while <color=#FFD780FF>Song of Ages Past</color> is in effect will have the <color=#FFD780FF>Radiance: Stellar Swirl</color> state extended by 4s.",
             "id": 1402101,
-            "name": "The Last Djeguako Songstress"
+            "name": "The Last Djeguako Songstress",
+            "proudSkillGroupId": 14021
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        25.0
+                    ],
+                    "param2": [
+                        10.0
+                    ],
+                    "param3": [
+                        40000.0
+                    ],
+                    "param4": [
+                        260.0
+                    ],
+                    "param5": [
+                        140.0
+                    ],
+                    "param6": [
+                        6500.0
+                    ],
+                    "param7": [
+                        3500.0
+                    ]
+                }
+            },
             "descriptionRaw": "When the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is used, Vodyanitsa will also gain 25 stacks of {LINK#N11400001}<color=#FFD780FF>Lead Vocal</color>{/LINK} as well as 10 stacks of {LINK#N11400002}<color=#FFD780FF>Chorus</color>{/LINK}.\nThe two effects above last 30s each, and the stack count is refreshed when the Elemental Skill is used.",
             "id": 1402201,
-            "name": "Dirge of the Fandyr"
+            "name": "Dirge of the Fandyr",
+            "proudSkillGroupId": 14022
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        24.0
+                    ]
+                }
+            },
             "descriptionRaw": "Holding the Elemental Skill outside of combat will cause Vodyanitsa to embody her true Water Imp form and swim for up to 10s at the cost of Stamina. Naturally, as a Water Imp, she can also move across the water's surface. Vodyanitsa will exit her Water Imp form when the Elemental Skill is used again, when the duration ends, or when all Stamina is depleted.\nAdditionally, while Vodyanitsa can swim faster, her Stamina consumption rate is also increased.",
             "id": 1402301,
-            "name": "Echoes Over the Frozen Lake"
+            "name": "Echoes Over the Frozen Lake",
+            "proudSkillGroupId": 14023
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "As the Prima Donna of the Korolevskiy Troupe, Vodyanitsa sings in person in place of playing an instrument.",
             "id": 1402501,
-            "name": "Heartless Siren Song"
+            "name": "Heartless Siren Song",
+            "proudSkillGroupId": 14025
         }
     },
     "stats": {

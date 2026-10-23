@@ -75,8 +75,13 @@ export type CombatTalent = {
 
 export type PassiveTalent = {
   id: number;
+  proudSkillGroupId?: number;
   name: string;
   descriptionRaw: string;
+  attributes?: {
+    labels: string[];
+    parameters: Record<string, number[]>;
+  };
 };
 
 export type CharacterStat = {

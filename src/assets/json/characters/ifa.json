@@ -752,24 +752,80 @@
             "filename_passive4": "UI_Talent_S_Ifa_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ],
+                    "param2": [
+                        1.0
+                    ],
+                    "param3": [
+                        150.0
+                    ],
+                    "param4": [
+                        0.015
+                    ],
+                    "param5": [
+                        0.0024
+                    ]
+                }
+            },
             "descriptionRaw": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the current total in his entire party will grant him 1 {LINK#N11130002}<color=#FFD780FF>Rescue Essentials</color>{/LINK} point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members.",
             "id": 1132101,
-            "name": "Field Medic's Vision"
+            "name": "Field Medic's Vision",
+            "proudSkillGroupId": 11321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        80.0
+                    ],
+                    "param2": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "When nearby party members trigger Nightsoul Bursts, Ifa's Elemental Mastery increases by 80 for 10s.",
             "id": 1132201,
-            "name": "Mutual Aid Agreement"
+            "name": "Mutual Aid Agreement",
+            "proudSkillGroupId": 11322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "After his Nightsoul points are exhausted, Ifa will switch to consuming Phlogiston to maintain his Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Ifa. When the active character is a certain height in the air, the following will occur when switching to Ifa: Ifa will enter the Nightsoul's Blessing state and gain 32 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.",
             "id": 1132301,
-            "name": "Night Realm's Gift: Focused Emergency Rescue"
+            "name": "Night Realm's Gift: Focused Emergency Rescue",
+            "proudSkillGroupId": 11323
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.4
+                    ],
+                    "param2": [
+                        10.0
+                    ],
+                    "param3": [
+                        0.4
+                    ],
+                    "param4": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "While in an area with Phlogiston Mechanics within Natlan, when the current active party member or indwelt saurian has less than 40% HP, Ifa will consume 10 Phlogiston and restore 40% of their HP. This effect can trigger once every 10s, and does not take effect in Domains, Trounce Domains, or the Spiral Abyss.",
             "id": 1132501,
-            "name": "Tactical Warm Compress Bandaging"
+            "name": "Tactical Warm Compress Bandaging",
+            "proudSkillGroupId": 11325
         }
     },
     "stats": {
