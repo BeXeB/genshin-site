@@ -36,6 +36,21 @@ export function isSameEntry(a: CharacterEntryKey, b: CharacterEntryKey): boolean
 }
 
 /**
+ * Travelers share one level and ascension, so only the first Traveler entry carries
+ * that cost. Other Traveler elements add only their own talents.
+ */
+export function includesSharedLeveling(
+  entry: CharacterEntryKey,
+  entries: CharacterEntryKey[],
+): boolean {
+  if (entry.characterId !== TRAVELER_ID) {
+    return true;
+  }
+  const firstTraveler = entries.find((c) => c.characterId === TRAVELER_ID);
+  return !firstTraveler || isSameEntry(entry, firstTraveler);
+}
+
+/**
  * Create a new character progress entry with default values
  * (level 1 -> 90, ascension 0 -> 6, talents 1 -> 9)
  */

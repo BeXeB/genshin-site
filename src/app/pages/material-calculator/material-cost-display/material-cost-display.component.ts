@@ -9,6 +9,7 @@ import { MaterialType, MaterialTypeLabel } from '../../../_models/enum';
 export interface MaterialTableColumn {
   rarity: number;
   label: string;
+  color: string;
 }
 
 /** One line per material family, or per material when the family's rarities repeat */
@@ -19,22 +20,42 @@ export interface MaterialTableLine {
   cells: (MaterialTotal | undefined)[];
 }
 
-export interface MaterialTypeGroup {
-  label: string;
+export interface MaterialTable {
   columns: MaterialTableColumn[];
   lines: MaterialTableLine[];
 }
 
-/** Section order follows the Excel TODO sheet; gemstones sit after local specialty. */
+export interface MaterialTypeGroup {
+  label: string;
+  tables: MaterialTable[];
+  /** Mora shown above the tables; only the XP & Mora group carries it */
+  mora: number;
+  /** Single-rarity sections take a third of a row instead of half */
+  compact: boolean;
+}
+
+/** Sections in display order */
 const TYPE_DISPLAY_ORDER: MaterialType[] = [
   MaterialType.TALENT_MATERIAL,
   MaterialType.WEAPON_MATERIAL,
   MaterialType.GENERIC_MATERIAL,
   MaterialType.BOSS_MATERIAL,
   MaterialType.LOCAL_SPECIALTY,
-  MaterialType.GEMSTONE,
   MaterialType.XP_AND_MORA,
+  MaterialType.GEMSTONE,
 ];
+
+/** Sections of these types get a row of their own */
+const OWN_ROW_TYPES: MaterialType[] = [MaterialType.GENERIC_MATERIAL];
+
+/** Generic families whose top rarity reaches this value form the elite table */
+const ELITE_MIN_RARITY = 4;
+
+/** Boss materials of this rarity are the weekly boss drops */
+const WEEKLY_BOSS_RARITY = 5;
+
+/** Talent materials of this rarity are the crowns */
+const CROWN_RARITY = 5;
 
 /** Rarity column headers, named as in the Excel TODO sheet */
 const RARITY_NAMES: Partial<Record<number, string>> = {
@@ -59,7 +80,7 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
   @Input() groupByType = false;
 
   sortedMaterials: MaterialTotal[] = [];
-  typeGroups: MaterialTypeGroup[] = [];
+  typeRows: MaterialTypeGroup[][] = [];
   private materialMap: Map<number, Material> = new Map();
 
   constructor(private materialService: MaterialService) {}
@@ -96,38 +117,77 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
         infoA.type - infoB.type || infoB.rarity - infoA.rarity || infoA.sortRank - infoB.sortRank
       );
     });
-    this.typeGroups = this.buildTypeGroups(this.sortedMaterials);
+    this.typeRows = this.buildTypeRows(this.sortedMaterials, this.cost?.totalMora ?? 0);
   }
 
-  /** Split materials into one table per type, in TYPE_DISPLAY_ORDER */
-  private buildTypeGroups(materials: MaterialTotal[]): MaterialTypeGroup[] {
-    const groups: MaterialTypeGroup[] = [];
+  /** Split materials into rows of type sections, in TYPE_DISPLAY_ORDER */
+  private buildTypeRows(materials: MaterialTotal[], mora: number): MaterialTypeGroup[][] {
+    const rows: MaterialTypeGroup[][] = [[]];
+    const addGroup = (label: string, tables: MaterialTable[], groupMora = 0) => {
+      const shown = tables.filter((table) => table.lines.length > 0);
+      if (shown.length > 0 || groupMora > 0) {
+        const compact = shown.every((table) => table.columns.length <= 1);
+        rows[rows.length - 1].push({ label, tables: shown, mora: groupMora, compact });
+      }
+    };
     for (const type of TYPE_DISPLAY_ORDER) {
+      if (OWN_ROW_TYPES.includes(type) && rows[rows.length - 1].length > 0) {
+        rows.push([]);
+      }
       const items = materials.filter((m) => this.materialMap.get(m.materialId)?.type === type);
-      if (items.length > 0) {
-        groups.push(this.buildGroup(this.sectionLabel(type), items));
+      if (type === MaterialType.GENERIC_MATERIAL) {
+        const [common, elite] = this.splitByTopRarity(items);
+        addGroup('Generic Common', [this.buildTable(common)]);
+        addGroup('Generic Elite', [this.buildTable(elite)]);
+      } else if (type === MaterialType.TALENT_MATERIAL) {
+        const isCrown = (m: MaterialTotal) => this.rarityOf(m) === CROWN_RARITY;
+        addGroup(MaterialTypeLabel[type], [
+          this.buildTable(items.filter((m) => !isCrown(m))),
+          this.buildTable(items.filter(isCrown), 'Amount'),
+        ]);
+      } else if (type === MaterialType.BOSS_MATERIAL) {
+        const isWeekly = (m: MaterialTotal) => this.rarityOf(m) === WEEKLY_BOSS_RARITY;
+        addGroup(MaterialTypeLabel[type], [this.buildTable(items.filter((m) => !isWeekly(m)))]);
+        addGroup('Weekly Material', [this.buildTable(items.filter(isWeekly))]);
+      } else if (type === MaterialType.XP_AND_MORA) {
+        const isWeaponXp = (m: MaterialTotal) => this.isEnhancementOre(m.materialId);
+        addGroup(
+          MaterialTypeLabel[type],
+          [
+            this.buildTable(items.filter((m) => !isWeaponXp(m))),
+            this.buildTable(items.filter(isWeaponXp)),
+          ],
+          mora,
+        );
+      } else {
+        addGroup(MaterialTypeLabel[type], [this.buildTable(items)]);
+      }
+      if (OWN_ROW_TYPES.includes(type)) {
+        rows.push([]);
       }
     }
     const unknown = materials.filter((m) => !this.materialMap.has(m.materialId));
-    if (unknown.length > 0) {
-      groups.push(this.buildGroup('Other', unknown));
-    }
-    return groups;
+    addGroup('Other', [this.buildTable(unknown)]);
+    return rows.filter((row) => row.length > 0);
+  }
+
+  private rarityOf(item: MaterialTotal): number {
+    return this.materialMap.get(item.materialId)?.rarity ?? 0;
   }
 
   /**
    * One line per sortRank family, one column per rarity. A family whose rarities repeat
    * (e.g. boss drops sharing one sortRank) is split into one line per material.
    */
-  private buildGroup(label: string, items: MaterialTotal[]): MaterialTypeGroup {
-    const rarityOf = (m: MaterialTotal) => this.materialMap.get(m.materialId)?.rarity ?? 0;
+  private buildTable(items: MaterialTotal[], headerOverride?: string): MaterialTable {
     const familyOf = (m: MaterialTotal) => this.materialMap.get(m.materialId)?.sortRank ?? 0;
 
-    const rarities = [...new Set(items.map(rarityOf))].sort((a, b) => b - a);
-    const columns: MaterialTableColumn[] = rarities.map((rarity) => ({
-      rarity,
-      label: RARITY_NAMES[rarity] ?? 'Amount',
-    }));
+    const rarities = [...new Set(items.map((m) => this.rarityOf(m)))].sort((a, b) => b - a);
+    const columns: MaterialTableColumn[] = rarities.map((rarity) =>
+      headerOverride
+        ? { rarity, label: headerOverride, color: '' }
+        : { rarity, label: RARITY_NAMES[rarity] ?? 'Amount', color: this.rarityColor(rarity) },
+    );
 
     const families = new Map<number, MaterialTotal[]>();
     for (const item of items) {
@@ -137,28 +197,37 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
 
     const lines: MaterialTableLine[] = [];
     for (const members of families.values()) {
-      const distinct = new Set(members.map(rarityOf)).size === members.length;
+      const distinct = new Set(members.map((m) => this.rarityOf(m))).size === members.length;
       for (const group of distinct ? [members] : members.map((m) => [m])) {
-        const lead = group.reduce((best, m) => (rarityOf(m) > rarityOf(best) ? m : best));
+        const lead = group.reduce((best, m) => (this.rarityOf(m) > this.rarityOf(best) ? m : best));
         lines.push({
           lead,
-          cells: rarities.map((rarity) => group.find((m) => rarityOf(m) === rarity)),
+          cells: rarities.map((rarity) => group.find((m) => this.rarityOf(m) === rarity)),
         });
       }
     }
 
     lines.sort(
       (a, b) =>
-        rarityOf(b.lead) - rarityOf(a.lead) ||
+        this.rarityOf(b.lead) - this.rarityOf(a.lead) ||
         familyOf(a.lead) - familyOf(b.lead) ||
         a.lead.materialName.localeCompare(b.lead.materialName),
     );
 
-    return { label, columns, lines };
+    return { columns, lines };
   }
 
-  private sectionLabel(type: MaterialType): string {
-    return type === MaterialType.GENERIC_MATERIAL ? 'Generic Material' : MaterialTypeLabel[type];
+  /** Split generic materials into [common, elite] by each family's top rarity */
+  private splitByTopRarity(items: MaterialTotal[]): [MaterialTotal[], MaterialTotal[]] {
+    const familyOf = (m: MaterialTotal) => this.materialMap.get(m.materialId)?.sortRank ?? 0;
+    const topRarity = new Map<number, number>();
+    for (const item of items) {
+      const rarity = this.materialMap.get(item.materialId)?.rarity ?? 0;
+      topRarity.set(familyOf(item), Math.max(topRarity.get(familyOf(item)) ?? 0, rarity));
+    }
+    const isElite = (item: MaterialTotal) =>
+      (topRarity.get(familyOf(item)) ?? 0) >= ELITE_MIN_RARITY;
+    return [items.filter((m) => !isElite(m)), items.filter((m) => isElite(m))];
   }
 
   /** Header colour for a rarity column; empty when the column has no rarity */

@@ -17,97 +17,106 @@
 
     <!-- Materials: one table per type, or a flat grid -->
     @if (groupByType) {
-      @if (cost.totalMora > 0) {
-        <div class="materials-section">
-          <h3>Mora</h3>
-          <div class="material-table-wrapper">
-            <table class="material-type-table">
-              <colgroup>
-                <col />
-                <col class="col-count" />
-              </colgroup>
-              <thead>
-                <tr>
-                  <th scope="col">Material</th>
-                  <th scope="col" class="count-col">Amount</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="line-name">
-                    <span class="line-lead">
-                      <img
-                        src="assets/images/materials/xp-and-mora/mora.webp"
-                        alt="Mora"
-                        class="line-icon"
-                      />
-                      <span>Mora</span>
-                    </span>
-                  </td>
-                  <td class="count-col">
-                    <span class="count-value">{{ formatMora(cost.totalMora) }}</span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      }
-      @for (group of typeGroups; track group.label) {
-        <div class="materials-section">
-          <h3>{{ group.label }}</h3>
-          <div class="material-table-wrapper">
-            <table class="material-type-table">
-              <colgroup>
-                <col />
-                @for (column of group.columns; track column.rarity) {
-                  <col class="col-count" />
+      <div class="material-table-grid">
+        @for (row of typeRows; track $index) {
+          <div class="material-table-row">
+            @for (group of row; track group.label) {
+              <div class="materials-section" [class.compact]="group.compact">
+                <h3>{{ group.label }}</h3>
+                @if (group.mora > 0) {
+                  <div class="material-table-wrapper">
+                    <table class="material-type-table">
+                      <colgroup>
+                        <col />
+                        <col class="col-mora" />
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">Material</th>
+                          <th scope="col" class="count-col">Amount</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="line-name">
+                            <span class="line-lead">
+                              <img
+                                src="assets/images/materials/xp-and-mora/mora.webp"
+                                alt="Mora"
+                                class="line-icon"
+                              />
+                              <span>Mora</span>
+                            </span>
+                          </td>
+                          <td class="count-col">
+                            <span class="count-value">{{ formatMora(group.mora) }}</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 }
-              </colgroup>
-              <thead>
-                <tr>
-                  <th scope="col">Material</th>
-                  @for (column of group.columns; track column.rarity) {
-                    <th scope="col" class="count-col" [style.color]="rarityColor(column.rarity)">
-                      {{ column.label }}
-                    </th>
-                  }
-                </tr>
-              </thead>
-              <tbody>
-                @for (line of group.lines; track line.lead.materialId) {
-                  <tr>
-                    <td class="line-name">
-                      <a
-                        class="line-lead"
-                        [routerLink]="getMaterialLink(line.lead.materialId, line.lead.materialName)"
-                      >
-                        <img
-                          [src]="getMaterialImagePath(line.lead.materialId, line.lead.materialName)"
-                          [alt]="line.lead.materialName"
-                          class="line-icon"
-                        />
-                        <span>{{ line.lead.materialName }}</span>
-                      </a>
-                    </td>
-                    @for (cell of line.cells; track $index) {
-                      <td class="count-col">
-                        @if (cell) {
-                          <a
-                            class="count-link"
-                            [routerLink]="getMaterialLink(cell.materialId, cell.materialName)"
-                            >{{ cell.quantity }}</a
-                          >
+                @for (table of group.tables; track $index) {
+                  <div class="material-table-wrapper">
+                    <table class="material-type-table">
+                      <colgroup>
+                        <col />
+                        @for (column of table.columns; track column.rarity) {
+                          <col class="col-count" />
                         }
-                      </td>
-                    }
-                  </tr>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">Material</th>
+                          @for (column of table.columns; track column.rarity) {
+                            <th
+                              scope="col"
+                              class="count-col"
+                              [style.color]="column.color"
+                            >
+                              {{ column.label }}
+                            </th>
+                          }
+                        </tr>
+                      </thead>
+                      <tbody>
+                        @for (line of table.lines; track line.lead.materialId) {
+                          <tr>
+                            <td class="line-name">
+                              <a
+                                class="line-lead"
+                                [routerLink]="getMaterialLink(line.lead.materialId, line.lead.materialName)"
+                              >
+                                <img
+                                  [src]="getMaterialImagePath(line.lead.materialId, line.lead.materialName)"
+                                  [alt]="line.lead.materialName"
+                                  class="line-icon"
+                                />
+                                <span>{{ line.lead.materialName }}</span>
+                              </a>
+                            </td>
+                            @for (cell of line.cells; track $index) {
+                              <td class="count-col">
+                                @if (cell) {
+                                  <a
+                                    class="count-link"
+                                    [routerLink]="getMaterialLink(cell.materialId, cell.materialName)"
+                                    >{{ cell.quantity }}</a
+                                  >
+                                }
+                              </td>
+                            }
+                          </tr>
+                        }
+                      </tbody>
+                    </table>
+                  </div>
                 }
-              </tbody>
-            </table>
+              </div>
+            }
           </div>
-        </div>
-      }
+        }
+      </div>
     } @else if (sortedMaterials.length > 0) {
       <div class="materials-section">
         <h3>Materials Needed</h3>

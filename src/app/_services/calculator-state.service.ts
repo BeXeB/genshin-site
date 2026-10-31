@@ -16,6 +16,20 @@ const EMPTY_INVENTORY: CalculatorInventory = {
   weapons: [],
 };
 
+/** Copies the Traveler's shared level and ascensions; talents stay per element */
+function withSharedLevel(
+  entry: CharacterProgressEntry,
+  source: CharacterProgressEntry,
+): CharacterProgressEntry {
+  return {
+    ...entry,
+    currentLevel: source.currentLevel,
+    goalLevel: source.goalLevel,
+    currentAscension: source.currentAscension,
+    goalAscension: source.goalAscension,
+  };
+}
+
 /** Maps saved Aether entries onto the merged Traveler, keeping one entry per element */
 function mergeTravelerEntries(inventory: CalculatorInventory): CalculatorInventory {
   const characters: CharacterProgressEntry[] = [];
@@ -26,7 +40,13 @@ function mergeTravelerEntries(inventory: CalculatorInventory): CalculatorInvento
       characters.push(migrated);
     }
   }
-  return { ...inventory, characters };
+  const shared = characters.find((c) => c.characterId === TRAVELER_ID);
+  return {
+    ...inventory,
+    characters: shared
+      ? characters.map((c) => (c.characterId === TRAVELER_ID ? withSharedLevel(c, shared) : c))
+      : characters,
+  };
 }
 
 @Injectable({
@@ -86,11 +106,16 @@ export class CalculatorStateService {
       );
       return;
     }
+    const sharedTraveler = current.characters.find((c) => c.characterId === TRAVELER_ID);
+    const joining =
+      characterEntry.characterId === TRAVELER_ID && sharedTraveler
+        ? withSharedLevel(characterEntry, sharedTraveler)
+        : characterEntry;
     // Automatically calculate ascensions based on levels
     const entryWithAscensions: CharacterProgressEntry = {
-      ...characterEntry,
-      currentAscension: this.getAscensionFromLevel(characterEntry.currentLevel),
-      goalAscension: this.getAscensionFromLevel(characterEntry.goalLevel),
+      ...joining,
+      currentAscension: this.getAscensionFromLevel(joining.currentLevel),
+      goalAscension: this.getAscensionFromLevel(joining.goalLevel),
     };
     const updated: CalculatorInventory = {
       ...current,
@@ -119,20 +144,25 @@ export class CalculatorStateService {
     updates: Partial<CharacterProgressEntry>,
   ): void {
     const current = this.getCurrentInventory();
+    const characters: CharacterProgressEntry[] = current.characters.map((c) => {
+      if (isSameEntry(c, entry)) {
+        const merged = { ...c, ...updates };
+        // Automatically calculate ascensions from levels
+        return {
+          ...merged,
+          currentAscension: this.getAscensionFromLevel(merged.currentLevel),
+          goalAscension: this.getAscensionFromLevel(merged.goalLevel),
+        };
+      }
+      return c;
+    });
+    const edited = characters.find((c) => isSameEntry(c, entry));
     const updated: CalculatorInventory = {
       ...current,
-      characters: current.characters.map((c) => {
-        if (isSameEntry(c, entry)) {
-          const merged = { ...c, ...updates };
-          // Automatically calculate ascensions from levels
-          return {
-            ...merged,
-            currentAscension: this.getAscensionFromLevel(merged.currentLevel),
-            goalAscension: this.getAscensionFromLevel(merged.goalLevel),
-          };
-        }
-        return c;
-      }),
+      characters:
+        edited && edited.characterId === TRAVELER_ID
+          ? characters.map((c) => (c.characterId === TRAVELER_ID ? withSharedLevel(c, edited) : c))
+          : characters,
     };
     this.updateInventory(updated);
   }

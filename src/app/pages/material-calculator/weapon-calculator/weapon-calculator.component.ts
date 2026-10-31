@@ -111,14 +111,11 @@ export class WeaponCalculatorComponent implements OnInit {
    * Expands the weapon named in the URL, or collapses everything when the URL names none
    */
   private restoreSelection(params: ParamMap, weapons: Weapon[]): void {
-    const weaponId = Number(params.get('weapon'));
-    const weapon =
-      params.has('weapon') && this.calculatorState.getWeapon(weaponId)
-        ? weapons.find((w) => w.id === weaponId)
-        : undefined;
-    if (!weapon) {
+    const weaponName = params.get('weapon');
+    const weapon = weaponName ? weapons.find((w) => w.normalizedName === weaponName) : undefined;
+    if (!weapon || !this.calculatorState.getWeapon(weapon.id)) {
       this.clearSelection();
-    } else if (!this.isExpanded(weaponId)) {
+    } else if (!this.isExpanded(weapon.id)) {
       this.selectedWeapon = weapon;
       this.recalculateCost();
     }
@@ -167,7 +164,7 @@ export class WeaponCalculatorComponent implements OnInit {
     }
     this.selectedWeapon = row.weapon;
     this.recalculateCost();
-    this.syncUrl({ weapon: row.weapon.id });
+    this.syncUrl({ weapon: row.weapon.normalizedName });
   }
 
   /** Writes the expanded row to the URL so Back returns to it */

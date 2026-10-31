@@ -11,6 +11,7 @@ import {
   CharacterEntryKey,
   CharacterProgressEntry as CharacterProgress,
   createDefaultCharacterProgress,
+  includesSharedLeveling,
   isSameEntry,
   TRAVELER_ID,
 } from '../../_models/calculator';
@@ -24,9 +25,16 @@ import {
 import { SelectDropdownComponent } from '../../_components/select-dropdown/select-dropdown.component';
 import { ImageService } from '../../_services/image.service';
 import { buildLevelOptions } from './level-options';
-import { replaceQueryParams } from './url-state';
+import { getElementFromUrlName, getElementUrlName, replaceQueryParams } from './url-state';
 
 type SelectedCharacter = Pick<Character, 'profile' | 'skills' | 'variants'>;
+
+type CharacterRow = {
+  key: string;
+  progress: CharacterProgress;
+  name: string;
+  normalizedName: string;
+};
 
 type CombatColumn = {
   label: string;
@@ -121,7 +129,7 @@ export class MaterialCalculatorComponent implements OnInit {
     map(([characters, inventory]) => {
       const byId = new Map(characters.map((c) => [c.id, c] as const));
       return {
-        rows: inventory.characters.map((progress) => {
+        rows: inventory.characters.map((progress): CharacterRow => {
           const character = byId.get(progress.characterId);
           return {
             key: getEntryKey(progress),
@@ -154,22 +162,33 @@ export class MaterialCalculatorComponent implements OnInit {
       for (const progress of inventory.characters) {
         this.loadCharacter(progress.characterId).subscribe();
       }
+      // Shared Traveler levels can change from another row, so refresh the expanded costs
+      if (this.selectedCharacterProgress) {
+        this.selectedCharacterProgress =
+          this.calculatorState.getCharacter(this.selectedCharacterProgress) ?? null;
+        this.recalculateCost();
+      }
     });
 
     // Restores the expanded row on load and on Back navigation
-    this.route.queryParamMap
+    combineLatest([this.route.queryParamMap, this.characters$])
       .pipe(takeUntilDestroyed(this.destroyRef))
-      .subscribe((params) => this.restoreSelection(params));
+      .subscribe(([params, characters]) => this.restoreSelection(params, characters));
   }
 
   /**
    * Expands the row named in the URL, or collapses everything when the URL names none
    */
-  private restoreSelection(params: ParamMap): void {
-    const characterId = Number(params.get('character'));
-    const element = (params.get('element') ?? undefined) as ElementType | undefined;
-    const progress = params.has('character')
-      ? this.calculatorState.getCharacter({ characterId, element })
+  private restoreSelection(params: ParamMap, characters: CharacterProfile[]): void {
+    const characterName = params.get('character');
+    const character = characterName
+      ? characters.find((c) => c.normalizedName === characterName)
+      : undefined;
+    const progress = character
+      ? this.calculatorState.getCharacter({
+          characterId: character.id,
+          element: getElementFromUrlName(params.get('element')),
+        })
       : undefined;
     if (!progress) {
       this.clearSelection();
@@ -244,16 +263,20 @@ export class MaterialCalculatorComponent implements OnInit {
   /**
    * Expand a row to show its materials, or collapse it when already expanded
    */
-  onRowClicked(entry: CharacterEntryKey): void {
-    if (this.isExpanded(entry)) {
+  onRowClicked(row: CharacterRow): void {
+    const { progress } = row;
+    if (this.isExpanded(progress)) {
       this.clearSelection();
       this.syncUrl({});
       return;
     }
-    const progress = this.calculatorState.getCharacter(entry);
-    if (progress) {
-      this.onCharacterSelected(progress);
-      this.syncUrl({ character: entry.characterId, element: entry.element });
+    const current = this.calculatorState.getCharacter(progress);
+    if (current) {
+      this.onCharacterSelected(current);
+      this.syncUrl({
+        character: row.normalizedName,
+        element: progress.element ? getElementUrlName(progress.element) : undefined,
+      });
     }
   }
 
@@ -345,9 +368,11 @@ export class MaterialCalculatorComponent implements OnInit {
       return;
     }
 
+    const { characters } = this.calculatorState.getCurrentInventory();
     this.calculatedCost = this.calculationService.calculateCharacterEntryCost(
       this.selectedCharacter,
       this.selectedCharacterProgress,
+      includesSharedLeveling(this.selectedCharacterProgress, characters),
     );
   }
 }

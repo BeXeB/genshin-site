@@ -1,5 +1,16 @@
 import { Location } from '@angular/common';
 import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ElementType, ElementTypeLabel } from '../../_models/enum';
+
+/** URL form of an element, e.g. ELEMENT_ANEMO becomes "anemo" */
+export function getElementUrlName(element: ElementType): string {
+  return ElementTypeLabel[element].toLowerCase();
+}
+
+/** Reverse of getElementUrlName; undefined when the name matches no element */
+export function getElementFromUrlName(name: string | null): ElementType | undefined {
+  return Object.values(ElementType).find((element) => getElementUrlName(element) === name);
+}
 
 /**
  * Replaces the query string of the current history entry without a router navigation.

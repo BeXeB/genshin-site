@@ -8,6 +8,7 @@ import { MaterialCalculationService } from '../../../_services/material-calculat
 import { WeaponService } from '../../../_services/weapon.service';
 import {
   CharacterProgressEntry,
+  includesSharedLeveling,
   LevelingCost,
   WeaponProgressEntry,
 } from '../../../_models/calculator';
@@ -33,7 +34,13 @@ export class MaterialTotalsComponent {
   ]).pipe(
     switchMap(([characters, weapons, inventory]) => {
       const entryCosts = [
-        ...inventory.characters.map((entry) => this.getCharacterCost(entry, characters)),
+        ...inventory.characters.map((entry) =>
+          this.getCharacterCost(
+            entry,
+            characters,
+            includesSharedLeveling(entry, inventory.characters),
+          ),
+        ),
         ...inventory.weapons.map((entry) => of(this.getWeaponCost(entry, weapons))),
       ];
       const costs$ = entryCosts.length ? forkJoin(entryCosts) : of<LevelingCost[]>([]);
@@ -57,6 +64,7 @@ export class MaterialTotalsComponent {
   private getCharacterCost(
     entry: CharacterProgressEntry,
     characters: CharacterProfile[],
+    includeLeveling: boolean,
   ): Observable<LevelingCost> {
     const character = characters.find((c) => c.id === entry.characterId);
     if (!character) {
@@ -64,7 +72,9 @@ export class MaterialTotalsComponent {
     }
     return this.characterService.getCharacterDetails(character.normalizedName).pipe(
       catchError(() => of({ profile: character })),
-      map((details) => this.calculationService.calculateCharacterEntryCost(details, entry)),
+      map((details) =>
+        this.calculationService.calculateCharacterEntryCost(details, entry, includeLeveling),
+      ),
     );
   }
 

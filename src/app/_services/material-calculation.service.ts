@@ -487,14 +487,17 @@ export class MaterialCalculationService {
   calculateCharacterEntryCost(
     character: Pick<Character, 'profile' | 'skills' | 'variants'>,
     progress: CharacterProgressEntry,
+    includeLeveling = true, // false for extra Traveler elements, which share one level
   ): LevelingCost {
-    const characterCost = this.calculateCharacterTotalCost(
-      character.profile,
-      progress.currentLevel,
-      progress.goalLevel,
-      progress.currentAscension,
-      progress.goalAscension,
-    );
+    const characterCost = includeLeveling
+      ? this.calculateCharacterTotalCost(
+          character.profile,
+          progress.currentLevel,
+          progress.goalLevel,
+          progress.currentAscension,
+          progress.goalAscension,
+        )
+      : { materials: [], totalMora: 0 };
     const talentCost = this.calculateAllTalentsCost(
       this.getSkills(character, progress.element),
       progress,
