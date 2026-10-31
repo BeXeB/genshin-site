@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
+import { catchError, map, Observable, of, switchMap } from 'rxjs';
 import { CharacterService } from '../../_services/character.service';
 import { CalculatorStateService } from '../../_services/calculator-state.service';
 import { MaterialCalculationService } from '../../_services/material-calculation.service';
@@ -9,10 +10,12 @@ import {
   CharacterProgressEntry as CharacterProgress,
   createDefaultCharacterProgress,
 } from '../../_models/calculator';
-import { CharacterProfile, CharacterTalents } from '../../_models/character';
+import { Character } from '../../_models/character';
 import { CharacterInventoryListComponent } from './character-inventory-list/character-inventory-list.component';
 import { CharacterProgressEditorComponent } from './character-progress-editor/character-progress-editor.component';
 import { MaterialCostDisplayComponent } from './material-cost-display/material-cost-display.component';
+
+type SelectedCharacter = Pick<Character, 'profile' | 'skills'>;
 
 @Component({
   selector: 'app-material-calculator',
@@ -28,8 +31,7 @@ import { MaterialCostDisplayComponent } from './material-cost-display/material-c
 })
 export class MaterialCalculatorComponent implements OnInit {
   selectedCharacterProgress: CharacterProgress | null = null;
-  selectedCharacterProfile: CharacterProfile | null = null;
-  selectedCharacterSkills: CharacterTalents | null = null;
+  selectedCharacter: SelectedCharacter | null = null;
   characters$ = this.characterService.getCharacters();
   inventory$ = this.calculatorState.inventory$;
   calculatedCost: any = null;
@@ -55,42 +57,22 @@ export class MaterialCalculatorComponent implements OnInit {
    * Select a character by ID and load its data
    */
   selectCharacterById(characterId: number): void {
-    this.characters$.subscribe((characters) => {
-      const character = characters.find((c) => c.id === characterId);
-      if (character) {
-        // Load full character details including costs
-        this.characterService.getCharacterDetails(character.normalizedName).subscribe(
-          (fullCharacter) => {
-            this.selectedCharacterProfile = fullCharacter.profile;
-            this.selectedCharacterSkills = fullCharacter.skills ?? null;
-            const existing = this.calculatorState.getCharacter(characterId);
-            if (existing) {
-              this.selectedCharacterProgress = existing;
-            } else {
-              // Pre-populate with defaults
-              this.selectedCharacterProgress =
-                createDefaultCharacterProgress(characterId);
-              // Add to inventory
-              this.calculatorState.addCharacter(this.selectedCharacterProgress);
-            }
-            this.recalculateCost();
-          },
-          () => {
-            // Fallback to profile if full details fail
-            this.selectedCharacterProfile = character;
-            this.selectedCharacterSkills = null;
-            const existing = this.calculatorState.getCharacter(characterId);
-            if (existing) {
-              this.selectedCharacterProgress = existing;
-            } else {
-              this.selectedCharacterProgress =
-                createDefaultCharacterProgress(characterId);
-              this.calculatorState.addCharacter(this.selectedCharacterProgress);
-            }
-            this.recalculateCost();
-          }
-        );
+    this.loadCharacter(characterId).subscribe((selected) => {
+      if (!selected) {
+        return;
       }
+      this.selectedCharacter = selected;
+      const existing = this.calculatorState.getCharacter(characterId);
+      if (existing) {
+        this.selectedCharacterProgress = existing;
+      } else {
+        // Pre-populate with defaults
+        this.selectedCharacterProgress =
+          createDefaultCharacterProgress(characterId);
+        // Add to inventory
+        this.calculatorState.addCharacter(this.selectedCharacterProgress);
+      }
+      this.recalculateCost();
     });
   }
 
@@ -99,31 +81,32 @@ export class MaterialCalculatorComponent implements OnInit {
    */
   onCharacterSelected(characterProgress: CharacterProgress): void {
     this.selectedCharacterProgress = characterProgress;
-    this.characters$.subscribe((characters) => {
-      const character = characters.find(
-        (c) => c.id === characterProgress.characterId,
-      );
-      if (character) {
-        // Load full character details including costs
-        this.characterService.getCharacterDetails(character.normalizedName).subscribe(
-          (fullCharacter) => {
-            this.selectedCharacterProfile = fullCharacter.profile;
-            this.selectedCharacterSkills = fullCharacter.skills ?? null;
-            this.recalculateCost();
-          },
-          () => {
-            // Fallback to profile if full details fail
-            this.selectedCharacterProfile = character;
-            this.selectedCharacterSkills = null;
-            this.recalculateCost();
-          }
-        );
-      } else {
-        this.selectedCharacterProfile = null;
-        this.selectedCharacterSkills = null;
-        this.recalculateCost();
-      }
+    this.loadCharacter(characterProgress.characterId).subscribe((selected) => {
+      this.selectedCharacter = selected;
+      this.recalculateCost();
     });
+  }
+
+  /**
+   * Load a character's profile and talents, falling back to the profile alone on error
+   */
+  private loadCharacter(
+    characterId: number,
+  ): Observable<SelectedCharacter | null> {
+    return this.characters$.pipe(
+      switchMap((characters) => {
+        const character = characters.find((c) => c.id === characterId);
+        if (!character) {
+          return of(null);
+        }
+        return this.characterService
+          .getCharacterDetails(character.normalizedName)
+          .pipe(
+            map(({ profile, skills }) => ({ profile, skills })),
+            catchError(() => of({ profile: character })),
+          );
+      }),
+    );
   }
 
   /**
@@ -145,8 +128,7 @@ export class MaterialCalculatorComponent implements OnInit {
     this.calculatorState.removeCharacter(characterId);
     if (this.selectedCharacterProgress?.characterId === characterId) {
       this.selectedCharacterProgress = null;
-      this.selectedCharacterProfile = null;
-      this.selectedCharacterSkills = null;
+      this.selectedCharacter = null;
       this.calculatedCost = null;
     }
   }
@@ -196,7 +178,7 @@ export class MaterialCalculatorComponent implements OnInit {
    * Recalculate material costs based on current progress
    */
   private recalculateCost(): void {
-    if (!this.selectedCharacterProgress || !this.selectedCharacterProfile) {
+    if (!this.selectedCharacterProgress || !this.selectedCharacter) {
       this.calculatedCost = null;
       return;
     }
@@ -209,14 +191,14 @@ export class MaterialCalculatorComponent implements OnInit {
     } = this.selectedCharacterProgress;
 
     const characterCost = this.calculationService.calculateCharacterTotalCost(
-      this.selectedCharacterProfile,
+      this.selectedCharacter.profile,
       currentLevel,
       goalLevel,
       currentAscension,
       goalAscension,
     );
     const talentCost = this.calculationService.calculateAllTalentsCost(
-      this.selectedCharacterSkills,
+      this.selectedCharacter.skills,
       this.selectedCharacterProgress,
     );
 

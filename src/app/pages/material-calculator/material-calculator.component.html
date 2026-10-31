@@ -16,10 +16,10 @@
 
     <!-- Main Area: Character Details & Calculations -->
     <main class="main-content">
-      @if (selectedCharacterProfile && selectedCharacterProgress) {
+      @if (selectedCharacter && selectedCharacterProgress) {
         <div class="character-details">
           <div class="character-header">
-            <h2>{{ selectedCharacterProfile.name }}</h2>
+            <h2>{{ selectedCharacter.profile.name }}</h2>
             <p class="character-subtitle">
               Level {{ selectedCharacterProgress.currentLevel }} →
               {{ selectedCharacterProgress.goalLevel }} | Ascension
@@ -38,7 +38,7 @@
           @if (calculatedCost) {
             <app-material-cost-display
               [cost]="calculatedCost"
-              [characterName]="selectedCharacterProfile.name"
+              [characterName]="selectedCharacter.profile.name"
             />
           }
         </div>
