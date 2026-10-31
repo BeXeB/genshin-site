@@ -62,10 +62,27 @@ export function createDefaultCharacterProgress(
 export type WeaponProgressEntry = {
   weaponId: number;
   currentLevel: number; // 1-90
-  currentAscension: number; // 0-5 (weapons only go to 5)
+  currentAscension: number; // 0-6
   goalLevel: number; // 1-90
-  goalAscension: number; // 0-5
+  goalAscension: number; // 0-6
 };
+
+/**
+ * Create a new weapon progress entry (level 1 -> the weapon's max level).
+ * Ascensions are derived from the levels when the entry is added to the inventory.
+ */
+export function createDefaultWeaponProgress(
+  weaponId: number,
+  maxLevel: number,
+): WeaponProgressEntry {
+  return {
+    weaponId,
+    currentLevel: 1,
+    currentAscension: 0,
+    goalLevel: maxLevel,
+    goalAscension: 0,
+  };
+}
 
 export type CalculatorInventory = {
   characters: CharacterProgressEntry[];

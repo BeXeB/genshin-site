@@ -12,7 +12,7 @@
       <div class="option" (mousedown)="select(char)">
         <img
           class="option-icon"
-          [src]="getCharacterIcon(char.normalizedName)"
+          [src]="char.iconUrl ?? getCharacterIcon(char.normalizedName)"
           [alt]="char.name"
         />
         <span>{{ char.name }}</span>

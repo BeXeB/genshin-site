@@ -83,15 +83,6 @@ const CHARACTER_ASCENSION_MORA_COSTS = {
   6: 120000,
 } as const;
 
-// Mora costs for weapon ascension at each phase
-const WEAPON_ASCENSION_MORA_COSTS = {
-  1: 5000,
-  2: 15000,
-  3: 30000,
-  4: 45000,
-  5: 60000,
-} as const;
-
 // Level caps for each ascension phase (max level achievable without next ascension)
 const CHARACTER_ASCENSION_LEVEL_CAPS = {
   0: 20,
@@ -282,18 +273,16 @@ export class MaterialCalculationService {
       ascLevel <= targetAscension;
       ascLevel++
     ) {
-      // Add mora cost for this ascension
-      totalMora +=
-        WEAPON_ASCENSION_MORA_COSTS[ascLevel as keyof typeof WEAPON_ASCENSION_MORA_COSTS] || 0;
-
-      // Get ascension materials from weapon profile
+      // Get ascension items from weapon profile (mora varies per weapon, so it comes from the data)
       const ascensionKey = `ascend${ascLevel}` as keyof typeof weapon.costs;
       const ascensionItems = weapon.costs[ascensionKey];
 
       if (ascensionItems) {
         for (const item of ascensionItems) {
-          // Skip mora (it's already counted)
-          if (item.id === 202) continue;
+          if (item.id === MORA_ITEM_ID) {
+            totalMora += item.count;
+            continue;
+          }
 
           // Check if material already exists in array
           const existingMaterial = materials.find(

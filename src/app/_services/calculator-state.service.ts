@@ -158,9 +158,15 @@ export class CalculatorStateService {
       );
       return;
     }
+    // Automatically calculate ascensions based on levels
+    const entryWithAscensions: WeaponProgressEntry = {
+      ...weaponEntry,
+      currentAscension: this.getAscensionFromLevel(weaponEntry.currentLevel),
+      goalAscension: this.getAscensionFromLevel(weaponEntry.goalLevel),
+    };
     const updated: CalculatorInventory = {
       ...current,
-      weapons: [...current.weapons, weaponEntry],
+      weapons: [...current.weapons, entryWithAscensions],
     };
     this.updateInventory(updated);
   }
@@ -187,9 +193,16 @@ export class CalculatorStateService {
     const current = this.getCurrentInventory();
     const updated: CalculatorInventory = {
       ...current,
-      weapons: current.weapons.map((w) =>
-        w.weaponId === weaponId ? { ...w, ...updates } : w,
-      ),
+      weapons: current.weapons.map((w) => {
+        if (w.weaponId !== weaponId) return w;
+        const merged = { ...w, ...updates };
+        // Automatically calculate ascensions from levels
+        return {
+          ...merged,
+          currentAscension: this.getAscensionFromLevel(merged.currentLevel),
+          goalAscension: this.getAscensionFromLevel(merged.goalLevel),
+        };
+      }),
     };
     this.updateInventory(updated);
   }

@@ -1,6 +1,7 @@
 import { Component, DestroyRef, OnInit } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { catchError, combineLatest, map, Observable, of, shareReplay, switchMap } from 'rxjs';
 import { CharacterService } from '../../_services/character.service';
 import { CalculatorStateService } from '../../_services/calculator-state.service';
@@ -22,6 +23,7 @@ import {
 } from '../../_components/character-search/character-search.component';
 import { SelectDropdownComponent } from '../../_components/select-dropdown/select-dropdown.component';
 import { ImageService } from '../../_services/image.service';
+import { buildLevelOptions } from './level-options';
 
 type SelectedCharacter = Pick<Character, 'profile' | 'skills' | 'variants'>;
 
@@ -31,21 +33,7 @@ type CombatColumn = {
   goal: 'goalNormalSkillLevel' | 'goalElementalSkillLevel' | 'goalBurstLevel';
 };
 
-const ASCENSION_CAPS = [20, 40, 50, 60, 70, 80];
-
-/** Level dropdown values; ascension caps are shown as e.g. "20+" */
-function buildLevelOptions(): (number | string)[] {
-  const options: (number | string)[] = [];
-  for (let level = 1; level <= 90; level++) {
-    options.push(level);
-    if (ASCENSION_CAPS.includes(level) && level < 90) {
-      options.push(`${level}+`);
-    }
-  }
-  return options;
-}
-
-const LEVEL_OPTIONS = buildLevelOptions();
+const LEVEL_OPTIONS = buildLevelOptions(90);
 const TALENT_LEVEL_OPTIONS = Array.from({ length: 10 }, (_, i) => i + 1);
 const COMBAT_COLUMNS: CombatColumn[] = [
   { label: 'Normal Attack', current: 'normalSkillLevel', goal: 'goalNormalSkillLevel' },
@@ -110,6 +98,7 @@ function getEntryKey(entry: CharacterEntryKey): string {
     MaterialCostDisplayComponent,
     CharacterSearchComponent,
     SelectDropdownComponent,
+    RouterLink,
   ],
   templateUrl: './material-calculator.component.html',
   styleUrl: './material-calculator.component.css',

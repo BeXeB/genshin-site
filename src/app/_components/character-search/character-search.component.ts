@@ -12,6 +12,8 @@ export type CharacterOption = {
   element?: ElementType;
   name: string;
   normalizedName: string;
+  /** Overrides the character icon, e.g. for weapons */
+  iconUrl?: string;
 };
 
 @Component({

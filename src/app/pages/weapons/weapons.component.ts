@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { PageTitleComponent } from '../../_components/page-title/page-title.component';
-import { WeaponService } from '../../_services/weapon.service';
+import { compareWeapons, HIDDEN_WEAPON_ID, WeaponService } from '../../_services/weapon.service';
 import { ImageService } from '../../_services/image.service';
 import { WeaponResolved } from '../../_models/weapons';
 import { FormsModule } from '@angular/forms';
@@ -69,14 +69,8 @@ export class WeaponsComponent extends BaseListComponent<WeaponResolved> {
   }
 
   transformData(data: WeaponResolved[]): WeaponResolved[] {
-    const filtered = data.filter((w) => w.id !== 11419);
-    return filtered.sort((a, b) => {
-      if (a.rarity !== b.rarity) return b.rarity - a.rarity;
-      if (a.weaponType !== b.weaponType) {
-        return a.weaponType.localeCompare(b.weaponType);
-      }
-      return b.sortOrder - a.sortOrder;
-    });
+    const filtered = data.filter((w) => w.id !== HIDDEN_WEAPON_ID);
+    return filtered.sort(compareWeapons);
   }
 
   getIconUrls(weapon: WeaponResolved) {

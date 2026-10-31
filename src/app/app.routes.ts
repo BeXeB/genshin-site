@@ -50,4 +50,11 @@ export const routes: Routes = [
         (m) => m.MaterialCalculatorComponent,
       ),
   },
+  {
+    path: 'material-calculator/weapons',
+    loadComponent: () =>
+      import('./pages/material-calculator/weapon-calculator/weapon-calculator.component').then(
+        (m) => m.WeaponCalculatorComponent,
+      ),
+  },
 ];
