@@ -2,7 +2,7 @@ import { Component, DestroyRef, OnInit } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
-import { catchError, combineLatest, map, Observable, of, shareReplay, switchMap } from 'rxjs';
+import { catchError, combineLatest, map, Observable, of, shareReplay, switchMap, take } from 'rxjs';
 import { CharacterService } from '../../_services/character.service';
 import { CalculatorStateService } from '../../_services/calculator-state.service';
 import { MaterialCalculationService } from '../../_services/material-calculation.service';
@@ -13,6 +13,7 @@ import {
 import { Character } from '../../_models/character';
 import { MaterialCostDisplayComponent } from './material-cost-display/material-cost-display.component';
 import { CharacterSearchComponent } from '../../_components/character-search/character-search.component';
+import { SelectDropdownComponent } from '../../_components/select-dropdown/select-dropdown.component';
 import { ImageService } from '../../_services/image.service';
 
 type SelectedCharacter = Pick<Character, 'profile' | 'skills'>;
@@ -48,7 +49,12 @@ const COMBAT_COLUMNS: CombatColumn[] = [
 @Component({
   selector: 'app-material-calculator',
   standalone: true,
-  imports: [CommonModule, MaterialCostDisplayComponent, CharacterSearchComponent],
+  imports: [
+    CommonModule,
+    MaterialCostDisplayComponent,
+    CharacterSearchComponent,
+    SelectDropdownComponent,
+  ],
   templateUrl: './material-calculator.component.html',
   styleUrl: './material-calculator.component.css',
 })
@@ -103,8 +109,7 @@ export class MaterialCalculatorComponent implements OnInit {
     // Check if a character is pre-selected via route params
     this.route.queryParams.subscribe((params) => {
       if (params['character']) {
-        const characterId = parseInt(params['character'], 10);
-        this.selectCharacterById(characterId);
+        this.selectCharacterBySlug(params['character']);
       }
     });
   }
@@ -129,6 +134,18 @@ export class MaterialCalculatorComponent implements OnInit {
         this.calculatorState.addCharacter(this.selectedCharacterProgress);
       }
       this.recalculateCost();
+    });
+  }
+
+  /**
+   * Select a character by its URL slug (normalized name)
+   */
+  selectCharacterBySlug(slug: string): void {
+    this.characters$.pipe(take(1)).subscribe((characters) => {
+      const character = characters.find((c) => c.normalizedName === slug);
+      if (character) {
+        this.selectCharacterById(character.id);
+      }
     });
   }
 

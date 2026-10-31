@@ -29,7 +29,6 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  overflow-x: auto;
 }
 
 /* Border counts toward the 100% width, avoiding a 2px overflow */
@@ -65,12 +64,6 @@
   flex: 2;
   min-width: 110px;
   cursor: pointer;
-}
-
-/* Tighter select padding so the row fits the table width */
-.character-table select {
-  padding: 8px 24px 8px 8px;
-  background-position: right 6px center;
 }
 
 .name-cell:hover {
@@ -117,6 +110,13 @@
   padding: 20px;
   text-align: center;
   color: var(--light-gray);
+}
+
+/* Scrolling clips open dropdowns, so the table only scrolls when it has to */
+@media (max-width: 1060px) {
+  .character-table {
+    overflow-x: auto;
+  }
 }
 
 /* Responsive design */

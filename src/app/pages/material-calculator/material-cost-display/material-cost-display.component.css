@@ -82,7 +82,6 @@
 }
 
 .material-card:hover {
-  border-color: var(--blue);
   box-shadow: 0 0 12px var(--shadow-blue);
 }
 

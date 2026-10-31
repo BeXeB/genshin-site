@@ -43,48 +43,40 @@
             </div>
 
             <div class="cell">
-              <select
-                [attr.aria-label]="row.name + ' level'"
-                (change)="onLevelChange(row.progress, 'currentLevel', $any($event.target).value)"
-              >
-                @for (level of levelOptions; track level) {
-                  <option [value]="level" [selected]="level === row.progress.currentLevel">{{ level }}</option>
-                }
-              </select>
+              <app-select-dropdown
+                [label]="row.name + ' level'"
+                [options]="levelOptions"
+                [value]="row.progress.currentLevel"
+                (valueChange)="onLevelChange(row.progress, 'currentLevel', $event)"
+              />
             </div>
 
             <div class="cell">
-              <select
-                [attr.aria-label]="row.name + ' level goal'"
-                (change)="onLevelChange(row.progress, 'goalLevel', $any($event.target).value)"
-              >
-                @for (level of levelOptions; track level) {
-                  <option [value]="level" [selected]="level === row.progress.goalLevel">{{ level }}</option>
-                }
-              </select>
+              <app-select-dropdown
+                [label]="row.name + ' level goal'"
+                [options]="levelOptions"
+                [value]="row.progress.goalLevel"
+                (valueChange)="onLevelChange(row.progress, 'goalLevel', $event)"
+              />
             </div>
 
             @for (combat of combatColumns; track combat.label) {
               <div class="cell">
-                <select
-                  [attr.aria-label]="row.name + ' ' + combat.label"
-                  (change)="onCombatCurrentChange(row.progress, combat, $any($event.target).value)"
-                >
-                  @for (level of talentLevelOptions; track level) {
-                    <option [value]="level" [selected]="level === row.progress[combat.current]">{{ level }}</option>
-                  }
-                </select>
+                <app-select-dropdown
+                  [label]="row.name + ' ' + combat.label"
+                  [options]="talentLevelOptions"
+                  [value]="row.progress[combat.current]"
+                  (valueChange)="onCombatCurrentChange(row.progress, combat, $event)"
+                />
               </div>
 
               <div class="cell">
-                <select
-                  [attr.aria-label]="row.name + ' ' + combat.label + ' goal'"
-                  (change)="onCombatGoalChange(row.progress, combat, $any($event.target).value)"
-                >
-                  @for (level of talentLevelOptions; track level) {
-                    <option [value]="level" [selected]="level === row.progress[combat.goal]">{{ level }}</option>
-                  }
-                </select>
+                <app-select-dropdown
+                  [label]="row.name + ' ' + combat.label + ' goal'"
+                  [options]="talentLevelOptions"
+                  [value]="row.progress[combat.goal]"
+                  (valueChange)="onCombatGoalChange(row.progress, combat, $event)"
+                />
               </div>
             }
 

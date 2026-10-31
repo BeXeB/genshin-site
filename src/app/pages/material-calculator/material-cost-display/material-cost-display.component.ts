@@ -1,9 +1,10 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import { LevelingCost } from '../../../_models/calculator';
+import { LevelingCost, MaterialTotal } from '../../../_models/calculator';
 import { MaterialService } from '../../../_services/material.service';
 import { Material } from '../../../_models/materials';
+import { MaterialType } from '../../../_models/enum';
 
 @Component({
   selector: 'app-material-cost-display',
@@ -12,13 +13,18 @@ import { Material } from '../../../_models/materials';
   templateUrl: './material-cost-display.component.html',
   styleUrl: './material-cost-display.component.css',
 })
-export class MaterialCostDisplayComponent implements OnInit {
+export class MaterialCostDisplayComponent implements OnInit, OnChanges {
   @Input() cost: LevelingCost | null = null;
   @Input() characterName: string = '';
 
+  sortedMaterials: MaterialTotal[] = [];
   private materialMap: Map<number, Material> = new Map();
 
   constructor(private materialService: MaterialService) {}
+
+  ngOnChanges(): void {
+    this.sortMaterials();
+  }
 
   ngOnInit(): void {
     // Load all materials and build ID->Material map for fast lookups
@@ -26,6 +32,27 @@ export class MaterialCostDisplayComponent implements OnInit {
       materials.forEach((material) => {
         this.materialMap.set(material.id, material);
       });
+      this.sortMaterials();
+    });
+  }
+
+  private sortMaterials(): void {
+    const typeOrder: MaterialType[] = Object.values(MaterialType);
+    const info = (materialId: number) => {
+      const material = this.materialMap.get(materialId);
+      return {
+        type: material ? typeOrder.indexOf(material.type) : typeOrder.length,
+        rarity: material?.rarity ?? 0,
+        sortRank: material?.sortRank ?? 0,
+      };
+    };
+
+    this.sortedMaterials = [...(this.cost?.materials ?? [])].sort((a, b) => {
+      const infoA = info(a.materialId);
+      const infoB = info(b.materialId);
+      return (
+        infoA.type - infoB.type || infoB.rarity - infoA.rarity || infoA.sortRank - infoB.sortRank
+      );
     });
   }
 
@@ -83,6 +110,10 @@ export class MaterialCostDisplayComponent implements OnInit {
   getMaterialLink(materialId: number, materialName: string): string {
     const slug = this.materialMap.get(materialId)?.normalizedName ?? this.normalizeName(materialName);
     return `/materials/${slug}`;
+  }
+
+  getRarityColor(materialId: number): string {
+    return `var(--rar-${this.materialMap.get(materialId)?.rarity ?? 1})`;
   }
 
   private normalizeName(name: string): string {

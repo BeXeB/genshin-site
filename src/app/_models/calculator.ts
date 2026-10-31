@@ -20,7 +20,7 @@ export type CharacterProgressEntry = {
 
 /**
  * Create a new character progress entry with default values
- * (level 1 -> 90, ascension 0 -> 6, talents 1 -> 10)
+ * (level 1 -> 90, ascension 0 -> 6, talents 1 -> 9)
  */
 export function createDefaultCharacterProgress(
   characterId: number,
@@ -34,9 +34,9 @@ export function createDefaultCharacterProgress(
     normalSkillLevel: 1,
     elementalSkillLevel: 1,
     burstLevel: 1,
-    goalNormalSkillLevel: 10,
-    goalElementalSkillLevel: 10,
-    goalBurstLevel: 10,
+    goalNormalSkillLevel: 9,
+    goalElementalSkillLevel: 9,
+    goalBurstLevel: 9,
   };
 }
 

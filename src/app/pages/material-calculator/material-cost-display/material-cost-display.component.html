@@ -16,14 +16,15 @@
     }
 
     <!-- Materials Grid -->
-    @if (cost.materials.length > 0) {
+    @if (sortedMaterials.length > 0) {
       <div class="materials-section">
         <h3>Materials Needed</h3>
         <div class="materials-grid">
-          @for (material of cost.materials; track material.materialId) {
+          @for (material of sortedMaterials; track material.materialId) {
             <div
               class="material-card card"
               [routerLink]="getMaterialLink(material.materialId, material.materialName)"
+              [style.border-color]="getRarityColor(material.materialId)"
             >
               <img
                 [src]="getMaterialImagePath(material.materialId, material.materialName)"

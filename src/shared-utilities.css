@@ -344,6 +344,12 @@ select {
   background-position: right 10px center;
   background-size: 16px 16px;
   padding-right: 36px;
+  color-scheme: dark;
+}
+
+select option {
+  background-color: var(--darker-gray);
+  color: var(--white);
 }
 
 .toc {
