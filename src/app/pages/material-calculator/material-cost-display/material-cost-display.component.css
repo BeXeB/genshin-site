@@ -113,6 +113,11 @@
   background: var(--dark-gray);
 }
 
+/* Compact sections are narrow; names wrap instead of scrolling */
+.materials-section.compact .material-type-table {
+  min-width: 0;
+}
+
 .material-type-table .col-count {
   width: 76px;
 }
@@ -190,6 +195,13 @@ a.line-lead:hover {
   font-size: 0.95rem;
   font-weight: 700;
   text-align: center;
+  -moz-appearance: textfield;
+}
+
+.owned-input::-webkit-inner-spin-button,
+.owned-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .owned-input:focus {

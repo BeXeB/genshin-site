@@ -8,7 +8,7 @@
             @for (group of row; track group.label) {
               <div class="materials-section" [class.compact]="group.compact">
                 <h3>{{ group.label }}</h3>
-                @if (group.mora > 0) {
+                @if (group.showMora) {
                   <div class="material-table-wrapper">
                     <table class="material-type-table">
                       <colgroup>
@@ -34,11 +34,23 @@
                             </span>
                           </td>
                           <td class="count-col">
-                            <span
-                              class="count-value"
-                              [title]="'Total needed: ' + formatMora(cost.totalMora)"
-                              >{{ formatMora(group.mora) }}</span
-                            >
+                            @if (inventoryMode) {
+                              <input
+                                #moraInput
+                                type="number"
+                                min="0"
+                                class="owned-input"
+                                aria-label="Mora"
+                                [value]="ownedOf(moraId)"
+                                (change)="onOwnedInput(moraId, moraInput.valueAsNumber)"
+                              />
+                            } @else {
+                              <span
+                                class="count-value"
+                                [title]="'Total needed: ' + formatMora(cost.totalMora)"
+                                >{{ formatMora(group.mora) }}</span
+                              >
+                            }
                           </td>
                         </tr>
                       </tbody>

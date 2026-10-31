@@ -7,6 +7,8 @@ import { CalculatorStateService } from '../../../_services/calculator-state.serv
 import { MaterialService } from '../../../_services/material.service';
 import { MaterialCostDisplayComponent } from '../material-cost-display/material-cost-display.component';
 
+const HIDDEN_INVENTORY_IDS = new Set([112001, 113021]);
+
 @Component({
   selector: 'app-material-inventory',
   standalone: true,
@@ -19,7 +21,9 @@ export class MaterialInventoryComponent {
   allMaterials$ = this.materialService.getMaterials().pipe(
     map(
       (materials): LevelingCost => ({
-        materials: materials.map((m) => ({ materialId: m.id, materialName: m.name, quantity: 0 })),
+        materials: materials
+          .filter((m) => !HIDDEN_INVENTORY_IDS.has(m.id))
+          .map((m) => ({ materialId: m.id, materialName: m.name, quantity: 0 })),
         totalMora: 0,
       }),
     ),

@@ -29,6 +29,7 @@ export interface MaterialTypeGroup {
   label: string;
   tables: MaterialTable[];
   /** Mora shown above the tables; only the XP & Mora group carries it */
+  showMora: boolean;
   mora: number;
   /** Single-rarity sections take a third of a row instead of half */
   compact: boolean;
@@ -86,6 +87,7 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
   /** Inventory tab: count cells become inputs that emit ownedChange */
   @Input() inventoryMode = false;
   @Output() ownedChange = new EventEmitter<{ materialId: number; quantity: number }>();
+  readonly moraId = MORA_ID;
 
   sortedMaterials: MaterialTotal[] = [];
   typeRows: MaterialTypeGroup[][] = [];
@@ -160,11 +162,18 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
   /** Split materials into rows of type sections, in TYPE_DISPLAY_ORDER */
   private buildTypeRows(materials: MaterialTotal[], mora: number): MaterialTypeGroup[][] {
     const rows: MaterialTypeGroup[][] = [[]];
-    const addGroup = (label: string, tables: MaterialTable[], groupMora = 0) => {
+    const addGroup = (label: string, tables: MaterialTable[], groupMora?: number) => {
       const shown = tables.filter((table) => table.lines.length > 0);
-      if (shown.length > 0 || groupMora > 0) {
+      if (shown.length > 0 || (groupMora ?? 0) > 0) {
         const compact = shown.every((table) => table.columns.length <= 1);
-        rows[rows.length - 1].push({ label, tables: shown, mora: groupMora, compact });
+        const showMora = groupMora !== undefined && (groupMora > 0 || this.inventoryMode);
+        rows[rows.length - 1].push({
+          label,
+          tables: shown,
+          showMora,
+          mora: groupMora ?? 0,
+          compact,
+        });
       }
     };
     for (const type of TYPE_DISPLAY_ORDER) {
@@ -187,11 +196,12 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
         addGroup(MaterialTypeLabel[type], [this.buildTable(items.filter((m) => !isWeekly(m)))]);
         addGroup('Weekly Material', [this.buildTable(items.filter(isWeekly))]);
       } else if (type === MaterialType.XP_AND_MORA) {
+        const isMora = (m: MaterialTotal) => m.materialId === MORA_ID;
         const isWeaponXp = (m: MaterialTotal) => this.isEnhancementOre(m.materialId);
         addGroup(
           MaterialTypeLabel[type],
           [
-            this.buildTable(items.filter((m) => !isWeaponXp(m))),
+            this.buildTable(items.filter((m) => !isMora(m) && !isWeaponXp(m))),
             this.buildTable(items.filter(isWeaponXp)),
           ],
           mora,
