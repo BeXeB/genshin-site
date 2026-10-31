@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, OnChanges, OnInit, Output } from '@angular/core';
 import { CommonModule, NgTemplateOutlet } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { forkJoin } from 'rxjs';
 import { LevelingCost, MaterialTotal } from '../../../_models/calculator';
 import { MaterialService } from '../../../_services/material.service';
-import { Material } from '../../../_models/materials';
+import { Material, MaterialCraft } from '../../../_models/materials';
 import { MaterialType, MaterialTypeLabel } from '../../../_models/enum';
 
 export interface MaterialTableColumn {
@@ -91,8 +92,11 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
 
   sortedMaterials: MaterialTotal[] = [];
   typeRows: MaterialTypeGroup[][] = [];
+  craftMora = 0;
   private materialMap: Map<number, Material> = new Map();
   private neededById = new Map<number, number>();
+  private craftMap = new Map<number, MaterialCraft>();
+  private craftedById = new Map<number, number>();
 
   constructor(private materialService: MaterialService) {}
 
@@ -101,11 +105,15 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
   }
 
   ngOnInit(): void {
-    // Load all materials and build ID->Material map for fast lookups
-    this.materialService.getMaterials().subscribe((materials) => {
+    // Load materials and crafts, then build the ID lookups
+    forkJoin({
+      materials: this.materialService.getMaterials(),
+      crafts: this.materialService.getMaterialCrafts(),
+    }).subscribe(({ materials, crafts }) => {
       materials.forEach((material) => {
         this.materialMap.set(material.id, material);
       });
+      crafts.forEach((craft) => this.craftMap.set(craft.id, craft));
       this.sortMaterials();
     });
   }
@@ -123,10 +131,12 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
 
     const needed = this.cost?.materials ?? [];
     this.neededById = new Map(needed.map((m) => [m.materialId, m.quantity]));
+    this.planCrafts();
     const shown = this.subtractsOwned
-      ? needed
-          .map((m) => ({ ...m, quantity: Math.max(0, m.quantity - this.ownedOf(m.materialId)) }))
-          .filter((m) => m.quantity > 0)
+      ? needed.map((m) => ({
+          ...m,
+          quantity: m.quantity - this.coveredOf(m.materialId) + this.consumedOf(m.materialId),
+        }))
       : needed;
 
     this.sortedMaterials = [...shown].sort((a, b) => {
@@ -137,7 +147,9 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
       );
     });
     const totalMora = this.cost?.totalMora ?? 0;
-    const mora = this.subtractsOwned ? Math.max(0, totalMora - this.ownedOf(MORA_ID)) : totalMora;
+    const mora = this.subtractsOwned
+      ? Math.max(0, totalMora - this.ownedOf(MORA_ID)) + this.craftMora
+      : totalMora;
     this.typeRows = this.buildTypeRows(this.sortedMaterials, mora);
   }
 
@@ -153,6 +165,115 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
   /** Total needed before owned counts were subtracted */
   neededOf(materialId: number): number {
     return this.neededById.get(materialId) ?? 0;
+  }
+
+  /** Items each material can craft from owned excess, cascading up the recipe chains */
+  private computeCrafted(): Map<number, number> {
+    const crafted = new Map<number, number>();
+    const excess = new Map<number, number>();
+    const visiting = new Set<number>();
+
+    const excessOf = (materialId: number): number => {
+      const known = excess.get(materialId);
+      if (known !== undefined) {
+        return known;
+      }
+      const craft = this.craftMap.get(materialId);
+      let made = 0;
+      if (craft && craft.recipe.length > 0 && !visiting.has(materialId)) {
+        visiting.add(materialId);
+        const batches = craft.recipe.map((item) =>
+          Math.floor(Math.max(0, excessOf(item.id)) / item.count)
+        );
+        made = Math.min(...batches) * craft.resultCount;
+        visiting.delete(materialId);
+      }
+      crafted.set(materialId, made);
+      const value = this.ownedOf(materialId) + made - this.neededOf(materialId);
+      excess.set(materialId, value);
+      return value;
+    };
+
+    this.craftMap.forEach((_, materialId) => excessOf(materialId));
+    return crafted;
+  }
+
+  /** Plans the crafts that cover needs from owned materials; sets craftedById and craftMora */
+  private planCrafts(): void {
+    this.craftedById = new Map<number, number>();
+    this.craftMora = 0;
+    if (!this.subtractsOwned) {
+      return;
+    }
+
+    const capacity = this.computeCrafted();
+    const consumers = new Map<number, { craft: MaterialCraft; count: number }[]>();
+    this.craftMap.forEach((craft) => {
+      for (const item of craft.recipe) {
+        consumers.set(item.id, [...(consumers.get(item.id) ?? []), { craft, count: item.count }]);
+      }
+    });
+
+    const crafts = new Map<number, number>();
+    const visiting = new Set<number>();
+    const demandOf = (materialId: number): number =>
+      (consumers.get(materialId) ?? []).reduce(
+        (total, { craft, count }) => total + craftsOf(craft.id) * count,
+        this.neededOf(materialId)
+      );
+    const craftsOf = (materialId: number): number => {
+      const known = crafts.get(materialId);
+      const craft = this.craftMap.get(materialId);
+      if (known !== undefined) {
+        return known;
+      }
+      if (!craft || visiting.has(materialId)) {
+        return 0;
+      }
+      visiting.add(materialId);
+      const shortage = Math.max(0, demandOf(materialId) - this.ownedOf(materialId));
+      const affordable = Math.floor((capacity.get(materialId) ?? 0) / craft.resultCount);
+      const count = Math.min(Math.ceil(shortage / craft.resultCount), affordable);
+      visiting.delete(materialId);
+      crafts.set(materialId, count);
+      return count;
+    };
+
+    this.craftMap.forEach((craft, materialId) => {
+      const count = craftsOf(materialId);
+      if (count > 0) {
+        this.craftedById.set(materialId, count * craft.resultCount);
+        this.craftMora += count * craft.moraCost;
+      }
+    });
+  }
+
+  /** Owned plus crafted amount, subtracted from the total needed */
+  private coveredOf(materialId: number): number {
+    return this.ownedOf(materialId) + (this.craftedById.get(materialId) ?? 0);
+  }
+
+  /** Materials consumed as ingredients by planned crafts */
+  private consumedOf(materialId: number): number {
+    let consumed = 0;
+
+    this.craftMap.forEach((craft) => {
+      const crafted = this.craftedById.get(craft.id) ?? 0;
+
+      if (crafted <= 0) {
+        return;
+      }
+
+      const batches = crafted / craft.resultCount;
+
+      const ingredient = craft.recipe.find((item) => item.id === materialId);
+
+      if (ingredient) {
+        consumed += batches * ingredient.count;
+      }
+    });
+
+    return consumed;
   }
 
   onOwnedInput(materialId: number, quantity: number): void {
@@ -204,7 +325,7 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
             this.buildTable(items.filter((m) => !isMora(m) && !isWeaponXp(m))),
             this.buildTable(items.filter(isWeaponXp)),
           ],
-          mora,
+          mora
         );
       } else {
         addGroup(MaterialTypeLabel[type], [this.buildTable(items)]);
@@ -233,7 +354,7 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
     const columns: MaterialTableColumn[] = rarities.map((rarity) =>
       headerOverride
         ? { rarity, label: headerOverride, color: '' }
-        : { rarity, label: RARITY_NAMES[rarity] ?? 'Amount', color: this.rarityColor(rarity) },
+        : { rarity, label: RARITY_NAMES[rarity] ?? 'Amount', color: this.rarityColor(rarity) }
     );
 
     const families = new Map<number, MaterialTotal[]>();
@@ -258,7 +379,7 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
       (a, b) =>
         this.rarityOf(b.lead) - this.rarityOf(a.lead) ||
         familyOf(a.lead) - familyOf(b.lead) ||
-        a.lead.materialName.localeCompare(b.lead.materialName),
+        a.lead.materialName.localeCompare(b.lead.materialName)
     );
 
     return { columns, lines };
@@ -320,8 +441,10 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
     if (materialId >= 106000 && materialId <= 106999) {
       return `assets/images/materials/talent/${normalized}.webp`;
     }
-    if ((materialId >= 102000 && materialId <= 102999) ||
-        (materialId >= 112000 && materialId <= 112999)) {
+    if (
+      (materialId >= 102000 && materialId <= 102999) ||
+      (materialId >= 112000 && materialId <= 112999)
+    ) {
       return `assets/images/materials/generic/${normalized}.webp`;
     }
     if (materialId >= 113000 && materialId <= 113999) {
@@ -334,7 +457,8 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
 
   /** Details page route; uses the loaded slug, or the normalized name before materials load */
   getMaterialLink(materialId: number, materialName: string): string {
-    const slug = this.materialMap.get(materialId)?.normalizedName ?? this.normalizeName(materialName);
+    const slug =
+      this.materialMap.get(materialId)?.normalizedName ?? this.normalizeName(materialName);
     return `/materials/${slug}`;
   }
 

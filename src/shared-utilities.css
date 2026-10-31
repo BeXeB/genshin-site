@@ -601,27 +601,27 @@ textarea.error {
 }
 
 .guide .five-star {
-  background-color: var(--rar-5);
+  background-color: var(--rar-5-dark);
   border-radius: 8px;
 }
 
 .guide .four-star {
-  background-color: var(--rar-4);
+  background-color: var(--rar-4-dark);
   border-radius: 8px;
 }
 
 .guide .three-star {
-  background-color: var(--rar-3);
+  background-color: var(--rar-3-dark);
   border-radius: 8px;
 }
 
 .guide .two-star {
-  background-color: var(--rar-2);
+  background-color: var(--rar-2-dark);
   border-radius: 8px;
 }
 
 .guide .one-star {
-  background-color: var(--rar-1);
+  background-color: var(--rar-1-dark);
   border-radius: 8px;
 }
 

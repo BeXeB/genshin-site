@@ -12,15 +12,6 @@
     @if (view.isEmpty) {
       <div class="empty-table">Add characters or weapons to see the materials they need</div>
     } @else {
-      <div class="owned-note">
-        <span
-          class="info-icon"
-          role="img"
-          aria-label="Info"
-          title="Amounts are still needed after your inventory. Hover a number to see the total needed."
-          >i</span
-        >
-      </div>
       <app-material-cost-display
         [cost]="view.cost"
         [groupByType]="true"

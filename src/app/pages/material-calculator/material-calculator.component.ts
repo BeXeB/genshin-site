@@ -26,6 +26,7 @@ import { SelectDropdownComponent } from '../../_components/select-dropdown/selec
 import { ImageService } from '../../_services/image.service';
 import { buildLevelOptions } from './level-options';
 import { getElementFromUrlName, getElementUrlName, replaceQueryParams } from './url-state';
+import { PageTitleComponent } from '../../_components/page-title/page-title.component';
 
 type SelectedCharacter = Pick<Character, 'profile' | 'skills' | 'variants'>;
 
@@ -108,7 +109,8 @@ function getEntryKey(entry: CharacterEntryKey): string {
     CharacterSearchComponent,
     SelectDropdownComponent,
     RouterLink,
-  ],
+    PageTitleComponent
+],
   templateUrl: './material-calculator.component.html',
   styleUrl: './material-calculator.component.css',
 })

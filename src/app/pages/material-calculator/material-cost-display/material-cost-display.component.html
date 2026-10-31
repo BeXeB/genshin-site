@@ -45,11 +45,16 @@
                                 (change)="onOwnedInput(moraId, moraInput.valueAsNumber)"
                               />
                             } @else {
-                              <span
-                                class="count-value"
-                                [title]="'Total needed: ' + formatMora(cost.totalMora)"
-                                >{{ formatMora(group.mora) }}</span
-                              >
+                              <span class="count-stack">
+                                <span
+                                  class="count-value"
+                                  [attr.title]="
+                                    craftMora > 0 ? formatMora(craftMora) + ' mora for crafting' : null
+                                  "
+                                  >{{ formatMora(group.mora) }}</span
+                                >
+                                <span class="count-sub">{{ formatMora(cost.totalMora) }}</span>
+                              </span>
                             }
                           </td>
                         </tr>
@@ -84,9 +89,8 @@
                         @for (line of table.lines; track line.lead.materialId) {
                           <tr>
                             <td class="line-name">
-                              <a
+                              <div
                                 class="line-lead"
-                                [routerLink]="getMaterialLink(line.lead.materialId, line.lead.materialName)"
                               >
                                 <img
                                   [src]="getMaterialImagePath(line.lead.materialId, line.lead.materialName)"
@@ -94,7 +98,7 @@
                                   class="line-icon"
                                 />
                                 <span>{{ line.lead.materialName }}</span>
-                              </a>
+                              </div>
                             </td>
                             @for (cell of line.cells; track $index) {
                               <td class="count-col">
@@ -109,12 +113,14 @@
                                     (change)="onOwnedInput(cell.materialId, ownedInput.valueAsNumber)"
                                   />
                                 } @else if (cell) {
-                                  <a
-                                    class="count-link"
-                                    [routerLink]="getMaterialLink(cell.materialId, cell.materialName)"
-                                    [title]="'Total needed: ' + neededOf(cell.materialId)"
-                                    >{{ cell.quantity }}</a
-                                  >
+                                  <div class="count-stack">
+                                    <a
+                                      class="count-link"
+                                      [routerLink]="getMaterialLink(cell.materialId, cell.materialName)"
+                                      >{{ cell.quantity }}</a
+                                    >
+                                    <span class="count-sub">{{ neededOf(cell.materialId) }}</span>
+                                  </div>
                                 }
                               </td>
                             }
