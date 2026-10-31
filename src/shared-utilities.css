@@ -165,6 +165,12 @@
   border: 1px solid var(--dark-gray);
 }
 
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 /* Range Slider Styles */
 .level-controls {
   display: flex;

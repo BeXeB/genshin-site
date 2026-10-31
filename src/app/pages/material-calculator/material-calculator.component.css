@@ -10,67 +10,117 @@
   color: var(--white);
 }
 
-.calculator-layout {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 20px;
-  min-height: 600px;
+.button-group {
+  margin-bottom: 20px;
 }
 
-.sidebar {
+.button-group button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.add-search {
+  max-width: 300px;
+  margin-top: 12px;
+}
+
+/* Table: rows reuse the shared .table-row flex class */
+.character-table {
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  max-height: 800px;
+  gap: 8px;
+  overflow-x: auto;
 }
 
-.main-content {
-  overflow-y: auto;
+/* Border counts toward the 100% width, avoiding a 2px overflow */
+.character-table .table-row {
+  box-sizing: border-box;
 }
 
-.character-details {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.character-header {
-  border-bottom: 2px solid var(--gray);
-  padding-bottom: 16px;
-}
-
-.character-header h2 {
-  margin: 0 0 8px 0;
-  font-size: 1.8rem;
+.table-head {
+  background-color: var(--darker-gray);
   color: var(--white);
+  font-size: 0.85rem;
+  border-radius: 8px;
 }
 
-.character-subtitle {
-  margin: 0;
-  color: var(--light-gray);
-  font-size: 0.95rem;
-}
-
-.no-selection {
-  display: flex;
+.table-body {
   align-items: center;
+  border-radius: 8px;
+}
+
+.table-body.selected {
+  border-color: var(--blue);
+  background-color: var(--dark-gray);
+}
+
+.cell {
+  flex: 1;
+  min-width: 72px;
+  padding: 8px 4px;
+  box-sizing: border-box;
+}
+
+.name-cell {
+  flex: 2;
+  min-width: 110px;
+  cursor: pointer;
+}
+
+/* Tighter select padding so the row fits the table width */
+.character-table select {
+  padding: 8px 24px 8px 8px;
+  background-position: right 6px center;
+}
+
+.name-cell:hover {
+  color: var(--blue);
+}
+
+.icon-cell {
+  flex: 0 0 56px;
+  min-width: 56px;
+  display: flex;
   justify-content: center;
-  height: 400px;
+}
+
+.character-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.action-cell {
+  flex: 0 0 48px;
+  min-width: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.remove-btn {
+  width: 32px;
+  height: 32px;
+  padding: 0;
   color: var(--light-gray);
-  font-size: 1.1rem;
+}
+
+.remove-btn:hover {
+  color: var(--red);
+}
+
+.row-details {
+  padding: 16px;
+  border: 1px solid var(--dark-gray);
+  border-radius: 8px;
+}
+
+.empty-table {
+  padding: 20px;
   text-align: center;
+  color: var(--light-gray);
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .calculator-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .sidebar {
-    max-height: 300px;
-  }
-
   .material-calculator-container h1 {
     font-size: 1.5rem;
   }

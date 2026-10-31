@@ -1,0 +1,35 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 250px;
+  overflow-y: auto;
+  border: 1px solid var(--gray);
+  background: var(--darker-gray);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: var(--dark-gray);
+}
+
+.option-icon {
+  width: 28px;
+  height: 28px;
+}

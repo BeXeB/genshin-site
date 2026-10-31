@@ -1,52 +1,123 @@
 <div class="material-calculator-container">
   <h1>Material Calculator</h1>
 
-  <div class="calculator-layout">
-    <!-- Sidebar: Character Inventory List -->
-    <aside class="sidebar">
-      <app-character-inventory-list
-        [characters]="characters$ | async"
-        [inventory]="inventory$ | async"
-        [selectedCharacterId]="selectedCharacterProgress?.characterId || null"
-        (characterSelected)="onCharacterSelected($any($event))"
-        (addCharacter)="onAddCharacter($any($event))"
-        (removeCharacter)="onRemoveCharacter($any($event))"
-      />
-    </aside>
+  <div class="button-group">
+    <button class="button" disabled>Materials</button>
+    <button class="button active">Characters</button>
+    <button class="button" disabled>Weapons</button>
+  </div>
 
-    <!-- Main Area: Character Details & Calculations -->
-    <main class="main-content">
-      @if (selectedCharacter && selectedCharacterProgress) {
-        <div class="character-details">
-          <div class="character-header">
-            <h2>{{ selectedCharacter.profile.name }}</h2>
-            <p class="character-subtitle">
-              Level {{ selectedCharacterProgress.currentLevel }} →
-              {{ selectedCharacterProgress.goalLevel }} | Ascension
-              {{ selectedCharacterProgress.currentAscension }} →
-              {{ selectedCharacterProgress.goalAscension }}
-            </p>
+  @if (view$ | async; as view) {
+    <div class="character-table">
+      <div class="table-row table-head">
+        <div class="cell icon-cell"></div>
+        <div class="cell name-cell">Name</div>
+        <div class="cell">Level</div>
+        <div class="cell">Level Goal</div>
+        @for (combat of combatColumns; track combat.label) {
+          <div class="cell">{{ combat.label }}</div>
+          <div class="cell">{{ combat.label }} Goal</div>
+        }
+        <div class="cell action-cell"></div>
+      </div>
+
+      @for (row of view.rows; track row.progress.characterId) {
+        <div class="character-entry">
+          <div
+            class="table-row table-body"
+            [class.selected]="isExpanded(row.progress.characterId)"
+          >
+            <div class="cell icon-cell">
+              <img
+                class="character-icon"
+                [src]="getCharacterIcon(row.normalizedName)"
+                [alt]="row.name"
+              />
+            </div>
+
+            <div
+              class="cell name-cell"
+              (click)="onRowClicked(row.progress.characterId)"
+            >
+              {{ row.name }}
+            </div>
+
+            <div class="cell">
+              <select
+                [attr.aria-label]="row.name + ' level'"
+                (change)="onLevelChange(row.progress, 'currentLevel', $any($event.target).value)"
+              >
+                @for (level of levelOptions; track level) {
+                  <option [value]="level" [selected]="level === row.progress.currentLevel">{{ level }}</option>
+                }
+              </select>
+            </div>
+
+            <div class="cell">
+              <select
+                [attr.aria-label]="row.name + ' level goal'"
+                (change)="onLevelChange(row.progress, 'goalLevel', $any($event.target).value)"
+              >
+                @for (level of levelOptions; track level) {
+                  <option [value]="level" [selected]="level === row.progress.goalLevel">{{ level }}</option>
+                }
+              </select>
+            </div>
+
+            @for (combat of combatColumns; track combat.label) {
+              <div class="cell">
+                <select
+                  [attr.aria-label]="row.name + ' ' + combat.label"
+                  (change)="onCombatCurrentChange(row.progress, combat, $any($event.target).value)"
+                >
+                  @for (level of talentLevelOptions; track level) {
+                    <option [value]="level" [selected]="level === row.progress[combat.current]">{{ level }}</option>
+                  }
+                </select>
+              </div>
+
+              <div class="cell">
+                <select
+                  [attr.aria-label]="row.name + ' ' + combat.label + ' goal'"
+                  (change)="onCombatGoalChange(row.progress, combat, $any($event.target).value)"
+                >
+                  @for (level of talentLevelOptions; track level) {
+                    <option [value]="level" [selected]="level === row.progress[combat.goal]">{{ level }}</option>
+                  }
+                </select>
+              </div>
+            }
+
+            <div class="cell action-cell">
+              <button
+                class="remove-btn"
+                (click)="onRemoveCharacter(row.progress.characterId)"
+                title="Remove"
+              >
+                ✕
+              </button>
+            </div>
           </div>
 
-          <!-- Character Progress Editor -->
-          <app-character-progress-editor
-            [characterProgress]="selectedCharacterProgress"
-            (progressUpdated)="onProgressUpdated($any($event))"
-          />
-
-          <!-- Material Cost Display -->
-          @if (calculatedCost) {
-            <app-material-cost-display
-              [cost]="calculatedCost"
-              [characterName]="selectedCharacter.profile.name"
-            />
+          @if (isExpanded(row.progress.characterId) && calculatedCost) {
+            <div class="row-details">
+              <app-material-cost-display
+                [cost]="calculatedCost"
+                [characterName]="row.name"
+              />
+            </div>
           }
         </div>
-      } @else {
-        <div class="no-selection">
-          <p>Select a character from the list to view calculations</p>
-        </div>
+      } @empty {
+        <div class="empty-table">No characters yet</div>
       }
-    </main>
-  </div>
+    </div>
+
+    <app-character-search
+      class="add-search"
+      placeholder="+ Add character"
+      [characters]="view.available"
+      (characterSelected)="onAddCharacter($event.id)"
+    />
+  }
 </div>

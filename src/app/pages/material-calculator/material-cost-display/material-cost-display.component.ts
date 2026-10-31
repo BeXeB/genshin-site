@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { LevelingCost } from '../../../_models/calculator';
 import { MaterialService } from '../../../_services/material.service';
 import { Material } from '../../../_models/materials';
@@ -7,7 +8,7 @@ import { Material } from '../../../_models/materials';
 @Component({
   selector: 'app-material-cost-display',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './material-cost-display.component.html',
   styleUrl: './material-cost-display.component.css',
 })
@@ -49,10 +50,7 @@ export class MaterialCostDisplayComponent implements OnInit {
     }
 
     // Fallback: normalize name and guess folder based on ID
-    const normalized = materialName
-      .toLowerCase()
-      .replace(/\s+/g, '')
-      .replace(/[^\w]/g, '');
+    const normalized = this.normalizeName(materialName);
 
     // Mora special case
     if (materialId === 202) {
@@ -79,6 +77,16 @@ export class MaterialCostDisplayComponent implements OnInit {
 
     // Default fallback
     return `assets/images/materials/generic/${normalized}.webp`;
+  }
+
+  /** Details page route; uses the loaded slug, or the normalized name before materials load */
+  getMaterialLink(materialId: number, materialName: string): string {
+    const slug = this.materialMap.get(materialId)?.normalizedName ?? this.normalizeName(materialName);
+    return `/materials/${slug}`;
+  }
+
+  private normalizeName(name: string): string {
+    return name.toLowerCase().replace(/\s+/g, '').replace(/[^\w]/g, '');
   }
 
   /**

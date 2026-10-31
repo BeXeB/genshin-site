@@ -21,7 +21,10 @@
         <h3>Materials Needed</h3>
         <div class="materials-grid">
           @for (material of cost.materials; track material.materialId) {
-            <div class="material-card card">
+            <div
+              class="material-card card"
+              [routerLink]="getMaterialLink(material.materialId, material.materialName)"
+            >
               <img
                 [src]="getMaterialImagePath(material.materialId, material.materialName)"
                 [alt]="material.materialName"
