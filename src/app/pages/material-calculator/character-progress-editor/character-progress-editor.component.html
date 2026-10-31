@@ -9,12 +9,11 @@
           <label for="current-level">Current Level</label>
           <select
             id="current-level"
-            [value]="characterProgress.currentLevel"
             (change)="onCurrentLevelChange($any($event.target).value)"
             class="level-select"
           >
             @for (level of levelOptions; track level) {
-              <option [value]="level">{{ level }}</option>
+              <option [value]="level" [selected]="level === characterProgress.currentLevel">{{ level }}</option>
             }
           </select>
         </div>
@@ -26,18 +25,56 @@
           <label for="goal-level">Goal Level</label>
           <select
             id="goal-level"
-            [value]="characterProgress.goalLevel"
             (change)="onGoalLevelChange($any($event.target).value)"
             class="level-select"
           >
             @for (level of levelOptions; track level) {
-              <option [value]="level">{{ level }}</option>
+              <option [value]="level" [selected]="level === characterProgress.goalLevel">{{ level }}</option>
             }
           </select>
         </div>
       </div>
 
 
+    </div>
+
+    <!-- Talents Section -->
+    <div class="editor-section">
+      <h3>Talent Progress</h3>
+      @for (row of talentRows; track row.label) {
+        <div class="talent-row">
+          <span class="talent-name">{{ row.label }}</span>
+          <div class="form-row">
+            <!-- Current Talent Level -->
+            <div class="form-group">
+              <select
+                [attr.aria-label]="row.label + ' current level'"
+                (change)="onTalentCurrentChange(row, $any($event.target).value)"
+                class="level-select"
+              >
+                @for (level of talentLevelOptions; track level) {
+                  <option [value]="level" [selected]="level === characterProgress[row.current]">{{ level }}</option>
+                }
+              </select>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <!-- Goal Talent Level -->
+            <div class="form-group">
+              <select
+                [attr.aria-label]="row.label + ' goal level'"
+                (change)="onTalentGoalChange(row, $any($event.target).value)"
+                class="level-select"
+              >
+                @for (level of talentLevelOptions; track level) {
+                  <option [value]="level" [selected]="level === characterProgress[row.goal]">{{ level }}</option>
+                }
+              </select>
+            </div>
+          </div>
+        </div>
+      }
     </div>
   </div>
 }

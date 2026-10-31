@@ -1,5 +1,8 @@
 import { Injectable } from '@angular/core';
-import { CalculatorInventory } from '../_models/calculator';
+import {
+  CalculatorInventory,
+  createDefaultCharacterProgress,
+} from '../_models/calculator';
 import { StorageService } from './storage.service';
 
 const CALCULATOR_STORAGE_KEY = 'material-calculator-inventory';
@@ -28,7 +31,18 @@ export class CalculatorStorageService {
     const inventory = this.storageService.getData<CalculatorInventory>(
       CALCULATOR_STORAGE_KEY,
     );
-    return inventory;
+    if (!inventory) {
+      return null;
+    }
+
+    // Fill in fields added after the inventory was saved (e.g. talent levels)
+    return {
+      ...inventory,
+      characters: inventory.characters.map((entry) => ({
+        ...createDefaultCharacterProgress(entry.characterId),
+        ...entry,
+      })),
+    };
   }
 
   /**

@@ -1,7 +1,14 @@
 import { Injectable } from '@angular/core';
-import { CharacterProfile } from '../_models/character';
+import { CharacterProfile, CharacterTalents } from '../_models/character';
 import { Weapon } from '../_models/weapons';
-import { LevelingCost, MaterialTotal } from '../_models/calculator';
+import {
+  CharacterProgressEntry,
+  LevelingCost,
+  MaterialTotal,
+} from '../_models/calculator';
+
+// Mora item ID used in cost tables
+const MORA_ITEM_ID = 202;
 
 // ============================================================================
 // CHARACTER LEVELING EXP COSTS (Level 2-90)
@@ -482,6 +489,88 @@ export class MaterialCalculationService {
     const consolidatedMaterials = this.consolidateMaterials(allMaterials);
 
     return { materials: consolidatedMaterials, totalMora };
+  }
+
+  /**
+   * Calculate cost to upgrade a single talent from fromLevel to toLevel.
+   * Talent costs are stored per level (lvl2..lvl10) and apply to each talent
+   * type (normal attack, elemental skill, elemental burst) equally.
+   * Mora is returned as totalMora; all other items are returned as materials.
+   */
+  calculateTalentUpgradeCost(
+    skills: CharacterTalents | null | undefined,
+    fromLevel: number,
+    toLevel: number,
+  ): LevelingCost {
+    const allMaterials: MaterialTotal[] = [];
+    let totalMora = 0;
+
+    if (!skills?.costs || toLevel <= fromLevel) {
+      return { materials: [], totalMora: 0 };
+    }
+
+    for (let level = fromLevel + 1; level <= toLevel; level++) {
+      const costKey = `lvl${level}` as keyof CharacterTalents['costs'];
+      const items = skills.costs[costKey] ?? [];
+
+      for (const item of items) {
+        if (item.id === MORA_ITEM_ID) {
+          totalMora += item.count;
+          continue;
+        }
+
+        allMaterials.push({
+          materialId: item.id,
+          materialName: item.name,
+          quantity: item.count,
+        });
+      }
+    }
+
+    return {
+      materials: this.consolidateMaterials(allMaterials),
+      totalMora,
+    };
+  }
+
+  /**
+   * Calculate combined cost for all three talents (normal attack,
+   * elemental skill, elemental burst) using the goal levels in progress.
+   */
+  calculateAllTalentsCost(
+    skills: CharacterTalents | null | undefined,
+    progress: CharacterProgressEntry,
+  ): LevelingCost {
+    return this.mergeCosts(
+      this.calculateTalentUpgradeCost(
+        skills,
+        progress.normalSkillLevel,
+        progress.goalNormalSkillLevel,
+      ),
+      this.calculateTalentUpgradeCost(
+        skills,
+        progress.elementalSkillLevel,
+        progress.goalElementalSkillLevel,
+      ),
+      this.calculateTalentUpgradeCost(
+        skills,
+        progress.burstLevel,
+        progress.goalBurstLevel,
+      ),
+    );
+  }
+
+  /**
+   * Combine multiple leveling costs into a single total
+   * (materials are consolidated by materialId, mora is summed).
+   */
+  mergeCosts(...costs: LevelingCost[]): LevelingCost {
+    return {
+      materials: this.consolidateMaterials(
+        costs.flatMap((cost) => cost.materials),
+      ),
+      totalMora: costs.reduce((sum, cost) => sum + cost.totalMora, 0),
+    };
   }
 
   /**

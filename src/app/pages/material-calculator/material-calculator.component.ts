@@ -7,8 +7,9 @@ import { MaterialCalculationService } from '../../_services/material-calculation
 import {
   CharacterProgressEntry,
   CharacterProgressEntry as CharacterProgress,
+  createDefaultCharacterProgress,
 } from '../../_models/calculator';
-import { CharacterProfile } from '../../_models/character';
+import { CharacterProfile, CharacterTalents } from '../../_models/character';
 import { CharacterInventoryListComponent } from './character-inventory-list/character-inventory-list.component';
 import { CharacterProgressEditorComponent } from './character-progress-editor/character-progress-editor.component';
 import { MaterialCostDisplayComponent } from './material-cost-display/material-cost-display.component';
@@ -28,6 +29,7 @@ import { MaterialCostDisplayComponent } from './material-cost-display/material-c
 export class MaterialCalculatorComponent implements OnInit {
   selectedCharacterProgress: CharacterProgress | null = null;
   selectedCharacterProfile: CharacterProfile | null = null;
+  selectedCharacterSkills: CharacterTalents | null = null;
   characters$ = this.characterService.getCharacters();
   inventory$ = this.calculatorState.inventory$;
   calculatedCost: any = null;
@@ -60,18 +62,14 @@ export class MaterialCalculatorComponent implements OnInit {
         this.characterService.getCharacterDetails(character.normalizedName).subscribe(
           (fullCharacter) => {
             this.selectedCharacterProfile = fullCharacter.profile;
+            this.selectedCharacterSkills = fullCharacter.skills ?? null;
             const existing = this.calculatorState.getCharacter(characterId);
             if (existing) {
               this.selectedCharacterProgress = existing;
             } else {
               // Pre-populate with defaults
-              this.selectedCharacterProgress = {
-                characterId,
-                currentLevel: 1,
-                currentAscension: 0,
-                goalLevel: 90,
-                goalAscension: 6,
-              };
+              this.selectedCharacterProgress =
+                createDefaultCharacterProgress(characterId);
               // Add to inventory
               this.calculatorState.addCharacter(this.selectedCharacterProgress);
             }
@@ -80,17 +78,13 @@ export class MaterialCalculatorComponent implements OnInit {
           () => {
             // Fallback to profile if full details fail
             this.selectedCharacterProfile = character;
+            this.selectedCharacterSkills = null;
             const existing = this.calculatorState.getCharacter(characterId);
             if (existing) {
               this.selectedCharacterProgress = existing;
             } else {
-              this.selectedCharacterProgress = {
-                characterId,
-                currentLevel: 1,
-                currentAscension: 0,
-                goalLevel: 90,
-                goalAscension: 6,
-              };
+              this.selectedCharacterProgress =
+                createDefaultCharacterProgress(characterId);
               this.calculatorState.addCharacter(this.selectedCharacterProgress);
             }
             this.recalculateCost();
@@ -114,16 +108,19 @@ export class MaterialCalculatorComponent implements OnInit {
         this.characterService.getCharacterDetails(character.normalizedName).subscribe(
           (fullCharacter) => {
             this.selectedCharacterProfile = fullCharacter.profile;
+            this.selectedCharacterSkills = fullCharacter.skills ?? null;
             this.recalculateCost();
           },
           () => {
             // Fallback to profile if full details fail
             this.selectedCharacterProfile = character;
+            this.selectedCharacterSkills = null;
             this.recalculateCost();
           }
         );
       } else {
         this.selectedCharacterProfile = null;
+        this.selectedCharacterSkills = null;
         this.recalculateCost();
       }
     });
@@ -135,13 +132,7 @@ export class MaterialCalculatorComponent implements OnInit {
   onAddCharacter(characterId: number): void {
     const existing = this.calculatorState.getCharacter(characterId);
     if (!existing) {
-      const newEntry: CharacterProgressEntry = {
-        characterId,
-        currentLevel: 1,
-        currentAscension: 0,
-        goalLevel: 90,
-        goalAscension: 6,
-      };
+      const newEntry = createDefaultCharacterProgress(characterId);
       this.calculatorState.addCharacter(newEntry);
       this.onCharacterSelected(newEntry);
     }
@@ -155,6 +146,7 @@ export class MaterialCalculatorComponent implements OnInit {
     if (this.selectedCharacterProgress?.characterId === characterId) {
       this.selectedCharacterProgress = null;
       this.selectedCharacterProfile = null;
+      this.selectedCharacterSkills = null;
       this.calculatedCost = null;
     }
   }
@@ -216,13 +208,21 @@ export class MaterialCalculatorComponent implements OnInit {
       goalAscension,
     } = this.selectedCharacterProgress;
 
-    this.calculatedCost =
-      this.calculationService.calculateCharacterTotalCost(
-        this.selectedCharacterProfile,
-        currentLevel,
-        goalLevel,
-        currentAscension,
-        goalAscension,
-      );
+    const characterCost = this.calculationService.calculateCharacterTotalCost(
+      this.selectedCharacterProfile,
+      currentLevel,
+      goalLevel,
+      currentAscension,
+      goalAscension,
+    );
+    const talentCost = this.calculationService.calculateAllTalentsCost(
+      this.selectedCharacterSkills,
+      this.selectedCharacterProgress,
+    );
+
+    this.calculatedCost = this.calculationService.mergeCosts(
+      characterCost,
+      talentCost,
+    );
   }
 }

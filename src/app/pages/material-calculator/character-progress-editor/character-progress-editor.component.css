@@ -69,6 +69,18 @@
   font-weight: 600;
 }
 
+.talent-row {
+  margin-bottom: 4px;
+}
+
+.talent-name {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--white);
+}
+
 /* Responsive design */
 @media (max-width: 600px) {
   .form-row {

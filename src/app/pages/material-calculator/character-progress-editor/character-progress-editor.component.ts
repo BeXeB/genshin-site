@@ -3,6 +3,15 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { CharacterProgressEntry } from '../../../_models/calculator';
 
+/**
+ * One talent row in the editor: which current/goal fields it edits
+ */
+type TalentRow = {
+  label: string;
+  current: 'normalSkillLevel' | 'elementalSkillLevel' | 'burstLevel';
+  goal: 'goalNormalSkillLevel' | 'goalElementalSkillLevel' | 'goalBurstLevel';
+};
+
 @Component({
   selector: 'app-character-progress-editor',
   standalone: true,
@@ -17,6 +26,27 @@ export class CharacterProgressEditorComponent {
   // Array of levels with ascension caps included
   // E.g. [1, 2, ..., 20, "20+", 21, 22, ..., 40, "40+", ...]
   levelOptions = this.generateLevelOptions();
+
+  // Talent levels range from 1 to 10
+  talentLevelOptions = Array.from({ length: 10 }, (_, i) => i + 1);
+
+  talentRows: TalentRow[] = [
+    {
+      label: 'Normal Attack',
+      current: 'normalSkillLevel',
+      goal: 'goalNormalSkillLevel',
+    },
+    {
+      label: 'Elemental Skill',
+      current: 'elementalSkillLevel',
+      goal: 'goalElementalSkillLevel',
+    },
+    {
+      label: 'Elemental Burst',
+      current: 'burstLevel',
+      goal: 'goalBurstLevel',
+    },
+  ];
 
   /**
    * Generate level options including ascension caps
@@ -96,5 +126,32 @@ export class CharacterProgressEditorComponent {
     const currentLevel = this.characterProgress?.currentLevel ?? 1;
     const validLevel = Math.max(currentLevel, level);
     this.progressUpdated.emit({ goalLevel: validLevel });
+  }
+
+  /**
+   * Handle talent current level change; raises goal level if needed
+   */
+  onTalentCurrentChange(row: TalentRow, value: string): void {
+    const level = parseInt(value, 10);
+    const goal = Math.max(this.characterProgress?.[row.goal] ?? level, level);
+
+    const updates: Partial<CharacterProgressEntry> = {
+      [row.current]: level,
+      [row.goal]: goal,
+    };
+    this.progressUpdated.emit(updates);
+  }
+
+  /**
+   * Handle talent goal level change; cannot go below current level
+   */
+  onTalentGoalChange(row: TalentRow, value: string): void {
+    const level = parseInt(value, 10);
+    const current = this.characterProgress?.[row.current] ?? 1;
+
+    const updates: Partial<CharacterProgressEntry> = {
+      [row.goal]: Math.max(current, level),
+    };
+    this.progressUpdated.emit(updates);
   }
 }
