@@ -4,8 +4,16 @@
  * Phase 2: Talent upgrade tracking
  */
 
+import { ElementType } from './enum';
+
+/** Lumine's profile ID; Lumine and Aether are merged into one Traveler */
+export const TRAVELER_ID = 10000007;
+/** Aether's profile ID, used only to migrate saved entries */
+export const AETHER_ID = 10000005;
+
 export type CharacterProgressEntry = {
   characterId: number;
+  element?: ElementType; // Travelers only: one entry per element
   currentLevel: number; // 1-90
   currentAscension: number; // 0-6
   goalLevel: number; // 1-90
@@ -19,14 +27,25 @@ export type CharacterProgressEntry = {
 };
 
 /**
+ * Identifies an entry: character ID, plus element for Travelers
+ */
+export type CharacterEntryKey = Pick<CharacterProgressEntry, 'characterId' | 'element'>;
+
+export function isSameEntry(a: CharacterEntryKey, b: CharacterEntryKey): boolean {
+  return a.characterId === b.characterId && a.element === b.element;
+}
+
+/**
  * Create a new character progress entry with default values
  * (level 1 -> 90, ascension 0 -> 6, talents 1 -> 9)
  */
 export function createDefaultCharacterProgress(
   characterId: number,
+  element?: ElementType,
 ): CharacterProgressEntry {
   return {
     characterId,
+    element,
     currentLevel: 1,
     currentAscension: 0,
     goalLevel: 90,

@@ -2,13 +2,13 @@
   type="text"
   [placeholder]="placeholder"
   [(ngModel)]="search"
-  (focus)="showDropdown = true; $any($event.target).select()"
+  (focus)="open(); $any($event.target).select()"
   (blur)="hideDropdown()"
 />
 
 @if (showDropdown) {
-  <div class="dropdown">
-    @for (char of filteredCharacters; track char.id) {
+  <div class="dropdown" [class.open-up]="openUp">
+    @for (char of filteredCharacters; track char.name) {
       <div class="option" (mousedown)="select(char)">
         <img
           class="option-icon"

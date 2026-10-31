@@ -1,22 +1,29 @@
 import { Component, DestroyRef, OnInit } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
-import { catchError, combineLatest, map, Observable, of, shareReplay, switchMap, take } from 'rxjs';
+import { catchError, combineLatest, map, Observable, of, shareReplay, switchMap } from 'rxjs';
 import { CharacterService } from '../../_services/character.service';
 import { CalculatorStateService } from '../../_services/calculator-state.service';
 import { MaterialCalculationService } from '../../_services/material-calculation.service';
 import {
+  AETHER_ID,
+  CharacterEntryKey,
   CharacterProgressEntry as CharacterProgress,
   createDefaultCharacterProgress,
+  isSameEntry,
+  TRAVELER_ID,
 } from '../../_models/calculator';
-import { Character } from '../../_models/character';
+import { Character, CharacterProfile, CharacterTalents } from '../../_models/character';
+import { ElementType, ElementTypeLabel } from '../../_models/enum';
 import { MaterialCostDisplayComponent } from './material-cost-display/material-cost-display.component';
-import { CharacterSearchComponent } from '../../_components/character-search/character-search.component';
+import {
+  CharacterOption,
+  CharacterSearchComponent,
+} from '../../_components/character-search/character-search.component';
 import { SelectDropdownComponent } from '../../_components/select-dropdown/select-dropdown.component';
 import { ImageService } from '../../_services/image.service';
 
-type SelectedCharacter = Pick<Character, 'profile' | 'skills'>;
+type SelectedCharacter = Pick<Character, 'profile' | 'skills' | 'variants'>;
 
 type CombatColumn = {
   label: string;
@@ -41,10 +48,59 @@ function buildLevelOptions(): (number | string)[] {
 const LEVEL_OPTIONS = buildLevelOptions();
 const TALENT_LEVEL_OPTIONS = Array.from({ length: 10 }, (_, i) => i + 1);
 const COMBAT_COLUMNS: CombatColumn[] = [
-  { label: 'Combat 1', current: 'normalSkillLevel', goal: 'goalNormalSkillLevel' },
-  { label: 'Combat 2', current: 'elementalSkillLevel', goal: 'goalElementalSkillLevel' },
-  { label: 'Combat 3', current: 'burstLevel', goal: 'goalBurstLevel' },
+  { label: 'Normal Attack', current: 'normalSkillLevel', goal: 'goalNormalSkillLevel' },
+  { label: 'Elemental Skill', current: 'elementalSkillLevel', goal: 'goalElementalSkillLevel' },
+  { label: 'Elemental Burst', current: 'burstLevel', goal: 'goalBurstLevel' },
 ];
+
+/** The Traveler has one entry per element, with talents stored per element */
+const TRAVELER_NAME = 'Traveler';
+const TRAVELER_ELEMENTS: ElementType[] = [
+  ElementType.ANEMO,
+  ElementType.CRYO,
+  ElementType.DENDRO,
+  ElementType.ELECTRO,
+  ElementType.GEO,
+  ElementType.HYDRO,
+  ElementType.PYRO,
+];
+
+/** Row and option label, e.g. "Traveler (Geo)" */
+function getEntryName(name: string, element?: ElementType): string {
+  return element ? `${name} (${ElementTypeLabel[element]})` : name;
+}
+
+/** Lumine and Aether both display as the Traveler */
+function getDisplayName(profile: CharacterProfile): string {
+  return profile.id === TRAVELER_ID ? TRAVELER_NAME : profile.name;
+}
+
+/** Options for the add search: one per element for the Traveler */
+function toCharacterOptions(profile: CharacterProfile): CharacterOption[] {
+  if (profile.id === AETHER_ID) {
+    return [];
+  }
+  if (profile.id !== TRAVELER_ID) {
+    return [
+      {
+        characterId: profile.id,
+        name: profile.name,
+        normalizedName: profile.normalizedName,
+      },
+    ];
+  }
+  return TRAVELER_ELEMENTS.map((element) => ({
+    characterId: profile.id,
+    element,
+    name: getEntryName(getDisplayName(profile), element),
+    normalizedName: profile.normalizedName,
+  }));
+}
+
+/** Unique tracking key; Travelers share a character ID */
+function getEntryKey(entry: CharacterEntryKey): string {
+  return `${entry.characterId}-${entry.element ?? ''}`;
+}
 
 @Component({
   selector: 'app-material-calculator',
@@ -74,23 +130,24 @@ export class MaterialCalculatorComponent implements OnInit {
   view$ = combineLatest([this.characters$, this.inventory$]).pipe(
     map(([characters, inventory]) => {
       const byId = new Map(characters.map((c) => [c.id, c] as const));
-      const owned = new Set(inventory.characters.map((c) => c.characterId));
       return {
         rows: inventory.characters.map((progress) => {
           const character = byId.get(progress.characterId);
           return {
+            key: getEntryKey(progress),
             progress,
-            name: character?.name ?? 'Unknown',
+            name: character ? getEntryName(getDisplayName(character), progress.element) : 'Unknown',
             normalizedName: character?.normalizedName ?? '',
           };
         }),
-        available: characters.filter((c) => !owned.has(c.id)),
+        available: characters
+          .flatMap(toCharacterOptions)
+          .filter((option) => !inventory.characters.some((entry) => isSameEntry(entry, option))),
       };
     }),
   );
 
   constructor(
-    private route: ActivatedRoute,
     private characterService: CharacterService,
     private calculatorState: CalculatorStateService,
     private calculationService: MaterialCalculationService,
@@ -105,48 +162,6 @@ export class MaterialCalculatorComponent implements OnInit {
         this.loadCharacter(progress.characterId).subscribe();
       }
     });
-
-    // Check if a character is pre-selected via route params
-    this.route.queryParams.subscribe((params) => {
-      if (params['character']) {
-        this.selectCharacterBySlug(params['character']);
-      }
-    });
-  }
-
-  /**
-   * Select a character by ID and load its data
-   */
-  selectCharacterById(characterId: number): void {
-    this.loadCharacter(characterId).subscribe((selected) => {
-      if (!selected) {
-        return;
-      }
-      this.selectedCharacter = selected;
-      const existing = this.calculatorState.getCharacter(characterId);
-      if (existing) {
-        this.selectedCharacterProgress = existing;
-      } else {
-        // Pre-populate with defaults
-        this.selectedCharacterProgress =
-          createDefaultCharacterProgress(characterId);
-        // Add to inventory
-        this.calculatorState.addCharacter(this.selectedCharacterProgress);
-      }
-      this.recalculateCost();
-    });
-  }
-
-  /**
-   * Select a character by its URL slug (normalized name)
-   */
-  selectCharacterBySlug(slug: string): void {
-    this.characters$.pipe(take(1)).subscribe((characters) => {
-      const character = characters.find((c) => c.normalizedName === slug);
-      if (character) {
-        this.selectCharacterById(character.id);
-      }
-    });
   }
 
   /**
@@ -154,10 +169,9 @@ export class MaterialCalculatorComponent implements OnInit {
    */
   onCharacterSelected(characterProgress: CharacterProgress): void {
     this.selectedCharacterProgress = characterProgress;
-    const { characterId } = characterProgress;
-    this.loadCharacter(characterId).subscribe((selected) => {
+    this.loadCharacter(characterProgress.characterId).subscribe((selected) => {
       // Ignore responses for a row that is no longer selected
-      if (this.selectedCharacterProgress?.characterId !== characterId) {
+      if (!this.isExpanded(characterProgress)) {
         return;
       }
       this.selectedCharacter = selected;
@@ -182,7 +196,7 @@ export class MaterialCalculatorComponent implements OnInit {
           return this.characterService
             .getCharacterDetails(character.normalizedName)
             .pipe(
-              map(({ profile, skills }) => ({ profile, skills })),
+              map(({ profile, skills, variants }) => ({ profile, skills, variants })),
               catchError(() => of({ profile: character })),
             );
         }),
@@ -193,19 +207,21 @@ export class MaterialCalculatorComponent implements OnInit {
     return cached;
   }
 
-  onAddCharacter(characterId: number): void {
-    if (this.calculatorState.getCharacter(characterId)) {
+  onAddCharacter(option: CharacterEntryKey): void {
+    if (this.calculatorState.getCharacter(option)) {
       return;
     }
-    this.calculatorState.addCharacter(createDefaultCharacterProgress(characterId));
+    this.calculatorState.addCharacter(
+      createDefaultCharacterProgress(option.characterId, option.element),
+    );
   }
 
   /**
    * Remove a character from the inventory
    */
-  onRemoveCharacter(characterId: number): void {
-    this.calculatorState.removeCharacter(characterId);
-    if (this.isExpanded(characterId)) {
+  onRemoveCharacter(entry: CharacterEntryKey): void {
+    this.calculatorState.removeCharacter(entry);
+    if (this.isExpanded(entry)) {
       this.clearSelection();
     }
   }
@@ -213,23 +229,30 @@ export class MaterialCalculatorComponent implements OnInit {
   /**
    * Expand a row to show its materials, or collapse it when already expanded
    */
-  onRowClicked(characterId: number): void {
-    if (this.isExpanded(characterId)) {
+  onRowClicked(entry: CharacterEntryKey): void {
+    if (this.isExpanded(entry)) {
       this.clearSelection();
       return;
     }
-    const progress = this.calculatorState.getCharacter(characterId);
+    const progress = this.calculatorState.getCharacter(entry);
     if (progress) {
       this.onCharacterSelected(progress);
     }
   }
 
-  isExpanded(characterId: number): boolean {
-    return this.selectedCharacterProgress?.characterId === characterId;
+  isExpanded(entry: CharacterEntryKey): boolean {
+    return (
+      this.selectedCharacterProgress !== null &&
+      isSameEntry(this.selectedCharacterProgress, entry)
+    );
   }
 
   getCharacterIcon(normalizedName: string): string {
     return this.imageService.getCharacterIcon(normalizedName);
+  }
+
+  isTraveler(entry: CharacterEntryKey): boolean {
+    return entry.characterId === TRAVELER_ID;
   }
 
   /**
@@ -245,7 +268,7 @@ export class MaterialCalculatorComponent implements OnInit {
       field === 'currentLevel'
         ? { currentLevel: level, goalLevel: Math.max(progress.goalLevel, level) }
         : { goalLevel: Math.max(progress.currentLevel, level) };
-    this.onProgressUpdated(progress.characterId, updates);
+    this.onProgressUpdated(progress, updates);
   }
 
   onCombatCurrentChange(
@@ -254,7 +277,7 @@ export class MaterialCalculatorComponent implements OnInit {
     value: string,
   ): void {
     const level = parseInt(value, 10);
-    this.onProgressUpdated(progress.characterId, {
+    this.onProgressUpdated(progress, {
       [column.current]: level,
       [column.goal]: Math.max(progress[column.goal], level),
     });
@@ -266,7 +289,7 @@ export class MaterialCalculatorComponent implements OnInit {
     value: string,
   ): void {
     const level = parseInt(value, 10);
-    this.onProgressUpdated(progress.characterId, {
+    this.onProgressUpdated(progress, {
       [column.goal]: Math.max(progress[column.current], level),
     });
   }
@@ -275,13 +298,12 @@ export class MaterialCalculatorComponent implements OnInit {
    * Persist a progress change and refresh the expanded row's costs
    */
   private onProgressUpdated(
-    characterId: number,
+    entry: CharacterEntryKey,
     updates: Partial<CharacterProgress>,
   ): void {
-    this.calculatorState.updateCharacterProgress(characterId, updates);
-    if (this.isExpanded(characterId)) {
-      this.selectedCharacterProgress =
-        this.calculatorState.getCharacter(characterId) ?? null;
+    this.calculatorState.updateCharacterProgress(entry, updates);
+    if (this.isExpanded(entry)) {
+      this.selectedCharacterProgress = this.calculatorState.getCharacter(entry) ?? null;
       this.recalculateCost();
     }
   }
@@ -290,6 +312,15 @@ export class MaterialCalculatorComponent implements OnInit {
     this.selectedCharacterProgress = null;
     this.selectedCharacter = null;
     this.calculatedCost = null;
+  }
+
+  /** Traveler talents differ per element; other characters use their base talents */
+  private getSkills(
+    character: SelectedCharacter,
+    element?: ElementType,
+  ): CharacterTalents | undefined {
+    const variant = element ? character.variants?.[element] : undefined;
+    return variant?.skills ?? character.skills;
   }
 
   /**
@@ -316,7 +347,7 @@ export class MaterialCalculatorComponent implements OnInit {
       goalAscension,
     );
     const talentCost = this.calculationService.calculateAllTalentsCost(
-      this.selectedCharacter.skills,
+      this.getSkills(this.selectedCharacter, this.selectedCharacterProgress.element),
       this.selectedCharacterProgress,
     );
 

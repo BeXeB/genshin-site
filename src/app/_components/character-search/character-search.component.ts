@@ -1,7 +1,18 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CharacterProfile } from '../../_models/character';
+import { ElementType } from '../../_models/enum';
 import { ImageService } from '../../_services/image.service';
+
+// Matches the .dropdown max-height in the stylesheet
+const DROPDOWN_MAX_HEIGHT = 250;
+
+/** A selectable character; Travelers appear once per element */
+export type CharacterOption = {
+  characterId: number;
+  element?: ElementType;
+  name: string;
+  normalizedName: string;
+};
 
 @Component({
   selector: 'app-character-search',
@@ -11,16 +22,20 @@ import { ImageService } from '../../_services/image.service';
   styleUrl: './character-search.component.css',
 })
 export class CharacterSearchComponent {
-  @Input() characters: CharacterProfile[] = [];
+  @Input() characters: CharacterOption[] = [];
   @Input() placeholder: string = '';
-  @Output() characterSelected = new EventEmitter<CharacterProfile>();
+  @Output() characterSelected = new EventEmitter<CharacterOption>();
 
   search: string = '';
   showDropdown = false;
+  openUp = false;
 
-  constructor(private imageService: ImageService) {}
+  constructor(
+    private host: ElementRef<HTMLElement>,
+    private imageService: ImageService,
+  ) {}
 
-  get filteredCharacters(): CharacterProfile[] {
+  get filteredCharacters(): CharacterOption[] {
     const search = this.search.trim().toLowerCase();
 
     if (!search) return this.characters;
@@ -33,10 +48,15 @@ export class CharacterSearchComponent {
     });
   }
 
-  select(character: CharacterProfile): void {
+  select(character: CharacterOption): void {
     this.characterSelected.emit(character);
     this.search = '';
     this.showDropdown = false;
+  }
+
+  open(): void {
+    this.openUp = this.shouldOpenUp();
+    this.showDropdown = true;
   }
 
   hideDropdown(): void {
@@ -48,5 +68,12 @@ export class CharacterSearchComponent {
 
   getCharacterIcon(normalizedName: string): string {
     return this.imageService.getCharacterIcon(normalizedName);
+  }
+
+  private shouldOpenUp(): boolean {
+    const rect = this.host.nativeElement.getBoundingClientRect();
+    const spaceBelow = window.innerHeight - rect.bottom;
+    const spaceAbove = rect.top;
+    return spaceBelow < DROPDOWN_MAX_HEIGHT && spaceAbove > spaceBelow;
   }
 }

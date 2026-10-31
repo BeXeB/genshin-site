@@ -11,33 +11,56 @@
     <div class="character-table">
       <div class="table-row table-head">
         <div class="cell icon-cell"></div>
-        <div class="cell name-cell">Name</div>
-        <div class="cell">Level</div>
-        <div class="cell">Level Goal</div>
-        @for (combat of combatColumns; track combat.label) {
-          <div class="cell">{{ combat.label }}</div>
-          <div class="cell">{{ combat.label }} Goal</div>
-        }
+        <div class="cell name-cell"><b>Name</b></div>
+        <div class="head-groups">
+          <div class="head-row">
+            <div class="cell group-cell">Level</div>
+            @for (combat of combatColumns; track combat.label) {
+              <div class="cell group-cell">{{ combat.label }}</div>
+            }
+          </div>
+          <div class="head-row head-sub-row">
+            <div class="cell">Current</div>
+            <div class="cell">Goal</div>
+            @for (combat of combatColumns; track combat.label) {
+              <div class="cell">Current</div>
+              <div class="cell">Goal</div>
+            }
+          </div>
+        </div>
         <div class="cell action-cell"></div>
       </div>
 
-      @for (row of view.rows; track row.progress.characterId) {
+      @for (row of view.rows; track row.key) {
         <div class="character-entry">
           <div
             class="table-row table-body"
-            [class.selected]="isExpanded(row.progress.characterId)"
+            [class.selected]="isExpanded(row.progress)"
           >
             <div class="cell icon-cell">
-              <img
-                class="character-icon"
-                [src]="getCharacterIcon(row.normalizedName)"
-                [alt]="row.name"
-              />
+              @if (isTraveler(row.progress)) {
+                <div class="guide">
+                  <div
+                    class="mix mix-2 traveler-icon"
+                    role="img"
+                    [attr.aria-label]="row.name"
+                  >
+                    <div><img [src]="getCharacterIcon('lumine')" alt="" /></div>
+                    <div><img [src]="getCharacterIcon('aether')" alt="" /></div>
+                  </div>
+                </div>
+              } @else {
+                <img
+                  class="character-icon"
+                  [src]="getCharacterIcon(row.normalizedName)"
+                  [alt]="row.name"
+                />
+              }
             </div>
 
             <div
               class="cell name-cell"
-              (click)="onRowClicked(row.progress.characterId)"
+              (click)="onRowClicked(row.progress)"
             >
               {{ row.name }}
             </div>
@@ -83,7 +106,7 @@
             <div class="cell action-cell">
               <button
                 class="remove-btn"
-                (click)="onRemoveCharacter(row.progress.characterId)"
+                (click)="onRemoveCharacter(row.progress)"
                 title="Remove"
               >
                 ✕
@@ -91,7 +114,7 @@
             </div>
           </div>
 
-          @if (isExpanded(row.progress.characterId) && calculatedCost) {
+          @if (isExpanded(row.progress) && calculatedCost) {
             <div class="row-details">
               <app-material-cost-display
                 [cost]="calculatedCost"
@@ -109,7 +132,7 @@
       class="add-search"
       placeholder="+ Add character"
       [characters]="view.available"
-      (characterSelected)="onAddCharacter($event.id)"
+      (characterSelected)="onAddCharacter($event)"
     />
   }
 </div>

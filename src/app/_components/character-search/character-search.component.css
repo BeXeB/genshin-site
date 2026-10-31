@@ -17,6 +17,11 @@
   z-index: 1000;
 }
 
+.dropdown.open-up {
+  top: auto;
+  bottom: 100%;
+}
+
 .option {
   display: flex;
   align-items: center;

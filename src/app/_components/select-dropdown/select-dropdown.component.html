@@ -13,7 +13,7 @@
 </button>
 
 @if (showDropdown) {
-  <div class="dropdown" role="listbox">
+  <div class="dropdown" [class.open-up]="openUp" role="listbox">
     @for (option of options; track option) {
       <div
         class="option"

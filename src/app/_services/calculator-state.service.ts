@@ -1,9 +1,13 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import {
+  AETHER_ID,
   CalculatorInventory,
+  CharacterEntryKey,
   CharacterProgressEntry,
+  TRAVELER_ID,
   WeaponProgressEntry,
+  isSameEntry,
 } from '../_models/calculator';
 import { CalculatorStorageService } from './calculator-storage.service';
 
@@ -11,6 +15,19 @@ const EMPTY_INVENTORY: CalculatorInventory = {
   characters: [],
   weapons: [],
 };
+
+/** Maps saved Aether entries onto the merged Traveler, keeping one entry per element */
+function mergeTravelerEntries(inventory: CalculatorInventory): CalculatorInventory {
+  const characters: CharacterProgressEntry[] = [];
+  for (const entry of inventory.characters) {
+    const migrated =
+      entry.characterId === AETHER_ID ? { ...entry, characterId: TRAVELER_ID } : entry;
+    if (!characters.some((c) => isSameEntry(c, migrated))) {
+      characters.push(migrated);
+    }
+  }
+  return { ...inventory, characters };
+}
 
 @Injectable({
   providedIn: 'root',
@@ -31,7 +48,7 @@ export class CalculatorStateService {
   private loadInventory(): void {
     const stored = this.storageService.loadInventory();
     if (stored) {
-      this.inventorySubject.next(stored);
+      this.inventorySubject.next(mergeTravelerEntries(stored));
     }
   }
 
@@ -63,9 +80,7 @@ export class CalculatorStateService {
   addCharacter(characterEntry: CharacterProgressEntry): void {
     const current = this.getCurrentInventory();
     // Avoid duplicates
-    if (
-      current.characters.some((c) => c.characterId === characterEntry.characterId)
-    ) {
+    if (current.characters.some((c) => isSameEntry(c, characterEntry))) {
       console.warn(
         `Character with ID ${characterEntry.characterId} already in inventory`,
       );
@@ -87,13 +102,11 @@ export class CalculatorStateService {
   /**
    * Remove a character from inventory
    */
-  removeCharacter(characterId: number): void {
+  removeCharacter(entry: CharacterEntryKey): void {
     const current = this.getCurrentInventory();
     const updated: CalculatorInventory = {
       ...current,
-      characters: current.characters.filter(
-        (c) => c.characterId !== characterId,
-      ),
+      characters: current.characters.filter((c) => !isSameEntry(c, entry)),
     };
     this.updateInventory(updated);
   }
@@ -102,14 +115,14 @@ export class CalculatorStateService {
    * Update a character's progress
    */
   updateCharacterProgress(
-    characterId: number,
+    entry: CharacterEntryKey,
     updates: Partial<CharacterProgressEntry>,
   ): void {
     const current = this.getCurrentInventory();
     const updated: CalculatorInventory = {
       ...current,
       characters: current.characters.map((c) => {
-        if (c.characterId === characterId) {
+        if (isSameEntry(c, entry)) {
           const merged = { ...c, ...updates };
           // Automatically calculate ascensions from levels
           return {
@@ -127,10 +140,8 @@ export class CalculatorStateService {
   /**
    * Get a specific character from inventory
    */
-  getCharacter(characterId: number): CharacterProgressEntry | undefined {
-    return this.getCurrentInventory().characters.find(
-      (c) => c.characterId === characterId,
-    );
+  getCharacter(entry: CharacterEntryKey): CharacterProgressEntry | undefined {
+    return this.getCurrentInventory().characters.find((c) => isSameEntry(c, entry));
   }
 
   /**

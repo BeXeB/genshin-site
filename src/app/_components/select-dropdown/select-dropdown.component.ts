@@ -1,4 +1,7 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, Output } from '@angular/core';
+
+// Matches the .dropdown max-height in the stylesheet
+const DROPDOWN_MAX_HEIGHT = 350;
 
 @Component({
   selector: 'app-select-dropdown',
@@ -13,9 +16,22 @@ export class SelectDropdownComponent {
   @Output() valueChange = new EventEmitter<string>();
 
   showDropdown = false;
+  openUp = false;
+
+  constructor(private host: ElementRef<HTMLElement>) {}
 
   toggle(): void {
+    if (!this.showDropdown) {
+      this.openUp = this.shouldOpenUp();
+    }
     this.showDropdown = !this.showDropdown;
+  }
+
+  private shouldOpenUp(): boolean {
+    const rect = this.host.nativeElement.getBoundingClientRect();
+    const spaceBelow = window.innerHeight - rect.bottom;
+    const spaceAbove = rect.top;
+    return spaceBelow < DROPDOWN_MAX_HEIGHT && spaceAbove > spaceBelow;
   }
 
   select(option: number | string): void {

@@ -9,8 +9,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
-  padding: 20px;
+  gap: 16px;
+  padding: 12px 20px;
   background: linear-gradient(135deg, var(--geo) 0%, var(--geo-dark) 100%);
   border: 1px solid var(--geo-dark);
   border-radius: 8px;
@@ -21,8 +21,8 @@
 }
 
 .mora-icon {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -130,12 +130,13 @@
 
   .mora-card {
     flex-direction: column;
+    gap: 8px;
     text-align: center;
   }
 
   .mora-icon {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
   }
 
   .mora-amount {
