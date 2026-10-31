@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { Component, DestroyRef, OnInit } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { CommonModule, Location } from '@angular/common';
+import { ActivatedRoute, ParamMap, Params, RouterLink, Router } from '@angular/router';
 import { combineLatest, map, shareReplay, take } from 'rxjs';
 import { CalculatorStateService } from '../../../_services/calculator-state.service';
 import { MaterialCalculationService } from '../../../_services/material-calculation.service';
@@ -19,6 +20,7 @@ import {
 } from '../../../_components/character-search/character-search.component';
 import { SelectDropdownComponent } from '../../../_components/select-dropdown/select-dropdown.component';
 import { buildLevelOptions, LEVEL_CAP_BY_ASCENSION } from '../level-options';
+import { replaceQueryParams } from '../url-state';
 
 type WeaponRow = {
   progress: WeaponProgressEntry;
@@ -57,7 +59,7 @@ function getMaxAscension(weapon: Weapon): number {
     './weapon-calculator.component.css',
   ],
 })
-export class WeaponCalculatorComponent {
+export class WeaponCalculatorComponent implements OnInit {
   weapons$ = this.weaponService.getWeapons().pipe(shareReplay(1));
   inventory$ = this.calculatorState.inventory$;
   /** Weapon whose row is expanded */
@@ -92,7 +94,35 @@ export class WeaponCalculatorComponent {
     private calculatorState: CalculatorStateService,
     private calculationService: MaterialCalculationService,
     private imageService: ImageService,
+    private route: ActivatedRoute,
+    private router: Router,
+    private location: Location,
+    private destroyRef: DestroyRef,
   ) {}
+
+  ngOnInit(): void {
+    // Restores the expanded row on load and on Back navigation
+    combineLatest([this.route.queryParamMap, this.weapons$])
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe(([params, weapons]) => this.restoreSelection(params, weapons));
+  }
+
+  /**
+   * Expands the weapon named in the URL, or collapses everything when the URL names none
+   */
+  private restoreSelection(params: ParamMap, weapons: Weapon[]): void {
+    const weaponId = Number(params.get('weapon'));
+    const weapon =
+      params.has('weapon') && this.calculatorState.getWeapon(weaponId)
+        ? weapons.find((w) => w.id === weaponId)
+        : undefined;
+    if (!weapon) {
+      this.clearSelection();
+    } else if (!this.isExpanded(weaponId)) {
+      this.selectedWeapon = weapon;
+      this.recalculateCost();
+    }
+  }
 
   /**
    * Add a weapon from the search; the option's characterId holds the weapon ID
@@ -119,6 +149,7 @@ export class WeaponCalculatorComponent {
     this.calculatorState.removeWeapon(weaponId);
     if (this.isExpanded(weaponId)) {
       this.clearSelection();
+      this.syncUrl({});
     }
   }
 
@@ -131,10 +162,17 @@ export class WeaponCalculatorComponent {
     }
     if (this.isExpanded(row.progress.weaponId)) {
       this.clearSelection();
+      this.syncUrl({});
       return;
     }
     this.selectedWeapon = row.weapon;
     this.recalculateCost();
+    this.syncUrl({ weapon: row.weapon.id });
+  }
+
+  /** Writes the expanded row to the URL so Back returns to it */
+  private syncUrl(params: Params): void {
+    replaceQueryParams(this.router, this.location, this.route, params);
   }
 
   isExpanded(weaponId: number): boolean {

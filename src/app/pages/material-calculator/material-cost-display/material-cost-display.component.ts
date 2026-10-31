@@ -1,23 +1,65 @@
 import { Component, Input, OnChanges, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgTemplateOutlet } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { LevelingCost, MaterialTotal } from '../../../_models/calculator';
 import { MaterialService } from '../../../_services/material.service';
 import { Material } from '../../../_models/materials';
-import { MaterialType } from '../../../_models/enum';
+import { MaterialType, MaterialTypeLabel } from '../../../_models/enum';
+
+export interface MaterialTableColumn {
+  rarity: number;
+  label: string;
+}
+
+/** One line per material family, or per material when the family's rarities repeat */
+export interface MaterialTableLine {
+  /** Highest-rarity material; supplies the icon and name */
+  lead: MaterialTotal;
+  /** One entry per column; undefined when the line has no material of that rarity */
+  cells: (MaterialTotal | undefined)[];
+}
+
+export interface MaterialTypeGroup {
+  label: string;
+  columns: MaterialTableColumn[];
+  lines: MaterialTableLine[];
+}
+
+/** Section order follows the Excel TODO sheet; gemstones sit after local specialty. */
+const TYPE_DISPLAY_ORDER: MaterialType[] = [
+  MaterialType.TALENT_MATERIAL,
+  MaterialType.WEAPON_MATERIAL,
+  MaterialType.GENERIC_MATERIAL,
+  MaterialType.BOSS_MATERIAL,
+  MaterialType.LOCAL_SPECIALTY,
+  MaterialType.GEMSTONE,
+  MaterialType.XP_AND_MORA,
+];
+
+/** Rarity column headers, named as in the Excel TODO sheet */
+const RARITY_NAMES: Partial<Record<number, string>> = {
+  5: 'Gold',
+  4: 'Purple',
+  3: 'Blue',
+  2: 'Green',
+  1: 'White',
+};
 
 @Component({
   selector: 'app-material-cost-display',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, NgTemplateOutlet, RouterLink],
   templateUrl: './material-cost-display.component.html',
   styleUrl: './material-cost-display.component.css',
 })
 export class MaterialCostDisplayComponent implements OnInit, OnChanges {
   @Input() cost: LevelingCost | null = null;
   @Input() characterName: string = '';
+  /** Show materials as one table per type instead of a flat grid */
+  @Input() groupByType = false;
 
   sortedMaterials: MaterialTotal[] = [];
+  typeGroups: MaterialTypeGroup[] = [];
   private materialMap: Map<number, Material> = new Map();
 
   constructor(private materialService: MaterialService) {}
@@ -54,6 +96,74 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
         infoA.type - infoB.type || infoB.rarity - infoA.rarity || infoA.sortRank - infoB.sortRank
       );
     });
+    this.typeGroups = this.buildTypeGroups(this.sortedMaterials);
+  }
+
+  /** Split materials into one table per type, in TYPE_DISPLAY_ORDER */
+  private buildTypeGroups(materials: MaterialTotal[]): MaterialTypeGroup[] {
+    const groups: MaterialTypeGroup[] = [];
+    for (const type of TYPE_DISPLAY_ORDER) {
+      const items = materials.filter((m) => this.materialMap.get(m.materialId)?.type === type);
+      if (items.length > 0) {
+        groups.push(this.buildGroup(this.sectionLabel(type), items));
+      }
+    }
+    const unknown = materials.filter((m) => !this.materialMap.has(m.materialId));
+    if (unknown.length > 0) {
+      groups.push(this.buildGroup('Other', unknown));
+    }
+    return groups;
+  }
+
+  /**
+   * One line per sortRank family, one column per rarity. A family whose rarities repeat
+   * (e.g. boss drops sharing one sortRank) is split into one line per material.
+   */
+  private buildGroup(label: string, items: MaterialTotal[]): MaterialTypeGroup {
+    const rarityOf = (m: MaterialTotal) => this.materialMap.get(m.materialId)?.rarity ?? 0;
+    const familyOf = (m: MaterialTotal) => this.materialMap.get(m.materialId)?.sortRank ?? 0;
+
+    const rarities = [...new Set(items.map(rarityOf))].sort((a, b) => b - a);
+    const columns: MaterialTableColumn[] = rarities.map((rarity) => ({
+      rarity,
+      label: RARITY_NAMES[rarity] ?? 'Amount',
+    }));
+
+    const families = new Map<number, MaterialTotal[]>();
+    for (const item of items) {
+      const family = familyOf(item);
+      families.set(family, [...(families.get(family) ?? []), item]);
+    }
+
+    const lines: MaterialTableLine[] = [];
+    for (const members of families.values()) {
+      const distinct = new Set(members.map(rarityOf)).size === members.length;
+      for (const group of distinct ? [members] : members.map((m) => [m])) {
+        const lead = group.reduce((best, m) => (rarityOf(m) > rarityOf(best) ? m : best));
+        lines.push({
+          lead,
+          cells: rarities.map((rarity) => group.find((m) => rarityOf(m) === rarity)),
+        });
+      }
+    }
+
+    lines.sort(
+      (a, b) =>
+        rarityOf(b.lead) - rarityOf(a.lead) ||
+        familyOf(a.lead) - familyOf(b.lead) ||
+        a.lead.materialName.localeCompare(b.lead.materialName),
+    );
+
+    return { label, columns, lines };
+  }
+
+  private sectionLabel(type: MaterialType): string {
+    return type === MaterialType.GENERIC_MATERIAL ? 'Generic Material' : MaterialTypeLabel[type];
+  }
+
+  /** Header colour for a rarity column; empty when the column has no rarity */
+  rarityColor(rarity: number): string {
+    return rarity > 0 ? `var(--rar-${rarity})` : '';
   }
 
   /**

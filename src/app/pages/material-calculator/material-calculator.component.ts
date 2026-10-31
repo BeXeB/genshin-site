@@ -1,7 +1,7 @@
 import { Component, DestroyRef, OnInit } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { CommonModule, Location } from '@angular/common';
+import { ActivatedRoute, ParamMap, Params, RouterLink, Router } from '@angular/router';
 import { catchError, combineLatest, map, Observable, of, shareReplay, switchMap } from 'rxjs';
 import { CharacterService } from '../../_services/character.service';
 import { CalculatorStateService } from '../../_services/calculator-state.service';
@@ -14,7 +14,7 @@ import {
   isSameEntry,
   TRAVELER_ID,
 } from '../../_models/calculator';
-import { Character, CharacterProfile, CharacterTalents } from '../../_models/character';
+import { Character, CharacterProfile } from '../../_models/character';
 import { ElementType, ElementTypeLabel } from '../../_models/enum';
 import { MaterialCostDisplayComponent } from './material-cost-display/material-cost-display.component';
 import {
@@ -24,6 +24,7 @@ import {
 import { SelectDropdownComponent } from '../../_components/select-dropdown/select-dropdown.component';
 import { ImageService } from '../../_services/image.service';
 import { buildLevelOptions } from './level-options';
+import { replaceQueryParams } from './url-state';
 
 type SelectedCharacter = Pick<Character, 'profile' | 'skills' | 'variants'>;
 
@@ -142,6 +143,9 @@ export class MaterialCalculatorComponent implements OnInit {
     private calculationService: MaterialCalculationService,
     private destroyRef: DestroyRef,
     private imageService: ImageService,
+    private route: ActivatedRoute,
+    private router: Router,
+    private location: Location,
   ) {}
 
   ngOnInit(): void {
@@ -151,6 +155,27 @@ export class MaterialCalculatorComponent implements OnInit {
         this.loadCharacter(progress.characterId).subscribe();
       }
     });
+
+    // Restores the expanded row on load and on Back navigation
+    this.route.queryParamMap
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe((params) => this.restoreSelection(params));
+  }
+
+  /**
+   * Expands the row named in the URL, or collapses everything when the URL names none
+   */
+  private restoreSelection(params: ParamMap): void {
+    const characterId = Number(params.get('character'));
+    const element = (params.get('element') ?? undefined) as ElementType | undefined;
+    const progress = params.has('character')
+      ? this.calculatorState.getCharacter({ characterId, element })
+      : undefined;
+    if (!progress) {
+      this.clearSelection();
+    } else if (!this.isExpanded(progress)) {
+      this.onCharacterSelected(progress);
+    }
   }
 
   /**
@@ -212,6 +237,7 @@ export class MaterialCalculatorComponent implements OnInit {
     this.calculatorState.removeCharacter(entry);
     if (this.isExpanded(entry)) {
       this.clearSelection();
+      this.syncUrl({});
     }
   }
 
@@ -221,12 +247,19 @@ export class MaterialCalculatorComponent implements OnInit {
   onRowClicked(entry: CharacterEntryKey): void {
     if (this.isExpanded(entry)) {
       this.clearSelection();
+      this.syncUrl({});
       return;
     }
     const progress = this.calculatorState.getCharacter(entry);
     if (progress) {
       this.onCharacterSelected(progress);
+      this.syncUrl({ character: entry.characterId, element: entry.element });
     }
+  }
+
+  /** Writes the expanded row to the URL so Back returns to it */
+  private syncUrl(params: Params): void {
+    replaceQueryParams(this.router, this.location, this.route, params);
   }
 
   isExpanded(entry: CharacterEntryKey): boolean {
@@ -303,15 +336,6 @@ export class MaterialCalculatorComponent implements OnInit {
     this.calculatedCost = null;
   }
 
-  /** Traveler talents differ per element; other characters use their base talents */
-  private getSkills(
-    character: SelectedCharacter,
-    element?: ElementType,
-  ): CharacterTalents | undefined {
-    const variant = element ? character.variants?.[element] : undefined;
-    return variant?.skills ?? character.skills;
-  }
-
   /**
    * Recalculate material costs based on current progress
    */
@@ -321,28 +345,9 @@ export class MaterialCalculatorComponent implements OnInit {
       return;
     }
 
-    const {
-      currentLevel,
-      goalLevel,
-      currentAscension,
-      goalAscension,
-    } = this.selectedCharacterProgress;
-
-    const characterCost = this.calculationService.calculateCharacterTotalCost(
-      this.selectedCharacter.profile,
-      currentLevel,
-      goalLevel,
-      currentAscension,
-      goalAscension,
-    );
-    const talentCost = this.calculationService.calculateAllTalentsCost(
-      this.getSkills(this.selectedCharacter, this.selectedCharacterProgress.element),
+    this.calculatedCost = this.calculationService.calculateCharacterEntryCost(
+      this.selectedCharacter,
       this.selectedCharacterProgress,
-    );
-
-    this.calculatedCost = this.calculationService.mergeCosts(
-      characterCost,
-      talentCost,
     );
   }
 }

@@ -45,6 +45,15 @@ export const routes: Routes = [
   },
   {
     path: 'material-calculator',
+    data: { preloadCalculator: true },
+    loadComponent: () =>
+      import('./pages/material-calculator/material-totals/material-totals.component').then(
+        (m) => m.MaterialTotalsComponent,
+      ),
+  },
+  {
+    path: 'character',
+    data: { preloadCalculator: true },
     loadComponent: () =>
       import('./pages/material-calculator/material-calculator.component').then(
         (m) => m.MaterialCalculatorComponent,
@@ -52,6 +61,7 @@ export const routes: Routes = [
   },
   {
     path: 'material-calculator/weapons',
+    data: { preloadCalculator: true },
     loadComponent: () =>
       import('./pages/material-calculator/weapon-calculator/weapon-calculator.component').then(
         (m) => m.WeaponCalculatorComponent,

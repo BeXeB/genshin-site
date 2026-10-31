@@ -114,6 +114,83 @@
   width: 100%;
 }
 
+/* Per-type tables (layout follows the Excel TODO sheet) */
+.material-table-wrapper {
+  overflow-x: auto;
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+}
+
+.material-type-table {
+  width: 100%;
+  /* Name column takes the remaining width; the wrapper scrolls below this */
+  min-width: 640px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background: var(--dark-gray);
+}
+
+.material-type-table .col-count {
+  width: 110px;
+}
+
+.material-type-table th,
+.material-type-table td {
+  padding: 4px 10px;
+  border-top: 1px solid var(--gray);
+  border-bottom: 1px solid var(--gray);
+  vertical-align: middle;
+  text-align: left;
+}
+
+.material-type-table th:first-child,
+.material-type-table td:first-child {
+  border-right: 1px solid var(--gray);
+}
+
+.material-type-table th {
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: var(--darker-gray);
+}
+
+.line-lead {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--light-gray);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a.line-lead:hover {
+  color: var(--white);
+}
+
+.line-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.count-col {
+  text-align: center;
+  border-left: 1px solid var(--gray);
+}
+
+.count-link,
+.count-value {
+  color: var(--white);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.count-link:hover {
+  text-decoration: underline;
+}
+
 .no-cost {
   padding: 20px;
   text-align: center;

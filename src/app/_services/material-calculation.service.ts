@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { CharacterProfile, CharacterTalents } from '../_models/character';
+import { Character, CharacterProfile, CharacterTalents } from '../_models/character';
+import { ElementType } from '../_models/enum';
 import { Weapon } from '../_models/weapons';
 import {
   CharacterProgressEntry,
@@ -478,6 +479,36 @@ export class MaterialCalculationService {
     const consolidatedMaterials = this.consolidateMaterials(allMaterials);
 
     return { materials: consolidatedMaterials, totalMora };
+  }
+
+  /**
+   * Get leveling, ascension and talent costs for one character entry
+   */
+  calculateCharacterEntryCost(
+    character: Pick<Character, 'profile' | 'skills' | 'variants'>,
+    progress: CharacterProgressEntry,
+  ): LevelingCost {
+    const characterCost = this.calculateCharacterTotalCost(
+      character.profile,
+      progress.currentLevel,
+      progress.goalLevel,
+      progress.currentAscension,
+      progress.goalAscension,
+    );
+    const talentCost = this.calculateAllTalentsCost(
+      this.getSkills(character, progress.element),
+      progress,
+    );
+    return this.mergeCosts(characterCost, talentCost);
+  }
+
+  /** Traveler talents differ per element; other characters use their base talents */
+  private getSkills(
+    character: Pick<Character, 'skills' | 'variants'>,
+    element?: ElementType,
+  ): CharacterTalents | undefined {
+    const variant = element ? character.variants?.[element] : undefined;
+    return variant?.skills ?? character.skills;
   }
 
   /**
