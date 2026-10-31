@@ -13,3 +13,10 @@
   justify-content: flex-end;
   padding-right: 8px;
 }
+
+/* Two level columns, same width as the body cells */
+.weapon-table .level-groups {
+  display: flex;
+  flex: 0 0 280px;
+  flex-direction: column;
+}

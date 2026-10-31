@@ -28,12 +28,18 @@ export class CharacterService {
   private basePath = 'assets/json/characters/';
   private briefDescriptionPath = 'assets/json/briefdescription/';
 
+  private profiles$?: Observable<CharacterProfile[]>;
   private talentIndex$?: Observable<CharacterTalentIndex>;
 
   constructor(private http: HttpClient) {}
 
   getCharacters(): Observable<CharacterProfile[]> {
-    return this.http.get<CharacterProfile[]>(`${this.basePath}profiles.json`);
+    if (!this.profiles$) {
+      this.profiles$ = this.http
+        .get<CharacterProfile[]>(`${this.basePath}profiles.json`)
+        .pipe(shareReplay(1));
+    }
+    return this.profiles$;
   }
 
   getCharacterNames(): Observable<string[]> {

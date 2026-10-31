@@ -143,7 +143,7 @@ export class TalentEditorComponent implements OnInit, OnDestroy {
       .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: (data: CharacterProfile[]) => {
-          this.characters = data.sort((b, a) => a.sortId - b.sortId);
+          this.characters = [...data].sort((b, a) => a.sortId - b.sortId);
 
           // Try to restore state after characters are loaded
           this.restoreState();
