@@ -1,20 +1,5 @@
 @if (cost) {
   <div class="material-cost-container">
-    <!-- Mora Cost -->
-    @if (cost.totalMora > 0 && !groupByType) {
-      <div class="mora-card card card-no-hover">
-        <img
-          src="assets/images/materials/xp-and-mora/mora.webp"
-          alt="Mora"
-          class="mora-icon"
-        />
-        <div class="mora-details">
-          <div class="mora-label">Mora</div>
-          <div class="mora-amount">{{ formatMora(cost.totalMora) }}</div>
-        </div>
-      </div>
-    }
-
     <!-- Materials: one table per type, or a flat grid -->
     @if (groupByType) {
       <div class="material-table-grid">
@@ -117,12 +102,22 @@
           </div>
         }
       </div>
-    } @else if (sortedMaterials.length > 0) {
+    } @else if (sortedMaterials.length > 0 || cost.totalMora > 0) {
       <div class="materials-section">
         <h3>Materials Needed</h3>
         <div class="materials-grid">
           @for (material of sortedMaterials; track material.materialId) {
             <ng-container *ngTemplateOutlet="materialCard; context: { $implicit: material }" />
+          }
+          @if (cost.totalMora > 0) {
+            <ng-container
+              *ngTemplateOutlet="
+                materialCard;
+                context: {
+                  $implicit: { materialId: 202, materialName: 'Mora', quantity: formatMora(cost.totalMora) }
+                }
+              "
+            />
           }
         </div>
       </div>
@@ -134,13 +129,15 @@
         [routerLink]="getMaterialLink(material.materialId, material.materialName)"
         [style.border-color]="getRarityColor(material.materialId)"
       >
-        <img
-          [src]="getMaterialImagePath(material.materialId, material.materialName)"
-          [alt]="material.materialName"
-          class="material-image"
-        />
+        <div class="material-body">
+          <img
+            [src]="getMaterialImagePath(material.materialId, material.materialName)"
+            [alt]="material.materialName"
+            class="material-image"
+          />
+          <div class="material-name">{{ material.materialName }}</div>
+        </div>
         <div class="material-quantity">{{ material.quantity }}</div>
-        <div class="material-name">{{ material.materialName }}</div>
       </div>
     </ng-template>
   </div>

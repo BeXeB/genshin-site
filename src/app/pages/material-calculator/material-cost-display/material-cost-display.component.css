@@ -4,47 +4,6 @@
   gap: 16px;
 }
 
-/* Mora Card */
-.mora-card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 16px;
-  padding: 12px 20px;
-  background: linear-gradient(135deg, var(--geo) 0%, var(--geo-dark) 100%);
-  border: 1px solid var(--geo-dark);
-  border-radius: 8px;
-}
-
-.mora-card:hover {
-  box-shadow: none;
-}
-
-.mora-icon {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
-.mora-details {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.mora-label {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--darker-gray);
-}
-
-.mora-amount {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--darker-gray);
-}
-
 /* Materials Section */
 .materials-section {
   display: flex;
@@ -69,20 +28,27 @@
 .material-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  padding: 12px;
-  background: var(--dark-gray);
+  padding: 0;
+  background: var(--darker-gray);
   border: 1px solid var(--gray);
   border-radius: 8px;
   transition: all 0.2s;
   overflow: hidden;
-  position: relative;
   cursor: pointer;
 }
 
 .material-card:hover {
+  background: var(--darker-gray);
   box-shadow: 0 0 12px var(--shadow-blue);
+}
+
+.material-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
 }
 
 .material-card .material-image {
@@ -93,15 +59,9 @@
 }
 
 .material-quantity {
-  position: absolute;
-  top: 4px;
-  right: 4px;
-  background: var(--blue);
-  color: var(--darker-gray);
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 0.9rem;
+  text-align: center;
+  background-color: var(--dark-gray);
+  padding: 5px;
 }
 
 .material-name {
@@ -238,21 +198,6 @@ a.line-lead:hover {
   .materials-grid {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
-
-  .mora-card {
-    flex-direction: column;
-    gap: 8px;
-    text-align: center;
-  }
-
-  .mora-icon {
-    width: 48px;
-    height: 48px;
-  }
-
-  .mora-amount {
-    font-size: 1.3rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -261,7 +206,7 @@ a.line-lead:hover {
     gap: 8px;
   }
 
-  .material-card {
+  .material-body {
     padding: 8px;
     gap: 4px;
   }
@@ -269,11 +214,6 @@ a.line-lead:hover {
   .material-card .material-image {
     width: 60px;
     height: 60px;
-  }
-
-  .material-quantity {
-    font-size: 0.8rem;
-    padding: 2px 6px;
   }
 
   .material-name {
