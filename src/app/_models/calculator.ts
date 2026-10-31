@@ -102,6 +102,8 @@ export function createDefaultWeaponProgress(
 export type CalculatorInventory = {
   characters: CharacterProgressEntry[];
   weapons: WeaponProgressEntry[];
+  /** Owned counts by material ID; missing IDs count as zero */
+  ownedMaterials: Record<number, number>;
   lastUpdated?: number; // timestamp
 };
 

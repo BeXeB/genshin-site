@@ -14,6 +14,7 @@ import { CalculatorStorageService } from './calculator-storage.service';
 const EMPTY_INVENTORY: CalculatorInventory = {
   characters: [],
   weapons: [],
+  ownedMaterials: {},
 };
 
 /** Copies the Traveler's shared level and ascensions; talents stay per element */
@@ -244,6 +245,21 @@ export class CalculatorStateService {
     return this.getCurrentInventory().weapons.find(
       (w) => w.weaponId === weaponId,
     );
+  }
+
+  /**
+   * Set how many of a material are owned; zero removes the entry
+   */
+  setOwnedMaterial(materialId: number, quantity: number): void {
+    const current = this.getCurrentInventory();
+    const amount = Number.isFinite(quantity) ? Math.max(0, Math.floor(quantity)) : 0;
+    const ownedMaterials = { ...current.ownedMaterials };
+    if (amount > 0) {
+      ownedMaterials[materialId] = amount;
+    } else {
+      delete ownedMaterials[materialId];
+    }
+    this.updateInventory({ ...current, ownedMaterials });
   }
 
   /**

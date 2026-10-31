@@ -67,4 +67,12 @@ export const routes: Routes = [
         (m) => m.WeaponCalculatorComponent,
       ),
   },
+  {
+    path: 'material-calculator/inventory',
+    data: { preloadCalculator: true },
+    loadComponent: () =>
+      import('./pages/material-calculator/material-inventory/material-inventory.component').then(
+        (m) => m.MaterialInventoryComponent,
+      ),
+  },
 ];

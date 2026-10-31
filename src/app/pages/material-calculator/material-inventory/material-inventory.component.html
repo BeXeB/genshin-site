@@ -1,0 +1,20 @@
+<div class="material-calculator-container">
+  <h1>Material Calculator</h1>
+
+  <div class="button-group">
+    <button class="button" routerLink="/material-calculator">Materials</button>
+    <button class="button" routerLink="/character">Characters</button>
+    <button class="button" routerLink="/material-calculator/weapons">Weapons</button>
+    <button class="button active">Inventory</button>
+  </div>
+
+  @if (allMaterials$ | async; as allMaterials) {
+    <app-material-cost-display
+      [cost]="allMaterials"
+      [groupByType]="true"
+      [inventoryMode]="true"
+      [ownedMaterials]="owned$ | async"
+      (ownedChange)="onOwnedChange($event)"
+    />
+  }
+</div>

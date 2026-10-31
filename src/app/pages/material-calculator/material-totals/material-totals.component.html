@@ -5,13 +5,27 @@
     <button class="button active">Materials</button>
     <button class="button" routerLink="/character">Characters</button>
     <button class="button" routerLink="/material-calculator/weapons">Weapons</button>
+    <button class="button" routerLink="/material-calculator/inventory">Inventory</button>
   </div>
 
   @if (view$ | async; as view) {
     @if (view.isEmpty) {
       <div class="empty-table">Add characters or weapons to see the materials they need</div>
     } @else {
-      <app-material-cost-display [cost]="view.cost" [groupByType]="true" />
+      <div class="owned-note">
+        <span
+          class="info-icon"
+          role="img"
+          aria-label="Info"
+          title="Amounts are still needed after your inventory. Hover a number to see the total needed."
+          >i</span
+        >
+      </div>
+      <app-material-cost-display
+        [cost]="view.cost"
+        [groupByType]="true"
+        [ownedMaterials]="view.ownedMaterials"
+      />
     }
   }
 </div>

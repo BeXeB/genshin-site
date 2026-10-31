@@ -178,6 +178,25 @@ a.line-lead:hover {
   text-decoration: underline;
 }
 
+.owned-input {
+  width: 100%;
+  max-width: 90px;
+  padding: 4px;
+  border: 1px solid var(--gray);
+  border-radius: 4px;
+  background: var(--dark-gray);
+  color: var(--white);
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.owned-input:focus {
+  outline: none;
+  border-color: var(--blue);
+}
+
 .no-cost {
   padding: 20px;
   text-align: center;

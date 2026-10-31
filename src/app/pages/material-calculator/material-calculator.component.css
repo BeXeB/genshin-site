@@ -19,6 +19,26 @@
   pointer-events: none;
 }
 
+.owned-note {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--light-gray);
+  border-radius: 50%;
+  color: var(--light-gray);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: help;
+}
+
 .add-search {
   max-width: 300px;
   margin-top: 12px;

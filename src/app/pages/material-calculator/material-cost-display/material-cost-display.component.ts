@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, OnInit, Output } from '@angular/core';
 import { CommonModule, NgTemplateOutlet } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { LevelingCost, MaterialTotal } from '../../../_models/calculator';
@@ -57,6 +57,9 @@ const WEEKLY_BOSS_RARITY = 5;
 /** Talent materials of this rarity are the crowns */
 const CROWN_RARITY = 5;
 
+/** Mora's material ID, used for owned-count lookups */
+const MORA_ID = 202;
+
 /** Rarity column headers, named as in the Excel TODO sheet */
 const RARITY_NAMES: Partial<Record<number, string>> = {
   5: 'Gold',
@@ -78,10 +81,16 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
   @Input() characterName: string = '';
   /** Show materials as one table per type instead of a flat grid */
   @Input() groupByType = false;
+  /** Materials tab: shown amounts are still needed after these owned counts */
+  @Input() ownedMaterials: Record<number, number> | null = null;
+  /** Inventory tab: count cells become inputs that emit ownedChange */
+  @Input() inventoryMode = false;
+  @Output() ownedChange = new EventEmitter<{ materialId: number; quantity: number }>();
 
   sortedMaterials: MaterialTotal[] = [];
   typeRows: MaterialTypeGroup[][] = [];
   private materialMap: Map<number, Material> = new Map();
+  private neededById = new Map<number, number>();
 
   constructor(private materialService: MaterialService) {}
 
@@ -110,14 +119,42 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
       };
     };
 
-    this.sortedMaterials = [...(this.cost?.materials ?? [])].sort((a, b) => {
+    const needed = this.cost?.materials ?? [];
+    this.neededById = new Map(needed.map((m) => [m.materialId, m.quantity]));
+    const shown = this.subtractsOwned
+      ? needed
+          .map((m) => ({ ...m, quantity: Math.max(0, m.quantity - this.ownedOf(m.materialId)) }))
+          .filter((m) => m.quantity > 0)
+      : needed;
+
+    this.sortedMaterials = [...shown].sort((a, b) => {
       const infoA = info(a.materialId);
       const infoB = info(b.materialId);
       return (
         infoA.type - infoB.type || infoB.rarity - infoA.rarity || infoA.sortRank - infoB.sortRank
       );
     });
-    this.typeRows = this.buildTypeRows(this.sortedMaterials, this.cost?.totalMora ?? 0);
+    const totalMora = this.cost?.totalMora ?? 0;
+    const mora = this.subtractsOwned ? Math.max(0, totalMora - this.ownedOf(MORA_ID)) : totalMora;
+    this.typeRows = this.buildTypeRows(this.sortedMaterials, mora);
+  }
+
+  /** Owned counts reduce the shown amounts, except on the inventory tab where they are inputs */
+  private get subtractsOwned(): boolean {
+    return this.ownedMaterials !== null && !this.inventoryMode;
+  }
+
+  ownedOf(materialId: number): number {
+    return this.ownedMaterials?.[materialId] ?? 0;
+  }
+
+  /** Total needed before owned counts were subtracted */
+  neededOf(materialId: number): number {
+    return this.neededById.get(materialId) ?? 0;
+  }
+
+  onOwnedInput(materialId: number, quantity: number): void {
+    this.ownedChange.emit({ materialId, quantity });
   }
 
   /** Split materials into rows of type sections, in TYPE_DISPLAY_ORDER */

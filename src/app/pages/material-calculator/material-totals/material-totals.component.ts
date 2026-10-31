@@ -48,6 +48,7 @@ export class MaterialTotalsComponent {
         map((costs) => ({
           isEmpty: entryCosts.length === 0,
           cost: this.calculationService.mergeCosts(...costs),
+          ownedMaterials: inventory.ownedMaterials,
         })),
       );
     }),

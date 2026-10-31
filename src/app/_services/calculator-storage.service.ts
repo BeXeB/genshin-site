@@ -42,6 +42,7 @@ export class CalculatorStorageService {
         ...createDefaultCharacterProgress(entry.characterId),
         ...entry,
       })),
+      ownedMaterials: inventory.ownedMaterials ?? {},
     };
   }
 

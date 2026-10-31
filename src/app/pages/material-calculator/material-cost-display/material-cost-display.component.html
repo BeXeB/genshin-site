@@ -34,7 +34,11 @@
                             </span>
                           </td>
                           <td class="count-col">
-                            <span class="count-value">{{ formatMora(group.mora) }}</span>
+                            <span
+                              class="count-value"
+                              [title]="'Total needed: ' + formatMora(cost.totalMora)"
+                              >{{ formatMora(group.mora) }}</span
+                            >
                           </td>
                         </tr>
                       </tbody>
@@ -82,10 +86,21 @@
                             </td>
                             @for (cell of line.cells; track $index) {
                               <td class="count-col">
-                                @if (cell) {
+                                @if (cell && inventoryMode) {
+                                  <input
+                                    #ownedInput
+                                    type="number"
+                                    min="0"
+                                    class="owned-input"
+                                    [attr.aria-label]="cell.materialName"
+                                    [value]="ownedOf(cell.materialId)"
+                                    (change)="onOwnedInput(cell.materialId, ownedInput.valueAsNumber)"
+                                  />
+                                } @else if (cell) {
                                   <a
                                     class="count-link"
                                     [routerLink]="getMaterialLink(cell.materialId, cell.materialName)"
+                                    [title]="'Total needed: ' + neededOf(cell.materialId)"
                                     >{{ cell.quantity }}</a
                                   >
                                 }
