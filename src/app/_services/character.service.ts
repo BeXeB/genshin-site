@@ -51,9 +51,7 @@ export class CharacterService {
   getCharacterDetails(name: string): Observable<Character> {
     let details$ = this.details.get(name);
     if (!details$) {
-      details$ = this.http
-        .get<Character>(`${this.basePath}${name}.json`)
-        .pipe(shareReplay(1));
+      details$ = this.http.get<Character>(`${this.basePath}${name}.json`).pipe(shareReplay(1));
       this.details.set(name, details$);
     }
     return details$;

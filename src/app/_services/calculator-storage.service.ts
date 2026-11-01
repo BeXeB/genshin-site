@@ -1,8 +1,5 @@
 import { Injectable } from '@angular/core';
-import {
-  CalculatorInventory,
-  createDefaultCharacterProgress,
-} from '../_models/calculator';
+import { CalculatorInventory, createDefaultCharacterProgress } from '../_models/calculator';
 import { StorageService } from './storage.service';
 
 const CALCULATOR_STORAGE_KEY = 'material-calculator-inventory';
@@ -28,9 +25,7 @@ export class CalculatorStorageService {
    * Load the calculator inventory from localStorage
    */
   loadInventory(): CalculatorInventory | null {
-    const inventory = this.storageService.getData<CalculatorInventory>(
-      CALCULATOR_STORAGE_KEY,
-    );
+    const inventory = this.storageService.getData<CalculatorInventory>(CALCULATOR_STORAGE_KEY);
     if (!inventory) {
       return null;
     }

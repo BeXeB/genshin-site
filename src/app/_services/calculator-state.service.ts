@@ -20,7 +20,7 @@ const EMPTY_INVENTORY: CalculatorInventory = {
 /** Copies the Traveler's shared level and ascensions; talents stay per element */
 function withSharedLevel(
   entry: CharacterProgressEntry,
-  source: CharacterProgressEntry,
+  source: CharacterProgressEntry
 ): CharacterProgressEntry {
   return {
     ...entry,
@@ -54,9 +54,7 @@ function mergeTravelerEntries(inventory: CalculatorInventory): CalculatorInvento
   providedIn: 'root',
 })
 export class CalculatorStateService {
-  private inventorySubject = new BehaviorSubject<CalculatorInventory>(
-    EMPTY_INVENTORY,
-  );
+  private inventorySubject = new BehaviorSubject<CalculatorInventory>(EMPTY_INVENTORY);
   public inventory$ = this.inventorySubject.asObservable();
 
   constructor(private storageService: CalculatorStorageService) {
@@ -102,9 +100,7 @@ export class CalculatorStateService {
     const current = this.getCurrentInventory();
     // Avoid duplicates
     if (current.characters.some((c) => isSameEntry(c, characterEntry))) {
-      console.warn(
-        `Character with ID ${characterEntry.characterId} already in inventory`,
-      );
+      console.warn(`Character with ID ${characterEntry.characterId} already in inventory`);
       return;
     }
     const sharedTraveler = current.characters.find((c) => c.characterId === TRAVELER_ID);
@@ -142,7 +138,7 @@ export class CalculatorStateService {
    */
   updateCharacterProgress(
     entry: CharacterEntryKey,
-    updates: Partial<CharacterProgressEntry>,
+    updates: Partial<CharacterProgressEntry>
   ): void {
     const current = this.getCurrentInventory();
     const characters: CharacterProgressEntry[] = current.characters.map((c) => {
@@ -181,12 +177,8 @@ export class CalculatorStateService {
   addWeapon(weaponEntry: WeaponProgressEntry): void {
     const current = this.getCurrentInventory();
     // Avoid duplicates
-    if (
-      current.weapons.some((w) => w.weaponId === weaponEntry.weaponId)
-    ) {
-      console.warn(
-        `Weapon with ID ${weaponEntry.weaponId} already in inventory`,
-      );
+    if (current.weapons.some((w) => w.weaponId === weaponEntry.weaponId)) {
+      console.warn(`Weapon with ID ${weaponEntry.weaponId} already in inventory`);
       return;
     }
     // Automatically calculate ascensions based on levels
@@ -217,10 +209,7 @@ export class CalculatorStateService {
   /**
    * Update a weapon's progress
    */
-  updateWeaponProgress(
-    weaponId: number,
-    updates: Partial<WeaponProgressEntry>,
-  ): void {
+  updateWeaponProgress(weaponId: number, updates: Partial<WeaponProgressEntry>): void {
     const current = this.getCurrentInventory();
     const updated: CalculatorInventory = {
       ...current,
@@ -242,9 +231,7 @@ export class CalculatorStateService {
    * Get a specific weapon from inventory
    */
   getWeapon(weaponId: number): WeaponProgressEntry | undefined {
-    return this.getCurrentInventory().weapons.find(
-      (w) => w.weaponId === weaponId,
-    );
+    return this.getCurrentInventory().weapons.find((w) => w.weaponId === weaponId);
   }
 
   /**

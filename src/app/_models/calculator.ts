@@ -41,7 +41,7 @@ export function isSameEntry(a: CharacterEntryKey, b: CharacterEntryKey): boolean
  */
 export function includesSharedLeveling(
   entry: CharacterEntryKey,
-  entries: CharacterEntryKey[],
+  entries: CharacterEntryKey[]
 ): boolean {
   if (entry.characterId !== TRAVELER_ID) {
     return true;
@@ -56,7 +56,7 @@ export function includesSharedLeveling(
  */
 export function createDefaultCharacterProgress(
   characterId: number,
-  element?: ElementType,
+  element?: ElementType
 ): CharacterProgressEntry {
   return {
     characterId,
@@ -88,7 +88,7 @@ export type WeaponProgressEntry = {
  */
 export function createDefaultWeaponProgress(
   weaponId: number,
-  maxLevel: number,
+  maxLevel: number
 ): WeaponProgressEntry {
   return {
     weaponId,

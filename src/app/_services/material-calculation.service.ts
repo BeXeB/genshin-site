@@ -2,11 +2,7 @@ import { Injectable } from '@angular/core';
 import { Character, CharacterProfile, CharacterTalents } from '../_models/character';
 import { ElementType } from '../_models/enum';
 import { Weapon } from '../_models/weapons';
-import {
-  CharacterProgressEntry,
-  LevelingCost,
-  MaterialTotal,
-} from '../_models/calculator';
+import { CharacterProgressEntry, LevelingCost, MaterialTotal } from '../_models/calculator';
 
 // Mora item ID used in cost tables
 const MORA_ITEM_ID = 202;
@@ -15,15 +11,95 @@ const MORA_ITEM_ID = 202;
 // CHARACTER LEVELING EXP COSTS (Level 2-90)
 // ============================================================================
 const CHARACTER_EXP_COSTS: Record<number, number> = {
-  2: 1000, 3: 1325, 4: 1700, 5: 2150, 6: 2625, 7: 3150, 8: 3725, 9: 4350, 10: 5000,
-  11: 5700, 12: 6450, 13: 7225, 14: 8050, 15: 8925, 16: 9825, 17: 10750, 18: 11725, 19: 12725, 20: 13775,
-  21: 14875, 22: 16800, 23: 18000, 24: 19250, 25: 20550, 26: 21875, 27: 23250, 28: 24650, 29: 26100, 30: 27575,
-  31: 29100, 32: 30650, 33: 32250, 34: 33875, 35: 35550, 36: 37250, 37: 38975, 38: 40750, 39: 42575, 40: 44425,
-  41: 46300, 42: 50625, 43: 52700, 44: 54775, 45: 56900, 46: 59075, 47: 61275, 48: 63525, 49: 65800, 50: 68125,
-  51: 70475, 52: 76500, 53: 79050, 54: 81650, 55: 84275, 56: 86950, 57: 89650, 58: 92400, 59: 95175, 60: 98000,
-  61: 100875, 62: 108950, 63: 112050, 64: 115175, 65: 118325, 66: 121525, 67: 124775, 68: 128075, 69: 131400, 70: 134775,
-  71: 138175, 72: 148700, 73: 152375, 74: 156075, 75: 159825, 76: 163600, 77: 167425, 78: 171300, 79: 175225, 80: 179175,
-  81: 183175, 82: 216225, 83: 243025, 84: 273100, 85: 306800, 86: 344600, 87: 386950, 88: 434425, 89: 487625, 90: 547200,
+  2: 1000,
+  3: 1325,
+  4: 1700,
+  5: 2150,
+  6: 2625,
+  7: 3150,
+  8: 3725,
+  9: 4350,
+  10: 5000,
+  11: 5700,
+  12: 6450,
+  13: 7225,
+  14: 8050,
+  15: 8925,
+  16: 9825,
+  17: 10750,
+  18: 11725,
+  19: 12725,
+  20: 13775,
+  21: 14875,
+  22: 16800,
+  23: 18000,
+  24: 19250,
+  25: 20550,
+  26: 21875,
+  27: 23250,
+  28: 24650,
+  29: 26100,
+  30: 27575,
+  31: 29100,
+  32: 30650,
+  33: 32250,
+  34: 33875,
+  35: 35550,
+  36: 37250,
+  37: 38975,
+  38: 40750,
+  39: 42575,
+  40: 44425,
+  41: 46300,
+  42: 50625,
+  43: 52700,
+  44: 54775,
+  45: 56900,
+  46: 59075,
+  47: 61275,
+  48: 63525,
+  49: 65800,
+  50: 68125,
+  51: 70475,
+  52: 76500,
+  53: 79050,
+  54: 81650,
+  55: 84275,
+  56: 86950,
+  57: 89650,
+  58: 92400,
+  59: 95175,
+  60: 98000,
+  61: 100875,
+  62: 108950,
+  63: 112050,
+  64: 115175,
+  65: 118325,
+  66: 121525,
+  67: 124775,
+  68: 128075,
+  69: 131400,
+  70: 134775,
+  71: 138175,
+  72: 148700,
+  73: 152375,
+  74: 156075,
+  75: 159825,
+  76: 163600,
+  77: 167425,
+  78: 171300,
+  79: 175225,
+  80: 179175,
+  81: 183175,
+  82: 216225,
+  83: 243025,
+  84: 273100,
+  85: 306800,
+  86: 344600,
+  87: 386950,
+  88: 434425,
+  89: 487625,
+  90: 547200,
 };
 
 // ============================================================================
@@ -31,29 +107,159 @@ const CHARACTER_EXP_COSTS: Record<number, number> = {
 // ============================================================================
 const WEAPON_EXP_COSTS: Record<number, Record<number, number>> = {
   5: {
-    2: 600, 3: 950, 4: 1350, 5: 1800, 6: 2325, 7: 2925, 8: 3525, 9: 4200, 10: 4950,
-    11: 5700, 12: 6525, 13: 7400, 14: 8300, 15: 9225, 16: 10200, 17: 11250, 18: 12300, 19: 13425, 20: 14600,
-    21: 15750, 22: 17850, 23: 19175, 24: 20550, 25: 21975, 26: 23450, 27: 24950, 28: 26475, 29: 28050, 30: 29675,
+    2: 600,
+    3: 950,
+    4: 1350,
+    5: 1800,
+    6: 2325,
+    7: 2925,
+    8: 3525,
+    9: 4200,
+    10: 4950,
+    11: 5700,
+    12: 6525,
+    13: 7400,
+    14: 8300,
+    15: 9225,
+    16: 10200,
+    17: 11250,
+    18: 12300,
+    19: 13425,
+    20: 14600,
+    21: 15750,
+    22: 17850,
+    23: 19175,
+    24: 20550,
+    25: 21975,
+    26: 23450,
+    27: 24950,
+    28: 26475,
+    29: 28050,
+    30: 29675,
   },
   4: {
-    2: 400, 3: 625, 4: 900, 5: 1200, 6: 1550, 7: 1950, 8: 2350, 9: 2800, 10: 3300,
-    11: 3800, 12: 4350, 13: 4925, 14: 5525, 15: 6150, 16: 6800, 17: 7500, 18: 8200, 19: 8950, 20: 9725,
-    21: 10500, 22: 11900, 23: 12775, 24: 13700, 25: 14650, 26: 15625, 27: 16625, 28: 17650, 29: 18700, 30: 19775,
+    2: 400,
+    3: 625,
+    4: 900,
+    5: 1200,
+    6: 1550,
+    7: 1950,
+    8: 2350,
+    9: 2800,
+    10: 3300,
+    11: 3800,
+    12: 4350,
+    13: 4925,
+    14: 5525,
+    15: 6150,
+    16: 6800,
+    17: 7500,
+    18: 8200,
+    19: 8950,
+    20: 9725,
+    21: 10500,
+    22: 11900,
+    23: 12775,
+    24: 13700,
+    25: 14650,
+    26: 15625,
+    27: 16625,
+    28: 17650,
+    29: 18700,
+    30: 19775,
   },
   3: {
-    2: 275, 3: 425, 4: 600, 5: 800, 6: 1025, 7: 1275, 8: 1550, 9: 1850, 10: 2175,
-    11: 2500, 12: 2875, 13: 3250, 14: 3650, 15: 4050, 16: 4500, 17: 4950, 18: 5400, 19: 5900, 20: 6425,
-    21: 6925, 22: 7850, 23: 8425, 24: 9050, 25: 9675, 26: 10325, 27: 10975, 28: 11650, 29: 12350, 30: 13050,
+    2: 275,
+    3: 425,
+    4: 600,
+    5: 800,
+    6: 1025,
+    7: 1275,
+    8: 1550,
+    9: 1850,
+    10: 2175,
+    11: 2500,
+    12: 2875,
+    13: 3250,
+    14: 3650,
+    15: 4050,
+    16: 4500,
+    17: 4950,
+    18: 5400,
+    19: 5900,
+    20: 6425,
+    21: 6925,
+    22: 7850,
+    23: 8425,
+    24: 9050,
+    25: 9675,
+    26: 10325,
+    27: 10975,
+    28: 11650,
+    29: 12350,
+    30: 13050,
   },
   2: {
-    2: 175, 3: 275, 4: 400, 5: 550, 6: 700, 7: 875, 8: 1050, 9: 1250, 10: 1475,
-    11: 1700, 12: 1950, 13: 2225, 14: 2475, 15: 2775, 16: 3050, 17: 3375, 18: 3700, 19: 4025, 20: 4375,
-    21: 4725, 22: 5350, 23: 5750, 24: 6175, 25: 6600, 26: 7025, 27: 7475, 28: 7950, 29: 8425, 30: 8900,
+    2: 175,
+    3: 275,
+    4: 400,
+    5: 550,
+    6: 700,
+    7: 875,
+    8: 1050,
+    9: 1250,
+    10: 1475,
+    11: 1700,
+    12: 1950,
+    13: 2225,
+    14: 2475,
+    15: 2775,
+    16: 3050,
+    17: 3375,
+    18: 3700,
+    19: 4025,
+    20: 4375,
+    21: 4725,
+    22: 5350,
+    23: 5750,
+    24: 6175,
+    25: 6600,
+    26: 7025,
+    27: 7475,
+    28: 7950,
+    29: 8425,
+    30: 8900,
   },
   1: {
-    2: 125, 3: 200, 4: 275, 5: 350, 6: 475, 7: 575, 8: 700, 9: 850, 10: 1000,
-    11: 1150, 12: 1300, 13: 1475, 14: 1650, 15: 1850, 16: 2050, 17: 2250, 18: 2450, 19: 2675, 20: 2925,
-    21: 3150, 22: 3575, 23: 3825, 24: 4100, 25: 4400, 26: 4700, 27: 5000, 28: 5300, 29: 5600, 30: 5925,
+    2: 125,
+    3: 200,
+    4: 275,
+    5: 350,
+    6: 475,
+    7: 575,
+    8: 700,
+    9: 850,
+    10: 1000,
+    11: 1150,
+    12: 1300,
+    13: 1475,
+    14: 1650,
+    15: 1850,
+    16: 2050,
+    17: 2250,
+    18: 2450,
+    19: 2675,
+    20: 2925,
+    21: 3150,
+    22: 3575,
+    23: 3825,
+    24: 4100,
+    25: 4400,
+    26: 4700,
+    27: 5000,
+    28: 5300,
+    29: 5600,
+    30: 5925,
   },
 };
 
@@ -105,10 +311,7 @@ export class MaterialCalculationService {
    * Calculate materials needed to level a character from currentLevel to targetLevel
    * Returns total EXP cost (to be converted to material quantities by caller)
    */
-  calculateCharacterLevelingCost(
-    currentLevel: number,
-    targetLevel: number,
-  ): number {
+  calculateCharacterLevelingCost(currentLevel: number, targetLevel: number): number {
     if (currentLevel >= targetLevel || targetLevel < 2 || currentLevel < 1) {
       return 0;
     }
@@ -130,7 +333,7 @@ export class MaterialCalculationService {
     currentLevel: number,
     targetLevel: number,
     currentAscension: number,
-    targetAscension: number,
+    targetAscension: number
   ): LevelingCost {
     const materials: MaterialTotal[] = [];
     let totalMora = 0;
@@ -140,14 +343,11 @@ export class MaterialCalculationService {
     }
 
     // For each ascension level we need to achieve
-    for (
-      let ascLevel = currentAscension + 1;
-      ascLevel <= targetAscension;
-      ascLevel++
-    ) {
+    for (let ascLevel = currentAscension + 1; ascLevel <= targetAscension; ascLevel++) {
       // Add mora cost for this ascension
       totalMora +=
-        CHARACTER_ASCENSION_MORA_COSTS[ascLevel as keyof typeof CHARACTER_ASCENSION_MORA_COSTS] || 0;
+        CHARACTER_ASCENSION_MORA_COSTS[ascLevel as keyof typeof CHARACTER_ASCENSION_MORA_COSTS] ||
+        0;
 
       // Get ascension materials from character profile
       const ascensionKey = `ascend${ascLevel}` as keyof typeof character.costs;
@@ -159,9 +359,7 @@ export class MaterialCalculationService {
           if (item.id === 202) continue;
 
           // Check if material already exists in array
-          const existingMaterial = materials.find(
-            (m) => m.materialId === item.id,
-          );
+          const existingMaterial = materials.find((m) => m.materialId === item.id);
           if (existingMaterial) {
             existingMaterial.quantity += item.count;
           } else {
@@ -229,11 +427,7 @@ export class MaterialCalculationService {
   /**
    * Calculate weapons leveling cost
    */
-  calculateWeaponLevelingCost(
-    weapon: Weapon,
-    currentLevel: number,
-    targetLevel: number,
-  ): number {
+  calculateWeaponLevelingCost(weapon: Weapon, currentLevel: number, targetLevel: number): number {
     if (currentLevel >= targetLevel || targetLevel < 2 || currentLevel < 1) {
       return 0;
     }
@@ -259,7 +453,7 @@ export class MaterialCalculationService {
   calculateWeaponAscensionCost(
     weapon: Weapon,
     currentAscension: number,
-    targetAscension: number,
+    targetAscension: number
   ): LevelingCost {
     const materials: MaterialTotal[] = [];
     let totalMora = 0;
@@ -269,11 +463,7 @@ export class MaterialCalculationService {
     }
 
     // For each ascension level we need to achieve
-    for (
-      let ascLevel = currentAscension + 1;
-      ascLevel <= targetAscension;
-      ascLevel++
-    ) {
+    for (let ascLevel = currentAscension + 1; ascLevel <= targetAscension; ascLevel++) {
       // Get ascension items from weapon profile (mora varies per weapon, so it comes from the data)
       const ascensionKey = `ascend${ascLevel}` as keyof typeof weapon.costs;
       const ascensionItems = weapon.costs[ascensionKey];
@@ -286,9 +476,7 @@ export class MaterialCalculationService {
           }
 
           // Check if material already exists in array
-          const existingMaterial = materials.find(
-            (m) => m.materialId === item.id,
-          );
+          const existingMaterial = materials.find((m) => m.materialId === item.id);
           if (existingMaterial) {
             existingMaterial.quantity += item.count;
           } else {
@@ -364,7 +552,7 @@ export class MaterialCalculationService {
     currentLevel: number,
     targetLevel: number,
     currentAscension: number,
-    targetAscension: number,
+    targetAscension: number
   ): LevelingCost {
     const allMaterials: MaterialTotal[] = [];
     let totalMora = 0;
@@ -380,7 +568,8 @@ export class MaterialCalculationService {
     // Process each ascension phase from current to target
     for (let asc = currentAscension; asc <= targetAscension; asc++) {
       // Get the max level for this ascension phase
-      const phaseCap: number = CHARACTER_ASCENSION_LEVEL_CAPS[asc as keyof typeof CHARACTER_ASCENSION_LEVEL_CAPS] || 90;
+      const phaseCap: number =
+        CHARACTER_ASCENSION_LEVEL_CAPS[asc as keyof typeof CHARACTER_ASCENSION_LEVEL_CAPS] || 90;
 
       // Determine target level for this phase
       let phaseTargetLevel: number = phaseCap;
@@ -414,9 +603,7 @@ export class MaterialCalculationService {
             // Skip mora ID (202) - we'll add it separately
             if (item.id === 202) continue;
 
-            const existingMaterial = allMaterials.find(
-              (m) => m.materialId === item.id,
-            );
+            const existingMaterial = allMaterials.find((m) => m.materialId === item.id);
             if (existingMaterial) {
               existingMaterial.quantity += item.count;
             } else {
@@ -430,7 +617,9 @@ export class MaterialCalculationService {
         }
 
         // Add mora cost for this ascension
-        totalMora += CHARACTER_ASCENSION_MORA_COSTS[nextAsc as keyof typeof CHARACTER_ASCENSION_MORA_COSTS] || 0;
+        totalMora +=
+          CHARACTER_ASCENSION_MORA_COSTS[nextAsc as keyof typeof CHARACTER_ASCENSION_MORA_COSTS] ||
+          0;
 
         currentAsc = nextAsc;
       }
@@ -450,27 +639,21 @@ export class MaterialCalculationService {
     currentLevel: number,
     targetLevel: number,
     currentAscension: number,
-    targetAscension: number,
+    targetAscension: number
   ): LevelingCost {
     const allMaterials: MaterialTotal[] = [];
     let totalMora = 0;
 
     // Leveling cost (Enhancement Ore)
-    const levelingExp = this.calculateWeaponLevelingCost(
-      weapon,
-      currentLevel,
-      targetLevel,
-    );
-    const levelingMaterials = this.convertWeaponLevelingExpToMaterials(
-      levelingExp,
-    );
+    const levelingExp = this.calculateWeaponLevelingCost(weapon, currentLevel, targetLevel);
+    const levelingMaterials = this.convertWeaponLevelingExpToMaterials(levelingExp);
     allMaterials.push(...levelingMaterials);
 
     // Ascension cost
     const ascensionCost = this.calculateWeaponAscensionCost(
       weapon,
       currentAscension,
-      targetAscension,
+      targetAscension
     );
     allMaterials.push(...ascensionCost.materials);
     totalMora += ascensionCost.totalMora;
@@ -487,7 +670,7 @@ export class MaterialCalculationService {
   calculateCharacterEntryCost(
     character: Pick<Character, 'profile' | 'skills' | 'variants'>,
     progress: CharacterProgressEntry,
-    includeLeveling = true, // false for extra Traveler elements, which share one level
+    includeLeveling = true // false for extra Traveler elements, which share one level
   ): LevelingCost {
     const characterCost = includeLeveling
       ? this.calculateCharacterTotalCost(
@@ -495,12 +678,12 @@ export class MaterialCalculationService {
           progress.currentLevel,
           progress.goalLevel,
           progress.currentAscension,
-          progress.goalAscension,
+          progress.goalAscension
         )
       : { materials: [], totalMora: 0 };
     const talentCost = this.calculateAllTalentsCost(
       this.getSkills(character, progress.element),
-      progress,
+      progress
     );
     return this.mergeCosts(characterCost, talentCost);
   }
@@ -508,7 +691,7 @@ export class MaterialCalculationService {
   /** Traveler talents differ per element; other characters use their base talents */
   private getSkills(
     character: Pick<Character, 'skills' | 'variants'>,
-    element?: ElementType,
+    element?: ElementType
   ): CharacterTalents | undefined {
     const variant = element ? character.variants?.[element] : undefined;
     return variant?.skills ?? character.skills;
@@ -523,7 +706,7 @@ export class MaterialCalculationService {
   calculateTalentUpgradeCost(
     skills: CharacterTalents | null | undefined,
     fromLevel: number,
-    toLevel: number,
+    toLevel: number
   ): LevelingCost {
     const allMaterials: MaterialTotal[] = [];
     let totalMora = 0;
@@ -562,24 +745,20 @@ export class MaterialCalculationService {
    */
   calculateAllTalentsCost(
     skills: CharacterTalents | null | undefined,
-    progress: CharacterProgressEntry,
+    progress: CharacterProgressEntry
   ): LevelingCost {
     return this.mergeCosts(
       this.calculateTalentUpgradeCost(
         skills,
         progress.normalSkillLevel,
-        progress.goalNormalSkillLevel,
+        progress.goalNormalSkillLevel
       ),
       this.calculateTalentUpgradeCost(
         skills,
         progress.elementalSkillLevel,
-        progress.goalElementalSkillLevel,
+        progress.goalElementalSkillLevel
       ),
-      this.calculateTalentUpgradeCost(
-        skills,
-        progress.burstLevel,
-        progress.goalBurstLevel,
-      ),
+      this.calculateTalentUpgradeCost(skills, progress.burstLevel, progress.goalBurstLevel)
     );
   }
 
@@ -589,9 +768,7 @@ export class MaterialCalculationService {
    */
   mergeCosts(...costs: LevelingCost[]): LevelingCost {
     return {
-      materials: this.consolidateMaterials(
-        costs.flatMap((cost) => cost.materials),
-      ),
+      materials: this.consolidateMaterials(costs.flatMap((cost) => cost.materials)),
       totalMora: costs.reduce((sum, cost) => sum + cost.totalMora, 0),
     };
   }

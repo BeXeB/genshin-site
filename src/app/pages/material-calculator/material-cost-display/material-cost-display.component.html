@@ -49,7 +49,9 @@
                                 <span
                                   class="count-value"
                                   [attr.title]="
-                                    craftMora > 0 ? formatMora(craftMora) + ' mora for crafting' : null
+                                    craftMora > 0
+                                      ? formatMora(craftMora) + ' mora for crafting'
+                                      : null
                                   "
                                   >{{ formatMora(group.mora) }}</span
                                 >
@@ -75,11 +77,7 @@
                         <tr>
                           <th scope="col">Material</th>
                           @for (column of table.columns; track column.rarity) {
-                            <th
-                              scope="col"
-                              class="count-col"
-                              [style.color]="column.color"
-                            >
+                            <th scope="col" class="count-col" [style.color]="column.color">
                               {{ column.label }}
                             </th>
                           }
@@ -89,11 +87,14 @@
                         @for (line of table.lines; track line.lead.materialId) {
                           <tr>
                             <td class="line-name">
-                              <div
-                                class="line-lead"
-                              >
+                              <div class="line-lead">
                                 <img
-                                  [src]="getMaterialImagePath(line.lead.materialId, line.lead.materialName)"
+                                  [src]="
+                                    getMaterialImagePath(
+                                      line.lead.materialId,
+                                      line.lead.materialName
+                                    )
+                                  "
                                   [alt]="line.lead.materialName"
                                   class="line-icon"
                                 />
@@ -110,13 +111,17 @@
                                     class="owned-input"
                                     [attr.aria-label]="cell.materialName"
                                     [value]="ownedOf(cell.materialId)"
-                                    (change)="onOwnedInput(cell.materialId, ownedInput.valueAsNumber)"
+                                    (change)="
+                                      onOwnedInput(cell.materialId, ownedInput.valueAsNumber)
+                                    "
                                   />
                                 } @else if (cell) {
                                   <div class="count-stack">
                                     <a
                                       class="count-link"
-                                      [routerLink]="getMaterialLink(cell.materialId, cell.materialName)"
+                                      [routerLink]="
+                                        getMaterialLink(cell.materialId, cell.materialName)
+                                      "
                                       >{{ cell.quantity }}</a
                                     >
                                     <span class="count-sub">{{ neededOf(cell.materialId) }}</span>
@@ -147,7 +152,11 @@
               *ngTemplateOutlet="
                 materialCard;
                 context: {
-                  $implicit: { materialId: 202, materialName: 'Mora', quantity: formatMora(cost.totalMora) }
+                  $implicit: {
+                    materialId: 202,
+                    materialName: 'Mora',
+                    quantity: formatMora(cost.totalMora),
+                  },
                 }
               "
             />

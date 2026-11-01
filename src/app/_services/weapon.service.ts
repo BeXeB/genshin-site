@@ -8,7 +8,7 @@ export const HIDDEN_WEAPON_ID = 11419;
 /** Weapon list order: rarity (high to low), weapon type (A-Z), then sortOrder (high to low) */
 export function compareWeapons(
   a: Pick<Weapon, 'rarity' | 'weaponType' | 'sortOrder'>,
-  b: Pick<Weapon, 'rarity' | 'weaponType' | 'sortOrder'>,
+  b: Pick<Weapon, 'rarity' | 'weaponType' | 'sortOrder'>
 ): number {
   if (a.rarity !== b.rarity) return b.rarity - a.rarity;
   if (a.weaponType !== b.weaponType) return a.weaponType.localeCompare(b.weaponType);
