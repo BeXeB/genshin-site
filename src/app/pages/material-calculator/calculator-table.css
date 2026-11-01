@@ -13,7 +13,7 @@
 }
 
 /* Border counts toward the 100% width, avoiding a 2px overflow */
-.entry-table .table-row {
+.table-row {
   box-sizing: border-box;
 }
 

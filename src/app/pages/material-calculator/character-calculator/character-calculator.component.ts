@@ -1,11 +1,9 @@
-import { Component, DestroyRef, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { CommonModule, Location } from '@angular/common';
-import { ActivatedRoute, ParamMap, Params, Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { ParamMap } from '@angular/router';
 import { catchError, combineLatest, map, Observable, of, shareReplay, switchMap } from 'rxjs';
 import { CharacterService } from '../../../_services/character.service';
-import { CalculatorStateService } from '../../../_services/calculator-state.service';
-import { MaterialCalculationService } from '../../../_services/material-calculation.service';
 import {
   AETHER_ID,
   CharacterEntryKey,
@@ -13,20 +11,19 @@ import {
   createDefaultCharacterProgress,
   includesSharedLeveling,
   isSameEntry,
-  LevelingCost,
   TRAVELER_ID,
 } from '../../../_models/calculator';
 import { Character, CharacterProfile } from '../../../_models/character';
 import { ElementType, ElementTypeLabel } from '../../../_models/enum';
-import { MaterialCostDisplayComponent } from '../material-cost-display/material-cost-display.component';
 import {
-  CharacterOption,
   CharacterSearchComponent,
+  SearchOption,
 } from '../../../_components/character-search/character-search.component';
 import { SelectDropdownComponent } from '../../../_components/select-dropdown/select-dropdown.component';
-import { ImageService } from '../../../_services/image.service';
 import { buildLevelOptions, getLevelUpdates } from '../level-options';
-import { getElementFromUrlName, getElementUrlName, replaceQueryParams } from '../url-state';
+import { getElementFromUrlName, getElementUrlName } from '../url-state';
+import { CalculatorTableBase, UNKNOWN_ENTRY_NAME } from '../calculator-table-base';
+import { EntryRowComponent } from '../entry-row/entry-row.component';
 
 type SelectedCharacter = Pick<Character, 'profile' | 'skills' | 'variants'>;
 
@@ -74,25 +71,31 @@ function getDisplayName(profile: CharacterProfile): string {
 }
 
 /** Options for the add search: one per element for the Traveler */
-function toCharacterOptions(profile: CharacterProfile): CharacterOption[] {
+function toCharacterOptions(profile: CharacterProfile): SearchOption[] {
+  // Aether is listed only through the Traveler entries, so it has no option of its own
   if (profile.id === AETHER_ID) {
     return [];
   }
   if (profile.id !== TRAVELER_ID) {
     return [
       {
-        characterId: profile.id,
+        id: profile.id,
         name: profile.name,
         normalizedName: profile.normalizedName,
       },
     ];
   }
   return TRAVELER_ELEMENTS.map((element) => ({
-    characterId: profile.id,
+    id: profile.id,
     element,
     name: getEntryName(getDisplayName(profile), element),
     normalizedName: profile.normalizedName,
   }));
+}
+
+/** The inventory entry an add-search option stands for */
+function toEntryKey(option: SearchOption): CharacterEntryKey {
+  return { characterId: option.id, element: option.element };
 }
 
 /** Unique tracking key; Travelers share a character ID */
@@ -103,22 +106,17 @@ function getEntryKey(entry: CharacterEntryKey): string {
 @Component({
   selector: 'app-character-calculator',
   standalone: true,
-  imports: [
-    CommonModule,
-    MaterialCostDisplayComponent,
-    CharacterSearchComponent,
-    SelectDropdownComponent,
-  ],
+  imports: [CommonModule, CharacterSearchComponent, SelectDropdownComponent, EntryRowComponent],
   templateUrl: './character-calculator.component.html',
   styleUrls: ['../calculator-table.css'],
 })
-export class CharacterCalculatorComponent implements OnInit {
-  selectedCharacterProgress: CharacterProgress | null = null;
-  selectedCharacter: SelectedCharacter | null = null;
-  characters$ = this.characterService.getCharacters().pipe(shareReplay(1));
-  inventory$ = this.calculatorState.inventory$;
-  calculatedCost: LevelingCost | null = null;
-  private detailsCache = new Map<number, Observable<SelectedCharacter | null>>();
+export class CharacterCalculatorComponent extends CalculatorTableBase implements OnInit {
+  private readonly characterService = inject(CharacterService);
+  private readonly characters$ = this.characterService.getCharacters().pipe(shareReplay(1));
+  private readonly inventory$ = this.calculatorState.inventory$;
+  private readonly detailsCache = new Map<number, Observable<SelectedCharacter | null>>();
+  private selectedCharacterProgress: CharacterProgress | null = null;
+  private selectedCharacter: SelectedCharacter | null = null;
 
   readonly levelOptions = LEVEL_OPTIONS;
   readonly talentLevelOptions = TALENT_LEVEL_OPTIONS;
@@ -134,27 +132,21 @@ export class CharacterCalculatorComponent implements OnInit {
           return {
             key: getEntryKey(progress),
             progress,
-            name: character ? getEntryName(getDisplayName(character), progress.element) : 'Unknown',
+            name: character
+              ? getEntryName(getDisplayName(character), progress.element)
+              : UNKNOWN_ENTRY_NAME,
             normalizedName: character?.normalizedName ?? '',
           };
         }),
         available: characters
           .flatMap(toCharacterOptions)
-          .filter((option) => !inventory.characters.some((entry) => isSameEntry(entry, option))),
+          .filter(
+            (option) =>
+              !inventory.characters.some((entry) => isSameEntry(entry, toEntryKey(option)))
+          ),
       };
     })
   );
-
-  constructor(
-    private characterService: CharacterService,
-    private calculatorState: CalculatorStateService,
-    private calculationService: MaterialCalculationService,
-    private destroyRef: DestroyRef,
-    private imageService: ImageService,
-    private route: ActivatedRoute,
-    private router: Router,
-    private location: Location
-  ) {}
 
   ngOnInit(): void {
     // Fetch owned characters' details in the background so row clicks are instant
@@ -236,12 +228,13 @@ export class CharacterCalculatorComponent implements OnInit {
     return cached;
   }
 
-  onAddCharacter(option: CharacterEntryKey): void {
-    if (this.calculatorState.getCharacter(option)) {
+  onAddCharacter(option: SearchOption): void {
+    const entry = toEntryKey(option);
+    if (this.calculatorState.getCharacter(entry)) {
       return;
     }
     this.calculatorState.addCharacter(
-      createDefaultCharacterProgress(option.characterId, option.element)
+      createDefaultCharacterProgress(entry.characterId, entry.element)
     );
   }
 
@@ -251,8 +244,7 @@ export class CharacterCalculatorComponent implements OnInit {
   onRemoveCharacter(entry: CharacterEntryKey): void {
     this.calculatorState.removeCharacter(entry);
     if (this.isExpanded(entry)) {
-      this.clearSelection();
-      this.syncUrl({});
+      this.collapseRow();
     }
   }
 
@@ -262,8 +254,7 @@ export class CharacterCalculatorComponent implements OnInit {
   onRowClicked(row: CharacterRow): void {
     const { progress } = row;
     if (this.isExpanded(progress)) {
-      this.clearSelection();
-      this.syncUrl({});
+      this.collapseRow();
       return;
     }
     const current = this.calculatorState.getCharacter(progress);
@@ -274,11 +265,6 @@ export class CharacterCalculatorComponent implements OnInit {
         element: progress.element ? getElementUrlName(progress.element) : undefined,
       });
     }
-  }
-
-  /** Writes the expanded row to the URL so Back returns to it */
-  private syncUrl(params: Params): void {
-    replaceQueryParams(this.router, this.location, this.route, params);
   }
 
   isExpanded(entry: CharacterEntryKey): boolean {
@@ -332,7 +318,7 @@ export class CharacterCalculatorComponent implements OnInit {
     }
   }
 
-  private clearSelection(): void {
+  protected clearSelection(): void {
     this.selectedCharacterProgress = null;
     this.selectedCharacter = null;
     this.calculatedCost = null;

@@ -1,26 +1,19 @@
-import { Component, DestroyRef, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { CommonModule, Location } from '@angular/common';
-import { ActivatedRoute, ParamMap, Params, Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { ParamMap } from '@angular/router';
 import { combineLatest, map, shareReplay, take } from 'rxjs';
-import { CalculatorStateService } from '../../../_services/calculator-state.service';
-import { MaterialCalculationService } from '../../../_services/material-calculation.service';
 import { compareWeapons, HIDDEN_WEAPON_ID, WeaponService } from '../../../_services/weapon.service';
-import { ImageService } from '../../../_services/image.service';
-import {
-  createDefaultWeaponProgress,
-  LevelingCost,
-  WeaponProgressEntry,
-} from '../../../_models/calculator';
+import { createDefaultWeaponProgress, WeaponProgressEntry } from '../../../_models/calculator';
 import { Weapon } from '../../../_models/weapons';
-import { MaterialCostDisplayComponent } from '../material-cost-display/material-cost-display.component';
 import {
-  CharacterOption,
   CharacterSearchComponent,
+  SearchOption,
 } from '../../../_components/character-search/character-search.component';
 import { SelectDropdownComponent } from '../../../_components/select-dropdown/select-dropdown.component';
 import { buildLevelOptions, getLevelUpdates, LEVEL_CAP_BY_ASCENSION } from '../level-options';
-import { replaceQueryParams } from '../url-state';
+import { CalculatorTableBase, UNKNOWN_ENTRY_NAME } from '../calculator-table-base';
+import { EntryRowComponent } from '../entry-row/entry-row.component';
 
 type WeaponRow = {
   progress: WeaponProgressEntry;
@@ -33,9 +26,12 @@ type WeaponRow = {
 /** Level dropdown options for each max ascension (index = ascension) */
 const LEVEL_OPTIONS_BY_MAX_ASCENSION = LEVEL_CAP_BY_ASCENSION.map((cap) => buildLevelOptions(cap));
 
+/** Highest ascension level; used when a weapon is missing from the catalogue */
+const MAX_ASCENSION = 6;
+
 /** Highest ascension with cost data; weapons below 4 stars stop at ascension 4 */
 function getMaxAscension(weapon: Weapon): number {
-  if (weapon.costs.ascend6) return 6;
+  if (weapon.costs.ascend6) return MAX_ASCENSION;
   if (weapon.costs.ascend5) return 5;
   return 4;
 }
@@ -43,21 +39,16 @@ function getMaxAscension(weapon: Weapon): number {
 @Component({
   selector: 'app-weapon-calculator',
   standalone: true,
-  imports: [
-    CommonModule,
-    MaterialCostDisplayComponent,
-    CharacterSearchComponent,
-    SelectDropdownComponent,
-  ],
+  imports: [CommonModule, CharacterSearchComponent, SelectDropdownComponent, EntryRowComponent],
   templateUrl: './weapon-calculator.component.html',
   styleUrls: ['../calculator-table.css', './weapon-calculator.component.css'],
 })
-export class WeaponCalculatorComponent implements OnInit {
-  weapons$ = this.weaponService.getWeapons().pipe(shareReplay(1));
-  inventory$ = this.calculatorState.inventory$;
+export class WeaponCalculatorComponent extends CalculatorTableBase implements OnInit {
+  private readonly weaponService = inject(WeaponService);
+  private readonly weapons$ = this.weaponService.getWeapons().pipe(shareReplay(1));
+  private readonly inventory$ = this.calculatorState.inventory$;
   /** Weapon whose row is expanded */
-  selectedWeapon: Weapon | null = null;
-  calculatedCost: LevelingCost | null = null;
+  private selectedWeapon: Weapon | null = null;
 
   /** Table rows for owned weapons, plus weapons that can still be added */
   view$ = combineLatest([this.weapons$, this.inventory$]).pipe(
@@ -69,9 +60,10 @@ export class WeaponCalculatorComponent implements OnInit {
           return {
             progress,
             weapon,
-            name: weapon?.name ?? 'Unknown',
+            name: weapon?.name ?? UNKNOWN_ENTRY_NAME,
             iconUrl: weapon ? this.imageService.getWeaponIcon(weapon.normalizedName) : '',
-            levelOptions: LEVEL_OPTIONS_BY_MAX_ASCENSION[weapon ? getMaxAscension(weapon) : 6],
+            levelOptions:
+              LEVEL_OPTIONS_BY_MAX_ASCENSION[weapon ? getMaxAscension(weapon) : MAX_ASCENSION],
           };
         }),
         available: weapons
@@ -85,17 +77,6 @@ export class WeaponCalculatorComponent implements OnInit {
       };
     })
   );
-
-  constructor(
-    private weaponService: WeaponService,
-    private calculatorState: CalculatorStateService,
-    private calculationService: MaterialCalculationService,
-    private imageService: ImageService,
-    private route: ActivatedRoute,
-    private router: Router,
-    private location: Location,
-    private destroyRef: DestroyRef
-  ) {}
 
   ngOnInit(): void {
     // Restores the expanded row on load and on Back navigation
@@ -119,14 +100,14 @@ export class WeaponCalculatorComponent implements OnInit {
   }
 
   /**
-   * Add a weapon from the search; the option's characterId holds the weapon ID
+   * Add a weapon from the search
    */
-  onAddWeapon(option: CharacterOption): void {
-    if (this.calculatorState.getWeapon(option.characterId)) {
+  onAddWeapon(option: SearchOption): void {
+    if (this.calculatorState.getWeapon(option.id)) {
       return;
     }
     this.weapons$.pipe(take(1)).subscribe((weapons) => {
-      const weapon = weapons.find((w) => w.id === option.characterId);
+      const weapon = weapons.find((w) => w.id === option.id);
       if (!weapon) {
         return;
       }
@@ -142,8 +123,7 @@ export class WeaponCalculatorComponent implements OnInit {
   onRemoveWeapon(weaponId: number): void {
     this.calculatorState.removeWeapon(weaponId);
     if (this.isExpanded(weaponId)) {
-      this.clearSelection();
-      this.syncUrl({});
+      this.collapseRow();
     }
   }
 
@@ -155,18 +135,12 @@ export class WeaponCalculatorComponent implements OnInit {
       return;
     }
     if (this.isExpanded(row.progress.weaponId)) {
-      this.clearSelection();
-      this.syncUrl({});
+      this.collapseRow();
       return;
     }
     this.selectedWeapon = row.weapon;
     this.recalculateCost();
     this.syncUrl({ weapon: row.weapon.normalizedName });
-  }
-
-  /** Writes the expanded row to the URL so Back returns to it */
-  private syncUrl(params: Params): void {
-    replaceQueryParams(this.router, this.location, this.route, params);
   }
 
   isExpanded(weaponId: number): boolean {
@@ -194,7 +168,7 @@ export class WeaponCalculatorComponent implements OnInit {
     }
   }
 
-  private clearSelection(): void {
+  protected clearSelection(): void {
     this.selectedWeapon = null;
     this.calculatedCost = null;
   }
@@ -219,10 +193,10 @@ export class WeaponCalculatorComponent implements OnInit {
     );
   }
 
-  /** The search option type is shared with characters, so the weapon ID is stored as characterId */
-  private toSearchOption(weapon: Weapon): CharacterOption {
+  /** Options for the shared search; weapons use the same shape as characters */
+  private toSearchOption(weapon: Weapon): SearchOption {
     return {
-      characterId: weapon.id,
+      id: weapon.id,
       name: weapon.name,
       normalizedName: weapon.normalizedName,
       iconUrl: this.imageService.getWeaponIcon(weapon.normalizedName),

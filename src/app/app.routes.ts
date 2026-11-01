@@ -48,7 +48,7 @@ export const routes: Routes = [
     data: { preloadCalculator: true },
     loadComponent: () =>
       import('./pages/material-calculator/material-calculator.component').then(
-        (m) => m.MaterialCalculatorComponent,
+        (m) => m.MaterialCalculatorComponent
       ),
     children: [
       {
@@ -57,23 +57,23 @@ export const routes: Routes = [
         data: { preloadCalculator: true },
         loadComponent: () =>
           import('./pages/material-calculator/material-totals/material-totals.component').then(
-            (m) => m.MaterialTotalsComponent,
+            (m) => m.MaterialTotalsComponent
           ),
       },
       {
         path: 'characters',
         data: { preloadCalculator: true },
         loadComponent: () =>
-          import(
-            './pages/material-calculator/character-calculator/character-calculator.component'
-          ).then((m) => m.CharacterCalculatorComponent),
+          import('./pages/material-calculator/character-calculator/character-calculator.component').then(
+            (m) => m.CharacterCalculatorComponent
+          ),
       },
       {
         path: 'weapons',
         data: { preloadCalculator: true },
         loadComponent: () =>
           import('./pages/material-calculator/weapon-calculator/weapon-calculator.component').then(
-            (m) => m.WeaponCalculatorComponent,
+            (m) => m.WeaponCalculatorComponent
           ),
       },
       {
@@ -81,7 +81,7 @@ export const routes: Routes = [
         data: { preloadCalculator: true },
         loadComponent: () =>
           import('./pages/material-calculator/material-inventory/material-inventory.component').then(
-            (m) => m.MaterialInventoryComponent,
+            (m) => m.MaterialInventoryComponent
           ),
       },
     ],

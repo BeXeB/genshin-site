@@ -1,17 +1,6 @@
-.weapon-table .name-cell {
-  flex: 1 1 0;
-}
-
 .weapon-table .level-cell {
   flex: 0 0 140px;
   text-align: center;
-}
-
-/* 56px basis mirrors the icon column; 8px right padding matches the characters page X */
-.weapon-table .action-cell {
-  flex: 1 1 56px;
-  justify-content: flex-end;
-  padding-right: 8px;
 }
 
 /* Two level columns, same width as the body cells */

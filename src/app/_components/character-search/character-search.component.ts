@@ -6,9 +6,9 @@ import { ImageService } from '../../_services/image.service';
 // Matches the .dropdown max-height in the stylesheet
 const DROPDOWN_MAX_HEIGHT = 250;
 
-/** A selectable character; Travelers appear once per element */
-export type CharacterOption = {
-  characterId: number;
+/** A selectable character or weapon; Travelers appear once per element */
+export type SearchOption = {
+  id: number;
   element?: ElementType;
   name: string;
   normalizedName: string;
@@ -24,9 +24,9 @@ export type CharacterOption = {
   styleUrl: './character-search.component.css',
 })
 export class CharacterSearchComponent {
-  @Input() characters: CharacterOption[] = [];
+  @Input() characters: SearchOption[] = [];
   @Input() placeholder: string = '';
-  @Output() characterSelected = new EventEmitter<CharacterOption>();
+  @Output() characterSelected = new EventEmitter<SearchOption>();
 
   search: string = '';
   showDropdown = false;
@@ -34,10 +34,10 @@ export class CharacterSearchComponent {
 
   constructor(
     private host: ElementRef<HTMLElement>,
-    private imageService: ImageService,
+    private imageService: ImageService
   ) {}
 
-  get filteredCharacters(): CharacterOption[] {
+  get filteredCharacters(): SearchOption[] {
     const search = this.search.trim().toLowerCase();
 
     if (!search) return this.characters;
@@ -50,7 +50,7 @@ export class CharacterSearchComponent {
     });
   }
 
-  select(character: CharacterOption): void {
+  select(character: SearchOption): void {
     this.characterSelected.emit(character);
     this.search = '';
     this.showDropdown = false;

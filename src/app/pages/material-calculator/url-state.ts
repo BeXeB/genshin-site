@@ -21,7 +21,7 @@ export function replaceQueryParams(
   router: Router,
   location: Location,
   route: ActivatedRoute,
-  queryParams: Params,
+  queryParams: Params
 ): void {
   const cleaned: Params = {};
   for (const [key, value] of Object.entries(queryParams)) {
@@ -30,7 +30,7 @@ export function replaceQueryParams(
     }
   }
   const url = router.serializeUrl(
-    router.createUrlTree([], { relativeTo: route, queryParams: cleaned }),
+    router.createUrlTree([], { relativeTo: route, queryParams: cleaned })
   );
   // Keep the router's history state so Back still restores the earlier entry
   location.replaceState(url, '', location.getState());

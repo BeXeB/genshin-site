@@ -16,51 +16,35 @@
     </div>
 
     @for (row of view.rows; track row.progress.weaponId) {
-      <div class="character-entry">
-        <div class="table-row table-body" [class.selected]="isExpanded(row.progress.weaponId)">
-          <div class="cell icon-cell">
-            <img class="character-icon" [src]="row.iconUrl" [alt]="row.name" />
-          </div>
-
-          <div class="cell name-cell" (click)="onRowClicked(row)">
-            {{ row.name }}
-          </div>
-
-          <div class="cell level-cell">
-            <app-select-dropdown
-              [label]="row.name + ' level'"
-              [options]="row.levelOptions"
-              [value]="row.progress.currentLevel"
-              (valueChange)="onLevelChange(row.progress, 'currentLevel', $event)"
-            />
-          </div>
-
-          <div class="cell level-cell">
-            <app-select-dropdown
-              [label]="row.name + ' level goal'"
-              [options]="row.levelOptions"
-              [value]="row.progress.goalLevel"
-              (valueChange)="onLevelChange(row.progress, 'goalLevel', $event)"
-            />
-          </div>
-
-          <div class="cell action-cell">
-            <button
-              class="remove-btn"
-              (click)="onRemoveWeapon(row.progress.weaponId)"
-              title="Remove"
-            >
-              ✕
-            </button>
-          </div>
+      <app-entry-row
+        [name]="row.name"
+        [expanded]="isExpanded(row.progress.weaponId)"
+        [cost]="calculatedCost"
+        (nameClicked)="onRowClicked(row)"
+        (removed)="onRemoveWeapon(row.progress.weaponId)"
+      >
+        <div class="cell icon-cell" entryIcon>
+          <img class="character-icon" [src]="row.iconUrl" [alt]="row.name" />
         </div>
 
-        @if (isExpanded(row.progress.weaponId) && calculatedCost) {
-          <div class="row-details">
-            <app-material-cost-display [cost]="calculatedCost" />
-          </div>
-        }
-      </div>
+        <div class="cell level-cell">
+          <app-select-dropdown
+            [label]="row.name + ' level'"
+            [options]="row.levelOptions"
+            [value]="row.progress.currentLevel"
+            (valueChange)="onLevelChange(row.progress, 'currentLevel', $event)"
+          />
+        </div>
+
+        <div class="cell level-cell">
+          <app-select-dropdown
+            [label]="row.name + ' level goal'"
+            [options]="row.levelOptions"
+            [value]="row.progress.goalLevel"
+            (valueChange)="onLevelChange(row.progress, 'goalLevel', $event)"
+          />
+        </div>
+      </app-entry-row>
     } @empty {
       <div class="empty-table">No weapons yet</div>
     }
