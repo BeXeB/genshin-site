@@ -4,12 +4,6 @@
   margin: 0 auto;
 }
 
-.material-calculator-container h1 {
-  margin-bottom: 20px;
-  font-size: 2rem;
-  color: var(--white);
-}
-
 .button-group {
   margin-bottom: 20px;
 }
@@ -178,12 +172,5 @@
 @media (max-width: 1060px) {
   .character-table {
     overflow-x: auto;
-  }
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .material-calculator-container h1 {
-    font-size: 1.5rem;
   }
 }

@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
 import { catchError, combineLatest, forkJoin, map, Observable, of, switchMap } from 'rxjs';
 import { CalculatorStateService } from '../../../_services/calculator-state.service';
 import { CharacterService } from '../../../_services/character.service';
@@ -21,7 +20,7 @@ const EMPTY_COST: LevelingCost = { materials: [], totalMora: 0 };
 @Component({
   selector: 'app-material-totals',
   standalone: true,
-  imports: [CommonModule, RouterLink, MaterialCostDisplayComponent],
+  imports: [CommonModule, MaterialCostDisplayComponent],
   templateUrl: './material-totals.component.html',
   styleUrls: ['../material-calculator.component.css'],
 })

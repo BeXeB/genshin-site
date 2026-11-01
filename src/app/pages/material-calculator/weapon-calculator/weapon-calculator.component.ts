@@ -1,7 +1,7 @@
 import { Component, DestroyRef, OnInit } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { CommonModule, Location } from '@angular/common';
-import { ActivatedRoute, ParamMap, Params, RouterLink, Router } from '@angular/router';
+import { ActivatedRoute, ParamMap, Params, Router } from '@angular/router';
 import { combineLatest, map, shareReplay, take } from 'rxjs';
 import { CalculatorStateService } from '../../../_services/calculator-state.service';
 import { MaterialCalculationService } from '../../../_services/material-calculation.service';
@@ -47,7 +47,6 @@ function getMaxAscension(weapon: Weapon): number {
   standalone: true,
   imports: [
     CommonModule,
-    RouterLink,
     MaterialCostDisplayComponent,
     CharacterSearchComponent,
     SelectDropdownComponent,

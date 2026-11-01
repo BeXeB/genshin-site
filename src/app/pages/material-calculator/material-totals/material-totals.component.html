@@ -1,22 +1,11 @@
-<div class="material-calculator-container">
-  <h1>Material Calculator</h1>
-
-  <div class="button-group">
-    <button class="button active">Materials</button>
-    <button class="button" routerLink="/character">Characters</button>
-    <button class="button" routerLink="/material-calculator/weapons">Weapons</button>
-    <button class="button" routerLink="/material-calculator/inventory">Inventory</button>
-  </div>
-
-  @if (view$ | async; as view) {
-    @if (view.isEmpty) {
-      <div class="empty-table">Add characters or weapons to see the materials they need</div>
-    } @else {
-      <app-material-cost-display
-        [cost]="view.cost"
-        [groupByType]="true"
-        [ownedMaterials]="view.ownedMaterials"
-      />
-    }
+@if (view$ | async; as view) {
+  @if (view.isEmpty) {
+    <div class="empty-table">Add characters or weapons to see the materials they need</div>
+  } @else {
+    <app-material-cost-display
+      [cost]="view.cost"
+      [groupByType]="true"
+      [ownedMaterials]="view.ownedMaterials"
+    />
   }
-</div>
+}

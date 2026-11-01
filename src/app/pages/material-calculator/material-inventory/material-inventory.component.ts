@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
 import { map } from 'rxjs';
 import { LevelingCost } from '../../../_models/calculator';
 import { CalculatorStateService } from '../../../_services/calculator-state.service';
@@ -12,7 +11,7 @@ const HIDDEN_INVENTORY_IDS = new Set([112001, 113021]);
 @Component({
   selector: 'app-material-inventory',
   standalone: true,
-  imports: [CommonModule, RouterLink, MaterialCostDisplayComponent],
+  imports: [CommonModule, MaterialCostDisplayComponent],
   templateUrl: './material-inventory.component.html',
   styleUrls: ['../material-calculator.component.css'],
 })

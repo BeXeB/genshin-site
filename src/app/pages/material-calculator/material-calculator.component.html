@@ -2,121 +2,24 @@
   <app-page-title [title]="'Material Calculator'" [backLink]="'/tools'"></app-page-title>
 
   <div class="button-group">
-    <button class="button" routerLink="/material-calculator">Materials</button>
-    <button class="button active">Characters</button>
-    <button class="button" routerLink="/material-calculator/weapons">Weapons</button>
-    <button class="button" routerLink="/material-calculator/inventory">Inventory</button>
+    <button
+      class="button"
+      routerLink="/material-calculator"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      Materials
+    </button>
+    <button class="button" routerLink="/material-calculator/characters" routerLinkActive="active">
+      Characters
+    </button>
+    <button class="button" routerLink="/material-calculator/weapons" routerLinkActive="active">
+      Weapons
+    </button>
+    <button class="button" routerLink="/material-calculator/inventory" routerLinkActive="active">
+      Inventory
+    </button>
   </div>
 
-  @if (view$ | async; as view) {
-    <div class="character-table">
-      <div class="table-row table-head">
-        <div class="cell icon-cell"></div>
-        <div class="cell name-cell"><b>Name</b></div>
-        <div class="head-groups">
-          <div class="head-row">
-            <div class="cell group-cell">Level</div>
-            @for (combat of combatColumns; track combat.label) {
-              <div class="cell group-cell">{{ combat.label }}</div>
-            }
-          </div>
-          <div class="head-row head-sub-row">
-            <div class="cell">Current</div>
-            <div class="cell">Goal</div>
-            @for (combat of combatColumns; track combat.label) {
-              <div class="cell">Current</div>
-              <div class="cell">Goal</div>
-            }
-          </div>
-        </div>
-        <div class="cell action-cell"></div>
-      </div>
-
-      @for (row of view.rows; track row.key) {
-        <div class="character-entry">
-          <div class="table-row table-body" [class.selected]="isExpanded(row.progress)">
-            <div class="cell icon-cell">
-              @if (isTraveler(row.progress)) {
-                <div class="guide">
-                  <div class="mix mix-2 traveler-icon" role="img" [attr.aria-label]="row.name">
-                    <div><img [src]="getCharacterIcon('lumine')" alt="" /></div>
-                    <div><img [src]="getCharacterIcon('aether')" alt="" /></div>
-                  </div>
-                </div>
-              } @else {
-                <img
-                  class="character-icon"
-                  [src]="getCharacterIcon(row.normalizedName)"
-                  [alt]="row.name"
-                />
-              }
-            </div>
-
-            <div class="cell name-cell" (click)="onRowClicked(row)">
-              {{ row.name }}
-            </div>
-
-            <div class="cell">
-              <app-select-dropdown
-                [label]="row.name + ' level'"
-                [options]="levelOptions"
-                [value]="row.progress.currentLevel"
-                (valueChange)="onLevelChange(row.progress, 'currentLevel', $event)"
-              />
-            </div>
-
-            <div class="cell">
-              <app-select-dropdown
-                [label]="row.name + ' level goal'"
-                [options]="levelOptions"
-                [value]="row.progress.goalLevel"
-                (valueChange)="onLevelChange(row.progress, 'goalLevel', $event)"
-              />
-            </div>
-
-            @for (combat of combatColumns; track combat.label) {
-              <div class="cell">
-                <app-select-dropdown
-                  [label]="row.name + ' ' + combat.label"
-                  [options]="talentLevelOptions"
-                  [value]="row.progress[combat.current]"
-                  (valueChange)="onCombatCurrentChange(row.progress, combat, $event)"
-                />
-              </div>
-
-              <div class="cell">
-                <app-select-dropdown
-                  [label]="row.name + ' ' + combat.label + ' goal'"
-                  [options]="talentLevelOptions"
-                  [value]="row.progress[combat.goal]"
-                  (valueChange)="onCombatGoalChange(row.progress, combat, $event)"
-                />
-              </div>
-            }
-
-            <div class="cell action-cell">
-              <button class="remove-btn" (click)="onRemoveCharacter(row.progress)" title="Remove">
-                ✕
-              </button>
-            </div>
-          </div>
-
-          @if (isExpanded(row.progress) && calculatedCost) {
-            <div class="row-details">
-              <app-material-cost-display [cost]="calculatedCost" [characterName]="row.name" />
-            </div>
-          }
-        </div>
-      } @empty {
-        <div class="empty-table">No characters yet</div>
-      }
-    </div>
-
-    <app-character-search
-      class="add-search"
-      placeholder="+ Add character"
-      [characters]="view.available"
-      (characterSelected)="onAddCharacter($event)"
-    />
-  }
+  <router-outlet />
 </div>

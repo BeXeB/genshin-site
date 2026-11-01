@@ -1,92 +1,71 @@
-<div class="material-calculator-container">
-  <h1>Material Calculator</h1>
-
-  <div class="button-group">
-    <button class="button" routerLink="/material-calculator">Materials</button>
-    <button class="button" routerLink="/character">Characters</button>
-    <button class="button active">Weapons</button>
-    <button class="button" routerLink="/material-calculator/inventory">Inventory</button>
-  </div>
-
-  @if (view$ | async; as view) {
-    <div class="character-table weapon-table">
-      <div class="table-row table-head">
-        <div class="cell icon-cell"></div>
-        <div class="cell name-cell"><b>Name</b></div>
-        <div class="level-groups">
-          <div class="head-row">
-            <div class="cell group-cell">Level</div>
-          </div>
-          <div class="head-row head-sub-row">
-            <div class="cell">Current</div>
-            <div class="cell">Goal</div>
-          </div>
+@if (view$ | async; as view) {
+  <div class="character-table weapon-table">
+    <div class="table-row table-head">
+      <div class="cell icon-cell"></div>
+      <div class="cell name-cell"><b>Name</b></div>
+      <div class="level-groups">
+        <div class="head-row">
+          <div class="cell group-cell">Level</div>
         </div>
-        <div class="cell action-cell"></div>
+        <div class="head-row head-sub-row">
+          <div class="cell">Current</div>
+          <div class="cell">Goal</div>
+        </div>
       </div>
-
-      @for (row of view.rows; track row.progress.weaponId) {
-        <div class="character-entry">
-          <div
-            class="table-row table-body"
-            [class.selected]="isExpanded(row.progress.weaponId)"
-          >
-            <div class="cell icon-cell">
-              <img class="character-icon" [src]="row.iconUrl" [alt]="row.name" />
-            </div>
-
-            <div class="cell name-cell" (click)="onRowClicked(row)">
-              {{ row.name }}
-            </div>
-
-            <div class="cell level-cell">
-              <app-select-dropdown
-                [label]="row.name + ' level'"
-                [options]="row.levelOptions"
-                [value]="row.progress.currentLevel"
-                (valueChange)="onLevelChange(row.progress, 'currentLevel', $event)"
-              />
-            </div>
-
-            <div class="cell level-cell">
-              <app-select-dropdown
-                [label]="row.name + ' level goal'"
-                [options]="row.levelOptions"
-                [value]="row.progress.goalLevel"
-                (valueChange)="onLevelChange(row.progress, 'goalLevel', $event)"
-              />
-            </div>
-
-            <div class="cell action-cell">
-              <button
-                class="remove-btn"
-                (click)="onRemoveWeapon(row.progress.weaponId)"
-                title="Remove"
-              >
-                ✕
-              </button>
-            </div>
-          </div>
-
-          @if (isExpanded(row.progress.weaponId) && calculatedCost) {
-            <div class="row-details">
-              <app-material-cost-display
-                [cost]="calculatedCost"
-                [characterName]="row.name"
-              />
-            </div>
-          }
-        </div>
-      } @empty {
-        <div class="empty-table">No weapons yet</div>
-      }
+      <div class="cell action-cell"></div>
     </div>
 
-    <app-character-search
-      class="add-search"
-      placeholder="+ Add weapon"
-      [characters]="view.available"
-      (characterSelected)="onAddWeapon($event)"
-    />
-  }
-</div>
+    @for (row of view.rows; track row.progress.weaponId) {
+      <div class="character-entry">
+        <div class="table-row table-body" [class.selected]="isExpanded(row.progress.weaponId)">
+          <div class="cell icon-cell">
+            <img class="character-icon" [src]="row.iconUrl" [alt]="row.name" />
+          </div>
+
+          <div class="cell name-cell" (click)="onRowClicked(row)">
+            {{ row.name }}
+          </div>
+
+          <div class="cell level-cell">
+            <app-select-dropdown
+              [label]="row.name + ' level'"
+              [options]="row.levelOptions"
+              [value]="row.progress.currentLevel"
+              (valueChange)="onLevelChange(row.progress, 'currentLevel', $event)"
+            />
+          </div>
+
+          <div class="cell level-cell">
+            <app-select-dropdown
+              [label]="row.name + ' level goal'"
+              [options]="row.levelOptions"
+              [value]="row.progress.goalLevel"
+              (valueChange)="onLevelChange(row.progress, 'goalLevel', $event)"
+            />
+          </div>
+
+          <div class="cell action-cell">
+            <button class="remove-btn" (click)="onRemoveWeapon(row.progress.weaponId)" title="Remove">
+              ✕
+            </button>
+          </div>
+        </div>
+
+        @if (isExpanded(row.progress.weaponId) && calculatedCost) {
+          <div class="row-details">
+            <app-material-cost-display [cost]="calculatedCost" [characterName]="row.name" />
+          </div>
+        }
+      </div>
+    } @empty {
+      <div class="empty-table">No weapons yet</div>
+    }
+  </div>
+
+  <app-character-search
+    class="add-search"
+    placeholder="+ Add weapon"
+    [characters]="view.available"
+    (characterSelected)="onAddWeapon($event)"
+  />
+}
