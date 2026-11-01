@@ -13,26 +13,24 @@ const HIDDEN_INVENTORY_IDS = new Set([112001, 113021]);
   standalone: true,
   imports: [CommonModule, MaterialCostDisplayComponent],
   templateUrl: './material-inventory.component.html',
-  styleUrls: ['../material-calculator.component.css'],
+  styleUrls: ['../calculator-table.css'],
 })
 export class MaterialInventoryComponent {
   /** Every material at zero need, so the shared tables list the whole catalogue */
   allMaterials$ = this.materialService.getMaterials().pipe(
-    map(
-      (materials): LevelingCost => ({
-        materials: materials
-          .filter((m) => !HIDDEN_INVENTORY_IDS.has(m.id))
-          .map((m) => ({ materialId: m.id, materialName: m.name, quantity: 0 })),
-        totalMora: 0,
-      }),
-    ),
+    map((materials): LevelingCost => ({
+      materials: materials
+        .filter((m) => !HIDDEN_INVENTORY_IDS.has(m.id))
+        .map((m) => ({ materialId: m.id, materialName: m.name, quantity: 0 })),
+      totalMora: 0,
+    }))
   );
 
   owned$ = this.calculatorState.inventory$.pipe(map((inventory) => inventory.ownedMaterials));
 
   constructor(
     private materialService: MaterialService,
-    private calculatorState: CalculatorStateService,
+    private calculatorState: CalculatorStateService
   ) {}
 
   onOwnedChange(change: { materialId: number; quantity: number }): void {

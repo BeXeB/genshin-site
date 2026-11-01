@@ -1,5 +1,5 @@
 @if (view$ | async; as view) {
-  <div class="character-table">
+  <div class="entry-table">
     <div class="table-row table-head">
       <div class="cell icon-cell"></div>
       <div class="cell name-cell"><b>Name</b></div>
@@ -93,7 +93,7 @@
 
         @if (isExpanded(row.progress) && calculatedCost) {
           <div class="row-details">
-            <app-material-cost-display [cost]="calculatedCost" [characterName]="row.name" />
+            <app-material-cost-display [cost]="calculatedCost" />
           </div>
         }
       </div>

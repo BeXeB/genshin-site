@@ -13,6 +13,7 @@ import {
   createDefaultCharacterProgress,
   includesSharedLeveling,
   isSameEntry,
+  LevelingCost,
   TRAVELER_ID,
 } from '../../../_models/calculator';
 import { Character, CharacterProfile } from '../../../_models/character';
@@ -24,7 +25,7 @@ import {
 } from '../../../_components/character-search/character-search.component';
 import { SelectDropdownComponent } from '../../../_components/select-dropdown/select-dropdown.component';
 import { ImageService } from '../../../_services/image.service';
-import { buildLevelOptions } from '../level-options';
+import { buildLevelOptions, getLevelUpdates } from '../level-options';
 import { getElementFromUrlName, getElementUrlName, replaceQueryParams } from '../url-state';
 
 type SelectedCharacter = Pick<Character, 'profile' | 'skills' | 'variants'>;
@@ -109,14 +110,14 @@ function getEntryKey(entry: CharacterEntryKey): string {
     SelectDropdownComponent,
   ],
   templateUrl: './character-calculator.component.html',
-  styleUrls: ['../material-calculator.component.css'],
+  styleUrls: ['../calculator-table.css'],
 })
 export class CharacterCalculatorComponent implements OnInit {
   selectedCharacterProgress: CharacterProgress | null = null;
   selectedCharacter: SelectedCharacter | null = null;
   characters$ = this.characterService.getCharacters().pipe(shareReplay(1));
   inventory$ = this.calculatorState.inventory$;
-  calculatedCost: any = null;
+  calculatedCost: LevelingCost | null = null;
   private detailsCache = new Map<number, Observable<SelectedCharacter | null>>();
 
   readonly levelOptions = LEVEL_OPTIONS;
@@ -141,7 +142,7 @@ export class CharacterCalculatorComponent implements OnInit {
           .flatMap(toCharacterOptions)
           .filter((option) => !inventory.characters.some((entry) => isSameEntry(entry, option))),
       };
-    }),
+    })
   );
 
   constructor(
@@ -152,7 +153,7 @@ export class CharacterCalculatorComponent implements OnInit {
     private imageService: ImageService,
     private route: ActivatedRoute,
     private router: Router,
-    private location: Location,
+    private location: Location
   ) {}
 
   ngOnInit(): void {
@@ -214,9 +215,7 @@ export class CharacterCalculatorComponent implements OnInit {
   /**
    * Load a character's profile and talents, falling back to the profile alone on error
    */
-  private loadCharacter(
-    characterId: number,
-  ): Observable<SelectedCharacter | null> {
+  private loadCharacter(characterId: number): Observable<SelectedCharacter | null> {
     let cached = this.detailsCache.get(characterId);
     if (!cached) {
       cached = this.characters$.pipe(
@@ -225,14 +224,12 @@ export class CharacterCalculatorComponent implements OnInit {
           if (!character) {
             return of(null);
           }
-          return this.characterService
-            .getCharacterDetails(character.normalizedName)
-            .pipe(
-              map(({ profile, skills, variants }) => ({ profile, skills, variants })),
-              catchError(() => of({ profile: character })),
-            );
+          return this.characterService.getCharacterDetails(character.normalizedName).pipe(
+            map(({ profile, skills, variants }) => ({ profile, skills, variants })),
+            catchError(() => of({ profile: character }))
+          );
         }),
-        shareReplay(1),
+        shareReplay(1)
       );
       this.detailsCache.set(characterId, cached);
     }
@@ -244,7 +241,7 @@ export class CharacterCalculatorComponent implements OnInit {
       return;
     }
     this.calculatorState.addCharacter(
-      createDefaultCharacterProgress(option.characterId, option.element),
+      createDefaultCharacterProgress(option.characterId, option.element)
     );
   }
 
@@ -286,8 +283,7 @@ export class CharacterCalculatorComponent implements OnInit {
 
   isExpanded(entry: CharacterEntryKey): boolean {
     return (
-      this.selectedCharacterProgress !== null &&
-      isSameEntry(this.selectedCharacterProgress, entry)
+      this.selectedCharacterProgress !== null && isSameEntry(this.selectedCharacterProgress, entry)
     );
   }
 
@@ -305,21 +301,12 @@ export class CharacterCalculatorComponent implements OnInit {
   onLevelChange(
     progress: CharacterProgress,
     field: 'currentLevel' | 'goalLevel',
-    value: string,
+    value: string
   ): void {
-    const level = parseInt(value, 10);
-    const updates: Partial<CharacterProgress> =
-      field === 'currentLevel'
-        ? { currentLevel: level, goalLevel: Math.max(progress.goalLevel, level) }
-        : { goalLevel: Math.max(progress.currentLevel, level) };
-    this.onProgressUpdated(progress, updates);
+    this.onProgressUpdated(progress, getLevelUpdates(progress, field, value));
   }
 
-  onCombatCurrentChange(
-    progress: CharacterProgress,
-    column: CombatColumn,
-    value: string,
-  ): void {
+  onCombatCurrentChange(progress: CharacterProgress, column: CombatColumn, value: string): void {
     const level = parseInt(value, 10);
     this.onProgressUpdated(progress, {
       [column.current]: level,
@@ -327,11 +314,7 @@ export class CharacterCalculatorComponent implements OnInit {
     });
   }
 
-  onCombatGoalChange(
-    progress: CharacterProgress,
-    column: CombatColumn,
-    value: string,
-  ): void {
+  onCombatGoalChange(progress: CharacterProgress, column: CombatColumn, value: string): void {
     const level = parseInt(value, 10);
     this.onProgressUpdated(progress, {
       [column.goal]: Math.max(progress[column.current], level),
@@ -341,10 +324,7 @@ export class CharacterCalculatorComponent implements OnInit {
   /**
    * Persist a progress change and refresh the expanded row's costs
    */
-  private onProgressUpdated(
-    entry: CharacterEntryKey,
-    updates: Partial<CharacterProgress>,
-  ): void {
+  private onProgressUpdated(entry: CharacterEntryKey, updates: Partial<CharacterProgress>): void {
     this.calculatorState.updateCharacterProgress(entry, updates);
     if (this.isExpanded(entry)) {
       this.selectedCharacterProgress = this.calculatorState.getCharacter(entry) ?? null;
@@ -371,7 +351,7 @@ export class CharacterCalculatorComponent implements OnInit {
     this.calculatedCost = this.calculationService.calculateCharacterEntryCost(
       this.selectedCharacter,
       this.selectedCharacterProgress,
-      includesSharedLeveling(this.selectedCharacterProgress, characters),
+      includesSharedLeveling(this.selectedCharacterProgress, characters)
     );
   }
 }

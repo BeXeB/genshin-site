@@ -80,7 +80,6 @@ const RARITY_NAMES: Partial<Record<number, string>> = {
 })
 export class MaterialCostDisplayComponent implements OnInit, OnChanges {
   @Input() cost: LevelingCost | null = null;
-  @Input() characterName: string = '';
   /** Show materials as one table per type instead of a flat grid */
   @Input() groupByType = false;
   /** Materials tab: shown amounts are still needed after these owned counts */

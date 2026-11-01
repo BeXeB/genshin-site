@@ -22,7 +22,7 @@ const EMPTY_COST: LevelingCost = { materials: [], totalMora: 0 };
   standalone: true,
   imports: [CommonModule, MaterialCostDisplayComponent],
   templateUrl: './material-totals.component.html',
-  styleUrls: ['../material-calculator.component.css'],
+  styleUrls: ['../calculator-table.css'],
 })
 export class MaterialTotalsComponent {
   /** Materials still needed across every tracked character and weapon */
@@ -37,8 +37,8 @@ export class MaterialTotalsComponent {
           this.getCharacterCost(
             entry,
             characters,
-            includesSharedLeveling(entry, inventory.characters),
-          ),
+            includesSharedLeveling(entry, inventory.characters)
+          )
         ),
         ...inventory.weapons.map((entry) => of(this.getWeaponCost(entry, weapons))),
       ];
@@ -48,23 +48,23 @@ export class MaterialTotalsComponent {
           isEmpty: entryCosts.length === 0,
           cost: this.calculationService.mergeCosts(...costs),
           ownedMaterials: inventory.ownedMaterials,
-        })),
+        }))
       );
-    }),
+    })
   );
 
   constructor(
     private characterService: CharacterService,
     private weaponService: WeaponService,
     private calculatorState: CalculatorStateService,
-    private calculationService: MaterialCalculationService,
+    private calculationService: MaterialCalculationService
   ) {}
 
   /** Falls back to leveling and ascension only when the character details fail to load */
   private getCharacterCost(
     entry: CharacterProgressEntry,
     characters: CharacterProfile[],
-    includeLeveling: boolean,
+    includeLeveling: boolean
   ): Observable<LevelingCost> {
     const character = characters.find((c) => c.id === entry.characterId);
     if (!character) {
@@ -73,8 +73,8 @@ export class MaterialTotalsComponent {
     return this.characterService.getCharacterDetails(character.normalizedName).pipe(
       catchError(() => of({ profile: character })),
       map((details) =>
-        this.calculationService.calculateCharacterEntryCost(details, entry, includeLeveling),
-      ),
+        this.calculationService.calculateCharacterEntryCost(details, entry, includeLeveling)
+      )
     );
   }
 
@@ -88,7 +88,7 @@ export class MaterialTotalsComponent {
       entry.currentLevel,
       entry.goalLevel,
       entry.currentAscension,
-      entry.goalAscension,
+      entry.goalAscension
     );
   }
 }

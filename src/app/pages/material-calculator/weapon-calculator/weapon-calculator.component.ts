@@ -19,7 +19,7 @@ import {
   CharacterSearchComponent,
 } from '../../../_components/character-search/character-search.component';
 import { SelectDropdownComponent } from '../../../_components/select-dropdown/select-dropdown.component';
-import { buildLevelOptions, LEVEL_CAP_BY_ASCENSION } from '../level-options';
+import { buildLevelOptions, getLevelUpdates, LEVEL_CAP_BY_ASCENSION } from '../level-options';
 import { replaceQueryParams } from '../url-state';
 
 type WeaponRow = {
@@ -31,9 +31,7 @@ type WeaponRow = {
 };
 
 /** Level dropdown options for each max ascension (index = ascension) */
-const LEVEL_OPTIONS_BY_MAX_ASCENSION = LEVEL_CAP_BY_ASCENSION.map((cap) =>
-  buildLevelOptions(cap),
-);
+const LEVEL_OPTIONS_BY_MAX_ASCENSION = LEVEL_CAP_BY_ASCENSION.map((cap) => buildLevelOptions(cap));
 
 /** Highest ascension with cost data; weapons below 4 stars stop at ascension 4 */
 function getMaxAscension(weapon: Weapon): number {
@@ -52,11 +50,7 @@ function getMaxAscension(weapon: Weapon): number {
     SelectDropdownComponent,
   ],
   templateUrl: './weapon-calculator.component.html',
-  styleUrls: [
-    // Table styles shared with the character calculator
-    '../material-calculator.component.css',
-    './weapon-calculator.component.css',
-  ],
+  styleUrls: ['../calculator-table.css', './weapon-calculator.component.css'],
 })
 export class WeaponCalculatorComponent implements OnInit {
   weapons$ = this.weaponService.getWeapons().pipe(shareReplay(1));
@@ -81,11 +75,15 @@ export class WeaponCalculatorComponent implements OnInit {
           };
         }),
         available: weapons
-          .filter((w) => w.id !== HIDDEN_WEAPON_ID && !inventory.weapons.some((entry) => entry.weaponId === w.id))
+          .filter(
+            (w) =>
+              w.id !== HIDDEN_WEAPON_ID &&
+              !inventory.weapons.some((entry) => entry.weaponId === w.id)
+          )
           .sort(compareWeapons)
           .map((w) => this.toSearchOption(w)),
       };
-    }),
+    })
   );
 
   constructor(
@@ -96,7 +94,7 @@ export class WeaponCalculatorComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private location: Location,
-    private destroyRef: DestroyRef,
+    private destroyRef: DestroyRef
   ) {}
 
   ngOnInit(): void {
@@ -133,7 +131,7 @@ export class WeaponCalculatorComponent implements OnInit {
         return;
       }
       this.calculatorState.addWeapon(
-        createDefaultWeaponProgress(weapon.id, LEVEL_CAP_BY_ASCENSION[getMaxAscension(weapon)]),
+        createDefaultWeaponProgress(weapon.id, LEVEL_CAP_BY_ASCENSION[getMaxAscension(weapon)])
       );
     });
   }
@@ -181,23 +179,15 @@ export class WeaponCalculatorComponent implements OnInit {
   onLevelChange(
     progress: WeaponProgressEntry,
     field: 'currentLevel' | 'goalLevel',
-    value: string,
+    value: string
   ): void {
-    const level = parseInt(value, 10);
-    const updates: Partial<WeaponProgressEntry> =
-      field === 'currentLevel'
-        ? { currentLevel: level, goalLevel: Math.max(progress.goalLevel, level) }
-        : { goalLevel: Math.max(progress.currentLevel, level) };
-    this.onProgressUpdated(progress.weaponId, updates);
+    this.onProgressUpdated(progress.weaponId, getLevelUpdates(progress, field, value));
   }
 
   /**
    * Persist a progress change and refresh the expanded row's costs
    */
-  private onProgressUpdated(
-    weaponId: number,
-    updates: Partial<WeaponProgressEntry>,
-  ): void {
+  private onProgressUpdated(weaponId: number, updates: Partial<WeaponProgressEntry>): void {
     this.calculatorState.updateWeaponProgress(weaponId, updates);
     if (this.isExpanded(weaponId)) {
       this.recalculateCost();
@@ -225,7 +215,7 @@ export class WeaponCalculatorComponent implements OnInit {
       progress.currentLevel,
       progress.goalLevel,
       progress.currentAscension,
-      progress.goalAscension,
+      progress.goalAscension
     );
   }
 

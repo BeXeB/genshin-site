@@ -15,3 +15,20 @@ export function buildLevelOptions(maxLevel: number): (number | string)[] {
   }
   return options;
 }
+
+type LevelFields = { currentLevel: number; goalLevel: number };
+
+/**
+ * Updates for a level dropdown change: a current level above the goal raises the goal,
+ * and a goal below the current level is clamped to it
+ */
+export function getLevelUpdates(
+  progress: LevelFields,
+  field: keyof LevelFields,
+  value: string
+): Partial<LevelFields> {
+  const level = parseInt(value, 10);
+  return field === 'currentLevel'
+    ? { currentLevel: level, goalLevel: Math.max(progress.goalLevel, level) }
+    : { goalLevel: Math.max(progress.currentLevel, level) };
+}
