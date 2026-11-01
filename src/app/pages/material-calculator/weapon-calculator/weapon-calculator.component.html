@@ -2,14 +2,14 @@
   <div class="entry-table weapon-table">
     <div class="table-row table-head">
       <div class="cell icon-cell"></div>
-      <div class="cell name-cell"><b>Name</b></div>
+      <div class="cell name-cell"><b>Név</b></div>
       <div class="level-groups">
         <div class="head-row">
-          <div class="cell group-cell">Level</div>
+          <div class="cell group-cell">Szint</div>
         </div>
         <div class="head-row head-sub-row">
-          <div class="cell">Current</div>
-          <div class="cell">Goal</div>
+          <div class="cell">Jelenlegi</div>
+          <div class="cell">Cél</div>
         </div>
       </div>
       <div class="cell action-cell"></div>
@@ -29,7 +29,7 @@
 
         <div class="cell level-cell">
           <app-select-dropdown
-            [label]="row.name + ' level'"
+            [label]="row.name + ' szint'"
             [options]="row.levelOptions"
             [value]="row.progress.currentLevel"
             (valueChange)="onLevelChange(row.progress, 'currentLevel', $event)"
@@ -38,7 +38,7 @@
 
         <div class="cell level-cell">
           <app-select-dropdown
-            [label]="row.name + ' level goal'"
+            [label]="row.name + ' szint cél'"
             [options]="row.levelOptions"
             [value]="row.progress.goalLevel"
             (valueChange)="onLevelChange(row.progress, 'goalLevel', $event)"
@@ -46,13 +46,13 @@
         </div>
       </app-entry-row>
     } @empty {
-      <div class="empty-table">No weapons yet</div>
+      <div class="empty-table">Még nincs fegyver</div>
     }
   </div>
 
   <app-character-search
     class="add-search"
-    placeholder="+ Add weapon"
+    placeholder="+ Fegyver hozzáadása"
     [characters]="view.available"
     (characterSelected)="onAddWeapon($event)"
   />

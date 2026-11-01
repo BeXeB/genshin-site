@@ -2,10 +2,10 @@
   <div class="entry-table craftable-table">
     <div class="table-row table-head">
       <div class="cell icon-cell"></div>
-      <div class="cell name-cell"><b>Weapon</b></div>
+      <div class="cell name-cell"><b>Fegyver</b></div>
       <div class="cell billet-cell"><b>Billet</b></div>
-      <div class="cell refine-cell"><b>Current</b></div>
-      <div class="cell refine-cell"><b>Goal</b></div>
+      <div class="cell refine-cell"><b>Jelenlegi</b></div>
+      <div class="cell refine-cell"><b>Cél</b></div>
       <div class="cell action-cell"></div>
     </div>
 
@@ -17,7 +17,7 @@
         <div class="cell billet-cell">{{ row.billetName }}</div>
         <div class="cell refine-cell">
           <app-select-dropdown
-            [label]="row.weapon.name + ' current refine'"
+            [label]="row.weapon.name + ' jelenlegi finomítás'"
             [options]="view.refineOptions"
             [value]="row.progress.currentRefine"
             (valueChange)="onRefineChange(row.progress, 'currentRefine', $event)"
@@ -25,7 +25,7 @@
         </div>
         <div class="cell refine-cell">
           <app-select-dropdown
-            [label]="row.weapon.name + ' goal refine'"
+            [label]="row.weapon.name + ' cél finomítás'"
             [options]="view.refineOptions"
             [value]="row.progress.goalRefine"
             (valueChange)="onRefineChange(row.progress, 'goalRefine', $event)"
@@ -33,13 +33,13 @@
         </div>
       </app-entry-row>
     } @empty {
-      <div class="empty-table">No weapons yet</div>
+      <div class="empty-table">Még nincs craftolható fegyver</div>
     }
   </div>
 
   <app-character-search
     class="add-search"
-    placeholder="+ Add craftable weapon"
+    placeholder="Craftolható fegyver hozzáadása"
     [characters]="view.available"
     (characterSelected)="onAddCraftable($event)"
   />

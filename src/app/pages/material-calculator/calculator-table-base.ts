@@ -8,7 +8,7 @@ import { ImageService } from '../../_services/image.service';
 import { replaceQueryParams } from './url-state';
 
 /** Name shown for an inventory entry whose catalogue entry is missing */
-export const UNKNOWN_ENTRY_NAME = 'Unknown';
+export const UNKNOWN_ENTRY_NAME = 'Ismeretlen';
 
 /** Shared services and URL-synced selection for the calculator tabs that render an entry table */
 @Directive()

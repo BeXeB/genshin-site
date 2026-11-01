@@ -18,7 +18,7 @@
                       <thead>
                         <tr>
                           <th scope="col">Material</th>
-                          <th scope="col" class="count-col">Amount</th>
+                          <th scope="col" class="count-col">Darab</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -50,7 +50,7 @@
                                   class="count-value"
                                   [attr.title]="
                                     craftMora > 0
-                                      ? formatMora(craftMora) + ' mora for crafting'
+                                      ? formatMora(craftMora) + ' mora craftoláshoz'
                                       : null
                                   "
                                   >{{ formatMora(group.mora) }}</span
@@ -142,7 +142,7 @@
       </div>
     } @else if (sortedMaterials.length > 0 || cost.totalMora > 0) {
       <div class="materials-section">
-        <h3>Materials Needed</h3>
+        <h3>Szükséges materialok</h3>
         <div class="materials-grid">
           @for (material of sortedMaterials; track material.materialId) {
             <ng-container *ngTemplateOutlet="materialCard; context: { $implicit: material }" />
@@ -184,5 +184,5 @@
     </ng-template>
   </div>
 } @else {
-  <div class="no-cost">No data available</div>
+  <div class="no-cost">Nincs adat</div>
 }

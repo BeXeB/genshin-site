@@ -66,11 +66,11 @@ const MORA_ID = 202;
 
 /** Rarity column headers, named as in the Excel TODO sheet */
 const RARITY_NAMES: Partial<Record<number, string>> = {
-  5: 'Gold',
-  4: 'Purple',
-  3: 'Blue',
-  2: 'Green',
-  1: 'White',
+  5: 'Arany',
+  4: 'Lila',
+  3: 'Kék',
+  2: 'Zöld',
+  1: 'Fehér',
 };
 
 @Component({
@@ -305,18 +305,18 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
       const items = materials.filter((m) => this.materialMap.get(m.materialId)?.type === type);
       if (type === MaterialType.GENERIC_MATERIAL) {
         const [common, elite] = this.splitByTopRarity(items);
-        addGroup('Generic Common', [this.buildTable(common)]);
-        addGroup('Generic Elite', [this.buildTable(elite)]);
+        addGroup('Common', [this.buildTable(common)]);
+        addGroup('Elite', [this.buildTable(elite)]);
       } else if (type === MaterialType.TALENT_MATERIAL) {
         const isCrown = (m: MaterialTotal) => this.rarityOf(m) === CROWN_RARITY;
         addGroup(MaterialTypeLabel[type], [
           this.buildTable(items.filter((m) => !isCrown(m))),
-          this.buildTable(items.filter(isCrown), 'Amount'),
+          this.buildTable(items.filter(isCrown), 'Darab'),
         ]);
       } else if (type === MaterialType.BOSS_MATERIAL) {
         const isWeekly = (m: MaterialTotal) => this.rarityOf(m) === WEEKLY_BOSS_RARITY;
         addGroup(MaterialTypeLabel[type], [this.buildTable(items.filter((m) => !isWeekly(m)))]);
-        addGroup('Weekly Material', [this.buildTable(items.filter(isWeekly))]);
+        addGroup('Heti material', [this.buildTable(items.filter(isWeekly))]);
       } else if (type === MaterialType.XP_AND_MORA) {
         const isMora = (m: MaterialTotal) => m.materialId === MORA_ID;
         const isWeaponXp = (m: MaterialTotal) => this.isEnhancementOre(m.materialId);
@@ -336,7 +336,7 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
       }
     }
     const unknown = materials.filter((m) => !this.materialMap.has(m.materialId));
-    addGroup('Other', [this.buildTable(unknown)]);
+    addGroup('Egyéb', [this.buildTable(unknown)]);
     return rows.filter((row) => row.length > 0);
   }
 
@@ -355,7 +355,7 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
     const columns: MaterialTableColumn[] = rarities.map((rarity) =>
       headerOverride
         ? { rarity, label: headerOverride, color: '' }
-        : { rarity, label: RARITY_NAMES[rarity] ?? 'Amount', color: this.rarityColor(rarity) }
+        : { rarity, label: RARITY_NAMES[rarity] ?? 'Darab', color: this.rarityColor(rarity) }
     );
 
     const families = new Map<number, MaterialTotal[]>();
