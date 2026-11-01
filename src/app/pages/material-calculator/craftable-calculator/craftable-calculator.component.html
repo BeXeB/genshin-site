@@ -9,8 +9,8 @@
       <div class="cell action-cell"></div>
     </div>
 
-    @for (row of view.rows; track row.weapon.id) {
-      <app-entry-row [name]="row.weapon.name" (removed)="onRemoveCraftable(row.weapon.id)">
+    @for (row of view.rows; track row.progress.instanceId) {
+      <app-entry-row [name]="row.weapon.name" (removed)="onRemoveCraftable(row.progress.instanceId)">
         <div class="cell icon-cell" entryIcon>
           <img class="character-icon" [src]="row.iconUrl" [alt]="row.weapon.name" />
         </div>

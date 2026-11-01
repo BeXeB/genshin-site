@@ -15,13 +15,13 @@
       <div class="cell action-cell"></div>
     </div>
 
-    @for (row of view.rows; track row.progress.weaponId) {
+    @for (row of view.rows; track row.progress.instanceId) {
       <app-entry-row
         [name]="row.name"
-        [expanded]="isExpanded(row.progress.weaponId)"
+        [expanded]="isExpanded(row.progress.instanceId)"
         [cost]="calculatedCost"
         (nameClicked)="onRowClicked(row)"
-        (removed)="onRemoveWeapon(row.progress.weaponId)"
+        (removed)="onRemoveWeapon(row.progress.instanceId)"
       >
         <div class="cell icon-cell" entryIcon>
           <img class="character-icon" [src]="row.iconUrl" [alt]="row.name" />

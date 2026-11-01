@@ -47,8 +47,9 @@ export class WeaponCalculatorComponent extends CalculatorTableBase implements On
   private readonly weaponService = inject(WeaponService);
   private readonly weapons$ = this.weaponService.getWeapons().pipe(shareReplay(1));
   private readonly inventory$ = this.calculatorState.inventory$;
-  /** Weapon whose row is expanded */
+  /** Weapon whose row is expanded, and the copy of it that is expanded */
   private selectedWeapon: Weapon | null = null;
+  private selectedInstanceId: string | null = null;
 
   /** Table rows for owned weapons, plus weapons that can still be added */
   view$ = combineLatest([this.weapons$, this.inventory$]).pipe(
@@ -67,11 +68,7 @@ export class WeaponCalculatorComponent extends CalculatorTableBase implements On
           };
         }),
         available: weapons
-          .filter(
-            (w) =>
-              w.id !== HIDDEN_WEAPON_ID &&
-              !inventory.weapons.some((entry) => entry.weaponId === w.id)
-          )
+          .filter((w) => w.id !== HIDDEN_WEAPON_ID)
           .sort(compareWeapons)
           .map((w) => this.toSearchOption(w)),
       };
@@ -86,26 +83,27 @@ export class WeaponCalculatorComponent extends CalculatorTableBase implements On
   }
 
   /**
-   * Expands the weapon named in the URL, or collapses everything when the URL names none
+   * Expands the first copy of the weapon named in the URL, or collapses everything when the URL names none
    */
   private restoreSelection(params: ParamMap, weapons: Weapon[]): void {
     const weaponName = params.get('weapon');
     const weapon = weaponName ? weapons.find((w) => w.normalizedName === weaponName) : undefined;
-    if (!weapon || !this.calculatorState.getWeapon(weapon.id)) {
+    const entry = weapon
+      ? this.calculatorState.getCurrentInventory().weapons.find((w) => w.weaponId === weapon.id)
+      : undefined;
+    if (!weapon || !entry) {
       this.clearSelection();
-    } else if (!this.isExpanded(weapon.id)) {
+    } else if (!this.isExpanded(entry.instanceId)) {
       this.selectedWeapon = weapon;
+      this.selectedInstanceId = entry.instanceId;
       this.recalculateCost();
     }
   }
 
   /**
-   * Add a weapon from the search
+   * Add a weapon from the search; each add creates a new copy
    */
   onAddWeapon(option: SearchOption): void {
-    if (this.calculatorState.getWeapon(option.id)) {
-      return;
-    }
     this.weapons$.pipe(take(1)).subscribe((weapons) => {
       const weapon = weapons.find((w) => w.id === option.id);
       if (!weapon) {
@@ -118,11 +116,11 @@ export class WeaponCalculatorComponent extends CalculatorTableBase implements On
   }
 
   /**
-   * Remove a weapon from the inventory
+   * Remove one weapon copy from the inventory
    */
-  onRemoveWeapon(weaponId: number): void {
-    this.calculatorState.removeWeapon(weaponId);
-    if (this.isExpanded(weaponId)) {
+  onRemoveWeapon(instanceId: string): void {
+    this.calculatorState.removeWeapon(instanceId);
+    if (this.isExpanded(instanceId)) {
       this.collapseRow();
     }
   }
@@ -134,17 +132,18 @@ export class WeaponCalculatorComponent extends CalculatorTableBase implements On
     if (!row.weapon) {
       return;
     }
-    if (this.isExpanded(row.progress.weaponId)) {
+    if (this.isExpanded(row.progress.instanceId)) {
       this.collapseRow();
       return;
     }
     this.selectedWeapon = row.weapon;
+    this.selectedInstanceId = row.progress.instanceId;
     this.recalculateCost();
     this.syncUrl({ weapon: row.weapon.normalizedName });
   }
 
-  isExpanded(weaponId: number): boolean {
-    return this.selectedWeapon?.id === weaponId;
+  isExpanded(instanceId: string): boolean {
+    return this.selectedInstanceId === instanceId;
   }
 
   /**
@@ -155,30 +154,33 @@ export class WeaponCalculatorComponent extends CalculatorTableBase implements On
     field: 'currentLevel' | 'goalLevel',
     value: string
   ): void {
-    this.onProgressUpdated(progress.weaponId, getLevelUpdates(progress, field, value));
+    this.onProgressUpdated(progress.instanceId, getLevelUpdates(progress, field, value));
   }
 
   /**
    * Persist a progress change and refresh the expanded row's costs
    */
-  private onProgressUpdated(weaponId: number, updates: Partial<WeaponProgressEntry>): void {
-    this.calculatorState.updateWeaponProgress(weaponId, updates);
-    if (this.isExpanded(weaponId)) {
+  private onProgressUpdated(instanceId: string, updates: Partial<WeaponProgressEntry>): void {
+    this.calculatorState.updateWeaponProgress(instanceId, updates);
+    if (this.isExpanded(instanceId)) {
       this.recalculateCost();
     }
   }
 
   protected clearSelection(): void {
     this.selectedWeapon = null;
+    this.selectedInstanceId = null;
     this.calculatedCost = null;
   }
 
   /**
-   * Recalculate material costs based on current progress
+   * Recalculate material costs based on the expanded copy's progress
    */
   private recalculateCost(): void {
     const weapon = this.selectedWeapon;
-    const progress = weapon ? this.calculatorState.getWeapon(weapon.id) : undefined;
+    const progress = this.selectedInstanceId
+      ? this.calculatorState.getWeapon(this.selectedInstanceId)
+      : undefined;
     if (!weapon || !progress) {
       this.calculatedCost = null;
       return;

@@ -102,20 +102,18 @@ export class CraftableCalculatorComponent {
       return {
         rows,
         refineOptions: REFINE_OPTIONS,
-        available: craftables
-          .filter((c) => !tracked.some((t) => t.weaponId === c.weapon.id))
-          .map((c) => this.toSearchOption(c.weapon)),
+        available: craftables.map((c) => this.toSearchOption(c.weapon)),
       };
     })
   );
 
-  /** Start tracking a craftable weapon from the search */
+  /** Start tracking another copy of a craftable weapon from the search */
   onAddCraftable(option: SearchOption): void {
     this.calculatorState.addCraftable(createDefaultCraftableProgress(option.id));
   }
 
-  onRemoveCraftable(weaponId: number): void {
-    this.calculatorState.removeCraftable(weaponId);
+  onRemoveCraftable(instanceId: string): void {
+    this.calculatorState.removeCraftable(instanceId);
   }
 
   /** Saves a refine change; the value arrives as a string from the dropdown */
@@ -125,7 +123,7 @@ export class CraftableCalculatorComponent {
     value: string
   ): void {
     this.calculatorState.updateCraftableProgress(
-      progress.weaponId,
+      progress.instanceId,
       getRefineUpdates(progress, field, value)
     );
   }

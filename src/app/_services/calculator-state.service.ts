@@ -6,6 +6,7 @@ import {
   CharacterEntryKey,
   CharacterProgressEntry,
   CraftableProgressEntry,
+  createInstanceId,
   TRAVELER_ID,
   WeaponProgressEntry,
   isSameEntry,
@@ -17,6 +18,19 @@ const EMPTY_INVENTORY: CalculatorInventory = {
   weapons: [],
   ownedMaterials: {},
 };
+
+/** Gives weapon and craftable entries saved before instance IDs existed one each */
+function assignInstanceIds(inventory: CalculatorInventory): CalculatorInventory {
+  return {
+    ...inventory,
+    weapons: inventory.weapons.map((w) =>
+      w.instanceId ? w : { ...w, instanceId: createInstanceId() }
+    ),
+    craftables: inventory.craftables?.map((c) =>
+      c.instanceId ? c : { ...c, instanceId: createInstanceId() }
+    ),
+  };
+}
 
 /** Copies the Traveler's shared level and ascensions; talents stay per element */
 function withSharedLevel(
@@ -68,7 +82,7 @@ export class CalculatorStateService {
   private loadInventory(): void {
     const stored = this.storageService.loadInventory();
     if (stored) {
-      this.inventorySubject.next(mergeTravelerEntries(stored));
+      this.inventorySubject.next(assignInstanceIds(mergeTravelerEntries(stored)));
     }
   }
 
@@ -173,15 +187,10 @@ export class CalculatorStateService {
   }
 
   /**
-   * Add a weapon to the inventory
+   * Add a weapon to the inventory; the same weapon can be added more than once
    */
   addWeapon(weaponEntry: WeaponProgressEntry): void {
     const current = this.getCurrentInventory();
-    // Avoid duplicates
-    if (current.weapons.some((w) => w.weaponId === weaponEntry.weaponId)) {
-      console.warn(`Weapon with ID ${weaponEntry.weaponId} already in inventory`);
-      return;
-    }
     // Automatically calculate ascensions based on levels
     const entryWithAscensions: WeaponProgressEntry = {
       ...weaponEntry,
@@ -196,26 +205,26 @@ export class CalculatorStateService {
   }
 
   /**
-   * Remove a weapon from inventory
+   * Remove one weapon copy from inventory
    */
-  removeWeapon(weaponId: number): void {
+  removeWeapon(instanceId: string): void {
     const current = this.getCurrentInventory();
     const updated: CalculatorInventory = {
       ...current,
-      weapons: current.weapons.filter((w) => w.weaponId !== weaponId),
+      weapons: current.weapons.filter((w) => w.instanceId !== instanceId),
     };
     this.updateInventory(updated);
   }
 
   /**
-   * Update a weapon's progress
+   * Update one weapon copy's progress
    */
-  updateWeaponProgress(weaponId: number, updates: Partial<WeaponProgressEntry>): void {
+  updateWeaponProgress(instanceId: string, updates: Partial<WeaponProgressEntry>): void {
     const current = this.getCurrentInventory();
     const updated: CalculatorInventory = {
       ...current,
       weapons: current.weapons.map((w) => {
-        if (w.weaponId !== weaponId) return w;
+        if (w.instanceId !== instanceId) return w;
         const merged = { ...w, ...updates };
         // Automatically calculate ascensions from levels
         return {
@@ -229,10 +238,10 @@ export class CalculatorStateService {
   }
 
   /**
-   * Get a specific weapon from inventory
+   * Get one weapon copy from inventory
    */
-  getWeapon(weaponId: number): WeaponProgressEntry | undefined {
-    return this.getCurrentInventory().weapons.find((w) => w.weaponId === weaponId);
+  getWeapon(instanceId: string): WeaponProgressEntry | undefined {
+    return this.getCurrentInventory().weapons.find((w) => w.instanceId === instanceId);
   }
 
   /**
@@ -241,36 +250,32 @@ export class CalculatorStateService {
   addCraftable(entry: CraftableProgressEntry): void {
     const current = this.getCurrentInventory();
     const craftables = current.craftables ?? [];
-    if (craftables.some((c) => c.weaponId === entry.weaponId)) {
-      console.warn(`Craftable with ID ${entry.weaponId} already in inventory`);
-      return;
-    }
     this.updateInventory({ ...current, craftables: [...craftables, entry] });
   }
 
   /**
-   * Stop tracking a craftable weapon
+   * Stop tracking one craftable weapon copy
    */
-  removeCraftable(weaponId: number): void {
+  removeCraftable(instanceId: string): void {
     const current = this.getCurrentInventory();
     this.updateInventory({
       ...current,
-      craftables: (current.craftables ?? []).filter((c) => c.weaponId !== weaponId),
+      craftables: (current.craftables ?? []).filter((c) => c.instanceId !== instanceId),
     });
   }
 
   /**
-   * Update refine progress for a tracked craftable weapon
+   * Update refine progress for one tracked craftable weapon copy
    */
   updateCraftableProgress(
-    weaponId: number,
-    updates: Partial<Omit<CraftableProgressEntry, 'weaponId'>>
+    instanceId: string,
+    updates: Partial<Omit<CraftableProgressEntry, 'instanceId' | 'weaponId'>>
   ): void {
     const current = this.getCurrentInventory();
     this.updateInventory({
       ...current,
       craftables: (current.craftables ?? []).map((c) =>
-        c.weaponId === weaponId ? { ...c, ...updates } : c
+        c.instanceId === instanceId ? { ...c, ...updates } : c
       ),
     });
   }

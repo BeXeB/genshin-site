@@ -74,7 +74,16 @@ export function createDefaultCharacterProgress(
   };
 }
 
+/**
+ * Creates an ID that tells copies of the same weapon apart.
+ * Weapons are not unique per account, so one weaponId can appear several times.
+ */
+export function createInstanceId(): string {
+  return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
+}
+
 export type WeaponProgressEntry = {
+  instanceId: string;
   weaponId: number;
   currentLevel: number; // 1-90
   currentAscension: number; // 0-6
@@ -91,6 +100,7 @@ export function createDefaultWeaponProgress(
   maxLevel: number
 ): WeaponProgressEntry {
   return {
+    instanceId: createInstanceId(),
     weaponId,
     currentLevel: 1,
     currentAscension: 0,
@@ -101,6 +111,7 @@ export function createDefaultWeaponProgress(
 
 /** Refine progress for a craftable weapon; a craft adds one refine step */
 export type CraftableProgressEntry = {
+  instanceId: string;
   weaponId: number;
   currentRefine: number; // 0-5
   goalRefine: number; // 0-5
@@ -111,7 +122,7 @@ export const MAX_REFINE = 5;
 
 /** New craftables start at refine 0 with the max refine as the goal */
 export function createDefaultCraftableProgress(weaponId: number): CraftableProgressEntry {
-  return { weaponId, currentRefine: 0, goalRefine: MAX_REFINE };
+  return { instanceId: createInstanceId(), weaponId, currentRefine: 0, goalRefine: MAX_REFINE };
 }
 
 /** Crafts needed to reach the goal refine, capped at MAX_REFINE */
