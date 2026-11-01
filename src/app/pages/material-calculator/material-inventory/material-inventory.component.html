@@ -1,0 +1,9 @@
+@if (allMaterials$ | async; as allMaterials) {
+  <app-material-cost-display
+    [cost]="allMaterials"
+    [groupByType]="true"
+    [inventoryMode]="true"
+    [ownedMaterials]="owned$ | async"
+    (ownedChange)="onOwnedChange($event)"
+  />
+}

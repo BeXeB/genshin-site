@@ -34,11 +34,17 @@
 
   --highlight: oklch(89.519% 0.11491 85.425);
 
-  --rar-1: #3a3d42;
-  --rar-2: #1b4d2a;
-  --rar-3: #0f3f73;
-  --rar-4: #3d1a5f;
-  --rar-5: #7a4b00;
+  --rar-1: #62656a;
+  --rar-2: #477354;
+  --rar-3: #3a6290;
+  --rar-4: #63477f;
+  --rar-5: #916a26;
+
+  --rar-1-dark: #3a3d42;
+  --rar-2-dark: #1b4d2a;
+  --rar-3-dark: #0f3f73;
+  --rar-4-dark: #3d1a5f;
+  --rar-5-dark: #7a4b00;
 }
 
 body {

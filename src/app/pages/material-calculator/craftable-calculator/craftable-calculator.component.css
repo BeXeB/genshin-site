@@ -1,0 +1,10 @@
+.craftable-table .billet-cell {
+  flex: 3;
+  min-width: 160px;
+}
+
+.craftable-table .refine-cell {
+  flex: 0 0 120px;
+  min-width: 120px;
+  text-align: center;
+}

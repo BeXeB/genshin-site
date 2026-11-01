@@ -1,0 +1,99 @@
+@if (view$ | async; as view) {
+  <div class="entry-table">
+    <div class="table-row table-head">
+      <div class="cell icon-cell"></div>
+      <div class="cell name-cell"><b>Név</b></div>
+      <div class="head-groups">
+        <div class="head-row">
+          <div class="cell group-cell">Szint</div>
+          @for (combat of combatColumns; track combat.label) {
+            <div class="cell group-cell">{{ combat.label }}</div>
+          }
+        </div>
+        <div class="head-row head-sub-row">
+          <div class="cell">Jelenlegi</div>
+          <div class="cell">Cél</div>
+          @for (combat of combatColumns; track combat.label) {
+            <div class="cell">Jelenlegi</div>
+            <div class="cell">Cél</div>
+          }
+        </div>
+      </div>
+      <div class="cell action-cell"></div>
+    </div>
+
+    @for (row of view.rows; track row.key) {
+      <app-entry-row
+        [name]="row.name"
+        [expanded]="isExpanded(row.progress)"
+        [cost]="calculatedCost"
+        (nameClicked)="onRowClicked(row)"
+        (removed)="onRemoveCharacter(row.progress)"
+      >
+        <div class="cell icon-cell" entryIcon>
+          @if (isTraveler(row.progress)) {
+            <div class="guide">
+              <div class="mix mix-2 traveler-icon" role="img" [attr.aria-label]="row.name">
+                <div><img [src]="getCharacterIcon('lumine')" alt="" /></div>
+                <div><img [src]="getCharacterIcon('aether')" alt="" /></div>
+              </div>
+            </div>
+          } @else {
+            <img
+              class="character-icon"
+              [src]="getCharacterIcon(row.normalizedName)"
+              [alt]="row.name"
+            />
+          }
+        </div>
+
+        <div class="cell">
+          <app-select-dropdown
+            [label]="row.name + ' szint'"
+            [options]="levelOptions"
+            [value]="row.progress.currentLevel"
+            (valueChange)="onLevelChange(row.progress, 'currentLevel', $event)"
+          />
+        </div>
+
+        <div class="cell">
+          <app-select-dropdown
+            [label]="row.name + ' szint cél'"
+            [options]="levelOptions"
+            [value]="row.progress.goalLevel"
+            (valueChange)="onLevelChange(row.progress, 'goalLevel', $event)"
+          />
+        </div>
+
+        @for (combat of combatColumns; track combat.label) {
+          <div class="cell">
+            <app-select-dropdown
+              [label]="row.name + ' ' + combat.label"
+              [options]="talentLevelOptions"
+              [value]="row.progress[combat.current]"
+              (valueChange)="onCombatCurrentChange(row.progress, combat, $event)"
+            />
+          </div>
+
+          <div class="cell">
+            <app-select-dropdown
+              [label]="row.name + ' ' + combat.label + ' cél'"
+              [options]="talentLevelOptions"
+              [value]="row.progress[combat.goal]"
+              (valueChange)="onCombatGoalChange(row.progress, combat, $event)"
+            />
+          </div>
+        }
+      </app-entry-row>
+    } @empty {
+      <div class="empty-table">Még nincs karakter</div>
+    }
+  </div>
+
+  <app-character-search
+    class="add-search"
+    placeholder="Karakter hozzáadása"
+    [characters]="view.available"
+    (characterSelected)="onAddCharacter($event)"
+  />
+}

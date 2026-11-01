@@ -18,9 +18,3 @@
 .align-right {
   margin-left: auto;
 }
-
-.button-group {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-}

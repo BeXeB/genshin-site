@@ -1,0 +1,182 @@
+[
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star catalysts.\nIn terms of the \"state\" of the many weapons that can be crafted from billets, while their potential has long been contained within the original materials, the exact forms these weapons will ultimately take remain unknown to this day...",
+        "id": 101119,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101119"
+        },
+        "name": "Borderland Catalyst Billet",
+        "normalizedName": "borderlandcatalystbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star polearms.\nPhilosophers believe that there are four purposes behind earthly things. The purpose of these billets is to become a weapon worthy of accompanying a hero.",
+        "id": 101115,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101115"
+        },
+        "name": "Midlander Polearm Billet",
+        "normalizedName": "midlanderpolearmbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star bows.\nIn terms of the \"state\" of the many weapons that can be crafted from billets, while their potential has long been contained within the original materials, the exact forms these weapons will ultimately take remain unknown to this day...",
+        "id": 101117,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101117"
+        },
+        "name": "Borderland Bow Billet",
+        "normalizedName": "borderlandbowbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star polearms. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+        "id": 101105,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101105"
+        },
+        "name": "Northlander Polearm Billet",
+        "normalizedName": "northlanderpolearmbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star claymores. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+        "id": 101103,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101103"
+        },
+        "name": "Northlander Claymore Billet",
+        "normalizedName": "northlanderclaymorebillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star claymores.\nPhilosophers believe that there are four purposes behind earthly things. The purpose of these billets is to become a weapon worthy of accompanying a hero.",
+        "id": 101113,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101113"
+        },
+        "name": "Midlander Claymore Billet",
+        "normalizedName": "midlanderclaymorebillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star claymores.\nIn terms of the \"state\" of the many weapons that can be crafted from billets, while their potential has long been contained within the original materials, the exact forms these weapons will ultimately take remain unknown to this day...",
+        "id": 101118,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101118"
+        },
+        "name": "Borderland Claymore Billet",
+        "normalizedName": "borderlandclaymorebillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star swords.\nIn terms of the \"state\" of the many weapons that can be crafted from billets, while their potential has long been contained within the original materials, the exact forms these weapons will ultimately take remain unknown to this day...",
+        "id": 101116,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101116"
+        },
+        "name": "Borderland Sword Billet",
+        "normalizedName": "borderlandswordbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star polearms.\nIn terms of the \"state\" of the many weapons that can be crafted from billets, while their potential has long been contained within the original materials, the exact forms these weapons will ultimately take remain unknown to this day...",
+        "id": 101120,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101120"
+        },
+        "name": "Borderland Polearm Billet",
+        "normalizedName": "borderlandpolearmbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star swords. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+        "id": 101101,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101101"
+        },
+        "name": "Northlander Sword Billet",
+        "normalizedName": "northlanderswordbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star bows. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+        "id": 101102,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101102"
+        },
+        "name": "Northlander Bow Billet",
+        "normalizedName": "northlanderbowbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star catalysts. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+        "id": 101104,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101104"
+        },
+        "name": "Northlander Catalyst Billet",
+        "normalizedName": "northlandercatalystbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star swords.\nPhilosophers believe that there are four purposes behind earthly things. The purpose of these billets is to become a weapon worthy of accompanying a hero.",
+        "id": 101111,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101111"
+        },
+        "name": "Midlander Sword Billet",
+        "normalizedName": "midlanderswordbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star bows.\nPhilosophers believe that there are four purposes behind earthly things. The purpose of these billets is to become a weapon worthy of accompanying a hero.",
+        "id": 101112,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101112"
+        },
+        "name": "Midlander Bow Billet",
+        "normalizedName": "midlanderbowbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    },
+    {
+        "description": "Weapon forging material. Can be used to forge 4-star catalysts.\nPhilosophers believe that there are four purposes behind earthly things. The purpose of these billets is to become a weapon worthy of accompanying a hero.",
+        "id": 101114,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101114"
+        },
+        "name": "Midlander Catalyst Billet",
+        "normalizedName": "midlandercatalystbillet",
+        "rarity": 4,
+        "sortRank": 300,
+        "type": "billet"
+    }
+]

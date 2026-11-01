@@ -1,0 +1,144 @@
+/* Shared by the calculator tabs that render an entry table */
+
+.add-search {
+  max-width: 300px;
+  margin-top: 12px;
+}
+
+/* Table: rows reuse the shared .table-row flex class */
+.entry-table {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Border counts toward the 100% width, avoiding a 2px overflow */
+.table-row {
+  box-sizing: border-box;
+}
+
+.table-head {
+  align-items: center;
+  background-color: var(--darker-gray);
+  color: var(--white);
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+
+/* Eight 72px-min body columns (level, goal, six combat cells) */
+.head-groups {
+  display: flex;
+  flex: 8 1 0;
+  flex-direction: column;
+  min-width: 576px;
+}
+
+.head-row {
+  display: flex;
+}
+
+.head-row .cell {
+  padding: 4px;
+  text-align: center;
+}
+
+/* Two body columns per group */
+.head-row .group-cell {
+  flex: 2;
+  min-width: 144px;
+  font-weight: 600;
+}
+
+.head-sub-row {
+  font-size: 0.8rem;
+  color: var(--light-gray);
+}
+
+.table-body {
+  align-items: center;
+  border-radius: 8px;
+  background-color: var(--dark-gray);
+}
+
+.table-body.selected {
+  border-color: var(--blue);
+}
+
+.cell {
+  flex: 1;
+  min-width: 72px;
+  padding: 8px 4px;
+  box-sizing: border-box;
+}
+
+.name-cell {
+  flex: 2;
+  min-width: 110px;
+  cursor: pointer;
+}
+
+.name-cell:hover {
+  color: var(--blue);
+}
+
+.icon-cell {
+  flex: 0 0 56px;
+  min-width: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.character-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.traveler-icon.mix {
+  width: 40px;
+  height: 40px;
+}
+
+.traveler-icon img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.action-cell {
+  flex: 0 0 48px;
+  min-width: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.remove-btn {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  color: var(--light-gray);
+}
+
+.remove-btn:hover {
+  color: var(--red);
+}
+
+.row-details {
+  padding: 16px;
+  border: 1px solid var(--dark-gray);
+  background-color: var(--darker-gray);
+  border-radius: 8px;
+}
+
+.empty-table {
+  padding: 20px;
+  text-align: center;
+  color: var(--light-gray);
+}
+
+/* Scrolling clips open dropdowns, so the table only scrolls when it has to */
+@media (max-width: 1060px) {
+  .entry-table {
+    overflow-x: auto;
+  }
+}

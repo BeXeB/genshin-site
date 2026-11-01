@@ -1,0 +1,21 @@
+<div class="character-entry">
+  <div class="table-row table-body" [class.selected]="expanded">
+    <ng-content select="[entryIcon]" />
+
+    <div class="cell name-cell" (click)="nameClicked.emit()">
+      {{ name }}
+    </div>
+
+    <ng-content />
+
+    <div class="cell action-cell">
+      <button class="remove-btn" (click)="removed.emit()" title="Eltávolítás">✕</button>
+    </div>
+  </div>
+
+  @if (expanded && cost) {
+    <div class="row-details">
+      <app-material-cost-display [cost]="cost" />
+    </div>
+  }
+</div>

@@ -1,0 +1,188 @@
+@if (cost) {
+  <div class="material-cost-container">
+    <!-- Materials: one table per type, or a flat grid -->
+    @if (groupByType) {
+      <div class="material-table-grid">
+        @for (row of typeRows; track $index) {
+          <div class="material-table-row">
+            @for (group of row; track group.label) {
+              <div class="materials-section" [class.compact]="group.compact">
+                <h3>{{ group.label }}</h3>
+                @if (group.showMora) {
+                  <div class="material-table-wrapper">
+                    <table class="material-type-table">
+                      <colgroup>
+                        <col />
+                        <col class="col-mora" />
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">Material</th>
+                          <th scope="col" class="count-col">Darab</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="line-name">
+                            <span class="line-lead">
+                              <img
+                                src="assets/images/materials/xp-and-mora/mora.webp"
+                                alt="Mora"
+                                class="line-icon"
+                              />
+                              <span>Mora</span>
+                            </span>
+                          </td>
+                          <td class="count-col">
+                            @if (inventoryMode) {
+                              <input
+                                #moraInput
+                                type="number"
+                                min="0"
+                                class="owned-input"
+                                aria-label="Mora"
+                                [value]="ownedOf(moraId)"
+                                (change)="onOwnedInput(moraId, moraInput.valueAsNumber)"
+                              />
+                            } @else {
+                              <span class="count-stack">
+                                <span
+                                  class="count-value"
+                                  [attr.title]="
+                                    craftMora > 0
+                                      ? formatMora(craftMora) + ' mora craftoláshoz'
+                                      : null
+                                  "
+                                  >{{ formatMora(group.mora) }}</span
+                                >
+                                <span class="count-sub">{{ formatMora(cost.totalMora) }}</span>
+                              </span>
+                            }
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                }
+                @for (table of group.tables; track $index) {
+                  <div class="material-table-wrapper">
+                    <table class="material-type-table">
+                      <colgroup>
+                        <col />
+                        @for (column of table.columns; track column.rarity) {
+                          <col class="col-count" />
+                        }
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">Material</th>
+                          @for (column of table.columns; track column.rarity) {
+                            <th scope="col" class="count-col" [style.color]="column.color">
+                              {{ column.label }}
+                            </th>
+                          }
+                        </tr>
+                      </thead>
+                      <tbody>
+                        @for (line of table.lines; track line.lead.materialId) {
+                          <tr>
+                            <td class="line-name">
+                              <div class="line-lead">
+                                <img
+                                  [src]="
+                                    getMaterialImagePath(
+                                      line.lead.materialId,
+                                      line.lead.materialName
+                                    )
+                                  "
+                                  [alt]="line.lead.materialName"
+                                  class="line-icon"
+                                />
+                                <span>{{ displayName(line.lead.materialName) }}</span>
+                              </div>
+                            </td>
+                            @for (cell of line.cells; track $index) {
+                              <td class="count-col">
+                                @if (cell && inventoryMode) {
+                                  <input
+                                    #ownedInput
+                                    type="number"
+                                    min="0"
+                                    class="owned-input"
+                                    [attr.aria-label]="cell.materialName"
+                                    [value]="ownedOf(cell.materialId)"
+                                    (change)="
+                                      onOwnedInput(cell.materialId, ownedInput.valueAsNumber)
+                                    "
+                                  />
+                                } @else if (cell) {
+                                  <div class="count-stack">
+                                    <a
+                                      class="count-link"
+                                      [routerLink]="
+                                        getMaterialLink(cell.materialId, cell.materialName)
+                                      "
+                                      >{{ cell.quantity }}</a
+                                    >
+                                    <span class="count-sub">{{ neededOf(cell.materialId) }}</span>
+                                  </div>
+                                }
+                              </td>
+                            }
+                          </tr>
+                        }
+                      </tbody>
+                    </table>
+                  </div>
+                }
+              </div>
+            }
+          </div>
+        }
+      </div>
+    } @else if (sortedMaterials.length > 0 || cost.totalMora > 0) {
+      <div class="materials-section">
+        <h3>Szükséges materialok</h3>
+        <div class="materials-grid">
+          @for (material of sortedMaterials; track material.materialId) {
+            <ng-container *ngTemplateOutlet="materialCard; context: { $implicit: material }" />
+          }
+          @if (cost.totalMora > 0) {
+            <ng-container
+              *ngTemplateOutlet="
+                materialCard;
+                context: {
+                  $implicit: {
+                    materialId: 202,
+                    materialName: 'Mora',
+                    quantity: formatMora(cost.totalMora),
+                  },
+                }
+              "
+            />
+          }
+        </div>
+      </div>
+    }
+
+    <ng-template #materialCard let-material>
+      <div
+        class="material-card card"
+        [routerLink]="getMaterialLink(material.materialId, material.materialName)"
+        [style.border-color]="getRarityColor(material.materialId)"
+      >
+        <div class="material-body">
+          <img
+            [src]="getMaterialImagePath(material.materialId, material.materialName)"
+            [alt]="material.materialName"
+            class="material-image"
+          />
+          <div class="material-name">{{ material.materialName }}</div>
+        </div>
+        <div class="material-quantity">{{ material.quantity }}</div>
+      </div>
+    </ng-template>
+  </div>
+} @else {
+  <div class="no-cost">Nincs adat</div>
+}

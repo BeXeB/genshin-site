@@ -43,4 +43,56 @@ export const routes: Routes = [
       { path: 'hyperlink', component: HyperlinkEditorComponent },
     ],
   },
+  {
+    path: 'material-calculator',
+    data: { preloadCalculator: true },
+    loadComponent: () =>
+      import('./pages/material-calculator/material-calculator.component').then(
+        (m) => m.MaterialCalculatorComponent
+      ),
+    children: [
+      {
+        path: '',
+        pathMatch: 'full',
+        data: { preloadCalculator: true },
+        loadComponent: () =>
+          import('./pages/material-calculator/material-totals/material-totals.component').then(
+            (m) => m.MaterialTotalsComponent
+          ),
+      },
+      {
+        path: 'characters',
+        data: { preloadCalculator: true },
+        loadComponent: () =>
+          import('./pages/material-calculator/character-calculator/character-calculator.component').then(
+            (m) => m.CharacterCalculatorComponent
+          ),
+      },
+      {
+        path: 'weapons',
+        data: { preloadCalculator: true },
+        loadComponent: () =>
+          import('./pages/material-calculator/weapon-calculator/weapon-calculator.component').then(
+            (m) => m.WeaponCalculatorComponent
+          ),
+      },
+      {
+        path: 'craftables',
+        data: { preloadCalculator: true },
+        loadComponent: () =>
+          import('./pages/material-calculator/craftable-calculator/craftable-calculator.component').then(
+            (m) => m.CraftableCalculatorComponent
+          ),
+      },
+      {
+        path: 'inventory',
+        data: { preloadCalculator: true },
+        loadComponent: () =>
+          import('./pages/material-calculator/material-inventory/material-inventory.component').then(
+            (m) => m.MaterialInventoryComponent
+          ),
+      },
+    ],
+  },
+  { path: 'character', redirectTo: 'material-calculator/characters' },
 ];

@@ -25,11 +25,11 @@ export class ItemCardComponent implements AfterViewInit {
   constructor(private cdr: ChangeDetectorRef) {}
 
   rarityColor: Record<number, string> = {
-    1: 'var(--rar-1)',
-    2: 'var(--rar-2)',
-    3: 'var(--rar-3)',
-    4: 'var(--rar-4)',
-    5: 'var(--rar-5)',
+    1: 'var(--rar-1-dark)',
+    2: 'var(--rar-2-dark)',
+    3: 'var(--rar-3-dark)',
+    4: 'var(--rar-4-dark)',
+    5: 'var(--rar-5-dark)',
   };
 
   getColor(): string {

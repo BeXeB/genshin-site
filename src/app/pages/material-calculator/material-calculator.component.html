@@ -1,0 +1,28 @@
+<div class="material-calculator-container">
+  <app-page-title [title]="'Material kalkulátor'" [backLink]="'/tools'"></app-page-title>
+
+  <div class="button-group">
+    <button
+      class="button"
+      routerLink="/material-calculator"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      Összesítés
+    </button>
+    <button class="button" routerLink="/material-calculator/characters" routerLinkActive="active">
+      Karakterek
+    </button>
+    <button class="button" routerLink="/material-calculator/weapons" routerLinkActive="active">
+      Fegyverek
+    </button>
+    <button class="button" routerLink="/material-calculator/craftables" routerLinkActive="active">
+      Craftolható Fegyverek
+    </button>
+    <button class="button" routerLink="/material-calculator/inventory" routerLinkActive="active">
+      Inventory
+    </button>
+  </div>
+
+  <router-outlet />
+</div>

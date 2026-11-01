@@ -98,7 +98,7 @@ export class TierlistMakerComponent implements OnInit {
     this.characterSerivce.getCharacters().subscribe((data: CharacterProfile[]) => {
       this.characterMap = new Map(data.map((c) => [c.normalizedName, c]));
 
-      this.characters = data
+      this.characters = [...data]
         .sort((a, b) => b.sortId - a.sortId)
         .map((c) => ({
           id: c.id,

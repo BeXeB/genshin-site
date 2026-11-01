@@ -1,0 +1,22 @@
+<input
+  type="text"
+  [placeholder]="placeholder"
+  [(ngModel)]="search"
+  (focus)="open(); $any($event.target).select()"
+  (blur)="hideDropdown()"
+/>
+
+@if (showDropdown) {
+  <div class="dropdown" [class.open-up]="openUp">
+    @for (char of filteredCharacters; track char.name) {
+      <div class="option" (mousedown)="select(char)">
+        <img
+          class="option-icon"
+          [src]="char.iconUrl ?? getCharacterIcon(char.normalizedName)"
+          [alt]="char.name"
+        />
+        <span>{{ char.name }}</span>
+      </div>
+    }
+  </div>
+}

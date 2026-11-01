@@ -1,0 +1,11 @@
+.weapon-table .level-cell {
+  flex: 0 0 140px;
+  text-align: center;
+}
+
+/* Two level columns, same width as the body cells */
+.weapon-table .level-groups {
+  display: flex;
+  flex: 0 0 280px;
+  flex-direction: column;
+}

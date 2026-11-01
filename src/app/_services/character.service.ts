@@ -28,20 +28,33 @@ export class CharacterService {
   private basePath = 'assets/json/characters/';
   private briefDescriptionPath = 'assets/json/briefdescription/';
 
+  private profiles$?: Observable<CharacterProfile[]>;
   private talentIndex$?: Observable<CharacterTalentIndex>;
+  private details = new Map<string, Observable<Character>>();
 
   constructor(private http: HttpClient) {}
 
   getCharacters(): Observable<CharacterProfile[]> {
-    return this.http.get<CharacterProfile[]>(`${this.basePath}profiles.json`);
+    if (!this.profiles$) {
+      this.profiles$ = this.http
+        .get<CharacterProfile[]>(`${this.basePath}profiles.json`)
+        .pipe(shareReplay(1));
+    }
+    return this.profiles$;
   }
 
   getCharacterNames(): Observable<string[]> {
     return this.http.get<string[]>(`${this.basePath}index.json`);
   }
 
+  /** Cached per character, so revisiting a page does not refetch the file */
   getCharacterDetails(name: string): Observable<Character> {
-    return this.http.get<Character>(`${this.basePath}${name}.json`);
+    let details$ = this.details.get(name);
+    if (!details$) {
+      details$ = this.http.get<Character>(`${this.basePath}${name}.json`).pipe(shareReplay(1));
+      this.details.set(name, details$);
+    }
+    return details$;
   }
 
   getBriefDescriptions(name: string): Observable<CharacterBriefMap> {

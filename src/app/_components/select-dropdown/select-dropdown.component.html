@@ -1,0 +1,29 @@
+<button
+  type="button"
+  class="trigger"
+  aria-haspopup="listbox"
+  [attr.aria-label]="label"
+  [attr.aria-expanded]="showDropdown"
+  (click)="toggle()"
+  (blur)="hideDropdown()"
+  (keydown.escape)="showDropdown = false"
+>
+  <span>{{ value }}</span>
+  <span class="chevron" aria-hidden="true"></span>
+</button>
+
+@if (showDropdown) {
+  <div class="dropdown" [class.open-up]="openUp" role="listbox">
+    @for (option of options; track option) {
+      <div
+        class="option"
+        role="option"
+        [class.selected]="isSelected(option)"
+        [attr.aria-selected]="isSelected(option)"
+        (mousedown)="select(option)"
+      >
+        {{ option }}
+      </div>
+    }
+  </div>
+}
