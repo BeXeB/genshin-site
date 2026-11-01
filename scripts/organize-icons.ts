@@ -88,6 +88,13 @@ function ensureDir(dir: string) {
   }
 }
 
+function isSameFile(srcPath: string, destPath: string): boolean {
+  if (!fs.existsSync(destPath)) return false;
+  if (fs.statSync(srcPath).size !== fs.statSync(destPath).size) return false;
+
+  return fs.readFileSync(srcPath).equals(fs.readFileSync(destPath));
+}
+
 function normalizeName(name: string): string {
   return name.toLowerCase().replace(/[\s'"`:\-—]+/g, '');
 }
@@ -357,12 +364,17 @@ function organize() {
       const srcPath = path.join(SOURCE_DIR, file);
 
       destinations.forEach((destination) => {
+        const relativeDest = path.relative(CHAR_TARGET_DIR, destination);
+
+        if (isSameFile(srcPath, destination)) {
+          console.log(`Up to date ${file} → ${relativeDest}`);
+          return;
+        }
+
         fs.mkdirSync(path.dirname(destination), { recursive: true });
         fs.copyFileSync(srcPath, destination);
 
-        console.log(
-          `Copied ${file} → ${path.relative(CHAR_TARGET_DIR, destination)}`,
-        );
+        console.log(`Copied ${file} → ${relativeDest}`);
       });
     } else {
       console.log(`Skipping ${file} (not referenced in JSON)`);
