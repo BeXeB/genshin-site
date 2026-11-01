@@ -46,3 +46,7 @@ Thumbs.db
 .github/prompts/*
 
 .github/agent/*
+
+.github/skills/*
+
+.github/instructions/*
