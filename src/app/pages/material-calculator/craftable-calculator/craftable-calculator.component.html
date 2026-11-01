@@ -1,0 +1,67 @@
+@if (view$ | async; as view) {
+  <div class="entry-table craftable-table">
+    <div class="table-row table-head">
+      <div class="cell icon-cell"></div>
+      <div class="cell name-cell"><b>Weapon</b></div>
+      <div class="cell billet-cell"><b>Billet</b></div>
+      <div class="cell refine-cell"><b>Current</b></div>
+      <div class="cell refine-cell"><b>Goal</b></div>
+      <div class="cell action-cell"></div>
+    </div>
+
+    @for (row of view.rows; track row.weapon.id) {
+      <app-entry-row [name]="row.weapon.name" (removed)="onRemoveCraftable(row.weapon.id)">
+        <div class="cell icon-cell" entryIcon>
+          <img class="character-icon" [src]="row.iconUrl" [alt]="row.weapon.name" />
+        </div>
+        <div class="cell billet-cell">{{ row.billetName }}</div>
+        <div class="cell refine-cell">
+          <app-select-dropdown
+            [label]="row.weapon.name + ' current refine'"
+            [options]="view.refineOptions"
+            [value]="row.progress.currentRefine"
+            (valueChange)="onRefineChange(row.progress, 'currentRefine', $event)"
+          />
+        </div>
+        <div class="cell refine-cell">
+          <app-select-dropdown
+            [label]="row.weapon.name + ' goal refine'"
+            [options]="view.refineOptions"
+            [value]="row.progress.goalRefine"
+            (valueChange)="onRefineChange(row.progress, 'goalRefine', $event)"
+          />
+        </div>
+      </app-entry-row>
+    } @empty {
+      <div class="empty-table">No weapons yet</div>
+    }
+  </div>
+
+  <app-character-search
+    class="add-search"
+    placeholder="+ Add craftable weapon"
+    [characters]="view.available"
+    (characterSelected)="onAddCraftable($event)"
+  />
+
+  <h3 class="summary-title">Billets needed</h3>
+  <div class="entry-table summary-table">
+    <div class="table-row table-head">
+      <div class="cell billet-cell"><b>Billet</b></div>
+      <div class="cell count-cell"><b>Needed</b></div>
+      <div class="cell count-cell"><b>Owned</b></div>
+      <div class="cell count-cell"><b>Short</b></div>
+    </div>
+
+    @for (total of view.summary; track total.billetId) {
+      <div class="table-row table-body">
+        <div class="cell billet-cell">{{ total.billetName }}</div>
+        <div class="cell count-cell">{{ total.needed }}</div>
+        <div class="cell count-cell">{{ total.owned }}</div>
+        <div class="cell count-cell" [class.short]="total.short > 0">{{ total.short }}</div>
+      </div>
+    } @empty {
+      <div class="empty-table">Add a weapon and set a goal refine above to see billet needs</div>
+    }
+  </div>
+}

@@ -38,6 +38,7 @@ export class CalculatorPreloadStrategy implements PreloadingStrategy {
     this.dataRequested = true;
 
     this.materialService.getMaterials().subscribe({ error: () => {} });
+    this.materialService.getMaterialCrafts().subscribe({ error: () => {} });
     this.weaponService.getWeapons().subscribe({ error: () => {} });
     this.characterService.getCharacters().subscribe({
       next: (profiles) => this.preloadOwnedCharacters(profiles),

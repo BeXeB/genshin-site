@@ -77,6 +77,14 @@ export const routes: Routes = [
           ),
       },
       {
+        path: 'craftables',
+        data: { preloadCalculator: true },
+        loadComponent: () =>
+          import('./pages/material-calculator/craftable-calculator/craftable-calculator.component').then(
+            (m) => m.CraftableCalculatorComponent
+          ),
+      },
+      {
         path: 'inventory',
         data: { preloadCalculator: true },
         loadComponent: () =>

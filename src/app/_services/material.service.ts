@@ -13,6 +13,7 @@ export class MaterialService {
   constructor(private http: HttpClient) {}
 
   private materials$?: Observable<Material[]>;
+  private crafts$?: Observable<MaterialCraft[]>;
 
   getMaterials(): Observable<Material[]> {
     if (!this.materials$) {
@@ -24,6 +25,7 @@ export class MaterialService {
         MaterialType.WEAPON_MATERIAL,
         MaterialType.GENERIC_MATERIAL,
         MaterialType.XP_AND_MORA,
+        MaterialType.BILLET,
       ];
 
       const observables = folders.map((folder) =>
@@ -39,7 +41,12 @@ export class MaterialService {
   }
 
   getMaterialCrafts(): Observable<MaterialCraft[]> {
-    return this.http.get<MaterialCraft[]>(`${this.basePath}crafts.json`);
+    if (!this.crafts$) {
+      this.crafts$ = this.http
+        .get<MaterialCraft[]>(`${this.basePath}crafts.json`)
+        .pipe(shareReplay(1));
+    }
+    return this.crafts$;
   }
 
   getMaterial(slug: string): Observable<Material | undefined> {

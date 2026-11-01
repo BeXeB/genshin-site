@@ -1,0 +1,27 @@
+.craftable-table .billet-cell,
+.summary-table .billet-cell {
+  flex: 3;
+  min-width: 160px;
+}
+
+.craftable-table .refine-cell {
+  flex: 0 0 120px;
+  min-width: 120px;
+  text-align: center;
+}
+
+.summary-table .count-cell {
+  flex: 0 0 90px;
+  min-width: 90px;
+  text-align: center;
+}
+
+.summary-title {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.summary-table .short {
+  color: var(--red);
+  font-weight: 600;
+}

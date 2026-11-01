@@ -4898,5 +4898,951 @@
             }
         ],
         "resultCount": 1
+    },
+    {
+        "id": 15407,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101102,
+                "name": "Northlander Bow Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 11407,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101101,
+                "name": "Northlander Sword Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 13402,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101105,
+                "name": "Northlander Polearm Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 12406,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101103,
+                "name": "Northlander Claymore Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 14414,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101104,
+                "name": "Northlander Catalyst Billet"
+            },
+            {
+                "count": 50,
+                "id": 101008,
+                "name": "Amethyst Lump"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 15406,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101102,
+                "name": "Northlander Bow Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 11406,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101101,
+                "name": "Northlander Sword Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 12407,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101103,
+                "name": "Northlander Claymore Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 14406,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101104,
+                "name": "Northlander Catalyst Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 14407,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101104,
+                "name": "Northlander Catalyst Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 12431,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101118,
+                "name": "Borderland Claymore Billet"
+            },
+            {
+                "count": 50,
+                "id": 101009,
+                "name": "Condessence Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 13403,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101105,
+                "name": "Northlander Polearm Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 11431,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101116,
+                "name": "Borderland Sword Billet"
+            },
+            {
+                "count": 50,
+                "id": 101009,
+                "name": "Condessence Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 12411,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101103,
+                "name": "Northlander Claymore Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101006,
+                "name": "Starsilver"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 14412,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101104,
+                "name": "Northlander Catalyst Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101006,
+                "name": "Starsilver"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 15433,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101117,
+                "name": "Borderland Bow Billet"
+            },
+            {
+                "count": 50,
+                "id": 101010,
+                "name": "Rainbowdrop Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 13409,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101105,
+                "name": "Northlander Polearm Billet"
+            },
+            {
+                "count": 50,
+                "id": 101006,
+                "name": "Starsilver"
+            },
+            {
+                "count": 8,
+                "id": 100619,
+                "name": "Empowered Dragontooth"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 15431,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101117,
+                "name": "Borderland Bow Billet"
+            },
+            {
+                "count": 50,
+                "id": 101009,
+                "name": "Condessence Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 13431,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101120,
+                "name": "Borderland Polearm Billet"
+            },
+            {
+                "count": 50,
+                "id": 101009,
+                "name": "Condessence Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 12417,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101113,
+                "name": "Midlander Claymore Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 11414,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101101,
+                "name": "Northlander Sword Billet"
+            },
+            {
+                "count": 50,
+                "id": 101008,
+                "name": "Amethyst Lump"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 15414,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101102,
+                "name": "Northlander Bow Billet"
+            },
+            {
+                "count": 50,
+                "id": 101008,
+                "name": "Amethyst Lump"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 12414,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101103,
+                "name": "Northlander Claymore Billet"
+            },
+            {
+                "count": 50,
+                "id": 101008,
+                "name": "Amethyst Lump"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 13414,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101105,
+                "name": "Northlander Polearm Billet"
+            },
+            {
+                "count": 50,
+                "id": 101008,
+                "name": "Amethyst Lump"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 11417,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101111,
+                "name": "Midlander Sword Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 15417,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101112,
+                "name": "Midlander Bow Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 14417,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101114,
+                "name": "Midlander Catalyst Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 15425,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101112,
+                "name": "Midlander Bow Billet"
+            },
+            {
+                "count": 50,
+                "id": 101009,
+                "name": "Condessence Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 13417,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101115,
+                "name": "Midlander Polearm Billet"
+            },
+            {
+                "count": 50,
+                "id": 101003,
+                "name": "Crystal Chunk"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 13433,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101120,
+                "name": "Borderland Polearm Billet"
+            },
+            {
+                "count": 50,
+                "id": 101010,
+                "name": "Rainbowdrop Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 11425,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101111,
+                "name": "Midlander Sword Billet"
+            },
+            {
+                "count": 50,
+                "id": 101009,
+                "name": "Condessence Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 14433,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101119,
+                "name": "Borderland Catalyst Billet"
+            },
+            {
+                "count": 50,
+                "id": 101010,
+                "name": "Rainbowdrop Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 12425,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101113,
+                "name": "Midlander Claymore Billet"
+            },
+            {
+                "count": 50,
+                "id": 101009,
+                "name": "Condessence Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 14425,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101114,
+                "name": "Midlander Catalyst Billet"
+            },
+            {
+                "count": 50,
+                "id": 101009,
+                "name": "Condessence Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 11433,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101116,
+                "name": "Borderland Sword Billet"
+            },
+            {
+                "count": 50,
+                "id": 101010,
+                "name": "Rainbowdrop Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 13425,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101115,
+                "name": "Midlander Polearm Billet"
+            },
+            {
+                "count": 50,
+                "id": 101009,
+                "name": "Condessence Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 14431,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101119,
+                "name": "Borderland Catalyst Billet"
+            },
+            {
+                "count": 50,
+                "id": 101009,
+                "name": "Condessence Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 12433,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101118,
+                "name": "Borderland Claymore Billet"
+            },
+            {
+                "count": 50,
+                "id": 101010,
+                "name": "Rainbowdrop Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 11436,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101116,
+                "name": "Borderland Sword Billet"
+            },
+            {
+                "count": 50,
+                "id": 101010,
+                "name": "Rainbowdrop Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 15436,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101117,
+                "name": "Borderland Bow Billet"
+            },
+            {
+                "count": 50,
+                "id": 101010,
+                "name": "Rainbowdrop Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 12436,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101118,
+                "name": "Borderland Claymore Billet"
+            },
+            {
+                "count": 50,
+                "id": 101010,
+                "name": "Rainbowdrop Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 14436,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101119,
+                "name": "Borderland Catalyst Billet"
+            },
+            {
+                "count": 50,
+                "id": 101010,
+                "name": "Rainbowdrop Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 13436,
+        "moraCost": 500,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 101120,
+                "name": "Borderland Polearm Billet"
+            },
+            {
+                "count": 50,
+                "id": 101010,
+                "name": "Rainbowdrop Crystal"
+            },
+            {
+                "count": 50,
+                "id": 101002,
+                "name": "White Iron Chunk"
+            }
+        ],
+        "resultCount": 1
     }
 ]

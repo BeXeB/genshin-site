@@ -99,11 +99,48 @@ export function createDefaultWeaponProgress(
   };
 }
 
+/** Refine progress for a craftable weapon; a craft adds one refine step */
+export type CraftableProgressEntry = {
+  weaponId: number;
+  currentRefine: number; // 0-5
+  goalRefine: number; // 0-5
+};
+
+/** Highest refine level; each craft adds one refine step */
+export const MAX_REFINE = 5;
+
+/** New craftables start at refine 0 with the max refine as the goal */
+export function createDefaultCraftableProgress(weaponId: number): CraftableProgressEntry {
+  return { weaponId, currentRefine: 0, goalRefine: MAX_REFINE };
+}
+
+/** Crafts needed to reach the goal refine, capped at MAX_REFINE */
+export function getCraftsNeeded(entry: CraftableProgressEntry): number {
+  return Math.max(0, Math.min(entry.goalRefine, MAX_REFINE) - entry.currentRefine);
+}
+
+/**
+ * A current refine above the goal raises the goal; a goal below the current refine is clamped
+ */
+export function getRefineUpdates(
+  entry: CraftableProgressEntry,
+  field: 'currentRefine' | 'goalRefine',
+  value: string
+): Partial<CraftableProgressEntry> {
+  const refine = Math.min(Math.max(Number(value), 0), MAX_REFINE);
+  if (field === 'currentRefine') {
+    return { currentRefine: refine, goalRefine: Math.max(entry.goalRefine, refine) };
+  }
+  return { goalRefine: refine, currentRefine: Math.min(entry.currentRefine, refine) };
+}
+
 export type CalculatorInventory = {
   characters: CharacterProgressEntry[];
   weapons: WeaponProgressEntry[];
   /** Owned counts by material ID; missing IDs count as zero */
   ownedMaterials: Record<number, number>;
+  /** Refine progress for craftable weapons the user chose to track */
+  craftables?: CraftableProgressEntry[];
   lastUpdated?: number; // timestamp
 };
 

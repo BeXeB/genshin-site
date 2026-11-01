@@ -5,6 +5,7 @@ import {
   CalculatorInventory,
   CharacterEntryKey,
   CharacterProgressEntry,
+  CraftableProgressEntry,
   TRAVELER_ID,
   WeaponProgressEntry,
   isSameEntry,
@@ -232,6 +233,46 @@ export class CalculatorStateService {
    */
   getWeapon(weaponId: number): WeaponProgressEntry | undefined {
     return this.getCurrentInventory().weapons.find((w) => w.weaponId === weaponId);
+  }
+
+  /**
+   * Track a craftable weapon; it starts at the default refine progress
+   */
+  addCraftable(entry: CraftableProgressEntry): void {
+    const current = this.getCurrentInventory();
+    const craftables = current.craftables ?? [];
+    if (craftables.some((c) => c.weaponId === entry.weaponId)) {
+      console.warn(`Craftable with ID ${entry.weaponId} already in inventory`);
+      return;
+    }
+    this.updateInventory({ ...current, craftables: [...craftables, entry] });
+  }
+
+  /**
+   * Stop tracking a craftable weapon
+   */
+  removeCraftable(weaponId: number): void {
+    const current = this.getCurrentInventory();
+    this.updateInventory({
+      ...current,
+      craftables: (current.craftables ?? []).filter((c) => c.weaponId !== weaponId),
+    });
+  }
+
+  /**
+   * Update refine progress for a tracked craftable weapon
+   */
+  updateCraftableProgress(
+    weaponId: number,
+    updates: Partial<Omit<CraftableProgressEntry, 'weaponId'>>
+  ): void {
+    const current = this.getCurrentInventory();
+    this.updateInventory({
+      ...current,
+      craftables: (current.craftables ?? []).map((c) =>
+        c.weaponId === weaponId ? { ...c, ...updates } : c
+      ),
+    });
   }
 
   /**
