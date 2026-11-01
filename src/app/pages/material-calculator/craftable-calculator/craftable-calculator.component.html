@@ -43,25 +43,4 @@
     [characters]="view.available"
     (characterSelected)="onAddCraftable($event)"
   />
-
-  <h3 class="summary-title">Billets needed</h3>
-  <div class="entry-table summary-table">
-    <div class="table-row table-head">
-      <div class="cell billet-cell"><b>Billet</b></div>
-      <div class="cell count-cell"><b>Needed</b></div>
-      <div class="cell count-cell"><b>Owned</b></div>
-      <div class="cell count-cell"><b>Short</b></div>
-    </div>
-
-    @for (total of view.summary; track total.billetId) {
-      <div class="table-row table-body">
-        <div class="cell billet-cell">{{ total.billetName }}</div>
-        <div class="cell count-cell">{{ total.needed }}</div>
-        <div class="cell count-cell">{{ total.owned }}</div>
-        <div class="cell count-cell" [class.short]="total.short > 0">{{ total.short }}</div>
-      </div>
-    } @empty {
-      <div class="empty-table">Add a weapon and set a goal refine above to see billet needs</div>
-    }
-  </div>
 }

@@ -26,6 +26,7 @@ export class MaterialService {
         MaterialType.GENERIC_MATERIAL,
         MaterialType.XP_AND_MORA,
         MaterialType.BILLET,
+        MaterialType.CRYSTAL,
       ];
 
       const observables = folders.map((folder) =>

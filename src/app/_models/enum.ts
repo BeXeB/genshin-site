@@ -123,6 +123,7 @@ export enum MaterialType {
   GENERIC_MATERIAL = 'generic',
   XP_AND_MORA = 'xp-and-mora',
   BILLET = 'billet',
+  CRYSTAL = 'crystal',
 }
 
 export const MaterialTypeLabel: Record<MaterialType, string> = {
@@ -134,4 +135,5 @@ export const MaterialTypeLabel: Record<MaterialType, string> = {
   [MaterialType.GENERIC_MATERIAL]: 'Material',
   [MaterialType.XP_AND_MORA]: 'XP & Mora',
   [MaterialType.BILLET]: 'Billet',
+  [MaterialType.CRYSTAL]: 'Crystal',
 };

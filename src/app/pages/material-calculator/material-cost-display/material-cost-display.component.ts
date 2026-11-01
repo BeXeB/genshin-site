@@ -45,6 +45,8 @@ const TYPE_DISPLAY_ORDER: MaterialType[] = [
   MaterialType.LOCAL_SPECIALTY,
   MaterialType.XP_AND_MORA,
   MaterialType.GEMSTONE,
+  MaterialType.BILLET,
+  MaterialType.CRYSTAL,
 ];
 
 /** Sections of these types get a row of their own */

@@ -4,7 +4,6 @@ import { combineLatest, map, shareReplay } from 'rxjs';
 import {
   CraftableProgressEntry,
   createDefaultCraftableProgress,
-  getCraftsNeeded,
   getRefineUpdates,
   MAX_REFINE,
 } from '../../../_models/calculator';
@@ -32,15 +31,6 @@ type CraftableWeapon = {
 type CraftableRow = CraftableWeapon & {
   iconUrl: string;
   progress: CraftableProgressEntry;
-  billets: number;
-};
-
-type BilletSummaryRow = {
-  billetId: number;
-  billetName: string;
-  needed: number;
-  owned: number;
-  short: number;
 };
 
 const REFINE_OPTIONS: number[] = Array.from({ length: MAX_REFINE + 1 }, (_, i) => i);
@@ -105,33 +95,12 @@ export class CraftableCalculatorComponent {
             ...entry,
             iconUrl: this.imageService.getWeaponIcon(entry.weapon.normalizedName),
             progress,
-            billets: getCraftsNeeded(progress) * entry.billetsPerCraft,
           },
         ];
       });
 
-      const totals = new Map<number, BilletSummaryRow>();
-      for (const row of rows) {
-        if (row.billets === 0) {
-          continue;
-        }
-        const total = totals.get(row.billetId) ?? {
-          billetId: row.billetId,
-          billetName: row.billetName,
-          needed: 0,
-          owned: inventory.ownedMaterials[row.billetId] ?? 0,
-          short: 0,
-        };
-        total.needed += row.billets;
-        totals.set(row.billetId, total);
-      }
-      const summary = [...totals.values()]
-        .map((total) => ({ ...total, short: Math.max(0, total.needed - total.owned) }))
-        .sort((a, b) => a.billetName.localeCompare(b.billetName));
-
       return {
         rows,
-        summary,
         refineOptions: REFINE_OPTIONS,
         available: craftables
           .filter((c) => !tracked.some((t) => t.weaponId === c.weapon.id))

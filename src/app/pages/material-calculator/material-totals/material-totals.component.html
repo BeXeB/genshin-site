@@ -9,3 +9,15 @@
     />
   }
 }
+
+@if (craftCost$ | async; as craftCost) {
+  @if (craftCost.cost.materials.length > 0) {
+    <app-material-cost-display
+      [cost]="craftCost.cost"
+      [groupByType]="true"
+      [ownedMaterials]="craftCost.ownedMaterials"
+    />
+  } @else {
+    <div class="empty-table">Add craftable weapons to see the billets and ores they need</div>
+  }
+}
