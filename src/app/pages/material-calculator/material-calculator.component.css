@@ -90,6 +90,7 @@
 .table-body {
   align-items: center;
   border-radius: 8px;
+  background-color: var(--dark-gray);
 }
 
 .table-body.selected {
@@ -159,6 +160,7 @@
 .row-details {
   padding: 16px;
   border: 1px solid var(--dark-gray);
+  background-color: var(--darker-gray);
   border-radius: 8px;
 }
 
