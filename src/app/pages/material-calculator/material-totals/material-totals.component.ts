@@ -55,8 +55,7 @@ function getCraftCost(crafts: MaterialCraft[], inventory: CalculatorInventory): 
   styleUrls: ['../calculator-table.css'],
 })
 export class MaterialTotalsComponent {
-  /** Materials still needed across every tracked character and weapon */
-  /** Materials still needed across every tracked character, weapon and craft (craft Mora included) */
+  /** Materials still needed across every tracked character, weapon and craftable weapon (craft costs included) */
   view$ = combineLatest([
     this.characterService.getCharacters(),
     this.weaponService.getWeapons(),
@@ -74,30 +73,16 @@ export class MaterialTotalsComponent {
         ),
         ...inventory.weapons.map((entry) => of(this.getWeaponCost(entry, weapons))),
       ];
-      const craftMora = getCraftCost(crafts, inventory).totalMora;
+      const craftCost = getCraftCost(crafts, inventory);
       const costs$ = entryCosts.length ? forkJoin(entryCosts) : of<LevelingCost[]>([]);
       return costs$.pipe(
         map((costs) => ({
-          isEmpty: entryCosts.length === 0 && craftMora === 0,
-          cost: this.calculationService.mergeCosts(
-            ...costs,
-            { materials: [], totalMora: craftMora }
-          ),
+          isEmpty: entryCosts.length === 0 && craftCost.materials.length === 0,
+          cost: this.calculationService.mergeCosts(...costs, craftCost),
           ownedMaterials: inventory.ownedMaterials,
         }))
       );
     })
-  );
-
-  /** Billets and ores still needed by the tracked craftable weapons */
-  craftCost$ = combineLatest([
-    this.materialService.getMaterialCrafts(),
-    this.calculatorState.inventory$,
-  ]).pipe(
-    map(([crafts, inventory]) => ({
-      cost: { materials: getCraftCost(crafts, inventory).materials, totalMora: 0 },
-      ownedMaterials: inventory.ownedMaterials,
-    }))
   );
 
   constructor(

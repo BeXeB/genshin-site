@@ -380,7 +380,7 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
       (a, b) =>
         this.rarityOf(b.lead) - this.rarityOf(a.lead) ||
         familyOf(a.lead) - familyOf(b.lead) ||
-        a.lead.materialName.localeCompare(b.lead.materialName)
+        a.lead.materialId - b.lead.materialId
     );
 
     return { columns, lines };
@@ -409,6 +409,11 @@ export class MaterialCostDisplayComponent implements OnInit, OnChanges {
    */
   formatMora(amount: number): string {
     return amount.toLocaleString();
+  }
+
+  /** Talent books read "Philosophies of X" in-game; the section heading already says it */
+  displayName(name: string): string {
+    return name.replace(/^Philosophies of /, '');
   }
 
   /**

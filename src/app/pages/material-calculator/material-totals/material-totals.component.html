@@ -1,23 +1,13 @@
 @if (view$ | async; as view) {
   @if (view.isEmpty) {
-    <div class="empty-table">Add characters or weapons to see the materials they need</div>
+    <div class="empty-table">
+      Add characters, weapons or craftable weapons to see the materials they need
+    </div>
   } @else {
     <app-material-cost-display
       [cost]="view.cost"
       [groupByType]="true"
       [ownedMaterials]="view.ownedMaterials"
     />
-  }
-}
-
-@if (craftCost$ | async; as craftCost) {
-  @if (craftCost.cost.materials.length > 0) {
-    <app-material-cost-display
-      [cost]="craftCost.cost"
-      [groupByType]="true"
-      [ownedMaterials]="craftCost.ownedMaterials"
-    />
-  } @else {
-    <div class="empty-table">Add craftable weapons to see the billets and ores they need</div>
   }
 }

@@ -98,7 +98,7 @@
                                   [alt]="line.lead.materialName"
                                   class="line-icon"
                                 />
-                                <span>{{ line.lead.materialName }}</span>
+                                <span>{{ displayName(line.lead.materialName) }}</span>
                               </div>
                             </td>
                             @for (cell of line.cells; track $index) {

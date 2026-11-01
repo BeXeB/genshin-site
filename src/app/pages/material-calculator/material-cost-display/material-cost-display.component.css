@@ -77,7 +77,7 @@
 .material-table-grid {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 32px;
 }
 
 /* Sections on a row share its width, so a missing section doesn't leave a gap */
