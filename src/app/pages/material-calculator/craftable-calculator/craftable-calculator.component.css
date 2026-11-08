@@ -8,3 +8,10 @@
   min-width: 120px;
   text-align: center;
 }
+
+/* Two refine columns, same width as the body cells */
+.craftable-table .refine-groups {
+  display: flex;
+  flex: 0 0 240px;
+  flex-direction: column;
+}
