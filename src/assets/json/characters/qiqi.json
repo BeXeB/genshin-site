@@ -969,7 +969,7 @@
                     ]
                 }
             },
-            "descriptionRaw": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.\n<color=#FFD780FF>{LINK#N11500004}Radiance: Stellar Glimmer</color>{/LINK}: The effect now has a 100% chance to trigger, and cooldown time is reduced to 15s.",
+            "descriptionRaw": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.\n{LINK#N11500004}<color=#FFD780FF>Radiance: Stellar Glimmer</color>{/LINK}: The effect now has a 100% chance to trigger, and cooldown time is reduced to 15s.",
             "id": 352201,
             "name": "A Glimpse Into Arcanum",
             "proudSkillGroupId": 3522
