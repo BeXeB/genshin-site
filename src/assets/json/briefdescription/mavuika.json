@@ -1,5 +1,5 @@
 {
-  "combat1": "Standard Claymore <color=#FFD780FF>Normal Attack</color> és <color=#FFD780FF>Charged Attack</color>.",
+  "combat1": "Standard Claymore <color=#FFD780FF>Normal Attack</color>, <color=#FFD780FF>Charged Attack</color> és <color=#FFD780FF>Plunging Attack</color>.",
   "combat2": "<color=#FF9999FF>Pyro DMG</color>-et okoz, Mavuika <color=#FFD780FF>Nightsoul</color> pontjai visszaállnak a maximális értékre és aktiválja a <color=#FFD780FF>Nightsoul's Blessing</color> állapotot.\n\n<color=#FFD780FF>Tap</color>\nMegidézi a <color=#FFD780FF>Ring of Searing Radiance</color> gyűrűt, amely követi az aktív karaktert és időközönként támad.\n\n<color=#FFD780FF>Hold</color>\nMegidézi a <color=#FFD780FF>Flamestrider</color>-t, amely Mavuika támadásait <color=#FF9999FF>Pyro DMG</color>-gé alakítja.\n\nA skill újbóli <color=#FFD780FF>Tap</color>-ként használata után megváltozik, melyik verziója aktív a skillnek.",
   "combat3": "<color=#FFD780FF>Fighting Spirit</color> felhasználásával aktiválható.\n\n <color=#FF9999FF>AoE Pyro DMG</color>-et okoz és aktiválja a <color=#FFD780FF>Crucible of Death and Life</color> állapotot.\nEz növeli Mavuika támadásainak sebzését.",
   "passive1": "Ha egy közeli csapattag <color=#FFD780FF>Nightsoul Burst</color>-öt aktivál, Mavuika ATK-ja 30%-kal nő 10 másodpercre.",
