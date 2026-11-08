@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, shareReplay } from 'rxjs';
 import { Tierlist } from '../_models/tierlist';
 
 @Injectable({
@@ -8,11 +8,16 @@ import { Tierlist } from '../_models/tierlist';
 })
 export class TierlistService {
   private tierlistUrl = 'assets/json/tierlist.json';
+  private tierlist$?: Observable<Tierlist>;
 
   constructor(private http: HttpClient) {}
 
   getTierlist(): Observable<Tierlist> {
-    return this.http.get<Tierlist>(this.tierlistUrl);
+    if (!this.tierlist$) {
+      this.tierlist$ = this.http.get<Tierlist>(this.tierlistUrl).pipe(shareReplay(1));
+    }
+
+    return this.tierlist$;
   }
 
   getTierlistFromJson(jsonContent: string): Tierlist {
