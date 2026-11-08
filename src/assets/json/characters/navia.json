@@ -858,19 +858,45 @@
             "filename_passive3": "UI_Talent_S_Navia_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.4
+                    ],
+                    "param2": [
+                        4.0
+                    ]
+                }
+            },
             "descriptionRaw": "For 4s after using <color=#FFD780FF>Ceremonial Crystalshot</color>, the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be converted into <color=#FFE699FF>Geo DMG</color> which cannot be overridden by other Elemental infusions, and the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be increased by 40%.",
             "id": 912101,
-            "name": "Undisclosed Distribution Channels"
+            "name": "Undisclosed Distribution Channels",
+            "proudSkillGroupId": 9121
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "For each <color=#FF9999FF>Pyro</color>/<color=#FFACFFFF>Electro</color>/<color=#99FFFFFF>Cryo</color>/<color=#80C0FFFF>Hydro</color> party member, Navia gains 20% increased ATK. This effect can stack up to 2 times.",
             "id": 912201,
-            "name": "Mutual Assistance Network"
+            "name": "Mutual Assistance Network",
+            "proudSkillGroupId": 9122
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Gains 25% more rewards when dispatched on a Fontaine Expedition for 20 hours.",
             "id": 912301,
-            "name": "Painstaking Transaction"
+            "name": "Painstaking Transaction",
+            "proudSkillGroupId": 9123
         }
     },
     "stats": {

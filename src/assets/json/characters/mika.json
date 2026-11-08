@@ -893,19 +893,45 @@
             "filename_passive3": "UI_Talent_Collect_Local_Mengde"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.1
+                    ],
+                    "param2": [
+                        3.0
+                    ]
+                }
+            },
             "descriptionRaw": "Per the following circumstances, the Soulwind state caused by <color=#FFD780FF>Starfrost Swirl</color> will grant characters the Detector effect, increasing their Physical DMG by 10% when they are on the field.\n·If the Flowfrost Arrow hits more than one opponent, each additional opponent hit will generate 1 Detector stack.\n·When a Rimestar Shard hits an opponent, it will generate 1 Detector stack. Each Rimestar Shard can trigger the effect 1 time.\n\nThe Soulwind state can have a maximum of 3 Detector stacks, and if Starfrost Swirl is cast again during this duration, the pre-existing Soulwind state and all its Detector stacks will be cleared.",
             "id": 802101,
-            "name": "Suppressive Barrage"
+            "name": "Suppressive Barrage",
+            "proudSkillGroupId": 8021
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ]
+                }
+            },
             "descriptionRaw": "When an active character affected by both <color=#FFD780FF>Skyfeather Song</color>'s Eagleplume and <color=#FFD780FF>Starfrost Swirl</color>'s Soulwind at once scores a CRIT Hit with their attacks, Soulwind will grant them 1 stack of Detector from the Ascension Talent Suppressive Barrage. During a single instance of Soulwind, 1 Detector stack can be gained in this manner.\nAdditionally, the maximum number of stacks that can be gained through Soulwind alone is increased by 1.\nYou must first unlock the Ascension Talent \"Suppressive Barrage.\"",
             "id": 802201,
-            "name": "Topographical Mapping"
+            "name": "Topographical Mapping",
+            "proudSkillGroupId": 8022
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Mondstadt</color> on the mini-map.",
             "id": 802301,
-            "name": "Demarcation"
+            "name": "Demarcation",
+            "proudSkillGroupId": 8023
         }
     },
     "stats": {

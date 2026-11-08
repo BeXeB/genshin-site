@@ -1051,7 +1051,7 @@
             "defense": 52.0521,
             "hp": 829.3884,
             "level": 1,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "10": {
             "ascension": 0,
@@ -1059,7 +1059,7 @@
             "defense": 91.1432271,
             "hp": 1452.2590883999999,
             "level": 10,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "100": {
             "ascension": 6,
@@ -1067,7 +1067,7 @@
             "defense": 716.1658692,
             "hp": 11411.1740368,
             "level": 100,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "11": {
             "ascension": 0,
@@ -1075,7 +1075,7 @@
             "defense": 95.5156035,
             "hp": 1521.9277140000002,
             "level": 11,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "12": {
             "ascension": 0,
@@ -1083,7 +1083,7 @@
             "defense": 99.8879799,
             "hp": 1591.5963396000002,
             "level": 12,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "13": {
             "ascension": 0,
@@ -1091,7 +1091,7 @@
             "defense": 104.26035630000001,
             "hp": 1661.2649652000002,
             "level": 13,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "14": {
             "ascension": 0,
@@ -1099,7 +1099,7 @@
             "defense": 108.68478480000002,
             "hp": 1731.7629792000002,
             "level": 14,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "15": {
             "ascension": 0,
@@ -1107,7 +1107,7 @@
             "defense": 113.05716120000001,
             "hp": 1801.4316048000003,
             "level": 15,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "16": {
             "ascension": 0,
@@ -1115,7 +1115,7 @@
             "defense": 117.42953759999999,
             "hp": 1871.1002303999999,
             "level": 16,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "17": {
             "ascension": 0,
@@ -1123,7 +1123,7 @@
             "defense": 121.85396610000002,
             "hp": 1941.5982444000003,
             "level": 17,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "18": {
             "ascension": 0,
@@ -1131,7 +1131,7 @@
             "defense": 126.2263425,
             "hp": 2011.26687,
             "level": 18,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "19": {
             "ascension": 0,
@@ -1139,7 +1139,7 @@
             "defense": 130.650771,
             "hp": 2081.764884,
             "level": 19,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "2": {
             "ascension": 0,
@@ -1147,7 +1147,7 @@
             "defense": 56.3724243,
             "hp": 898.2276372,
             "level": 2,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "20": {
             "ascension": 0,
@@ -1155,7 +1155,7 @@
             "defense": 135.0231474,
             "hp": 2151.4335096,
             "level": 20,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "20+": {
             "ascension": 1,
@@ -1163,7 +1163,7 @@
             "defense": 179.6541474,
             "hp": 2862.5590596,
             "level": 20,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "21": {
             "ascension": 1,
@@ -1171,7 +1171,7 @@
             "defense": 184.0785759,
             "hp": 2933.0570736,
             "level": 21,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "22": {
             "ascension": 1,
@@ -1179,7 +1179,7 @@
             "defense": 188.5030044,
             "hp": 3003.5550875999998,
             "level": 22,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "23": {
             "ascension": 1,
@@ -1187,7 +1187,7 @@
             "defense": 192.9274329,
             "hp": 3074.0531016000004,
             "level": 23,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "24": {
             "ascension": 1,
@@ -1195,7 +1195,7 @@
             "defense": 197.35186140000002,
             "hp": 3144.5511156000002,
             "level": 24,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "25": {
             "ascension": 1,
@@ -1203,7 +1203,7 @@
             "defense": 201.77628990000002,
             "hp": 3215.0491296,
             "level": 25,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "26": {
             "ascension": 1,
@@ -1211,7 +1211,7 @@
             "defense": 206.2527705,
             "hp": 3286.376532,
             "level": 26,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "27": {
             "ascension": 1,
@@ -1219,7 +1219,7 @@
             "defense": 210.677199,
             "hp": 3356.874546,
             "level": 27,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "28": {
             "ascension": 1,
@@ -1227,7 +1227,7 @@
             "defense": 215.1016275,
             "hp": 3427.37256,
             "level": 28,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "29": {
             "ascension": 1,
@@ -1235,7 +1235,7 @@
             "defense": 219.5781081,
             "hp": 3498.6999624,
             "level": 29,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "3": {
             "ascension": 0,
@@ -1243,7 +1243,7 @@
             "defense": 60.6927486,
             "hp": 967.0668744,
             "level": 3,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "30": {
             "ascension": 1,
@@ -1251,7 +1251,7 @@
             "defense": 224.0025366,
             "hp": 3569.1979764000007,
             "level": 30,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "31": {
             "ascension": 1,
@@ -1259,7 +1259,7 @@
             "defense": 228.47901720000002,
             "hp": 3640.5253788,
             "level": 31,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "32": {
             "ascension": 1,
@@ -1267,7 +1267,7 @@
             "defense": 232.95549780000002,
             "hp": 3711.8527812,
             "level": 32,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "33": {
             "ascension": 1,
@@ -1275,7 +1275,7 @@
             "defense": 237.43197840000002,
             "hp": 3783.1801836000004,
             "level": 33,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "34": {
             "ascension": 1,
@@ -1283,7 +1283,7 @@
             "defense": 241.85640690000002,
             "hp": 3853.6781976,
             "level": 34,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "35": {
             "ascension": 1,
@@ -1291,7 +1291,7 @@
             "defense": 246.3328875,
             "hp": 3925.0056000000004,
             "level": 35,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "36": {
             "ascension": 1,
@@ -1299,7 +1299,7 @@
             "defense": 250.86142020000003,
             "hp": 3997.1623908,
             "level": 36,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "37": {
             "ascension": 1,
@@ -1307,7 +1307,7 @@
             "defense": 255.33790080000003,
             "hp": 4068.4897932000003,
             "level": 37,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "38": {
             "ascension": 1,
@@ -1315,7 +1315,7 @@
             "defense": 259.8143814,
             "hp": 4139.817195600001,
             "level": 38,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "39": {
             "ascension": 1,
@@ -1323,7 +1323,7 @@
             "defense": 264.290862,
             "hp": 4211.144598,
             "level": 39,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "4": {
             "ascension": 0,
@@ -1331,7 +1331,7 @@
             "defense": 65.06512500000001,
             "hp": 1036.7355,
             "level": 4,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "40": {
             "ascension": 1,
@@ -1339,7 +1339,7 @@
             "defense": 268.81939470000003,
             "hp": 4283.3013888000005,
             "level": 40,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "40+": {
             "ascension": 2,
@@ -1347,7 +1347,7 @@
             "defense": 300.53089470000003,
             "hp": 4788.574738800001,
             "level": 40,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "41": {
             "ascension": 2,
@@ -1355,7 +1355,7 @@
             "defense": 305.00737530000004,
             "hp": 4859.9021412,
             "level": 41,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "42": {
             "ascension": 2,
@@ -1363,7 +1363,7 @@
             "defense": 309.53590800000006,
             "hp": 4932.058932000001,
             "level": 42,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "43": {
             "ascension": 2,
@@ -1371,7 +1371,7 @@
             "defense": 314.06444070000003,
             "hp": 5004.215722800001,
             "level": 43,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "44": {
             "ascension": 2,
@@ -1379,7 +1379,7 @@
             "defense": 318.5409213,
             "hp": 5075.5431252,
             "level": 44,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "45": {
             "ascension": 2,
@@ -1387,7 +1387,7 @@
             "defense": 323.06945400000006,
             "hp": 5147.6999160000005,
             "level": 45,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "46": {
             "ascension": 2,
@@ -1395,7 +1395,7 @@
             "defense": 327.5979867,
             "hp": 5219.8567068,
             "level": 46,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "47": {
             "ascension": 2,
@@ -1403,7 +1403,7 @@
             "defense": 332.1265194,
             "hp": 5292.0134976,
             "level": 47,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "48": {
             "ascension": 2,
@@ -1411,7 +1411,7 @@
             "defense": 336.65505210000003,
             "hp": 5364.170288400001,
             "level": 48,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "49": {
             "ascension": 2,
@@ -1419,7 +1419,7 @@
             "defense": 341.23563690000003,
             "hp": 5437.156467600001,
             "level": 49,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "5": {
             "ascension": 0,
@@ -1427,7 +1427,7 @@
             "defense": 69.3854493,
             "hp": 1105.5747372,
             "level": 5,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "50": {
             "ascension": 2,
@@ -1435,7 +1435,7 @@
             "defense": 345.76416960000006,
             "hp": 5509.3132584,
             "level": 50,
-            "specialized": 228.8
+            "specialized": 28.8
         },
         "50+": {
             "ascension": 3,
@@ -1443,7 +1443,7 @@
             "defense": 388.04616960000004,
             "hp": 6183.0112584,
             "level": 50,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "51": {
             "ascension": 3,
@@ -1451,7 +1451,7 @@
             "defense": 392.5747023,
             "hp": 6255.1680492,
             "level": 51,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "52": {
             "ascension": 3,
@@ -1459,7 +1459,7 @@
             "defense": 397.1552871,
             "hp": 6328.154228400001,
             "level": 52,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "53": {
             "ascension": 3,
@@ -1467,7 +1467,7 @@
             "defense": 401.68381980000004,
             "hp": 6400.3110192,
             "level": 53,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "54": {
             "ascension": 3,
@@ -1475,7 +1475,7 @@
             "defense": 406.26440460000003,
             "hp": 6473.2971984,
             "level": 54,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "55": {
             "ascension": 3,
@@ -1483,7 +1483,7 @@
             "defense": 410.84498940000003,
             "hp": 6546.283377600001,
             "level": 55,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "56": {
             "ascension": 3,
@@ -1491,7 +1491,7 @@
             "defense": 415.4255742,
             "hp": 6619.2695568,
             "level": 56,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "57": {
             "ascension": 3,
@@ -1499,7 +1499,7 @@
             "defense": 420.006159,
             "hp": 6692.255736000001,
             "level": 57,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "58": {
             "ascension": 3,
@@ -1507,7 +1507,7 @@
             "defense": 424.5867438,
             "hp": 6765.2419152,
             "level": 58,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "59": {
             "ascension": 3,
@@ -1515,7 +1515,7 @@
             "defense": 429.1673286,
             "hp": 6838.228094400001,
             "level": 59,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "6": {
             "ascension": 0,
@@ -1523,7 +1523,7 @@
             "defense": 73.75782570000001,
             "hp": 1175.2433628000001,
             "level": 6,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "60": {
             "ascension": 3,
@@ -1531,7 +1531,7 @@
             "defense": 433.7479134,
             "hp": 6911.2142736000005,
             "level": 60,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "60+": {
             "ascension": 4,
@@ -1539,7 +1539,7 @@
             "defense": 465.4594134,
             "hp": 7416.4877736,
             "level": 60,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "61": {
             "ascension": 4,
@@ -1547,7 +1547,7 @@
             "defense": 470.03999820000007,
             "hp": 7489.4739528,
             "level": 61,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "62": {
             "ascension": 4,
@@ -1555,7 +1555,7 @@
             "defense": 474.62058300000007,
             "hp": 7562.460132,
             "level": 62,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "63": {
             "ascension": 4,
@@ -1563,7 +1563,7 @@
             "defense": 479.25321990000003,
             "hp": 7636.2756996,
             "level": 63,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "64": {
             "ascension": 4,
@@ -1571,7 +1571,7 @@
             "defense": 483.83380470000003,
             "hp": 7709.2618788,
             "level": 64,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "65": {
             "ascension": 4,
@@ -1579,7 +1579,7 @@
             "defense": 488.46644160000005,
             "hp": 7783.077446400001,
             "level": 65,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "66": {
             "ascension": 4,
@@ -1587,7 +1587,7 @@
             "defense": 493.0990785,
             "hp": 7856.893014,
             "level": 66,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "67": {
             "ascension": 4,
@@ -1595,7 +1595,7 @@
             "defense": 497.6796633,
             "hp": 7929.8791932,
             "level": 67,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "68": {
             "ascension": 4,
@@ -1603,7 +1603,7 @@
             "defense": 502.31230020000004,
             "hp": 8003.6947608,
             "level": 68,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "69": {
             "ascension": 4,
@@ -1611,7 +1611,7 @@
             "defense": 506.9449371,
             "hp": 8077.5103284,
             "level": 69,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "7": {
             "ascension": 0,
@@ -1619,7 +1619,7 @@
             "defense": 78.07815000000001,
             "hp": 1244.0826000000002,
             "level": 7,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "70": {
             "ascension": 4,
@@ -1627,7 +1627,7 @@
             "defense": 511.577574,
             "hp": 8151.325896,
             "level": 70,
-            "specialized": 257.6
+            "specialized": 57.6
         },
         "70+": {
             "ascension": 5,
@@ -1635,7 +1635,7 @@
             "defense": 543.289074,
             "hp": 8656.599296,
             "level": 70,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "71": {
             "ascension": 5,
@@ -1643,7 +1643,7 @@
             "defense": 547.9217109000001,
             "hp": 8730.414863599999,
             "level": 71,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "72": {
             "ascension": 5,
@@ -1651,7 +1651,7 @@
             "defense": 552.6063999,
             "hp": 8805.0598196,
             "level": 72,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "73": {
             "ascension": 5,
@@ -1659,7 +1659,7 @@
             "defense": 557.2390368000001,
             "hp": 8878.875387200002,
             "level": 73,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "74": {
             "ascension": 5,
@@ -1667,7 +1667,7 @@
             "defense": 561.8716737,
             "hp": 8952.6909548,
             "level": 74,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "75": {
             "ascension": 5,
@@ -1675,7 +1675,7 @@
             "defense": 566.5563627,
             "hp": 9027.3359108,
             "level": 75,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "76": {
             "ascension": 5,
@@ -1683,7 +1683,7 @@
             "defense": 571.1889996,
             "hp": 9101.1514784,
             "level": 76,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "77": {
             "ascension": 5,
@@ -1691,7 +1691,7 @@
             "defense": 575.8736886,
             "hp": 9175.7964344,
             "level": 77,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "78": {
             "ascension": 5,
@@ -1699,7 +1699,7 @@
             "defense": 580.5583776000001,
             "hp": 9250.4413904,
             "level": 78,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "79": {
             "ascension": 5,
@@ -1707,7 +1707,7 @@
             "defense": 585.2430666,
             "hp": 9325.0863464,
             "level": 79,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "8": {
             "ascension": 0,
@@ -1715,7 +1715,7 @@
             "defense": 82.45052640000002,
             "hp": 1313.7512256000002,
             "level": 8,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "80": {
             "ascension": 5,
@@ -1723,7 +1723,7 @@
             "defense": 589.9277556000001,
             "hp": 9399.7313024,
             "level": 80,
-            "specialized": 286.4
+            "specialized": 86.4
         },
         "80+": {
             "ascension": 6,
@@ -1731,7 +1731,7 @@
             "defense": 621.6392556000001,
             "hp": 9905.004702400001,
             "level": 80,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "81": {
             "ascension": 6,
@@ -1739,7 +1739,7 @@
             "defense": 626.3239446,
             "hp": 9979.649658400001,
             "level": 81,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "82": {
             "ascension": 6,
@@ -1747,7 +1747,7 @@
             "defense": 631.0086336,
             "hp": 10054.294614400002,
             "level": 82,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "83": {
             "ascension": 6,
@@ -1755,7 +1755,7 @@
             "defense": 635.6933226,
             "hp": 10128.9395704,
             "level": 83,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "84": {
             "ascension": 6,
@@ -1763,7 +1763,7 @@
             "defense": 640.3780116,
             "hp": 10203.5845264,
             "level": 84,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "85": {
             "ascension": 6,
@@ -1771,7 +1771,7 @@
             "defense": 645.0627006,
             "hp": 10278.2294824,
             "level": 85,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "86": {
             "ascension": 6,
@@ -1779,7 +1779,7 @@
             "defense": 649.7994417000001,
             "hp": 10353.7038268,
             "level": 86,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "87": {
             "ascension": 6,
@@ -1787,7 +1787,7 @@
             "defense": 654.4841307,
             "hp": 10428.3487828,
             "level": 87,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "88": {
             "ascension": 6,
@@ -1795,7 +1795,7 @@
             "defense": 659.2208718,
             "hp": 10503.823127200001,
             "level": 88,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "89": {
             "ascension": 6,
@@ -1803,7 +1803,7 @@
             "defense": 663.9576129,
             "hp": 10579.297471599999,
             "level": 89,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "9": {
             "ascension": 0,
@@ -1811,7 +1811,7 @@
             "defense": 86.8229028,
             "hp": 1383.4198512,
             "level": 9,
-            "specialized": 200.0
+            "specialized": 0.0
         },
         "90": {
             "ascension": 6,
@@ -1819,7 +1819,7 @@
             "defense": 668.6423019,
             "hp": 10653.9424276,
             "level": 90,
-            "specialized": 315.2
+            "specialized": 115.2
         },
         "95": {
             "ascension": 6,
@@ -1827,7 +1827,7 @@
             "defense": 692.3780595000001,
             "hp": 11032.143538,
             "level": 95,
-            "specialized": 315.2
+            "specialized": 115.2
         }
     }
 }

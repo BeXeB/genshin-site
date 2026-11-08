@@ -838,24 +838,65 @@
             "filename_passive4": "UI_Talent_S_Fischl_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.527
+                    ]
+                }
+            },
             "descriptionRaw": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing <color=#FFACFFFF>AoE Electro DMG</color> equal to 152.7% of the arrow's DMG.",
             "id": 312101,
-            "name": "Stellar Predator"
+            "name": "Stellar Predator",
+            "proudSkillGroupId": 3121
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.8
+                    ]
+                }
+            },
             "descriptionRaw": "If your current active character triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color> when Oz is on the field, the opponent shall be stricken with Thundering Retribution that deals <color=#FFACFFFF>Electro DMG</color> equal to 80% of Fischl's ATK.",
             "id": 312201,
-            "name": "Undone Be Thy Sinful Hex"
+            "name": "Undone Be Thy Sinful Hex",
+            "proudSkillGroupId": 3122
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
             "id": 312301,
-            "name": "Mein Hausgarten"
+            "name": "Mein Hausgarten",
+            "proudSkillGroupId": 3123
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        10.0
+                    ],
+                    "param2": [
+                        0.225
+                    ],
+                    "param3": [
+                        10.0
+                    ],
+                    "param4": [
+                        90.0
+                    ]
+                }
+            },
             "descriptionRaw": "After completing <color=#FFD780FF>Witch's Homework: Of the Unexpected</color>, Fischl will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nHark, Prince Nachtraben, Ozvaldo Hrafnavins, he who has witnessed the fall of countless worlds. Sing now the starry septet for your sovereign, for this is the moment of deepest sin, when the gathered souls at the end of causality shatter the darkness of fate.\nAdditionally, when Oz is on the field, party members will gain additional buff effects:\n· After a nearby party member triggers an Overloaded reaction, Fischl and other nearby active party members have their ATK increased by 22.5% for 10s.\n· After a nearby party member triggers an Electro-Charged or Lunar-Charged reaction, Fischl and other nearby active party members have their Elemental Mastery increased by 90 for 10s.",
             "id": 315101,
-            "name": "Witch's Eve Rite: Phantasmal Nocturne"
+            "name": "Witch's Eve Rite: Phantasmal Nocturne",
+            "proudSkillGroupId": 3151
         }
     },
     "stats": {

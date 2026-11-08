@@ -967,24 +967,75 @@
             "filename_passive4": "UI_Talent_S_Vesna_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        20.0
+                    ],
+                    "param2": [
+                        6.0
+                    ],
+                    "param3": [
+                        0.1
+                    ]
+                }
+            },
             "descriptionRaw": "After Vesna uses the special Elemental Skill <color=#FFD780FF>{LINK#N11430003}Windborne Sword{/LINK}</color> or the Elemental Burst <color=#FFD780FF>{LINK#S11435}For the Tsaritsa!{/LINK}</color>, she also gains 1 stack of <color=#FFD780FF>Disciplinary Action</color> which lasts 20s. Max 6 stacks, and the duration of each stack is independent of the others'.\nWhen she has <color=#FFD780FF>Disciplinary Action</color> stacks active, the <color=#FFD780FF>{LINK#N11430004}Spirit Blades{/LINK}</color> summoned by Vesna will deal DMG equal to (100% + 10% × Disciplinary Action stack count) of the original DMG instead. All active stacks of <color=#FFD780FF>Disciplinary Action</color> are cleared when Vesna uses the Elemental Skill <color=#FFD780FF>The Art of Victory</color> or when she leaves the field.",
             "id": 1432101,
-            "name": "Rite of Spring's Procession"
+            "name": "Rite of Spring's Procession",
+            "proudSkillGroupId": 14321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.06
+                    ],
+                    "param2": [
+                        25.0
+                    ]
+                }
+            },
             "descriptionRaw": "<color=#FFD780FF>Radiance: Stellar Swirl</color>: Vesna will gain the corresponding effect based on the Elemental Type of her party members: \n· For every <color=#99FFFFFF>Cryo</color> or <color=#80FFD7FF>Anemo</color> character in her current party, Vesna's ATK increases by 6%; and\n· For every character of all other Elemental Types in her current party, Vesna's Elemental Mastery increases by 25 instead.",
             "id": 1432201,
-            "name": "Truth Prevails"
+            "name": "Truth Prevails",
+            "proudSkillGroupId": 14322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.007
+                    ],
+                    "param2": [
+                        0.14
+                    ]
+                }
+            },
             "descriptionRaw": "When party members trigger Cryo Swirl, it will be changed to a Stellar Swirl reaction, and party members' Base DMG for the Stellar Swirl will be increased based on Vesna's ATK. Every 100 ATK she has increases the Base Stellar Swirl DMG by 0.7%. The maximum DMG increase that can be gained this way is 14%.\nAfter a party member triggers a Stellar Swirl reaction nearby, Vesna enters the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s.",
             "id": 1432301,
-            "name": "Stellar Jubilee: Splendid Prelude"
+            "name": "Stellar Jubilee: Splendid Prelude",
+            "proudSkillGroupId": 14323
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        50.0
+                    ],
+                    "param2": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "Holding on Sprint or Jump when Vesna is not in combat will cause her to enter the <color=#FFD780FF>Coursing</color> state.\n\n<color=#FFD780FF>Coursing</color>\nContinuously consumes Stamina to hover in mid-air. Sprinting or tapping Jump to go higher expends additional Stamina. Including the hold on Jump that triggers <color=#FFD780FF>Coursing</color>, Vesna can go higher up to 3 times in each instance of the <color=#FFD780FF>Coursing</color> state.\n\nAdditionally, in Snezhnaya (excluding Nod-Krai), when Vesna is switched onto the field while the currently active party member is in mid-air and not in combat, she will immediately enter the <color=#FFD780FF>Coursing</color> state and regenerate 50 Stamina. This effect can trigger once every 10s, and does not take effect in Domains, Trounce Domains, or the Spiral Abyss.",
             "id": 1432501,
-            "name": "The Grand Circuit"
+            "name": "The Grand Circuit",
+            "proudSkillGroupId": 14325
         }
     },
     "stats": {

@@ -1013,19 +1013,57 @@
             "filename_passive3": "UI_Talent_S_Liney_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        15.0
+                    ],
+                    "param2": [
+                        1800.0
+                    ],
+                    "param3": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "After a nearby party member triggers an <color=#FFACFFFF>Electro-related reaction</color> against an opponent, <color=#FFACFFFF>Electro DMG</color> dealt by Clorinde's Normal Attacks and <color=#FFD780FF>Last Lightfall</color> will be increased by 20% of Clorinde's ATK for 15s. Max 3 stacks. Each stack is counted independently. The Maximum DMG increase achievable this way for the above attacks is 1,800.",
             "id": 982101,
-            "name": "Dark-Shattering Flame"
+            "name": "Dark-Shattering Flame",
+            "proudSkillGroupId": 9821
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ],
+                    "param2": [
+                        1.0
+                    ],
+                    "param3": [
+                        0.1
+                    ],
+                    "param4": [
+                        15.0
+                    ]
+                }
+            },
             "descriptionRaw": "If Clorinde's Bond of Life is equal to or greater than 100% of her Max HP, her CRIT Rate will increase by 10% for 15s whenever her Bond of Life value increases or decreases. Max 2 stacks. Each stack is counted independently.\nAdditionally, <color=#FFD780FF>Hunter's Vigil</color>'s Night Vigil state is buffed: While it is active, the percent of healing converted to Bond of Life increases to 100%.",
             "id": 982201,
-            "name": "Lawful Remuneration"
+            "name": "Lawful Remuneration",
+            "proudSkillGroupId": 9822
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Fontaine</color> on the mini-map.",
             "id": 982301,
-            "name": "Night Vigil's Harvest"
+            "name": "Night Vigil's Harvest",
+            "proudSkillGroupId": 9823
         }
     },
     "stats": {

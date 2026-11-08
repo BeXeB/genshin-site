@@ -824,19 +824,45 @@
             "filename_passive3": "UI_Talent_Forge_Bow"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        5.0
+                    ],
+                    "param2": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s.",
             "id": 372101,
-            "name": "Undivided Heart"
+            "name": "Undivided Heart",
+            "proudSkillGroupId": 3721
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "<color=#FFD780FF>Celestial Shower</color> grants a 20% <color=#99FFFFFF>Cryo DMG Bonus</color> to active party members in the AoE.",
             "id": 372201,
-            "name": "Harmony Between Heaven and Earth"
+            "name": "Harmony Between Heaven and Earth",
+            "proudSkillGroupId": 3722
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Refunds 15% of the ore used when crafting Bow-type weapons.",
             "id": 372301,
-            "name": "Preserved for the Hunt"
+            "name": "Preserved for the Hunt",
+            "proudSkillGroupId": 3723
         }
     },
     "stats": {

@@ -734,19 +734,51 @@
             "filename_passive3": "UI_Talent_Explosion_Glide"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.5
+                    ],
+                    "param2": [
+                        0.4
+                    ],
+                    "param3": [
+                        3.0
+                    ]
+                }
+            },
             "descriptionRaw": "If one of your party members has triggered Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, Burgeon, or Lunar-Bloom reactions before the <color=#FFD780FF>Floral Ring</color> returns, it will grant the character the Sprout effect upon return, which will continuously deal <color=#99FF88FF>Dendro DMG</color> equivalent to 40% of Collei's ATK to nearby opponents for 3s.\nIf another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.",
             "id": 672101,
-            "name": "Floral Sidewinder"
+            "name": "Floral Sidewinder",
+            "proudSkillGroupId": 6721
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ],
+                    "param2": [
+                        3.0
+                    ]
+                }
+            },
             "descriptionRaw": "When a character within the <color=#FFD780FF>Cuilein-Anbar Zone</color> triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, Burgeon, or Lunar-Bloom reactions, the Zone's duration will be increased by 1s.\nA single <color=#FFD780FF>Trump-Card Kitty</color> can be extended this way by up to 3s.",
             "id": 672201,
-            "name": "The Languid Wood"
+            "name": "The Languid Wood",
+            "proudSkillGroupId": 6722
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 672301,
-            "name": "Gliding Champion of Sumeru"
+            "name": "Gliding Champion of Sumeru",
+            "proudSkillGroupId": 6723
         }
     },
     "stats": {

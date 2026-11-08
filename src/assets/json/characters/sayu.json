@@ -964,19 +964,48 @@
             "filename_passive3": "UI_Talent_S_Sayu_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        300.0
+                    ],
+                    "param2": [
+                        1.2
+                    ],
+                    "param3": [
+                        2.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Sayu triggers a Swirl or Stellar Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\nThis effect can be triggered once every 2s.",
             "id": 532101,
-            "name": "Someone More Capable"
+            "name": "Someone More Capable",
+            "proudSkillGroupId": 5321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> gains the following effects:\n·When healing a character, it will also heal characters near that healed character for 20% the amount of HP.\n·Increases the AoE of its attack against opponents.",
             "id": 532201,
-            "name": "No Work Today!"
+            "name": "No Work Today!",
+            "proudSkillGroupId": 5322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Sayu is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
             "id": 532301,
-            "name": "Yoohoo Art: Silencer's Secret"
+            "name": "Yoohoo Art: Silencer's Secret",
+            "proudSkillGroupId": 5323
         }
     },
     "stats": {

@@ -770,19 +770,45 @@
             "filename_passive3": "UI_Talent_S_Sara_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.6
+                    ]
+                }
+            },
             "descriptionRaw": "While in the Crowfeather Cover state provided by <color=#FFD780FF>Tengu Stormcall</color>, Aimed Shot charge times are decreased by 60%.",
             "id": 562101,
-            "name": "Immovable Will"
+            "name": "Immovable Will",
+            "proudSkillGroupId": 5621
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.2
+                    ],
+                    "param2": [
+                        3.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Tengu Juurai: Ambush hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s.",
             "id": 562201,
-            "name": "Decorum"
+            "name": "Decorum",
+            "proudSkillGroupId": 5622
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%.",
             "id": 562301,
-            "name": "Land Survey"
+            "name": "Land Survey",
+            "proudSkillGroupId": 5623
         }
     },
     "stats": {

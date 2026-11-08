@@ -788,19 +788,48 @@
             "filename_passive3": "UI_Talent_S_Tighnari_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        50.0
+                    ],
+                    "param2": [
+                        4.0
+                    ]
+                }
+            },
             "descriptionRaw": "After Tighnari fires a <color=#FFD780FF>Wreath Arrow</color>, his Elemental Mastery is increased by 50 for 4s.",
             "id": 692101,
-            "name": "Keen Sight"
+            "name": "Keen Sight",
+            "proudSkillGroupId": 6921
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.0006
+                    ],
+                    "param2": [
+                        0.6
+                    ]
+                }
+            },
             "descriptionRaw": "For every point of Elemental Mastery Tighnari possesses, his Charged Attack and <color=#FFD780FF>Fashioner's Tanglevine Shaft</color> DMG are increased by 0.06%.\nThe maximum DMG Bonus obtainable this way is 60%.",
             "id": 692201,
-            "name": "Scholarly Blade"
+            "name": "Scholarly Blade",
+            "proudSkillGroupId": 6922
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Sumeru</color> on the mini-map.",
             "id": 692301,
-            "name": "Encyclopedic Knowledge"
+            "name": "Encyclopedic Knowledge",
+            "proudSkillGroupId": 6923
         }
     },
     "stats": {

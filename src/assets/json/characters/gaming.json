@@ -788,19 +788,51 @@
             "filename_passive3": "UI_Talent_S_Dehya_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ],
+                    "param2": [
+                        0.015
+                    ]
+                }
+            },
             "descriptionRaw": "After <color=#FFD780FF>Bestial Ascent</color>'s Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s.",
             "id": 922101,
-            "name": "Dance of Amity"
+            "name": "Dance of Amity",
+            "proudSkillGroupId": 9221
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ],
+                    "param2": [
+                        0.2
+                    ],
+                    "param3": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG.",
             "id": 922201,
-            "name": "Air of Prosperity"
+            "name": "Air of Prosperity",
+            "proudSkillGroupId": 9222
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
             "id": 922301,
-            "name": "The Striding Beast"
+            "name": "The Striding Beast",
+            "proudSkillGroupId": 9223
         }
     },
     "stats": {

@@ -997,19 +997,45 @@
             "filename_passive3": "UI_Talent_S_Alhatham_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        12.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Alhaitham's Charged or Plunging Attacks hit opponents, they will generate 1 Chisel-Light Mirror. This effect can be triggered once every 12s.",
             "id": 782101,
-            "name": "Four-Causal Correction"
+            "name": "Four-Causal Correction",
+            "proudSkillGroupId": 7821
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.001
+                    ],
+                    "param2": [
+                        1.0
+                    ]
+                }
+            },
             "descriptionRaw": "Each point of Alhaitham's Elemental Mastery will increase the DMG dealt by Projection Attacks and <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> by 0.1%.\nThe DMG of both aforementioned abilities can be increased by a maximum of 100% this way.",
             "id": 782201,
-            "name": "Mysteries Laid Bare"
+            "name": "Mysteries Laid Bare",
+            "proudSkillGroupId": 7822
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Alhaitham crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
             "id": 782301,
-            "name": "Law of Reductive Overdetermination"
+            "name": "Law of Reductive Overdetermination",
+            "proudSkillGroupId": 7823
         }
     },
     "stats": {

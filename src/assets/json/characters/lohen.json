@@ -1052,24 +1052,81 @@
             "filename_passive4": "UI_Talent_S_Lohen_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        30.0
+                    ],
+                    "param2": [
+                        60.0
+                    ]
+                }
+            },
             "descriptionRaw": "When nearby party members accumulate {LINK#N11290004}<color=#FFD780FF>Will to Win</color>{/LINK} for Lohen by dealing DMG while he is in {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK} mode, if that DMG is not less than 3,000% of Lohen's Base ATK, it will accumulate an extra 60 <color=#FFD780FF>Will to Win</color>.",
             "id": 1292101,
-            "name": "Moratorium on Questioning"
+            "name": "Moratorium on Questioning",
+            "proudSkillGroupId": 12921
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ],
+                    "param2": [
+                        0.15
+                    ],
+                    "param3": [
+                        8.0
+                    ]
+                }
+            },
             "descriptionRaw": "While in {LINK#N11290001}<color=#FFD780FF>Masterstroke</color>{/LINK} mode, for 8s after another nearby party member triggers a <color=#99FFFFFF>Cryo Reaction</color>, that character's ATK is increased by 15%, while Lohen's ATK is increased by 15%.",
             "id": 1292201,
-            "name": "Flippant Masterpiece"
+            "name": "Flippant Masterpiece",
+            "proudSkillGroupId": 12922
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        9.0
+                    ],
+                    "param2": [
+                        6.0
+                    ],
+                    "param3": [
+                        18.0
+                    ]
+                }
+            },
             "descriptionRaw": "Lohen gains \"High Spirits\" for 9s after he unleashes the Elemental Skill <color=#FFD780FF>Unforeseen Strike</color>: Increases the Skill Level of <color=#FFD780FF>Unforeseen Strike</color> by 1.\nWhen unleashing an Elemental Skill, if the Level of any other party member's Normal Attack, Elemental Skill, or Elemental Burst is not lower than Lohen's Elemental Skill Level, the duration of this instance of High Spirits will be increased by an additional 6s.\nHigh Spirits can be gained once every 18s.",
             "id": 1292301,
-            "name": "When the Mood Strikes"
+            "name": "When the Mood Strikes",
+            "proudSkillGroupId": 12923
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ],
+                    "param2": [
+                        0.4
+                    ],
+                    "param3": [
+                        6.0
+                    ]
+                }
+            },
             "descriptionRaw": "After completing <color=#FFD780FF>Witch's Homework: Of Various Foes</color>, Lohen becomes a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nWhen the special Elemental Skill {LINK#N11290002}<color=#FFD780FF>Etched Into Bone and Soul</color>{/LINK} hits an opponent or the Elemental Burst <color=#FFD780FF>Manifest Judgment</color> is unleashed, if Lohen's {LINK#N11290004}<color=#FFD780FF>Will to Win</color>{/LINK} is at 50% or more of its max limit, his Normal Attack and Charged Attack DMG will be increased by 40% for 6s.",
             "id": 1295101,
-            "name": "Witch's Eve Rite: Unhealing Thorn"
+            "name": "Witch's Eve Rite: Unhealing Thorn",
+            "proudSkillGroupId": 12951
         }
     },
     "stats": {

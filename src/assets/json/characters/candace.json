@@ -858,19 +858,38 @@
             "filename_passive3": "UI_Talent_Explosion_Climb"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "If Candace is hit by an attack in the Hold duration of <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color>, that skill will finish charging instantly.",
             "id": 722101,
-            "name": "Aegis of Crossed Arrows"
+            "name": "Aegis of Crossed Arrows",
+            "proudSkillGroupId": 7221
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.005
+                    ]
+                }
+            },
             "descriptionRaw": "Characters affected by the Prayer of the Crimson Crown caused by <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> will deal 0.5% increased DMG to opponents for every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks.",
             "id": 722201,
-            "name": "Celestial Dome of Sand"
+            "name": "Celestial Dome of Sand",
+            "proudSkillGroupId": 7222
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 722301,
-            "name": "To Dawn's First Light"
+            "name": "To Dawn's First Light",
+            "proudSkillGroupId": 7223
         }
     },
     "stats": {

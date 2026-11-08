@@ -785,19 +785,45 @@
             "filename_passive3": "UI_Talent_S_Dehya_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        8.0
+                    ]
+                }
+            },
             "descriptionRaw": "When characters affected by the Favonian Favor effect of the Elemental Burst <color=#FFD780FF>{LINK#S11155}Radiant Psalter{/LINK}</color> trigger Frozen reactions on opponents, they will grant Dahlia 2 Benison stacks. This effect can trigger once every 8s.",
             "id": 1152101,
-            "name": "The Wind's Gentle Grace"
+            "name": "The Wind's Gentle Grace",
+            "proudSkillGroupId": 11521
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        5e-06
+                    ],
+                    "param2": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "When your active party member is affected by the Favonian Favor effect of the Elemental Burst <color=#FFD780FF>{LINK#S11155}\"Radiant Psalter,\"{/LINK}</color> their ATK SPD will increase based on Dahlia's Max HP: Every 1,000 Max HP will cause an increase of 0.5%, up to a maximum of 20%.",
             "id": 1152201,
-            "name": "Prayer of Well-Wrought Joy"
+            "name": "Prayer of Well-Wrought Joy",
+            "proudSkillGroupId": 11522
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or the Spiral Abyss. Swift Stride does not stack.",
             "id": 1152301,
-            "name": "Pilgrimage Upon Returning Winds"
+            "name": "Pilgrimage Upon Returning Winds",
+            "proudSkillGroupId": 11523
         }
     },
     "stats": {

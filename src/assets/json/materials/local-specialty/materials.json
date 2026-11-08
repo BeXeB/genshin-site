@@ -154,6 +154,17 @@
         "type": "local-specialty"
     },
     {
+        "description": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+        "id": 100027,
+        "images": {
+            "filename_icon": "UI_ItemIcon_100027"
+        },
+        "name": "Jueyun Chili",
+        "normalizedName": "jueyunchili",
+        "sortRank": 312,
+        "type": "local-specialty"
+    },
+    {
         "description": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
         "id": 101217,
         "images": {
@@ -195,17 +206,6 @@
         "name": "Rukkhashava Mushrooms",
         "normalizedName": "rukkhashavamushrooms",
         "sortRank": 314,
-        "type": "local-specialty"
-    },
-    {
-        "description": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
-        "id": 100027,
-        "images": {
-            "filename_icon": "UI_ItemIcon_100027"
-        },
-        "name": "Jueyun Chili",
-        "normalizedName": "jueyunchili",
-        "sortRank": 312,
         "type": "local-specialty"
     },
     {
@@ -319,6 +319,17 @@
         "type": "local-specialty"
     },
     {
+        "description": "A hardy plant known for withstanding relentless wind and frost, it survives even in the coldest depths of winter.",
+        "id": 101268,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101266"
+        },
+        "name": "Winter Icelea",
+        "normalizedName": "wintericelea",
+        "sortRank": 317,
+        "type": "local-specialty"
+    },
+    {
         "description": "A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
         "id": 100022,
         "images": {
@@ -415,17 +426,6 @@
         "name": "Calla Lily",
         "normalizedName": "callalily",
         "sortRank": 311,
-        "type": "local-specialty"
-    },
-    {
-        "description": "A hardy plant known for withstanding relentless wind and frost, it survives even in the coldest depths of winter.",
-        "id": 101268,
-        "images": {
-            "filename_icon": "UI_ItemIcon_101266"
-        },
-        "name": "Winter Icelea",
-        "normalizedName": "wintericelea",
-        "sortRank": 317,
         "type": "local-specialty"
     },
     {
@@ -646,6 +646,28 @@
         "name": "Etherwing Moth",
         "normalizedName": "etherwingmoth",
         "sortRank": 311,
+        "type": "local-specialty"
+    },
+    {
+        "description": "A curious variety of wormwood that grows in Teplo Oasis. As it takes root, the plant draws minerals from deep beneath the earth, causing crystal-like deposits to form across its leaves.",
+        "id": 101273,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101273"
+        },
+        "name": "Fairy Wormwood",
+        "normalizedName": "fairywormwood",
+        "sortRank": 318,
+        "type": "local-specialty"
+    },
+    {
+        "description": "A peculiar mushroom that grows along the veins of the Kresnik Kristall, named for its ridged cap, which resembles a pleated parasol carved from crystal.",
+        "id": 101274,
+        "images": {
+            "filename_icon": "UI_ItemIcon_101274"
+        },
+        "name": "Kristallfold",
+        "normalizedName": "kristallfold",
+        "sortRank": 318,
         "type": "local-specialty"
     },
     {

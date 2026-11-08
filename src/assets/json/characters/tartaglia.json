@@ -1091,19 +1091,38 @@
             "filename_passive3": "UI_Talent_S_Tartaglia_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        8.0
+                    ]
+                }
+            },
             "descriptionRaw": "Extends Riptide duration by 8s.",
             "id": 332101,
-            "name": "Never Ending"
+            "name": "Never Ending",
+            "proudSkillGroupId": 3321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effect to opponents.",
             "id": 332201,
-            "name": "Sword of Torrents"
+            "name": "Sword of Torrents",
+            "proudSkillGroupId": 3322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Increases your own party members' <color=#FFD780FF>Normal Attack</color> Level by 1.",
             "id": 332301,
-            "name": "Master of Weaponry"
+            "name": "Master of Weaponry",
+            "proudSkillGroupId": 3323
         }
     },
     "stats": {

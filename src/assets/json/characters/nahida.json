@@ -913,19 +913,54 @@
             "filename_passive3": "UI_Talent_S_Nahida_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.25
+                    ],
+                    "param2": [
+                        250.0
+                    ]
+                }
+            },
             "descriptionRaw": "When unleashing <color=#FFD780FF>Illusory Heart</color>, the Shrine of Maya will gain the following effects:\nThe Elemental Mastery of the active character within the field will be increased by 25% of the Elemental Mastery of the party member with the highest Elemental Mastery.\nYou can gain a maximum of 250 Elemental Mastery in this manner.",
             "id": 732101,
-            "name": "Compassion Illuminated"
+            "name": "Compassion Illuminated",
+            "proudSkillGroupId": 7321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        200.0
+                    ],
+                    "param2": [
+                        800.0
+                    ],
+                    "param3": [
+                        0.001
+                    ],
+                    "param4": [
+                        0.0003
+                    ]
+                }
+            },
             "descriptionRaw": "Each point of Nahida's Elemental Mastery beyond 200 will grant 0.1% Bonus DMG and 0.03% CRIT Rate to Tri-Karma Purification from <color=#FFD780FF>All Schemes to Know</color>.\nA maximum of 80% Bonus DMG and 24% CRIT Rate can be granted to Tri-Karma Purification in this manner.",
             "id": 732201,
-            "name": "Awakening Elucidated"
+            "name": "Awakening Elucidated",
+            "proudSkillGroupId": 7322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Nahida can use <color=#FFD780FF>All Schemes to Know</color> to interact with some harvestable items within a fixed AoE.\nThis skill may even have some other effects...",
             "id": 732301,
-            "name": "On All Things Meditated"
+            "name": "On All Things Meditated",
+            "proudSkillGroupId": 7323
         }
     },
     "stats": {

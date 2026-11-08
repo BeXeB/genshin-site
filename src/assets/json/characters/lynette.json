@@ -910,19 +910,54 @@
             "filename_passive3": "UI_Talent_S_Linette_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        10.0
+                    ],
+                    "param2": [
+                        0.08
+                    ],
+                    "param3": [
+                        0.12
+                    ],
+                    "param4": [
+                        0.16
+                    ],
+                    "param5": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "Within 10s after using <color=#FFD780FF>Magic Trick: Astonishing Shift</color>, when there are 1/2/3/4 Elemental Types in the party, all party members' ATK will be increased by 8%/12%/16%/20% respectively.",
             "id": 832101,
-            "name": "Sophisticated Synergy"
+            "name": "Sophisticated Synergy",
+            "proudSkillGroupId": 8321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ]
+                }
+            },
             "descriptionRaw": "After the Bogglecat Box summoned by <color=#FFD780FF>Magic Trick: Astonishing Shift</color> performs Elemental Conversion, Lynette's Elemental Burst will deal 15% more DMG. This effect will persist until the Bogglecat Box's duration ends.",
             "id": 832201,
-            "name": "Props Positively Prepped"
+            "name": "Props Positively Prepped",
+            "proudSkillGroupId": 8322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Shows the location of nearby <color=#FFD780FF>Recovery Orbs</color> on the minimap. The Aquatic Stamina and HP gained from touching Orbs will be increased by 25%.",
             "id": 832301,
-            "name": "Loci-Based Mnemonics"
+            "name": "Loci-Based Mnemonics",
+            "proudSkillGroupId": 8323
         }
     },
     "stats": {

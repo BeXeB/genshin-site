@@ -786,24 +786,60 @@
             "filename_passive4": "UI_Talent_S_Klee_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Klee's Elemental Skill <color=#FFD780FF>Jumpy Dumpty</color> and Normal Attacks deal DMG, there is a 50% chance to grant her an Explosive Spark. Using her Elemental Skill <color=#FFD780FF>Jumpy Dumpty</color> or Elemental Burst <color=#FFD780FF>Sparks 'n' Splash</color> also grants 1 Explosive Spark. Klee can hold up to 3 Explosive Sparks.\nWhile holding an Explosive Spark, Klee's Charged Attack will consume 1 Spark to perform a special stamina-free Charged Attack, Boom-Boom Strike, dealing 50% increased DMG.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nDuring the duration of Klee's Elemental Burst <color=#FFD780FF>Sparks 'n' Splash</color>, her Normal Attack sequence does not reset. If Klee holds an Explosive Spark while performing Normal Attacks, the third attack in the sequence will consume 1 Spark to unleash an additional attack equivalent to Boom-Boom Strike.",
             "id": 292101,
-            "name": "Pounding Surprise"
+            "name": "Pounding Surprise",
+            "proudSkillGroupId": 2921
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy.",
             "id": 292201,
-            "name": "Sparkling Burst"
+            "name": "Sparkling Burst",
+            "proudSkillGroupId": 2922
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Mondstadt</color> on the mini-map.",
             "id": 292301,
-            "name": "All Of My Treasures!"
+            "name": "All Of My Treasures!",
+            "proudSkillGroupId": 2923
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        20.0
+                    ],
+                    "param2": [
+                        0.15
+                    ],
+                    "param3": [
+                        0.3
+                    ],
+                    "param4": [
+                        0.5
+                    ],
+                    "param5": [
+                        2.0
+                    ]
+                }
+            },
             "descriptionRaw": "After completing <color=#FFD780FF>Witch's Homework: Of Leaves That Spark</color>, Klee will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nWhen Klee deals DMG with Normal Attacks, Elemental Skills, or Elemental Bursts, she gains 1 Boom Badge that lasts 20s. Each type of attack can grant at most 1 Boom Badge this way, and each badge has its own independent timer. While Klee has 1/2/3 Boom Badges, her special Charged Attack Boom-Boom Strike deals 115%/130%/150% of its original DMG.",
             "id": 295101,
-            "name": "Witch's Eve Rite: Sparkborne Magic"
+            "name": "Witch's Eve Rite: Sparkborne Magic",
+            "proudSkillGroupId": 2951
         }
     },
     "stats": {

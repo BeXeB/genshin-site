@@ -940,19 +940,48 @@
             "filename_passive3": "UI_Talent_Collect_Local_Liyue"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.05
+                    ],
+                    "param2": [
+                        6.0
+                    ],
+                    "param3": [
+                        5.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's <color=#FF9999FF>Pyro DMG Bonus</color> by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
             "id": 482101,
-            "name": "Proviso"
+            "name": "Proviso",
+            "proudSkillGroupId": 4821
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.8
+                    ]
+                }
+            },
             "descriptionRaw": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of <color=#FF9999FF>AoE Pyro DMG</color> equal to 80% of her ATK. This DMG counts as Charged Attack DMG.",
             "id": 482201,
-            "name": "Blazing Eye"
+            "name": "Blazing Eye",
+            "proudSkillGroupId": 4822
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map.",
             "id": 482301,
-            "name": "Encyclopedic Expertise"
+            "name": "Encyclopedic Expertise",
+            "proudSkillGroupId": 4823
         }
     },
     "stats": {

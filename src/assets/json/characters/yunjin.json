@@ -875,19 +875,47 @@
             "filename_passive3": "UI_Talent_S_Yunjin_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Using <color=#FFD780FF>Opening Flourish</color> at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form.",
             "id": 642101,
-            "name": "True to Oneself"
+            "name": "True to Oneself",
+            "proudSkillGroupId": 6421
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.025
+                    ],
+                    "param2": [
+                        0.05
+                    ],
+                    "param3": [
+                        0.075
+                    ],
+                    "param4": [
+                        0.115
+                    ]
+                }
+            },
             "descriptionRaw": "The Normal Attack DMG Bonus granted by <color=#FFD780FF>Flying Cloud Flag Formation</color> is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively.",
             "id": 642201,
-            "name": "Breaking Conventions"
+            "name": "Breaking Conventions",
+            "proudSkillGroupId": 6422
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product.",
             "id": 642301,
-            "name": "Light Nourishment"
+            "name": "Light Nourishment",
+            "proudSkillGroupId": 6423
         }
     },
     "stats": {

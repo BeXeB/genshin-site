@@ -875,19 +875,48 @@
             "filename_passive3": "UI_Talent_S_Yaoyao_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.6
+                    ]
+                }
+            },
             "descriptionRaw": "While affected by the Adeptal Legacy state caused by <color=#FFD780FF>Moonjade Descent</color>, Yaoyao will constantly throw White Jade Radishes at nearby opponents when she is sprinting, jumping, or running. She can throw 1 White Jade Radish this way once every 0.6s.",
             "id": 772101,
-            "name": "Starscatter"
+            "name": "Starscatter",
+            "proudSkillGroupId": 7721
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ],
+                    "param2": [
+                        0.008
+                    ],
+                    "param3": [
+                        5.0
+                    ]
+                }
+            },
             "descriptionRaw": "When <color=#FFD780FF>White Jade Radishes</color> explode, active characters within their AoE will regain HP every 1s based on 0.8% of Yaoyao's Max HP. This effect lasts 5s.",
             "id": 772201,
-            "name": "In Others' Shoes"
+            "name": "In Others' Shoes",
+            "proudSkillGroupId": 7722
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Yaoyao is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
             "id": 772301,
-            "name": "Tailing on Tiptoes"
+            "name": "Tailing on Tiptoes",
+            "proudSkillGroupId": 7723
         }
     },
     "stats": {

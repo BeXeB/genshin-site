@@ -753,24 +753,55 @@
             "filename_passive4": "UI_Talent_S_Aino_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        60.0
+                    ],
+                    "param2": [
+                        15.0
+                    ]
+                }
+            },
             "descriptionRaw": "Aino will be granted the corresponding buff effects based on the party's <color=#FFD780FF>Moonsign</color>.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Her Elemental Burst <color=#FFD780FF>{LINK#S11215}Precision Hydronic Cooler{/LINK}</color> is enhanced: The <color=#FFD780FF>Cool Your Jets Ducky</color> will fire water balls more frequently, and the water balls will deal <color=#80C0FFFF>AoE Hydro DMG</color> over a larger area of effect.",
             "id": 1212101,
-            "name": "Modular Efficiency Protocol"
+            "name": "Modular Efficiency Protocol",
+            "proudSkillGroupId": 12121
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ]
+                }
+            },
             "descriptionRaw": "Aino's Elemental Burst DMG is increased by 50% of her Elemental Mastery.",
             "id": 1212201,
-            "name": "Structured Power Booster"
+            "name": "Structured Power Booster",
+            "proudSkillGroupId": 12122
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Aino is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
             "id": 1212301,
-            "name": "Moonsign Benediction: Force Limit Analysis"
+            "name": "Moonsign Benediction: Force Limit Analysis",
+            "proudSkillGroupId": 12123
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Nod-Krai</color> on the mini-map.\nAdditionally, Aino appears to be able to alter the Cool Your Jets Ducky's appearance in some way...",
             "id": 1212501,
-            "name": "Miniaturized Detection Sensor"
+            "name": "Miniaturized Detection Sensor",
+            "proudSkillGroupId": 12125
         }
     },
     "stats": {

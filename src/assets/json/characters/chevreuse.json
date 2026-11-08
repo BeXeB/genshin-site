@@ -858,19 +858,51 @@
             "filename_passive3": "UI_Talent_Explosion_Sprint"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.4
+                    ],
+                    "param2": [
+                        6.0
+                    ]
+                }
+            },
             "descriptionRaw": "When all party members are <color=#FF9999FF>Pyro</color> and <color=#FFACFFFF>Electro</color> characters and there is at least one Pyro and one Electro character each in the party:\nChevreuse grants \"Coordinated Tactics\" to nearby party members: After a character triggers the Overloaded reaction, the <color=#FF9999FF>Pyro</color> and <color=#FFACFFFF>Electro</color> RES of the opponent(s) affected by this Overloaded reaction will be decreased by 40% for 6s.\nThe \"Coordinated Tactics\" effect will be removed when the Elemental Types of the characters in the party do not meet the basic requirements for the Ascension Talent.",
             "id": 902101,
-            "name": "Vanguard's Coordinated Tactics"
+            "name": "Vanguard's Coordinated Tactics",
+            "proudSkillGroupId": 9021
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.01
+                    ],
+                    "param2": [
+                        30.0
+                    ],
+                    "param3": [
+                        0.4
+                    ]
+                }
+            },
             "descriptionRaw": "After Chevreuse fires an Overcharged Ball using <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color>, nearby <color=#FF9999FF>Pyro</color> and <color=#FFACFFFF>Electro</color> characters in the party gain 1% increased ATK for every 1,000 Max HP Chevreuse has for 30s. ATK can be increased by up to 40% in this way.",
             "id": 902201,
-            "name": "Vertical Force Coordination"
+            "name": "Vertical Force Coordination",
+            "proudSkillGroupId": 9022
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 902301,
-            "name": "Double Time March"
+            "name": "Double Time March",
+            "proudSkillGroupId": 9023
         }
     },
     "stats": {

@@ -787,19 +787,48 @@
             "filename_passive3": "UI_Talent_Explosion_Glide"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.1
+                    ],
+                    "param2": [
+                        0.3
+                    ]
+                }
+            },
             "descriptionRaw": "Increases the CRIT Rate of <color=#FFD780FF>Fiery Rain</color> by 10% and widens its AoE by 30%.",
             "id": 212101,
-            "name": "Every Arrow Finds Its Target"
+            "name": "Every Arrow Finds Its Target",
+            "proudSkillGroupId": 2121
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ],
+                    "param2": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "Aimed Shot hits on weak points increase ATK by 15% for 10s.",
             "id": 212201,
-            "name": "Precise Shot"
+            "name": "Precise Shot",
+            "proudSkillGroupId": 2122
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 212301,
-            "name": "Gliding Champion"
+            "name": "Gliding Champion",
+            "proudSkillGroupId": 2123
         }
     },
     "stats": {

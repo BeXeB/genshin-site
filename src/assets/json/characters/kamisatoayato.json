@@ -860,19 +860,51 @@
             "filename_passive3": "UI_Talent_S_Ayato_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        2.0
+                    ],
+                    "param2": [
+                        5.0
+                    ]
+                }
+            },
             "descriptionRaw": "<color=#FFD780FF>Kamisato Art: Kyouka</color> has the following properties:\n·After it is used, Kamisato Ayato will gain 2 Namisen stacks.\n·When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible.",
             "id": 662101,
-            "name": "Kamisato Art: Mine Wo Matoishi Kiyotaki"
+            "name": "Kamisato Art: Mine Wo Matoishi Kiyotaki",
+            "proudSkillGroupId": 6621
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ],
+                    "param2": [
+                        1.0
+                    ],
+                    "param3": [
+                        2.0
+                    ]
+                }
+            },
             "descriptionRaw": "If Kamisato Ayato is not on the field and his Energy is less than 40, he will regenerate 2 Energy for himself every second.",
             "id": 662201,
-            "name": "Kamisato Art: Michiyuku Hagetsu"
+            "name": "Kamisato Art: Michiyuku Hagetsu",
+            "proudSkillGroupId": 6622
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Ayato cooks a dish perfectly, he has an 18% chance to receive an additional \"Suspicious\" dish of the same type.",
             "id": 662301,
-            "name": "Kamisato Art: Daily Cooking"
+            "name": "Kamisato Art: Daily Cooking",
+            "proudSkillGroupId": 6623
         }
     },
     "stats": {

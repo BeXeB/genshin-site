@@ -840,19 +840,45 @@
             "filename_passive3": "UI_Talent_Explosion_Sprint"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        2.0
+                    ]
+                }
+            },
             "descriptionRaw": "If <color=#FFD780FF>Chihayaburu</color> comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> when cast, this <color=#FFD780FF>Chihayaburu</color> will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\nElemental Absorption may only occur once per use of <color=#FFD780FF>Chihayaburu</color>.",
             "id": 472101,
-            "name": "Soumon Swordsmanship"
+            "name": "Soumon Swordsmanship",
+            "proudSkillGroupId": 4721
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.0004
+                    ],
+                    "param2": [
+                        8.0
+                    ]
+                }
+            },
             "descriptionRaw": "Upon triggering a Swirl or Stellar Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist.",
             "id": 472201,
-            "name": "Poetics of Fuubutsu"
+            "name": "Poetics of Fuubutsu",
+            "proudSkillGroupId": 4722
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 472301,
-            "name": "Cloud Strider"
+            "name": "Cloud Strider",
+            "proudSkillGroupId": 4723
         }
     },
     "stats": {

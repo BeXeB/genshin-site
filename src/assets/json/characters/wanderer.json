@@ -802,19 +802,57 @@
             "filename_passive3": "UI_Talent_S_Wanderer_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.3
+                    ],
+                    "param2": [
+                        20.0
+                    ],
+                    "param3": [
+                        0.2
+                    ],
+                    "param4": [
+                        0.8
+                    ]
+                }
+            },
             "descriptionRaw": "If <color=#FFD780FF>Hanega: Song of the Wind</color> comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> when it is unleashed, this instance of the Windfavored state will obtain buffs according to the contacted element(s):\n·<color=#80C0FFFF>Hydro</color>: Kuugoryoku Point cap increases by 20.\n·<color=#FF9999FF>Pyro</color>: ATK increases by 30%.\n·<color=#99FFFFFF>Cryo</color>: CRIT Rate increases by 20%.\n·<color=#FFACFFFF>Electro</color>: When Normal and Charged Attacks hit an opponent, 0.8 Energy will be restored. Energy can be restored this way once every 0.2s.\n\nYou can have up to 2 different kinds of these buffs simultaneously.",
             "id": 752101,
-            "name": "Jade-Claimed Flower"
+            "name": "Jade-Claimed Flower",
+            "proudSkillGroupId": 7521
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.16
+                    ],
+                    "param2": [
+                        0.12
+                    ],
+                    "param3": [
+                        0.35
+                    ]
+                }
+            },
             "descriptionRaw": "When the Wanderer hits opponents with Kuugo: Fushoudan or Kuugo: Toufukai in his <color=#FFD780FF>Windfavored</color> state, he has a 16% chance to obtain the Descent effect: The next time the Wanderer accelerates in mid-air while in this instance of the Windfavored state, this effect will be removed, this acceleration instance will not consume any Kuugoryoku Points, and he will fire off 4 wind arrows that deal 35% of his ATK as <color=#80FFD7FF>Anemo DMG</color> each.\nFor each Kuugo: Fushoudan and Kuugo: Toufukai that does not produce this effect, the next attack of those types will have a 12% increased chance of producing it. The calculation of the effect production is done once every 0.1s.",
             "id": 752201,
-            "name": "Gales of Reverie"
+            "name": "Gales of Reverie",
+            "proudSkillGroupId": 7522
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Mora expended when ascending Bows and Catalysts is decreased by 50%.",
             "id": 752301,
-            "name": "Strum the Swirling Winds"
+            "name": "Strum the Swirling Winds",
+            "proudSkillGroupId": 7523
         }
     },
     "stats": {

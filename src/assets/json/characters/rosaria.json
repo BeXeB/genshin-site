@@ -803,19 +803,55 @@
             "filename_passive3": "UI_Talent_Rosaria_NightRunner"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.12
+                    ],
+                    "param2": [
+                        5.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Rosaria strikes an opponent from behind using <color=#FFD780FF>Ravaging Confession</color>, Rosaria's CRIT Rate increases by 12% for 5s.",
             "id": 452101,
-            "name": "Regina Probationum"
+            "name": "Regina Probationum",
+            "proudSkillGroupId": 4521
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ],
+                    "param2": [
+                        10.0
+                    ],
+                    "param3": [
+                        0.15
+                    ]
+                }
+            },
             "descriptionRaw": "Casting <color=#FFD780FF>Rites of Termination</color> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\nCRIT Rate Bonus gained this way cannot exceed 15%.",
             "id": 452201,
-            "name": "Shadow Samaritan"
+            "name": "Shadow Samaritan",
+            "proudSkillGroupId": 4522
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.1
+                    ]
+                }
+            },
             "descriptionRaw": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
             "id": 452301,
-            "name": "Night Walk"
+            "name": "Night Walk",
+            "proudSkillGroupId": 4523
         }
     },
     "stats": {

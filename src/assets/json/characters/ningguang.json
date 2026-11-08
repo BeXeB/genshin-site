@@ -697,19 +697,41 @@
             "filename_passive3": "UI_Talent_Collect_Ore"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
             "id": 272101,
-            "name": "Backup Plan"
+            "name": "Backup Plan",
+            "proudSkillGroupId": 2721
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.12
+                    ],
+                    "param2": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "A character that passes through the <color=#FFD780FF>Jade Screen</color> will gain a 12% <color=#FFE699FF>Geo DMG Bonus</color> for 10s.",
             "id": 272201,
-            "name": "Strategic Reserve"
+            "name": "Strategic Reserve",
+            "proudSkillGroupId": 2722
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>ore veins used in forging</color> on the mini-map.",
             "id": 272301,
-            "name": "Trove of Marvelous Treasures"
+            "name": "Trove of Marvelous Treasures",
+            "proudSkillGroupId": 2723
         }
     },
     "stats": {

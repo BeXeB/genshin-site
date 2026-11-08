@@ -874,19 +874,48 @@
             "filename_passive3": "UI_Talent_S_Shinobu_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ],
+                    "param2": [
+                        0.15
+                    ]
+                }
+            },
             "descriptionRaw": "When Shinobu's HP is not higher than 50%, her Healing Bonus is increased by 15%.",
             "id": 652101,
-            "name": "Breaking Free"
+            "name": "Breaking Free",
+            "proudSkillGroupId": 6521
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.75
+                    ],
+                    "param2": [
+                        0.25
+                    ]
+                }
+            },
             "descriptionRaw": "<color=#FFD780FF>Sanctifying Ring</color>'s abilities will be boosted based on Shinobu's Elemental Mastery:\n·Healing amount will be increased by 75% of Elemental Mastery.\n·DMG dealt is increased by 25% of Elemental Mastery.",
             "id": 652201,
-            "name": "Heart's Repose"
+            "name": "Heart's Repose",
+            "proudSkillGroupId": 6522
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Gains 25% more rewards when dispatched on an Inazuma Expedition for 20 hours.",
             "id": 652301,
-            "name": "Protracted Prayers"
+            "name": "Protracted Prayers",
+            "proudSkillGroupId": 6523
         }
     },
     "stats": {

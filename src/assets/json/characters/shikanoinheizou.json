@@ -822,19 +822,41 @@
             "filename_passive3": "UI_Talent_Explosion_Sprint"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Shikanoin Heizou activates a Swirl or Stellar Swirl reaction while on the field, he will gain 1 Declension stack for <color=#FFD780FF>Heartstopper Strike</color>. This effect can be triggered once every 0.1s.",
             "id": 592101,
-            "name": "Paradoxical Practice"
+            "name": "Paradoxical Practice",
+            "proudSkillGroupId": 5921
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        10.0
+                    ],
+                    "param2": [
+                        80.0
+                    ]
+                }
+            },
             "descriptionRaw": "After Shikanoin Heizou's <color=#FFD780FF>Heartstopper Strike</color> hits an opponent, increases all party members' (excluding Shikanoin Heizou) Elemental Mastery by 80 for 10s.",
             "id": 592201,
-            "name": "Penetrative Reasoning"
+            "name": "Penetrative Reasoning",
+            "proudSkillGroupId": 5922
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 592301,
-            "name": "Pre-Existing Guilt"
+            "name": "Pre-Existing Guilt",
+            "proudSkillGroupId": 5923
         }
     },
     "stats": {

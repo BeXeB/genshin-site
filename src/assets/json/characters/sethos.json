@@ -768,19 +768,54 @@
             "filename_passive3": "UI_Talent_S_Tighnari_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        20.0
+                    ],
+                    "param2": [
+                        0.5
+                    ]
+                }
+            },
             "descriptionRaw": "When Aiming, the charging time is decreased by 0.285s based on each point of Sethos's current Elemental Energy. Charging time can be reduced to a minimum of 0.3s through this method and a maximum of 20 Energy can be tallied. If a <color=#FFD780FF>Shadowpiercing Shot</color> is fired, consume the tallied amount of Elemental Energy; if it is a Charge Level 1 shot, then consume 50% of the tallied amount of Elemental Energy.",
             "id": 972101,
-            "name": "Black Kite's Enigma"
+            "name": "Black Kite's Enigma",
+            "proudSkillGroupId": 9721
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        15.0
+                    ],
+                    "param2": [
+                        7.0
+                    ],
+                    "param3": [
+                        5.0
+                    ],
+                    "param4": [
+                        4.0
+                    ]
+                }
+            },
             "descriptionRaw": "Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by <color=#FFD780FF>Shadowpiercing Shots</color> by 700% of Sethos's Elemental Mastery.\nThe Scorching Sandshade effect will be canceled when any of the following conditions are met:\n· 5s after a Shadowpiercing Shot first hits an opponent.\n· After 4 Shadowpiercing Shots strike opponents.\n\nWhen a Shadowpiercing Shot affected by Scorching Sandshade first hits an opponent, Sethos will regain Scorching Sandshade after 15s.",
             "id": 972201,
-            "name": "The Sand King's Boon"
+            "name": "The Sand King's Boon",
+            "proudSkillGroupId": 9722
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Sumeru</color> on the mini-map.",
             "id": 972301,
-            "name": "Thoth's Revelation"
+            "name": "Thoth's Revelation",
+            "proudSkillGroupId": 9723
         }
     },
     "stats": {

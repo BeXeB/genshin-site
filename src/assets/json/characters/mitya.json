@@ -1,0 +1,1690 @@
+{
+    "constellation": {
+        "c1": {
+            "descriptionRaw": "The maximum number of <color=#FFD780FF>{LINK#N11360001}Gradient Beacons{/LINK}</color> Mitya can carry is increased to 5. Using the Elemental Skill <color=#FFD780FF>Principle: Variable Detection</color> additionally creates 1 <color=#FFD780FF>Gradient Beacon</color>.\nWhile the <color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> is present, your own active character's CRIT DMG is increased by 40%.\nAdditionally, Mitya regenerates 10 Elemental Energy when a <color=#FFD780FF>Gradient Beacon</color> is created. This effect can be triggered once every 8s.",
+            "id": 1361,
+            "name": "The Observer Seeking What Is Missing"
+        },
+        "c2": {
+            "descriptionRaw": "While the <color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> is present, all opponents within the <color=#FFD780FF>Polestar Field</color> have their <color=#99FFFFFF>Cryo RES</color> and <color=#FFACFFFF>Electro RES</color> decreased by 20%.\nAdditionally, if the <color=#FFD780FF>Detection Core</color> created is:\n·Steady State: All nearby party members gain 123 Elemental Mastery;\n·Overloaded: Your own active character gains 234 Elemental Mastery.",
+            "id": 1362,
+            "name": "The Matter That Slumbers Beyond Inertness"
+        },
+        "c3": {
+            "descriptionRaw": "Increases the Level of the Elemental Skill {LINK#S11362}<color=#FFD780FF>Principle: Variable Detection</color>{/LINK} by 3.\nMaximum upgrade level is 15.",
+            "id": 1363,
+            "name": "The Knotted String of Invariant Topology"
+        },
+        "c4": {
+            "descriptionRaw": "<color=#FFD780FF>{LINK#N11360002}Detection Cores{/LINK}</color> created by Mitya himself deals 1 instance of <color=#FFACFFFF>AoE Electro DMG</color> equal to 300% of Mitya's Elemental Mastery to nearby opponents for every 5 <color=#FFD780FF>{LINK#N11360001}Gradient Beacons{/LINK}</color> consumed while it is on the field. This DMG is considered Stellar-Conduct reaction DMG.",
+            "id": 1364,
+            "name": "The Isotopes Born of Decay"
+        },
+        "c5": {
+            "descriptionRaw": "Increases the Level of Normal Attack: {LINK#S11361}<color=#FFD780FF>Chain Reaction</color>{/LINK} by 3.\nMaximum upgrade level is 15.",
+            "id": 1365,
+            "name": "The Periodic Law That Orders All"
+        },
+        "c6": {
+            "descriptionRaw": "<color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> is enhanced. If the <color=#FFD780FF>Detection Core</color>:\n · Is in the Steady State: <color=#FFD780FF>Detection Core</color> deals 115% of its original DMG.\n· Is Overloaded: There is a 34% chance to create 1 new <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color> whenever Mitya consumes a <color=#FFD780FF>Gradient Beacon</color> with the <color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color>.\nAdditionally, Stellar-Conduct reaction DMG dealt by all nearby party members is <color=#FFD780FF>{LINK#N11190007}Elevated{/LINK}</color> by 20%.",
+            "id": 1366,
+            "name": "Elemental Transition at the Gate of Reason"
+        },
+        "images": {
+            "filename_c1": "UI_Talent_S_Mitya_01",
+            "filename_c2": "UI_Talent_S_Mitya_02",
+            "filename_c3": "UI_Talent_U_Mitya_01",
+            "filename_c4": "UI_Talent_S_Mitya_03",
+            "filename_c5": "UI_Talent_U_Mitya_02",
+            "filename_c6": "UI_Talent_S_Mitya_04"
+        }
+    },
+    "profile": {
+        "affiliation": "Royal Energy Commission of Snezhnaya",
+        "birthdaymmdd": "2/8",
+        "constellation": "Nodus Gordianus",
+        "costs": {
+            "ascend1": [
+                {
+                    "count": 20000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 1,
+                    "id": 104141,
+                    "name": "Vajrada Amethyst Sliver"
+                },
+                {
+                    "count": 3,
+                    "id": 101274,
+                    "name": "Kristallfold"
+                },
+                {
+                    "count": 3,
+                    "id": 112149,
+                    "name": "Chimeric Core"
+                }
+            ],
+            "ascend2": [
+                {
+                    "count": 40000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104142,
+                    "name": "Vajrada Amethyst Fragment"
+                },
+                {
+                    "count": 2,
+                    "id": 113093,
+                    "name": "Shattered Stability Anchor"
+                },
+                {
+                    "count": 10,
+                    "id": 101274,
+                    "name": "Kristallfold"
+                },
+                {
+                    "count": 15,
+                    "id": 112149,
+                    "name": "Chimeric Core"
+                }
+            ],
+            "ascend3": [
+                {
+                    "count": 60000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104142,
+                    "name": "Vajrada Amethyst Fragment"
+                },
+                {
+                    "count": 4,
+                    "id": 113093,
+                    "name": "Shattered Stability Anchor"
+                },
+                {
+                    "count": 20,
+                    "id": 101274,
+                    "name": "Kristallfold"
+                },
+                {
+                    "count": 12,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "ascend4": [
+                {
+                    "count": 80000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104143,
+                    "name": "Vajrada Amethyst Chunk"
+                },
+                {
+                    "count": 8,
+                    "id": 113093,
+                    "name": "Shattered Stability Anchor"
+                },
+                {
+                    "count": 30,
+                    "id": 101274,
+                    "name": "Kristallfold"
+                },
+                {
+                    "count": 18,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "ascend5": [
+                {
+                    "count": 100000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104143,
+                    "name": "Vajrada Amethyst Chunk"
+                },
+                {
+                    "count": 12,
+                    "id": 113093,
+                    "name": "Shattered Stability Anchor"
+                },
+                {
+                    "count": 45,
+                    "id": 101274,
+                    "name": "Kristallfold"
+                },
+                {
+                    "count": 12,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                }
+            ],
+            "ascend6": [
+                {
+                    "count": 120000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104144,
+                    "name": "Vajrada Amethyst Gemstone"
+                },
+                {
+                    "count": 20,
+                    "id": 113093,
+                    "name": "Shattered Stability Anchor"
+                },
+                {
+                    "count": 60,
+                    "id": 101274,
+                    "name": "Kristallfold"
+                },
+                {
+                    "count": 24,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                }
+            ]
+        },
+        "description": "An exceptionally ingenious energy specialist and a master of the fine art of \"schedule-dodging.\"",
+        "elementType": "ELEMENT_ELECTRO",
+        "id": 10000136,
+        "images": {
+            "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mitya",
+            "filename_gachaSplash": "UI_Gacha_AvatarImg_Mitya",
+            "filename_icon": "UI_AvatarIcon_Mitya",
+            "filename_iconCard": "UI_AvatarIcon_Mitya_Card",
+            "filename_sideIcon": "UI_AvatarIcon_Side_Mitya"
+        },
+        "name": "Mitya",
+        "normalizedName": "mitya",
+        "qualityType": "QUALITY_ORANGE",
+        "rarity": 5,
+        "sortId": 124,
+        "substatType": "FIGHT_PROP_CRITICAL_HURT",
+        "title": "Rules Set at Naught",
+        "weaponType": "WEAPON_CATALYST"
+    },
+    "skills": {
+        "combat1": {
+            "attributes": {
+                "labels": [
+                    "1-Hit DMG|{param1:F1P}",
+                    "2-Hit DMG|{param2:F1P}",
+                    "3-Hit DMG|{param3:F1P}",
+                    "Charged Attack DMG|{param4:F1P}",
+                    "Charged Attack Stamina Cost|{param5:F1}",
+                    "Plunge DMG|{param6:F1P}",
+                    "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+                    "Gradient Detonation DMG|{param9:F1P}",
+                    "Gradient Detonation Stellar-Conduct DMG|{param10:F1P} Elemental Mastery"
+                ],
+                "parameters": {
+                    "param1": [
+                        0.587984,
+                        0.632083,
+                        0.676182,
+                        0.73498,
+                        0.779079,
+                        0.823178,
+                        0.881976,
+                        0.940774,
+                        0.999573,
+                        1.058371,
+                        1.11717,
+                        1.175968,
+                        1.249466,
+                        1.322964,
+                        1.396462
+                    ],
+                    "param10": [
+                        2.24,
+                        2.408,
+                        2.576,
+                        2.8,
+                        2.968,
+                        3.136,
+                        3.36,
+                        3.584,
+                        3.808,
+                        4.032,
+                        4.256,
+                        4.48,
+                        4.76,
+                        5.04,
+                        5.32
+                    ],
+                    "param2": [
+                        0.483008,
+                        0.519234,
+                        0.555459,
+                        0.60376,
+                        0.639986,
+                        0.676211,
+                        0.724512,
+                        0.772813,
+                        0.821114,
+                        0.869414,
+                        0.917715,
+                        0.966016,
+                        1.026392,
+                        1.086768,
+                        1.147144
+                    ],
+                    "param3": [
+                        0.690224,
+                        0.741991,
+                        0.793758,
+                        0.86278,
+                        0.914547,
+                        0.966314,
+                        1.035336,
+                        1.104358,
+                        1.173381,
+                        1.242403,
+                        1.311426,
+                        1.380448,
+                        1.466726,
+                        1.553004,
+                        1.639282
+                    ],
+                    "param4": [
+                        1.3688,
+                        1.47146,
+                        1.57412,
+                        1.711,
+                        1.81366,
+                        1.91632,
+                        2.0532,
+                        2.19008,
+                        2.32696,
+                        2.46384,
+                        2.60072,
+                        2.7376,
+                        2.9087,
+                        3.0798,
+                        3.2509
+                    ],
+                    "param5": [
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0,
+                        50.0
+                    ],
+                    "param6": [
+                        0.568288,
+                        0.614544,
+                        0.6608,
+                        0.72688,
+                        0.773136,
+                        0.826,
+                        0.898688,
+                        0.971376,
+                        1.044064,
+                        1.12336,
+                        1.202656,
+                        1.281952,
+                        1.361248,
+                        1.440544,
+                        1.51984
+                    ],
+                    "param7": [
+                        1.136335,
+                        1.228828,
+                        1.32132,
+                        1.453452,
+                        1.545944,
+                        1.65165,
+                        1.796995,
+                        1.94234,
+                        2.087686,
+                        2.246244,
+                        2.404802,
+                        2.563361,
+                        2.721919,
+                        2.880478,
+                        3.039036
+                    ],
+                    "param8": [
+                        1.419344,
+                        1.534872,
+                        1.6504,
+                        1.81544,
+                        1.930968,
+                        2.063,
+                        2.244544,
+                        2.426088,
+                        2.607632,
+                        2.80568,
+                        3.003728,
+                        3.201776,
+                        3.399824,
+                        3.597872,
+                        3.79592
+                    ],
+                    "param9": [
+                        1.68,
+                        1.806,
+                        1.932,
+                        2.1,
+                        2.226,
+                        2.352,
+                        2.52,
+                        2.688,
+                        2.856,
+                        3.024,
+                        3.192,
+                        3.36,
+                        3.57,
+                        3.78,
+                        3.99
+                    ]
+                }
+            },
+            "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms a maximum of 3 attacks that deal <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#FFACFFFF>AoE Electro DMG</color> to the area in front after a short casting time.\nMitya will instead perform the special Charged Attack <color=#FFD780FF>Gradient Detonation</color>, which consumes no Stamina, if a <color=#FFD780FF>{LINK#N11360002}Detection Core: Overload{/LINK}</color> created by Mitya himself is currently on the field and he has at least 1 <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color>: Deals 1 instance of <color=#FFACFFFF>AoE Electro DMG</color> to the area in front and continuously consumes <color=#FFD780FF>Gradient Beacons</color> while held. Each <color=#FFD780FF>Gradient Beacon</color> consumed deals 1 instance of <color=#FFACFFFF>AoE Electro DMG</color> to the area in front that is considered Stellar-Conduct reaction DMG.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing <color=#FFACFFFF>AoE Electro DMG</color> upon impact.",
+            "id": 11361,
+            "name": "Chain Reaction",
+            "proudSkillGroupId": 13631
+        },
+        "combat2": {
+            "attributes": {
+                "labels": [
+                    "Tap Skill DMG|{param1:F1P}",
+                    "Hold Skill DMG|{param2:F1P}",
+                    "Steady State Core DMG|{param3:F1P}",
+                    "Steady State Core Gradient Beacon Consumption DMG|{param4:F1P} Elemental Mastery",
+                    "Steady State Core Detonation DMG|{param5:F1P} Elemental Mastery/Beacon",
+                    "Detection Core Duration|{param6:F1}s",
+                    "CD|{param7:F1}s"
+                ],
+                "parameters": {
+                    "param1": [
+                        0.9072,
+                        0.97524,
+                        1.04328,
+                        1.134,
+                        1.20204,
+                        1.27008,
+                        1.3608,
+                        1.45152,
+                        1.54224,
+                        1.63296,
+                        1.72368,
+                        1.8144,
+                        1.9278,
+                        2.0412,
+                        2.1546
+                    ],
+                    "param2": [
+                        1.296,
+                        1.3932,
+                        1.4904,
+                        1.62,
+                        1.7172,
+                        1.8144,
+                        1.944,
+                        2.0736,
+                        2.2032,
+                        2.3328,
+                        2.4624,
+                        2.592,
+                        2.754,
+                        2.916,
+                        3.078
+                    ],
+                    "param3": [
+                        0.72,
+                        0.774,
+                        0.828,
+                        0.9,
+                        0.954,
+                        1.008,
+                        1.08,
+                        1.152,
+                        1.224,
+                        1.296,
+                        1.368,
+                        1.44,
+                        1.53,
+                        1.62,
+                        1.71
+                    ],
+                    "param4": [
+                        0.8,
+                        0.86,
+                        0.92,
+                        1.0,
+                        1.06,
+                        1.12,
+                        1.2,
+                        1.28,
+                        1.36,
+                        1.44,
+                        1.52,
+                        1.6,
+                        1.7,
+                        1.8,
+                        1.9
+                    ],
+                    "param5": [
+                        0.92,
+                        0.989,
+                        1.058,
+                        1.15,
+                        1.219,
+                        1.288,
+                        1.38,
+                        1.472,
+                        1.564,
+                        1.656,
+                        1.748,
+                        1.84,
+                        1.955,
+                        2.07,
+                        2.185
+                    ],
+                    "param6": [
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0,
+                        25.0
+                    ],
+                    "param7": [
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0,
+                        18.0
+                    ]
+                }
+            },
+            "descriptionRaw": "Conducts a theoretically relatively safe experiment at a theoretically relatively safe yield, dealing <color=#FFACFFFF>AoE Electro DMG</color> and creating a <color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> in different ways depending on whether the Skill is tapped or held.\n\nTapping the Elemental Skill <color=#FFD780FF>Principle: Variable Detection</color> again within 6s after using it changes the <color=#FFD780FF>Detection Core</color>'s state. The Detection Core's state can be changed in this way every 1.5s.",
+            "id": 11362,
+            "name": "Principle: Variable Detection",
+            "proudSkillGroupId": 13632
+        },
+        "combat3": {
+            "attributes": {
+                "labels": [
+                    "Skill DMG|{param1:F1P} ATK+{param2:F1P} Elemental Mastery",
+                    "Gradient Beacons Generated|{param3:F1}",
+                    "CD|{param4:F1}s",
+                    "Energy Cost|{param5:I}"
+                ],
+                "parameters": {
+                    "param1": [
+                        3.336,
+                        3.5862,
+                        3.8364,
+                        4.17,
+                        4.4202,
+                        4.6704,
+                        5.004,
+                        5.3376,
+                        5.6712,
+                        6.0048,
+                        6.3384,
+                        6.672,
+                        7.089,
+                        7.506,
+                        7.923
+                    ],
+                    "param2": [
+                        6.672,
+                        7.1724,
+                        7.6728,
+                        8.34,
+                        8.8404,
+                        9.3408,
+                        10.008,
+                        10.6752,
+                        11.3424,
+                        12.0096,
+                        12.6768,
+                        13.344,
+                        14.178,
+                        15.012,
+                        15.846
+                    ],
+                    "param3": [
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0,
+                        3.0
+                    ],
+                    "param4": [
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0,
+                        15.0
+                    ],
+                    "param5": [
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0,
+                        60.0
+                    ]
+                }
+            },
+            "descriptionRaw": "Let the elements burst forth like inspiration itself! Deals <color=#FFACFFFF>AoE Electro DMG</color> and creates 3 <color=#FFD780FF>{LINK#N11360001}Gradient Beacons{/LINK}</color>.",
+            "id": 11364,
+            "name": "Analysis: Gradient Theory",
+            "proudSkillGroupId": 13639
+        },
+        "costs": {
+            "lvl10": [
+                {
+                    "count": 700000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 16,
+                    "id": 104367,
+                    "name": "Philosophies of Charity"
+                },
+                {
+                    "count": 12,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                },
+                {
+                    "count": 2,
+                    "id": 113081,
+                    "name": "Mask of the Virtuous Doctor"
+                },
+                {
+                    "count": 1,
+                    "id": 104319,
+                    "name": "Crown of Insight"
+                }
+            ],
+            "lvl2": [
+                {
+                    "count": 12500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 3,
+                    "id": 104365,
+                    "name": "Teachings of Charity"
+                },
+                {
+                    "count": 6,
+                    "id": 112149,
+                    "name": "Chimeric Core"
+                }
+            ],
+            "lvl3": [
+                {
+                    "count": 17500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 2,
+                    "id": 104366,
+                    "name": "Guide to Charity"
+                },
+                {
+                    "count": 3,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "lvl4": [
+                {
+                    "count": 25000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 4,
+                    "id": 104366,
+                    "name": "Guide to Charity"
+                },
+                {
+                    "count": 4,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "lvl5": [
+                {
+                    "count": 30000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104366,
+                    "name": "Guide to Charity"
+                },
+                {
+                    "count": 6,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "lvl6": [
+                {
+                    "count": 37500,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 9,
+                    "id": 104366,
+                    "name": "Guide to Charity"
+                },
+                {
+                    "count": 9,
+                    "id": 112150,
+                    "name": "Symbiotic Chimeric Nucleus"
+                }
+            ],
+            "lvl7": [
+                {
+                    "count": 120000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 4,
+                    "id": 104367,
+                    "name": "Philosophies of Charity"
+                },
+                {
+                    "count": 4,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                },
+                {
+                    "count": 1,
+                    "id": 113081,
+                    "name": "Mask of the Virtuous Doctor"
+                }
+            ],
+            "lvl8": [
+                {
+                    "count": 260000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 6,
+                    "id": 104367,
+                    "name": "Philosophies of Charity"
+                },
+                {
+                    "count": 6,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                },
+                {
+                    "count": 1,
+                    "id": 113081,
+                    "name": "Mask of the Virtuous Doctor"
+                }
+            ],
+            "lvl9": [
+                {
+                    "count": 450000,
+                    "id": 202,
+                    "name": "Mora"
+                },
+                {
+                    "count": 12,
+                    "id": 104367,
+                    "name": "Philosophies of Charity"
+                },
+                {
+                    "count": 9,
+                    "id": 112151,
+                    "name": "Prime Chimeric Nexus"
+                },
+                {
+                    "count": 2,
+                    "id": 113081,
+                    "name": "Mask of the Virtuous Doctor"
+                }
+            ]
+        },
+        "images": {
+            "filename_combat1": "Skill_A_Catalyst_MD",
+            "filename_combat2": "Skill_S_Mitya_01",
+            "filename_combat3": "Skill_E_Mitya_01",
+            "filename_passive1": "UI_Talent_S_Mitya_05",
+            "filename_passive2": "UI_Talent_S_Mitya_06",
+            "filename_passive3": "UI_Talent_S_Mitya_07",
+            "filename_passive4": "UI_Talent_S_Mitya_08"
+        },
+        "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        30.0
+                    ]
+                }
+            },
+            "descriptionRaw": "The <color=#FFD780FF>{LINK#N11360002}Detection Core{/LINK}</color> created by the Elemental Skill <color=#FFD780FF>Principle: Variable Detection</color> is enhanced. Depending on the state of the <color=#FFD780FF>Detection Core</color> created:\n·Steady State: All nearby party members gain 30 Elemental Mastery for each <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color> Mitya has;\n·Overloaded: After nearby party members trigger Stellar-Conduct reactions, instead obtain 1 <color=#FFD780FF>Gradient Beacon</color> every 1.5s for 6s.",
+            "id": 1362101,
+            "name": "Baseline Stress Test",
+            "proudSkillGroupId": 13621
+        },
+        "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.05
+                    ]
+                }
+            },
+            "descriptionRaw": "The duration of <color=#FFD780FF>{LINK#N11360001}Gradient Beacons{/LINK}</color> is increased to 10s. Additionally, Mitya's CRIT Rate increases by 5% for 15s after creating a <color=#FFD780FF>Gradient Beacon</color>. This effect can stack up to 4 times.",
+            "id": 1362201,
+            "name": "Explosive Reagent: Safe Limits Exceeded",
+            "proudSkillGroupId": 13622
+        },
+        "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.00028
+                    ],
+                    "param2": [
+                        0.14
+                    ]
+                }
+            },
+            "descriptionRaw": "When party members trigger Superconduct, it will be changed to Stellar-Conduct. Stellar-Conduct reactions will no longer create <color=#FFD780FF>Starlight Prisms</color>, and will instead create 1 <color=#FFD780FF>{LINK#N11360001}Gradient Beacon{/LINK}</color> nearby every 1.5s for 3s. These Beacons can be carried by Mitya and transform the area around them into an even larger <color=#FFD780FF>Polestar Field</color>. Triggering another Stellar-Conduct reaction will refresh the duration of the aforementioned effects.\nAdditionally, the Base Stellar-Conduct DMG dealt by all nearby party members will be increased based on Mitya's Elemental Mastery: Every point of Elemental Mastery he has increases Base Stellar-Conduct DMG by 0.028%. The maximum Base DMG increase that can be gained this way is 14%. While within a <color=#FFD780FF>Polestar Field</color>, Mitya will also enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state.",
+            "id": 1362301,
+            "name": "Stellar Jubilee: Top-Secret Protocol",
+            "proudSkillGroupId": 13623
+        },
+        "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.2
+                    ]
+                }
+            },
+            "descriptionRaw": "When destructible rocks are nearby, <color=#FFD780FF>{LINK#N11360002}Detection Core: Steady State{/LINK}</color> can quickly clear them.\nAdditionally, when Mitya is in the party, creating <color=#FFD780FF>Prime Ice Construct: Basic Heat Source</color> does not consume Kresnik Energy.",
+            "id": 1362501,
+            "name": "Energy Catalysis",
+            "proudSkillGroupId": 13625
+        }
+    },
+    "stats": {
+        "1": {
+            "ascension": 0,
+            "attack": 20.482,
+            "defense": 61.6249,
+            "hp": 905.654,
+            "level": 1,
+            "specialized": 0.5
+        },
+        "10": {
+            "ascension": 0,
+            "attack": 35.863982,
+            "defense": 107.90519989999999,
+            "hp": 1585.8001539999998,
+            "level": 10,
+            "specialized": 0.5
+        },
+        "100": {
+            "ascension": 6,
+            "attack": 322.289198,
+            "defense": 847.8745348,
+            "hp": 12460.477407999999,
+            "level": 100,
+            "specialized": 0.884
+        },
+        "11": {
+            "ascension": 0,
+            "attack": 37.584469999999996,
+            "defense": 113.08169149999999,
+            "hp": 1661.87509,
+            "level": 11,
+            "specialized": 0.5
+        },
+        "12": {
+            "ascension": 0,
+            "attack": 39.304958,
+            "defense": 118.2581831,
+            "hp": 1737.950026,
+            "level": 12,
+            "specialized": 0.5
+        },
+        "13": {
+            "ascension": 0,
+            "attack": 41.025446,
+            "defense": 123.4346747,
+            "hp": 1814.0249620000002,
+            "level": 13,
+            "specialized": 0.5
+        },
+        "14": {
+            "ascension": 0,
+            "attack": 42.766416,
+            "defense": 128.6727912,
+            "hp": 1891.005552,
+            "level": 14,
+            "specialized": 0.5
+        },
+        "15": {
+            "ascension": 0,
+            "attack": 44.486904,
+            "defense": 133.8492828,
+            "hp": 1967.080488,
+            "level": 15,
+            "specialized": 0.5
+        },
+        "16": {
+            "ascension": 0,
+            "attack": 46.20739199999999,
+            "defense": 139.0257744,
+            "hp": 2043.1554239999998,
+            "level": 16,
+            "specialized": 0.5
+        },
+        "17": {
+            "ascension": 0,
+            "attack": 47.948362,
+            "defense": 144.2638909,
+            "hp": 2120.136014,
+            "level": 17,
+            "specialized": 0.5
+        },
+        "18": {
+            "ascension": 0,
+            "attack": 49.66884999999999,
+            "defense": 149.44038249999997,
+            "hp": 2196.2109499999997,
+            "level": 18,
+            "specialized": 0.5
+        },
+        "19": {
+            "ascension": 0,
+            "attack": 51.409819999999996,
+            "defense": 154.678499,
+            "hp": 2273.19154,
+            "level": 19,
+            "specialized": 0.5
+        },
+        "2": {
+            "ascension": 0,
+            "attack": 22.182005999999998,
+            "defense": 66.73976669999999,
+            "hp": 980.823282,
+            "level": 2,
+            "specialized": 0.5
+        },
+        "20": {
+            "ascension": 0,
+            "attack": 53.13030799999999,
+            "defense": 159.85499059999998,
+            "hp": 2349.266476,
+            "level": 20,
+            "specialized": 0.5
+        },
+        "20+": {
+            "ascension": 1,
+            "attack": 70.69048799999999,
+            "defense": 212.69399059999998,
+            "hp": 3125.7828759999998,
+            "level": 20,
+            "specialized": 0.5
+        },
+        "21": {
+            "ascension": 1,
+            "attack": 72.43145799999999,
+            "defense": 217.93210709999997,
+            "hp": 3202.763466,
+            "level": 21,
+            "specialized": 0.5
+        },
+        "22": {
+            "ascension": 1,
+            "attack": 74.172428,
+            "defense": 223.17022359999999,
+            "hp": 3279.744056,
+            "level": 22,
+            "specialized": 0.5
+        },
+        "23": {
+            "ascension": 1,
+            "attack": 75.913398,
+            "defense": 228.4083401,
+            "hp": 3356.724646,
+            "level": 23,
+            "specialized": 0.5
+        },
+        "24": {
+            "ascension": 1,
+            "attack": 77.654368,
+            "defense": 233.6464566,
+            "hp": 3433.7052360000002,
+            "level": 24,
+            "specialized": 0.5
+        },
+        "25": {
+            "ascension": 1,
+            "attack": 79.395338,
+            "defense": 238.88457309999998,
+            "hp": 3510.685826,
+            "level": 25,
+            "specialized": 0.5
+        },
+        "26": {
+            "ascension": 1,
+            "attack": 81.15679,
+            "defense": 244.1843145,
+            "hp": 3588.57207,
+            "level": 26,
+            "specialized": 0.5
+        },
+        "27": {
+            "ascension": 1,
+            "attack": 82.89776,
+            "defense": 249.422431,
+            "hp": 3665.55266,
+            "level": 27,
+            "specialized": 0.5
+        },
+        "28": {
+            "ascension": 1,
+            "attack": 84.63873,
+            "defense": 254.66054749999998,
+            "hp": 3742.53325,
+            "level": 28,
+            "specialized": 0.5
+        },
+        "29": {
+            "ascension": 1,
+            "attack": 86.400182,
+            "defense": 259.9602889,
+            "hp": 3820.419494,
+            "level": 29,
+            "specialized": 0.5
+        },
+        "3": {
+            "ascension": 0,
+            "attack": 23.882011999999996,
+            "defense": 71.8546334,
+            "hp": 1055.992564,
+            "level": 3,
+            "specialized": 0.5
+        },
+        "30": {
+            "ascension": 1,
+            "attack": 88.141152,
+            "defense": 265.19840539999996,
+            "hp": 3897.4000840000003,
+            "level": 30,
+            "specialized": 0.5
+        },
+        "31": {
+            "ascension": 1,
+            "attack": 89.902604,
+            "defense": 270.4981468,
+            "hp": 3975.286328,
+            "level": 31,
+            "specialized": 0.5
+        },
+        "32": {
+            "ascension": 1,
+            "attack": 91.664056,
+            "defense": 275.7978882,
+            "hp": 4053.172572,
+            "level": 32,
+            "specialized": 0.5
+        },
+        "33": {
+            "ascension": 1,
+            "attack": 93.42550800000001,
+            "defense": 281.0976296,
+            "hp": 4131.058816000001,
+            "level": 33,
+            "specialized": 0.5
+        },
+        "34": {
+            "ascension": 1,
+            "attack": 95.166478,
+            "defense": 286.3357461,
+            "hp": 4208.039406,
+            "level": 34,
+            "specialized": 0.5
+        },
+        "35": {
+            "ascension": 1,
+            "attack": 96.92793,
+            "defense": 291.63548749999995,
+            "hp": 4285.92565,
+            "level": 35,
+            "specialized": 0.5
+        },
+        "36": {
+            "ascension": 1,
+            "attack": 98.70986400000001,
+            "defense": 296.9968538,
+            "hp": 4364.7175480000005,
+            "level": 36,
+            "specialized": 0.5
+        },
+        "37": {
+            "ascension": 1,
+            "attack": 100.471316,
+            "defense": 302.29659519999996,
+            "hp": 4442.603792,
+            "level": 37,
+            "specialized": 0.5
+        },
+        "38": {
+            "ascension": 1,
+            "attack": 102.23276800000001,
+            "defense": 307.5963366,
+            "hp": 4520.490036,
+            "level": 38,
+            "specialized": 0.5
+        },
+        "39": {
+            "ascension": 1,
+            "attack": 103.99422,
+            "defense": 312.896078,
+            "hp": 4598.37628,
+            "level": 39,
+            "specialized": 0.5
+        },
+        "4": {
+            "ascension": 0,
+            "attack": 25.6025,
+            "defense": 77.031125,
+            "hp": 1132.0675,
+            "level": 4,
+            "specialized": 0.5
+        },
+        "40": {
+            "ascension": 1,
+            "attack": 105.776154,
+            "defense": 318.25744430000003,
+            "hp": 4677.168178,
+            "level": 40,
+            "specialized": 0.5
+        },
+        "40+": {
+            "ascension": 2,
+            "attack": 118.253124,
+            "defense": 355.8009443,
+            "hp": 5228.903478,
+            "level": 40,
+            "specialized": 0.596
+        },
+        "41": {
+            "ascension": 2,
+            "attack": 120.01457599999999,
+            "defense": 361.1006857,
+            "hp": 5306.7897219999995,
+            "level": 41,
+            "specialized": 0.596
+        },
+        "42": {
+            "ascension": 2,
+            "attack": 121.79651,
+            "defense": 366.462052,
+            "hp": 5385.581620000001,
+            "level": 42,
+            "specialized": 0.596
+        },
+        "43": {
+            "ascension": 2,
+            "attack": 123.57844399999999,
+            "defense": 371.8234183,
+            "hp": 5464.373518,
+            "level": 43,
+            "specialized": 0.596
+        },
+        "44": {
+            "ascension": 2,
+            "attack": 125.33989599999998,
+            "defense": 377.1231597,
+            "hp": 5542.259762,
+            "level": 44,
+            "specialized": 0.596
+        },
+        "45": {
+            "ascension": 2,
+            "attack": 127.12183,
+            "defense": 382.484526,
+            "hp": 5621.05166,
+            "level": 45,
+            "specialized": 0.596
+        },
+        "46": {
+            "ascension": 2,
+            "attack": 128.903764,
+            "defense": 387.8458923,
+            "hp": 5699.843558,
+            "level": 46,
+            "specialized": 0.596
+        },
+        "47": {
+            "ascension": 2,
+            "attack": 130.685698,
+            "defense": 393.20725859999993,
+            "hp": 5778.635455999999,
+            "level": 47,
+            "specialized": 0.596
+        },
+        "48": {
+            "ascension": 2,
+            "attack": 132.467632,
+            "defense": 398.5686249,
+            "hp": 5857.427354,
+            "level": 48,
+            "specialized": 0.596
+        },
+        "49": {
+            "ascension": 2,
+            "attack": 134.270048,
+            "defense": 403.9916161,
+            "hp": 5937.124906,
+            "level": 49,
+            "specialized": 0.596
+        },
+        "5": {
+            "ascension": 0,
+            "attack": 27.302505999999997,
+            "defense": 82.1459917,
+            "hp": 1207.236782,
+            "level": 5,
+            "specialized": 0.5
+        },
+        "50": {
+            "ascension": 2,
+            "attack": 136.051982,
+            "defense": 409.3529824,
+            "hp": 6015.9168039999995,
+            "level": 50,
+            "specialized": 0.596
+        },
+        "50+": {
+            "ascension": 3,
+            "attack": 152.687942,
+            "defense": 459.41098239999997,
+            "hp": 6751.564103999999,
+            "level": 50,
+            "specialized": 0.692
+        },
+        "51": {
+            "ascension": 3,
+            "attack": 154.469876,
+            "defense": 464.77234869999995,
+            "hp": 6830.356002,
+            "level": 51,
+            "specialized": 0.692
+        },
+        "52": {
+            "ascension": 3,
+            "attack": 156.272292,
+            "defense": 470.19533989999996,
+            "hp": 6910.053554,
+            "level": 52,
+            "specialized": 0.692
+        },
+        "53": {
+            "ascension": 3,
+            "attack": 158.054226,
+            "defense": 475.55670619999995,
+            "hp": 6988.845452,
+            "level": 53,
+            "specialized": 0.692
+        },
+        "54": {
+            "ascension": 3,
+            "attack": 159.856642,
+            "defense": 480.97969739999996,
+            "hp": 7068.543003999999,
+            "level": 54,
+            "specialized": 0.692
+        },
+        "55": {
+            "ascension": 3,
+            "attack": 161.659058,
+            "defense": 486.4026886,
+            "hp": 7148.240556000001,
+            "level": 55,
+            "specialized": 0.692
+        },
+        "56": {
+            "ascension": 3,
+            "attack": 163.461474,
+            "defense": 491.8256798,
+            "hp": 7227.938108,
+            "level": 56,
+            "specialized": 0.692
+        },
+        "57": {
+            "ascension": 3,
+            "attack": 165.26389,
+            "defense": 497.24867099999994,
+            "hp": 7307.63566,
+            "level": 57,
+            "specialized": 0.692
+        },
+        "58": {
+            "ascension": 3,
+            "attack": 167.066306,
+            "defense": 502.67166219999996,
+            "hp": 7387.333212,
+            "level": 58,
+            "specialized": 0.692
+        },
+        "59": {
+            "ascension": 3,
+            "attack": 168.868722,
+            "defense": 508.09465339999997,
+            "hp": 7467.030763999999,
+            "level": 59,
+            "specialized": 0.692
+        },
+        "6": {
+            "ascension": 0,
+            "attack": 29.022994,
+            "defense": 87.3224833,
+            "hp": 1283.311718,
+            "level": 6,
+            "specialized": 0.5
+        },
+        "60": {
+            "ascension": 3,
+            "attack": 170.671138,
+            "defense": 513.5176446,
+            "hp": 7546.728316000001,
+            "level": 60,
+            "specialized": 0.692
+        },
+        "60+": {
+            "ascension": 4,
+            "attack": 183.148108,
+            "defense": 551.0611446,
+            "hp": 8098.463616000001,
+            "level": 60,
+            "specialized": 0.692
+        },
+        "61": {
+            "ascension": 4,
+            "attack": 184.950524,
+            "defense": 556.4841358,
+            "hp": 8178.1611680000005,
+            "level": 61,
+            "specialized": 0.692
+        },
+        "62": {
+            "ascension": 4,
+            "attack": 186.75294000000002,
+            "defense": 561.9071270000001,
+            "hp": 8257.85872,
+            "level": 62,
+            "specialized": 0.692
+        },
+        "63": {
+            "ascension": 4,
+            "attack": 188.575838,
+            "defense": 567.3917431,
+            "hp": 8338.461926,
+            "level": 63,
+            "specialized": 0.692
+        },
+        "64": {
+            "ascension": 4,
+            "attack": 190.378254,
+            "defense": 572.8147342999999,
+            "hp": 8418.159478,
+            "level": 64,
+            "specialized": 0.692
+        },
+        "65": {
+            "ascension": 4,
+            "attack": 192.201152,
+            "defense": 578.2993504,
+            "hp": 8498.762684000001,
+            "level": 65,
+            "specialized": 0.692
+        },
+        "66": {
+            "ascension": 4,
+            "attack": 194.02405,
+            "defense": 583.7839665,
+            "hp": 8579.365890000001,
+            "level": 66,
+            "specialized": 0.692
+        },
+        "67": {
+            "ascension": 4,
+            "attack": 195.826466,
+            "defense": 589.2069577,
+            "hp": 8659.063442,
+            "level": 67,
+            "specialized": 0.692
+        },
+        "68": {
+            "ascension": 4,
+            "attack": 197.649364,
+            "defense": 594.6915738,
+            "hp": 8739.666648,
+            "level": 68,
+            "specialized": 0.692
+        },
+        "69": {
+            "ascension": 4,
+            "attack": 199.472262,
+            "defense": 600.1761898999999,
+            "hp": 8820.269854,
+            "level": 69,
+            "specialized": 0.692
+        },
+        "7": {
+            "ascension": 0,
+            "attack": 30.723,
+            "defense": 92.43735,
+            "hp": 1358.481,
+            "level": 7,
+            "specialized": 0.5
+        },
+        "70": {
+            "ascension": 4,
+            "attack": 201.29516,
+            "defense": 605.660806,
+            "hp": 8900.87306,
+            "level": 70,
+            "specialized": 0.692
+        },
+        "70+": {
+            "ascension": 5,
+            "attack": 213.77213,
+            "defense": 643.204306,
+            "hp": 9452.60836,
+            "level": 70,
+            "specialized": 0.788
+        },
+        "71": {
+            "ascension": 5,
+            "attack": 215.59502799999999,
+            "defense": 648.6889221,
+            "hp": 9533.211566,
+            "level": 71,
+            "specialized": 0.788
+        },
+        "72": {
+            "ascension": 5,
+            "attack": 217.43840799999998,
+            "defense": 654.2351631,
+            "hp": 9614.720426,
+            "level": 72,
+            "specialized": 0.788
+        },
+        "73": {
+            "ascension": 5,
+            "attack": 219.261306,
+            "defense": 659.7197792,
+            "hp": 9695.323632,
+            "level": 73,
+            "specialized": 0.788
+        },
+        "74": {
+            "ascension": 5,
+            "attack": 221.084204,
+            "defense": 665.2043953,
+            "hp": 9775.926838,
+            "level": 74,
+            "specialized": 0.788
+        },
+        "75": {
+            "ascension": 5,
+            "attack": 222.927584,
+            "defense": 670.7506363,
+            "hp": 9857.435698,
+            "level": 75,
+            "specialized": 0.788
+        },
+        "76": {
+            "ascension": 5,
+            "attack": 224.750482,
+            "defense": 676.2352523999999,
+            "hp": 9938.038904000001,
+            "level": 76,
+            "specialized": 0.788
+        },
+        "77": {
+            "ascension": 5,
+            "attack": 226.593862,
+            "defense": 681.7814933999999,
+            "hp": 10019.547763999999,
+            "level": 77,
+            "specialized": 0.788
+        },
+        "78": {
+            "ascension": 5,
+            "attack": 228.437242,
+            "defense": 687.3277343999999,
+            "hp": 10101.056624,
+            "level": 78,
+            "specialized": 0.788
+        },
+        "79": {
+            "ascension": 5,
+            "attack": 230.280622,
+            "defense": 692.8739754,
+            "hp": 10182.565484,
+            "level": 79,
+            "specialized": 0.788
+        },
+        "8": {
+            "ascension": 0,
+            "attack": 32.443488,
+            "defense": 97.6138416,
+            "hp": 1434.555936,
+            "level": 8,
+            "specialized": 0.5
+        },
+        "80": {
+            "ascension": 5,
+            "attack": 232.124002,
+            "defense": 698.4202164,
+            "hp": 10264.074344,
+            "level": 80,
+            "specialized": 0.788
+        },
+        "80+": {
+            "ascension": 6,
+            "attack": 244.600972,
+            "defense": 735.9637164,
+            "hp": 10815.809744,
+            "level": 80,
+            "specialized": 0.884
+        },
+        "81": {
+            "ascension": 6,
+            "attack": 246.44435199999998,
+            "defense": 741.5099574,
+            "hp": 10897.318604,
+            "level": 81,
+            "specialized": 0.884
+        },
+        "82": {
+            "ascension": 6,
+            "attack": 248.287732,
+            "defense": 747.0561984,
+            "hp": 10978.827464,
+            "level": 82,
+            "specialized": 0.884
+        },
+        "83": {
+            "ascension": 6,
+            "attack": 250.13111199999997,
+            "defense": 752.6024394,
+            "hp": 11060.336324,
+            "level": 83,
+            "specialized": 0.884
+        },
+        "84": {
+            "ascension": 6,
+            "attack": 251.974492,
+            "defense": 758.1486804,
+            "hp": 11141.845184,
+            "level": 84,
+            "specialized": 0.884
+        },
+        "85": {
+            "ascension": 6,
+            "attack": 253.81787199999997,
+            "defense": 763.6949214,
+            "hp": 11223.354044,
+            "level": 85,
+            "specialized": 0.884
+        },
+        "86": {
+            "ascension": 6,
+            "attack": 255.681734,
+            "defense": 769.3027873000001,
+            "hp": 11305.768558,
+            "level": 86,
+            "specialized": 0.884
+        },
+        "87": {
+            "ascension": 6,
+            "attack": 257.52511400000003,
+            "defense": 774.8490283,
+            "hp": 11387.277418,
+            "level": 87,
+            "specialized": 0.884
+        },
+        "88": {
+            "ascension": 6,
+            "attack": 259.388976,
+            "defense": 780.4568942,
+            "hp": 11469.691932,
+            "level": 88,
+            "specialized": 0.884
+        },
+        "89": {
+            "ascension": 6,
+            "attack": 261.252838,
+            "defense": 786.0647601,
+            "hp": 11552.106446,
+            "level": 89,
+            "specialized": 0.884
+        },
+        "9": {
+            "ascension": 0,
+            "attack": 34.163976,
+            "defense": 102.79033319999999,
+            "hp": 1510.630872,
+            "level": 9,
+            "specialized": 0.5
+        },
+        "90": {
+            "ascension": 6,
+            "attack": 263.096218,
+            "defense": 791.6110011000001,
+            "hp": 11633.615306000002,
+            "level": 90,
+            "specialized": 0.884
+        },
+        "95": {
+            "ascension": 6,
+            "attack": 292.692708,
+            "defense": 819.7119555,
+            "hp": 12046.59353,
+            "level": 95,
+            "specialized": 0.884
+        }
+    }
+}

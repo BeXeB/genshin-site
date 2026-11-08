@@ -966,19 +966,51 @@
             "filename_passive3": "UI_Talent_S_Charlotte_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        2.0
+                    ],
+                    "param2": [
+                        12.0
+                    ],
+                    "param3": [
+                        4.0
+                    ]
+                }
+            },
             "descriptionRaw": "When opponents marked by \"Focused Impression\" are defeated, <color=#FFD780FF>Framing: Freezing Point Composition</color>'s CD will be decreased by 2s. This CD decrease can be triggered 4 times every 12s.",
             "id": 882101,
-            "name": "Moment of Impact"
+            "name": "Moment of Impact",
+            "proudSkillGroupId": 8821
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.05
+                    ],
+                    "param2": [
+                        0.05
+                    ]
+                }
+            },
             "descriptionRaw": "When the party contains 1/2/3 Fontainians other than herself, Charlotte gains a 5%/10%/15% Healing Bonus. When the party contains 1/2/3 non-Fontainians, Charlotte gains a 5%/10%/15% Cryo DMG Bonus.",
             "id": 882201,
-            "name": "Diversified Investigation"
+            "name": "Diversified Investigation",
+            "proudSkillGroupId": 8822
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "After activating the Special Analysis Zoom Lens, Charlotte's \"Framing: Freezing Point Composition\" Hold Mode cannot trigger its original effects, but instead enables her to take photos in a rather unique manner...",
             "id": 882301,
-            "name": "First-Person Shutter"
+            "name": "First-Person Shutter",
+            "proudSkillGroupId": 8823
         }
     },
     "stats": {

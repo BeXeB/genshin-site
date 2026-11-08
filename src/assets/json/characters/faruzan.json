@@ -858,19 +858,48 @@
             "filename_passive3": "UI_Talent_S_Cyno_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.6
+                    ]
+                }
+            },
             "descriptionRaw": "When Faruzan is in the Manifest Gale state created by <color=#FFD780FF>Wind Realm of Nasamjnin</color>, the amount of time taken to charge a shot is decreased by 60%, and she can apply <color=#FFD780FF>The Wind's Secret Ways</color>' Perfidious Wind's Bale to opponents who are hit by the vortex created by Pressurized Collapse.",
             "id": 762101,
-            "name": "Impetuous Flow"
+            "name": "Impetuous Flow",
+            "proudSkillGroupId": 7621
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.32
+                    ],
+                    "param2": [
+                        0.8
+                    ],
+                    "param3": [
+                        4.0
+                    ]
+                }
+            },
             "descriptionRaw": "When characters affected by <color=#FFD780FF>The Wind's Secret Ways</color>' Prayerful Wind's Benefit deal <color=#80FFD7FF>Anemo DMG</color> using Normal, Charged, Plunging Attacks, Elemental Skills, or Elemental Bursts to opponents, they will gain the Hurricane Guard effect: This DMG will be increased based on 32% of Faruzan's Base ATK. 1 instance of Hurricane Guard can occur once every 0.8s. This DMG Bonus will be cleared after Prayerful Wind's Benefit expires or after the effect is triggered once.",
             "id": 762201,
-            "name": "Lost Wisdom of the Seven Caverns"
+            "name": "Lost Wisdom of the Seven Caverns",
+            "proudSkillGroupId": 7622
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours.",
             "id": 762301,
-            "name": "Tomes Light the Path"
+            "name": "Tomes Light the Path",
+            "proudSkillGroupId": 7623
         }
     },
     "stats": {

@@ -877,24 +877,58 @@
             "filename_passive4": "UI_Talent_S_Columbina_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.05
+                    ],
+                    "param2": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "When triggering {LINK#N11250001}<color=#FFD780FF>Gravity Interference</color>{/LINK}, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times.",
             "id": 1252101,
-            "name": "Lunacy's Lure"
+            "name": "Lunacy's Lure",
+            "proudSkillGroupId": 12521
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When characters within the {LINK#N11250002}<color=#FFD780FF>Lunar Domain</color>{/LINK} trigger Lunar reactions, they will gain the following effects respectively: \n· <color=#FFD780FF>Lunar-Charged</color>: When the Thundercloud performs lightning strike(s) against a valid target, it has a 33% chance to perform an additional lightning strike. \n· <color=#FFD780FF>Lunar-Bloom</color>: When triggering Lunar-Bloom reactions, the party gains a special {LINK#N11250003}<color=#FFD780FF>Moonridge Dew</color>{/LINK}. Up to 3 Moonridge Dews can be gained every 18s. \n· <color=#FFD780FF>Lunar-Crystallize</color>: When Moondrift Harmony is triggered, every Moondrift has a 33% chance to inflict an extra attack.",
             "id": 1252201,
-            "name": "Law of the New Moon"
+            "name": "Law of the New Moon",
+            "proudSkillGroupId": 12522
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.002
+                    ],
+                    "param2": [
+                        0.07
+                    ]
+                }
+            },
             "descriptionRaw": "When a party member triggers an Electro-Charged, Bloom, or Hydro-Crystallize reaction, it will be converted into a Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize reaction respectively. Lunar Reaction DMG inflicted by party members gain a Base DMG increase based on Columbina's Max HP. For every 1,000 points of Max HP, the Base DMG of Lunar reactions is increased by 0.2%, up to a maximum of 7%.\n\nAdditionally, when Columbina is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
             "id": 1252301,
-            "name": "Moonsign Benediction: Moonlight, Lent Unto You"
+            "name": "Moonsign Benediction: Moonlight, Lent Unto You",
+            "proudSkillGroupId": 12523
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "If one of your party members is incapacitated while in the Nod-Krai or Frost Moon regions, Columbina will revive this character. The amount of HP the character will have upon revival is based on Columbina's Friendship Level. This effect can occur once every 100s. This effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss.\nAdditionally, Columbina appears to have a special affinity for certain animals who are influenced by kuuvahki...",
             "id": 1252501,
-            "name": "Lunar Vigil"
+            "name": "Lunar Vigil",
+            "proudSkillGroupId": 12525
         }
     },
     "stats": {

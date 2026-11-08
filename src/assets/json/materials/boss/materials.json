@@ -1102,5 +1102,17 @@
         "rarity": 4,
         "sortRank": 11101,
         "type": "boss"
+    },
+    {
+        "description": "A massive anchor once wielded as a weapon.\nJust as wishes carried too far may slowly drift from the purpose that first set them in motion, this great anchor was originally built to help explorers survive the open sea. Now, it is little more than a ponderous weapon in the hands of a fae that has long forgotten what it was meant to do.",
+        "id": 113093,
+        "images": {
+            "filename_icon": "UI_ItemIcon_113093"
+        },
+        "name": "Shattered Stability Anchor",
+        "normalizedName": "shatteredstabilityanchor",
+        "rarity": 4,
+        "sortRank": 11101,
+        "type": "boss"
     }
 ]

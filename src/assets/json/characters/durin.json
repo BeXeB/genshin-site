@@ -944,24 +944,71 @@
             "filename_passive4": "UI_Talent_S_Durin_03"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.2
+                    ],
+                    "param2": [
+                        6.0
+                    ],
+                    "param3": [
+                        0.4
+                    ],
+                    "param4": [
+                        0.4
+                    ]
+                }
+            },
             "descriptionRaw": "Durin will trigger different buffs depending on the form that his power manifests as when he unleashes his Elemental Burst. When that form is:\n\n<color=#FFD780FF>Dragon of White Flame</color>\nAfter nearby party members trigger Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions on an opponent, or deal <color=#FF9999FF>Pyro DMG</color> or <color=#99FF88FF>Dendro DMG</color> to an opponent affected by Burning, that opponent's <color=#FF9999FF>Pyro RES</color>, and the RES for the corresponding Element involved in the reaction, are decreased by 20% for 6s.\n\n<color=#FFD780FF>Dragon of Dark Decay</color>\nDurin's Vaporize DMG is increased by 40% and his Melt DMG is increased by 40%.",
             "id": 1232101,
-            "name": "Light Manifest of the Divine Calculus"
+            "name": "Light Manifest of the Divine Calculus",
+            "proudSkillGroupId": 12321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.03
+                    ],
+                    "param2": [
+                        0.75
+                    ],
+                    "param3": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "After unleashing an Elemental Burst, Durin gains the Primordial Fusion of Forms effect for 20s: Durin gains 10 stacks of Primordial Fusion. When a periodic attack from <color=#FFD780FF>Dragon of White Flame</color> or <color=#FFD780FF>Dragon of Dark Decay</color> deals DMG, 1 stack of Primordial Fusion will be consumed to increase the DMG dealt by 3% of the original DMG for every 100 ATK. A maximum of 75% additional DMG can be dealt this way. When a single attack from <color=#FFD780FF>Dragon of White Flame</color> or <color=#FFD780FF>Dragon of Dark Decay</color> hits multiple opponents, only one stack of Primordial Fusion is consumed.\nPrimordial Fusion stacks are reset when the Elemental Burst is unleashed again.",
             "id": 1232201,
-            "name": "Chaos Formed Like the Night"
+            "name": "Chaos Formed Like the Night",
+            "proudSkillGroupId": 12322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Gains 25% more rewards when dispatched on a Mondstadt Expedition for 20 hours.",
             "id": 1232301,
-            "name": "Echoes of the Surging Earth"
+            "name": "Echoes of the Surging Earth",
+            "proudSkillGroupId": 12323
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.75
+                    ]
+                }
+            },
             "descriptionRaw": "After completing <color=#FFD780FF>Witch's Homework: Of This World</color>, Durin will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nIncreases all effects of the Ascension Talent {LINK#P1232101}<color=#FFD780FF>Light Manifest of the Divine Calculus</color>{/LINK} (except for Duration) by 75%.",
             "id": 1235101,
-            "name": "Witch's Eve Rite: Ode to Ascension"
+            "name": "Witch's Eve Rite: Ode to Ascension",
+            "proudSkillGroupId": 12351
         }
     },
     "stats": {

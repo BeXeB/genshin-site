@@ -11,6 +11,15 @@ import {
   ParamNode,
 } from '../_models/ast-nodes';
 
+interface ParseState {
+  index: number;
+  // Closing tags of the currently open nodes, outermost first
+  openEndTags: string[];
+  // Closing tags of nodes that were closed by an ancestor's closing tag (mismatched nesting),
+  // skipped when they appear later in the text
+  displacedEndTags: string[];
+}
+
 @Injectable({
   providedIn: 'root',
 })
@@ -22,20 +31,40 @@ export class FormatterService {
       return [];
     }
 
-    const state = {
+    const state: ParseState = {
       index: 0,
+      openEndTags: [],
+      displacedEndTags: [],
     };
 
     return this.parseNodes(text, state);
   }
 
-  private parseNodes(text: string, state: { index: number }, endTag?: string): AstNode[] {
+  private parseNodes(text: string, state: ParseState, endTag?: string): AstNode[] {
     const nodes: AstNode[] = [];
+
+    if (endTag) {
+      state.openEndTags.push(endTag);
+    }
 
     while (state.index < text.length) {
       if (endTag && text.startsWith(endTag, state.index)) {
         state.index += endTag.length;
         break;
+      }
+
+      // Mismatched nesting, e.g. <color>{LINK#...}text</color>{/LINK}: end this node without consuming
+      // the ancestor's closing tag, and skip this node's own closing tag when it appears later
+      if (endTag && this.findClosingTag(text, state.index, state.openEndTags)) {
+        state.displacedEndTags.push(endTag);
+        break;
+      }
+
+      const displacedTag = this.findClosingTag(text, state.index, state.displacedEndTags);
+      if (displacedTag) {
+        state.displacedEndTags.splice(state.displacedEndTags.indexOf(displacedTag), 1);
+        state.index += displacedTag.length;
+        continue;
       }
 
       if (text.startsWith('<color=', state.index)) {
@@ -89,10 +118,18 @@ export class FormatterService {
       nodes.push(this.parseText(text, state));
     }
 
+    if (endTag) {
+      state.openEndTags.pop();
+    }
+
     return nodes;
   }
 
-  private parseText(text: string, state: { index: number }): TextNode {
+  private findClosingTag(text: string, index: number, closingTags: string[]): string | undefined {
+    return closingTags.find((closingTag) => text.startsWith(closingTag, index));
+  }
+
+  private parseText(text: string, state: ParseState): TextNode {
     const start = state.index;
 
     while (
@@ -145,7 +182,7 @@ export class FormatterService {
     };
   }
 
-  private parseColor(text: string, state: { index: number }): ColorNode {
+  private parseColor(text: string, state: ParseState): ColorNode {
     const end = text.indexOf('>', state.index);
 
     const tag = text.substring(state.index, end + 1);
@@ -165,7 +202,7 @@ export class FormatterService {
     };
   }
 
-  private parseLink(text: string, state: { index: number }): LinkNode | null {
+  private parseLink(text: string, state: ParseState): LinkNode | null {
     const end = text.indexOf('}', state.index);
 
     // If no closing brace found, treat as text to avoid infinite loop
@@ -217,7 +254,7 @@ export class FormatterService {
     };
   }
 
-  private parseParam(text: string, state: { index: number }): ParamNode {
+  private parseParam(text: string, state: ParseState): ParamNode {
     const end = text.indexOf('}', state.index);
 
     const tag = text.substring(state.index, end + 1);
@@ -245,7 +282,7 @@ export class FormatterService {
     };
   }
 
-  private parseLayout(text: string, state: { index: number }): TextNode | null {
+  private parseLayout(text: string, state: ParseState): TextNode | null {
     // Match pattern: {LAYOUT_MOBILE#...}{LAYOUT_PC#...}{LAYOUT_PS#...}
     // Extract the MOBILE variant and lowercase first letter
 
@@ -270,7 +307,7 @@ export class FormatterService {
     };
   }
 
-  private parseItalic(text: string, state: { index: number }): ItalicNode {
+  private parseItalic(text: string, state: ParseState): ItalicNode {
     state.index += '<i>'.length;
 
     return {
@@ -279,7 +316,7 @@ export class FormatterService {
     };
   }
 
-  private parseBold(text: string, state: { index: number }): BoldNode {
+  private parseBold(text: string, state: ParseState): BoldNode {
     state.index += '<b>'.length;
 
     return {

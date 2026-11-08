@@ -841,24 +841,48 @@
             "filename_passive4": "UI_Talent_S_Kokomi_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "If Sangonomiya Kokomi's own Bake-Kurage is on the field when she uses <color=#FFD780FF>Nereid's Ascension</color>, the Bake-Kurage's duration will be refreshed.",
             "id": 542101,
-            "name": "Tamakushi Casket"
+            "name": "Tamakushi Casket",
+            "proudSkillGroupId": 5421
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ]
+                }
+            },
             "descriptionRaw": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, the Normal and Charged Attack DMG Bonus Sangonomiya Kokomi gains based on her Max HP will receive a further increase based on 15% of her Healing Bonus.",
             "id": 542201,
-            "name": "Song of Pearls"
+            "name": "Song of Pearls",
+            "proudSkillGroupId": 5422
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 542301,
-            "name": "Princess of Watatsumi"
+            "name": "Princess of Watatsumi",
+            "proudSkillGroupId": 5423
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate.",
             "id": 542501,
-            "name": "Flawless Strategy"
+            "name": "Flawless Strategy",
+            "proudSkillGroupId": 5425
         }
     },
     "stats": {

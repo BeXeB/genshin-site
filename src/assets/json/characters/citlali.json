@@ -860,24 +860,77 @@
             "filename_passive4": "UI_Talent_S_Mavuika_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        16.0
+                    ],
+                    "param2": [
+                        8.0
+                    ],
+                    "param3": [
+                        0.2
+                    ],
+                    "param4": [
+                        12.0
+                    ]
+                }
+            },
             "descriptionRaw": "While Itzpapa is on the field, after nearby party members trigger the Frozen or Melt reactions, the <color=#FF9999FF>Pyro</color> and <color=#80C0FFFF>Hydro</color> RES of opponents affected by that reaction decreases by 20% for 12s. Additionally, Citlali will regain 16 Nightsoul points. Nightsoul points can be restored this way once every 8s.",
             "id": 1072101,
-            "name": "Mamaloaco's Frigid Rain"
+            "name": "Mamaloaco's Frigid Rain",
+            "proudSkillGroupId": 10721
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.9
+                    ],
+                    "param2": [
+                        12.0
+                    ],
+                    "param3": [
+                        4.0
+                    ]
+                }
+            },
             "descriptionRaw": "During the Elemental Skill <color=#FFD780FF>Dawnfrost Darkstar</color>, Itzpapa's Frostfall Storm DMG is increased by 90% of Citlali's Elemental Mastery. During the Elemental Burst <color=#FFD780FF>Edict of Entwined Splendor</color>, Ice Storm DMG is increased by 1200% of Citlali's Elemental Mastery.\nIn addition, when nearby party members trigger Nightsoul Bursts, Citlali regains 4 Nightsoul points.",
             "id": 1072201,
-            "name": "Itzpapalotl's Star Garments"
+            "name": "Itzpapalotl's Star Garments",
+            "proudSkillGroupId": 10722
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        75.0
+                    ],
+                    "param2": [
+                        5.0
+                    ],
+                    "param3": [
+                        20.0
+                    ]
+                }
+            },
             "descriptionRaw": "While in an area with Phlogiston Mechanics within Natlan, can use Nightsoul Transmission: Citlali. When the active character is currently high enough in the air, the following will trigger when switching to Citlali: Citlali will leap up high, and will deploy \"White Obsidian Tzitzimitl: Citlalin\" to float in the air. Nightsoul Transmission can be triggered once every 10s by your party.\n\nHolding Aiming Mode will cause Citlali to enter the \"Spiritspeaker\" state, which will allow her to interact with \"Nightspirit Graffiti\" and \"Nightspirit Sigils,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.\n\nAdditionally, holding the jump button will cause Citlali to consume 75 Stamina and leap. In areas within Natlan where Phlogiston mechanics are present, Citlali will prioritize consuming 5 Phlogiston to leap to a height higher still.\nWhen in the air, Citlali can Hold her Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode and trigger Charged Attacks. When initiating Charged Attacks in mid-air, Citlali will prioritize consuming 20 Phlogiston.",
             "id": 1072301,
-            "name": "Night Realm's Gift: Smoke, Mirrors, and the Flowing Winds"
+            "name": "Night Realm's Gift: Smoke, Mirrors, and the Flowing Winds",
+            "proudSkillGroupId": 10723
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "While in an area with Phlogiston Mechanics within Natlan, triggering \"Nightsoul Burst\" restores 20 Phlogiston.\nThis cannot take effect in Domains, Trounce Domains, or the Spiral Abyss.",
             "id": 1072501,
-            "name": "Songs of Profound Mystery"
+            "name": "Songs of Profound Mystery",
+            "proudSkillGroupId": 10725
         }
     },
     "stats": {

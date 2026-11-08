@@ -1604,19 +1604,65 @@
                     "filename_passive3": "UI_Talent_S_PlayerWind_07"
                 },
                 "passive1": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {}
+                    },
                     "descriptionRaw": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as <color=#80FFD7FF>Anemo DMG</color> to all opponents in its path.",
                     "id": 72101,
-                    "name": "Slitting Wind"
+                    "name": "Slitting Wind",
+                    "proudSkillGroupId": 721
                 },
                 "passive2": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {}
+                    },
                     "descriptionRaw": "<color=#FFD780FF>Palm Vortex</color> kills regenerate 2% HP for 5s.\nThis effect can only occur once every 5s.",
                     "id": 72201,
-                    "name": "Second Wind"
+                    "name": "Second Wind",
+                    "proudSkillGroupId": 722
                 },
                 "passive3": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.1
+                            ],
+                            "param10": [
+                                0.5
+                            ],
+                            "param2": [
+                                0.2
+                            ],
+                            "param3": [
+                                0.2
+                            ],
+                            "param4": [
+                                60.0
+                            ],
+                            "param5": [
+                                0.2
+                            ],
+                            "param6": [
+                                0.2
+                            ],
+                            "param7": [
+                                0.2
+                            ],
+                            "param8": [
+                                0.6
+                            ],
+                            "param9": [
+                                15.0
+                            ]
+                        }
+                    },
                     "descriptionRaw": "Draw new strength from journeys past. For every element you have resonated with, you gain additional {LINK#N10050001}<color=#FFD780FF>buffs</color>{/LINK}.\n\nAdditionally, when <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color>, or <color=#FFACFFFF>Electro</color> attacks from nearby party members hit opponents, Traveler will receive 1 stack of Blade of the Dawn Breeze. Each Elemental Type can grant 1 Blade of the Dawn Breeze stack. After obtaining at least 2 stacks of Blade of the Dawn Breeze, performing a Charged Attack will consume all stacks of Blade of the Dawn Breeze and transform into the special <color=#FFD780FF>Charged Attack: Whirlwind</color>.\n\n<color=#FFD780FF>Charged Attack: Whirlwind</color>\n· Each Charged Attack hit deals increased <color=#80FFD7FF>Anemo DMG</color>. Increase in DMG is equal to 60% of Traveler's ATK.\n· Every time a Blade of the Dawn Breeze of a certain elemental type is consumed, a Blade Wind matching this elemental type will also be summoned, dealing elemental DMG equal to 50% of Traveler's ATK. This DMG is considered Charged Attack DMG.\n· <color=#FFD780FF>Charged Attack: Whirlwind</color> can be triggered up to once every 15s.\n· For the duration of <color=#FFD780FF>Charged Attack: Whirlwind</color>, no Blade of the Dawn Breeze will be obtained.",
                     "id": 75101,
-                    "name": "Foreign Windwrath"
+                    "name": "Foreign Windwrath",
+                    "proudSkillGroupId": 751
                 }
             }
         },
@@ -2353,24 +2399,99 @@
                     "filename_passive4": "UI_Talent_S_PlayerIce_08"
                 },
                 "passive1": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.8
+                            ]
+                        }
+                    },
                     "descriptionRaw": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: When a <color=#FFD780FF>Frostpierce Star</color> is on the field, DMG from the Traveler's Normal Attacks, Charged Attacks, and Plunging Attacks are converted to <color=#99FFFFFF>Cryo DMG</color> that cannot be overridden by another elemental infusion, and DMG dealt is also increased by 80% of the Traveler's ATK.",
                     "id": 82101,
-                    "name": "Ever-Keen Frost"
+                    "name": "Ever-Keen Frost",
+                    "proudSkillGroupId": 821
                 },
                 "passive2": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.08
+                            ],
+                            "param2": [
+                                160.0
+                            ]
+                        }
+                    },
                     "descriptionRaw": "The Traveler's Elemental Mastery is increased by 8% of their ATK. Up to 160 Elemental Mastery can be gained in this way.",
                     "id": 82201,
-                    "name": "Lucent Ice"
+                    "name": "Lucent Ice",
+                    "proudSkillGroupId": 822
                 },
                 "passive3": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                3.5e-05
+                            ],
+                            "param2": [
+                                0.07
+                            ],
+                            "param3": [
+                                3.5e-05
+                            ],
+                            "param4": [
+                                0.07
+                            ]
+                        }
+                    },
                     "descriptionRaw": "The Traveler will enter the {LINK#N11330003}<color=#FFD780FF>Radiance: Stellar-Conduct</color>{/LINK} state when inside a <color=#FFD780FF>Polestar Field</color>, or the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
                     "id": 82301,
-                    "name": "Stellar Jubilee: Illusory Frostmirror"
+                    "name": "Stellar Jubilee: Illusory Frostmirror",
+                    "proudSkillGroupId": 823
                 },
                 "passive4": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.1
+                            ],
+                            "param10": [
+                                2.0
+                            ],
+                            "param2": [
+                                0.2
+                            ],
+                            "param3": [
+                                0.2
+                            ],
+                            "param4": [
+                                60.0
+                            ],
+                            "param5": [
+                                0.2
+                            ],
+                            "param6": [
+                                0.2
+                            ],
+                            "param7": [
+                                0.2
+                            ],
+                            "param8": [
+                                1.4
+                            ],
+                            "param9": [
+                                15.0
+                            ]
+                        }
+                    },
                     "descriptionRaw": "Draws new strength and power from their past travels: Every Elemental Type the Traveler has resonated with now grants an additional {LINK#N10050001}<color=#FFD780FF>enhancement effect</color>{/LINK}.\n\nAdditionally, when a nearby party member deals Stellar-Conduct or Stellar Swirl DMG, the Traveler gains 1 stack of \"Icepoint.\" 1 stack of Icepoint can be obtained in this way once every 2s, max 3 stacks. When the Traveler unleashes a Charged Attack at 3 stacks of Icepoint, all stacks are consumed to change the attack into a special <color=#FFD780FF>Charged Attack: Freezing Ice</color>.\n\n<color=#FFD780FF>Charged Attack: Freezing Ice</color>\n· <color=#99FFFFFF>Cryo DMG</color> dealt is increased by 140% of the Traveler's ATK, and the Traveler also gains 2 stacks of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK}.\n· <color=#FFD780FF>Charged Attack: Freezing Ice</color> can be unleashed once every 15s. Additionally, the DMG Bonus from the Ascension Talent \"Ever-Keen Frost\" does not apply to <color=#FFD780FF>Charged Attack: Freezing Ice</color>.\n{LINK#N11500004}<color=#FFD780FF>Radiance: Stellar Glimmer</color>{/LINK}: DMG from <color=#FFD780FF>Charged Attack: Freezing Ice</color> is instead considered <color=#99FFFFFF>Cryo DMG</color> of the corresponding Stellar Glimmer reaction type.",
                     "id": 85101,
-                    "name": "Foreign Permafrost"
+                    "name": "Foreign Permafrost",
+                    "proudSkillGroupId": 851
                 }
             }
         },
@@ -2997,19 +3118,85 @@
                     "filename_passive3": "UI_Talent_U_PlayerGrass_03"
                 },
                 "passive1": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                6.0
+                            ]
+                        }
+                    },
                     "descriptionRaw": "<color=#FFD780FF>Lea Lotus Lamp</color> will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks.",
                     "id": 112101,
-                    "name": "Verdant Overgrowth"
+                    "name": "Verdant Overgrowth",
+                    "proudSkillGroupId": 1121
                 },
                 "passive2": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.0015
+                            ],
+                            "param2": [
+                                0.001
+                            ]
+                        }
+                    },
                     "descriptionRaw": "Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by <color=#FFD780FF>Razorgrass Blade</color> by 0.15% and the DMG dealt by <color=#FFD780FF>Surgent Manifestation</color> by 0.1%.",
                     "id": 112201,
-                    "name": "Verdant Luxury"
+                    "name": "Verdant Luxury",
+                    "proudSkillGroupId": 1122
                 },
                 "passive3": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.1
+                            ],
+                            "param10": [
+                                4.0
+                            ],
+                            "param11": [
+                                1.2
+                            ],
+                            "param12": [
+                                4.0
+                            ],
+                            "param13": [
+                                100.0
+                            ],
+                            "param2": [
+                                0.2
+                            ],
+                            "param3": [
+                                0.2
+                            ],
+                            "param4": [
+                                60.0
+                            ],
+                            "param5": [
+                                0.2
+                            ],
+                            "param6": [
+                                0.2
+                            ],
+                            "param7": [
+                                0.2
+                            ],
+                            "param8": [
+                                0.8
+                            ],
+                            "param9": [
+                                15.0
+                            ]
+                        }
+                    },
                     "descriptionRaw": "Draw new strength from journeys past. For every element you have resonated with, you gain additional {LINK#N10050001}<color=#FFD780FF>buffs</color>{/LINK}. \n\nAdditionally, when Dendro Cores (including Bountiful Cores, Seeds of Deceit) appear nearby on the field, or when the party obtains Verdant Dew, Traveler will receive 1 stack of Blade of Verdant Viridis. These two methods can each grant the Traveler up to 1 stack of Blade of Verdant Viridis every 4s, max 3 stacks. After obtaining 3 stacks of Blade of Verdant Viridis, performing a Charged Attack will consume all stacks of Blade of Verdant Viridis and transform into the special <color=#FFD780FF>Charged Attack: Verdessence</color>.\n\n<color=#FFD780FF>Charged Attack: Verdessence</color>\n· Each Charged Attack hit deals increased <color=#99FF88FF>Dendro DMG</color>. The increase in DMG is equal to 80% of Traveler's ATK. Two <color=#FFD780FF>Vinecores</color> will also be created on the spot, which will explode after 4/8s respectively, inflicting <color=#99FF88FF>Dendro DMG</color> equal to 120% of Traveler's ATK. This DMG is considered Charged Attack DMG.\n· <color=#FFD780FF>Charged Attack: Verdessence</color> can be triggered up to once every 15s.",
                     "id": 115101,
-                    "name": "Foreign Verdalume"
+                    "name": "Foreign Verdalume",
+                    "proudSkillGroupId": 1151
                 }
             }
         },
@@ -3692,19 +3879,76 @@
                     "filename_passive3": "UI_Talent_S_PlayerElectric_07"
                 },
                 "passive1": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                -1.5
+                            ]
+                        }
+                    },
                     "descriptionRaw": "When another nearby character in the party obtains an Abundance Amulet created by <color=#FFD780FF>Lightning Blade</color>, <color=#FFD780FF>Lightning Blade's</color> CD is decreased by 1.5s.",
                     "id": 102101,
-                    "name": "Thunderflash"
+                    "name": "Thunderflash",
+                    "proudSkillGroupId": 1021
                 },
                 "passive2": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.1
+                            ]
+                        }
+                    },
                     "descriptionRaw": "Increases the Energy Recharge effect granted by <color=#FFD780FF>Lightning Blade</color>'s Abundance Amulet by 10% of the Traveler's Energy Recharge.",
                     "id": 102201,
-                    "name": "Resounding Roar"
+                    "name": "Resounding Roar",
+                    "proudSkillGroupId": 1022
                 },
                 "passive3": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.1
+                            ],
+                            "param10": [
+                                3.0
+                            ],
+                            "param11": [
+                                2.0
+                            ],
+                            "param2": [
+                                0.2
+                            ],
+                            "param3": [
+                                0.2
+                            ],
+                            "param4": [
+                                60.0
+                            ],
+                            "param5": [
+                                0.2
+                            ],
+                            "param6": [
+                                0.2
+                            ],
+                            "param7": [
+                                0.2
+                            ],
+                            "param8": [
+                                1.0
+                            ],
+                            "param9": [
+                                15.0
+                            ]
+                        }
+                    },
                     "descriptionRaw": "Draw new strength from journeys past. For every element you have resonated with, you gain additional {LINK#N10050001}<color=#FFD780FF>buffs</color>{/LINK}.\n\nIn addition, when nearby party members unleash an Elemental Burst, Traveler will receive 1 stack of Blade of Resounding Thunder, max 3 stacks. After obtaining 3 stacks of Blade of Resounding Thunder, performing a Charged Attack will consume all stacks of Blade of Resounding Thunder and transform into the special <color=#FFD780FF>Charged Attack: Detonate</color>.\n\n<color=#FFD780FF>Charged Attack: Detonate</color>\n· Each Charged Attack hit deals increased <color=#FFACFFFF>Electro DMG</color>. Increase in DMG is equal to 100% of Traveler's ATK. \n· 3s after hitting the enemy, 1 additional lightning strike will be triggered, dealing <color=#FFACFFFF>Electro DMG</color> equal to 200% of Traveler's ATK. 1 Abundance Amulet will also be created. This DMG is considered Charged Attack DMG.\n· <color=#FFD780FF>Charged Attack: Detonate</color> can be triggered up to once every 15s.",
                     "id": 105101,
-                    "name": "Foreign Thundertrail"
+                    "name": "Foreign Thundertrail",
+                    "proudSkillGroupId": 1051
                 }
             }
         },
@@ -4297,19 +4541,71 @@
                     "filename_passive3": "UI_Talent_S_PlayerRock_07"
                 },
                 "passive1": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {}
+                    },
                     "descriptionRaw": "Reduces <color=#FFD780FF>Starfell Sword</color>'s CD by 2s.",
                     "id": 92101,
-                    "name": "Shattered Darkrock"
+                    "name": "Shattered Darkrock",
+                    "proudSkillGroupId": 921
                 },
                 "passive2": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {}
+                    },
                     "descriptionRaw": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as <color=#FFE699FF>AoE Geo DMG</color>.",
                     "id": 92201,
-                    "name": "Frenzied Rockslide"
+                    "name": "Frenzied Rockslide",
+                    "proudSkillGroupId": 922
                 },
                 "passive3": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.1
+                            ],
+                            "param10": [
+                                0.2
+                            ],
+                            "param11": [
+                                15.0
+                            ],
+                            "param12": [
+                                1.0
+                            ],
+                            "param2": [
+                                0.2
+                            ],
+                            "param3": [
+                                0.2
+                            ],
+                            "param4": [
+                                60.0
+                            ],
+                            "param5": [
+                                0.2
+                            ],
+                            "param6": [
+                                0.2
+                            ],
+                            "param7": [
+                                0.2
+                            ],
+                            "param8": [
+                                1.2
+                            ],
+                            "param9": [
+                                15.0
+                            ]
+                        }
+                    },
                     "descriptionRaw": "Draw new strength from journeys past. For every element you have resonated with, you gain additional {LINK#N10050001}<color=#FFD780FF>buffs</color>{/LINK}.\n\nAdditionally, when nearby party members become protected by a shield, when the shield is replaced for any reason, or when <color=#FFE699FF>Geo Constructs</color> are created, the Traveler will receive 1 stack of Blade of Archaic Petra, max 3 stacks. Up to 1 stack may be obtained every second in this way. After obtaining 3 stacks of Blade of Archaic Petra, performing a Charged Attack will consume all stacks of Blade of Archaic Petra and transform into the special <color=#FFD780FF>Charged Attack: Rockfell</color>.\n\n<color=#FFD780FF>Charged Attack: Rockfell</color>\n· Each Charged Attack hit deals increased <color=#FFE699FF>Geo DMG</color>. Increase in DMG is equal to 120% of Traveler's ATK.\n· For 15s after hitting an opponent, nearby party members will have their shield strength temporarily increased by 20%.\n· <color=#FFD780FF>Charged Attack: Rockfell</color> can be triggered up to once every 15s.",
                     "id": 95101,
-                    "name": "Foreign Adamantine"
+                    "name": "Foreign Adamantine",
+                    "proudSkillGroupId": 951
                 }
             }
         },
@@ -5009,19 +5305,97 @@
                     "filename_passive3": "UI_Talent_S_PlayerWater_07"
                 },
                 "passive1": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                1.0
+                            ],
+                            "param2": [
+                                4.0
+                            ],
+                            "param3": [
+                                0.07
+                            ]
+                        }
+                    },
                     "descriptionRaw": "After the Dewdrop fired by the Hold Mode of the <color=#FFD780FF>Aquacrest Saber</color> hits an opponent, a Sourcewater Droplet will be generated near to the Traveler. If the Traveler picks it up, they will restore 7% HP.\n1 Droplet can be created this way every second, and each use of Aquacrest Saber can create 4 Droplets at most.",
                     "id": 62101,
-                    "name": "Spotless Waters"
+                    "name": "Spotless Waters",
+                    "proudSkillGroupId": 621
                 },
                 "passive2": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.45
+                            ],
+                            "param2": [
+                                5000.0
+                            ]
+                        }
+                    },
                     "descriptionRaw": "If HP has been consumed via Suffusion while using the Hold Mode <color=#FFD780FF>Aquacrest Saber</color>, the Torrent Surge at the skill's end will deal Bonus DMG equal to 45% of the total HP the Traveler has consumed in this skill use via Suffusion.\nThe maximum DMG Bonus that can be gained this way is 5,000.",
                     "id": 62201,
-                    "name": "Clear Waters"
+                    "name": "Clear Waters",
+                    "proudSkillGroupId": 622
                 },
                 "passive3": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.1
+                            ],
+                            "param10": [
+                                4.0
+                            ],
+                            "param11": [
+                                0.5
+                            ],
+                            "param12": [
+                                0.25
+                            ],
+                            "param13": [
+                                0.1
+                            ],
+                            "param14": [
+                                1.0
+                            ],
+                            "param15": [
+                                0.05
+                            ],
+                            "param2": [
+                                0.2
+                            ],
+                            "param3": [
+                                0.2
+                            ],
+                            "param4": [
+                                60.0
+                            ],
+                            "param5": [
+                                0.2
+                            ],
+                            "param6": [
+                                0.2
+                            ],
+                            "param7": [
+                                0.2
+                            ],
+                            "param8": [
+                                1.5
+                            ],
+                            "param9": [
+                                15.0
+                            ]
+                        }
+                    },
                     "descriptionRaw": "Draw new strength from journeys past. For every element you have resonated with, you gain additional {LINK#N10050001}<color=#FFD780FF>buffs</color>{/LINK}.\n\nAdditionally, when nearby party members' current HP increases or decreases by 5%, Traveler will receive 1 stack of Blade of Many Waters. You can gain 1 stack of Blade of Many Waters this way once every 4s, max 3 stacks. After obtaining 3 stacks of Blade of Many Waters, performing a Charged Attack will consume all stacks of Blade of Many Waters and transform into the special <color=#FFD780FF>Charged Attack: Tidebound</color>.\n\n<color=#FFD780FF>Charged Attack: Tidebound</color>\n· Each Charged Attack hit deals increased <color=#80C0FFFF>Hydro DMG</color>. Increase in DMG is equal to 150% of Traveler's ATK,\n· When Traveler's HP is no less than 50%, 10% of Traveler's Max HP will be consumed to increase DMG inflicted by each Charged Attack hit by 100% of Traveler's ATK.\n· When Traveler's HP is lower than 50%, one instance of healing equal to 25% of Traveler's Max HP will be restored upon hitting an enemy.\n· <color=#FFD780FF>Charged Attack: Tidebound</color> can be triggered up to once every 15s.",
                     "id": 65101,
-                    "name": "Foreign Aqualis"
+                    "name": "Foreign Aqualis",
+                    "proudSkillGroupId": 651
                 }
             }
         },
@@ -5632,19 +6006,62 @@
                     "filename_passive3": "UI_Talent_S_PlayerFire_07"
                 },
                 "passive1": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {}
+                    },
                     "descriptionRaw": "When the Traveler has over 20 Nightsoul points, the attack AoE of the Blazing and Scorching Thresholds from the Elemental Skill <color=#FFD780FF>Flowfire Blade</color> after they hit opponents is increased.",
                     "id": 52101,
-                    "name": "True Flame of Incineration"
+                    "name": "True Flame of Incineration",
+                    "proudSkillGroupId": 521
                 },
                 "passive2": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {}
+                    },
                     "descriptionRaw": "After the current active character inside a <color=#FFD780FF>Blazing Threshold</color> or <color=#FFD780FF>Scorching Threshold</color> triggers a <color=#FF9999FF>Pyro-related reaction</color>, the Traveler will regain 5 Energy. This can occur once every 12s. Additionally, when a nearby party member triggers a Nightsoul Burst, the Traveler will regain 4 Energy.",
                     "id": 52201,
-                    "name": "Embers Unspent"
+                    "name": "Embers Unspent",
+                    "proudSkillGroupId": 522
                 },
                 "passive3": {
+                    "attributes": {
+                        "labels": [],
+                        "parameters": {
+                            "param1": [
+                                0.1
+                            ],
+                            "param2": [
+                                0.2
+                            ],
+                            "param3": [
+                                0.2
+                            ],
+                            "param4": [
+                                60.0
+                            ],
+                            "param5": [
+                                0.2
+                            ],
+                            "param6": [
+                                0.2
+                            ],
+                            "param7": [
+                                0.2
+                            ],
+                            "param8": [
+                                2.0
+                            ],
+                            "param9": [
+                                15.0
+                            ]
+                        }
+                    },
                     "descriptionRaw": "Draw new strength from journeys past. For every element you have resonated with, you gain additional {LINK#N10050001}<color=#FFD780FF>buffs</color>{/LINK}.\n\nAdditionally, when nearby party members trigger Nightsoul Burst, Traveler will receive 1 stack of Blade of the Sacred Flame, max 2 stacks. After obtaining 2 stacks of Blade of the Sacred Flame, performing a Charged Attack will consume all stacks of Blade of the Sacred Flame and transform into a special <color=#FFD780FF>Charged Attack: Inferno</color>.\n\n<color=#FFD780FF>Charged Attack: Inferno</color>\n· Each Charged Attack hit deals increased, Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color>. Increase in DMG is equal to 200% of Traveler's ATK.\n· <color=#FFD780FF>Charged Attack: Inferno</color> can be triggered up to once every 15s.",
                     "id": 55101,
-                    "name": "Foreign Starfire"
+                    "name": "Foreign Starfire",
+                    "proudSkillGroupId": 551
                 }
             }
         }

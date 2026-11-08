@@ -1001,19 +1001,38 @@
             "filename_passive3": "UI_Talent_Eula_Combine"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ]
+                }
+            },
             "descriptionRaw": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of <color=#FFD780FF>Icetide Vortex</color>, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by <color=#FFD780FF>Glacial Illumination</color>.",
             "id": 512101,
-            "name": "Roiling Rime"
+            "name": "Roiling Rime",
+            "proudSkillGroupId": 5121
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When <color=#FFD780FF>Glacial Illumination</color> is cast, the CD of <color=#FFD780FF>Icetide Vortex</color> is reset and Eula gains 1 stack of Grimheart.",
             "id": 512201,
-            "name": "Wellspring of War-Lust"
+            "name": "Wellspring of War-Lust",
+            "proudSkillGroupId": 5122
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
             "id": 512301,
-            "name": "Aristocratic Introspection"
+            "name": "Aristocratic Introspection",
+            "proudSkillGroupId": 5123
         }
     },
     "stats": {

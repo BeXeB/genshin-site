@@ -822,19 +822,48 @@
             "filename_passive3": "UI_Talent_S_Dori_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ],
+                    "param2": [
+                        3.0
+                    ]
+                }
+            },
             "descriptionRaw": "After a character connected to the <color=#FFD780FF>Jinni</color> triggers an Electro-Charged, Lunar-Charged, Superconduct, Stellar-Conduct, Overloaded, Quicken, Aggravate, Hyperbloom, Electro Swirl, or Electro Crystallize reaction, the CD of <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> is decreased by 1s.\nThis effect can be triggered once every 3s.",
             "id": 682101,
-            "name": "An Eye for Gold"
+            "name": "An Eye for Gold",
+            "proudSkillGroupId": 6821
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        5.0
+                    ],
+                    "param2": [
+                        15.0
+                    ]
+                }
+            },
             "descriptionRaw": "When the Troubleshooter Shots or After-Sales Service Rounds from <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> hit opponents, Dori will restore 5 Elemental Energy for every 100% Energy Recharge possessed.\nPer Spirit-Warding Lamp: Troubleshooter Cannon, only one instance of Energy restoration can be triggered and a maximum of 15 Energy can be restored this way.",
             "id": 682201,
-            "name": "Compound Interest"
+            "name": "Compound Interest",
+            "proudSkillGroupId": 6822
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Has a 25% chance to recover some of the materials used when crafting Character and Weapon Materials.",
             "id": 682301,
-            "name": "Unexpected Order"
+            "name": "Unexpected Order",
+            "proudSkillGroupId": 6823
         }
     },
     "stats": {

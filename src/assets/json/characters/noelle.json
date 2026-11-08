@@ -894,19 +894,51 @@
             "filename_passive3": "UI_Talent_Cook_Defense"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.3
+                    ],
+                    "param2": [
+                        4.0
+                    ],
+                    "param3": [
+                        20.0
+                    ],
+                    "param4": [
+                        60.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\nThis effect can only occur once every 60s.",
             "id": 342101,
-            "name": "Devotion"
+            "name": "Devotion",
+            "proudSkillGroupId": 3421
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        -1.0
+                    ]
+                }
+            },
             "descriptionRaw": "Noelle will decrease the CD of <color=#FFD780FF>Breastplate</color> by 1s for every 4 Normal or Charged Attack hits she scores on opponents.\nOne hit may be counted every 0.1s.",
             "id": 342201,
-            "name": "Nice and Clean"
+            "name": "Nice and Clean",
+            "proudSkillGroupId": 3422
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.",
             "id": 342301,
-            "name": "Maid's Knighthood"
+            "name": "Maid's Knighthood",
+            "proudSkillGroupId": 3423
         }
     },
     "stats": {

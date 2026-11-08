@@ -806,19 +806,45 @@
             "filename_passive3": "UI_Talent_Combine_Potion"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.7
+                    ]
+                }
+            },
             "descriptionRaw": "Hits by Charged Attacks apply <color=#FFD780FF>Violet Arc</color>'s Conductive status to opponents.",
             "id": 42101,
-            "name": "Induced Aftershock"
+            "name": "Induced Aftershock",
+            "proudSkillGroupId": 421
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ],
+                    "param2": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "Opponents hit by <color=#FFD780FF>Lightning Rose</color> have their DEF decreased by 15% for 10s.",
             "id": 42201,
-            "name": "Static Electricity Field"
+            "name": "Static Electricity Field",
+            "proudSkillGroupId": 422
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used.",
             "id": 42301,
-            "name": "General Pharmaceutics"
+            "name": "General Pharmaceutics",
+            "proudSkillGroupId": 423
         }
     },
     "stats": {
