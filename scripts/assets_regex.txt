@@ -1,0 +1,1 @@
+^(?:UI_(?:Gacha|Avatar|Talent|EquipIcon|ItemIcon)\w*_.+|Skill_[SE]_.+)$
