@@ -875,24 +875,86 @@
             "filename_passive4": "UI_Talent_S_Illuga_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.05
+                    ],
+                    "param2": [
+                        0.1
+                    ],
+                    "param3": [
+                        0.05
+                    ],
+                    "param4": [
+                        0.1
+                    ],
+                    "param5": [
+                        50.0
+                    ],
+                    "param6": [
+                        20.0
+                    ]
+                }
+            },
             "descriptionRaw": "After unleashing Elemental Skill <color=#FFD780FF>{LINK#S11272}Dawnbearing Songbird{/LINK}</color> or Elemental Burst <color=#FFD780FF>{LINK#S11275}Shadowless Reflection{/LINK}</color>, other nearby party members will gain the Lightkeeper's Oath effect for 20s: For <color=#FFE699FF>Geo DMG</color> dealt to opponents, CRIT Rate increases by 5% and CRIT DMG increases by 10%.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color> \nParty members affected by the Lightkeeper's Oath effect have their Elemental Mastery increased by 50.",
             "id": 1272101,
-            "name": "Torchforger's Covenant"
+            "name": "Torchforger's Covenant",
+            "proudSkillGroupId": 12721
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.07
+                    ],
+                    "param2": [
+                        0.14
+                    ],
+                    "param3": [
+                        0.24
+                    ],
+                    "param4": [
+                        0.48
+                    ],
+                    "param5": [
+                        0.96
+                    ],
+                    "param6": [
+                        1.6
+                    ]
+                }
+            },
             "descriptionRaw": "{LINK#N11270001}<color=#FFD780FF>Nightingale's Song</color>{/LINK}'s effects are enhanced: When there are 1/2/3 <color=#80C0FFFF>Hydro</color> or <color=#FFE699FF>Geo</color> characters in the party, Nightingale's Song will further increase DMG. Increase in DMG is equal to 7%/14%/24% of Illuga's Elemental Mastery. If this aforementioned DMG is inflicted by a Lunar-Crystallize reaction, increase in DMG is equal to 48%/96%/160% of Illuga's Elemental Mastery.",
             "id": 1272201,
-            "name": "Demonhunter's Dusk"
+            "name": "Demonhunter's Dusk",
+            "proudSkillGroupId": 12722
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Illuga is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
             "id": 1272301,
-            "name": "Moonsign Benediction: Unwithering in Winter"
+            "name": "Moonsign Benediction: Unwithering in Winter",
+            "proudSkillGroupId": 12723
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.1
+                    ]
+                }
+            },
             "descriptionRaw": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.\nAdditionally, Illuga appears to be able to decipher the whispers of the Wild Hunt...",
             "id": 1272501,
-            "name": "Night Warden's Stride"
+            "name": "Night Warden's Stride",
+            "proudSkillGroupId": 12725
         }
     },
     "stats": {

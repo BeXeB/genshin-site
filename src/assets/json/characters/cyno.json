@@ -984,24 +984,64 @@
             "filename_passive4": "UI_Talent_S_Cyno_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.35
+                    ],
+                    "param2": [
+                        1.0
+                    ],
+                    "param3": [
+                        2.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Cyno is in the Pactsworn Pathclearer state, he will enter the Endseer stance at intervals. If he activates <color=#FFD780FF>Secret Rite: Chasmic Soulfarer</color> while affected by this stance, he will activate the Judication effect, increasing the DMG of this Secret Rite: Chasmic Soulfarer by 35%, and firing off 3 Duststalker Bolts that deal 100% of Cyno's ATK as <color=#FFACFFFF>Electro DMG.</color> Duststalker Bolt DMG is considered Elemental Skill DMG.\n\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: When Judication is triggered, Cyno will instead fire 3 <color=#FFD780FF>Duststalker Bolts - Starsame</color> to his front, dealing <color=#FFACFFFF>Electro DMG</color> at 200% of his ATK. This DMG is considered Stellar-Conduct DMG.",
             "id": 712101,
-            "name": "Featherfall Judgment"
+            "name": "Featherfall Judgment",
+            "proudSkillGroupId": 7121
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.5
+                    ],
+                    "param2": [
+                        2.5
+                    ],
+                    "param3": [
+                        6.0
+                    ]
+                }
+            },
             "descriptionRaw": "Cyno's DMG values will be increased based on his Elemental Mastery as follows:\n· Pactsworn Pathclearer's Normal Attack DMG is increased by 150% of his Elemental Mastery.\n· Duststalker Bolt DMG from his Ascension Talent Featherfall Judgment is increased by 250% of his Elemental Mastery.\n· Duststalker Bolts - Starsame from the Ascension Talent \"Featherfall Judgment\": 600% of Elemental Mastery.",
             "id": 712201,
-            "name": "Authority Over the Nine Bows"
+            "name": "Authority Over the Nine Bows",
+            "proudSkillGroupId": 7122
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours.",
             "id": 712301,
-            "name": "The Gift of Silence"
+            "name": "The Gift of Silence",
+            "proudSkillGroupId": 7123
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "If Cyno unleashes the Elemental Skill <color=#FFD780FF>Secret Rite: Chasmic Soulfarer</color> while not in the Pactsworn Pathclearer state, he will enter Pactsworn Pathclearer for 6s.\nAdditionally, when in a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Cyno will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state.",
             "id": 712401,
-            "name": "A Star With Which to Start the Journey"
+            "name": "A Star With Which to Start the Journey",
+            "proudSkillGroupId": 7124
         }
     },
     "stats": {

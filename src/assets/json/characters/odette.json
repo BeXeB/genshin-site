@@ -806,7 +806,7 @@
                     ]
                 }
             },
-            "descriptionRaw": "With quick, lively dance steps, Odette deals multiple instances of <color=#99FFFFFF>AoE Cryo DMG</color>, and summons her <color=#FFD780FF>{LINK#N11500001}Solo Dance Double{/LINK}</color>. She also gains <color=#FFD780FF>Snow Swan's Dream</color>, which increases the Stellar Glimmer reaction DMG Odette deals.\nAdditionally, for 6s after unleashing the Elemental Burst <color=#FFD780FF>Presto: Bluebird Finale</color>, Odette's Elemental Skill <color=#FFD780FF>Adagio: Phantom Night Dancers</color> will be replaced with the special Elemental Skill {LINK#N11500002}<color=#FFD780FF>Adagio: Coda at Dawn's Tolling</color>{/LINK}{LINK#N11500004}{/LINK} instead.\n\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
+            "descriptionRaw": "With quick, lively dance steps, Odette deals multiple instances of <color=#99FFFFFF>AoE Cryo DMG</color>, and summons her <color=#FFD780FF>{LINK#N11500001}Solo Dance Double</color>{/LINK}. She also gains <color=#FFD780FF>Snow Swan's Dream</color>, which increases the Stellar Glimmer reaction DMG Odette deals.\nAdditionally, for 6s after unleashing the Elemental Burst <color=#FFD780FF>Presto: Bluebird Finale</color>, Odette's Elemental Skill <color=#FFD780FF>Adagio: Phantom Night Dancers</color> will be replaced with the special Elemental Skill {LINK#N11500002}<color=#FFD780FF>Adagio: Coda at Dawn's Tolling</color>{/LINK}{LINK#N11500004}{/LINK} instead.\n\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
             "id": 11505,
             "name": "Presto: Bluebird Finale",
             "proudSkillGroupId": 15039
@@ -1001,24 +1001,78 @@
             "filename_passive4": "UI_Talent_S_Odette_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        4.0
+                    ],
+                    "param2": [
+                        0.15
+                    ],
+                    "param3": [
+                        1.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Odette summons her {LINK#N11500001}<color=#FFD780FF>Solo Dance Double</color>{/LINK}, she also obtains 4 stacks of {LINK#N11500003}<color=#FFD780FF>Marvelous Splendor</color>{/LINK}.",
             "id": 1502101,
-            "name": "Spring Rite of the Chosen One"
+            "name": "Spring Rite of the Chosen One",
+            "proudSkillGroupId": 15021
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1000.0
+                    ],
+                    "param2": [
+                        0.015
+                    ],
+                    "param3": [
+                        0.3
+                    ]
+                }
+            },
             "descriptionRaw": "For every 100 ATK Odette has over 1,000, her Stellar Glimmer DMG is additionally increased by 1.5% of the original DMG. She can deal up to 30% more additional DMG in this way.",
             "id": 1502201,
-            "name": "Pathetique of Pateticheskaya"
+            "name": "Pathetique of Pateticheskaya",
+            "proudSkillGroupId": 15022
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.007
+                    ],
+                    "param2": [
+                        0.14
+                    ]
+                }
+            },
             "descriptionRaw": "Odette will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when she is inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, or the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way.",
             "id": 1502301,
-            "name": "Stellar Jubilee: Dance of Aurore"
+            "name": "Stellar Jubilee: Dance of Aurore",
+            "proudSkillGroupId": 15023
         },
         "passive4": {
-            "descriptionRaw": "Shows the locations of <color=#FFD780FF>Snezhnaya's Local Specialties</color> on the mini-map.\nPracticing dance in one's spare time might even trigger other effects...",
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        50.0
+                    ],
+                    "param2": [
+                        10.0
+                    ]
+                }
+            },
+            "descriptionRaw": "Shows the locations of <color=#FFD780FF>Snezhnaya's Local Specialties</color> on the mini-map, and this effect also applies in the Shadow Realm.\nPracticing dance in one's spare time might even trigger other effects...",
             "id": 1502501,
-            "name": "Echo of Winter Daydreams"
+            "name": "Echo of Winter Daydreams",
+            "proudSkillGroupId": 15025
         }
     },
     "stats": {

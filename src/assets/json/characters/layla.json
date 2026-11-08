@@ -786,19 +786,42 @@
             "filename_passive3": "UI_Talent_Eula_Combine"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.06
+                    ]
+                }
+            },
             "descriptionRaw": "While the <color=#FFD780FF>Curtain of Slumber</color> is active, the Deep Sleep effect will activate each time the Curtain gains 1 Night Star:\n·The Shield Strength of a character under the effect of the Curtain of Slumber increases by 6%.\n·This effect can have a maximum of 4 stacks and persists until the Curtain of Slumber disappears.",
             "id": 742101,
-            "name": "Like Nascent Light"
+            "name": "Like Nascent Light",
+            "proudSkillGroupId": 7421
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.015
+                    ]
+                }
+            },
             "descriptionRaw": "The DMG dealt by the Shooting Stars fired by <color=#FFD780FF>Nights of Formal Focus</color> is increased by 1.5% of Layla's Max HP.",
             "id": 742201,
-            "name": "Sweet Slumber Undisturbed"
+            "name": "Sweet Slumber Undisturbed",
+            "proudSkillGroupId": 7422
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Layla crafts Character Talent Materials, she has a 10% chance to receive double the product.",
             "id": 742301,
-            "name": "Shadowy Dream-Signs"
+            "name": "Shadowy Dream-Signs",
+            "proudSkillGroupId": 7423
         }
     },
     "stats": {

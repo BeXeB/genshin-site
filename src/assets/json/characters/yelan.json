@@ -787,19 +787,60 @@
             "filename_passive3": "UI_Talent_Expedition_Liyue"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.06
+                    ],
+                    "param2": [
+                        0.12
+                    ],
+                    "param3": [
+                        0.18
+                    ],
+                    "param4": [
+                        0.3
+                    ]
+                }
+            },
             "descriptionRaw": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%.",
             "id": 602101,
-            "name": "Turn Control"
+            "name": "Turn Control",
+            "proudSkillGroupId": 6021
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.01
+                    ],
+                    "param2": [
+                        0.035
+                    ],
+                    "param3": [
+                        1.0
+                    ],
+                    "param4": [
+                        14.0
+                    ]
+                }
+            },
             "descriptionRaw": "So long as an <color=#FFD780FF>Exquisite Throw</color> is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration.",
             "id": 602201,
-            "name": "Adapt With Ease"
+            "name": "Adapt With Ease",
+            "proudSkillGroupId": 6022
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
             "id": 602301,
-            "name": "Necessary Calculation"
+            "name": "Necessary Calculation",
+            "proudSkillGroupId": 6023
         }
     },
     "stats": {

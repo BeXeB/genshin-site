@@ -911,19 +911,48 @@
             "filename_passive3": "UI_Talent_Cook_ExtraFailedItem"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.12
+                    ],
+                    "param2": [
+                        8.0
+                    ]
+                }
+            },
             "descriptionRaw": "When a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color> ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s.",
             "id": 462101,
-            "name": "Flutter By"
+            "name": "Flutter By",
+            "proudSkillGroupId": 4621
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ],
+                    "param2": [
+                        0.33
+                    ]
+                }
+            },
             "descriptionRaw": "When Hu Tao's HP is equal to or less than 50%, her <color=#FF9999FF>Pyro DMG Bonus</color> is increased by 33%.",
             "id": 462201,
-            "name": "Sanguine Rouge"
+            "name": "Sanguine Rouge",
+            "proudSkillGroupId": 4622
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Hu Tao cooks a dish perfectly, she has an 18% chance to receive an additional \"Suspicious\" dish of the same type.",
             "id": 462301,
-            "name": "The More the Merrier"
+            "name": "The More the Merrier",
+            "proudSkillGroupId": 4623
         }
     },
     "stats": {

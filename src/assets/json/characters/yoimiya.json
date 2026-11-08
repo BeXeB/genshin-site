@@ -822,19 +822,51 @@
             "filename_passive3": "UI_Talent_S_Yoimiya_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.02
+                    ],
+                    "param2": [
+                        3.0
+                    ]
+                }
+            },
             "descriptionRaw": "During <color=#FFD780FF>Niwabi Fire-Dance</color>, shots from Yoimiya's Normal Attack will increase her <color=#FF9999FF>Pyro DMG Bonus</color> by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks.",
             "id": 492101,
-            "name": "Tricks of the Trouble-Maker"
+            "name": "Tricks of the Trouble-Maker",
+            "proudSkillGroupId": 4921
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.1
+                    ],
+                    "param2": [
+                        0.01
+                    ],
+                    "param3": [
+                        15.0
+                    ]
+                }
+            },
             "descriptionRaw": "Using <color=#FFD780FF>Ryuukin Saxifrage</color> causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of Ascension Talent \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using <color=#FFD780FF>Ryuukin Saxifrage</color>. Each stack increases this ATK Bonus by 1%.",
             "id": 492201,
-            "name": "Summer Night's Dawn"
+            "name": "Summer Night's Dawn",
+            "proudSkillGroupId": 4922
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used.",
             "id": 492301,
-            "name": "Blazing Match"
+            "name": "Blazing Match",
+            "proudSkillGroupId": 4923
         }
     },
     "stats": {

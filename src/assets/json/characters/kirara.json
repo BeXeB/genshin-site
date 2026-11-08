@@ -944,19 +944,51 @@
             "filename_passive3": "UI_Talent_S_Aloy_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.2
+                    ],
+                    "param2": [
+                        3.0
+                    ],
+                    "param3": [
+                        0.5
+                    ]
+                }
+            },
             "descriptionRaw": "When Kirara is in the Urgent Neko Parcel state of <color=#FFD780FF>Meow-teor Kick</color>, each impact against an opponent will grant her a stack of <color=#FFD780FF>Reinforced Packaging</color>. This effect can be triggered once for each opponent hit every 0.5s. Max 3 stacks. When the Urgent Neko Parcel state ends, each stack of Reinforced Packaging will create 1 Shield of Safe Transport for Kirara. The shields that are created this way will have 20% of the DMG absorption that the Shield of Safe Transport produced by <color=#FFD780FF>Meow-teor Kick</color> would have. If Kirara is already protected by a Shield of Safe Transport created by Meow-teor Kick, its DMG absorption will stack with these shields and its duration will reset.",
             "id": 612101,
-            "name": "Bewitching, Betwitching Tails"
+            "name": "Bewitching, Betwitching Tails",
+            "proudSkillGroupId": 6121
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.004
+                    ],
+                    "param2": [
+                        0.003
+                    ]
+                }
+            },
             "descriptionRaw": "Every 1,000 Max HP Kirara possesses will increase the DMG dealt by <color=#FFD780FF>Meow-teor Kick</color> by 0.4%, and the DMG dealt by <color=#FFD780FF>Secret Art: Surprise Dispatch</color> by 0.3%.",
             "id": 612201,
-            "name": "Pupillary Variance"
+            "name": "Pupillary Variance",
+            "proudSkillGroupId": 6122
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Kirara is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them.",
             "id": 612301,
-            "name": "Cat's Creeping Carriage"
+            "name": "Cat's Creeping Carriage",
+            "proudSkillGroupId": 6123
         }
     },
     "stats": {

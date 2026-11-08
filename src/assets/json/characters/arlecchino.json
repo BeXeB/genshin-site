@@ -943,19 +943,67 @@
             "filename_passive3": "UI_Talent_S_Arlecchino_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        5.0
+                    ],
+                    "param2": [
+                        0.65
+                    ],
+                    "param3": [
+                        1.3
+                    ]
+                }
+            },
             "descriptionRaw": "<color=#FFD780FF>Blood-Debt Directives</color> have the following characteristics:\n·Arlecchino will be granted a Bond of Life worth 130% of her Max HP when an opponent to which she herself applied a Directive is defeated.\n·5s after a Directive is applied, it will be upgraded to a Blood-Debt Due. When absorbed, it will instead grant Arlecchino a Bond of Life worth 130%.\nA Bond of Life created in the aforementioned ways cannot exceed the original limit on the value of Bonds of Life obtained through <color=#FFD780FF>All Is Ash</color>.",
             "id": 962101,
-            "name": "Agony Alone May Be Repaid"
+            "name": "Agony Alone May Be Repaid",
+            "proudSkillGroupId": 9621
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1000.0
+                    ],
+                    "param2": [
+                        0.01
+                    ],
+                    "param3": [
+                        0.2
+                    ],
+                    "param4": [
+                        2000.0
+                    ]
+                }
+            },
             "descriptionRaw": "Arlecchino gains 1% All Elemental and Physical RES for every 100 ATK she has in excess of 1,000. The maximum RES increase she can gain this way for each is 20%.",
             "id": 962201,
-            "name": "Strength Alone Can Defend"
+            "name": "Strength Alone Can Defend",
+            "proudSkillGroupId": 9622
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.4
+                    ],
+                    "param2": [
+                        2.0
+                    ],
+                    "param3": [
+                        60.0
+                    ]
+                }
+            },
             "descriptionRaw": "While in combat, Arlecchino gains a 40% <color=#FF9999FF>Pyro DMG Bonus</color> and can only be healed through <color=#FFD780FF>Balemoon Rising</color>.",
             "id": 962301,
-            "name": "The Balemoon Alone May Know"
+            "name": "The Balemoon Alone May Know",
+            "proudSkillGroupId": 9623
         }
     },
     "stats": {

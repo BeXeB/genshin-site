@@ -890,19 +890,60 @@
             "filename_passive3": "UI_Talent_S_Liuyun_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.04
+                    ],
+                    "param2": [
+                        0.06
+                    ],
+                    "param3": [
+                        0.08
+                    ],
+                    "param4": [
+                        0.1
+                    ],
+                    "param5": [
+                        20.0
+                    ]
+                }
+            },
             "descriptionRaw": "Each opponent hit by Driftcloud Waves from <color=#FFD780FF>White Clouds at Dawn</color> will grant all nearby party members 1 stack of Storm Pinion for 20s. Max 4 stacks. These will cause the characters' Plunging Attack CRIT Rate to increase by 4%/6%/8%/10% respectively.\nEach Storm Pinion created by hitting an opponent has an independent duration.",
             "id": 932101,
-            "name": "Galefeather Pursuit"
+            "name": "Galefeather Pursuit",
+            "proudSkillGroupId": 9321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        2.0
+                    ],
+                    "param2": [
+                        4500.0
+                    ],
+                    "param3": [
+                        0.4
+                    ]
+                }
+            },
             "descriptionRaw": "When the Starwicker created by <color=#FFD780FF>Stars Gather at Dusk</color> has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG will be increased by 200% of Xianyun's ATK. The maximum DMG increase that can be achieved this way is 9,000.\nEach Plunging Attack shockwave DMG instance can only apply this increased DMG effect to a single opponent. Each character can trigger this effect once every 0.4s.",
             "id": 932201,
-            "name": "Consider, the Adeptus in Her Realm"
+            "name": "Consider, the Adeptus in Her Realm",
+            "proudSkillGroupId": 9322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Increases gliding SPD for your own party members by 15%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 932301,
-            "name": "Crane Form"
+            "name": "Crane Form",
+            "proudSkillGroupId": 9323
         }
     },
     "stats": {

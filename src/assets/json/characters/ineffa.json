@@ -805,24 +805,65 @@
             "filename_passive4": "UI_Talent_S_Ineffa_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.65
+                    ],
+                    "param2": [
+                        3.5
+                    ]
+                }
+            },
             "descriptionRaw": "If there are thunderclouds created by Lunar-Charged reactions nearby when {LINK#N11160001}<color=#FFD780FF>Birgitta</color>{/LINK} unleashes Discharge attacks, she will initiate an additional attack, dealing <color=#FFACFFFF>AoE Electro DMG</color> equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.",
             "id": 1162101,
-            "name": "Overclocking Circuit"
+            "name": "Overclocking Circuit",
+            "proudSkillGroupId": 11621
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.06
+                    ],
+                    "param2": [
+                        20.0
+                    ]
+                }
+            },
             "descriptionRaw": "When using the Elemental Burst <color=#FFD780FF>{LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK}</color>, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s.",
             "id": 1162201,
-            "name": "Panoramic Permutation Protocol"
+            "name": "Panoramic Permutation Protocol",
+            "proudSkillGroupId": 11622
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.007
+                    ],
+                    "param2": [
+                        0.14
+                    ]
+                }
+            },
             "descriptionRaw": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Ineffa has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Ineffa is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
             "id": 1162301,
-            "name": "Moonsign Benediction: Assemblage Hub"
+            "name": "Moonsign Benediction: Assemblage Hub",
+            "proudSkillGroupId": 11623
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Ineffa uses food, there is a 30% chance of gaining a seasoning ingredient.\n\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means...",
             "id": 1162501,
-            "name": "Flavor Synthesis Unit"
+            "name": "Flavor Synthesis Unit",
+            "proudSkillGroupId": 11625
         }
     },
     "stats": {

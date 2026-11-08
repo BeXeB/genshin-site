@@ -2321,6 +2321,47 @@
         "resultCount": 1
     },
     {
+        "id": 112159,
+        "moraCost": 50,
+        "recipe": [
+            {
+                "count": 3,
+                "id": 112158,
+                "name": "Snowborn Heartshard"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
+        "id": 220029,
+        "moraCost": 0,
+        "recipe": [
+            {
+                "count": 1,
+                "id": 100053,
+                "name": "Flaming Flower Stamen"
+            },
+            {
+                "count": 1,
+                "id": 100081,
+                "name": "Frog"
+            }
+        ],
+        "resultCount": 20
+    },
+    {
+        "id": 112160,
+        "moraCost": 125,
+        "recipe": [
+            {
+                "count": 3,
+                "id": 112159,
+                "name": "Snowborn Mirrorheart"
+            }
+        ],
+        "resultCount": 1
+    },
+    {
         "id": 113070,
         "moraCost": 0,
         "recipe": [
@@ -4242,23 +4283,6 @@
             }
         ],
         "resultCount": 1
-    },
-    {
-        "id": 220029,
-        "moraCost": 0,
-        "recipe": [
-            {
-                "count": 1,
-                "id": 100053,
-                "name": "Flaming Flower Stamen"
-            },
-            {
-                "count": 1,
-                "id": 100081,
-                "name": "Frog"
-            }
-        ],
-        "resultCount": 20
     },
     {
         "id": 220030,

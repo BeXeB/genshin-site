@@ -951,24 +951,62 @@
             "filename_passive4": "UI_Talent_S_Flins_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "Flins will gain a corresponding buff effect based on the party's <color=#FFD780FF>Moonsign</color>.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Lunar-Charged reactions triggered by Flins will deal an additional 20% DMG.",
             "id": 1202101,
-            "name": "Symphony of Winter"
+            "name": "Symphony of Winter",
+            "proudSkillGroupId": 12021
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.08
+                    ],
+                    "param2": [
+                        160.0
+                    ]
+                }
+            },
             "descriptionRaw": "Flins's Elemental Mastery is increased by 8% of his ATK. The maximum increase obtainable this way is 160.",
             "id": 1202201,
-            "name": "Whispering Flame"
+            "name": "Whispering Flame",
+            "proudSkillGroupId": 12022
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.007
+                    ],
+                    "param2": [
+                        0.14
+                    ]
+                }
+            },
             "descriptionRaw": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Flins has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Flins is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
             "id": 1202301,
-            "name": "Moonsign Benediction: Old World Secrets"
+            "name": "Moonsign Benediction: Old World Secrets",
+            "proudSkillGroupId": 12023
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Nod-Krai</color> on the mini-map.\nAdditionally, Flins appears to be able to decipher the whispers of the Wild Hunt...",
             "id": 1202501,
-            "name": "A Light in the Dark"
+            "name": "A Light in the Dark",
+            "proudSkillGroupId": 12025
         }
     },
     "stats": {

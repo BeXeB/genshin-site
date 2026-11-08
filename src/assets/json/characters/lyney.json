@@ -981,19 +981,48 @@
             "filename_passive3": "UI_Talent_S_Liney_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        3.0
+                    ],
+                    "param2": [
+                        0.8
+                    ]
+                }
+            },
             "descriptionRaw": "If Lyney consumes HP when firing off a <color=#FFD780FF>Prop Arrow</color>, the Grin-Malkin hat summoned by the arrow will, upon hitting an opponent, restore 3 Energy to Lyney and increase DMG dealt by 80% of his ATK.",
             "id": 842101,
-            "name": "Perilous Performance"
+            "name": "Perilous Performance",
+            "proudSkillGroupId": 8421
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.6
+                    ],
+                    "param2": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "The DMG Lyney deals to opponents affected by <color=#FF9999FF>Pyro</color> will receive the following buffs:\n·Increases the DMG dealt by 60%.\n·Each <color=#FF9999FF>Pyro</color> party member other than Lyney will cause the DMG dealt to increase by an additional 20%.\nLyney can deal up to 100% increased DMG to opponents affected by <color=#FF9999FF>Pyro</color> in this way.",
             "id": 842201,
-            "name": "Conclusive Ovation"
+            "name": "Conclusive Ovation",
+            "proudSkillGroupId": 8422
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Fontaine</color> on the mini-map.",
             "id": 842301,
-            "name": "Trivial Observations"
+            "name": "Trivial Observations",
+            "proudSkillGroupId": 8423
         }
     },
     "stats": {

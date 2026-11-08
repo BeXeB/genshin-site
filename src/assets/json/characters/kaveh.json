@@ -770,19 +770,48 @@
             "filename_passive3": "UI_Talent_S_Yoimiya_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ],
+                    "param2": [
+                        3.0
+                    ]
+                }
+            },
             "descriptionRaw": "When DMG dealt by a Dendro Core (including DMG from Burgeon and Hyperbloom) hits Kaveh, Kaveh will regain HP equal to 300% of his Elemental Mastery. This effect can be triggered once every 0.5s.",
             "id": 812101,
-            "name": "An Architect's Undertaking"
+            "name": "An Architect's Undertaking",
+            "proudSkillGroupId": 8121
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        4.0
+                    ],
+                    "param2": [
+                        25.0
+                    ]
+                }
+            },
             "descriptionRaw": "During <color=#FFD780FF>Painted Dome</color>, after Kaveh's Normal, Charged, or Plunging Attacks hit opponents, his Elemental Mastery will increase by 25. This effect can be triggered once every 0.1s. Max 4 stacks.\nThis effect will be canceled when Painted Dome's effects end.",
             "id": 812201,
-            "name": "A Craftsman's Curious Conceptions"
+            "name": "A Craftsman's Curious Conceptions",
+            "proudSkillGroupId": 8122
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Kaveh crafts Landscape, Building, and Courtyard-type Furnishings, he has a 100% chance to refund a portion of the materials used.",
             "id": 812301,
-            "name": "The Art of Budgeting"
+            "name": "The Art of Budgeting",
+            "proudSkillGroupId": 8123
         }
     },
     "stats": {

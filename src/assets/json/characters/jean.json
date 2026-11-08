@@ -840,19 +840,45 @@
             "filename_passive3": "UI_Talent_Cook_Heal"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ],
+                    "param2": [
+                        0.15
+                    ]
+                }
+            },
             "descriptionRaw": "On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.",
             "id": 32101,
-            "name": "Wind Companion"
+            "name": "Wind Companion",
+            "proudSkillGroupId": 321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        16.0
+                    ]
+                }
+            },
             "descriptionRaw": "Using <color=#FFD780FF>Dandelion Breeze</color> will regenerate 20% of its Energy.",
             "id": 32201,
-            "name": "Let the Wind Lead"
+            "name": "Let the Wind Lead",
+            "proudSkillGroupId": 322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
             "id": 32301,
-            "name": "Guiding Breeze"
+            "name": "Guiding Breeze",
+            "proudSkillGroupId": 323
         }
     },
     "stats": {

@@ -803,19 +803,45 @@
             "filename_passive3": "UI_Talent_Cook_Heal"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.12
+                    ]
+                }
+            },
             "descriptionRaw": "The Stamina Consumption of characters within <color=#FFD780FF>Let the Show Begin♪</color>'s Melody Loop is reduced by 12%.",
             "id": 142101,
-            "name": "Glorious Season"
+            "name": "Glorious Season",
+            "proudSkillGroupId": 1421
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ],
+                    "param2": [
+                        5.0
+                    ]
+                }
+            },
             "descriptionRaw": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <color=#FFD780FF>Let the Show Begin♪</color> is extended by 1s.\nThe maximum extension is 5s.",
             "id": 142201,
-            "name": "Encore"
+            "name": "Encore",
+            "proudSkillGroupId": 1422
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
             "id": 142301,
-            "name": "With My Whole Heart♪"
+            "name": "With My Whole Heart♪",
+            "proudSkillGroupId": 1423
         }
     },
     "stats": {

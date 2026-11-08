@@ -785,19 +785,45 @@
             "filename_passive3": "UI_Talent_S_Sayu_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ]
+                }
+            },
             "descriptionRaw": "When the dash from the Elemental Skill <color=#FFD780FF>Swallow-Wisp Pinion Dance</color> hits a target, if it interacts with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, the Swallow-Wisp Shield will undergo Elemental Absorption, with the converted shield absorbing DMG from the corresponding element with 250% efficiency.\nAdditionally, if this use of <color=#FFD780FF>Swallow-Wisp Pinion Dance</color> causes the Swallow-Wisp Shield to undergo Elemental Absorption, the Feathermoon Rings that Lan Yan throws at her foes additionally deal Elemental DMG equal to 50% of the original in the corresponding Elemental Type. This DMG is considered Elemental Skill DMG.",
             "id": 1082101,
-            "name": "Four Sealing Divination Charms"
+            "name": "Four Sealing Divination Charms",
+            "proudSkillGroupId": 10821
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        3.09
+                    ],
+                    "param2": [
+                        7.74
+                    ]
+                }
+            },
             "descriptionRaw": "The Elemental Skill <color=#FFD780FF>Swallow-Wisp Pinion Dance</color> and the Elemental Burst <color=#FFD780FF>Lustrous Moonrise</color> deal increased DMG equal to 309% and 774% of Lan Yan's Elemental Mastery respectively.",
             "id": 1082201,
-            "name": "Skyfeather Evil-Subduing Charm"
+            "name": "Skyfeather Evil-Subduing Charm",
+            "proudSkillGroupId": 10822
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Lan Yan is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
             "id": 1082301,
-            "name": "Thought and Intent, Like Silken Scent"
+            "name": "Thought and Intent, Like Silken Scent",
+            "proudSkillGroupId": 10823
         }
     },
     "stats": {

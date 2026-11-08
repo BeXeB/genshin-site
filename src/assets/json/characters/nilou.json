@@ -874,19 +874,54 @@
             "filename_passive3": "UI_Talent_S_Yunjin_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        30.0
+                    ],
+                    "param2": [
+                        100.0
+                    ],
+                    "param3": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "When all characters in the party are all <color=#99FF88FF>Dendro</color> or <color=#80C0FFFF>Hydro</color>, and there are at least one Dendro character and one Hydro character:\nThe completion of the third dance step of Nilou's <color=#FFD780FF>Dance of Haftkarsvar</color> will grant all nearby characters the Golden Chalice's Bounty for 30s.\nCharacters under the effect of Golden Chalice's Bounty will increase the Elemental Mastery of all nearby characters by 100 for 10s whenever they are hit by <color=#99FF88FF>Dendro attacks</color>. Also, triggering the Bloom or Lunar-Bloom reaction will create Bountiful Cores instead of Dendro Cores.\nSuch Cores will burst very quickly after being created, and they have larger AoEs.\nBountiful Cores cannot trigger Hyperbloom or Burgeon, and they share an upper numerical limit with Dendro Cores. Bountiful Core DMG is considered DMG dealt by Dendro Cores produced by Bloom.\nShould the party not meet the conditions for this Ascension Talent, any existing Golden Chalice's Bounty effects will be canceled.",
             "id": 702101,
-            "name": "Court of Dancing Petals"
+            "name": "Court of Dancing Petals",
+            "proudSkillGroupId": 7021
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.09
+                    ],
+                    "param2": [
+                        30000.0
+                    ],
+                    "param3": [
+                        4.0
+                    ]
+                }
+            },
             "descriptionRaw": "Every 1,000 points of Nilou's Max HP above 30,000 will cause the DMG dealt by Bountiful Cores created by characters affected by Golden Chalice's Bounty to increase by 9%.\nThe maximum increase in Bountiful Core DMG that can be achieved this way is 400%.",
             "id": 702201,
-            "name": "Dreamy Dance of Aeons"
+            "name": "Dreamy Dance of Aeons",
+            "proudSkillGroupId": 7022
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product.",
             "id": 702301,
-            "name": "White Jade Lotus"
+            "name": "White Jade Lotus",
+            "proudSkillGroupId": 7023
         }
     },
     "stats": {

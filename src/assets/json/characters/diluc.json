@@ -824,19 +824,48 @@
             "filename_passive3": "UI_Talent_Forge_Claymore"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ],
+                    "param2": [
+                        3.0
+                    ]
+                }
+            },
             "descriptionRaw": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
             "id": 162101,
-            "name": "Relentless"
+            "name": "Relentless",
+            "proudSkillGroupId": 1621
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        4.0
+                    ],
+                    "param2": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "The <color=#FF9999FF>Pyro Infusion</color> provided by <color=#FFD780FF>Dawn</color> lasts for 4s longer. Additionally, Diluc gains 20% <color=#FF9999FF>Pyro DMG Bonus</color> during the duration of this effect.",
             "id": 162201,
-            "name": "Blessing of Phoenix"
+            "name": "Blessing of Phoenix",
+            "proudSkillGroupId": 1622
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Refunds 15% of the ore used when crafting Claymore-type weapons.",
             "id": 162301,
-            "name": "Tradition of the Dawn Knight"
+            "name": "Tradition of the Dawn Knight",
+            "proudSkillGroupId": 1623
         }
     },
     "stats": {

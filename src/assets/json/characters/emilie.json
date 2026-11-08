@@ -806,19 +806,49 @@
             "filename_passive3": "UI_Talent_S_Emilie_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        6.0
+                    ]
+                }
+            },
             "descriptionRaw": "Each time it collects 2 <color=#FFD780FF>Scents</color>, the Level 2 Lumidouce Case will consume Scents and release Cleardew Cologne that deals <color=#99FF88FF>AoE Dendro DMG</color> equal to 600% of Emilie's ATK to opponents. This DMG is not considered Elemental Skill DMG.",
             "id": 992101,
-            "name": "Lingering Fragrance"
+            "name": "Lingering Fragrance",
+            "proudSkillGroupId": 9921
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ],
+                    "param2": [
+                        0.36
+                    ]
+                }
+            },
             "descriptionRaw": "Emilie deals increased DMG to Burning opponents based on her ATK, with every 1,000 ATK increasing DMG dealt by 15%. The maximum DMG bonus that can be gained this way is 36%.",
             "id": 992201,
-            "name": "Rectification"
+            "name": "Rectification",
+            "proudSkillGroupId": 9922
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.85
+                    ]
+                }
+            },
             "descriptionRaw": "When the Lumidouce Case created by Emilie is on the field, all party members gain 85% <color=#FF9999FF>Pyro RES</color> against Burning DMG.",
             "id": 992301,
-            "name": "Headspace Capture"
+            "name": "Headspace Capture",
+            "proudSkillGroupId": 9923
         }
     },
     "stats": {

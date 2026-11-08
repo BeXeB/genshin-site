@@ -892,19 +892,51 @@
             "filename_passive3": "UI_Talent_S_Tohma_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.05
+                    ],
+                    "param2": [
+                        6.0
+                    ],
+                    "param3": [
+                        5.0
+                    ],
+                    "param4": [
+                        0.3
+                    ]
+                }
+            },
             "descriptionRaw": "When your current active character obtains or refreshes a <color=#FFD780FF>Blazing Barrier</color>, this character's Shield Strength will increase by 5% for 6s.\nThis effect can be triggered once every 0.3s seconds. Max 5 stacks.",
             "id": 502101,
-            "name": "Imbricated Armor"
+            "name": "Imbricated Armor",
+            "proudSkillGroupId": 5021
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.022
+                    ]
+                }
+            },
             "descriptionRaw": "DMG dealt by <color=#FFD780FF>Crimson Ooyoroi</color>'s Fiery Collapse is increased by 2.2% of Thoma's Max HP.",
             "id": 502201,
-            "name": "Flaming Assault"
+            "name": "Flaming Assault",
+            "proudSkillGroupId": 5022
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When you <color=#FFD780FF>fish</color> successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch.",
             "id": 502301,
-            "name": "Snap and Swing"
+            "name": "Snap and Swing",
+            "proudSkillGroupId": 5023
         }
     },
     "stats": {

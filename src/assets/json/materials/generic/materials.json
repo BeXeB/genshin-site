@@ -396,6 +396,18 @@
         "type": "generic"
     },
     {
+        "description": "A remnant left behind when a monster formed from ice and snow fades away.\nFor reasons unknown, the creature possesses no intelligence with which to communicate, yet bears a fierce hostility toward certain targets. It is as though that hatred was etched into its very being the moment it took form.",
+        "id": 112159,
+        "images": {
+            "filename_icon": "UI_ItemIcon_112159"
+        },
+        "name": "Snowborn Mirrorheart",
+        "normalizedName": "snowbornmirrorheart",
+        "rarity": 3,
+        "sortRank": 10150,
+        "type": "generic"
+    },
+    {
         "description": "Comes from ancient defunct relic structures. The core that once drove a mechanical beast. Should you come to understand its workings and reproduce it, you could perhaps change the world.",
         "id": 112025,
         "images": {
@@ -1881,6 +1893,30 @@
         "normalizedName": "sproutnodeoflife",
         "rarity": 3,
         "sortRank": 10149,
+        "type": "generic"
+    },
+    {
+        "description": "A remnant left behind when a monster formed from ice and snow fades away.\nSome believe these wintry monsters to be a kind of Snezhnayan fae, yet what they leave behind bears almost no resemblance to the crystals that grow upon a fae's body...",
+        "id": 112158,
+        "images": {
+            "filename_icon": "UI_ItemIcon_112158"
+        },
+        "name": "Snowborn Heartshard",
+        "normalizedName": "snowbornheartshard",
+        "rarity": 2,
+        "sortRank": 10150,
+        "type": "generic"
+    },
+    {
+        "description": "A remnant left behind when a monster formed from ice and snow fades away.\nUnder the influence of some unknown, overwhelming power, these monsters, at once humanoid and beastlike, take form in a way unlike ordinary elemental beings. The proof lies in the power core they leave behind, its jagged growths jutting outward like the unruly scales of some primeval creature.",
+        "id": 112160,
+        "images": {
+            "filename_icon": "UI_ItemIcon_112160"
+        },
+        "name": "Snowborn Heart of Ignorance",
+        "normalizedName": "snowbornheartofignorance",
+        "rarity": 4,
+        "sortRank": 10150,
         "type": "generic"
     }
 ]

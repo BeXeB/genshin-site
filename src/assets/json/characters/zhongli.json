@@ -859,19 +859,48 @@
             "filename_passive3": "UI_Talent_Forge_Pole"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.05
+                    ]
+                }
+            },
             "descriptionRaw": "When the Jade Shield takes DMG, it will Fortify:\n·Fortified characters have 5% increased Shield Strength.\nCan stack up to 5 times, and lasts until the Jade Shield disappears.",
             "id": 302101,
-            "name": "Resonant Waves"
+            "name": "Resonant Waves",
+            "proudSkillGroupId": 3021
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.0139
+                    ],
+                    "param2": [
+                        0.019
+                    ],
+                    "param3": [
+                        0.33
+                    ]
+                }
+            },
             "descriptionRaw": "Zhongli deals bonus DMG based on his Max HP:\n·Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\n·<color=#FFD780FF>Dominus Lapidis'</color> Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\n·<color=#FFD780FF>Planet Befall's</color> DMG is increased by 33% of Max HP.",
             "id": 302201,
-            "name": "Dominance of Earth"
+            "name": "Dominance of Earth",
+            "proudSkillGroupId": 3022
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Refunds 15% of the ore used when crafting Polearm-type weapons.",
             "id": 302301,
-            "name": "Arcanum of Crystal"
+            "name": "Arcanum of Crystal",
+            "proudSkillGroupId": 3023
         }
     },
     "stats": {

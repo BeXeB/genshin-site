@@ -822,19 +822,57 @@
             "filename_passive3": "UI_Talent_S_Escoffier_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.3824
+                    ],
+                    "param2": [
+                        9.0
+                    ]
+                }
+            },
             "descriptionRaw": "After using the Elemental Burst <color=#FFD780FF>{LINK#S11125}Scoring Cuts{/LINK}</color>, Escoffier will obtain the Rehab Diet effect for 9s: Restores HP for nearby active characters every 1s based on 138.24% of Escoffier's ATK.",
             "id": 1122101,
-            "name": "Better to Salivate Than Medicate"
+            "name": "Better to Salivate Than Medicate",
+            "proudSkillGroupId": 11221
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.05
+                    ],
+                    "param2": [
+                        0.1
+                    ],
+                    "param3": [
+                        0.15
+                    ],
+                    "param4": [
+                        0.55
+                    ],
+                    "param5": [
+                        12.0
+                    ]
+                }
+            },
             "descriptionRaw": "When there are 1/2/3/4 <color=#80C0FFFF>Hydro</color> or <color=#99FFFFFF>Cryo</color> characters in the party, Escoffier will decrease the <color=#80C0FFFF>Hydro RES</color> and <color=#99FFFFFF>Cryo RES</color> of any opponents hit by her Elemental Skill, <color=#FFD780FF>{LINK#S11122}Low-Temperature Cooking{/LINK}</color>, or her Elemental Burst, <color=#FFD780FF>{LINK#S11125}Scoring Cuts{/LINK}</color>, by 5%/10%/15%/55% for 12s.",
             "id": 1122201,
-            "name": "Inspiration-Immersed Seasoning"
+            "name": "Inspiration-Immersed Seasoning",
+            "proudSkillGroupId": 11222
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "#When using the Hold form of her Elemental Skill <color=#FFD780FF>{LINK#S11122}Low-Temperature Cooking{/LINK}</color>, Escoffier will activate her All-Spectrum Multi-Use Cooking Mek in its Off-the-Cuff Cookery mode.\n\n<color=#FFD780FF>Cooking Mek: Off-the-Cuff Cookery Mode</color>\n· Places the Cooking Mek on the field. The Cooking Mek can absorb elemental attacks. When the absorbed elemental energy hits a certain limit, Escoffier can convert the ingredients placed within it into wonderful food.\n· Escoffier needs time to purchase new ingredients, so she can only make a certain number of dishes like this each week. The number of dishes Escoffier can make resets every Monday at 4:00 AM {TIMEZONE}.",
             "id": 1122301,
-            "name": "Constant Off-the-Cuff Cookery"
+            "name": "Constant Off-the-Cuff Cookery",
+            "proudSkillGroupId": 11223
         }
     },
     "stats": {

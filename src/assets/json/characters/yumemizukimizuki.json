@@ -824,24 +824,68 @@
             "filename_passive4": "UI_Talent_S_Mizuki_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Yumemizuki Mizuki triggers a Swirl or Stellar Swirl reaction while in her Dreamdrifter state, Dreamdrifter's duration increases by 2.5s. This effect can trigger once every 0.3s for a maximum of 2 times per Dreamdrifter state.",
             "id": 1092101,
-            "name": "Bright Moon's Restless Voice"
+            "name": "Bright Moon's Restless Voice",
+            "proudSkillGroupId": 10921
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        100.0
+                    ],
+                    "param2": [
+                        4.0
+                    ]
+                }
+            },
             "descriptionRaw": "While Yumemizuki Mizuki is in the Dreamdrifter state, when other nearby party members hit opponents with <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color>, or <color=#FFACFFFF>Electro</color> attacks, her Elemental Mastery will increase by 100 for 4s.",
             "id": 1092201,
-            "name": "Thoughts by Day Bring Dreams by Night"
+            "name": "Thoughts by Day Bring Dreams by Night",
+            "proudSkillGroupId": 10922
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.3
+                    ]
+                }
+            },
             "descriptionRaw": "When Yumemizuki Mizuki is in the party, party members have a chance to recover 30% additional HP when using healing foods that do not have reviving properties. The trigger chance for this effect increases with the corresponding character's Friendship Level. (This effect will always trigger if the Traveler is the character consuming healing food.)",
             "id": 1092301,
-            "name": "All Ailments Banished"
+            "name": "All Ailments Banished",
+            "proudSkillGroupId": 10923
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        10.0
+                    ],
+                    "param2": [
+                        2.5
+                    ],
+                    "param3": [
+                        0.1
+                    ],
+                    "param4": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Yumemizuki Mizuki triggers a Swirl or Stellar Swirl reaction while in the Dreamdrifter state, the next instance of periodic <color=#80FFD7FF>AoE Anemo DMG</color> she deals to nearby enemies during that same state will be increased by 1,000% of her Elemental Mastery. The aforementioned effect can trigger once every 2.5s.\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: When Yumemizuki Mizuki deals to an opponent the above enhanced <color=#80FFD7FF>AoE Anemo DMG</color>, she will also deal an additional instance of <color=#80FFD7FF>Anemo DMG</color> at 1,000% of her Elemental Mastery. This DMG is considered Stellar Swirl reaction DMG.\n\nAdditionally, while Yumemizuki Mizuki is in the Dreamdrifter state, the Elemental Mastery of nearby party characters is also increased by 10% of her Elemental Mastery.\nYumemizuki Mizuki will also enter the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s when a nearby party member triggers a Stellar Swirl reaction.",
             "id": 1095101,
-            "name": "Vast Be the Dream"
+            "name": "Vast Be the Dream",
+            "proudSkillGroupId": 10951
         }
     },
     "stats": {

@@ -788,19 +788,48 @@
             "filename_passive3": "UI_Talent_S_Gorou_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.25
+                    ],
+                    "param2": [
+                        12.0
+                    ]
+                }
+            },
             "descriptionRaw": "After using <color=#FFD780FF>Juuga: Forward Unto Victory</color>, all nearby party members' DEF is increased by 25% for 12s.",
             "id": 552101,
-            "name": "Heedless of the Wind and Weather"
+            "name": "Heedless of the Wind and Weather",
+            "proudSkillGroupId": 5521
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.56
+                    ],
+                    "param2": [
+                        0.156
+                    ]
+                }
+            },
             "descriptionRaw": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\n· <color=#FFD780FF>Inuzaka All-Round Defense</color>: Skill DMG increased by 156% of DEF\n· <color=#FFD780FF>Juuga: Forward Unto Victory</color>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
             "id": 552201,
-            "name": "A Favor Repaid"
+            "name": "A Favor Repaid",
+            "proudSkillGroupId": 5522
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Inazuma</color> on the mini-map.",
             "id": 552301,
-            "name": "Seeker of Shinies"
+            "name": "Seeker of Shinies",
+            "proudSkillGroupId": 5523
         }
     },
     "stats": {

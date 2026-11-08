@@ -873,24 +873,80 @@
             "filename_passive4": "UI_Talent_S_Mona_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        2.0
+                    ],
+                    "param2": [
+                        2.0
+                    ],
+                    "param3": [
+                        0.5
+                    ]
+                }
+            },
             "descriptionRaw": "After she has used <color=#FFD780FF>Illusory Torrent</color> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <color=#FFD780FF>Mirror Reflection of Doom</color>.",
             "id": 412101,
-            "name": "\"Come 'n' Get Me, Hag!\""
+            "name": "\"Come 'n' Get Me, Hag!\"",
+            "proudSkillGroupId": 4121
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ],
+                    "param2": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "Increases Mona's <color=#80C0FFFF>Hydro DMG Bonus</color> by a degree equivalent to 20% of her Energy Recharge rate.",
             "id": 412201,
-            "name": "Waterborne Destiny"
+            "name": "Waterborne Destiny",
+            "proudSkillGroupId": 4122
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used.",
             "id": 412301,
-            "name": "Principium of Astrology"
+            "name": "Principium of Astrology",
+            "proudSkillGroupId": 4123
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        8.0
+                    ],
+                    "param2": [
+                        3.0
+                    ],
+                    "param3": [
+                        0.05
+                    ],
+                    "param4": [
+                        2.0
+                    ],
+                    "param5": [
+                        4.0
+                    ],
+                    "param6": [
+                        0.5
+                    ]
+                }
+            },
             "descriptionRaw": "After completing <color=#FFD780FF>Witch's Homework: Of Untested Insight</color>, Mona will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\nWhen Mona's Normal Attacks or Charged Attacks hit an opponent, she gains 1 stack of <color=#FFD780FF>Astral Glow of Mercury</color>, for 8s. Max 3 stacks. This effect can grant at most one stack every 0.1s. When other party members trigger a Vaporize reaction on an enemy, all Astral Glow of Mercury stacks are consumed. Each stack consumed increases the damage of that Vaporize reaction by 5%.\nAdditionally, when Mona's Normal Attacks or Charged Attacks hit an opponent, the enemy's <color=#FFD780FF>Omen</color> duration is extended by 2s. This effect can trigger at most once every 0.5s, and can extend the Omen by up to 8s through this method.",
             "id": 415101,
-            "name": "Witch's Eve Rite: Genesis of Starsigns"
+            "name": "Witch's Eve Rite: Genesis of Starsigns",
+            "proudSkillGroupId": 4151
         }
     },
     "stats": {

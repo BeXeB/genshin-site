@@ -753,24 +753,72 @@
             "filename_passive4": "UI_Talent_S_Kachina_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        20.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Sharky's Surging Bite hits an opponent, a Puffer will be generated nearby. Mualani will restore 20 Nightsoul points when she picks up a Puffer. Only 2 such Puffers can be created in this way during a single instance of being in Nightsoul's Blessing.",
             "id": 1022101,
-            "name": "Heat-Resistant Freshwater Floater"
+            "name": "Heat-Resistant Freshwater Floater",
+            "proudSkillGroupId": 10221
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        20.0
+                    ],
+                    "param2": [
+                        0.15
+                    ],
+                    "param3": [
+                        0.3
+                    ],
+                    "param4": [
+                        0.45
+                    ]
+                }
+            },
             "descriptionRaw": "After a nearby party member triggers a Nightsoul Burst, Mualani will gain 1 stack of Wavechaser's Exploits, which lasts for 20s. Max 3 stacks. When she uses <color=#FFD780FF>Boomsharka-laka</color>, Mualani will clear all Wavechaser's Exploits stacks and increase the DMG of this Boomsharka-laka by 15%/30%/45% of her Max HP based on the number of stacks cleared.",
             "id": 1022201,
-            "name": "Natlan's Greatest Guide"
+            "name": "Natlan's Greatest Guide",
+            "proudSkillGroupId": 10222
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.25
+                    ],
+                    "param2": [
+                        0.65
+                    ]
+                }
+            },
             "descriptionRaw": "After her Nightsoul points are depleted, Mualani will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Mualani. When the active character is currently sprinting, swimming, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Mualani: Mualani will enter the Nightsoul's Blessing state and gain 40 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, Mualani's Nightsoul point or Phlogiston consumption while moving on water and Liquid Phlogiston during Nightsoul's Blessing is decreased by 75% while in Natlan, and her Nightsoul point consumption is decreased by 35% while doing the same outside Natlan.",
             "id": 1022301,
-            "name": "Night Realm's Gift: Crests and Troughs"
+            "name": "Night Realm's Gift: Crests and Troughs",
+            "proudSkillGroupId": 10223
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        15.0
+                    ]
+                }
+            },
             "descriptionRaw": "While in an area with Phlogiston Mechanics within Natlan, 15 Phlogiston will be restored when interacting with some harvestable items. Additionally, the location of nearby <color=#FFD780FF>resources unique to Natlan</color> will appear on your mini-map.",
             "id": 1022501,
-            "name": "The Trick Is to Keep Smiling!"
+            "name": "The Trick Is to Keep Smiling!",
+            "proudSkillGroupId": 10225
         }
     },
     "stats": {

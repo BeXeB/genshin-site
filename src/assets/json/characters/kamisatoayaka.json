@@ -786,19 +786,58 @@
             "filename_passive3": "UI_Talent_Combine_Weapon_Double"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.3
+                    ],
+                    "param2": [
+                        6.0
+                    ]
+                }
+            },
             "descriptionRaw": "After using <color=#FFD780FF>Kamisato Art: Hyouka</color>, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s.",
             "id": 22101,
-            "name": "Amatsumi Kunitsumi Sanctification"
+            "name": "Amatsumi Kunitsumi Sanctification",
+            "proudSkillGroupId": 221
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        10.0
+                    ],
+                    "param2": [
+                        0.18
+                    ],
+                    "param3": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "When the Cryo application at the end of <color=#FFD780FF>Kamisato Art: Senho</color> hits an opponent, Kamisato Ayaka gains the following effects:\n·Restores 10 Stamina\n·Gains 18% <color=#99FFFFFF>Cryo DMG Bonus</color> for 10s.",
             "id": 22201,
-            "name": "Kanten Senmyou Blessing"
+            "name": "Kanten Senmyou Blessing",
+            "proudSkillGroupId": 222
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.1
+                    ],
+                    "param2": [
+                        2.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product.",
             "id": 22301,
-            "name": "Fruits of Shinsa"
+            "name": "Fruits of Shinsa",
+            "proudSkillGroupId": 223
         }
     },
     "stats": {

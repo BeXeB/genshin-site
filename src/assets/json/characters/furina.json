@@ -1001,19 +1001,57 @@
             "filename_passive3": "UI_Talent_S_Furina_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        4.0
+                    ],
+                    "param2": [
+                        2.0
+                    ],
+                    "param3": [
+                        0.02
+                    ]
+                }
+            },
             "descriptionRaw": "When the active character in your party receives healing, if the source of the healing is not Furina herself and the healing overflows, then Furina will heal nearby party members for 2% of their Max HP once every 2s for the next 4s.",
             "id": 892101,
-            "name": "Endless Waltz"
+            "name": "Endless Waltz",
+            "proudSkillGroupId": 8921
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.007
+                    ],
+                    "param2": [
+                        0.28
+                    ],
+                    "param3": [
+                        0.004
+                    ],
+                    "param4": [
+                        0.16
+                    ]
+                }
+            },
             "descriptionRaw": "Every 1,000 points of Furina's Max HP can buff the different Arkhe-aligned <color=#FFD780FF>Salon Solitaire</color> in the following ways:\nWill increase Salon Members' DMG dealt by 0.7%, up to a maximum of 28%.\nWill decrease the Singer of Many Waters' healing interval for nearby active characters by 0.4%, up to a maximum of 16%.",
             "id": 892201,
-            "name": "Unheard Confession"
+            "name": "Unheard Confession",
+            "proudSkillGroupId": 8922
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Xenochromatic Fontemer Aberrant ability CD decreased by 30%.",
             "id": 892301,
-            "name": "The Sea Is My Stage"
+            "name": "The Sea Is My Stage",
+            "proudSkillGroupId": 8923
         }
     },
     "stats": {

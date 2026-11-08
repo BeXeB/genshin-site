@@ -873,19 +873,60 @@
             "filename_passive3": "UI_Talent_S_Sigewinne_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        80.0
+                    ],
+                    "param2": [
+                        2800.0
+                    ],
+                    "param3": [
+                        18.0
+                    ],
+                    "param4": [
+                        0.08
+                    ],
+                    "param5": [
+                        10.0
+                    ],
+                    "param6": [
+                        30000.0
+                    ]
+                }
+            },
             "descriptionRaw": "Sigewinne grants herself the \"Semi-Strict Bedrest\" effect for 18s after using <color=#FFD780FF>Rebound Hydrotherapy</color>: Sigewinne gains an 8% <color=#80C0FFFF>Hydro DMG Bonus</color> and 10 stacks of Convalescence. When the Elemental Skills of your nearby off-field party members other than Sigewinne deal DMG, consume 1 stack of Convalescence, and increase the DMG dealt by this instance of Elemental Skill DMG. Every 1,000 Max HP Sigewinne has above 30,000 increases the DMG by 80. The maximum DMG increase for Elemental Skills that can be gained in this way is 2,800.",
             "id": 952101,
-            "name": "Requires Appropriate Rest"
+            "name": "Requires Appropriate Rest",
+            "proudSkillGroupId": 9521
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.03
+                    ],
+                    "param2": [
+                        0.3
+                    ]
+                }
+            },
             "descriptionRaw": "When Sigewinne performs healing, the amount healed for this instance is increased based on the total current value of the Bonds of Life on all party members: For each 1,000 HP worth of Bonds of Life, the outgoing healing is increased by 3%. The amount of healing provided can be increased by up to 30% in this way.",
             "id": 952201,
-            "name": "Detailed Diagnosis, Thorough Treatment"
+            "name": "Detailed Diagnosis, Thorough Treatment",
+            "proudSkillGroupId": 9522
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "While underwater, heals your active character over 2.5s when their HP falls under 50%. The amount healed is equal to 50% of their Max HP, and their All Elemental and Physical RES will be decreased by 10% for 10s. This effect can be triggered up to once every 20s.",
             "id": 952301,
-            "name": "Emergency Dose"
+            "name": "Emergency Dose",
+            "proudSkillGroupId": 9523
         }
     },
     "stats": {

@@ -913,24 +913,71 @@
             "filename_passive4": "UI_Talent_S_Xilonen_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        35.0
+                    ],
+                    "param2": [
+                        0.3
+                    ]
+                }
+            },
             "descriptionRaw": "While in the Nightsoul's Blessing state:\n·If Xilonen has at least 2 Source Samples that have had their Elemental Types changed, she gains 35 Nightsoul points when her Normal or Plunging Attacks hit opponents. Can be triggered once every 0.1s.\n·If Xilonen has fewer than 2 Source Samples that have had their Elemental Types changed, her Normal and Plunging Attacks deal 30% increased DMG.",
             "id": 1032101,
-            "name": "Netotiliztli's Echoes"
+            "name": "Netotiliztli's Echoes",
+            "proudSkillGroupId": 10321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        14.0
+                    ],
+                    "param2": [
+                        0.2
+                    ],
+                    "param3": [
+                        15.0
+                    ]
+                }
+            },
             "descriptionRaw": "While in the Nightsoul's Blessing state, when Xilonen's Nightsoul points reach the maximum, she will trigger an effect equal to that of her Nightsoul Burst. This effect can be triggered once every 14s.\nAdditionally, when nearby party members trigger a Nightsoul Burst, Xilonen's DEF is increased by 20% for 15s.",
             "id": 1032201,
-            "name": "Portable Armored Sheath"
+            "name": "Portable Armored Sheath",
+            "proudSkillGroupId": 10322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "After her Nightsoul points are fully depleted, Xilonen will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Xilonen. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Xilonen: Xilonen will enter the Nightsoul's Blessing state and gain 20 Nightsoul points. In this situation, Xilonen's Nightsoul points have a 4s time limit, after which her Nightsoul points will immediately expire. After she uses <color=#FFD780FF>Yohual's Scratch</color> within this time limit, her Nightsoul point time limit will be extended by 9s. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, while in Natlan, Xilonen will not consume Stamina when climbing while in the Nightsoul's Blessing state.",
             "id": 1032301,
-            "name": "Night Realm's Gift: Blessing of Forge-Fire"
+            "name": "Night Realm's Gift: Blessing of Forge-Fire",
+            "proudSkillGroupId": 10323
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.0
+                    ],
+                    "param2": [
+                        0.0
+                    ],
+                    "param3": [
+                        15.0
+                    ]
+                }
+            },
             "descriptionRaw": "Triggering Nightsoul Transmission restores 15 Phlogiston.",
             "id": 1032501,
-            "name": "Tour of Tepeilhuitl"
+            "name": "Tour of Tepeilhuitl",
+            "proudSkillGroupId": 10325
         }
     },
     "stats": {

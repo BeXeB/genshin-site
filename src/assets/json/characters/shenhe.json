@@ -911,19 +911,51 @@
             "filename_passive3": "UI_Talent_Expedition_Liyue"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ]
+                }
+            },
             "descriptionRaw": "An active character within the field created by <color=#FFD780FF>Divine Maiden's Deliverance</color> gains 15% <color=#99FFFFFF>Cryo DMG Bonus</color>.",
             "id": 632101,
-            "name": "Deific Embrace"
+            "name": "Deific Embrace",
+            "proudSkillGroupId": 6321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ],
+                    "param2": [
+                        10.0
+                    ],
+                    "param3": [
+                        0.15
+                    ],
+                    "param4": [
+                        15.0
+                    ]
+                }
+            },
             "descriptionRaw": "#After Shenhe uses <color=#FFD780FF>Spring Spirit Summoning</color>, she will grant all nearby party members the following effects:\n· {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s.",
             "id": 632201,
-            "name": "Spirit Communion Seal"
+            "name": "Spirit Communion Seal",
+            "proudSkillGroupId": 6322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
             "id": 632301,
-            "name": "Precise Comings and Goings"
+            "name": "Precise Comings and Goings",
+            "proudSkillGroupId": 6323
         }
     },
     "stats": {

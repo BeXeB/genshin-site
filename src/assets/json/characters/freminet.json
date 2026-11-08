@@ -947,19 +947,45 @@
             "filename_passive3": "UI_Talent_S_Freminet_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Freminet unleashes <color=#FFD780FF>Pressurized Floe: Shattering Pressure</color>, if Pers Timer has yet to reach Pressure Level 4, the CD of Pressurized Floe will be decreased by 1s.",
             "id": 852101,
-            "name": "Saturation Deep Dive"
+            "name": "Saturation Deep Dive",
+            "proudSkillGroupId": 8521
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.4
+                    ],
+                    "param2": [
+                        5.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Freminet triggers Shatter against opponents, the DMG dealt by <color=#FFD780FF>Pressurized Floe: Shattering Pressure</color> will be increased by 40% for 5s.",
             "id": 852201,
-            "name": "Parallel Condensers"
+            "name": "Parallel Condensers",
+            "proudSkillGroupId": 8522
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases Aquatic Stamina consumption for your own party members by 35%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 852301,
-            "name": "Deepwater Navigation"
+            "name": "Deepwater Navigation",
+            "proudSkillGroupId": 8523
         }
     },
     "stats": {

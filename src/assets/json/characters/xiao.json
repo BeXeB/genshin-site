@@ -804,19 +804,48 @@
             "filename_passive3": "UI_Talent_Explosion_Climb"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.05
+                    ]
+                }
+            },
             "descriptionRaw": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\nThe maximum DMG Bonus is 25%.",
             "id": 262101,
-            "name": "Conqueror of Evil: Tamer of Demons"
+            "name": "Conqueror of Evil: Tamer of Demons",
+            "proudSkillGroupId": 2621
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        7.0
+                    ],
+                    "param2": [
+                        0.15
+                    ],
+                    "param3": [
+                        3.0
+                    ]
+                }
+            },
             "descriptionRaw": "Using <color=#FFD780FF>Lemniscatic Wind Cycling</color> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.",
             "id": 262201,
-            "name": "Dissolution Eon: Heaven Fall"
+            "name": "Dissolution Eon: Heaven Fall",
+            "proudSkillGroupId": 2622
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 262301,
-            "name": "Transcension: Gravity Defier"
+            "name": "Transcension: Gravity Defier",
+            "proudSkillGroupId": 2623
         }
     },
     "stats": {

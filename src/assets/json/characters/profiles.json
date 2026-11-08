@@ -437,6 +437,29 @@
         "weaponType": "WEAPON_BOW"
     },
     {
+        "affiliation": "Royal Energy Commission of Snezhnaya",
+        "birthdaymmdd": "2/8",
+        "constellation": "Nodus Gordianus",
+        "description": "An exceptionally ingenious energy specialist and a master of the fine art of \"schedule-dodging.\"",
+        "elementType": "ELEMENT_ELECTRO",
+        "id": 10000136,
+        "images": {
+            "filename_gachaSlice": "UI_Gacha_AvatarIcon_Mitya",
+            "filename_gachaSplash": "UI_Gacha_AvatarImg_Mitya",
+            "filename_icon": "UI_AvatarIcon_Mitya",
+            "filename_iconCard": "UI_AvatarIcon_Mitya_Card",
+            "filename_sideIcon": "UI_AvatarIcon_Side_Mitya"
+        },
+        "name": "Mitya",
+        "normalizedName": "mitya",
+        "qualityType": "QUALITY_ORANGE",
+        "rarity": 5,
+        "sortId": 124,
+        "substatType": "FIGHT_PROP_CRITICAL_HURT",
+        "title": "Rules Set at Naught",
+        "weaponType": "WEAPON_CATALYST"
+    },
+    {
         "affiliation": "Wanmin Restaurant",
         "birthdaymmdd": "11/2",
         "constellation": "Trulla",
@@ -2735,6 +2758,29 @@
         "substatType": "FIGHT_PROP_CRITICAL",
         "title": "Mirrored Analysis",
         "weaponType": "WEAPON_CLAYMORE"
+    },
+    {
+        "affiliation": "Fatui Grenadier Guards First Regiment",
+        "birthdaymmdd": "3/24",
+        "constellation": "Ursus Magnus",
+        "description": "Commander of the Special Assignments Battalion. A soldier skilled at protecting key personnel and keeping operations on track.",
+        "elementType": "ELEMENT_ELECTRO",
+        "id": 10000137,
+        "images": {
+            "filename_gachaSlice": "UI_Gacha_AvatarIcon_Valeriy",
+            "filename_gachaSplash": "UI_Gacha_AvatarImg_Valeriy",
+            "filename_icon": "UI_AvatarIcon_Valeriy",
+            "filename_iconCard": "UI_AvatarIcon_Valeriy_Card",
+            "filename_sideIcon": "UI_AvatarIcon_Side_Valeriy"
+        },
+        "name": "Valeriy",
+        "normalizedName": "valeriy",
+        "qualityType": "QUALITY_PURPLE",
+        "rarity": 4,
+        "sortId": 123,
+        "substatType": "FIGHT_PROP_ATTACK_PERCENT",
+        "title": "Fort Fulguration",
+        "weaponType": "WEAPON_SWORD_ONE_HAND"
     },
     {
         "affiliation": "Korolevskiy Troupe",

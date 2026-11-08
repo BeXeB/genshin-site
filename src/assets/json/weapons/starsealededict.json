@@ -1,0 +1,745 @@
+{
+    "costs": {
+        "ascend1": [
+            {
+                "count": 10000,
+                "id": 202,
+                "name": "Mora"
+            },
+            {
+                "count": 5,
+                "id": 114093,
+                "name": "The Frost Emperor's Revival"
+            },
+            {
+                "count": 5,
+                "id": 112158,
+                "name": "Snowborn Heartshard"
+            },
+            {
+                "count": 3,
+                "id": 112146,
+                "name": "Ethereal Glimmershard"
+            }
+        ],
+        "ascend2": [
+            {
+                "count": 20000,
+                "id": 202,
+                "name": "Mora"
+            },
+            {
+                "count": 5,
+                "id": 114094,
+                "name": "The Frost Emperor's Ceremony"
+            },
+            {
+                "count": 18,
+                "id": 112158,
+                "name": "Snowborn Heartshard"
+            },
+            {
+                "count": 12,
+                "id": 112146,
+                "name": "Ethereal Glimmershard"
+            }
+        ],
+        "ascend3": [
+            {
+                "count": 30000,
+                "id": 202,
+                "name": "Mora"
+            },
+            {
+                "count": 9,
+                "id": 114094,
+                "name": "The Frost Emperor's Ceremony"
+            },
+            {
+                "count": 9,
+                "id": 112159,
+                "name": "Snowborn Mirrorheart"
+            },
+            {
+                "count": 9,
+                "id": 112147,
+                "name": "Ethereal Crystal"
+            }
+        ],
+        "ascend4": [
+            {
+                "count": 45000,
+                "id": 202,
+                "name": "Mora"
+            },
+            {
+                "count": 5,
+                "id": 114095,
+                "name": "The Frost Emperor's Lament"
+            },
+            {
+                "count": 18,
+                "id": 112159,
+                "name": "Snowborn Mirrorheart"
+            },
+            {
+                "count": 14,
+                "id": 112147,
+                "name": "Ethereal Crystal"
+            }
+        ],
+        "ascend5": [
+            {
+                "count": 55000,
+                "id": 202,
+                "name": "Mora"
+            },
+            {
+                "count": 9,
+                "id": 114095,
+                "name": "The Frost Emperor's Lament"
+            },
+            {
+                "count": 14,
+                "id": 112160,
+                "name": "Snowborn Heart of Ignorance"
+            },
+            {
+                "count": 9,
+                "id": 112148,
+                "name": "Ethereal Crystalscale Stone"
+            }
+        ],
+        "ascend6": [
+            {
+                "count": 65000,
+                "id": 202,
+                "name": "Mora"
+            },
+            {
+                "count": 6,
+                "id": 114096,
+                "name": "The Frost Emperor's Farewell"
+            },
+            {
+                "count": 27,
+                "id": 112160,
+                "name": "Snowborn Heart of Ignorance"
+            },
+            {
+                "count": 18,
+                "id": 112148,
+                "name": "Ethereal Crystalscale Stone"
+            }
+        ]
+    },
+    "description": "A hefty tome containing the Royal Energy Commission's internal rules and procedures, with numerous entries dating back many years.",
+    "effectName": "Dawnstar's Flowing Trail",
+    "id": 14525,
+    "images": {
+        "filename_awakenIcon": "UI_EquipIcon_Catalyst_Chernaya_Awaken",
+        "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Chernaya",
+        "filename_icon": "UI_EquipIcon_Catalyst_Chernaya"
+    },
+    "mainStatType": "FIGHT_PROP_CRITICAL_HURT",
+    "name": "Starsealed Edict",
+    "normalizedName": "starsealededict",
+    "qualityType": "QUALITY_ORANGE",
+    "r1": {
+        "description": "Increases CRIT DMG by <color=#99FFFFFF>24%</color>. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by <color=#99FFFFFF>48</color> for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional <color=#99FFFFFF>24</color>. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by <color=#99FFFFFF>12%</color>.\nThese effects can be triggered even when the equipping character is off-field."
+    },
+    "r2": {
+        "description": "Increases CRIT DMG by <color=#99FFFFFF>30%</color>. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by <color=#99FFFFFF>60</color> for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional <color=#99FFFFFF>30</color>. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by <color=#99FFFFFF>15%</color>.\nThese effects can be triggered even when the equipping character is off-field."
+    },
+    "r3": {
+        "description": "Increases CRIT DMG by <color=#99FFFFFF>36%</color>. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by <color=#99FFFFFF>72</color> for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional <color=#99FFFFFF>36</color>. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by <color=#99FFFFFF>18%</color>.\nThese effects can be triggered even when the equipping character is off-field."
+    },
+    "r4": {
+        "description": "Increases CRIT DMG by <color=#99FFFFFF>42%</color>. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by <color=#99FFFFFF>84</color> for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional <color=#99FFFFFF>42</color>. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by <color=#99FFFFFF>21%</color>.\nThese effects can be triggered even when the equipping character is off-field."
+    },
+    "r5": {
+        "description": "Increases CRIT DMG by <color=#99FFFFFF>48%</color>. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by <color=#99FFFFFF>96</color> for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional <color=#99FFFFFF>48</color>. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by <color=#99FFFFFF>24%</color>.\nThese effects can be triggered even when the equipping character is off-field."
+    },
+    "rarity": 5,
+    "sortOrder": 5422,
+    "stats": {
+        "1": {
+            "ascension": 0,
+            "attack": 44.3358,
+            "level": 1,
+            "specialized": 0.192
+        },
+        "10": {
+            "ascension": 0,
+            "attack": 75.7698822,
+            "level": 10,
+            "specialized": 0.261696
+        },
+        "11": {
+            "ascension": 0,
+            "attack": 79.2280746,
+            "level": 11,
+            "specialized": 0.261696
+        },
+        "12": {
+            "ascension": 0,
+            "attack": 82.686267,
+            "level": 12,
+            "specialized": 0.261696
+        },
+        "13": {
+            "ascension": 0,
+            "attack": 86.10012359999999,
+            "level": 13,
+            "specialized": 0.261696
+        },
+        "14": {
+            "ascension": 0,
+            "attack": 89.558316,
+            "level": 14,
+            "specialized": 0.261696
+        },
+        "15": {
+            "ascension": 0,
+            "attack": 93.01650839999999,
+            "level": 15,
+            "specialized": 0.30047999999999997
+        },
+        "16": {
+            "ascension": 0,
+            "attack": 96.430365,
+            "level": 16,
+            "specialized": 0.30047999999999997
+        },
+        "17": {
+            "ascension": 0,
+            "attack": 99.8885574,
+            "level": 17,
+            "specialized": 0.30047999999999997
+        },
+        "18": {
+            "ascension": 0,
+            "attack": 103.302414,
+            "level": 18,
+            "specialized": 0.30047999999999997
+        },
+        "19": {
+            "ascension": 0,
+            "attack": 106.7606064,
+            "level": 19,
+            "specialized": 0.30047999999999997
+        },
+        "2": {
+            "ascension": 0,
+            "attack": 47.8383282,
+            "level": 2,
+            "specialized": 0.192
+        },
+        "20": {
+            "ascension": 0,
+            "attack": 110.17446299999999,
+            "level": 20,
+            "specialized": 0.339264
+        },
+        "20+": {
+            "ascension": 1,
+            "attack": 141.274463,
+            "level": 20,
+            "specialized": 0.339264
+        },
+        "21": {
+            "ascension": 1,
+            "attack": 144.6883196,
+            "level": 21,
+            "specialized": 0.339264
+        },
+        "22": {
+            "ascension": 1,
+            "attack": 148.1021762,
+            "level": 22,
+            "specialized": 0.339264
+        },
+        "23": {
+            "ascension": 1,
+            "attack": 151.5603686,
+            "level": 23,
+            "specialized": 0.339264
+        },
+        "24": {
+            "ascension": 1,
+            "attack": 154.9742252,
+            "level": 24,
+            "specialized": 0.339264
+        },
+        "25": {
+            "ascension": 1,
+            "attack": 158.3880818,
+            "level": 25,
+            "specialized": 0.37804800000000005
+        },
+        "26": {
+            "ascension": 1,
+            "attack": 161.80193839999998,
+            "level": 26,
+            "specialized": 0.37804800000000005
+        },
+        "27": {
+            "ascension": 1,
+            "attack": 165.26013079999998,
+            "level": 27,
+            "specialized": 0.37804800000000005
+        },
+        "28": {
+            "ascension": 1,
+            "attack": 168.6739874,
+            "level": 28,
+            "specialized": 0.37804800000000005
+        },
+        "29": {
+            "ascension": 1,
+            "attack": 172.087844,
+            "level": 29,
+            "specialized": 0.37804800000000005
+        },
+        "3": {
+            "ascension": 0,
+            "attack": 51.3851922,
+            "level": 3,
+            "specialized": 0.192
+        },
+        "30": {
+            "ascension": 1,
+            "attack": 175.5017006,
+            "level": 30,
+            "specialized": 0.416832
+        },
+        "31": {
+            "ascension": 1,
+            "attack": 178.9155572,
+            "level": 31,
+            "specialized": 0.416832
+        },
+        "32": {
+            "ascension": 1,
+            "attack": 182.3737496,
+            "level": 32,
+            "specialized": 0.416832
+        },
+        "33": {
+            "ascension": 1,
+            "attack": 185.7876062,
+            "level": 33,
+            "specialized": 0.416832
+        },
+        "34": {
+            "ascension": 1,
+            "attack": 189.20146279999997,
+            "level": 34,
+            "specialized": 0.416832
+        },
+        "35": {
+            "ascension": 1,
+            "attack": 192.6596552,
+            "level": 35,
+            "specialized": 0.4556160000000001
+        },
+        "36": {
+            "ascension": 1,
+            "attack": 196.0735118,
+            "level": 36,
+            "specialized": 0.4556160000000001
+        },
+        "37": {
+            "ascension": 1,
+            "attack": 199.48736839999998,
+            "level": 37,
+            "specialized": 0.4556160000000001
+        },
+        "38": {
+            "ascension": 1,
+            "attack": 202.94556079999998,
+            "level": 38,
+            "specialized": 0.4556160000000001
+        },
+        "39": {
+            "ascension": 1,
+            "attack": 206.35941739999998,
+            "level": 39,
+            "specialized": 0.4556160000000001
+        },
+        "4": {
+            "ascension": 0,
+            "attack": 54.8877204,
+            "level": 4,
+            "specialized": 0.192
+        },
+        "40": {
+            "ascension": 1,
+            "attack": 209.81760979999999,
+            "level": 40,
+            "specialized": 0.49440000000000006
+        },
+        "40+": {
+            "ascension": 2,
+            "attack": 240.91760979999998,
+            "level": 40,
+            "specialized": 0.49440000000000006
+        },
+        "41": {
+            "ascension": 2,
+            "attack": 244.3758022,
+            "level": 41,
+            "specialized": 0.49440000000000006
+        },
+        "42": {
+            "ascension": 2,
+            "attack": 247.78965879999998,
+            "level": 42,
+            "specialized": 0.49440000000000006
+        },
+        "43": {
+            "ascension": 2,
+            "attack": 251.2478512,
+            "level": 43,
+            "specialized": 0.49440000000000006
+        },
+        "44": {
+            "ascension": 2,
+            "attack": 254.7060436,
+            "level": 44,
+            "specialized": 0.49440000000000006
+        },
+        "45": {
+            "ascension": 2,
+            "attack": 258.11990019999996,
+            "level": 45,
+            "specialized": 0.533184
+        },
+        "46": {
+            "ascension": 2,
+            "attack": 261.5780926,
+            "level": 46,
+            "specialized": 0.533184
+        },
+        "47": {
+            "ascension": 2,
+            "attack": 265.036285,
+            "level": 47,
+            "specialized": 0.533184
+        },
+        "48": {
+            "ascension": 2,
+            "attack": 268.4944774,
+            "level": 48,
+            "specialized": 0.533184
+        },
+        "49": {
+            "ascension": 2,
+            "attack": 271.95266979999997,
+            "level": 49,
+            "specialized": 0.533184
+        },
+        "5": {
+            "ascension": 0,
+            "attack": 58.3902486,
+            "level": 5,
+            "specialized": 0.223104
+        },
+        "50": {
+            "ascension": 2,
+            "attack": 275.455198,
+            "level": 50,
+            "specialized": 0.571968
+        },
+        "50+": {
+            "ascension": 3,
+            "attack": 306.655198,
+            "level": 50,
+            "specialized": 0.571968
+        },
+        "51": {
+            "ascension": 3,
+            "attack": 310.11339039999996,
+            "level": 51,
+            "specialized": 0.571968
+        },
+        "52": {
+            "ascension": 3,
+            "attack": 313.5715828,
+            "level": 52,
+            "specialized": 0.571968
+        },
+        "53": {
+            "ascension": 3,
+            "attack": 317.0297752,
+            "level": 53,
+            "specialized": 0.571968
+        },
+        "54": {
+            "ascension": 3,
+            "attack": 320.53230340000005,
+            "level": 54,
+            "specialized": 0.571968
+        },
+        "55": {
+            "ascension": 3,
+            "attack": 323.99049579999996,
+            "level": 55,
+            "specialized": 0.6107520000000001
+        },
+        "56": {
+            "ascension": 3,
+            "attack": 327.493024,
+            "level": 56,
+            "specialized": 0.6107520000000001
+        },
+        "57": {
+            "ascension": 3,
+            "attack": 330.9955522,
+            "level": 57,
+            "specialized": 0.6107520000000001
+        },
+        "58": {
+            "ascension": 3,
+            "attack": 334.45374460000005,
+            "level": 58,
+            "specialized": 0.6107520000000001
+        },
+        "59": {
+            "ascension": 3,
+            "attack": 337.95627279999997,
+            "level": 59,
+            "specialized": 0.6107520000000001
+        },
+        "6": {
+            "ascension": 0,
+            "attack": 61.848441,
+            "level": 6,
+            "specialized": 0.223104
+        },
+        "60": {
+            "ascension": 3,
+            "attack": 341.458801,
+            "level": 60,
+            "specialized": 0.649536
+        },
+        "60+": {
+            "ascension": 4,
+            "attack": 372.558801,
+            "level": 60,
+            "specialized": 0.649536
+        },
+        "61": {
+            "ascension": 4,
+            "attack": 376.06132920000005,
+            "level": 61,
+            "specialized": 0.649536
+        },
+        "62": {
+            "ascension": 4,
+            "attack": 379.56385739999996,
+            "level": 62,
+            "specialized": 0.649536
+        },
+        "63": {
+            "ascension": 4,
+            "attack": 383.1107214,
+            "level": 63,
+            "specialized": 0.649536
+        },
+        "64": {
+            "ascension": 4,
+            "attack": 386.6132496,
+            "level": 64,
+            "specialized": 0.649536
+        },
+        "65": {
+            "ascension": 4,
+            "attack": 390.1157778,
+            "level": 65,
+            "specialized": 0.68832
+        },
+        "66": {
+            "ascension": 4,
+            "attack": 393.66264179999996,
+            "level": 66,
+            "specialized": 0.68832
+        },
+        "67": {
+            "ascension": 4,
+            "attack": 397.16517,
+            "level": 67,
+            "specialized": 0.68832
+        },
+        "68": {
+            "ascension": 4,
+            "attack": 400.712034,
+            "level": 68,
+            "specialized": 0.68832
+        },
+        "69": {
+            "ascension": 4,
+            "attack": 404.258898,
+            "level": 69,
+            "specialized": 0.68832
+        },
+        "7": {
+            "ascension": 0,
+            "attack": 65.3509692,
+            "level": 7,
+            "specialized": 0.223104
+        },
+        "70": {
+            "ascension": 4,
+            "attack": 407.80576199999996,
+            "level": 70,
+            "specialized": 0.726912
+        },
+        "70+": {
+            "ascension": 5,
+            "attack": 438.905762,
+            "level": 70,
+            "specialized": 0.726912
+        },
+        "71": {
+            "ascension": 5,
+            "attack": 442.452626,
+            "level": 71,
+            "specialized": 0.726912
+        },
+        "72": {
+            "ascension": 5,
+            "attack": 445.9994899999999,
+            "level": 72,
+            "specialized": 0.726912
+        },
+        "73": {
+            "ascension": 5,
+            "attack": 449.54635399999995,
+            "level": 73,
+            "specialized": 0.726912
+        },
+        "74": {
+            "ascension": 5,
+            "attack": 453.093218,
+            "level": 74,
+            "specialized": 0.726912
+        },
+        "75": {
+            "ascension": 5,
+            "attack": 456.6844178,
+            "level": 75,
+            "specialized": 0.765696
+        },
+        "76": {
+            "ascension": 5,
+            "attack": 460.23128180000003,
+            "level": 76,
+            "specialized": 0.765696
+        },
+        "77": {
+            "ascension": 5,
+            "attack": 463.82248159999995,
+            "level": 77,
+            "specialized": 0.765696
+        },
+        "78": {
+            "ascension": 5,
+            "attack": 467.4136814,
+            "level": 78,
+            "specialized": 0.765696
+        },
+        "79": {
+            "ascension": 5,
+            "attack": 470.9605454,
+            "level": 79,
+            "specialized": 0.765696
+        },
+        "8": {
+            "ascension": 0,
+            "attack": 68.8091616,
+            "level": 8,
+            "specialized": 0.223104
+        },
+        "80": {
+            "ascension": 5,
+            "attack": 474.5517452,
+            "level": 80,
+            "specialized": 0.8044800000000001
+        },
+        "80+": {
+            "ascension": 6,
+            "attack": 505.6517452,
+            "level": 80,
+            "specialized": 0.8044800000000001
+        },
+        "81": {
+            "ascension": 6,
+            "attack": 509.242945,
+            "level": 81,
+            "specialized": 0.8044800000000001
+        },
+        "82": {
+            "ascension": 6,
+            "attack": 512.8784806,
+            "level": 82,
+            "specialized": 0.8044800000000001
+        },
+        "83": {
+            "ascension": 6,
+            "attack": 516.4696804,
+            "level": 83,
+            "specialized": 0.8044800000000001
+        },
+        "84": {
+            "ascension": 6,
+            "attack": 520.0608801999999,
+            "level": 84,
+            "specialized": 0.8044800000000001
+        },
+        "85": {
+            "ascension": 6,
+            "attack": 523.6964158,
+            "level": 85,
+            "specialized": 0.8432640000000001
+        },
+        "86": {
+            "ascension": 6,
+            "attack": 527.2876156,
+            "level": 86,
+            "specialized": 0.8432640000000001
+        },
+        "87": {
+            "ascension": 6,
+            "attack": 530.9231512,
+            "level": 87,
+            "specialized": 0.8432640000000001
+        },
+        "88": {
+            "ascension": 6,
+            "attack": 534.5586868,
+            "level": 88,
+            "specialized": 0.8432640000000001
+        },
+        "89": {
+            "ascension": 6,
+            "attack": 538.1942224,
+            "level": 89,
+            "specialized": 0.8432640000000001
+        },
+        "9": {
+            "ascension": 0,
+            "attack": 72.3116898,
+            "level": 9,
+            "specialized": 0.223104
+        },
+        "90": {
+            "ascension": 6,
+            "attack": 541.829758,
+            "level": 90,
+            "specialized": 0.882048
+        }
+    },
+    "story": "\nThis was the primeval beginning, before any torch had burned, when the windless mist smothered the skies,\nWhen the oneness of the frozen expanse had not yet welcomed the dawn, indeed, when morning seemed a thousand years away still.\nIdeals became the flint stones that ignited frigid nights, and order gave sublime passions the seat of honor,\nAnd people yearned for a new war, to vanquish the blizzard of injustice with love.\n\nAnd so, a nameless one forged with their hands a torch that could reach the pale star, dedicating it to an unseen tomorrow.\nAnd so, a nameless one did write poems about the wondrous vistas of rising flames, likening them to the stars that hang high in the heavens,\nAnd spellbound by the vision narrated by a nameless commander, the people believed that a will that transcended the laws would birth a miracle:\n\"There can be no battle without sacrifice in this world. Let us dedicate ourselves to the victory of love! Let our name ring eternal.\"\n\nThe miracle born of passion was unbound by the rules, and the ever-burning flame gave rise to disaster from error,\nAnd the item negligently left within the Kristall mine caused the sound of cracking ice to ring out within the highest torch.\nThe nameless ones had yet to know fear, and they were willing to venture forth into the scorched earth for the glory of the tundra.\nThe nameless commander knew that panic cast a shadow greater than calamity, and after much consideration, left the unknown peril unmentioned,\nAnd let the people's hearts be gladdened as they saw them off on the path with no return, crowning their sacrificial courage with laurels woven from their exclamations:\n\"There can be no battle without sacrifice in this world. Let us dedicate ourselves to the victory of love... and may your names ring eternal.\"\n\nAnd so, the nameless ones were buried under nameless headstones, and unnamed deeds became unnamed glories.\nThe ceaseless incineration ended with sacrifice, the nameless victory was exchanged for a golden medal, and the nameless commander shot up the ranks.\nThus, she came to be remembered, and she wielded the authority to control energy, enabling the Commission to operate under established principles,\nAnd she would never be forgotten, along with the teachings penned by nameless sacrifices and the rules of the past established for her.\n\nLater generations regarded these principles as edicts, for they shone forth eternally like starlight guiding the torch-fires, sustaining the frozen earth,\nBreathing life back into the ice-sealed tundra, so that the charred earth should no longer have to hear the lamentations of the nameless.\nYet, in the commander's dreams, she would never forget that the miracles the earth had received were never once granted by the false skies,\nAnd that poems only used the dawnstar as a metaphor for glory, while the nameless ones who had offered themselves up to the cold night would never have their names inscribed.",
+    "weaponType": "WEAPON_CATALYST"
+}

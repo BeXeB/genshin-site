@@ -926,19 +926,34 @@
             "filename_passive3": "UI_Talent_Expedition_Mengde"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases <color=#FFD780FF>Passion Overload</color>'s CD by 20%.",
             "id": 322101,
-            "name": "Rekindle"
+            "name": "Rekindle",
+            "proudSkillGroupId": 3221
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Within the area created by <color=#FFD780FF>Fantastic Voyage</color>, <color=#FFD780FF>Passion Overload</color> takes on the following effects:\n·CD is reduced by 50%.\n·Bennett will not be launched by the effects of Charge Level 2.",
             "id": 322201,
-            "name": "Fearnaught"
+            "name": "Fearnaught",
+            "proudSkillGroupId": 3222
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
             "id": 322301,
-            "name": "It Should Be Safe..."
+            "name": "It Should Be Safe...",
+            "proudSkillGroupId": 3223
         }
     },
     "stats": {

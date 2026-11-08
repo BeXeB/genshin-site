@@ -770,19 +770,48 @@
             "filename_passive3": "UI_Talent_Expedition_Liyue"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.08
+                    ]
+                }
+            },
             "descriptionRaw": "Sword, Claymore, or Polearm-wielding characters within the field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> have their Normal ATK SPD increased by 8%.",
             "id": 362101,
-            "name": "Steady Breathing"
+            "name": "Steady Breathing",
+            "proudSkillGroupId": 3621
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ],
+                    "param2": [
+                        -0.1
+                    ],
+                    "param3": [
+                        8.0
+                    ]
+                }
+            },
             "descriptionRaw": "When the field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as <color=#99FFFFFF>AoE Cryo DMG</color>. Opponents hit by this blade will have their <color=#99FFFFFF>Cryo RES</color> decreased by 10% for 8s.",
             "id": 362201,
-            "name": "Rimechaser Blade"
+            "name": "Rimechaser Blade",
+            "proudSkillGroupId": 3622
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
             "id": 362301,
-            "name": "Gallant Journey"
+            "name": "Gallant Journey",
+            "proudSkillGroupId": 3623
         }
     },
     "stats": {

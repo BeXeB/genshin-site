@@ -1021,24 +1021,61 @@
             "filename_passive4": "UI_Talent_S_Citlali_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.3
+                    ],
+                    "param2": [
+                        10.0
+                    ]
+                }
+            },
             "descriptionRaw": "When a nearby party member triggers a Nightsoul Burst, Mavuika's ATK increases by 30% for 10s.",
             "id": 1062101,
-            "name": "Gift of Flaming Flowers"
+            "name": "Gift of Flaming Flowers",
+            "proudSkillGroupId": 10621
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.0001
+                    ],
+                    "param2": [
+                        20.0
+                    ],
+                    "param3": [
+                        200.0
+                    ]
+                }
+            },
             "descriptionRaw": "After using her Elemental Burst, <color=#FFD780FF>Hour of Burning Skies</color>, every point of Fighting Spirit present when it is used increases the DMG that the current active party member deals by 0.2%. The maximum increase obtainable this way is 40%, and this effect lasts 20s, decaying over this duration until it reaches 0.",
             "id": 1062201,
-            "name": "\"Kiongozi\""
+            "name": "\"Kiongozi\"",
+            "proudSkillGroupId": 10622
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "After Nightsoul points have been fully depleted, Mavuika will switch to using Phlogiston to maintain the All-Fire Armaments' Flamestrider form.\nWhile in an area with Phlogiston Mechanics within Natlan, Nightsoul Transmission: Mavuika can be used. When the current active character is sprinting, climbing, swimming, in movement modes caused by certain Talents, or at a certain height in the air, switching to Mavuika will trigger the following: Mavuika enters the Nightsoul's Blessing state and obtains 50% of her maximum Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own party.",
             "id": 1062301,
-            "name": "Night Realm's Gift: Exhaust Mode"
+            "name": "Night Realm's Gift: Exhaust Mode",
+            "proudSkillGroupId": 10623
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "The party's Nightsoul Transmission CD is decreased by 20%.",
             "id": 1062501,
-            "name": "Night-Shattering Radiance"
+            "name": "Night-Shattering Radiance",
+            "proudSkillGroupId": 10625
         }
     },
     "stats": {

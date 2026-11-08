@@ -856,19 +856,64 @@
             "filename_passive3": "UI_Talent_S_Baizhuer_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.5
+                    ],
+                    "param2": [
+                        0.2
+                    ],
+                    "param3": [
+                        0.25
+                    ]
+                }
+            },
             "descriptionRaw": "Baizhu gains different effects according to the current HP of your current active character:\n·When their HP is less than 50%, Baizhu gains 20% Healing Bonus.\n·When their HP is equal to or more than 50%, Baizhu gains 25% <color=#99FF88FF>Dendro DMG Bonus</color>.",
             "id": 822101,
-            "name": "Five Fortunes Forever"
+            "name": "Five Fortunes Forever",
+            "proudSkillGroupId": 8221
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        6.0
+                    ],
+                    "param2": [
+                        0.02
+                    ],
+                    "param3": [
+                        0.008
+                    ],
+                    "param4": [
+                        50000.0
+                    ],
+                    "param5": [
+                        0.007
+                    ]
+                }
+            },
             "descriptionRaw": "Characters who are healed by <color=#FFD780FF>Seamless Shields</color> will gain the Year of Verdant Favor effect: Each 1,000 Max HP that Baizhu possesses that does not exceed 50,000 will increase the Burning, Bloom, Hyperbloom, and Burgeon reaction DMG dealt by these characters by 2%, their Lunar-Bloom DMG by 0.7%, and the DMG Bonus provided by Aggravate and Spread by 0.8%. This effect lasts 6s.",
             "id": 822201,
-            "name": "All Things Are of the Earth"
+            "name": "All Things Are of the Earth",
+            "proudSkillGroupId": 8222
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.025
+                    ]
+                }
+            },
             "descriptionRaw": "When Baizhu is in the party, interacting with certain harvestable items will heal your current active character for 2.5% of Baizhu's Max HP.",
             "id": 822301,
-            "name": "Herbal Nourishment"
+            "name": "Herbal Nourishment",
+            "proudSkillGroupId": 8223
         }
     },
     "stats": {

@@ -911,19 +911,38 @@
             "filename_passive3": "UI_Talent_Cook_Defense"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Decreases the number of opponents <color=#FFD780FF>Sweeping Fervor</color> must hit to trigger each level of shielding.\n·Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\n·Shield Level 3: Rave requirement reduced to 2 opponents hit or more.",
             "id": 442101,
-            "name": "\"The Show Goes On, Even Without an Audience...\""
+            "name": "\"The Show Goes On, Even Without an Audience...\"",
+            "proudSkillGroupId": 4421
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ]
+                }
+            },
             "descriptionRaw": "Characters shielded by <color=#FFD780FF>Sweeping Fervor</color> deal 15% increased Physical DMG.",
             "id": 442201,
-            "name": "\"...Now That's Rock 'N' Roll!\""
+            "name": "\"...Now That's Rock 'N' Roll!\"",
+            "proudSkillGroupId": 4422
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product.",
             "id": 442301,
-            "name": "A Rad Recipe"
+            "name": "A Rad Recipe",
+            "proudSkillGroupId": 4423
         }
     },
     "stats": {

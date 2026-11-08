@@ -961,24 +961,61 @@
             "filename_passive4": "UI_Talent_S_Jahoda_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.3
+                    ],
+                    "param2": [
+                        1.2
+                    ],
+                    "param3": [
+                        -0.1
+                    ]
+                }
+            },
             "descriptionRaw": "When your team has at least one <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, or <color=#99FFFFFF>Cryo</color> character, the {LINK#N11240002}<color=#FFD780FF>Purrsonal Coordinated Assistance Robots</color>{/LINK} from the Elemental Burst <color=#FFD780FF>Hidden Aces: Seven Tools of the Hunter</color> will be enhanced based on the number of characters of each corresponding element.\nJahoda secretly keeps track of these characters. Among them, the element with the highest number of characters determines the enhancement effect:\n· <color=#FF9999FF>Pyro</color>: <color=#FFD780FF>Purrsonal Coordinated Assistance Robots</color> deal 130% of their original DMG.\n· <color=#80C0FFFF>Hydro</color>: <color=#FFD780FF>Purrsonal Coordinated Assistance Robots</color> heal for 120% of their original healing amount.\n· <color=#FFACFFFF>Electro</color>: The number of <color=#FFD780FF>Purrsonal Coordinated Assistance Robots</color> increases by one.\n· <color=#99FFFFFF>Cryo</color>: The attack interval of <color=#FFD780FF>Purrsonal Coordinated Assistance Robots</color> is reduced by 10%.\n\nIf there's a tie between elements, the order of priority that determines which enhancement takes effect is: <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#FFACFFFF>Electro</color>, then <color=#99FFFFFF>Cryo</color>. Only one elemental effect can initially be triggered.",
             "id": 1242101,
-            "name": "Plan to Get Paid"
+            "name": "Plan to Get Paid",
+            "proudSkillGroupId": 12421
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        100.0
+                    ],
+                    "param2": [
+                        6.0
+                    ]
+                }
+            },
             "descriptionRaw": "When a {LINK#N11240002}<color=#FFD780FF>Purrsonal Coordinated Assistance Robot</color>{/LINK} from the Elemental Burst <color=#FFD780FF>Hidden Aces: Seven Tools of the Hunter</color> triggers healing on an active team member, if that character's HP is above 70%, their Elemental Mastery will be increased by 100 for 6s.",
             "id": 1242201,
-            "name": "Sweet Berry Bounty"
+            "name": "Sweet Berry Bounty",
+            "proudSkillGroupId": 12422
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Jahoda is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
             "id": 1242301,
-            "name": "Moonsign Benediction: Rooftop Dash"
+            "name": "Moonsign Benediction: Rooftop Dash",
+            "proudSkillGroupId": 12423
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When dispatched on an expedition in Nod-Krai, time consumed is reduced by 25%.\nAdditionally, as the employee of the Curatorium of Secrets, Jahoda seemingly has the ability to obtain intelligence from a variety of sources — intelligence that certain factions in Nasha Town might find extremely interesting...",
             "id": 1242501,
-            "name": "Backstreet Guile"
+            "name": "Backstreet Guile",
+            "proudSkillGroupId": 12425
         }
     },
     "stats": {

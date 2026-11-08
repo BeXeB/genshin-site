@@ -1089,24 +1089,61 @@
             "filename_passive4": "UI_Talent_S_Shougun_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        2.0
+                    ],
+                    "param2": [
+                        3.0
+                    ]
+                }
+            },
             "descriptionRaw": "When nearby party members gain Elemental Orbs or Particles, <color=#FFD780FF>Chakra Desiderata</color> gains 2 Resolve stacks.\nThis effect can occur once every 3s.",
             "id": 522101,
-            "name": "Wishes Unnumbered"
+            "name": "Wishes Unnumbered",
+            "proudSkillGroupId": 5221
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        1.0
+                    ],
+                    "param2": [
+                        0.006
+                    ],
+                    "param3": [
+                        0.004
+                    ]
+                }
+            },
             "descriptionRaw": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\n·0.6% greater Energy restoration from <color=#FFD780FF>Musou Isshin</color>\n·0.4% <color=#FFACFFFF>Electro DMG Bonus</color>.",
             "id": 522201,
-            "name": "Enlightened One"
+            "name": "Enlightened One",
+            "proudSkillGroupId": 5222
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "",
             "id": 522301,
-            "name": ""
+            "name": "",
+            "proudSkillGroupId": 5223
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Mora expended when ascending Swords and Polearms is decreased by 50%.",
             "id": 522501,
-            "name": "All-Preserver"
+            "name": "All-Preserver",
+            "proudSkillGroupId": 5225
         }
     },
     "stats": {

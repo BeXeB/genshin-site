@@ -911,19 +911,73 @@
             "filename_passive3": "UI_Talent_S_Dehya_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.6
+                    ],
+                    "param2": [
+                        6.0
+                    ],
+                    "param3": [
+                        2.0
+                    ],
+                    "param4": [
+                        9.0
+                    ],
+                    "param5": [
+                        18.0
+                    ]
+                }
+            },
             "descriptionRaw": "Within 6 seconds after Dehya retrieves the Fiery Sanctum field through <color=#FFD780FF>Molten Inferno: Ranging Flame</color> or <color=#FFD780FF>Leonine Bite</color>, she will take 60% less DMG when receiving DMG from Redmane's Blood. This effect can be triggered once every 2s.\nAdditionally, within 9s after Dehya unleashes <color=#FFD780FF>Molten Inferno: Indomitable Flame</color>, she will grant all party members the Gold-Forged Form state. This state will further increase a character's resistance to interruption when they are within the Fiery Sanctum field. Gold-Forged Form can be activated once every 18s.",
             "id": 792101,
-            "name": "Unstinting Succor"
+            "name": "Unstinting Succor",
+            "proudSkillGroupId": 7921
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.4
+                    ],
+                    "param2": [
+                        0.2
+                    ],
+                    "param3": [
+                        0.06
+                    ],
+                    "param4": [
+                        2.0
+                    ],
+                    "param5": [
+                        10.0
+                    ],
+                    "param6": [
+                        20.0
+                    ]
+                }
+            },
             "descriptionRaw": "When her HP is less than 40%, Dehya will recover 20% of her Max HP and will restore 6% of her Max HP every 2s for the next 10s. This effect can be triggered once every 20s.",
             "id": 792201,
-            "name": "Stalwart and True"
+            "name": "Stalwart and True",
+            "proudSkillGroupId": 7922
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.1
+                    ]
+                }
+            },
             "descriptionRaw": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
             "id": 792301,
-            "name": "The Sunlit Way"
+            "name": "The Sunlit Way",
+            "proudSkillGroupId": 7923
         }
     },
     "stats": {

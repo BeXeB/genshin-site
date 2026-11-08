@@ -735,24 +735,71 @@
             "filename_passive4": "UI_Talent_S_Sucrose_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        50.0
+                    ],
+                    "param2": [
+                        8.0
+                    ]
+                }
+            },
             "descriptionRaw": "When Sucrose triggers a Swirl or Stellar Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.",
             "id": 432101,
-            "name": "Catalyst Conversion"
+            "name": "Catalyst Conversion",
+            "proudSkillGroupId": 4321
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.2
+                    ],
+                    "param2": [
+                        8.0
+                    ]
+                }
+            },
             "descriptionRaw": "When <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> or <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s.",
             "id": 432201,
-            "name": "Mollis Favonius"
+            "name": "Mollis Favonius",
+            "proudSkillGroupId": 4322
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product.",
             "id": 432301,
-            "name": "Astable Invention"
+            "name": "Astable Invention",
+            "proudSkillGroupId": 4323
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        15.0
+                    ],
+                    "param2": [
+                        0.057143
+                    ],
+                    "param3": [
+                        20.0
+                    ],
+                    "param4": [
+                        0.071429
+                    ]
+                }
+            },
             "descriptionRaw": "After completing <color=#FFD780FF>Witch's Homework: Of Wonderland Flowers</color>, Sucrose will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\n\n<color=#FFD780FF>Hexerei: Secret Rite</color>\n· After Sucrose creates a Small Wind Spirit, nearby party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 5.71428% for 15s.\n· After Sucrose creates a Large Wind Spirit, nearby Hexerei party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 7.14285% for 20s.",
             "id": 435101,
-            "name": "Witch's Eve Rite: Sevenfold Transmutation"
+            "name": "Witch's Eve Rite: Sevenfold Transmutation",
+            "proudSkillGroupId": 4351
         }
     },
     "stats": {

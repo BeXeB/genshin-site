@@ -838,19 +838,34 @@
             "filename_passive3": "UI_Talent_Combine_Talent"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When a Rain Sword is shattered or when its duration expires, it regenerates the current character's HP based on 6% of Xingqiu's Max HP.",
             "id": 252101,
-            "name": "Hydropathic"
+            "name": "Hydropathic",
+            "proudSkillGroupId": 2521
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Xingqiu gains a 20% <color=#80C0FFFF>Hydro DMG Bonus</color>.",
             "id": 252201,
-            "name": "Blades Amidst Raindrops"
+            "name": "Blades Amidst Raindrops",
+            "proudSkillGroupId": 2522
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used.",
             "id": 252301,
-            "name": "Flash of Genius"
+            "name": "Flash of Genius",
+            "proudSkillGroupId": 2523
         }
     },
     "stats": {

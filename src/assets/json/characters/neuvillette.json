@@ -840,19 +840,57 @@
             "filename_passive3": "UI_Talent_S_Neuvillette_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.1
+                    ],
+                    "param2": [
+                        0.25
+                    ],
+                    "param3": [
+                        0.6
+                    ],
+                    "param4": [
+                        30.0
+                    ]
+                }
+            },
             "descriptionRaw": "When a party member triggers a Vaporize, Frozen, Electro-Charged, Lunar-Charged, Bloom, Lunar-Bloom, Hydro Swirl, Hydro Crystallize or a Lunar-Crystallize reaction on opponents, 1 stack of Past Draconic Glories will be granted to Neuvillette for 30s. Max 3 stacks. Past Draconic Glories causes Charged Attack: Equitable Judgment to deal 110%/125%/160% of its original DMG.\nThe stacks of Past Draconic Glories created by each kind of Elemental Reaction exist independently.",
             "id": 872101,
-            "name": "Heir to the Ancient Sea's Authority"
+            "name": "Heir to the Ancient Sea's Authority",
+            "proudSkillGroupId": 8721
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.3
+                    ],
+                    "param2": [
+                        0.8
+                    ],
+                    "param3": [
+                        0.6
+                    ]
+                }
+            },
             "descriptionRaw": "For each 1% of Neuvillette's current HP greater than 30% of Max HP, he will gain 0.6% <color=#80C0FFFF>Hydro DMG Bonus</color>. A maximum bonus of 30% can be obtained this way.",
             "id": 872201,
-            "name": "Discipline of the Supreme Arbitration"
+            "name": "Discipline of the Supreme Arbitration",
+            "proudSkillGroupId": 8722
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "Increases underwater Sprint SPD for your own party members by 15%.\nNot stackable with Passive Talents that provide the exact same effects.",
             "id": 872301,
-            "name": "Gather Like the Tide"
+            "name": "Gather Like the Tide",
+            "proudSkillGroupId": 8723
         }
     },
     "stats": {

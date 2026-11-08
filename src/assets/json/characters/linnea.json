@@ -805,24 +805,66 @@
             "filename_passive4": "UI_Talent_S_Linnea_08"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.15
+                    ],
+                    "param2": [
+                        0.3
+                    ]
+                }
+            },
             "descriptionRaw": "When Lumi is present on the field, the <color=#FFE699FF>Geo RES</color> of opponents near Lumi will decrease by 15%.\n\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: Linnea's Elemental Skill <color=#FFD780FF>{LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK}</color> and Elemental Burst <color=#FFD780FF>{LINK#S11305}Memo: Survival Guide in Extreme Conditions{/LINK}</color> are enhanced. After summoning Lumi, the <color=#FFE699FF>Geo RES</color> of opponents near Lumi will be further decreased by 15%.",
             "id": 1302101,
-            "name": "Field Observation Notes"
+            "name": "Field Observation Notes",
+            "proudSkillGroupId": 13021
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.05
+                    ]
+                }
+            },
             "descriptionRaw": "Linnea will increase the Elemental Mastery of certain characters in your party according to your current active character. Increase in Elemental Mastery is based on 5% of Linnea's DEF. If your current active character:\n· Is a Moonsign character: Increase this character's Elemental Mastery.\n· Is not a Moonsign character: Increase Linnea's own Elemental Mastery.",
             "id": 1302201,
-            "name": "Universal Naturalist Archive"
+            "name": "Universal Naturalist Archive",
+            "proudSkillGroupId": 13022
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.007
+                    ],
+                    "param2": [
+                        0.14
+                    ]
+                }
+            },
             "descriptionRaw": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Linnea has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Linnea is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
             "id": 1302301,
-            "name": "Moonsign Benediction: Habitat Survey"
+            "name": "Moonsign Benediction: Habitat Survey",
+            "proudSkillGroupId": 13023
         },
         "passive4": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.2
+                    ]
+                }
+            },
             "descriptionRaw": "When Linnea is not in combat, the charge time of her <color=#FFD780FF>Aimed Shot</color> is greatly decreased, and she will shoot an <color=#FFD780FF>Ultra Convenient Quick Arrow</color> instead. Different effects will occur depending on the targets hit:\n· Specific animals: <color=#FFD780FF>Ultra Convenient Quick Arrow</color> will be transformed into a special \"Net\" that can capture the essence and form of these animals, using them as a medium to manifest the animal's physical form again. The \"Net\" can only be used for a limited number of times each week. \n· Ore veins used in forging: Linnea will dispatch Lumi, who will quickly strike at the ore marked by the <color=#FFD780FF>Ultra Convenient Quick Arrow</color>, then collect the dislodged ore. If Lumi is not on the field, Linnea will summon her for a short duration to help obtain the ore.\n\nThe DMG dealt to opponents by Linnea's <color=#FFD780FF>Ultra Convenient Quick Arrow</color> is reduced to 20% of her original Charged Arrow. Additionally, after firing a certain number of <color=#FFD780FF>Ultra Convenient Quick Arrows</color> within a short period of time, Linnea needs to take a temporary break before she can continue using them.",
             "id": 1302501,
-            "name": "Master Adventurer"
+            "name": "Master Adventurer",
+            "proudSkillGroupId": 13025
         }
     },
     "stats": {

@@ -858,19 +858,38 @@
             "filename_passive3": "UI_Talent_S_Itto_07"
         },
         "passive1": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When Arataki Itto uses consecutive Arataki Kesagiri, he obtains the following effects:\n· Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.\n· Increases his resistance to interruption.\n\nThese effects will be cleared once he stops performing consecutive slashes.",
             "id": 572101,
-            "name": "Arataki Ichiban"
+            "name": "Arataki Ichiban",
+            "proudSkillGroupId": 5721
         },
         "passive2": {
+            "attributes": {
+                "labels": [],
+                "parameters": {
+                    "param1": [
+                        0.35
+                    ]
+                }
+            },
             "descriptionRaw": "Arataki Kesagiri DMG is increased by 35% of Arataki Itto's DEF.",
             "id": 572201,
-            "name": "Bloodline of the Crimson Oni"
+            "name": "Bloodline of the Crimson Oni",
+            "proudSkillGroupId": 5722
         },
         "passive3": {
+            "attributes": {
+                "labels": [],
+                "parameters": {}
+            },
             "descriptionRaw": "When a party member uses attacks to obtain wood from a tree, they have a 25% chance to get an additional log of wood.",
             "id": 572301,
-            "name": "Woodchuck Chucked"
+            "name": "Woodchuck Chucked",
+            "proudSkillGroupId": 5723
         }
     },
     "stats": {
