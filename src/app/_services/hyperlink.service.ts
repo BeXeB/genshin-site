@@ -14,6 +14,7 @@ export class HyperlinkService {
   private customHyperlinksPath = 'assets/json/custom-hyperlinks.json';
 
   private hyperlinks$?: Observable<Map<string | number, Hyperlink>>;
+  private customHyperlinks$?: Observable<Hyperlink[]>;
   private customHyperlinksUpdated$ = new Subject<void>();
 
   constructor(
@@ -123,37 +124,41 @@ export class HyperlinkService {
   }
 
   getCustomHyperlinks(): Observable<Hyperlink[]> {
-    return combineLatest([
-      this.http.get<Hyperlink[]>('assets/json/custom-hyperlinks.json'),
+    if (!this.customHyperlinks$) {
+      this.customHyperlinks$ = combineLatest([
+        this.http.get<Hyperlink[]>(this.customHyperlinksPath),
 
-      this.customHyperlinksUpdated$.pipe(
-        startWith(undefined),
-        map(() => this.getCustomHyperlinksFromStorage())
-      ),
-    ]).pipe(
-      map(([jsonLinks, storedLinks]) => {
-        const deletedIds = new Set(this.getDeletedCustomHyperlinkIds());
+        this.customHyperlinksUpdated$.pipe(
+          startWith(undefined),
+          map(() => this.getCustomHyperlinksFromStorage())
+        ),
+      ]).pipe(
+        map(([jsonLinks, storedLinks]) => {
+          const deletedIds = new Set(this.getDeletedCustomHyperlinkIds());
 
-        const links = new Map<string | number, Hyperlink>();
+          const links = new Map<string | number, Hyperlink>();
 
-        // Original custom hyperlinks
-        jsonLinks.forEach((link) => {
-          if (!deletedIds.has(link.id)) {
-            links.set(link.id, link);
-          }
-        });
+          // Original custom hyperlinks
+          jsonLinks.forEach((link) => {
+            if (!deletedIds.has(link.id)) {
+              links.set(link.id, link);
+            }
+          });
 
-        // New/updated custom hyperlinks
-        storedLinks.forEach((link) => {
-          if (!deletedIds.has(link.id)) {
-            links.set(link.id, link);
-          }
-        });
+          // New/updated custom hyperlinks
+          storedLinks.forEach((link) => {
+            if (!deletedIds.has(link.id)) {
+              links.set(link.id, link);
+            }
+          });
 
-        return Array.from(links.values());
-      }),
-      shareReplay(1)
-    );
+          return Array.from(links.values());
+        }),
+        shareReplay(1)
+      );
+    }
+
+    return this.customHyperlinks$;
   }
 
   private getDeletedCustomHyperlinkIds(): (string | number)[] {

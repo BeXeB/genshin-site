@@ -21,6 +21,7 @@ export function compareWeapons(
 export class WeaponService {
   private basePath = 'assets/json/weapons';
   private weapons$?: Observable<Weapon[]>;
+  private weaponsBySlug = new Map<string, Observable<Weapon>>();
 
   constructor(private http: HttpClient) {}
 
@@ -32,9 +33,7 @@ export class WeaponService {
             return of([] as Weapon[]);
           }
 
-          const requests = names.map((name) =>
-            this.http.get<Weapon>(`${this.basePath}/${name}.json`)
-          );
+          const requests = names.map((name) => this.getWeapon(name));
 
           return forkJoin(requests);
         }),
@@ -45,6 +44,12 @@ export class WeaponService {
   }
 
   getWeapon(slug: string): Observable<Weapon> {
-    return this.http.get<Weapon>(`${this.basePath}/${slug}.json`);
+    let weapon$ = this.weaponsBySlug.get(slug);
+    if (!weapon$) {
+      weapon$ = this.http.get<Weapon>(`${this.basePath}/${slug}.json`).pipe(shareReplay(1));
+      this.weaponsBySlug.set(slug, weapon$);
+    }
+
+    return weapon$;
   }
 }

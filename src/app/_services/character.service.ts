@@ -29,8 +29,10 @@ export class CharacterService {
   private briefDescriptionPath = 'assets/json/briefdescription/';
 
   private profiles$?: Observable<CharacterProfile[]>;
+  private characterNames$?: Observable<string[]>;
   private talentIndex$?: Observable<CharacterTalentIndex>;
   private details = new Map<string, Observable<Character>>();
+  private briefDescriptions = new Map<string, Observable<CharacterBriefMap>>();
 
   constructor(private http: HttpClient) {}
 
@@ -44,7 +46,13 @@ export class CharacterService {
   }
 
   getCharacterNames(): Observable<string[]> {
-    return this.http.get<string[]>(`${this.basePath}index.json`);
+    if (!this.characterNames$) {
+      this.characterNames$ = this.http
+        .get<string[]>(`${this.basePath}index.json`)
+        .pipe(shareReplay(1));
+    }
+
+    return this.characterNames$;
   }
 
   /** Cached per character, so revisiting a page does not refetch the file */
@@ -58,9 +66,18 @@ export class CharacterService {
   }
 
   getBriefDescriptions(name: string): Observable<CharacterBriefMap> {
-    return this.http
-      .get<CharacterBriefMap>(`${this.briefDescriptionPath}${name}.json`)
-      .pipe(catchError(() => of({})));
+    let descriptions$ = this.briefDescriptions.get(name);
+    if (!descriptions$) {
+      descriptions$ = this.http
+        .get<CharacterBriefMap>(`${this.briefDescriptionPath}${name}.json`)
+        .pipe(
+          shareReplay(1),
+          catchError(() => of({}))
+        );
+      this.briefDescriptions.set(name, descriptions$);
+    }
+
+    return descriptions$;
   }
 
   getSkill(id: number): Observable<CombatTalent | undefined> {

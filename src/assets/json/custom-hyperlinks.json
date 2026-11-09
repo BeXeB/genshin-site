@@ -5,5 +5,12 @@
     "description": "A karakter <color=#FFD780FF>Elemental Burst</color>-jének használatához szükséges energia. <color=#FFD780FF>Elemental Energy</color>-t <color=#FFD780FF>Elemental Particle</color>-ök begyűjtésével szerezhetsz.",
     "isCustom": true,
     "type": "custom"
+  },
+  {
+    "id": "elevation",
+    "name": "Elevation",
+    "description": "Különleges sebzésnövelő hatás. A számítása a többi sebzésnövelő hatástól független.",
+    "isCustom": true,
+    "type": "custom"
   }
 ]
